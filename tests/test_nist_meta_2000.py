@@ -1,7 +1,7 @@
 from tests.utils import assert_bindings
 
 
-def test_list_id_pattern_1_nistxml_sv_iv_list_id_pattern_2_1(mode, save_output):
+def test_list_id_pattern_1_nistxml_sv_iv_list_id_pattern_2_1(mode, save_output, output_format):
     r"""
     Type list/ID is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{5} [\i-[:]][\c-[:]]{36} [\i-[:]][\c-[:]]{42}
@@ -15,11 +15,12 @@ def test_list_id_pattern_1_nistxml_sv_iv_list_id_pattern_2_1(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_pattern_1_nistxml_sv_iv_list_id_pattern_2_2(mode, save_output):
+def test_list_id_pattern_1_nistxml_sv_iv_list_id_pattern_2_2(mode, save_output, output_format):
     r"""
     Type list/ID is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{5} [\i-[:]][\c-[:]]{36} [\i-[:]][\c-[:]]{42}
@@ -33,11 +34,12 @@ def test_list_id_pattern_1_nistxml_sv_iv_list_id_pattern_2_2(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_pattern_1_nistxml_sv_iv_list_id_pattern_2_3(mode, save_output):
+def test_list_id_pattern_1_nistxml_sv_iv_list_id_pattern_2_3(mode, save_output, output_format):
     r"""
     Type list/ID is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{5} [\i-[:]][\c-[:]]{36} [\i-[:]][\c-[:]]{42}
@@ -51,11 +53,12 @@ def test_list_id_pattern_1_nistxml_sv_iv_list_id_pattern_2_3(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_pattern_1_nistxml_sv_iv_list_id_pattern_2_4(mode, save_output):
+def test_list_id_pattern_1_nistxml_sv_iv_list_id_pattern_2_4(mode, save_output, output_format):
     r"""
     Type list/ID is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{5} [\i-[:]][\c-[:]]{36} [\i-[:]][\c-[:]]{42}
@@ -69,11 +72,12 @@ def test_list_id_pattern_1_nistxml_sv_iv_list_id_pattern_2_4(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_pattern_1_nistxml_sv_iv_list_id_pattern_2_5(mode, save_output):
+def test_list_id_pattern_1_nistxml_sv_iv_list_id_pattern_2_5(mode, save_output, output_format):
     r"""
     Type list/ID is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{5} [\i-[:]][\c-[:]]{36} [\i-[:]][\c-[:]]{42}
@@ -87,11 +91,12 @@ def test_list_id_pattern_1_nistxml_sv_iv_list_id_pattern_2_5(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_pattern_nistxml_sv_iv_list_id_pattern_1_1(mode, save_output):
+def test_list_id_pattern_nistxml_sv_iv_list_id_pattern_1_1(mode, save_output, output_format):
     r"""
     Type list/ID is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{2} [\i-[:]][\c-[:]]{57} [\i-[:]][\c-[:]]{31}
@@ -105,11 +110,12 @@ def test_list_id_pattern_nistxml_sv_iv_list_id_pattern_1_1(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_pattern_nistxml_sv_iv_list_id_pattern_1_2(mode, save_output):
+def test_list_id_pattern_nistxml_sv_iv_list_id_pattern_1_2(mode, save_output, output_format):
     r"""
     Type list/ID is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{2} [\i-[:]][\c-[:]]{57} [\i-[:]][\c-[:]]{31}
@@ -123,11 +129,12 @@ def test_list_id_pattern_nistxml_sv_iv_list_id_pattern_1_2(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_pattern_nistxml_sv_iv_list_id_pattern_1_3(mode, save_output):
+def test_list_id_pattern_nistxml_sv_iv_list_id_pattern_1_3(mode, save_output, output_format):
     r"""
     Type list/ID is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{2} [\i-[:]][\c-[:]]{57} [\i-[:]][\c-[:]]{31}
@@ -141,11 +148,12 @@ def test_list_id_pattern_nistxml_sv_iv_list_id_pattern_1_3(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_pattern_nistxml_sv_iv_list_id_pattern_1_4(mode, save_output):
+def test_list_id_pattern_nistxml_sv_iv_list_id_pattern_1_4(mode, save_output, output_format):
     r"""
     Type list/ID is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{2} [\i-[:]][\c-[:]]{57} [\i-[:]][\c-[:]]{31}
@@ -159,11 +167,12 @@ def test_list_id_pattern_nistxml_sv_iv_list_id_pattern_1_4(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_pattern_nistxml_sv_iv_list_id_pattern_1_5(mode, save_output):
+def test_list_id_pattern_nistxml_sv_iv_list_id_pattern_1_5(mode, save_output, output_format):
     r"""
     Type list/ID is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{2} [\i-[:]][\c-[:]]{57} [\i-[:]][\c-[:]]{31}
@@ -177,11 +186,12 @@ def test_list_id_pattern_nistxml_sv_iv_list_id_pattern_1_5(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_length_4_nistxml_sv_iv_list_id_length_5_1(mode, save_output):
+def test_list_id_length_4_nistxml_sv_iv_list_id_length_5_1(mode, save_output, output_format):
     """
     Type list/ID is restricted by facet length with value 10.
     """
@@ -192,11 +202,12 @@ def test_list_id_length_4_nistxml_sv_iv_list_id_length_5_1(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_length_4_nistxml_sv_iv_list_id_length_5_2(mode, save_output):
+def test_list_id_length_4_nistxml_sv_iv_list_id_length_5_2(mode, save_output, output_format):
     """
     Type list/ID is restricted by facet length with value 10.
     """
@@ -207,11 +218,12 @@ def test_list_id_length_4_nistxml_sv_iv_list_id_length_5_2(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_length_4_nistxml_sv_iv_list_id_length_5_3(mode, save_output):
+def test_list_id_length_4_nistxml_sv_iv_list_id_length_5_3(mode, save_output, output_format):
     """
     Type list/ID is restricted by facet length with value 10.
     """
@@ -222,11 +234,12 @@ def test_list_id_length_4_nistxml_sv_iv_list_id_length_5_3(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_length_4_nistxml_sv_iv_list_id_length_5_4(mode, save_output):
+def test_list_id_length_4_nistxml_sv_iv_list_id_length_5_4(mode, save_output, output_format):
     """
     Type list/ID is restricted by facet length with value 10.
     """
@@ -237,11 +250,12 @@ def test_list_id_length_4_nistxml_sv_iv_list_id_length_5_4(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_length_4_nistxml_sv_iv_list_id_length_5_5(mode, save_output):
+def test_list_id_length_4_nistxml_sv_iv_list_id_length_5_5(mode, save_output, output_format):
     """
     Type list/ID is restricted by facet length with value 10.
     """
@@ -252,11 +266,12 @@ def test_list_id_length_4_nistxml_sv_iv_list_id_length_5_5(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_length_3_nistxml_sv_iv_list_id_length_4_1(mode, save_output):
+def test_list_id_length_3_nistxml_sv_iv_list_id_length_4_1(mode, save_output, output_format):
     """
     Type list/ID is restricted by facet length with value 8.
     """
@@ -267,11 +282,12 @@ def test_list_id_length_3_nistxml_sv_iv_list_id_length_4_1(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_length_3_nistxml_sv_iv_list_id_length_4_2(mode, save_output):
+def test_list_id_length_3_nistxml_sv_iv_list_id_length_4_2(mode, save_output, output_format):
     """
     Type list/ID is restricted by facet length with value 8.
     """
@@ -282,11 +298,12 @@ def test_list_id_length_3_nistxml_sv_iv_list_id_length_4_2(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_length_3_nistxml_sv_iv_list_id_length_4_3(mode, save_output):
+def test_list_id_length_3_nistxml_sv_iv_list_id_length_4_3(mode, save_output, output_format):
     """
     Type list/ID is restricted by facet length with value 8.
     """
@@ -297,11 +314,12 @@ def test_list_id_length_3_nistxml_sv_iv_list_id_length_4_3(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_length_3_nistxml_sv_iv_list_id_length_4_4(mode, save_output):
+def test_list_id_length_3_nistxml_sv_iv_list_id_length_4_4(mode, save_output, output_format):
     """
     Type list/ID is restricted by facet length with value 8.
     """
@@ -312,11 +330,12 @@ def test_list_id_length_3_nistxml_sv_iv_list_id_length_4_4(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_length_3_nistxml_sv_iv_list_id_length_4_5(mode, save_output):
+def test_list_id_length_3_nistxml_sv_iv_list_id_length_4_5(mode, save_output, output_format):
     """
     Type list/ID is restricted by facet length with value 8.
     """
@@ -327,11 +346,12 @@ def test_list_id_length_3_nistxml_sv_iv_list_id_length_4_5(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_length_2_nistxml_sv_iv_list_id_length_3_1(mode, save_output):
+def test_list_id_length_2_nistxml_sv_iv_list_id_length_3_1(mode, save_output, output_format):
     """
     Type list/ID is restricted by facet length with value 7.
     """
@@ -342,11 +362,12 @@ def test_list_id_length_2_nistxml_sv_iv_list_id_length_3_1(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_length_2_nistxml_sv_iv_list_id_length_3_2(mode, save_output):
+def test_list_id_length_2_nistxml_sv_iv_list_id_length_3_2(mode, save_output, output_format):
     """
     Type list/ID is restricted by facet length with value 7.
     """
@@ -357,11 +378,12 @@ def test_list_id_length_2_nistxml_sv_iv_list_id_length_3_2(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_length_2_nistxml_sv_iv_list_id_length_3_3(mode, save_output):
+def test_list_id_length_2_nistxml_sv_iv_list_id_length_3_3(mode, save_output, output_format):
     """
     Type list/ID is restricted by facet length with value 7.
     """
@@ -372,11 +394,12 @@ def test_list_id_length_2_nistxml_sv_iv_list_id_length_3_3(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_length_2_nistxml_sv_iv_list_id_length_3_4(mode, save_output):
+def test_list_id_length_2_nistxml_sv_iv_list_id_length_3_4(mode, save_output, output_format):
     """
     Type list/ID is restricted by facet length with value 7.
     """
@@ -387,11 +410,12 @@ def test_list_id_length_2_nistxml_sv_iv_list_id_length_3_4(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_length_2_nistxml_sv_iv_list_id_length_3_5(mode, save_output):
+def test_list_id_length_2_nistxml_sv_iv_list_id_length_3_5(mode, save_output, output_format):
     """
     Type list/ID is restricted by facet length with value 7.
     """
@@ -402,11 +426,12 @@ def test_list_id_length_2_nistxml_sv_iv_list_id_length_3_5(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_length_1_nistxml_sv_iv_list_id_length_2_1(mode, save_output):
+def test_list_id_length_1_nistxml_sv_iv_list_id_length_2_1(mode, save_output, output_format):
     """
     Type list/ID is restricted by facet length with value 6.
     """
@@ -417,11 +442,12 @@ def test_list_id_length_1_nistxml_sv_iv_list_id_length_2_1(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_length_1_nistxml_sv_iv_list_id_length_2_2(mode, save_output):
+def test_list_id_length_1_nistxml_sv_iv_list_id_length_2_2(mode, save_output, output_format):
     """
     Type list/ID is restricted by facet length with value 6.
     """
@@ -432,11 +458,12 @@ def test_list_id_length_1_nistxml_sv_iv_list_id_length_2_2(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_length_1_nistxml_sv_iv_list_id_length_2_3(mode, save_output):
+def test_list_id_length_1_nistxml_sv_iv_list_id_length_2_3(mode, save_output, output_format):
     """
     Type list/ID is restricted by facet length with value 6.
     """
@@ -447,11 +474,12 @@ def test_list_id_length_1_nistxml_sv_iv_list_id_length_2_3(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_length_1_nistxml_sv_iv_list_id_length_2_4(mode, save_output):
+def test_list_id_length_1_nistxml_sv_iv_list_id_length_2_4(mode, save_output, output_format):
     """
     Type list/ID is restricted by facet length with value 6.
     """
@@ -462,11 +490,12 @@ def test_list_id_length_1_nistxml_sv_iv_list_id_length_2_4(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_length_1_nistxml_sv_iv_list_id_length_2_5(mode, save_output):
+def test_list_id_length_1_nistxml_sv_iv_list_id_length_2_5(mode, save_output, output_format):
     """
     Type list/ID is restricted by facet length with value 6.
     """
@@ -477,11 +506,12 @@ def test_list_id_length_1_nistxml_sv_iv_list_id_length_2_5(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_length_nistxml_sv_iv_list_id_length_1_1(mode, save_output):
+def test_list_id_length_nistxml_sv_iv_list_id_length_1_1(mode, save_output, output_format):
     """
     Type list/ID is restricted by facet length with value 5.
     """
@@ -492,11 +522,12 @@ def test_list_id_length_nistxml_sv_iv_list_id_length_1_1(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_length_nistxml_sv_iv_list_id_length_1_2(mode, save_output):
+def test_list_id_length_nistxml_sv_iv_list_id_length_1_2(mode, save_output, output_format):
     """
     Type list/ID is restricted by facet length with value 5.
     """
@@ -507,11 +538,12 @@ def test_list_id_length_nistxml_sv_iv_list_id_length_1_2(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_length_nistxml_sv_iv_list_id_length_1_3(mode, save_output):
+def test_list_id_length_nistxml_sv_iv_list_id_length_1_3(mode, save_output, output_format):
     """
     Type list/ID is restricted by facet length with value 5.
     """
@@ -522,11 +554,12 @@ def test_list_id_length_nistxml_sv_iv_list_id_length_1_3(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_length_nistxml_sv_iv_list_id_length_1_4(mode, save_output):
+def test_list_id_length_nistxml_sv_iv_list_id_length_1_4(mode, save_output, output_format):
     """
     Type list/ID is restricted by facet length with value 5.
     """
@@ -537,11 +570,12 @@ def test_list_id_length_nistxml_sv_iv_list_id_length_1_4(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_length_nistxml_sv_iv_list_id_length_1_5(mode, save_output):
+def test_list_id_length_nistxml_sv_iv_list_id_length_1_5(mode, save_output, output_format):
     """
     Type list/ID is restricted by facet length with value 5.
     """
@@ -552,11 +586,12 @@ def test_list_id_length_nistxml_sv_iv_list_id_length_1_5(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_min_length_4_nistxml_sv_iv_list_id_min_length_5_1(mode, save_output):
+def test_list_id_min_length_4_nistxml_sv_iv_list_id_min_length_5_1(mode, save_output, output_format):
     """
     Type list/ID is restricted by facet minLength with value 10.
     """
@@ -567,11 +602,12 @@ def test_list_id_min_length_4_nistxml_sv_iv_list_id_min_length_5_1(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_min_length_4_nistxml_sv_iv_list_id_min_length_5_2(mode, save_output):
+def test_list_id_min_length_4_nistxml_sv_iv_list_id_min_length_5_2(mode, save_output, output_format):
     """
     Type list/ID is restricted by facet minLength with value 10.
     """
@@ -582,11 +618,12 @@ def test_list_id_min_length_4_nistxml_sv_iv_list_id_min_length_5_2(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_min_length_4_nistxml_sv_iv_list_id_min_length_5_3(mode, save_output):
+def test_list_id_min_length_4_nistxml_sv_iv_list_id_min_length_5_3(mode, save_output, output_format):
     """
     Type list/ID is restricted by facet minLength with value 10.
     """
@@ -597,11 +634,12 @@ def test_list_id_min_length_4_nistxml_sv_iv_list_id_min_length_5_3(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_min_length_4_nistxml_sv_iv_list_id_min_length_5_4(mode, save_output):
+def test_list_id_min_length_4_nistxml_sv_iv_list_id_min_length_5_4(mode, save_output, output_format):
     """
     Type list/ID is restricted by facet minLength with value 10.
     """
@@ -612,11 +650,12 @@ def test_list_id_min_length_4_nistxml_sv_iv_list_id_min_length_5_4(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_min_length_4_nistxml_sv_iv_list_id_min_length_5_5(mode, save_output):
+def test_list_id_min_length_4_nistxml_sv_iv_list_id_min_length_5_5(mode, save_output, output_format):
     """
     Type list/ID is restricted by facet minLength with value 10.
     """
@@ -627,11 +666,12 @@ def test_list_id_min_length_4_nistxml_sv_iv_list_id_min_length_5_5(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_min_length_3_nistxml_sv_iv_list_id_min_length_4_1(mode, save_output):
+def test_list_id_min_length_3_nistxml_sv_iv_list_id_min_length_4_1(mode, save_output, output_format):
     """
     Type list/ID is restricted by facet minLength with value 8.
     """
@@ -642,11 +682,12 @@ def test_list_id_min_length_3_nistxml_sv_iv_list_id_min_length_4_1(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_min_length_3_nistxml_sv_iv_list_id_min_length_4_2(mode, save_output):
+def test_list_id_min_length_3_nistxml_sv_iv_list_id_min_length_4_2(mode, save_output, output_format):
     """
     Type list/ID is restricted by facet minLength with value 8.
     """
@@ -657,11 +698,12 @@ def test_list_id_min_length_3_nistxml_sv_iv_list_id_min_length_4_2(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_min_length_3_nistxml_sv_iv_list_id_min_length_4_3(mode, save_output):
+def test_list_id_min_length_3_nistxml_sv_iv_list_id_min_length_4_3(mode, save_output, output_format):
     """
     Type list/ID is restricted by facet minLength with value 8.
     """
@@ -672,11 +714,12 @@ def test_list_id_min_length_3_nistxml_sv_iv_list_id_min_length_4_3(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_min_length_3_nistxml_sv_iv_list_id_min_length_4_4(mode, save_output):
+def test_list_id_min_length_3_nistxml_sv_iv_list_id_min_length_4_4(mode, save_output, output_format):
     """
     Type list/ID is restricted by facet minLength with value 8.
     """
@@ -687,11 +730,12 @@ def test_list_id_min_length_3_nistxml_sv_iv_list_id_min_length_4_4(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_min_length_3_nistxml_sv_iv_list_id_min_length_4_5(mode, save_output):
+def test_list_id_min_length_3_nistxml_sv_iv_list_id_min_length_4_5(mode, save_output, output_format):
     """
     Type list/ID is restricted by facet minLength with value 8.
     """
@@ -702,11 +746,12 @@ def test_list_id_min_length_3_nistxml_sv_iv_list_id_min_length_4_5(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_min_length_2_nistxml_sv_iv_list_id_min_length_3_1(mode, save_output):
+def test_list_id_min_length_2_nistxml_sv_iv_list_id_min_length_3_1(mode, save_output, output_format):
     """
     Type list/ID is restricted by facet minLength with value 7.
     """
@@ -717,11 +762,12 @@ def test_list_id_min_length_2_nistxml_sv_iv_list_id_min_length_3_1(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_min_length_2_nistxml_sv_iv_list_id_min_length_3_2(mode, save_output):
+def test_list_id_min_length_2_nistxml_sv_iv_list_id_min_length_3_2(mode, save_output, output_format):
     """
     Type list/ID is restricted by facet minLength with value 7.
     """
@@ -732,11 +778,12 @@ def test_list_id_min_length_2_nistxml_sv_iv_list_id_min_length_3_2(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_min_length_2_nistxml_sv_iv_list_id_min_length_3_3(mode, save_output):
+def test_list_id_min_length_2_nistxml_sv_iv_list_id_min_length_3_3(mode, save_output, output_format):
     """
     Type list/ID is restricted by facet minLength with value 7.
     """
@@ -747,11 +794,12 @@ def test_list_id_min_length_2_nistxml_sv_iv_list_id_min_length_3_3(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_min_length_2_nistxml_sv_iv_list_id_min_length_3_4(mode, save_output):
+def test_list_id_min_length_2_nistxml_sv_iv_list_id_min_length_3_4(mode, save_output, output_format):
     """
     Type list/ID is restricted by facet minLength with value 7.
     """
@@ -762,11 +810,12 @@ def test_list_id_min_length_2_nistxml_sv_iv_list_id_min_length_3_4(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_min_length_2_nistxml_sv_iv_list_id_min_length_3_5(mode, save_output):
+def test_list_id_min_length_2_nistxml_sv_iv_list_id_min_length_3_5(mode, save_output, output_format):
     """
     Type list/ID is restricted by facet minLength with value 7.
     """
@@ -777,11 +826,12 @@ def test_list_id_min_length_2_nistxml_sv_iv_list_id_min_length_3_5(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_min_length_1_nistxml_sv_iv_list_id_min_length_2_1(mode, save_output):
+def test_list_id_min_length_1_nistxml_sv_iv_list_id_min_length_2_1(mode, save_output, output_format):
     """
     Type list/ID is restricted by facet minLength with value 6.
     """
@@ -792,11 +842,12 @@ def test_list_id_min_length_1_nistxml_sv_iv_list_id_min_length_2_1(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_min_length_1_nistxml_sv_iv_list_id_min_length_2_2(mode, save_output):
+def test_list_id_min_length_1_nistxml_sv_iv_list_id_min_length_2_2(mode, save_output, output_format):
     """
     Type list/ID is restricted by facet minLength with value 6.
     """
@@ -807,11 +858,12 @@ def test_list_id_min_length_1_nistxml_sv_iv_list_id_min_length_2_2(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_min_length_1_nistxml_sv_iv_list_id_min_length_2_3(mode, save_output):
+def test_list_id_min_length_1_nistxml_sv_iv_list_id_min_length_2_3(mode, save_output, output_format):
     """
     Type list/ID is restricted by facet minLength with value 6.
     """
@@ -822,11 +874,12 @@ def test_list_id_min_length_1_nistxml_sv_iv_list_id_min_length_2_3(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_min_length_1_nistxml_sv_iv_list_id_min_length_2_4(mode, save_output):
+def test_list_id_min_length_1_nistxml_sv_iv_list_id_min_length_2_4(mode, save_output, output_format):
     """
     Type list/ID is restricted by facet minLength with value 6.
     """
@@ -837,11 +890,12 @@ def test_list_id_min_length_1_nistxml_sv_iv_list_id_min_length_2_4(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_min_length_1_nistxml_sv_iv_list_id_min_length_2_5(mode, save_output):
+def test_list_id_min_length_1_nistxml_sv_iv_list_id_min_length_2_5(mode, save_output, output_format):
     """
     Type list/ID is restricted by facet minLength with value 6.
     """
@@ -852,11 +906,12 @@ def test_list_id_min_length_1_nistxml_sv_iv_list_id_min_length_2_5(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_min_length_nistxml_sv_iv_list_id_min_length_1_1(mode, save_output):
+def test_list_id_min_length_nistxml_sv_iv_list_id_min_length_1_1(mode, save_output, output_format):
     """
     Type list/ID is restricted by facet minLength with value 5.
     """
@@ -867,11 +922,12 @@ def test_list_id_min_length_nistxml_sv_iv_list_id_min_length_1_1(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_min_length_nistxml_sv_iv_list_id_min_length_1_2(mode, save_output):
+def test_list_id_min_length_nistxml_sv_iv_list_id_min_length_1_2(mode, save_output, output_format):
     """
     Type list/ID is restricted by facet minLength with value 5.
     """
@@ -882,11 +938,12 @@ def test_list_id_min_length_nistxml_sv_iv_list_id_min_length_1_2(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_min_length_nistxml_sv_iv_list_id_min_length_1_3(mode, save_output):
+def test_list_id_min_length_nistxml_sv_iv_list_id_min_length_1_3(mode, save_output, output_format):
     """
     Type list/ID is restricted by facet minLength with value 5.
     """
@@ -897,11 +954,12 @@ def test_list_id_min_length_nistxml_sv_iv_list_id_min_length_1_3(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_min_length_nistxml_sv_iv_list_id_min_length_1_4(mode, save_output):
+def test_list_id_min_length_nistxml_sv_iv_list_id_min_length_1_4(mode, save_output, output_format):
     """
     Type list/ID is restricted by facet minLength with value 5.
     """
@@ -912,11 +970,12 @@ def test_list_id_min_length_nistxml_sv_iv_list_id_min_length_1_4(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_min_length_nistxml_sv_iv_list_id_min_length_1_5(mode, save_output):
+def test_list_id_min_length_nistxml_sv_iv_list_id_min_length_1_5(mode, save_output, output_format):
     """
     Type list/ID is restricted by facet minLength with value 5.
     """
@@ -927,11 +986,12 @@ def test_list_id_min_length_nistxml_sv_iv_list_id_min_length_1_5(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_max_length_4_nistxml_sv_iv_list_id_max_length_5_1(mode, save_output):
+def test_list_id_max_length_4_nistxml_sv_iv_list_id_max_length_5_1(mode, save_output, output_format):
     """
     Type list/ID is restricted by facet maxLength with value 10.
     """
@@ -942,11 +1002,12 @@ def test_list_id_max_length_4_nistxml_sv_iv_list_id_max_length_5_1(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_max_length_4_nistxml_sv_iv_list_id_max_length_5_2(mode, save_output):
+def test_list_id_max_length_4_nistxml_sv_iv_list_id_max_length_5_2(mode, save_output, output_format):
     """
     Type list/ID is restricted by facet maxLength with value 10.
     """
@@ -957,11 +1018,12 @@ def test_list_id_max_length_4_nistxml_sv_iv_list_id_max_length_5_2(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_max_length_4_nistxml_sv_iv_list_id_max_length_5_3(mode, save_output):
+def test_list_id_max_length_4_nistxml_sv_iv_list_id_max_length_5_3(mode, save_output, output_format):
     """
     Type list/ID is restricted by facet maxLength with value 10.
     """
@@ -972,11 +1034,12 @@ def test_list_id_max_length_4_nistxml_sv_iv_list_id_max_length_5_3(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_max_length_4_nistxml_sv_iv_list_id_max_length_5_4(mode, save_output):
+def test_list_id_max_length_4_nistxml_sv_iv_list_id_max_length_5_4(mode, save_output, output_format):
     """
     Type list/ID is restricted by facet maxLength with value 10.
     """
@@ -987,11 +1050,12 @@ def test_list_id_max_length_4_nistxml_sv_iv_list_id_max_length_5_4(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_max_length_4_nistxml_sv_iv_list_id_max_length_5_5(mode, save_output):
+def test_list_id_max_length_4_nistxml_sv_iv_list_id_max_length_5_5(mode, save_output, output_format):
     """
     Type list/ID is restricted by facet maxLength with value 10.
     """
@@ -1002,11 +1066,12 @@ def test_list_id_max_length_4_nistxml_sv_iv_list_id_max_length_5_5(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_max_length_3_nistxml_sv_iv_list_id_max_length_4_1(mode, save_output):
+def test_list_id_max_length_3_nistxml_sv_iv_list_id_max_length_4_1(mode, save_output, output_format):
     """
     Type list/ID is restricted by facet maxLength with value 8.
     """
@@ -1017,11 +1082,12 @@ def test_list_id_max_length_3_nistxml_sv_iv_list_id_max_length_4_1(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_max_length_3_nistxml_sv_iv_list_id_max_length_4_2(mode, save_output):
+def test_list_id_max_length_3_nistxml_sv_iv_list_id_max_length_4_2(mode, save_output, output_format):
     """
     Type list/ID is restricted by facet maxLength with value 8.
     """
@@ -1032,11 +1098,12 @@ def test_list_id_max_length_3_nistxml_sv_iv_list_id_max_length_4_2(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_max_length_3_nistxml_sv_iv_list_id_max_length_4_3(mode, save_output):
+def test_list_id_max_length_3_nistxml_sv_iv_list_id_max_length_4_3(mode, save_output, output_format):
     """
     Type list/ID is restricted by facet maxLength with value 8.
     """
@@ -1047,11 +1114,12 @@ def test_list_id_max_length_3_nistxml_sv_iv_list_id_max_length_4_3(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_max_length_3_nistxml_sv_iv_list_id_max_length_4_4(mode, save_output):
+def test_list_id_max_length_3_nistxml_sv_iv_list_id_max_length_4_4(mode, save_output, output_format):
     """
     Type list/ID is restricted by facet maxLength with value 8.
     """
@@ -1062,11 +1130,12 @@ def test_list_id_max_length_3_nistxml_sv_iv_list_id_max_length_4_4(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_max_length_3_nistxml_sv_iv_list_id_max_length_4_5(mode, save_output):
+def test_list_id_max_length_3_nistxml_sv_iv_list_id_max_length_4_5(mode, save_output, output_format):
     """
     Type list/ID is restricted by facet maxLength with value 8.
     """
@@ -1077,11 +1146,12 @@ def test_list_id_max_length_3_nistxml_sv_iv_list_id_max_length_4_5(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_max_length_2_nistxml_sv_iv_list_id_max_length_3_1(mode, save_output):
+def test_list_id_max_length_2_nistxml_sv_iv_list_id_max_length_3_1(mode, save_output, output_format):
     """
     Type list/ID is restricted by facet maxLength with value 7.
     """
@@ -1092,11 +1162,12 @@ def test_list_id_max_length_2_nistxml_sv_iv_list_id_max_length_3_1(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_max_length_2_nistxml_sv_iv_list_id_max_length_3_2(mode, save_output):
+def test_list_id_max_length_2_nistxml_sv_iv_list_id_max_length_3_2(mode, save_output, output_format):
     """
     Type list/ID is restricted by facet maxLength with value 7.
     """
@@ -1107,11 +1178,12 @@ def test_list_id_max_length_2_nistxml_sv_iv_list_id_max_length_3_2(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_max_length_2_nistxml_sv_iv_list_id_max_length_3_3(mode, save_output):
+def test_list_id_max_length_2_nistxml_sv_iv_list_id_max_length_3_3(mode, save_output, output_format):
     """
     Type list/ID is restricted by facet maxLength with value 7.
     """
@@ -1122,11 +1194,12 @@ def test_list_id_max_length_2_nistxml_sv_iv_list_id_max_length_3_3(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_max_length_2_nistxml_sv_iv_list_id_max_length_3_4(mode, save_output):
+def test_list_id_max_length_2_nistxml_sv_iv_list_id_max_length_3_4(mode, save_output, output_format):
     """
     Type list/ID is restricted by facet maxLength with value 7.
     """
@@ -1137,11 +1210,12 @@ def test_list_id_max_length_2_nistxml_sv_iv_list_id_max_length_3_4(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_max_length_2_nistxml_sv_iv_list_id_max_length_3_5(mode, save_output):
+def test_list_id_max_length_2_nistxml_sv_iv_list_id_max_length_3_5(mode, save_output, output_format):
     """
     Type list/ID is restricted by facet maxLength with value 7.
     """
@@ -1152,11 +1226,12 @@ def test_list_id_max_length_2_nistxml_sv_iv_list_id_max_length_3_5(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_max_length_1_nistxml_sv_iv_list_id_max_length_2_1(mode, save_output):
+def test_list_id_max_length_1_nistxml_sv_iv_list_id_max_length_2_1(mode, save_output, output_format):
     """
     Type list/ID is restricted by facet maxLength with value 6.
     """
@@ -1167,11 +1242,12 @@ def test_list_id_max_length_1_nistxml_sv_iv_list_id_max_length_2_1(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_max_length_1_nistxml_sv_iv_list_id_max_length_2_2(mode, save_output):
+def test_list_id_max_length_1_nistxml_sv_iv_list_id_max_length_2_2(mode, save_output, output_format):
     """
     Type list/ID is restricted by facet maxLength with value 6.
     """
@@ -1182,11 +1258,12 @@ def test_list_id_max_length_1_nistxml_sv_iv_list_id_max_length_2_2(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_max_length_1_nistxml_sv_iv_list_id_max_length_2_3(mode, save_output):
+def test_list_id_max_length_1_nistxml_sv_iv_list_id_max_length_2_3(mode, save_output, output_format):
     """
     Type list/ID is restricted by facet maxLength with value 6.
     """
@@ -1197,11 +1274,12 @@ def test_list_id_max_length_1_nistxml_sv_iv_list_id_max_length_2_3(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_max_length_1_nistxml_sv_iv_list_id_max_length_2_4(mode, save_output):
+def test_list_id_max_length_1_nistxml_sv_iv_list_id_max_length_2_4(mode, save_output, output_format):
     """
     Type list/ID is restricted by facet maxLength with value 6.
     """
@@ -1212,11 +1290,12 @@ def test_list_id_max_length_1_nistxml_sv_iv_list_id_max_length_2_4(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_max_length_1_nistxml_sv_iv_list_id_max_length_2_5(mode, save_output):
+def test_list_id_max_length_1_nistxml_sv_iv_list_id_max_length_2_5(mode, save_output, output_format):
     """
     Type list/ID is restricted by facet maxLength with value 6.
     """
@@ -1227,11 +1306,12 @@ def test_list_id_max_length_1_nistxml_sv_iv_list_id_max_length_2_5(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_max_length_nistxml_sv_iv_list_id_max_length_1_1(mode, save_output):
+def test_list_id_max_length_nistxml_sv_iv_list_id_max_length_1_1(mode, save_output, output_format):
     """
     Type list/ID is restricted by facet maxLength with value 5.
     """
@@ -1242,11 +1322,12 @@ def test_list_id_max_length_nistxml_sv_iv_list_id_max_length_1_1(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_max_length_nistxml_sv_iv_list_id_max_length_1_2(mode, save_output):
+def test_list_id_max_length_nistxml_sv_iv_list_id_max_length_1_2(mode, save_output, output_format):
     """
     Type list/ID is restricted by facet maxLength with value 5.
     """
@@ -1257,11 +1338,12 @@ def test_list_id_max_length_nistxml_sv_iv_list_id_max_length_1_2(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_max_length_nistxml_sv_iv_list_id_max_length_1_3(mode, save_output):
+def test_list_id_max_length_nistxml_sv_iv_list_id_max_length_1_3(mode, save_output, output_format):
     """
     Type list/ID is restricted by facet maxLength with value 5.
     """
@@ -1272,11 +1354,12 @@ def test_list_id_max_length_nistxml_sv_iv_list_id_max_length_1_3(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_max_length_nistxml_sv_iv_list_id_max_length_1_4(mode, save_output):
+def test_list_id_max_length_nistxml_sv_iv_list_id_max_length_1_4(mode, save_output, output_format):
     """
     Type list/ID is restricted by facet maxLength with value 5.
     """
@@ -1287,11 +1370,12 @@ def test_list_id_max_length_nistxml_sv_iv_list_id_max_length_1_4(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_id_max_length_nistxml_sv_iv_list_id_max_length_1_5(mode, save_output):
+def test_list_id_max_length_nistxml_sv_iv_list_id_max_length_1_5(mode, save_output, output_format):
     """
     Type list/ID is restricted by facet maxLength with value 5.
     """
@@ -1302,11 +1386,12 @@ def test_list_id_max_length_nistxml_sv_iv_list_id_max_length_1_5(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_white_space_nistxml_sv_iv_list_ncname_white_space_1_1(mode, save_output):
+def test_list_ncname_white_space_nistxml_sv_iv_list_ncname_white_space_1_1(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet whiteSpace with value
     collapse.
@@ -1318,11 +1403,12 @@ def test_list_ncname_white_space_nistxml_sv_iv_list_ncname_white_space_1_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_white_space_nistxml_sv_iv_list_ncname_white_space_1_2(mode, save_output):
+def test_list_ncname_white_space_nistxml_sv_iv_list_ncname_white_space_1_2(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet whiteSpace with value
     collapse.
@@ -1334,11 +1420,12 @@ def test_list_ncname_white_space_nistxml_sv_iv_list_ncname_white_space_1_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_white_space_nistxml_sv_iv_list_ncname_white_space_1_3(mode, save_output):
+def test_list_ncname_white_space_nistxml_sv_iv_list_ncname_white_space_1_3(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet whiteSpace with value
     collapse.
@@ -1350,11 +1437,12 @@ def test_list_ncname_white_space_nistxml_sv_iv_list_ncname_white_space_1_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_white_space_nistxml_sv_iv_list_ncname_white_space_1_4(mode, save_output):
+def test_list_ncname_white_space_nistxml_sv_iv_list_ncname_white_space_1_4(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet whiteSpace with value
     collapse.
@@ -1366,11 +1454,12 @@ def test_list_ncname_white_space_nistxml_sv_iv_list_ncname_white_space_1_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_white_space_nistxml_sv_iv_list_ncname_white_space_1_5(mode, save_output):
+def test_list_ncname_white_space_nistxml_sv_iv_list_ncname_white_space_1_5(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet whiteSpace with value
     collapse.
@@ -1382,11 +1471,12 @@ def test_list_ncname_white_space_nistxml_sv_iv_list_ncname_white_space_1_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_enumeration_4_nistxml_sv_iv_list_ncname_enumeration_5_1(mode, save_output):
+def test_list_ncname_enumeration_4_nistxml_sv_iv_list_ncname_enumeration_5_1(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet enumeration.
     """
@@ -1397,11 +1487,12 @@ def test_list_ncname_enumeration_4_nistxml_sv_iv_list_ncname_enumeration_5_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_enumeration_4_nistxml_sv_iv_list_ncname_enumeration_5_2(mode, save_output):
+def test_list_ncname_enumeration_4_nistxml_sv_iv_list_ncname_enumeration_5_2(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet enumeration.
     """
@@ -1412,11 +1503,12 @@ def test_list_ncname_enumeration_4_nistxml_sv_iv_list_ncname_enumeration_5_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_enumeration_4_nistxml_sv_iv_list_ncname_enumeration_5_3(mode, save_output):
+def test_list_ncname_enumeration_4_nistxml_sv_iv_list_ncname_enumeration_5_3(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet enumeration.
     """
@@ -1427,11 +1519,12 @@ def test_list_ncname_enumeration_4_nistxml_sv_iv_list_ncname_enumeration_5_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_enumeration_4_nistxml_sv_iv_list_ncname_enumeration_5_4(mode, save_output):
+def test_list_ncname_enumeration_4_nistxml_sv_iv_list_ncname_enumeration_5_4(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet enumeration.
     """
@@ -1442,11 +1535,12 @@ def test_list_ncname_enumeration_4_nistxml_sv_iv_list_ncname_enumeration_5_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_enumeration_4_nistxml_sv_iv_list_ncname_enumeration_5_5(mode, save_output):
+def test_list_ncname_enumeration_4_nistxml_sv_iv_list_ncname_enumeration_5_5(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet enumeration.
     """
@@ -1457,11 +1551,12 @@ def test_list_ncname_enumeration_4_nistxml_sv_iv_list_ncname_enumeration_5_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_enumeration_3_nistxml_sv_iv_list_ncname_enumeration_4_1(mode, save_output):
+def test_list_ncname_enumeration_3_nistxml_sv_iv_list_ncname_enumeration_4_1(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet enumeration.
     """
@@ -1472,11 +1567,12 @@ def test_list_ncname_enumeration_3_nistxml_sv_iv_list_ncname_enumeration_4_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_enumeration_3_nistxml_sv_iv_list_ncname_enumeration_4_2(mode, save_output):
+def test_list_ncname_enumeration_3_nistxml_sv_iv_list_ncname_enumeration_4_2(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet enumeration.
     """
@@ -1487,11 +1583,12 @@ def test_list_ncname_enumeration_3_nistxml_sv_iv_list_ncname_enumeration_4_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_enumeration_3_nistxml_sv_iv_list_ncname_enumeration_4_3(mode, save_output):
+def test_list_ncname_enumeration_3_nistxml_sv_iv_list_ncname_enumeration_4_3(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet enumeration.
     """
@@ -1502,11 +1599,12 @@ def test_list_ncname_enumeration_3_nistxml_sv_iv_list_ncname_enumeration_4_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_enumeration_3_nistxml_sv_iv_list_ncname_enumeration_4_4(mode, save_output):
+def test_list_ncname_enumeration_3_nistxml_sv_iv_list_ncname_enumeration_4_4(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet enumeration.
     """
@@ -1517,11 +1615,12 @@ def test_list_ncname_enumeration_3_nistxml_sv_iv_list_ncname_enumeration_4_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_enumeration_3_nistxml_sv_iv_list_ncname_enumeration_4_5(mode, save_output):
+def test_list_ncname_enumeration_3_nistxml_sv_iv_list_ncname_enumeration_4_5(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet enumeration.
     """
@@ -1532,11 +1631,12 @@ def test_list_ncname_enumeration_3_nistxml_sv_iv_list_ncname_enumeration_4_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_enumeration_2_nistxml_sv_iv_list_ncname_enumeration_3_1(mode, save_output):
+def test_list_ncname_enumeration_2_nistxml_sv_iv_list_ncname_enumeration_3_1(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet enumeration.
     """
@@ -1547,11 +1647,12 @@ def test_list_ncname_enumeration_2_nistxml_sv_iv_list_ncname_enumeration_3_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_enumeration_2_nistxml_sv_iv_list_ncname_enumeration_3_2(mode, save_output):
+def test_list_ncname_enumeration_2_nistxml_sv_iv_list_ncname_enumeration_3_2(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet enumeration.
     """
@@ -1562,11 +1663,12 @@ def test_list_ncname_enumeration_2_nistxml_sv_iv_list_ncname_enumeration_3_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_enumeration_2_nistxml_sv_iv_list_ncname_enumeration_3_3(mode, save_output):
+def test_list_ncname_enumeration_2_nistxml_sv_iv_list_ncname_enumeration_3_3(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet enumeration.
     """
@@ -1577,11 +1679,12 @@ def test_list_ncname_enumeration_2_nistxml_sv_iv_list_ncname_enumeration_3_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_enumeration_2_nistxml_sv_iv_list_ncname_enumeration_3_4(mode, save_output):
+def test_list_ncname_enumeration_2_nistxml_sv_iv_list_ncname_enumeration_3_4(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet enumeration.
     """
@@ -1592,11 +1695,12 @@ def test_list_ncname_enumeration_2_nistxml_sv_iv_list_ncname_enumeration_3_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_enumeration_2_nistxml_sv_iv_list_ncname_enumeration_3_5(mode, save_output):
+def test_list_ncname_enumeration_2_nistxml_sv_iv_list_ncname_enumeration_3_5(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet enumeration.
     """
@@ -1607,11 +1711,12 @@ def test_list_ncname_enumeration_2_nistxml_sv_iv_list_ncname_enumeration_3_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_enumeration_1_nistxml_sv_iv_list_ncname_enumeration_2_1(mode, save_output):
+def test_list_ncname_enumeration_1_nistxml_sv_iv_list_ncname_enumeration_2_1(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet enumeration.
     """
@@ -1622,11 +1727,12 @@ def test_list_ncname_enumeration_1_nistxml_sv_iv_list_ncname_enumeration_2_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_enumeration_1_nistxml_sv_iv_list_ncname_enumeration_2_2(mode, save_output):
+def test_list_ncname_enumeration_1_nistxml_sv_iv_list_ncname_enumeration_2_2(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet enumeration.
     """
@@ -1637,11 +1743,12 @@ def test_list_ncname_enumeration_1_nistxml_sv_iv_list_ncname_enumeration_2_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_enumeration_1_nistxml_sv_iv_list_ncname_enumeration_2_3(mode, save_output):
+def test_list_ncname_enumeration_1_nistxml_sv_iv_list_ncname_enumeration_2_3(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet enumeration.
     """
@@ -1652,11 +1759,12 @@ def test_list_ncname_enumeration_1_nistxml_sv_iv_list_ncname_enumeration_2_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_enumeration_1_nistxml_sv_iv_list_ncname_enumeration_2_4(mode, save_output):
+def test_list_ncname_enumeration_1_nistxml_sv_iv_list_ncname_enumeration_2_4(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet enumeration.
     """
@@ -1667,11 +1775,12 @@ def test_list_ncname_enumeration_1_nistxml_sv_iv_list_ncname_enumeration_2_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_enumeration_1_nistxml_sv_iv_list_ncname_enumeration_2_5(mode, save_output):
+def test_list_ncname_enumeration_1_nistxml_sv_iv_list_ncname_enumeration_2_5(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet enumeration.
     """
@@ -1682,11 +1791,12 @@ def test_list_ncname_enumeration_1_nistxml_sv_iv_list_ncname_enumeration_2_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_enumeration_nistxml_sv_iv_list_ncname_enumeration_1_1(mode, save_output):
+def test_list_ncname_enumeration_nistxml_sv_iv_list_ncname_enumeration_1_1(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet enumeration.
     """
@@ -1697,11 +1807,12 @@ def test_list_ncname_enumeration_nistxml_sv_iv_list_ncname_enumeration_1_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_enumeration_nistxml_sv_iv_list_ncname_enumeration_1_2(mode, save_output):
+def test_list_ncname_enumeration_nistxml_sv_iv_list_ncname_enumeration_1_2(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet enumeration.
     """
@@ -1712,11 +1823,12 @@ def test_list_ncname_enumeration_nistxml_sv_iv_list_ncname_enumeration_1_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_enumeration_nistxml_sv_iv_list_ncname_enumeration_1_3(mode, save_output):
+def test_list_ncname_enumeration_nistxml_sv_iv_list_ncname_enumeration_1_3(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet enumeration.
     """
@@ -1727,11 +1839,12 @@ def test_list_ncname_enumeration_nistxml_sv_iv_list_ncname_enumeration_1_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_enumeration_nistxml_sv_iv_list_ncname_enumeration_1_4(mode, save_output):
+def test_list_ncname_enumeration_nistxml_sv_iv_list_ncname_enumeration_1_4(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet enumeration.
     """
@@ -1742,11 +1855,12 @@ def test_list_ncname_enumeration_nistxml_sv_iv_list_ncname_enumeration_1_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_enumeration_nistxml_sv_iv_list_ncname_enumeration_1_5(mode, save_output):
+def test_list_ncname_enumeration_nistxml_sv_iv_list_ncname_enumeration_1_5(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet enumeration.
     """
@@ -1757,11 +1871,12 @@ def test_list_ncname_enumeration_nistxml_sv_iv_list_ncname_enumeration_1_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_pattern_4_nistxml_sv_iv_list_ncname_pattern_5_1(mode, save_output):
+def test_list_ncname_pattern_4_nistxml_sv_iv_list_ncname_pattern_5_1(mode, save_output, output_format):
     r"""
     Type list/NCName is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{40} [\i-[:]][\c-[:]]{59} [\i-[:]][\c-[:]]{55}
@@ -1774,11 +1889,12 @@ def test_list_ncname_pattern_4_nistxml_sv_iv_list_ncname_pattern_5_1(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_pattern_4_nistxml_sv_iv_list_ncname_pattern_5_2(mode, save_output):
+def test_list_ncname_pattern_4_nistxml_sv_iv_list_ncname_pattern_5_2(mode, save_output, output_format):
     r"""
     Type list/NCName is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{40} [\i-[:]][\c-[:]]{59} [\i-[:]][\c-[:]]{55}
@@ -1791,11 +1907,12 @@ def test_list_ncname_pattern_4_nistxml_sv_iv_list_ncname_pattern_5_2(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_pattern_4_nistxml_sv_iv_list_ncname_pattern_5_3(mode, save_output):
+def test_list_ncname_pattern_4_nistxml_sv_iv_list_ncname_pattern_5_3(mode, save_output, output_format):
     r"""
     Type list/NCName is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{40} [\i-[:]][\c-[:]]{59} [\i-[:]][\c-[:]]{55}
@@ -1808,11 +1925,12 @@ def test_list_ncname_pattern_4_nistxml_sv_iv_list_ncname_pattern_5_3(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_pattern_4_nistxml_sv_iv_list_ncname_pattern_5_4(mode, save_output):
+def test_list_ncname_pattern_4_nistxml_sv_iv_list_ncname_pattern_5_4(mode, save_output, output_format):
     r"""
     Type list/NCName is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{40} [\i-[:]][\c-[:]]{59} [\i-[:]][\c-[:]]{55}
@@ -1825,11 +1943,12 @@ def test_list_ncname_pattern_4_nistxml_sv_iv_list_ncname_pattern_5_4(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_pattern_4_nistxml_sv_iv_list_ncname_pattern_5_5(mode, save_output):
+def test_list_ncname_pattern_4_nistxml_sv_iv_list_ncname_pattern_5_5(mode, save_output, output_format):
     r"""
     Type list/NCName is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{40} [\i-[:]][\c-[:]]{59} [\i-[:]][\c-[:]]{55}
@@ -1842,11 +1961,12 @@ def test_list_ncname_pattern_4_nistxml_sv_iv_list_ncname_pattern_5_5(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_pattern_3_nistxml_sv_iv_list_ncname_pattern_4_1(mode, save_output):
+def test_list_ncname_pattern_3_nistxml_sv_iv_list_ncname_pattern_4_1(mode, save_output, output_format):
     r"""
     Type list/NCName is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{44} [\i-[:]][\c-[:]]{50} [\i-[:]][\c-[:]]{47}
@@ -1861,11 +1981,12 @@ def test_list_ncname_pattern_3_nistxml_sv_iv_list_ncname_pattern_4_1(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_pattern_3_nistxml_sv_iv_list_ncname_pattern_4_2(mode, save_output):
+def test_list_ncname_pattern_3_nistxml_sv_iv_list_ncname_pattern_4_2(mode, save_output, output_format):
     r"""
     Type list/NCName is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{44} [\i-[:]][\c-[:]]{50} [\i-[:]][\c-[:]]{47}
@@ -1880,11 +2001,12 @@ def test_list_ncname_pattern_3_nistxml_sv_iv_list_ncname_pattern_4_2(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_pattern_3_nistxml_sv_iv_list_ncname_pattern_4_3(mode, save_output):
+def test_list_ncname_pattern_3_nistxml_sv_iv_list_ncname_pattern_4_3(mode, save_output, output_format):
     r"""
     Type list/NCName is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{44} [\i-[:]][\c-[:]]{50} [\i-[:]][\c-[:]]{47}
@@ -1899,11 +2021,12 @@ def test_list_ncname_pattern_3_nistxml_sv_iv_list_ncname_pattern_4_3(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_pattern_3_nistxml_sv_iv_list_ncname_pattern_4_4(mode, save_output):
+def test_list_ncname_pattern_3_nistxml_sv_iv_list_ncname_pattern_4_4(mode, save_output, output_format):
     r"""
     Type list/NCName is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{44} [\i-[:]][\c-[:]]{50} [\i-[:]][\c-[:]]{47}
@@ -1918,11 +2041,12 @@ def test_list_ncname_pattern_3_nistxml_sv_iv_list_ncname_pattern_4_4(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_pattern_3_nistxml_sv_iv_list_ncname_pattern_4_5(mode, save_output):
+def test_list_ncname_pattern_3_nistxml_sv_iv_list_ncname_pattern_4_5(mode, save_output, output_format):
     r"""
     Type list/NCName is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{44} [\i-[:]][\c-[:]]{50} [\i-[:]][\c-[:]]{47}
@@ -1937,11 +2061,12 @@ def test_list_ncname_pattern_3_nistxml_sv_iv_list_ncname_pattern_4_5(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_pattern_2_nistxml_sv_iv_list_ncname_pattern_3_1(mode, save_output):
+def test_list_ncname_pattern_2_nistxml_sv_iv_list_ncname_pattern_3_1(mode, save_output, output_format):
     r"""
     Type list/NCName is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{33} [\i-[:]][\c-[:]]{63} [\i-[:]][\c-[:]]{13}
@@ -1954,11 +2079,12 @@ def test_list_ncname_pattern_2_nistxml_sv_iv_list_ncname_pattern_3_1(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_pattern_2_nistxml_sv_iv_list_ncname_pattern_3_2(mode, save_output):
+def test_list_ncname_pattern_2_nistxml_sv_iv_list_ncname_pattern_3_2(mode, save_output, output_format):
     r"""
     Type list/NCName is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{33} [\i-[:]][\c-[:]]{63} [\i-[:]][\c-[:]]{13}
@@ -1971,11 +2097,12 @@ def test_list_ncname_pattern_2_nistxml_sv_iv_list_ncname_pattern_3_2(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_pattern_2_nistxml_sv_iv_list_ncname_pattern_3_3(mode, save_output):
+def test_list_ncname_pattern_2_nistxml_sv_iv_list_ncname_pattern_3_3(mode, save_output, output_format):
     r"""
     Type list/NCName is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{33} [\i-[:]][\c-[:]]{63} [\i-[:]][\c-[:]]{13}
@@ -1988,11 +2115,12 @@ def test_list_ncname_pattern_2_nistxml_sv_iv_list_ncname_pattern_3_3(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_pattern_2_nistxml_sv_iv_list_ncname_pattern_3_4(mode, save_output):
+def test_list_ncname_pattern_2_nistxml_sv_iv_list_ncname_pattern_3_4(mode, save_output, output_format):
     r"""
     Type list/NCName is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{33} [\i-[:]][\c-[:]]{63} [\i-[:]][\c-[:]]{13}
@@ -2005,11 +2133,12 @@ def test_list_ncname_pattern_2_nistxml_sv_iv_list_ncname_pattern_3_4(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_pattern_2_nistxml_sv_iv_list_ncname_pattern_3_5(mode, save_output):
+def test_list_ncname_pattern_2_nistxml_sv_iv_list_ncname_pattern_3_5(mode, save_output, output_format):
     r"""
     Type list/NCName is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{33} [\i-[:]][\c-[:]]{63} [\i-[:]][\c-[:]]{13}
@@ -2022,11 +2151,12 @@ def test_list_ncname_pattern_2_nistxml_sv_iv_list_ncname_pattern_3_5(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_pattern_1_nistxml_sv_iv_list_ncname_pattern_2_1(mode, save_output):
+def test_list_ncname_pattern_1_nistxml_sv_iv_list_ncname_pattern_2_1(mode, save_output, output_format):
     r"""
     Type list/NCName is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{7} [\i-[:]][\c-[:]]{35} [\i-[:]][\c-[:]]{46}
@@ -2040,11 +2170,12 @@ def test_list_ncname_pattern_1_nistxml_sv_iv_list_ncname_pattern_2_1(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_pattern_1_nistxml_sv_iv_list_ncname_pattern_2_2(mode, save_output):
+def test_list_ncname_pattern_1_nistxml_sv_iv_list_ncname_pattern_2_2(mode, save_output, output_format):
     r"""
     Type list/NCName is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{7} [\i-[:]][\c-[:]]{35} [\i-[:]][\c-[:]]{46}
@@ -2058,11 +2189,12 @@ def test_list_ncname_pattern_1_nistxml_sv_iv_list_ncname_pattern_2_2(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_pattern_1_nistxml_sv_iv_list_ncname_pattern_2_3(mode, save_output):
+def test_list_ncname_pattern_1_nistxml_sv_iv_list_ncname_pattern_2_3(mode, save_output, output_format):
     r"""
     Type list/NCName is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{7} [\i-[:]][\c-[:]]{35} [\i-[:]][\c-[:]]{46}
@@ -2076,11 +2208,12 @@ def test_list_ncname_pattern_1_nistxml_sv_iv_list_ncname_pattern_2_3(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_pattern_1_nistxml_sv_iv_list_ncname_pattern_2_4(mode, save_output):
+def test_list_ncname_pattern_1_nistxml_sv_iv_list_ncname_pattern_2_4(mode, save_output, output_format):
     r"""
     Type list/NCName is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{7} [\i-[:]][\c-[:]]{35} [\i-[:]][\c-[:]]{46}
@@ -2094,11 +2227,12 @@ def test_list_ncname_pattern_1_nistxml_sv_iv_list_ncname_pattern_2_4(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_pattern_1_nistxml_sv_iv_list_ncname_pattern_2_5(mode, save_output):
+def test_list_ncname_pattern_1_nistxml_sv_iv_list_ncname_pattern_2_5(mode, save_output, output_format):
     r"""
     Type list/NCName is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{7} [\i-[:]][\c-[:]]{35} [\i-[:]][\c-[:]]{46}
@@ -2112,11 +2246,12 @@ def test_list_ncname_pattern_1_nistxml_sv_iv_list_ncname_pattern_2_5(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_pattern_nistxml_sv_iv_list_ncname_pattern_1_1(mode, save_output):
+def test_list_ncname_pattern_nistxml_sv_iv_list_ncname_pattern_1_1(mode, save_output, output_format):
     r"""
     Type list/NCName is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{39} [\i-[:]][\c-[:]]{15} [\i-[:]][\c-[:]]{23}
@@ -2130,11 +2265,12 @@ def test_list_ncname_pattern_nistxml_sv_iv_list_ncname_pattern_1_1(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_pattern_nistxml_sv_iv_list_ncname_pattern_1_2(mode, save_output):
+def test_list_ncname_pattern_nistxml_sv_iv_list_ncname_pattern_1_2(mode, save_output, output_format):
     r"""
     Type list/NCName is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{39} [\i-[:]][\c-[:]]{15} [\i-[:]][\c-[:]]{23}
@@ -2148,11 +2284,12 @@ def test_list_ncname_pattern_nistxml_sv_iv_list_ncname_pattern_1_2(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_pattern_nistxml_sv_iv_list_ncname_pattern_1_3(mode, save_output):
+def test_list_ncname_pattern_nistxml_sv_iv_list_ncname_pattern_1_3(mode, save_output, output_format):
     r"""
     Type list/NCName is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{39} [\i-[:]][\c-[:]]{15} [\i-[:]][\c-[:]]{23}
@@ -2166,11 +2303,12 @@ def test_list_ncname_pattern_nistxml_sv_iv_list_ncname_pattern_1_3(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_pattern_nistxml_sv_iv_list_ncname_pattern_1_4(mode, save_output):
+def test_list_ncname_pattern_nistxml_sv_iv_list_ncname_pattern_1_4(mode, save_output, output_format):
     r"""
     Type list/NCName is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{39} [\i-[:]][\c-[:]]{15} [\i-[:]][\c-[:]]{23}
@@ -2184,11 +2322,12 @@ def test_list_ncname_pattern_nistxml_sv_iv_list_ncname_pattern_1_4(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_pattern_nistxml_sv_iv_list_ncname_pattern_1_5(mode, save_output):
+def test_list_ncname_pattern_nistxml_sv_iv_list_ncname_pattern_1_5(mode, save_output, output_format):
     r"""
     Type list/NCName is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{39} [\i-[:]][\c-[:]]{15} [\i-[:]][\c-[:]]{23}
@@ -2202,11 +2341,12 @@ def test_list_ncname_pattern_nistxml_sv_iv_list_ncname_pattern_1_5(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_length_4_nistxml_sv_iv_list_ncname_length_5_1(mode, save_output):
+def test_list_ncname_length_4_nistxml_sv_iv_list_ncname_length_5_1(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet length with value 10.
     """
@@ -2217,11 +2357,12 @@ def test_list_ncname_length_4_nistxml_sv_iv_list_ncname_length_5_1(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_length_4_nistxml_sv_iv_list_ncname_length_5_2(mode, save_output):
+def test_list_ncname_length_4_nistxml_sv_iv_list_ncname_length_5_2(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet length with value 10.
     """
@@ -2232,11 +2373,12 @@ def test_list_ncname_length_4_nistxml_sv_iv_list_ncname_length_5_2(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_length_4_nistxml_sv_iv_list_ncname_length_5_3(mode, save_output):
+def test_list_ncname_length_4_nistxml_sv_iv_list_ncname_length_5_3(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet length with value 10.
     """
@@ -2247,11 +2389,12 @@ def test_list_ncname_length_4_nistxml_sv_iv_list_ncname_length_5_3(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_length_4_nistxml_sv_iv_list_ncname_length_5_4(mode, save_output):
+def test_list_ncname_length_4_nistxml_sv_iv_list_ncname_length_5_4(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet length with value 10.
     """
@@ -2262,11 +2405,12 @@ def test_list_ncname_length_4_nistxml_sv_iv_list_ncname_length_5_4(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_length_4_nistxml_sv_iv_list_ncname_length_5_5(mode, save_output):
+def test_list_ncname_length_4_nistxml_sv_iv_list_ncname_length_5_5(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet length with value 10.
     """
@@ -2277,11 +2421,12 @@ def test_list_ncname_length_4_nistxml_sv_iv_list_ncname_length_5_5(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_length_3_nistxml_sv_iv_list_ncname_length_4_1(mode, save_output):
+def test_list_ncname_length_3_nistxml_sv_iv_list_ncname_length_4_1(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet length with value 8.
     """
@@ -2292,11 +2437,12 @@ def test_list_ncname_length_3_nistxml_sv_iv_list_ncname_length_4_1(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_length_3_nistxml_sv_iv_list_ncname_length_4_2(mode, save_output):
+def test_list_ncname_length_3_nistxml_sv_iv_list_ncname_length_4_2(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet length with value 8.
     """
@@ -2307,11 +2453,12 @@ def test_list_ncname_length_3_nistxml_sv_iv_list_ncname_length_4_2(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_length_3_nistxml_sv_iv_list_ncname_length_4_3(mode, save_output):
+def test_list_ncname_length_3_nistxml_sv_iv_list_ncname_length_4_3(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet length with value 8.
     """
@@ -2322,11 +2469,12 @@ def test_list_ncname_length_3_nistxml_sv_iv_list_ncname_length_4_3(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_length_3_nistxml_sv_iv_list_ncname_length_4_4(mode, save_output):
+def test_list_ncname_length_3_nistxml_sv_iv_list_ncname_length_4_4(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet length with value 8.
     """
@@ -2337,11 +2485,12 @@ def test_list_ncname_length_3_nistxml_sv_iv_list_ncname_length_4_4(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_length_3_nistxml_sv_iv_list_ncname_length_4_5(mode, save_output):
+def test_list_ncname_length_3_nistxml_sv_iv_list_ncname_length_4_5(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet length with value 8.
     """
@@ -2352,11 +2501,12 @@ def test_list_ncname_length_3_nistxml_sv_iv_list_ncname_length_4_5(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_length_2_nistxml_sv_iv_list_ncname_length_3_1(mode, save_output):
+def test_list_ncname_length_2_nistxml_sv_iv_list_ncname_length_3_1(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet length with value 7.
     """
@@ -2367,11 +2517,12 @@ def test_list_ncname_length_2_nistxml_sv_iv_list_ncname_length_3_1(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_length_2_nistxml_sv_iv_list_ncname_length_3_2(mode, save_output):
+def test_list_ncname_length_2_nistxml_sv_iv_list_ncname_length_3_2(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet length with value 7.
     """
@@ -2382,11 +2533,12 @@ def test_list_ncname_length_2_nistxml_sv_iv_list_ncname_length_3_2(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_length_2_nistxml_sv_iv_list_ncname_length_3_3(mode, save_output):
+def test_list_ncname_length_2_nistxml_sv_iv_list_ncname_length_3_3(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet length with value 7.
     """
@@ -2397,11 +2549,12 @@ def test_list_ncname_length_2_nistxml_sv_iv_list_ncname_length_3_3(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_length_2_nistxml_sv_iv_list_ncname_length_3_4(mode, save_output):
+def test_list_ncname_length_2_nistxml_sv_iv_list_ncname_length_3_4(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet length with value 7.
     """
@@ -2412,11 +2565,12 @@ def test_list_ncname_length_2_nistxml_sv_iv_list_ncname_length_3_4(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_length_2_nistxml_sv_iv_list_ncname_length_3_5(mode, save_output):
+def test_list_ncname_length_2_nistxml_sv_iv_list_ncname_length_3_5(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet length with value 7.
     """
@@ -2427,11 +2581,12 @@ def test_list_ncname_length_2_nistxml_sv_iv_list_ncname_length_3_5(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_length_1_nistxml_sv_iv_list_ncname_length_2_1(mode, save_output):
+def test_list_ncname_length_1_nistxml_sv_iv_list_ncname_length_2_1(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet length with value 6.
     """
@@ -2442,11 +2597,12 @@ def test_list_ncname_length_1_nistxml_sv_iv_list_ncname_length_2_1(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_length_1_nistxml_sv_iv_list_ncname_length_2_2(mode, save_output):
+def test_list_ncname_length_1_nistxml_sv_iv_list_ncname_length_2_2(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet length with value 6.
     """
@@ -2457,11 +2613,12 @@ def test_list_ncname_length_1_nistxml_sv_iv_list_ncname_length_2_2(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_length_1_nistxml_sv_iv_list_ncname_length_2_3(mode, save_output):
+def test_list_ncname_length_1_nistxml_sv_iv_list_ncname_length_2_3(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet length with value 6.
     """
@@ -2472,11 +2629,12 @@ def test_list_ncname_length_1_nistxml_sv_iv_list_ncname_length_2_3(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_length_1_nistxml_sv_iv_list_ncname_length_2_4(mode, save_output):
+def test_list_ncname_length_1_nistxml_sv_iv_list_ncname_length_2_4(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet length with value 6.
     """
@@ -2487,11 +2645,12 @@ def test_list_ncname_length_1_nistxml_sv_iv_list_ncname_length_2_4(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_length_1_nistxml_sv_iv_list_ncname_length_2_5(mode, save_output):
+def test_list_ncname_length_1_nistxml_sv_iv_list_ncname_length_2_5(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet length with value 6.
     """
@@ -2502,11 +2661,12 @@ def test_list_ncname_length_1_nistxml_sv_iv_list_ncname_length_2_5(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_length_nistxml_sv_iv_list_ncname_length_1_1(mode, save_output):
+def test_list_ncname_length_nistxml_sv_iv_list_ncname_length_1_1(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet length with value 5.
     """
@@ -2517,11 +2677,12 @@ def test_list_ncname_length_nistxml_sv_iv_list_ncname_length_1_1(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_length_nistxml_sv_iv_list_ncname_length_1_2(mode, save_output):
+def test_list_ncname_length_nistxml_sv_iv_list_ncname_length_1_2(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet length with value 5.
     """
@@ -2532,11 +2693,12 @@ def test_list_ncname_length_nistxml_sv_iv_list_ncname_length_1_2(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_length_nistxml_sv_iv_list_ncname_length_1_3(mode, save_output):
+def test_list_ncname_length_nistxml_sv_iv_list_ncname_length_1_3(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet length with value 5.
     """
@@ -2547,11 +2709,12 @@ def test_list_ncname_length_nistxml_sv_iv_list_ncname_length_1_3(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_length_nistxml_sv_iv_list_ncname_length_1_4(mode, save_output):
+def test_list_ncname_length_nistxml_sv_iv_list_ncname_length_1_4(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet length with value 5.
     """
@@ -2562,11 +2725,12 @@ def test_list_ncname_length_nistxml_sv_iv_list_ncname_length_1_4(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_length_nistxml_sv_iv_list_ncname_length_1_5(mode, save_output):
+def test_list_ncname_length_nistxml_sv_iv_list_ncname_length_1_5(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet length with value 5.
     """
@@ -2577,11 +2741,12 @@ def test_list_ncname_length_nistxml_sv_iv_list_ncname_length_1_5(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_min_length_4_nistxml_sv_iv_list_ncname_min_length_5_1(mode, save_output):
+def test_list_ncname_min_length_4_nistxml_sv_iv_list_ncname_min_length_5_1(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet minLength with value 10.
     """
@@ -2592,11 +2757,12 @@ def test_list_ncname_min_length_4_nistxml_sv_iv_list_ncname_min_length_5_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_min_length_4_nistxml_sv_iv_list_ncname_min_length_5_2(mode, save_output):
+def test_list_ncname_min_length_4_nistxml_sv_iv_list_ncname_min_length_5_2(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet minLength with value 10.
     """
@@ -2607,11 +2773,12 @@ def test_list_ncname_min_length_4_nistxml_sv_iv_list_ncname_min_length_5_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_min_length_4_nistxml_sv_iv_list_ncname_min_length_5_3(mode, save_output):
+def test_list_ncname_min_length_4_nistxml_sv_iv_list_ncname_min_length_5_3(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet minLength with value 10.
     """
@@ -2622,11 +2789,12 @@ def test_list_ncname_min_length_4_nistxml_sv_iv_list_ncname_min_length_5_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_min_length_4_nistxml_sv_iv_list_ncname_min_length_5_4(mode, save_output):
+def test_list_ncname_min_length_4_nistxml_sv_iv_list_ncname_min_length_5_4(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet minLength with value 10.
     """
@@ -2637,11 +2805,12 @@ def test_list_ncname_min_length_4_nistxml_sv_iv_list_ncname_min_length_5_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_min_length_4_nistxml_sv_iv_list_ncname_min_length_5_5(mode, save_output):
+def test_list_ncname_min_length_4_nistxml_sv_iv_list_ncname_min_length_5_5(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet minLength with value 10.
     """
@@ -2652,11 +2821,12 @@ def test_list_ncname_min_length_4_nistxml_sv_iv_list_ncname_min_length_5_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_min_length_3_nistxml_sv_iv_list_ncname_min_length_4_1(mode, save_output):
+def test_list_ncname_min_length_3_nistxml_sv_iv_list_ncname_min_length_4_1(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet minLength with value 8.
     """
@@ -2667,11 +2837,12 @@ def test_list_ncname_min_length_3_nistxml_sv_iv_list_ncname_min_length_4_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_min_length_3_nistxml_sv_iv_list_ncname_min_length_4_2(mode, save_output):
+def test_list_ncname_min_length_3_nistxml_sv_iv_list_ncname_min_length_4_2(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet minLength with value 8.
     """
@@ -2682,11 +2853,12 @@ def test_list_ncname_min_length_3_nistxml_sv_iv_list_ncname_min_length_4_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_min_length_3_nistxml_sv_iv_list_ncname_min_length_4_3(mode, save_output):
+def test_list_ncname_min_length_3_nistxml_sv_iv_list_ncname_min_length_4_3(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet minLength with value 8.
     """
@@ -2697,11 +2869,12 @@ def test_list_ncname_min_length_3_nistxml_sv_iv_list_ncname_min_length_4_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_min_length_3_nistxml_sv_iv_list_ncname_min_length_4_4(mode, save_output):
+def test_list_ncname_min_length_3_nistxml_sv_iv_list_ncname_min_length_4_4(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet minLength with value 8.
     """
@@ -2712,11 +2885,12 @@ def test_list_ncname_min_length_3_nistxml_sv_iv_list_ncname_min_length_4_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_min_length_3_nistxml_sv_iv_list_ncname_min_length_4_5(mode, save_output):
+def test_list_ncname_min_length_3_nistxml_sv_iv_list_ncname_min_length_4_5(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet minLength with value 8.
     """
@@ -2727,11 +2901,12 @@ def test_list_ncname_min_length_3_nistxml_sv_iv_list_ncname_min_length_4_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_min_length_2_nistxml_sv_iv_list_ncname_min_length_3_1(mode, save_output):
+def test_list_ncname_min_length_2_nistxml_sv_iv_list_ncname_min_length_3_1(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet minLength with value 7.
     """
@@ -2742,11 +2917,12 @@ def test_list_ncname_min_length_2_nistxml_sv_iv_list_ncname_min_length_3_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_min_length_2_nistxml_sv_iv_list_ncname_min_length_3_2(mode, save_output):
+def test_list_ncname_min_length_2_nistxml_sv_iv_list_ncname_min_length_3_2(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet minLength with value 7.
     """
@@ -2757,11 +2933,12 @@ def test_list_ncname_min_length_2_nistxml_sv_iv_list_ncname_min_length_3_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_min_length_2_nistxml_sv_iv_list_ncname_min_length_3_3(mode, save_output):
+def test_list_ncname_min_length_2_nistxml_sv_iv_list_ncname_min_length_3_3(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet minLength with value 7.
     """
@@ -2772,11 +2949,12 @@ def test_list_ncname_min_length_2_nistxml_sv_iv_list_ncname_min_length_3_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_min_length_2_nistxml_sv_iv_list_ncname_min_length_3_4(mode, save_output):
+def test_list_ncname_min_length_2_nistxml_sv_iv_list_ncname_min_length_3_4(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet minLength with value 7.
     """
@@ -2787,11 +2965,12 @@ def test_list_ncname_min_length_2_nistxml_sv_iv_list_ncname_min_length_3_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_min_length_2_nistxml_sv_iv_list_ncname_min_length_3_5(mode, save_output):
+def test_list_ncname_min_length_2_nistxml_sv_iv_list_ncname_min_length_3_5(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet minLength with value 7.
     """
@@ -2802,11 +2981,12 @@ def test_list_ncname_min_length_2_nistxml_sv_iv_list_ncname_min_length_3_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_min_length_1_nistxml_sv_iv_list_ncname_min_length_2_1(mode, save_output):
+def test_list_ncname_min_length_1_nistxml_sv_iv_list_ncname_min_length_2_1(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet minLength with value 6.
     """
@@ -2817,11 +2997,12 @@ def test_list_ncname_min_length_1_nistxml_sv_iv_list_ncname_min_length_2_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_min_length_1_nistxml_sv_iv_list_ncname_min_length_2_2(mode, save_output):
+def test_list_ncname_min_length_1_nistxml_sv_iv_list_ncname_min_length_2_2(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet minLength with value 6.
     """
@@ -2832,11 +3013,12 @@ def test_list_ncname_min_length_1_nistxml_sv_iv_list_ncname_min_length_2_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_min_length_1_nistxml_sv_iv_list_ncname_min_length_2_3(mode, save_output):
+def test_list_ncname_min_length_1_nistxml_sv_iv_list_ncname_min_length_2_3(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet minLength with value 6.
     """
@@ -2847,11 +3029,12 @@ def test_list_ncname_min_length_1_nistxml_sv_iv_list_ncname_min_length_2_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_min_length_1_nistxml_sv_iv_list_ncname_min_length_2_4(mode, save_output):
+def test_list_ncname_min_length_1_nistxml_sv_iv_list_ncname_min_length_2_4(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet minLength with value 6.
     """
@@ -2862,11 +3045,12 @@ def test_list_ncname_min_length_1_nistxml_sv_iv_list_ncname_min_length_2_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_min_length_1_nistxml_sv_iv_list_ncname_min_length_2_5(mode, save_output):
+def test_list_ncname_min_length_1_nistxml_sv_iv_list_ncname_min_length_2_5(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet minLength with value 6.
     """
@@ -2877,11 +3061,12 @@ def test_list_ncname_min_length_1_nistxml_sv_iv_list_ncname_min_length_2_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_min_length_nistxml_sv_iv_list_ncname_min_length_1_1(mode, save_output):
+def test_list_ncname_min_length_nistxml_sv_iv_list_ncname_min_length_1_1(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet minLength with value 5.
     """
@@ -2892,11 +3077,12 @@ def test_list_ncname_min_length_nistxml_sv_iv_list_ncname_min_length_1_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_min_length_nistxml_sv_iv_list_ncname_min_length_1_2(mode, save_output):
+def test_list_ncname_min_length_nistxml_sv_iv_list_ncname_min_length_1_2(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet minLength with value 5.
     """
@@ -2907,11 +3093,12 @@ def test_list_ncname_min_length_nistxml_sv_iv_list_ncname_min_length_1_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_min_length_nistxml_sv_iv_list_ncname_min_length_1_3(mode, save_output):
+def test_list_ncname_min_length_nistxml_sv_iv_list_ncname_min_length_1_3(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet minLength with value 5.
     """
@@ -2922,11 +3109,12 @@ def test_list_ncname_min_length_nistxml_sv_iv_list_ncname_min_length_1_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_min_length_nistxml_sv_iv_list_ncname_min_length_1_4(mode, save_output):
+def test_list_ncname_min_length_nistxml_sv_iv_list_ncname_min_length_1_4(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet minLength with value 5.
     """
@@ -2937,11 +3125,12 @@ def test_list_ncname_min_length_nistxml_sv_iv_list_ncname_min_length_1_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_min_length_nistxml_sv_iv_list_ncname_min_length_1_5(mode, save_output):
+def test_list_ncname_min_length_nistxml_sv_iv_list_ncname_min_length_1_5(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet minLength with value 5.
     """
@@ -2952,11 +3141,12 @@ def test_list_ncname_min_length_nistxml_sv_iv_list_ncname_min_length_1_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_max_length_4_nistxml_sv_iv_list_ncname_max_length_5_1(mode, save_output):
+def test_list_ncname_max_length_4_nistxml_sv_iv_list_ncname_max_length_5_1(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet maxLength with value 10.
     """
@@ -2967,11 +3157,12 @@ def test_list_ncname_max_length_4_nistxml_sv_iv_list_ncname_max_length_5_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_max_length_4_nistxml_sv_iv_list_ncname_max_length_5_2(mode, save_output):
+def test_list_ncname_max_length_4_nistxml_sv_iv_list_ncname_max_length_5_2(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet maxLength with value 10.
     """
@@ -2982,11 +3173,12 @@ def test_list_ncname_max_length_4_nistxml_sv_iv_list_ncname_max_length_5_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_max_length_4_nistxml_sv_iv_list_ncname_max_length_5_3(mode, save_output):
+def test_list_ncname_max_length_4_nistxml_sv_iv_list_ncname_max_length_5_3(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet maxLength with value 10.
     """
@@ -2997,11 +3189,12 @@ def test_list_ncname_max_length_4_nistxml_sv_iv_list_ncname_max_length_5_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_max_length_4_nistxml_sv_iv_list_ncname_max_length_5_4(mode, save_output):
+def test_list_ncname_max_length_4_nistxml_sv_iv_list_ncname_max_length_5_4(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet maxLength with value 10.
     """
@@ -3012,11 +3205,12 @@ def test_list_ncname_max_length_4_nistxml_sv_iv_list_ncname_max_length_5_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_max_length_4_nistxml_sv_iv_list_ncname_max_length_5_5(mode, save_output):
+def test_list_ncname_max_length_4_nistxml_sv_iv_list_ncname_max_length_5_5(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet maxLength with value 10.
     """
@@ -3027,11 +3221,12 @@ def test_list_ncname_max_length_4_nistxml_sv_iv_list_ncname_max_length_5_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_max_length_3_nistxml_sv_iv_list_ncname_max_length_4_1(mode, save_output):
+def test_list_ncname_max_length_3_nistxml_sv_iv_list_ncname_max_length_4_1(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet maxLength with value 8.
     """
@@ -3042,11 +3237,12 @@ def test_list_ncname_max_length_3_nistxml_sv_iv_list_ncname_max_length_4_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_max_length_3_nistxml_sv_iv_list_ncname_max_length_4_2(mode, save_output):
+def test_list_ncname_max_length_3_nistxml_sv_iv_list_ncname_max_length_4_2(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet maxLength with value 8.
     """
@@ -3057,11 +3253,12 @@ def test_list_ncname_max_length_3_nistxml_sv_iv_list_ncname_max_length_4_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_max_length_3_nistxml_sv_iv_list_ncname_max_length_4_3(mode, save_output):
+def test_list_ncname_max_length_3_nistxml_sv_iv_list_ncname_max_length_4_3(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet maxLength with value 8.
     """
@@ -3072,11 +3269,12 @@ def test_list_ncname_max_length_3_nistxml_sv_iv_list_ncname_max_length_4_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_max_length_3_nistxml_sv_iv_list_ncname_max_length_4_4(mode, save_output):
+def test_list_ncname_max_length_3_nistxml_sv_iv_list_ncname_max_length_4_4(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet maxLength with value 8.
     """
@@ -3087,11 +3285,12 @@ def test_list_ncname_max_length_3_nistxml_sv_iv_list_ncname_max_length_4_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_max_length_3_nistxml_sv_iv_list_ncname_max_length_4_5(mode, save_output):
+def test_list_ncname_max_length_3_nistxml_sv_iv_list_ncname_max_length_4_5(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet maxLength with value 8.
     """
@@ -3102,11 +3301,12 @@ def test_list_ncname_max_length_3_nistxml_sv_iv_list_ncname_max_length_4_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_max_length_2_nistxml_sv_iv_list_ncname_max_length_3_1(mode, save_output):
+def test_list_ncname_max_length_2_nistxml_sv_iv_list_ncname_max_length_3_1(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet maxLength with value 7.
     """
@@ -3117,11 +3317,12 @@ def test_list_ncname_max_length_2_nistxml_sv_iv_list_ncname_max_length_3_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_max_length_2_nistxml_sv_iv_list_ncname_max_length_3_2(mode, save_output):
+def test_list_ncname_max_length_2_nistxml_sv_iv_list_ncname_max_length_3_2(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet maxLength with value 7.
     """
@@ -3132,11 +3333,12 @@ def test_list_ncname_max_length_2_nistxml_sv_iv_list_ncname_max_length_3_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_max_length_2_nistxml_sv_iv_list_ncname_max_length_3_3(mode, save_output):
+def test_list_ncname_max_length_2_nistxml_sv_iv_list_ncname_max_length_3_3(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet maxLength with value 7.
     """
@@ -3147,11 +3349,12 @@ def test_list_ncname_max_length_2_nistxml_sv_iv_list_ncname_max_length_3_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_max_length_2_nistxml_sv_iv_list_ncname_max_length_3_4(mode, save_output):
+def test_list_ncname_max_length_2_nistxml_sv_iv_list_ncname_max_length_3_4(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet maxLength with value 7.
     """
@@ -3162,11 +3365,12 @@ def test_list_ncname_max_length_2_nistxml_sv_iv_list_ncname_max_length_3_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_max_length_2_nistxml_sv_iv_list_ncname_max_length_3_5(mode, save_output):
+def test_list_ncname_max_length_2_nistxml_sv_iv_list_ncname_max_length_3_5(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet maxLength with value 7.
     """
@@ -3177,11 +3381,12 @@ def test_list_ncname_max_length_2_nistxml_sv_iv_list_ncname_max_length_3_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_max_length_1_nistxml_sv_iv_list_ncname_max_length_2_1(mode, save_output):
+def test_list_ncname_max_length_1_nistxml_sv_iv_list_ncname_max_length_2_1(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet maxLength with value 6.
     """
@@ -3192,11 +3397,12 @@ def test_list_ncname_max_length_1_nistxml_sv_iv_list_ncname_max_length_2_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_max_length_1_nistxml_sv_iv_list_ncname_max_length_2_2(mode, save_output):
+def test_list_ncname_max_length_1_nistxml_sv_iv_list_ncname_max_length_2_2(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet maxLength with value 6.
     """
@@ -3207,11 +3413,12 @@ def test_list_ncname_max_length_1_nistxml_sv_iv_list_ncname_max_length_2_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_max_length_1_nistxml_sv_iv_list_ncname_max_length_2_3(mode, save_output):
+def test_list_ncname_max_length_1_nistxml_sv_iv_list_ncname_max_length_2_3(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet maxLength with value 6.
     """
@@ -3222,11 +3429,12 @@ def test_list_ncname_max_length_1_nistxml_sv_iv_list_ncname_max_length_2_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_max_length_1_nistxml_sv_iv_list_ncname_max_length_2_4(mode, save_output):
+def test_list_ncname_max_length_1_nistxml_sv_iv_list_ncname_max_length_2_4(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet maxLength with value 6.
     """
@@ -3237,11 +3445,12 @@ def test_list_ncname_max_length_1_nistxml_sv_iv_list_ncname_max_length_2_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_max_length_1_nistxml_sv_iv_list_ncname_max_length_2_5(mode, save_output):
+def test_list_ncname_max_length_1_nistxml_sv_iv_list_ncname_max_length_2_5(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet maxLength with value 6.
     """
@@ -3252,11 +3461,12 @@ def test_list_ncname_max_length_1_nistxml_sv_iv_list_ncname_max_length_2_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_max_length_nistxml_sv_iv_list_ncname_max_length_1_1(mode, save_output):
+def test_list_ncname_max_length_nistxml_sv_iv_list_ncname_max_length_1_1(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet maxLength with value 5.
     """
@@ -3267,11 +3477,12 @@ def test_list_ncname_max_length_nistxml_sv_iv_list_ncname_max_length_1_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_max_length_nistxml_sv_iv_list_ncname_max_length_1_2(mode, save_output):
+def test_list_ncname_max_length_nistxml_sv_iv_list_ncname_max_length_1_2(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet maxLength with value 5.
     """
@@ -3282,11 +3493,12 @@ def test_list_ncname_max_length_nistxml_sv_iv_list_ncname_max_length_1_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_max_length_nistxml_sv_iv_list_ncname_max_length_1_3(mode, save_output):
+def test_list_ncname_max_length_nistxml_sv_iv_list_ncname_max_length_1_3(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet maxLength with value 5.
     """
@@ -3297,11 +3509,12 @@ def test_list_ncname_max_length_nistxml_sv_iv_list_ncname_max_length_1_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_max_length_nistxml_sv_iv_list_ncname_max_length_1_4(mode, save_output):
+def test_list_ncname_max_length_nistxml_sv_iv_list_ncname_max_length_1_4(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet maxLength with value 5.
     """
@@ -3312,11 +3525,12 @@ def test_list_ncname_max_length_nistxml_sv_iv_list_ncname_max_length_1_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_ncname_max_length_nistxml_sv_iv_list_ncname_max_length_1_5(mode, save_output):
+def test_list_ncname_max_length_nistxml_sv_iv_list_ncname_max_length_1_5(mode, save_output, output_format):
     """
     Type list/NCName is restricted by facet maxLength with value 5.
     """
@@ -3327,11 +3541,12 @@ def test_list_ncname_max_length_nistxml_sv_iv_list_ncname_max_length_1_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_white_space_nistxml_sv_iv_list_nmtokens_white_space_1_1(mode, save_output):
+def test_list_nmtokens_white_space_nistxml_sv_iv_list_nmtokens_white_space_1_1(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet whiteSpace with value
     collapse.
@@ -3343,11 +3558,12 @@ def test_list_nmtokens_white_space_nistxml_sv_iv_list_nmtokens_white_space_1_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_white_space_nistxml_sv_iv_list_nmtokens_white_space_1_2(mode, save_output):
+def test_list_nmtokens_white_space_nistxml_sv_iv_list_nmtokens_white_space_1_2(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet whiteSpace with value
     collapse.
@@ -3359,11 +3575,12 @@ def test_list_nmtokens_white_space_nistxml_sv_iv_list_nmtokens_white_space_1_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_white_space_nistxml_sv_iv_list_nmtokens_white_space_1_3(mode, save_output):
+def test_list_nmtokens_white_space_nistxml_sv_iv_list_nmtokens_white_space_1_3(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet whiteSpace with value
     collapse.
@@ -3375,11 +3592,12 @@ def test_list_nmtokens_white_space_nistxml_sv_iv_list_nmtokens_white_space_1_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_white_space_nistxml_sv_iv_list_nmtokens_white_space_1_4(mode, save_output):
+def test_list_nmtokens_white_space_nistxml_sv_iv_list_nmtokens_white_space_1_4(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet whiteSpace with value
     collapse.
@@ -3391,11 +3609,12 @@ def test_list_nmtokens_white_space_nistxml_sv_iv_list_nmtokens_white_space_1_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_white_space_nistxml_sv_iv_list_nmtokens_white_space_1_5(mode, save_output):
+def test_list_nmtokens_white_space_nistxml_sv_iv_list_nmtokens_white_space_1_5(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet whiteSpace with value
     collapse.
@@ -3407,11 +3626,12 @@ def test_list_nmtokens_white_space_nistxml_sv_iv_list_nmtokens_white_space_1_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_enumeration_4_nistxml_sv_iv_list_nmtokens_enumeration_5_1(mode, save_output):
+def test_list_nmtokens_enumeration_4_nistxml_sv_iv_list_nmtokens_enumeration_5_1(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet enumeration.
     """
@@ -3422,11 +3642,12 @@ def test_list_nmtokens_enumeration_4_nistxml_sv_iv_list_nmtokens_enumeration_5_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_enumeration_4_nistxml_sv_iv_list_nmtokens_enumeration_5_2(mode, save_output):
+def test_list_nmtokens_enumeration_4_nistxml_sv_iv_list_nmtokens_enumeration_5_2(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet enumeration.
     """
@@ -3437,11 +3658,12 @@ def test_list_nmtokens_enumeration_4_nistxml_sv_iv_list_nmtokens_enumeration_5_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_enumeration_4_nistxml_sv_iv_list_nmtokens_enumeration_5_3(mode, save_output):
+def test_list_nmtokens_enumeration_4_nistxml_sv_iv_list_nmtokens_enumeration_5_3(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet enumeration.
     """
@@ -3452,11 +3674,12 @@ def test_list_nmtokens_enumeration_4_nistxml_sv_iv_list_nmtokens_enumeration_5_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_enumeration_4_nistxml_sv_iv_list_nmtokens_enumeration_5_4(mode, save_output):
+def test_list_nmtokens_enumeration_4_nistxml_sv_iv_list_nmtokens_enumeration_5_4(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet enumeration.
     """
@@ -3467,11 +3690,12 @@ def test_list_nmtokens_enumeration_4_nistxml_sv_iv_list_nmtokens_enumeration_5_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_enumeration_4_nistxml_sv_iv_list_nmtokens_enumeration_5_5(mode, save_output):
+def test_list_nmtokens_enumeration_4_nistxml_sv_iv_list_nmtokens_enumeration_5_5(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet enumeration.
     """
@@ -3482,11 +3706,12 @@ def test_list_nmtokens_enumeration_4_nistxml_sv_iv_list_nmtokens_enumeration_5_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_enumeration_3_nistxml_sv_iv_list_nmtokens_enumeration_4_1(mode, save_output):
+def test_list_nmtokens_enumeration_3_nistxml_sv_iv_list_nmtokens_enumeration_4_1(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet enumeration.
     """
@@ -3497,11 +3722,12 @@ def test_list_nmtokens_enumeration_3_nistxml_sv_iv_list_nmtokens_enumeration_4_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_enumeration_3_nistxml_sv_iv_list_nmtokens_enumeration_4_2(mode, save_output):
+def test_list_nmtokens_enumeration_3_nistxml_sv_iv_list_nmtokens_enumeration_4_2(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet enumeration.
     """
@@ -3512,11 +3738,12 @@ def test_list_nmtokens_enumeration_3_nistxml_sv_iv_list_nmtokens_enumeration_4_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_enumeration_3_nistxml_sv_iv_list_nmtokens_enumeration_4_3(mode, save_output):
+def test_list_nmtokens_enumeration_3_nistxml_sv_iv_list_nmtokens_enumeration_4_3(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet enumeration.
     """
@@ -3527,11 +3754,12 @@ def test_list_nmtokens_enumeration_3_nistxml_sv_iv_list_nmtokens_enumeration_4_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_enumeration_3_nistxml_sv_iv_list_nmtokens_enumeration_4_4(mode, save_output):
+def test_list_nmtokens_enumeration_3_nistxml_sv_iv_list_nmtokens_enumeration_4_4(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet enumeration.
     """
@@ -3542,11 +3770,12 @@ def test_list_nmtokens_enumeration_3_nistxml_sv_iv_list_nmtokens_enumeration_4_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_enumeration_3_nistxml_sv_iv_list_nmtokens_enumeration_4_5(mode, save_output):
+def test_list_nmtokens_enumeration_3_nistxml_sv_iv_list_nmtokens_enumeration_4_5(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet enumeration.
     """
@@ -3557,11 +3786,12 @@ def test_list_nmtokens_enumeration_3_nistxml_sv_iv_list_nmtokens_enumeration_4_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_enumeration_2_nistxml_sv_iv_list_nmtokens_enumeration_3_1(mode, save_output):
+def test_list_nmtokens_enumeration_2_nistxml_sv_iv_list_nmtokens_enumeration_3_1(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet enumeration.
     """
@@ -3572,11 +3802,12 @@ def test_list_nmtokens_enumeration_2_nistxml_sv_iv_list_nmtokens_enumeration_3_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_enumeration_2_nistxml_sv_iv_list_nmtokens_enumeration_3_2(mode, save_output):
+def test_list_nmtokens_enumeration_2_nistxml_sv_iv_list_nmtokens_enumeration_3_2(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet enumeration.
     """
@@ -3587,11 +3818,12 @@ def test_list_nmtokens_enumeration_2_nistxml_sv_iv_list_nmtokens_enumeration_3_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_enumeration_2_nistxml_sv_iv_list_nmtokens_enumeration_3_3(mode, save_output):
+def test_list_nmtokens_enumeration_2_nistxml_sv_iv_list_nmtokens_enumeration_3_3(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet enumeration.
     """
@@ -3602,11 +3834,12 @@ def test_list_nmtokens_enumeration_2_nistxml_sv_iv_list_nmtokens_enumeration_3_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_enumeration_2_nistxml_sv_iv_list_nmtokens_enumeration_3_4(mode, save_output):
+def test_list_nmtokens_enumeration_2_nistxml_sv_iv_list_nmtokens_enumeration_3_4(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet enumeration.
     """
@@ -3617,11 +3850,12 @@ def test_list_nmtokens_enumeration_2_nistxml_sv_iv_list_nmtokens_enumeration_3_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_enumeration_2_nistxml_sv_iv_list_nmtokens_enumeration_3_5(mode, save_output):
+def test_list_nmtokens_enumeration_2_nistxml_sv_iv_list_nmtokens_enumeration_3_5(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet enumeration.
     """
@@ -3632,11 +3866,12 @@ def test_list_nmtokens_enumeration_2_nistxml_sv_iv_list_nmtokens_enumeration_3_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_enumeration_1_nistxml_sv_iv_list_nmtokens_enumeration_2_1(mode, save_output):
+def test_list_nmtokens_enumeration_1_nistxml_sv_iv_list_nmtokens_enumeration_2_1(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet enumeration.
     """
@@ -3647,11 +3882,12 @@ def test_list_nmtokens_enumeration_1_nistxml_sv_iv_list_nmtokens_enumeration_2_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_enumeration_1_nistxml_sv_iv_list_nmtokens_enumeration_2_2(mode, save_output):
+def test_list_nmtokens_enumeration_1_nistxml_sv_iv_list_nmtokens_enumeration_2_2(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet enumeration.
     """
@@ -3662,11 +3898,12 @@ def test_list_nmtokens_enumeration_1_nistxml_sv_iv_list_nmtokens_enumeration_2_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_enumeration_1_nistxml_sv_iv_list_nmtokens_enumeration_2_3(mode, save_output):
+def test_list_nmtokens_enumeration_1_nistxml_sv_iv_list_nmtokens_enumeration_2_3(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet enumeration.
     """
@@ -3677,11 +3914,12 @@ def test_list_nmtokens_enumeration_1_nistxml_sv_iv_list_nmtokens_enumeration_2_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_enumeration_1_nistxml_sv_iv_list_nmtokens_enumeration_2_4(mode, save_output):
+def test_list_nmtokens_enumeration_1_nistxml_sv_iv_list_nmtokens_enumeration_2_4(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet enumeration.
     """
@@ -3692,11 +3930,12 @@ def test_list_nmtokens_enumeration_1_nistxml_sv_iv_list_nmtokens_enumeration_2_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_enumeration_1_nistxml_sv_iv_list_nmtokens_enumeration_2_5(mode, save_output):
+def test_list_nmtokens_enumeration_1_nistxml_sv_iv_list_nmtokens_enumeration_2_5(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet enumeration.
     """
@@ -3707,11 +3946,12 @@ def test_list_nmtokens_enumeration_1_nistxml_sv_iv_list_nmtokens_enumeration_2_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_enumeration_nistxml_sv_iv_list_nmtokens_enumeration_1_1(mode, save_output):
+def test_list_nmtokens_enumeration_nistxml_sv_iv_list_nmtokens_enumeration_1_1(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet enumeration.
     """
@@ -3722,11 +3962,12 @@ def test_list_nmtokens_enumeration_nistxml_sv_iv_list_nmtokens_enumeration_1_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_enumeration_nistxml_sv_iv_list_nmtokens_enumeration_1_2(mode, save_output):
+def test_list_nmtokens_enumeration_nistxml_sv_iv_list_nmtokens_enumeration_1_2(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet enumeration.
     """
@@ -3737,11 +3978,12 @@ def test_list_nmtokens_enumeration_nistxml_sv_iv_list_nmtokens_enumeration_1_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_enumeration_nistxml_sv_iv_list_nmtokens_enumeration_1_3(mode, save_output):
+def test_list_nmtokens_enumeration_nistxml_sv_iv_list_nmtokens_enumeration_1_3(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet enumeration.
     """
@@ -3752,11 +3994,12 @@ def test_list_nmtokens_enumeration_nistxml_sv_iv_list_nmtokens_enumeration_1_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_enumeration_nistxml_sv_iv_list_nmtokens_enumeration_1_4(mode, save_output):
+def test_list_nmtokens_enumeration_nistxml_sv_iv_list_nmtokens_enumeration_1_4(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet enumeration.
     """
@@ -3767,11 +4010,12 @@ def test_list_nmtokens_enumeration_nistxml_sv_iv_list_nmtokens_enumeration_1_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_enumeration_nistxml_sv_iv_list_nmtokens_enumeration_1_5(mode, save_output):
+def test_list_nmtokens_enumeration_nistxml_sv_iv_list_nmtokens_enumeration_1_5(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet enumeration.
     """
@@ -3782,11 +4026,12 @@ def test_list_nmtokens_enumeration_nistxml_sv_iv_list_nmtokens_enumeration_1_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_pattern_4_nistxml_sv_iv_list_nmtokens_pattern_5_1(mode, save_output):
+def test_list_nmtokens_pattern_4_nistxml_sv_iv_list_nmtokens_pattern_5_1(mode, save_output, output_format):
     r"""
     Type list/NMTOKENS is restricted by facet pattern with value \c{44}
     \c{22} \c{22} \c{56} \c{18} \c{15} \c{5} \c{38}.
@@ -3798,11 +4043,12 @@ def test_list_nmtokens_pattern_4_nistxml_sv_iv_list_nmtokens_pattern_5_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_pattern_4_nistxml_sv_iv_list_nmtokens_pattern_5_2(mode, save_output):
+def test_list_nmtokens_pattern_4_nistxml_sv_iv_list_nmtokens_pattern_5_2(mode, save_output, output_format):
     r"""
     Type list/NMTOKENS is restricted by facet pattern with value \c{44}
     \c{22} \c{22} \c{56} \c{18} \c{15} \c{5} \c{38}.
@@ -3814,11 +4060,12 @@ def test_list_nmtokens_pattern_4_nistxml_sv_iv_list_nmtokens_pattern_5_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_pattern_4_nistxml_sv_iv_list_nmtokens_pattern_5_3(mode, save_output):
+def test_list_nmtokens_pattern_4_nistxml_sv_iv_list_nmtokens_pattern_5_3(mode, save_output, output_format):
     r"""
     Type list/NMTOKENS is restricted by facet pattern with value \c{44}
     \c{22} \c{22} \c{56} \c{18} \c{15} \c{5} \c{38}.
@@ -3830,11 +4077,12 @@ def test_list_nmtokens_pattern_4_nistxml_sv_iv_list_nmtokens_pattern_5_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_pattern_4_nistxml_sv_iv_list_nmtokens_pattern_5_4(mode, save_output):
+def test_list_nmtokens_pattern_4_nistxml_sv_iv_list_nmtokens_pattern_5_4(mode, save_output, output_format):
     r"""
     Type list/NMTOKENS is restricted by facet pattern with value \c{44}
     \c{22} \c{22} \c{56} \c{18} \c{15} \c{5} \c{38}.
@@ -3846,11 +4094,12 @@ def test_list_nmtokens_pattern_4_nistxml_sv_iv_list_nmtokens_pattern_5_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_pattern_4_nistxml_sv_iv_list_nmtokens_pattern_5_5(mode, save_output):
+def test_list_nmtokens_pattern_4_nistxml_sv_iv_list_nmtokens_pattern_5_5(mode, save_output, output_format):
     r"""
     Type list/NMTOKENS is restricted by facet pattern with value \c{44}
     \c{22} \c{22} \c{56} \c{18} \c{15} \c{5} \c{38}.
@@ -3862,11 +4111,12 @@ def test_list_nmtokens_pattern_4_nistxml_sv_iv_list_nmtokens_pattern_5_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_pattern_3_nistxml_sv_iv_list_nmtokens_pattern_4_1(mode, save_output):
+def test_list_nmtokens_pattern_3_nistxml_sv_iv_list_nmtokens_pattern_4_1(mode, save_output, output_format):
     r"""
     Type list/NMTOKENS is restricted by facet pattern with value \c{29}
     \c{7} \c{23} \c{2} \c{63} \c{24} \c{34} \c{59}.
@@ -3878,11 +4128,12 @@ def test_list_nmtokens_pattern_3_nistxml_sv_iv_list_nmtokens_pattern_4_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_pattern_3_nistxml_sv_iv_list_nmtokens_pattern_4_2(mode, save_output):
+def test_list_nmtokens_pattern_3_nistxml_sv_iv_list_nmtokens_pattern_4_2(mode, save_output, output_format):
     r"""
     Type list/NMTOKENS is restricted by facet pattern with value \c{29}
     \c{7} \c{23} \c{2} \c{63} \c{24} \c{34} \c{59}.
@@ -3894,11 +4145,12 @@ def test_list_nmtokens_pattern_3_nistxml_sv_iv_list_nmtokens_pattern_4_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_pattern_3_nistxml_sv_iv_list_nmtokens_pattern_4_3(mode, save_output):
+def test_list_nmtokens_pattern_3_nistxml_sv_iv_list_nmtokens_pattern_4_3(mode, save_output, output_format):
     r"""
     Type list/NMTOKENS is restricted by facet pattern with value \c{29}
     \c{7} \c{23} \c{2} \c{63} \c{24} \c{34} \c{59}.
@@ -3910,11 +4162,12 @@ def test_list_nmtokens_pattern_3_nistxml_sv_iv_list_nmtokens_pattern_4_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_pattern_3_nistxml_sv_iv_list_nmtokens_pattern_4_4(mode, save_output):
+def test_list_nmtokens_pattern_3_nistxml_sv_iv_list_nmtokens_pattern_4_4(mode, save_output, output_format):
     r"""
     Type list/NMTOKENS is restricted by facet pattern with value \c{29}
     \c{7} \c{23} \c{2} \c{63} \c{24} \c{34} \c{59}.
@@ -3926,11 +4179,12 @@ def test_list_nmtokens_pattern_3_nistxml_sv_iv_list_nmtokens_pattern_4_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_pattern_3_nistxml_sv_iv_list_nmtokens_pattern_4_5(mode, save_output):
+def test_list_nmtokens_pattern_3_nistxml_sv_iv_list_nmtokens_pattern_4_5(mode, save_output, output_format):
     r"""
     Type list/NMTOKENS is restricted by facet pattern with value \c{29}
     \c{7} \c{23} \c{2} \c{63} \c{24} \c{34} \c{59}.
@@ -3942,11 +4196,12 @@ def test_list_nmtokens_pattern_3_nistxml_sv_iv_list_nmtokens_pattern_4_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_pattern_2_nistxml_sv_iv_list_nmtokens_pattern_3_1(mode, save_output):
+def test_list_nmtokens_pattern_2_nistxml_sv_iv_list_nmtokens_pattern_3_1(mode, save_output, output_format):
     r"""
     Type list/NMTOKENS is restricted by facet pattern with value \c{20}
     \c{48} \c{3} \c{54} \c{13} \c{29} \c{5}.
@@ -3958,11 +4213,12 @@ def test_list_nmtokens_pattern_2_nistxml_sv_iv_list_nmtokens_pattern_3_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_pattern_2_nistxml_sv_iv_list_nmtokens_pattern_3_2(mode, save_output):
+def test_list_nmtokens_pattern_2_nistxml_sv_iv_list_nmtokens_pattern_3_2(mode, save_output, output_format):
     r"""
     Type list/NMTOKENS is restricted by facet pattern with value \c{20}
     \c{48} \c{3} \c{54} \c{13} \c{29} \c{5}.
@@ -3974,11 +4230,12 @@ def test_list_nmtokens_pattern_2_nistxml_sv_iv_list_nmtokens_pattern_3_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_pattern_2_nistxml_sv_iv_list_nmtokens_pattern_3_3(mode, save_output):
+def test_list_nmtokens_pattern_2_nistxml_sv_iv_list_nmtokens_pattern_3_3(mode, save_output, output_format):
     r"""
     Type list/NMTOKENS is restricted by facet pattern with value \c{20}
     \c{48} \c{3} \c{54} \c{13} \c{29} \c{5}.
@@ -3990,11 +4247,12 @@ def test_list_nmtokens_pattern_2_nistxml_sv_iv_list_nmtokens_pattern_3_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_pattern_2_nistxml_sv_iv_list_nmtokens_pattern_3_4(mode, save_output):
+def test_list_nmtokens_pattern_2_nistxml_sv_iv_list_nmtokens_pattern_3_4(mode, save_output, output_format):
     r"""
     Type list/NMTOKENS is restricted by facet pattern with value \c{20}
     \c{48} \c{3} \c{54} \c{13} \c{29} \c{5}.
@@ -4006,11 +4264,12 @@ def test_list_nmtokens_pattern_2_nistxml_sv_iv_list_nmtokens_pattern_3_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_pattern_2_nistxml_sv_iv_list_nmtokens_pattern_3_5(mode, save_output):
+def test_list_nmtokens_pattern_2_nistxml_sv_iv_list_nmtokens_pattern_3_5(mode, save_output, output_format):
     r"""
     Type list/NMTOKENS is restricted by facet pattern with value \c{20}
     \c{48} \c{3} \c{54} \c{13} \c{29} \c{5}.
@@ -4022,11 +4281,12 @@ def test_list_nmtokens_pattern_2_nistxml_sv_iv_list_nmtokens_pattern_3_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_pattern_1_nistxml_sv_iv_list_nmtokens_pattern_2_1(mode, save_output):
+def test_list_nmtokens_pattern_1_nistxml_sv_iv_list_nmtokens_pattern_2_1(mode, save_output, output_format):
     r"""
     Type list/NMTOKENS is restricted by facet pattern with value \c{64}
     \c{61} \c{8} \c{25} \c{14} \c{53} \c{12} \c{20}.
@@ -4038,11 +4298,12 @@ def test_list_nmtokens_pattern_1_nistxml_sv_iv_list_nmtokens_pattern_2_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_pattern_1_nistxml_sv_iv_list_nmtokens_pattern_2_2(mode, save_output):
+def test_list_nmtokens_pattern_1_nistxml_sv_iv_list_nmtokens_pattern_2_2(mode, save_output, output_format):
     r"""
     Type list/NMTOKENS is restricted by facet pattern with value \c{64}
     \c{61} \c{8} \c{25} \c{14} \c{53} \c{12} \c{20}.
@@ -4054,11 +4315,12 @@ def test_list_nmtokens_pattern_1_nistxml_sv_iv_list_nmtokens_pattern_2_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_pattern_1_nistxml_sv_iv_list_nmtokens_pattern_2_3(mode, save_output):
+def test_list_nmtokens_pattern_1_nistxml_sv_iv_list_nmtokens_pattern_2_3(mode, save_output, output_format):
     r"""
     Type list/NMTOKENS is restricted by facet pattern with value \c{64}
     \c{61} \c{8} \c{25} \c{14} \c{53} \c{12} \c{20}.
@@ -4070,11 +4332,12 @@ def test_list_nmtokens_pattern_1_nistxml_sv_iv_list_nmtokens_pattern_2_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_pattern_1_nistxml_sv_iv_list_nmtokens_pattern_2_4(mode, save_output):
+def test_list_nmtokens_pattern_1_nistxml_sv_iv_list_nmtokens_pattern_2_4(mode, save_output, output_format):
     r"""
     Type list/NMTOKENS is restricted by facet pattern with value \c{64}
     \c{61} \c{8} \c{25} \c{14} \c{53} \c{12} \c{20}.
@@ -4086,11 +4349,12 @@ def test_list_nmtokens_pattern_1_nistxml_sv_iv_list_nmtokens_pattern_2_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_pattern_1_nistxml_sv_iv_list_nmtokens_pattern_2_5(mode, save_output):
+def test_list_nmtokens_pattern_1_nistxml_sv_iv_list_nmtokens_pattern_2_5(mode, save_output, output_format):
     r"""
     Type list/NMTOKENS is restricted by facet pattern with value \c{64}
     \c{61} \c{8} \c{25} \c{14} \c{53} \c{12} \c{20}.
@@ -4102,11 +4366,12 @@ def test_list_nmtokens_pattern_1_nistxml_sv_iv_list_nmtokens_pattern_2_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_pattern_nistxml_sv_iv_list_nmtokens_pattern_1_1(mode, save_output):
+def test_list_nmtokens_pattern_nistxml_sv_iv_list_nmtokens_pattern_1_1(mode, save_output, output_format):
     r"""
     Type list/NMTOKENS is restricted by facet pattern with value \c{16}
     \c{9} \c{44} \c{34} \c{46} \c{6}.
@@ -4118,11 +4383,12 @@ def test_list_nmtokens_pattern_nistxml_sv_iv_list_nmtokens_pattern_1_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_pattern_nistxml_sv_iv_list_nmtokens_pattern_1_2(mode, save_output):
+def test_list_nmtokens_pattern_nistxml_sv_iv_list_nmtokens_pattern_1_2(mode, save_output, output_format):
     r"""
     Type list/NMTOKENS is restricted by facet pattern with value \c{16}
     \c{9} \c{44} \c{34} \c{46} \c{6}.
@@ -4134,11 +4400,12 @@ def test_list_nmtokens_pattern_nistxml_sv_iv_list_nmtokens_pattern_1_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_pattern_nistxml_sv_iv_list_nmtokens_pattern_1_3(mode, save_output):
+def test_list_nmtokens_pattern_nistxml_sv_iv_list_nmtokens_pattern_1_3(mode, save_output, output_format):
     r"""
     Type list/NMTOKENS is restricted by facet pattern with value \c{16}
     \c{9} \c{44} \c{34} \c{46} \c{6}.
@@ -4150,11 +4417,12 @@ def test_list_nmtokens_pattern_nistxml_sv_iv_list_nmtokens_pattern_1_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_pattern_nistxml_sv_iv_list_nmtokens_pattern_1_4(mode, save_output):
+def test_list_nmtokens_pattern_nistxml_sv_iv_list_nmtokens_pattern_1_4(mode, save_output, output_format):
     r"""
     Type list/NMTOKENS is restricted by facet pattern with value \c{16}
     \c{9} \c{44} \c{34} \c{46} \c{6}.
@@ -4166,11 +4434,12 @@ def test_list_nmtokens_pattern_nistxml_sv_iv_list_nmtokens_pattern_1_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_pattern_nistxml_sv_iv_list_nmtokens_pattern_1_5(mode, save_output):
+def test_list_nmtokens_pattern_nistxml_sv_iv_list_nmtokens_pattern_1_5(mode, save_output, output_format):
     r"""
     Type list/NMTOKENS is restricted by facet pattern with value \c{16}
     \c{9} \c{44} \c{34} \c{46} \c{6}.
@@ -4182,11 +4451,12 @@ def test_list_nmtokens_pattern_nistxml_sv_iv_list_nmtokens_pattern_1_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_length_4_nistxml_sv_iv_list_nmtokens_length_5_1(mode, save_output):
+def test_list_nmtokens_length_4_nistxml_sv_iv_list_nmtokens_length_5_1(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet length with value 10.
     """
@@ -4197,11 +4467,12 @@ def test_list_nmtokens_length_4_nistxml_sv_iv_list_nmtokens_length_5_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_length_4_nistxml_sv_iv_list_nmtokens_length_5_2(mode, save_output):
+def test_list_nmtokens_length_4_nistxml_sv_iv_list_nmtokens_length_5_2(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet length with value 10.
     """
@@ -4212,11 +4483,12 @@ def test_list_nmtokens_length_4_nistxml_sv_iv_list_nmtokens_length_5_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_length_4_nistxml_sv_iv_list_nmtokens_length_5_3(mode, save_output):
+def test_list_nmtokens_length_4_nistxml_sv_iv_list_nmtokens_length_5_3(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet length with value 10.
     """
@@ -4227,11 +4499,12 @@ def test_list_nmtokens_length_4_nistxml_sv_iv_list_nmtokens_length_5_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_length_4_nistxml_sv_iv_list_nmtokens_length_5_4(mode, save_output):
+def test_list_nmtokens_length_4_nistxml_sv_iv_list_nmtokens_length_5_4(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet length with value 10.
     """
@@ -4242,11 +4515,12 @@ def test_list_nmtokens_length_4_nistxml_sv_iv_list_nmtokens_length_5_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_length_4_nistxml_sv_iv_list_nmtokens_length_5_5(mode, save_output):
+def test_list_nmtokens_length_4_nistxml_sv_iv_list_nmtokens_length_5_5(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet length with value 10.
     """
@@ -4257,11 +4531,12 @@ def test_list_nmtokens_length_4_nistxml_sv_iv_list_nmtokens_length_5_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_length_3_nistxml_sv_iv_list_nmtokens_length_4_1(mode, save_output):
+def test_list_nmtokens_length_3_nistxml_sv_iv_list_nmtokens_length_4_1(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet length with value 8.
     """
@@ -4272,11 +4547,12 @@ def test_list_nmtokens_length_3_nistxml_sv_iv_list_nmtokens_length_4_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_length_3_nistxml_sv_iv_list_nmtokens_length_4_2(mode, save_output):
+def test_list_nmtokens_length_3_nistxml_sv_iv_list_nmtokens_length_4_2(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet length with value 8.
     """
@@ -4287,11 +4563,12 @@ def test_list_nmtokens_length_3_nistxml_sv_iv_list_nmtokens_length_4_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_length_3_nistxml_sv_iv_list_nmtokens_length_4_3(mode, save_output):
+def test_list_nmtokens_length_3_nistxml_sv_iv_list_nmtokens_length_4_3(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet length with value 8.
     """
@@ -4302,11 +4579,12 @@ def test_list_nmtokens_length_3_nistxml_sv_iv_list_nmtokens_length_4_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_length_3_nistxml_sv_iv_list_nmtokens_length_4_4(mode, save_output):
+def test_list_nmtokens_length_3_nistxml_sv_iv_list_nmtokens_length_4_4(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet length with value 8.
     """
@@ -4317,11 +4595,12 @@ def test_list_nmtokens_length_3_nistxml_sv_iv_list_nmtokens_length_4_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_length_3_nistxml_sv_iv_list_nmtokens_length_4_5(mode, save_output):
+def test_list_nmtokens_length_3_nistxml_sv_iv_list_nmtokens_length_4_5(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet length with value 8.
     """
@@ -4332,11 +4611,12 @@ def test_list_nmtokens_length_3_nistxml_sv_iv_list_nmtokens_length_4_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_length_2_nistxml_sv_iv_list_nmtokens_length_3_1(mode, save_output):
+def test_list_nmtokens_length_2_nistxml_sv_iv_list_nmtokens_length_3_1(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet length with value 7.
     """
@@ -4347,11 +4627,12 @@ def test_list_nmtokens_length_2_nistxml_sv_iv_list_nmtokens_length_3_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_length_2_nistxml_sv_iv_list_nmtokens_length_3_2(mode, save_output):
+def test_list_nmtokens_length_2_nistxml_sv_iv_list_nmtokens_length_3_2(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet length with value 7.
     """
@@ -4362,11 +4643,12 @@ def test_list_nmtokens_length_2_nistxml_sv_iv_list_nmtokens_length_3_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_length_2_nistxml_sv_iv_list_nmtokens_length_3_3(mode, save_output):
+def test_list_nmtokens_length_2_nistxml_sv_iv_list_nmtokens_length_3_3(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet length with value 7.
     """
@@ -4377,11 +4659,12 @@ def test_list_nmtokens_length_2_nistxml_sv_iv_list_nmtokens_length_3_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_length_2_nistxml_sv_iv_list_nmtokens_length_3_4(mode, save_output):
+def test_list_nmtokens_length_2_nistxml_sv_iv_list_nmtokens_length_3_4(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet length with value 7.
     """
@@ -4392,11 +4675,12 @@ def test_list_nmtokens_length_2_nistxml_sv_iv_list_nmtokens_length_3_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_length_2_nistxml_sv_iv_list_nmtokens_length_3_5(mode, save_output):
+def test_list_nmtokens_length_2_nistxml_sv_iv_list_nmtokens_length_3_5(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet length with value 7.
     """
@@ -4407,11 +4691,12 @@ def test_list_nmtokens_length_2_nistxml_sv_iv_list_nmtokens_length_3_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_length_1_nistxml_sv_iv_list_nmtokens_length_2_1(mode, save_output):
+def test_list_nmtokens_length_1_nistxml_sv_iv_list_nmtokens_length_2_1(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet length with value 6.
     """
@@ -4422,11 +4707,12 @@ def test_list_nmtokens_length_1_nistxml_sv_iv_list_nmtokens_length_2_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_length_1_nistxml_sv_iv_list_nmtokens_length_2_2(mode, save_output):
+def test_list_nmtokens_length_1_nistxml_sv_iv_list_nmtokens_length_2_2(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet length with value 6.
     """
@@ -4437,11 +4723,12 @@ def test_list_nmtokens_length_1_nistxml_sv_iv_list_nmtokens_length_2_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_length_1_nistxml_sv_iv_list_nmtokens_length_2_3(mode, save_output):
+def test_list_nmtokens_length_1_nistxml_sv_iv_list_nmtokens_length_2_3(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet length with value 6.
     """
@@ -4452,11 +4739,12 @@ def test_list_nmtokens_length_1_nistxml_sv_iv_list_nmtokens_length_2_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_length_1_nistxml_sv_iv_list_nmtokens_length_2_4(mode, save_output):
+def test_list_nmtokens_length_1_nistxml_sv_iv_list_nmtokens_length_2_4(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet length with value 6.
     """
@@ -4467,11 +4755,12 @@ def test_list_nmtokens_length_1_nistxml_sv_iv_list_nmtokens_length_2_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_length_1_nistxml_sv_iv_list_nmtokens_length_2_5(mode, save_output):
+def test_list_nmtokens_length_1_nistxml_sv_iv_list_nmtokens_length_2_5(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet length with value 6.
     """
@@ -4482,11 +4771,12 @@ def test_list_nmtokens_length_1_nistxml_sv_iv_list_nmtokens_length_2_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_length_nistxml_sv_iv_list_nmtokens_length_1_1(mode, save_output):
+def test_list_nmtokens_length_nistxml_sv_iv_list_nmtokens_length_1_1(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet length with value 5.
     """
@@ -4497,11 +4787,12 @@ def test_list_nmtokens_length_nistxml_sv_iv_list_nmtokens_length_1_1(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_length_nistxml_sv_iv_list_nmtokens_length_1_2(mode, save_output):
+def test_list_nmtokens_length_nistxml_sv_iv_list_nmtokens_length_1_2(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet length with value 5.
     """
@@ -4512,11 +4803,12 @@ def test_list_nmtokens_length_nistxml_sv_iv_list_nmtokens_length_1_2(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_length_nistxml_sv_iv_list_nmtokens_length_1_3(mode, save_output):
+def test_list_nmtokens_length_nistxml_sv_iv_list_nmtokens_length_1_3(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet length with value 5.
     """
@@ -4527,11 +4819,12 @@ def test_list_nmtokens_length_nistxml_sv_iv_list_nmtokens_length_1_3(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_length_nistxml_sv_iv_list_nmtokens_length_1_4(mode, save_output):
+def test_list_nmtokens_length_nistxml_sv_iv_list_nmtokens_length_1_4(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet length with value 5.
     """
@@ -4542,11 +4835,12 @@ def test_list_nmtokens_length_nistxml_sv_iv_list_nmtokens_length_1_4(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_length_nistxml_sv_iv_list_nmtokens_length_1_5(mode, save_output):
+def test_list_nmtokens_length_nistxml_sv_iv_list_nmtokens_length_1_5(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet length with value 5.
     """
@@ -4557,11 +4851,12 @@ def test_list_nmtokens_length_nistxml_sv_iv_list_nmtokens_length_1_5(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_min_length_4_nistxml_sv_iv_list_nmtokens_min_length_5_1(mode, save_output):
+def test_list_nmtokens_min_length_4_nistxml_sv_iv_list_nmtokens_min_length_5_1(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet minLength with value 10.
     """
@@ -4572,11 +4867,12 @@ def test_list_nmtokens_min_length_4_nistxml_sv_iv_list_nmtokens_min_length_5_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_min_length_4_nistxml_sv_iv_list_nmtokens_min_length_5_2(mode, save_output):
+def test_list_nmtokens_min_length_4_nistxml_sv_iv_list_nmtokens_min_length_5_2(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet minLength with value 10.
     """
@@ -4587,11 +4883,12 @@ def test_list_nmtokens_min_length_4_nistxml_sv_iv_list_nmtokens_min_length_5_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_min_length_4_nistxml_sv_iv_list_nmtokens_min_length_5_3(mode, save_output):
+def test_list_nmtokens_min_length_4_nistxml_sv_iv_list_nmtokens_min_length_5_3(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet minLength with value 10.
     """
@@ -4602,11 +4899,12 @@ def test_list_nmtokens_min_length_4_nistxml_sv_iv_list_nmtokens_min_length_5_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_min_length_4_nistxml_sv_iv_list_nmtokens_min_length_5_4(mode, save_output):
+def test_list_nmtokens_min_length_4_nistxml_sv_iv_list_nmtokens_min_length_5_4(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet minLength with value 10.
     """
@@ -4617,11 +4915,12 @@ def test_list_nmtokens_min_length_4_nistxml_sv_iv_list_nmtokens_min_length_5_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_min_length_4_nistxml_sv_iv_list_nmtokens_min_length_5_5(mode, save_output):
+def test_list_nmtokens_min_length_4_nistxml_sv_iv_list_nmtokens_min_length_5_5(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet minLength with value 10.
     """
@@ -4632,11 +4931,12 @@ def test_list_nmtokens_min_length_4_nistxml_sv_iv_list_nmtokens_min_length_5_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_min_length_3_nistxml_sv_iv_list_nmtokens_min_length_4_1(mode, save_output):
+def test_list_nmtokens_min_length_3_nistxml_sv_iv_list_nmtokens_min_length_4_1(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet minLength with value 8.
     """
@@ -4647,11 +4947,12 @@ def test_list_nmtokens_min_length_3_nistxml_sv_iv_list_nmtokens_min_length_4_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_min_length_3_nistxml_sv_iv_list_nmtokens_min_length_4_2(mode, save_output):
+def test_list_nmtokens_min_length_3_nistxml_sv_iv_list_nmtokens_min_length_4_2(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet minLength with value 8.
     """
@@ -4662,11 +4963,12 @@ def test_list_nmtokens_min_length_3_nistxml_sv_iv_list_nmtokens_min_length_4_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_min_length_3_nistxml_sv_iv_list_nmtokens_min_length_4_3(mode, save_output):
+def test_list_nmtokens_min_length_3_nistxml_sv_iv_list_nmtokens_min_length_4_3(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet minLength with value 8.
     """
@@ -4677,11 +4979,12 @@ def test_list_nmtokens_min_length_3_nistxml_sv_iv_list_nmtokens_min_length_4_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_min_length_3_nistxml_sv_iv_list_nmtokens_min_length_4_4(mode, save_output):
+def test_list_nmtokens_min_length_3_nistxml_sv_iv_list_nmtokens_min_length_4_4(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet minLength with value 8.
     """
@@ -4692,11 +4995,12 @@ def test_list_nmtokens_min_length_3_nistxml_sv_iv_list_nmtokens_min_length_4_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_min_length_3_nistxml_sv_iv_list_nmtokens_min_length_4_5(mode, save_output):
+def test_list_nmtokens_min_length_3_nistxml_sv_iv_list_nmtokens_min_length_4_5(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet minLength with value 8.
     """
@@ -4707,11 +5011,12 @@ def test_list_nmtokens_min_length_3_nistxml_sv_iv_list_nmtokens_min_length_4_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_min_length_2_nistxml_sv_iv_list_nmtokens_min_length_3_1(mode, save_output):
+def test_list_nmtokens_min_length_2_nistxml_sv_iv_list_nmtokens_min_length_3_1(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet minLength with value 7.
     """
@@ -4722,11 +5027,12 @@ def test_list_nmtokens_min_length_2_nistxml_sv_iv_list_nmtokens_min_length_3_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_min_length_2_nistxml_sv_iv_list_nmtokens_min_length_3_2(mode, save_output):
+def test_list_nmtokens_min_length_2_nistxml_sv_iv_list_nmtokens_min_length_3_2(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet minLength with value 7.
     """
@@ -4737,11 +5043,12 @@ def test_list_nmtokens_min_length_2_nistxml_sv_iv_list_nmtokens_min_length_3_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_min_length_2_nistxml_sv_iv_list_nmtokens_min_length_3_3(mode, save_output):
+def test_list_nmtokens_min_length_2_nistxml_sv_iv_list_nmtokens_min_length_3_3(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet minLength with value 7.
     """
@@ -4752,11 +5059,12 @@ def test_list_nmtokens_min_length_2_nistxml_sv_iv_list_nmtokens_min_length_3_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_min_length_2_nistxml_sv_iv_list_nmtokens_min_length_3_4(mode, save_output):
+def test_list_nmtokens_min_length_2_nistxml_sv_iv_list_nmtokens_min_length_3_4(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet minLength with value 7.
     """
@@ -4767,11 +5075,12 @@ def test_list_nmtokens_min_length_2_nistxml_sv_iv_list_nmtokens_min_length_3_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_min_length_2_nistxml_sv_iv_list_nmtokens_min_length_3_5(mode, save_output):
+def test_list_nmtokens_min_length_2_nistxml_sv_iv_list_nmtokens_min_length_3_5(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet minLength with value 7.
     """
@@ -4782,11 +5091,12 @@ def test_list_nmtokens_min_length_2_nistxml_sv_iv_list_nmtokens_min_length_3_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_min_length_1_nistxml_sv_iv_list_nmtokens_min_length_2_1(mode, save_output):
+def test_list_nmtokens_min_length_1_nistxml_sv_iv_list_nmtokens_min_length_2_1(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet minLength with value 6.
     """
@@ -4797,11 +5107,12 @@ def test_list_nmtokens_min_length_1_nistxml_sv_iv_list_nmtokens_min_length_2_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_min_length_1_nistxml_sv_iv_list_nmtokens_min_length_2_2(mode, save_output):
+def test_list_nmtokens_min_length_1_nistxml_sv_iv_list_nmtokens_min_length_2_2(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet minLength with value 6.
     """
@@ -4812,11 +5123,12 @@ def test_list_nmtokens_min_length_1_nistxml_sv_iv_list_nmtokens_min_length_2_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_min_length_1_nistxml_sv_iv_list_nmtokens_min_length_2_3(mode, save_output):
+def test_list_nmtokens_min_length_1_nistxml_sv_iv_list_nmtokens_min_length_2_3(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet minLength with value 6.
     """
@@ -4827,11 +5139,12 @@ def test_list_nmtokens_min_length_1_nistxml_sv_iv_list_nmtokens_min_length_2_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_min_length_1_nistxml_sv_iv_list_nmtokens_min_length_2_4(mode, save_output):
+def test_list_nmtokens_min_length_1_nistxml_sv_iv_list_nmtokens_min_length_2_4(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet minLength with value 6.
     """
@@ -4842,11 +5155,12 @@ def test_list_nmtokens_min_length_1_nistxml_sv_iv_list_nmtokens_min_length_2_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_min_length_1_nistxml_sv_iv_list_nmtokens_min_length_2_5(mode, save_output):
+def test_list_nmtokens_min_length_1_nistxml_sv_iv_list_nmtokens_min_length_2_5(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet minLength with value 6.
     """
@@ -4857,11 +5171,12 @@ def test_list_nmtokens_min_length_1_nistxml_sv_iv_list_nmtokens_min_length_2_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_min_length_nistxml_sv_iv_list_nmtokens_min_length_1_1(mode, save_output):
+def test_list_nmtokens_min_length_nistxml_sv_iv_list_nmtokens_min_length_1_1(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet minLength with value 5.
     """
@@ -4872,11 +5187,12 @@ def test_list_nmtokens_min_length_nistxml_sv_iv_list_nmtokens_min_length_1_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_min_length_nistxml_sv_iv_list_nmtokens_min_length_1_2(mode, save_output):
+def test_list_nmtokens_min_length_nistxml_sv_iv_list_nmtokens_min_length_1_2(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet minLength with value 5.
     """
@@ -4887,11 +5203,12 @@ def test_list_nmtokens_min_length_nistxml_sv_iv_list_nmtokens_min_length_1_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_min_length_nistxml_sv_iv_list_nmtokens_min_length_1_3(mode, save_output):
+def test_list_nmtokens_min_length_nistxml_sv_iv_list_nmtokens_min_length_1_3(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet minLength with value 5.
     """
@@ -4902,11 +5219,12 @@ def test_list_nmtokens_min_length_nistxml_sv_iv_list_nmtokens_min_length_1_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_min_length_nistxml_sv_iv_list_nmtokens_min_length_1_4(mode, save_output):
+def test_list_nmtokens_min_length_nistxml_sv_iv_list_nmtokens_min_length_1_4(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet minLength with value 5.
     """
@@ -4917,11 +5235,12 @@ def test_list_nmtokens_min_length_nistxml_sv_iv_list_nmtokens_min_length_1_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_min_length_nistxml_sv_iv_list_nmtokens_min_length_1_5(mode, save_output):
+def test_list_nmtokens_min_length_nistxml_sv_iv_list_nmtokens_min_length_1_5(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet minLength with value 5.
     """
@@ -4932,11 +5251,12 @@ def test_list_nmtokens_min_length_nistxml_sv_iv_list_nmtokens_min_length_1_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_max_length_4_nistxml_sv_iv_list_nmtokens_max_length_5_1(mode, save_output):
+def test_list_nmtokens_max_length_4_nistxml_sv_iv_list_nmtokens_max_length_5_1(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet maxLength with value 10.
     """
@@ -4947,11 +5267,12 @@ def test_list_nmtokens_max_length_4_nistxml_sv_iv_list_nmtokens_max_length_5_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_max_length_4_nistxml_sv_iv_list_nmtokens_max_length_5_2(mode, save_output):
+def test_list_nmtokens_max_length_4_nistxml_sv_iv_list_nmtokens_max_length_5_2(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet maxLength with value 10.
     """
@@ -4962,11 +5283,12 @@ def test_list_nmtokens_max_length_4_nistxml_sv_iv_list_nmtokens_max_length_5_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_max_length_4_nistxml_sv_iv_list_nmtokens_max_length_5_3(mode, save_output):
+def test_list_nmtokens_max_length_4_nistxml_sv_iv_list_nmtokens_max_length_5_3(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet maxLength with value 10.
     """
@@ -4977,11 +5299,12 @@ def test_list_nmtokens_max_length_4_nistxml_sv_iv_list_nmtokens_max_length_5_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_max_length_4_nistxml_sv_iv_list_nmtokens_max_length_5_4(mode, save_output):
+def test_list_nmtokens_max_length_4_nistxml_sv_iv_list_nmtokens_max_length_5_4(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet maxLength with value 10.
     """
@@ -4992,11 +5315,12 @@ def test_list_nmtokens_max_length_4_nistxml_sv_iv_list_nmtokens_max_length_5_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_max_length_4_nistxml_sv_iv_list_nmtokens_max_length_5_5(mode, save_output):
+def test_list_nmtokens_max_length_4_nistxml_sv_iv_list_nmtokens_max_length_5_5(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet maxLength with value 10.
     """
@@ -5007,11 +5331,12 @@ def test_list_nmtokens_max_length_4_nistxml_sv_iv_list_nmtokens_max_length_5_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_max_length_3_nistxml_sv_iv_list_nmtokens_max_length_4_1(mode, save_output):
+def test_list_nmtokens_max_length_3_nistxml_sv_iv_list_nmtokens_max_length_4_1(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet maxLength with value 8.
     """
@@ -5022,11 +5347,12 @@ def test_list_nmtokens_max_length_3_nistxml_sv_iv_list_nmtokens_max_length_4_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_max_length_3_nistxml_sv_iv_list_nmtokens_max_length_4_2(mode, save_output):
+def test_list_nmtokens_max_length_3_nistxml_sv_iv_list_nmtokens_max_length_4_2(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet maxLength with value 8.
     """
@@ -5037,11 +5363,12 @@ def test_list_nmtokens_max_length_3_nistxml_sv_iv_list_nmtokens_max_length_4_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_max_length_3_nistxml_sv_iv_list_nmtokens_max_length_4_3(mode, save_output):
+def test_list_nmtokens_max_length_3_nistxml_sv_iv_list_nmtokens_max_length_4_3(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet maxLength with value 8.
     """
@@ -5052,11 +5379,12 @@ def test_list_nmtokens_max_length_3_nistxml_sv_iv_list_nmtokens_max_length_4_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_max_length_3_nistxml_sv_iv_list_nmtokens_max_length_4_4(mode, save_output):
+def test_list_nmtokens_max_length_3_nistxml_sv_iv_list_nmtokens_max_length_4_4(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet maxLength with value 8.
     """
@@ -5067,11 +5395,12 @@ def test_list_nmtokens_max_length_3_nistxml_sv_iv_list_nmtokens_max_length_4_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_max_length_3_nistxml_sv_iv_list_nmtokens_max_length_4_5(mode, save_output):
+def test_list_nmtokens_max_length_3_nistxml_sv_iv_list_nmtokens_max_length_4_5(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet maxLength with value 8.
     """
@@ -5082,11 +5411,12 @@ def test_list_nmtokens_max_length_3_nistxml_sv_iv_list_nmtokens_max_length_4_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_max_length_2_nistxml_sv_iv_list_nmtokens_max_length_3_1(mode, save_output):
+def test_list_nmtokens_max_length_2_nistxml_sv_iv_list_nmtokens_max_length_3_1(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet maxLength with value 7.
     """
@@ -5097,11 +5427,12 @@ def test_list_nmtokens_max_length_2_nistxml_sv_iv_list_nmtokens_max_length_3_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_max_length_2_nistxml_sv_iv_list_nmtokens_max_length_3_2(mode, save_output):
+def test_list_nmtokens_max_length_2_nistxml_sv_iv_list_nmtokens_max_length_3_2(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet maxLength with value 7.
     """
@@ -5112,11 +5443,12 @@ def test_list_nmtokens_max_length_2_nistxml_sv_iv_list_nmtokens_max_length_3_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_max_length_2_nistxml_sv_iv_list_nmtokens_max_length_3_3(mode, save_output):
+def test_list_nmtokens_max_length_2_nistxml_sv_iv_list_nmtokens_max_length_3_3(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet maxLength with value 7.
     """
@@ -5127,11 +5459,12 @@ def test_list_nmtokens_max_length_2_nistxml_sv_iv_list_nmtokens_max_length_3_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_max_length_2_nistxml_sv_iv_list_nmtokens_max_length_3_4(mode, save_output):
+def test_list_nmtokens_max_length_2_nistxml_sv_iv_list_nmtokens_max_length_3_4(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet maxLength with value 7.
     """
@@ -5142,11 +5475,12 @@ def test_list_nmtokens_max_length_2_nistxml_sv_iv_list_nmtokens_max_length_3_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_max_length_2_nistxml_sv_iv_list_nmtokens_max_length_3_5(mode, save_output):
+def test_list_nmtokens_max_length_2_nistxml_sv_iv_list_nmtokens_max_length_3_5(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet maxLength with value 7.
     """
@@ -5157,11 +5491,12 @@ def test_list_nmtokens_max_length_2_nistxml_sv_iv_list_nmtokens_max_length_3_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_max_length_1_nistxml_sv_iv_list_nmtokens_max_length_2_1(mode, save_output):
+def test_list_nmtokens_max_length_1_nistxml_sv_iv_list_nmtokens_max_length_2_1(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet maxLength with value 6.
     """
@@ -5172,11 +5507,12 @@ def test_list_nmtokens_max_length_1_nistxml_sv_iv_list_nmtokens_max_length_2_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_max_length_1_nistxml_sv_iv_list_nmtokens_max_length_2_2(mode, save_output):
+def test_list_nmtokens_max_length_1_nistxml_sv_iv_list_nmtokens_max_length_2_2(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet maxLength with value 6.
     """
@@ -5187,11 +5523,12 @@ def test_list_nmtokens_max_length_1_nistxml_sv_iv_list_nmtokens_max_length_2_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_max_length_1_nistxml_sv_iv_list_nmtokens_max_length_2_3(mode, save_output):
+def test_list_nmtokens_max_length_1_nistxml_sv_iv_list_nmtokens_max_length_2_3(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet maxLength with value 6.
     """
@@ -5202,11 +5539,12 @@ def test_list_nmtokens_max_length_1_nistxml_sv_iv_list_nmtokens_max_length_2_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_max_length_1_nistxml_sv_iv_list_nmtokens_max_length_2_4(mode, save_output):
+def test_list_nmtokens_max_length_1_nistxml_sv_iv_list_nmtokens_max_length_2_4(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet maxLength with value 6.
     """
@@ -5217,11 +5555,12 @@ def test_list_nmtokens_max_length_1_nistxml_sv_iv_list_nmtokens_max_length_2_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_max_length_1_nistxml_sv_iv_list_nmtokens_max_length_2_5(mode, save_output):
+def test_list_nmtokens_max_length_1_nistxml_sv_iv_list_nmtokens_max_length_2_5(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet maxLength with value 6.
     """
@@ -5232,11 +5571,12 @@ def test_list_nmtokens_max_length_1_nistxml_sv_iv_list_nmtokens_max_length_2_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_max_length_nistxml_sv_iv_list_nmtokens_max_length_1_1(mode, save_output):
+def test_list_nmtokens_max_length_nistxml_sv_iv_list_nmtokens_max_length_1_1(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet maxLength with value 5.
     """
@@ -5247,11 +5587,12 @@ def test_list_nmtokens_max_length_nistxml_sv_iv_list_nmtokens_max_length_1_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_max_length_nistxml_sv_iv_list_nmtokens_max_length_1_2(mode, save_output):
+def test_list_nmtokens_max_length_nistxml_sv_iv_list_nmtokens_max_length_1_2(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet maxLength with value 5.
     """
@@ -5262,11 +5603,12 @@ def test_list_nmtokens_max_length_nistxml_sv_iv_list_nmtokens_max_length_1_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_max_length_nistxml_sv_iv_list_nmtokens_max_length_1_3(mode, save_output):
+def test_list_nmtokens_max_length_nistxml_sv_iv_list_nmtokens_max_length_1_3(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet maxLength with value 5.
     """
@@ -5277,11 +5619,12 @@ def test_list_nmtokens_max_length_nistxml_sv_iv_list_nmtokens_max_length_1_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_max_length_nistxml_sv_iv_list_nmtokens_max_length_1_4(mode, save_output):
+def test_list_nmtokens_max_length_nistxml_sv_iv_list_nmtokens_max_length_1_4(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet maxLength with value 5.
     """
@@ -5292,11 +5635,12 @@ def test_list_nmtokens_max_length_nistxml_sv_iv_list_nmtokens_max_length_1_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtokens_max_length_nistxml_sv_iv_list_nmtokens_max_length_1_5(mode, save_output):
+def test_list_nmtokens_max_length_nistxml_sv_iv_list_nmtokens_max_length_1_5(mode, save_output, output_format):
     """
     Type list/NMTOKENS is restricted by facet maxLength with value 5.
     """
@@ -5307,11 +5651,12 @@ def test_list_nmtokens_max_length_nistxml_sv_iv_list_nmtokens_max_length_1_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_white_space_nistxml_sv_iv_list_nmtoken_white_space_1_1(mode, save_output):
+def test_list_nmtoken_white_space_nistxml_sv_iv_list_nmtoken_white_space_1_1(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet whiteSpace with value
     collapse.
@@ -5323,11 +5668,12 @@ def test_list_nmtoken_white_space_nistxml_sv_iv_list_nmtoken_white_space_1_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_white_space_nistxml_sv_iv_list_nmtoken_white_space_1_2(mode, save_output):
+def test_list_nmtoken_white_space_nistxml_sv_iv_list_nmtoken_white_space_1_2(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet whiteSpace with value
     collapse.
@@ -5339,11 +5685,12 @@ def test_list_nmtoken_white_space_nistxml_sv_iv_list_nmtoken_white_space_1_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_white_space_nistxml_sv_iv_list_nmtoken_white_space_1_3(mode, save_output):
+def test_list_nmtoken_white_space_nistxml_sv_iv_list_nmtoken_white_space_1_3(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet whiteSpace with value
     collapse.
@@ -5355,11 +5702,12 @@ def test_list_nmtoken_white_space_nistxml_sv_iv_list_nmtoken_white_space_1_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_white_space_nistxml_sv_iv_list_nmtoken_white_space_1_4(mode, save_output):
+def test_list_nmtoken_white_space_nistxml_sv_iv_list_nmtoken_white_space_1_4(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet whiteSpace with value
     collapse.
@@ -5371,11 +5719,12 @@ def test_list_nmtoken_white_space_nistxml_sv_iv_list_nmtoken_white_space_1_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_white_space_nistxml_sv_iv_list_nmtoken_white_space_1_5(mode, save_output):
+def test_list_nmtoken_white_space_nistxml_sv_iv_list_nmtoken_white_space_1_5(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet whiteSpace with value
     collapse.
@@ -5387,11 +5736,12 @@ def test_list_nmtoken_white_space_nistxml_sv_iv_list_nmtoken_white_space_1_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_enumeration_4_nistxml_sv_iv_list_nmtoken_enumeration_5_1(mode, save_output):
+def test_list_nmtoken_enumeration_4_nistxml_sv_iv_list_nmtoken_enumeration_5_1(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet enumeration.
     """
@@ -5402,11 +5752,12 @@ def test_list_nmtoken_enumeration_4_nistxml_sv_iv_list_nmtoken_enumeration_5_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_enumeration_4_nistxml_sv_iv_list_nmtoken_enumeration_5_2(mode, save_output):
+def test_list_nmtoken_enumeration_4_nistxml_sv_iv_list_nmtoken_enumeration_5_2(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet enumeration.
     """
@@ -5417,11 +5768,12 @@ def test_list_nmtoken_enumeration_4_nistxml_sv_iv_list_nmtoken_enumeration_5_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_enumeration_4_nistxml_sv_iv_list_nmtoken_enumeration_5_3(mode, save_output):
+def test_list_nmtoken_enumeration_4_nistxml_sv_iv_list_nmtoken_enumeration_5_3(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet enumeration.
     """
@@ -5432,11 +5784,12 @@ def test_list_nmtoken_enumeration_4_nistxml_sv_iv_list_nmtoken_enumeration_5_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_enumeration_4_nistxml_sv_iv_list_nmtoken_enumeration_5_4(mode, save_output):
+def test_list_nmtoken_enumeration_4_nistxml_sv_iv_list_nmtoken_enumeration_5_4(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet enumeration.
     """
@@ -5447,11 +5800,12 @@ def test_list_nmtoken_enumeration_4_nistxml_sv_iv_list_nmtoken_enumeration_5_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_enumeration_4_nistxml_sv_iv_list_nmtoken_enumeration_5_5(mode, save_output):
+def test_list_nmtoken_enumeration_4_nistxml_sv_iv_list_nmtoken_enumeration_5_5(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet enumeration.
     """
@@ -5462,11 +5816,12 @@ def test_list_nmtoken_enumeration_4_nistxml_sv_iv_list_nmtoken_enumeration_5_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_enumeration_3_nistxml_sv_iv_list_nmtoken_enumeration_4_1(mode, save_output):
+def test_list_nmtoken_enumeration_3_nistxml_sv_iv_list_nmtoken_enumeration_4_1(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet enumeration.
     """
@@ -5477,11 +5832,12 @@ def test_list_nmtoken_enumeration_3_nistxml_sv_iv_list_nmtoken_enumeration_4_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_enumeration_3_nistxml_sv_iv_list_nmtoken_enumeration_4_2(mode, save_output):
+def test_list_nmtoken_enumeration_3_nistxml_sv_iv_list_nmtoken_enumeration_4_2(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet enumeration.
     """
@@ -5492,11 +5848,12 @@ def test_list_nmtoken_enumeration_3_nistxml_sv_iv_list_nmtoken_enumeration_4_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_enumeration_3_nistxml_sv_iv_list_nmtoken_enumeration_4_3(mode, save_output):
+def test_list_nmtoken_enumeration_3_nistxml_sv_iv_list_nmtoken_enumeration_4_3(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet enumeration.
     """
@@ -5507,11 +5864,12 @@ def test_list_nmtoken_enumeration_3_nistxml_sv_iv_list_nmtoken_enumeration_4_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_enumeration_3_nistxml_sv_iv_list_nmtoken_enumeration_4_4(mode, save_output):
+def test_list_nmtoken_enumeration_3_nistxml_sv_iv_list_nmtoken_enumeration_4_4(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet enumeration.
     """
@@ -5522,11 +5880,12 @@ def test_list_nmtoken_enumeration_3_nistxml_sv_iv_list_nmtoken_enumeration_4_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_enumeration_3_nistxml_sv_iv_list_nmtoken_enumeration_4_5(mode, save_output):
+def test_list_nmtoken_enumeration_3_nistxml_sv_iv_list_nmtoken_enumeration_4_5(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet enumeration.
     """
@@ -5537,11 +5896,12 @@ def test_list_nmtoken_enumeration_3_nistxml_sv_iv_list_nmtoken_enumeration_4_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_enumeration_2_nistxml_sv_iv_list_nmtoken_enumeration_3_1(mode, save_output):
+def test_list_nmtoken_enumeration_2_nistxml_sv_iv_list_nmtoken_enumeration_3_1(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet enumeration.
     """
@@ -5552,11 +5912,12 @@ def test_list_nmtoken_enumeration_2_nistxml_sv_iv_list_nmtoken_enumeration_3_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_enumeration_2_nistxml_sv_iv_list_nmtoken_enumeration_3_2(mode, save_output):
+def test_list_nmtoken_enumeration_2_nistxml_sv_iv_list_nmtoken_enumeration_3_2(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet enumeration.
     """
@@ -5567,11 +5928,12 @@ def test_list_nmtoken_enumeration_2_nistxml_sv_iv_list_nmtoken_enumeration_3_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_enumeration_2_nistxml_sv_iv_list_nmtoken_enumeration_3_3(mode, save_output):
+def test_list_nmtoken_enumeration_2_nistxml_sv_iv_list_nmtoken_enumeration_3_3(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet enumeration.
     """
@@ -5582,11 +5944,12 @@ def test_list_nmtoken_enumeration_2_nistxml_sv_iv_list_nmtoken_enumeration_3_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_enumeration_2_nistxml_sv_iv_list_nmtoken_enumeration_3_4(mode, save_output):
+def test_list_nmtoken_enumeration_2_nistxml_sv_iv_list_nmtoken_enumeration_3_4(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet enumeration.
     """
@@ -5597,11 +5960,12 @@ def test_list_nmtoken_enumeration_2_nistxml_sv_iv_list_nmtoken_enumeration_3_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_enumeration_2_nistxml_sv_iv_list_nmtoken_enumeration_3_5(mode, save_output):
+def test_list_nmtoken_enumeration_2_nistxml_sv_iv_list_nmtoken_enumeration_3_5(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet enumeration.
     """
@@ -5612,11 +5976,12 @@ def test_list_nmtoken_enumeration_2_nistxml_sv_iv_list_nmtoken_enumeration_3_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_enumeration_1_nistxml_sv_iv_list_nmtoken_enumeration_2_1(mode, save_output):
+def test_list_nmtoken_enumeration_1_nistxml_sv_iv_list_nmtoken_enumeration_2_1(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet enumeration.
     """
@@ -5627,11 +5992,12 @@ def test_list_nmtoken_enumeration_1_nistxml_sv_iv_list_nmtoken_enumeration_2_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_enumeration_1_nistxml_sv_iv_list_nmtoken_enumeration_2_2(mode, save_output):
+def test_list_nmtoken_enumeration_1_nistxml_sv_iv_list_nmtoken_enumeration_2_2(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet enumeration.
     """
@@ -5642,11 +6008,12 @@ def test_list_nmtoken_enumeration_1_nistxml_sv_iv_list_nmtoken_enumeration_2_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_enumeration_1_nistxml_sv_iv_list_nmtoken_enumeration_2_3(mode, save_output):
+def test_list_nmtoken_enumeration_1_nistxml_sv_iv_list_nmtoken_enumeration_2_3(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet enumeration.
     """
@@ -5657,11 +6024,12 @@ def test_list_nmtoken_enumeration_1_nistxml_sv_iv_list_nmtoken_enumeration_2_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_enumeration_1_nistxml_sv_iv_list_nmtoken_enumeration_2_4(mode, save_output):
+def test_list_nmtoken_enumeration_1_nistxml_sv_iv_list_nmtoken_enumeration_2_4(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet enumeration.
     """
@@ -5672,11 +6040,12 @@ def test_list_nmtoken_enumeration_1_nistxml_sv_iv_list_nmtoken_enumeration_2_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_enumeration_1_nistxml_sv_iv_list_nmtoken_enumeration_2_5(mode, save_output):
+def test_list_nmtoken_enumeration_1_nistxml_sv_iv_list_nmtoken_enumeration_2_5(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet enumeration.
     """
@@ -5687,11 +6056,12 @@ def test_list_nmtoken_enumeration_1_nistxml_sv_iv_list_nmtoken_enumeration_2_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_enumeration_nistxml_sv_iv_list_nmtoken_enumeration_1_1(mode, save_output):
+def test_list_nmtoken_enumeration_nistxml_sv_iv_list_nmtoken_enumeration_1_1(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet enumeration.
     """
@@ -5702,11 +6072,12 @@ def test_list_nmtoken_enumeration_nistxml_sv_iv_list_nmtoken_enumeration_1_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_enumeration_nistxml_sv_iv_list_nmtoken_enumeration_1_2(mode, save_output):
+def test_list_nmtoken_enumeration_nistxml_sv_iv_list_nmtoken_enumeration_1_2(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet enumeration.
     """
@@ -5717,11 +6088,12 @@ def test_list_nmtoken_enumeration_nistxml_sv_iv_list_nmtoken_enumeration_1_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_enumeration_nistxml_sv_iv_list_nmtoken_enumeration_1_3(mode, save_output):
+def test_list_nmtoken_enumeration_nistxml_sv_iv_list_nmtoken_enumeration_1_3(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet enumeration.
     """
@@ -5732,11 +6104,12 @@ def test_list_nmtoken_enumeration_nistxml_sv_iv_list_nmtoken_enumeration_1_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_enumeration_nistxml_sv_iv_list_nmtoken_enumeration_1_4(mode, save_output):
+def test_list_nmtoken_enumeration_nistxml_sv_iv_list_nmtoken_enumeration_1_4(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet enumeration.
     """
@@ -5747,11 +6120,12 @@ def test_list_nmtoken_enumeration_nistxml_sv_iv_list_nmtoken_enumeration_1_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_enumeration_nistxml_sv_iv_list_nmtoken_enumeration_1_5(mode, save_output):
+def test_list_nmtoken_enumeration_nistxml_sv_iv_list_nmtoken_enumeration_1_5(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet enumeration.
     """
@@ -5762,11 +6136,12 @@ def test_list_nmtoken_enumeration_nistxml_sv_iv_list_nmtoken_enumeration_1_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_pattern_4_nistxml_sv_iv_list_nmtoken_pattern_5_1(mode, save_output):
+def test_list_nmtoken_pattern_4_nistxml_sv_iv_list_nmtoken_pattern_5_1(mode, save_output, output_format):
     r"""
     Type list/NMTOKEN is restricted by facet pattern with value \c{45}
     \c{5} \c{56} \c{45} \c{33} \c{37} \c{45} \c{40}.
@@ -5778,11 +6153,12 @@ def test_list_nmtoken_pattern_4_nistxml_sv_iv_list_nmtoken_pattern_5_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_pattern_4_nistxml_sv_iv_list_nmtoken_pattern_5_2(mode, save_output):
+def test_list_nmtoken_pattern_4_nistxml_sv_iv_list_nmtoken_pattern_5_2(mode, save_output, output_format):
     r"""
     Type list/NMTOKEN is restricted by facet pattern with value \c{45}
     \c{5} \c{56} \c{45} \c{33} \c{37} \c{45} \c{40}.
@@ -5794,11 +6170,12 @@ def test_list_nmtoken_pattern_4_nistxml_sv_iv_list_nmtoken_pattern_5_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_pattern_4_nistxml_sv_iv_list_nmtoken_pattern_5_3(mode, save_output):
+def test_list_nmtoken_pattern_4_nistxml_sv_iv_list_nmtoken_pattern_5_3(mode, save_output, output_format):
     r"""
     Type list/NMTOKEN is restricted by facet pattern with value \c{45}
     \c{5} \c{56} \c{45} \c{33} \c{37} \c{45} \c{40}.
@@ -5810,11 +6187,12 @@ def test_list_nmtoken_pattern_4_nistxml_sv_iv_list_nmtoken_pattern_5_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_pattern_4_nistxml_sv_iv_list_nmtoken_pattern_5_4(mode, save_output):
+def test_list_nmtoken_pattern_4_nistxml_sv_iv_list_nmtoken_pattern_5_4(mode, save_output, output_format):
     r"""
     Type list/NMTOKEN is restricted by facet pattern with value \c{45}
     \c{5} \c{56} \c{45} \c{33} \c{37} \c{45} \c{40}.
@@ -5826,11 +6204,12 @@ def test_list_nmtoken_pattern_4_nistxml_sv_iv_list_nmtoken_pattern_5_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_pattern_4_nistxml_sv_iv_list_nmtoken_pattern_5_5(mode, save_output):
+def test_list_nmtoken_pattern_4_nistxml_sv_iv_list_nmtoken_pattern_5_5(mode, save_output, output_format):
     r"""
     Type list/NMTOKEN is restricted by facet pattern with value \c{45}
     \c{5} \c{56} \c{45} \c{33} \c{37} \c{45} \c{40}.
@@ -5842,11 +6221,12 @@ def test_list_nmtoken_pattern_4_nistxml_sv_iv_list_nmtoken_pattern_5_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_pattern_3_nistxml_sv_iv_list_nmtoken_pattern_4_1(mode, save_output):
+def test_list_nmtoken_pattern_3_nistxml_sv_iv_list_nmtoken_pattern_4_1(mode, save_output, output_format):
     r"""
     Type list/NMTOKEN is restricted by facet pattern with value \c{35}
     \c{8} \c{43} \c{19} \c{53} \c{18} \c{33} \c{59} \c{10} \c{41}.
@@ -5858,11 +6238,12 @@ def test_list_nmtoken_pattern_3_nistxml_sv_iv_list_nmtoken_pattern_4_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_pattern_3_nistxml_sv_iv_list_nmtoken_pattern_4_2(mode, save_output):
+def test_list_nmtoken_pattern_3_nistxml_sv_iv_list_nmtoken_pattern_4_2(mode, save_output, output_format):
     r"""
     Type list/NMTOKEN is restricted by facet pattern with value \c{35}
     \c{8} \c{43} \c{19} \c{53} \c{18} \c{33} \c{59} \c{10} \c{41}.
@@ -5874,11 +6255,12 @@ def test_list_nmtoken_pattern_3_nistxml_sv_iv_list_nmtoken_pattern_4_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_pattern_3_nistxml_sv_iv_list_nmtoken_pattern_4_3(mode, save_output):
+def test_list_nmtoken_pattern_3_nistxml_sv_iv_list_nmtoken_pattern_4_3(mode, save_output, output_format):
     r"""
     Type list/NMTOKEN is restricted by facet pattern with value \c{35}
     \c{8} \c{43} \c{19} \c{53} \c{18} \c{33} \c{59} \c{10} \c{41}.
@@ -5890,11 +6272,12 @@ def test_list_nmtoken_pattern_3_nistxml_sv_iv_list_nmtoken_pattern_4_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_pattern_3_nistxml_sv_iv_list_nmtoken_pattern_4_4(mode, save_output):
+def test_list_nmtoken_pattern_3_nistxml_sv_iv_list_nmtoken_pattern_4_4(mode, save_output, output_format):
     r"""
     Type list/NMTOKEN is restricted by facet pattern with value \c{35}
     \c{8} \c{43} \c{19} \c{53} \c{18} \c{33} \c{59} \c{10} \c{41}.
@@ -5906,11 +6289,12 @@ def test_list_nmtoken_pattern_3_nistxml_sv_iv_list_nmtoken_pattern_4_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_pattern_3_nistxml_sv_iv_list_nmtoken_pattern_4_5(mode, save_output):
+def test_list_nmtoken_pattern_3_nistxml_sv_iv_list_nmtoken_pattern_4_5(mode, save_output, output_format):
     r"""
     Type list/NMTOKEN is restricted by facet pattern with value \c{35}
     \c{8} \c{43} \c{19} \c{53} \c{18} \c{33} \c{59} \c{10} \c{41}.
@@ -5922,11 +6306,12 @@ def test_list_nmtoken_pattern_3_nistxml_sv_iv_list_nmtoken_pattern_4_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_pattern_2_nistxml_sv_iv_list_nmtoken_pattern_3_1(mode, save_output):
+def test_list_nmtoken_pattern_2_nistxml_sv_iv_list_nmtoken_pattern_3_1(mode, save_output, output_format):
     r"""
     Type list/NMTOKEN is restricted by facet pattern with value \c{1}
     \c{36} \c{63} \c{7} \c{26} \c{11} \c{55} \c{29}.
@@ -5938,11 +6323,12 @@ def test_list_nmtoken_pattern_2_nistxml_sv_iv_list_nmtoken_pattern_3_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_pattern_2_nistxml_sv_iv_list_nmtoken_pattern_3_2(mode, save_output):
+def test_list_nmtoken_pattern_2_nistxml_sv_iv_list_nmtoken_pattern_3_2(mode, save_output, output_format):
     r"""
     Type list/NMTOKEN is restricted by facet pattern with value \c{1}
     \c{36} \c{63} \c{7} \c{26} \c{11} \c{55} \c{29}.
@@ -5954,11 +6340,12 @@ def test_list_nmtoken_pattern_2_nistxml_sv_iv_list_nmtoken_pattern_3_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_pattern_2_nistxml_sv_iv_list_nmtoken_pattern_3_3(mode, save_output):
+def test_list_nmtoken_pattern_2_nistxml_sv_iv_list_nmtoken_pattern_3_3(mode, save_output, output_format):
     r"""
     Type list/NMTOKEN is restricted by facet pattern with value \c{1}
     \c{36} \c{63} \c{7} \c{26} \c{11} \c{55} \c{29}.
@@ -5970,11 +6357,12 @@ def test_list_nmtoken_pattern_2_nistxml_sv_iv_list_nmtoken_pattern_3_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_pattern_2_nistxml_sv_iv_list_nmtoken_pattern_3_4(mode, save_output):
+def test_list_nmtoken_pattern_2_nistxml_sv_iv_list_nmtoken_pattern_3_4(mode, save_output, output_format):
     r"""
     Type list/NMTOKEN is restricted by facet pattern with value \c{1}
     \c{36} \c{63} \c{7} \c{26} \c{11} \c{55} \c{29}.
@@ -5986,11 +6374,12 @@ def test_list_nmtoken_pattern_2_nistxml_sv_iv_list_nmtoken_pattern_3_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_pattern_2_nistxml_sv_iv_list_nmtoken_pattern_3_5(mode, save_output):
+def test_list_nmtoken_pattern_2_nistxml_sv_iv_list_nmtoken_pattern_3_5(mode, save_output, output_format):
     r"""
     Type list/NMTOKEN is restricted by facet pattern with value \c{1}
     \c{36} \c{63} \c{7} \c{26} \c{11} \c{55} \c{29}.
@@ -6002,11 +6391,12 @@ def test_list_nmtoken_pattern_2_nistxml_sv_iv_list_nmtoken_pattern_3_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_pattern_1_nistxml_sv_iv_list_nmtoken_pattern_2_1(mode, save_output):
+def test_list_nmtoken_pattern_1_nistxml_sv_iv_list_nmtoken_pattern_2_1(mode, save_output, output_format):
     r"""
     Type list/NMTOKEN is restricted by facet pattern with value \c{20}
     \c{60} \c{47} \c{22} \c{42} \c{14}.
@@ -6018,11 +6408,12 @@ def test_list_nmtoken_pattern_1_nistxml_sv_iv_list_nmtoken_pattern_2_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_pattern_1_nistxml_sv_iv_list_nmtoken_pattern_2_2(mode, save_output):
+def test_list_nmtoken_pattern_1_nistxml_sv_iv_list_nmtoken_pattern_2_2(mode, save_output, output_format):
     r"""
     Type list/NMTOKEN is restricted by facet pattern with value \c{20}
     \c{60} \c{47} \c{22} \c{42} \c{14}.
@@ -6034,11 +6425,12 @@ def test_list_nmtoken_pattern_1_nistxml_sv_iv_list_nmtoken_pattern_2_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_pattern_1_nistxml_sv_iv_list_nmtoken_pattern_2_3(mode, save_output):
+def test_list_nmtoken_pattern_1_nistxml_sv_iv_list_nmtoken_pattern_2_3(mode, save_output, output_format):
     r"""
     Type list/NMTOKEN is restricted by facet pattern with value \c{20}
     \c{60} \c{47} \c{22} \c{42} \c{14}.
@@ -6050,11 +6442,12 @@ def test_list_nmtoken_pattern_1_nistxml_sv_iv_list_nmtoken_pattern_2_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_pattern_1_nistxml_sv_iv_list_nmtoken_pattern_2_4(mode, save_output):
+def test_list_nmtoken_pattern_1_nistxml_sv_iv_list_nmtoken_pattern_2_4(mode, save_output, output_format):
     r"""
     Type list/NMTOKEN is restricted by facet pattern with value \c{20}
     \c{60} \c{47} \c{22} \c{42} \c{14}.
@@ -6066,11 +6459,12 @@ def test_list_nmtoken_pattern_1_nistxml_sv_iv_list_nmtoken_pattern_2_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_pattern_1_nistxml_sv_iv_list_nmtoken_pattern_2_5(mode, save_output):
+def test_list_nmtoken_pattern_1_nistxml_sv_iv_list_nmtoken_pattern_2_5(mode, save_output, output_format):
     r"""
     Type list/NMTOKEN is restricted by facet pattern with value \c{20}
     \c{60} \c{47} \c{22} \c{42} \c{14}.
@@ -6082,11 +6476,12 @@ def test_list_nmtoken_pattern_1_nistxml_sv_iv_list_nmtoken_pattern_2_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_pattern_nistxml_sv_iv_list_nmtoken_pattern_1_1(mode, save_output):
+def test_list_nmtoken_pattern_nistxml_sv_iv_list_nmtoken_pattern_1_1(mode, save_output, output_format):
     r"""
     Type list/NMTOKEN is restricted by facet pattern with value \c{40}
     \c{21} \c{50} \c{36} \c{35} \c{42} \c{54} \c{48}.
@@ -6098,11 +6493,12 @@ def test_list_nmtoken_pattern_nistxml_sv_iv_list_nmtoken_pattern_1_1(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_pattern_nistxml_sv_iv_list_nmtoken_pattern_1_2(mode, save_output):
+def test_list_nmtoken_pattern_nistxml_sv_iv_list_nmtoken_pattern_1_2(mode, save_output, output_format):
     r"""
     Type list/NMTOKEN is restricted by facet pattern with value \c{40}
     \c{21} \c{50} \c{36} \c{35} \c{42} \c{54} \c{48}.
@@ -6114,11 +6510,12 @@ def test_list_nmtoken_pattern_nistxml_sv_iv_list_nmtoken_pattern_1_2(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_pattern_nistxml_sv_iv_list_nmtoken_pattern_1_3(mode, save_output):
+def test_list_nmtoken_pattern_nistxml_sv_iv_list_nmtoken_pattern_1_3(mode, save_output, output_format):
     r"""
     Type list/NMTOKEN is restricted by facet pattern with value \c{40}
     \c{21} \c{50} \c{36} \c{35} \c{42} \c{54} \c{48}.
@@ -6130,11 +6527,12 @@ def test_list_nmtoken_pattern_nistxml_sv_iv_list_nmtoken_pattern_1_3(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_pattern_nistxml_sv_iv_list_nmtoken_pattern_1_4(mode, save_output):
+def test_list_nmtoken_pattern_nistxml_sv_iv_list_nmtoken_pattern_1_4(mode, save_output, output_format):
     r"""
     Type list/NMTOKEN is restricted by facet pattern with value \c{40}
     \c{21} \c{50} \c{36} \c{35} \c{42} \c{54} \c{48}.
@@ -6146,11 +6544,12 @@ def test_list_nmtoken_pattern_nistxml_sv_iv_list_nmtoken_pattern_1_4(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_pattern_nistxml_sv_iv_list_nmtoken_pattern_1_5(mode, save_output):
+def test_list_nmtoken_pattern_nistxml_sv_iv_list_nmtoken_pattern_1_5(mode, save_output, output_format):
     r"""
     Type list/NMTOKEN is restricted by facet pattern with value \c{40}
     \c{21} \c{50} \c{36} \c{35} \c{42} \c{54} \c{48}.
@@ -6162,11 +6561,12 @@ def test_list_nmtoken_pattern_nistxml_sv_iv_list_nmtoken_pattern_1_5(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_length_4_nistxml_sv_iv_list_nmtoken_length_5_1(mode, save_output):
+def test_list_nmtoken_length_4_nistxml_sv_iv_list_nmtoken_length_5_1(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet length with value 10.
     """
@@ -6177,11 +6577,12 @@ def test_list_nmtoken_length_4_nistxml_sv_iv_list_nmtoken_length_5_1(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_length_4_nistxml_sv_iv_list_nmtoken_length_5_2(mode, save_output):
+def test_list_nmtoken_length_4_nistxml_sv_iv_list_nmtoken_length_5_2(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet length with value 10.
     """
@@ -6192,11 +6593,12 @@ def test_list_nmtoken_length_4_nistxml_sv_iv_list_nmtoken_length_5_2(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_length_4_nistxml_sv_iv_list_nmtoken_length_5_3(mode, save_output):
+def test_list_nmtoken_length_4_nistxml_sv_iv_list_nmtoken_length_5_3(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet length with value 10.
     """
@@ -6207,11 +6609,12 @@ def test_list_nmtoken_length_4_nistxml_sv_iv_list_nmtoken_length_5_3(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_length_4_nistxml_sv_iv_list_nmtoken_length_5_4(mode, save_output):
+def test_list_nmtoken_length_4_nistxml_sv_iv_list_nmtoken_length_5_4(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet length with value 10.
     """
@@ -6222,11 +6625,12 @@ def test_list_nmtoken_length_4_nistxml_sv_iv_list_nmtoken_length_5_4(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_length_4_nistxml_sv_iv_list_nmtoken_length_5_5(mode, save_output):
+def test_list_nmtoken_length_4_nistxml_sv_iv_list_nmtoken_length_5_5(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet length with value 10.
     """
@@ -6237,11 +6641,12 @@ def test_list_nmtoken_length_4_nistxml_sv_iv_list_nmtoken_length_5_5(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_length_3_nistxml_sv_iv_list_nmtoken_length_4_1(mode, save_output):
+def test_list_nmtoken_length_3_nistxml_sv_iv_list_nmtoken_length_4_1(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet length with value 8.
     """
@@ -6252,11 +6657,12 @@ def test_list_nmtoken_length_3_nistxml_sv_iv_list_nmtoken_length_4_1(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_length_3_nistxml_sv_iv_list_nmtoken_length_4_2(mode, save_output):
+def test_list_nmtoken_length_3_nistxml_sv_iv_list_nmtoken_length_4_2(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet length with value 8.
     """
@@ -6267,11 +6673,12 @@ def test_list_nmtoken_length_3_nistxml_sv_iv_list_nmtoken_length_4_2(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_length_3_nistxml_sv_iv_list_nmtoken_length_4_3(mode, save_output):
+def test_list_nmtoken_length_3_nistxml_sv_iv_list_nmtoken_length_4_3(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet length with value 8.
     """
@@ -6282,11 +6689,12 @@ def test_list_nmtoken_length_3_nistxml_sv_iv_list_nmtoken_length_4_3(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_length_3_nistxml_sv_iv_list_nmtoken_length_4_4(mode, save_output):
+def test_list_nmtoken_length_3_nistxml_sv_iv_list_nmtoken_length_4_4(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet length with value 8.
     """
@@ -6297,11 +6705,12 @@ def test_list_nmtoken_length_3_nistxml_sv_iv_list_nmtoken_length_4_4(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_length_3_nistxml_sv_iv_list_nmtoken_length_4_5(mode, save_output):
+def test_list_nmtoken_length_3_nistxml_sv_iv_list_nmtoken_length_4_5(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet length with value 8.
     """
@@ -6312,11 +6721,12 @@ def test_list_nmtoken_length_3_nistxml_sv_iv_list_nmtoken_length_4_5(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_length_2_nistxml_sv_iv_list_nmtoken_length_3_1(mode, save_output):
+def test_list_nmtoken_length_2_nistxml_sv_iv_list_nmtoken_length_3_1(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet length with value 7.
     """
@@ -6327,11 +6737,12 @@ def test_list_nmtoken_length_2_nistxml_sv_iv_list_nmtoken_length_3_1(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_length_2_nistxml_sv_iv_list_nmtoken_length_3_2(mode, save_output):
+def test_list_nmtoken_length_2_nistxml_sv_iv_list_nmtoken_length_3_2(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet length with value 7.
     """
@@ -6342,11 +6753,12 @@ def test_list_nmtoken_length_2_nistxml_sv_iv_list_nmtoken_length_3_2(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_length_2_nistxml_sv_iv_list_nmtoken_length_3_3(mode, save_output):
+def test_list_nmtoken_length_2_nistxml_sv_iv_list_nmtoken_length_3_3(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet length with value 7.
     """
@@ -6357,11 +6769,12 @@ def test_list_nmtoken_length_2_nistxml_sv_iv_list_nmtoken_length_3_3(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_length_2_nistxml_sv_iv_list_nmtoken_length_3_4(mode, save_output):
+def test_list_nmtoken_length_2_nistxml_sv_iv_list_nmtoken_length_3_4(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet length with value 7.
     """
@@ -6372,11 +6785,12 @@ def test_list_nmtoken_length_2_nistxml_sv_iv_list_nmtoken_length_3_4(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_length_2_nistxml_sv_iv_list_nmtoken_length_3_5(mode, save_output):
+def test_list_nmtoken_length_2_nistxml_sv_iv_list_nmtoken_length_3_5(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet length with value 7.
     """
@@ -6387,11 +6801,12 @@ def test_list_nmtoken_length_2_nistxml_sv_iv_list_nmtoken_length_3_5(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_length_1_nistxml_sv_iv_list_nmtoken_length_2_1(mode, save_output):
+def test_list_nmtoken_length_1_nistxml_sv_iv_list_nmtoken_length_2_1(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet length with value 6.
     """
@@ -6402,11 +6817,12 @@ def test_list_nmtoken_length_1_nistxml_sv_iv_list_nmtoken_length_2_1(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_length_1_nistxml_sv_iv_list_nmtoken_length_2_2(mode, save_output):
+def test_list_nmtoken_length_1_nistxml_sv_iv_list_nmtoken_length_2_2(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet length with value 6.
     """
@@ -6417,11 +6833,12 @@ def test_list_nmtoken_length_1_nistxml_sv_iv_list_nmtoken_length_2_2(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_length_1_nistxml_sv_iv_list_nmtoken_length_2_3(mode, save_output):
+def test_list_nmtoken_length_1_nistxml_sv_iv_list_nmtoken_length_2_3(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet length with value 6.
     """
@@ -6432,11 +6849,12 @@ def test_list_nmtoken_length_1_nistxml_sv_iv_list_nmtoken_length_2_3(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_length_1_nistxml_sv_iv_list_nmtoken_length_2_4(mode, save_output):
+def test_list_nmtoken_length_1_nistxml_sv_iv_list_nmtoken_length_2_4(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet length with value 6.
     """
@@ -6447,11 +6865,12 @@ def test_list_nmtoken_length_1_nistxml_sv_iv_list_nmtoken_length_2_4(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_length_1_nistxml_sv_iv_list_nmtoken_length_2_5(mode, save_output):
+def test_list_nmtoken_length_1_nistxml_sv_iv_list_nmtoken_length_2_5(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet length with value 6.
     """
@@ -6462,11 +6881,12 @@ def test_list_nmtoken_length_1_nistxml_sv_iv_list_nmtoken_length_2_5(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_length_nistxml_sv_iv_list_nmtoken_length_1_1(mode, save_output):
+def test_list_nmtoken_length_nistxml_sv_iv_list_nmtoken_length_1_1(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet length with value 5.
     """
@@ -6477,11 +6897,12 @@ def test_list_nmtoken_length_nistxml_sv_iv_list_nmtoken_length_1_1(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_length_nistxml_sv_iv_list_nmtoken_length_1_2(mode, save_output):
+def test_list_nmtoken_length_nistxml_sv_iv_list_nmtoken_length_1_2(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet length with value 5.
     """
@@ -6492,11 +6913,12 @@ def test_list_nmtoken_length_nistxml_sv_iv_list_nmtoken_length_1_2(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_length_nistxml_sv_iv_list_nmtoken_length_1_3(mode, save_output):
+def test_list_nmtoken_length_nistxml_sv_iv_list_nmtoken_length_1_3(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet length with value 5.
     """
@@ -6507,11 +6929,12 @@ def test_list_nmtoken_length_nistxml_sv_iv_list_nmtoken_length_1_3(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_length_nistxml_sv_iv_list_nmtoken_length_1_4(mode, save_output):
+def test_list_nmtoken_length_nistxml_sv_iv_list_nmtoken_length_1_4(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet length with value 5.
     """
@@ -6522,11 +6945,12 @@ def test_list_nmtoken_length_nistxml_sv_iv_list_nmtoken_length_1_4(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_length_nistxml_sv_iv_list_nmtoken_length_1_5(mode, save_output):
+def test_list_nmtoken_length_nistxml_sv_iv_list_nmtoken_length_1_5(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet length with value 5.
     """
@@ -6537,11 +6961,12 @@ def test_list_nmtoken_length_nistxml_sv_iv_list_nmtoken_length_1_5(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_min_length_4_nistxml_sv_iv_list_nmtoken_min_length_5_1(mode, save_output):
+def test_list_nmtoken_min_length_4_nistxml_sv_iv_list_nmtoken_min_length_5_1(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet minLength with value 10.
     """
@@ -6552,11 +6977,12 @@ def test_list_nmtoken_min_length_4_nistxml_sv_iv_list_nmtoken_min_length_5_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_min_length_4_nistxml_sv_iv_list_nmtoken_min_length_5_2(mode, save_output):
+def test_list_nmtoken_min_length_4_nistxml_sv_iv_list_nmtoken_min_length_5_2(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet minLength with value 10.
     """
@@ -6567,11 +6993,12 @@ def test_list_nmtoken_min_length_4_nistxml_sv_iv_list_nmtoken_min_length_5_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_min_length_4_nistxml_sv_iv_list_nmtoken_min_length_5_3(mode, save_output):
+def test_list_nmtoken_min_length_4_nistxml_sv_iv_list_nmtoken_min_length_5_3(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet minLength with value 10.
     """
@@ -6582,11 +7009,12 @@ def test_list_nmtoken_min_length_4_nistxml_sv_iv_list_nmtoken_min_length_5_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_min_length_4_nistxml_sv_iv_list_nmtoken_min_length_5_4(mode, save_output):
+def test_list_nmtoken_min_length_4_nistxml_sv_iv_list_nmtoken_min_length_5_4(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet minLength with value 10.
     """
@@ -6597,11 +7025,12 @@ def test_list_nmtoken_min_length_4_nistxml_sv_iv_list_nmtoken_min_length_5_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_min_length_4_nistxml_sv_iv_list_nmtoken_min_length_5_5(mode, save_output):
+def test_list_nmtoken_min_length_4_nistxml_sv_iv_list_nmtoken_min_length_5_5(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet minLength with value 10.
     """
@@ -6612,11 +7041,12 @@ def test_list_nmtoken_min_length_4_nistxml_sv_iv_list_nmtoken_min_length_5_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_min_length_3_nistxml_sv_iv_list_nmtoken_min_length_4_1(mode, save_output):
+def test_list_nmtoken_min_length_3_nistxml_sv_iv_list_nmtoken_min_length_4_1(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet minLength with value 8.
     """
@@ -6627,11 +7057,12 @@ def test_list_nmtoken_min_length_3_nistxml_sv_iv_list_nmtoken_min_length_4_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_min_length_3_nistxml_sv_iv_list_nmtoken_min_length_4_2(mode, save_output):
+def test_list_nmtoken_min_length_3_nistxml_sv_iv_list_nmtoken_min_length_4_2(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet minLength with value 8.
     """
@@ -6642,11 +7073,12 @@ def test_list_nmtoken_min_length_3_nistxml_sv_iv_list_nmtoken_min_length_4_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_min_length_3_nistxml_sv_iv_list_nmtoken_min_length_4_3(mode, save_output):
+def test_list_nmtoken_min_length_3_nistxml_sv_iv_list_nmtoken_min_length_4_3(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet minLength with value 8.
     """
@@ -6657,11 +7089,12 @@ def test_list_nmtoken_min_length_3_nistxml_sv_iv_list_nmtoken_min_length_4_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_min_length_3_nistxml_sv_iv_list_nmtoken_min_length_4_4(mode, save_output):
+def test_list_nmtoken_min_length_3_nistxml_sv_iv_list_nmtoken_min_length_4_4(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet minLength with value 8.
     """
@@ -6672,11 +7105,12 @@ def test_list_nmtoken_min_length_3_nistxml_sv_iv_list_nmtoken_min_length_4_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_min_length_3_nistxml_sv_iv_list_nmtoken_min_length_4_5(mode, save_output):
+def test_list_nmtoken_min_length_3_nistxml_sv_iv_list_nmtoken_min_length_4_5(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet minLength with value 8.
     """
@@ -6687,11 +7121,12 @@ def test_list_nmtoken_min_length_3_nistxml_sv_iv_list_nmtoken_min_length_4_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_min_length_2_nistxml_sv_iv_list_nmtoken_min_length_3_1(mode, save_output):
+def test_list_nmtoken_min_length_2_nistxml_sv_iv_list_nmtoken_min_length_3_1(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet minLength with value 7.
     """
@@ -6702,11 +7137,12 @@ def test_list_nmtoken_min_length_2_nistxml_sv_iv_list_nmtoken_min_length_3_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_min_length_2_nistxml_sv_iv_list_nmtoken_min_length_3_2(mode, save_output):
+def test_list_nmtoken_min_length_2_nistxml_sv_iv_list_nmtoken_min_length_3_2(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet minLength with value 7.
     """
@@ -6717,11 +7153,12 @@ def test_list_nmtoken_min_length_2_nistxml_sv_iv_list_nmtoken_min_length_3_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_min_length_2_nistxml_sv_iv_list_nmtoken_min_length_3_3(mode, save_output):
+def test_list_nmtoken_min_length_2_nistxml_sv_iv_list_nmtoken_min_length_3_3(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet minLength with value 7.
     """
@@ -6732,11 +7169,12 @@ def test_list_nmtoken_min_length_2_nistxml_sv_iv_list_nmtoken_min_length_3_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_min_length_2_nistxml_sv_iv_list_nmtoken_min_length_3_4(mode, save_output):
+def test_list_nmtoken_min_length_2_nistxml_sv_iv_list_nmtoken_min_length_3_4(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet minLength with value 7.
     """
@@ -6747,11 +7185,12 @@ def test_list_nmtoken_min_length_2_nistxml_sv_iv_list_nmtoken_min_length_3_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_min_length_2_nistxml_sv_iv_list_nmtoken_min_length_3_5(mode, save_output):
+def test_list_nmtoken_min_length_2_nistxml_sv_iv_list_nmtoken_min_length_3_5(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet minLength with value 7.
     """
@@ -6762,11 +7201,12 @@ def test_list_nmtoken_min_length_2_nistxml_sv_iv_list_nmtoken_min_length_3_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_min_length_1_nistxml_sv_iv_list_nmtoken_min_length_2_1(mode, save_output):
+def test_list_nmtoken_min_length_1_nistxml_sv_iv_list_nmtoken_min_length_2_1(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet minLength with value 6.
     """
@@ -6777,11 +7217,12 @@ def test_list_nmtoken_min_length_1_nistxml_sv_iv_list_nmtoken_min_length_2_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_min_length_1_nistxml_sv_iv_list_nmtoken_min_length_2_2(mode, save_output):
+def test_list_nmtoken_min_length_1_nistxml_sv_iv_list_nmtoken_min_length_2_2(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet minLength with value 6.
     """
@@ -6792,11 +7233,12 @@ def test_list_nmtoken_min_length_1_nistxml_sv_iv_list_nmtoken_min_length_2_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_min_length_1_nistxml_sv_iv_list_nmtoken_min_length_2_3(mode, save_output):
+def test_list_nmtoken_min_length_1_nistxml_sv_iv_list_nmtoken_min_length_2_3(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet minLength with value 6.
     """
@@ -6807,11 +7249,12 @@ def test_list_nmtoken_min_length_1_nistxml_sv_iv_list_nmtoken_min_length_2_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_min_length_1_nistxml_sv_iv_list_nmtoken_min_length_2_4(mode, save_output):
+def test_list_nmtoken_min_length_1_nistxml_sv_iv_list_nmtoken_min_length_2_4(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet minLength with value 6.
     """
@@ -6822,11 +7265,12 @@ def test_list_nmtoken_min_length_1_nistxml_sv_iv_list_nmtoken_min_length_2_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_min_length_1_nistxml_sv_iv_list_nmtoken_min_length_2_5(mode, save_output):
+def test_list_nmtoken_min_length_1_nistxml_sv_iv_list_nmtoken_min_length_2_5(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet minLength with value 6.
     """
@@ -6837,11 +7281,12 @@ def test_list_nmtoken_min_length_1_nistxml_sv_iv_list_nmtoken_min_length_2_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_min_length_nistxml_sv_iv_list_nmtoken_min_length_1_1(mode, save_output):
+def test_list_nmtoken_min_length_nistxml_sv_iv_list_nmtoken_min_length_1_1(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet minLength with value 5.
     """
@@ -6852,11 +7297,12 @@ def test_list_nmtoken_min_length_nistxml_sv_iv_list_nmtoken_min_length_1_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_min_length_nistxml_sv_iv_list_nmtoken_min_length_1_2(mode, save_output):
+def test_list_nmtoken_min_length_nistxml_sv_iv_list_nmtoken_min_length_1_2(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet minLength with value 5.
     """
@@ -6867,11 +7313,12 @@ def test_list_nmtoken_min_length_nistxml_sv_iv_list_nmtoken_min_length_1_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_min_length_nistxml_sv_iv_list_nmtoken_min_length_1_3(mode, save_output):
+def test_list_nmtoken_min_length_nistxml_sv_iv_list_nmtoken_min_length_1_3(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet minLength with value 5.
     """
@@ -6882,11 +7329,12 @@ def test_list_nmtoken_min_length_nistxml_sv_iv_list_nmtoken_min_length_1_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_min_length_nistxml_sv_iv_list_nmtoken_min_length_1_4(mode, save_output):
+def test_list_nmtoken_min_length_nistxml_sv_iv_list_nmtoken_min_length_1_4(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet minLength with value 5.
     """
@@ -6897,11 +7345,12 @@ def test_list_nmtoken_min_length_nistxml_sv_iv_list_nmtoken_min_length_1_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_min_length_nistxml_sv_iv_list_nmtoken_min_length_1_5(mode, save_output):
+def test_list_nmtoken_min_length_nistxml_sv_iv_list_nmtoken_min_length_1_5(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet minLength with value 5.
     """
@@ -6912,11 +7361,12 @@ def test_list_nmtoken_min_length_nistxml_sv_iv_list_nmtoken_min_length_1_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_max_length_4_nistxml_sv_iv_list_nmtoken_max_length_5_1(mode, save_output):
+def test_list_nmtoken_max_length_4_nistxml_sv_iv_list_nmtoken_max_length_5_1(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet maxLength with value 10.
     """
@@ -6927,11 +7377,12 @@ def test_list_nmtoken_max_length_4_nistxml_sv_iv_list_nmtoken_max_length_5_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_max_length_4_nistxml_sv_iv_list_nmtoken_max_length_5_2(mode, save_output):
+def test_list_nmtoken_max_length_4_nistxml_sv_iv_list_nmtoken_max_length_5_2(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet maxLength with value 10.
     """
@@ -6942,11 +7393,12 @@ def test_list_nmtoken_max_length_4_nistxml_sv_iv_list_nmtoken_max_length_5_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_max_length_4_nistxml_sv_iv_list_nmtoken_max_length_5_3(mode, save_output):
+def test_list_nmtoken_max_length_4_nistxml_sv_iv_list_nmtoken_max_length_5_3(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet maxLength with value 10.
     """
@@ -6957,11 +7409,12 @@ def test_list_nmtoken_max_length_4_nistxml_sv_iv_list_nmtoken_max_length_5_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_max_length_4_nistxml_sv_iv_list_nmtoken_max_length_5_4(mode, save_output):
+def test_list_nmtoken_max_length_4_nistxml_sv_iv_list_nmtoken_max_length_5_4(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet maxLength with value 10.
     """
@@ -6972,11 +7425,12 @@ def test_list_nmtoken_max_length_4_nistxml_sv_iv_list_nmtoken_max_length_5_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_max_length_4_nistxml_sv_iv_list_nmtoken_max_length_5_5(mode, save_output):
+def test_list_nmtoken_max_length_4_nistxml_sv_iv_list_nmtoken_max_length_5_5(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet maxLength with value 10.
     """
@@ -6987,11 +7441,12 @@ def test_list_nmtoken_max_length_4_nistxml_sv_iv_list_nmtoken_max_length_5_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_max_length_3_nistxml_sv_iv_list_nmtoken_max_length_4_1(mode, save_output):
+def test_list_nmtoken_max_length_3_nistxml_sv_iv_list_nmtoken_max_length_4_1(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet maxLength with value 8.
     """
@@ -7002,11 +7457,12 @@ def test_list_nmtoken_max_length_3_nistxml_sv_iv_list_nmtoken_max_length_4_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_max_length_3_nistxml_sv_iv_list_nmtoken_max_length_4_2(mode, save_output):
+def test_list_nmtoken_max_length_3_nistxml_sv_iv_list_nmtoken_max_length_4_2(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet maxLength with value 8.
     """
@@ -7017,11 +7473,12 @@ def test_list_nmtoken_max_length_3_nistxml_sv_iv_list_nmtoken_max_length_4_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_max_length_3_nistxml_sv_iv_list_nmtoken_max_length_4_3(mode, save_output):
+def test_list_nmtoken_max_length_3_nistxml_sv_iv_list_nmtoken_max_length_4_3(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet maxLength with value 8.
     """
@@ -7032,11 +7489,12 @@ def test_list_nmtoken_max_length_3_nistxml_sv_iv_list_nmtoken_max_length_4_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_max_length_3_nistxml_sv_iv_list_nmtoken_max_length_4_4(mode, save_output):
+def test_list_nmtoken_max_length_3_nistxml_sv_iv_list_nmtoken_max_length_4_4(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet maxLength with value 8.
     """
@@ -7047,11 +7505,12 @@ def test_list_nmtoken_max_length_3_nistxml_sv_iv_list_nmtoken_max_length_4_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_max_length_3_nistxml_sv_iv_list_nmtoken_max_length_4_5(mode, save_output):
+def test_list_nmtoken_max_length_3_nistxml_sv_iv_list_nmtoken_max_length_4_5(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet maxLength with value 8.
     """
@@ -7062,11 +7521,12 @@ def test_list_nmtoken_max_length_3_nistxml_sv_iv_list_nmtoken_max_length_4_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_max_length_2_nistxml_sv_iv_list_nmtoken_max_length_3_1(mode, save_output):
+def test_list_nmtoken_max_length_2_nistxml_sv_iv_list_nmtoken_max_length_3_1(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet maxLength with value 7.
     """
@@ -7077,11 +7537,12 @@ def test_list_nmtoken_max_length_2_nistxml_sv_iv_list_nmtoken_max_length_3_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_max_length_2_nistxml_sv_iv_list_nmtoken_max_length_3_2(mode, save_output):
+def test_list_nmtoken_max_length_2_nistxml_sv_iv_list_nmtoken_max_length_3_2(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet maxLength with value 7.
     """
@@ -7092,11 +7553,12 @@ def test_list_nmtoken_max_length_2_nistxml_sv_iv_list_nmtoken_max_length_3_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_max_length_2_nistxml_sv_iv_list_nmtoken_max_length_3_3(mode, save_output):
+def test_list_nmtoken_max_length_2_nistxml_sv_iv_list_nmtoken_max_length_3_3(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet maxLength with value 7.
     """
@@ -7107,11 +7569,12 @@ def test_list_nmtoken_max_length_2_nistxml_sv_iv_list_nmtoken_max_length_3_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_max_length_2_nistxml_sv_iv_list_nmtoken_max_length_3_4(mode, save_output):
+def test_list_nmtoken_max_length_2_nistxml_sv_iv_list_nmtoken_max_length_3_4(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet maxLength with value 7.
     """
@@ -7122,11 +7585,12 @@ def test_list_nmtoken_max_length_2_nistxml_sv_iv_list_nmtoken_max_length_3_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_max_length_2_nistxml_sv_iv_list_nmtoken_max_length_3_5(mode, save_output):
+def test_list_nmtoken_max_length_2_nistxml_sv_iv_list_nmtoken_max_length_3_5(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet maxLength with value 7.
     """
@@ -7137,11 +7601,12 @@ def test_list_nmtoken_max_length_2_nistxml_sv_iv_list_nmtoken_max_length_3_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_max_length_1_nistxml_sv_iv_list_nmtoken_max_length_2_1(mode, save_output):
+def test_list_nmtoken_max_length_1_nistxml_sv_iv_list_nmtoken_max_length_2_1(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet maxLength with value 6.
     """
@@ -7152,11 +7617,12 @@ def test_list_nmtoken_max_length_1_nistxml_sv_iv_list_nmtoken_max_length_2_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_max_length_1_nistxml_sv_iv_list_nmtoken_max_length_2_2(mode, save_output):
+def test_list_nmtoken_max_length_1_nistxml_sv_iv_list_nmtoken_max_length_2_2(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet maxLength with value 6.
     """
@@ -7167,11 +7633,12 @@ def test_list_nmtoken_max_length_1_nistxml_sv_iv_list_nmtoken_max_length_2_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_max_length_1_nistxml_sv_iv_list_nmtoken_max_length_2_3(mode, save_output):
+def test_list_nmtoken_max_length_1_nistxml_sv_iv_list_nmtoken_max_length_2_3(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet maxLength with value 6.
     """
@@ -7182,11 +7649,12 @@ def test_list_nmtoken_max_length_1_nistxml_sv_iv_list_nmtoken_max_length_2_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_max_length_1_nistxml_sv_iv_list_nmtoken_max_length_2_4(mode, save_output):
+def test_list_nmtoken_max_length_1_nistxml_sv_iv_list_nmtoken_max_length_2_4(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet maxLength with value 6.
     """
@@ -7197,11 +7665,12 @@ def test_list_nmtoken_max_length_1_nistxml_sv_iv_list_nmtoken_max_length_2_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_max_length_1_nistxml_sv_iv_list_nmtoken_max_length_2_5(mode, save_output):
+def test_list_nmtoken_max_length_1_nistxml_sv_iv_list_nmtoken_max_length_2_5(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet maxLength with value 6.
     """
@@ -7212,11 +7681,12 @@ def test_list_nmtoken_max_length_1_nistxml_sv_iv_list_nmtoken_max_length_2_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_max_length_nistxml_sv_iv_list_nmtoken_max_length_1_1(mode, save_output):
+def test_list_nmtoken_max_length_nistxml_sv_iv_list_nmtoken_max_length_1_1(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet maxLength with value 5.
     """
@@ -7227,11 +7697,12 @@ def test_list_nmtoken_max_length_nistxml_sv_iv_list_nmtoken_max_length_1_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_max_length_nistxml_sv_iv_list_nmtoken_max_length_1_2(mode, save_output):
+def test_list_nmtoken_max_length_nistxml_sv_iv_list_nmtoken_max_length_1_2(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet maxLength with value 5.
     """
@@ -7242,11 +7713,12 @@ def test_list_nmtoken_max_length_nistxml_sv_iv_list_nmtoken_max_length_1_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_max_length_nistxml_sv_iv_list_nmtoken_max_length_1_3(mode, save_output):
+def test_list_nmtoken_max_length_nistxml_sv_iv_list_nmtoken_max_length_1_3(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet maxLength with value 5.
     """
@@ -7257,11 +7729,12 @@ def test_list_nmtoken_max_length_nistxml_sv_iv_list_nmtoken_max_length_1_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_max_length_nistxml_sv_iv_list_nmtoken_max_length_1_4(mode, save_output):
+def test_list_nmtoken_max_length_nistxml_sv_iv_list_nmtoken_max_length_1_4(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet maxLength with value 5.
     """
@@ -7272,11 +7745,12 @@ def test_list_nmtoken_max_length_nistxml_sv_iv_list_nmtoken_max_length_1_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_nmtoken_max_length_nistxml_sv_iv_list_nmtoken_max_length_1_5(mode, save_output):
+def test_list_nmtoken_max_length_nistxml_sv_iv_list_nmtoken_max_length_1_5(mode, save_output, output_format):
     """
     Type list/NMTOKEN is restricted by facet maxLength with value 5.
     """
@@ -7287,11 +7761,12 @@ def test_list_nmtoken_max_length_nistxml_sv_iv_list_nmtoken_max_length_1_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_white_space_nistxml_sv_iv_list_name_white_space_1_1(mode, save_output):
+def test_list_name_white_space_nistxml_sv_iv_list_name_white_space_1_1(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet whiteSpace with value collapse.
     """
@@ -7302,11 +7777,12 @@ def test_list_name_white_space_nistxml_sv_iv_list_name_white_space_1_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_white_space_nistxml_sv_iv_list_name_white_space_1_2(mode, save_output):
+def test_list_name_white_space_nistxml_sv_iv_list_name_white_space_1_2(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet whiteSpace with value collapse.
     """
@@ -7317,11 +7793,12 @@ def test_list_name_white_space_nistxml_sv_iv_list_name_white_space_1_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_white_space_nistxml_sv_iv_list_name_white_space_1_3(mode, save_output):
+def test_list_name_white_space_nistxml_sv_iv_list_name_white_space_1_3(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet whiteSpace with value collapse.
     """
@@ -7332,11 +7809,12 @@ def test_list_name_white_space_nistxml_sv_iv_list_name_white_space_1_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_white_space_nistxml_sv_iv_list_name_white_space_1_4(mode, save_output):
+def test_list_name_white_space_nistxml_sv_iv_list_name_white_space_1_4(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet whiteSpace with value collapse.
     """
@@ -7347,11 +7825,12 @@ def test_list_name_white_space_nistxml_sv_iv_list_name_white_space_1_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_white_space_nistxml_sv_iv_list_name_white_space_1_5(mode, save_output):
+def test_list_name_white_space_nistxml_sv_iv_list_name_white_space_1_5(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet whiteSpace with value collapse.
     """
@@ -7362,11 +7841,12 @@ def test_list_name_white_space_nistxml_sv_iv_list_name_white_space_1_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_enumeration_4_nistxml_sv_iv_list_name_enumeration_5_1(mode, save_output):
+def test_list_name_enumeration_4_nistxml_sv_iv_list_name_enumeration_5_1(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet enumeration.
     """
@@ -7377,11 +7857,12 @@ def test_list_name_enumeration_4_nistxml_sv_iv_list_name_enumeration_5_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_enumeration_4_nistxml_sv_iv_list_name_enumeration_5_2(mode, save_output):
+def test_list_name_enumeration_4_nistxml_sv_iv_list_name_enumeration_5_2(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet enumeration.
     """
@@ -7392,11 +7873,12 @@ def test_list_name_enumeration_4_nistxml_sv_iv_list_name_enumeration_5_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_enumeration_4_nistxml_sv_iv_list_name_enumeration_5_3(mode, save_output):
+def test_list_name_enumeration_4_nistxml_sv_iv_list_name_enumeration_5_3(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet enumeration.
     """
@@ -7407,11 +7889,12 @@ def test_list_name_enumeration_4_nistxml_sv_iv_list_name_enumeration_5_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_enumeration_4_nistxml_sv_iv_list_name_enumeration_5_4(mode, save_output):
+def test_list_name_enumeration_4_nistxml_sv_iv_list_name_enumeration_5_4(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet enumeration.
     """
@@ -7422,11 +7905,12 @@ def test_list_name_enumeration_4_nistxml_sv_iv_list_name_enumeration_5_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_enumeration_4_nistxml_sv_iv_list_name_enumeration_5_5(mode, save_output):
+def test_list_name_enumeration_4_nistxml_sv_iv_list_name_enumeration_5_5(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet enumeration.
     """
@@ -7437,11 +7921,12 @@ def test_list_name_enumeration_4_nistxml_sv_iv_list_name_enumeration_5_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_enumeration_3_nistxml_sv_iv_list_name_enumeration_4_1(mode, save_output):
+def test_list_name_enumeration_3_nistxml_sv_iv_list_name_enumeration_4_1(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet enumeration.
     """
@@ -7452,11 +7937,12 @@ def test_list_name_enumeration_3_nistxml_sv_iv_list_name_enumeration_4_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_enumeration_3_nistxml_sv_iv_list_name_enumeration_4_2(mode, save_output):
+def test_list_name_enumeration_3_nistxml_sv_iv_list_name_enumeration_4_2(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet enumeration.
     """
@@ -7467,11 +7953,12 @@ def test_list_name_enumeration_3_nistxml_sv_iv_list_name_enumeration_4_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_enumeration_3_nistxml_sv_iv_list_name_enumeration_4_3(mode, save_output):
+def test_list_name_enumeration_3_nistxml_sv_iv_list_name_enumeration_4_3(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet enumeration.
     """
@@ -7482,11 +7969,12 @@ def test_list_name_enumeration_3_nistxml_sv_iv_list_name_enumeration_4_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_enumeration_3_nistxml_sv_iv_list_name_enumeration_4_4(mode, save_output):
+def test_list_name_enumeration_3_nistxml_sv_iv_list_name_enumeration_4_4(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet enumeration.
     """
@@ -7497,11 +7985,12 @@ def test_list_name_enumeration_3_nistxml_sv_iv_list_name_enumeration_4_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_enumeration_3_nistxml_sv_iv_list_name_enumeration_4_5(mode, save_output):
+def test_list_name_enumeration_3_nistxml_sv_iv_list_name_enumeration_4_5(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet enumeration.
     """
@@ -7512,11 +8001,12 @@ def test_list_name_enumeration_3_nistxml_sv_iv_list_name_enumeration_4_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_enumeration_2_nistxml_sv_iv_list_name_enumeration_3_1(mode, save_output):
+def test_list_name_enumeration_2_nistxml_sv_iv_list_name_enumeration_3_1(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet enumeration.
     """
@@ -7527,11 +8017,12 @@ def test_list_name_enumeration_2_nistxml_sv_iv_list_name_enumeration_3_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_enumeration_2_nistxml_sv_iv_list_name_enumeration_3_2(mode, save_output):
+def test_list_name_enumeration_2_nistxml_sv_iv_list_name_enumeration_3_2(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet enumeration.
     """
@@ -7542,11 +8033,12 @@ def test_list_name_enumeration_2_nistxml_sv_iv_list_name_enumeration_3_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_enumeration_2_nistxml_sv_iv_list_name_enumeration_3_3(mode, save_output):
+def test_list_name_enumeration_2_nistxml_sv_iv_list_name_enumeration_3_3(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet enumeration.
     """
@@ -7557,11 +8049,12 @@ def test_list_name_enumeration_2_nistxml_sv_iv_list_name_enumeration_3_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_enumeration_2_nistxml_sv_iv_list_name_enumeration_3_4(mode, save_output):
+def test_list_name_enumeration_2_nistxml_sv_iv_list_name_enumeration_3_4(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet enumeration.
     """
@@ -7572,11 +8065,12 @@ def test_list_name_enumeration_2_nistxml_sv_iv_list_name_enumeration_3_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_enumeration_2_nistxml_sv_iv_list_name_enumeration_3_5(mode, save_output):
+def test_list_name_enumeration_2_nistxml_sv_iv_list_name_enumeration_3_5(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet enumeration.
     """
@@ -7587,11 +8081,12 @@ def test_list_name_enumeration_2_nistxml_sv_iv_list_name_enumeration_3_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_enumeration_1_nistxml_sv_iv_list_name_enumeration_2_1(mode, save_output):
+def test_list_name_enumeration_1_nistxml_sv_iv_list_name_enumeration_2_1(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet enumeration.
     """
@@ -7602,11 +8097,12 @@ def test_list_name_enumeration_1_nistxml_sv_iv_list_name_enumeration_2_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_enumeration_1_nistxml_sv_iv_list_name_enumeration_2_2(mode, save_output):
+def test_list_name_enumeration_1_nistxml_sv_iv_list_name_enumeration_2_2(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet enumeration.
     """
@@ -7617,11 +8113,12 @@ def test_list_name_enumeration_1_nistxml_sv_iv_list_name_enumeration_2_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_enumeration_1_nistxml_sv_iv_list_name_enumeration_2_3(mode, save_output):
+def test_list_name_enumeration_1_nistxml_sv_iv_list_name_enumeration_2_3(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet enumeration.
     """
@@ -7632,11 +8129,12 @@ def test_list_name_enumeration_1_nistxml_sv_iv_list_name_enumeration_2_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_enumeration_1_nistxml_sv_iv_list_name_enumeration_2_4(mode, save_output):
+def test_list_name_enumeration_1_nistxml_sv_iv_list_name_enumeration_2_4(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet enumeration.
     """
@@ -7647,11 +8145,12 @@ def test_list_name_enumeration_1_nistxml_sv_iv_list_name_enumeration_2_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_enumeration_1_nistxml_sv_iv_list_name_enumeration_2_5(mode, save_output):
+def test_list_name_enumeration_1_nistxml_sv_iv_list_name_enumeration_2_5(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet enumeration.
     """
@@ -7662,11 +8161,12 @@ def test_list_name_enumeration_1_nistxml_sv_iv_list_name_enumeration_2_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_enumeration_nistxml_sv_iv_list_name_enumeration_1_1(mode, save_output):
+def test_list_name_enumeration_nistxml_sv_iv_list_name_enumeration_1_1(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet enumeration.
     """
@@ -7677,11 +8177,12 @@ def test_list_name_enumeration_nistxml_sv_iv_list_name_enumeration_1_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_enumeration_nistxml_sv_iv_list_name_enumeration_1_2(mode, save_output):
+def test_list_name_enumeration_nistxml_sv_iv_list_name_enumeration_1_2(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet enumeration.
     """
@@ -7692,11 +8193,12 @@ def test_list_name_enumeration_nistxml_sv_iv_list_name_enumeration_1_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_enumeration_nistxml_sv_iv_list_name_enumeration_1_3(mode, save_output):
+def test_list_name_enumeration_nistxml_sv_iv_list_name_enumeration_1_3(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet enumeration.
     """
@@ -7707,11 +8209,12 @@ def test_list_name_enumeration_nistxml_sv_iv_list_name_enumeration_1_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_enumeration_nistxml_sv_iv_list_name_enumeration_1_4(mode, save_output):
+def test_list_name_enumeration_nistxml_sv_iv_list_name_enumeration_1_4(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet enumeration.
     """
@@ -7722,11 +8225,12 @@ def test_list_name_enumeration_nistxml_sv_iv_list_name_enumeration_1_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_enumeration_nistxml_sv_iv_list_name_enumeration_1_5(mode, save_output):
+def test_list_name_enumeration_nistxml_sv_iv_list_name_enumeration_1_5(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet enumeration.
     """
@@ -7737,11 +8241,12 @@ def test_list_name_enumeration_nistxml_sv_iv_list_name_enumeration_1_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_pattern_4_nistxml_sv_iv_list_name_pattern_5_1(mode, save_output):
+def test_list_name_pattern_4_nistxml_sv_iv_list_name_pattern_5_1(mode, save_output, output_format):
     r"""
     Type list/Name is restricted by facet pattern with value \i\c{21}
     \i\c{22} \i\c{35} \i\c{25} \i\c{26} \i\c{12} \i\c{48} \i\c{33}
@@ -7754,11 +8259,12 @@ def test_list_name_pattern_4_nistxml_sv_iv_list_name_pattern_5_1(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_pattern_4_nistxml_sv_iv_list_name_pattern_5_2(mode, save_output):
+def test_list_name_pattern_4_nistxml_sv_iv_list_name_pattern_5_2(mode, save_output, output_format):
     r"""
     Type list/Name is restricted by facet pattern with value \i\c{21}
     \i\c{22} \i\c{35} \i\c{25} \i\c{26} \i\c{12} \i\c{48} \i\c{33}
@@ -7771,11 +8277,12 @@ def test_list_name_pattern_4_nistxml_sv_iv_list_name_pattern_5_2(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_pattern_4_nistxml_sv_iv_list_name_pattern_5_3(mode, save_output):
+def test_list_name_pattern_4_nistxml_sv_iv_list_name_pattern_5_3(mode, save_output, output_format):
     r"""
     Type list/Name is restricted by facet pattern with value \i\c{21}
     \i\c{22} \i\c{35} \i\c{25} \i\c{26} \i\c{12} \i\c{48} \i\c{33}
@@ -7788,11 +8295,12 @@ def test_list_name_pattern_4_nistxml_sv_iv_list_name_pattern_5_3(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_pattern_4_nistxml_sv_iv_list_name_pattern_5_4(mode, save_output):
+def test_list_name_pattern_4_nistxml_sv_iv_list_name_pattern_5_4(mode, save_output, output_format):
     r"""
     Type list/Name is restricted by facet pattern with value \i\c{21}
     \i\c{22} \i\c{35} \i\c{25} \i\c{26} \i\c{12} \i\c{48} \i\c{33}
@@ -7805,11 +8313,12 @@ def test_list_name_pattern_4_nistxml_sv_iv_list_name_pattern_5_4(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_pattern_4_nistxml_sv_iv_list_name_pattern_5_5(mode, save_output):
+def test_list_name_pattern_4_nistxml_sv_iv_list_name_pattern_5_5(mode, save_output, output_format):
     r"""
     Type list/Name is restricted by facet pattern with value \i\c{21}
     \i\c{22} \i\c{35} \i\c{25} \i\c{26} \i\c{12} \i\c{48} \i\c{33}
@@ -7822,11 +8331,12 @@ def test_list_name_pattern_4_nistxml_sv_iv_list_name_pattern_5_5(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_pattern_3_nistxml_sv_iv_list_name_pattern_4_1(mode, save_output):
+def test_list_name_pattern_3_nistxml_sv_iv_list_name_pattern_4_1(mode, save_output, output_format):
     r"""
     Type list/Name is restricted by facet pattern with value \i\c{19}
     \i\c{63} \i\c{18} \i\c{40} \i\c{12} \i\c{58} \i\c{47} \i\c{54}
@@ -7839,11 +8349,12 @@ def test_list_name_pattern_3_nistxml_sv_iv_list_name_pattern_4_1(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_pattern_3_nistxml_sv_iv_list_name_pattern_4_2(mode, save_output):
+def test_list_name_pattern_3_nistxml_sv_iv_list_name_pattern_4_2(mode, save_output, output_format):
     r"""
     Type list/Name is restricted by facet pattern with value \i\c{19}
     \i\c{63} \i\c{18} \i\c{40} \i\c{12} \i\c{58} \i\c{47} \i\c{54}
@@ -7856,11 +8367,12 @@ def test_list_name_pattern_3_nistxml_sv_iv_list_name_pattern_4_2(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_pattern_3_nistxml_sv_iv_list_name_pattern_4_3(mode, save_output):
+def test_list_name_pattern_3_nistxml_sv_iv_list_name_pattern_4_3(mode, save_output, output_format):
     r"""
     Type list/Name is restricted by facet pattern with value \i\c{19}
     \i\c{63} \i\c{18} \i\c{40} \i\c{12} \i\c{58} \i\c{47} \i\c{54}
@@ -7873,11 +8385,12 @@ def test_list_name_pattern_3_nistxml_sv_iv_list_name_pattern_4_3(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_pattern_3_nistxml_sv_iv_list_name_pattern_4_4(mode, save_output):
+def test_list_name_pattern_3_nistxml_sv_iv_list_name_pattern_4_4(mode, save_output, output_format):
     r"""
     Type list/Name is restricted by facet pattern with value \i\c{19}
     \i\c{63} \i\c{18} \i\c{40} \i\c{12} \i\c{58} \i\c{47} \i\c{54}
@@ -7890,11 +8403,12 @@ def test_list_name_pattern_3_nistxml_sv_iv_list_name_pattern_4_4(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_pattern_3_nistxml_sv_iv_list_name_pattern_4_5(mode, save_output):
+def test_list_name_pattern_3_nistxml_sv_iv_list_name_pattern_4_5(mode, save_output, output_format):
     r"""
     Type list/Name is restricted by facet pattern with value \i\c{19}
     \i\c{63} \i\c{18} \i\c{40} \i\c{12} \i\c{58} \i\c{47} \i\c{54}
@@ -7907,11 +8421,12 @@ def test_list_name_pattern_3_nistxml_sv_iv_list_name_pattern_4_5(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_pattern_2_nistxml_sv_iv_list_name_pattern_3_1(mode, save_output):
+def test_list_name_pattern_2_nistxml_sv_iv_list_name_pattern_3_1(mode, save_output, output_format):
     r"""
     Type list/Name is restricted by facet pattern with value \i\c{24}
     \i\c{23} \i\c{57} \i\c{50} \i\c{52} \i\c{35} \i\c{28}.
@@ -7923,11 +8438,12 @@ def test_list_name_pattern_2_nistxml_sv_iv_list_name_pattern_3_1(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_pattern_2_nistxml_sv_iv_list_name_pattern_3_2(mode, save_output):
+def test_list_name_pattern_2_nistxml_sv_iv_list_name_pattern_3_2(mode, save_output, output_format):
     r"""
     Type list/Name is restricted by facet pattern with value \i\c{24}
     \i\c{23} \i\c{57} \i\c{50} \i\c{52} \i\c{35} \i\c{28}.
@@ -7939,11 +8455,12 @@ def test_list_name_pattern_2_nistxml_sv_iv_list_name_pattern_3_2(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_pattern_2_nistxml_sv_iv_list_name_pattern_3_3(mode, save_output):
+def test_list_name_pattern_2_nistxml_sv_iv_list_name_pattern_3_3(mode, save_output, output_format):
     r"""
     Type list/Name is restricted by facet pattern with value \i\c{24}
     \i\c{23} \i\c{57} \i\c{50} \i\c{52} \i\c{35} \i\c{28}.
@@ -7955,11 +8472,12 @@ def test_list_name_pattern_2_nistxml_sv_iv_list_name_pattern_3_3(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_pattern_2_nistxml_sv_iv_list_name_pattern_3_4(mode, save_output):
+def test_list_name_pattern_2_nistxml_sv_iv_list_name_pattern_3_4(mode, save_output, output_format):
     r"""
     Type list/Name is restricted by facet pattern with value \i\c{24}
     \i\c{23} \i\c{57} \i\c{50} \i\c{52} \i\c{35} \i\c{28}.
@@ -7971,11 +8489,12 @@ def test_list_name_pattern_2_nistxml_sv_iv_list_name_pattern_3_4(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_pattern_2_nistxml_sv_iv_list_name_pattern_3_5(mode, save_output):
+def test_list_name_pattern_2_nistxml_sv_iv_list_name_pattern_3_5(mode, save_output, output_format):
     r"""
     Type list/Name is restricted by facet pattern with value \i\c{24}
     \i\c{23} \i\c{57} \i\c{50} \i\c{52} \i\c{35} \i\c{28}.
@@ -7987,11 +8506,12 @@ def test_list_name_pattern_2_nistxml_sv_iv_list_name_pattern_3_5(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_pattern_1_nistxml_sv_iv_list_name_pattern_2_1(mode, save_output):
+def test_list_name_pattern_1_nistxml_sv_iv_list_name_pattern_2_1(mode, save_output, output_format):
     r"""
     Type list/Name is restricted by facet pattern with value \i\c{33}
     \i\c{52} \i\c{56} \i\c{6} \i\c{22}.
@@ -8003,11 +8523,12 @@ def test_list_name_pattern_1_nistxml_sv_iv_list_name_pattern_2_1(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_pattern_1_nistxml_sv_iv_list_name_pattern_2_2(mode, save_output):
+def test_list_name_pattern_1_nistxml_sv_iv_list_name_pattern_2_2(mode, save_output, output_format):
     r"""
     Type list/Name is restricted by facet pattern with value \i\c{33}
     \i\c{52} \i\c{56} \i\c{6} \i\c{22}.
@@ -8019,11 +8540,12 @@ def test_list_name_pattern_1_nistxml_sv_iv_list_name_pattern_2_2(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_pattern_1_nistxml_sv_iv_list_name_pattern_2_3(mode, save_output):
+def test_list_name_pattern_1_nistxml_sv_iv_list_name_pattern_2_3(mode, save_output, output_format):
     r"""
     Type list/Name is restricted by facet pattern with value \i\c{33}
     \i\c{52} \i\c{56} \i\c{6} \i\c{22}.
@@ -8035,11 +8557,12 @@ def test_list_name_pattern_1_nistxml_sv_iv_list_name_pattern_2_3(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_pattern_1_nistxml_sv_iv_list_name_pattern_2_4(mode, save_output):
+def test_list_name_pattern_1_nistxml_sv_iv_list_name_pattern_2_4(mode, save_output, output_format):
     r"""
     Type list/Name is restricted by facet pattern with value \i\c{33}
     \i\c{52} \i\c{56} \i\c{6} \i\c{22}.
@@ -8051,11 +8574,12 @@ def test_list_name_pattern_1_nistxml_sv_iv_list_name_pattern_2_4(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_pattern_1_nistxml_sv_iv_list_name_pattern_2_5(mode, save_output):
+def test_list_name_pattern_1_nistxml_sv_iv_list_name_pattern_2_5(mode, save_output, output_format):
     r"""
     Type list/Name is restricted by facet pattern with value \i\c{33}
     \i\c{52} \i\c{56} \i\c{6} \i\c{22}.
@@ -8067,11 +8591,12 @@ def test_list_name_pattern_1_nistxml_sv_iv_list_name_pattern_2_5(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_pattern_nistxml_sv_iv_list_name_pattern_1_1(mode, save_output):
+def test_list_name_pattern_nistxml_sv_iv_list_name_pattern_1_1(mode, save_output, output_format):
     r"""
     Type list/Name is restricted by facet pattern with value \i\c{48}
     \i\c{47} \i\c{13} \i\c{4} \i\c{46} \i\c{37}.
@@ -8083,11 +8608,12 @@ def test_list_name_pattern_nistxml_sv_iv_list_name_pattern_1_1(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_pattern_nistxml_sv_iv_list_name_pattern_1_2(mode, save_output):
+def test_list_name_pattern_nistxml_sv_iv_list_name_pattern_1_2(mode, save_output, output_format):
     r"""
     Type list/Name is restricted by facet pattern with value \i\c{48}
     \i\c{47} \i\c{13} \i\c{4} \i\c{46} \i\c{37}.
@@ -8099,11 +8625,12 @@ def test_list_name_pattern_nistxml_sv_iv_list_name_pattern_1_2(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_pattern_nistxml_sv_iv_list_name_pattern_1_3(mode, save_output):
+def test_list_name_pattern_nistxml_sv_iv_list_name_pattern_1_3(mode, save_output, output_format):
     r"""
     Type list/Name is restricted by facet pattern with value \i\c{48}
     \i\c{47} \i\c{13} \i\c{4} \i\c{46} \i\c{37}.
@@ -8115,11 +8642,12 @@ def test_list_name_pattern_nistxml_sv_iv_list_name_pattern_1_3(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_pattern_nistxml_sv_iv_list_name_pattern_1_4(mode, save_output):
+def test_list_name_pattern_nistxml_sv_iv_list_name_pattern_1_4(mode, save_output, output_format):
     r"""
     Type list/Name is restricted by facet pattern with value \i\c{48}
     \i\c{47} \i\c{13} \i\c{4} \i\c{46} \i\c{37}.
@@ -8131,11 +8659,12 @@ def test_list_name_pattern_nistxml_sv_iv_list_name_pattern_1_4(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_pattern_nistxml_sv_iv_list_name_pattern_1_5(mode, save_output):
+def test_list_name_pattern_nistxml_sv_iv_list_name_pattern_1_5(mode, save_output, output_format):
     r"""
     Type list/Name is restricted by facet pattern with value \i\c{48}
     \i\c{47} \i\c{13} \i\c{4} \i\c{46} \i\c{37}.
@@ -8147,11 +8676,12 @@ def test_list_name_pattern_nistxml_sv_iv_list_name_pattern_1_5(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_length_4_nistxml_sv_iv_list_name_length_5_1(mode, save_output):
+def test_list_name_length_4_nistxml_sv_iv_list_name_length_5_1(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet length with value 10.
     """
@@ -8162,11 +8692,12 @@ def test_list_name_length_4_nistxml_sv_iv_list_name_length_5_1(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_length_4_nistxml_sv_iv_list_name_length_5_2(mode, save_output):
+def test_list_name_length_4_nistxml_sv_iv_list_name_length_5_2(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet length with value 10.
     """
@@ -8177,11 +8708,12 @@ def test_list_name_length_4_nistxml_sv_iv_list_name_length_5_2(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_length_4_nistxml_sv_iv_list_name_length_5_3(mode, save_output):
+def test_list_name_length_4_nistxml_sv_iv_list_name_length_5_3(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet length with value 10.
     """
@@ -8192,11 +8724,12 @@ def test_list_name_length_4_nistxml_sv_iv_list_name_length_5_3(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_length_4_nistxml_sv_iv_list_name_length_5_4(mode, save_output):
+def test_list_name_length_4_nistxml_sv_iv_list_name_length_5_4(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet length with value 10.
     """
@@ -8207,11 +8740,12 @@ def test_list_name_length_4_nistxml_sv_iv_list_name_length_5_4(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_length_4_nistxml_sv_iv_list_name_length_5_5(mode, save_output):
+def test_list_name_length_4_nistxml_sv_iv_list_name_length_5_5(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet length with value 10.
     """
@@ -8222,11 +8756,12 @@ def test_list_name_length_4_nistxml_sv_iv_list_name_length_5_5(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_length_3_nistxml_sv_iv_list_name_length_4_1(mode, save_output):
+def test_list_name_length_3_nistxml_sv_iv_list_name_length_4_1(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet length with value 8.
     """
@@ -8237,11 +8772,12 @@ def test_list_name_length_3_nistxml_sv_iv_list_name_length_4_1(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_length_3_nistxml_sv_iv_list_name_length_4_2(mode, save_output):
+def test_list_name_length_3_nistxml_sv_iv_list_name_length_4_2(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet length with value 8.
     """
@@ -8252,11 +8788,12 @@ def test_list_name_length_3_nistxml_sv_iv_list_name_length_4_2(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_length_3_nistxml_sv_iv_list_name_length_4_3(mode, save_output):
+def test_list_name_length_3_nistxml_sv_iv_list_name_length_4_3(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet length with value 8.
     """
@@ -8267,11 +8804,12 @@ def test_list_name_length_3_nistxml_sv_iv_list_name_length_4_3(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_length_3_nistxml_sv_iv_list_name_length_4_4(mode, save_output):
+def test_list_name_length_3_nistxml_sv_iv_list_name_length_4_4(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet length with value 8.
     """
@@ -8282,11 +8820,12 @@ def test_list_name_length_3_nistxml_sv_iv_list_name_length_4_4(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_length_3_nistxml_sv_iv_list_name_length_4_5(mode, save_output):
+def test_list_name_length_3_nistxml_sv_iv_list_name_length_4_5(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet length with value 8.
     """
@@ -8297,11 +8836,12 @@ def test_list_name_length_3_nistxml_sv_iv_list_name_length_4_5(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_length_2_nistxml_sv_iv_list_name_length_3_1(mode, save_output):
+def test_list_name_length_2_nistxml_sv_iv_list_name_length_3_1(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet length with value 7.
     """
@@ -8312,11 +8852,12 @@ def test_list_name_length_2_nistxml_sv_iv_list_name_length_3_1(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_length_2_nistxml_sv_iv_list_name_length_3_2(mode, save_output):
+def test_list_name_length_2_nistxml_sv_iv_list_name_length_3_2(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet length with value 7.
     """
@@ -8327,11 +8868,12 @@ def test_list_name_length_2_nistxml_sv_iv_list_name_length_3_2(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_length_2_nistxml_sv_iv_list_name_length_3_3(mode, save_output):
+def test_list_name_length_2_nistxml_sv_iv_list_name_length_3_3(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet length with value 7.
     """
@@ -8342,11 +8884,12 @@ def test_list_name_length_2_nistxml_sv_iv_list_name_length_3_3(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_length_2_nistxml_sv_iv_list_name_length_3_4(mode, save_output):
+def test_list_name_length_2_nistxml_sv_iv_list_name_length_3_4(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet length with value 7.
     """
@@ -8357,11 +8900,12 @@ def test_list_name_length_2_nistxml_sv_iv_list_name_length_3_4(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_length_2_nistxml_sv_iv_list_name_length_3_5(mode, save_output):
+def test_list_name_length_2_nistxml_sv_iv_list_name_length_3_5(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet length with value 7.
     """
@@ -8372,11 +8916,12 @@ def test_list_name_length_2_nistxml_sv_iv_list_name_length_3_5(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_length_1_nistxml_sv_iv_list_name_length_2_1(mode, save_output):
+def test_list_name_length_1_nistxml_sv_iv_list_name_length_2_1(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet length with value 6.
     """
@@ -8387,11 +8932,12 @@ def test_list_name_length_1_nistxml_sv_iv_list_name_length_2_1(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_length_1_nistxml_sv_iv_list_name_length_2_2(mode, save_output):
+def test_list_name_length_1_nistxml_sv_iv_list_name_length_2_2(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet length with value 6.
     """
@@ -8402,11 +8948,12 @@ def test_list_name_length_1_nistxml_sv_iv_list_name_length_2_2(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_length_1_nistxml_sv_iv_list_name_length_2_3(mode, save_output):
+def test_list_name_length_1_nistxml_sv_iv_list_name_length_2_3(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet length with value 6.
     """
@@ -8417,11 +8964,12 @@ def test_list_name_length_1_nistxml_sv_iv_list_name_length_2_3(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_length_1_nistxml_sv_iv_list_name_length_2_4(mode, save_output):
+def test_list_name_length_1_nistxml_sv_iv_list_name_length_2_4(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet length with value 6.
     """
@@ -8432,11 +8980,12 @@ def test_list_name_length_1_nistxml_sv_iv_list_name_length_2_4(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_length_1_nistxml_sv_iv_list_name_length_2_5(mode, save_output):
+def test_list_name_length_1_nistxml_sv_iv_list_name_length_2_5(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet length with value 6.
     """
@@ -8447,11 +8996,12 @@ def test_list_name_length_1_nistxml_sv_iv_list_name_length_2_5(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_length_nistxml_sv_iv_list_name_length_1_1(mode, save_output):
+def test_list_name_length_nistxml_sv_iv_list_name_length_1_1(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet length with value 5.
     """
@@ -8462,11 +9012,12 @@ def test_list_name_length_nistxml_sv_iv_list_name_length_1_1(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_length_nistxml_sv_iv_list_name_length_1_2(mode, save_output):
+def test_list_name_length_nistxml_sv_iv_list_name_length_1_2(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet length with value 5.
     """
@@ -8477,11 +9028,12 @@ def test_list_name_length_nistxml_sv_iv_list_name_length_1_2(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_length_nistxml_sv_iv_list_name_length_1_3(mode, save_output):
+def test_list_name_length_nistxml_sv_iv_list_name_length_1_3(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet length with value 5.
     """
@@ -8492,11 +9044,12 @@ def test_list_name_length_nistxml_sv_iv_list_name_length_1_3(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_length_nistxml_sv_iv_list_name_length_1_4(mode, save_output):
+def test_list_name_length_nistxml_sv_iv_list_name_length_1_4(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet length with value 5.
     """
@@ -8507,11 +9060,12 @@ def test_list_name_length_nistxml_sv_iv_list_name_length_1_4(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_length_nistxml_sv_iv_list_name_length_1_5(mode, save_output):
+def test_list_name_length_nistxml_sv_iv_list_name_length_1_5(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet length with value 5.
     """
@@ -8522,11 +9076,12 @@ def test_list_name_length_nistxml_sv_iv_list_name_length_1_5(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_min_length_4_nistxml_sv_iv_list_name_min_length_5_1(mode, save_output):
+def test_list_name_min_length_4_nistxml_sv_iv_list_name_min_length_5_1(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet minLength with value 10.
     """
@@ -8537,11 +9092,12 @@ def test_list_name_min_length_4_nistxml_sv_iv_list_name_min_length_5_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_min_length_4_nistxml_sv_iv_list_name_min_length_5_2(mode, save_output):
+def test_list_name_min_length_4_nistxml_sv_iv_list_name_min_length_5_2(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet minLength with value 10.
     """
@@ -8552,11 +9108,12 @@ def test_list_name_min_length_4_nistxml_sv_iv_list_name_min_length_5_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_min_length_4_nistxml_sv_iv_list_name_min_length_5_3(mode, save_output):
+def test_list_name_min_length_4_nistxml_sv_iv_list_name_min_length_5_3(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet minLength with value 10.
     """
@@ -8567,11 +9124,12 @@ def test_list_name_min_length_4_nistxml_sv_iv_list_name_min_length_5_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_min_length_4_nistxml_sv_iv_list_name_min_length_5_4(mode, save_output):
+def test_list_name_min_length_4_nistxml_sv_iv_list_name_min_length_5_4(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet minLength with value 10.
     """
@@ -8582,11 +9140,12 @@ def test_list_name_min_length_4_nistxml_sv_iv_list_name_min_length_5_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_min_length_4_nistxml_sv_iv_list_name_min_length_5_5(mode, save_output):
+def test_list_name_min_length_4_nistxml_sv_iv_list_name_min_length_5_5(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet minLength with value 10.
     """
@@ -8597,11 +9156,12 @@ def test_list_name_min_length_4_nistxml_sv_iv_list_name_min_length_5_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_min_length_3_nistxml_sv_iv_list_name_min_length_4_1(mode, save_output):
+def test_list_name_min_length_3_nistxml_sv_iv_list_name_min_length_4_1(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet minLength with value 8.
     """
@@ -8612,11 +9172,12 @@ def test_list_name_min_length_3_nistxml_sv_iv_list_name_min_length_4_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_min_length_3_nistxml_sv_iv_list_name_min_length_4_2(mode, save_output):
+def test_list_name_min_length_3_nistxml_sv_iv_list_name_min_length_4_2(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet minLength with value 8.
     """
@@ -8627,11 +9188,12 @@ def test_list_name_min_length_3_nistxml_sv_iv_list_name_min_length_4_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_min_length_3_nistxml_sv_iv_list_name_min_length_4_3(mode, save_output):
+def test_list_name_min_length_3_nistxml_sv_iv_list_name_min_length_4_3(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet minLength with value 8.
     """
@@ -8642,11 +9204,12 @@ def test_list_name_min_length_3_nistxml_sv_iv_list_name_min_length_4_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_min_length_3_nistxml_sv_iv_list_name_min_length_4_4(mode, save_output):
+def test_list_name_min_length_3_nistxml_sv_iv_list_name_min_length_4_4(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet minLength with value 8.
     """
@@ -8657,11 +9220,12 @@ def test_list_name_min_length_3_nistxml_sv_iv_list_name_min_length_4_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_min_length_3_nistxml_sv_iv_list_name_min_length_4_5(mode, save_output):
+def test_list_name_min_length_3_nistxml_sv_iv_list_name_min_length_4_5(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet minLength with value 8.
     """
@@ -8672,11 +9236,12 @@ def test_list_name_min_length_3_nistxml_sv_iv_list_name_min_length_4_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_min_length_2_nistxml_sv_iv_list_name_min_length_3_1(mode, save_output):
+def test_list_name_min_length_2_nistxml_sv_iv_list_name_min_length_3_1(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet minLength with value 7.
     """
@@ -8687,11 +9252,12 @@ def test_list_name_min_length_2_nistxml_sv_iv_list_name_min_length_3_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_min_length_2_nistxml_sv_iv_list_name_min_length_3_2(mode, save_output):
+def test_list_name_min_length_2_nistxml_sv_iv_list_name_min_length_3_2(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet minLength with value 7.
     """
@@ -8702,11 +9268,12 @@ def test_list_name_min_length_2_nistxml_sv_iv_list_name_min_length_3_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_min_length_2_nistxml_sv_iv_list_name_min_length_3_3(mode, save_output):
+def test_list_name_min_length_2_nistxml_sv_iv_list_name_min_length_3_3(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet minLength with value 7.
     """
@@ -8717,11 +9284,12 @@ def test_list_name_min_length_2_nistxml_sv_iv_list_name_min_length_3_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_min_length_2_nistxml_sv_iv_list_name_min_length_3_4(mode, save_output):
+def test_list_name_min_length_2_nistxml_sv_iv_list_name_min_length_3_4(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet minLength with value 7.
     """
@@ -8732,11 +9300,12 @@ def test_list_name_min_length_2_nistxml_sv_iv_list_name_min_length_3_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_min_length_2_nistxml_sv_iv_list_name_min_length_3_5(mode, save_output):
+def test_list_name_min_length_2_nistxml_sv_iv_list_name_min_length_3_5(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet minLength with value 7.
     """
@@ -8747,11 +9316,12 @@ def test_list_name_min_length_2_nistxml_sv_iv_list_name_min_length_3_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_min_length_1_nistxml_sv_iv_list_name_min_length_2_1(mode, save_output):
+def test_list_name_min_length_1_nistxml_sv_iv_list_name_min_length_2_1(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet minLength with value 6.
     """
@@ -8762,11 +9332,12 @@ def test_list_name_min_length_1_nistxml_sv_iv_list_name_min_length_2_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_min_length_1_nistxml_sv_iv_list_name_min_length_2_2(mode, save_output):
+def test_list_name_min_length_1_nistxml_sv_iv_list_name_min_length_2_2(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet minLength with value 6.
     """
@@ -8777,11 +9348,12 @@ def test_list_name_min_length_1_nistxml_sv_iv_list_name_min_length_2_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_min_length_1_nistxml_sv_iv_list_name_min_length_2_3(mode, save_output):
+def test_list_name_min_length_1_nistxml_sv_iv_list_name_min_length_2_3(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet minLength with value 6.
     """
@@ -8792,11 +9364,12 @@ def test_list_name_min_length_1_nistxml_sv_iv_list_name_min_length_2_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_min_length_1_nistxml_sv_iv_list_name_min_length_2_4(mode, save_output):
+def test_list_name_min_length_1_nistxml_sv_iv_list_name_min_length_2_4(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet minLength with value 6.
     """
@@ -8807,11 +9380,12 @@ def test_list_name_min_length_1_nistxml_sv_iv_list_name_min_length_2_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_min_length_1_nistxml_sv_iv_list_name_min_length_2_5(mode, save_output):
+def test_list_name_min_length_1_nistxml_sv_iv_list_name_min_length_2_5(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet minLength with value 6.
     """
@@ -8822,11 +9396,12 @@ def test_list_name_min_length_1_nistxml_sv_iv_list_name_min_length_2_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_min_length_nistxml_sv_iv_list_name_min_length_1_1(mode, save_output):
+def test_list_name_min_length_nistxml_sv_iv_list_name_min_length_1_1(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet minLength with value 5.
     """
@@ -8837,11 +9412,12 @@ def test_list_name_min_length_nistxml_sv_iv_list_name_min_length_1_1(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_min_length_nistxml_sv_iv_list_name_min_length_1_2(mode, save_output):
+def test_list_name_min_length_nistxml_sv_iv_list_name_min_length_1_2(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet minLength with value 5.
     """
@@ -8852,11 +9428,12 @@ def test_list_name_min_length_nistxml_sv_iv_list_name_min_length_1_2(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_min_length_nistxml_sv_iv_list_name_min_length_1_3(mode, save_output):
+def test_list_name_min_length_nistxml_sv_iv_list_name_min_length_1_3(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet minLength with value 5.
     """
@@ -8867,11 +9444,12 @@ def test_list_name_min_length_nistxml_sv_iv_list_name_min_length_1_3(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_min_length_nistxml_sv_iv_list_name_min_length_1_4(mode, save_output):
+def test_list_name_min_length_nistxml_sv_iv_list_name_min_length_1_4(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet minLength with value 5.
     """
@@ -8882,11 +9460,12 @@ def test_list_name_min_length_nistxml_sv_iv_list_name_min_length_1_4(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_min_length_nistxml_sv_iv_list_name_min_length_1_5(mode, save_output):
+def test_list_name_min_length_nistxml_sv_iv_list_name_min_length_1_5(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet minLength with value 5.
     """
@@ -8897,11 +9476,12 @@ def test_list_name_min_length_nistxml_sv_iv_list_name_min_length_1_5(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_max_length_4_nistxml_sv_iv_list_name_max_length_5_1(mode, save_output):
+def test_list_name_max_length_4_nistxml_sv_iv_list_name_max_length_5_1(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet maxLength with value 10.
     """
@@ -8912,11 +9492,12 @@ def test_list_name_max_length_4_nistxml_sv_iv_list_name_max_length_5_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_max_length_4_nistxml_sv_iv_list_name_max_length_5_2(mode, save_output):
+def test_list_name_max_length_4_nistxml_sv_iv_list_name_max_length_5_2(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet maxLength with value 10.
     """
@@ -8927,11 +9508,12 @@ def test_list_name_max_length_4_nistxml_sv_iv_list_name_max_length_5_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_max_length_4_nistxml_sv_iv_list_name_max_length_5_3(mode, save_output):
+def test_list_name_max_length_4_nistxml_sv_iv_list_name_max_length_5_3(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet maxLength with value 10.
     """
@@ -8942,11 +9524,12 @@ def test_list_name_max_length_4_nistxml_sv_iv_list_name_max_length_5_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_max_length_4_nistxml_sv_iv_list_name_max_length_5_4(mode, save_output):
+def test_list_name_max_length_4_nistxml_sv_iv_list_name_max_length_5_4(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet maxLength with value 10.
     """
@@ -8957,11 +9540,12 @@ def test_list_name_max_length_4_nistxml_sv_iv_list_name_max_length_5_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_max_length_4_nistxml_sv_iv_list_name_max_length_5_5(mode, save_output):
+def test_list_name_max_length_4_nistxml_sv_iv_list_name_max_length_5_5(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet maxLength with value 10.
     """
@@ -8972,11 +9556,12 @@ def test_list_name_max_length_4_nistxml_sv_iv_list_name_max_length_5_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_max_length_3_nistxml_sv_iv_list_name_max_length_4_1(mode, save_output):
+def test_list_name_max_length_3_nistxml_sv_iv_list_name_max_length_4_1(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet maxLength with value 8.
     """
@@ -8987,11 +9572,12 @@ def test_list_name_max_length_3_nistxml_sv_iv_list_name_max_length_4_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_max_length_3_nistxml_sv_iv_list_name_max_length_4_2(mode, save_output):
+def test_list_name_max_length_3_nistxml_sv_iv_list_name_max_length_4_2(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet maxLength with value 8.
     """
@@ -9002,11 +9588,12 @@ def test_list_name_max_length_3_nistxml_sv_iv_list_name_max_length_4_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_max_length_3_nistxml_sv_iv_list_name_max_length_4_3(mode, save_output):
+def test_list_name_max_length_3_nistxml_sv_iv_list_name_max_length_4_3(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet maxLength with value 8.
     """
@@ -9017,11 +9604,12 @@ def test_list_name_max_length_3_nistxml_sv_iv_list_name_max_length_4_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_max_length_3_nistxml_sv_iv_list_name_max_length_4_4(mode, save_output):
+def test_list_name_max_length_3_nistxml_sv_iv_list_name_max_length_4_4(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet maxLength with value 8.
     """
@@ -9032,11 +9620,12 @@ def test_list_name_max_length_3_nistxml_sv_iv_list_name_max_length_4_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_max_length_3_nistxml_sv_iv_list_name_max_length_4_5(mode, save_output):
+def test_list_name_max_length_3_nistxml_sv_iv_list_name_max_length_4_5(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet maxLength with value 8.
     """
@@ -9047,11 +9636,12 @@ def test_list_name_max_length_3_nistxml_sv_iv_list_name_max_length_4_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_max_length_2_nistxml_sv_iv_list_name_max_length_3_1(mode, save_output):
+def test_list_name_max_length_2_nistxml_sv_iv_list_name_max_length_3_1(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet maxLength with value 7.
     """
@@ -9062,11 +9652,12 @@ def test_list_name_max_length_2_nistxml_sv_iv_list_name_max_length_3_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_max_length_2_nistxml_sv_iv_list_name_max_length_3_2(mode, save_output):
+def test_list_name_max_length_2_nistxml_sv_iv_list_name_max_length_3_2(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet maxLength with value 7.
     """
@@ -9077,11 +9668,12 @@ def test_list_name_max_length_2_nistxml_sv_iv_list_name_max_length_3_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_max_length_2_nistxml_sv_iv_list_name_max_length_3_3(mode, save_output):
+def test_list_name_max_length_2_nistxml_sv_iv_list_name_max_length_3_3(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet maxLength with value 7.
     """
@@ -9092,11 +9684,12 @@ def test_list_name_max_length_2_nistxml_sv_iv_list_name_max_length_3_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_max_length_2_nistxml_sv_iv_list_name_max_length_3_4(mode, save_output):
+def test_list_name_max_length_2_nistxml_sv_iv_list_name_max_length_3_4(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet maxLength with value 7.
     """
@@ -9107,11 +9700,12 @@ def test_list_name_max_length_2_nistxml_sv_iv_list_name_max_length_3_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_max_length_2_nistxml_sv_iv_list_name_max_length_3_5(mode, save_output):
+def test_list_name_max_length_2_nistxml_sv_iv_list_name_max_length_3_5(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet maxLength with value 7.
     """
@@ -9122,11 +9716,12 @@ def test_list_name_max_length_2_nistxml_sv_iv_list_name_max_length_3_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_max_length_1_nistxml_sv_iv_list_name_max_length_2_1(mode, save_output):
+def test_list_name_max_length_1_nistxml_sv_iv_list_name_max_length_2_1(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet maxLength with value 6.
     """
@@ -9137,11 +9732,12 @@ def test_list_name_max_length_1_nistxml_sv_iv_list_name_max_length_2_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_max_length_1_nistxml_sv_iv_list_name_max_length_2_2(mode, save_output):
+def test_list_name_max_length_1_nistxml_sv_iv_list_name_max_length_2_2(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet maxLength with value 6.
     """
@@ -9152,11 +9748,12 @@ def test_list_name_max_length_1_nistxml_sv_iv_list_name_max_length_2_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_max_length_1_nistxml_sv_iv_list_name_max_length_2_3(mode, save_output):
+def test_list_name_max_length_1_nistxml_sv_iv_list_name_max_length_2_3(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet maxLength with value 6.
     """
@@ -9167,11 +9764,12 @@ def test_list_name_max_length_1_nistxml_sv_iv_list_name_max_length_2_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_max_length_1_nistxml_sv_iv_list_name_max_length_2_4(mode, save_output):
+def test_list_name_max_length_1_nistxml_sv_iv_list_name_max_length_2_4(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet maxLength with value 6.
     """
@@ -9182,11 +9780,12 @@ def test_list_name_max_length_1_nistxml_sv_iv_list_name_max_length_2_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_max_length_1_nistxml_sv_iv_list_name_max_length_2_5(mode, save_output):
+def test_list_name_max_length_1_nistxml_sv_iv_list_name_max_length_2_5(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet maxLength with value 6.
     """
@@ -9197,11 +9796,12 @@ def test_list_name_max_length_1_nistxml_sv_iv_list_name_max_length_2_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_max_length_nistxml_sv_iv_list_name_max_length_1_1(mode, save_output):
+def test_list_name_max_length_nistxml_sv_iv_list_name_max_length_1_1(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet maxLength with value 5.
     """
@@ -9212,11 +9812,12 @@ def test_list_name_max_length_nistxml_sv_iv_list_name_max_length_1_1(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_max_length_nistxml_sv_iv_list_name_max_length_1_2(mode, save_output):
+def test_list_name_max_length_nistxml_sv_iv_list_name_max_length_1_2(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet maxLength with value 5.
     """
@@ -9227,11 +9828,12 @@ def test_list_name_max_length_nistxml_sv_iv_list_name_max_length_1_2(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_max_length_nistxml_sv_iv_list_name_max_length_1_3(mode, save_output):
+def test_list_name_max_length_nistxml_sv_iv_list_name_max_length_1_3(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet maxLength with value 5.
     """
@@ -9242,11 +9844,12 @@ def test_list_name_max_length_nistxml_sv_iv_list_name_max_length_1_3(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_max_length_nistxml_sv_iv_list_name_max_length_1_4(mode, save_output):
+def test_list_name_max_length_nistxml_sv_iv_list_name_max_length_1_4(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet maxLength with value 5.
     """
@@ -9257,11 +9860,12 @@ def test_list_name_max_length_nistxml_sv_iv_list_name_max_length_1_4(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_name_max_length_nistxml_sv_iv_list_name_max_length_1_5(mode, save_output):
+def test_list_name_max_length_nistxml_sv_iv_list_name_max_length_1_5(mode, save_output, output_format):
     """
     Type list/Name is restricted by facet maxLength with value 5.
     """
@@ -9272,11 +9876,12 @@ def test_list_name_max_length_nistxml_sv_iv_list_name_max_length_1_5(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_white_space_nistxml_sv_iv_list_token_white_space_1_1(mode, save_output):
+def test_list_token_white_space_nistxml_sv_iv_list_token_white_space_1_1(mode, save_output, output_format):
     """
     Type list/token is restricted by facet whiteSpace with value collapse.
     """
@@ -9287,11 +9892,12 @@ def test_list_token_white_space_nistxml_sv_iv_list_token_white_space_1_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_white_space_nistxml_sv_iv_list_token_white_space_1_2(mode, save_output):
+def test_list_token_white_space_nistxml_sv_iv_list_token_white_space_1_2(mode, save_output, output_format):
     """
     Type list/token is restricted by facet whiteSpace with value collapse.
     """
@@ -9302,11 +9908,12 @@ def test_list_token_white_space_nistxml_sv_iv_list_token_white_space_1_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_white_space_nistxml_sv_iv_list_token_white_space_1_3(mode, save_output):
+def test_list_token_white_space_nistxml_sv_iv_list_token_white_space_1_3(mode, save_output, output_format):
     """
     Type list/token is restricted by facet whiteSpace with value collapse.
     """
@@ -9317,11 +9924,12 @@ def test_list_token_white_space_nistxml_sv_iv_list_token_white_space_1_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_white_space_nistxml_sv_iv_list_token_white_space_1_4(mode, save_output):
+def test_list_token_white_space_nistxml_sv_iv_list_token_white_space_1_4(mode, save_output, output_format):
     """
     Type list/token is restricted by facet whiteSpace with value collapse.
     """
@@ -9332,11 +9940,12 @@ def test_list_token_white_space_nistxml_sv_iv_list_token_white_space_1_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_white_space_nistxml_sv_iv_list_token_white_space_1_5(mode, save_output):
+def test_list_token_white_space_nistxml_sv_iv_list_token_white_space_1_5(mode, save_output, output_format):
     """
     Type list/token is restricted by facet whiteSpace with value collapse.
     """
@@ -9347,11 +9956,12 @@ def test_list_token_white_space_nistxml_sv_iv_list_token_white_space_1_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_enumeration_4_nistxml_sv_iv_list_token_enumeration_5_1(mode, save_output):
+def test_list_token_enumeration_4_nistxml_sv_iv_list_token_enumeration_5_1(mode, save_output, output_format):
     """
     Type list/token is restricted by facet enumeration.
     """
@@ -9362,11 +9972,12 @@ def test_list_token_enumeration_4_nistxml_sv_iv_list_token_enumeration_5_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_enumeration_4_nistxml_sv_iv_list_token_enumeration_5_2(mode, save_output):
+def test_list_token_enumeration_4_nistxml_sv_iv_list_token_enumeration_5_2(mode, save_output, output_format):
     """
     Type list/token is restricted by facet enumeration.
     """
@@ -9377,11 +9988,12 @@ def test_list_token_enumeration_4_nistxml_sv_iv_list_token_enumeration_5_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_enumeration_4_nistxml_sv_iv_list_token_enumeration_5_3(mode, save_output):
+def test_list_token_enumeration_4_nistxml_sv_iv_list_token_enumeration_5_3(mode, save_output, output_format):
     """
     Type list/token is restricted by facet enumeration.
     """
@@ -9392,11 +10004,12 @@ def test_list_token_enumeration_4_nistxml_sv_iv_list_token_enumeration_5_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_enumeration_4_nistxml_sv_iv_list_token_enumeration_5_4(mode, save_output):
+def test_list_token_enumeration_4_nistxml_sv_iv_list_token_enumeration_5_4(mode, save_output, output_format):
     """
     Type list/token is restricted by facet enumeration.
     """
@@ -9407,11 +10020,12 @@ def test_list_token_enumeration_4_nistxml_sv_iv_list_token_enumeration_5_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_enumeration_4_nistxml_sv_iv_list_token_enumeration_5_5(mode, save_output):
+def test_list_token_enumeration_4_nistxml_sv_iv_list_token_enumeration_5_5(mode, save_output, output_format):
     """
     Type list/token is restricted by facet enumeration.
     """
@@ -9422,11 +10036,12 @@ def test_list_token_enumeration_4_nistxml_sv_iv_list_token_enumeration_5_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_enumeration_3_nistxml_sv_iv_list_token_enumeration_4_1(mode, save_output):
+def test_list_token_enumeration_3_nistxml_sv_iv_list_token_enumeration_4_1(mode, save_output, output_format):
     """
     Type list/token is restricted by facet enumeration.
     """
@@ -9437,11 +10052,12 @@ def test_list_token_enumeration_3_nistxml_sv_iv_list_token_enumeration_4_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_enumeration_3_nistxml_sv_iv_list_token_enumeration_4_2(mode, save_output):
+def test_list_token_enumeration_3_nistxml_sv_iv_list_token_enumeration_4_2(mode, save_output, output_format):
     """
     Type list/token is restricted by facet enumeration.
     """
@@ -9452,11 +10068,12 @@ def test_list_token_enumeration_3_nistxml_sv_iv_list_token_enumeration_4_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_enumeration_3_nistxml_sv_iv_list_token_enumeration_4_3(mode, save_output):
+def test_list_token_enumeration_3_nistxml_sv_iv_list_token_enumeration_4_3(mode, save_output, output_format):
     """
     Type list/token is restricted by facet enumeration.
     """
@@ -9467,11 +10084,12 @@ def test_list_token_enumeration_3_nistxml_sv_iv_list_token_enumeration_4_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_enumeration_3_nistxml_sv_iv_list_token_enumeration_4_4(mode, save_output):
+def test_list_token_enumeration_3_nistxml_sv_iv_list_token_enumeration_4_4(mode, save_output, output_format):
     """
     Type list/token is restricted by facet enumeration.
     """
@@ -9482,11 +10100,12 @@ def test_list_token_enumeration_3_nistxml_sv_iv_list_token_enumeration_4_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_enumeration_3_nistxml_sv_iv_list_token_enumeration_4_5(mode, save_output):
+def test_list_token_enumeration_3_nistxml_sv_iv_list_token_enumeration_4_5(mode, save_output, output_format):
     """
     Type list/token is restricted by facet enumeration.
     """
@@ -9497,11 +10116,12 @@ def test_list_token_enumeration_3_nistxml_sv_iv_list_token_enumeration_4_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_enumeration_2_nistxml_sv_iv_list_token_enumeration_3_1(mode, save_output):
+def test_list_token_enumeration_2_nistxml_sv_iv_list_token_enumeration_3_1(mode, save_output, output_format):
     """
     Type list/token is restricted by facet enumeration.
     """
@@ -9512,11 +10132,12 @@ def test_list_token_enumeration_2_nistxml_sv_iv_list_token_enumeration_3_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_enumeration_2_nistxml_sv_iv_list_token_enumeration_3_2(mode, save_output):
+def test_list_token_enumeration_2_nistxml_sv_iv_list_token_enumeration_3_2(mode, save_output, output_format):
     """
     Type list/token is restricted by facet enumeration.
     """
@@ -9527,11 +10148,12 @@ def test_list_token_enumeration_2_nistxml_sv_iv_list_token_enumeration_3_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_enumeration_2_nistxml_sv_iv_list_token_enumeration_3_3(mode, save_output):
+def test_list_token_enumeration_2_nistxml_sv_iv_list_token_enumeration_3_3(mode, save_output, output_format):
     """
     Type list/token is restricted by facet enumeration.
     """
@@ -9542,11 +10164,12 @@ def test_list_token_enumeration_2_nistxml_sv_iv_list_token_enumeration_3_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_enumeration_2_nistxml_sv_iv_list_token_enumeration_3_4(mode, save_output):
+def test_list_token_enumeration_2_nistxml_sv_iv_list_token_enumeration_3_4(mode, save_output, output_format):
     """
     Type list/token is restricted by facet enumeration.
     """
@@ -9557,11 +10180,12 @@ def test_list_token_enumeration_2_nistxml_sv_iv_list_token_enumeration_3_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_enumeration_2_nistxml_sv_iv_list_token_enumeration_3_5(mode, save_output):
+def test_list_token_enumeration_2_nistxml_sv_iv_list_token_enumeration_3_5(mode, save_output, output_format):
     """
     Type list/token is restricted by facet enumeration.
     """
@@ -9572,11 +10196,12 @@ def test_list_token_enumeration_2_nistxml_sv_iv_list_token_enumeration_3_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_enumeration_1_nistxml_sv_iv_list_token_enumeration_2_1(mode, save_output):
+def test_list_token_enumeration_1_nistxml_sv_iv_list_token_enumeration_2_1(mode, save_output, output_format):
     """
     Type list/token is restricted by facet enumeration.
     """
@@ -9587,11 +10212,12 @@ def test_list_token_enumeration_1_nistxml_sv_iv_list_token_enumeration_2_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_enumeration_1_nistxml_sv_iv_list_token_enumeration_2_2(mode, save_output):
+def test_list_token_enumeration_1_nistxml_sv_iv_list_token_enumeration_2_2(mode, save_output, output_format):
     """
     Type list/token is restricted by facet enumeration.
     """
@@ -9602,11 +10228,12 @@ def test_list_token_enumeration_1_nistxml_sv_iv_list_token_enumeration_2_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_enumeration_1_nistxml_sv_iv_list_token_enumeration_2_3(mode, save_output):
+def test_list_token_enumeration_1_nistxml_sv_iv_list_token_enumeration_2_3(mode, save_output, output_format):
     """
     Type list/token is restricted by facet enumeration.
     """
@@ -9617,11 +10244,12 @@ def test_list_token_enumeration_1_nistxml_sv_iv_list_token_enumeration_2_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_enumeration_1_nistxml_sv_iv_list_token_enumeration_2_4(mode, save_output):
+def test_list_token_enumeration_1_nistxml_sv_iv_list_token_enumeration_2_4(mode, save_output, output_format):
     """
     Type list/token is restricted by facet enumeration.
     """
@@ -9632,11 +10260,12 @@ def test_list_token_enumeration_1_nistxml_sv_iv_list_token_enumeration_2_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_enumeration_1_nistxml_sv_iv_list_token_enumeration_2_5(mode, save_output):
+def test_list_token_enumeration_1_nistxml_sv_iv_list_token_enumeration_2_5(mode, save_output, output_format):
     """
     Type list/token is restricted by facet enumeration.
     """
@@ -9647,11 +10276,12 @@ def test_list_token_enumeration_1_nistxml_sv_iv_list_token_enumeration_2_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_enumeration_nistxml_sv_iv_list_token_enumeration_1_1(mode, save_output):
+def test_list_token_enumeration_nistxml_sv_iv_list_token_enumeration_1_1(mode, save_output, output_format):
     """
     Type list/token is restricted by facet enumeration.
     """
@@ -9662,11 +10292,12 @@ def test_list_token_enumeration_nistxml_sv_iv_list_token_enumeration_1_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_enumeration_nistxml_sv_iv_list_token_enumeration_1_2(mode, save_output):
+def test_list_token_enumeration_nistxml_sv_iv_list_token_enumeration_1_2(mode, save_output, output_format):
     """
     Type list/token is restricted by facet enumeration.
     """
@@ -9677,11 +10308,12 @@ def test_list_token_enumeration_nistxml_sv_iv_list_token_enumeration_1_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_enumeration_nistxml_sv_iv_list_token_enumeration_1_3(mode, save_output):
+def test_list_token_enumeration_nistxml_sv_iv_list_token_enumeration_1_3(mode, save_output, output_format):
     """
     Type list/token is restricted by facet enumeration.
     """
@@ -9692,11 +10324,12 @@ def test_list_token_enumeration_nistxml_sv_iv_list_token_enumeration_1_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_enumeration_nistxml_sv_iv_list_token_enumeration_1_4(mode, save_output):
+def test_list_token_enumeration_nistxml_sv_iv_list_token_enumeration_1_4(mode, save_output, output_format):
     """
     Type list/token is restricted by facet enumeration.
     """
@@ -9707,11 +10340,12 @@ def test_list_token_enumeration_nistxml_sv_iv_list_token_enumeration_1_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_enumeration_nistxml_sv_iv_list_token_enumeration_1_5(mode, save_output):
+def test_list_token_enumeration_nistxml_sv_iv_list_token_enumeration_1_5(mode, save_output, output_format):
     """
     Type list/token is restricted by facet enumeration.
     """
@@ -9722,11 +10356,12 @@ def test_list_token_enumeration_nistxml_sv_iv_list_token_enumeration_1_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_pattern_4_nistxml_sv_iv_list_token_pattern_5_1(mode, save_output):
+def test_list_token_pattern_4_nistxml_sv_iv_list_token_pattern_5_1(mode, save_output, output_format):
     r"""
     Type list/token is restricted by facet pattern with value \d{1,5}_([A-
     Z][a-z]{1,20}_){1}Street_([A-Z][a-z]{1,20}_){2},_[A-Z]{2}_17988 \d{1,5
@@ -9747,11 +10382,12 @@ def test_list_token_pattern_4_nistxml_sv_iv_list_token_pattern_5_1(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_pattern_4_nistxml_sv_iv_list_token_pattern_5_2(mode, save_output):
+def test_list_token_pattern_4_nistxml_sv_iv_list_token_pattern_5_2(mode, save_output, output_format):
     r"""
     Type list/token is restricted by facet pattern with value \d{1,5}_([A-
     Z][a-z]{1,20}_){1}Street_([A-Z][a-z]{1,20}_){2},_[A-Z]{2}_17988 \d{1,5
@@ -9772,11 +10408,12 @@ def test_list_token_pattern_4_nistxml_sv_iv_list_token_pattern_5_2(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_pattern_4_nistxml_sv_iv_list_token_pattern_5_3(mode, save_output):
+def test_list_token_pattern_4_nistxml_sv_iv_list_token_pattern_5_3(mode, save_output, output_format):
     r"""
     Type list/token is restricted by facet pattern with value \d{1,5}_([A-
     Z][a-z]{1,20}_){1}Street_([A-Z][a-z]{1,20}_){2},_[A-Z]{2}_17988 \d{1,5
@@ -9797,11 +10434,12 @@ def test_list_token_pattern_4_nistxml_sv_iv_list_token_pattern_5_3(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_pattern_4_nistxml_sv_iv_list_token_pattern_5_4(mode, save_output):
+def test_list_token_pattern_4_nistxml_sv_iv_list_token_pattern_5_4(mode, save_output, output_format):
     r"""
     Type list/token is restricted by facet pattern with value \d{1,5}_([A-
     Z][a-z]{1,20}_){1}Street_([A-Z][a-z]{1,20}_){2},_[A-Z]{2}_17988 \d{1,5
@@ -9822,11 +10460,12 @@ def test_list_token_pattern_4_nistxml_sv_iv_list_token_pattern_5_4(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_pattern_4_nistxml_sv_iv_list_token_pattern_5_5(mode, save_output):
+def test_list_token_pattern_4_nistxml_sv_iv_list_token_pattern_5_5(mode, save_output, output_format):
     r"""
     Type list/token is restricted by facet pattern with value \d{1,5}_([A-
     Z][a-z]{1,20}_){1}Street_([A-Z][a-z]{1,20}_){2},_[A-Z]{2}_17988 \d{1,5
@@ -9847,11 +10486,12 @@ def test_list_token_pattern_4_nistxml_sv_iv_list_token_pattern_5_5(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_pattern_3_nistxml_sv_iv_list_token_pattern_4_1(mode, save_output):
+def test_list_token_pattern_3_nistxml_sv_iv_list_token_pattern_4_1(mode, save_output, output_format):
     r"""
     Type list/token is restricted by facet pattern with value \d{1,5}_([A-
     Z][a-z]{1,20}_){3}Street_([A-Z][a-z]{1,20}_){2},_[A-Z]{2}_17930-1652 \
@@ -9873,11 +10513,12 @@ def test_list_token_pattern_3_nistxml_sv_iv_list_token_pattern_4_1(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_pattern_3_nistxml_sv_iv_list_token_pattern_4_2(mode, save_output):
+def test_list_token_pattern_3_nistxml_sv_iv_list_token_pattern_4_2(mode, save_output, output_format):
     r"""
     Type list/token is restricted by facet pattern with value \d{1,5}_([A-
     Z][a-z]{1,20}_){3}Street_([A-Z][a-z]{1,20}_){2},_[A-Z]{2}_17930-1652 \
@@ -9899,11 +10540,12 @@ def test_list_token_pattern_3_nistxml_sv_iv_list_token_pattern_4_2(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_pattern_3_nistxml_sv_iv_list_token_pattern_4_3(mode, save_output):
+def test_list_token_pattern_3_nistxml_sv_iv_list_token_pattern_4_3(mode, save_output, output_format):
     r"""
     Type list/token is restricted by facet pattern with value \d{1,5}_([A-
     Z][a-z]{1,20}_){3}Street_([A-Z][a-z]{1,20}_){2},_[A-Z]{2}_17930-1652 \
@@ -9925,11 +10567,12 @@ def test_list_token_pattern_3_nistxml_sv_iv_list_token_pattern_4_3(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_pattern_3_nistxml_sv_iv_list_token_pattern_4_4(mode, save_output):
+def test_list_token_pattern_3_nistxml_sv_iv_list_token_pattern_4_4(mode, save_output, output_format):
     r"""
     Type list/token is restricted by facet pattern with value \d{1,5}_([A-
     Z][a-z]{1,20}_){3}Street_([A-Z][a-z]{1,20}_){2},_[A-Z]{2}_17930-1652 \
@@ -9951,11 +10594,12 @@ def test_list_token_pattern_3_nistxml_sv_iv_list_token_pattern_4_4(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_pattern_3_nistxml_sv_iv_list_token_pattern_4_5(mode, save_output):
+def test_list_token_pattern_3_nistxml_sv_iv_list_token_pattern_4_5(mode, save_output, output_format):
     r"""
     Type list/token is restricted by facet pattern with value \d{1,5}_([A-
     Z][a-z]{1,20}_){3}Street_([A-Z][a-z]{1,20}_){2},_[A-Z]{2}_17930-1652 \
@@ -9977,11 +10621,12 @@ def test_list_token_pattern_3_nistxml_sv_iv_list_token_pattern_4_5(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_pattern_2_nistxml_sv_iv_list_token_pattern_3_1(mode, save_output):
+def test_list_token_pattern_2_nistxml_sv_iv_list_token_pattern_3_1(mode, save_output, output_format):
     r"""
     Type list/token is restricted by facet pattern with value \d{1,5}_([A-
     Z][a-z]{1,20}_){2}Street_([A-Z][a-z]{1,20}_){3},_[A-Z]{2}_11426-1564 \
@@ -10001,11 +10646,12 @@ def test_list_token_pattern_2_nistxml_sv_iv_list_token_pattern_3_1(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_pattern_2_nistxml_sv_iv_list_token_pattern_3_2(mode, save_output):
+def test_list_token_pattern_2_nistxml_sv_iv_list_token_pattern_3_2(mode, save_output, output_format):
     r"""
     Type list/token is restricted by facet pattern with value \d{1,5}_([A-
     Z][a-z]{1,20}_){2}Street_([A-Z][a-z]{1,20}_){3},_[A-Z]{2}_11426-1564 \
@@ -10025,11 +10671,12 @@ def test_list_token_pattern_2_nistxml_sv_iv_list_token_pattern_3_2(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_pattern_2_nistxml_sv_iv_list_token_pattern_3_3(mode, save_output):
+def test_list_token_pattern_2_nistxml_sv_iv_list_token_pattern_3_3(mode, save_output, output_format):
     r"""
     Type list/token is restricted by facet pattern with value \d{1,5}_([A-
     Z][a-z]{1,20}_){2}Street_([A-Z][a-z]{1,20}_){3},_[A-Z]{2}_11426-1564 \
@@ -10049,11 +10696,12 @@ def test_list_token_pattern_2_nistxml_sv_iv_list_token_pattern_3_3(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_pattern_2_nistxml_sv_iv_list_token_pattern_3_4(mode, save_output):
+def test_list_token_pattern_2_nistxml_sv_iv_list_token_pattern_3_4(mode, save_output, output_format):
     r"""
     Type list/token is restricted by facet pattern with value \d{1,5}_([A-
     Z][a-z]{1,20}_){2}Street_([A-Z][a-z]{1,20}_){3},_[A-Z]{2}_11426-1564 \
@@ -10073,11 +10721,12 @@ def test_list_token_pattern_2_nistxml_sv_iv_list_token_pattern_3_4(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_pattern_2_nistxml_sv_iv_list_token_pattern_3_5(mode, save_output):
+def test_list_token_pattern_2_nistxml_sv_iv_list_token_pattern_3_5(mode, save_output, output_format):
     r"""
     Type list/token is restricted by facet pattern with value \d{1,5}_([A-
     Z][a-z]{1,20}_){2}Street_([A-Z][a-z]{1,20}_){3},_[A-Z]{2}_11426-1564 \
@@ -10097,11 +10746,12 @@ def test_list_token_pattern_2_nistxml_sv_iv_list_token_pattern_3_5(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_pattern_1_nistxml_sv_iv_list_token_pattern_2_1(mode, save_output):
+def test_list_token_pattern_1_nistxml_sv_iv_list_token_pattern_2_1(mode, save_output, output_format):
     r"""
     Type list/token is restricted by facet pattern with value \d{1,5}_([A-
     Z][a-z]{1,20}_){3}Street_([A-Z][a-z]{1,20}_){2},_[A-Z]{2}_13797-1926 \
@@ -10123,11 +10773,12 @@ def test_list_token_pattern_1_nistxml_sv_iv_list_token_pattern_2_1(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_pattern_1_nistxml_sv_iv_list_token_pattern_2_2(mode, save_output):
+def test_list_token_pattern_1_nistxml_sv_iv_list_token_pattern_2_2(mode, save_output, output_format):
     r"""
     Type list/token is restricted by facet pattern with value \d{1,5}_([A-
     Z][a-z]{1,20}_){3}Street_([A-Z][a-z]{1,20}_){2},_[A-Z]{2}_13797-1926 \
@@ -10149,11 +10800,12 @@ def test_list_token_pattern_1_nistxml_sv_iv_list_token_pattern_2_2(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_pattern_1_nistxml_sv_iv_list_token_pattern_2_3(mode, save_output):
+def test_list_token_pattern_1_nistxml_sv_iv_list_token_pattern_2_3(mode, save_output, output_format):
     r"""
     Type list/token is restricted by facet pattern with value \d{1,5}_([A-
     Z][a-z]{1,20}_){3}Street_([A-Z][a-z]{1,20}_){2},_[A-Z]{2}_13797-1926 \
@@ -10175,11 +10827,12 @@ def test_list_token_pattern_1_nistxml_sv_iv_list_token_pattern_2_3(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_pattern_1_nistxml_sv_iv_list_token_pattern_2_4(mode, save_output):
+def test_list_token_pattern_1_nistxml_sv_iv_list_token_pattern_2_4(mode, save_output, output_format):
     r"""
     Type list/token is restricted by facet pattern with value \d{1,5}_([A-
     Z][a-z]{1,20}_){3}Street_([A-Z][a-z]{1,20}_){2},_[A-Z]{2}_13797-1926 \
@@ -10201,11 +10854,12 @@ def test_list_token_pattern_1_nistxml_sv_iv_list_token_pattern_2_4(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_pattern_1_nistxml_sv_iv_list_token_pattern_2_5(mode, save_output):
+def test_list_token_pattern_1_nistxml_sv_iv_list_token_pattern_2_5(mode, save_output, output_format):
     r"""
     Type list/token is restricted by facet pattern with value \d{1,5}_([A-
     Z][a-z]{1,20}_){3}Street_([A-Z][a-z]{1,20}_){2},_[A-Z]{2}_13797-1926 \
@@ -10227,11 +10881,12 @@ def test_list_token_pattern_1_nistxml_sv_iv_list_token_pattern_2_5(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_pattern_nistxml_sv_iv_list_token_pattern_1_1(mode, save_output):
+def test_list_token_pattern_nistxml_sv_iv_list_token_pattern_1_1(mode, save_output, output_format):
     r"""
     Type list/token is restricted by facet pattern with value \d{1,5}_([A-
     Z][a-z]{1,20}_){3}Street_([A-Z][a-z]{1,20}_){3},_[A-Z]{2}_15685 \d{1,5
@@ -10248,11 +10903,12 @@ def test_list_token_pattern_nistxml_sv_iv_list_token_pattern_1_1(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_pattern_nistxml_sv_iv_list_token_pattern_1_2(mode, save_output):
+def test_list_token_pattern_nistxml_sv_iv_list_token_pattern_1_2(mode, save_output, output_format):
     r"""
     Type list/token is restricted by facet pattern with value \d{1,5}_([A-
     Z][a-z]{1,20}_){3}Street_([A-Z][a-z]{1,20}_){3},_[A-Z]{2}_15685 \d{1,5
@@ -10269,11 +10925,12 @@ def test_list_token_pattern_nistxml_sv_iv_list_token_pattern_1_2(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_pattern_nistxml_sv_iv_list_token_pattern_1_3(mode, save_output):
+def test_list_token_pattern_nistxml_sv_iv_list_token_pattern_1_3(mode, save_output, output_format):
     r"""
     Type list/token is restricted by facet pattern with value \d{1,5}_([A-
     Z][a-z]{1,20}_){3}Street_([A-Z][a-z]{1,20}_){3},_[A-Z]{2}_15685 \d{1,5
@@ -10290,11 +10947,12 @@ def test_list_token_pattern_nistxml_sv_iv_list_token_pattern_1_3(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_pattern_nistxml_sv_iv_list_token_pattern_1_4(mode, save_output):
+def test_list_token_pattern_nistxml_sv_iv_list_token_pattern_1_4(mode, save_output, output_format):
     r"""
     Type list/token is restricted by facet pattern with value \d{1,5}_([A-
     Z][a-z]{1,20}_){3}Street_([A-Z][a-z]{1,20}_){3},_[A-Z]{2}_15685 \d{1,5
@@ -10311,11 +10969,12 @@ def test_list_token_pattern_nistxml_sv_iv_list_token_pattern_1_4(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_pattern_nistxml_sv_iv_list_token_pattern_1_5(mode, save_output):
+def test_list_token_pattern_nistxml_sv_iv_list_token_pattern_1_5(mode, save_output, output_format):
     r"""
     Type list/token is restricted by facet pattern with value \d{1,5}_([A-
     Z][a-z]{1,20}_){3}Street_([A-Z][a-z]{1,20}_){3},_[A-Z]{2}_15685 \d{1,5
@@ -10332,11 +10991,12 @@ def test_list_token_pattern_nistxml_sv_iv_list_token_pattern_1_5(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_length_4_nistxml_sv_iv_list_token_length_5_1(mode, save_output):
+def test_list_token_length_4_nistxml_sv_iv_list_token_length_5_1(mode, save_output, output_format):
     """
     Type list/token is restricted by facet length with value 10.
     """
@@ -10347,11 +11007,12 @@ def test_list_token_length_4_nistxml_sv_iv_list_token_length_5_1(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_length_4_nistxml_sv_iv_list_token_length_5_2(mode, save_output):
+def test_list_token_length_4_nistxml_sv_iv_list_token_length_5_2(mode, save_output, output_format):
     """
     Type list/token is restricted by facet length with value 10.
     """
@@ -10362,11 +11023,12 @@ def test_list_token_length_4_nistxml_sv_iv_list_token_length_5_2(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_length_4_nistxml_sv_iv_list_token_length_5_3(mode, save_output):
+def test_list_token_length_4_nistxml_sv_iv_list_token_length_5_3(mode, save_output, output_format):
     """
     Type list/token is restricted by facet length with value 10.
     """
@@ -10377,11 +11039,12 @@ def test_list_token_length_4_nistxml_sv_iv_list_token_length_5_3(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_length_4_nistxml_sv_iv_list_token_length_5_4(mode, save_output):
+def test_list_token_length_4_nistxml_sv_iv_list_token_length_5_4(mode, save_output, output_format):
     """
     Type list/token is restricted by facet length with value 10.
     """
@@ -10392,11 +11055,12 @@ def test_list_token_length_4_nistxml_sv_iv_list_token_length_5_4(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_length_4_nistxml_sv_iv_list_token_length_5_5(mode, save_output):
+def test_list_token_length_4_nistxml_sv_iv_list_token_length_5_5(mode, save_output, output_format):
     """
     Type list/token is restricted by facet length with value 10.
     """
@@ -10407,11 +11071,12 @@ def test_list_token_length_4_nistxml_sv_iv_list_token_length_5_5(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_length_3_nistxml_sv_iv_list_token_length_4_1(mode, save_output):
+def test_list_token_length_3_nistxml_sv_iv_list_token_length_4_1(mode, save_output, output_format):
     """
     Type list/token is restricted by facet length with value 8.
     """
@@ -10422,11 +11087,12 @@ def test_list_token_length_3_nistxml_sv_iv_list_token_length_4_1(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_length_3_nistxml_sv_iv_list_token_length_4_2(mode, save_output):
+def test_list_token_length_3_nistxml_sv_iv_list_token_length_4_2(mode, save_output, output_format):
     """
     Type list/token is restricted by facet length with value 8.
     """
@@ -10437,11 +11103,12 @@ def test_list_token_length_3_nistxml_sv_iv_list_token_length_4_2(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_length_3_nistxml_sv_iv_list_token_length_4_3(mode, save_output):
+def test_list_token_length_3_nistxml_sv_iv_list_token_length_4_3(mode, save_output, output_format):
     """
     Type list/token is restricted by facet length with value 8.
     """
@@ -10452,11 +11119,12 @@ def test_list_token_length_3_nistxml_sv_iv_list_token_length_4_3(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_length_3_nistxml_sv_iv_list_token_length_4_4(mode, save_output):
+def test_list_token_length_3_nistxml_sv_iv_list_token_length_4_4(mode, save_output, output_format):
     """
     Type list/token is restricted by facet length with value 8.
     """
@@ -10467,11 +11135,12 @@ def test_list_token_length_3_nistxml_sv_iv_list_token_length_4_4(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_length_3_nistxml_sv_iv_list_token_length_4_5(mode, save_output):
+def test_list_token_length_3_nistxml_sv_iv_list_token_length_4_5(mode, save_output, output_format):
     """
     Type list/token is restricted by facet length with value 8.
     """
@@ -10482,11 +11151,12 @@ def test_list_token_length_3_nistxml_sv_iv_list_token_length_4_5(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_length_2_nistxml_sv_iv_list_token_length_3_1(mode, save_output):
+def test_list_token_length_2_nistxml_sv_iv_list_token_length_3_1(mode, save_output, output_format):
     """
     Type list/token is restricted by facet length with value 7.
     """
@@ -10497,11 +11167,12 @@ def test_list_token_length_2_nistxml_sv_iv_list_token_length_3_1(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_length_2_nistxml_sv_iv_list_token_length_3_2(mode, save_output):
+def test_list_token_length_2_nistxml_sv_iv_list_token_length_3_2(mode, save_output, output_format):
     """
     Type list/token is restricted by facet length with value 7.
     """
@@ -10512,11 +11183,12 @@ def test_list_token_length_2_nistxml_sv_iv_list_token_length_3_2(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_length_2_nistxml_sv_iv_list_token_length_3_3(mode, save_output):
+def test_list_token_length_2_nistxml_sv_iv_list_token_length_3_3(mode, save_output, output_format):
     """
     Type list/token is restricted by facet length with value 7.
     """
@@ -10527,11 +11199,12 @@ def test_list_token_length_2_nistxml_sv_iv_list_token_length_3_3(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_length_2_nistxml_sv_iv_list_token_length_3_4(mode, save_output):
+def test_list_token_length_2_nistxml_sv_iv_list_token_length_3_4(mode, save_output, output_format):
     """
     Type list/token is restricted by facet length with value 7.
     """
@@ -10542,11 +11215,12 @@ def test_list_token_length_2_nistxml_sv_iv_list_token_length_3_4(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_length_2_nistxml_sv_iv_list_token_length_3_5(mode, save_output):
+def test_list_token_length_2_nistxml_sv_iv_list_token_length_3_5(mode, save_output, output_format):
     """
     Type list/token is restricted by facet length with value 7.
     """
@@ -10557,11 +11231,12 @@ def test_list_token_length_2_nistxml_sv_iv_list_token_length_3_5(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_length_1_nistxml_sv_iv_list_token_length_2_1(mode, save_output):
+def test_list_token_length_1_nistxml_sv_iv_list_token_length_2_1(mode, save_output, output_format):
     """
     Type list/token is restricted by facet length with value 6.
     """
@@ -10572,11 +11247,12 @@ def test_list_token_length_1_nistxml_sv_iv_list_token_length_2_1(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_length_1_nistxml_sv_iv_list_token_length_2_2(mode, save_output):
+def test_list_token_length_1_nistxml_sv_iv_list_token_length_2_2(mode, save_output, output_format):
     """
     Type list/token is restricted by facet length with value 6.
     """
@@ -10587,11 +11263,12 @@ def test_list_token_length_1_nistxml_sv_iv_list_token_length_2_2(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_length_1_nistxml_sv_iv_list_token_length_2_3(mode, save_output):
+def test_list_token_length_1_nistxml_sv_iv_list_token_length_2_3(mode, save_output, output_format):
     """
     Type list/token is restricted by facet length with value 6.
     """
@@ -10602,11 +11279,12 @@ def test_list_token_length_1_nistxml_sv_iv_list_token_length_2_3(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_length_1_nistxml_sv_iv_list_token_length_2_4(mode, save_output):
+def test_list_token_length_1_nistxml_sv_iv_list_token_length_2_4(mode, save_output, output_format):
     """
     Type list/token is restricted by facet length with value 6.
     """
@@ -10617,11 +11295,12 @@ def test_list_token_length_1_nistxml_sv_iv_list_token_length_2_4(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_length_1_nistxml_sv_iv_list_token_length_2_5(mode, save_output):
+def test_list_token_length_1_nistxml_sv_iv_list_token_length_2_5(mode, save_output, output_format):
     """
     Type list/token is restricted by facet length with value 6.
     """
@@ -10632,11 +11311,12 @@ def test_list_token_length_1_nistxml_sv_iv_list_token_length_2_5(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_length_nistxml_sv_iv_list_token_length_1_1(mode, save_output):
+def test_list_token_length_nistxml_sv_iv_list_token_length_1_1(mode, save_output, output_format):
     """
     Type list/token is restricted by facet length with value 5.
     """
@@ -10647,11 +11327,12 @@ def test_list_token_length_nistxml_sv_iv_list_token_length_1_1(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_length_nistxml_sv_iv_list_token_length_1_2(mode, save_output):
+def test_list_token_length_nistxml_sv_iv_list_token_length_1_2(mode, save_output, output_format):
     """
     Type list/token is restricted by facet length with value 5.
     """
@@ -10662,11 +11343,12 @@ def test_list_token_length_nistxml_sv_iv_list_token_length_1_2(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_length_nistxml_sv_iv_list_token_length_1_3(mode, save_output):
+def test_list_token_length_nistxml_sv_iv_list_token_length_1_3(mode, save_output, output_format):
     """
     Type list/token is restricted by facet length with value 5.
     """
@@ -10677,11 +11359,12 @@ def test_list_token_length_nistxml_sv_iv_list_token_length_1_3(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_length_nistxml_sv_iv_list_token_length_1_4(mode, save_output):
+def test_list_token_length_nistxml_sv_iv_list_token_length_1_4(mode, save_output, output_format):
     """
     Type list/token is restricted by facet length with value 5.
     """
@@ -10692,11 +11375,12 @@ def test_list_token_length_nistxml_sv_iv_list_token_length_1_4(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_length_nistxml_sv_iv_list_token_length_1_5(mode, save_output):
+def test_list_token_length_nistxml_sv_iv_list_token_length_1_5(mode, save_output, output_format):
     """
     Type list/token is restricted by facet length with value 5.
     """
@@ -10707,11 +11391,12 @@ def test_list_token_length_nistxml_sv_iv_list_token_length_1_5(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_min_length_4_nistxml_sv_iv_list_token_min_length_5_1(mode, save_output):
+def test_list_token_min_length_4_nistxml_sv_iv_list_token_min_length_5_1(mode, save_output, output_format):
     """
     Type list/token is restricted by facet minLength with value 10.
     """
@@ -10722,11 +11407,12 @@ def test_list_token_min_length_4_nistxml_sv_iv_list_token_min_length_5_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_min_length_4_nistxml_sv_iv_list_token_min_length_5_2(mode, save_output):
+def test_list_token_min_length_4_nistxml_sv_iv_list_token_min_length_5_2(mode, save_output, output_format):
     """
     Type list/token is restricted by facet minLength with value 10.
     """
@@ -10737,11 +11423,12 @@ def test_list_token_min_length_4_nistxml_sv_iv_list_token_min_length_5_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_min_length_4_nistxml_sv_iv_list_token_min_length_5_3(mode, save_output):
+def test_list_token_min_length_4_nistxml_sv_iv_list_token_min_length_5_3(mode, save_output, output_format):
     """
     Type list/token is restricted by facet minLength with value 10.
     """
@@ -10752,11 +11439,12 @@ def test_list_token_min_length_4_nistxml_sv_iv_list_token_min_length_5_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_min_length_4_nistxml_sv_iv_list_token_min_length_5_4(mode, save_output):
+def test_list_token_min_length_4_nistxml_sv_iv_list_token_min_length_5_4(mode, save_output, output_format):
     """
     Type list/token is restricted by facet minLength with value 10.
     """
@@ -10767,11 +11455,12 @@ def test_list_token_min_length_4_nistxml_sv_iv_list_token_min_length_5_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_min_length_4_nistxml_sv_iv_list_token_min_length_5_5(mode, save_output):
+def test_list_token_min_length_4_nistxml_sv_iv_list_token_min_length_5_5(mode, save_output, output_format):
     """
     Type list/token is restricted by facet minLength with value 10.
     """
@@ -10782,11 +11471,12 @@ def test_list_token_min_length_4_nistxml_sv_iv_list_token_min_length_5_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_min_length_3_nistxml_sv_iv_list_token_min_length_4_1(mode, save_output):
+def test_list_token_min_length_3_nistxml_sv_iv_list_token_min_length_4_1(mode, save_output, output_format):
     """
     Type list/token is restricted by facet minLength with value 8.
     """
@@ -10797,11 +11487,12 @@ def test_list_token_min_length_3_nistxml_sv_iv_list_token_min_length_4_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_min_length_3_nistxml_sv_iv_list_token_min_length_4_2(mode, save_output):
+def test_list_token_min_length_3_nistxml_sv_iv_list_token_min_length_4_2(mode, save_output, output_format):
     """
     Type list/token is restricted by facet minLength with value 8.
     """
@@ -10812,11 +11503,12 @@ def test_list_token_min_length_3_nistxml_sv_iv_list_token_min_length_4_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_min_length_3_nistxml_sv_iv_list_token_min_length_4_3(mode, save_output):
+def test_list_token_min_length_3_nistxml_sv_iv_list_token_min_length_4_3(mode, save_output, output_format):
     """
     Type list/token is restricted by facet minLength with value 8.
     """
@@ -10827,11 +11519,12 @@ def test_list_token_min_length_3_nistxml_sv_iv_list_token_min_length_4_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_min_length_3_nistxml_sv_iv_list_token_min_length_4_4(mode, save_output):
+def test_list_token_min_length_3_nistxml_sv_iv_list_token_min_length_4_4(mode, save_output, output_format):
     """
     Type list/token is restricted by facet minLength with value 8.
     """
@@ -10842,11 +11535,12 @@ def test_list_token_min_length_3_nistxml_sv_iv_list_token_min_length_4_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_min_length_3_nistxml_sv_iv_list_token_min_length_4_5(mode, save_output):
+def test_list_token_min_length_3_nistxml_sv_iv_list_token_min_length_4_5(mode, save_output, output_format):
     """
     Type list/token is restricted by facet minLength with value 8.
     """
@@ -10857,11 +11551,12 @@ def test_list_token_min_length_3_nistxml_sv_iv_list_token_min_length_4_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_min_length_2_nistxml_sv_iv_list_token_min_length_3_1(mode, save_output):
+def test_list_token_min_length_2_nistxml_sv_iv_list_token_min_length_3_1(mode, save_output, output_format):
     """
     Type list/token is restricted by facet minLength with value 7.
     """
@@ -10872,11 +11567,12 @@ def test_list_token_min_length_2_nistxml_sv_iv_list_token_min_length_3_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_min_length_2_nistxml_sv_iv_list_token_min_length_3_2(mode, save_output):
+def test_list_token_min_length_2_nistxml_sv_iv_list_token_min_length_3_2(mode, save_output, output_format):
     """
     Type list/token is restricted by facet minLength with value 7.
     """
@@ -10887,11 +11583,12 @@ def test_list_token_min_length_2_nistxml_sv_iv_list_token_min_length_3_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_min_length_2_nistxml_sv_iv_list_token_min_length_3_3(mode, save_output):
+def test_list_token_min_length_2_nistxml_sv_iv_list_token_min_length_3_3(mode, save_output, output_format):
     """
     Type list/token is restricted by facet minLength with value 7.
     """
@@ -10902,11 +11599,12 @@ def test_list_token_min_length_2_nistxml_sv_iv_list_token_min_length_3_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_min_length_2_nistxml_sv_iv_list_token_min_length_3_4(mode, save_output):
+def test_list_token_min_length_2_nistxml_sv_iv_list_token_min_length_3_4(mode, save_output, output_format):
     """
     Type list/token is restricted by facet minLength with value 7.
     """
@@ -10917,11 +11615,12 @@ def test_list_token_min_length_2_nistxml_sv_iv_list_token_min_length_3_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_min_length_2_nistxml_sv_iv_list_token_min_length_3_5(mode, save_output):
+def test_list_token_min_length_2_nistxml_sv_iv_list_token_min_length_3_5(mode, save_output, output_format):
     """
     Type list/token is restricted by facet minLength with value 7.
     """
@@ -10932,11 +11631,12 @@ def test_list_token_min_length_2_nistxml_sv_iv_list_token_min_length_3_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_min_length_1_nistxml_sv_iv_list_token_min_length_2_1(mode, save_output):
+def test_list_token_min_length_1_nistxml_sv_iv_list_token_min_length_2_1(mode, save_output, output_format):
     """
     Type list/token is restricted by facet minLength with value 6.
     """
@@ -10947,11 +11647,12 @@ def test_list_token_min_length_1_nistxml_sv_iv_list_token_min_length_2_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_min_length_1_nistxml_sv_iv_list_token_min_length_2_2(mode, save_output):
+def test_list_token_min_length_1_nistxml_sv_iv_list_token_min_length_2_2(mode, save_output, output_format):
     """
     Type list/token is restricted by facet minLength with value 6.
     """
@@ -10962,11 +11663,12 @@ def test_list_token_min_length_1_nistxml_sv_iv_list_token_min_length_2_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_min_length_1_nistxml_sv_iv_list_token_min_length_2_3(mode, save_output):
+def test_list_token_min_length_1_nistxml_sv_iv_list_token_min_length_2_3(mode, save_output, output_format):
     """
     Type list/token is restricted by facet minLength with value 6.
     """
@@ -10977,11 +11679,12 @@ def test_list_token_min_length_1_nistxml_sv_iv_list_token_min_length_2_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_min_length_1_nistxml_sv_iv_list_token_min_length_2_4(mode, save_output):
+def test_list_token_min_length_1_nistxml_sv_iv_list_token_min_length_2_4(mode, save_output, output_format):
     """
     Type list/token is restricted by facet minLength with value 6.
     """
@@ -10992,11 +11695,12 @@ def test_list_token_min_length_1_nistxml_sv_iv_list_token_min_length_2_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_min_length_1_nistxml_sv_iv_list_token_min_length_2_5(mode, save_output):
+def test_list_token_min_length_1_nistxml_sv_iv_list_token_min_length_2_5(mode, save_output, output_format):
     """
     Type list/token is restricted by facet minLength with value 6.
     """
@@ -11007,11 +11711,12 @@ def test_list_token_min_length_1_nistxml_sv_iv_list_token_min_length_2_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_min_length_nistxml_sv_iv_list_token_min_length_1_1(mode, save_output):
+def test_list_token_min_length_nistxml_sv_iv_list_token_min_length_1_1(mode, save_output, output_format):
     """
     Type list/token is restricted by facet minLength with value 5.
     """
@@ -11022,11 +11727,12 @@ def test_list_token_min_length_nistxml_sv_iv_list_token_min_length_1_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_min_length_nistxml_sv_iv_list_token_min_length_1_2(mode, save_output):
+def test_list_token_min_length_nistxml_sv_iv_list_token_min_length_1_2(mode, save_output, output_format):
     """
     Type list/token is restricted by facet minLength with value 5.
     """
@@ -11037,11 +11743,12 @@ def test_list_token_min_length_nistxml_sv_iv_list_token_min_length_1_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_min_length_nistxml_sv_iv_list_token_min_length_1_3(mode, save_output):
+def test_list_token_min_length_nistxml_sv_iv_list_token_min_length_1_3(mode, save_output, output_format):
     """
     Type list/token is restricted by facet minLength with value 5.
     """
@@ -11052,11 +11759,12 @@ def test_list_token_min_length_nistxml_sv_iv_list_token_min_length_1_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_min_length_nistxml_sv_iv_list_token_min_length_1_4(mode, save_output):
+def test_list_token_min_length_nistxml_sv_iv_list_token_min_length_1_4(mode, save_output, output_format):
     """
     Type list/token is restricted by facet minLength with value 5.
     """
@@ -11067,11 +11775,12 @@ def test_list_token_min_length_nistxml_sv_iv_list_token_min_length_1_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_min_length_nistxml_sv_iv_list_token_min_length_1_5(mode, save_output):
+def test_list_token_min_length_nistxml_sv_iv_list_token_min_length_1_5(mode, save_output, output_format):
     """
     Type list/token is restricted by facet minLength with value 5.
     """
@@ -11082,11 +11791,12 @@ def test_list_token_min_length_nistxml_sv_iv_list_token_min_length_1_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_max_length_4_nistxml_sv_iv_list_token_max_length_5_1(mode, save_output):
+def test_list_token_max_length_4_nistxml_sv_iv_list_token_max_length_5_1(mode, save_output, output_format):
     """
     Type list/token is restricted by facet maxLength with value 10.
     """
@@ -11097,11 +11807,12 @@ def test_list_token_max_length_4_nistxml_sv_iv_list_token_max_length_5_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_max_length_4_nistxml_sv_iv_list_token_max_length_5_2(mode, save_output):
+def test_list_token_max_length_4_nistxml_sv_iv_list_token_max_length_5_2(mode, save_output, output_format):
     """
     Type list/token is restricted by facet maxLength with value 10.
     """
@@ -11112,11 +11823,12 @@ def test_list_token_max_length_4_nistxml_sv_iv_list_token_max_length_5_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_max_length_4_nistxml_sv_iv_list_token_max_length_5_3(mode, save_output):
+def test_list_token_max_length_4_nistxml_sv_iv_list_token_max_length_5_3(mode, save_output, output_format):
     """
     Type list/token is restricted by facet maxLength with value 10.
     """
@@ -11127,11 +11839,12 @@ def test_list_token_max_length_4_nistxml_sv_iv_list_token_max_length_5_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_max_length_4_nistxml_sv_iv_list_token_max_length_5_4(mode, save_output):
+def test_list_token_max_length_4_nistxml_sv_iv_list_token_max_length_5_4(mode, save_output, output_format):
     """
     Type list/token is restricted by facet maxLength with value 10.
     """
@@ -11142,11 +11855,12 @@ def test_list_token_max_length_4_nistxml_sv_iv_list_token_max_length_5_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_max_length_4_nistxml_sv_iv_list_token_max_length_5_5(mode, save_output):
+def test_list_token_max_length_4_nistxml_sv_iv_list_token_max_length_5_5(mode, save_output, output_format):
     """
     Type list/token is restricted by facet maxLength with value 10.
     """
@@ -11157,11 +11871,12 @@ def test_list_token_max_length_4_nistxml_sv_iv_list_token_max_length_5_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_max_length_3_nistxml_sv_iv_list_token_max_length_4_1(mode, save_output):
+def test_list_token_max_length_3_nistxml_sv_iv_list_token_max_length_4_1(mode, save_output, output_format):
     """
     Type list/token is restricted by facet maxLength with value 8.
     """
@@ -11172,11 +11887,12 @@ def test_list_token_max_length_3_nistxml_sv_iv_list_token_max_length_4_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_max_length_3_nistxml_sv_iv_list_token_max_length_4_2(mode, save_output):
+def test_list_token_max_length_3_nistxml_sv_iv_list_token_max_length_4_2(mode, save_output, output_format):
     """
     Type list/token is restricted by facet maxLength with value 8.
     """
@@ -11187,11 +11903,12 @@ def test_list_token_max_length_3_nistxml_sv_iv_list_token_max_length_4_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_max_length_3_nistxml_sv_iv_list_token_max_length_4_3(mode, save_output):
+def test_list_token_max_length_3_nistxml_sv_iv_list_token_max_length_4_3(mode, save_output, output_format):
     """
     Type list/token is restricted by facet maxLength with value 8.
     """
@@ -11202,11 +11919,12 @@ def test_list_token_max_length_3_nistxml_sv_iv_list_token_max_length_4_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_max_length_3_nistxml_sv_iv_list_token_max_length_4_4(mode, save_output):
+def test_list_token_max_length_3_nistxml_sv_iv_list_token_max_length_4_4(mode, save_output, output_format):
     """
     Type list/token is restricted by facet maxLength with value 8.
     """
@@ -11217,11 +11935,12 @@ def test_list_token_max_length_3_nistxml_sv_iv_list_token_max_length_4_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_max_length_3_nistxml_sv_iv_list_token_max_length_4_5(mode, save_output):
+def test_list_token_max_length_3_nistxml_sv_iv_list_token_max_length_4_5(mode, save_output, output_format):
     """
     Type list/token is restricted by facet maxLength with value 8.
     """
@@ -11232,11 +11951,12 @@ def test_list_token_max_length_3_nistxml_sv_iv_list_token_max_length_4_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_max_length_2_nistxml_sv_iv_list_token_max_length_3_1(mode, save_output):
+def test_list_token_max_length_2_nistxml_sv_iv_list_token_max_length_3_1(mode, save_output, output_format):
     """
     Type list/token is restricted by facet maxLength with value 7.
     """
@@ -11247,11 +11967,12 @@ def test_list_token_max_length_2_nistxml_sv_iv_list_token_max_length_3_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_max_length_2_nistxml_sv_iv_list_token_max_length_3_2(mode, save_output):
+def test_list_token_max_length_2_nistxml_sv_iv_list_token_max_length_3_2(mode, save_output, output_format):
     """
     Type list/token is restricted by facet maxLength with value 7.
     """
@@ -11262,11 +11983,12 @@ def test_list_token_max_length_2_nistxml_sv_iv_list_token_max_length_3_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_max_length_2_nistxml_sv_iv_list_token_max_length_3_3(mode, save_output):
+def test_list_token_max_length_2_nistxml_sv_iv_list_token_max_length_3_3(mode, save_output, output_format):
     """
     Type list/token is restricted by facet maxLength with value 7.
     """
@@ -11277,11 +11999,12 @@ def test_list_token_max_length_2_nistxml_sv_iv_list_token_max_length_3_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_max_length_2_nistxml_sv_iv_list_token_max_length_3_4(mode, save_output):
+def test_list_token_max_length_2_nistxml_sv_iv_list_token_max_length_3_4(mode, save_output, output_format):
     """
     Type list/token is restricted by facet maxLength with value 7.
     """
@@ -11292,11 +12015,12 @@ def test_list_token_max_length_2_nistxml_sv_iv_list_token_max_length_3_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_max_length_2_nistxml_sv_iv_list_token_max_length_3_5(mode, save_output):
+def test_list_token_max_length_2_nistxml_sv_iv_list_token_max_length_3_5(mode, save_output, output_format):
     """
     Type list/token is restricted by facet maxLength with value 7.
     """
@@ -11307,11 +12031,12 @@ def test_list_token_max_length_2_nistxml_sv_iv_list_token_max_length_3_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_max_length_1_nistxml_sv_iv_list_token_max_length_2_1(mode, save_output):
+def test_list_token_max_length_1_nistxml_sv_iv_list_token_max_length_2_1(mode, save_output, output_format):
     """
     Type list/token is restricted by facet maxLength with value 6.
     """
@@ -11322,11 +12047,12 @@ def test_list_token_max_length_1_nistxml_sv_iv_list_token_max_length_2_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_max_length_1_nistxml_sv_iv_list_token_max_length_2_2(mode, save_output):
+def test_list_token_max_length_1_nistxml_sv_iv_list_token_max_length_2_2(mode, save_output, output_format):
     """
     Type list/token is restricted by facet maxLength with value 6.
     """
@@ -11337,11 +12063,12 @@ def test_list_token_max_length_1_nistxml_sv_iv_list_token_max_length_2_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_max_length_1_nistxml_sv_iv_list_token_max_length_2_3(mode, save_output):
+def test_list_token_max_length_1_nistxml_sv_iv_list_token_max_length_2_3(mode, save_output, output_format):
     """
     Type list/token is restricted by facet maxLength with value 6.
     """
@@ -11352,11 +12079,12 @@ def test_list_token_max_length_1_nistxml_sv_iv_list_token_max_length_2_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_max_length_1_nistxml_sv_iv_list_token_max_length_2_4(mode, save_output):
+def test_list_token_max_length_1_nistxml_sv_iv_list_token_max_length_2_4(mode, save_output, output_format):
     """
     Type list/token is restricted by facet maxLength with value 6.
     """
@@ -11367,11 +12095,12 @@ def test_list_token_max_length_1_nistxml_sv_iv_list_token_max_length_2_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_max_length_1_nistxml_sv_iv_list_token_max_length_2_5(mode, save_output):
+def test_list_token_max_length_1_nistxml_sv_iv_list_token_max_length_2_5(mode, save_output, output_format):
     """
     Type list/token is restricted by facet maxLength with value 6.
     """
@@ -11382,11 +12111,12 @@ def test_list_token_max_length_1_nistxml_sv_iv_list_token_max_length_2_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_max_length_nistxml_sv_iv_list_token_max_length_1_1(mode, save_output):
+def test_list_token_max_length_nistxml_sv_iv_list_token_max_length_1_1(mode, save_output, output_format):
     """
     Type list/token is restricted by facet maxLength with value 5.
     """
@@ -11397,11 +12127,12 @@ def test_list_token_max_length_nistxml_sv_iv_list_token_max_length_1_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_max_length_nistxml_sv_iv_list_token_max_length_1_2(mode, save_output):
+def test_list_token_max_length_nistxml_sv_iv_list_token_max_length_1_2(mode, save_output, output_format):
     """
     Type list/token is restricted by facet maxLength with value 5.
     """
@@ -11412,11 +12143,12 @@ def test_list_token_max_length_nistxml_sv_iv_list_token_max_length_1_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_max_length_nistxml_sv_iv_list_token_max_length_1_3(mode, save_output):
+def test_list_token_max_length_nistxml_sv_iv_list_token_max_length_1_3(mode, save_output, output_format):
     """
     Type list/token is restricted by facet maxLength with value 5.
     """
@@ -11427,11 +12159,12 @@ def test_list_token_max_length_nistxml_sv_iv_list_token_max_length_1_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_max_length_nistxml_sv_iv_list_token_max_length_1_4(mode, save_output):
+def test_list_token_max_length_nistxml_sv_iv_list_token_max_length_1_4(mode, save_output, output_format):
     """
     Type list/token is restricted by facet maxLength with value 5.
     """
@@ -11442,11 +12175,12 @@ def test_list_token_max_length_nistxml_sv_iv_list_token_max_length_1_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_token_max_length_nistxml_sv_iv_list_token_max_length_1_5(mode, save_output):
+def test_list_token_max_length_nistxml_sv_iv_list_token_max_length_1_5(mode, save_output, output_format):
     """
     Type list/token is restricted by facet maxLength with value 5.
     """
@@ -11457,11 +12191,12 @@ def test_list_token_max_length_nistxml_sv_iv_list_token_max_length_1_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_white_space_nistxml_sv_iv_list_normalized_string_white_space_1_1(mode, save_output):
+def test_list_normalized_string_white_space_nistxml_sv_iv_list_normalized_string_white_space_1_1(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet whiteSpace with
     value collapse.
@@ -11473,11 +12208,12 @@ def test_list_normalized_string_white_space_nistxml_sv_iv_list_normalized_string
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_white_space_nistxml_sv_iv_list_normalized_string_white_space_1_2(mode, save_output):
+def test_list_normalized_string_white_space_nistxml_sv_iv_list_normalized_string_white_space_1_2(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet whiteSpace with
     value collapse.
@@ -11489,11 +12225,12 @@ def test_list_normalized_string_white_space_nistxml_sv_iv_list_normalized_string
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_white_space_nistxml_sv_iv_list_normalized_string_white_space_1_3(mode, save_output):
+def test_list_normalized_string_white_space_nistxml_sv_iv_list_normalized_string_white_space_1_3(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet whiteSpace with
     value collapse.
@@ -11505,11 +12242,12 @@ def test_list_normalized_string_white_space_nistxml_sv_iv_list_normalized_string
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_white_space_nistxml_sv_iv_list_normalized_string_white_space_1_4(mode, save_output):
+def test_list_normalized_string_white_space_nistxml_sv_iv_list_normalized_string_white_space_1_4(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet whiteSpace with
     value collapse.
@@ -11521,11 +12259,12 @@ def test_list_normalized_string_white_space_nistxml_sv_iv_list_normalized_string
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_white_space_nistxml_sv_iv_list_normalized_string_white_space_1_5(mode, save_output):
+def test_list_normalized_string_white_space_nistxml_sv_iv_list_normalized_string_white_space_1_5(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet whiteSpace with
     value collapse.
@@ -11537,11 +12276,12 @@ def test_list_normalized_string_white_space_nistxml_sv_iv_list_normalized_string
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_enumeration_4_nistxml_sv_iv_list_normalized_string_enumeration_5_1(mode, save_output):
+def test_list_normalized_string_enumeration_4_nistxml_sv_iv_list_normalized_string_enumeration_5_1(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet enumeration.
     """
@@ -11552,11 +12292,12 @@ def test_list_normalized_string_enumeration_4_nistxml_sv_iv_list_normalized_stri
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_enumeration_4_nistxml_sv_iv_list_normalized_string_enumeration_5_2(mode, save_output):
+def test_list_normalized_string_enumeration_4_nistxml_sv_iv_list_normalized_string_enumeration_5_2(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet enumeration.
     """
@@ -11567,11 +12308,12 @@ def test_list_normalized_string_enumeration_4_nistxml_sv_iv_list_normalized_stri
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_enumeration_4_nistxml_sv_iv_list_normalized_string_enumeration_5_3(mode, save_output):
+def test_list_normalized_string_enumeration_4_nistxml_sv_iv_list_normalized_string_enumeration_5_3(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet enumeration.
     """
@@ -11582,11 +12324,12 @@ def test_list_normalized_string_enumeration_4_nistxml_sv_iv_list_normalized_stri
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_enumeration_4_nistxml_sv_iv_list_normalized_string_enumeration_5_4(mode, save_output):
+def test_list_normalized_string_enumeration_4_nistxml_sv_iv_list_normalized_string_enumeration_5_4(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet enumeration.
     """
@@ -11597,11 +12340,12 @@ def test_list_normalized_string_enumeration_4_nistxml_sv_iv_list_normalized_stri
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_enumeration_4_nistxml_sv_iv_list_normalized_string_enumeration_5_5(mode, save_output):
+def test_list_normalized_string_enumeration_4_nistxml_sv_iv_list_normalized_string_enumeration_5_5(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet enumeration.
     """
@@ -11612,11 +12356,12 @@ def test_list_normalized_string_enumeration_4_nistxml_sv_iv_list_normalized_stri
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_enumeration_3_nistxml_sv_iv_list_normalized_string_enumeration_4_1(mode, save_output):
+def test_list_normalized_string_enumeration_3_nistxml_sv_iv_list_normalized_string_enumeration_4_1(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet enumeration.
     """
@@ -11627,11 +12372,12 @@ def test_list_normalized_string_enumeration_3_nistxml_sv_iv_list_normalized_stri
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_enumeration_3_nistxml_sv_iv_list_normalized_string_enumeration_4_2(mode, save_output):
+def test_list_normalized_string_enumeration_3_nistxml_sv_iv_list_normalized_string_enumeration_4_2(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet enumeration.
     """
@@ -11642,11 +12388,12 @@ def test_list_normalized_string_enumeration_3_nistxml_sv_iv_list_normalized_stri
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_enumeration_3_nistxml_sv_iv_list_normalized_string_enumeration_4_3(mode, save_output):
+def test_list_normalized_string_enumeration_3_nistxml_sv_iv_list_normalized_string_enumeration_4_3(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet enumeration.
     """
@@ -11657,11 +12404,12 @@ def test_list_normalized_string_enumeration_3_nistxml_sv_iv_list_normalized_stri
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_enumeration_3_nistxml_sv_iv_list_normalized_string_enumeration_4_4(mode, save_output):
+def test_list_normalized_string_enumeration_3_nistxml_sv_iv_list_normalized_string_enumeration_4_4(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet enumeration.
     """
@@ -11672,11 +12420,12 @@ def test_list_normalized_string_enumeration_3_nistxml_sv_iv_list_normalized_stri
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_enumeration_3_nistxml_sv_iv_list_normalized_string_enumeration_4_5(mode, save_output):
+def test_list_normalized_string_enumeration_3_nistxml_sv_iv_list_normalized_string_enumeration_4_5(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet enumeration.
     """
@@ -11687,11 +12436,12 @@ def test_list_normalized_string_enumeration_3_nistxml_sv_iv_list_normalized_stri
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_enumeration_2_nistxml_sv_iv_list_normalized_string_enumeration_3_1(mode, save_output):
+def test_list_normalized_string_enumeration_2_nistxml_sv_iv_list_normalized_string_enumeration_3_1(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet enumeration.
     """
@@ -11702,11 +12452,12 @@ def test_list_normalized_string_enumeration_2_nistxml_sv_iv_list_normalized_stri
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_enumeration_2_nistxml_sv_iv_list_normalized_string_enumeration_3_2(mode, save_output):
+def test_list_normalized_string_enumeration_2_nistxml_sv_iv_list_normalized_string_enumeration_3_2(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet enumeration.
     """
@@ -11717,11 +12468,12 @@ def test_list_normalized_string_enumeration_2_nistxml_sv_iv_list_normalized_stri
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_enumeration_2_nistxml_sv_iv_list_normalized_string_enumeration_3_3(mode, save_output):
+def test_list_normalized_string_enumeration_2_nistxml_sv_iv_list_normalized_string_enumeration_3_3(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet enumeration.
     """
@@ -11732,11 +12484,12 @@ def test_list_normalized_string_enumeration_2_nistxml_sv_iv_list_normalized_stri
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_enumeration_2_nistxml_sv_iv_list_normalized_string_enumeration_3_4(mode, save_output):
+def test_list_normalized_string_enumeration_2_nistxml_sv_iv_list_normalized_string_enumeration_3_4(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet enumeration.
     """
@@ -11747,11 +12500,12 @@ def test_list_normalized_string_enumeration_2_nistxml_sv_iv_list_normalized_stri
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_enumeration_2_nistxml_sv_iv_list_normalized_string_enumeration_3_5(mode, save_output):
+def test_list_normalized_string_enumeration_2_nistxml_sv_iv_list_normalized_string_enumeration_3_5(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet enumeration.
     """
@@ -11762,11 +12516,12 @@ def test_list_normalized_string_enumeration_2_nistxml_sv_iv_list_normalized_stri
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_enumeration_1_nistxml_sv_iv_list_normalized_string_enumeration_2_1(mode, save_output):
+def test_list_normalized_string_enumeration_1_nistxml_sv_iv_list_normalized_string_enumeration_2_1(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet enumeration.
     """
@@ -11777,11 +12532,12 @@ def test_list_normalized_string_enumeration_1_nistxml_sv_iv_list_normalized_stri
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_enumeration_1_nistxml_sv_iv_list_normalized_string_enumeration_2_2(mode, save_output):
+def test_list_normalized_string_enumeration_1_nistxml_sv_iv_list_normalized_string_enumeration_2_2(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet enumeration.
     """
@@ -11792,11 +12548,12 @@ def test_list_normalized_string_enumeration_1_nistxml_sv_iv_list_normalized_stri
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_enumeration_1_nistxml_sv_iv_list_normalized_string_enumeration_2_3(mode, save_output):
+def test_list_normalized_string_enumeration_1_nistxml_sv_iv_list_normalized_string_enumeration_2_3(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet enumeration.
     """
@@ -11807,11 +12564,12 @@ def test_list_normalized_string_enumeration_1_nistxml_sv_iv_list_normalized_stri
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_enumeration_1_nistxml_sv_iv_list_normalized_string_enumeration_2_4(mode, save_output):
+def test_list_normalized_string_enumeration_1_nistxml_sv_iv_list_normalized_string_enumeration_2_4(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet enumeration.
     """
@@ -11822,11 +12580,12 @@ def test_list_normalized_string_enumeration_1_nistxml_sv_iv_list_normalized_stri
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_enumeration_1_nistxml_sv_iv_list_normalized_string_enumeration_2_5(mode, save_output):
+def test_list_normalized_string_enumeration_1_nistxml_sv_iv_list_normalized_string_enumeration_2_5(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet enumeration.
     """
@@ -11837,11 +12596,12 @@ def test_list_normalized_string_enumeration_1_nistxml_sv_iv_list_normalized_stri
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_enumeration_nistxml_sv_iv_list_normalized_string_enumeration_1_1(mode, save_output):
+def test_list_normalized_string_enumeration_nistxml_sv_iv_list_normalized_string_enumeration_1_1(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet enumeration.
     """
@@ -11852,11 +12612,12 @@ def test_list_normalized_string_enumeration_nistxml_sv_iv_list_normalized_string
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_enumeration_nistxml_sv_iv_list_normalized_string_enumeration_1_2(mode, save_output):
+def test_list_normalized_string_enumeration_nistxml_sv_iv_list_normalized_string_enumeration_1_2(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet enumeration.
     """
@@ -11867,11 +12628,12 @@ def test_list_normalized_string_enumeration_nistxml_sv_iv_list_normalized_string
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_enumeration_nistxml_sv_iv_list_normalized_string_enumeration_1_3(mode, save_output):
+def test_list_normalized_string_enumeration_nistxml_sv_iv_list_normalized_string_enumeration_1_3(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet enumeration.
     """
@@ -11882,11 +12644,12 @@ def test_list_normalized_string_enumeration_nistxml_sv_iv_list_normalized_string
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_enumeration_nistxml_sv_iv_list_normalized_string_enumeration_1_4(mode, save_output):
+def test_list_normalized_string_enumeration_nistxml_sv_iv_list_normalized_string_enumeration_1_4(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet enumeration.
     """
@@ -11897,11 +12660,12 @@ def test_list_normalized_string_enumeration_nistxml_sv_iv_list_normalized_string
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_enumeration_nistxml_sv_iv_list_normalized_string_enumeration_1_5(mode, save_output):
+def test_list_normalized_string_enumeration_nistxml_sv_iv_list_normalized_string_enumeration_1_5(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet enumeration.
     """
@@ -11912,11 +12676,12 @@ def test_list_normalized_string_enumeration_nistxml_sv_iv_list_normalized_string
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_pattern_4_nistxml_sv_iv_list_normalized_string_pattern_5_1(mode, save_output):
+def test_list_normalized_string_pattern_4_nistxml_sv_iv_list_normalized_string_pattern_5_1(mode, save_output, output_format):
     r"""
     Type list/normalizedString is restricted by facet pattern with value \
     d{1,5}_([A-Z][a-z]{1,20}_){5}Street_([A-Z][a-z]{1,20}_){2},_[A-
@@ -11936,11 +12701,12 @@ def test_list_normalized_string_pattern_4_nistxml_sv_iv_list_normalized_string_p
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_pattern_4_nistxml_sv_iv_list_normalized_string_pattern_5_2(mode, save_output):
+def test_list_normalized_string_pattern_4_nistxml_sv_iv_list_normalized_string_pattern_5_2(mode, save_output, output_format):
     r"""
     Type list/normalizedString is restricted by facet pattern with value \
     d{1,5}_([A-Z][a-z]{1,20}_){5}Street_([A-Z][a-z]{1,20}_){2},_[A-
@@ -11960,11 +12726,12 @@ def test_list_normalized_string_pattern_4_nistxml_sv_iv_list_normalized_string_p
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_pattern_4_nistxml_sv_iv_list_normalized_string_pattern_5_3(mode, save_output):
+def test_list_normalized_string_pattern_4_nistxml_sv_iv_list_normalized_string_pattern_5_3(mode, save_output, output_format):
     r"""
     Type list/normalizedString is restricted by facet pattern with value \
     d{1,5}_([A-Z][a-z]{1,20}_){5}Street_([A-Z][a-z]{1,20}_){2},_[A-
@@ -11984,11 +12751,12 @@ def test_list_normalized_string_pattern_4_nistxml_sv_iv_list_normalized_string_p
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_pattern_4_nistxml_sv_iv_list_normalized_string_pattern_5_4(mode, save_output):
+def test_list_normalized_string_pattern_4_nistxml_sv_iv_list_normalized_string_pattern_5_4(mode, save_output, output_format):
     r"""
     Type list/normalizedString is restricted by facet pattern with value \
     d{1,5}_([A-Z][a-z]{1,20}_){5}Street_([A-Z][a-z]{1,20}_){2},_[A-
@@ -12008,11 +12776,12 @@ def test_list_normalized_string_pattern_4_nistxml_sv_iv_list_normalized_string_p
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_pattern_4_nistxml_sv_iv_list_normalized_string_pattern_5_5(mode, save_output):
+def test_list_normalized_string_pattern_4_nistxml_sv_iv_list_normalized_string_pattern_5_5(mode, save_output, output_format):
     r"""
     Type list/normalizedString is restricted by facet pattern with value \
     d{1,5}_([A-Z][a-z]{1,20}_){5}Street_([A-Z][a-z]{1,20}_){2},_[A-
@@ -12032,11 +12801,12 @@ def test_list_normalized_string_pattern_4_nistxml_sv_iv_list_normalized_string_p
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_pattern_3_nistxml_sv_iv_list_normalized_string_pattern_4_1(mode, save_output):
+def test_list_normalized_string_pattern_3_nistxml_sv_iv_list_normalized_string_pattern_4_1(mode, save_output, output_format):
     r"""
     Type list/normalizedString is restricted by facet pattern with value \
     d{1,5}_([A-Z][a-z]{1,20}_){1}Street_([A-Z][a-z]{1,20}_){2},_[A-
@@ -12055,11 +12825,12 @@ def test_list_normalized_string_pattern_3_nistxml_sv_iv_list_normalized_string_p
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_pattern_3_nistxml_sv_iv_list_normalized_string_pattern_4_2(mode, save_output):
+def test_list_normalized_string_pattern_3_nistxml_sv_iv_list_normalized_string_pattern_4_2(mode, save_output, output_format):
     r"""
     Type list/normalizedString is restricted by facet pattern with value \
     d{1,5}_([A-Z][a-z]{1,20}_){1}Street_([A-Z][a-z]{1,20}_){2},_[A-
@@ -12078,11 +12849,12 @@ def test_list_normalized_string_pattern_3_nistxml_sv_iv_list_normalized_string_p
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_pattern_3_nistxml_sv_iv_list_normalized_string_pattern_4_3(mode, save_output):
+def test_list_normalized_string_pattern_3_nistxml_sv_iv_list_normalized_string_pattern_4_3(mode, save_output, output_format):
     r"""
     Type list/normalizedString is restricted by facet pattern with value \
     d{1,5}_([A-Z][a-z]{1,20}_){1}Street_([A-Z][a-z]{1,20}_){2},_[A-
@@ -12101,11 +12873,12 @@ def test_list_normalized_string_pattern_3_nistxml_sv_iv_list_normalized_string_p
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_pattern_3_nistxml_sv_iv_list_normalized_string_pattern_4_4(mode, save_output):
+def test_list_normalized_string_pattern_3_nistxml_sv_iv_list_normalized_string_pattern_4_4(mode, save_output, output_format):
     r"""
     Type list/normalizedString is restricted by facet pattern with value \
     d{1,5}_([A-Z][a-z]{1,20}_){1}Street_([A-Z][a-z]{1,20}_){2},_[A-
@@ -12124,11 +12897,12 @@ def test_list_normalized_string_pattern_3_nistxml_sv_iv_list_normalized_string_p
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_pattern_3_nistxml_sv_iv_list_normalized_string_pattern_4_5(mode, save_output):
+def test_list_normalized_string_pattern_3_nistxml_sv_iv_list_normalized_string_pattern_4_5(mode, save_output, output_format):
     r"""
     Type list/normalizedString is restricted by facet pattern with value \
     d{1,5}_([A-Z][a-z]{1,20}_){1}Street_([A-Z][a-z]{1,20}_){2},_[A-
@@ -12147,11 +12921,12 @@ def test_list_normalized_string_pattern_3_nistxml_sv_iv_list_normalized_string_p
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_pattern_2_nistxml_sv_iv_list_normalized_string_pattern_3_1(mode, save_output):
+def test_list_normalized_string_pattern_2_nistxml_sv_iv_list_normalized_string_pattern_3_1(mode, save_output, output_format):
     r"""
     Type list/normalizedString is restricted by facet pattern with value \
     d{1,5}_([A-Z][a-z]{1,20}_){1}Street_([A-Z][a-z]{1,20}_){3},_[A-
@@ -12170,11 +12945,12 @@ def test_list_normalized_string_pattern_2_nistxml_sv_iv_list_normalized_string_p
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_pattern_2_nistxml_sv_iv_list_normalized_string_pattern_3_2(mode, save_output):
+def test_list_normalized_string_pattern_2_nistxml_sv_iv_list_normalized_string_pattern_3_2(mode, save_output, output_format):
     r"""
     Type list/normalizedString is restricted by facet pattern with value \
     d{1,5}_([A-Z][a-z]{1,20}_){1}Street_([A-Z][a-z]{1,20}_){3},_[A-
@@ -12193,11 +12969,12 @@ def test_list_normalized_string_pattern_2_nistxml_sv_iv_list_normalized_string_p
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_pattern_2_nistxml_sv_iv_list_normalized_string_pattern_3_3(mode, save_output):
+def test_list_normalized_string_pattern_2_nistxml_sv_iv_list_normalized_string_pattern_3_3(mode, save_output, output_format):
     r"""
     Type list/normalizedString is restricted by facet pattern with value \
     d{1,5}_([A-Z][a-z]{1,20}_){1}Street_([A-Z][a-z]{1,20}_){3},_[A-
@@ -12216,11 +12993,12 @@ def test_list_normalized_string_pattern_2_nistxml_sv_iv_list_normalized_string_p
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_pattern_2_nistxml_sv_iv_list_normalized_string_pattern_3_4(mode, save_output):
+def test_list_normalized_string_pattern_2_nistxml_sv_iv_list_normalized_string_pattern_3_4(mode, save_output, output_format):
     r"""
     Type list/normalizedString is restricted by facet pattern with value \
     d{1,5}_([A-Z][a-z]{1,20}_){1}Street_([A-Z][a-z]{1,20}_){3},_[A-
@@ -12239,11 +13017,12 @@ def test_list_normalized_string_pattern_2_nistxml_sv_iv_list_normalized_string_p
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_pattern_2_nistxml_sv_iv_list_normalized_string_pattern_3_5(mode, save_output):
+def test_list_normalized_string_pattern_2_nistxml_sv_iv_list_normalized_string_pattern_3_5(mode, save_output, output_format):
     r"""
     Type list/normalizedString is restricted by facet pattern with value \
     d{1,5}_([A-Z][a-z]{1,20}_){1}Street_([A-Z][a-z]{1,20}_){3},_[A-
@@ -12262,11 +13041,12 @@ def test_list_normalized_string_pattern_2_nistxml_sv_iv_list_normalized_string_p
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_pattern_1_nistxml_sv_iv_list_normalized_string_pattern_2_1(mode, save_output):
+def test_list_normalized_string_pattern_1_nistxml_sv_iv_list_normalized_string_pattern_2_1(mode, save_output, output_format):
     r"""
     Type list/normalizedString is restricted by facet pattern with value \
     d{1,5}_([A-Z][a-z]{1,20}_){2}Street_([A-Z][a-z]{1,20}_){1},_[A-
@@ -12284,11 +13064,12 @@ def test_list_normalized_string_pattern_1_nistxml_sv_iv_list_normalized_string_p
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_pattern_1_nistxml_sv_iv_list_normalized_string_pattern_2_2(mode, save_output):
+def test_list_normalized_string_pattern_1_nistxml_sv_iv_list_normalized_string_pattern_2_2(mode, save_output, output_format):
     r"""
     Type list/normalizedString is restricted by facet pattern with value \
     d{1,5}_([A-Z][a-z]{1,20}_){2}Street_([A-Z][a-z]{1,20}_){1},_[A-
@@ -12306,11 +13087,12 @@ def test_list_normalized_string_pattern_1_nistxml_sv_iv_list_normalized_string_p
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_pattern_1_nistxml_sv_iv_list_normalized_string_pattern_2_3(mode, save_output):
+def test_list_normalized_string_pattern_1_nistxml_sv_iv_list_normalized_string_pattern_2_3(mode, save_output, output_format):
     r"""
     Type list/normalizedString is restricted by facet pattern with value \
     d{1,5}_([A-Z][a-z]{1,20}_){2}Street_([A-Z][a-z]{1,20}_){1},_[A-
@@ -12328,11 +13110,12 @@ def test_list_normalized_string_pattern_1_nistxml_sv_iv_list_normalized_string_p
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_pattern_1_nistxml_sv_iv_list_normalized_string_pattern_2_4(mode, save_output):
+def test_list_normalized_string_pattern_1_nistxml_sv_iv_list_normalized_string_pattern_2_4(mode, save_output, output_format):
     r"""
     Type list/normalizedString is restricted by facet pattern with value \
     d{1,5}_([A-Z][a-z]{1,20}_){2}Street_([A-Z][a-z]{1,20}_){1},_[A-
@@ -12350,11 +13133,12 @@ def test_list_normalized_string_pattern_1_nistxml_sv_iv_list_normalized_string_p
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_pattern_1_nistxml_sv_iv_list_normalized_string_pattern_2_5(mode, save_output):
+def test_list_normalized_string_pattern_1_nistxml_sv_iv_list_normalized_string_pattern_2_5(mode, save_output, output_format):
     r"""
     Type list/normalizedString is restricted by facet pattern with value \
     d{1,5}_([A-Z][a-z]{1,20}_){2}Street_([A-Z][a-z]{1,20}_){1},_[A-
@@ -12372,11 +13156,12 @@ def test_list_normalized_string_pattern_1_nistxml_sv_iv_list_normalized_string_p
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_pattern_nistxml_sv_iv_list_normalized_string_pattern_1_1(mode, save_output):
+def test_list_normalized_string_pattern_nistxml_sv_iv_list_normalized_string_pattern_1_1(mode, save_output, output_format):
     r"""
     Type list/normalizedString is restricted by facet pattern with value \
     d{1,5}_([A-Z][a-z]{1,20}_){3}Street_([A-Z][a-z]{1,20}_){2},_[A-
@@ -12396,11 +13181,12 @@ def test_list_normalized_string_pattern_nistxml_sv_iv_list_normalized_string_pat
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_pattern_nistxml_sv_iv_list_normalized_string_pattern_1_2(mode, save_output):
+def test_list_normalized_string_pattern_nistxml_sv_iv_list_normalized_string_pattern_1_2(mode, save_output, output_format):
     r"""
     Type list/normalizedString is restricted by facet pattern with value \
     d{1,5}_([A-Z][a-z]{1,20}_){3}Street_([A-Z][a-z]{1,20}_){2},_[A-
@@ -12420,11 +13206,12 @@ def test_list_normalized_string_pattern_nistxml_sv_iv_list_normalized_string_pat
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_pattern_nistxml_sv_iv_list_normalized_string_pattern_1_3(mode, save_output):
+def test_list_normalized_string_pattern_nistxml_sv_iv_list_normalized_string_pattern_1_3(mode, save_output, output_format):
     r"""
     Type list/normalizedString is restricted by facet pattern with value \
     d{1,5}_([A-Z][a-z]{1,20}_){3}Street_([A-Z][a-z]{1,20}_){2},_[A-
@@ -12444,11 +13231,12 @@ def test_list_normalized_string_pattern_nistxml_sv_iv_list_normalized_string_pat
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_pattern_nistxml_sv_iv_list_normalized_string_pattern_1_4(mode, save_output):
+def test_list_normalized_string_pattern_nistxml_sv_iv_list_normalized_string_pattern_1_4(mode, save_output, output_format):
     r"""
     Type list/normalizedString is restricted by facet pattern with value \
     d{1,5}_([A-Z][a-z]{1,20}_){3}Street_([A-Z][a-z]{1,20}_){2},_[A-
@@ -12468,11 +13256,12 @@ def test_list_normalized_string_pattern_nistxml_sv_iv_list_normalized_string_pat
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_pattern_nistxml_sv_iv_list_normalized_string_pattern_1_5(mode, save_output):
+def test_list_normalized_string_pattern_nistxml_sv_iv_list_normalized_string_pattern_1_5(mode, save_output, output_format):
     r"""
     Type list/normalizedString is restricted by facet pattern with value \
     d{1,5}_([A-Z][a-z]{1,20}_){3}Street_([A-Z][a-z]{1,20}_){2},_[A-
@@ -12492,11 +13281,12 @@ def test_list_normalized_string_pattern_nistxml_sv_iv_list_normalized_string_pat
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_length_4_nistxml_sv_iv_list_normalized_string_length_5_1(mode, save_output):
+def test_list_normalized_string_length_4_nistxml_sv_iv_list_normalized_string_length_5_1(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet length with value
     10.
@@ -12508,11 +13298,12 @@ def test_list_normalized_string_length_4_nistxml_sv_iv_list_normalized_string_le
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_length_4_nistxml_sv_iv_list_normalized_string_length_5_2(mode, save_output):
+def test_list_normalized_string_length_4_nistxml_sv_iv_list_normalized_string_length_5_2(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet length with value
     10.
@@ -12524,11 +13315,12 @@ def test_list_normalized_string_length_4_nistxml_sv_iv_list_normalized_string_le
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_length_4_nistxml_sv_iv_list_normalized_string_length_5_3(mode, save_output):
+def test_list_normalized_string_length_4_nistxml_sv_iv_list_normalized_string_length_5_3(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet length with value
     10.
@@ -12540,11 +13332,12 @@ def test_list_normalized_string_length_4_nistxml_sv_iv_list_normalized_string_le
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_length_4_nistxml_sv_iv_list_normalized_string_length_5_4(mode, save_output):
+def test_list_normalized_string_length_4_nistxml_sv_iv_list_normalized_string_length_5_4(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet length with value
     10.
@@ -12556,11 +13349,12 @@ def test_list_normalized_string_length_4_nistxml_sv_iv_list_normalized_string_le
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_length_4_nistxml_sv_iv_list_normalized_string_length_5_5(mode, save_output):
+def test_list_normalized_string_length_4_nistxml_sv_iv_list_normalized_string_length_5_5(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet length with value
     10.
@@ -12572,11 +13366,12 @@ def test_list_normalized_string_length_4_nistxml_sv_iv_list_normalized_string_le
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_length_3_nistxml_sv_iv_list_normalized_string_length_4_1(mode, save_output):
+def test_list_normalized_string_length_3_nistxml_sv_iv_list_normalized_string_length_4_1(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet length with value 8.
     """
@@ -12587,11 +13382,12 @@ def test_list_normalized_string_length_3_nistxml_sv_iv_list_normalized_string_le
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_length_3_nistxml_sv_iv_list_normalized_string_length_4_2(mode, save_output):
+def test_list_normalized_string_length_3_nistxml_sv_iv_list_normalized_string_length_4_2(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet length with value 8.
     """
@@ -12602,11 +13398,12 @@ def test_list_normalized_string_length_3_nistxml_sv_iv_list_normalized_string_le
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_length_3_nistxml_sv_iv_list_normalized_string_length_4_3(mode, save_output):
+def test_list_normalized_string_length_3_nistxml_sv_iv_list_normalized_string_length_4_3(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet length with value 8.
     """
@@ -12617,11 +13414,12 @@ def test_list_normalized_string_length_3_nistxml_sv_iv_list_normalized_string_le
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_length_3_nistxml_sv_iv_list_normalized_string_length_4_4(mode, save_output):
+def test_list_normalized_string_length_3_nistxml_sv_iv_list_normalized_string_length_4_4(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet length with value 8.
     """
@@ -12632,11 +13430,12 @@ def test_list_normalized_string_length_3_nistxml_sv_iv_list_normalized_string_le
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_length_3_nistxml_sv_iv_list_normalized_string_length_4_5(mode, save_output):
+def test_list_normalized_string_length_3_nistxml_sv_iv_list_normalized_string_length_4_5(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet length with value 8.
     """
@@ -12647,11 +13446,12 @@ def test_list_normalized_string_length_3_nistxml_sv_iv_list_normalized_string_le
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_length_2_nistxml_sv_iv_list_normalized_string_length_3_1(mode, save_output):
+def test_list_normalized_string_length_2_nistxml_sv_iv_list_normalized_string_length_3_1(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet length with value 7.
     """
@@ -12662,11 +13462,12 @@ def test_list_normalized_string_length_2_nistxml_sv_iv_list_normalized_string_le
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_length_2_nistxml_sv_iv_list_normalized_string_length_3_2(mode, save_output):
+def test_list_normalized_string_length_2_nistxml_sv_iv_list_normalized_string_length_3_2(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet length with value 7.
     """
@@ -12677,11 +13478,12 @@ def test_list_normalized_string_length_2_nistxml_sv_iv_list_normalized_string_le
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_length_2_nistxml_sv_iv_list_normalized_string_length_3_3(mode, save_output):
+def test_list_normalized_string_length_2_nistxml_sv_iv_list_normalized_string_length_3_3(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet length with value 7.
     """
@@ -12692,11 +13494,12 @@ def test_list_normalized_string_length_2_nistxml_sv_iv_list_normalized_string_le
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_length_2_nistxml_sv_iv_list_normalized_string_length_3_4(mode, save_output):
+def test_list_normalized_string_length_2_nistxml_sv_iv_list_normalized_string_length_3_4(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet length with value 7.
     """
@@ -12707,11 +13510,12 @@ def test_list_normalized_string_length_2_nistxml_sv_iv_list_normalized_string_le
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_length_2_nistxml_sv_iv_list_normalized_string_length_3_5(mode, save_output):
+def test_list_normalized_string_length_2_nistxml_sv_iv_list_normalized_string_length_3_5(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet length with value 7.
     """
@@ -12722,11 +13526,12 @@ def test_list_normalized_string_length_2_nistxml_sv_iv_list_normalized_string_le
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_length_1_nistxml_sv_iv_list_normalized_string_length_2_1(mode, save_output):
+def test_list_normalized_string_length_1_nistxml_sv_iv_list_normalized_string_length_2_1(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet length with value 6.
     """
@@ -12737,11 +13542,12 @@ def test_list_normalized_string_length_1_nistxml_sv_iv_list_normalized_string_le
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_length_1_nistxml_sv_iv_list_normalized_string_length_2_2(mode, save_output):
+def test_list_normalized_string_length_1_nistxml_sv_iv_list_normalized_string_length_2_2(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet length with value 6.
     """
@@ -12752,11 +13558,12 @@ def test_list_normalized_string_length_1_nistxml_sv_iv_list_normalized_string_le
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_length_1_nistxml_sv_iv_list_normalized_string_length_2_3(mode, save_output):
+def test_list_normalized_string_length_1_nistxml_sv_iv_list_normalized_string_length_2_3(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet length with value 6.
     """
@@ -12767,11 +13574,12 @@ def test_list_normalized_string_length_1_nistxml_sv_iv_list_normalized_string_le
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_length_1_nistxml_sv_iv_list_normalized_string_length_2_4(mode, save_output):
+def test_list_normalized_string_length_1_nistxml_sv_iv_list_normalized_string_length_2_4(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet length with value 6.
     """
@@ -12782,11 +13590,12 @@ def test_list_normalized_string_length_1_nistxml_sv_iv_list_normalized_string_le
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_length_1_nistxml_sv_iv_list_normalized_string_length_2_5(mode, save_output):
+def test_list_normalized_string_length_1_nistxml_sv_iv_list_normalized_string_length_2_5(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet length with value 6.
     """
@@ -12797,11 +13606,12 @@ def test_list_normalized_string_length_1_nistxml_sv_iv_list_normalized_string_le
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_length_nistxml_sv_iv_list_normalized_string_length_1_1(mode, save_output):
+def test_list_normalized_string_length_nistxml_sv_iv_list_normalized_string_length_1_1(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet length with value 5.
     """
@@ -12812,11 +13622,12 @@ def test_list_normalized_string_length_nistxml_sv_iv_list_normalized_string_leng
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_length_nistxml_sv_iv_list_normalized_string_length_1_2(mode, save_output):
+def test_list_normalized_string_length_nistxml_sv_iv_list_normalized_string_length_1_2(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet length with value 5.
     """
@@ -12827,11 +13638,12 @@ def test_list_normalized_string_length_nistxml_sv_iv_list_normalized_string_leng
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_length_nistxml_sv_iv_list_normalized_string_length_1_3(mode, save_output):
+def test_list_normalized_string_length_nistxml_sv_iv_list_normalized_string_length_1_3(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet length with value 5.
     """
@@ -12842,11 +13654,12 @@ def test_list_normalized_string_length_nistxml_sv_iv_list_normalized_string_leng
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_length_nistxml_sv_iv_list_normalized_string_length_1_4(mode, save_output):
+def test_list_normalized_string_length_nistxml_sv_iv_list_normalized_string_length_1_4(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet length with value 5.
     """
@@ -12857,11 +13670,12 @@ def test_list_normalized_string_length_nistxml_sv_iv_list_normalized_string_leng
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_length_nistxml_sv_iv_list_normalized_string_length_1_5(mode, save_output):
+def test_list_normalized_string_length_nistxml_sv_iv_list_normalized_string_length_1_5(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet length with value 5.
     """
@@ -12872,11 +13686,12 @@ def test_list_normalized_string_length_nistxml_sv_iv_list_normalized_string_leng
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_min_length_4_nistxml_sv_iv_list_normalized_string_min_length_5_1(mode, save_output):
+def test_list_normalized_string_min_length_4_nistxml_sv_iv_list_normalized_string_min_length_5_1(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet minLength with value
     10.
@@ -12888,11 +13703,12 @@ def test_list_normalized_string_min_length_4_nistxml_sv_iv_list_normalized_strin
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_min_length_4_nistxml_sv_iv_list_normalized_string_min_length_5_2(mode, save_output):
+def test_list_normalized_string_min_length_4_nistxml_sv_iv_list_normalized_string_min_length_5_2(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet minLength with value
     10.
@@ -12904,11 +13720,12 @@ def test_list_normalized_string_min_length_4_nistxml_sv_iv_list_normalized_strin
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_min_length_4_nistxml_sv_iv_list_normalized_string_min_length_5_3(mode, save_output):
+def test_list_normalized_string_min_length_4_nistxml_sv_iv_list_normalized_string_min_length_5_3(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet minLength with value
     10.
@@ -12920,11 +13737,12 @@ def test_list_normalized_string_min_length_4_nistxml_sv_iv_list_normalized_strin
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_min_length_4_nistxml_sv_iv_list_normalized_string_min_length_5_4(mode, save_output):
+def test_list_normalized_string_min_length_4_nistxml_sv_iv_list_normalized_string_min_length_5_4(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet minLength with value
     10.
@@ -12936,11 +13754,12 @@ def test_list_normalized_string_min_length_4_nistxml_sv_iv_list_normalized_strin
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_min_length_4_nistxml_sv_iv_list_normalized_string_min_length_5_5(mode, save_output):
+def test_list_normalized_string_min_length_4_nistxml_sv_iv_list_normalized_string_min_length_5_5(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet minLength with value
     10.
@@ -12952,11 +13771,12 @@ def test_list_normalized_string_min_length_4_nistxml_sv_iv_list_normalized_strin
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_min_length_3_nistxml_sv_iv_list_normalized_string_min_length_4_1(mode, save_output):
+def test_list_normalized_string_min_length_3_nistxml_sv_iv_list_normalized_string_min_length_4_1(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet minLength with value
     8.
@@ -12968,11 +13788,12 @@ def test_list_normalized_string_min_length_3_nistxml_sv_iv_list_normalized_strin
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_min_length_3_nistxml_sv_iv_list_normalized_string_min_length_4_2(mode, save_output):
+def test_list_normalized_string_min_length_3_nistxml_sv_iv_list_normalized_string_min_length_4_2(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet minLength with value
     8.
@@ -12984,11 +13805,12 @@ def test_list_normalized_string_min_length_3_nistxml_sv_iv_list_normalized_strin
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_min_length_3_nistxml_sv_iv_list_normalized_string_min_length_4_3(mode, save_output):
+def test_list_normalized_string_min_length_3_nistxml_sv_iv_list_normalized_string_min_length_4_3(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet minLength with value
     8.
@@ -13000,11 +13822,12 @@ def test_list_normalized_string_min_length_3_nistxml_sv_iv_list_normalized_strin
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_min_length_3_nistxml_sv_iv_list_normalized_string_min_length_4_4(mode, save_output):
+def test_list_normalized_string_min_length_3_nistxml_sv_iv_list_normalized_string_min_length_4_4(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet minLength with value
     8.
@@ -13016,11 +13839,12 @@ def test_list_normalized_string_min_length_3_nistxml_sv_iv_list_normalized_strin
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_min_length_3_nistxml_sv_iv_list_normalized_string_min_length_4_5(mode, save_output):
+def test_list_normalized_string_min_length_3_nistxml_sv_iv_list_normalized_string_min_length_4_5(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet minLength with value
     8.
@@ -13032,11 +13856,12 @@ def test_list_normalized_string_min_length_3_nistxml_sv_iv_list_normalized_strin
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_min_length_2_nistxml_sv_iv_list_normalized_string_min_length_3_1(mode, save_output):
+def test_list_normalized_string_min_length_2_nistxml_sv_iv_list_normalized_string_min_length_3_1(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet minLength with value
     7.
@@ -13048,11 +13873,12 @@ def test_list_normalized_string_min_length_2_nistxml_sv_iv_list_normalized_strin
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_min_length_2_nistxml_sv_iv_list_normalized_string_min_length_3_2(mode, save_output):
+def test_list_normalized_string_min_length_2_nistxml_sv_iv_list_normalized_string_min_length_3_2(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet minLength with value
     7.
@@ -13064,11 +13890,12 @@ def test_list_normalized_string_min_length_2_nistxml_sv_iv_list_normalized_strin
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_min_length_2_nistxml_sv_iv_list_normalized_string_min_length_3_3(mode, save_output):
+def test_list_normalized_string_min_length_2_nistxml_sv_iv_list_normalized_string_min_length_3_3(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet minLength with value
     7.
@@ -13080,11 +13907,12 @@ def test_list_normalized_string_min_length_2_nistxml_sv_iv_list_normalized_strin
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_min_length_2_nistxml_sv_iv_list_normalized_string_min_length_3_4(mode, save_output):
+def test_list_normalized_string_min_length_2_nistxml_sv_iv_list_normalized_string_min_length_3_4(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet minLength with value
     7.
@@ -13096,11 +13924,12 @@ def test_list_normalized_string_min_length_2_nistxml_sv_iv_list_normalized_strin
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_min_length_2_nistxml_sv_iv_list_normalized_string_min_length_3_5(mode, save_output):
+def test_list_normalized_string_min_length_2_nistxml_sv_iv_list_normalized_string_min_length_3_5(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet minLength with value
     7.
@@ -13112,11 +13941,12 @@ def test_list_normalized_string_min_length_2_nistxml_sv_iv_list_normalized_strin
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_min_length_1_nistxml_sv_iv_list_normalized_string_min_length_2_1(mode, save_output):
+def test_list_normalized_string_min_length_1_nistxml_sv_iv_list_normalized_string_min_length_2_1(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet minLength with value
     6.
@@ -13128,11 +13958,12 @@ def test_list_normalized_string_min_length_1_nistxml_sv_iv_list_normalized_strin
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_min_length_1_nistxml_sv_iv_list_normalized_string_min_length_2_2(mode, save_output):
+def test_list_normalized_string_min_length_1_nistxml_sv_iv_list_normalized_string_min_length_2_2(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet minLength with value
     6.
@@ -13144,11 +13975,12 @@ def test_list_normalized_string_min_length_1_nistxml_sv_iv_list_normalized_strin
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_min_length_1_nistxml_sv_iv_list_normalized_string_min_length_2_3(mode, save_output):
+def test_list_normalized_string_min_length_1_nistxml_sv_iv_list_normalized_string_min_length_2_3(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet minLength with value
     6.
@@ -13160,11 +13992,12 @@ def test_list_normalized_string_min_length_1_nistxml_sv_iv_list_normalized_strin
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_min_length_1_nistxml_sv_iv_list_normalized_string_min_length_2_4(mode, save_output):
+def test_list_normalized_string_min_length_1_nistxml_sv_iv_list_normalized_string_min_length_2_4(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet minLength with value
     6.
@@ -13176,11 +14009,12 @@ def test_list_normalized_string_min_length_1_nistxml_sv_iv_list_normalized_strin
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_min_length_1_nistxml_sv_iv_list_normalized_string_min_length_2_5(mode, save_output):
+def test_list_normalized_string_min_length_1_nistxml_sv_iv_list_normalized_string_min_length_2_5(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet minLength with value
     6.
@@ -13192,11 +14026,12 @@ def test_list_normalized_string_min_length_1_nistxml_sv_iv_list_normalized_strin
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_min_length_nistxml_sv_iv_list_normalized_string_min_length_1_1(mode, save_output):
+def test_list_normalized_string_min_length_nistxml_sv_iv_list_normalized_string_min_length_1_1(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet minLength with value
     5.
@@ -13208,11 +14043,12 @@ def test_list_normalized_string_min_length_nistxml_sv_iv_list_normalized_string_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_min_length_nistxml_sv_iv_list_normalized_string_min_length_1_2(mode, save_output):
+def test_list_normalized_string_min_length_nistxml_sv_iv_list_normalized_string_min_length_1_2(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet minLength with value
     5.
@@ -13224,11 +14060,12 @@ def test_list_normalized_string_min_length_nistxml_sv_iv_list_normalized_string_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_min_length_nistxml_sv_iv_list_normalized_string_min_length_1_3(mode, save_output):
+def test_list_normalized_string_min_length_nistxml_sv_iv_list_normalized_string_min_length_1_3(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet minLength with value
     5.
@@ -13240,11 +14077,12 @@ def test_list_normalized_string_min_length_nistxml_sv_iv_list_normalized_string_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_min_length_nistxml_sv_iv_list_normalized_string_min_length_1_4(mode, save_output):
+def test_list_normalized_string_min_length_nistxml_sv_iv_list_normalized_string_min_length_1_4(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet minLength with value
     5.
@@ -13256,11 +14094,12 @@ def test_list_normalized_string_min_length_nistxml_sv_iv_list_normalized_string_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_min_length_nistxml_sv_iv_list_normalized_string_min_length_1_5(mode, save_output):
+def test_list_normalized_string_min_length_nistxml_sv_iv_list_normalized_string_min_length_1_5(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet minLength with value
     5.
@@ -13272,11 +14111,12 @@ def test_list_normalized_string_min_length_nistxml_sv_iv_list_normalized_string_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_max_length_4_nistxml_sv_iv_list_normalized_string_max_length_5_1(mode, save_output):
+def test_list_normalized_string_max_length_4_nistxml_sv_iv_list_normalized_string_max_length_5_1(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet maxLength with value
     10.
@@ -13288,11 +14128,12 @@ def test_list_normalized_string_max_length_4_nistxml_sv_iv_list_normalized_strin
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_max_length_4_nistxml_sv_iv_list_normalized_string_max_length_5_2(mode, save_output):
+def test_list_normalized_string_max_length_4_nistxml_sv_iv_list_normalized_string_max_length_5_2(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet maxLength with value
     10.
@@ -13304,11 +14145,12 @@ def test_list_normalized_string_max_length_4_nistxml_sv_iv_list_normalized_strin
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_max_length_4_nistxml_sv_iv_list_normalized_string_max_length_5_3(mode, save_output):
+def test_list_normalized_string_max_length_4_nistxml_sv_iv_list_normalized_string_max_length_5_3(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet maxLength with value
     10.
@@ -13320,11 +14162,12 @@ def test_list_normalized_string_max_length_4_nistxml_sv_iv_list_normalized_strin
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_max_length_4_nistxml_sv_iv_list_normalized_string_max_length_5_4(mode, save_output):
+def test_list_normalized_string_max_length_4_nistxml_sv_iv_list_normalized_string_max_length_5_4(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet maxLength with value
     10.
@@ -13336,11 +14179,12 @@ def test_list_normalized_string_max_length_4_nistxml_sv_iv_list_normalized_strin
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_max_length_4_nistxml_sv_iv_list_normalized_string_max_length_5_5(mode, save_output):
+def test_list_normalized_string_max_length_4_nistxml_sv_iv_list_normalized_string_max_length_5_5(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet maxLength with value
     10.
@@ -13352,11 +14196,12 @@ def test_list_normalized_string_max_length_4_nistxml_sv_iv_list_normalized_strin
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_max_length_3_nistxml_sv_iv_list_normalized_string_max_length_4_1(mode, save_output):
+def test_list_normalized_string_max_length_3_nistxml_sv_iv_list_normalized_string_max_length_4_1(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet maxLength with value
     8.
@@ -13368,11 +14213,12 @@ def test_list_normalized_string_max_length_3_nistxml_sv_iv_list_normalized_strin
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_max_length_3_nistxml_sv_iv_list_normalized_string_max_length_4_2(mode, save_output):
+def test_list_normalized_string_max_length_3_nistxml_sv_iv_list_normalized_string_max_length_4_2(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet maxLength with value
     8.
@@ -13384,11 +14230,12 @@ def test_list_normalized_string_max_length_3_nistxml_sv_iv_list_normalized_strin
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_max_length_3_nistxml_sv_iv_list_normalized_string_max_length_4_3(mode, save_output):
+def test_list_normalized_string_max_length_3_nistxml_sv_iv_list_normalized_string_max_length_4_3(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet maxLength with value
     8.
@@ -13400,11 +14247,12 @@ def test_list_normalized_string_max_length_3_nistxml_sv_iv_list_normalized_strin
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_max_length_3_nistxml_sv_iv_list_normalized_string_max_length_4_4(mode, save_output):
+def test_list_normalized_string_max_length_3_nistxml_sv_iv_list_normalized_string_max_length_4_4(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet maxLength with value
     8.
@@ -13416,11 +14264,12 @@ def test_list_normalized_string_max_length_3_nistxml_sv_iv_list_normalized_strin
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_max_length_3_nistxml_sv_iv_list_normalized_string_max_length_4_5(mode, save_output):
+def test_list_normalized_string_max_length_3_nistxml_sv_iv_list_normalized_string_max_length_4_5(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet maxLength with value
     8.
@@ -13432,11 +14281,12 @@ def test_list_normalized_string_max_length_3_nistxml_sv_iv_list_normalized_strin
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_max_length_2_nistxml_sv_iv_list_normalized_string_max_length_3_1(mode, save_output):
+def test_list_normalized_string_max_length_2_nistxml_sv_iv_list_normalized_string_max_length_3_1(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet maxLength with value
     7.
@@ -13448,11 +14298,12 @@ def test_list_normalized_string_max_length_2_nistxml_sv_iv_list_normalized_strin
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_max_length_2_nistxml_sv_iv_list_normalized_string_max_length_3_2(mode, save_output):
+def test_list_normalized_string_max_length_2_nistxml_sv_iv_list_normalized_string_max_length_3_2(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet maxLength with value
     7.
@@ -13464,11 +14315,12 @@ def test_list_normalized_string_max_length_2_nistxml_sv_iv_list_normalized_strin
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_max_length_2_nistxml_sv_iv_list_normalized_string_max_length_3_3(mode, save_output):
+def test_list_normalized_string_max_length_2_nistxml_sv_iv_list_normalized_string_max_length_3_3(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet maxLength with value
     7.
@@ -13480,11 +14332,12 @@ def test_list_normalized_string_max_length_2_nistxml_sv_iv_list_normalized_strin
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_max_length_2_nistxml_sv_iv_list_normalized_string_max_length_3_4(mode, save_output):
+def test_list_normalized_string_max_length_2_nistxml_sv_iv_list_normalized_string_max_length_3_4(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet maxLength with value
     7.
@@ -13496,11 +14349,12 @@ def test_list_normalized_string_max_length_2_nistxml_sv_iv_list_normalized_strin
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_max_length_2_nistxml_sv_iv_list_normalized_string_max_length_3_5(mode, save_output):
+def test_list_normalized_string_max_length_2_nistxml_sv_iv_list_normalized_string_max_length_3_5(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet maxLength with value
     7.
@@ -13512,11 +14366,12 @@ def test_list_normalized_string_max_length_2_nistxml_sv_iv_list_normalized_strin
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_max_length_1_nistxml_sv_iv_list_normalized_string_max_length_2_1(mode, save_output):
+def test_list_normalized_string_max_length_1_nistxml_sv_iv_list_normalized_string_max_length_2_1(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet maxLength with value
     6.
@@ -13528,11 +14383,12 @@ def test_list_normalized_string_max_length_1_nistxml_sv_iv_list_normalized_strin
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_max_length_1_nistxml_sv_iv_list_normalized_string_max_length_2_2(mode, save_output):
+def test_list_normalized_string_max_length_1_nistxml_sv_iv_list_normalized_string_max_length_2_2(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet maxLength with value
     6.
@@ -13544,11 +14400,12 @@ def test_list_normalized_string_max_length_1_nistxml_sv_iv_list_normalized_strin
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_max_length_1_nistxml_sv_iv_list_normalized_string_max_length_2_3(mode, save_output):
+def test_list_normalized_string_max_length_1_nistxml_sv_iv_list_normalized_string_max_length_2_3(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet maxLength with value
     6.
@@ -13560,11 +14417,12 @@ def test_list_normalized_string_max_length_1_nistxml_sv_iv_list_normalized_strin
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_max_length_1_nistxml_sv_iv_list_normalized_string_max_length_2_4(mode, save_output):
+def test_list_normalized_string_max_length_1_nistxml_sv_iv_list_normalized_string_max_length_2_4(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet maxLength with value
     6.
@@ -13576,11 +14434,12 @@ def test_list_normalized_string_max_length_1_nistxml_sv_iv_list_normalized_strin
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_max_length_1_nistxml_sv_iv_list_normalized_string_max_length_2_5(mode, save_output):
+def test_list_normalized_string_max_length_1_nistxml_sv_iv_list_normalized_string_max_length_2_5(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet maxLength with value
     6.
@@ -13592,11 +14451,12 @@ def test_list_normalized_string_max_length_1_nistxml_sv_iv_list_normalized_strin
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_max_length_nistxml_sv_iv_list_normalized_string_max_length_1_1(mode, save_output):
+def test_list_normalized_string_max_length_nistxml_sv_iv_list_normalized_string_max_length_1_1(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet maxLength with value
     5.
@@ -13608,11 +14468,12 @@ def test_list_normalized_string_max_length_nistxml_sv_iv_list_normalized_string_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_max_length_nistxml_sv_iv_list_normalized_string_max_length_1_2(mode, save_output):
+def test_list_normalized_string_max_length_nistxml_sv_iv_list_normalized_string_max_length_1_2(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet maxLength with value
     5.
@@ -13624,11 +14485,12 @@ def test_list_normalized_string_max_length_nistxml_sv_iv_list_normalized_string_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_max_length_nistxml_sv_iv_list_normalized_string_max_length_1_3(mode, save_output):
+def test_list_normalized_string_max_length_nistxml_sv_iv_list_normalized_string_max_length_1_3(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet maxLength with value
     5.
@@ -13640,11 +14502,12 @@ def test_list_normalized_string_max_length_nistxml_sv_iv_list_normalized_string_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_max_length_nistxml_sv_iv_list_normalized_string_max_length_1_4(mode, save_output):
+def test_list_normalized_string_max_length_nistxml_sv_iv_list_normalized_string_max_length_1_4(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet maxLength with value
     5.
@@ -13656,11 +14519,12 @@ def test_list_normalized_string_max_length_nistxml_sv_iv_list_normalized_string_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_normalized_string_max_length_nistxml_sv_iv_list_normalized_string_max_length_1_5(mode, save_output):
+def test_list_normalized_string_max_length_nistxml_sv_iv_list_normalized_string_max_length_1_5(mode, save_output, output_format):
     """
     Type list/normalizedString is restricted by facet maxLength with value
     5.
@@ -13672,11 +14536,12 @@ def test_list_normalized_string_max_length_nistxml_sv_iv_list_normalized_string_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_white_space_nistxml_sv_iv_list_string_white_space_1_1(mode, save_output):
+def test_list_string_white_space_nistxml_sv_iv_list_string_white_space_1_1(mode, save_output, output_format):
     """
     Type list/string is restricted by facet whiteSpace with value
     collapse.
@@ -13688,11 +14553,12 @@ def test_list_string_white_space_nistxml_sv_iv_list_string_white_space_1_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_white_space_nistxml_sv_iv_list_string_white_space_1_2(mode, save_output):
+def test_list_string_white_space_nistxml_sv_iv_list_string_white_space_1_2(mode, save_output, output_format):
     """
     Type list/string is restricted by facet whiteSpace with value
     collapse.
@@ -13704,11 +14570,12 @@ def test_list_string_white_space_nistxml_sv_iv_list_string_white_space_1_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_white_space_nistxml_sv_iv_list_string_white_space_1_3(mode, save_output):
+def test_list_string_white_space_nistxml_sv_iv_list_string_white_space_1_3(mode, save_output, output_format):
     """
     Type list/string is restricted by facet whiteSpace with value
     collapse.
@@ -13720,11 +14587,12 @@ def test_list_string_white_space_nistxml_sv_iv_list_string_white_space_1_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_white_space_nistxml_sv_iv_list_string_white_space_1_4(mode, save_output):
+def test_list_string_white_space_nistxml_sv_iv_list_string_white_space_1_4(mode, save_output, output_format):
     """
     Type list/string is restricted by facet whiteSpace with value
     collapse.
@@ -13736,11 +14604,12 @@ def test_list_string_white_space_nistxml_sv_iv_list_string_white_space_1_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_white_space_nistxml_sv_iv_list_string_white_space_1_5(mode, save_output):
+def test_list_string_white_space_nistxml_sv_iv_list_string_white_space_1_5(mode, save_output, output_format):
     """
     Type list/string is restricted by facet whiteSpace with value
     collapse.
@@ -13752,11 +14621,12 @@ def test_list_string_white_space_nistxml_sv_iv_list_string_white_space_1_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_enumeration_4_nistxml_sv_iv_list_string_enumeration_5_1(mode, save_output):
+def test_list_string_enumeration_4_nistxml_sv_iv_list_string_enumeration_5_1(mode, save_output, output_format):
     """
     Type list/string is restricted by facet enumeration.
     """
@@ -13767,11 +14637,12 @@ def test_list_string_enumeration_4_nistxml_sv_iv_list_string_enumeration_5_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_enumeration_4_nistxml_sv_iv_list_string_enumeration_5_2(mode, save_output):
+def test_list_string_enumeration_4_nistxml_sv_iv_list_string_enumeration_5_2(mode, save_output, output_format):
     """
     Type list/string is restricted by facet enumeration.
     """
@@ -13782,11 +14653,12 @@ def test_list_string_enumeration_4_nistxml_sv_iv_list_string_enumeration_5_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_enumeration_4_nistxml_sv_iv_list_string_enumeration_5_3(mode, save_output):
+def test_list_string_enumeration_4_nistxml_sv_iv_list_string_enumeration_5_3(mode, save_output, output_format):
     """
     Type list/string is restricted by facet enumeration.
     """
@@ -13797,11 +14669,12 @@ def test_list_string_enumeration_4_nistxml_sv_iv_list_string_enumeration_5_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_enumeration_4_nistxml_sv_iv_list_string_enumeration_5_4(mode, save_output):
+def test_list_string_enumeration_4_nistxml_sv_iv_list_string_enumeration_5_4(mode, save_output, output_format):
     """
     Type list/string is restricted by facet enumeration.
     """
@@ -13812,11 +14685,12 @@ def test_list_string_enumeration_4_nistxml_sv_iv_list_string_enumeration_5_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_enumeration_4_nistxml_sv_iv_list_string_enumeration_5_5(mode, save_output):
+def test_list_string_enumeration_4_nistxml_sv_iv_list_string_enumeration_5_5(mode, save_output, output_format):
     """
     Type list/string is restricted by facet enumeration.
     """
@@ -13827,11 +14701,12 @@ def test_list_string_enumeration_4_nistxml_sv_iv_list_string_enumeration_5_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_enumeration_3_nistxml_sv_iv_list_string_enumeration_4_1(mode, save_output):
+def test_list_string_enumeration_3_nistxml_sv_iv_list_string_enumeration_4_1(mode, save_output, output_format):
     """
     Type list/string is restricted by facet enumeration.
     """
@@ -13842,11 +14717,12 @@ def test_list_string_enumeration_3_nistxml_sv_iv_list_string_enumeration_4_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_enumeration_3_nistxml_sv_iv_list_string_enumeration_4_2(mode, save_output):
+def test_list_string_enumeration_3_nistxml_sv_iv_list_string_enumeration_4_2(mode, save_output, output_format):
     """
     Type list/string is restricted by facet enumeration.
     """
@@ -13857,11 +14733,12 @@ def test_list_string_enumeration_3_nistxml_sv_iv_list_string_enumeration_4_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_enumeration_3_nistxml_sv_iv_list_string_enumeration_4_3(mode, save_output):
+def test_list_string_enumeration_3_nistxml_sv_iv_list_string_enumeration_4_3(mode, save_output, output_format):
     """
     Type list/string is restricted by facet enumeration.
     """
@@ -13872,11 +14749,12 @@ def test_list_string_enumeration_3_nistxml_sv_iv_list_string_enumeration_4_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_enumeration_3_nistxml_sv_iv_list_string_enumeration_4_4(mode, save_output):
+def test_list_string_enumeration_3_nistxml_sv_iv_list_string_enumeration_4_4(mode, save_output, output_format):
     """
     Type list/string is restricted by facet enumeration.
     """
@@ -13887,11 +14765,12 @@ def test_list_string_enumeration_3_nistxml_sv_iv_list_string_enumeration_4_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_enumeration_3_nistxml_sv_iv_list_string_enumeration_4_5(mode, save_output):
+def test_list_string_enumeration_3_nistxml_sv_iv_list_string_enumeration_4_5(mode, save_output, output_format):
     """
     Type list/string is restricted by facet enumeration.
     """
@@ -13902,11 +14781,12 @@ def test_list_string_enumeration_3_nistxml_sv_iv_list_string_enumeration_4_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_enumeration_2_nistxml_sv_iv_list_string_enumeration_3_1(mode, save_output):
+def test_list_string_enumeration_2_nistxml_sv_iv_list_string_enumeration_3_1(mode, save_output, output_format):
     """
     Type list/string is restricted by facet enumeration.
     """
@@ -13917,11 +14797,12 @@ def test_list_string_enumeration_2_nistxml_sv_iv_list_string_enumeration_3_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_enumeration_2_nistxml_sv_iv_list_string_enumeration_3_2(mode, save_output):
+def test_list_string_enumeration_2_nistxml_sv_iv_list_string_enumeration_3_2(mode, save_output, output_format):
     """
     Type list/string is restricted by facet enumeration.
     """
@@ -13932,11 +14813,12 @@ def test_list_string_enumeration_2_nistxml_sv_iv_list_string_enumeration_3_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_enumeration_2_nistxml_sv_iv_list_string_enumeration_3_3(mode, save_output):
+def test_list_string_enumeration_2_nistxml_sv_iv_list_string_enumeration_3_3(mode, save_output, output_format):
     """
     Type list/string is restricted by facet enumeration.
     """
@@ -13947,11 +14829,12 @@ def test_list_string_enumeration_2_nistxml_sv_iv_list_string_enumeration_3_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_enumeration_2_nistxml_sv_iv_list_string_enumeration_3_4(mode, save_output):
+def test_list_string_enumeration_2_nistxml_sv_iv_list_string_enumeration_3_4(mode, save_output, output_format):
     """
     Type list/string is restricted by facet enumeration.
     """
@@ -13962,11 +14845,12 @@ def test_list_string_enumeration_2_nistxml_sv_iv_list_string_enumeration_3_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_enumeration_2_nistxml_sv_iv_list_string_enumeration_3_5(mode, save_output):
+def test_list_string_enumeration_2_nistxml_sv_iv_list_string_enumeration_3_5(mode, save_output, output_format):
     """
     Type list/string is restricted by facet enumeration.
     """
@@ -13977,11 +14861,12 @@ def test_list_string_enumeration_2_nistxml_sv_iv_list_string_enumeration_3_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_enumeration_1_nistxml_sv_iv_list_string_enumeration_2_1(mode, save_output):
+def test_list_string_enumeration_1_nistxml_sv_iv_list_string_enumeration_2_1(mode, save_output, output_format):
     """
     Type list/string is restricted by facet enumeration.
     """
@@ -13992,11 +14877,12 @@ def test_list_string_enumeration_1_nistxml_sv_iv_list_string_enumeration_2_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_enumeration_1_nistxml_sv_iv_list_string_enumeration_2_2(mode, save_output):
+def test_list_string_enumeration_1_nistxml_sv_iv_list_string_enumeration_2_2(mode, save_output, output_format):
     """
     Type list/string is restricted by facet enumeration.
     """
@@ -14007,11 +14893,12 @@ def test_list_string_enumeration_1_nistxml_sv_iv_list_string_enumeration_2_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_enumeration_1_nistxml_sv_iv_list_string_enumeration_2_3(mode, save_output):
+def test_list_string_enumeration_1_nistxml_sv_iv_list_string_enumeration_2_3(mode, save_output, output_format):
     """
     Type list/string is restricted by facet enumeration.
     """
@@ -14022,11 +14909,12 @@ def test_list_string_enumeration_1_nistxml_sv_iv_list_string_enumeration_2_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_enumeration_1_nistxml_sv_iv_list_string_enumeration_2_4(mode, save_output):
+def test_list_string_enumeration_1_nistxml_sv_iv_list_string_enumeration_2_4(mode, save_output, output_format):
     """
     Type list/string is restricted by facet enumeration.
     """
@@ -14037,11 +14925,12 @@ def test_list_string_enumeration_1_nistxml_sv_iv_list_string_enumeration_2_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_enumeration_1_nistxml_sv_iv_list_string_enumeration_2_5(mode, save_output):
+def test_list_string_enumeration_1_nistxml_sv_iv_list_string_enumeration_2_5(mode, save_output, output_format):
     """
     Type list/string is restricted by facet enumeration.
     """
@@ -14052,11 +14941,12 @@ def test_list_string_enumeration_1_nistxml_sv_iv_list_string_enumeration_2_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_enumeration_nistxml_sv_iv_list_string_enumeration_1_1(mode, save_output):
+def test_list_string_enumeration_nistxml_sv_iv_list_string_enumeration_1_1(mode, save_output, output_format):
     """
     Type list/string is restricted by facet enumeration.
     """
@@ -14067,11 +14957,12 @@ def test_list_string_enumeration_nistxml_sv_iv_list_string_enumeration_1_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_enumeration_nistxml_sv_iv_list_string_enumeration_1_2(mode, save_output):
+def test_list_string_enumeration_nistxml_sv_iv_list_string_enumeration_1_2(mode, save_output, output_format):
     """
     Type list/string is restricted by facet enumeration.
     """
@@ -14082,11 +14973,12 @@ def test_list_string_enumeration_nistxml_sv_iv_list_string_enumeration_1_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_enumeration_nistxml_sv_iv_list_string_enumeration_1_3(mode, save_output):
+def test_list_string_enumeration_nistxml_sv_iv_list_string_enumeration_1_3(mode, save_output, output_format):
     """
     Type list/string is restricted by facet enumeration.
     """
@@ -14097,11 +14989,12 @@ def test_list_string_enumeration_nistxml_sv_iv_list_string_enumeration_1_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_enumeration_nistxml_sv_iv_list_string_enumeration_1_4(mode, save_output):
+def test_list_string_enumeration_nistxml_sv_iv_list_string_enumeration_1_4(mode, save_output, output_format):
     """
     Type list/string is restricted by facet enumeration.
     """
@@ -14112,11 +15005,12 @@ def test_list_string_enumeration_nistxml_sv_iv_list_string_enumeration_1_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_enumeration_nistxml_sv_iv_list_string_enumeration_1_5(mode, save_output):
+def test_list_string_enumeration_nistxml_sv_iv_list_string_enumeration_1_5(mode, save_output, output_format):
     """
     Type list/string is restricted by facet enumeration.
     """
@@ -14127,11 +15021,12 @@ def test_list_string_enumeration_nistxml_sv_iv_list_string_enumeration_1_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_pattern_4_nistxml_sv_iv_list_string_pattern_5_1(mode, save_output):
+def test_list_string_pattern_4_nistxml_sv_iv_list_string_pattern_5_1(mode, save_output, output_format):
     r"""
     Type list/string is restricted by facet pattern with value \d{1,5}_([A
     -Z][a-z]{1,20}_){1}Street_([A-Z][a-z]{1,20}_){1},_[A-Z]{2}_17435-1843 
@@ -14153,11 +15048,12 @@ def test_list_string_pattern_4_nistxml_sv_iv_list_string_pattern_5_1(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_pattern_4_nistxml_sv_iv_list_string_pattern_5_2(mode, save_output):
+def test_list_string_pattern_4_nistxml_sv_iv_list_string_pattern_5_2(mode, save_output, output_format):
     r"""
     Type list/string is restricted by facet pattern with value \d{1,5}_([A
     -Z][a-z]{1,20}_){1}Street_([A-Z][a-z]{1,20}_){1},_[A-Z]{2}_17435-1843 
@@ -14179,11 +15075,12 @@ def test_list_string_pattern_4_nistxml_sv_iv_list_string_pattern_5_2(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_pattern_4_nistxml_sv_iv_list_string_pattern_5_3(mode, save_output):
+def test_list_string_pattern_4_nistxml_sv_iv_list_string_pattern_5_3(mode, save_output, output_format):
     r"""
     Type list/string is restricted by facet pattern with value \d{1,5}_([A
     -Z][a-z]{1,20}_){1}Street_([A-Z][a-z]{1,20}_){1},_[A-Z]{2}_17435-1843 
@@ -14205,11 +15102,12 @@ def test_list_string_pattern_4_nistxml_sv_iv_list_string_pattern_5_3(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_pattern_4_nistxml_sv_iv_list_string_pattern_5_4(mode, save_output):
+def test_list_string_pattern_4_nistxml_sv_iv_list_string_pattern_5_4(mode, save_output, output_format):
     r"""
     Type list/string is restricted by facet pattern with value \d{1,5}_([A
     -Z][a-z]{1,20}_){1}Street_([A-Z][a-z]{1,20}_){1},_[A-Z]{2}_17435-1843 
@@ -14231,11 +15129,12 @@ def test_list_string_pattern_4_nistxml_sv_iv_list_string_pattern_5_4(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_pattern_4_nistxml_sv_iv_list_string_pattern_5_5(mode, save_output):
+def test_list_string_pattern_4_nistxml_sv_iv_list_string_pattern_5_5(mode, save_output, output_format):
     r"""
     Type list/string is restricted by facet pattern with value \d{1,5}_([A
     -Z][a-z]{1,20}_){1}Street_([A-Z][a-z]{1,20}_){1},_[A-Z]{2}_17435-1843 
@@ -14257,11 +15156,12 @@ def test_list_string_pattern_4_nistxml_sv_iv_list_string_pattern_5_5(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_pattern_3_nistxml_sv_iv_list_string_pattern_4_1(mode, save_output):
+def test_list_string_pattern_3_nistxml_sv_iv_list_string_pattern_4_1(mode, save_output, output_format):
     r"""
     Type list/string is restricted by facet pattern with value \d{1,5}_([A
     -Z][a-z]{1,20}_){2}Street_([A-Z][a-z]{1,20}_){3},_[A-Z]{2}_15352 \d{1,
@@ -14279,11 +15179,12 @@ def test_list_string_pattern_3_nistxml_sv_iv_list_string_pattern_4_1(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_pattern_3_nistxml_sv_iv_list_string_pattern_4_2(mode, save_output):
+def test_list_string_pattern_3_nistxml_sv_iv_list_string_pattern_4_2(mode, save_output, output_format):
     r"""
     Type list/string is restricted by facet pattern with value \d{1,5}_([A
     -Z][a-z]{1,20}_){2}Street_([A-Z][a-z]{1,20}_){3},_[A-Z]{2}_15352 \d{1,
@@ -14301,11 +15202,12 @@ def test_list_string_pattern_3_nistxml_sv_iv_list_string_pattern_4_2(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_pattern_3_nistxml_sv_iv_list_string_pattern_4_3(mode, save_output):
+def test_list_string_pattern_3_nistxml_sv_iv_list_string_pattern_4_3(mode, save_output, output_format):
     r"""
     Type list/string is restricted by facet pattern with value \d{1,5}_([A
     -Z][a-z]{1,20}_){2}Street_([A-Z][a-z]{1,20}_){3},_[A-Z]{2}_15352 \d{1,
@@ -14323,11 +15225,12 @@ def test_list_string_pattern_3_nistxml_sv_iv_list_string_pattern_4_3(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_pattern_3_nistxml_sv_iv_list_string_pattern_4_4(mode, save_output):
+def test_list_string_pattern_3_nistxml_sv_iv_list_string_pattern_4_4(mode, save_output, output_format):
     r"""
     Type list/string is restricted by facet pattern with value \d{1,5}_([A
     -Z][a-z]{1,20}_){2}Street_([A-Z][a-z]{1,20}_){3},_[A-Z]{2}_15352 \d{1,
@@ -14345,11 +15248,12 @@ def test_list_string_pattern_3_nistxml_sv_iv_list_string_pattern_4_4(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_pattern_3_nistxml_sv_iv_list_string_pattern_4_5(mode, save_output):
+def test_list_string_pattern_3_nistxml_sv_iv_list_string_pattern_4_5(mode, save_output, output_format):
     r"""
     Type list/string is restricted by facet pattern with value \d{1,5}_([A
     -Z][a-z]{1,20}_){2}Street_([A-Z][a-z]{1,20}_){3},_[A-Z]{2}_15352 \d{1,
@@ -14367,11 +15271,12 @@ def test_list_string_pattern_3_nistxml_sv_iv_list_string_pattern_4_5(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_pattern_2_nistxml_sv_iv_list_string_pattern_3_1(mode, save_output):
+def test_list_string_pattern_2_nistxml_sv_iv_list_string_pattern_3_1(mode, save_output, output_format):
     r"""
     Type list/string is restricted by facet pattern with value \d{1,5}_([A
     -Z][a-z]{1,20}_){2}Street_([A-Z][a-z]{1,20}_){2},_[A-Z]{2}_11654-1789 
@@ -14388,11 +15293,12 @@ def test_list_string_pattern_2_nistxml_sv_iv_list_string_pattern_3_1(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_pattern_2_nistxml_sv_iv_list_string_pattern_3_2(mode, save_output):
+def test_list_string_pattern_2_nistxml_sv_iv_list_string_pattern_3_2(mode, save_output, output_format):
     r"""
     Type list/string is restricted by facet pattern with value \d{1,5}_([A
     -Z][a-z]{1,20}_){2}Street_([A-Z][a-z]{1,20}_){2},_[A-Z]{2}_11654-1789 
@@ -14409,11 +15315,12 @@ def test_list_string_pattern_2_nistxml_sv_iv_list_string_pattern_3_2(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_pattern_2_nistxml_sv_iv_list_string_pattern_3_3(mode, save_output):
+def test_list_string_pattern_2_nistxml_sv_iv_list_string_pattern_3_3(mode, save_output, output_format):
     r"""
     Type list/string is restricted by facet pattern with value \d{1,5}_([A
     -Z][a-z]{1,20}_){2}Street_([A-Z][a-z]{1,20}_){2},_[A-Z]{2}_11654-1789 
@@ -14430,11 +15337,12 @@ def test_list_string_pattern_2_nistxml_sv_iv_list_string_pattern_3_3(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_pattern_2_nistxml_sv_iv_list_string_pattern_3_4(mode, save_output):
+def test_list_string_pattern_2_nistxml_sv_iv_list_string_pattern_3_4(mode, save_output, output_format):
     r"""
     Type list/string is restricted by facet pattern with value \d{1,5}_([A
     -Z][a-z]{1,20}_){2}Street_([A-Z][a-z]{1,20}_){2},_[A-Z]{2}_11654-1789 
@@ -14451,11 +15359,12 @@ def test_list_string_pattern_2_nistxml_sv_iv_list_string_pattern_3_4(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_pattern_2_nistxml_sv_iv_list_string_pattern_3_5(mode, save_output):
+def test_list_string_pattern_2_nistxml_sv_iv_list_string_pattern_3_5(mode, save_output, output_format):
     r"""
     Type list/string is restricted by facet pattern with value \d{1,5}_([A
     -Z][a-z]{1,20}_){2}Street_([A-Z][a-z]{1,20}_){2},_[A-Z]{2}_11654-1789 
@@ -14472,11 +15381,12 @@ def test_list_string_pattern_2_nistxml_sv_iv_list_string_pattern_3_5(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_pattern_1_nistxml_sv_iv_list_string_pattern_2_1(mode, save_output):
+def test_list_string_pattern_1_nistxml_sv_iv_list_string_pattern_2_1(mode, save_output, output_format):
     r"""
     Type list/string is restricted by facet pattern with value \d{1,5}_([A
     -Z][a-z]{1,20}_){1}Street_([A-Z][a-z]{1,20}_){2},_[A-Z]{2}_11551-1386 
@@ -14496,11 +15406,12 @@ def test_list_string_pattern_1_nistxml_sv_iv_list_string_pattern_2_1(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_pattern_1_nistxml_sv_iv_list_string_pattern_2_2(mode, save_output):
+def test_list_string_pattern_1_nistxml_sv_iv_list_string_pattern_2_2(mode, save_output, output_format):
     r"""
     Type list/string is restricted by facet pattern with value \d{1,5}_([A
     -Z][a-z]{1,20}_){1}Street_([A-Z][a-z]{1,20}_){2},_[A-Z]{2}_11551-1386 
@@ -14520,11 +15431,12 @@ def test_list_string_pattern_1_nistxml_sv_iv_list_string_pattern_2_2(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_pattern_1_nistxml_sv_iv_list_string_pattern_2_3(mode, save_output):
+def test_list_string_pattern_1_nistxml_sv_iv_list_string_pattern_2_3(mode, save_output, output_format):
     r"""
     Type list/string is restricted by facet pattern with value \d{1,5}_([A
     -Z][a-z]{1,20}_){1}Street_([A-Z][a-z]{1,20}_){2},_[A-Z]{2}_11551-1386 
@@ -14544,11 +15456,12 @@ def test_list_string_pattern_1_nistxml_sv_iv_list_string_pattern_2_3(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_pattern_1_nistxml_sv_iv_list_string_pattern_2_4(mode, save_output):
+def test_list_string_pattern_1_nistxml_sv_iv_list_string_pattern_2_4(mode, save_output, output_format):
     r"""
     Type list/string is restricted by facet pattern with value \d{1,5}_([A
     -Z][a-z]{1,20}_){1}Street_([A-Z][a-z]{1,20}_){2},_[A-Z]{2}_11551-1386 
@@ -14568,11 +15481,12 @@ def test_list_string_pattern_1_nistxml_sv_iv_list_string_pattern_2_4(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_pattern_1_nistxml_sv_iv_list_string_pattern_2_5(mode, save_output):
+def test_list_string_pattern_1_nistxml_sv_iv_list_string_pattern_2_5(mode, save_output, output_format):
     r"""
     Type list/string is restricted by facet pattern with value \d{1,5}_([A
     -Z][a-z]{1,20}_){1}Street_([A-Z][a-z]{1,20}_){2},_[A-Z]{2}_11551-1386 
@@ -14592,11 +15506,12 @@ def test_list_string_pattern_1_nistxml_sv_iv_list_string_pattern_2_5(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_pattern_nistxml_sv_iv_list_string_pattern_1_1(mode, save_output):
+def test_list_string_pattern_nistxml_sv_iv_list_string_pattern_1_1(mode, save_output, output_format):
     r"""
     Type list/string is restricted by facet pattern with value \d{1,5}_([A
     -Z][a-z]{1,20}_){4}Street_([A-Z][a-z]{1,20}_){3},_[A-Z]{2}_19751 \d{1,
@@ -14618,11 +15533,12 @@ def test_list_string_pattern_nistxml_sv_iv_list_string_pattern_1_1(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_pattern_nistxml_sv_iv_list_string_pattern_1_2(mode, save_output):
+def test_list_string_pattern_nistxml_sv_iv_list_string_pattern_1_2(mode, save_output, output_format):
     r"""
     Type list/string is restricted by facet pattern with value \d{1,5}_([A
     -Z][a-z]{1,20}_){4}Street_([A-Z][a-z]{1,20}_){3},_[A-Z]{2}_19751 \d{1,
@@ -14644,11 +15560,12 @@ def test_list_string_pattern_nistxml_sv_iv_list_string_pattern_1_2(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_pattern_nistxml_sv_iv_list_string_pattern_1_3(mode, save_output):
+def test_list_string_pattern_nistxml_sv_iv_list_string_pattern_1_3(mode, save_output, output_format):
     r"""
     Type list/string is restricted by facet pattern with value \d{1,5}_([A
     -Z][a-z]{1,20}_){4}Street_([A-Z][a-z]{1,20}_){3},_[A-Z]{2}_19751 \d{1,
@@ -14670,11 +15587,12 @@ def test_list_string_pattern_nistxml_sv_iv_list_string_pattern_1_3(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_pattern_nistxml_sv_iv_list_string_pattern_1_4(mode, save_output):
+def test_list_string_pattern_nistxml_sv_iv_list_string_pattern_1_4(mode, save_output, output_format):
     r"""
     Type list/string is restricted by facet pattern with value \d{1,5}_([A
     -Z][a-z]{1,20}_){4}Street_([A-Z][a-z]{1,20}_){3},_[A-Z]{2}_19751 \d{1,
@@ -14696,11 +15614,12 @@ def test_list_string_pattern_nistxml_sv_iv_list_string_pattern_1_4(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_pattern_nistxml_sv_iv_list_string_pattern_1_5(mode, save_output):
+def test_list_string_pattern_nistxml_sv_iv_list_string_pattern_1_5(mode, save_output, output_format):
     r"""
     Type list/string is restricted by facet pattern with value \d{1,5}_([A
     -Z][a-z]{1,20}_){4}Street_([A-Z][a-z]{1,20}_){3},_[A-Z]{2}_19751 \d{1,
@@ -14722,11 +15641,12 @@ def test_list_string_pattern_nistxml_sv_iv_list_string_pattern_1_5(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_length_4_nistxml_sv_iv_list_string_length_5_1(mode, save_output):
+def test_list_string_length_4_nistxml_sv_iv_list_string_length_5_1(mode, save_output, output_format):
     """
     Type list/string is restricted by facet length with value 10.
     """
@@ -14737,11 +15657,12 @@ def test_list_string_length_4_nistxml_sv_iv_list_string_length_5_1(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_length_4_nistxml_sv_iv_list_string_length_5_2(mode, save_output):
+def test_list_string_length_4_nistxml_sv_iv_list_string_length_5_2(mode, save_output, output_format):
     """
     Type list/string is restricted by facet length with value 10.
     """
@@ -14752,11 +15673,12 @@ def test_list_string_length_4_nistxml_sv_iv_list_string_length_5_2(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_length_4_nistxml_sv_iv_list_string_length_5_3(mode, save_output):
+def test_list_string_length_4_nistxml_sv_iv_list_string_length_5_3(mode, save_output, output_format):
     """
     Type list/string is restricted by facet length with value 10.
     """
@@ -14767,11 +15689,12 @@ def test_list_string_length_4_nistxml_sv_iv_list_string_length_5_3(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_length_4_nistxml_sv_iv_list_string_length_5_4(mode, save_output):
+def test_list_string_length_4_nistxml_sv_iv_list_string_length_5_4(mode, save_output, output_format):
     """
     Type list/string is restricted by facet length with value 10.
     """
@@ -14782,11 +15705,12 @@ def test_list_string_length_4_nistxml_sv_iv_list_string_length_5_4(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_length_4_nistxml_sv_iv_list_string_length_5_5(mode, save_output):
+def test_list_string_length_4_nistxml_sv_iv_list_string_length_5_5(mode, save_output, output_format):
     """
     Type list/string is restricted by facet length with value 10.
     """
@@ -14797,11 +15721,12 @@ def test_list_string_length_4_nistxml_sv_iv_list_string_length_5_5(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_length_3_nistxml_sv_iv_list_string_length_4_1(mode, save_output):
+def test_list_string_length_3_nistxml_sv_iv_list_string_length_4_1(mode, save_output, output_format):
     """
     Type list/string is restricted by facet length with value 8.
     """
@@ -14812,11 +15737,12 @@ def test_list_string_length_3_nistxml_sv_iv_list_string_length_4_1(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_length_3_nistxml_sv_iv_list_string_length_4_2(mode, save_output):
+def test_list_string_length_3_nistxml_sv_iv_list_string_length_4_2(mode, save_output, output_format):
     """
     Type list/string is restricted by facet length with value 8.
     """
@@ -14827,11 +15753,12 @@ def test_list_string_length_3_nistxml_sv_iv_list_string_length_4_2(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_length_3_nistxml_sv_iv_list_string_length_4_3(mode, save_output):
+def test_list_string_length_3_nistxml_sv_iv_list_string_length_4_3(mode, save_output, output_format):
     """
     Type list/string is restricted by facet length with value 8.
     """
@@ -14842,11 +15769,12 @@ def test_list_string_length_3_nistxml_sv_iv_list_string_length_4_3(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_length_3_nistxml_sv_iv_list_string_length_4_4(mode, save_output):
+def test_list_string_length_3_nistxml_sv_iv_list_string_length_4_4(mode, save_output, output_format):
     """
     Type list/string is restricted by facet length with value 8.
     """
@@ -14857,11 +15785,12 @@ def test_list_string_length_3_nistxml_sv_iv_list_string_length_4_4(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_length_3_nistxml_sv_iv_list_string_length_4_5(mode, save_output):
+def test_list_string_length_3_nistxml_sv_iv_list_string_length_4_5(mode, save_output, output_format):
     """
     Type list/string is restricted by facet length with value 8.
     """
@@ -14872,11 +15801,12 @@ def test_list_string_length_3_nistxml_sv_iv_list_string_length_4_5(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_length_2_nistxml_sv_iv_list_string_length_3_1(mode, save_output):
+def test_list_string_length_2_nistxml_sv_iv_list_string_length_3_1(mode, save_output, output_format):
     """
     Type list/string is restricted by facet length with value 7.
     """
@@ -14887,11 +15817,12 @@ def test_list_string_length_2_nistxml_sv_iv_list_string_length_3_1(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_length_2_nistxml_sv_iv_list_string_length_3_2(mode, save_output):
+def test_list_string_length_2_nistxml_sv_iv_list_string_length_3_2(mode, save_output, output_format):
     """
     Type list/string is restricted by facet length with value 7.
     """
@@ -14902,11 +15833,12 @@ def test_list_string_length_2_nistxml_sv_iv_list_string_length_3_2(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_length_2_nistxml_sv_iv_list_string_length_3_3(mode, save_output):
+def test_list_string_length_2_nistxml_sv_iv_list_string_length_3_3(mode, save_output, output_format):
     """
     Type list/string is restricted by facet length with value 7.
     """
@@ -14917,11 +15849,12 @@ def test_list_string_length_2_nistxml_sv_iv_list_string_length_3_3(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_length_2_nistxml_sv_iv_list_string_length_3_4(mode, save_output):
+def test_list_string_length_2_nistxml_sv_iv_list_string_length_3_4(mode, save_output, output_format):
     """
     Type list/string is restricted by facet length with value 7.
     """
@@ -14932,11 +15865,12 @@ def test_list_string_length_2_nistxml_sv_iv_list_string_length_3_4(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_length_2_nistxml_sv_iv_list_string_length_3_5(mode, save_output):
+def test_list_string_length_2_nistxml_sv_iv_list_string_length_3_5(mode, save_output, output_format):
     """
     Type list/string is restricted by facet length with value 7.
     """
@@ -14947,11 +15881,12 @@ def test_list_string_length_2_nistxml_sv_iv_list_string_length_3_5(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_length_1_nistxml_sv_iv_list_string_length_2_1(mode, save_output):
+def test_list_string_length_1_nistxml_sv_iv_list_string_length_2_1(mode, save_output, output_format):
     """
     Type list/string is restricted by facet length with value 6.
     """
@@ -14962,11 +15897,12 @@ def test_list_string_length_1_nistxml_sv_iv_list_string_length_2_1(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_length_1_nistxml_sv_iv_list_string_length_2_2(mode, save_output):
+def test_list_string_length_1_nistxml_sv_iv_list_string_length_2_2(mode, save_output, output_format):
     """
     Type list/string is restricted by facet length with value 6.
     """
@@ -14977,11 +15913,12 @@ def test_list_string_length_1_nistxml_sv_iv_list_string_length_2_2(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_length_1_nistxml_sv_iv_list_string_length_2_3(mode, save_output):
+def test_list_string_length_1_nistxml_sv_iv_list_string_length_2_3(mode, save_output, output_format):
     """
     Type list/string is restricted by facet length with value 6.
     """
@@ -14992,11 +15929,12 @@ def test_list_string_length_1_nistxml_sv_iv_list_string_length_2_3(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_length_1_nistxml_sv_iv_list_string_length_2_4(mode, save_output):
+def test_list_string_length_1_nistxml_sv_iv_list_string_length_2_4(mode, save_output, output_format):
     """
     Type list/string is restricted by facet length with value 6.
     """
@@ -15007,11 +15945,12 @@ def test_list_string_length_1_nistxml_sv_iv_list_string_length_2_4(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_length_1_nistxml_sv_iv_list_string_length_2_5(mode, save_output):
+def test_list_string_length_1_nistxml_sv_iv_list_string_length_2_5(mode, save_output, output_format):
     """
     Type list/string is restricted by facet length with value 6.
     """
@@ -15022,11 +15961,12 @@ def test_list_string_length_1_nistxml_sv_iv_list_string_length_2_5(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_length_nistxml_sv_iv_list_string_length_1_1(mode, save_output):
+def test_list_string_length_nistxml_sv_iv_list_string_length_1_1(mode, save_output, output_format):
     """
     Type list/string is restricted by facet length with value 5.
     """
@@ -15037,11 +15977,12 @@ def test_list_string_length_nistxml_sv_iv_list_string_length_1_1(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_length_nistxml_sv_iv_list_string_length_1_2(mode, save_output):
+def test_list_string_length_nistxml_sv_iv_list_string_length_1_2(mode, save_output, output_format):
     """
     Type list/string is restricted by facet length with value 5.
     """
@@ -15052,11 +15993,12 @@ def test_list_string_length_nistxml_sv_iv_list_string_length_1_2(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_length_nistxml_sv_iv_list_string_length_1_3(mode, save_output):
+def test_list_string_length_nistxml_sv_iv_list_string_length_1_3(mode, save_output, output_format):
     """
     Type list/string is restricted by facet length with value 5.
     """
@@ -15067,11 +16009,12 @@ def test_list_string_length_nistxml_sv_iv_list_string_length_1_3(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_length_nistxml_sv_iv_list_string_length_1_4(mode, save_output):
+def test_list_string_length_nistxml_sv_iv_list_string_length_1_4(mode, save_output, output_format):
     """
     Type list/string is restricted by facet length with value 5.
     """
@@ -15082,11 +16025,12 @@ def test_list_string_length_nistxml_sv_iv_list_string_length_1_4(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_length_nistxml_sv_iv_list_string_length_1_5(mode, save_output):
+def test_list_string_length_nistxml_sv_iv_list_string_length_1_5(mode, save_output, output_format):
     """
     Type list/string is restricted by facet length with value 5.
     """
@@ -15097,11 +16041,12 @@ def test_list_string_length_nistxml_sv_iv_list_string_length_1_5(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_min_length_4_nistxml_sv_iv_list_string_min_length_5_1(mode, save_output):
+def test_list_string_min_length_4_nistxml_sv_iv_list_string_min_length_5_1(mode, save_output, output_format):
     """
     Type list/string is restricted by facet minLength with value 10.
     """
@@ -15112,11 +16057,12 @@ def test_list_string_min_length_4_nistxml_sv_iv_list_string_min_length_5_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_min_length_4_nistxml_sv_iv_list_string_min_length_5_2(mode, save_output):
+def test_list_string_min_length_4_nistxml_sv_iv_list_string_min_length_5_2(mode, save_output, output_format):
     """
     Type list/string is restricted by facet minLength with value 10.
     """
@@ -15127,11 +16073,12 @@ def test_list_string_min_length_4_nistxml_sv_iv_list_string_min_length_5_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_min_length_4_nistxml_sv_iv_list_string_min_length_5_3(mode, save_output):
+def test_list_string_min_length_4_nistxml_sv_iv_list_string_min_length_5_3(mode, save_output, output_format):
     """
     Type list/string is restricted by facet minLength with value 10.
     """
@@ -15142,11 +16089,12 @@ def test_list_string_min_length_4_nistxml_sv_iv_list_string_min_length_5_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_min_length_4_nistxml_sv_iv_list_string_min_length_5_4(mode, save_output):
+def test_list_string_min_length_4_nistxml_sv_iv_list_string_min_length_5_4(mode, save_output, output_format):
     """
     Type list/string is restricted by facet minLength with value 10.
     """
@@ -15157,11 +16105,12 @@ def test_list_string_min_length_4_nistxml_sv_iv_list_string_min_length_5_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_min_length_4_nistxml_sv_iv_list_string_min_length_5_5(mode, save_output):
+def test_list_string_min_length_4_nistxml_sv_iv_list_string_min_length_5_5(mode, save_output, output_format):
     """
     Type list/string is restricted by facet minLength with value 10.
     """
@@ -15172,11 +16121,12 @@ def test_list_string_min_length_4_nistxml_sv_iv_list_string_min_length_5_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_min_length_3_nistxml_sv_iv_list_string_min_length_4_1(mode, save_output):
+def test_list_string_min_length_3_nistxml_sv_iv_list_string_min_length_4_1(mode, save_output, output_format):
     """
     Type list/string is restricted by facet minLength with value 8.
     """
@@ -15187,11 +16137,12 @@ def test_list_string_min_length_3_nistxml_sv_iv_list_string_min_length_4_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_min_length_3_nistxml_sv_iv_list_string_min_length_4_2(mode, save_output):
+def test_list_string_min_length_3_nistxml_sv_iv_list_string_min_length_4_2(mode, save_output, output_format):
     """
     Type list/string is restricted by facet minLength with value 8.
     """
@@ -15202,11 +16153,12 @@ def test_list_string_min_length_3_nistxml_sv_iv_list_string_min_length_4_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_min_length_3_nistxml_sv_iv_list_string_min_length_4_3(mode, save_output):
+def test_list_string_min_length_3_nistxml_sv_iv_list_string_min_length_4_3(mode, save_output, output_format):
     """
     Type list/string is restricted by facet minLength with value 8.
     """
@@ -15217,11 +16169,12 @@ def test_list_string_min_length_3_nistxml_sv_iv_list_string_min_length_4_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_min_length_3_nistxml_sv_iv_list_string_min_length_4_4(mode, save_output):
+def test_list_string_min_length_3_nistxml_sv_iv_list_string_min_length_4_4(mode, save_output, output_format):
     """
     Type list/string is restricted by facet minLength with value 8.
     """
@@ -15232,11 +16185,12 @@ def test_list_string_min_length_3_nistxml_sv_iv_list_string_min_length_4_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_min_length_3_nistxml_sv_iv_list_string_min_length_4_5(mode, save_output):
+def test_list_string_min_length_3_nistxml_sv_iv_list_string_min_length_4_5(mode, save_output, output_format):
     """
     Type list/string is restricted by facet minLength with value 8.
     """
@@ -15247,11 +16201,12 @@ def test_list_string_min_length_3_nistxml_sv_iv_list_string_min_length_4_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_min_length_2_nistxml_sv_iv_list_string_min_length_3_1(mode, save_output):
+def test_list_string_min_length_2_nistxml_sv_iv_list_string_min_length_3_1(mode, save_output, output_format):
     """
     Type list/string is restricted by facet minLength with value 7.
     """
@@ -15262,11 +16217,12 @@ def test_list_string_min_length_2_nistxml_sv_iv_list_string_min_length_3_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_min_length_2_nistxml_sv_iv_list_string_min_length_3_2(mode, save_output):
+def test_list_string_min_length_2_nistxml_sv_iv_list_string_min_length_3_2(mode, save_output, output_format):
     """
     Type list/string is restricted by facet minLength with value 7.
     """
@@ -15277,11 +16233,12 @@ def test_list_string_min_length_2_nistxml_sv_iv_list_string_min_length_3_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_min_length_2_nistxml_sv_iv_list_string_min_length_3_3(mode, save_output):
+def test_list_string_min_length_2_nistxml_sv_iv_list_string_min_length_3_3(mode, save_output, output_format):
     """
     Type list/string is restricted by facet minLength with value 7.
     """
@@ -15292,11 +16249,12 @@ def test_list_string_min_length_2_nistxml_sv_iv_list_string_min_length_3_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_min_length_2_nistxml_sv_iv_list_string_min_length_3_4(mode, save_output):
+def test_list_string_min_length_2_nistxml_sv_iv_list_string_min_length_3_4(mode, save_output, output_format):
     """
     Type list/string is restricted by facet minLength with value 7.
     """
@@ -15307,11 +16265,12 @@ def test_list_string_min_length_2_nistxml_sv_iv_list_string_min_length_3_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_min_length_2_nistxml_sv_iv_list_string_min_length_3_5(mode, save_output):
+def test_list_string_min_length_2_nistxml_sv_iv_list_string_min_length_3_5(mode, save_output, output_format):
     """
     Type list/string is restricted by facet minLength with value 7.
     """
@@ -15322,11 +16281,12 @@ def test_list_string_min_length_2_nistxml_sv_iv_list_string_min_length_3_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_min_length_1_nistxml_sv_iv_list_string_min_length_2_1(mode, save_output):
+def test_list_string_min_length_1_nistxml_sv_iv_list_string_min_length_2_1(mode, save_output, output_format):
     """
     Type list/string is restricted by facet minLength with value 6.
     """
@@ -15337,11 +16297,12 @@ def test_list_string_min_length_1_nistxml_sv_iv_list_string_min_length_2_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_min_length_1_nistxml_sv_iv_list_string_min_length_2_2(mode, save_output):
+def test_list_string_min_length_1_nistxml_sv_iv_list_string_min_length_2_2(mode, save_output, output_format):
     """
     Type list/string is restricted by facet minLength with value 6.
     """
@@ -15352,11 +16313,12 @@ def test_list_string_min_length_1_nistxml_sv_iv_list_string_min_length_2_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_min_length_1_nistxml_sv_iv_list_string_min_length_2_3(mode, save_output):
+def test_list_string_min_length_1_nistxml_sv_iv_list_string_min_length_2_3(mode, save_output, output_format):
     """
     Type list/string is restricted by facet minLength with value 6.
     """
@@ -15367,11 +16329,12 @@ def test_list_string_min_length_1_nistxml_sv_iv_list_string_min_length_2_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_min_length_1_nistxml_sv_iv_list_string_min_length_2_4(mode, save_output):
+def test_list_string_min_length_1_nistxml_sv_iv_list_string_min_length_2_4(mode, save_output, output_format):
     """
     Type list/string is restricted by facet minLength with value 6.
     """
@@ -15382,11 +16345,12 @@ def test_list_string_min_length_1_nistxml_sv_iv_list_string_min_length_2_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_min_length_1_nistxml_sv_iv_list_string_min_length_2_5(mode, save_output):
+def test_list_string_min_length_1_nistxml_sv_iv_list_string_min_length_2_5(mode, save_output, output_format):
     """
     Type list/string is restricted by facet minLength with value 6.
     """
@@ -15397,11 +16361,12 @@ def test_list_string_min_length_1_nistxml_sv_iv_list_string_min_length_2_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_min_length_nistxml_sv_iv_list_string_min_length_1_1(mode, save_output):
+def test_list_string_min_length_nistxml_sv_iv_list_string_min_length_1_1(mode, save_output, output_format):
     """
     Type list/string is restricted by facet minLength with value 5.
     """
@@ -15412,11 +16377,12 @@ def test_list_string_min_length_nistxml_sv_iv_list_string_min_length_1_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_min_length_nistxml_sv_iv_list_string_min_length_1_2(mode, save_output):
+def test_list_string_min_length_nistxml_sv_iv_list_string_min_length_1_2(mode, save_output, output_format):
     """
     Type list/string is restricted by facet minLength with value 5.
     """
@@ -15427,11 +16393,12 @@ def test_list_string_min_length_nistxml_sv_iv_list_string_min_length_1_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_min_length_nistxml_sv_iv_list_string_min_length_1_3(mode, save_output):
+def test_list_string_min_length_nistxml_sv_iv_list_string_min_length_1_3(mode, save_output, output_format):
     """
     Type list/string is restricted by facet minLength with value 5.
     """
@@ -15442,11 +16409,12 @@ def test_list_string_min_length_nistxml_sv_iv_list_string_min_length_1_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_min_length_nistxml_sv_iv_list_string_min_length_1_4(mode, save_output):
+def test_list_string_min_length_nistxml_sv_iv_list_string_min_length_1_4(mode, save_output, output_format):
     """
     Type list/string is restricted by facet minLength with value 5.
     """
@@ -15457,11 +16425,12 @@ def test_list_string_min_length_nistxml_sv_iv_list_string_min_length_1_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_min_length_nistxml_sv_iv_list_string_min_length_1_5(mode, save_output):
+def test_list_string_min_length_nistxml_sv_iv_list_string_min_length_1_5(mode, save_output, output_format):
     """
     Type list/string is restricted by facet minLength with value 5.
     """
@@ -15472,11 +16441,12 @@ def test_list_string_min_length_nistxml_sv_iv_list_string_min_length_1_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_max_length_4_nistxml_sv_iv_list_string_max_length_5_1(mode, save_output):
+def test_list_string_max_length_4_nistxml_sv_iv_list_string_max_length_5_1(mode, save_output, output_format):
     """
     Type list/string is restricted by facet maxLength with value 10.
     """
@@ -15487,11 +16457,12 @@ def test_list_string_max_length_4_nistxml_sv_iv_list_string_max_length_5_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_max_length_4_nistxml_sv_iv_list_string_max_length_5_2(mode, save_output):
+def test_list_string_max_length_4_nistxml_sv_iv_list_string_max_length_5_2(mode, save_output, output_format):
     """
     Type list/string is restricted by facet maxLength with value 10.
     """
@@ -15502,11 +16473,12 @@ def test_list_string_max_length_4_nistxml_sv_iv_list_string_max_length_5_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_max_length_4_nistxml_sv_iv_list_string_max_length_5_3(mode, save_output):
+def test_list_string_max_length_4_nistxml_sv_iv_list_string_max_length_5_3(mode, save_output, output_format):
     """
     Type list/string is restricted by facet maxLength with value 10.
     """
@@ -15517,11 +16489,12 @@ def test_list_string_max_length_4_nistxml_sv_iv_list_string_max_length_5_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_max_length_4_nistxml_sv_iv_list_string_max_length_5_4(mode, save_output):
+def test_list_string_max_length_4_nistxml_sv_iv_list_string_max_length_5_4(mode, save_output, output_format):
     """
     Type list/string is restricted by facet maxLength with value 10.
     """
@@ -15532,11 +16505,12 @@ def test_list_string_max_length_4_nistxml_sv_iv_list_string_max_length_5_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_max_length_4_nistxml_sv_iv_list_string_max_length_5_5(mode, save_output):
+def test_list_string_max_length_4_nistxml_sv_iv_list_string_max_length_5_5(mode, save_output, output_format):
     """
     Type list/string is restricted by facet maxLength with value 10.
     """
@@ -15547,11 +16521,12 @@ def test_list_string_max_length_4_nistxml_sv_iv_list_string_max_length_5_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_max_length_3_nistxml_sv_iv_list_string_max_length_4_1(mode, save_output):
+def test_list_string_max_length_3_nistxml_sv_iv_list_string_max_length_4_1(mode, save_output, output_format):
     """
     Type list/string is restricted by facet maxLength with value 8.
     """
@@ -15562,11 +16537,12 @@ def test_list_string_max_length_3_nistxml_sv_iv_list_string_max_length_4_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_max_length_3_nistxml_sv_iv_list_string_max_length_4_2(mode, save_output):
+def test_list_string_max_length_3_nistxml_sv_iv_list_string_max_length_4_2(mode, save_output, output_format):
     """
     Type list/string is restricted by facet maxLength with value 8.
     """
@@ -15577,11 +16553,12 @@ def test_list_string_max_length_3_nistxml_sv_iv_list_string_max_length_4_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_max_length_3_nistxml_sv_iv_list_string_max_length_4_3(mode, save_output):
+def test_list_string_max_length_3_nistxml_sv_iv_list_string_max_length_4_3(mode, save_output, output_format):
     """
     Type list/string is restricted by facet maxLength with value 8.
     """
@@ -15592,11 +16569,12 @@ def test_list_string_max_length_3_nistxml_sv_iv_list_string_max_length_4_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_max_length_3_nistxml_sv_iv_list_string_max_length_4_4(mode, save_output):
+def test_list_string_max_length_3_nistxml_sv_iv_list_string_max_length_4_4(mode, save_output, output_format):
     """
     Type list/string is restricted by facet maxLength with value 8.
     """
@@ -15607,11 +16585,12 @@ def test_list_string_max_length_3_nistxml_sv_iv_list_string_max_length_4_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_max_length_3_nistxml_sv_iv_list_string_max_length_4_5(mode, save_output):
+def test_list_string_max_length_3_nistxml_sv_iv_list_string_max_length_4_5(mode, save_output, output_format):
     """
     Type list/string is restricted by facet maxLength with value 8.
     """
@@ -15622,11 +16601,12 @@ def test_list_string_max_length_3_nistxml_sv_iv_list_string_max_length_4_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_max_length_2_nistxml_sv_iv_list_string_max_length_3_1(mode, save_output):
+def test_list_string_max_length_2_nistxml_sv_iv_list_string_max_length_3_1(mode, save_output, output_format):
     """
     Type list/string is restricted by facet maxLength with value 7.
     """
@@ -15637,11 +16617,12 @@ def test_list_string_max_length_2_nistxml_sv_iv_list_string_max_length_3_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_max_length_2_nistxml_sv_iv_list_string_max_length_3_2(mode, save_output):
+def test_list_string_max_length_2_nistxml_sv_iv_list_string_max_length_3_2(mode, save_output, output_format):
     """
     Type list/string is restricted by facet maxLength with value 7.
     """
@@ -15652,11 +16633,12 @@ def test_list_string_max_length_2_nistxml_sv_iv_list_string_max_length_3_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_max_length_2_nistxml_sv_iv_list_string_max_length_3_3(mode, save_output):
+def test_list_string_max_length_2_nistxml_sv_iv_list_string_max_length_3_3(mode, save_output, output_format):
     """
     Type list/string is restricted by facet maxLength with value 7.
     """
@@ -15667,11 +16649,12 @@ def test_list_string_max_length_2_nistxml_sv_iv_list_string_max_length_3_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_max_length_2_nistxml_sv_iv_list_string_max_length_3_4(mode, save_output):
+def test_list_string_max_length_2_nistxml_sv_iv_list_string_max_length_3_4(mode, save_output, output_format):
     """
     Type list/string is restricted by facet maxLength with value 7.
     """
@@ -15682,11 +16665,12 @@ def test_list_string_max_length_2_nistxml_sv_iv_list_string_max_length_3_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_max_length_2_nistxml_sv_iv_list_string_max_length_3_5(mode, save_output):
+def test_list_string_max_length_2_nistxml_sv_iv_list_string_max_length_3_5(mode, save_output, output_format):
     """
     Type list/string is restricted by facet maxLength with value 7.
     """
@@ -15697,11 +16681,12 @@ def test_list_string_max_length_2_nistxml_sv_iv_list_string_max_length_3_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_max_length_1_nistxml_sv_iv_list_string_max_length_2_1(mode, save_output):
+def test_list_string_max_length_1_nistxml_sv_iv_list_string_max_length_2_1(mode, save_output, output_format):
     """
     Type list/string is restricted by facet maxLength with value 6.
     """
@@ -15712,11 +16697,12 @@ def test_list_string_max_length_1_nistxml_sv_iv_list_string_max_length_2_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_max_length_1_nistxml_sv_iv_list_string_max_length_2_2(mode, save_output):
+def test_list_string_max_length_1_nistxml_sv_iv_list_string_max_length_2_2(mode, save_output, output_format):
     """
     Type list/string is restricted by facet maxLength with value 6.
     """
@@ -15727,11 +16713,12 @@ def test_list_string_max_length_1_nistxml_sv_iv_list_string_max_length_2_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_max_length_1_nistxml_sv_iv_list_string_max_length_2_3(mode, save_output):
+def test_list_string_max_length_1_nistxml_sv_iv_list_string_max_length_2_3(mode, save_output, output_format):
     """
     Type list/string is restricted by facet maxLength with value 6.
     """
@@ -15742,11 +16729,12 @@ def test_list_string_max_length_1_nistxml_sv_iv_list_string_max_length_2_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_max_length_1_nistxml_sv_iv_list_string_max_length_2_4(mode, save_output):
+def test_list_string_max_length_1_nistxml_sv_iv_list_string_max_length_2_4(mode, save_output, output_format):
     """
     Type list/string is restricted by facet maxLength with value 6.
     """
@@ -15757,11 +16745,12 @@ def test_list_string_max_length_1_nistxml_sv_iv_list_string_max_length_2_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_max_length_1_nistxml_sv_iv_list_string_max_length_2_5(mode, save_output):
+def test_list_string_max_length_1_nistxml_sv_iv_list_string_max_length_2_5(mode, save_output, output_format):
     """
     Type list/string is restricted by facet maxLength with value 6.
     """
@@ -15772,11 +16761,12 @@ def test_list_string_max_length_1_nistxml_sv_iv_list_string_max_length_2_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_max_length_nistxml_sv_iv_list_string_max_length_1_1(mode, save_output):
+def test_list_string_max_length_nistxml_sv_iv_list_string_max_length_1_1(mode, save_output, output_format):
     """
     Type list/string is restricted by facet maxLength with value 5.
     """
@@ -15787,11 +16777,12 @@ def test_list_string_max_length_nistxml_sv_iv_list_string_max_length_1_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_max_length_nistxml_sv_iv_list_string_max_length_1_2(mode, save_output):
+def test_list_string_max_length_nistxml_sv_iv_list_string_max_length_1_2(mode, save_output, output_format):
     """
     Type list/string is restricted by facet maxLength with value 5.
     """
@@ -15802,11 +16793,12 @@ def test_list_string_max_length_nistxml_sv_iv_list_string_max_length_1_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_max_length_nistxml_sv_iv_list_string_max_length_1_3(mode, save_output):
+def test_list_string_max_length_nistxml_sv_iv_list_string_max_length_1_3(mode, save_output, output_format):
     """
     Type list/string is restricted by facet maxLength with value 5.
     """
@@ -15817,11 +16809,12 @@ def test_list_string_max_length_nistxml_sv_iv_list_string_max_length_1_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_max_length_nistxml_sv_iv_list_string_max_length_1_4(mode, save_output):
+def test_list_string_max_length_nistxml_sv_iv_list_string_max_length_1_4(mode, save_output, output_format):
     """
     Type list/string is restricted by facet maxLength with value 5.
     """
@@ -15832,11 +16825,12 @@ def test_list_string_max_length_nistxml_sv_iv_list_string_max_length_1_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_string_max_length_nistxml_sv_iv_list_string_max_length_1_5(mode, save_output):
+def test_list_string_max_length_nistxml_sv_iv_list_string_max_length_1_5(mode, save_output, output_format):
     """
     Type list/string is restricted by facet maxLength with value 5.
     """
@@ -15847,11 +16841,12 @@ def test_list_string_max_length_nistxml_sv_iv_list_string_max_length_1_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_white_space_nistxml_sv_iv_list_g_month_white_space_1_1(mode, save_output):
+def test_list_g_month_white_space_nistxml_sv_iv_list_g_month_white_space_1_1(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet whiteSpace with value
     collapse.
@@ -15863,11 +16858,12 @@ def test_list_g_month_white_space_nistxml_sv_iv_list_g_month_white_space_1_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_white_space_nistxml_sv_iv_list_g_month_white_space_1_2(mode, save_output):
+def test_list_g_month_white_space_nistxml_sv_iv_list_g_month_white_space_1_2(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet whiteSpace with value
     collapse.
@@ -15879,11 +16875,12 @@ def test_list_g_month_white_space_nistxml_sv_iv_list_g_month_white_space_1_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_white_space_nistxml_sv_iv_list_g_month_white_space_1_3(mode, save_output):
+def test_list_g_month_white_space_nistxml_sv_iv_list_g_month_white_space_1_3(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet whiteSpace with value
     collapse.
@@ -15895,11 +16892,12 @@ def test_list_g_month_white_space_nistxml_sv_iv_list_g_month_white_space_1_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_white_space_nistxml_sv_iv_list_g_month_white_space_1_4(mode, save_output):
+def test_list_g_month_white_space_nistxml_sv_iv_list_g_month_white_space_1_4(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet whiteSpace with value
     collapse.
@@ -15911,11 +16909,12 @@ def test_list_g_month_white_space_nistxml_sv_iv_list_g_month_white_space_1_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_white_space_nistxml_sv_iv_list_g_month_white_space_1_5(mode, save_output):
+def test_list_g_month_white_space_nistxml_sv_iv_list_g_month_white_space_1_5(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet whiteSpace with value
     collapse.
@@ -15927,5 +16926,6 @@ def test_list_g_month_white_space_nistxml_sv_iv_list_g_month_white_space_1_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )

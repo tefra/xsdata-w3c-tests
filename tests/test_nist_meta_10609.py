@@ -1,7 +1,7 @@
 from tests.utils import assert_bindings
 
 
-def test_atomic_negative_integer_max_inclusive_4_nistxml_sv_iv_atomic_negative_integer_max_inclusive_5_3(mode, save_output):
+def test_atomic_negative_integer_max_inclusive_4_nistxml_sv_iv_atomic_negative_integer_max_inclusive_5_3(mode, save_output, output_format):
     """
     Type atomic/negativeInteger is restricted by facet maxInclusive with
     value -1.
@@ -13,11 +13,12 @@ def test_atomic_negative_integer_max_inclusive_4_nistxml_sv_iv_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_negative_integer_max_inclusive_4_nistxml_sv_iv_atomic_negative_integer_max_inclusive_5_4(mode, save_output):
+def test_atomic_negative_integer_max_inclusive_4_nistxml_sv_iv_atomic_negative_integer_max_inclusive_5_4(mode, save_output, output_format):
     """
     Type atomic/negativeInteger is restricted by facet maxInclusive with
     value -1.
@@ -29,11 +30,12 @@ def test_atomic_negative_integer_max_inclusive_4_nistxml_sv_iv_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_negative_integer_max_inclusive_4_nistxml_sv_iv_atomic_negative_integer_max_inclusive_5_5(mode, save_output):
+def test_atomic_negative_integer_max_inclusive_4_nistxml_sv_iv_atomic_negative_integer_max_inclusive_5_5(mode, save_output, output_format):
     """
     Type atomic/negativeInteger is restricted by facet maxInclusive with
     value -1.
@@ -45,11 +47,12 @@ def test_atomic_negative_integer_max_inclusive_4_nistxml_sv_iv_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_negative_integer_max_inclusive_3_nistxml_sv_iv_atomic_negative_integer_max_inclusive_4_1(mode, save_output):
+def test_atomic_negative_integer_max_inclusive_3_nistxml_sv_iv_atomic_negative_integer_max_inclusive_4_1(mode, save_output, output_format):
     """
     Type atomic/negativeInteger is restricted by facet maxInclusive with
     value -666057423564200834.
@@ -61,11 +64,12 @@ def test_atomic_negative_integer_max_inclusive_3_nistxml_sv_iv_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_negative_integer_max_inclusive_3_nistxml_sv_iv_atomic_negative_integer_max_inclusive_4_2(mode, save_output):
+def test_atomic_negative_integer_max_inclusive_3_nistxml_sv_iv_atomic_negative_integer_max_inclusive_4_2(mode, save_output, output_format):
     """
     Type atomic/negativeInteger is restricted by facet maxInclusive with
     value -666057423564200834.
@@ -77,11 +81,12 @@ def test_atomic_negative_integer_max_inclusive_3_nistxml_sv_iv_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_negative_integer_max_inclusive_3_nistxml_sv_iv_atomic_negative_integer_max_inclusive_4_3(mode, save_output):
+def test_atomic_negative_integer_max_inclusive_3_nistxml_sv_iv_atomic_negative_integer_max_inclusive_4_3(mode, save_output, output_format):
     """
     Type atomic/negativeInteger is restricted by facet maxInclusive with
     value -666057423564200834.
@@ -93,11 +98,12 @@ def test_atomic_negative_integer_max_inclusive_3_nistxml_sv_iv_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_negative_integer_max_inclusive_3_nistxml_sv_iv_atomic_negative_integer_max_inclusive_4_4(mode, save_output):
+def test_atomic_negative_integer_max_inclusive_3_nistxml_sv_iv_atomic_negative_integer_max_inclusive_4_4(mode, save_output, output_format):
     """
     Type atomic/negativeInteger is restricted by facet maxInclusive with
     value -666057423564200834.
@@ -109,11 +115,12 @@ def test_atomic_negative_integer_max_inclusive_3_nistxml_sv_iv_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_negative_integer_max_inclusive_3_nistxml_sv_iv_atomic_negative_integer_max_inclusive_4_5(mode, save_output):
+def test_atomic_negative_integer_max_inclusive_3_nistxml_sv_iv_atomic_negative_integer_max_inclusive_4_5(mode, save_output, output_format):
     """
     Type atomic/negativeInteger is restricted by facet maxInclusive with
     value -666057423564200834.
@@ -125,11 +132,12 @@ def test_atomic_negative_integer_max_inclusive_3_nistxml_sv_iv_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_negative_integer_max_inclusive_2_nistxml_sv_iv_atomic_negative_integer_max_inclusive_3_1(mode, save_output):
+def test_atomic_negative_integer_max_inclusive_2_nistxml_sv_iv_atomic_negative_integer_max_inclusive_3_1(mode, save_output, output_format):
     """
     Type atomic/negativeInteger is restricted by facet maxInclusive with
     value -34749374507754505.
@@ -141,11 +149,12 @@ def test_atomic_negative_integer_max_inclusive_2_nistxml_sv_iv_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_negative_integer_max_inclusive_2_nistxml_sv_iv_atomic_negative_integer_max_inclusive_3_2(mode, save_output):
+def test_atomic_negative_integer_max_inclusive_2_nistxml_sv_iv_atomic_negative_integer_max_inclusive_3_2(mode, save_output, output_format):
     """
     Type atomic/negativeInteger is restricted by facet maxInclusive with
     value -34749374507754505.
@@ -157,11 +166,12 @@ def test_atomic_negative_integer_max_inclusive_2_nistxml_sv_iv_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_negative_integer_max_inclusive_2_nistxml_sv_iv_atomic_negative_integer_max_inclusive_3_3(mode, save_output):
+def test_atomic_negative_integer_max_inclusive_2_nistxml_sv_iv_atomic_negative_integer_max_inclusive_3_3(mode, save_output, output_format):
     """
     Type atomic/negativeInteger is restricted by facet maxInclusive with
     value -34749374507754505.
@@ -173,11 +183,12 @@ def test_atomic_negative_integer_max_inclusive_2_nistxml_sv_iv_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_negative_integer_max_inclusive_2_nistxml_sv_iv_atomic_negative_integer_max_inclusive_3_4(mode, save_output):
+def test_atomic_negative_integer_max_inclusive_2_nistxml_sv_iv_atomic_negative_integer_max_inclusive_3_4(mode, save_output, output_format):
     """
     Type atomic/negativeInteger is restricted by facet maxInclusive with
     value -34749374507754505.
@@ -189,11 +200,12 @@ def test_atomic_negative_integer_max_inclusive_2_nistxml_sv_iv_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_negative_integer_max_inclusive_2_nistxml_sv_iv_atomic_negative_integer_max_inclusive_3_5(mode, save_output):
+def test_atomic_negative_integer_max_inclusive_2_nistxml_sv_iv_atomic_negative_integer_max_inclusive_3_5(mode, save_output, output_format):
     """
     Type atomic/negativeInteger is restricted by facet maxInclusive with
     value -34749374507754505.
@@ -205,11 +217,12 @@ def test_atomic_negative_integer_max_inclusive_2_nistxml_sv_iv_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_negative_integer_max_inclusive_1_nistxml_sv_iv_atomic_negative_integer_max_inclusive_2_1(mode, save_output):
+def test_atomic_negative_integer_max_inclusive_1_nistxml_sv_iv_atomic_negative_integer_max_inclusive_2_1(mode, save_output, output_format):
     """
     Type atomic/negativeInteger is restricted by facet maxInclusive with
     value -922333322214573646.
@@ -221,11 +234,12 @@ def test_atomic_negative_integer_max_inclusive_1_nistxml_sv_iv_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_negative_integer_max_inclusive_1_nistxml_sv_iv_atomic_negative_integer_max_inclusive_2_2(mode, save_output):
+def test_atomic_negative_integer_max_inclusive_1_nistxml_sv_iv_atomic_negative_integer_max_inclusive_2_2(mode, save_output, output_format):
     """
     Type atomic/negativeInteger is restricted by facet maxInclusive with
     value -922333322214573646.
@@ -237,11 +251,12 @@ def test_atomic_negative_integer_max_inclusive_1_nistxml_sv_iv_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_negative_integer_max_inclusive_1_nistxml_sv_iv_atomic_negative_integer_max_inclusive_2_3(mode, save_output):
+def test_atomic_negative_integer_max_inclusive_1_nistxml_sv_iv_atomic_negative_integer_max_inclusive_2_3(mode, save_output, output_format):
     """
     Type atomic/negativeInteger is restricted by facet maxInclusive with
     value -922333322214573646.
@@ -253,11 +268,12 @@ def test_atomic_negative_integer_max_inclusive_1_nistxml_sv_iv_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_negative_integer_max_inclusive_1_nistxml_sv_iv_atomic_negative_integer_max_inclusive_2_4(mode, save_output):
+def test_atomic_negative_integer_max_inclusive_1_nistxml_sv_iv_atomic_negative_integer_max_inclusive_2_4(mode, save_output, output_format):
     """
     Type atomic/negativeInteger is restricted by facet maxInclusive with
     value -922333322214573646.
@@ -269,11 +285,12 @@ def test_atomic_negative_integer_max_inclusive_1_nistxml_sv_iv_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_negative_integer_max_inclusive_1_nistxml_sv_iv_atomic_negative_integer_max_inclusive_2_5(mode, save_output):
+def test_atomic_negative_integer_max_inclusive_1_nistxml_sv_iv_atomic_negative_integer_max_inclusive_2_5(mode, save_output, output_format):
     """
     Type atomic/negativeInteger is restricted by facet maxInclusive with
     value -922333322214573646.
@@ -285,11 +302,12 @@ def test_atomic_negative_integer_max_inclusive_1_nistxml_sv_iv_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_negative_integer_max_inclusive_nistxml_sv_iv_atomic_negative_integer_max_inclusive_1_1(mode, save_output):
+def test_atomic_negative_integer_max_inclusive_nistxml_sv_iv_atomic_negative_integer_max_inclusive_1_1(mode, save_output, output_format):
     """
     Type atomic/negativeInteger is restricted by facet maxInclusive with
     value -999999999999999999.
@@ -301,11 +319,12 @@ def test_atomic_negative_integer_max_inclusive_nistxml_sv_iv_atomic_negative_int
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_negative_integer_max_exclusive_4_nistxml_sv_iv_atomic_negative_integer_max_exclusive_5_1(mode, save_output):
+def test_atomic_negative_integer_max_exclusive_4_nistxml_sv_iv_atomic_negative_integer_max_exclusive_5_1(mode, save_output, output_format):
     """
     Type atomic/negativeInteger is restricted by facet maxExclusive with
     value -1.
@@ -317,11 +336,12 @@ def test_atomic_negative_integer_max_exclusive_4_nistxml_sv_iv_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_negative_integer_max_exclusive_4_nistxml_sv_iv_atomic_negative_integer_max_exclusive_5_2(mode, save_output):
+def test_atomic_negative_integer_max_exclusive_4_nistxml_sv_iv_atomic_negative_integer_max_exclusive_5_2(mode, save_output, output_format):
     """
     Type atomic/negativeInteger is restricted by facet maxExclusive with
     value -1.
@@ -333,11 +353,12 @@ def test_atomic_negative_integer_max_exclusive_4_nistxml_sv_iv_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_negative_integer_max_exclusive_4_nistxml_sv_iv_atomic_negative_integer_max_exclusive_5_3(mode, save_output):
+def test_atomic_negative_integer_max_exclusive_4_nistxml_sv_iv_atomic_negative_integer_max_exclusive_5_3(mode, save_output, output_format):
     """
     Type atomic/negativeInteger is restricted by facet maxExclusive with
     value -1.
@@ -349,11 +370,12 @@ def test_atomic_negative_integer_max_exclusive_4_nistxml_sv_iv_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_negative_integer_max_exclusive_4_nistxml_sv_iv_atomic_negative_integer_max_exclusive_5_4(mode, save_output):
+def test_atomic_negative_integer_max_exclusive_4_nistxml_sv_iv_atomic_negative_integer_max_exclusive_5_4(mode, save_output, output_format):
     """
     Type atomic/negativeInteger is restricted by facet maxExclusive with
     value -1.
@@ -365,11 +387,12 @@ def test_atomic_negative_integer_max_exclusive_4_nistxml_sv_iv_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_negative_integer_max_exclusive_4_nistxml_sv_iv_atomic_negative_integer_max_exclusive_5_5(mode, save_output):
+def test_atomic_negative_integer_max_exclusive_4_nistxml_sv_iv_atomic_negative_integer_max_exclusive_5_5(mode, save_output, output_format):
     """
     Type atomic/negativeInteger is restricted by facet maxExclusive with
     value -1.
@@ -381,11 +404,12 @@ def test_atomic_negative_integer_max_exclusive_4_nistxml_sv_iv_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_negative_integer_max_exclusive_3_nistxml_sv_iv_atomic_negative_integer_max_exclusive_4_1(mode, save_output):
+def test_atomic_negative_integer_max_exclusive_3_nistxml_sv_iv_atomic_negative_integer_max_exclusive_4_1(mode, save_output, output_format):
     """
     Type atomic/negativeInteger is restricted by facet maxExclusive with
     value -572450131914860271.
@@ -397,11 +421,12 @@ def test_atomic_negative_integer_max_exclusive_3_nistxml_sv_iv_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_negative_integer_max_exclusive_3_nistxml_sv_iv_atomic_negative_integer_max_exclusive_4_2(mode, save_output):
+def test_atomic_negative_integer_max_exclusive_3_nistxml_sv_iv_atomic_negative_integer_max_exclusive_4_2(mode, save_output, output_format):
     """
     Type atomic/negativeInteger is restricted by facet maxExclusive with
     value -572450131914860271.
@@ -413,11 +438,12 @@ def test_atomic_negative_integer_max_exclusive_3_nistxml_sv_iv_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_negative_integer_max_exclusive_3_nistxml_sv_iv_atomic_negative_integer_max_exclusive_4_3(mode, save_output):
+def test_atomic_negative_integer_max_exclusive_3_nistxml_sv_iv_atomic_negative_integer_max_exclusive_4_3(mode, save_output, output_format):
     """
     Type atomic/negativeInteger is restricted by facet maxExclusive with
     value -572450131914860271.
@@ -429,11 +455,12 @@ def test_atomic_negative_integer_max_exclusive_3_nistxml_sv_iv_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_negative_integer_max_exclusive_3_nistxml_sv_iv_atomic_negative_integer_max_exclusive_4_4(mode, save_output):
+def test_atomic_negative_integer_max_exclusive_3_nistxml_sv_iv_atomic_negative_integer_max_exclusive_4_4(mode, save_output, output_format):
     """
     Type atomic/negativeInteger is restricted by facet maxExclusive with
     value -572450131914860271.
@@ -445,11 +472,12 @@ def test_atomic_negative_integer_max_exclusive_3_nistxml_sv_iv_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_negative_integer_max_exclusive_3_nistxml_sv_iv_atomic_negative_integer_max_exclusive_4_5(mode, save_output):
+def test_atomic_negative_integer_max_exclusive_3_nistxml_sv_iv_atomic_negative_integer_max_exclusive_4_5(mode, save_output, output_format):
     """
     Type atomic/negativeInteger is restricted by facet maxExclusive with
     value -572450131914860271.
@@ -461,11 +489,12 @@ def test_atomic_negative_integer_max_exclusive_3_nistxml_sv_iv_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_negative_integer_max_exclusive_2_nistxml_sv_iv_atomic_negative_integer_max_exclusive_3_1(mode, save_output):
+def test_atomic_negative_integer_max_exclusive_2_nistxml_sv_iv_atomic_negative_integer_max_exclusive_3_1(mode, save_output, output_format):
     """
     Type atomic/negativeInteger is restricted by facet maxExclusive with
     value -184935339155753553.
@@ -477,11 +506,12 @@ def test_atomic_negative_integer_max_exclusive_2_nistxml_sv_iv_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_negative_integer_max_exclusive_2_nistxml_sv_iv_atomic_negative_integer_max_exclusive_3_2(mode, save_output):
+def test_atomic_negative_integer_max_exclusive_2_nistxml_sv_iv_atomic_negative_integer_max_exclusive_3_2(mode, save_output, output_format):
     """
     Type atomic/negativeInteger is restricted by facet maxExclusive with
     value -184935339155753553.
@@ -493,11 +523,12 @@ def test_atomic_negative_integer_max_exclusive_2_nistxml_sv_iv_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_negative_integer_max_exclusive_2_nistxml_sv_iv_atomic_negative_integer_max_exclusive_3_3(mode, save_output):
+def test_atomic_negative_integer_max_exclusive_2_nistxml_sv_iv_atomic_negative_integer_max_exclusive_3_3(mode, save_output, output_format):
     """
     Type atomic/negativeInteger is restricted by facet maxExclusive with
     value -184935339155753553.
@@ -509,11 +540,12 @@ def test_atomic_negative_integer_max_exclusive_2_nistxml_sv_iv_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_negative_integer_max_exclusive_2_nistxml_sv_iv_atomic_negative_integer_max_exclusive_3_4(mode, save_output):
+def test_atomic_negative_integer_max_exclusive_2_nistxml_sv_iv_atomic_negative_integer_max_exclusive_3_4(mode, save_output, output_format):
     """
     Type atomic/negativeInteger is restricted by facet maxExclusive with
     value -184935339155753553.
@@ -525,11 +557,12 @@ def test_atomic_negative_integer_max_exclusive_2_nistxml_sv_iv_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_negative_integer_max_exclusive_2_nistxml_sv_iv_atomic_negative_integer_max_exclusive_3_5(mode, save_output):
+def test_atomic_negative_integer_max_exclusive_2_nistxml_sv_iv_atomic_negative_integer_max_exclusive_3_5(mode, save_output, output_format):
     """
     Type atomic/negativeInteger is restricted by facet maxExclusive with
     value -184935339155753553.
@@ -541,11 +574,12 @@ def test_atomic_negative_integer_max_exclusive_2_nistxml_sv_iv_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_negative_integer_max_exclusive_1_nistxml_sv_iv_atomic_negative_integer_max_exclusive_2_1(mode, save_output):
+def test_atomic_negative_integer_max_exclusive_1_nistxml_sv_iv_atomic_negative_integer_max_exclusive_2_1(mode, save_output, output_format):
     """
     Type atomic/negativeInteger is restricted by facet maxExclusive with
     value -866521354558973720.
@@ -557,11 +591,12 @@ def test_atomic_negative_integer_max_exclusive_1_nistxml_sv_iv_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_negative_integer_max_exclusive_1_nistxml_sv_iv_atomic_negative_integer_max_exclusive_2_2(mode, save_output):
+def test_atomic_negative_integer_max_exclusive_1_nistxml_sv_iv_atomic_negative_integer_max_exclusive_2_2(mode, save_output, output_format):
     """
     Type atomic/negativeInteger is restricted by facet maxExclusive with
     value -866521354558973720.
@@ -573,11 +608,12 @@ def test_atomic_negative_integer_max_exclusive_1_nistxml_sv_iv_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_negative_integer_max_exclusive_1_nistxml_sv_iv_atomic_negative_integer_max_exclusive_2_3(mode, save_output):
+def test_atomic_negative_integer_max_exclusive_1_nistxml_sv_iv_atomic_negative_integer_max_exclusive_2_3(mode, save_output, output_format):
     """
     Type atomic/negativeInteger is restricted by facet maxExclusive with
     value -866521354558973720.
@@ -589,11 +625,12 @@ def test_atomic_negative_integer_max_exclusive_1_nistxml_sv_iv_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_negative_integer_max_exclusive_1_nistxml_sv_iv_atomic_negative_integer_max_exclusive_2_4(mode, save_output):
+def test_atomic_negative_integer_max_exclusive_1_nistxml_sv_iv_atomic_negative_integer_max_exclusive_2_4(mode, save_output, output_format):
     """
     Type atomic/negativeInteger is restricted by facet maxExclusive with
     value -866521354558973720.
@@ -605,11 +642,12 @@ def test_atomic_negative_integer_max_exclusive_1_nistxml_sv_iv_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_negative_integer_max_exclusive_1_nistxml_sv_iv_atomic_negative_integer_max_exclusive_2_5(mode, save_output):
+def test_atomic_negative_integer_max_exclusive_1_nistxml_sv_iv_atomic_negative_integer_max_exclusive_2_5(mode, save_output, output_format):
     """
     Type atomic/negativeInteger is restricted by facet maxExclusive with
     value -866521354558973720.
@@ -621,11 +659,12 @@ def test_atomic_negative_integer_max_exclusive_1_nistxml_sv_iv_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_negative_integer_max_exclusive_nistxml_sv_iv_atomic_negative_integer_max_exclusive_1_1(mode, save_output):
+def test_atomic_negative_integer_max_exclusive_nistxml_sv_iv_atomic_negative_integer_max_exclusive_1_1(mode, save_output, output_format):
     """
     Type atomic/negativeInteger is restricted by facet maxExclusive with
     value -999999999999999998.
@@ -637,11 +676,12 @@ def test_atomic_negative_integer_max_exclusive_nistxml_sv_iv_atomic_negative_int
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_negative_integer_min_inclusive_4_nistxml_sv_iv_atomic_negative_integer_min_inclusive_5_1(mode, save_output):
+def test_atomic_negative_integer_min_inclusive_4_nistxml_sv_iv_atomic_negative_integer_min_inclusive_5_1(mode, save_output, output_format):
     """
     Type atomic/negativeInteger is restricted by facet minInclusive with
     value -1.
@@ -653,11 +693,12 @@ def test_atomic_negative_integer_min_inclusive_4_nistxml_sv_iv_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_negative_integer_min_inclusive_3_nistxml_sv_iv_atomic_negative_integer_min_inclusive_4_1(mode, save_output):
+def test_atomic_negative_integer_min_inclusive_3_nistxml_sv_iv_atomic_negative_integer_min_inclusive_4_1(mode, save_output, output_format):
     """
     Type atomic/negativeInteger is restricted by facet minInclusive with
     value -947674826094804355.
@@ -669,11 +710,12 @@ def test_atomic_negative_integer_min_inclusive_3_nistxml_sv_iv_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_negative_integer_min_inclusive_3_nistxml_sv_iv_atomic_negative_integer_min_inclusive_4_2(mode, save_output):
+def test_atomic_negative_integer_min_inclusive_3_nistxml_sv_iv_atomic_negative_integer_min_inclusive_4_2(mode, save_output, output_format):
     """
     Type atomic/negativeInteger is restricted by facet minInclusive with
     value -947674826094804355.
@@ -685,11 +727,12 @@ def test_atomic_negative_integer_min_inclusive_3_nistxml_sv_iv_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_negative_integer_min_inclusive_3_nistxml_sv_iv_atomic_negative_integer_min_inclusive_4_3(mode, save_output):
+def test_atomic_negative_integer_min_inclusive_3_nistxml_sv_iv_atomic_negative_integer_min_inclusive_4_3(mode, save_output, output_format):
     """
     Type atomic/negativeInteger is restricted by facet minInclusive with
     value -947674826094804355.
@@ -701,11 +744,12 @@ def test_atomic_negative_integer_min_inclusive_3_nistxml_sv_iv_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_negative_integer_min_inclusive_3_nistxml_sv_iv_atomic_negative_integer_min_inclusive_4_4(mode, save_output):
+def test_atomic_negative_integer_min_inclusive_3_nistxml_sv_iv_atomic_negative_integer_min_inclusive_4_4(mode, save_output, output_format):
     """
     Type atomic/negativeInteger is restricted by facet minInclusive with
     value -947674826094804355.
@@ -717,11 +761,12 @@ def test_atomic_negative_integer_min_inclusive_3_nistxml_sv_iv_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_negative_integer_min_inclusive_3_nistxml_sv_iv_atomic_negative_integer_min_inclusive_4_5(mode, save_output):
+def test_atomic_negative_integer_min_inclusive_3_nistxml_sv_iv_atomic_negative_integer_min_inclusive_4_5(mode, save_output, output_format):
     """
     Type atomic/negativeInteger is restricted by facet minInclusive with
     value -947674826094804355.
@@ -733,11 +778,12 @@ def test_atomic_negative_integer_min_inclusive_3_nistxml_sv_iv_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_negative_integer_min_inclusive_2_nistxml_sv_iv_atomic_negative_integer_min_inclusive_3_1(mode, save_output):
+def test_atomic_negative_integer_min_inclusive_2_nistxml_sv_iv_atomic_negative_integer_min_inclusive_3_1(mode, save_output, output_format):
     """
     Type atomic/negativeInteger is restricted by facet minInclusive with
     value -539945622984702833.
@@ -749,11 +795,12 @@ def test_atomic_negative_integer_min_inclusive_2_nistxml_sv_iv_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_negative_integer_min_inclusive_2_nistxml_sv_iv_atomic_negative_integer_min_inclusive_3_2(mode, save_output):
+def test_atomic_negative_integer_min_inclusive_2_nistxml_sv_iv_atomic_negative_integer_min_inclusive_3_2(mode, save_output, output_format):
     """
     Type atomic/negativeInteger is restricted by facet minInclusive with
     value -539945622984702833.
@@ -765,11 +812,12 @@ def test_atomic_negative_integer_min_inclusive_2_nistxml_sv_iv_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_negative_integer_min_inclusive_2_nistxml_sv_iv_atomic_negative_integer_min_inclusive_3_3(mode, save_output):
+def test_atomic_negative_integer_min_inclusive_2_nistxml_sv_iv_atomic_negative_integer_min_inclusive_3_3(mode, save_output, output_format):
     """
     Type atomic/negativeInteger is restricted by facet minInclusive with
     value -539945622984702833.
@@ -781,11 +829,12 @@ def test_atomic_negative_integer_min_inclusive_2_nistxml_sv_iv_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_negative_integer_min_inclusive_2_nistxml_sv_iv_atomic_negative_integer_min_inclusive_3_4(mode, save_output):
+def test_atomic_negative_integer_min_inclusive_2_nistxml_sv_iv_atomic_negative_integer_min_inclusive_3_4(mode, save_output, output_format):
     """
     Type atomic/negativeInteger is restricted by facet minInclusive with
     value -539945622984702833.
@@ -797,11 +846,12 @@ def test_atomic_negative_integer_min_inclusive_2_nistxml_sv_iv_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_negative_integer_min_inclusive_2_nistxml_sv_iv_atomic_negative_integer_min_inclusive_3_5(mode, save_output):
+def test_atomic_negative_integer_min_inclusive_2_nistxml_sv_iv_atomic_negative_integer_min_inclusive_3_5(mode, save_output, output_format):
     """
     Type atomic/negativeInteger is restricted by facet minInclusive with
     value -539945622984702833.
@@ -813,11 +863,12 @@ def test_atomic_negative_integer_min_inclusive_2_nistxml_sv_iv_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_negative_integer_min_inclusive_1_nistxml_sv_iv_atomic_negative_integer_min_inclusive_2_1(mode, save_output):
+def test_atomic_negative_integer_min_inclusive_1_nistxml_sv_iv_atomic_negative_integer_min_inclusive_2_1(mode, save_output, output_format):
     """
     Type atomic/negativeInteger is restricted by facet minInclusive with
     value -440277848538184635.
@@ -829,11 +880,12 @@ def test_atomic_negative_integer_min_inclusive_1_nistxml_sv_iv_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_negative_integer_min_inclusive_1_nistxml_sv_iv_atomic_negative_integer_min_inclusive_2_2(mode, save_output):
+def test_atomic_negative_integer_min_inclusive_1_nistxml_sv_iv_atomic_negative_integer_min_inclusive_2_2(mode, save_output, output_format):
     """
     Type atomic/negativeInteger is restricted by facet minInclusive with
     value -440277848538184635.
@@ -845,11 +897,12 @@ def test_atomic_negative_integer_min_inclusive_1_nistxml_sv_iv_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_negative_integer_min_inclusive_1_nistxml_sv_iv_atomic_negative_integer_min_inclusive_2_3(mode, save_output):
+def test_atomic_negative_integer_min_inclusive_1_nistxml_sv_iv_atomic_negative_integer_min_inclusive_2_3(mode, save_output, output_format):
     """
     Type atomic/negativeInteger is restricted by facet minInclusive with
     value -440277848538184635.
@@ -861,11 +914,12 @@ def test_atomic_negative_integer_min_inclusive_1_nistxml_sv_iv_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_negative_integer_min_inclusive_1_nistxml_sv_iv_atomic_negative_integer_min_inclusive_2_4(mode, save_output):
+def test_atomic_negative_integer_min_inclusive_1_nistxml_sv_iv_atomic_negative_integer_min_inclusive_2_4(mode, save_output, output_format):
     """
     Type atomic/negativeInteger is restricted by facet minInclusive with
     value -440277848538184635.
@@ -877,11 +931,12 @@ def test_atomic_negative_integer_min_inclusive_1_nistxml_sv_iv_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_negative_integer_min_inclusive_1_nistxml_sv_iv_atomic_negative_integer_min_inclusive_2_5(mode, save_output):
+def test_atomic_negative_integer_min_inclusive_1_nistxml_sv_iv_atomic_negative_integer_min_inclusive_2_5(mode, save_output, output_format):
     """
     Type atomic/negativeInteger is restricted by facet minInclusive with
     value -440277848538184635.
@@ -893,11 +948,12 @@ def test_atomic_negative_integer_min_inclusive_1_nistxml_sv_iv_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_negative_integer_min_inclusive_nistxml_sv_iv_atomic_negative_integer_min_inclusive_1_1(mode, save_output):
+def test_atomic_negative_integer_min_inclusive_nistxml_sv_iv_atomic_negative_integer_min_inclusive_1_1(mode, save_output, output_format):
     """
     Type atomic/negativeInteger is restricted by facet minInclusive with
     value -999999999999999999.
@@ -909,11 +965,12 @@ def test_atomic_negative_integer_min_inclusive_nistxml_sv_iv_atomic_negative_int
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_negative_integer_min_inclusive_nistxml_sv_iv_atomic_negative_integer_min_inclusive_1_2(mode, save_output):
+def test_atomic_negative_integer_min_inclusive_nistxml_sv_iv_atomic_negative_integer_min_inclusive_1_2(mode, save_output, output_format):
     """
     Type atomic/negativeInteger is restricted by facet minInclusive with
     value -999999999999999999.
@@ -925,11 +982,12 @@ def test_atomic_negative_integer_min_inclusive_nistxml_sv_iv_atomic_negative_int
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_negative_integer_min_inclusive_nistxml_sv_iv_atomic_negative_integer_min_inclusive_1_3(mode, save_output):
+def test_atomic_negative_integer_min_inclusive_nistxml_sv_iv_atomic_negative_integer_min_inclusive_1_3(mode, save_output, output_format):
     """
     Type atomic/negativeInteger is restricted by facet minInclusive with
     value -999999999999999999.
@@ -941,11 +999,12 @@ def test_atomic_negative_integer_min_inclusive_nistxml_sv_iv_atomic_negative_int
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_negative_integer_min_inclusive_nistxml_sv_iv_atomic_negative_integer_min_inclusive_1_4(mode, save_output):
+def test_atomic_negative_integer_min_inclusive_nistxml_sv_iv_atomic_negative_integer_min_inclusive_1_4(mode, save_output, output_format):
     """
     Type atomic/negativeInteger is restricted by facet minInclusive with
     value -999999999999999999.
@@ -957,11 +1016,12 @@ def test_atomic_negative_integer_min_inclusive_nistxml_sv_iv_atomic_negative_int
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_negative_integer_min_inclusive_nistxml_sv_iv_atomic_negative_integer_min_inclusive_1_5(mode, save_output):
+def test_atomic_negative_integer_min_inclusive_nistxml_sv_iv_atomic_negative_integer_min_inclusive_1_5(mode, save_output, output_format):
     """
     Type atomic/negativeInteger is restricted by facet minInclusive with
     value -999999999999999999.
@@ -973,11 +1033,12 @@ def test_atomic_negative_integer_min_inclusive_nistxml_sv_iv_atomic_negative_int
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_negative_integer_min_exclusive_4_nistxml_sv_iv_atomic_negative_integer_min_exclusive_5_1(mode, save_output):
+def test_atomic_negative_integer_min_exclusive_4_nistxml_sv_iv_atomic_negative_integer_min_exclusive_5_1(mode, save_output, output_format):
     """
     Type atomic/negativeInteger is restricted by facet minExclusive with
     value -2.
@@ -989,11 +1050,12 @@ def test_atomic_negative_integer_min_exclusive_4_nistxml_sv_iv_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_negative_integer_min_exclusive_3_nistxml_sv_iv_atomic_negative_integer_min_exclusive_4_1(mode, save_output):
+def test_atomic_negative_integer_min_exclusive_3_nistxml_sv_iv_atomic_negative_integer_min_exclusive_4_1(mode, save_output, output_format):
     """
     Type atomic/negativeInteger is restricted by facet minExclusive with
     value -495295756372066909.
@@ -1005,11 +1067,12 @@ def test_atomic_negative_integer_min_exclusive_3_nistxml_sv_iv_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_negative_integer_min_exclusive_3_nistxml_sv_iv_atomic_negative_integer_min_exclusive_4_2(mode, save_output):
+def test_atomic_negative_integer_min_exclusive_3_nistxml_sv_iv_atomic_negative_integer_min_exclusive_4_2(mode, save_output, output_format):
     """
     Type atomic/negativeInteger is restricted by facet minExclusive with
     value -495295756372066909.
@@ -1021,11 +1084,12 @@ def test_atomic_negative_integer_min_exclusive_3_nistxml_sv_iv_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_negative_integer_min_exclusive_3_nistxml_sv_iv_atomic_negative_integer_min_exclusive_4_3(mode, save_output):
+def test_atomic_negative_integer_min_exclusive_3_nistxml_sv_iv_atomic_negative_integer_min_exclusive_4_3(mode, save_output, output_format):
     """
     Type atomic/negativeInteger is restricted by facet minExclusive with
     value -495295756372066909.
@@ -1037,11 +1101,12 @@ def test_atomic_negative_integer_min_exclusive_3_nistxml_sv_iv_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_negative_integer_min_exclusive_3_nistxml_sv_iv_atomic_negative_integer_min_exclusive_4_4(mode, save_output):
+def test_atomic_negative_integer_min_exclusive_3_nistxml_sv_iv_atomic_negative_integer_min_exclusive_4_4(mode, save_output, output_format):
     """
     Type atomic/negativeInteger is restricted by facet minExclusive with
     value -495295756372066909.
@@ -1053,11 +1118,12 @@ def test_atomic_negative_integer_min_exclusive_3_nistxml_sv_iv_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_negative_integer_min_exclusive_3_nistxml_sv_iv_atomic_negative_integer_min_exclusive_4_5(mode, save_output):
+def test_atomic_negative_integer_min_exclusive_3_nistxml_sv_iv_atomic_negative_integer_min_exclusive_4_5(mode, save_output, output_format):
     """
     Type atomic/negativeInteger is restricted by facet minExclusive with
     value -495295756372066909.
@@ -1069,11 +1135,12 @@ def test_atomic_negative_integer_min_exclusive_3_nistxml_sv_iv_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_negative_integer_min_exclusive_2_nistxml_sv_iv_atomic_negative_integer_min_exclusive_3_1(mode, save_output):
+def test_atomic_negative_integer_min_exclusive_2_nistxml_sv_iv_atomic_negative_integer_min_exclusive_3_1(mode, save_output, output_format):
     """
     Type atomic/negativeInteger is restricted by facet minExclusive with
     value -900435039333670416.
@@ -1085,11 +1152,12 @@ def test_atomic_negative_integer_min_exclusive_2_nistxml_sv_iv_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_negative_integer_min_exclusive_2_nistxml_sv_iv_atomic_negative_integer_min_exclusive_3_2(mode, save_output):
+def test_atomic_negative_integer_min_exclusive_2_nistxml_sv_iv_atomic_negative_integer_min_exclusive_3_2(mode, save_output, output_format):
     """
     Type atomic/negativeInteger is restricted by facet minExclusive with
     value -900435039333670416.
@@ -1101,11 +1169,12 @@ def test_atomic_negative_integer_min_exclusive_2_nistxml_sv_iv_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_negative_integer_min_exclusive_2_nistxml_sv_iv_atomic_negative_integer_min_exclusive_3_3(mode, save_output):
+def test_atomic_negative_integer_min_exclusive_2_nistxml_sv_iv_atomic_negative_integer_min_exclusive_3_3(mode, save_output, output_format):
     """
     Type atomic/negativeInteger is restricted by facet minExclusive with
     value -900435039333670416.
@@ -1117,11 +1186,12 @@ def test_atomic_negative_integer_min_exclusive_2_nistxml_sv_iv_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_negative_integer_min_exclusive_2_nistxml_sv_iv_atomic_negative_integer_min_exclusive_3_4(mode, save_output):
+def test_atomic_negative_integer_min_exclusive_2_nistxml_sv_iv_atomic_negative_integer_min_exclusive_3_4(mode, save_output, output_format):
     """
     Type atomic/negativeInteger is restricted by facet minExclusive with
     value -900435039333670416.
@@ -1133,11 +1203,12 @@ def test_atomic_negative_integer_min_exclusive_2_nistxml_sv_iv_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_negative_integer_min_exclusive_2_nistxml_sv_iv_atomic_negative_integer_min_exclusive_3_5(mode, save_output):
+def test_atomic_negative_integer_min_exclusive_2_nistxml_sv_iv_atomic_negative_integer_min_exclusive_3_5(mode, save_output, output_format):
     """
     Type atomic/negativeInteger is restricted by facet minExclusive with
     value -900435039333670416.
@@ -1149,11 +1220,12 @@ def test_atomic_negative_integer_min_exclusive_2_nistxml_sv_iv_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_negative_integer_min_exclusive_1_nistxml_sv_iv_atomic_negative_integer_min_exclusive_2_1(mode, save_output):
+def test_atomic_negative_integer_min_exclusive_1_nistxml_sv_iv_atomic_negative_integer_min_exclusive_2_1(mode, save_output, output_format):
     """
     Type atomic/negativeInteger is restricted by facet minExclusive with
     value -435976618086570511.
@@ -1165,11 +1237,12 @@ def test_atomic_negative_integer_min_exclusive_1_nistxml_sv_iv_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_negative_integer_min_exclusive_1_nistxml_sv_iv_atomic_negative_integer_min_exclusive_2_2(mode, save_output):
+def test_atomic_negative_integer_min_exclusive_1_nistxml_sv_iv_atomic_negative_integer_min_exclusive_2_2(mode, save_output, output_format):
     """
     Type atomic/negativeInteger is restricted by facet minExclusive with
     value -435976618086570511.
@@ -1181,11 +1254,12 @@ def test_atomic_negative_integer_min_exclusive_1_nistxml_sv_iv_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_negative_integer_min_exclusive_1_nistxml_sv_iv_atomic_negative_integer_min_exclusive_2_3(mode, save_output):
+def test_atomic_negative_integer_min_exclusive_1_nistxml_sv_iv_atomic_negative_integer_min_exclusive_2_3(mode, save_output, output_format):
     """
     Type atomic/negativeInteger is restricted by facet minExclusive with
     value -435976618086570511.
@@ -1197,11 +1271,12 @@ def test_atomic_negative_integer_min_exclusive_1_nistxml_sv_iv_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_negative_integer_min_exclusive_1_nistxml_sv_iv_atomic_negative_integer_min_exclusive_2_4(mode, save_output):
+def test_atomic_negative_integer_min_exclusive_1_nistxml_sv_iv_atomic_negative_integer_min_exclusive_2_4(mode, save_output, output_format):
     """
     Type atomic/negativeInteger is restricted by facet minExclusive with
     value -435976618086570511.
@@ -1213,11 +1288,12 @@ def test_atomic_negative_integer_min_exclusive_1_nistxml_sv_iv_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_negative_integer_min_exclusive_1_nistxml_sv_iv_atomic_negative_integer_min_exclusive_2_5(mode, save_output):
+def test_atomic_negative_integer_min_exclusive_1_nistxml_sv_iv_atomic_negative_integer_min_exclusive_2_5(mode, save_output, output_format):
     """
     Type atomic/negativeInteger is restricted by facet minExclusive with
     value -435976618086570511.
@@ -1229,11 +1305,12 @@ def test_atomic_negative_integer_min_exclusive_1_nistxml_sv_iv_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_negative_integer_min_exclusive_nistxml_sv_iv_atomic_negative_integer_min_exclusive_1_1(mode, save_output):
+def test_atomic_negative_integer_min_exclusive_nistxml_sv_iv_atomic_negative_integer_min_exclusive_1_1(mode, save_output, output_format):
     """
     Type atomic/negativeInteger is restricted by facet minExclusive with
     value -999999999999999999.
@@ -1245,11 +1322,12 @@ def test_atomic_negative_integer_min_exclusive_nistxml_sv_iv_atomic_negative_int
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_negative_integer_min_exclusive_nistxml_sv_iv_atomic_negative_integer_min_exclusive_1_2(mode, save_output):
+def test_atomic_negative_integer_min_exclusive_nistxml_sv_iv_atomic_negative_integer_min_exclusive_1_2(mode, save_output, output_format):
     """
     Type atomic/negativeInteger is restricted by facet minExclusive with
     value -999999999999999999.
@@ -1261,11 +1339,12 @@ def test_atomic_negative_integer_min_exclusive_nistxml_sv_iv_atomic_negative_int
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_negative_integer_min_exclusive_nistxml_sv_iv_atomic_negative_integer_min_exclusive_1_3(mode, save_output):
+def test_atomic_negative_integer_min_exclusive_nistxml_sv_iv_atomic_negative_integer_min_exclusive_1_3(mode, save_output, output_format):
     """
     Type atomic/negativeInteger is restricted by facet minExclusive with
     value -999999999999999999.
@@ -1277,11 +1356,12 @@ def test_atomic_negative_integer_min_exclusive_nistxml_sv_iv_atomic_negative_int
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_negative_integer_min_exclusive_nistxml_sv_iv_atomic_negative_integer_min_exclusive_1_4(mode, save_output):
+def test_atomic_negative_integer_min_exclusive_nistxml_sv_iv_atomic_negative_integer_min_exclusive_1_4(mode, save_output, output_format):
     """
     Type atomic/negativeInteger is restricted by facet minExclusive with
     value -999999999999999999.
@@ -1293,11 +1373,12 @@ def test_atomic_negative_integer_min_exclusive_nistxml_sv_iv_atomic_negative_int
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_negative_integer_min_exclusive_nistxml_sv_iv_atomic_negative_integer_min_exclusive_1_5(mode, save_output):
+def test_atomic_negative_integer_min_exclusive_nistxml_sv_iv_atomic_negative_integer_min_exclusive_1_5(mode, save_output, output_format):
     """
     Type atomic/negativeInteger is restricted by facet minExclusive with
     value -999999999999999999.
@@ -1309,11 +1390,12 @@ def test_atomic_negative_integer_min_exclusive_nistxml_sv_iv_atomic_negative_int
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_white_space_nistxml_sv_iv_atomic_non_positive_integer_white_space_1_1(mode, save_output):
+def test_atomic_non_positive_integer_white_space_nistxml_sv_iv_atomic_non_positive_integer_white_space_1_1(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet whiteSpace with
     value collapse.
@@ -1325,11 +1407,12 @@ def test_atomic_non_positive_integer_white_space_nistxml_sv_iv_atomic_non_positi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_white_space_nistxml_sv_iv_atomic_non_positive_integer_white_space_1_2(mode, save_output):
+def test_atomic_non_positive_integer_white_space_nistxml_sv_iv_atomic_non_positive_integer_white_space_1_2(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet whiteSpace with
     value collapse.
@@ -1341,11 +1424,12 @@ def test_atomic_non_positive_integer_white_space_nistxml_sv_iv_atomic_non_positi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_white_space_nistxml_sv_iv_atomic_non_positive_integer_white_space_1_3(mode, save_output):
+def test_atomic_non_positive_integer_white_space_nistxml_sv_iv_atomic_non_positive_integer_white_space_1_3(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet whiteSpace with
     value collapse.
@@ -1357,11 +1441,12 @@ def test_atomic_non_positive_integer_white_space_nistxml_sv_iv_atomic_non_positi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_white_space_nistxml_sv_iv_atomic_non_positive_integer_white_space_1_4(mode, save_output):
+def test_atomic_non_positive_integer_white_space_nistxml_sv_iv_atomic_non_positive_integer_white_space_1_4(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet whiteSpace with
     value collapse.
@@ -1373,11 +1458,12 @@ def test_atomic_non_positive_integer_white_space_nistxml_sv_iv_atomic_non_positi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_white_space_nistxml_sv_iv_atomic_non_positive_integer_white_space_1_5(mode, save_output):
+def test_atomic_non_positive_integer_white_space_nistxml_sv_iv_atomic_non_positive_integer_white_space_1_5(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet whiteSpace with
     value collapse.
@@ -1389,11 +1475,12 @@ def test_atomic_non_positive_integer_white_space_nistxml_sv_iv_atomic_non_positi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_enumeration_4_nistxml_sv_iv_atomic_non_positive_integer_enumeration_5_1(mode, save_output):
+def test_atomic_non_positive_integer_enumeration_4_nistxml_sv_iv_atomic_non_positive_integer_enumeration_5_1(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet enumeration.
     """
@@ -1404,11 +1491,12 @@ def test_atomic_non_positive_integer_enumeration_4_nistxml_sv_iv_atomic_non_posi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_enumeration_4_nistxml_sv_iv_atomic_non_positive_integer_enumeration_5_2(mode, save_output):
+def test_atomic_non_positive_integer_enumeration_4_nistxml_sv_iv_atomic_non_positive_integer_enumeration_5_2(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet enumeration.
     """
@@ -1419,11 +1507,12 @@ def test_atomic_non_positive_integer_enumeration_4_nistxml_sv_iv_atomic_non_posi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_enumeration_4_nistxml_sv_iv_atomic_non_positive_integer_enumeration_5_3(mode, save_output):
+def test_atomic_non_positive_integer_enumeration_4_nistxml_sv_iv_atomic_non_positive_integer_enumeration_5_3(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet enumeration.
     """
@@ -1434,11 +1523,12 @@ def test_atomic_non_positive_integer_enumeration_4_nistxml_sv_iv_atomic_non_posi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_enumeration_4_nistxml_sv_iv_atomic_non_positive_integer_enumeration_5_4(mode, save_output):
+def test_atomic_non_positive_integer_enumeration_4_nistxml_sv_iv_atomic_non_positive_integer_enumeration_5_4(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet enumeration.
     """
@@ -1449,11 +1539,12 @@ def test_atomic_non_positive_integer_enumeration_4_nistxml_sv_iv_atomic_non_posi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_enumeration_4_nistxml_sv_iv_atomic_non_positive_integer_enumeration_5_5(mode, save_output):
+def test_atomic_non_positive_integer_enumeration_4_nistxml_sv_iv_atomic_non_positive_integer_enumeration_5_5(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet enumeration.
     """
@@ -1464,11 +1555,12 @@ def test_atomic_non_positive_integer_enumeration_4_nistxml_sv_iv_atomic_non_posi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_enumeration_3_nistxml_sv_iv_atomic_non_positive_integer_enumeration_4_1(mode, save_output):
+def test_atomic_non_positive_integer_enumeration_3_nistxml_sv_iv_atomic_non_positive_integer_enumeration_4_1(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet enumeration.
     """
@@ -1479,11 +1571,12 @@ def test_atomic_non_positive_integer_enumeration_3_nistxml_sv_iv_atomic_non_posi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_enumeration_3_nistxml_sv_iv_atomic_non_positive_integer_enumeration_4_2(mode, save_output):
+def test_atomic_non_positive_integer_enumeration_3_nistxml_sv_iv_atomic_non_positive_integer_enumeration_4_2(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet enumeration.
     """
@@ -1494,11 +1587,12 @@ def test_atomic_non_positive_integer_enumeration_3_nistxml_sv_iv_atomic_non_posi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_enumeration_3_nistxml_sv_iv_atomic_non_positive_integer_enumeration_4_3(mode, save_output):
+def test_atomic_non_positive_integer_enumeration_3_nistxml_sv_iv_atomic_non_positive_integer_enumeration_4_3(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet enumeration.
     """
@@ -1509,11 +1603,12 @@ def test_atomic_non_positive_integer_enumeration_3_nistxml_sv_iv_atomic_non_posi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_enumeration_3_nistxml_sv_iv_atomic_non_positive_integer_enumeration_4_4(mode, save_output):
+def test_atomic_non_positive_integer_enumeration_3_nistxml_sv_iv_atomic_non_positive_integer_enumeration_4_4(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet enumeration.
     """
@@ -1524,11 +1619,12 @@ def test_atomic_non_positive_integer_enumeration_3_nistxml_sv_iv_atomic_non_posi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_enumeration_3_nistxml_sv_iv_atomic_non_positive_integer_enumeration_4_5(mode, save_output):
+def test_atomic_non_positive_integer_enumeration_3_nistxml_sv_iv_atomic_non_positive_integer_enumeration_4_5(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet enumeration.
     """
@@ -1539,11 +1635,12 @@ def test_atomic_non_positive_integer_enumeration_3_nistxml_sv_iv_atomic_non_posi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_enumeration_2_nistxml_sv_iv_atomic_non_positive_integer_enumeration_3_1(mode, save_output):
+def test_atomic_non_positive_integer_enumeration_2_nistxml_sv_iv_atomic_non_positive_integer_enumeration_3_1(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet enumeration.
     """
@@ -1554,11 +1651,12 @@ def test_atomic_non_positive_integer_enumeration_2_nistxml_sv_iv_atomic_non_posi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_enumeration_2_nistxml_sv_iv_atomic_non_positive_integer_enumeration_3_2(mode, save_output):
+def test_atomic_non_positive_integer_enumeration_2_nistxml_sv_iv_atomic_non_positive_integer_enumeration_3_2(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet enumeration.
     """
@@ -1569,11 +1667,12 @@ def test_atomic_non_positive_integer_enumeration_2_nistxml_sv_iv_atomic_non_posi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_enumeration_2_nistxml_sv_iv_atomic_non_positive_integer_enumeration_3_3(mode, save_output):
+def test_atomic_non_positive_integer_enumeration_2_nistxml_sv_iv_atomic_non_positive_integer_enumeration_3_3(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet enumeration.
     """
@@ -1584,11 +1683,12 @@ def test_atomic_non_positive_integer_enumeration_2_nistxml_sv_iv_atomic_non_posi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_enumeration_2_nistxml_sv_iv_atomic_non_positive_integer_enumeration_3_4(mode, save_output):
+def test_atomic_non_positive_integer_enumeration_2_nistxml_sv_iv_atomic_non_positive_integer_enumeration_3_4(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet enumeration.
     """
@@ -1599,11 +1699,12 @@ def test_atomic_non_positive_integer_enumeration_2_nistxml_sv_iv_atomic_non_posi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_enumeration_2_nistxml_sv_iv_atomic_non_positive_integer_enumeration_3_5(mode, save_output):
+def test_atomic_non_positive_integer_enumeration_2_nistxml_sv_iv_atomic_non_positive_integer_enumeration_3_5(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet enumeration.
     """
@@ -1614,11 +1715,12 @@ def test_atomic_non_positive_integer_enumeration_2_nistxml_sv_iv_atomic_non_posi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_enumeration_1_nistxml_sv_iv_atomic_non_positive_integer_enumeration_2_1(mode, save_output):
+def test_atomic_non_positive_integer_enumeration_1_nistxml_sv_iv_atomic_non_positive_integer_enumeration_2_1(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet enumeration.
     """
@@ -1629,11 +1731,12 @@ def test_atomic_non_positive_integer_enumeration_1_nistxml_sv_iv_atomic_non_posi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_enumeration_1_nistxml_sv_iv_atomic_non_positive_integer_enumeration_2_2(mode, save_output):
+def test_atomic_non_positive_integer_enumeration_1_nistxml_sv_iv_atomic_non_positive_integer_enumeration_2_2(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet enumeration.
     """
@@ -1644,11 +1747,12 @@ def test_atomic_non_positive_integer_enumeration_1_nistxml_sv_iv_atomic_non_posi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_enumeration_1_nistxml_sv_iv_atomic_non_positive_integer_enumeration_2_3(mode, save_output):
+def test_atomic_non_positive_integer_enumeration_1_nistxml_sv_iv_atomic_non_positive_integer_enumeration_2_3(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet enumeration.
     """
@@ -1659,11 +1763,12 @@ def test_atomic_non_positive_integer_enumeration_1_nistxml_sv_iv_atomic_non_posi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_enumeration_1_nistxml_sv_iv_atomic_non_positive_integer_enumeration_2_4(mode, save_output):
+def test_atomic_non_positive_integer_enumeration_1_nistxml_sv_iv_atomic_non_positive_integer_enumeration_2_4(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet enumeration.
     """
@@ -1674,11 +1779,12 @@ def test_atomic_non_positive_integer_enumeration_1_nistxml_sv_iv_atomic_non_posi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_enumeration_1_nistxml_sv_iv_atomic_non_positive_integer_enumeration_2_5(mode, save_output):
+def test_atomic_non_positive_integer_enumeration_1_nistxml_sv_iv_atomic_non_positive_integer_enumeration_2_5(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet enumeration.
     """
@@ -1689,11 +1795,12 @@ def test_atomic_non_positive_integer_enumeration_1_nistxml_sv_iv_atomic_non_posi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_enumeration_nistxml_sv_iv_atomic_non_positive_integer_enumeration_1_1(mode, save_output):
+def test_atomic_non_positive_integer_enumeration_nistxml_sv_iv_atomic_non_positive_integer_enumeration_1_1(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet enumeration.
     """
@@ -1704,11 +1811,12 @@ def test_atomic_non_positive_integer_enumeration_nistxml_sv_iv_atomic_non_positi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_enumeration_nistxml_sv_iv_atomic_non_positive_integer_enumeration_1_2(mode, save_output):
+def test_atomic_non_positive_integer_enumeration_nistxml_sv_iv_atomic_non_positive_integer_enumeration_1_2(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet enumeration.
     """
@@ -1719,11 +1827,12 @@ def test_atomic_non_positive_integer_enumeration_nistxml_sv_iv_atomic_non_positi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_enumeration_nistxml_sv_iv_atomic_non_positive_integer_enumeration_1_3(mode, save_output):
+def test_atomic_non_positive_integer_enumeration_nistxml_sv_iv_atomic_non_positive_integer_enumeration_1_3(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet enumeration.
     """
@@ -1734,11 +1843,12 @@ def test_atomic_non_positive_integer_enumeration_nistxml_sv_iv_atomic_non_positi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_enumeration_nistxml_sv_iv_atomic_non_positive_integer_enumeration_1_4(mode, save_output):
+def test_atomic_non_positive_integer_enumeration_nistxml_sv_iv_atomic_non_positive_integer_enumeration_1_4(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet enumeration.
     """
@@ -1749,11 +1859,12 @@ def test_atomic_non_positive_integer_enumeration_nistxml_sv_iv_atomic_non_positi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_enumeration_nistxml_sv_iv_atomic_non_positive_integer_enumeration_1_5(mode, save_output):
+def test_atomic_non_positive_integer_enumeration_nistxml_sv_iv_atomic_non_positive_integer_enumeration_1_5(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet enumeration.
     """
@@ -1764,11 +1875,12 @@ def test_atomic_non_positive_integer_enumeration_nistxml_sv_iv_atomic_non_positi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_pattern_4_nistxml_sv_iv_atomic_non_positive_integer_pattern_5_1(mode, save_output):
+def test_atomic_non_positive_integer_pattern_4_nistxml_sv_iv_atomic_non_positive_integer_pattern_5_1(mode, save_output, output_format):
     r"""
     Type atomic/nonPositiveInteger is restricted by facet pattern with
     value \-\d{18}.
@@ -1780,11 +1892,12 @@ def test_atomic_non_positive_integer_pattern_4_nistxml_sv_iv_atomic_non_positive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_pattern_4_nistxml_sv_iv_atomic_non_positive_integer_pattern_5_2(mode, save_output):
+def test_atomic_non_positive_integer_pattern_4_nistxml_sv_iv_atomic_non_positive_integer_pattern_5_2(mode, save_output, output_format):
     r"""
     Type atomic/nonPositiveInteger is restricted by facet pattern with
     value \-\d{18}.
@@ -1796,11 +1909,12 @@ def test_atomic_non_positive_integer_pattern_4_nistxml_sv_iv_atomic_non_positive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_pattern_4_nistxml_sv_iv_atomic_non_positive_integer_pattern_5_3(mode, save_output):
+def test_atomic_non_positive_integer_pattern_4_nistxml_sv_iv_atomic_non_positive_integer_pattern_5_3(mode, save_output, output_format):
     r"""
     Type atomic/nonPositiveInteger is restricted by facet pattern with
     value \-\d{18}.
@@ -1812,11 +1926,12 @@ def test_atomic_non_positive_integer_pattern_4_nistxml_sv_iv_atomic_non_positive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_pattern_4_nistxml_sv_iv_atomic_non_positive_integer_pattern_5_4(mode, save_output):
+def test_atomic_non_positive_integer_pattern_4_nistxml_sv_iv_atomic_non_positive_integer_pattern_5_4(mode, save_output, output_format):
     r"""
     Type atomic/nonPositiveInteger is restricted by facet pattern with
     value \-\d{18}.
@@ -1828,11 +1943,12 @@ def test_atomic_non_positive_integer_pattern_4_nistxml_sv_iv_atomic_non_positive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_pattern_4_nistxml_sv_iv_atomic_non_positive_integer_pattern_5_5(mode, save_output):
+def test_atomic_non_positive_integer_pattern_4_nistxml_sv_iv_atomic_non_positive_integer_pattern_5_5(mode, save_output, output_format):
     r"""
     Type atomic/nonPositiveInteger is restricted by facet pattern with
     value \-\d{18}.
@@ -1844,11 +1960,12 @@ def test_atomic_non_positive_integer_pattern_4_nistxml_sv_iv_atomic_non_positive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_pattern_3_nistxml_sv_iv_atomic_non_positive_integer_pattern_4_1(mode, save_output):
+def test_atomic_non_positive_integer_pattern_3_nistxml_sv_iv_atomic_non_positive_integer_pattern_4_1(mode, save_output, output_format):
     r"""
     Type atomic/nonPositiveInteger is restricted by facet pattern with
     value \-\d{13}.
@@ -1860,11 +1977,12 @@ def test_atomic_non_positive_integer_pattern_3_nistxml_sv_iv_atomic_non_positive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_pattern_3_nistxml_sv_iv_atomic_non_positive_integer_pattern_4_2(mode, save_output):
+def test_atomic_non_positive_integer_pattern_3_nistxml_sv_iv_atomic_non_positive_integer_pattern_4_2(mode, save_output, output_format):
     r"""
     Type atomic/nonPositiveInteger is restricted by facet pattern with
     value \-\d{13}.
@@ -1876,11 +1994,12 @@ def test_atomic_non_positive_integer_pattern_3_nistxml_sv_iv_atomic_non_positive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_pattern_3_nistxml_sv_iv_atomic_non_positive_integer_pattern_4_3(mode, save_output):
+def test_atomic_non_positive_integer_pattern_3_nistxml_sv_iv_atomic_non_positive_integer_pattern_4_3(mode, save_output, output_format):
     r"""
     Type atomic/nonPositiveInteger is restricted by facet pattern with
     value \-\d{13}.
@@ -1892,11 +2011,12 @@ def test_atomic_non_positive_integer_pattern_3_nistxml_sv_iv_atomic_non_positive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_pattern_3_nistxml_sv_iv_atomic_non_positive_integer_pattern_4_4(mode, save_output):
+def test_atomic_non_positive_integer_pattern_3_nistxml_sv_iv_atomic_non_positive_integer_pattern_4_4(mode, save_output, output_format):
     r"""
     Type atomic/nonPositiveInteger is restricted by facet pattern with
     value \-\d{13}.
@@ -1908,11 +2028,12 @@ def test_atomic_non_positive_integer_pattern_3_nistxml_sv_iv_atomic_non_positive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_pattern_3_nistxml_sv_iv_atomic_non_positive_integer_pattern_4_5(mode, save_output):
+def test_atomic_non_positive_integer_pattern_3_nistxml_sv_iv_atomic_non_positive_integer_pattern_4_5(mode, save_output, output_format):
     r"""
     Type atomic/nonPositiveInteger is restricted by facet pattern with
     value \-\d{13}.
@@ -1924,11 +2045,12 @@ def test_atomic_non_positive_integer_pattern_3_nistxml_sv_iv_atomic_non_positive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_pattern_2_nistxml_sv_iv_atomic_non_positive_integer_pattern_3_1(mode, save_output):
+def test_atomic_non_positive_integer_pattern_2_nistxml_sv_iv_atomic_non_positive_integer_pattern_3_1(mode, save_output, output_format):
     r"""
     Type atomic/nonPositiveInteger is restricted by facet pattern with
     value \-\d{9}.
@@ -1940,11 +2062,12 @@ def test_atomic_non_positive_integer_pattern_2_nistxml_sv_iv_atomic_non_positive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_pattern_2_nistxml_sv_iv_atomic_non_positive_integer_pattern_3_2(mode, save_output):
+def test_atomic_non_positive_integer_pattern_2_nistxml_sv_iv_atomic_non_positive_integer_pattern_3_2(mode, save_output, output_format):
     r"""
     Type atomic/nonPositiveInteger is restricted by facet pattern with
     value \-\d{9}.
@@ -1956,11 +2079,12 @@ def test_atomic_non_positive_integer_pattern_2_nistxml_sv_iv_atomic_non_positive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_pattern_2_nistxml_sv_iv_atomic_non_positive_integer_pattern_3_3(mode, save_output):
+def test_atomic_non_positive_integer_pattern_2_nistxml_sv_iv_atomic_non_positive_integer_pattern_3_3(mode, save_output, output_format):
     r"""
     Type atomic/nonPositiveInteger is restricted by facet pattern with
     value \-\d{9}.
@@ -1972,11 +2096,12 @@ def test_atomic_non_positive_integer_pattern_2_nistxml_sv_iv_atomic_non_positive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_pattern_2_nistxml_sv_iv_atomic_non_positive_integer_pattern_3_4(mode, save_output):
+def test_atomic_non_positive_integer_pattern_2_nistxml_sv_iv_atomic_non_positive_integer_pattern_3_4(mode, save_output, output_format):
     r"""
     Type atomic/nonPositiveInteger is restricted by facet pattern with
     value \-\d{9}.
@@ -1988,11 +2113,12 @@ def test_atomic_non_positive_integer_pattern_2_nistxml_sv_iv_atomic_non_positive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_pattern_2_nistxml_sv_iv_atomic_non_positive_integer_pattern_3_5(mode, save_output):
+def test_atomic_non_positive_integer_pattern_2_nistxml_sv_iv_atomic_non_positive_integer_pattern_3_5(mode, save_output, output_format):
     r"""
     Type atomic/nonPositiveInteger is restricted by facet pattern with
     value \-\d{9}.
@@ -2004,11 +2130,12 @@ def test_atomic_non_positive_integer_pattern_2_nistxml_sv_iv_atomic_non_positive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_pattern_1_nistxml_sv_iv_atomic_non_positive_integer_pattern_2_1(mode, save_output):
+def test_atomic_non_positive_integer_pattern_1_nistxml_sv_iv_atomic_non_positive_integer_pattern_2_1(mode, save_output, output_format):
     r"""
     Type atomic/nonPositiveInteger is restricted by facet pattern with
     value \-\d{5}.
@@ -2020,11 +2147,12 @@ def test_atomic_non_positive_integer_pattern_1_nistxml_sv_iv_atomic_non_positive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_pattern_1_nistxml_sv_iv_atomic_non_positive_integer_pattern_2_2(mode, save_output):
+def test_atomic_non_positive_integer_pattern_1_nistxml_sv_iv_atomic_non_positive_integer_pattern_2_2(mode, save_output, output_format):
     r"""
     Type atomic/nonPositiveInteger is restricted by facet pattern with
     value \-\d{5}.
@@ -2036,11 +2164,12 @@ def test_atomic_non_positive_integer_pattern_1_nistxml_sv_iv_atomic_non_positive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_pattern_1_nistxml_sv_iv_atomic_non_positive_integer_pattern_2_3(mode, save_output):
+def test_atomic_non_positive_integer_pattern_1_nistxml_sv_iv_atomic_non_positive_integer_pattern_2_3(mode, save_output, output_format):
     r"""
     Type atomic/nonPositiveInteger is restricted by facet pattern with
     value \-\d{5}.
@@ -2052,11 +2181,12 @@ def test_atomic_non_positive_integer_pattern_1_nistxml_sv_iv_atomic_non_positive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_pattern_1_nistxml_sv_iv_atomic_non_positive_integer_pattern_2_4(mode, save_output):
+def test_atomic_non_positive_integer_pattern_1_nistxml_sv_iv_atomic_non_positive_integer_pattern_2_4(mode, save_output, output_format):
     r"""
     Type atomic/nonPositiveInteger is restricted by facet pattern with
     value \-\d{5}.
@@ -2068,11 +2198,12 @@ def test_atomic_non_positive_integer_pattern_1_nistxml_sv_iv_atomic_non_positive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_pattern_1_nistxml_sv_iv_atomic_non_positive_integer_pattern_2_5(mode, save_output):
+def test_atomic_non_positive_integer_pattern_1_nistxml_sv_iv_atomic_non_positive_integer_pattern_2_5(mode, save_output, output_format):
     r"""
     Type atomic/nonPositiveInteger is restricted by facet pattern with
     value \-\d{5}.
@@ -2084,11 +2215,12 @@ def test_atomic_non_positive_integer_pattern_1_nistxml_sv_iv_atomic_non_positive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_pattern_nistxml_sv_iv_atomic_non_positive_integer_pattern_1_1(mode, save_output):
+def test_atomic_non_positive_integer_pattern_nistxml_sv_iv_atomic_non_positive_integer_pattern_1_1(mode, save_output, output_format):
     r"""
     Type atomic/nonPositiveInteger is restricted by facet pattern with
     value \-\d{1}.
@@ -2100,11 +2232,12 @@ def test_atomic_non_positive_integer_pattern_nistxml_sv_iv_atomic_non_positive_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_pattern_nistxml_sv_iv_atomic_non_positive_integer_pattern_1_2(mode, save_output):
+def test_atomic_non_positive_integer_pattern_nistxml_sv_iv_atomic_non_positive_integer_pattern_1_2(mode, save_output, output_format):
     r"""
     Type atomic/nonPositiveInteger is restricted by facet pattern with
     value \-\d{1}.
@@ -2116,11 +2249,12 @@ def test_atomic_non_positive_integer_pattern_nistxml_sv_iv_atomic_non_positive_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_pattern_nistxml_sv_iv_atomic_non_positive_integer_pattern_1_3(mode, save_output):
+def test_atomic_non_positive_integer_pattern_nistxml_sv_iv_atomic_non_positive_integer_pattern_1_3(mode, save_output, output_format):
     r"""
     Type atomic/nonPositiveInteger is restricted by facet pattern with
     value \-\d{1}.
@@ -2132,11 +2266,12 @@ def test_atomic_non_positive_integer_pattern_nistxml_sv_iv_atomic_non_positive_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_pattern_nistxml_sv_iv_atomic_non_positive_integer_pattern_1_4(mode, save_output):
+def test_atomic_non_positive_integer_pattern_nistxml_sv_iv_atomic_non_positive_integer_pattern_1_4(mode, save_output, output_format):
     r"""
     Type atomic/nonPositiveInteger is restricted by facet pattern with
     value \-\d{1}.
@@ -2148,11 +2283,12 @@ def test_atomic_non_positive_integer_pattern_nistxml_sv_iv_atomic_non_positive_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_pattern_nistxml_sv_iv_atomic_non_positive_integer_pattern_1_5(mode, save_output):
+def test_atomic_non_positive_integer_pattern_nistxml_sv_iv_atomic_non_positive_integer_pattern_1_5(mode, save_output, output_format):
     r"""
     Type atomic/nonPositiveInteger is restricted by facet pattern with
     value \-\d{1}.
@@ -2164,11 +2300,12 @@ def test_atomic_non_positive_integer_pattern_nistxml_sv_iv_atomic_non_positive_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_total_digits_4_nistxml_sv_iv_atomic_non_positive_integer_total_digits_5_1(mode, save_output):
+def test_atomic_non_positive_integer_total_digits_4_nistxml_sv_iv_atomic_non_positive_integer_total_digits_5_1(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet totalDigits with
     value 18.
@@ -2180,11 +2317,12 @@ def test_atomic_non_positive_integer_total_digits_4_nistxml_sv_iv_atomic_non_pos
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_total_digits_4_nistxml_sv_iv_atomic_non_positive_integer_total_digits_5_2(mode, save_output):
+def test_atomic_non_positive_integer_total_digits_4_nistxml_sv_iv_atomic_non_positive_integer_total_digits_5_2(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet totalDigits with
     value 18.
@@ -2196,11 +2334,12 @@ def test_atomic_non_positive_integer_total_digits_4_nistxml_sv_iv_atomic_non_pos
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_total_digits_4_nistxml_sv_iv_atomic_non_positive_integer_total_digits_5_3(mode, save_output):
+def test_atomic_non_positive_integer_total_digits_4_nistxml_sv_iv_atomic_non_positive_integer_total_digits_5_3(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet totalDigits with
     value 18.
@@ -2212,11 +2351,12 @@ def test_atomic_non_positive_integer_total_digits_4_nistxml_sv_iv_atomic_non_pos
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_total_digits_4_nistxml_sv_iv_atomic_non_positive_integer_total_digits_5_4(mode, save_output):
+def test_atomic_non_positive_integer_total_digits_4_nistxml_sv_iv_atomic_non_positive_integer_total_digits_5_4(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet totalDigits with
     value 18.
@@ -2228,11 +2368,12 @@ def test_atomic_non_positive_integer_total_digits_4_nistxml_sv_iv_atomic_non_pos
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_total_digits_4_nistxml_sv_iv_atomic_non_positive_integer_total_digits_5_5(mode, save_output):
+def test_atomic_non_positive_integer_total_digits_4_nistxml_sv_iv_atomic_non_positive_integer_total_digits_5_5(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet totalDigits with
     value 18.
@@ -2244,11 +2385,12 @@ def test_atomic_non_positive_integer_total_digits_4_nistxml_sv_iv_atomic_non_pos
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_total_digits_3_nistxml_sv_iv_atomic_non_positive_integer_total_digits_4_1(mode, save_output):
+def test_atomic_non_positive_integer_total_digits_3_nistxml_sv_iv_atomic_non_positive_integer_total_digits_4_1(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet totalDigits with
     value 13.
@@ -2260,11 +2402,12 @@ def test_atomic_non_positive_integer_total_digits_3_nistxml_sv_iv_atomic_non_pos
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_total_digits_3_nistxml_sv_iv_atomic_non_positive_integer_total_digits_4_2(mode, save_output):
+def test_atomic_non_positive_integer_total_digits_3_nistxml_sv_iv_atomic_non_positive_integer_total_digits_4_2(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet totalDigits with
     value 13.
@@ -2276,11 +2419,12 @@ def test_atomic_non_positive_integer_total_digits_3_nistxml_sv_iv_atomic_non_pos
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_total_digits_3_nistxml_sv_iv_atomic_non_positive_integer_total_digits_4_3(mode, save_output):
+def test_atomic_non_positive_integer_total_digits_3_nistxml_sv_iv_atomic_non_positive_integer_total_digits_4_3(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet totalDigits with
     value 13.
@@ -2292,11 +2436,12 @@ def test_atomic_non_positive_integer_total_digits_3_nistxml_sv_iv_atomic_non_pos
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_total_digits_3_nistxml_sv_iv_atomic_non_positive_integer_total_digits_4_4(mode, save_output):
+def test_atomic_non_positive_integer_total_digits_3_nistxml_sv_iv_atomic_non_positive_integer_total_digits_4_4(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet totalDigits with
     value 13.
@@ -2308,11 +2453,12 @@ def test_atomic_non_positive_integer_total_digits_3_nistxml_sv_iv_atomic_non_pos
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_total_digits_3_nistxml_sv_iv_atomic_non_positive_integer_total_digits_4_5(mode, save_output):
+def test_atomic_non_positive_integer_total_digits_3_nistxml_sv_iv_atomic_non_positive_integer_total_digits_4_5(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet totalDigits with
     value 13.
@@ -2324,11 +2470,12 @@ def test_atomic_non_positive_integer_total_digits_3_nistxml_sv_iv_atomic_non_pos
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_total_digits_2_nistxml_sv_iv_atomic_non_positive_integer_total_digits_3_1(mode, save_output):
+def test_atomic_non_positive_integer_total_digits_2_nistxml_sv_iv_atomic_non_positive_integer_total_digits_3_1(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet totalDigits with
     value 9.
@@ -2340,11 +2487,12 @@ def test_atomic_non_positive_integer_total_digits_2_nistxml_sv_iv_atomic_non_pos
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_total_digits_2_nistxml_sv_iv_atomic_non_positive_integer_total_digits_3_2(mode, save_output):
+def test_atomic_non_positive_integer_total_digits_2_nistxml_sv_iv_atomic_non_positive_integer_total_digits_3_2(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet totalDigits with
     value 9.
@@ -2356,11 +2504,12 @@ def test_atomic_non_positive_integer_total_digits_2_nistxml_sv_iv_atomic_non_pos
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_total_digits_2_nistxml_sv_iv_atomic_non_positive_integer_total_digits_3_3(mode, save_output):
+def test_atomic_non_positive_integer_total_digits_2_nistxml_sv_iv_atomic_non_positive_integer_total_digits_3_3(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet totalDigits with
     value 9.
@@ -2372,11 +2521,12 @@ def test_atomic_non_positive_integer_total_digits_2_nistxml_sv_iv_atomic_non_pos
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_total_digits_2_nistxml_sv_iv_atomic_non_positive_integer_total_digits_3_4(mode, save_output):
+def test_atomic_non_positive_integer_total_digits_2_nistxml_sv_iv_atomic_non_positive_integer_total_digits_3_4(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet totalDigits with
     value 9.
@@ -2388,11 +2538,12 @@ def test_atomic_non_positive_integer_total_digits_2_nistxml_sv_iv_atomic_non_pos
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_total_digits_2_nistxml_sv_iv_atomic_non_positive_integer_total_digits_3_5(mode, save_output):
+def test_atomic_non_positive_integer_total_digits_2_nistxml_sv_iv_atomic_non_positive_integer_total_digits_3_5(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet totalDigits with
     value 9.
@@ -2404,11 +2555,12 @@ def test_atomic_non_positive_integer_total_digits_2_nistxml_sv_iv_atomic_non_pos
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_total_digits_1_nistxml_sv_iv_atomic_non_positive_integer_total_digits_2_1(mode, save_output):
+def test_atomic_non_positive_integer_total_digits_1_nistxml_sv_iv_atomic_non_positive_integer_total_digits_2_1(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet totalDigits with
     value 5.
@@ -2420,11 +2572,12 @@ def test_atomic_non_positive_integer_total_digits_1_nistxml_sv_iv_atomic_non_pos
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_total_digits_1_nistxml_sv_iv_atomic_non_positive_integer_total_digits_2_2(mode, save_output):
+def test_atomic_non_positive_integer_total_digits_1_nistxml_sv_iv_atomic_non_positive_integer_total_digits_2_2(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet totalDigits with
     value 5.
@@ -2436,11 +2589,12 @@ def test_atomic_non_positive_integer_total_digits_1_nistxml_sv_iv_atomic_non_pos
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_total_digits_1_nistxml_sv_iv_atomic_non_positive_integer_total_digits_2_3(mode, save_output):
+def test_atomic_non_positive_integer_total_digits_1_nistxml_sv_iv_atomic_non_positive_integer_total_digits_2_3(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet totalDigits with
     value 5.
@@ -2452,11 +2606,12 @@ def test_atomic_non_positive_integer_total_digits_1_nistxml_sv_iv_atomic_non_pos
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_total_digits_1_nistxml_sv_iv_atomic_non_positive_integer_total_digits_2_4(mode, save_output):
+def test_atomic_non_positive_integer_total_digits_1_nistxml_sv_iv_atomic_non_positive_integer_total_digits_2_4(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet totalDigits with
     value 5.
@@ -2468,11 +2623,12 @@ def test_atomic_non_positive_integer_total_digits_1_nistxml_sv_iv_atomic_non_pos
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_total_digits_1_nistxml_sv_iv_atomic_non_positive_integer_total_digits_2_5(mode, save_output):
+def test_atomic_non_positive_integer_total_digits_1_nistxml_sv_iv_atomic_non_positive_integer_total_digits_2_5(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet totalDigits with
     value 5.
@@ -2484,11 +2640,12 @@ def test_atomic_non_positive_integer_total_digits_1_nistxml_sv_iv_atomic_non_pos
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_total_digits_nistxml_sv_iv_atomic_non_positive_integer_total_digits_1_1(mode, save_output):
+def test_atomic_non_positive_integer_total_digits_nistxml_sv_iv_atomic_non_positive_integer_total_digits_1_1(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet totalDigits with
     value 1.
@@ -2500,11 +2657,12 @@ def test_atomic_non_positive_integer_total_digits_nistxml_sv_iv_atomic_non_posit
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_total_digits_nistxml_sv_iv_atomic_non_positive_integer_total_digits_1_2(mode, save_output):
+def test_atomic_non_positive_integer_total_digits_nistxml_sv_iv_atomic_non_positive_integer_total_digits_1_2(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet totalDigits with
     value 1.
@@ -2516,11 +2674,12 @@ def test_atomic_non_positive_integer_total_digits_nistxml_sv_iv_atomic_non_posit
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_total_digits_nistxml_sv_iv_atomic_non_positive_integer_total_digits_1_3(mode, save_output):
+def test_atomic_non_positive_integer_total_digits_nistxml_sv_iv_atomic_non_positive_integer_total_digits_1_3(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet totalDigits with
     value 1.
@@ -2532,11 +2691,12 @@ def test_atomic_non_positive_integer_total_digits_nistxml_sv_iv_atomic_non_posit
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_total_digits_nistxml_sv_iv_atomic_non_positive_integer_total_digits_1_4(mode, save_output):
+def test_atomic_non_positive_integer_total_digits_nistxml_sv_iv_atomic_non_positive_integer_total_digits_1_4(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet totalDigits with
     value 1.
@@ -2548,11 +2708,12 @@ def test_atomic_non_positive_integer_total_digits_nistxml_sv_iv_atomic_non_posit
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_total_digits_nistxml_sv_iv_atomic_non_positive_integer_total_digits_1_5(mode, save_output):
+def test_atomic_non_positive_integer_total_digits_nistxml_sv_iv_atomic_non_positive_integer_total_digits_1_5(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet totalDigits with
     value 1.
@@ -2564,11 +2725,12 @@ def test_atomic_non_positive_integer_total_digits_nistxml_sv_iv_atomic_non_posit
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_fraction_digits_nistxml_sv_iv_atomic_non_positive_integer_fraction_digits_1_1(mode, save_output):
+def test_atomic_non_positive_integer_fraction_digits_nistxml_sv_iv_atomic_non_positive_integer_fraction_digits_1_1(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet fractionDigits
     with value 0.
@@ -2580,11 +2742,12 @@ def test_atomic_non_positive_integer_fraction_digits_nistxml_sv_iv_atomic_non_po
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_fraction_digits_nistxml_sv_iv_atomic_non_positive_integer_fraction_digits_1_2(mode, save_output):
+def test_atomic_non_positive_integer_fraction_digits_nistxml_sv_iv_atomic_non_positive_integer_fraction_digits_1_2(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet fractionDigits
     with value 0.
@@ -2596,11 +2759,12 @@ def test_atomic_non_positive_integer_fraction_digits_nistxml_sv_iv_atomic_non_po
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_fraction_digits_nistxml_sv_iv_atomic_non_positive_integer_fraction_digits_1_3(mode, save_output):
+def test_atomic_non_positive_integer_fraction_digits_nistxml_sv_iv_atomic_non_positive_integer_fraction_digits_1_3(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet fractionDigits
     with value 0.
@@ -2612,11 +2776,12 @@ def test_atomic_non_positive_integer_fraction_digits_nistxml_sv_iv_atomic_non_po
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_fraction_digits_nistxml_sv_iv_atomic_non_positive_integer_fraction_digits_1_4(mode, save_output):
+def test_atomic_non_positive_integer_fraction_digits_nistxml_sv_iv_atomic_non_positive_integer_fraction_digits_1_4(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet fractionDigits
     with value 0.
@@ -2628,11 +2793,12 @@ def test_atomic_non_positive_integer_fraction_digits_nistxml_sv_iv_atomic_non_po
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_fraction_digits_nistxml_sv_iv_atomic_non_positive_integer_fraction_digits_1_5(mode, save_output):
+def test_atomic_non_positive_integer_fraction_digits_nistxml_sv_iv_atomic_non_positive_integer_fraction_digits_1_5(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet fractionDigits
     with value 0.
@@ -2644,11 +2810,12 @@ def test_atomic_non_positive_integer_fraction_digits_nistxml_sv_iv_atomic_non_po
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_max_inclusive_4_nistxml_sv_iv_atomic_non_positive_integer_max_inclusive_5_1(mode, save_output):
+def test_atomic_non_positive_integer_max_inclusive_4_nistxml_sv_iv_atomic_non_positive_integer_max_inclusive_5_1(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxInclusive
     with value 0.
@@ -2660,11 +2827,12 @@ def test_atomic_non_positive_integer_max_inclusive_4_nistxml_sv_iv_atomic_non_po
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_max_inclusive_4_nistxml_sv_iv_atomic_non_positive_integer_max_inclusive_5_2(mode, save_output):
+def test_atomic_non_positive_integer_max_inclusive_4_nistxml_sv_iv_atomic_non_positive_integer_max_inclusive_5_2(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxInclusive
     with value 0.
@@ -2676,11 +2844,12 @@ def test_atomic_non_positive_integer_max_inclusive_4_nistxml_sv_iv_atomic_non_po
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_max_inclusive_4_nistxml_sv_iv_atomic_non_positive_integer_max_inclusive_5_3(mode, save_output):
+def test_atomic_non_positive_integer_max_inclusive_4_nistxml_sv_iv_atomic_non_positive_integer_max_inclusive_5_3(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxInclusive
     with value 0.
@@ -2692,11 +2861,12 @@ def test_atomic_non_positive_integer_max_inclusive_4_nistxml_sv_iv_atomic_non_po
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_max_inclusive_4_nistxml_sv_iv_atomic_non_positive_integer_max_inclusive_5_4(mode, save_output):
+def test_atomic_non_positive_integer_max_inclusive_4_nistxml_sv_iv_atomic_non_positive_integer_max_inclusive_5_4(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxInclusive
     with value 0.
@@ -2708,11 +2878,12 @@ def test_atomic_non_positive_integer_max_inclusive_4_nistxml_sv_iv_atomic_non_po
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_max_inclusive_4_nistxml_sv_iv_atomic_non_positive_integer_max_inclusive_5_5(mode, save_output):
+def test_atomic_non_positive_integer_max_inclusive_4_nistxml_sv_iv_atomic_non_positive_integer_max_inclusive_5_5(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxInclusive
     with value 0.
@@ -2724,11 +2895,12 @@ def test_atomic_non_positive_integer_max_inclusive_4_nistxml_sv_iv_atomic_non_po
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_max_inclusive_3_nistxml_sv_iv_atomic_non_positive_integer_max_inclusive_4_1(mode, save_output):
+def test_atomic_non_positive_integer_max_inclusive_3_nistxml_sv_iv_atomic_non_positive_integer_max_inclusive_4_1(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxInclusive
     with value -686635117591375964.
@@ -2740,11 +2912,12 @@ def test_atomic_non_positive_integer_max_inclusive_3_nistxml_sv_iv_atomic_non_po
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_max_inclusive_3_nistxml_sv_iv_atomic_non_positive_integer_max_inclusive_4_2(mode, save_output):
+def test_atomic_non_positive_integer_max_inclusive_3_nistxml_sv_iv_atomic_non_positive_integer_max_inclusive_4_2(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxInclusive
     with value -686635117591375964.
@@ -2756,11 +2929,12 @@ def test_atomic_non_positive_integer_max_inclusive_3_nistxml_sv_iv_atomic_non_po
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_max_inclusive_3_nistxml_sv_iv_atomic_non_positive_integer_max_inclusive_4_3(mode, save_output):
+def test_atomic_non_positive_integer_max_inclusive_3_nistxml_sv_iv_atomic_non_positive_integer_max_inclusive_4_3(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxInclusive
     with value -686635117591375964.
@@ -2772,11 +2946,12 @@ def test_atomic_non_positive_integer_max_inclusive_3_nistxml_sv_iv_atomic_non_po
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_max_inclusive_3_nistxml_sv_iv_atomic_non_positive_integer_max_inclusive_4_4(mode, save_output):
+def test_atomic_non_positive_integer_max_inclusive_3_nistxml_sv_iv_atomic_non_positive_integer_max_inclusive_4_4(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxInclusive
     with value -686635117591375964.
@@ -2788,11 +2963,12 @@ def test_atomic_non_positive_integer_max_inclusive_3_nistxml_sv_iv_atomic_non_po
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_max_inclusive_3_nistxml_sv_iv_atomic_non_positive_integer_max_inclusive_4_5(mode, save_output):
+def test_atomic_non_positive_integer_max_inclusive_3_nistxml_sv_iv_atomic_non_positive_integer_max_inclusive_4_5(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxInclusive
     with value -686635117591375964.
@@ -2804,11 +2980,12 @@ def test_atomic_non_positive_integer_max_inclusive_3_nistxml_sv_iv_atomic_non_po
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_max_inclusive_2_nistxml_sv_iv_atomic_non_positive_integer_max_inclusive_3_1(mode, save_output):
+def test_atomic_non_positive_integer_max_inclusive_2_nistxml_sv_iv_atomic_non_positive_integer_max_inclusive_3_1(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxInclusive
     with value -78303033269241706.
@@ -2820,11 +2997,12 @@ def test_atomic_non_positive_integer_max_inclusive_2_nistxml_sv_iv_atomic_non_po
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_max_inclusive_2_nistxml_sv_iv_atomic_non_positive_integer_max_inclusive_3_2(mode, save_output):
+def test_atomic_non_positive_integer_max_inclusive_2_nistxml_sv_iv_atomic_non_positive_integer_max_inclusive_3_2(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxInclusive
     with value -78303033269241706.
@@ -2836,11 +3014,12 @@ def test_atomic_non_positive_integer_max_inclusive_2_nistxml_sv_iv_atomic_non_po
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_max_inclusive_2_nistxml_sv_iv_atomic_non_positive_integer_max_inclusive_3_3(mode, save_output):
+def test_atomic_non_positive_integer_max_inclusive_2_nistxml_sv_iv_atomic_non_positive_integer_max_inclusive_3_3(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxInclusive
     with value -78303033269241706.
@@ -2852,11 +3031,12 @@ def test_atomic_non_positive_integer_max_inclusive_2_nistxml_sv_iv_atomic_non_po
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_max_inclusive_2_nistxml_sv_iv_atomic_non_positive_integer_max_inclusive_3_4(mode, save_output):
+def test_atomic_non_positive_integer_max_inclusive_2_nistxml_sv_iv_atomic_non_positive_integer_max_inclusive_3_4(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxInclusive
     with value -78303033269241706.
@@ -2868,11 +3048,12 @@ def test_atomic_non_positive_integer_max_inclusive_2_nistxml_sv_iv_atomic_non_po
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_max_inclusive_2_nistxml_sv_iv_atomic_non_positive_integer_max_inclusive_3_5(mode, save_output):
+def test_atomic_non_positive_integer_max_inclusive_2_nistxml_sv_iv_atomic_non_positive_integer_max_inclusive_3_5(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxInclusive
     with value -78303033269241706.
@@ -2884,11 +3065,12 @@ def test_atomic_non_positive_integer_max_inclusive_2_nistxml_sv_iv_atomic_non_po
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_max_inclusive_1_nistxml_sv_iv_atomic_non_positive_integer_max_inclusive_2_1(mode, save_output):
+def test_atomic_non_positive_integer_max_inclusive_1_nistxml_sv_iv_atomic_non_positive_integer_max_inclusive_2_1(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxInclusive
     with value -63404852978511949.
@@ -2900,11 +3082,12 @@ def test_atomic_non_positive_integer_max_inclusive_1_nistxml_sv_iv_atomic_non_po
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_max_inclusive_1_nistxml_sv_iv_atomic_non_positive_integer_max_inclusive_2_2(mode, save_output):
+def test_atomic_non_positive_integer_max_inclusive_1_nistxml_sv_iv_atomic_non_positive_integer_max_inclusive_2_2(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxInclusive
     with value -63404852978511949.
@@ -2916,11 +3099,12 @@ def test_atomic_non_positive_integer_max_inclusive_1_nistxml_sv_iv_atomic_non_po
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_max_inclusive_1_nistxml_sv_iv_atomic_non_positive_integer_max_inclusive_2_3(mode, save_output):
+def test_atomic_non_positive_integer_max_inclusive_1_nistxml_sv_iv_atomic_non_positive_integer_max_inclusive_2_3(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxInclusive
     with value -63404852978511949.
@@ -2932,11 +3116,12 @@ def test_atomic_non_positive_integer_max_inclusive_1_nistxml_sv_iv_atomic_non_po
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_max_inclusive_1_nistxml_sv_iv_atomic_non_positive_integer_max_inclusive_2_4(mode, save_output):
+def test_atomic_non_positive_integer_max_inclusive_1_nistxml_sv_iv_atomic_non_positive_integer_max_inclusive_2_4(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxInclusive
     with value -63404852978511949.
@@ -2948,11 +3133,12 @@ def test_atomic_non_positive_integer_max_inclusive_1_nistxml_sv_iv_atomic_non_po
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_max_inclusive_1_nistxml_sv_iv_atomic_non_positive_integer_max_inclusive_2_5(mode, save_output):
+def test_atomic_non_positive_integer_max_inclusive_1_nistxml_sv_iv_atomic_non_positive_integer_max_inclusive_2_5(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxInclusive
     with value -63404852978511949.
@@ -2964,11 +3150,12 @@ def test_atomic_non_positive_integer_max_inclusive_1_nistxml_sv_iv_atomic_non_po
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_max_inclusive_nistxml_sv_iv_atomic_non_positive_integer_max_inclusive_1_1(mode, save_output):
+def test_atomic_non_positive_integer_max_inclusive_nistxml_sv_iv_atomic_non_positive_integer_max_inclusive_1_1(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxInclusive
     with value -999999999999999999.
@@ -2980,11 +3167,12 @@ def test_atomic_non_positive_integer_max_inclusive_nistxml_sv_iv_atomic_non_posi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_max_exclusive_4_nistxml_sv_iv_atomic_non_positive_integer_max_exclusive_5_1(mode, save_output):
+def test_atomic_non_positive_integer_max_exclusive_4_nistxml_sv_iv_atomic_non_positive_integer_max_exclusive_5_1(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxExclusive
     with value 0.
@@ -2996,11 +3184,12 @@ def test_atomic_non_positive_integer_max_exclusive_4_nistxml_sv_iv_atomic_non_po
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_max_exclusive_4_nistxml_sv_iv_atomic_non_positive_integer_max_exclusive_5_2(mode, save_output):
+def test_atomic_non_positive_integer_max_exclusive_4_nistxml_sv_iv_atomic_non_positive_integer_max_exclusive_5_2(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxExclusive
     with value 0.
@@ -3012,11 +3201,12 @@ def test_atomic_non_positive_integer_max_exclusive_4_nistxml_sv_iv_atomic_non_po
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_max_exclusive_4_nistxml_sv_iv_atomic_non_positive_integer_max_exclusive_5_3(mode, save_output):
+def test_atomic_non_positive_integer_max_exclusive_4_nistxml_sv_iv_atomic_non_positive_integer_max_exclusive_5_3(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxExclusive
     with value 0.
@@ -3028,11 +3218,12 @@ def test_atomic_non_positive_integer_max_exclusive_4_nistxml_sv_iv_atomic_non_po
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_max_exclusive_4_nistxml_sv_iv_atomic_non_positive_integer_max_exclusive_5_4(mode, save_output):
+def test_atomic_non_positive_integer_max_exclusive_4_nistxml_sv_iv_atomic_non_positive_integer_max_exclusive_5_4(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxExclusive
     with value 0.
@@ -3044,11 +3235,12 @@ def test_atomic_non_positive_integer_max_exclusive_4_nistxml_sv_iv_atomic_non_po
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_max_exclusive_4_nistxml_sv_iv_atomic_non_positive_integer_max_exclusive_5_5(mode, save_output):
+def test_atomic_non_positive_integer_max_exclusive_4_nistxml_sv_iv_atomic_non_positive_integer_max_exclusive_5_5(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxExclusive
     with value 0.
@@ -3060,11 +3252,12 @@ def test_atomic_non_positive_integer_max_exclusive_4_nistxml_sv_iv_atomic_non_po
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_max_exclusive_3_nistxml_sv_iv_atomic_non_positive_integer_max_exclusive_4_1(mode, save_output):
+def test_atomic_non_positive_integer_max_exclusive_3_nistxml_sv_iv_atomic_non_positive_integer_max_exclusive_4_1(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxExclusive
     with value -398718969796236887.
@@ -3076,11 +3269,12 @@ def test_atomic_non_positive_integer_max_exclusive_3_nistxml_sv_iv_atomic_non_po
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_max_exclusive_3_nistxml_sv_iv_atomic_non_positive_integer_max_exclusive_4_2(mode, save_output):
+def test_atomic_non_positive_integer_max_exclusive_3_nistxml_sv_iv_atomic_non_positive_integer_max_exclusive_4_2(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxExclusive
     with value -398718969796236887.
@@ -3092,11 +3286,12 @@ def test_atomic_non_positive_integer_max_exclusive_3_nistxml_sv_iv_atomic_non_po
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_max_exclusive_3_nistxml_sv_iv_atomic_non_positive_integer_max_exclusive_4_3(mode, save_output):
+def test_atomic_non_positive_integer_max_exclusive_3_nistxml_sv_iv_atomic_non_positive_integer_max_exclusive_4_3(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxExclusive
     with value -398718969796236887.
@@ -3108,11 +3303,12 @@ def test_atomic_non_positive_integer_max_exclusive_3_nistxml_sv_iv_atomic_non_po
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_max_exclusive_3_nistxml_sv_iv_atomic_non_positive_integer_max_exclusive_4_4(mode, save_output):
+def test_atomic_non_positive_integer_max_exclusive_3_nistxml_sv_iv_atomic_non_positive_integer_max_exclusive_4_4(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxExclusive
     with value -398718969796236887.
@@ -3124,11 +3320,12 @@ def test_atomic_non_positive_integer_max_exclusive_3_nistxml_sv_iv_atomic_non_po
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_max_exclusive_3_nistxml_sv_iv_atomic_non_positive_integer_max_exclusive_4_5(mode, save_output):
+def test_atomic_non_positive_integer_max_exclusive_3_nistxml_sv_iv_atomic_non_positive_integer_max_exclusive_4_5(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxExclusive
     with value -398718969796236887.
@@ -3140,11 +3337,12 @@ def test_atomic_non_positive_integer_max_exclusive_3_nistxml_sv_iv_atomic_non_po
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_max_exclusive_2_nistxml_sv_iv_atomic_non_positive_integer_max_exclusive_3_1(mode, save_output):
+def test_atomic_non_positive_integer_max_exclusive_2_nistxml_sv_iv_atomic_non_positive_integer_max_exclusive_3_1(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxExclusive
     with value -64116953963150757.
@@ -3156,11 +3354,12 @@ def test_atomic_non_positive_integer_max_exclusive_2_nistxml_sv_iv_atomic_non_po
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_max_exclusive_2_nistxml_sv_iv_atomic_non_positive_integer_max_exclusive_3_2(mode, save_output):
+def test_atomic_non_positive_integer_max_exclusive_2_nistxml_sv_iv_atomic_non_positive_integer_max_exclusive_3_2(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxExclusive
     with value -64116953963150757.
@@ -3172,11 +3371,12 @@ def test_atomic_non_positive_integer_max_exclusive_2_nistxml_sv_iv_atomic_non_po
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_max_exclusive_2_nistxml_sv_iv_atomic_non_positive_integer_max_exclusive_3_3(mode, save_output):
+def test_atomic_non_positive_integer_max_exclusive_2_nistxml_sv_iv_atomic_non_positive_integer_max_exclusive_3_3(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxExclusive
     with value -64116953963150757.
@@ -3188,11 +3388,12 @@ def test_atomic_non_positive_integer_max_exclusive_2_nistxml_sv_iv_atomic_non_po
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_max_exclusive_2_nistxml_sv_iv_atomic_non_positive_integer_max_exclusive_3_4(mode, save_output):
+def test_atomic_non_positive_integer_max_exclusive_2_nistxml_sv_iv_atomic_non_positive_integer_max_exclusive_3_4(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxExclusive
     with value -64116953963150757.
@@ -3204,11 +3405,12 @@ def test_atomic_non_positive_integer_max_exclusive_2_nistxml_sv_iv_atomic_non_po
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_max_exclusive_2_nistxml_sv_iv_atomic_non_positive_integer_max_exclusive_3_5(mode, save_output):
+def test_atomic_non_positive_integer_max_exclusive_2_nistxml_sv_iv_atomic_non_positive_integer_max_exclusive_3_5(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxExclusive
     with value -64116953963150757.
@@ -3220,11 +3422,12 @@ def test_atomic_non_positive_integer_max_exclusive_2_nistxml_sv_iv_atomic_non_po
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_max_exclusive_1_nistxml_sv_iv_atomic_non_positive_integer_max_exclusive_2_1(mode, save_output):
+def test_atomic_non_positive_integer_max_exclusive_1_nistxml_sv_iv_atomic_non_positive_integer_max_exclusive_2_1(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxExclusive
     with value -267691436022826633.
@@ -3236,11 +3439,12 @@ def test_atomic_non_positive_integer_max_exclusive_1_nistxml_sv_iv_atomic_non_po
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_max_exclusive_1_nistxml_sv_iv_atomic_non_positive_integer_max_exclusive_2_2(mode, save_output):
+def test_atomic_non_positive_integer_max_exclusive_1_nistxml_sv_iv_atomic_non_positive_integer_max_exclusive_2_2(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxExclusive
     with value -267691436022826633.
@@ -3252,11 +3456,12 @@ def test_atomic_non_positive_integer_max_exclusive_1_nistxml_sv_iv_atomic_non_po
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_max_exclusive_1_nistxml_sv_iv_atomic_non_positive_integer_max_exclusive_2_3(mode, save_output):
+def test_atomic_non_positive_integer_max_exclusive_1_nistxml_sv_iv_atomic_non_positive_integer_max_exclusive_2_3(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxExclusive
     with value -267691436022826633.
@@ -3268,11 +3473,12 @@ def test_atomic_non_positive_integer_max_exclusive_1_nistxml_sv_iv_atomic_non_po
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_max_exclusive_1_nistxml_sv_iv_atomic_non_positive_integer_max_exclusive_2_4(mode, save_output):
+def test_atomic_non_positive_integer_max_exclusive_1_nistxml_sv_iv_atomic_non_positive_integer_max_exclusive_2_4(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxExclusive
     with value -267691436022826633.
@@ -3284,11 +3490,12 @@ def test_atomic_non_positive_integer_max_exclusive_1_nistxml_sv_iv_atomic_non_po
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_max_exclusive_1_nistxml_sv_iv_atomic_non_positive_integer_max_exclusive_2_5(mode, save_output):
+def test_atomic_non_positive_integer_max_exclusive_1_nistxml_sv_iv_atomic_non_positive_integer_max_exclusive_2_5(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxExclusive
     with value -267691436022826633.
@@ -3300,11 +3507,12 @@ def test_atomic_non_positive_integer_max_exclusive_1_nistxml_sv_iv_atomic_non_po
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_max_exclusive_nistxml_sv_iv_atomic_non_positive_integer_max_exclusive_1_1(mode, save_output):
+def test_atomic_non_positive_integer_max_exclusive_nistxml_sv_iv_atomic_non_positive_integer_max_exclusive_1_1(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxExclusive
     with value -999999999999999998.
@@ -3316,11 +3524,12 @@ def test_atomic_non_positive_integer_max_exclusive_nistxml_sv_iv_atomic_non_posi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_min_inclusive_4_nistxml_sv_iv_atomic_non_positive_integer_min_inclusive_5_1(mode, save_output):
+def test_atomic_non_positive_integer_min_inclusive_4_nistxml_sv_iv_atomic_non_positive_integer_min_inclusive_5_1(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet minInclusive
     with value 0.
@@ -3332,11 +3541,12 @@ def test_atomic_non_positive_integer_min_inclusive_4_nistxml_sv_iv_atomic_non_po
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_min_inclusive_3_nistxml_sv_iv_atomic_non_positive_integer_min_inclusive_4_1(mode, save_output):
+def test_atomic_non_positive_integer_min_inclusive_3_nistxml_sv_iv_atomic_non_positive_integer_min_inclusive_4_1(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet minInclusive
     with value -911248228325171715.
@@ -3348,11 +3558,12 @@ def test_atomic_non_positive_integer_min_inclusive_3_nistxml_sv_iv_atomic_non_po
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_min_inclusive_3_nistxml_sv_iv_atomic_non_positive_integer_min_inclusive_4_2(mode, save_output):
+def test_atomic_non_positive_integer_min_inclusive_3_nistxml_sv_iv_atomic_non_positive_integer_min_inclusive_4_2(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet minInclusive
     with value -911248228325171715.
@@ -3364,11 +3575,12 @@ def test_atomic_non_positive_integer_min_inclusive_3_nistxml_sv_iv_atomic_non_po
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_min_inclusive_3_nistxml_sv_iv_atomic_non_positive_integer_min_inclusive_4_3(mode, save_output):
+def test_atomic_non_positive_integer_min_inclusive_3_nistxml_sv_iv_atomic_non_positive_integer_min_inclusive_4_3(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet minInclusive
     with value -911248228325171715.
@@ -3380,11 +3592,12 @@ def test_atomic_non_positive_integer_min_inclusive_3_nistxml_sv_iv_atomic_non_po
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_min_inclusive_3_nistxml_sv_iv_atomic_non_positive_integer_min_inclusive_4_4(mode, save_output):
+def test_atomic_non_positive_integer_min_inclusive_3_nistxml_sv_iv_atomic_non_positive_integer_min_inclusive_4_4(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet minInclusive
     with value -911248228325171715.
@@ -3396,11 +3609,12 @@ def test_atomic_non_positive_integer_min_inclusive_3_nistxml_sv_iv_atomic_non_po
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_min_inclusive_3_nistxml_sv_iv_atomic_non_positive_integer_min_inclusive_4_5(mode, save_output):
+def test_atomic_non_positive_integer_min_inclusive_3_nistxml_sv_iv_atomic_non_positive_integer_min_inclusive_4_5(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet minInclusive
     with value -911248228325171715.
@@ -3412,11 +3626,12 @@ def test_atomic_non_positive_integer_min_inclusive_3_nistxml_sv_iv_atomic_non_po
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_min_inclusive_2_nistxml_sv_iv_atomic_non_positive_integer_min_inclusive_3_1(mode, save_output):
+def test_atomic_non_positive_integer_min_inclusive_2_nistxml_sv_iv_atomic_non_positive_integer_min_inclusive_3_1(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet minInclusive
     with value -214379312213180406.
@@ -3428,11 +3643,12 @@ def test_atomic_non_positive_integer_min_inclusive_2_nistxml_sv_iv_atomic_non_po
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_min_inclusive_2_nistxml_sv_iv_atomic_non_positive_integer_min_inclusive_3_2(mode, save_output):
+def test_atomic_non_positive_integer_min_inclusive_2_nistxml_sv_iv_atomic_non_positive_integer_min_inclusive_3_2(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet minInclusive
     with value -214379312213180406.
@@ -3444,11 +3660,12 @@ def test_atomic_non_positive_integer_min_inclusive_2_nistxml_sv_iv_atomic_non_po
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_min_inclusive_2_nistxml_sv_iv_atomic_non_positive_integer_min_inclusive_3_3(mode, save_output):
+def test_atomic_non_positive_integer_min_inclusive_2_nistxml_sv_iv_atomic_non_positive_integer_min_inclusive_3_3(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet minInclusive
     with value -214379312213180406.
@@ -3460,11 +3677,12 @@ def test_atomic_non_positive_integer_min_inclusive_2_nistxml_sv_iv_atomic_non_po
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_min_inclusive_2_nistxml_sv_iv_atomic_non_positive_integer_min_inclusive_3_4(mode, save_output):
+def test_atomic_non_positive_integer_min_inclusive_2_nistxml_sv_iv_atomic_non_positive_integer_min_inclusive_3_4(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet minInclusive
     with value -214379312213180406.
@@ -3476,11 +3694,12 @@ def test_atomic_non_positive_integer_min_inclusive_2_nistxml_sv_iv_atomic_non_po
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_min_inclusive_2_nistxml_sv_iv_atomic_non_positive_integer_min_inclusive_3_5(mode, save_output):
+def test_atomic_non_positive_integer_min_inclusive_2_nistxml_sv_iv_atomic_non_positive_integer_min_inclusive_3_5(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet minInclusive
     with value -214379312213180406.
@@ -3492,11 +3711,12 @@ def test_atomic_non_positive_integer_min_inclusive_2_nistxml_sv_iv_atomic_non_po
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_min_inclusive_1_nistxml_sv_iv_atomic_non_positive_integer_min_inclusive_2_1(mode, save_output):
+def test_atomic_non_positive_integer_min_inclusive_1_nistxml_sv_iv_atomic_non_positive_integer_min_inclusive_2_1(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet minInclusive
     with value -927820889571802863.
@@ -3508,11 +3728,12 @@ def test_atomic_non_positive_integer_min_inclusive_1_nistxml_sv_iv_atomic_non_po
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_min_inclusive_1_nistxml_sv_iv_atomic_non_positive_integer_min_inclusive_2_2(mode, save_output):
+def test_atomic_non_positive_integer_min_inclusive_1_nistxml_sv_iv_atomic_non_positive_integer_min_inclusive_2_2(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet minInclusive
     with value -927820889571802863.
@@ -3524,11 +3745,12 @@ def test_atomic_non_positive_integer_min_inclusive_1_nistxml_sv_iv_atomic_non_po
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_min_inclusive_1_nistxml_sv_iv_atomic_non_positive_integer_min_inclusive_2_3(mode, save_output):
+def test_atomic_non_positive_integer_min_inclusive_1_nistxml_sv_iv_atomic_non_positive_integer_min_inclusive_2_3(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet minInclusive
     with value -927820889571802863.
@@ -3540,11 +3762,12 @@ def test_atomic_non_positive_integer_min_inclusive_1_nistxml_sv_iv_atomic_non_po
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_min_inclusive_1_nistxml_sv_iv_atomic_non_positive_integer_min_inclusive_2_4(mode, save_output):
+def test_atomic_non_positive_integer_min_inclusive_1_nistxml_sv_iv_atomic_non_positive_integer_min_inclusive_2_4(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet minInclusive
     with value -927820889571802863.
@@ -3556,11 +3779,12 @@ def test_atomic_non_positive_integer_min_inclusive_1_nistxml_sv_iv_atomic_non_po
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_min_inclusive_1_nistxml_sv_iv_atomic_non_positive_integer_min_inclusive_2_5(mode, save_output):
+def test_atomic_non_positive_integer_min_inclusive_1_nistxml_sv_iv_atomic_non_positive_integer_min_inclusive_2_5(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet minInclusive
     with value -927820889571802863.
@@ -3572,11 +3796,12 @@ def test_atomic_non_positive_integer_min_inclusive_1_nistxml_sv_iv_atomic_non_po
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_min_inclusive_nistxml_sv_iv_atomic_non_positive_integer_min_inclusive_1_1(mode, save_output):
+def test_atomic_non_positive_integer_min_inclusive_nistxml_sv_iv_atomic_non_positive_integer_min_inclusive_1_1(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet minInclusive
     with value -999999999999999999.
@@ -3588,11 +3813,12 @@ def test_atomic_non_positive_integer_min_inclusive_nistxml_sv_iv_atomic_non_posi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_min_inclusive_nistxml_sv_iv_atomic_non_positive_integer_min_inclusive_1_2(mode, save_output):
+def test_atomic_non_positive_integer_min_inclusive_nistxml_sv_iv_atomic_non_positive_integer_min_inclusive_1_2(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet minInclusive
     with value -999999999999999999.
@@ -3604,11 +3830,12 @@ def test_atomic_non_positive_integer_min_inclusive_nistxml_sv_iv_atomic_non_posi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_min_inclusive_nistxml_sv_iv_atomic_non_positive_integer_min_inclusive_1_3(mode, save_output):
+def test_atomic_non_positive_integer_min_inclusive_nistxml_sv_iv_atomic_non_positive_integer_min_inclusive_1_3(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet minInclusive
     with value -999999999999999999.
@@ -3620,11 +3847,12 @@ def test_atomic_non_positive_integer_min_inclusive_nistxml_sv_iv_atomic_non_posi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_min_inclusive_nistxml_sv_iv_atomic_non_positive_integer_min_inclusive_1_4(mode, save_output):
+def test_atomic_non_positive_integer_min_inclusive_nistxml_sv_iv_atomic_non_positive_integer_min_inclusive_1_4(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet minInclusive
     with value -999999999999999999.
@@ -3636,11 +3864,12 @@ def test_atomic_non_positive_integer_min_inclusive_nistxml_sv_iv_atomic_non_posi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_min_inclusive_nistxml_sv_iv_atomic_non_positive_integer_min_inclusive_1_5(mode, save_output):
+def test_atomic_non_positive_integer_min_inclusive_nistxml_sv_iv_atomic_non_positive_integer_min_inclusive_1_5(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet minInclusive
     with value -999999999999999999.
@@ -3652,11 +3881,12 @@ def test_atomic_non_positive_integer_min_inclusive_nistxml_sv_iv_atomic_non_posi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_min_exclusive_4_nistxml_sv_iv_atomic_non_positive_integer_min_exclusive_5_1(mode, save_output):
+def test_atomic_non_positive_integer_min_exclusive_4_nistxml_sv_iv_atomic_non_positive_integer_min_exclusive_5_1(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet minExclusive
     with value -1.
@@ -3668,11 +3898,12 @@ def test_atomic_non_positive_integer_min_exclusive_4_nistxml_sv_iv_atomic_non_po
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_min_exclusive_3_nistxml_sv_iv_atomic_non_positive_integer_min_exclusive_4_1(mode, save_output):
+def test_atomic_non_positive_integer_min_exclusive_3_nistxml_sv_iv_atomic_non_positive_integer_min_exclusive_4_1(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet minExclusive
     with value -594976296252018754.
@@ -3684,11 +3915,12 @@ def test_atomic_non_positive_integer_min_exclusive_3_nistxml_sv_iv_atomic_non_po
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_min_exclusive_3_nistxml_sv_iv_atomic_non_positive_integer_min_exclusive_4_2(mode, save_output):
+def test_atomic_non_positive_integer_min_exclusive_3_nistxml_sv_iv_atomic_non_positive_integer_min_exclusive_4_2(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet minExclusive
     with value -594976296252018754.
@@ -3700,11 +3932,12 @@ def test_atomic_non_positive_integer_min_exclusive_3_nistxml_sv_iv_atomic_non_po
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_min_exclusive_3_nistxml_sv_iv_atomic_non_positive_integer_min_exclusive_4_3(mode, save_output):
+def test_atomic_non_positive_integer_min_exclusive_3_nistxml_sv_iv_atomic_non_positive_integer_min_exclusive_4_3(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet minExclusive
     with value -594976296252018754.
@@ -3716,11 +3949,12 @@ def test_atomic_non_positive_integer_min_exclusive_3_nistxml_sv_iv_atomic_non_po
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_min_exclusive_3_nistxml_sv_iv_atomic_non_positive_integer_min_exclusive_4_4(mode, save_output):
+def test_atomic_non_positive_integer_min_exclusive_3_nistxml_sv_iv_atomic_non_positive_integer_min_exclusive_4_4(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet minExclusive
     with value -594976296252018754.
@@ -3732,11 +3966,12 @@ def test_atomic_non_positive_integer_min_exclusive_3_nistxml_sv_iv_atomic_non_po
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_min_exclusive_3_nistxml_sv_iv_atomic_non_positive_integer_min_exclusive_4_5(mode, save_output):
+def test_atomic_non_positive_integer_min_exclusive_3_nistxml_sv_iv_atomic_non_positive_integer_min_exclusive_4_5(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet minExclusive
     with value -594976296252018754.
@@ -3748,11 +3983,12 @@ def test_atomic_non_positive_integer_min_exclusive_3_nistxml_sv_iv_atomic_non_po
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_min_exclusive_2_nistxml_sv_iv_atomic_non_positive_integer_min_exclusive_3_1(mode, save_output):
+def test_atomic_non_positive_integer_min_exclusive_2_nistxml_sv_iv_atomic_non_positive_integer_min_exclusive_3_1(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet minExclusive
     with value -406392790344449528.
@@ -3764,11 +4000,12 @@ def test_atomic_non_positive_integer_min_exclusive_2_nistxml_sv_iv_atomic_non_po
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_min_exclusive_2_nistxml_sv_iv_atomic_non_positive_integer_min_exclusive_3_2(mode, save_output):
+def test_atomic_non_positive_integer_min_exclusive_2_nistxml_sv_iv_atomic_non_positive_integer_min_exclusive_3_2(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet minExclusive
     with value -406392790344449528.
@@ -3780,11 +4017,12 @@ def test_atomic_non_positive_integer_min_exclusive_2_nistxml_sv_iv_atomic_non_po
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_min_exclusive_2_nistxml_sv_iv_atomic_non_positive_integer_min_exclusive_3_3(mode, save_output):
+def test_atomic_non_positive_integer_min_exclusive_2_nistxml_sv_iv_atomic_non_positive_integer_min_exclusive_3_3(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet minExclusive
     with value -406392790344449528.
@@ -3796,11 +4034,12 @@ def test_atomic_non_positive_integer_min_exclusive_2_nistxml_sv_iv_atomic_non_po
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_min_exclusive_2_nistxml_sv_iv_atomic_non_positive_integer_min_exclusive_3_4(mode, save_output):
+def test_atomic_non_positive_integer_min_exclusive_2_nistxml_sv_iv_atomic_non_positive_integer_min_exclusive_3_4(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet minExclusive
     with value -406392790344449528.
@@ -3812,11 +4051,12 @@ def test_atomic_non_positive_integer_min_exclusive_2_nistxml_sv_iv_atomic_non_po
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_min_exclusive_2_nistxml_sv_iv_atomic_non_positive_integer_min_exclusive_3_5(mode, save_output):
+def test_atomic_non_positive_integer_min_exclusive_2_nistxml_sv_iv_atomic_non_positive_integer_min_exclusive_3_5(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet minExclusive
     with value -406392790344449528.
@@ -3828,11 +4068,12 @@ def test_atomic_non_positive_integer_min_exclusive_2_nistxml_sv_iv_atomic_non_po
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_min_exclusive_1_nistxml_sv_iv_atomic_non_positive_integer_min_exclusive_2_1(mode, save_output):
+def test_atomic_non_positive_integer_min_exclusive_1_nistxml_sv_iv_atomic_non_positive_integer_min_exclusive_2_1(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet minExclusive
     with value -482054947069493477.
@@ -3844,11 +4085,12 @@ def test_atomic_non_positive_integer_min_exclusive_1_nistxml_sv_iv_atomic_non_po
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_min_exclusive_1_nistxml_sv_iv_atomic_non_positive_integer_min_exclusive_2_2(mode, save_output):
+def test_atomic_non_positive_integer_min_exclusive_1_nistxml_sv_iv_atomic_non_positive_integer_min_exclusive_2_2(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet minExclusive
     with value -482054947069493477.
@@ -3860,11 +4102,12 @@ def test_atomic_non_positive_integer_min_exclusive_1_nistxml_sv_iv_atomic_non_po
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_min_exclusive_1_nistxml_sv_iv_atomic_non_positive_integer_min_exclusive_2_3(mode, save_output):
+def test_atomic_non_positive_integer_min_exclusive_1_nistxml_sv_iv_atomic_non_positive_integer_min_exclusive_2_3(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet minExclusive
     with value -482054947069493477.
@@ -3876,11 +4119,12 @@ def test_atomic_non_positive_integer_min_exclusive_1_nistxml_sv_iv_atomic_non_po
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_min_exclusive_1_nistxml_sv_iv_atomic_non_positive_integer_min_exclusive_2_4(mode, save_output):
+def test_atomic_non_positive_integer_min_exclusive_1_nistxml_sv_iv_atomic_non_positive_integer_min_exclusive_2_4(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet minExclusive
     with value -482054947069493477.
@@ -3892,11 +4136,12 @@ def test_atomic_non_positive_integer_min_exclusive_1_nistxml_sv_iv_atomic_non_po
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_min_exclusive_1_nistxml_sv_iv_atomic_non_positive_integer_min_exclusive_2_5(mode, save_output):
+def test_atomic_non_positive_integer_min_exclusive_1_nistxml_sv_iv_atomic_non_positive_integer_min_exclusive_2_5(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet minExclusive
     with value -482054947069493477.
@@ -3908,11 +4153,12 @@ def test_atomic_non_positive_integer_min_exclusive_1_nistxml_sv_iv_atomic_non_po
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_min_exclusive_nistxml_sv_iv_atomic_non_positive_integer_min_exclusive_1_1(mode, save_output):
+def test_atomic_non_positive_integer_min_exclusive_nistxml_sv_iv_atomic_non_positive_integer_min_exclusive_1_1(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet minExclusive
     with value -999999999999999999.
@@ -3924,11 +4170,12 @@ def test_atomic_non_positive_integer_min_exclusive_nistxml_sv_iv_atomic_non_posi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_min_exclusive_nistxml_sv_iv_atomic_non_positive_integer_min_exclusive_1_2(mode, save_output):
+def test_atomic_non_positive_integer_min_exclusive_nistxml_sv_iv_atomic_non_positive_integer_min_exclusive_1_2(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet minExclusive
     with value -999999999999999999.
@@ -3940,11 +4187,12 @@ def test_atomic_non_positive_integer_min_exclusive_nistxml_sv_iv_atomic_non_posi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_min_exclusive_nistxml_sv_iv_atomic_non_positive_integer_min_exclusive_1_3(mode, save_output):
+def test_atomic_non_positive_integer_min_exclusive_nistxml_sv_iv_atomic_non_positive_integer_min_exclusive_1_3(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet minExclusive
     with value -999999999999999999.
@@ -3956,11 +4204,12 @@ def test_atomic_non_positive_integer_min_exclusive_nistxml_sv_iv_atomic_non_posi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_min_exclusive_nistxml_sv_iv_atomic_non_positive_integer_min_exclusive_1_4(mode, save_output):
+def test_atomic_non_positive_integer_min_exclusive_nistxml_sv_iv_atomic_non_positive_integer_min_exclusive_1_4(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet minExclusive
     with value -999999999999999999.
@@ -3972,11 +4221,12 @@ def test_atomic_non_positive_integer_min_exclusive_nistxml_sv_iv_atomic_non_posi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_non_positive_integer_min_exclusive_nistxml_sv_iv_atomic_non_positive_integer_min_exclusive_1_5(mode, save_output):
+def test_atomic_non_positive_integer_min_exclusive_nistxml_sv_iv_atomic_non_positive_integer_min_exclusive_1_5(mode, save_output, output_format):
     """
     Type atomic/nonPositiveInteger is restricted by facet minExclusive
     with value -999999999999999999.
@@ -3988,11 +4238,12 @@ def test_atomic_non_positive_integer_min_exclusive_nistxml_sv_iv_atomic_non_posi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_white_space_nistxml_sv_iv_atomic_integer_white_space_1_1(mode, save_output):
+def test_atomic_integer_white_space_nistxml_sv_iv_atomic_integer_white_space_1_1(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet whiteSpace with value
     collapse.
@@ -4004,11 +4255,12 @@ def test_atomic_integer_white_space_nistxml_sv_iv_atomic_integer_white_space_1_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_white_space_nistxml_sv_iv_atomic_integer_white_space_1_2(mode, save_output):
+def test_atomic_integer_white_space_nistxml_sv_iv_atomic_integer_white_space_1_2(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet whiteSpace with value
     collapse.
@@ -4020,11 +4272,12 @@ def test_atomic_integer_white_space_nistxml_sv_iv_atomic_integer_white_space_1_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_white_space_nistxml_sv_iv_atomic_integer_white_space_1_3(mode, save_output):
+def test_atomic_integer_white_space_nistxml_sv_iv_atomic_integer_white_space_1_3(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet whiteSpace with value
     collapse.
@@ -4036,11 +4289,12 @@ def test_atomic_integer_white_space_nistxml_sv_iv_atomic_integer_white_space_1_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_white_space_nistxml_sv_iv_atomic_integer_white_space_1_4(mode, save_output):
+def test_atomic_integer_white_space_nistxml_sv_iv_atomic_integer_white_space_1_4(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet whiteSpace with value
     collapse.
@@ -4052,11 +4306,12 @@ def test_atomic_integer_white_space_nistxml_sv_iv_atomic_integer_white_space_1_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_white_space_nistxml_sv_iv_atomic_integer_white_space_1_5(mode, save_output):
+def test_atomic_integer_white_space_nistxml_sv_iv_atomic_integer_white_space_1_5(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet whiteSpace with value
     collapse.
@@ -4068,11 +4323,12 @@ def test_atomic_integer_white_space_nistxml_sv_iv_atomic_integer_white_space_1_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_enumeration_4_nistxml_sv_iv_atomic_integer_enumeration_5_1(mode, save_output):
+def test_atomic_integer_enumeration_4_nistxml_sv_iv_atomic_integer_enumeration_5_1(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet enumeration.
     """
@@ -4083,11 +4339,12 @@ def test_atomic_integer_enumeration_4_nistxml_sv_iv_atomic_integer_enumeration_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_enumeration_4_nistxml_sv_iv_atomic_integer_enumeration_5_2(mode, save_output):
+def test_atomic_integer_enumeration_4_nistxml_sv_iv_atomic_integer_enumeration_5_2(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet enumeration.
     """
@@ -4098,11 +4355,12 @@ def test_atomic_integer_enumeration_4_nistxml_sv_iv_atomic_integer_enumeration_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_enumeration_4_nistxml_sv_iv_atomic_integer_enumeration_5_3(mode, save_output):
+def test_atomic_integer_enumeration_4_nistxml_sv_iv_atomic_integer_enumeration_5_3(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet enumeration.
     """
@@ -4113,11 +4371,12 @@ def test_atomic_integer_enumeration_4_nistxml_sv_iv_atomic_integer_enumeration_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_enumeration_4_nistxml_sv_iv_atomic_integer_enumeration_5_4(mode, save_output):
+def test_atomic_integer_enumeration_4_nistxml_sv_iv_atomic_integer_enumeration_5_4(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet enumeration.
     """
@@ -4128,11 +4387,12 @@ def test_atomic_integer_enumeration_4_nistxml_sv_iv_atomic_integer_enumeration_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_enumeration_4_nistxml_sv_iv_atomic_integer_enumeration_5_5(mode, save_output):
+def test_atomic_integer_enumeration_4_nistxml_sv_iv_atomic_integer_enumeration_5_5(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet enumeration.
     """
@@ -4143,11 +4403,12 @@ def test_atomic_integer_enumeration_4_nistxml_sv_iv_atomic_integer_enumeration_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_enumeration_3_nistxml_sv_iv_atomic_integer_enumeration_4_1(mode, save_output):
+def test_atomic_integer_enumeration_3_nistxml_sv_iv_atomic_integer_enumeration_4_1(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet enumeration.
     """
@@ -4158,11 +4419,12 @@ def test_atomic_integer_enumeration_3_nistxml_sv_iv_atomic_integer_enumeration_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_enumeration_3_nistxml_sv_iv_atomic_integer_enumeration_4_2(mode, save_output):
+def test_atomic_integer_enumeration_3_nistxml_sv_iv_atomic_integer_enumeration_4_2(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet enumeration.
     """
@@ -4173,11 +4435,12 @@ def test_atomic_integer_enumeration_3_nistxml_sv_iv_atomic_integer_enumeration_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_enumeration_3_nistxml_sv_iv_atomic_integer_enumeration_4_3(mode, save_output):
+def test_atomic_integer_enumeration_3_nistxml_sv_iv_atomic_integer_enumeration_4_3(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet enumeration.
     """
@@ -4188,11 +4451,12 @@ def test_atomic_integer_enumeration_3_nistxml_sv_iv_atomic_integer_enumeration_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_enumeration_3_nistxml_sv_iv_atomic_integer_enumeration_4_4(mode, save_output):
+def test_atomic_integer_enumeration_3_nistxml_sv_iv_atomic_integer_enumeration_4_4(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet enumeration.
     """
@@ -4203,11 +4467,12 @@ def test_atomic_integer_enumeration_3_nistxml_sv_iv_atomic_integer_enumeration_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_enumeration_3_nistxml_sv_iv_atomic_integer_enumeration_4_5(mode, save_output):
+def test_atomic_integer_enumeration_3_nistxml_sv_iv_atomic_integer_enumeration_4_5(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet enumeration.
     """
@@ -4218,11 +4483,12 @@ def test_atomic_integer_enumeration_3_nistxml_sv_iv_atomic_integer_enumeration_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_enumeration_2_nistxml_sv_iv_atomic_integer_enumeration_3_1(mode, save_output):
+def test_atomic_integer_enumeration_2_nistxml_sv_iv_atomic_integer_enumeration_3_1(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet enumeration.
     """
@@ -4233,11 +4499,12 @@ def test_atomic_integer_enumeration_2_nistxml_sv_iv_atomic_integer_enumeration_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_enumeration_2_nistxml_sv_iv_atomic_integer_enumeration_3_2(mode, save_output):
+def test_atomic_integer_enumeration_2_nistxml_sv_iv_atomic_integer_enumeration_3_2(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet enumeration.
     """
@@ -4248,11 +4515,12 @@ def test_atomic_integer_enumeration_2_nistxml_sv_iv_atomic_integer_enumeration_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_enumeration_2_nistxml_sv_iv_atomic_integer_enumeration_3_3(mode, save_output):
+def test_atomic_integer_enumeration_2_nistxml_sv_iv_atomic_integer_enumeration_3_3(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet enumeration.
     """
@@ -4263,11 +4531,12 @@ def test_atomic_integer_enumeration_2_nistxml_sv_iv_atomic_integer_enumeration_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_enumeration_2_nistxml_sv_iv_atomic_integer_enumeration_3_4(mode, save_output):
+def test_atomic_integer_enumeration_2_nistxml_sv_iv_atomic_integer_enumeration_3_4(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet enumeration.
     """
@@ -4278,11 +4547,12 @@ def test_atomic_integer_enumeration_2_nistxml_sv_iv_atomic_integer_enumeration_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_enumeration_2_nistxml_sv_iv_atomic_integer_enumeration_3_5(mode, save_output):
+def test_atomic_integer_enumeration_2_nistxml_sv_iv_atomic_integer_enumeration_3_5(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet enumeration.
     """
@@ -4293,11 +4563,12 @@ def test_atomic_integer_enumeration_2_nistxml_sv_iv_atomic_integer_enumeration_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_enumeration_1_nistxml_sv_iv_atomic_integer_enumeration_2_1(mode, save_output):
+def test_atomic_integer_enumeration_1_nistxml_sv_iv_atomic_integer_enumeration_2_1(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet enumeration.
     """
@@ -4308,11 +4579,12 @@ def test_atomic_integer_enumeration_1_nistxml_sv_iv_atomic_integer_enumeration_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_enumeration_1_nistxml_sv_iv_atomic_integer_enumeration_2_2(mode, save_output):
+def test_atomic_integer_enumeration_1_nistxml_sv_iv_atomic_integer_enumeration_2_2(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet enumeration.
     """
@@ -4323,11 +4595,12 @@ def test_atomic_integer_enumeration_1_nistxml_sv_iv_atomic_integer_enumeration_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_enumeration_1_nistxml_sv_iv_atomic_integer_enumeration_2_3(mode, save_output):
+def test_atomic_integer_enumeration_1_nistxml_sv_iv_atomic_integer_enumeration_2_3(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet enumeration.
     """
@@ -4338,11 +4611,12 @@ def test_atomic_integer_enumeration_1_nistxml_sv_iv_atomic_integer_enumeration_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_enumeration_1_nistxml_sv_iv_atomic_integer_enumeration_2_4(mode, save_output):
+def test_atomic_integer_enumeration_1_nistxml_sv_iv_atomic_integer_enumeration_2_4(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet enumeration.
     """
@@ -4353,11 +4627,12 @@ def test_atomic_integer_enumeration_1_nistxml_sv_iv_atomic_integer_enumeration_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_enumeration_1_nistxml_sv_iv_atomic_integer_enumeration_2_5(mode, save_output):
+def test_atomic_integer_enumeration_1_nistxml_sv_iv_atomic_integer_enumeration_2_5(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet enumeration.
     """
@@ -4368,11 +4643,12 @@ def test_atomic_integer_enumeration_1_nistxml_sv_iv_atomic_integer_enumeration_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_enumeration_nistxml_sv_iv_atomic_integer_enumeration_1_1(mode, save_output):
+def test_atomic_integer_enumeration_nistxml_sv_iv_atomic_integer_enumeration_1_1(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet enumeration.
     """
@@ -4383,11 +4659,12 @@ def test_atomic_integer_enumeration_nistxml_sv_iv_atomic_integer_enumeration_1_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_enumeration_nistxml_sv_iv_atomic_integer_enumeration_1_2(mode, save_output):
+def test_atomic_integer_enumeration_nistxml_sv_iv_atomic_integer_enumeration_1_2(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet enumeration.
     """
@@ -4398,11 +4675,12 @@ def test_atomic_integer_enumeration_nistxml_sv_iv_atomic_integer_enumeration_1_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_enumeration_nistxml_sv_iv_atomic_integer_enumeration_1_3(mode, save_output):
+def test_atomic_integer_enumeration_nistxml_sv_iv_atomic_integer_enumeration_1_3(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet enumeration.
     """
@@ -4413,11 +4691,12 @@ def test_atomic_integer_enumeration_nistxml_sv_iv_atomic_integer_enumeration_1_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_enumeration_nistxml_sv_iv_atomic_integer_enumeration_1_4(mode, save_output):
+def test_atomic_integer_enumeration_nistxml_sv_iv_atomic_integer_enumeration_1_4(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet enumeration.
     """
@@ -4428,11 +4707,12 @@ def test_atomic_integer_enumeration_nistxml_sv_iv_atomic_integer_enumeration_1_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_enumeration_nistxml_sv_iv_atomic_integer_enumeration_1_5(mode, save_output):
+def test_atomic_integer_enumeration_nistxml_sv_iv_atomic_integer_enumeration_1_5(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet enumeration.
     """
@@ -4443,11 +4723,12 @@ def test_atomic_integer_enumeration_nistxml_sv_iv_atomic_integer_enumeration_1_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_pattern_4_nistxml_sv_iv_atomic_integer_pattern_5_1(mode, save_output):
+def test_atomic_integer_pattern_4_nistxml_sv_iv_atomic_integer_pattern_5_1(mode, save_output, output_format):
     r"""
     Type atomic/integer is restricted by facet pattern with value \d{18}.
     """
@@ -4458,11 +4739,12 @@ def test_atomic_integer_pattern_4_nistxml_sv_iv_atomic_integer_pattern_5_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_pattern_4_nistxml_sv_iv_atomic_integer_pattern_5_2(mode, save_output):
+def test_atomic_integer_pattern_4_nistxml_sv_iv_atomic_integer_pattern_5_2(mode, save_output, output_format):
     r"""
     Type atomic/integer is restricted by facet pattern with value \d{18}.
     """
@@ -4473,11 +4755,12 @@ def test_atomic_integer_pattern_4_nistxml_sv_iv_atomic_integer_pattern_5_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_pattern_4_nistxml_sv_iv_atomic_integer_pattern_5_3(mode, save_output):
+def test_atomic_integer_pattern_4_nistxml_sv_iv_atomic_integer_pattern_5_3(mode, save_output, output_format):
     r"""
     Type atomic/integer is restricted by facet pattern with value \d{18}.
     """
@@ -4488,11 +4771,12 @@ def test_atomic_integer_pattern_4_nistxml_sv_iv_atomic_integer_pattern_5_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_pattern_4_nistxml_sv_iv_atomic_integer_pattern_5_4(mode, save_output):
+def test_atomic_integer_pattern_4_nistxml_sv_iv_atomic_integer_pattern_5_4(mode, save_output, output_format):
     r"""
     Type atomic/integer is restricted by facet pattern with value \d{18}.
     """
@@ -4503,11 +4787,12 @@ def test_atomic_integer_pattern_4_nistxml_sv_iv_atomic_integer_pattern_5_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_pattern_4_nistxml_sv_iv_atomic_integer_pattern_5_5(mode, save_output):
+def test_atomic_integer_pattern_4_nistxml_sv_iv_atomic_integer_pattern_5_5(mode, save_output, output_format):
     r"""
     Type atomic/integer is restricted by facet pattern with value \d{18}.
     """
@@ -4518,11 +4803,12 @@ def test_atomic_integer_pattern_4_nistxml_sv_iv_atomic_integer_pattern_5_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_pattern_3_nistxml_sv_iv_atomic_integer_pattern_4_1(mode, save_output):
+def test_atomic_integer_pattern_3_nistxml_sv_iv_atomic_integer_pattern_4_1(mode, save_output, output_format):
     r"""
     Type atomic/integer is restricted by facet pattern with value \d{5}.
     """
@@ -4533,11 +4819,12 @@ def test_atomic_integer_pattern_3_nistxml_sv_iv_atomic_integer_pattern_4_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_pattern_3_nistxml_sv_iv_atomic_integer_pattern_4_2(mode, save_output):
+def test_atomic_integer_pattern_3_nistxml_sv_iv_atomic_integer_pattern_4_2(mode, save_output, output_format):
     r"""
     Type atomic/integer is restricted by facet pattern with value \d{5}.
     """
@@ -4548,11 +4835,12 @@ def test_atomic_integer_pattern_3_nistxml_sv_iv_atomic_integer_pattern_4_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_pattern_3_nistxml_sv_iv_atomic_integer_pattern_4_3(mode, save_output):
+def test_atomic_integer_pattern_3_nistxml_sv_iv_atomic_integer_pattern_4_3(mode, save_output, output_format):
     r"""
     Type atomic/integer is restricted by facet pattern with value \d{5}.
     """
@@ -4563,11 +4851,12 @@ def test_atomic_integer_pattern_3_nistxml_sv_iv_atomic_integer_pattern_4_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_pattern_3_nistxml_sv_iv_atomic_integer_pattern_4_4(mode, save_output):
+def test_atomic_integer_pattern_3_nistxml_sv_iv_atomic_integer_pattern_4_4(mode, save_output, output_format):
     r"""
     Type atomic/integer is restricted by facet pattern with value \d{5}.
     """
@@ -4578,11 +4867,12 @@ def test_atomic_integer_pattern_3_nistxml_sv_iv_atomic_integer_pattern_4_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_pattern_3_nistxml_sv_iv_atomic_integer_pattern_4_5(mode, save_output):
+def test_atomic_integer_pattern_3_nistxml_sv_iv_atomic_integer_pattern_4_5(mode, save_output, output_format):
     r"""
     Type atomic/integer is restricted by facet pattern with value \d{5}.
     """
@@ -4593,11 +4883,12 @@ def test_atomic_integer_pattern_3_nistxml_sv_iv_atomic_integer_pattern_4_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_pattern_2_nistxml_sv_iv_atomic_integer_pattern_3_1(mode, save_output):
+def test_atomic_integer_pattern_2_nistxml_sv_iv_atomic_integer_pattern_3_1(mode, save_output, output_format):
     r"""
     Type atomic/integer is restricted by facet pattern with value \-\d{1}.
     """
@@ -4608,11 +4899,12 @@ def test_atomic_integer_pattern_2_nistxml_sv_iv_atomic_integer_pattern_3_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_pattern_2_nistxml_sv_iv_atomic_integer_pattern_3_2(mode, save_output):
+def test_atomic_integer_pattern_2_nistxml_sv_iv_atomic_integer_pattern_3_2(mode, save_output, output_format):
     r"""
     Type atomic/integer is restricted by facet pattern with value \-\d{1}.
     """
@@ -4623,11 +4915,12 @@ def test_atomic_integer_pattern_2_nistxml_sv_iv_atomic_integer_pattern_3_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_pattern_2_nistxml_sv_iv_atomic_integer_pattern_3_3(mode, save_output):
+def test_atomic_integer_pattern_2_nistxml_sv_iv_atomic_integer_pattern_3_3(mode, save_output, output_format):
     r"""
     Type atomic/integer is restricted by facet pattern with value \-\d{1}.
     """
@@ -4638,11 +4931,12 @@ def test_atomic_integer_pattern_2_nistxml_sv_iv_atomic_integer_pattern_3_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_pattern_2_nistxml_sv_iv_atomic_integer_pattern_3_4(mode, save_output):
+def test_atomic_integer_pattern_2_nistxml_sv_iv_atomic_integer_pattern_3_4(mode, save_output, output_format):
     r"""
     Type atomic/integer is restricted by facet pattern with value \-\d{1}.
     """
@@ -4653,11 +4947,12 @@ def test_atomic_integer_pattern_2_nistxml_sv_iv_atomic_integer_pattern_3_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_pattern_2_nistxml_sv_iv_atomic_integer_pattern_3_5(mode, save_output):
+def test_atomic_integer_pattern_2_nistxml_sv_iv_atomic_integer_pattern_3_5(mode, save_output, output_format):
     r"""
     Type atomic/integer is restricted by facet pattern with value \-\d{1}.
     """
@@ -4668,11 +4963,12 @@ def test_atomic_integer_pattern_2_nistxml_sv_iv_atomic_integer_pattern_3_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_pattern_1_nistxml_sv_iv_atomic_integer_pattern_2_1(mode, save_output):
+def test_atomic_integer_pattern_1_nistxml_sv_iv_atomic_integer_pattern_2_1(mode, save_output, output_format):
     r"""
     Type atomic/integer is restricted by facet pattern with value \-\d{9}.
     """
@@ -4683,11 +4979,12 @@ def test_atomic_integer_pattern_1_nistxml_sv_iv_atomic_integer_pattern_2_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_pattern_1_nistxml_sv_iv_atomic_integer_pattern_2_2(mode, save_output):
+def test_atomic_integer_pattern_1_nistxml_sv_iv_atomic_integer_pattern_2_2(mode, save_output, output_format):
     r"""
     Type atomic/integer is restricted by facet pattern with value \-\d{9}.
     """
@@ -4698,11 +4995,12 @@ def test_atomic_integer_pattern_1_nistxml_sv_iv_atomic_integer_pattern_2_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_pattern_1_nistxml_sv_iv_atomic_integer_pattern_2_3(mode, save_output):
+def test_atomic_integer_pattern_1_nistxml_sv_iv_atomic_integer_pattern_2_3(mode, save_output, output_format):
     r"""
     Type atomic/integer is restricted by facet pattern with value \-\d{9}.
     """
@@ -4713,11 +5011,12 @@ def test_atomic_integer_pattern_1_nistxml_sv_iv_atomic_integer_pattern_2_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_pattern_1_nistxml_sv_iv_atomic_integer_pattern_2_4(mode, save_output):
+def test_atomic_integer_pattern_1_nistxml_sv_iv_atomic_integer_pattern_2_4(mode, save_output, output_format):
     r"""
     Type atomic/integer is restricted by facet pattern with value \-\d{9}.
     """
@@ -4728,11 +5027,12 @@ def test_atomic_integer_pattern_1_nistxml_sv_iv_atomic_integer_pattern_2_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_pattern_1_nistxml_sv_iv_atomic_integer_pattern_2_5(mode, save_output):
+def test_atomic_integer_pattern_1_nistxml_sv_iv_atomic_integer_pattern_2_5(mode, save_output, output_format):
     r"""
     Type atomic/integer is restricted by facet pattern with value \-\d{9}.
     """
@@ -4743,11 +5043,12 @@ def test_atomic_integer_pattern_1_nistxml_sv_iv_atomic_integer_pattern_2_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_pattern_nistxml_sv_iv_atomic_integer_pattern_1_1(mode, save_output):
+def test_atomic_integer_pattern_nistxml_sv_iv_atomic_integer_pattern_1_1(mode, save_output, output_format):
     r"""
     Type atomic/integer is restricted by facet pattern with value
     \-\d{18}.
@@ -4759,11 +5060,12 @@ def test_atomic_integer_pattern_nistxml_sv_iv_atomic_integer_pattern_1_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_pattern_nistxml_sv_iv_atomic_integer_pattern_1_2(mode, save_output):
+def test_atomic_integer_pattern_nistxml_sv_iv_atomic_integer_pattern_1_2(mode, save_output, output_format):
     r"""
     Type atomic/integer is restricted by facet pattern with value
     \-\d{18}.
@@ -4775,11 +5077,12 @@ def test_atomic_integer_pattern_nistxml_sv_iv_atomic_integer_pattern_1_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_pattern_nistxml_sv_iv_atomic_integer_pattern_1_3(mode, save_output):
+def test_atomic_integer_pattern_nistxml_sv_iv_atomic_integer_pattern_1_3(mode, save_output, output_format):
     r"""
     Type atomic/integer is restricted by facet pattern with value
     \-\d{18}.
@@ -4791,11 +5094,12 @@ def test_atomic_integer_pattern_nistxml_sv_iv_atomic_integer_pattern_1_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_pattern_nistxml_sv_iv_atomic_integer_pattern_1_4(mode, save_output):
+def test_atomic_integer_pattern_nistxml_sv_iv_atomic_integer_pattern_1_4(mode, save_output, output_format):
     r"""
     Type atomic/integer is restricted by facet pattern with value
     \-\d{18}.
@@ -4807,11 +5111,12 @@ def test_atomic_integer_pattern_nistxml_sv_iv_atomic_integer_pattern_1_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_pattern_nistxml_sv_iv_atomic_integer_pattern_1_5(mode, save_output):
+def test_atomic_integer_pattern_nistxml_sv_iv_atomic_integer_pattern_1_5(mode, save_output, output_format):
     r"""
     Type atomic/integer is restricted by facet pattern with value
     \-\d{18}.
@@ -4823,11 +5128,12 @@ def test_atomic_integer_pattern_nistxml_sv_iv_atomic_integer_pattern_1_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_total_digits_4_nistxml_sv_iv_atomic_integer_total_digits_5_1(mode, save_output):
+def test_atomic_integer_total_digits_4_nistxml_sv_iv_atomic_integer_total_digits_5_1(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet totalDigits with value 18.
     """
@@ -4838,11 +5144,12 @@ def test_atomic_integer_total_digits_4_nistxml_sv_iv_atomic_integer_total_digits
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_total_digits_4_nistxml_sv_iv_atomic_integer_total_digits_5_2(mode, save_output):
+def test_atomic_integer_total_digits_4_nistxml_sv_iv_atomic_integer_total_digits_5_2(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet totalDigits with value 18.
     """
@@ -4853,11 +5160,12 @@ def test_atomic_integer_total_digits_4_nistxml_sv_iv_atomic_integer_total_digits
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_total_digits_4_nistxml_sv_iv_atomic_integer_total_digits_5_3(mode, save_output):
+def test_atomic_integer_total_digits_4_nistxml_sv_iv_atomic_integer_total_digits_5_3(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet totalDigits with value 18.
     """
@@ -4868,11 +5176,12 @@ def test_atomic_integer_total_digits_4_nistxml_sv_iv_atomic_integer_total_digits
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_total_digits_4_nistxml_sv_iv_atomic_integer_total_digits_5_4(mode, save_output):
+def test_atomic_integer_total_digits_4_nistxml_sv_iv_atomic_integer_total_digits_5_4(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet totalDigits with value 18.
     """
@@ -4883,11 +5192,12 @@ def test_atomic_integer_total_digits_4_nistxml_sv_iv_atomic_integer_total_digits
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_total_digits_4_nistxml_sv_iv_atomic_integer_total_digits_5_5(mode, save_output):
+def test_atomic_integer_total_digits_4_nistxml_sv_iv_atomic_integer_total_digits_5_5(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet totalDigits with value 18.
     """
@@ -4898,11 +5208,12 @@ def test_atomic_integer_total_digits_4_nistxml_sv_iv_atomic_integer_total_digits
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_total_digits_3_nistxml_sv_iv_atomic_integer_total_digits_4_1(mode, save_output):
+def test_atomic_integer_total_digits_3_nistxml_sv_iv_atomic_integer_total_digits_4_1(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet totalDigits with value 13.
     """
@@ -4913,11 +5224,12 @@ def test_atomic_integer_total_digits_3_nistxml_sv_iv_atomic_integer_total_digits
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_total_digits_3_nistxml_sv_iv_atomic_integer_total_digits_4_2(mode, save_output):
+def test_atomic_integer_total_digits_3_nistxml_sv_iv_atomic_integer_total_digits_4_2(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet totalDigits with value 13.
     """
@@ -4928,11 +5240,12 @@ def test_atomic_integer_total_digits_3_nistxml_sv_iv_atomic_integer_total_digits
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_total_digits_3_nistxml_sv_iv_atomic_integer_total_digits_4_3(mode, save_output):
+def test_atomic_integer_total_digits_3_nistxml_sv_iv_atomic_integer_total_digits_4_3(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet totalDigits with value 13.
     """
@@ -4943,11 +5256,12 @@ def test_atomic_integer_total_digits_3_nistxml_sv_iv_atomic_integer_total_digits
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_total_digits_3_nistxml_sv_iv_atomic_integer_total_digits_4_4(mode, save_output):
+def test_atomic_integer_total_digits_3_nistxml_sv_iv_atomic_integer_total_digits_4_4(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet totalDigits with value 13.
     """
@@ -4958,11 +5272,12 @@ def test_atomic_integer_total_digits_3_nistxml_sv_iv_atomic_integer_total_digits
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_total_digits_3_nistxml_sv_iv_atomic_integer_total_digits_4_5(mode, save_output):
+def test_atomic_integer_total_digits_3_nistxml_sv_iv_atomic_integer_total_digits_4_5(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet totalDigits with value 13.
     """
@@ -4973,11 +5288,12 @@ def test_atomic_integer_total_digits_3_nistxml_sv_iv_atomic_integer_total_digits
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_total_digits_2_nistxml_sv_iv_atomic_integer_total_digits_3_1(mode, save_output):
+def test_atomic_integer_total_digits_2_nistxml_sv_iv_atomic_integer_total_digits_3_1(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet totalDigits with value 9.
     """
@@ -4988,11 +5304,12 @@ def test_atomic_integer_total_digits_2_nistxml_sv_iv_atomic_integer_total_digits
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_total_digits_2_nistxml_sv_iv_atomic_integer_total_digits_3_2(mode, save_output):
+def test_atomic_integer_total_digits_2_nistxml_sv_iv_atomic_integer_total_digits_3_2(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet totalDigits with value 9.
     """
@@ -5003,11 +5320,12 @@ def test_atomic_integer_total_digits_2_nistxml_sv_iv_atomic_integer_total_digits
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_total_digits_2_nistxml_sv_iv_atomic_integer_total_digits_3_3(mode, save_output):
+def test_atomic_integer_total_digits_2_nistxml_sv_iv_atomic_integer_total_digits_3_3(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet totalDigits with value 9.
     """
@@ -5018,11 +5336,12 @@ def test_atomic_integer_total_digits_2_nistxml_sv_iv_atomic_integer_total_digits
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_total_digits_2_nistxml_sv_iv_atomic_integer_total_digits_3_4(mode, save_output):
+def test_atomic_integer_total_digits_2_nistxml_sv_iv_atomic_integer_total_digits_3_4(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet totalDigits with value 9.
     """
@@ -5033,11 +5352,12 @@ def test_atomic_integer_total_digits_2_nistxml_sv_iv_atomic_integer_total_digits
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_total_digits_2_nistxml_sv_iv_atomic_integer_total_digits_3_5(mode, save_output):
+def test_atomic_integer_total_digits_2_nistxml_sv_iv_atomic_integer_total_digits_3_5(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet totalDigits with value 9.
     """
@@ -5048,11 +5368,12 @@ def test_atomic_integer_total_digits_2_nistxml_sv_iv_atomic_integer_total_digits
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_total_digits_1_nistxml_sv_iv_atomic_integer_total_digits_2_1(mode, save_output):
+def test_atomic_integer_total_digits_1_nistxml_sv_iv_atomic_integer_total_digits_2_1(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet totalDigits with value 5.
     """
@@ -5063,11 +5384,12 @@ def test_atomic_integer_total_digits_1_nistxml_sv_iv_atomic_integer_total_digits
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_total_digits_1_nistxml_sv_iv_atomic_integer_total_digits_2_2(mode, save_output):
+def test_atomic_integer_total_digits_1_nistxml_sv_iv_atomic_integer_total_digits_2_2(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet totalDigits with value 5.
     """
@@ -5078,11 +5400,12 @@ def test_atomic_integer_total_digits_1_nistxml_sv_iv_atomic_integer_total_digits
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_total_digits_1_nistxml_sv_iv_atomic_integer_total_digits_2_3(mode, save_output):
+def test_atomic_integer_total_digits_1_nistxml_sv_iv_atomic_integer_total_digits_2_3(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet totalDigits with value 5.
     """
@@ -5093,11 +5416,12 @@ def test_atomic_integer_total_digits_1_nistxml_sv_iv_atomic_integer_total_digits
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_total_digits_1_nistxml_sv_iv_atomic_integer_total_digits_2_4(mode, save_output):
+def test_atomic_integer_total_digits_1_nistxml_sv_iv_atomic_integer_total_digits_2_4(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet totalDigits with value 5.
     """
@@ -5108,11 +5432,12 @@ def test_atomic_integer_total_digits_1_nistxml_sv_iv_atomic_integer_total_digits
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_total_digits_1_nistxml_sv_iv_atomic_integer_total_digits_2_5(mode, save_output):
+def test_atomic_integer_total_digits_1_nistxml_sv_iv_atomic_integer_total_digits_2_5(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet totalDigits with value 5.
     """
@@ -5123,11 +5448,12 @@ def test_atomic_integer_total_digits_1_nistxml_sv_iv_atomic_integer_total_digits
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_total_digits_nistxml_sv_iv_atomic_integer_total_digits_1_1(mode, save_output):
+def test_atomic_integer_total_digits_nistxml_sv_iv_atomic_integer_total_digits_1_1(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet totalDigits with value 1.
     """
@@ -5138,11 +5464,12 @@ def test_atomic_integer_total_digits_nistxml_sv_iv_atomic_integer_total_digits_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_total_digits_nistxml_sv_iv_atomic_integer_total_digits_1_2(mode, save_output):
+def test_atomic_integer_total_digits_nistxml_sv_iv_atomic_integer_total_digits_1_2(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet totalDigits with value 1.
     """
@@ -5153,11 +5480,12 @@ def test_atomic_integer_total_digits_nistxml_sv_iv_atomic_integer_total_digits_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_total_digits_nistxml_sv_iv_atomic_integer_total_digits_1_3(mode, save_output):
+def test_atomic_integer_total_digits_nistxml_sv_iv_atomic_integer_total_digits_1_3(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet totalDigits with value 1.
     """
@@ -5168,11 +5496,12 @@ def test_atomic_integer_total_digits_nistxml_sv_iv_atomic_integer_total_digits_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_total_digits_nistxml_sv_iv_atomic_integer_total_digits_1_4(mode, save_output):
+def test_atomic_integer_total_digits_nistxml_sv_iv_atomic_integer_total_digits_1_4(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet totalDigits with value 1.
     """
@@ -5183,11 +5512,12 @@ def test_atomic_integer_total_digits_nistxml_sv_iv_atomic_integer_total_digits_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_total_digits_nistxml_sv_iv_atomic_integer_total_digits_1_5(mode, save_output):
+def test_atomic_integer_total_digits_nistxml_sv_iv_atomic_integer_total_digits_1_5(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet totalDigits with value 1.
     """
@@ -5198,11 +5528,12 @@ def test_atomic_integer_total_digits_nistxml_sv_iv_atomic_integer_total_digits_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_fraction_digits_nistxml_sv_iv_atomic_integer_fraction_digits_1_1(mode, save_output):
+def test_atomic_integer_fraction_digits_nistxml_sv_iv_atomic_integer_fraction_digits_1_1(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet fractionDigits with value
     0.
@@ -5214,11 +5545,12 @@ def test_atomic_integer_fraction_digits_nistxml_sv_iv_atomic_integer_fraction_di
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_fraction_digits_nistxml_sv_iv_atomic_integer_fraction_digits_1_2(mode, save_output):
+def test_atomic_integer_fraction_digits_nistxml_sv_iv_atomic_integer_fraction_digits_1_2(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet fractionDigits with value
     0.
@@ -5230,11 +5562,12 @@ def test_atomic_integer_fraction_digits_nistxml_sv_iv_atomic_integer_fraction_di
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_fraction_digits_nistxml_sv_iv_atomic_integer_fraction_digits_1_3(mode, save_output):
+def test_atomic_integer_fraction_digits_nistxml_sv_iv_atomic_integer_fraction_digits_1_3(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet fractionDigits with value
     0.
@@ -5246,11 +5579,12 @@ def test_atomic_integer_fraction_digits_nistxml_sv_iv_atomic_integer_fraction_di
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_fraction_digits_nistxml_sv_iv_atomic_integer_fraction_digits_1_4(mode, save_output):
+def test_atomic_integer_fraction_digits_nistxml_sv_iv_atomic_integer_fraction_digits_1_4(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet fractionDigits with value
     0.
@@ -5262,11 +5596,12 @@ def test_atomic_integer_fraction_digits_nistxml_sv_iv_atomic_integer_fraction_di
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_fraction_digits_nistxml_sv_iv_atomic_integer_fraction_digits_1_5(mode, save_output):
+def test_atomic_integer_fraction_digits_nistxml_sv_iv_atomic_integer_fraction_digits_1_5(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet fractionDigits with value
     0.
@@ -5278,11 +5613,12 @@ def test_atomic_integer_fraction_digits_nistxml_sv_iv_atomic_integer_fraction_di
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_max_inclusive_4_nistxml_sv_iv_atomic_integer_max_inclusive_5_1(mode, save_output):
+def test_atomic_integer_max_inclusive_4_nistxml_sv_iv_atomic_integer_max_inclusive_5_1(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet maxInclusive with value
     999999999999999999.
@@ -5294,11 +5630,12 @@ def test_atomic_integer_max_inclusive_4_nistxml_sv_iv_atomic_integer_max_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_max_inclusive_4_nistxml_sv_iv_atomic_integer_max_inclusive_5_2(mode, save_output):
+def test_atomic_integer_max_inclusive_4_nistxml_sv_iv_atomic_integer_max_inclusive_5_2(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet maxInclusive with value
     999999999999999999.
@@ -5310,11 +5647,12 @@ def test_atomic_integer_max_inclusive_4_nistxml_sv_iv_atomic_integer_max_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_max_inclusive_4_nistxml_sv_iv_atomic_integer_max_inclusive_5_3(mode, save_output):
+def test_atomic_integer_max_inclusive_4_nistxml_sv_iv_atomic_integer_max_inclusive_5_3(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet maxInclusive with value
     999999999999999999.
@@ -5326,11 +5664,12 @@ def test_atomic_integer_max_inclusive_4_nistxml_sv_iv_atomic_integer_max_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_max_inclusive_4_nistxml_sv_iv_atomic_integer_max_inclusive_5_4(mode, save_output):
+def test_atomic_integer_max_inclusive_4_nistxml_sv_iv_atomic_integer_max_inclusive_5_4(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet maxInclusive with value
     999999999999999999.
@@ -5342,11 +5681,12 @@ def test_atomic_integer_max_inclusive_4_nistxml_sv_iv_atomic_integer_max_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_max_inclusive_4_nistxml_sv_iv_atomic_integer_max_inclusive_5_5(mode, save_output):
+def test_atomic_integer_max_inclusive_4_nistxml_sv_iv_atomic_integer_max_inclusive_5_5(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet maxInclusive with value
     999999999999999999.
@@ -5358,11 +5698,12 @@ def test_atomic_integer_max_inclusive_4_nistxml_sv_iv_atomic_integer_max_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_max_inclusive_3_nistxml_sv_iv_atomic_integer_max_inclusive_4_1(mode, save_output):
+def test_atomic_integer_max_inclusive_3_nistxml_sv_iv_atomic_integer_max_inclusive_4_1(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet maxInclusive with value
     -2761698266856349.
@@ -5374,11 +5715,12 @@ def test_atomic_integer_max_inclusive_3_nistxml_sv_iv_atomic_integer_max_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_max_inclusive_3_nistxml_sv_iv_atomic_integer_max_inclusive_4_2(mode, save_output):
+def test_atomic_integer_max_inclusive_3_nistxml_sv_iv_atomic_integer_max_inclusive_4_2(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet maxInclusive with value
     -2761698266856349.
@@ -5390,11 +5732,12 @@ def test_atomic_integer_max_inclusive_3_nistxml_sv_iv_atomic_integer_max_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_max_inclusive_3_nistxml_sv_iv_atomic_integer_max_inclusive_4_3(mode, save_output):
+def test_atomic_integer_max_inclusive_3_nistxml_sv_iv_atomic_integer_max_inclusive_4_3(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet maxInclusive with value
     -2761698266856349.
@@ -5406,11 +5749,12 @@ def test_atomic_integer_max_inclusive_3_nistxml_sv_iv_atomic_integer_max_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_max_inclusive_3_nistxml_sv_iv_atomic_integer_max_inclusive_4_4(mode, save_output):
+def test_atomic_integer_max_inclusive_3_nistxml_sv_iv_atomic_integer_max_inclusive_4_4(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet maxInclusive with value
     -2761698266856349.
@@ -5422,11 +5766,12 @@ def test_atomic_integer_max_inclusive_3_nistxml_sv_iv_atomic_integer_max_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_max_inclusive_3_nistxml_sv_iv_atomic_integer_max_inclusive_4_5(mode, save_output):
+def test_atomic_integer_max_inclusive_3_nistxml_sv_iv_atomic_integer_max_inclusive_4_5(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet maxInclusive with value
     -2761698266856349.
@@ -5438,11 +5783,12 @@ def test_atomic_integer_max_inclusive_3_nistxml_sv_iv_atomic_integer_max_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_max_inclusive_2_nistxml_sv_iv_atomic_integer_max_inclusive_3_1(mode, save_output):
+def test_atomic_integer_max_inclusive_2_nistxml_sv_iv_atomic_integer_max_inclusive_3_1(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet maxInclusive with value
     705179181121327491.
@@ -5454,11 +5800,12 @@ def test_atomic_integer_max_inclusive_2_nistxml_sv_iv_atomic_integer_max_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_max_inclusive_2_nistxml_sv_iv_atomic_integer_max_inclusive_3_2(mode, save_output):
+def test_atomic_integer_max_inclusive_2_nistxml_sv_iv_atomic_integer_max_inclusive_3_2(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet maxInclusive with value
     705179181121327491.
@@ -5470,11 +5817,12 @@ def test_atomic_integer_max_inclusive_2_nistxml_sv_iv_atomic_integer_max_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_max_inclusive_2_nistxml_sv_iv_atomic_integer_max_inclusive_3_3(mode, save_output):
+def test_atomic_integer_max_inclusive_2_nistxml_sv_iv_atomic_integer_max_inclusive_3_3(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet maxInclusive with value
     705179181121327491.
@@ -5486,11 +5834,12 @@ def test_atomic_integer_max_inclusive_2_nistxml_sv_iv_atomic_integer_max_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_max_inclusive_2_nistxml_sv_iv_atomic_integer_max_inclusive_3_4(mode, save_output):
+def test_atomic_integer_max_inclusive_2_nistxml_sv_iv_atomic_integer_max_inclusive_3_4(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet maxInclusive with value
     705179181121327491.
@@ -5502,11 +5851,12 @@ def test_atomic_integer_max_inclusive_2_nistxml_sv_iv_atomic_integer_max_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_max_inclusive_2_nistxml_sv_iv_atomic_integer_max_inclusive_3_5(mode, save_output):
+def test_atomic_integer_max_inclusive_2_nistxml_sv_iv_atomic_integer_max_inclusive_3_5(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet maxInclusive with value
     705179181121327491.
@@ -5518,11 +5868,12 @@ def test_atomic_integer_max_inclusive_2_nistxml_sv_iv_atomic_integer_max_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_max_inclusive_1_nistxml_sv_iv_atomic_integer_max_inclusive_2_1(mode, save_output):
+def test_atomic_integer_max_inclusive_1_nistxml_sv_iv_atomic_integer_max_inclusive_2_1(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet maxInclusive with value
     828008406281169228.
@@ -5534,11 +5885,12 @@ def test_atomic_integer_max_inclusive_1_nistxml_sv_iv_atomic_integer_max_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_max_inclusive_1_nistxml_sv_iv_atomic_integer_max_inclusive_2_2(mode, save_output):
+def test_atomic_integer_max_inclusive_1_nistxml_sv_iv_atomic_integer_max_inclusive_2_2(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet maxInclusive with value
     828008406281169228.
@@ -5550,11 +5902,12 @@ def test_atomic_integer_max_inclusive_1_nistxml_sv_iv_atomic_integer_max_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_max_inclusive_1_nistxml_sv_iv_atomic_integer_max_inclusive_2_3(mode, save_output):
+def test_atomic_integer_max_inclusive_1_nistxml_sv_iv_atomic_integer_max_inclusive_2_3(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet maxInclusive with value
     828008406281169228.
@@ -5566,11 +5919,12 @@ def test_atomic_integer_max_inclusive_1_nistxml_sv_iv_atomic_integer_max_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_max_inclusive_1_nistxml_sv_iv_atomic_integer_max_inclusive_2_4(mode, save_output):
+def test_atomic_integer_max_inclusive_1_nistxml_sv_iv_atomic_integer_max_inclusive_2_4(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet maxInclusive with value
     828008406281169228.
@@ -5582,11 +5936,12 @@ def test_atomic_integer_max_inclusive_1_nistxml_sv_iv_atomic_integer_max_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_max_inclusive_1_nistxml_sv_iv_atomic_integer_max_inclusive_2_5(mode, save_output):
+def test_atomic_integer_max_inclusive_1_nistxml_sv_iv_atomic_integer_max_inclusive_2_5(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet maxInclusive with value
     828008406281169228.
@@ -5598,11 +5953,12 @@ def test_atomic_integer_max_inclusive_1_nistxml_sv_iv_atomic_integer_max_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_max_inclusive_nistxml_sv_iv_atomic_integer_max_inclusive_1_1(mode, save_output):
+def test_atomic_integer_max_inclusive_nistxml_sv_iv_atomic_integer_max_inclusive_1_1(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet maxInclusive with value
     -999999999999999999.
@@ -5614,11 +5970,12 @@ def test_atomic_integer_max_inclusive_nistxml_sv_iv_atomic_integer_max_inclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_max_exclusive_4_nistxml_sv_iv_atomic_integer_max_exclusive_5_1(mode, save_output):
+def test_atomic_integer_max_exclusive_4_nistxml_sv_iv_atomic_integer_max_exclusive_5_1(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet maxExclusive with value
     999999999999999999.
@@ -5630,11 +5987,12 @@ def test_atomic_integer_max_exclusive_4_nistxml_sv_iv_atomic_integer_max_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_max_exclusive_4_nistxml_sv_iv_atomic_integer_max_exclusive_5_2(mode, save_output):
+def test_atomic_integer_max_exclusive_4_nistxml_sv_iv_atomic_integer_max_exclusive_5_2(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet maxExclusive with value
     999999999999999999.
@@ -5646,11 +6004,12 @@ def test_atomic_integer_max_exclusive_4_nistxml_sv_iv_atomic_integer_max_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_max_exclusive_4_nistxml_sv_iv_atomic_integer_max_exclusive_5_3(mode, save_output):
+def test_atomic_integer_max_exclusive_4_nistxml_sv_iv_atomic_integer_max_exclusive_5_3(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet maxExclusive with value
     999999999999999999.
@@ -5662,11 +6021,12 @@ def test_atomic_integer_max_exclusive_4_nistxml_sv_iv_atomic_integer_max_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_max_exclusive_4_nistxml_sv_iv_atomic_integer_max_exclusive_5_4(mode, save_output):
+def test_atomic_integer_max_exclusive_4_nistxml_sv_iv_atomic_integer_max_exclusive_5_4(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet maxExclusive with value
     999999999999999999.
@@ -5678,11 +6038,12 @@ def test_atomic_integer_max_exclusive_4_nistxml_sv_iv_atomic_integer_max_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_max_exclusive_4_nistxml_sv_iv_atomic_integer_max_exclusive_5_5(mode, save_output):
+def test_atomic_integer_max_exclusive_4_nistxml_sv_iv_atomic_integer_max_exclusive_5_5(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet maxExclusive with value
     999999999999999999.
@@ -5694,11 +6055,12 @@ def test_atomic_integer_max_exclusive_4_nistxml_sv_iv_atomic_integer_max_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_max_exclusive_3_nistxml_sv_iv_atomic_integer_max_exclusive_4_1(mode, save_output):
+def test_atomic_integer_max_exclusive_3_nistxml_sv_iv_atomic_integer_max_exclusive_4_1(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet maxExclusive with value
     -839533034801862807.
@@ -5710,11 +6072,12 @@ def test_atomic_integer_max_exclusive_3_nistxml_sv_iv_atomic_integer_max_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_max_exclusive_3_nistxml_sv_iv_atomic_integer_max_exclusive_4_2(mode, save_output):
+def test_atomic_integer_max_exclusive_3_nistxml_sv_iv_atomic_integer_max_exclusive_4_2(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet maxExclusive with value
     -839533034801862807.
@@ -5726,11 +6089,12 @@ def test_atomic_integer_max_exclusive_3_nistxml_sv_iv_atomic_integer_max_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_max_exclusive_3_nistxml_sv_iv_atomic_integer_max_exclusive_4_3(mode, save_output):
+def test_atomic_integer_max_exclusive_3_nistxml_sv_iv_atomic_integer_max_exclusive_4_3(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet maxExclusive with value
     -839533034801862807.
@@ -5742,11 +6106,12 @@ def test_atomic_integer_max_exclusive_3_nistxml_sv_iv_atomic_integer_max_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_max_exclusive_3_nistxml_sv_iv_atomic_integer_max_exclusive_4_4(mode, save_output):
+def test_atomic_integer_max_exclusive_3_nistxml_sv_iv_atomic_integer_max_exclusive_4_4(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet maxExclusive with value
     -839533034801862807.
@@ -5758,11 +6123,12 @@ def test_atomic_integer_max_exclusive_3_nistxml_sv_iv_atomic_integer_max_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_max_exclusive_3_nistxml_sv_iv_atomic_integer_max_exclusive_4_5(mode, save_output):
+def test_atomic_integer_max_exclusive_3_nistxml_sv_iv_atomic_integer_max_exclusive_4_5(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet maxExclusive with value
     -839533034801862807.
@@ -5774,11 +6140,12 @@ def test_atomic_integer_max_exclusive_3_nistxml_sv_iv_atomic_integer_max_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_max_exclusive_2_nistxml_sv_iv_atomic_integer_max_exclusive_3_1(mode, save_output):
+def test_atomic_integer_max_exclusive_2_nistxml_sv_iv_atomic_integer_max_exclusive_3_1(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet maxExclusive with value
     549869808681548999.
@@ -5790,11 +6157,12 @@ def test_atomic_integer_max_exclusive_2_nistxml_sv_iv_atomic_integer_max_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_max_exclusive_2_nistxml_sv_iv_atomic_integer_max_exclusive_3_2(mode, save_output):
+def test_atomic_integer_max_exclusive_2_nistxml_sv_iv_atomic_integer_max_exclusive_3_2(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet maxExclusive with value
     549869808681548999.
@@ -5806,11 +6174,12 @@ def test_atomic_integer_max_exclusive_2_nistxml_sv_iv_atomic_integer_max_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_max_exclusive_2_nistxml_sv_iv_atomic_integer_max_exclusive_3_3(mode, save_output):
+def test_atomic_integer_max_exclusive_2_nistxml_sv_iv_atomic_integer_max_exclusive_3_3(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet maxExclusive with value
     549869808681548999.
@@ -5822,11 +6191,12 @@ def test_atomic_integer_max_exclusive_2_nistxml_sv_iv_atomic_integer_max_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_max_exclusive_2_nistxml_sv_iv_atomic_integer_max_exclusive_3_4(mode, save_output):
+def test_atomic_integer_max_exclusive_2_nistxml_sv_iv_atomic_integer_max_exclusive_3_4(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet maxExclusive with value
     549869808681548999.
@@ -5838,11 +6208,12 @@ def test_atomic_integer_max_exclusive_2_nistxml_sv_iv_atomic_integer_max_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_max_exclusive_2_nistxml_sv_iv_atomic_integer_max_exclusive_3_5(mode, save_output):
+def test_atomic_integer_max_exclusive_2_nistxml_sv_iv_atomic_integer_max_exclusive_3_5(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet maxExclusive with value
     549869808681548999.
@@ -5854,11 +6225,12 @@ def test_atomic_integer_max_exclusive_2_nistxml_sv_iv_atomic_integer_max_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_max_exclusive_1_nistxml_sv_iv_atomic_integer_max_exclusive_2_1(mode, save_output):
+def test_atomic_integer_max_exclusive_1_nistxml_sv_iv_atomic_integer_max_exclusive_2_1(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet maxExclusive with value
     -863230876206589446.
@@ -5870,11 +6242,12 @@ def test_atomic_integer_max_exclusive_1_nistxml_sv_iv_atomic_integer_max_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_max_exclusive_1_nistxml_sv_iv_atomic_integer_max_exclusive_2_2(mode, save_output):
+def test_atomic_integer_max_exclusive_1_nistxml_sv_iv_atomic_integer_max_exclusive_2_2(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet maxExclusive with value
     -863230876206589446.
@@ -5886,11 +6259,12 @@ def test_atomic_integer_max_exclusive_1_nistxml_sv_iv_atomic_integer_max_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_max_exclusive_1_nistxml_sv_iv_atomic_integer_max_exclusive_2_3(mode, save_output):
+def test_atomic_integer_max_exclusive_1_nistxml_sv_iv_atomic_integer_max_exclusive_2_3(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet maxExclusive with value
     -863230876206589446.
@@ -5902,11 +6276,12 @@ def test_atomic_integer_max_exclusive_1_nistxml_sv_iv_atomic_integer_max_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_max_exclusive_1_nistxml_sv_iv_atomic_integer_max_exclusive_2_4(mode, save_output):
+def test_atomic_integer_max_exclusive_1_nistxml_sv_iv_atomic_integer_max_exclusive_2_4(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet maxExclusive with value
     -863230876206589446.
@@ -5918,11 +6293,12 @@ def test_atomic_integer_max_exclusive_1_nistxml_sv_iv_atomic_integer_max_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_max_exclusive_1_nistxml_sv_iv_atomic_integer_max_exclusive_2_5(mode, save_output):
+def test_atomic_integer_max_exclusive_1_nistxml_sv_iv_atomic_integer_max_exclusive_2_5(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet maxExclusive with value
     -863230876206589446.
@@ -5934,11 +6310,12 @@ def test_atomic_integer_max_exclusive_1_nistxml_sv_iv_atomic_integer_max_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_max_exclusive_nistxml_sv_iv_atomic_integer_max_exclusive_1_1(mode, save_output):
+def test_atomic_integer_max_exclusive_nistxml_sv_iv_atomic_integer_max_exclusive_1_1(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet maxExclusive with value
     -999999999999999998.
@@ -5950,11 +6327,12 @@ def test_atomic_integer_max_exclusive_nistxml_sv_iv_atomic_integer_max_exclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_min_inclusive_4_nistxml_sv_iv_atomic_integer_min_inclusive_5_1(mode, save_output):
+def test_atomic_integer_min_inclusive_4_nistxml_sv_iv_atomic_integer_min_inclusive_5_1(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet minInclusive with value
     999999999999999999.
@@ -5966,11 +6344,12 @@ def test_atomic_integer_min_inclusive_4_nistxml_sv_iv_atomic_integer_min_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_min_inclusive_3_nistxml_sv_iv_atomic_integer_min_inclusive_4_1(mode, save_output):
+def test_atomic_integer_min_inclusive_3_nistxml_sv_iv_atomic_integer_min_inclusive_4_1(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet minInclusive with value
     -183640263935870295.
@@ -5982,11 +6361,12 @@ def test_atomic_integer_min_inclusive_3_nistxml_sv_iv_atomic_integer_min_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_min_inclusive_3_nistxml_sv_iv_atomic_integer_min_inclusive_4_2(mode, save_output):
+def test_atomic_integer_min_inclusive_3_nistxml_sv_iv_atomic_integer_min_inclusive_4_2(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet minInclusive with value
     -183640263935870295.
@@ -5998,11 +6378,12 @@ def test_atomic_integer_min_inclusive_3_nistxml_sv_iv_atomic_integer_min_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_min_inclusive_3_nistxml_sv_iv_atomic_integer_min_inclusive_4_3(mode, save_output):
+def test_atomic_integer_min_inclusive_3_nistxml_sv_iv_atomic_integer_min_inclusive_4_3(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet minInclusive with value
     -183640263935870295.
@@ -6014,11 +6395,12 @@ def test_atomic_integer_min_inclusive_3_nistxml_sv_iv_atomic_integer_min_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_min_inclusive_3_nistxml_sv_iv_atomic_integer_min_inclusive_4_4(mode, save_output):
+def test_atomic_integer_min_inclusive_3_nistxml_sv_iv_atomic_integer_min_inclusive_4_4(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet minInclusive with value
     -183640263935870295.
@@ -6030,11 +6412,12 @@ def test_atomic_integer_min_inclusive_3_nistxml_sv_iv_atomic_integer_min_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_min_inclusive_3_nistxml_sv_iv_atomic_integer_min_inclusive_4_5(mode, save_output):
+def test_atomic_integer_min_inclusive_3_nistxml_sv_iv_atomic_integer_min_inclusive_4_5(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet minInclusive with value
     -183640263935870295.
@@ -6046,11 +6429,12 @@ def test_atomic_integer_min_inclusive_3_nistxml_sv_iv_atomic_integer_min_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_min_inclusive_2_nistxml_sv_iv_atomic_integer_min_inclusive_3_1(mode, save_output):
+def test_atomic_integer_min_inclusive_2_nistxml_sv_iv_atomic_integer_min_inclusive_3_1(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet minInclusive with value
     -362471093580558400.
@@ -6062,11 +6446,12 @@ def test_atomic_integer_min_inclusive_2_nistxml_sv_iv_atomic_integer_min_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_min_inclusive_2_nistxml_sv_iv_atomic_integer_min_inclusive_3_2(mode, save_output):
+def test_atomic_integer_min_inclusive_2_nistxml_sv_iv_atomic_integer_min_inclusive_3_2(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet minInclusive with value
     -362471093580558400.
@@ -6078,11 +6463,12 @@ def test_atomic_integer_min_inclusive_2_nistxml_sv_iv_atomic_integer_min_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_min_inclusive_2_nistxml_sv_iv_atomic_integer_min_inclusive_3_3(mode, save_output):
+def test_atomic_integer_min_inclusive_2_nistxml_sv_iv_atomic_integer_min_inclusive_3_3(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet minInclusive with value
     -362471093580558400.
@@ -6094,11 +6480,12 @@ def test_atomic_integer_min_inclusive_2_nistxml_sv_iv_atomic_integer_min_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_min_inclusive_2_nistxml_sv_iv_atomic_integer_min_inclusive_3_4(mode, save_output):
+def test_atomic_integer_min_inclusive_2_nistxml_sv_iv_atomic_integer_min_inclusive_3_4(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet minInclusive with value
     -362471093580558400.
@@ -6110,11 +6497,12 @@ def test_atomic_integer_min_inclusive_2_nistxml_sv_iv_atomic_integer_min_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_min_inclusive_2_nistxml_sv_iv_atomic_integer_min_inclusive_3_5(mode, save_output):
+def test_atomic_integer_min_inclusive_2_nistxml_sv_iv_atomic_integer_min_inclusive_3_5(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet minInclusive with value
     -362471093580558400.
@@ -6126,11 +6514,12 @@ def test_atomic_integer_min_inclusive_2_nistxml_sv_iv_atomic_integer_min_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_min_inclusive_1_nistxml_sv_iv_atomic_integer_min_inclusive_2_1(mode, save_output):
+def test_atomic_integer_min_inclusive_1_nistxml_sv_iv_atomic_integer_min_inclusive_2_1(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet minInclusive with value
     156487900906511434.
@@ -6142,11 +6531,12 @@ def test_atomic_integer_min_inclusive_1_nistxml_sv_iv_atomic_integer_min_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_min_inclusive_1_nistxml_sv_iv_atomic_integer_min_inclusive_2_2(mode, save_output):
+def test_atomic_integer_min_inclusive_1_nistxml_sv_iv_atomic_integer_min_inclusive_2_2(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet minInclusive with value
     156487900906511434.
@@ -6158,11 +6548,12 @@ def test_atomic_integer_min_inclusive_1_nistxml_sv_iv_atomic_integer_min_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_min_inclusive_1_nistxml_sv_iv_atomic_integer_min_inclusive_2_3(mode, save_output):
+def test_atomic_integer_min_inclusive_1_nistxml_sv_iv_atomic_integer_min_inclusive_2_3(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet minInclusive with value
     156487900906511434.
@@ -6174,11 +6565,12 @@ def test_atomic_integer_min_inclusive_1_nistxml_sv_iv_atomic_integer_min_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_min_inclusive_1_nistxml_sv_iv_atomic_integer_min_inclusive_2_4(mode, save_output):
+def test_atomic_integer_min_inclusive_1_nistxml_sv_iv_atomic_integer_min_inclusive_2_4(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet minInclusive with value
     156487900906511434.
@@ -6190,11 +6582,12 @@ def test_atomic_integer_min_inclusive_1_nistxml_sv_iv_atomic_integer_min_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_min_inclusive_1_nistxml_sv_iv_atomic_integer_min_inclusive_2_5(mode, save_output):
+def test_atomic_integer_min_inclusive_1_nistxml_sv_iv_atomic_integer_min_inclusive_2_5(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet minInclusive with value
     156487900906511434.
@@ -6206,11 +6599,12 @@ def test_atomic_integer_min_inclusive_1_nistxml_sv_iv_atomic_integer_min_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_min_inclusive_nistxml_sv_iv_atomic_integer_min_inclusive_1_1(mode, save_output):
+def test_atomic_integer_min_inclusive_nistxml_sv_iv_atomic_integer_min_inclusive_1_1(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet minInclusive with value
     -999999999999999999.
@@ -6222,11 +6616,12 @@ def test_atomic_integer_min_inclusive_nistxml_sv_iv_atomic_integer_min_inclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_min_inclusive_nistxml_sv_iv_atomic_integer_min_inclusive_1_2(mode, save_output):
+def test_atomic_integer_min_inclusive_nistxml_sv_iv_atomic_integer_min_inclusive_1_2(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet minInclusive with value
     -999999999999999999.
@@ -6238,11 +6633,12 @@ def test_atomic_integer_min_inclusive_nistxml_sv_iv_atomic_integer_min_inclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_min_inclusive_nistxml_sv_iv_atomic_integer_min_inclusive_1_3(mode, save_output):
+def test_atomic_integer_min_inclusive_nistxml_sv_iv_atomic_integer_min_inclusive_1_3(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet minInclusive with value
     -999999999999999999.
@@ -6254,11 +6650,12 @@ def test_atomic_integer_min_inclusive_nistxml_sv_iv_atomic_integer_min_inclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_min_inclusive_nistxml_sv_iv_atomic_integer_min_inclusive_1_4(mode, save_output):
+def test_atomic_integer_min_inclusive_nistxml_sv_iv_atomic_integer_min_inclusive_1_4(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet minInclusive with value
     -999999999999999999.
@@ -6270,11 +6667,12 @@ def test_atomic_integer_min_inclusive_nistxml_sv_iv_atomic_integer_min_inclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_min_inclusive_nistxml_sv_iv_atomic_integer_min_inclusive_1_5(mode, save_output):
+def test_atomic_integer_min_inclusive_nistxml_sv_iv_atomic_integer_min_inclusive_1_5(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet minInclusive with value
     -999999999999999999.
@@ -6286,11 +6684,12 @@ def test_atomic_integer_min_inclusive_nistxml_sv_iv_atomic_integer_min_inclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_min_exclusive_4_nistxml_sv_iv_atomic_integer_min_exclusive_5_1(mode, save_output):
+def test_atomic_integer_min_exclusive_4_nistxml_sv_iv_atomic_integer_min_exclusive_5_1(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet minExclusive with value
     999999999999999998.
@@ -6302,11 +6701,12 @@ def test_atomic_integer_min_exclusive_4_nistxml_sv_iv_atomic_integer_min_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_min_exclusive_3_nistxml_sv_iv_atomic_integer_min_exclusive_4_1(mode, save_output):
+def test_atomic_integer_min_exclusive_3_nistxml_sv_iv_atomic_integer_min_exclusive_4_1(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet minExclusive with value
     470740450062970382.
@@ -6318,11 +6718,12 @@ def test_atomic_integer_min_exclusive_3_nistxml_sv_iv_atomic_integer_min_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_min_exclusive_3_nistxml_sv_iv_atomic_integer_min_exclusive_4_2(mode, save_output):
+def test_atomic_integer_min_exclusive_3_nistxml_sv_iv_atomic_integer_min_exclusive_4_2(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet minExclusive with value
     470740450062970382.
@@ -6334,11 +6735,12 @@ def test_atomic_integer_min_exclusive_3_nistxml_sv_iv_atomic_integer_min_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_min_exclusive_3_nistxml_sv_iv_atomic_integer_min_exclusive_4_3(mode, save_output):
+def test_atomic_integer_min_exclusive_3_nistxml_sv_iv_atomic_integer_min_exclusive_4_3(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet minExclusive with value
     470740450062970382.
@@ -6350,11 +6752,12 @@ def test_atomic_integer_min_exclusive_3_nistxml_sv_iv_atomic_integer_min_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_min_exclusive_3_nistxml_sv_iv_atomic_integer_min_exclusive_4_4(mode, save_output):
+def test_atomic_integer_min_exclusive_3_nistxml_sv_iv_atomic_integer_min_exclusive_4_4(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet minExclusive with value
     470740450062970382.
@@ -6366,11 +6769,12 @@ def test_atomic_integer_min_exclusive_3_nistxml_sv_iv_atomic_integer_min_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_min_exclusive_3_nistxml_sv_iv_atomic_integer_min_exclusive_4_5(mode, save_output):
+def test_atomic_integer_min_exclusive_3_nistxml_sv_iv_atomic_integer_min_exclusive_4_5(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet minExclusive with value
     470740450062970382.
@@ -6382,11 +6786,12 @@ def test_atomic_integer_min_exclusive_3_nistxml_sv_iv_atomic_integer_min_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_min_exclusive_2_nistxml_sv_iv_atomic_integer_min_exclusive_3_1(mode, save_output):
+def test_atomic_integer_min_exclusive_2_nistxml_sv_iv_atomic_integer_min_exclusive_3_1(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet minExclusive with value
     389578809107570477.
@@ -6398,11 +6803,12 @@ def test_atomic_integer_min_exclusive_2_nistxml_sv_iv_atomic_integer_min_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_min_exclusive_2_nistxml_sv_iv_atomic_integer_min_exclusive_3_2(mode, save_output):
+def test_atomic_integer_min_exclusive_2_nistxml_sv_iv_atomic_integer_min_exclusive_3_2(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet minExclusive with value
     389578809107570477.
@@ -6414,11 +6820,12 @@ def test_atomic_integer_min_exclusive_2_nistxml_sv_iv_atomic_integer_min_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_min_exclusive_2_nistxml_sv_iv_atomic_integer_min_exclusive_3_3(mode, save_output):
+def test_atomic_integer_min_exclusive_2_nistxml_sv_iv_atomic_integer_min_exclusive_3_3(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet minExclusive with value
     389578809107570477.
@@ -6430,11 +6837,12 @@ def test_atomic_integer_min_exclusive_2_nistxml_sv_iv_atomic_integer_min_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_min_exclusive_2_nistxml_sv_iv_atomic_integer_min_exclusive_3_4(mode, save_output):
+def test_atomic_integer_min_exclusive_2_nistxml_sv_iv_atomic_integer_min_exclusive_3_4(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet minExclusive with value
     389578809107570477.
@@ -6446,11 +6854,12 @@ def test_atomic_integer_min_exclusive_2_nistxml_sv_iv_atomic_integer_min_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_min_exclusive_2_nistxml_sv_iv_atomic_integer_min_exclusive_3_5(mode, save_output):
+def test_atomic_integer_min_exclusive_2_nistxml_sv_iv_atomic_integer_min_exclusive_3_5(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet minExclusive with value
     389578809107570477.
@@ -6462,11 +6871,12 @@ def test_atomic_integer_min_exclusive_2_nistxml_sv_iv_atomic_integer_min_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_min_exclusive_1_nistxml_sv_iv_atomic_integer_min_exclusive_2_1(mode, save_output):
+def test_atomic_integer_min_exclusive_1_nistxml_sv_iv_atomic_integer_min_exclusive_2_1(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet minExclusive with value
     511594901568435787.
@@ -6478,11 +6888,12 @@ def test_atomic_integer_min_exclusive_1_nistxml_sv_iv_atomic_integer_min_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_min_exclusive_1_nistxml_sv_iv_atomic_integer_min_exclusive_2_2(mode, save_output):
+def test_atomic_integer_min_exclusive_1_nistxml_sv_iv_atomic_integer_min_exclusive_2_2(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet minExclusive with value
     511594901568435787.
@@ -6494,11 +6905,12 @@ def test_atomic_integer_min_exclusive_1_nistxml_sv_iv_atomic_integer_min_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_min_exclusive_1_nistxml_sv_iv_atomic_integer_min_exclusive_2_3(mode, save_output):
+def test_atomic_integer_min_exclusive_1_nistxml_sv_iv_atomic_integer_min_exclusive_2_3(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet minExclusive with value
     511594901568435787.
@@ -6510,11 +6922,12 @@ def test_atomic_integer_min_exclusive_1_nistxml_sv_iv_atomic_integer_min_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_min_exclusive_1_nistxml_sv_iv_atomic_integer_min_exclusive_2_4(mode, save_output):
+def test_atomic_integer_min_exclusive_1_nistxml_sv_iv_atomic_integer_min_exclusive_2_4(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet minExclusive with value
     511594901568435787.
@@ -6526,11 +6939,12 @@ def test_atomic_integer_min_exclusive_1_nistxml_sv_iv_atomic_integer_min_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_min_exclusive_1_nistxml_sv_iv_atomic_integer_min_exclusive_2_5(mode, save_output):
+def test_atomic_integer_min_exclusive_1_nistxml_sv_iv_atomic_integer_min_exclusive_2_5(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet minExclusive with value
     511594901568435787.
@@ -6542,11 +6956,12 @@ def test_atomic_integer_min_exclusive_1_nistxml_sv_iv_atomic_integer_min_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_min_exclusive_nistxml_sv_iv_atomic_integer_min_exclusive_1_1(mode, save_output):
+def test_atomic_integer_min_exclusive_nistxml_sv_iv_atomic_integer_min_exclusive_1_1(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet minExclusive with value
     -999999999999999999.
@@ -6558,11 +6973,12 @@ def test_atomic_integer_min_exclusive_nistxml_sv_iv_atomic_integer_min_exclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_min_exclusive_nistxml_sv_iv_atomic_integer_min_exclusive_1_2(mode, save_output):
+def test_atomic_integer_min_exclusive_nistxml_sv_iv_atomic_integer_min_exclusive_1_2(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet minExclusive with value
     -999999999999999999.
@@ -6574,11 +6990,12 @@ def test_atomic_integer_min_exclusive_nistxml_sv_iv_atomic_integer_min_exclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_min_exclusive_nistxml_sv_iv_atomic_integer_min_exclusive_1_3(mode, save_output):
+def test_atomic_integer_min_exclusive_nistxml_sv_iv_atomic_integer_min_exclusive_1_3(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet minExclusive with value
     -999999999999999999.
@@ -6590,11 +7007,12 @@ def test_atomic_integer_min_exclusive_nistxml_sv_iv_atomic_integer_min_exclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_min_exclusive_nistxml_sv_iv_atomic_integer_min_exclusive_1_4(mode, save_output):
+def test_atomic_integer_min_exclusive_nistxml_sv_iv_atomic_integer_min_exclusive_1_4(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet minExclusive with value
     -999999999999999999.
@@ -6606,11 +7024,12 @@ def test_atomic_integer_min_exclusive_nistxml_sv_iv_atomic_integer_min_exclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_integer_min_exclusive_nistxml_sv_iv_atomic_integer_min_exclusive_1_5(mode, save_output):
+def test_atomic_integer_min_exclusive_nistxml_sv_iv_atomic_integer_min_exclusive_1_5(mode, save_output, output_format):
     """
     Type atomic/integer is restricted by facet minExclusive with value
     -999999999999999999.
@@ -6622,11 +7041,12 @@ def test_atomic_integer_min_exclusive_nistxml_sv_iv_atomic_integer_min_exclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_white_space_nistxml_sv_iv_atomic_decimal_white_space_1_1(mode, save_output):
+def test_atomic_decimal_white_space_nistxml_sv_iv_atomic_decimal_white_space_1_1(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet whiteSpace with value
     collapse.
@@ -6638,11 +7058,12 @@ def test_atomic_decimal_white_space_nistxml_sv_iv_atomic_decimal_white_space_1_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_white_space_nistxml_sv_iv_atomic_decimal_white_space_1_2(mode, save_output):
+def test_atomic_decimal_white_space_nistxml_sv_iv_atomic_decimal_white_space_1_2(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet whiteSpace with value
     collapse.
@@ -6654,11 +7075,12 @@ def test_atomic_decimal_white_space_nistxml_sv_iv_atomic_decimal_white_space_1_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_white_space_nistxml_sv_iv_atomic_decimal_white_space_1_3(mode, save_output):
+def test_atomic_decimal_white_space_nistxml_sv_iv_atomic_decimal_white_space_1_3(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet whiteSpace with value
     collapse.
@@ -6670,11 +7092,12 @@ def test_atomic_decimal_white_space_nistxml_sv_iv_atomic_decimal_white_space_1_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_white_space_nistxml_sv_iv_atomic_decimal_white_space_1_4(mode, save_output):
+def test_atomic_decimal_white_space_nistxml_sv_iv_atomic_decimal_white_space_1_4(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet whiteSpace with value
     collapse.
@@ -6686,11 +7109,12 @@ def test_atomic_decimal_white_space_nistxml_sv_iv_atomic_decimal_white_space_1_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_white_space_nistxml_sv_iv_atomic_decimal_white_space_1_5(mode, save_output):
+def test_atomic_decimal_white_space_nistxml_sv_iv_atomic_decimal_white_space_1_5(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet whiteSpace with value
     collapse.
@@ -6702,11 +7126,12 @@ def test_atomic_decimal_white_space_nistxml_sv_iv_atomic_decimal_white_space_1_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_enumeration_4_nistxml_sv_iv_atomic_decimal_enumeration_5_1(mode, save_output):
+def test_atomic_decimal_enumeration_4_nistxml_sv_iv_atomic_decimal_enumeration_5_1(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet enumeration.
     """
@@ -6717,11 +7142,12 @@ def test_atomic_decimal_enumeration_4_nistxml_sv_iv_atomic_decimal_enumeration_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_enumeration_4_nistxml_sv_iv_atomic_decimal_enumeration_5_2(mode, save_output):
+def test_atomic_decimal_enumeration_4_nistxml_sv_iv_atomic_decimal_enumeration_5_2(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet enumeration.
     """
@@ -6732,11 +7158,12 @@ def test_atomic_decimal_enumeration_4_nistxml_sv_iv_atomic_decimal_enumeration_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_enumeration_4_nistxml_sv_iv_atomic_decimal_enumeration_5_3(mode, save_output):
+def test_atomic_decimal_enumeration_4_nistxml_sv_iv_atomic_decimal_enumeration_5_3(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet enumeration.
     """
@@ -6747,11 +7174,12 @@ def test_atomic_decimal_enumeration_4_nistxml_sv_iv_atomic_decimal_enumeration_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_enumeration_4_nistxml_sv_iv_atomic_decimal_enumeration_5_4(mode, save_output):
+def test_atomic_decimal_enumeration_4_nistxml_sv_iv_atomic_decimal_enumeration_5_4(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet enumeration.
     """
@@ -6762,11 +7190,12 @@ def test_atomic_decimal_enumeration_4_nistxml_sv_iv_atomic_decimal_enumeration_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_enumeration_4_nistxml_sv_iv_atomic_decimal_enumeration_5_5(mode, save_output):
+def test_atomic_decimal_enumeration_4_nistxml_sv_iv_atomic_decimal_enumeration_5_5(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet enumeration.
     """
@@ -6777,11 +7206,12 @@ def test_atomic_decimal_enumeration_4_nistxml_sv_iv_atomic_decimal_enumeration_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_enumeration_3_nistxml_sv_iv_atomic_decimal_enumeration_4_1(mode, save_output):
+def test_atomic_decimal_enumeration_3_nistxml_sv_iv_atomic_decimal_enumeration_4_1(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet enumeration.
     """
@@ -6792,11 +7222,12 @@ def test_atomic_decimal_enumeration_3_nistxml_sv_iv_atomic_decimal_enumeration_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_enumeration_3_nistxml_sv_iv_atomic_decimal_enumeration_4_2(mode, save_output):
+def test_atomic_decimal_enumeration_3_nistxml_sv_iv_atomic_decimal_enumeration_4_2(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet enumeration.
     """
@@ -6807,11 +7238,12 @@ def test_atomic_decimal_enumeration_3_nistxml_sv_iv_atomic_decimal_enumeration_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_enumeration_3_nistxml_sv_iv_atomic_decimal_enumeration_4_3(mode, save_output):
+def test_atomic_decimal_enumeration_3_nistxml_sv_iv_atomic_decimal_enumeration_4_3(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet enumeration.
     """
@@ -6822,11 +7254,12 @@ def test_atomic_decimal_enumeration_3_nistxml_sv_iv_atomic_decimal_enumeration_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_enumeration_3_nistxml_sv_iv_atomic_decimal_enumeration_4_4(mode, save_output):
+def test_atomic_decimal_enumeration_3_nistxml_sv_iv_atomic_decimal_enumeration_4_4(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet enumeration.
     """
@@ -6837,11 +7270,12 @@ def test_atomic_decimal_enumeration_3_nistxml_sv_iv_atomic_decimal_enumeration_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_enumeration_3_nistxml_sv_iv_atomic_decimal_enumeration_4_5(mode, save_output):
+def test_atomic_decimal_enumeration_3_nistxml_sv_iv_atomic_decimal_enumeration_4_5(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet enumeration.
     """
@@ -6852,11 +7286,12 @@ def test_atomic_decimal_enumeration_3_nistxml_sv_iv_atomic_decimal_enumeration_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_enumeration_2_nistxml_sv_iv_atomic_decimal_enumeration_3_1(mode, save_output):
+def test_atomic_decimal_enumeration_2_nistxml_sv_iv_atomic_decimal_enumeration_3_1(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet enumeration.
     """
@@ -6867,11 +7302,12 @@ def test_atomic_decimal_enumeration_2_nistxml_sv_iv_atomic_decimal_enumeration_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_enumeration_2_nistxml_sv_iv_atomic_decimal_enumeration_3_2(mode, save_output):
+def test_atomic_decimal_enumeration_2_nistxml_sv_iv_atomic_decimal_enumeration_3_2(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet enumeration.
     """
@@ -6882,11 +7318,12 @@ def test_atomic_decimal_enumeration_2_nistxml_sv_iv_atomic_decimal_enumeration_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_enumeration_2_nistxml_sv_iv_atomic_decimal_enumeration_3_3(mode, save_output):
+def test_atomic_decimal_enumeration_2_nistxml_sv_iv_atomic_decimal_enumeration_3_3(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet enumeration.
     """
@@ -6897,11 +7334,12 @@ def test_atomic_decimal_enumeration_2_nistxml_sv_iv_atomic_decimal_enumeration_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_enumeration_2_nistxml_sv_iv_atomic_decimal_enumeration_3_4(mode, save_output):
+def test_atomic_decimal_enumeration_2_nistxml_sv_iv_atomic_decimal_enumeration_3_4(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet enumeration.
     """
@@ -6912,11 +7350,12 @@ def test_atomic_decimal_enumeration_2_nistxml_sv_iv_atomic_decimal_enumeration_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_enumeration_2_nistxml_sv_iv_atomic_decimal_enumeration_3_5(mode, save_output):
+def test_atomic_decimal_enumeration_2_nistxml_sv_iv_atomic_decimal_enumeration_3_5(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet enumeration.
     """
@@ -6927,11 +7366,12 @@ def test_atomic_decimal_enumeration_2_nistxml_sv_iv_atomic_decimal_enumeration_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_enumeration_1_nistxml_sv_iv_atomic_decimal_enumeration_2_1(mode, save_output):
+def test_atomic_decimal_enumeration_1_nistxml_sv_iv_atomic_decimal_enumeration_2_1(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet enumeration.
     """
@@ -6942,11 +7382,12 @@ def test_atomic_decimal_enumeration_1_nistxml_sv_iv_atomic_decimal_enumeration_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_enumeration_1_nistxml_sv_iv_atomic_decimal_enumeration_2_2(mode, save_output):
+def test_atomic_decimal_enumeration_1_nistxml_sv_iv_atomic_decimal_enumeration_2_2(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet enumeration.
     """
@@ -6957,11 +7398,12 @@ def test_atomic_decimal_enumeration_1_nistxml_sv_iv_atomic_decimal_enumeration_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_enumeration_1_nistxml_sv_iv_atomic_decimal_enumeration_2_3(mode, save_output):
+def test_atomic_decimal_enumeration_1_nistxml_sv_iv_atomic_decimal_enumeration_2_3(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet enumeration.
     """
@@ -6972,11 +7414,12 @@ def test_atomic_decimal_enumeration_1_nistxml_sv_iv_atomic_decimal_enumeration_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_enumeration_1_nistxml_sv_iv_atomic_decimal_enumeration_2_4(mode, save_output):
+def test_atomic_decimal_enumeration_1_nistxml_sv_iv_atomic_decimal_enumeration_2_4(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet enumeration.
     """
@@ -6987,11 +7430,12 @@ def test_atomic_decimal_enumeration_1_nistxml_sv_iv_atomic_decimal_enumeration_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_enumeration_1_nistxml_sv_iv_atomic_decimal_enumeration_2_5(mode, save_output):
+def test_atomic_decimal_enumeration_1_nistxml_sv_iv_atomic_decimal_enumeration_2_5(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet enumeration.
     """
@@ -7002,11 +7446,12 @@ def test_atomic_decimal_enumeration_1_nistxml_sv_iv_atomic_decimal_enumeration_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_enumeration_nistxml_sv_iv_atomic_decimal_enumeration_1_1(mode, save_output):
+def test_atomic_decimal_enumeration_nistxml_sv_iv_atomic_decimal_enumeration_1_1(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet enumeration.
     """
@@ -7017,11 +7462,12 @@ def test_atomic_decimal_enumeration_nistxml_sv_iv_atomic_decimal_enumeration_1_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_enumeration_nistxml_sv_iv_atomic_decimal_enumeration_1_2(mode, save_output):
+def test_atomic_decimal_enumeration_nistxml_sv_iv_atomic_decimal_enumeration_1_2(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet enumeration.
     """
@@ -7032,11 +7478,12 @@ def test_atomic_decimal_enumeration_nistxml_sv_iv_atomic_decimal_enumeration_1_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_enumeration_nistxml_sv_iv_atomic_decimal_enumeration_1_3(mode, save_output):
+def test_atomic_decimal_enumeration_nistxml_sv_iv_atomic_decimal_enumeration_1_3(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet enumeration.
     """
@@ -7047,11 +7494,12 @@ def test_atomic_decimal_enumeration_nistxml_sv_iv_atomic_decimal_enumeration_1_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_enumeration_nistxml_sv_iv_atomic_decimal_enumeration_1_4(mode, save_output):
+def test_atomic_decimal_enumeration_nistxml_sv_iv_atomic_decimal_enumeration_1_4(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet enumeration.
     """
@@ -7062,11 +7510,12 @@ def test_atomic_decimal_enumeration_nistxml_sv_iv_atomic_decimal_enumeration_1_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_enumeration_nistxml_sv_iv_atomic_decimal_enumeration_1_5(mode, save_output):
+def test_atomic_decimal_enumeration_nistxml_sv_iv_atomic_decimal_enumeration_1_5(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet enumeration.
     """
@@ -7077,11 +7526,12 @@ def test_atomic_decimal_enumeration_nistxml_sv_iv_atomic_decimal_enumeration_1_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_pattern_4_nistxml_sv_iv_atomic_decimal_pattern_5_1(mode, save_output):
+def test_atomic_decimal_pattern_4_nistxml_sv_iv_atomic_decimal_pattern_5_1(mode, save_output, output_format):
     r"""
     Type atomic/decimal is restricted by facet pattern with value
     \d{5}\.\d{13}.
@@ -7093,11 +7543,12 @@ def test_atomic_decimal_pattern_4_nistxml_sv_iv_atomic_decimal_pattern_5_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_pattern_4_nistxml_sv_iv_atomic_decimal_pattern_5_2(mode, save_output):
+def test_atomic_decimal_pattern_4_nistxml_sv_iv_atomic_decimal_pattern_5_2(mode, save_output, output_format):
     r"""
     Type atomic/decimal is restricted by facet pattern with value
     \d{5}\.\d{13}.
@@ -7109,11 +7560,12 @@ def test_atomic_decimal_pattern_4_nistxml_sv_iv_atomic_decimal_pattern_5_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_pattern_4_nistxml_sv_iv_atomic_decimal_pattern_5_3(mode, save_output):
+def test_atomic_decimal_pattern_4_nistxml_sv_iv_atomic_decimal_pattern_5_3(mode, save_output, output_format):
     r"""
     Type atomic/decimal is restricted by facet pattern with value
     \d{5}\.\d{13}.
@@ -7125,11 +7577,12 @@ def test_atomic_decimal_pattern_4_nistxml_sv_iv_atomic_decimal_pattern_5_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_pattern_4_nistxml_sv_iv_atomic_decimal_pattern_5_4(mode, save_output):
+def test_atomic_decimal_pattern_4_nistxml_sv_iv_atomic_decimal_pattern_5_4(mode, save_output, output_format):
     r"""
     Type atomic/decimal is restricted by facet pattern with value
     \d{5}\.\d{13}.
@@ -7141,11 +7594,12 @@ def test_atomic_decimal_pattern_4_nistxml_sv_iv_atomic_decimal_pattern_5_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_pattern_4_nistxml_sv_iv_atomic_decimal_pattern_5_5(mode, save_output):
+def test_atomic_decimal_pattern_4_nistxml_sv_iv_atomic_decimal_pattern_5_5(mode, save_output, output_format):
     r"""
     Type atomic/decimal is restricted by facet pattern with value
     \d{5}\.\d{13}.
@@ -7157,11 +7611,12 @@ def test_atomic_decimal_pattern_4_nistxml_sv_iv_atomic_decimal_pattern_5_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_pattern_3_nistxml_sv_iv_atomic_decimal_pattern_4_1(mode, save_output):
+def test_atomic_decimal_pattern_3_nistxml_sv_iv_atomic_decimal_pattern_4_1(mode, save_output, output_format):
     r"""
     Type atomic/decimal is restricted by facet pattern with value
     \.\d{13}.
@@ -7173,11 +7628,12 @@ def test_atomic_decimal_pattern_3_nistxml_sv_iv_atomic_decimal_pattern_4_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_pattern_3_nistxml_sv_iv_atomic_decimal_pattern_4_2(mode, save_output):
+def test_atomic_decimal_pattern_3_nistxml_sv_iv_atomic_decimal_pattern_4_2(mode, save_output, output_format):
     r"""
     Type atomic/decimal is restricted by facet pattern with value
     \.\d{13}.
@@ -7189,11 +7645,12 @@ def test_atomic_decimal_pattern_3_nistxml_sv_iv_atomic_decimal_pattern_4_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_pattern_3_nistxml_sv_iv_atomic_decimal_pattern_4_3(mode, save_output):
+def test_atomic_decimal_pattern_3_nistxml_sv_iv_atomic_decimal_pattern_4_3(mode, save_output, output_format):
     r"""
     Type atomic/decimal is restricted by facet pattern with value
     \.\d{13}.
@@ -7205,11 +7662,12 @@ def test_atomic_decimal_pattern_3_nistxml_sv_iv_atomic_decimal_pattern_4_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_pattern_3_nistxml_sv_iv_atomic_decimal_pattern_4_4(mode, save_output):
+def test_atomic_decimal_pattern_3_nistxml_sv_iv_atomic_decimal_pattern_4_4(mode, save_output, output_format):
     r"""
     Type atomic/decimal is restricted by facet pattern with value
     \.\d{13}.
@@ -7221,11 +7679,12 @@ def test_atomic_decimal_pattern_3_nistxml_sv_iv_atomic_decimal_pattern_4_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_pattern_3_nistxml_sv_iv_atomic_decimal_pattern_4_5(mode, save_output):
+def test_atomic_decimal_pattern_3_nistxml_sv_iv_atomic_decimal_pattern_4_5(mode, save_output, output_format):
     r"""
     Type atomic/decimal is restricted by facet pattern with value
     \.\d{13}.
@@ -7237,11 +7696,12 @@ def test_atomic_decimal_pattern_3_nistxml_sv_iv_atomic_decimal_pattern_4_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_pattern_2_nistxml_sv_iv_atomic_decimal_pattern_3_1(mode, save_output):
+def test_atomic_decimal_pattern_2_nistxml_sv_iv_atomic_decimal_pattern_3_1(mode, save_output, output_format):
     r"""
     Type atomic/decimal is restricted by facet pattern with value
     \-\d{1}\.\d{8}.
@@ -7253,11 +7713,12 @@ def test_atomic_decimal_pattern_2_nistxml_sv_iv_atomic_decimal_pattern_3_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_pattern_2_nistxml_sv_iv_atomic_decimal_pattern_3_2(mode, save_output):
+def test_atomic_decimal_pattern_2_nistxml_sv_iv_atomic_decimal_pattern_3_2(mode, save_output, output_format):
     r"""
     Type atomic/decimal is restricted by facet pattern with value
     \-\d{1}\.\d{8}.
@@ -7269,11 +7730,12 @@ def test_atomic_decimal_pattern_2_nistxml_sv_iv_atomic_decimal_pattern_3_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_pattern_2_nistxml_sv_iv_atomic_decimal_pattern_3_3(mode, save_output):
+def test_atomic_decimal_pattern_2_nistxml_sv_iv_atomic_decimal_pattern_3_3(mode, save_output, output_format):
     r"""
     Type atomic/decimal is restricted by facet pattern with value
     \-\d{1}\.\d{8}.
@@ -7285,11 +7747,12 @@ def test_atomic_decimal_pattern_2_nistxml_sv_iv_atomic_decimal_pattern_3_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_pattern_2_nistxml_sv_iv_atomic_decimal_pattern_3_4(mode, save_output):
+def test_atomic_decimal_pattern_2_nistxml_sv_iv_atomic_decimal_pattern_3_4(mode, save_output, output_format):
     r"""
     Type atomic/decimal is restricted by facet pattern with value
     \-\d{1}\.\d{8}.
@@ -7301,11 +7764,12 @@ def test_atomic_decimal_pattern_2_nistxml_sv_iv_atomic_decimal_pattern_3_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_pattern_2_nistxml_sv_iv_atomic_decimal_pattern_3_5(mode, save_output):
+def test_atomic_decimal_pattern_2_nistxml_sv_iv_atomic_decimal_pattern_3_5(mode, save_output, output_format):
     r"""
     Type atomic/decimal is restricted by facet pattern with value
     \-\d{1}\.\d{8}.
@@ -7317,11 +7781,12 @@ def test_atomic_decimal_pattern_2_nistxml_sv_iv_atomic_decimal_pattern_3_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_pattern_1_nistxml_sv_iv_atomic_decimal_pattern_2_1(mode, save_output):
+def test_atomic_decimal_pattern_1_nistxml_sv_iv_atomic_decimal_pattern_2_1(mode, save_output, output_format):
     r"""
     Type atomic/decimal is restricted by facet pattern with value
     \-\d{2}\.\d{3}.
@@ -7333,11 +7798,12 @@ def test_atomic_decimal_pattern_1_nistxml_sv_iv_atomic_decimal_pattern_2_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_pattern_1_nistxml_sv_iv_atomic_decimal_pattern_2_2(mode, save_output):
+def test_atomic_decimal_pattern_1_nistxml_sv_iv_atomic_decimal_pattern_2_2(mode, save_output, output_format):
     r"""
     Type atomic/decimal is restricted by facet pattern with value
     \-\d{2}\.\d{3}.
@@ -7349,11 +7815,12 @@ def test_atomic_decimal_pattern_1_nistxml_sv_iv_atomic_decimal_pattern_2_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_pattern_1_nistxml_sv_iv_atomic_decimal_pattern_2_3(mode, save_output):
+def test_atomic_decimal_pattern_1_nistxml_sv_iv_atomic_decimal_pattern_2_3(mode, save_output, output_format):
     r"""
     Type atomic/decimal is restricted by facet pattern with value
     \-\d{2}\.\d{3}.
@@ -7365,11 +7832,12 @@ def test_atomic_decimal_pattern_1_nistxml_sv_iv_atomic_decimal_pattern_2_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_pattern_1_nistxml_sv_iv_atomic_decimal_pattern_2_4(mode, save_output):
+def test_atomic_decimal_pattern_1_nistxml_sv_iv_atomic_decimal_pattern_2_4(mode, save_output, output_format):
     r"""
     Type atomic/decimal is restricted by facet pattern with value
     \-\d{2}\.\d{3}.
@@ -7381,11 +7849,12 @@ def test_atomic_decimal_pattern_1_nistxml_sv_iv_atomic_decimal_pattern_2_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_pattern_1_nistxml_sv_iv_atomic_decimal_pattern_2_5(mode, save_output):
+def test_atomic_decimal_pattern_1_nistxml_sv_iv_atomic_decimal_pattern_2_5(mode, save_output, output_format):
     r"""
     Type atomic/decimal is restricted by facet pattern with value
     \-\d{2}\.\d{3}.
@@ -7397,11 +7866,12 @@ def test_atomic_decimal_pattern_1_nistxml_sv_iv_atomic_decimal_pattern_2_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_pattern_nistxml_sv_iv_atomic_decimal_pattern_1_1(mode, save_output):
+def test_atomic_decimal_pattern_nistxml_sv_iv_atomic_decimal_pattern_1_1(mode, save_output, output_format):
     r"""
     Type atomic/decimal is restricted by facet pattern with value \d{1}.
     """
@@ -7412,11 +7882,12 @@ def test_atomic_decimal_pattern_nistxml_sv_iv_atomic_decimal_pattern_1_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_pattern_nistxml_sv_iv_atomic_decimal_pattern_1_2(mode, save_output):
+def test_atomic_decimal_pattern_nistxml_sv_iv_atomic_decimal_pattern_1_2(mode, save_output, output_format):
     r"""
     Type atomic/decimal is restricted by facet pattern with value \d{1}.
     """
@@ -7427,11 +7898,12 @@ def test_atomic_decimal_pattern_nistxml_sv_iv_atomic_decimal_pattern_1_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_pattern_nistxml_sv_iv_atomic_decimal_pattern_1_3(mode, save_output):
+def test_atomic_decimal_pattern_nistxml_sv_iv_atomic_decimal_pattern_1_3(mode, save_output, output_format):
     r"""
     Type atomic/decimal is restricted by facet pattern with value \d{1}.
     """
@@ -7442,11 +7914,12 @@ def test_atomic_decimal_pattern_nistxml_sv_iv_atomic_decimal_pattern_1_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_pattern_nistxml_sv_iv_atomic_decimal_pattern_1_4(mode, save_output):
+def test_atomic_decimal_pattern_nistxml_sv_iv_atomic_decimal_pattern_1_4(mode, save_output, output_format):
     r"""
     Type atomic/decimal is restricted by facet pattern with value \d{1}.
     """
@@ -7457,11 +7930,12 @@ def test_atomic_decimal_pattern_nistxml_sv_iv_atomic_decimal_pattern_1_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_pattern_nistxml_sv_iv_atomic_decimal_pattern_1_5(mode, save_output):
+def test_atomic_decimal_pattern_nistxml_sv_iv_atomic_decimal_pattern_1_5(mode, save_output, output_format):
     r"""
     Type atomic/decimal is restricted by facet pattern with value \d{1}.
     """
@@ -7472,11 +7946,12 @@ def test_atomic_decimal_pattern_nistxml_sv_iv_atomic_decimal_pattern_1_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_total_digits_4_nistxml_sv_iv_atomic_decimal_total_digits_5_1(mode, save_output):
+def test_atomic_decimal_total_digits_4_nistxml_sv_iv_atomic_decimal_total_digits_5_1(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet totalDigits with value 18.
     """
@@ -7487,11 +7962,12 @@ def test_atomic_decimal_total_digits_4_nistxml_sv_iv_atomic_decimal_total_digits
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_total_digits_4_nistxml_sv_iv_atomic_decimal_total_digits_5_2(mode, save_output):
+def test_atomic_decimal_total_digits_4_nistxml_sv_iv_atomic_decimal_total_digits_5_2(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet totalDigits with value 18.
     """
@@ -7502,11 +7978,12 @@ def test_atomic_decimal_total_digits_4_nistxml_sv_iv_atomic_decimal_total_digits
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_total_digits_4_nistxml_sv_iv_atomic_decimal_total_digits_5_3(mode, save_output):
+def test_atomic_decimal_total_digits_4_nistxml_sv_iv_atomic_decimal_total_digits_5_3(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet totalDigits with value 18.
     """
@@ -7517,11 +7994,12 @@ def test_atomic_decimal_total_digits_4_nistxml_sv_iv_atomic_decimal_total_digits
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_total_digits_4_nistxml_sv_iv_atomic_decimal_total_digits_5_4(mode, save_output):
+def test_atomic_decimal_total_digits_4_nistxml_sv_iv_atomic_decimal_total_digits_5_4(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet totalDigits with value 18.
     """
@@ -7532,11 +8010,12 @@ def test_atomic_decimal_total_digits_4_nistxml_sv_iv_atomic_decimal_total_digits
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_total_digits_4_nistxml_sv_iv_atomic_decimal_total_digits_5_5(mode, save_output):
+def test_atomic_decimal_total_digits_4_nistxml_sv_iv_atomic_decimal_total_digits_5_5(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet totalDigits with value 18.
     """
@@ -7547,11 +8026,12 @@ def test_atomic_decimal_total_digits_4_nistxml_sv_iv_atomic_decimal_total_digits
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_total_digits_3_nistxml_sv_iv_atomic_decimal_total_digits_4_1(mode, save_output):
+def test_atomic_decimal_total_digits_3_nistxml_sv_iv_atomic_decimal_total_digits_4_1(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet totalDigits with value 13.
     """
@@ -7562,11 +8042,12 @@ def test_atomic_decimal_total_digits_3_nistxml_sv_iv_atomic_decimal_total_digits
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_total_digits_3_nistxml_sv_iv_atomic_decimal_total_digits_4_2(mode, save_output):
+def test_atomic_decimal_total_digits_3_nistxml_sv_iv_atomic_decimal_total_digits_4_2(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet totalDigits with value 13.
     """
@@ -7577,11 +8058,12 @@ def test_atomic_decimal_total_digits_3_nistxml_sv_iv_atomic_decimal_total_digits
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_total_digits_3_nistxml_sv_iv_atomic_decimal_total_digits_4_3(mode, save_output):
+def test_atomic_decimal_total_digits_3_nistxml_sv_iv_atomic_decimal_total_digits_4_3(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet totalDigits with value 13.
     """
@@ -7592,11 +8074,12 @@ def test_atomic_decimal_total_digits_3_nistxml_sv_iv_atomic_decimal_total_digits
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_total_digits_3_nistxml_sv_iv_atomic_decimal_total_digits_4_4(mode, save_output):
+def test_atomic_decimal_total_digits_3_nistxml_sv_iv_atomic_decimal_total_digits_4_4(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet totalDigits with value 13.
     """
@@ -7607,11 +8090,12 @@ def test_atomic_decimal_total_digits_3_nistxml_sv_iv_atomic_decimal_total_digits
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_total_digits_3_nistxml_sv_iv_atomic_decimal_total_digits_4_5(mode, save_output):
+def test_atomic_decimal_total_digits_3_nistxml_sv_iv_atomic_decimal_total_digits_4_5(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet totalDigits with value 13.
     """
@@ -7622,11 +8106,12 @@ def test_atomic_decimal_total_digits_3_nistxml_sv_iv_atomic_decimal_total_digits
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_total_digits_2_nistxml_sv_iv_atomic_decimal_total_digits_3_1(mode, save_output):
+def test_atomic_decimal_total_digits_2_nistxml_sv_iv_atomic_decimal_total_digits_3_1(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet totalDigits with value 9.
     """
@@ -7637,11 +8122,12 @@ def test_atomic_decimal_total_digits_2_nistxml_sv_iv_atomic_decimal_total_digits
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_total_digits_2_nistxml_sv_iv_atomic_decimal_total_digits_3_2(mode, save_output):
+def test_atomic_decimal_total_digits_2_nistxml_sv_iv_atomic_decimal_total_digits_3_2(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet totalDigits with value 9.
     """
@@ -7652,11 +8138,12 @@ def test_atomic_decimal_total_digits_2_nistxml_sv_iv_atomic_decimal_total_digits
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_total_digits_2_nistxml_sv_iv_atomic_decimal_total_digits_3_3(mode, save_output):
+def test_atomic_decimal_total_digits_2_nistxml_sv_iv_atomic_decimal_total_digits_3_3(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet totalDigits with value 9.
     """
@@ -7667,11 +8154,12 @@ def test_atomic_decimal_total_digits_2_nistxml_sv_iv_atomic_decimal_total_digits
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_total_digits_2_nistxml_sv_iv_atomic_decimal_total_digits_3_4(mode, save_output):
+def test_atomic_decimal_total_digits_2_nistxml_sv_iv_atomic_decimal_total_digits_3_4(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet totalDigits with value 9.
     """
@@ -7682,11 +8170,12 @@ def test_atomic_decimal_total_digits_2_nistxml_sv_iv_atomic_decimal_total_digits
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_total_digits_2_nistxml_sv_iv_atomic_decimal_total_digits_3_5(mode, save_output):
+def test_atomic_decimal_total_digits_2_nistxml_sv_iv_atomic_decimal_total_digits_3_5(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet totalDigits with value 9.
     """
@@ -7697,11 +8186,12 @@ def test_atomic_decimal_total_digits_2_nistxml_sv_iv_atomic_decimal_total_digits
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_total_digits_1_nistxml_sv_iv_atomic_decimal_total_digits_2_1(mode, save_output):
+def test_atomic_decimal_total_digits_1_nistxml_sv_iv_atomic_decimal_total_digits_2_1(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet totalDigits with value 5.
     """
@@ -7712,11 +8202,12 @@ def test_atomic_decimal_total_digits_1_nistxml_sv_iv_atomic_decimal_total_digits
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_total_digits_1_nistxml_sv_iv_atomic_decimal_total_digits_2_2(mode, save_output):
+def test_atomic_decimal_total_digits_1_nistxml_sv_iv_atomic_decimal_total_digits_2_2(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet totalDigits with value 5.
     """
@@ -7727,11 +8218,12 @@ def test_atomic_decimal_total_digits_1_nistxml_sv_iv_atomic_decimal_total_digits
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_total_digits_1_nistxml_sv_iv_atomic_decimal_total_digits_2_3(mode, save_output):
+def test_atomic_decimal_total_digits_1_nistxml_sv_iv_atomic_decimal_total_digits_2_3(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet totalDigits with value 5.
     """
@@ -7742,11 +8234,12 @@ def test_atomic_decimal_total_digits_1_nistxml_sv_iv_atomic_decimal_total_digits
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_total_digits_1_nistxml_sv_iv_atomic_decimal_total_digits_2_4(mode, save_output):
+def test_atomic_decimal_total_digits_1_nistxml_sv_iv_atomic_decimal_total_digits_2_4(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet totalDigits with value 5.
     """
@@ -7757,11 +8250,12 @@ def test_atomic_decimal_total_digits_1_nistxml_sv_iv_atomic_decimal_total_digits
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_total_digits_1_nistxml_sv_iv_atomic_decimal_total_digits_2_5(mode, save_output):
+def test_atomic_decimal_total_digits_1_nistxml_sv_iv_atomic_decimal_total_digits_2_5(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet totalDigits with value 5.
     """
@@ -7772,11 +8266,12 @@ def test_atomic_decimal_total_digits_1_nistxml_sv_iv_atomic_decimal_total_digits
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_total_digits_nistxml_sv_iv_atomic_decimal_total_digits_1_1(mode, save_output):
+def test_atomic_decimal_total_digits_nistxml_sv_iv_atomic_decimal_total_digits_1_1(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet totalDigits with value 1.
     """
@@ -7787,11 +8282,12 @@ def test_atomic_decimal_total_digits_nistxml_sv_iv_atomic_decimal_total_digits_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_total_digits_nistxml_sv_iv_atomic_decimal_total_digits_1_2(mode, save_output):
+def test_atomic_decimal_total_digits_nistxml_sv_iv_atomic_decimal_total_digits_1_2(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet totalDigits with value 1.
     """
@@ -7802,11 +8298,12 @@ def test_atomic_decimal_total_digits_nistxml_sv_iv_atomic_decimal_total_digits_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_total_digits_nistxml_sv_iv_atomic_decimal_total_digits_1_3(mode, save_output):
+def test_atomic_decimal_total_digits_nistxml_sv_iv_atomic_decimal_total_digits_1_3(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet totalDigits with value 1.
     """
@@ -7817,11 +8314,12 @@ def test_atomic_decimal_total_digits_nistxml_sv_iv_atomic_decimal_total_digits_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_total_digits_nistxml_sv_iv_atomic_decimal_total_digits_1_4(mode, save_output):
+def test_atomic_decimal_total_digits_nistxml_sv_iv_atomic_decimal_total_digits_1_4(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet totalDigits with value 1.
     """
@@ -7832,11 +8330,12 @@ def test_atomic_decimal_total_digits_nistxml_sv_iv_atomic_decimal_total_digits_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_total_digits_nistxml_sv_iv_atomic_decimal_total_digits_1_5(mode, save_output):
+def test_atomic_decimal_total_digits_nistxml_sv_iv_atomic_decimal_total_digits_1_5(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet totalDigits with value 1.
     """
@@ -7847,11 +8346,12 @@ def test_atomic_decimal_total_digits_nistxml_sv_iv_atomic_decimal_total_digits_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_fraction_digits_4_nistxml_sv_iv_atomic_decimal_fraction_digits_5_1(mode, save_output):
+def test_atomic_decimal_fraction_digits_4_nistxml_sv_iv_atomic_decimal_fraction_digits_5_1(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet fractionDigits with value
     18.
@@ -7863,11 +8363,12 @@ def test_atomic_decimal_fraction_digits_4_nistxml_sv_iv_atomic_decimal_fraction_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_fraction_digits_4_nistxml_sv_iv_atomic_decimal_fraction_digits_5_2(mode, save_output):
+def test_atomic_decimal_fraction_digits_4_nistxml_sv_iv_atomic_decimal_fraction_digits_5_2(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet fractionDigits with value
     18.
@@ -7879,11 +8380,12 @@ def test_atomic_decimal_fraction_digits_4_nistxml_sv_iv_atomic_decimal_fraction_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_fraction_digits_4_nistxml_sv_iv_atomic_decimal_fraction_digits_5_3(mode, save_output):
+def test_atomic_decimal_fraction_digits_4_nistxml_sv_iv_atomic_decimal_fraction_digits_5_3(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet fractionDigits with value
     18.
@@ -7895,11 +8397,12 @@ def test_atomic_decimal_fraction_digits_4_nistxml_sv_iv_atomic_decimal_fraction_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_fraction_digits_4_nistxml_sv_iv_atomic_decimal_fraction_digits_5_4(mode, save_output):
+def test_atomic_decimal_fraction_digits_4_nistxml_sv_iv_atomic_decimal_fraction_digits_5_4(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet fractionDigits with value
     18.
@@ -7911,11 +8414,12 @@ def test_atomic_decimal_fraction_digits_4_nistxml_sv_iv_atomic_decimal_fraction_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_fraction_digits_4_nistxml_sv_iv_atomic_decimal_fraction_digits_5_5(mode, save_output):
+def test_atomic_decimal_fraction_digits_4_nistxml_sv_iv_atomic_decimal_fraction_digits_5_5(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet fractionDigits with value
     18.
@@ -7927,11 +8431,12 @@ def test_atomic_decimal_fraction_digits_4_nistxml_sv_iv_atomic_decimal_fraction_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_fraction_digits_3_nistxml_sv_iv_atomic_decimal_fraction_digits_4_1(mode, save_output):
+def test_atomic_decimal_fraction_digits_3_nistxml_sv_iv_atomic_decimal_fraction_digits_4_1(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet fractionDigits with value
     12.
@@ -7943,11 +8448,12 @@ def test_atomic_decimal_fraction_digits_3_nistxml_sv_iv_atomic_decimal_fraction_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_fraction_digits_3_nistxml_sv_iv_atomic_decimal_fraction_digits_4_2(mode, save_output):
+def test_atomic_decimal_fraction_digits_3_nistxml_sv_iv_atomic_decimal_fraction_digits_4_2(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet fractionDigits with value
     12.
@@ -7959,11 +8465,12 @@ def test_atomic_decimal_fraction_digits_3_nistxml_sv_iv_atomic_decimal_fraction_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_fraction_digits_3_nistxml_sv_iv_atomic_decimal_fraction_digits_4_3(mode, save_output):
+def test_atomic_decimal_fraction_digits_3_nistxml_sv_iv_atomic_decimal_fraction_digits_4_3(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet fractionDigits with value
     12.
@@ -7975,11 +8482,12 @@ def test_atomic_decimal_fraction_digits_3_nistxml_sv_iv_atomic_decimal_fraction_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_fraction_digits_3_nistxml_sv_iv_atomic_decimal_fraction_digits_4_4(mode, save_output):
+def test_atomic_decimal_fraction_digits_3_nistxml_sv_iv_atomic_decimal_fraction_digits_4_4(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet fractionDigits with value
     12.
@@ -7991,11 +8499,12 @@ def test_atomic_decimal_fraction_digits_3_nistxml_sv_iv_atomic_decimal_fraction_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_fraction_digits_3_nistxml_sv_iv_atomic_decimal_fraction_digits_4_5(mode, save_output):
+def test_atomic_decimal_fraction_digits_3_nistxml_sv_iv_atomic_decimal_fraction_digits_4_5(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet fractionDigits with value
     12.
@@ -8007,11 +8516,12 @@ def test_atomic_decimal_fraction_digits_3_nistxml_sv_iv_atomic_decimal_fraction_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_fraction_digits_2_nistxml_sv_iv_atomic_decimal_fraction_digits_3_1(mode, save_output):
+def test_atomic_decimal_fraction_digits_2_nistxml_sv_iv_atomic_decimal_fraction_digits_3_1(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet fractionDigits with value
     8.
@@ -8023,11 +8533,12 @@ def test_atomic_decimal_fraction_digits_2_nistxml_sv_iv_atomic_decimal_fraction_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_fraction_digits_2_nistxml_sv_iv_atomic_decimal_fraction_digits_3_2(mode, save_output):
+def test_atomic_decimal_fraction_digits_2_nistxml_sv_iv_atomic_decimal_fraction_digits_3_2(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet fractionDigits with value
     8.
@@ -8039,11 +8550,12 @@ def test_atomic_decimal_fraction_digits_2_nistxml_sv_iv_atomic_decimal_fraction_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_fraction_digits_2_nistxml_sv_iv_atomic_decimal_fraction_digits_3_3(mode, save_output):
+def test_atomic_decimal_fraction_digits_2_nistxml_sv_iv_atomic_decimal_fraction_digits_3_3(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet fractionDigits with value
     8.
@@ -8055,11 +8567,12 @@ def test_atomic_decimal_fraction_digits_2_nistxml_sv_iv_atomic_decimal_fraction_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_fraction_digits_2_nistxml_sv_iv_atomic_decimal_fraction_digits_3_4(mode, save_output):
+def test_atomic_decimal_fraction_digits_2_nistxml_sv_iv_atomic_decimal_fraction_digits_3_4(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet fractionDigits with value
     8.
@@ -8071,11 +8584,12 @@ def test_atomic_decimal_fraction_digits_2_nistxml_sv_iv_atomic_decimal_fraction_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_fraction_digits_2_nistxml_sv_iv_atomic_decimal_fraction_digits_3_5(mode, save_output):
+def test_atomic_decimal_fraction_digits_2_nistxml_sv_iv_atomic_decimal_fraction_digits_3_5(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet fractionDigits with value
     8.
@@ -8087,11 +8601,12 @@ def test_atomic_decimal_fraction_digits_2_nistxml_sv_iv_atomic_decimal_fraction_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_fraction_digits_1_nistxml_sv_iv_atomic_decimal_fraction_digits_2_1(mode, save_output):
+def test_atomic_decimal_fraction_digits_1_nistxml_sv_iv_atomic_decimal_fraction_digits_2_1(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet fractionDigits with value
     4.
@@ -8103,11 +8618,12 @@ def test_atomic_decimal_fraction_digits_1_nistxml_sv_iv_atomic_decimal_fraction_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_fraction_digits_1_nistxml_sv_iv_atomic_decimal_fraction_digits_2_2(mode, save_output):
+def test_atomic_decimal_fraction_digits_1_nistxml_sv_iv_atomic_decimal_fraction_digits_2_2(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet fractionDigits with value
     4.
@@ -8119,11 +8635,12 @@ def test_atomic_decimal_fraction_digits_1_nistxml_sv_iv_atomic_decimal_fraction_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_fraction_digits_1_nistxml_sv_iv_atomic_decimal_fraction_digits_2_3(mode, save_output):
+def test_atomic_decimal_fraction_digits_1_nistxml_sv_iv_atomic_decimal_fraction_digits_2_3(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet fractionDigits with value
     4.
@@ -8135,11 +8652,12 @@ def test_atomic_decimal_fraction_digits_1_nistxml_sv_iv_atomic_decimal_fraction_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_fraction_digits_1_nistxml_sv_iv_atomic_decimal_fraction_digits_2_4(mode, save_output):
+def test_atomic_decimal_fraction_digits_1_nistxml_sv_iv_atomic_decimal_fraction_digits_2_4(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet fractionDigits with value
     4.
@@ -8151,11 +8669,12 @@ def test_atomic_decimal_fraction_digits_1_nistxml_sv_iv_atomic_decimal_fraction_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_fraction_digits_1_nistxml_sv_iv_atomic_decimal_fraction_digits_2_5(mode, save_output):
+def test_atomic_decimal_fraction_digits_1_nistxml_sv_iv_atomic_decimal_fraction_digits_2_5(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet fractionDigits with value
     4.
@@ -8167,11 +8686,12 @@ def test_atomic_decimal_fraction_digits_1_nistxml_sv_iv_atomic_decimal_fraction_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_fraction_digits_nistxml_sv_iv_atomic_decimal_fraction_digits_1_1(mode, save_output):
+def test_atomic_decimal_fraction_digits_nistxml_sv_iv_atomic_decimal_fraction_digits_1_1(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet fractionDigits with value
     0.
@@ -8183,11 +8703,12 @@ def test_atomic_decimal_fraction_digits_nistxml_sv_iv_atomic_decimal_fraction_di
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_fraction_digits_nistxml_sv_iv_atomic_decimal_fraction_digits_1_2(mode, save_output):
+def test_atomic_decimal_fraction_digits_nistxml_sv_iv_atomic_decimal_fraction_digits_1_2(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet fractionDigits with value
     0.
@@ -8199,11 +8720,12 @@ def test_atomic_decimal_fraction_digits_nistxml_sv_iv_atomic_decimal_fraction_di
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_fraction_digits_nistxml_sv_iv_atomic_decimal_fraction_digits_1_3(mode, save_output):
+def test_atomic_decimal_fraction_digits_nistxml_sv_iv_atomic_decimal_fraction_digits_1_3(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet fractionDigits with value
     0.
@@ -8215,11 +8737,12 @@ def test_atomic_decimal_fraction_digits_nistxml_sv_iv_atomic_decimal_fraction_di
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_fraction_digits_nistxml_sv_iv_atomic_decimal_fraction_digits_1_4(mode, save_output):
+def test_atomic_decimal_fraction_digits_nistxml_sv_iv_atomic_decimal_fraction_digits_1_4(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet fractionDigits with value
     0.
@@ -8231,11 +8754,12 @@ def test_atomic_decimal_fraction_digits_nistxml_sv_iv_atomic_decimal_fraction_di
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_fraction_digits_nistxml_sv_iv_atomic_decimal_fraction_digits_1_5(mode, save_output):
+def test_atomic_decimal_fraction_digits_nistxml_sv_iv_atomic_decimal_fraction_digits_1_5(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet fractionDigits with value
     0.
@@ -8247,11 +8771,12 @@ def test_atomic_decimal_fraction_digits_nistxml_sv_iv_atomic_decimal_fraction_di
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_max_inclusive_4_nistxml_sv_iv_atomic_decimal_max_inclusive_5_1(mode, save_output):
+def test_atomic_decimal_max_inclusive_4_nistxml_sv_iv_atomic_decimal_max_inclusive_5_1(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet maxInclusive with value
     999999999999999999.
@@ -8263,11 +8788,12 @@ def test_atomic_decimal_max_inclusive_4_nistxml_sv_iv_atomic_decimal_max_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_max_inclusive_4_nistxml_sv_iv_atomic_decimal_max_inclusive_5_2(mode, save_output):
+def test_atomic_decimal_max_inclusive_4_nistxml_sv_iv_atomic_decimal_max_inclusive_5_2(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet maxInclusive with value
     999999999999999999.
@@ -8279,11 +8805,12 @@ def test_atomic_decimal_max_inclusive_4_nistxml_sv_iv_atomic_decimal_max_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_max_inclusive_4_nistxml_sv_iv_atomic_decimal_max_inclusive_5_3(mode, save_output):
+def test_atomic_decimal_max_inclusive_4_nistxml_sv_iv_atomic_decimal_max_inclusive_5_3(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet maxInclusive with value
     999999999999999999.
@@ -8295,11 +8822,12 @@ def test_atomic_decimal_max_inclusive_4_nistxml_sv_iv_atomic_decimal_max_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_max_inclusive_4_nistxml_sv_iv_atomic_decimal_max_inclusive_5_4(mode, save_output):
+def test_atomic_decimal_max_inclusive_4_nistxml_sv_iv_atomic_decimal_max_inclusive_5_4(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet maxInclusive with value
     999999999999999999.
@@ -8311,11 +8839,12 @@ def test_atomic_decimal_max_inclusive_4_nistxml_sv_iv_atomic_decimal_max_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_max_inclusive_4_nistxml_sv_iv_atomic_decimal_max_inclusive_5_5(mode, save_output):
+def test_atomic_decimal_max_inclusive_4_nistxml_sv_iv_atomic_decimal_max_inclusive_5_5(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet maxInclusive with value
     999999999999999999.
@@ -8327,11 +8856,12 @@ def test_atomic_decimal_max_inclusive_4_nistxml_sv_iv_atomic_decimal_max_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_max_inclusive_3_nistxml_sv_iv_atomic_decimal_max_inclusive_4_1(mode, save_output):
+def test_atomic_decimal_max_inclusive_3_nistxml_sv_iv_atomic_decimal_max_inclusive_4_1(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet maxInclusive with value
     -95776055693671313.
@@ -8343,11 +8873,12 @@ def test_atomic_decimal_max_inclusive_3_nistxml_sv_iv_atomic_decimal_max_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_max_inclusive_3_nistxml_sv_iv_atomic_decimal_max_inclusive_4_2(mode, save_output):
+def test_atomic_decimal_max_inclusive_3_nistxml_sv_iv_atomic_decimal_max_inclusive_4_2(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet maxInclusive with value
     -95776055693671313.
@@ -8359,11 +8890,12 @@ def test_atomic_decimal_max_inclusive_3_nistxml_sv_iv_atomic_decimal_max_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_max_inclusive_3_nistxml_sv_iv_atomic_decimal_max_inclusive_4_3(mode, save_output):
+def test_atomic_decimal_max_inclusive_3_nistxml_sv_iv_atomic_decimal_max_inclusive_4_3(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet maxInclusive with value
     -95776055693671313.
@@ -8375,11 +8907,12 @@ def test_atomic_decimal_max_inclusive_3_nistxml_sv_iv_atomic_decimal_max_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_max_inclusive_3_nistxml_sv_iv_atomic_decimal_max_inclusive_4_4(mode, save_output):
+def test_atomic_decimal_max_inclusive_3_nistxml_sv_iv_atomic_decimal_max_inclusive_4_4(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet maxInclusive with value
     -95776055693671313.
@@ -8391,11 +8924,12 @@ def test_atomic_decimal_max_inclusive_3_nistxml_sv_iv_atomic_decimal_max_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_max_inclusive_3_nistxml_sv_iv_atomic_decimal_max_inclusive_4_5(mode, save_output):
+def test_atomic_decimal_max_inclusive_3_nistxml_sv_iv_atomic_decimal_max_inclusive_4_5(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet maxInclusive with value
     -95776055693671313.
@@ -8407,11 +8941,12 @@ def test_atomic_decimal_max_inclusive_3_nistxml_sv_iv_atomic_decimal_max_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_max_inclusive_2_nistxml_sv_iv_atomic_decimal_max_inclusive_3_1(mode, save_output):
+def test_atomic_decimal_max_inclusive_2_nistxml_sv_iv_atomic_decimal_max_inclusive_3_1(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet maxInclusive with value
     -888403528420030673.
@@ -8423,11 +8958,12 @@ def test_atomic_decimal_max_inclusive_2_nistxml_sv_iv_atomic_decimal_max_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_max_inclusive_2_nistxml_sv_iv_atomic_decimal_max_inclusive_3_2(mode, save_output):
+def test_atomic_decimal_max_inclusive_2_nistxml_sv_iv_atomic_decimal_max_inclusive_3_2(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet maxInclusive with value
     -888403528420030673.
@@ -8439,11 +8975,12 @@ def test_atomic_decimal_max_inclusive_2_nistxml_sv_iv_atomic_decimal_max_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_max_inclusive_2_nistxml_sv_iv_atomic_decimal_max_inclusive_3_3(mode, save_output):
+def test_atomic_decimal_max_inclusive_2_nistxml_sv_iv_atomic_decimal_max_inclusive_3_3(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet maxInclusive with value
     -888403528420030673.
@@ -8455,11 +8992,12 @@ def test_atomic_decimal_max_inclusive_2_nistxml_sv_iv_atomic_decimal_max_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_max_inclusive_2_nistxml_sv_iv_atomic_decimal_max_inclusive_3_4(mode, save_output):
+def test_atomic_decimal_max_inclusive_2_nistxml_sv_iv_atomic_decimal_max_inclusive_3_4(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet maxInclusive with value
     -888403528420030673.
@@ -8471,11 +9009,12 @@ def test_atomic_decimal_max_inclusive_2_nistxml_sv_iv_atomic_decimal_max_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_max_inclusive_2_nistxml_sv_iv_atomic_decimal_max_inclusive_3_5(mode, save_output):
+def test_atomic_decimal_max_inclusive_2_nistxml_sv_iv_atomic_decimal_max_inclusive_3_5(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet maxInclusive with value
     -888403528420030673.
@@ -8487,11 +9026,12 @@ def test_atomic_decimal_max_inclusive_2_nistxml_sv_iv_atomic_decimal_max_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_max_inclusive_1_nistxml_sv_iv_atomic_decimal_max_inclusive_2_1(mode, save_output):
+def test_atomic_decimal_max_inclusive_1_nistxml_sv_iv_atomic_decimal_max_inclusive_2_1(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet maxInclusive with value
     625897845365533055.
@@ -8503,11 +9043,12 @@ def test_atomic_decimal_max_inclusive_1_nistxml_sv_iv_atomic_decimal_max_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_max_inclusive_1_nistxml_sv_iv_atomic_decimal_max_inclusive_2_2(mode, save_output):
+def test_atomic_decimal_max_inclusive_1_nistxml_sv_iv_atomic_decimal_max_inclusive_2_2(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet maxInclusive with value
     625897845365533055.
@@ -8519,11 +9060,12 @@ def test_atomic_decimal_max_inclusive_1_nistxml_sv_iv_atomic_decimal_max_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_max_inclusive_1_nistxml_sv_iv_atomic_decimal_max_inclusive_2_3(mode, save_output):
+def test_atomic_decimal_max_inclusive_1_nistxml_sv_iv_atomic_decimal_max_inclusive_2_3(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet maxInclusive with value
     625897845365533055.
@@ -8535,11 +9077,12 @@ def test_atomic_decimal_max_inclusive_1_nistxml_sv_iv_atomic_decimal_max_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_max_inclusive_1_nistxml_sv_iv_atomic_decimal_max_inclusive_2_4(mode, save_output):
+def test_atomic_decimal_max_inclusive_1_nistxml_sv_iv_atomic_decimal_max_inclusive_2_4(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet maxInclusive with value
     625897845365533055.
@@ -8551,11 +9094,12 @@ def test_atomic_decimal_max_inclusive_1_nistxml_sv_iv_atomic_decimal_max_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_max_inclusive_1_nistxml_sv_iv_atomic_decimal_max_inclusive_2_5(mode, save_output):
+def test_atomic_decimal_max_inclusive_1_nistxml_sv_iv_atomic_decimal_max_inclusive_2_5(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet maxInclusive with value
     625897845365533055.
@@ -8567,11 +9111,12 @@ def test_atomic_decimal_max_inclusive_1_nistxml_sv_iv_atomic_decimal_max_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_max_inclusive_nistxml_sv_iv_atomic_decimal_max_inclusive_1_1(mode, save_output):
+def test_atomic_decimal_max_inclusive_nistxml_sv_iv_atomic_decimal_max_inclusive_1_1(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet maxInclusive with value
     -999999999999999999.
@@ -8583,11 +9128,12 @@ def test_atomic_decimal_max_inclusive_nistxml_sv_iv_atomic_decimal_max_inclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_max_exclusive_4_nistxml_sv_iv_atomic_decimal_max_exclusive_5_1(mode, save_output):
+def test_atomic_decimal_max_exclusive_4_nistxml_sv_iv_atomic_decimal_max_exclusive_5_1(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet maxExclusive with value
     999999999999999999.
@@ -8599,11 +9145,12 @@ def test_atomic_decimal_max_exclusive_4_nistxml_sv_iv_atomic_decimal_max_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_max_exclusive_4_nistxml_sv_iv_atomic_decimal_max_exclusive_5_2(mode, save_output):
+def test_atomic_decimal_max_exclusive_4_nistxml_sv_iv_atomic_decimal_max_exclusive_5_2(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet maxExclusive with value
     999999999999999999.
@@ -8615,11 +9162,12 @@ def test_atomic_decimal_max_exclusive_4_nistxml_sv_iv_atomic_decimal_max_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_max_exclusive_4_nistxml_sv_iv_atomic_decimal_max_exclusive_5_3(mode, save_output):
+def test_atomic_decimal_max_exclusive_4_nistxml_sv_iv_atomic_decimal_max_exclusive_5_3(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet maxExclusive with value
     999999999999999999.
@@ -8631,11 +9179,12 @@ def test_atomic_decimal_max_exclusive_4_nistxml_sv_iv_atomic_decimal_max_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_max_exclusive_4_nistxml_sv_iv_atomic_decimal_max_exclusive_5_4(mode, save_output):
+def test_atomic_decimal_max_exclusive_4_nistxml_sv_iv_atomic_decimal_max_exclusive_5_4(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet maxExclusive with value
     999999999999999999.
@@ -8647,11 +9196,12 @@ def test_atomic_decimal_max_exclusive_4_nistxml_sv_iv_atomic_decimal_max_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_max_exclusive_4_nistxml_sv_iv_atomic_decimal_max_exclusive_5_5(mode, save_output):
+def test_atomic_decimal_max_exclusive_4_nistxml_sv_iv_atomic_decimal_max_exclusive_5_5(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet maxExclusive with value
     999999999999999999.
@@ -8663,11 +9213,12 @@ def test_atomic_decimal_max_exclusive_4_nistxml_sv_iv_atomic_decimal_max_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_max_exclusive_3_nistxml_sv_iv_atomic_decimal_max_exclusive_4_1(mode, save_output):
+def test_atomic_decimal_max_exclusive_3_nistxml_sv_iv_atomic_decimal_max_exclusive_4_1(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet maxExclusive with value
     -214771926190724381.
@@ -8679,11 +9230,12 @@ def test_atomic_decimal_max_exclusive_3_nistxml_sv_iv_atomic_decimal_max_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_max_exclusive_3_nistxml_sv_iv_atomic_decimal_max_exclusive_4_2(mode, save_output):
+def test_atomic_decimal_max_exclusive_3_nistxml_sv_iv_atomic_decimal_max_exclusive_4_2(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet maxExclusive with value
     -214771926190724381.
@@ -8695,11 +9247,12 @@ def test_atomic_decimal_max_exclusive_3_nistxml_sv_iv_atomic_decimal_max_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_max_exclusive_3_nistxml_sv_iv_atomic_decimal_max_exclusive_4_3(mode, save_output):
+def test_atomic_decimal_max_exclusive_3_nistxml_sv_iv_atomic_decimal_max_exclusive_4_3(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet maxExclusive with value
     -214771926190724381.
@@ -8711,11 +9264,12 @@ def test_atomic_decimal_max_exclusive_3_nistxml_sv_iv_atomic_decimal_max_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_max_exclusive_3_nistxml_sv_iv_atomic_decimal_max_exclusive_4_4(mode, save_output):
+def test_atomic_decimal_max_exclusive_3_nistxml_sv_iv_atomic_decimal_max_exclusive_4_4(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet maxExclusive with value
     -214771926190724381.
@@ -8727,11 +9281,12 @@ def test_atomic_decimal_max_exclusive_3_nistxml_sv_iv_atomic_decimal_max_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_max_exclusive_3_nistxml_sv_iv_atomic_decimal_max_exclusive_4_5(mode, save_output):
+def test_atomic_decimal_max_exclusive_3_nistxml_sv_iv_atomic_decimal_max_exclusive_4_5(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet maxExclusive with value
     -214771926190724381.
@@ -8743,11 +9298,12 @@ def test_atomic_decimal_max_exclusive_3_nistxml_sv_iv_atomic_decimal_max_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_max_exclusive_2_nistxml_sv_iv_atomic_decimal_max_exclusive_3_1(mode, save_output):
+def test_atomic_decimal_max_exclusive_2_nistxml_sv_iv_atomic_decimal_max_exclusive_3_1(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet maxExclusive with value
     171942968603657986.
@@ -8759,11 +9315,12 @@ def test_atomic_decimal_max_exclusive_2_nistxml_sv_iv_atomic_decimal_max_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_max_exclusive_2_nistxml_sv_iv_atomic_decimal_max_exclusive_3_2(mode, save_output):
+def test_atomic_decimal_max_exclusive_2_nistxml_sv_iv_atomic_decimal_max_exclusive_3_2(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet maxExclusive with value
     171942968603657986.
@@ -8775,11 +9332,12 @@ def test_atomic_decimal_max_exclusive_2_nistxml_sv_iv_atomic_decimal_max_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_max_exclusive_2_nistxml_sv_iv_atomic_decimal_max_exclusive_3_3(mode, save_output):
+def test_atomic_decimal_max_exclusive_2_nistxml_sv_iv_atomic_decimal_max_exclusive_3_3(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet maxExclusive with value
     171942968603657986.
@@ -8791,11 +9349,12 @@ def test_atomic_decimal_max_exclusive_2_nistxml_sv_iv_atomic_decimal_max_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_max_exclusive_2_nistxml_sv_iv_atomic_decimal_max_exclusive_3_4(mode, save_output):
+def test_atomic_decimal_max_exclusive_2_nistxml_sv_iv_atomic_decimal_max_exclusive_3_4(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet maxExclusive with value
     171942968603657986.
@@ -8807,11 +9366,12 @@ def test_atomic_decimal_max_exclusive_2_nistxml_sv_iv_atomic_decimal_max_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_max_exclusive_2_nistxml_sv_iv_atomic_decimal_max_exclusive_3_5(mode, save_output):
+def test_atomic_decimal_max_exclusive_2_nistxml_sv_iv_atomic_decimal_max_exclusive_3_5(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet maxExclusive with value
     171942968603657986.
@@ -8823,11 +9383,12 @@ def test_atomic_decimal_max_exclusive_2_nistxml_sv_iv_atomic_decimal_max_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_max_exclusive_1_nistxml_sv_iv_atomic_decimal_max_exclusive_2_1(mode, save_output):
+def test_atomic_decimal_max_exclusive_1_nistxml_sv_iv_atomic_decimal_max_exclusive_2_1(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet maxExclusive with value
     78119693427168402.
@@ -8839,11 +9400,12 @@ def test_atomic_decimal_max_exclusive_1_nistxml_sv_iv_atomic_decimal_max_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_max_exclusive_1_nistxml_sv_iv_atomic_decimal_max_exclusive_2_2(mode, save_output):
+def test_atomic_decimal_max_exclusive_1_nistxml_sv_iv_atomic_decimal_max_exclusive_2_2(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet maxExclusive with value
     78119693427168402.
@@ -8855,11 +9417,12 @@ def test_atomic_decimal_max_exclusive_1_nistxml_sv_iv_atomic_decimal_max_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_max_exclusive_1_nistxml_sv_iv_atomic_decimal_max_exclusive_2_3(mode, save_output):
+def test_atomic_decimal_max_exclusive_1_nistxml_sv_iv_atomic_decimal_max_exclusive_2_3(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet maxExclusive with value
     78119693427168402.
@@ -8871,11 +9434,12 @@ def test_atomic_decimal_max_exclusive_1_nistxml_sv_iv_atomic_decimal_max_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_max_exclusive_1_nistxml_sv_iv_atomic_decimal_max_exclusive_2_4(mode, save_output):
+def test_atomic_decimal_max_exclusive_1_nistxml_sv_iv_atomic_decimal_max_exclusive_2_4(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet maxExclusive with value
     78119693427168402.
@@ -8887,11 +9451,12 @@ def test_atomic_decimal_max_exclusive_1_nistxml_sv_iv_atomic_decimal_max_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_max_exclusive_1_nistxml_sv_iv_atomic_decimal_max_exclusive_2_5(mode, save_output):
+def test_atomic_decimal_max_exclusive_1_nistxml_sv_iv_atomic_decimal_max_exclusive_2_5(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet maxExclusive with value
     78119693427168402.
@@ -8903,11 +9468,12 @@ def test_atomic_decimal_max_exclusive_1_nistxml_sv_iv_atomic_decimal_max_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_max_exclusive_nistxml_sv_iv_atomic_decimal_max_exclusive_1_1(mode, save_output):
+def test_atomic_decimal_max_exclusive_nistxml_sv_iv_atomic_decimal_max_exclusive_1_1(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet maxExclusive with value
     -999999999999999998.
@@ -8919,11 +9485,12 @@ def test_atomic_decimal_max_exclusive_nistxml_sv_iv_atomic_decimal_max_exclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_min_inclusive_4_nistxml_sv_iv_atomic_decimal_min_inclusive_5_1(mode, save_output):
+def test_atomic_decimal_min_inclusive_4_nistxml_sv_iv_atomic_decimal_min_inclusive_5_1(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet minInclusive with value
     999999999999999999.
@@ -8935,11 +9502,12 @@ def test_atomic_decimal_min_inclusive_4_nistxml_sv_iv_atomic_decimal_min_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_min_inclusive_3_nistxml_sv_iv_atomic_decimal_min_inclusive_4_1(mode, save_output):
+def test_atomic_decimal_min_inclusive_3_nistxml_sv_iv_atomic_decimal_min_inclusive_4_1(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet minInclusive with value
     325207740352921658.
@@ -8951,11 +9519,12 @@ def test_atomic_decimal_min_inclusive_3_nistxml_sv_iv_atomic_decimal_min_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_min_inclusive_3_nistxml_sv_iv_atomic_decimal_min_inclusive_4_2(mode, save_output):
+def test_atomic_decimal_min_inclusive_3_nistxml_sv_iv_atomic_decimal_min_inclusive_4_2(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet minInclusive with value
     325207740352921658.
@@ -8967,11 +9536,12 @@ def test_atomic_decimal_min_inclusive_3_nistxml_sv_iv_atomic_decimal_min_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_min_inclusive_3_nistxml_sv_iv_atomic_decimal_min_inclusive_4_3(mode, save_output):
+def test_atomic_decimal_min_inclusive_3_nistxml_sv_iv_atomic_decimal_min_inclusive_4_3(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet minInclusive with value
     325207740352921658.
@@ -8983,11 +9553,12 @@ def test_atomic_decimal_min_inclusive_3_nistxml_sv_iv_atomic_decimal_min_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_min_inclusive_3_nistxml_sv_iv_atomic_decimal_min_inclusive_4_4(mode, save_output):
+def test_atomic_decimal_min_inclusive_3_nistxml_sv_iv_atomic_decimal_min_inclusive_4_4(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet minInclusive with value
     325207740352921658.
@@ -8999,11 +9570,12 @@ def test_atomic_decimal_min_inclusive_3_nistxml_sv_iv_atomic_decimal_min_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_min_inclusive_3_nistxml_sv_iv_atomic_decimal_min_inclusive_4_5(mode, save_output):
+def test_atomic_decimal_min_inclusive_3_nistxml_sv_iv_atomic_decimal_min_inclusive_4_5(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet minInclusive with value
     325207740352921658.
@@ -9015,11 +9587,12 @@ def test_atomic_decimal_min_inclusive_3_nistxml_sv_iv_atomic_decimal_min_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_min_inclusive_2_nistxml_sv_iv_atomic_decimal_min_inclusive_3_1(mode, save_output):
+def test_atomic_decimal_min_inclusive_2_nistxml_sv_iv_atomic_decimal_min_inclusive_3_1(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet minInclusive with value
     -785368448026986020.
@@ -9031,11 +9604,12 @@ def test_atomic_decimal_min_inclusive_2_nistxml_sv_iv_atomic_decimal_min_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_min_inclusive_2_nistxml_sv_iv_atomic_decimal_min_inclusive_3_2(mode, save_output):
+def test_atomic_decimal_min_inclusive_2_nistxml_sv_iv_atomic_decimal_min_inclusive_3_2(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet minInclusive with value
     -785368448026986020.
@@ -9047,11 +9621,12 @@ def test_atomic_decimal_min_inclusive_2_nistxml_sv_iv_atomic_decimal_min_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_min_inclusive_2_nistxml_sv_iv_atomic_decimal_min_inclusive_3_3(mode, save_output):
+def test_atomic_decimal_min_inclusive_2_nistxml_sv_iv_atomic_decimal_min_inclusive_3_3(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet minInclusive with value
     -785368448026986020.
@@ -9063,11 +9638,12 @@ def test_atomic_decimal_min_inclusive_2_nistxml_sv_iv_atomic_decimal_min_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_min_inclusive_2_nistxml_sv_iv_atomic_decimal_min_inclusive_3_4(mode, save_output):
+def test_atomic_decimal_min_inclusive_2_nistxml_sv_iv_atomic_decimal_min_inclusive_3_4(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet minInclusive with value
     -785368448026986020.
@@ -9079,11 +9655,12 @@ def test_atomic_decimal_min_inclusive_2_nistxml_sv_iv_atomic_decimal_min_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_min_inclusive_2_nistxml_sv_iv_atomic_decimal_min_inclusive_3_5(mode, save_output):
+def test_atomic_decimal_min_inclusive_2_nistxml_sv_iv_atomic_decimal_min_inclusive_3_5(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet minInclusive with value
     -785368448026986020.
@@ -9095,11 +9672,12 @@ def test_atomic_decimal_min_inclusive_2_nistxml_sv_iv_atomic_decimal_min_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_min_inclusive_1_nistxml_sv_iv_atomic_decimal_min_inclusive_2_1(mode, save_output):
+def test_atomic_decimal_min_inclusive_1_nistxml_sv_iv_atomic_decimal_min_inclusive_2_1(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet minInclusive with value
     229822855408968073.
@@ -9111,11 +9689,12 @@ def test_atomic_decimal_min_inclusive_1_nistxml_sv_iv_atomic_decimal_min_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_min_inclusive_1_nistxml_sv_iv_atomic_decimal_min_inclusive_2_2(mode, save_output):
+def test_atomic_decimal_min_inclusive_1_nistxml_sv_iv_atomic_decimal_min_inclusive_2_2(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet minInclusive with value
     229822855408968073.
@@ -9127,11 +9706,12 @@ def test_atomic_decimal_min_inclusive_1_nistxml_sv_iv_atomic_decimal_min_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_min_inclusive_1_nistxml_sv_iv_atomic_decimal_min_inclusive_2_3(mode, save_output):
+def test_atomic_decimal_min_inclusive_1_nistxml_sv_iv_atomic_decimal_min_inclusive_2_3(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet minInclusive with value
     229822855408968073.
@@ -9143,11 +9723,12 @@ def test_atomic_decimal_min_inclusive_1_nistxml_sv_iv_atomic_decimal_min_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_min_inclusive_1_nistxml_sv_iv_atomic_decimal_min_inclusive_2_4(mode, save_output):
+def test_atomic_decimal_min_inclusive_1_nistxml_sv_iv_atomic_decimal_min_inclusive_2_4(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet minInclusive with value
     229822855408968073.
@@ -9159,11 +9740,12 @@ def test_atomic_decimal_min_inclusive_1_nistxml_sv_iv_atomic_decimal_min_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_min_inclusive_1_nistxml_sv_iv_atomic_decimal_min_inclusive_2_5(mode, save_output):
+def test_atomic_decimal_min_inclusive_1_nistxml_sv_iv_atomic_decimal_min_inclusive_2_5(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet minInclusive with value
     229822855408968073.
@@ -9175,11 +9757,12 @@ def test_atomic_decimal_min_inclusive_1_nistxml_sv_iv_atomic_decimal_min_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_min_inclusive_nistxml_sv_iv_atomic_decimal_min_inclusive_1_1(mode, save_output):
+def test_atomic_decimal_min_inclusive_nistxml_sv_iv_atomic_decimal_min_inclusive_1_1(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet minInclusive with value
     -999999999999999999.
@@ -9191,11 +9774,12 @@ def test_atomic_decimal_min_inclusive_nistxml_sv_iv_atomic_decimal_min_inclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_min_inclusive_nistxml_sv_iv_atomic_decimal_min_inclusive_1_2(mode, save_output):
+def test_atomic_decimal_min_inclusive_nistxml_sv_iv_atomic_decimal_min_inclusive_1_2(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet minInclusive with value
     -999999999999999999.
@@ -9207,11 +9791,12 @@ def test_atomic_decimal_min_inclusive_nistxml_sv_iv_atomic_decimal_min_inclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_min_inclusive_nistxml_sv_iv_atomic_decimal_min_inclusive_1_3(mode, save_output):
+def test_atomic_decimal_min_inclusive_nistxml_sv_iv_atomic_decimal_min_inclusive_1_3(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet minInclusive with value
     -999999999999999999.
@@ -9223,11 +9808,12 @@ def test_atomic_decimal_min_inclusive_nistxml_sv_iv_atomic_decimal_min_inclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_min_inclusive_nistxml_sv_iv_atomic_decimal_min_inclusive_1_4(mode, save_output):
+def test_atomic_decimal_min_inclusive_nistxml_sv_iv_atomic_decimal_min_inclusive_1_4(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet minInclusive with value
     -999999999999999999.
@@ -9239,11 +9825,12 @@ def test_atomic_decimal_min_inclusive_nistxml_sv_iv_atomic_decimal_min_inclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_min_inclusive_nistxml_sv_iv_atomic_decimal_min_inclusive_1_5(mode, save_output):
+def test_atomic_decimal_min_inclusive_nistxml_sv_iv_atomic_decimal_min_inclusive_1_5(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet minInclusive with value
     -999999999999999999.
@@ -9255,11 +9842,12 @@ def test_atomic_decimal_min_inclusive_nistxml_sv_iv_atomic_decimal_min_inclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_min_exclusive_4_nistxml_sv_iv_atomic_decimal_min_exclusive_5_1(mode, save_output):
+def test_atomic_decimal_min_exclusive_4_nistxml_sv_iv_atomic_decimal_min_exclusive_5_1(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet minExclusive with value
     999999999999999998.
@@ -9271,11 +9859,12 @@ def test_atomic_decimal_min_exclusive_4_nistxml_sv_iv_atomic_decimal_min_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_min_exclusive_3_nistxml_sv_iv_atomic_decimal_min_exclusive_4_1(mode, save_output):
+def test_atomic_decimal_min_exclusive_3_nistxml_sv_iv_atomic_decimal_min_exclusive_4_1(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet minExclusive with value
     -294253147230818967.
@@ -9287,11 +9876,12 @@ def test_atomic_decimal_min_exclusive_3_nistxml_sv_iv_atomic_decimal_min_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_min_exclusive_3_nistxml_sv_iv_atomic_decimal_min_exclusive_4_2(mode, save_output):
+def test_atomic_decimal_min_exclusive_3_nistxml_sv_iv_atomic_decimal_min_exclusive_4_2(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet minExclusive with value
     -294253147230818967.
@@ -9303,11 +9893,12 @@ def test_atomic_decimal_min_exclusive_3_nistxml_sv_iv_atomic_decimal_min_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_min_exclusive_3_nistxml_sv_iv_atomic_decimal_min_exclusive_4_3(mode, save_output):
+def test_atomic_decimal_min_exclusive_3_nistxml_sv_iv_atomic_decimal_min_exclusive_4_3(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet minExclusive with value
     -294253147230818967.
@@ -9319,11 +9910,12 @@ def test_atomic_decimal_min_exclusive_3_nistxml_sv_iv_atomic_decimal_min_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_min_exclusive_3_nistxml_sv_iv_atomic_decimal_min_exclusive_4_4(mode, save_output):
+def test_atomic_decimal_min_exclusive_3_nistxml_sv_iv_atomic_decimal_min_exclusive_4_4(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet minExclusive with value
     -294253147230818967.
@@ -9335,11 +9927,12 @@ def test_atomic_decimal_min_exclusive_3_nistxml_sv_iv_atomic_decimal_min_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_min_exclusive_3_nistxml_sv_iv_atomic_decimal_min_exclusive_4_5(mode, save_output):
+def test_atomic_decimal_min_exclusive_3_nistxml_sv_iv_atomic_decimal_min_exclusive_4_5(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet minExclusive with value
     -294253147230818967.
@@ -9351,11 +9944,12 @@ def test_atomic_decimal_min_exclusive_3_nistxml_sv_iv_atomic_decimal_min_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_min_exclusive_2_nistxml_sv_iv_atomic_decimal_min_exclusive_3_1(mode, save_output):
+def test_atomic_decimal_min_exclusive_2_nistxml_sv_iv_atomic_decimal_min_exclusive_3_1(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet minExclusive with value
     -67428259604688900.
@@ -9367,11 +9961,12 @@ def test_atomic_decimal_min_exclusive_2_nistxml_sv_iv_atomic_decimal_min_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_min_exclusive_2_nistxml_sv_iv_atomic_decimal_min_exclusive_3_2(mode, save_output):
+def test_atomic_decimal_min_exclusive_2_nistxml_sv_iv_atomic_decimal_min_exclusive_3_2(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet minExclusive with value
     -67428259604688900.
@@ -9383,11 +9978,12 @@ def test_atomic_decimal_min_exclusive_2_nistxml_sv_iv_atomic_decimal_min_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_min_exclusive_2_nistxml_sv_iv_atomic_decimal_min_exclusive_3_3(mode, save_output):
+def test_atomic_decimal_min_exclusive_2_nistxml_sv_iv_atomic_decimal_min_exclusive_3_3(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet minExclusive with value
     -67428259604688900.
@@ -9399,11 +9995,12 @@ def test_atomic_decimal_min_exclusive_2_nistxml_sv_iv_atomic_decimal_min_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_min_exclusive_2_nistxml_sv_iv_atomic_decimal_min_exclusive_3_4(mode, save_output):
+def test_atomic_decimal_min_exclusive_2_nistxml_sv_iv_atomic_decimal_min_exclusive_3_4(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet minExclusive with value
     -67428259604688900.
@@ -9415,11 +10012,12 @@ def test_atomic_decimal_min_exclusive_2_nistxml_sv_iv_atomic_decimal_min_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_min_exclusive_2_nistxml_sv_iv_atomic_decimal_min_exclusive_3_5(mode, save_output):
+def test_atomic_decimal_min_exclusive_2_nistxml_sv_iv_atomic_decimal_min_exclusive_3_5(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet minExclusive with value
     -67428259604688900.
@@ -9431,11 +10029,12 @@ def test_atomic_decimal_min_exclusive_2_nistxml_sv_iv_atomic_decimal_min_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_min_exclusive_1_nistxml_sv_iv_atomic_decimal_min_exclusive_2_1(mode, save_output):
+def test_atomic_decimal_min_exclusive_1_nistxml_sv_iv_atomic_decimal_min_exclusive_2_1(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet minExclusive with value
     631308414640570968.
@@ -9447,11 +10046,12 @@ def test_atomic_decimal_min_exclusive_1_nistxml_sv_iv_atomic_decimal_min_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_min_exclusive_1_nistxml_sv_iv_atomic_decimal_min_exclusive_2_2(mode, save_output):
+def test_atomic_decimal_min_exclusive_1_nistxml_sv_iv_atomic_decimal_min_exclusive_2_2(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet minExclusive with value
     631308414640570968.
@@ -9463,11 +10063,12 @@ def test_atomic_decimal_min_exclusive_1_nistxml_sv_iv_atomic_decimal_min_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_min_exclusive_1_nistxml_sv_iv_atomic_decimal_min_exclusive_2_3(mode, save_output):
+def test_atomic_decimal_min_exclusive_1_nistxml_sv_iv_atomic_decimal_min_exclusive_2_3(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet minExclusive with value
     631308414640570968.
@@ -9479,11 +10080,12 @@ def test_atomic_decimal_min_exclusive_1_nistxml_sv_iv_atomic_decimal_min_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_min_exclusive_1_nistxml_sv_iv_atomic_decimal_min_exclusive_2_4(mode, save_output):
+def test_atomic_decimal_min_exclusive_1_nistxml_sv_iv_atomic_decimal_min_exclusive_2_4(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet minExclusive with value
     631308414640570968.
@@ -9495,11 +10097,12 @@ def test_atomic_decimal_min_exclusive_1_nistxml_sv_iv_atomic_decimal_min_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_min_exclusive_1_nistxml_sv_iv_atomic_decimal_min_exclusive_2_5(mode, save_output):
+def test_atomic_decimal_min_exclusive_1_nistxml_sv_iv_atomic_decimal_min_exclusive_2_5(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet minExclusive with value
     631308414640570968.
@@ -9511,11 +10114,12 @@ def test_atomic_decimal_min_exclusive_1_nistxml_sv_iv_atomic_decimal_min_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_min_exclusive_nistxml_sv_iv_atomic_decimal_min_exclusive_1_1(mode, save_output):
+def test_atomic_decimal_min_exclusive_nistxml_sv_iv_atomic_decimal_min_exclusive_1_1(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet minExclusive with value
     -999999999999999999.
@@ -9527,11 +10131,12 @@ def test_atomic_decimal_min_exclusive_nistxml_sv_iv_atomic_decimal_min_exclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_min_exclusive_nistxml_sv_iv_atomic_decimal_min_exclusive_1_2(mode, save_output):
+def test_atomic_decimal_min_exclusive_nistxml_sv_iv_atomic_decimal_min_exclusive_1_2(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet minExclusive with value
     -999999999999999999.
@@ -9543,11 +10148,12 @@ def test_atomic_decimal_min_exclusive_nistxml_sv_iv_atomic_decimal_min_exclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_min_exclusive_nistxml_sv_iv_atomic_decimal_min_exclusive_1_3(mode, save_output):
+def test_atomic_decimal_min_exclusive_nistxml_sv_iv_atomic_decimal_min_exclusive_1_3(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet minExclusive with value
     -999999999999999999.
@@ -9559,11 +10165,12 @@ def test_atomic_decimal_min_exclusive_nistxml_sv_iv_atomic_decimal_min_exclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_min_exclusive_nistxml_sv_iv_atomic_decimal_min_exclusive_1_4(mode, save_output):
+def test_atomic_decimal_min_exclusive_nistxml_sv_iv_atomic_decimal_min_exclusive_1_4(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet minExclusive with value
     -999999999999999999.
@@ -9575,11 +10182,12 @@ def test_atomic_decimal_min_exclusive_nistxml_sv_iv_atomic_decimal_min_exclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_decimal_min_exclusive_nistxml_sv_iv_atomic_decimal_min_exclusive_1_5(mode, save_output):
+def test_atomic_decimal_min_exclusive_nistxml_sv_iv_atomic_decimal_min_exclusive_1_5(mode, save_output, output_format):
     """
     Type atomic/decimal is restricted by facet minExclusive with value
     -999999999999999999.
@@ -9591,5 +10199,6 @@ def test_atomic_decimal_min_exclusive_nistxml_sv_iv_atomic_decimal_min_exclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )

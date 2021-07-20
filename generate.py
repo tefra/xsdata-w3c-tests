@@ -11,7 +11,6 @@ from typing import NamedTuple
 from lxml import etree
 from xsdata.formats.dataclass.models.generics import AnyElement
 from xsdata.formats.dataclass.parsers import XmlParser
-from xsdata.formats.dataclass.utils import safe_snake
 from xsdata.utils import text
 from xsdata.utils.namespaces import local_name
 
@@ -30,7 +29,7 @@ test_module_tpl = """import pytest
 from tests.utils import assert_bindings\n\n{}"""
 
 test_case_tpl = """{decorators}
-def test_{name}(mode, save_output):
+def test_{name}(mode, save_output, output_format):
 {test.documentation}
     assert_bindings(
         schema="{test.schema_path}",
@@ -39,6 +38,7 @@ def test_{name}(mode, save_output):
         version="{test.version}",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="{test.structure_style}",
     )
 """
@@ -243,7 +243,12 @@ def read_root_name(path: Path) -> str:
             recover=True, resolve_entities=False, no_network=True
         )
         tree = etree.parse(str(path), parser=recovering_parser)  # nosec
-        return text.pascal_case(safe_snake(local_name(tree.getroot().tag), "Type"))
+        name = text.pascal_case(local_name(tree.getroot().tag))
+
+        if text.is_reserved(name):
+            return text.pascal_case(f"{name}_Type")
+
+        return name
     except Exception:
         return ""
 

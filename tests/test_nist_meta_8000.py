@@ -1,7 +1,7 @@
 from tests.utils import assert_bindings
 
 
-def test_atomic_g_month_min_exclusive_nistxml_sv_iv_atomic_g_month_min_exclusive_1_1(mode, save_output):
+def test_atomic_g_month_min_exclusive_nistxml_sv_iv_atomic_g_month_min_exclusive_1_1(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet minExclusive with value
     --01.
@@ -13,11 +13,12 @@ def test_atomic_g_month_min_exclusive_nistxml_sv_iv_atomic_g_month_min_exclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_min_exclusive_nistxml_sv_iv_atomic_g_month_min_exclusive_1_2(mode, save_output):
+def test_atomic_g_month_min_exclusive_nistxml_sv_iv_atomic_g_month_min_exclusive_1_2(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet minExclusive with value
     --01.
@@ -29,11 +30,12 @@ def test_atomic_g_month_min_exclusive_nistxml_sv_iv_atomic_g_month_min_exclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_min_exclusive_nistxml_sv_iv_atomic_g_month_min_exclusive_1_3(mode, save_output):
+def test_atomic_g_month_min_exclusive_nistxml_sv_iv_atomic_g_month_min_exclusive_1_3(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet minExclusive with value
     --01.
@@ -45,11 +47,12 @@ def test_atomic_g_month_min_exclusive_nistxml_sv_iv_atomic_g_month_min_exclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_min_exclusive_nistxml_sv_iv_atomic_g_month_min_exclusive_1_4(mode, save_output):
+def test_atomic_g_month_min_exclusive_nistxml_sv_iv_atomic_g_month_min_exclusive_1_4(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet minExclusive with value
     --01.
@@ -61,11 +64,12 @@ def test_atomic_g_month_min_exclusive_nistxml_sv_iv_atomic_g_month_min_exclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_min_exclusive_nistxml_sv_iv_atomic_g_month_min_exclusive_1_5(mode, save_output):
+def test_atomic_g_month_min_exclusive_nistxml_sv_iv_atomic_g_month_min_exclusive_1_5(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet minExclusive with value
     --01.
@@ -77,11 +81,12 @@ def test_atomic_g_month_min_exclusive_nistxml_sv_iv_atomic_g_month_min_exclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_white_space_nistxml_sv_iv_atomic_g_day_white_space_1_1(mode, save_output):
+def test_atomic_g_day_white_space_nistxml_sv_iv_atomic_g_day_white_space_1_1(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet whiteSpace with value
     collapse.
@@ -93,11 +98,12 @@ def test_atomic_g_day_white_space_nistxml_sv_iv_atomic_g_day_white_space_1_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_white_space_nistxml_sv_iv_atomic_g_day_white_space_1_2(mode, save_output):
+def test_atomic_g_day_white_space_nistxml_sv_iv_atomic_g_day_white_space_1_2(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet whiteSpace with value
     collapse.
@@ -109,11 +115,12 @@ def test_atomic_g_day_white_space_nistxml_sv_iv_atomic_g_day_white_space_1_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_white_space_nistxml_sv_iv_atomic_g_day_white_space_1_3(mode, save_output):
+def test_atomic_g_day_white_space_nistxml_sv_iv_atomic_g_day_white_space_1_3(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet whiteSpace with value
     collapse.
@@ -125,11 +132,12 @@ def test_atomic_g_day_white_space_nistxml_sv_iv_atomic_g_day_white_space_1_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_white_space_nistxml_sv_iv_atomic_g_day_white_space_1_4(mode, save_output):
+def test_atomic_g_day_white_space_nistxml_sv_iv_atomic_g_day_white_space_1_4(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet whiteSpace with value
     collapse.
@@ -141,11 +149,12 @@ def test_atomic_g_day_white_space_nistxml_sv_iv_atomic_g_day_white_space_1_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_white_space_nistxml_sv_iv_atomic_g_day_white_space_1_5(mode, save_output):
+def test_atomic_g_day_white_space_nistxml_sv_iv_atomic_g_day_white_space_1_5(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet whiteSpace with value
     collapse.
@@ -157,11 +166,12 @@ def test_atomic_g_day_white_space_nistxml_sv_iv_atomic_g_day_white_space_1_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_enumeration_4_nistxml_sv_iv_atomic_g_day_enumeration_5_1(mode, save_output):
+def test_atomic_g_day_enumeration_4_nistxml_sv_iv_atomic_g_day_enumeration_5_1(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet enumeration.
     """
@@ -172,11 +182,12 @@ def test_atomic_g_day_enumeration_4_nistxml_sv_iv_atomic_g_day_enumeration_5_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_enumeration_4_nistxml_sv_iv_atomic_g_day_enumeration_5_2(mode, save_output):
+def test_atomic_g_day_enumeration_4_nistxml_sv_iv_atomic_g_day_enumeration_5_2(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet enumeration.
     """
@@ -187,11 +198,12 @@ def test_atomic_g_day_enumeration_4_nistxml_sv_iv_atomic_g_day_enumeration_5_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_enumeration_4_nistxml_sv_iv_atomic_g_day_enumeration_5_3(mode, save_output):
+def test_atomic_g_day_enumeration_4_nistxml_sv_iv_atomic_g_day_enumeration_5_3(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet enumeration.
     """
@@ -202,11 +214,12 @@ def test_atomic_g_day_enumeration_4_nistxml_sv_iv_atomic_g_day_enumeration_5_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_enumeration_4_nistxml_sv_iv_atomic_g_day_enumeration_5_4(mode, save_output):
+def test_atomic_g_day_enumeration_4_nistxml_sv_iv_atomic_g_day_enumeration_5_4(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet enumeration.
     """
@@ -217,11 +230,12 @@ def test_atomic_g_day_enumeration_4_nistxml_sv_iv_atomic_g_day_enumeration_5_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_enumeration_4_nistxml_sv_iv_atomic_g_day_enumeration_5_5(mode, save_output):
+def test_atomic_g_day_enumeration_4_nistxml_sv_iv_atomic_g_day_enumeration_5_5(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet enumeration.
     """
@@ -232,11 +246,12 @@ def test_atomic_g_day_enumeration_4_nistxml_sv_iv_atomic_g_day_enumeration_5_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_enumeration_3_nistxml_sv_iv_atomic_g_day_enumeration_4_1(mode, save_output):
+def test_atomic_g_day_enumeration_3_nistxml_sv_iv_atomic_g_day_enumeration_4_1(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet enumeration.
     """
@@ -247,11 +262,12 @@ def test_atomic_g_day_enumeration_3_nistxml_sv_iv_atomic_g_day_enumeration_4_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_enumeration_3_nistxml_sv_iv_atomic_g_day_enumeration_4_2(mode, save_output):
+def test_atomic_g_day_enumeration_3_nistxml_sv_iv_atomic_g_day_enumeration_4_2(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet enumeration.
     """
@@ -262,11 +278,12 @@ def test_atomic_g_day_enumeration_3_nistxml_sv_iv_atomic_g_day_enumeration_4_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_enumeration_3_nistxml_sv_iv_atomic_g_day_enumeration_4_3(mode, save_output):
+def test_atomic_g_day_enumeration_3_nistxml_sv_iv_atomic_g_day_enumeration_4_3(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet enumeration.
     """
@@ -277,11 +294,12 @@ def test_atomic_g_day_enumeration_3_nistxml_sv_iv_atomic_g_day_enumeration_4_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_enumeration_3_nistxml_sv_iv_atomic_g_day_enumeration_4_4(mode, save_output):
+def test_atomic_g_day_enumeration_3_nistxml_sv_iv_atomic_g_day_enumeration_4_4(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet enumeration.
     """
@@ -292,11 +310,12 @@ def test_atomic_g_day_enumeration_3_nistxml_sv_iv_atomic_g_day_enumeration_4_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_enumeration_3_nistxml_sv_iv_atomic_g_day_enumeration_4_5(mode, save_output):
+def test_atomic_g_day_enumeration_3_nistxml_sv_iv_atomic_g_day_enumeration_4_5(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet enumeration.
     """
@@ -307,11 +326,12 @@ def test_atomic_g_day_enumeration_3_nistxml_sv_iv_atomic_g_day_enumeration_4_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_enumeration_2_nistxml_sv_iv_atomic_g_day_enumeration_3_1(mode, save_output):
+def test_atomic_g_day_enumeration_2_nistxml_sv_iv_atomic_g_day_enumeration_3_1(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet enumeration.
     """
@@ -322,11 +342,12 @@ def test_atomic_g_day_enumeration_2_nistxml_sv_iv_atomic_g_day_enumeration_3_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_enumeration_2_nistxml_sv_iv_atomic_g_day_enumeration_3_2(mode, save_output):
+def test_atomic_g_day_enumeration_2_nistxml_sv_iv_atomic_g_day_enumeration_3_2(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet enumeration.
     """
@@ -337,11 +358,12 @@ def test_atomic_g_day_enumeration_2_nistxml_sv_iv_atomic_g_day_enumeration_3_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_enumeration_2_nistxml_sv_iv_atomic_g_day_enumeration_3_3(mode, save_output):
+def test_atomic_g_day_enumeration_2_nistxml_sv_iv_atomic_g_day_enumeration_3_3(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet enumeration.
     """
@@ -352,11 +374,12 @@ def test_atomic_g_day_enumeration_2_nistxml_sv_iv_atomic_g_day_enumeration_3_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_enumeration_2_nistxml_sv_iv_atomic_g_day_enumeration_3_4(mode, save_output):
+def test_atomic_g_day_enumeration_2_nistxml_sv_iv_atomic_g_day_enumeration_3_4(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet enumeration.
     """
@@ -367,11 +390,12 @@ def test_atomic_g_day_enumeration_2_nistxml_sv_iv_atomic_g_day_enumeration_3_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_enumeration_2_nistxml_sv_iv_atomic_g_day_enumeration_3_5(mode, save_output):
+def test_atomic_g_day_enumeration_2_nistxml_sv_iv_atomic_g_day_enumeration_3_5(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet enumeration.
     """
@@ -382,11 +406,12 @@ def test_atomic_g_day_enumeration_2_nistxml_sv_iv_atomic_g_day_enumeration_3_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_enumeration_1_nistxml_sv_iv_atomic_g_day_enumeration_2_1(mode, save_output):
+def test_atomic_g_day_enumeration_1_nistxml_sv_iv_atomic_g_day_enumeration_2_1(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet enumeration.
     """
@@ -397,11 +422,12 @@ def test_atomic_g_day_enumeration_1_nistxml_sv_iv_atomic_g_day_enumeration_2_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_enumeration_1_nistxml_sv_iv_atomic_g_day_enumeration_2_2(mode, save_output):
+def test_atomic_g_day_enumeration_1_nistxml_sv_iv_atomic_g_day_enumeration_2_2(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet enumeration.
     """
@@ -412,11 +438,12 @@ def test_atomic_g_day_enumeration_1_nistxml_sv_iv_atomic_g_day_enumeration_2_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_enumeration_1_nistxml_sv_iv_atomic_g_day_enumeration_2_3(mode, save_output):
+def test_atomic_g_day_enumeration_1_nistxml_sv_iv_atomic_g_day_enumeration_2_3(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet enumeration.
     """
@@ -427,11 +454,12 @@ def test_atomic_g_day_enumeration_1_nistxml_sv_iv_atomic_g_day_enumeration_2_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_enumeration_1_nistxml_sv_iv_atomic_g_day_enumeration_2_4(mode, save_output):
+def test_atomic_g_day_enumeration_1_nistxml_sv_iv_atomic_g_day_enumeration_2_4(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet enumeration.
     """
@@ -442,11 +470,12 @@ def test_atomic_g_day_enumeration_1_nistxml_sv_iv_atomic_g_day_enumeration_2_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_enumeration_1_nistxml_sv_iv_atomic_g_day_enumeration_2_5(mode, save_output):
+def test_atomic_g_day_enumeration_1_nistxml_sv_iv_atomic_g_day_enumeration_2_5(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet enumeration.
     """
@@ -457,11 +486,12 @@ def test_atomic_g_day_enumeration_1_nistxml_sv_iv_atomic_g_day_enumeration_2_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_enumeration_nistxml_sv_iv_atomic_g_day_enumeration_1_1(mode, save_output):
+def test_atomic_g_day_enumeration_nistxml_sv_iv_atomic_g_day_enumeration_1_1(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet enumeration.
     """
@@ -472,11 +502,12 @@ def test_atomic_g_day_enumeration_nistxml_sv_iv_atomic_g_day_enumeration_1_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_enumeration_nistxml_sv_iv_atomic_g_day_enumeration_1_2(mode, save_output):
+def test_atomic_g_day_enumeration_nistxml_sv_iv_atomic_g_day_enumeration_1_2(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet enumeration.
     """
@@ -487,11 +518,12 @@ def test_atomic_g_day_enumeration_nistxml_sv_iv_atomic_g_day_enumeration_1_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_enumeration_nistxml_sv_iv_atomic_g_day_enumeration_1_3(mode, save_output):
+def test_atomic_g_day_enumeration_nistxml_sv_iv_atomic_g_day_enumeration_1_3(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet enumeration.
     """
@@ -502,11 +534,12 @@ def test_atomic_g_day_enumeration_nistxml_sv_iv_atomic_g_day_enumeration_1_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_enumeration_nistxml_sv_iv_atomic_g_day_enumeration_1_4(mode, save_output):
+def test_atomic_g_day_enumeration_nistxml_sv_iv_atomic_g_day_enumeration_1_4(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet enumeration.
     """
@@ -517,11 +550,12 @@ def test_atomic_g_day_enumeration_nistxml_sv_iv_atomic_g_day_enumeration_1_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_enumeration_nistxml_sv_iv_atomic_g_day_enumeration_1_5(mode, save_output):
+def test_atomic_g_day_enumeration_nistxml_sv_iv_atomic_g_day_enumeration_1_5(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet enumeration.
     """
@@ -532,11 +566,12 @@ def test_atomic_g_day_enumeration_nistxml_sv_iv_atomic_g_day_enumeration_1_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_pattern_4_nistxml_sv_iv_atomic_g_day_pattern_5_1(mode, save_output):
+def test_atomic_g_day_pattern_4_nistxml_sv_iv_atomic_g_day_pattern_5_1(mode, save_output, output_format):
     r"""
     Type atomic/gDay is restricted by facet pattern with value ---1\d.
     """
@@ -547,11 +582,12 @@ def test_atomic_g_day_pattern_4_nistxml_sv_iv_atomic_g_day_pattern_5_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_pattern_4_nistxml_sv_iv_atomic_g_day_pattern_5_2(mode, save_output):
+def test_atomic_g_day_pattern_4_nistxml_sv_iv_atomic_g_day_pattern_5_2(mode, save_output, output_format):
     r"""
     Type atomic/gDay is restricted by facet pattern with value ---1\d.
     """
@@ -562,11 +598,12 @@ def test_atomic_g_day_pattern_4_nistxml_sv_iv_atomic_g_day_pattern_5_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_pattern_4_nistxml_sv_iv_atomic_g_day_pattern_5_3(mode, save_output):
+def test_atomic_g_day_pattern_4_nistxml_sv_iv_atomic_g_day_pattern_5_3(mode, save_output, output_format):
     r"""
     Type atomic/gDay is restricted by facet pattern with value ---1\d.
     """
@@ -577,11 +614,12 @@ def test_atomic_g_day_pattern_4_nistxml_sv_iv_atomic_g_day_pattern_5_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_pattern_4_nistxml_sv_iv_atomic_g_day_pattern_5_4(mode, save_output):
+def test_atomic_g_day_pattern_4_nistxml_sv_iv_atomic_g_day_pattern_5_4(mode, save_output, output_format):
     r"""
     Type atomic/gDay is restricted by facet pattern with value ---1\d.
     """
@@ -592,11 +630,12 @@ def test_atomic_g_day_pattern_4_nistxml_sv_iv_atomic_g_day_pattern_5_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_pattern_4_nistxml_sv_iv_atomic_g_day_pattern_5_5(mode, save_output):
+def test_atomic_g_day_pattern_4_nistxml_sv_iv_atomic_g_day_pattern_5_5(mode, save_output, output_format):
     r"""
     Type atomic/gDay is restricted by facet pattern with value ---1\d.
     """
@@ -607,11 +646,12 @@ def test_atomic_g_day_pattern_4_nistxml_sv_iv_atomic_g_day_pattern_5_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_pattern_3_nistxml_sv_iv_atomic_g_day_pattern_4_1(mode, save_output):
+def test_atomic_g_day_pattern_3_nistxml_sv_iv_atomic_g_day_pattern_4_1(mode, save_output, output_format):
     r"""
     Type atomic/gDay is restricted by facet pattern with value ---\d2.
     """
@@ -622,11 +662,12 @@ def test_atomic_g_day_pattern_3_nistxml_sv_iv_atomic_g_day_pattern_4_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_pattern_3_nistxml_sv_iv_atomic_g_day_pattern_4_2(mode, save_output):
+def test_atomic_g_day_pattern_3_nistxml_sv_iv_atomic_g_day_pattern_4_2(mode, save_output, output_format):
     r"""
     Type atomic/gDay is restricted by facet pattern with value ---\d2.
     """
@@ -637,11 +678,12 @@ def test_atomic_g_day_pattern_3_nistxml_sv_iv_atomic_g_day_pattern_4_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_pattern_3_nistxml_sv_iv_atomic_g_day_pattern_4_3(mode, save_output):
+def test_atomic_g_day_pattern_3_nistxml_sv_iv_atomic_g_day_pattern_4_3(mode, save_output, output_format):
     r"""
     Type atomic/gDay is restricted by facet pattern with value ---\d2.
     """
@@ -652,11 +694,12 @@ def test_atomic_g_day_pattern_3_nistxml_sv_iv_atomic_g_day_pattern_4_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_pattern_3_nistxml_sv_iv_atomic_g_day_pattern_4_4(mode, save_output):
+def test_atomic_g_day_pattern_3_nistxml_sv_iv_atomic_g_day_pattern_4_4(mode, save_output, output_format):
     r"""
     Type atomic/gDay is restricted by facet pattern with value ---\d2.
     """
@@ -667,11 +710,12 @@ def test_atomic_g_day_pattern_3_nistxml_sv_iv_atomic_g_day_pattern_4_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_pattern_3_nistxml_sv_iv_atomic_g_day_pattern_4_5(mode, save_output):
+def test_atomic_g_day_pattern_3_nistxml_sv_iv_atomic_g_day_pattern_4_5(mode, save_output, output_format):
     r"""
     Type atomic/gDay is restricted by facet pattern with value ---\d2.
     """
@@ -682,11 +726,12 @@ def test_atomic_g_day_pattern_3_nistxml_sv_iv_atomic_g_day_pattern_4_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_pattern_2_nistxml_sv_iv_atomic_g_day_pattern_3_1(mode, save_output):
+def test_atomic_g_day_pattern_2_nistxml_sv_iv_atomic_g_day_pattern_3_1(mode, save_output, output_format):
     r"""
     Type atomic/gDay is restricted by facet pattern with value ---0\d.
     """
@@ -697,11 +742,12 @@ def test_atomic_g_day_pattern_2_nistxml_sv_iv_atomic_g_day_pattern_3_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_pattern_2_nistxml_sv_iv_atomic_g_day_pattern_3_2(mode, save_output):
+def test_atomic_g_day_pattern_2_nistxml_sv_iv_atomic_g_day_pattern_3_2(mode, save_output, output_format):
     r"""
     Type atomic/gDay is restricted by facet pattern with value ---0\d.
     """
@@ -712,11 +758,12 @@ def test_atomic_g_day_pattern_2_nistxml_sv_iv_atomic_g_day_pattern_3_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_pattern_2_nistxml_sv_iv_atomic_g_day_pattern_3_3(mode, save_output):
+def test_atomic_g_day_pattern_2_nistxml_sv_iv_atomic_g_day_pattern_3_3(mode, save_output, output_format):
     r"""
     Type atomic/gDay is restricted by facet pattern with value ---0\d.
     """
@@ -727,11 +774,12 @@ def test_atomic_g_day_pattern_2_nistxml_sv_iv_atomic_g_day_pattern_3_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_pattern_2_nistxml_sv_iv_atomic_g_day_pattern_3_4(mode, save_output):
+def test_atomic_g_day_pattern_2_nistxml_sv_iv_atomic_g_day_pattern_3_4(mode, save_output, output_format):
     r"""
     Type atomic/gDay is restricted by facet pattern with value ---0\d.
     """
@@ -742,11 +790,12 @@ def test_atomic_g_day_pattern_2_nistxml_sv_iv_atomic_g_day_pattern_3_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_pattern_2_nistxml_sv_iv_atomic_g_day_pattern_3_5(mode, save_output):
+def test_atomic_g_day_pattern_2_nistxml_sv_iv_atomic_g_day_pattern_3_5(mode, save_output, output_format):
     r"""
     Type atomic/gDay is restricted by facet pattern with value ---0\d.
     """
@@ -757,11 +806,12 @@ def test_atomic_g_day_pattern_2_nistxml_sv_iv_atomic_g_day_pattern_3_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_pattern_1_nistxml_sv_iv_atomic_g_day_pattern_2_1(mode, save_output):
+def test_atomic_g_day_pattern_1_nistxml_sv_iv_atomic_g_day_pattern_2_1(mode, save_output, output_format):
     r"""
     Type atomic/gDay is restricted by facet pattern with value ---\d5.
     """
@@ -772,11 +822,12 @@ def test_atomic_g_day_pattern_1_nistxml_sv_iv_atomic_g_day_pattern_2_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_pattern_1_nistxml_sv_iv_atomic_g_day_pattern_2_2(mode, save_output):
+def test_atomic_g_day_pattern_1_nistxml_sv_iv_atomic_g_day_pattern_2_2(mode, save_output, output_format):
     r"""
     Type atomic/gDay is restricted by facet pattern with value ---\d5.
     """
@@ -787,11 +838,12 @@ def test_atomic_g_day_pattern_1_nistxml_sv_iv_atomic_g_day_pattern_2_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_pattern_1_nistxml_sv_iv_atomic_g_day_pattern_2_3(mode, save_output):
+def test_atomic_g_day_pattern_1_nistxml_sv_iv_atomic_g_day_pattern_2_3(mode, save_output, output_format):
     r"""
     Type atomic/gDay is restricted by facet pattern with value ---\d5.
     """
@@ -802,11 +854,12 @@ def test_atomic_g_day_pattern_1_nistxml_sv_iv_atomic_g_day_pattern_2_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_pattern_1_nistxml_sv_iv_atomic_g_day_pattern_2_4(mode, save_output):
+def test_atomic_g_day_pattern_1_nistxml_sv_iv_atomic_g_day_pattern_2_4(mode, save_output, output_format):
     r"""
     Type atomic/gDay is restricted by facet pattern with value ---\d5.
     """
@@ -817,11 +870,12 @@ def test_atomic_g_day_pattern_1_nistxml_sv_iv_atomic_g_day_pattern_2_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_pattern_1_nistxml_sv_iv_atomic_g_day_pattern_2_5(mode, save_output):
+def test_atomic_g_day_pattern_1_nistxml_sv_iv_atomic_g_day_pattern_2_5(mode, save_output, output_format):
     r"""
     Type atomic/gDay is restricted by facet pattern with value ---\d5.
     """
@@ -832,11 +886,12 @@ def test_atomic_g_day_pattern_1_nistxml_sv_iv_atomic_g_day_pattern_2_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_pattern_nistxml_sv_iv_atomic_g_day_pattern_1_1(mode, save_output):
+def test_atomic_g_day_pattern_nistxml_sv_iv_atomic_g_day_pattern_1_1(mode, save_output, output_format):
     r"""
     Type atomic/gDay is restricted by facet pattern with value ---\d5.
     """
@@ -847,11 +902,12 @@ def test_atomic_g_day_pattern_nistxml_sv_iv_atomic_g_day_pattern_1_1(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_pattern_nistxml_sv_iv_atomic_g_day_pattern_1_2(mode, save_output):
+def test_atomic_g_day_pattern_nistxml_sv_iv_atomic_g_day_pattern_1_2(mode, save_output, output_format):
     r"""
     Type atomic/gDay is restricted by facet pattern with value ---\d5.
     """
@@ -862,11 +918,12 @@ def test_atomic_g_day_pattern_nistxml_sv_iv_atomic_g_day_pattern_1_2(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_pattern_nistxml_sv_iv_atomic_g_day_pattern_1_3(mode, save_output):
+def test_atomic_g_day_pattern_nistxml_sv_iv_atomic_g_day_pattern_1_3(mode, save_output, output_format):
     r"""
     Type atomic/gDay is restricted by facet pattern with value ---\d5.
     """
@@ -877,11 +934,12 @@ def test_atomic_g_day_pattern_nistxml_sv_iv_atomic_g_day_pattern_1_3(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_pattern_nistxml_sv_iv_atomic_g_day_pattern_1_4(mode, save_output):
+def test_atomic_g_day_pattern_nistxml_sv_iv_atomic_g_day_pattern_1_4(mode, save_output, output_format):
     r"""
     Type atomic/gDay is restricted by facet pattern with value ---\d5.
     """
@@ -892,11 +950,12 @@ def test_atomic_g_day_pattern_nistxml_sv_iv_atomic_g_day_pattern_1_4(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_pattern_nistxml_sv_iv_atomic_g_day_pattern_1_5(mode, save_output):
+def test_atomic_g_day_pattern_nistxml_sv_iv_atomic_g_day_pattern_1_5(mode, save_output, output_format):
     r"""
     Type atomic/gDay is restricted by facet pattern with value ---\d5.
     """
@@ -907,11 +966,12 @@ def test_atomic_g_day_pattern_nistxml_sv_iv_atomic_g_day_pattern_1_5(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_max_inclusive_4_nistxml_sv_iv_atomic_g_day_max_inclusive_5_1(mode, save_output):
+def test_atomic_g_day_max_inclusive_4_nistxml_sv_iv_atomic_g_day_max_inclusive_5_1(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet maxInclusive with value ---31.
     """
@@ -922,11 +982,12 @@ def test_atomic_g_day_max_inclusive_4_nistxml_sv_iv_atomic_g_day_max_inclusive_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_max_inclusive_4_nistxml_sv_iv_atomic_g_day_max_inclusive_5_2(mode, save_output):
+def test_atomic_g_day_max_inclusive_4_nistxml_sv_iv_atomic_g_day_max_inclusive_5_2(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet maxInclusive with value ---31.
     """
@@ -937,11 +998,12 @@ def test_atomic_g_day_max_inclusive_4_nistxml_sv_iv_atomic_g_day_max_inclusive_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_max_inclusive_4_nistxml_sv_iv_atomic_g_day_max_inclusive_5_3(mode, save_output):
+def test_atomic_g_day_max_inclusive_4_nistxml_sv_iv_atomic_g_day_max_inclusive_5_3(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet maxInclusive with value ---31.
     """
@@ -952,11 +1014,12 @@ def test_atomic_g_day_max_inclusive_4_nistxml_sv_iv_atomic_g_day_max_inclusive_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_max_inclusive_4_nistxml_sv_iv_atomic_g_day_max_inclusive_5_4(mode, save_output):
+def test_atomic_g_day_max_inclusive_4_nistxml_sv_iv_atomic_g_day_max_inclusive_5_4(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet maxInclusive with value ---31.
     """
@@ -967,11 +1030,12 @@ def test_atomic_g_day_max_inclusive_4_nistxml_sv_iv_atomic_g_day_max_inclusive_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_max_inclusive_4_nistxml_sv_iv_atomic_g_day_max_inclusive_5_5(mode, save_output):
+def test_atomic_g_day_max_inclusive_4_nistxml_sv_iv_atomic_g_day_max_inclusive_5_5(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet maxInclusive with value ---31.
     """
@@ -982,11 +1046,12 @@ def test_atomic_g_day_max_inclusive_4_nistxml_sv_iv_atomic_g_day_max_inclusive_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_max_inclusive_3_nistxml_sv_iv_atomic_g_day_max_inclusive_4_1(mode, save_output):
+def test_atomic_g_day_max_inclusive_3_nistxml_sv_iv_atomic_g_day_max_inclusive_4_1(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet maxInclusive with value ---10.
     """
@@ -997,11 +1062,12 @@ def test_atomic_g_day_max_inclusive_3_nistxml_sv_iv_atomic_g_day_max_inclusive_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_max_inclusive_3_nistxml_sv_iv_atomic_g_day_max_inclusive_4_2(mode, save_output):
+def test_atomic_g_day_max_inclusive_3_nistxml_sv_iv_atomic_g_day_max_inclusive_4_2(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet maxInclusive with value ---10.
     """
@@ -1012,11 +1078,12 @@ def test_atomic_g_day_max_inclusive_3_nistxml_sv_iv_atomic_g_day_max_inclusive_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_max_inclusive_3_nistxml_sv_iv_atomic_g_day_max_inclusive_4_3(mode, save_output):
+def test_atomic_g_day_max_inclusive_3_nistxml_sv_iv_atomic_g_day_max_inclusive_4_3(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet maxInclusive with value ---10.
     """
@@ -1027,11 +1094,12 @@ def test_atomic_g_day_max_inclusive_3_nistxml_sv_iv_atomic_g_day_max_inclusive_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_max_inclusive_3_nistxml_sv_iv_atomic_g_day_max_inclusive_4_4(mode, save_output):
+def test_atomic_g_day_max_inclusive_3_nistxml_sv_iv_atomic_g_day_max_inclusive_4_4(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet maxInclusive with value ---10.
     """
@@ -1042,11 +1110,12 @@ def test_atomic_g_day_max_inclusive_3_nistxml_sv_iv_atomic_g_day_max_inclusive_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_max_inclusive_3_nistxml_sv_iv_atomic_g_day_max_inclusive_4_5(mode, save_output):
+def test_atomic_g_day_max_inclusive_3_nistxml_sv_iv_atomic_g_day_max_inclusive_4_5(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet maxInclusive with value ---10.
     """
@@ -1057,11 +1126,12 @@ def test_atomic_g_day_max_inclusive_3_nistxml_sv_iv_atomic_g_day_max_inclusive_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_max_inclusive_2_nistxml_sv_iv_atomic_g_day_max_inclusive_3_1(mode, save_output):
+def test_atomic_g_day_max_inclusive_2_nistxml_sv_iv_atomic_g_day_max_inclusive_3_1(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet maxInclusive with value ---01.
     """
@@ -1072,11 +1142,12 @@ def test_atomic_g_day_max_inclusive_2_nistxml_sv_iv_atomic_g_day_max_inclusive_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_max_inclusive_1_nistxml_sv_iv_atomic_g_day_max_inclusive_2_1(mode, save_output):
+def test_atomic_g_day_max_inclusive_1_nistxml_sv_iv_atomic_g_day_max_inclusive_2_1(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet maxInclusive with value ---07.
     """
@@ -1087,11 +1158,12 @@ def test_atomic_g_day_max_inclusive_1_nistxml_sv_iv_atomic_g_day_max_inclusive_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_max_inclusive_1_nistxml_sv_iv_atomic_g_day_max_inclusive_2_2(mode, save_output):
+def test_atomic_g_day_max_inclusive_1_nistxml_sv_iv_atomic_g_day_max_inclusive_2_2(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet maxInclusive with value ---07.
     """
@@ -1102,11 +1174,12 @@ def test_atomic_g_day_max_inclusive_1_nistxml_sv_iv_atomic_g_day_max_inclusive_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_max_inclusive_1_nistxml_sv_iv_atomic_g_day_max_inclusive_2_3(mode, save_output):
+def test_atomic_g_day_max_inclusive_1_nistxml_sv_iv_atomic_g_day_max_inclusive_2_3(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet maxInclusive with value ---07.
     """
@@ -1117,11 +1190,12 @@ def test_atomic_g_day_max_inclusive_1_nistxml_sv_iv_atomic_g_day_max_inclusive_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_max_inclusive_1_nistxml_sv_iv_atomic_g_day_max_inclusive_2_4(mode, save_output):
+def test_atomic_g_day_max_inclusive_1_nistxml_sv_iv_atomic_g_day_max_inclusive_2_4(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet maxInclusive with value ---07.
     """
@@ -1132,11 +1206,12 @@ def test_atomic_g_day_max_inclusive_1_nistxml_sv_iv_atomic_g_day_max_inclusive_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_max_inclusive_1_nistxml_sv_iv_atomic_g_day_max_inclusive_2_5(mode, save_output):
+def test_atomic_g_day_max_inclusive_1_nistxml_sv_iv_atomic_g_day_max_inclusive_2_5(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet maxInclusive with value ---07.
     """
@@ -1147,11 +1222,12 @@ def test_atomic_g_day_max_inclusive_1_nistxml_sv_iv_atomic_g_day_max_inclusive_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_max_inclusive_nistxml_sv_iv_atomic_g_day_max_inclusive_1_1(mode, save_output):
+def test_atomic_g_day_max_inclusive_nistxml_sv_iv_atomic_g_day_max_inclusive_1_1(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet maxInclusive with value ---01.
     """
@@ -1162,11 +1238,12 @@ def test_atomic_g_day_max_inclusive_nistxml_sv_iv_atomic_g_day_max_inclusive_1_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_max_exclusive_4_nistxml_sv_iv_atomic_g_day_max_exclusive_5_1(mode, save_output):
+def test_atomic_g_day_max_exclusive_4_nistxml_sv_iv_atomic_g_day_max_exclusive_5_1(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet maxExclusive with value ---31.
     """
@@ -1177,11 +1254,12 @@ def test_atomic_g_day_max_exclusive_4_nistxml_sv_iv_atomic_g_day_max_exclusive_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_max_exclusive_4_nistxml_sv_iv_atomic_g_day_max_exclusive_5_2(mode, save_output):
+def test_atomic_g_day_max_exclusive_4_nistxml_sv_iv_atomic_g_day_max_exclusive_5_2(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet maxExclusive with value ---31.
     """
@@ -1192,11 +1270,12 @@ def test_atomic_g_day_max_exclusive_4_nistxml_sv_iv_atomic_g_day_max_exclusive_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_max_exclusive_4_nistxml_sv_iv_atomic_g_day_max_exclusive_5_3(mode, save_output):
+def test_atomic_g_day_max_exclusive_4_nistxml_sv_iv_atomic_g_day_max_exclusive_5_3(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet maxExclusive with value ---31.
     """
@@ -1207,11 +1286,12 @@ def test_atomic_g_day_max_exclusive_4_nistxml_sv_iv_atomic_g_day_max_exclusive_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_max_exclusive_4_nistxml_sv_iv_atomic_g_day_max_exclusive_5_4(mode, save_output):
+def test_atomic_g_day_max_exclusive_4_nistxml_sv_iv_atomic_g_day_max_exclusive_5_4(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet maxExclusive with value ---31.
     """
@@ -1222,11 +1302,12 @@ def test_atomic_g_day_max_exclusive_4_nistxml_sv_iv_atomic_g_day_max_exclusive_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_max_exclusive_4_nistxml_sv_iv_atomic_g_day_max_exclusive_5_5(mode, save_output):
+def test_atomic_g_day_max_exclusive_4_nistxml_sv_iv_atomic_g_day_max_exclusive_5_5(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet maxExclusive with value ---31.
     """
@@ -1237,11 +1318,12 @@ def test_atomic_g_day_max_exclusive_4_nistxml_sv_iv_atomic_g_day_max_exclusive_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_max_exclusive_3_nistxml_sv_iv_atomic_g_day_max_exclusive_4_1(mode, save_output):
+def test_atomic_g_day_max_exclusive_3_nistxml_sv_iv_atomic_g_day_max_exclusive_4_1(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet maxExclusive with value ---15.
     """
@@ -1252,11 +1334,12 @@ def test_atomic_g_day_max_exclusive_3_nistxml_sv_iv_atomic_g_day_max_exclusive_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_max_exclusive_3_nistxml_sv_iv_atomic_g_day_max_exclusive_4_2(mode, save_output):
+def test_atomic_g_day_max_exclusive_3_nistxml_sv_iv_atomic_g_day_max_exclusive_4_2(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet maxExclusive with value ---15.
     """
@@ -1267,11 +1350,12 @@ def test_atomic_g_day_max_exclusive_3_nistxml_sv_iv_atomic_g_day_max_exclusive_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_max_exclusive_3_nistxml_sv_iv_atomic_g_day_max_exclusive_4_3(mode, save_output):
+def test_atomic_g_day_max_exclusive_3_nistxml_sv_iv_atomic_g_day_max_exclusive_4_3(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet maxExclusive with value ---15.
     """
@@ -1282,11 +1366,12 @@ def test_atomic_g_day_max_exclusive_3_nistxml_sv_iv_atomic_g_day_max_exclusive_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_max_exclusive_3_nistxml_sv_iv_atomic_g_day_max_exclusive_4_4(mode, save_output):
+def test_atomic_g_day_max_exclusive_3_nistxml_sv_iv_atomic_g_day_max_exclusive_4_4(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet maxExclusive with value ---15.
     """
@@ -1297,11 +1382,12 @@ def test_atomic_g_day_max_exclusive_3_nistxml_sv_iv_atomic_g_day_max_exclusive_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_max_exclusive_3_nistxml_sv_iv_atomic_g_day_max_exclusive_4_5(mode, save_output):
+def test_atomic_g_day_max_exclusive_3_nistxml_sv_iv_atomic_g_day_max_exclusive_4_5(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet maxExclusive with value ---15.
     """
@@ -1312,11 +1398,12 @@ def test_atomic_g_day_max_exclusive_3_nistxml_sv_iv_atomic_g_day_max_exclusive_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_max_exclusive_2_nistxml_sv_iv_atomic_g_day_max_exclusive_3_1(mode, save_output):
+def test_atomic_g_day_max_exclusive_2_nistxml_sv_iv_atomic_g_day_max_exclusive_3_1(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet maxExclusive with value ---30.
     """
@@ -1327,11 +1414,12 @@ def test_atomic_g_day_max_exclusive_2_nistxml_sv_iv_atomic_g_day_max_exclusive_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_max_exclusive_2_nistxml_sv_iv_atomic_g_day_max_exclusive_3_2(mode, save_output):
+def test_atomic_g_day_max_exclusive_2_nistxml_sv_iv_atomic_g_day_max_exclusive_3_2(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet maxExclusive with value ---30.
     """
@@ -1342,11 +1430,12 @@ def test_atomic_g_day_max_exclusive_2_nistxml_sv_iv_atomic_g_day_max_exclusive_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_max_exclusive_2_nistxml_sv_iv_atomic_g_day_max_exclusive_3_3(mode, save_output):
+def test_atomic_g_day_max_exclusive_2_nistxml_sv_iv_atomic_g_day_max_exclusive_3_3(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet maxExclusive with value ---30.
     """
@@ -1357,11 +1446,12 @@ def test_atomic_g_day_max_exclusive_2_nistxml_sv_iv_atomic_g_day_max_exclusive_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_max_exclusive_2_nistxml_sv_iv_atomic_g_day_max_exclusive_3_4(mode, save_output):
+def test_atomic_g_day_max_exclusive_2_nistxml_sv_iv_atomic_g_day_max_exclusive_3_4(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet maxExclusive with value ---30.
     """
@@ -1372,11 +1462,12 @@ def test_atomic_g_day_max_exclusive_2_nistxml_sv_iv_atomic_g_day_max_exclusive_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_max_exclusive_2_nistxml_sv_iv_atomic_g_day_max_exclusive_3_5(mode, save_output):
+def test_atomic_g_day_max_exclusive_2_nistxml_sv_iv_atomic_g_day_max_exclusive_3_5(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet maxExclusive with value ---30.
     """
@@ -1387,11 +1478,12 @@ def test_atomic_g_day_max_exclusive_2_nistxml_sv_iv_atomic_g_day_max_exclusive_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_max_exclusive_1_nistxml_sv_iv_atomic_g_day_max_exclusive_2_1(mode, save_output):
+def test_atomic_g_day_max_exclusive_1_nistxml_sv_iv_atomic_g_day_max_exclusive_2_1(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet maxExclusive with value ---25.
     """
@@ -1402,11 +1494,12 @@ def test_atomic_g_day_max_exclusive_1_nistxml_sv_iv_atomic_g_day_max_exclusive_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_max_exclusive_1_nistxml_sv_iv_atomic_g_day_max_exclusive_2_2(mode, save_output):
+def test_atomic_g_day_max_exclusive_1_nistxml_sv_iv_atomic_g_day_max_exclusive_2_2(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet maxExclusive with value ---25.
     """
@@ -1417,11 +1510,12 @@ def test_atomic_g_day_max_exclusive_1_nistxml_sv_iv_atomic_g_day_max_exclusive_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_max_exclusive_1_nistxml_sv_iv_atomic_g_day_max_exclusive_2_3(mode, save_output):
+def test_atomic_g_day_max_exclusive_1_nistxml_sv_iv_atomic_g_day_max_exclusive_2_3(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet maxExclusive with value ---25.
     """
@@ -1432,11 +1526,12 @@ def test_atomic_g_day_max_exclusive_1_nistxml_sv_iv_atomic_g_day_max_exclusive_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_max_exclusive_1_nistxml_sv_iv_atomic_g_day_max_exclusive_2_4(mode, save_output):
+def test_atomic_g_day_max_exclusive_1_nistxml_sv_iv_atomic_g_day_max_exclusive_2_4(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet maxExclusive with value ---25.
     """
@@ -1447,11 +1542,12 @@ def test_atomic_g_day_max_exclusive_1_nistxml_sv_iv_atomic_g_day_max_exclusive_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_max_exclusive_1_nistxml_sv_iv_atomic_g_day_max_exclusive_2_5(mode, save_output):
+def test_atomic_g_day_max_exclusive_1_nistxml_sv_iv_atomic_g_day_max_exclusive_2_5(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet maxExclusive with value ---25.
     """
@@ -1462,11 +1558,12 @@ def test_atomic_g_day_max_exclusive_1_nistxml_sv_iv_atomic_g_day_max_exclusive_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_max_exclusive_nistxml_sv_iv_atomic_g_day_max_exclusive_1_1(mode, save_output):
+def test_atomic_g_day_max_exclusive_nistxml_sv_iv_atomic_g_day_max_exclusive_1_1(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet maxExclusive with value ---02.
     """
@@ -1477,11 +1574,12 @@ def test_atomic_g_day_max_exclusive_nistxml_sv_iv_atomic_g_day_max_exclusive_1_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_min_inclusive_4_nistxml_sv_iv_atomic_g_day_min_inclusive_5_1(mode, save_output):
+def test_atomic_g_day_min_inclusive_4_nistxml_sv_iv_atomic_g_day_min_inclusive_5_1(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet minInclusive with value ---31.
     """
@@ -1492,11 +1590,12 @@ def test_atomic_g_day_min_inclusive_4_nistxml_sv_iv_atomic_g_day_min_inclusive_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_min_inclusive_3_nistxml_sv_iv_atomic_g_day_min_inclusive_4_1(mode, save_output):
+def test_atomic_g_day_min_inclusive_3_nistxml_sv_iv_atomic_g_day_min_inclusive_4_1(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet minInclusive with value ---08.
     """
@@ -1507,11 +1606,12 @@ def test_atomic_g_day_min_inclusive_3_nistxml_sv_iv_atomic_g_day_min_inclusive_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_min_inclusive_3_nistxml_sv_iv_atomic_g_day_min_inclusive_4_2(mode, save_output):
+def test_atomic_g_day_min_inclusive_3_nistxml_sv_iv_atomic_g_day_min_inclusive_4_2(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet minInclusive with value ---08.
     """
@@ -1522,11 +1622,12 @@ def test_atomic_g_day_min_inclusive_3_nistxml_sv_iv_atomic_g_day_min_inclusive_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_min_inclusive_3_nistxml_sv_iv_atomic_g_day_min_inclusive_4_3(mode, save_output):
+def test_atomic_g_day_min_inclusive_3_nistxml_sv_iv_atomic_g_day_min_inclusive_4_3(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet minInclusive with value ---08.
     """
@@ -1537,11 +1638,12 @@ def test_atomic_g_day_min_inclusive_3_nistxml_sv_iv_atomic_g_day_min_inclusive_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_min_inclusive_3_nistxml_sv_iv_atomic_g_day_min_inclusive_4_4(mode, save_output):
+def test_atomic_g_day_min_inclusive_3_nistxml_sv_iv_atomic_g_day_min_inclusive_4_4(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet minInclusive with value ---08.
     """
@@ -1552,11 +1654,12 @@ def test_atomic_g_day_min_inclusive_3_nistxml_sv_iv_atomic_g_day_min_inclusive_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_min_inclusive_3_nistxml_sv_iv_atomic_g_day_min_inclusive_4_5(mode, save_output):
+def test_atomic_g_day_min_inclusive_3_nistxml_sv_iv_atomic_g_day_min_inclusive_4_5(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet minInclusive with value ---08.
     """
@@ -1567,11 +1670,12 @@ def test_atomic_g_day_min_inclusive_3_nistxml_sv_iv_atomic_g_day_min_inclusive_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_min_inclusive_2_nistxml_sv_iv_atomic_g_day_min_inclusive_3_1(mode, save_output):
+def test_atomic_g_day_min_inclusive_2_nistxml_sv_iv_atomic_g_day_min_inclusive_3_1(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet minInclusive with value ---24.
     """
@@ -1582,11 +1686,12 @@ def test_atomic_g_day_min_inclusive_2_nistxml_sv_iv_atomic_g_day_min_inclusive_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_min_inclusive_2_nistxml_sv_iv_atomic_g_day_min_inclusive_3_2(mode, save_output):
+def test_atomic_g_day_min_inclusive_2_nistxml_sv_iv_atomic_g_day_min_inclusive_3_2(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet minInclusive with value ---24.
     """
@@ -1597,11 +1702,12 @@ def test_atomic_g_day_min_inclusive_2_nistxml_sv_iv_atomic_g_day_min_inclusive_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_min_inclusive_2_nistxml_sv_iv_atomic_g_day_min_inclusive_3_3(mode, save_output):
+def test_atomic_g_day_min_inclusive_2_nistxml_sv_iv_atomic_g_day_min_inclusive_3_3(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet minInclusive with value ---24.
     """
@@ -1612,11 +1718,12 @@ def test_atomic_g_day_min_inclusive_2_nistxml_sv_iv_atomic_g_day_min_inclusive_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_min_inclusive_2_nistxml_sv_iv_atomic_g_day_min_inclusive_3_4(mode, save_output):
+def test_atomic_g_day_min_inclusive_2_nistxml_sv_iv_atomic_g_day_min_inclusive_3_4(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet minInclusive with value ---24.
     """
@@ -1627,11 +1734,12 @@ def test_atomic_g_day_min_inclusive_2_nistxml_sv_iv_atomic_g_day_min_inclusive_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_min_inclusive_2_nistxml_sv_iv_atomic_g_day_min_inclusive_3_5(mode, save_output):
+def test_atomic_g_day_min_inclusive_2_nistxml_sv_iv_atomic_g_day_min_inclusive_3_5(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet minInclusive with value ---24.
     """
@@ -1642,11 +1750,12 @@ def test_atomic_g_day_min_inclusive_2_nistxml_sv_iv_atomic_g_day_min_inclusive_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_min_inclusive_1_nistxml_sv_iv_atomic_g_day_min_inclusive_2_1(mode, save_output):
+def test_atomic_g_day_min_inclusive_1_nistxml_sv_iv_atomic_g_day_min_inclusive_2_1(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet minInclusive with value ---16.
     """
@@ -1657,11 +1766,12 @@ def test_atomic_g_day_min_inclusive_1_nistxml_sv_iv_atomic_g_day_min_inclusive_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_min_inclusive_1_nistxml_sv_iv_atomic_g_day_min_inclusive_2_2(mode, save_output):
+def test_atomic_g_day_min_inclusive_1_nistxml_sv_iv_atomic_g_day_min_inclusive_2_2(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet minInclusive with value ---16.
     """
@@ -1672,11 +1782,12 @@ def test_atomic_g_day_min_inclusive_1_nistxml_sv_iv_atomic_g_day_min_inclusive_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_min_inclusive_1_nistxml_sv_iv_atomic_g_day_min_inclusive_2_3(mode, save_output):
+def test_atomic_g_day_min_inclusive_1_nistxml_sv_iv_atomic_g_day_min_inclusive_2_3(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet minInclusive with value ---16.
     """
@@ -1687,11 +1798,12 @@ def test_atomic_g_day_min_inclusive_1_nistxml_sv_iv_atomic_g_day_min_inclusive_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_min_inclusive_1_nistxml_sv_iv_atomic_g_day_min_inclusive_2_4(mode, save_output):
+def test_atomic_g_day_min_inclusive_1_nistxml_sv_iv_atomic_g_day_min_inclusive_2_4(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet minInclusive with value ---16.
     """
@@ -1702,11 +1814,12 @@ def test_atomic_g_day_min_inclusive_1_nistxml_sv_iv_atomic_g_day_min_inclusive_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_min_inclusive_1_nistxml_sv_iv_atomic_g_day_min_inclusive_2_5(mode, save_output):
+def test_atomic_g_day_min_inclusive_1_nistxml_sv_iv_atomic_g_day_min_inclusive_2_5(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet minInclusive with value ---16.
     """
@@ -1717,11 +1830,12 @@ def test_atomic_g_day_min_inclusive_1_nistxml_sv_iv_atomic_g_day_min_inclusive_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_min_inclusive_nistxml_sv_iv_atomic_g_day_min_inclusive_1_1(mode, save_output):
+def test_atomic_g_day_min_inclusive_nistxml_sv_iv_atomic_g_day_min_inclusive_1_1(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet minInclusive with value ---01.
     """
@@ -1732,11 +1846,12 @@ def test_atomic_g_day_min_inclusive_nistxml_sv_iv_atomic_g_day_min_inclusive_1_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_min_inclusive_nistxml_sv_iv_atomic_g_day_min_inclusive_1_2(mode, save_output):
+def test_atomic_g_day_min_inclusive_nistxml_sv_iv_atomic_g_day_min_inclusive_1_2(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet minInclusive with value ---01.
     """
@@ -1747,11 +1862,12 @@ def test_atomic_g_day_min_inclusive_nistxml_sv_iv_atomic_g_day_min_inclusive_1_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_min_inclusive_nistxml_sv_iv_atomic_g_day_min_inclusive_1_3(mode, save_output):
+def test_atomic_g_day_min_inclusive_nistxml_sv_iv_atomic_g_day_min_inclusive_1_3(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet minInclusive with value ---01.
     """
@@ -1762,11 +1878,12 @@ def test_atomic_g_day_min_inclusive_nistxml_sv_iv_atomic_g_day_min_inclusive_1_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_min_inclusive_nistxml_sv_iv_atomic_g_day_min_inclusive_1_4(mode, save_output):
+def test_atomic_g_day_min_inclusive_nistxml_sv_iv_atomic_g_day_min_inclusive_1_4(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet minInclusive with value ---01.
     """
@@ -1777,11 +1894,12 @@ def test_atomic_g_day_min_inclusive_nistxml_sv_iv_atomic_g_day_min_inclusive_1_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_min_inclusive_nistxml_sv_iv_atomic_g_day_min_inclusive_1_5(mode, save_output):
+def test_atomic_g_day_min_inclusive_nistxml_sv_iv_atomic_g_day_min_inclusive_1_5(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet minInclusive with value ---01.
     """
@@ -1792,11 +1910,12 @@ def test_atomic_g_day_min_inclusive_nistxml_sv_iv_atomic_g_day_min_inclusive_1_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_min_exclusive_4_nistxml_sv_iv_atomic_g_day_min_exclusive_5_1(mode, save_output):
+def test_atomic_g_day_min_exclusive_4_nistxml_sv_iv_atomic_g_day_min_exclusive_5_1(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet minExclusive with value ---30.
     """
@@ -1807,11 +1926,12 @@ def test_atomic_g_day_min_exclusive_4_nistxml_sv_iv_atomic_g_day_min_exclusive_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_min_exclusive_3_nistxml_sv_iv_atomic_g_day_min_exclusive_4_1(mode, save_output):
+def test_atomic_g_day_min_exclusive_3_nistxml_sv_iv_atomic_g_day_min_exclusive_4_1(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet minExclusive with value ---04.
     """
@@ -1822,11 +1942,12 @@ def test_atomic_g_day_min_exclusive_3_nistxml_sv_iv_atomic_g_day_min_exclusive_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_min_exclusive_3_nistxml_sv_iv_atomic_g_day_min_exclusive_4_2(mode, save_output):
+def test_atomic_g_day_min_exclusive_3_nistxml_sv_iv_atomic_g_day_min_exclusive_4_2(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet minExclusive with value ---04.
     """
@@ -1837,11 +1958,12 @@ def test_atomic_g_day_min_exclusive_3_nistxml_sv_iv_atomic_g_day_min_exclusive_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_min_exclusive_3_nistxml_sv_iv_atomic_g_day_min_exclusive_4_3(mode, save_output):
+def test_atomic_g_day_min_exclusive_3_nistxml_sv_iv_atomic_g_day_min_exclusive_4_3(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet minExclusive with value ---04.
     """
@@ -1852,11 +1974,12 @@ def test_atomic_g_day_min_exclusive_3_nistxml_sv_iv_atomic_g_day_min_exclusive_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_min_exclusive_3_nistxml_sv_iv_atomic_g_day_min_exclusive_4_4(mode, save_output):
+def test_atomic_g_day_min_exclusive_3_nistxml_sv_iv_atomic_g_day_min_exclusive_4_4(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet minExclusive with value ---04.
     """
@@ -1867,11 +1990,12 @@ def test_atomic_g_day_min_exclusive_3_nistxml_sv_iv_atomic_g_day_min_exclusive_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_min_exclusive_3_nistxml_sv_iv_atomic_g_day_min_exclusive_4_5(mode, save_output):
+def test_atomic_g_day_min_exclusive_3_nistxml_sv_iv_atomic_g_day_min_exclusive_4_5(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet minExclusive with value ---04.
     """
@@ -1882,11 +2006,12 @@ def test_atomic_g_day_min_exclusive_3_nistxml_sv_iv_atomic_g_day_min_exclusive_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_min_exclusive_2_nistxml_sv_iv_atomic_g_day_min_exclusive_3_1(mode, save_output):
+def test_atomic_g_day_min_exclusive_2_nistxml_sv_iv_atomic_g_day_min_exclusive_3_1(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet minExclusive with value ---04.
     """
@@ -1897,11 +2022,12 @@ def test_atomic_g_day_min_exclusive_2_nistxml_sv_iv_atomic_g_day_min_exclusive_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_min_exclusive_2_nistxml_sv_iv_atomic_g_day_min_exclusive_3_2(mode, save_output):
+def test_atomic_g_day_min_exclusive_2_nistxml_sv_iv_atomic_g_day_min_exclusive_3_2(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet minExclusive with value ---04.
     """
@@ -1912,11 +2038,12 @@ def test_atomic_g_day_min_exclusive_2_nistxml_sv_iv_atomic_g_day_min_exclusive_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_min_exclusive_2_nistxml_sv_iv_atomic_g_day_min_exclusive_3_3(mode, save_output):
+def test_atomic_g_day_min_exclusive_2_nistxml_sv_iv_atomic_g_day_min_exclusive_3_3(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet minExclusive with value ---04.
     """
@@ -1927,11 +2054,12 @@ def test_atomic_g_day_min_exclusive_2_nistxml_sv_iv_atomic_g_day_min_exclusive_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_min_exclusive_2_nistxml_sv_iv_atomic_g_day_min_exclusive_3_4(mode, save_output):
+def test_atomic_g_day_min_exclusive_2_nistxml_sv_iv_atomic_g_day_min_exclusive_3_4(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet minExclusive with value ---04.
     """
@@ -1942,11 +2070,12 @@ def test_atomic_g_day_min_exclusive_2_nistxml_sv_iv_atomic_g_day_min_exclusive_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_min_exclusive_2_nistxml_sv_iv_atomic_g_day_min_exclusive_3_5(mode, save_output):
+def test_atomic_g_day_min_exclusive_2_nistxml_sv_iv_atomic_g_day_min_exclusive_3_5(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet minExclusive with value ---04.
     """
@@ -1957,11 +2086,12 @@ def test_atomic_g_day_min_exclusive_2_nistxml_sv_iv_atomic_g_day_min_exclusive_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_min_exclusive_1_nistxml_sv_iv_atomic_g_day_min_exclusive_2_1(mode, save_output):
+def test_atomic_g_day_min_exclusive_1_nistxml_sv_iv_atomic_g_day_min_exclusive_2_1(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet minExclusive with value ---20.
     """
@@ -1972,11 +2102,12 @@ def test_atomic_g_day_min_exclusive_1_nistxml_sv_iv_atomic_g_day_min_exclusive_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_min_exclusive_1_nistxml_sv_iv_atomic_g_day_min_exclusive_2_2(mode, save_output):
+def test_atomic_g_day_min_exclusive_1_nistxml_sv_iv_atomic_g_day_min_exclusive_2_2(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet minExclusive with value ---20.
     """
@@ -1987,11 +2118,12 @@ def test_atomic_g_day_min_exclusive_1_nistxml_sv_iv_atomic_g_day_min_exclusive_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_min_exclusive_1_nistxml_sv_iv_atomic_g_day_min_exclusive_2_3(mode, save_output):
+def test_atomic_g_day_min_exclusive_1_nistxml_sv_iv_atomic_g_day_min_exclusive_2_3(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet minExclusive with value ---20.
     """
@@ -2002,11 +2134,12 @@ def test_atomic_g_day_min_exclusive_1_nistxml_sv_iv_atomic_g_day_min_exclusive_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_min_exclusive_1_nistxml_sv_iv_atomic_g_day_min_exclusive_2_4(mode, save_output):
+def test_atomic_g_day_min_exclusive_1_nistxml_sv_iv_atomic_g_day_min_exclusive_2_4(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet minExclusive with value ---20.
     """
@@ -2017,11 +2150,12 @@ def test_atomic_g_day_min_exclusive_1_nistxml_sv_iv_atomic_g_day_min_exclusive_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_min_exclusive_1_nistxml_sv_iv_atomic_g_day_min_exclusive_2_5(mode, save_output):
+def test_atomic_g_day_min_exclusive_1_nistxml_sv_iv_atomic_g_day_min_exclusive_2_5(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet minExclusive with value ---20.
     """
@@ -2032,11 +2166,12 @@ def test_atomic_g_day_min_exclusive_1_nistxml_sv_iv_atomic_g_day_min_exclusive_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_min_exclusive_nistxml_sv_iv_atomic_g_day_min_exclusive_1_1(mode, save_output):
+def test_atomic_g_day_min_exclusive_nistxml_sv_iv_atomic_g_day_min_exclusive_1_1(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet minExclusive with value ---01.
     """
@@ -2047,11 +2182,12 @@ def test_atomic_g_day_min_exclusive_nistxml_sv_iv_atomic_g_day_min_exclusive_1_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_min_exclusive_nistxml_sv_iv_atomic_g_day_min_exclusive_1_2(mode, save_output):
+def test_atomic_g_day_min_exclusive_nistxml_sv_iv_atomic_g_day_min_exclusive_1_2(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet minExclusive with value ---01.
     """
@@ -2062,11 +2198,12 @@ def test_atomic_g_day_min_exclusive_nistxml_sv_iv_atomic_g_day_min_exclusive_1_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_min_exclusive_nistxml_sv_iv_atomic_g_day_min_exclusive_1_3(mode, save_output):
+def test_atomic_g_day_min_exclusive_nistxml_sv_iv_atomic_g_day_min_exclusive_1_3(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet minExclusive with value ---01.
     """
@@ -2077,11 +2214,12 @@ def test_atomic_g_day_min_exclusive_nistxml_sv_iv_atomic_g_day_min_exclusive_1_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_min_exclusive_nistxml_sv_iv_atomic_g_day_min_exclusive_1_4(mode, save_output):
+def test_atomic_g_day_min_exclusive_nistxml_sv_iv_atomic_g_day_min_exclusive_1_4(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet minExclusive with value ---01.
     """
@@ -2092,11 +2230,12 @@ def test_atomic_g_day_min_exclusive_nistxml_sv_iv_atomic_g_day_min_exclusive_1_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_day_min_exclusive_nistxml_sv_iv_atomic_g_day_min_exclusive_1_5(mode, save_output):
+def test_atomic_g_day_min_exclusive_nistxml_sv_iv_atomic_g_day_min_exclusive_1_5(mode, save_output, output_format):
     """
     Type atomic/gDay is restricted by facet minExclusive with value ---01.
     """
@@ -2107,11 +2246,12 @@ def test_atomic_g_day_min_exclusive_nistxml_sv_iv_atomic_g_day_min_exclusive_1_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_white_space_nistxml_sv_iv_atomic_g_month_day_white_space_1_1(mode, save_output):
+def test_atomic_g_month_day_white_space_nistxml_sv_iv_atomic_g_month_day_white_space_1_1(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet whiteSpace with value
     collapse.
@@ -2123,11 +2263,12 @@ def test_atomic_g_month_day_white_space_nistxml_sv_iv_atomic_g_month_day_white_s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_white_space_nistxml_sv_iv_atomic_g_month_day_white_space_1_2(mode, save_output):
+def test_atomic_g_month_day_white_space_nistxml_sv_iv_atomic_g_month_day_white_space_1_2(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet whiteSpace with value
     collapse.
@@ -2139,11 +2280,12 @@ def test_atomic_g_month_day_white_space_nistxml_sv_iv_atomic_g_month_day_white_s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_white_space_nistxml_sv_iv_atomic_g_month_day_white_space_1_3(mode, save_output):
+def test_atomic_g_month_day_white_space_nistxml_sv_iv_atomic_g_month_day_white_space_1_3(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet whiteSpace with value
     collapse.
@@ -2155,11 +2297,12 @@ def test_atomic_g_month_day_white_space_nistxml_sv_iv_atomic_g_month_day_white_s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_white_space_nistxml_sv_iv_atomic_g_month_day_white_space_1_4(mode, save_output):
+def test_atomic_g_month_day_white_space_nistxml_sv_iv_atomic_g_month_day_white_space_1_4(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet whiteSpace with value
     collapse.
@@ -2171,11 +2314,12 @@ def test_atomic_g_month_day_white_space_nistxml_sv_iv_atomic_g_month_day_white_s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_white_space_nistxml_sv_iv_atomic_g_month_day_white_space_1_5(mode, save_output):
+def test_atomic_g_month_day_white_space_nistxml_sv_iv_atomic_g_month_day_white_space_1_5(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet whiteSpace with value
     collapse.
@@ -2187,11 +2331,12 @@ def test_atomic_g_month_day_white_space_nistxml_sv_iv_atomic_g_month_day_white_s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_enumeration_4_nistxml_sv_iv_atomic_g_month_day_enumeration_5_1(mode, save_output):
+def test_atomic_g_month_day_enumeration_4_nistxml_sv_iv_atomic_g_month_day_enumeration_5_1(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet enumeration.
     """
@@ -2202,11 +2347,12 @@ def test_atomic_g_month_day_enumeration_4_nistxml_sv_iv_atomic_g_month_day_enume
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_enumeration_4_nistxml_sv_iv_atomic_g_month_day_enumeration_5_2(mode, save_output):
+def test_atomic_g_month_day_enumeration_4_nistxml_sv_iv_atomic_g_month_day_enumeration_5_2(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet enumeration.
     """
@@ -2217,11 +2363,12 @@ def test_atomic_g_month_day_enumeration_4_nistxml_sv_iv_atomic_g_month_day_enume
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_enumeration_4_nistxml_sv_iv_atomic_g_month_day_enumeration_5_3(mode, save_output):
+def test_atomic_g_month_day_enumeration_4_nistxml_sv_iv_atomic_g_month_day_enumeration_5_3(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet enumeration.
     """
@@ -2232,11 +2379,12 @@ def test_atomic_g_month_day_enumeration_4_nistxml_sv_iv_atomic_g_month_day_enume
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_enumeration_4_nistxml_sv_iv_atomic_g_month_day_enumeration_5_4(mode, save_output):
+def test_atomic_g_month_day_enumeration_4_nistxml_sv_iv_atomic_g_month_day_enumeration_5_4(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet enumeration.
     """
@@ -2247,11 +2395,12 @@ def test_atomic_g_month_day_enumeration_4_nistxml_sv_iv_atomic_g_month_day_enume
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_enumeration_4_nistxml_sv_iv_atomic_g_month_day_enumeration_5_5(mode, save_output):
+def test_atomic_g_month_day_enumeration_4_nistxml_sv_iv_atomic_g_month_day_enumeration_5_5(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet enumeration.
     """
@@ -2262,11 +2411,12 @@ def test_atomic_g_month_day_enumeration_4_nistxml_sv_iv_atomic_g_month_day_enume
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_enumeration_3_nistxml_sv_iv_atomic_g_month_day_enumeration_4_1(mode, save_output):
+def test_atomic_g_month_day_enumeration_3_nistxml_sv_iv_atomic_g_month_day_enumeration_4_1(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet enumeration.
     """
@@ -2277,11 +2427,12 @@ def test_atomic_g_month_day_enumeration_3_nistxml_sv_iv_atomic_g_month_day_enume
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_enumeration_3_nistxml_sv_iv_atomic_g_month_day_enumeration_4_2(mode, save_output):
+def test_atomic_g_month_day_enumeration_3_nistxml_sv_iv_atomic_g_month_day_enumeration_4_2(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet enumeration.
     """
@@ -2292,11 +2443,12 @@ def test_atomic_g_month_day_enumeration_3_nistxml_sv_iv_atomic_g_month_day_enume
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_enumeration_3_nistxml_sv_iv_atomic_g_month_day_enumeration_4_3(mode, save_output):
+def test_atomic_g_month_day_enumeration_3_nistxml_sv_iv_atomic_g_month_day_enumeration_4_3(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet enumeration.
     """
@@ -2307,11 +2459,12 @@ def test_atomic_g_month_day_enumeration_3_nistxml_sv_iv_atomic_g_month_day_enume
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_enumeration_3_nistxml_sv_iv_atomic_g_month_day_enumeration_4_4(mode, save_output):
+def test_atomic_g_month_day_enumeration_3_nistxml_sv_iv_atomic_g_month_day_enumeration_4_4(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet enumeration.
     """
@@ -2322,11 +2475,12 @@ def test_atomic_g_month_day_enumeration_3_nistxml_sv_iv_atomic_g_month_day_enume
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_enumeration_3_nistxml_sv_iv_atomic_g_month_day_enumeration_4_5(mode, save_output):
+def test_atomic_g_month_day_enumeration_3_nistxml_sv_iv_atomic_g_month_day_enumeration_4_5(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet enumeration.
     """
@@ -2337,11 +2491,12 @@ def test_atomic_g_month_day_enumeration_3_nistxml_sv_iv_atomic_g_month_day_enume
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_enumeration_2_nistxml_sv_iv_atomic_g_month_day_enumeration_3_1(mode, save_output):
+def test_atomic_g_month_day_enumeration_2_nistxml_sv_iv_atomic_g_month_day_enumeration_3_1(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet enumeration.
     """
@@ -2352,11 +2507,12 @@ def test_atomic_g_month_day_enumeration_2_nistxml_sv_iv_atomic_g_month_day_enume
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_enumeration_2_nistxml_sv_iv_atomic_g_month_day_enumeration_3_2(mode, save_output):
+def test_atomic_g_month_day_enumeration_2_nistxml_sv_iv_atomic_g_month_day_enumeration_3_2(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet enumeration.
     """
@@ -2367,11 +2523,12 @@ def test_atomic_g_month_day_enumeration_2_nistxml_sv_iv_atomic_g_month_day_enume
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_enumeration_2_nistxml_sv_iv_atomic_g_month_day_enumeration_3_3(mode, save_output):
+def test_atomic_g_month_day_enumeration_2_nistxml_sv_iv_atomic_g_month_day_enumeration_3_3(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet enumeration.
     """
@@ -2382,11 +2539,12 @@ def test_atomic_g_month_day_enumeration_2_nistxml_sv_iv_atomic_g_month_day_enume
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_enumeration_2_nistxml_sv_iv_atomic_g_month_day_enumeration_3_4(mode, save_output):
+def test_atomic_g_month_day_enumeration_2_nistxml_sv_iv_atomic_g_month_day_enumeration_3_4(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet enumeration.
     """
@@ -2397,11 +2555,12 @@ def test_atomic_g_month_day_enumeration_2_nistxml_sv_iv_atomic_g_month_day_enume
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_enumeration_2_nistxml_sv_iv_atomic_g_month_day_enumeration_3_5(mode, save_output):
+def test_atomic_g_month_day_enumeration_2_nistxml_sv_iv_atomic_g_month_day_enumeration_3_5(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet enumeration.
     """
@@ -2412,11 +2571,12 @@ def test_atomic_g_month_day_enumeration_2_nistxml_sv_iv_atomic_g_month_day_enume
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_enumeration_1_nistxml_sv_iv_atomic_g_month_day_enumeration_2_1(mode, save_output):
+def test_atomic_g_month_day_enumeration_1_nistxml_sv_iv_atomic_g_month_day_enumeration_2_1(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet enumeration.
     """
@@ -2427,11 +2587,12 @@ def test_atomic_g_month_day_enumeration_1_nistxml_sv_iv_atomic_g_month_day_enume
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_enumeration_1_nistxml_sv_iv_atomic_g_month_day_enumeration_2_2(mode, save_output):
+def test_atomic_g_month_day_enumeration_1_nistxml_sv_iv_atomic_g_month_day_enumeration_2_2(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet enumeration.
     """
@@ -2442,11 +2603,12 @@ def test_atomic_g_month_day_enumeration_1_nistxml_sv_iv_atomic_g_month_day_enume
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_enumeration_1_nistxml_sv_iv_atomic_g_month_day_enumeration_2_3(mode, save_output):
+def test_atomic_g_month_day_enumeration_1_nistxml_sv_iv_atomic_g_month_day_enumeration_2_3(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet enumeration.
     """
@@ -2457,11 +2619,12 @@ def test_atomic_g_month_day_enumeration_1_nistxml_sv_iv_atomic_g_month_day_enume
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_enumeration_1_nistxml_sv_iv_atomic_g_month_day_enumeration_2_4(mode, save_output):
+def test_atomic_g_month_day_enumeration_1_nistxml_sv_iv_atomic_g_month_day_enumeration_2_4(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet enumeration.
     """
@@ -2472,11 +2635,12 @@ def test_atomic_g_month_day_enumeration_1_nistxml_sv_iv_atomic_g_month_day_enume
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_enumeration_1_nistxml_sv_iv_atomic_g_month_day_enumeration_2_5(mode, save_output):
+def test_atomic_g_month_day_enumeration_1_nistxml_sv_iv_atomic_g_month_day_enumeration_2_5(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet enumeration.
     """
@@ -2487,11 +2651,12 @@ def test_atomic_g_month_day_enumeration_1_nistxml_sv_iv_atomic_g_month_day_enume
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_enumeration_nistxml_sv_iv_atomic_g_month_day_enumeration_1_1(mode, save_output):
+def test_atomic_g_month_day_enumeration_nistxml_sv_iv_atomic_g_month_day_enumeration_1_1(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet enumeration.
     """
@@ -2502,11 +2667,12 @@ def test_atomic_g_month_day_enumeration_nistxml_sv_iv_atomic_g_month_day_enumera
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_enumeration_nistxml_sv_iv_atomic_g_month_day_enumeration_1_2(mode, save_output):
+def test_atomic_g_month_day_enumeration_nistxml_sv_iv_atomic_g_month_day_enumeration_1_2(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet enumeration.
     """
@@ -2517,11 +2683,12 @@ def test_atomic_g_month_day_enumeration_nistxml_sv_iv_atomic_g_month_day_enumera
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_enumeration_nistxml_sv_iv_atomic_g_month_day_enumeration_1_3(mode, save_output):
+def test_atomic_g_month_day_enumeration_nistxml_sv_iv_atomic_g_month_day_enumeration_1_3(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet enumeration.
     """
@@ -2532,11 +2699,12 @@ def test_atomic_g_month_day_enumeration_nistxml_sv_iv_atomic_g_month_day_enumera
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_enumeration_nistxml_sv_iv_atomic_g_month_day_enumeration_1_4(mode, save_output):
+def test_atomic_g_month_day_enumeration_nistxml_sv_iv_atomic_g_month_day_enumeration_1_4(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet enumeration.
     """
@@ -2547,11 +2715,12 @@ def test_atomic_g_month_day_enumeration_nistxml_sv_iv_atomic_g_month_day_enumera
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_enumeration_nistxml_sv_iv_atomic_g_month_day_enumeration_1_5(mode, save_output):
+def test_atomic_g_month_day_enumeration_nistxml_sv_iv_atomic_g_month_day_enumeration_1_5(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet enumeration.
     """
@@ -2562,11 +2731,12 @@ def test_atomic_g_month_day_enumeration_nistxml_sv_iv_atomic_g_month_day_enumera
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_pattern_4_nistxml_sv_iv_atomic_g_month_day_pattern_5_1(mode, save_output):
+def test_atomic_g_month_day_pattern_4_nistxml_sv_iv_atomic_g_month_day_pattern_5_1(mode, save_output, output_format):
     r"""
     Type atomic/gMonthDay is restricted by facet pattern with value
     --0\d-1\d.
@@ -2578,11 +2748,12 @@ def test_atomic_g_month_day_pattern_4_nistxml_sv_iv_atomic_g_month_day_pattern_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_pattern_4_nistxml_sv_iv_atomic_g_month_day_pattern_5_2(mode, save_output):
+def test_atomic_g_month_day_pattern_4_nistxml_sv_iv_atomic_g_month_day_pattern_5_2(mode, save_output, output_format):
     r"""
     Type atomic/gMonthDay is restricted by facet pattern with value
     --0\d-1\d.
@@ -2594,11 +2765,12 @@ def test_atomic_g_month_day_pattern_4_nistxml_sv_iv_atomic_g_month_day_pattern_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_pattern_4_nistxml_sv_iv_atomic_g_month_day_pattern_5_3(mode, save_output):
+def test_atomic_g_month_day_pattern_4_nistxml_sv_iv_atomic_g_month_day_pattern_5_3(mode, save_output, output_format):
     r"""
     Type atomic/gMonthDay is restricted by facet pattern with value
     --0\d-1\d.
@@ -2610,11 +2782,12 @@ def test_atomic_g_month_day_pattern_4_nistxml_sv_iv_atomic_g_month_day_pattern_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_pattern_4_nistxml_sv_iv_atomic_g_month_day_pattern_5_4(mode, save_output):
+def test_atomic_g_month_day_pattern_4_nistxml_sv_iv_atomic_g_month_day_pattern_5_4(mode, save_output, output_format):
     r"""
     Type atomic/gMonthDay is restricted by facet pattern with value
     --0\d-1\d.
@@ -2626,11 +2799,12 @@ def test_atomic_g_month_day_pattern_4_nistxml_sv_iv_atomic_g_month_day_pattern_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_pattern_4_nistxml_sv_iv_atomic_g_month_day_pattern_5_5(mode, save_output):
+def test_atomic_g_month_day_pattern_4_nistxml_sv_iv_atomic_g_month_day_pattern_5_5(mode, save_output, output_format):
     r"""
     Type atomic/gMonthDay is restricted by facet pattern with value
     --0\d-1\d.
@@ -2642,11 +2816,12 @@ def test_atomic_g_month_day_pattern_4_nistxml_sv_iv_atomic_g_month_day_pattern_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_pattern_3_nistxml_sv_iv_atomic_g_month_day_pattern_4_1(mode, save_output):
+def test_atomic_g_month_day_pattern_3_nistxml_sv_iv_atomic_g_month_day_pattern_4_1(mode, save_output, output_format):
     r"""
     Type atomic/gMonthDay is restricted by facet pattern with value
     --\d3-0\d.
@@ -2658,11 +2833,12 @@ def test_atomic_g_month_day_pattern_3_nistxml_sv_iv_atomic_g_month_day_pattern_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_pattern_3_nistxml_sv_iv_atomic_g_month_day_pattern_4_2(mode, save_output):
+def test_atomic_g_month_day_pattern_3_nistxml_sv_iv_atomic_g_month_day_pattern_4_2(mode, save_output, output_format):
     r"""
     Type atomic/gMonthDay is restricted by facet pattern with value
     --\d3-0\d.
@@ -2674,11 +2850,12 @@ def test_atomic_g_month_day_pattern_3_nistxml_sv_iv_atomic_g_month_day_pattern_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_pattern_3_nistxml_sv_iv_atomic_g_month_day_pattern_4_3(mode, save_output):
+def test_atomic_g_month_day_pattern_3_nistxml_sv_iv_atomic_g_month_day_pattern_4_3(mode, save_output, output_format):
     r"""
     Type atomic/gMonthDay is restricted by facet pattern with value
     --\d3-0\d.
@@ -2690,11 +2867,12 @@ def test_atomic_g_month_day_pattern_3_nistxml_sv_iv_atomic_g_month_day_pattern_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_pattern_3_nistxml_sv_iv_atomic_g_month_day_pattern_4_4(mode, save_output):
+def test_atomic_g_month_day_pattern_3_nistxml_sv_iv_atomic_g_month_day_pattern_4_4(mode, save_output, output_format):
     r"""
     Type atomic/gMonthDay is restricted by facet pattern with value
     --\d3-0\d.
@@ -2706,11 +2884,12 @@ def test_atomic_g_month_day_pattern_3_nistxml_sv_iv_atomic_g_month_day_pattern_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_pattern_3_nistxml_sv_iv_atomic_g_month_day_pattern_4_5(mode, save_output):
+def test_atomic_g_month_day_pattern_3_nistxml_sv_iv_atomic_g_month_day_pattern_4_5(mode, save_output, output_format):
     r"""
     Type atomic/gMonthDay is restricted by facet pattern with value
     --\d3-0\d.
@@ -2722,11 +2901,12 @@ def test_atomic_g_month_day_pattern_3_nistxml_sv_iv_atomic_g_month_day_pattern_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_pattern_2_nistxml_sv_iv_atomic_g_month_day_pattern_3_1(mode, save_output):
+def test_atomic_g_month_day_pattern_2_nistxml_sv_iv_atomic_g_month_day_pattern_3_1(mode, save_output, output_format):
     r"""
     Type atomic/gMonthDay is restricted by facet pattern with value
     --0\d-\d8.
@@ -2738,11 +2918,12 @@ def test_atomic_g_month_day_pattern_2_nistxml_sv_iv_atomic_g_month_day_pattern_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_pattern_2_nistxml_sv_iv_atomic_g_month_day_pattern_3_2(mode, save_output):
+def test_atomic_g_month_day_pattern_2_nistxml_sv_iv_atomic_g_month_day_pattern_3_2(mode, save_output, output_format):
     r"""
     Type atomic/gMonthDay is restricted by facet pattern with value
     --0\d-\d8.
@@ -2754,11 +2935,12 @@ def test_atomic_g_month_day_pattern_2_nistxml_sv_iv_atomic_g_month_day_pattern_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_pattern_2_nistxml_sv_iv_atomic_g_month_day_pattern_3_3(mode, save_output):
+def test_atomic_g_month_day_pattern_2_nistxml_sv_iv_atomic_g_month_day_pattern_3_3(mode, save_output, output_format):
     r"""
     Type atomic/gMonthDay is restricted by facet pattern with value
     --0\d-\d8.
@@ -2770,11 +2952,12 @@ def test_atomic_g_month_day_pattern_2_nistxml_sv_iv_atomic_g_month_day_pattern_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_pattern_2_nistxml_sv_iv_atomic_g_month_day_pattern_3_4(mode, save_output):
+def test_atomic_g_month_day_pattern_2_nistxml_sv_iv_atomic_g_month_day_pattern_3_4(mode, save_output, output_format):
     r"""
     Type atomic/gMonthDay is restricted by facet pattern with value
     --0\d-\d8.
@@ -2786,11 +2969,12 @@ def test_atomic_g_month_day_pattern_2_nistxml_sv_iv_atomic_g_month_day_pattern_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_pattern_2_nistxml_sv_iv_atomic_g_month_day_pattern_3_5(mode, save_output):
+def test_atomic_g_month_day_pattern_2_nistxml_sv_iv_atomic_g_month_day_pattern_3_5(mode, save_output, output_format):
     r"""
     Type atomic/gMonthDay is restricted by facet pattern with value
     --0\d-\d8.
@@ -2802,11 +2986,12 @@ def test_atomic_g_month_day_pattern_2_nistxml_sv_iv_atomic_g_month_day_pattern_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_pattern_1_nistxml_sv_iv_atomic_g_month_day_pattern_2_1(mode, save_output):
+def test_atomic_g_month_day_pattern_1_nistxml_sv_iv_atomic_g_month_day_pattern_2_1(mode, save_output, output_format):
     r"""
     Type atomic/gMonthDay is restricted by facet pattern with value
     --\d1-2\d.
@@ -2818,11 +3003,12 @@ def test_atomic_g_month_day_pattern_1_nistxml_sv_iv_atomic_g_month_day_pattern_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_pattern_1_nistxml_sv_iv_atomic_g_month_day_pattern_2_2(mode, save_output):
+def test_atomic_g_month_day_pattern_1_nistxml_sv_iv_atomic_g_month_day_pattern_2_2(mode, save_output, output_format):
     r"""
     Type atomic/gMonthDay is restricted by facet pattern with value
     --\d1-2\d.
@@ -2834,11 +3020,12 @@ def test_atomic_g_month_day_pattern_1_nistxml_sv_iv_atomic_g_month_day_pattern_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_pattern_1_nistxml_sv_iv_atomic_g_month_day_pattern_2_3(mode, save_output):
+def test_atomic_g_month_day_pattern_1_nistxml_sv_iv_atomic_g_month_day_pattern_2_3(mode, save_output, output_format):
     r"""
     Type atomic/gMonthDay is restricted by facet pattern with value
     --\d1-2\d.
@@ -2850,11 +3037,12 @@ def test_atomic_g_month_day_pattern_1_nistxml_sv_iv_atomic_g_month_day_pattern_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_pattern_1_nistxml_sv_iv_atomic_g_month_day_pattern_2_4(mode, save_output):
+def test_atomic_g_month_day_pattern_1_nistxml_sv_iv_atomic_g_month_day_pattern_2_4(mode, save_output, output_format):
     r"""
     Type atomic/gMonthDay is restricted by facet pattern with value
     --\d1-2\d.
@@ -2866,11 +3054,12 @@ def test_atomic_g_month_day_pattern_1_nistxml_sv_iv_atomic_g_month_day_pattern_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_pattern_1_nistxml_sv_iv_atomic_g_month_day_pattern_2_5(mode, save_output):
+def test_atomic_g_month_day_pattern_1_nistxml_sv_iv_atomic_g_month_day_pattern_2_5(mode, save_output, output_format):
     r"""
     Type atomic/gMonthDay is restricted by facet pattern with value
     --\d1-2\d.
@@ -2882,11 +3071,12 @@ def test_atomic_g_month_day_pattern_1_nistxml_sv_iv_atomic_g_month_day_pattern_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_pattern_nistxml_sv_iv_atomic_g_month_day_pattern_1_1(mode, save_output):
+def test_atomic_g_month_day_pattern_nistxml_sv_iv_atomic_g_month_day_pattern_1_1(mode, save_output, output_format):
     r"""
     Type atomic/gMonthDay is restricted by facet pattern with value
     --\d2-1\d.
@@ -2898,11 +3088,12 @@ def test_atomic_g_month_day_pattern_nistxml_sv_iv_atomic_g_month_day_pattern_1_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_pattern_nistxml_sv_iv_atomic_g_month_day_pattern_1_2(mode, save_output):
+def test_atomic_g_month_day_pattern_nistxml_sv_iv_atomic_g_month_day_pattern_1_2(mode, save_output, output_format):
     r"""
     Type atomic/gMonthDay is restricted by facet pattern with value
     --\d2-1\d.
@@ -2914,11 +3105,12 @@ def test_atomic_g_month_day_pattern_nistxml_sv_iv_atomic_g_month_day_pattern_1_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_pattern_nistxml_sv_iv_atomic_g_month_day_pattern_1_3(mode, save_output):
+def test_atomic_g_month_day_pattern_nistxml_sv_iv_atomic_g_month_day_pattern_1_3(mode, save_output, output_format):
     r"""
     Type atomic/gMonthDay is restricted by facet pattern with value
     --\d2-1\d.
@@ -2930,11 +3122,12 @@ def test_atomic_g_month_day_pattern_nistxml_sv_iv_atomic_g_month_day_pattern_1_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_pattern_nistxml_sv_iv_atomic_g_month_day_pattern_1_4(mode, save_output):
+def test_atomic_g_month_day_pattern_nistxml_sv_iv_atomic_g_month_day_pattern_1_4(mode, save_output, output_format):
     r"""
     Type atomic/gMonthDay is restricted by facet pattern with value
     --\d2-1\d.
@@ -2946,11 +3139,12 @@ def test_atomic_g_month_day_pattern_nistxml_sv_iv_atomic_g_month_day_pattern_1_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_pattern_nistxml_sv_iv_atomic_g_month_day_pattern_1_5(mode, save_output):
+def test_atomic_g_month_day_pattern_nistxml_sv_iv_atomic_g_month_day_pattern_1_5(mode, save_output, output_format):
     r"""
     Type atomic/gMonthDay is restricted by facet pattern with value
     --\d2-1\d.
@@ -2962,11 +3156,12 @@ def test_atomic_g_month_day_pattern_nistxml_sv_iv_atomic_g_month_day_pattern_1_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_max_inclusive_4_nistxml_sv_iv_atomic_g_month_day_max_inclusive_5_1(mode, save_output):
+def test_atomic_g_month_day_max_inclusive_4_nistxml_sv_iv_atomic_g_month_day_max_inclusive_5_1(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet maxInclusive with value
     --12-31.
@@ -2978,11 +3173,12 @@ def test_atomic_g_month_day_max_inclusive_4_nistxml_sv_iv_atomic_g_month_day_max
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_max_inclusive_4_nistxml_sv_iv_atomic_g_month_day_max_inclusive_5_2(mode, save_output):
+def test_atomic_g_month_day_max_inclusive_4_nistxml_sv_iv_atomic_g_month_day_max_inclusive_5_2(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet maxInclusive with value
     --12-31.
@@ -2994,11 +3190,12 @@ def test_atomic_g_month_day_max_inclusive_4_nistxml_sv_iv_atomic_g_month_day_max
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_max_inclusive_4_nistxml_sv_iv_atomic_g_month_day_max_inclusive_5_3(mode, save_output):
+def test_atomic_g_month_day_max_inclusive_4_nistxml_sv_iv_atomic_g_month_day_max_inclusive_5_3(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet maxInclusive with value
     --12-31.
@@ -3010,11 +3207,12 @@ def test_atomic_g_month_day_max_inclusive_4_nistxml_sv_iv_atomic_g_month_day_max
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_max_inclusive_4_nistxml_sv_iv_atomic_g_month_day_max_inclusive_5_4(mode, save_output):
+def test_atomic_g_month_day_max_inclusive_4_nistxml_sv_iv_atomic_g_month_day_max_inclusive_5_4(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet maxInclusive with value
     --12-31.
@@ -3026,11 +3224,12 @@ def test_atomic_g_month_day_max_inclusive_4_nistxml_sv_iv_atomic_g_month_day_max
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_max_inclusive_4_nistxml_sv_iv_atomic_g_month_day_max_inclusive_5_5(mode, save_output):
+def test_atomic_g_month_day_max_inclusive_4_nistxml_sv_iv_atomic_g_month_day_max_inclusive_5_5(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet maxInclusive with value
     --12-31.
@@ -3042,11 +3241,12 @@ def test_atomic_g_month_day_max_inclusive_4_nistxml_sv_iv_atomic_g_month_day_max
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_max_inclusive_3_nistxml_sv_iv_atomic_g_month_day_max_inclusive_4_1(mode, save_output):
+def test_atomic_g_month_day_max_inclusive_3_nistxml_sv_iv_atomic_g_month_day_max_inclusive_4_1(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet maxInclusive with value
     --07-01.
@@ -3058,11 +3258,12 @@ def test_atomic_g_month_day_max_inclusive_3_nistxml_sv_iv_atomic_g_month_day_max
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_max_inclusive_3_nistxml_sv_iv_atomic_g_month_day_max_inclusive_4_2(mode, save_output):
+def test_atomic_g_month_day_max_inclusive_3_nistxml_sv_iv_atomic_g_month_day_max_inclusive_4_2(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet maxInclusive with value
     --07-01.
@@ -3074,11 +3275,12 @@ def test_atomic_g_month_day_max_inclusive_3_nistxml_sv_iv_atomic_g_month_day_max
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_max_inclusive_3_nistxml_sv_iv_atomic_g_month_day_max_inclusive_4_3(mode, save_output):
+def test_atomic_g_month_day_max_inclusive_3_nistxml_sv_iv_atomic_g_month_day_max_inclusive_4_3(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet maxInclusive with value
     --07-01.
@@ -3090,11 +3292,12 @@ def test_atomic_g_month_day_max_inclusive_3_nistxml_sv_iv_atomic_g_month_day_max
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_max_inclusive_3_nistxml_sv_iv_atomic_g_month_day_max_inclusive_4_4(mode, save_output):
+def test_atomic_g_month_day_max_inclusive_3_nistxml_sv_iv_atomic_g_month_day_max_inclusive_4_4(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet maxInclusive with value
     --07-01.
@@ -3106,11 +3309,12 @@ def test_atomic_g_month_day_max_inclusive_3_nistxml_sv_iv_atomic_g_month_day_max
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_max_inclusive_3_nistxml_sv_iv_atomic_g_month_day_max_inclusive_4_5(mode, save_output):
+def test_atomic_g_month_day_max_inclusive_3_nistxml_sv_iv_atomic_g_month_day_max_inclusive_4_5(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet maxInclusive with value
     --07-01.
@@ -3122,11 +3326,12 @@ def test_atomic_g_month_day_max_inclusive_3_nistxml_sv_iv_atomic_g_month_day_max
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_max_inclusive_2_nistxml_sv_iv_atomic_g_month_day_max_inclusive_3_1(mode, save_output):
+def test_atomic_g_month_day_max_inclusive_2_nistxml_sv_iv_atomic_g_month_day_max_inclusive_3_1(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet maxInclusive with value
     --06-11.
@@ -3138,11 +3343,12 @@ def test_atomic_g_month_day_max_inclusive_2_nistxml_sv_iv_atomic_g_month_day_max
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_max_inclusive_2_nistxml_sv_iv_atomic_g_month_day_max_inclusive_3_2(mode, save_output):
+def test_atomic_g_month_day_max_inclusive_2_nistxml_sv_iv_atomic_g_month_day_max_inclusive_3_2(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet maxInclusive with value
     --06-11.
@@ -3154,11 +3360,12 @@ def test_atomic_g_month_day_max_inclusive_2_nistxml_sv_iv_atomic_g_month_day_max
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_max_inclusive_2_nistxml_sv_iv_atomic_g_month_day_max_inclusive_3_3(mode, save_output):
+def test_atomic_g_month_day_max_inclusive_2_nistxml_sv_iv_atomic_g_month_day_max_inclusive_3_3(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet maxInclusive with value
     --06-11.
@@ -3170,11 +3377,12 @@ def test_atomic_g_month_day_max_inclusive_2_nistxml_sv_iv_atomic_g_month_day_max
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_max_inclusive_2_nistxml_sv_iv_atomic_g_month_day_max_inclusive_3_4(mode, save_output):
+def test_atomic_g_month_day_max_inclusive_2_nistxml_sv_iv_atomic_g_month_day_max_inclusive_3_4(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet maxInclusive with value
     --06-11.
@@ -3186,11 +3394,12 @@ def test_atomic_g_month_day_max_inclusive_2_nistxml_sv_iv_atomic_g_month_day_max
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_max_inclusive_2_nistxml_sv_iv_atomic_g_month_day_max_inclusive_3_5(mode, save_output):
+def test_atomic_g_month_day_max_inclusive_2_nistxml_sv_iv_atomic_g_month_day_max_inclusive_3_5(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet maxInclusive with value
     --06-11.
@@ -3202,11 +3411,12 @@ def test_atomic_g_month_day_max_inclusive_2_nistxml_sv_iv_atomic_g_month_day_max
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_max_inclusive_1_nistxml_sv_iv_atomic_g_month_day_max_inclusive_2_1(mode, save_output):
+def test_atomic_g_month_day_max_inclusive_1_nistxml_sv_iv_atomic_g_month_day_max_inclusive_2_1(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet maxInclusive with value
     --02-24.
@@ -3218,11 +3428,12 @@ def test_atomic_g_month_day_max_inclusive_1_nistxml_sv_iv_atomic_g_month_day_max
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_max_inclusive_1_nistxml_sv_iv_atomic_g_month_day_max_inclusive_2_2(mode, save_output):
+def test_atomic_g_month_day_max_inclusive_1_nistxml_sv_iv_atomic_g_month_day_max_inclusive_2_2(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet maxInclusive with value
     --02-24.
@@ -3234,11 +3445,12 @@ def test_atomic_g_month_day_max_inclusive_1_nistxml_sv_iv_atomic_g_month_day_max
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_max_inclusive_1_nistxml_sv_iv_atomic_g_month_day_max_inclusive_2_3(mode, save_output):
+def test_atomic_g_month_day_max_inclusive_1_nistxml_sv_iv_atomic_g_month_day_max_inclusive_2_3(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet maxInclusive with value
     --02-24.
@@ -3250,11 +3462,12 @@ def test_atomic_g_month_day_max_inclusive_1_nistxml_sv_iv_atomic_g_month_day_max
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_max_inclusive_1_nistxml_sv_iv_atomic_g_month_day_max_inclusive_2_4(mode, save_output):
+def test_atomic_g_month_day_max_inclusive_1_nistxml_sv_iv_atomic_g_month_day_max_inclusive_2_4(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet maxInclusive with value
     --02-24.
@@ -3266,11 +3479,12 @@ def test_atomic_g_month_day_max_inclusive_1_nistxml_sv_iv_atomic_g_month_day_max
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_max_inclusive_1_nistxml_sv_iv_atomic_g_month_day_max_inclusive_2_5(mode, save_output):
+def test_atomic_g_month_day_max_inclusive_1_nistxml_sv_iv_atomic_g_month_day_max_inclusive_2_5(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet maxInclusive with value
     --02-24.
@@ -3282,11 +3496,12 @@ def test_atomic_g_month_day_max_inclusive_1_nistxml_sv_iv_atomic_g_month_day_max
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_max_inclusive_nistxml_sv_iv_atomic_g_month_day_max_inclusive_1_1(mode, save_output):
+def test_atomic_g_month_day_max_inclusive_nistxml_sv_iv_atomic_g_month_day_max_inclusive_1_1(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet maxInclusive with value
     --01-01.
@@ -3298,11 +3513,12 @@ def test_atomic_g_month_day_max_inclusive_nistxml_sv_iv_atomic_g_month_day_max_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_max_exclusive_4_nistxml_sv_iv_atomic_g_month_day_max_exclusive_5_1(mode, save_output):
+def test_atomic_g_month_day_max_exclusive_4_nistxml_sv_iv_atomic_g_month_day_max_exclusive_5_1(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet maxExclusive with value
     --12-31.
@@ -3314,11 +3530,12 @@ def test_atomic_g_month_day_max_exclusive_4_nistxml_sv_iv_atomic_g_month_day_max
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_max_exclusive_4_nistxml_sv_iv_atomic_g_month_day_max_exclusive_5_2(mode, save_output):
+def test_atomic_g_month_day_max_exclusive_4_nistxml_sv_iv_atomic_g_month_day_max_exclusive_5_2(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet maxExclusive with value
     --12-31.
@@ -3330,11 +3547,12 @@ def test_atomic_g_month_day_max_exclusive_4_nistxml_sv_iv_atomic_g_month_day_max
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_max_exclusive_4_nistxml_sv_iv_atomic_g_month_day_max_exclusive_5_3(mode, save_output):
+def test_atomic_g_month_day_max_exclusive_4_nistxml_sv_iv_atomic_g_month_day_max_exclusive_5_3(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet maxExclusive with value
     --12-31.
@@ -3346,11 +3564,12 @@ def test_atomic_g_month_day_max_exclusive_4_nistxml_sv_iv_atomic_g_month_day_max
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_max_exclusive_4_nistxml_sv_iv_atomic_g_month_day_max_exclusive_5_4(mode, save_output):
+def test_atomic_g_month_day_max_exclusive_4_nistxml_sv_iv_atomic_g_month_day_max_exclusive_5_4(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet maxExclusive with value
     --12-31.
@@ -3362,11 +3581,12 @@ def test_atomic_g_month_day_max_exclusive_4_nistxml_sv_iv_atomic_g_month_day_max
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_max_exclusive_4_nistxml_sv_iv_atomic_g_month_day_max_exclusive_5_5(mode, save_output):
+def test_atomic_g_month_day_max_exclusive_4_nistxml_sv_iv_atomic_g_month_day_max_exclusive_5_5(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet maxExclusive with value
     --12-31.
@@ -3378,11 +3598,12 @@ def test_atomic_g_month_day_max_exclusive_4_nistxml_sv_iv_atomic_g_month_day_max
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_max_exclusive_3_nistxml_sv_iv_atomic_g_month_day_max_exclusive_4_1(mode, save_output):
+def test_atomic_g_month_day_max_exclusive_3_nistxml_sv_iv_atomic_g_month_day_max_exclusive_4_1(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet maxExclusive with value
     --11-27.
@@ -3394,11 +3615,12 @@ def test_atomic_g_month_day_max_exclusive_3_nistxml_sv_iv_atomic_g_month_day_max
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_max_exclusive_3_nistxml_sv_iv_atomic_g_month_day_max_exclusive_4_2(mode, save_output):
+def test_atomic_g_month_day_max_exclusive_3_nistxml_sv_iv_atomic_g_month_day_max_exclusive_4_2(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet maxExclusive with value
     --11-27.
@@ -3410,11 +3632,12 @@ def test_atomic_g_month_day_max_exclusive_3_nistxml_sv_iv_atomic_g_month_day_max
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_max_exclusive_3_nistxml_sv_iv_atomic_g_month_day_max_exclusive_4_3(mode, save_output):
+def test_atomic_g_month_day_max_exclusive_3_nistxml_sv_iv_atomic_g_month_day_max_exclusive_4_3(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet maxExclusive with value
     --11-27.
@@ -3426,11 +3649,12 @@ def test_atomic_g_month_day_max_exclusive_3_nistxml_sv_iv_atomic_g_month_day_max
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_max_exclusive_3_nistxml_sv_iv_atomic_g_month_day_max_exclusive_4_4(mode, save_output):
+def test_atomic_g_month_day_max_exclusive_3_nistxml_sv_iv_atomic_g_month_day_max_exclusive_4_4(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet maxExclusive with value
     --11-27.
@@ -3442,11 +3666,12 @@ def test_atomic_g_month_day_max_exclusive_3_nistxml_sv_iv_atomic_g_month_day_max
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_max_exclusive_3_nistxml_sv_iv_atomic_g_month_day_max_exclusive_4_5(mode, save_output):
+def test_atomic_g_month_day_max_exclusive_3_nistxml_sv_iv_atomic_g_month_day_max_exclusive_4_5(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet maxExclusive with value
     --11-27.
@@ -3458,11 +3683,12 @@ def test_atomic_g_month_day_max_exclusive_3_nistxml_sv_iv_atomic_g_month_day_max
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_max_exclusive_2_nistxml_sv_iv_atomic_g_month_day_max_exclusive_3_1(mode, save_output):
+def test_atomic_g_month_day_max_exclusive_2_nistxml_sv_iv_atomic_g_month_day_max_exclusive_3_1(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet maxExclusive with value
     --07-23.
@@ -3474,11 +3700,12 @@ def test_atomic_g_month_day_max_exclusive_2_nistxml_sv_iv_atomic_g_month_day_max
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_max_exclusive_2_nistxml_sv_iv_atomic_g_month_day_max_exclusive_3_2(mode, save_output):
+def test_atomic_g_month_day_max_exclusive_2_nistxml_sv_iv_atomic_g_month_day_max_exclusive_3_2(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet maxExclusive with value
     --07-23.
@@ -3490,11 +3717,12 @@ def test_atomic_g_month_day_max_exclusive_2_nistxml_sv_iv_atomic_g_month_day_max
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_max_exclusive_2_nistxml_sv_iv_atomic_g_month_day_max_exclusive_3_3(mode, save_output):
+def test_atomic_g_month_day_max_exclusive_2_nistxml_sv_iv_atomic_g_month_day_max_exclusive_3_3(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet maxExclusive with value
     --07-23.
@@ -3506,11 +3734,12 @@ def test_atomic_g_month_day_max_exclusive_2_nistxml_sv_iv_atomic_g_month_day_max
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_max_exclusive_2_nistxml_sv_iv_atomic_g_month_day_max_exclusive_3_4(mode, save_output):
+def test_atomic_g_month_day_max_exclusive_2_nistxml_sv_iv_atomic_g_month_day_max_exclusive_3_4(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet maxExclusive with value
     --07-23.
@@ -3522,11 +3751,12 @@ def test_atomic_g_month_day_max_exclusive_2_nistxml_sv_iv_atomic_g_month_day_max
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_max_exclusive_2_nistxml_sv_iv_atomic_g_month_day_max_exclusive_3_5(mode, save_output):
+def test_atomic_g_month_day_max_exclusive_2_nistxml_sv_iv_atomic_g_month_day_max_exclusive_3_5(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet maxExclusive with value
     --07-23.
@@ -3538,11 +3768,12 @@ def test_atomic_g_month_day_max_exclusive_2_nistxml_sv_iv_atomic_g_month_day_max
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_max_exclusive_1_nistxml_sv_iv_atomic_g_month_day_max_exclusive_2_1(mode, save_output):
+def test_atomic_g_month_day_max_exclusive_1_nistxml_sv_iv_atomic_g_month_day_max_exclusive_2_1(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet maxExclusive with value
     --10-09.
@@ -3554,11 +3785,12 @@ def test_atomic_g_month_day_max_exclusive_1_nistxml_sv_iv_atomic_g_month_day_max
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_max_exclusive_1_nistxml_sv_iv_atomic_g_month_day_max_exclusive_2_2(mode, save_output):
+def test_atomic_g_month_day_max_exclusive_1_nistxml_sv_iv_atomic_g_month_day_max_exclusive_2_2(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet maxExclusive with value
     --10-09.
@@ -3570,11 +3802,12 @@ def test_atomic_g_month_day_max_exclusive_1_nistxml_sv_iv_atomic_g_month_day_max
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_max_exclusive_1_nistxml_sv_iv_atomic_g_month_day_max_exclusive_2_3(mode, save_output):
+def test_atomic_g_month_day_max_exclusive_1_nistxml_sv_iv_atomic_g_month_day_max_exclusive_2_3(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet maxExclusive with value
     --10-09.
@@ -3586,11 +3819,12 @@ def test_atomic_g_month_day_max_exclusive_1_nistxml_sv_iv_atomic_g_month_day_max
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_max_exclusive_1_nistxml_sv_iv_atomic_g_month_day_max_exclusive_2_4(mode, save_output):
+def test_atomic_g_month_day_max_exclusive_1_nistxml_sv_iv_atomic_g_month_day_max_exclusive_2_4(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet maxExclusive with value
     --10-09.
@@ -3602,11 +3836,12 @@ def test_atomic_g_month_day_max_exclusive_1_nistxml_sv_iv_atomic_g_month_day_max
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_max_exclusive_1_nistxml_sv_iv_atomic_g_month_day_max_exclusive_2_5(mode, save_output):
+def test_atomic_g_month_day_max_exclusive_1_nistxml_sv_iv_atomic_g_month_day_max_exclusive_2_5(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet maxExclusive with value
     --10-09.
@@ -3618,11 +3853,12 @@ def test_atomic_g_month_day_max_exclusive_1_nistxml_sv_iv_atomic_g_month_day_max
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_max_exclusive_nistxml_sv_iv_atomic_g_month_day_max_exclusive_1_1(mode, save_output):
+def test_atomic_g_month_day_max_exclusive_nistxml_sv_iv_atomic_g_month_day_max_exclusive_1_1(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet maxExclusive with value
     --01-02.
@@ -3634,11 +3870,12 @@ def test_atomic_g_month_day_max_exclusive_nistxml_sv_iv_atomic_g_month_day_max_e
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_min_inclusive_4_nistxml_sv_iv_atomic_g_month_day_min_inclusive_5_1(mode, save_output):
+def test_atomic_g_month_day_min_inclusive_4_nistxml_sv_iv_atomic_g_month_day_min_inclusive_5_1(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet minInclusive with value
     --12-31.
@@ -3650,11 +3887,12 @@ def test_atomic_g_month_day_min_inclusive_4_nistxml_sv_iv_atomic_g_month_day_min
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_min_inclusive_3_nistxml_sv_iv_atomic_g_month_day_min_inclusive_4_1(mode, save_output):
+def test_atomic_g_month_day_min_inclusive_3_nistxml_sv_iv_atomic_g_month_day_min_inclusive_4_1(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet minInclusive with value
     --03-04.
@@ -3666,11 +3904,12 @@ def test_atomic_g_month_day_min_inclusive_3_nistxml_sv_iv_atomic_g_month_day_min
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_min_inclusive_3_nistxml_sv_iv_atomic_g_month_day_min_inclusive_4_2(mode, save_output):
+def test_atomic_g_month_day_min_inclusive_3_nistxml_sv_iv_atomic_g_month_day_min_inclusive_4_2(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet minInclusive with value
     --03-04.
@@ -3682,11 +3921,12 @@ def test_atomic_g_month_day_min_inclusive_3_nistxml_sv_iv_atomic_g_month_day_min
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_min_inclusive_3_nistxml_sv_iv_atomic_g_month_day_min_inclusive_4_3(mode, save_output):
+def test_atomic_g_month_day_min_inclusive_3_nistxml_sv_iv_atomic_g_month_day_min_inclusive_4_3(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet minInclusive with value
     --03-04.
@@ -3698,11 +3938,12 @@ def test_atomic_g_month_day_min_inclusive_3_nistxml_sv_iv_atomic_g_month_day_min
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_min_inclusive_3_nistxml_sv_iv_atomic_g_month_day_min_inclusive_4_4(mode, save_output):
+def test_atomic_g_month_day_min_inclusive_3_nistxml_sv_iv_atomic_g_month_day_min_inclusive_4_4(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet minInclusive with value
     --03-04.
@@ -3714,11 +3955,12 @@ def test_atomic_g_month_day_min_inclusive_3_nistxml_sv_iv_atomic_g_month_day_min
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_min_inclusive_3_nistxml_sv_iv_atomic_g_month_day_min_inclusive_4_5(mode, save_output):
+def test_atomic_g_month_day_min_inclusive_3_nistxml_sv_iv_atomic_g_month_day_min_inclusive_4_5(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet minInclusive with value
     --03-04.
@@ -3730,11 +3972,12 @@ def test_atomic_g_month_day_min_inclusive_3_nistxml_sv_iv_atomic_g_month_day_min
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_min_inclusive_2_nistxml_sv_iv_atomic_g_month_day_min_inclusive_3_1(mode, save_output):
+def test_atomic_g_month_day_min_inclusive_2_nistxml_sv_iv_atomic_g_month_day_min_inclusive_3_1(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet minInclusive with value
     --07-02.
@@ -3746,11 +3989,12 @@ def test_atomic_g_month_day_min_inclusive_2_nistxml_sv_iv_atomic_g_month_day_min
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_min_inclusive_2_nistxml_sv_iv_atomic_g_month_day_min_inclusive_3_2(mode, save_output):
+def test_atomic_g_month_day_min_inclusive_2_nistxml_sv_iv_atomic_g_month_day_min_inclusive_3_2(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet minInclusive with value
     --07-02.
@@ -3762,11 +4006,12 @@ def test_atomic_g_month_day_min_inclusive_2_nistxml_sv_iv_atomic_g_month_day_min
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_min_inclusive_2_nistxml_sv_iv_atomic_g_month_day_min_inclusive_3_3(mode, save_output):
+def test_atomic_g_month_day_min_inclusive_2_nistxml_sv_iv_atomic_g_month_day_min_inclusive_3_3(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet minInclusive with value
     --07-02.
@@ -3778,11 +4023,12 @@ def test_atomic_g_month_day_min_inclusive_2_nistxml_sv_iv_atomic_g_month_day_min
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_min_inclusive_2_nistxml_sv_iv_atomic_g_month_day_min_inclusive_3_4(mode, save_output):
+def test_atomic_g_month_day_min_inclusive_2_nistxml_sv_iv_atomic_g_month_day_min_inclusive_3_4(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet minInclusive with value
     --07-02.
@@ -3794,11 +4040,12 @@ def test_atomic_g_month_day_min_inclusive_2_nistxml_sv_iv_atomic_g_month_day_min
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_min_inclusive_2_nistxml_sv_iv_atomic_g_month_day_min_inclusive_3_5(mode, save_output):
+def test_atomic_g_month_day_min_inclusive_2_nistxml_sv_iv_atomic_g_month_day_min_inclusive_3_5(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet minInclusive with value
     --07-02.
@@ -3810,11 +4057,12 @@ def test_atomic_g_month_day_min_inclusive_2_nistxml_sv_iv_atomic_g_month_day_min
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_min_inclusive_1_nistxml_sv_iv_atomic_g_month_day_min_inclusive_2_1(mode, save_output):
+def test_atomic_g_month_day_min_inclusive_1_nistxml_sv_iv_atomic_g_month_day_min_inclusive_2_1(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet minInclusive with value
     --06-11.
@@ -3826,11 +4074,12 @@ def test_atomic_g_month_day_min_inclusive_1_nistxml_sv_iv_atomic_g_month_day_min
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_min_inclusive_1_nistxml_sv_iv_atomic_g_month_day_min_inclusive_2_2(mode, save_output):
+def test_atomic_g_month_day_min_inclusive_1_nistxml_sv_iv_atomic_g_month_day_min_inclusive_2_2(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet minInclusive with value
     --06-11.
@@ -3842,11 +4091,12 @@ def test_atomic_g_month_day_min_inclusive_1_nistxml_sv_iv_atomic_g_month_day_min
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_min_inclusive_1_nistxml_sv_iv_atomic_g_month_day_min_inclusive_2_3(mode, save_output):
+def test_atomic_g_month_day_min_inclusive_1_nistxml_sv_iv_atomic_g_month_day_min_inclusive_2_3(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet minInclusive with value
     --06-11.
@@ -3858,11 +4108,12 @@ def test_atomic_g_month_day_min_inclusive_1_nistxml_sv_iv_atomic_g_month_day_min
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_min_inclusive_1_nistxml_sv_iv_atomic_g_month_day_min_inclusive_2_4(mode, save_output):
+def test_atomic_g_month_day_min_inclusive_1_nistxml_sv_iv_atomic_g_month_day_min_inclusive_2_4(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet minInclusive with value
     --06-11.
@@ -3874,11 +4125,12 @@ def test_atomic_g_month_day_min_inclusive_1_nistxml_sv_iv_atomic_g_month_day_min
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_min_inclusive_1_nistxml_sv_iv_atomic_g_month_day_min_inclusive_2_5(mode, save_output):
+def test_atomic_g_month_day_min_inclusive_1_nistxml_sv_iv_atomic_g_month_day_min_inclusive_2_5(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet minInclusive with value
     --06-11.
@@ -3890,11 +4142,12 @@ def test_atomic_g_month_day_min_inclusive_1_nistxml_sv_iv_atomic_g_month_day_min
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_min_inclusive_nistxml_sv_iv_atomic_g_month_day_min_inclusive_1_1(mode, save_output):
+def test_atomic_g_month_day_min_inclusive_nistxml_sv_iv_atomic_g_month_day_min_inclusive_1_1(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet minInclusive with value
     --01-01.
@@ -3906,11 +4159,12 @@ def test_atomic_g_month_day_min_inclusive_nistxml_sv_iv_atomic_g_month_day_min_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_min_inclusive_nistxml_sv_iv_atomic_g_month_day_min_inclusive_1_2(mode, save_output):
+def test_atomic_g_month_day_min_inclusive_nistxml_sv_iv_atomic_g_month_day_min_inclusive_1_2(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet minInclusive with value
     --01-01.
@@ -3922,11 +4176,12 @@ def test_atomic_g_month_day_min_inclusive_nistxml_sv_iv_atomic_g_month_day_min_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_min_inclusive_nistxml_sv_iv_atomic_g_month_day_min_inclusive_1_3(mode, save_output):
+def test_atomic_g_month_day_min_inclusive_nistxml_sv_iv_atomic_g_month_day_min_inclusive_1_3(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet minInclusive with value
     --01-01.
@@ -3938,11 +4193,12 @@ def test_atomic_g_month_day_min_inclusive_nistxml_sv_iv_atomic_g_month_day_min_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_min_inclusive_nistxml_sv_iv_atomic_g_month_day_min_inclusive_1_4(mode, save_output):
+def test_atomic_g_month_day_min_inclusive_nistxml_sv_iv_atomic_g_month_day_min_inclusive_1_4(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet minInclusive with value
     --01-01.
@@ -3954,11 +4210,12 @@ def test_atomic_g_month_day_min_inclusive_nistxml_sv_iv_atomic_g_month_day_min_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_min_inclusive_nistxml_sv_iv_atomic_g_month_day_min_inclusive_1_5(mode, save_output):
+def test_atomic_g_month_day_min_inclusive_nistxml_sv_iv_atomic_g_month_day_min_inclusive_1_5(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet minInclusive with value
     --01-01.
@@ -3970,11 +4227,12 @@ def test_atomic_g_month_day_min_inclusive_nistxml_sv_iv_atomic_g_month_day_min_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_min_exclusive_4_nistxml_sv_iv_atomic_g_month_day_min_exclusive_5_1(mode, save_output):
+def test_atomic_g_month_day_min_exclusive_4_nistxml_sv_iv_atomic_g_month_day_min_exclusive_5_1(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet minExclusive with value
     --12-30.
@@ -3986,11 +4244,12 @@ def test_atomic_g_month_day_min_exclusive_4_nistxml_sv_iv_atomic_g_month_day_min
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_min_exclusive_3_nistxml_sv_iv_atomic_g_month_day_min_exclusive_4_1(mode, save_output):
+def test_atomic_g_month_day_min_exclusive_3_nistxml_sv_iv_atomic_g_month_day_min_exclusive_4_1(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet minExclusive with value
     --01-01.
@@ -4002,11 +4261,12 @@ def test_atomic_g_month_day_min_exclusive_3_nistxml_sv_iv_atomic_g_month_day_min
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_min_exclusive_3_nistxml_sv_iv_atomic_g_month_day_min_exclusive_4_2(mode, save_output):
+def test_atomic_g_month_day_min_exclusive_3_nistxml_sv_iv_atomic_g_month_day_min_exclusive_4_2(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet minExclusive with value
     --01-01.
@@ -4018,11 +4278,12 @@ def test_atomic_g_month_day_min_exclusive_3_nistxml_sv_iv_atomic_g_month_day_min
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_min_exclusive_3_nistxml_sv_iv_atomic_g_month_day_min_exclusive_4_3(mode, save_output):
+def test_atomic_g_month_day_min_exclusive_3_nistxml_sv_iv_atomic_g_month_day_min_exclusive_4_3(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet minExclusive with value
     --01-01.
@@ -4034,11 +4295,12 @@ def test_atomic_g_month_day_min_exclusive_3_nistxml_sv_iv_atomic_g_month_day_min
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_min_exclusive_3_nistxml_sv_iv_atomic_g_month_day_min_exclusive_4_4(mode, save_output):
+def test_atomic_g_month_day_min_exclusive_3_nistxml_sv_iv_atomic_g_month_day_min_exclusive_4_4(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet minExclusive with value
     --01-01.
@@ -4050,11 +4312,12 @@ def test_atomic_g_month_day_min_exclusive_3_nistxml_sv_iv_atomic_g_month_day_min
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_min_exclusive_3_nistxml_sv_iv_atomic_g_month_day_min_exclusive_4_5(mode, save_output):
+def test_atomic_g_month_day_min_exclusive_3_nistxml_sv_iv_atomic_g_month_day_min_exclusive_4_5(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet minExclusive with value
     --01-01.
@@ -4066,11 +4329,12 @@ def test_atomic_g_month_day_min_exclusive_3_nistxml_sv_iv_atomic_g_month_day_min
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_min_exclusive_2_nistxml_sv_iv_atomic_g_month_day_min_exclusive_3_1(mode, save_output):
+def test_atomic_g_month_day_min_exclusive_2_nistxml_sv_iv_atomic_g_month_day_min_exclusive_3_1(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet minExclusive with value
     --06-21.
@@ -4082,11 +4346,12 @@ def test_atomic_g_month_day_min_exclusive_2_nistxml_sv_iv_atomic_g_month_day_min
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_min_exclusive_2_nistxml_sv_iv_atomic_g_month_day_min_exclusive_3_2(mode, save_output):
+def test_atomic_g_month_day_min_exclusive_2_nistxml_sv_iv_atomic_g_month_day_min_exclusive_3_2(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet minExclusive with value
     --06-21.
@@ -4098,11 +4363,12 @@ def test_atomic_g_month_day_min_exclusive_2_nistxml_sv_iv_atomic_g_month_day_min
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_min_exclusive_2_nistxml_sv_iv_atomic_g_month_day_min_exclusive_3_3(mode, save_output):
+def test_atomic_g_month_day_min_exclusive_2_nistxml_sv_iv_atomic_g_month_day_min_exclusive_3_3(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet minExclusive with value
     --06-21.
@@ -4114,11 +4380,12 @@ def test_atomic_g_month_day_min_exclusive_2_nistxml_sv_iv_atomic_g_month_day_min
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_min_exclusive_2_nistxml_sv_iv_atomic_g_month_day_min_exclusive_3_4(mode, save_output):
+def test_atomic_g_month_day_min_exclusive_2_nistxml_sv_iv_atomic_g_month_day_min_exclusive_3_4(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet minExclusive with value
     --06-21.
@@ -4130,11 +4397,12 @@ def test_atomic_g_month_day_min_exclusive_2_nistxml_sv_iv_atomic_g_month_day_min
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_min_exclusive_2_nistxml_sv_iv_atomic_g_month_day_min_exclusive_3_5(mode, save_output):
+def test_atomic_g_month_day_min_exclusive_2_nistxml_sv_iv_atomic_g_month_day_min_exclusive_3_5(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet minExclusive with value
     --06-21.
@@ -4146,11 +4414,12 @@ def test_atomic_g_month_day_min_exclusive_2_nistxml_sv_iv_atomic_g_month_day_min
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_min_exclusive_1_nistxml_sv_iv_atomic_g_month_day_min_exclusive_2_1(mode, save_output):
+def test_atomic_g_month_day_min_exclusive_1_nistxml_sv_iv_atomic_g_month_day_min_exclusive_2_1(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet minExclusive with value
     --10-23.
@@ -4162,11 +4431,12 @@ def test_atomic_g_month_day_min_exclusive_1_nistxml_sv_iv_atomic_g_month_day_min
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_min_exclusive_1_nistxml_sv_iv_atomic_g_month_day_min_exclusive_2_2(mode, save_output):
+def test_atomic_g_month_day_min_exclusive_1_nistxml_sv_iv_atomic_g_month_day_min_exclusive_2_2(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet minExclusive with value
     --10-23.
@@ -4178,11 +4448,12 @@ def test_atomic_g_month_day_min_exclusive_1_nistxml_sv_iv_atomic_g_month_day_min
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_min_exclusive_1_nistxml_sv_iv_atomic_g_month_day_min_exclusive_2_3(mode, save_output):
+def test_atomic_g_month_day_min_exclusive_1_nistxml_sv_iv_atomic_g_month_day_min_exclusive_2_3(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet minExclusive with value
     --10-23.
@@ -4194,11 +4465,12 @@ def test_atomic_g_month_day_min_exclusive_1_nistxml_sv_iv_atomic_g_month_day_min
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_min_exclusive_1_nistxml_sv_iv_atomic_g_month_day_min_exclusive_2_4(mode, save_output):
+def test_atomic_g_month_day_min_exclusive_1_nistxml_sv_iv_atomic_g_month_day_min_exclusive_2_4(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet minExclusive with value
     --10-23.
@@ -4210,11 +4482,12 @@ def test_atomic_g_month_day_min_exclusive_1_nistxml_sv_iv_atomic_g_month_day_min
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_min_exclusive_1_nistxml_sv_iv_atomic_g_month_day_min_exclusive_2_5(mode, save_output):
+def test_atomic_g_month_day_min_exclusive_1_nistxml_sv_iv_atomic_g_month_day_min_exclusive_2_5(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet minExclusive with value
     --10-23.
@@ -4226,11 +4499,12 @@ def test_atomic_g_month_day_min_exclusive_1_nistxml_sv_iv_atomic_g_month_day_min
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_min_exclusive_nistxml_sv_iv_atomic_g_month_day_min_exclusive_1_1(mode, save_output):
+def test_atomic_g_month_day_min_exclusive_nistxml_sv_iv_atomic_g_month_day_min_exclusive_1_1(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet minExclusive with value
     --01-01.
@@ -4242,11 +4516,12 @@ def test_atomic_g_month_day_min_exclusive_nistxml_sv_iv_atomic_g_month_day_min_e
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_min_exclusive_nistxml_sv_iv_atomic_g_month_day_min_exclusive_1_2(mode, save_output):
+def test_atomic_g_month_day_min_exclusive_nistxml_sv_iv_atomic_g_month_day_min_exclusive_1_2(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet minExclusive with value
     --01-01.
@@ -4258,11 +4533,12 @@ def test_atomic_g_month_day_min_exclusive_nistxml_sv_iv_atomic_g_month_day_min_e
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_min_exclusive_nistxml_sv_iv_atomic_g_month_day_min_exclusive_1_3(mode, save_output):
+def test_atomic_g_month_day_min_exclusive_nistxml_sv_iv_atomic_g_month_day_min_exclusive_1_3(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet minExclusive with value
     --01-01.
@@ -4274,11 +4550,12 @@ def test_atomic_g_month_day_min_exclusive_nistxml_sv_iv_atomic_g_month_day_min_e
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_min_exclusive_nistxml_sv_iv_atomic_g_month_day_min_exclusive_1_4(mode, save_output):
+def test_atomic_g_month_day_min_exclusive_nistxml_sv_iv_atomic_g_month_day_min_exclusive_1_4(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet minExclusive with value
     --01-01.
@@ -4290,11 +4567,12 @@ def test_atomic_g_month_day_min_exclusive_nistxml_sv_iv_atomic_g_month_day_min_e
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_day_min_exclusive_nistxml_sv_iv_atomic_g_month_day_min_exclusive_1_5(mode, save_output):
+def test_atomic_g_month_day_min_exclusive_nistxml_sv_iv_atomic_g_month_day_min_exclusive_1_5(mode, save_output, output_format):
     """
     Type atomic/gMonthDay is restricted by facet minExclusive with value
     --01-01.
@@ -4306,11 +4584,12 @@ def test_atomic_g_month_day_min_exclusive_nistxml_sv_iv_atomic_g_month_day_min_e
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_white_space_nistxml_sv_iv_atomic_g_year_white_space_1_1(mode, save_output):
+def test_atomic_g_year_white_space_nistxml_sv_iv_atomic_g_year_white_space_1_1(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet whiteSpace with value
     collapse.
@@ -4322,11 +4601,12 @@ def test_atomic_g_year_white_space_nistxml_sv_iv_atomic_g_year_white_space_1_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_white_space_nistxml_sv_iv_atomic_g_year_white_space_1_2(mode, save_output):
+def test_atomic_g_year_white_space_nistxml_sv_iv_atomic_g_year_white_space_1_2(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet whiteSpace with value
     collapse.
@@ -4338,11 +4618,12 @@ def test_atomic_g_year_white_space_nistxml_sv_iv_atomic_g_year_white_space_1_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_white_space_nistxml_sv_iv_atomic_g_year_white_space_1_3(mode, save_output):
+def test_atomic_g_year_white_space_nistxml_sv_iv_atomic_g_year_white_space_1_3(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet whiteSpace with value
     collapse.
@@ -4354,11 +4635,12 @@ def test_atomic_g_year_white_space_nistxml_sv_iv_atomic_g_year_white_space_1_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_white_space_nistxml_sv_iv_atomic_g_year_white_space_1_4(mode, save_output):
+def test_atomic_g_year_white_space_nistxml_sv_iv_atomic_g_year_white_space_1_4(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet whiteSpace with value
     collapse.
@@ -4370,11 +4652,12 @@ def test_atomic_g_year_white_space_nistxml_sv_iv_atomic_g_year_white_space_1_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_white_space_nistxml_sv_iv_atomic_g_year_white_space_1_5(mode, save_output):
+def test_atomic_g_year_white_space_nistxml_sv_iv_atomic_g_year_white_space_1_5(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet whiteSpace with value
     collapse.
@@ -4386,11 +4669,12 @@ def test_atomic_g_year_white_space_nistxml_sv_iv_atomic_g_year_white_space_1_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_enumeration_4_nistxml_sv_iv_atomic_g_year_enumeration_5_1(mode, save_output):
+def test_atomic_g_year_enumeration_4_nistxml_sv_iv_atomic_g_year_enumeration_5_1(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet enumeration.
     """
@@ -4401,11 +4685,12 @@ def test_atomic_g_year_enumeration_4_nistxml_sv_iv_atomic_g_year_enumeration_5_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_enumeration_4_nistxml_sv_iv_atomic_g_year_enumeration_5_2(mode, save_output):
+def test_atomic_g_year_enumeration_4_nistxml_sv_iv_atomic_g_year_enumeration_5_2(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet enumeration.
     """
@@ -4416,11 +4701,12 @@ def test_atomic_g_year_enumeration_4_nistxml_sv_iv_atomic_g_year_enumeration_5_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_enumeration_4_nistxml_sv_iv_atomic_g_year_enumeration_5_3(mode, save_output):
+def test_atomic_g_year_enumeration_4_nistxml_sv_iv_atomic_g_year_enumeration_5_3(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet enumeration.
     """
@@ -4431,11 +4717,12 @@ def test_atomic_g_year_enumeration_4_nistxml_sv_iv_atomic_g_year_enumeration_5_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_enumeration_4_nistxml_sv_iv_atomic_g_year_enumeration_5_4(mode, save_output):
+def test_atomic_g_year_enumeration_4_nistxml_sv_iv_atomic_g_year_enumeration_5_4(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet enumeration.
     """
@@ -4446,11 +4733,12 @@ def test_atomic_g_year_enumeration_4_nistxml_sv_iv_atomic_g_year_enumeration_5_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_enumeration_4_nistxml_sv_iv_atomic_g_year_enumeration_5_5(mode, save_output):
+def test_atomic_g_year_enumeration_4_nistxml_sv_iv_atomic_g_year_enumeration_5_5(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet enumeration.
     """
@@ -4461,11 +4749,12 @@ def test_atomic_g_year_enumeration_4_nistxml_sv_iv_atomic_g_year_enumeration_5_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_enumeration_3_nistxml_sv_iv_atomic_g_year_enumeration_4_1(mode, save_output):
+def test_atomic_g_year_enumeration_3_nistxml_sv_iv_atomic_g_year_enumeration_4_1(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet enumeration.
     """
@@ -4476,11 +4765,12 @@ def test_atomic_g_year_enumeration_3_nistxml_sv_iv_atomic_g_year_enumeration_4_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_enumeration_3_nistxml_sv_iv_atomic_g_year_enumeration_4_2(mode, save_output):
+def test_atomic_g_year_enumeration_3_nistxml_sv_iv_atomic_g_year_enumeration_4_2(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet enumeration.
     """
@@ -4491,11 +4781,12 @@ def test_atomic_g_year_enumeration_3_nistxml_sv_iv_atomic_g_year_enumeration_4_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_enumeration_3_nistxml_sv_iv_atomic_g_year_enumeration_4_3(mode, save_output):
+def test_atomic_g_year_enumeration_3_nistxml_sv_iv_atomic_g_year_enumeration_4_3(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet enumeration.
     """
@@ -4506,11 +4797,12 @@ def test_atomic_g_year_enumeration_3_nistxml_sv_iv_atomic_g_year_enumeration_4_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_enumeration_3_nistxml_sv_iv_atomic_g_year_enumeration_4_4(mode, save_output):
+def test_atomic_g_year_enumeration_3_nistxml_sv_iv_atomic_g_year_enumeration_4_4(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet enumeration.
     """
@@ -4521,11 +4813,12 @@ def test_atomic_g_year_enumeration_3_nistxml_sv_iv_atomic_g_year_enumeration_4_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_enumeration_3_nistxml_sv_iv_atomic_g_year_enumeration_4_5(mode, save_output):
+def test_atomic_g_year_enumeration_3_nistxml_sv_iv_atomic_g_year_enumeration_4_5(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet enumeration.
     """
@@ -4536,11 +4829,12 @@ def test_atomic_g_year_enumeration_3_nistxml_sv_iv_atomic_g_year_enumeration_4_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_enumeration_2_nistxml_sv_iv_atomic_g_year_enumeration_3_1(mode, save_output):
+def test_atomic_g_year_enumeration_2_nistxml_sv_iv_atomic_g_year_enumeration_3_1(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet enumeration.
     """
@@ -4551,11 +4845,12 @@ def test_atomic_g_year_enumeration_2_nistxml_sv_iv_atomic_g_year_enumeration_3_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_enumeration_2_nistxml_sv_iv_atomic_g_year_enumeration_3_2(mode, save_output):
+def test_atomic_g_year_enumeration_2_nistxml_sv_iv_atomic_g_year_enumeration_3_2(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet enumeration.
     """
@@ -4566,11 +4861,12 @@ def test_atomic_g_year_enumeration_2_nistxml_sv_iv_atomic_g_year_enumeration_3_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_enumeration_2_nistxml_sv_iv_atomic_g_year_enumeration_3_3(mode, save_output):
+def test_atomic_g_year_enumeration_2_nistxml_sv_iv_atomic_g_year_enumeration_3_3(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet enumeration.
     """
@@ -4581,11 +4877,12 @@ def test_atomic_g_year_enumeration_2_nistxml_sv_iv_atomic_g_year_enumeration_3_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_enumeration_2_nistxml_sv_iv_atomic_g_year_enumeration_3_4(mode, save_output):
+def test_atomic_g_year_enumeration_2_nistxml_sv_iv_atomic_g_year_enumeration_3_4(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet enumeration.
     """
@@ -4596,11 +4893,12 @@ def test_atomic_g_year_enumeration_2_nistxml_sv_iv_atomic_g_year_enumeration_3_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_enumeration_2_nistxml_sv_iv_atomic_g_year_enumeration_3_5(mode, save_output):
+def test_atomic_g_year_enumeration_2_nistxml_sv_iv_atomic_g_year_enumeration_3_5(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet enumeration.
     """
@@ -4611,11 +4909,12 @@ def test_atomic_g_year_enumeration_2_nistxml_sv_iv_atomic_g_year_enumeration_3_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_enumeration_1_nistxml_sv_iv_atomic_g_year_enumeration_2_1(mode, save_output):
+def test_atomic_g_year_enumeration_1_nistxml_sv_iv_atomic_g_year_enumeration_2_1(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet enumeration.
     """
@@ -4626,11 +4925,12 @@ def test_atomic_g_year_enumeration_1_nistxml_sv_iv_atomic_g_year_enumeration_2_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_enumeration_1_nistxml_sv_iv_atomic_g_year_enumeration_2_2(mode, save_output):
+def test_atomic_g_year_enumeration_1_nistxml_sv_iv_atomic_g_year_enumeration_2_2(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet enumeration.
     """
@@ -4641,11 +4941,12 @@ def test_atomic_g_year_enumeration_1_nistxml_sv_iv_atomic_g_year_enumeration_2_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_enumeration_1_nistxml_sv_iv_atomic_g_year_enumeration_2_3(mode, save_output):
+def test_atomic_g_year_enumeration_1_nistxml_sv_iv_atomic_g_year_enumeration_2_3(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet enumeration.
     """
@@ -4656,11 +4957,12 @@ def test_atomic_g_year_enumeration_1_nistxml_sv_iv_atomic_g_year_enumeration_2_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_enumeration_1_nistxml_sv_iv_atomic_g_year_enumeration_2_4(mode, save_output):
+def test_atomic_g_year_enumeration_1_nistxml_sv_iv_atomic_g_year_enumeration_2_4(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet enumeration.
     """
@@ -4671,11 +4973,12 @@ def test_atomic_g_year_enumeration_1_nistxml_sv_iv_atomic_g_year_enumeration_2_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_enumeration_1_nistxml_sv_iv_atomic_g_year_enumeration_2_5(mode, save_output):
+def test_atomic_g_year_enumeration_1_nistxml_sv_iv_atomic_g_year_enumeration_2_5(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet enumeration.
     """
@@ -4686,11 +4989,12 @@ def test_atomic_g_year_enumeration_1_nistxml_sv_iv_atomic_g_year_enumeration_2_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_enumeration_nistxml_sv_iv_atomic_g_year_enumeration_1_1(mode, save_output):
+def test_atomic_g_year_enumeration_nistxml_sv_iv_atomic_g_year_enumeration_1_1(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet enumeration.
     """
@@ -4701,11 +5005,12 @@ def test_atomic_g_year_enumeration_nistxml_sv_iv_atomic_g_year_enumeration_1_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_enumeration_nistxml_sv_iv_atomic_g_year_enumeration_1_2(mode, save_output):
+def test_atomic_g_year_enumeration_nistxml_sv_iv_atomic_g_year_enumeration_1_2(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet enumeration.
     """
@@ -4716,11 +5021,12 @@ def test_atomic_g_year_enumeration_nistxml_sv_iv_atomic_g_year_enumeration_1_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_enumeration_nistxml_sv_iv_atomic_g_year_enumeration_1_3(mode, save_output):
+def test_atomic_g_year_enumeration_nistxml_sv_iv_atomic_g_year_enumeration_1_3(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet enumeration.
     """
@@ -4731,11 +5037,12 @@ def test_atomic_g_year_enumeration_nistxml_sv_iv_atomic_g_year_enumeration_1_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_enumeration_nistxml_sv_iv_atomic_g_year_enumeration_1_4(mode, save_output):
+def test_atomic_g_year_enumeration_nistxml_sv_iv_atomic_g_year_enumeration_1_4(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet enumeration.
     """
@@ -4746,11 +5053,12 @@ def test_atomic_g_year_enumeration_nistxml_sv_iv_atomic_g_year_enumeration_1_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_enumeration_nistxml_sv_iv_atomic_g_year_enumeration_1_5(mode, save_output):
+def test_atomic_g_year_enumeration_nistxml_sv_iv_atomic_g_year_enumeration_1_5(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet enumeration.
     """
@@ -4761,11 +5069,12 @@ def test_atomic_g_year_enumeration_nistxml_sv_iv_atomic_g_year_enumeration_1_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_pattern_4_nistxml_sv_iv_atomic_g_year_pattern_5_1(mode, save_output):
+def test_atomic_g_year_pattern_4_nistxml_sv_iv_atomic_g_year_pattern_5_1(mode, save_output, output_format):
     r"""
     Type atomic/gYear is restricted by facet pattern with value \d\d21.
     """
@@ -4776,11 +5085,12 @@ def test_atomic_g_year_pattern_4_nistxml_sv_iv_atomic_g_year_pattern_5_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_pattern_4_nistxml_sv_iv_atomic_g_year_pattern_5_2(mode, save_output):
+def test_atomic_g_year_pattern_4_nistxml_sv_iv_atomic_g_year_pattern_5_2(mode, save_output, output_format):
     r"""
     Type atomic/gYear is restricted by facet pattern with value \d\d21.
     """
@@ -4791,11 +5101,12 @@ def test_atomic_g_year_pattern_4_nistxml_sv_iv_atomic_g_year_pattern_5_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_pattern_4_nistxml_sv_iv_atomic_g_year_pattern_5_3(mode, save_output):
+def test_atomic_g_year_pattern_4_nistxml_sv_iv_atomic_g_year_pattern_5_3(mode, save_output, output_format):
     r"""
     Type atomic/gYear is restricted by facet pattern with value \d\d21.
     """
@@ -4806,11 +5117,12 @@ def test_atomic_g_year_pattern_4_nistxml_sv_iv_atomic_g_year_pattern_5_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_pattern_4_nistxml_sv_iv_atomic_g_year_pattern_5_4(mode, save_output):
+def test_atomic_g_year_pattern_4_nistxml_sv_iv_atomic_g_year_pattern_5_4(mode, save_output, output_format):
     r"""
     Type atomic/gYear is restricted by facet pattern with value \d\d21.
     """
@@ -4821,11 +5133,12 @@ def test_atomic_g_year_pattern_4_nistxml_sv_iv_atomic_g_year_pattern_5_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_pattern_4_nistxml_sv_iv_atomic_g_year_pattern_5_5(mode, save_output):
+def test_atomic_g_year_pattern_4_nistxml_sv_iv_atomic_g_year_pattern_5_5(mode, save_output, output_format):
     r"""
     Type atomic/gYear is restricted by facet pattern with value \d\d21.
     """
@@ -4836,11 +5149,12 @@ def test_atomic_g_year_pattern_4_nistxml_sv_iv_atomic_g_year_pattern_5_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_pattern_3_nistxml_sv_iv_atomic_g_year_pattern_4_1(mode, save_output):
+def test_atomic_g_year_pattern_3_nistxml_sv_iv_atomic_g_year_pattern_4_1(mode, save_output, output_format):
     r"""
     Type atomic/gYear is restricted by facet pattern with value \d\d14.
     """
@@ -4851,11 +5165,12 @@ def test_atomic_g_year_pattern_3_nistxml_sv_iv_atomic_g_year_pattern_4_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_pattern_3_nistxml_sv_iv_atomic_g_year_pattern_4_2(mode, save_output):
+def test_atomic_g_year_pattern_3_nistxml_sv_iv_atomic_g_year_pattern_4_2(mode, save_output, output_format):
     r"""
     Type atomic/gYear is restricted by facet pattern with value \d\d14.
     """
@@ -4866,11 +5181,12 @@ def test_atomic_g_year_pattern_3_nistxml_sv_iv_atomic_g_year_pattern_4_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_pattern_3_nistxml_sv_iv_atomic_g_year_pattern_4_3(mode, save_output):
+def test_atomic_g_year_pattern_3_nistxml_sv_iv_atomic_g_year_pattern_4_3(mode, save_output, output_format):
     r"""
     Type atomic/gYear is restricted by facet pattern with value \d\d14.
     """
@@ -4881,11 +5197,12 @@ def test_atomic_g_year_pattern_3_nistxml_sv_iv_atomic_g_year_pattern_4_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_pattern_3_nistxml_sv_iv_atomic_g_year_pattern_4_4(mode, save_output):
+def test_atomic_g_year_pattern_3_nistxml_sv_iv_atomic_g_year_pattern_4_4(mode, save_output, output_format):
     r"""
     Type atomic/gYear is restricted by facet pattern with value \d\d14.
     """
@@ -4896,11 +5213,12 @@ def test_atomic_g_year_pattern_3_nistxml_sv_iv_atomic_g_year_pattern_4_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_pattern_3_nistxml_sv_iv_atomic_g_year_pattern_4_5(mode, save_output):
+def test_atomic_g_year_pattern_3_nistxml_sv_iv_atomic_g_year_pattern_4_5(mode, save_output, output_format):
     r"""
     Type atomic/gYear is restricted by facet pattern with value \d\d14.
     """
@@ -4911,11 +5229,12 @@ def test_atomic_g_year_pattern_3_nistxml_sv_iv_atomic_g_year_pattern_4_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_pattern_2_nistxml_sv_iv_atomic_g_year_pattern_3_1(mode, save_output):
+def test_atomic_g_year_pattern_2_nistxml_sv_iv_atomic_g_year_pattern_3_1(mode, save_output, output_format):
     r"""
     Type atomic/gYear is restricted by facet pattern with value \d\d86.
     """
@@ -4926,11 +5245,12 @@ def test_atomic_g_year_pattern_2_nistxml_sv_iv_atomic_g_year_pattern_3_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_pattern_2_nistxml_sv_iv_atomic_g_year_pattern_3_2(mode, save_output):
+def test_atomic_g_year_pattern_2_nistxml_sv_iv_atomic_g_year_pattern_3_2(mode, save_output, output_format):
     r"""
     Type atomic/gYear is restricted by facet pattern with value \d\d86.
     """
@@ -4941,11 +5261,12 @@ def test_atomic_g_year_pattern_2_nistxml_sv_iv_atomic_g_year_pattern_3_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_pattern_2_nistxml_sv_iv_atomic_g_year_pattern_3_3(mode, save_output):
+def test_atomic_g_year_pattern_2_nistxml_sv_iv_atomic_g_year_pattern_3_3(mode, save_output, output_format):
     r"""
     Type atomic/gYear is restricted by facet pattern with value \d\d86.
     """
@@ -4956,11 +5277,12 @@ def test_atomic_g_year_pattern_2_nistxml_sv_iv_atomic_g_year_pattern_3_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_pattern_2_nistxml_sv_iv_atomic_g_year_pattern_3_4(mode, save_output):
+def test_atomic_g_year_pattern_2_nistxml_sv_iv_atomic_g_year_pattern_3_4(mode, save_output, output_format):
     r"""
     Type atomic/gYear is restricted by facet pattern with value \d\d86.
     """
@@ -4971,11 +5293,12 @@ def test_atomic_g_year_pattern_2_nistxml_sv_iv_atomic_g_year_pattern_3_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_pattern_2_nistxml_sv_iv_atomic_g_year_pattern_3_5(mode, save_output):
+def test_atomic_g_year_pattern_2_nistxml_sv_iv_atomic_g_year_pattern_3_5(mode, save_output, output_format):
     r"""
     Type atomic/gYear is restricted by facet pattern with value \d\d86.
     """
@@ -4986,11 +5309,12 @@ def test_atomic_g_year_pattern_2_nistxml_sv_iv_atomic_g_year_pattern_3_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_pattern_1_nistxml_sv_iv_atomic_g_year_pattern_2_1(mode, save_output):
+def test_atomic_g_year_pattern_1_nistxml_sv_iv_atomic_g_year_pattern_2_1(mode, save_output, output_format):
     r"""
     Type atomic/gYear is restricted by facet pattern with value \d\d61.
     """
@@ -5001,11 +5325,12 @@ def test_atomic_g_year_pattern_1_nistxml_sv_iv_atomic_g_year_pattern_2_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_pattern_1_nistxml_sv_iv_atomic_g_year_pattern_2_2(mode, save_output):
+def test_atomic_g_year_pattern_1_nistxml_sv_iv_atomic_g_year_pattern_2_2(mode, save_output, output_format):
     r"""
     Type atomic/gYear is restricted by facet pattern with value \d\d61.
     """
@@ -5016,11 +5341,12 @@ def test_atomic_g_year_pattern_1_nistxml_sv_iv_atomic_g_year_pattern_2_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_pattern_1_nistxml_sv_iv_atomic_g_year_pattern_2_3(mode, save_output):
+def test_atomic_g_year_pattern_1_nistxml_sv_iv_atomic_g_year_pattern_2_3(mode, save_output, output_format):
     r"""
     Type atomic/gYear is restricted by facet pattern with value \d\d61.
     """
@@ -5031,11 +5357,12 @@ def test_atomic_g_year_pattern_1_nistxml_sv_iv_atomic_g_year_pattern_2_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_pattern_1_nistxml_sv_iv_atomic_g_year_pattern_2_4(mode, save_output):
+def test_atomic_g_year_pattern_1_nistxml_sv_iv_atomic_g_year_pattern_2_4(mode, save_output, output_format):
     r"""
     Type atomic/gYear is restricted by facet pattern with value \d\d61.
     """
@@ -5046,11 +5373,12 @@ def test_atomic_g_year_pattern_1_nistxml_sv_iv_atomic_g_year_pattern_2_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_pattern_1_nistxml_sv_iv_atomic_g_year_pattern_2_5(mode, save_output):
+def test_atomic_g_year_pattern_1_nistxml_sv_iv_atomic_g_year_pattern_2_5(mode, save_output, output_format):
     r"""
     Type atomic/gYear is restricted by facet pattern with value \d\d61.
     """
@@ -5061,11 +5389,12 @@ def test_atomic_g_year_pattern_1_nistxml_sv_iv_atomic_g_year_pattern_2_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_pattern_nistxml_sv_iv_atomic_g_year_pattern_1_1(mode, save_output):
+def test_atomic_g_year_pattern_nistxml_sv_iv_atomic_g_year_pattern_1_1(mode, save_output, output_format):
     r"""
     Type atomic/gYear is restricted by facet pattern with value \d\d47.
     """
@@ -5076,11 +5405,12 @@ def test_atomic_g_year_pattern_nistxml_sv_iv_atomic_g_year_pattern_1_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_pattern_nistxml_sv_iv_atomic_g_year_pattern_1_2(mode, save_output):
+def test_atomic_g_year_pattern_nistxml_sv_iv_atomic_g_year_pattern_1_2(mode, save_output, output_format):
     r"""
     Type atomic/gYear is restricted by facet pattern with value \d\d47.
     """
@@ -5091,11 +5421,12 @@ def test_atomic_g_year_pattern_nistxml_sv_iv_atomic_g_year_pattern_1_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_pattern_nistxml_sv_iv_atomic_g_year_pattern_1_3(mode, save_output):
+def test_atomic_g_year_pattern_nistxml_sv_iv_atomic_g_year_pattern_1_3(mode, save_output, output_format):
     r"""
     Type atomic/gYear is restricted by facet pattern with value \d\d47.
     """
@@ -5106,11 +5437,12 @@ def test_atomic_g_year_pattern_nistxml_sv_iv_atomic_g_year_pattern_1_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_pattern_nistxml_sv_iv_atomic_g_year_pattern_1_4(mode, save_output):
+def test_atomic_g_year_pattern_nistxml_sv_iv_atomic_g_year_pattern_1_4(mode, save_output, output_format):
     r"""
     Type atomic/gYear is restricted by facet pattern with value \d\d47.
     """
@@ -5121,11 +5453,12 @@ def test_atomic_g_year_pattern_nistxml_sv_iv_atomic_g_year_pattern_1_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_pattern_nistxml_sv_iv_atomic_g_year_pattern_1_5(mode, save_output):
+def test_atomic_g_year_pattern_nistxml_sv_iv_atomic_g_year_pattern_1_5(mode, save_output, output_format):
     r"""
     Type atomic/gYear is restricted by facet pattern with value \d\d47.
     """
@@ -5136,11 +5469,12 @@ def test_atomic_g_year_pattern_nistxml_sv_iv_atomic_g_year_pattern_1_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_max_inclusive_4_nistxml_sv_iv_atomic_g_year_max_inclusive_5_1(mode, save_output):
+def test_atomic_g_year_max_inclusive_4_nistxml_sv_iv_atomic_g_year_max_inclusive_5_1(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet maxInclusive with value 2030.
     """
@@ -5151,11 +5485,12 @@ def test_atomic_g_year_max_inclusive_4_nistxml_sv_iv_atomic_g_year_max_inclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_max_inclusive_4_nistxml_sv_iv_atomic_g_year_max_inclusive_5_2(mode, save_output):
+def test_atomic_g_year_max_inclusive_4_nistxml_sv_iv_atomic_g_year_max_inclusive_5_2(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet maxInclusive with value 2030.
     """
@@ -5166,11 +5501,12 @@ def test_atomic_g_year_max_inclusive_4_nistxml_sv_iv_atomic_g_year_max_inclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_max_inclusive_4_nistxml_sv_iv_atomic_g_year_max_inclusive_5_3(mode, save_output):
+def test_atomic_g_year_max_inclusive_4_nistxml_sv_iv_atomic_g_year_max_inclusive_5_3(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet maxInclusive with value 2030.
     """
@@ -5181,11 +5517,12 @@ def test_atomic_g_year_max_inclusive_4_nistxml_sv_iv_atomic_g_year_max_inclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_max_inclusive_4_nistxml_sv_iv_atomic_g_year_max_inclusive_5_4(mode, save_output):
+def test_atomic_g_year_max_inclusive_4_nistxml_sv_iv_atomic_g_year_max_inclusive_5_4(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet maxInclusive with value 2030.
     """
@@ -5196,11 +5533,12 @@ def test_atomic_g_year_max_inclusive_4_nistxml_sv_iv_atomic_g_year_max_inclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_max_inclusive_4_nistxml_sv_iv_atomic_g_year_max_inclusive_5_5(mode, save_output):
+def test_atomic_g_year_max_inclusive_4_nistxml_sv_iv_atomic_g_year_max_inclusive_5_5(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet maxInclusive with value 2030.
     """
@@ -5211,11 +5549,12 @@ def test_atomic_g_year_max_inclusive_4_nistxml_sv_iv_atomic_g_year_max_inclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_max_inclusive_3_nistxml_sv_iv_atomic_g_year_max_inclusive_4_1(mode, save_output):
+def test_atomic_g_year_max_inclusive_3_nistxml_sv_iv_atomic_g_year_max_inclusive_4_1(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet maxInclusive with value 1998.
     """
@@ -5226,11 +5565,12 @@ def test_atomic_g_year_max_inclusive_3_nistxml_sv_iv_atomic_g_year_max_inclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_max_inclusive_3_nistxml_sv_iv_atomic_g_year_max_inclusive_4_2(mode, save_output):
+def test_atomic_g_year_max_inclusive_3_nistxml_sv_iv_atomic_g_year_max_inclusive_4_2(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet maxInclusive with value 1998.
     """
@@ -5241,11 +5581,12 @@ def test_atomic_g_year_max_inclusive_3_nistxml_sv_iv_atomic_g_year_max_inclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_max_inclusive_3_nistxml_sv_iv_atomic_g_year_max_inclusive_4_3(mode, save_output):
+def test_atomic_g_year_max_inclusive_3_nistxml_sv_iv_atomic_g_year_max_inclusive_4_3(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet maxInclusive with value 1998.
     """
@@ -5256,11 +5597,12 @@ def test_atomic_g_year_max_inclusive_3_nistxml_sv_iv_atomic_g_year_max_inclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_max_inclusive_3_nistxml_sv_iv_atomic_g_year_max_inclusive_4_4(mode, save_output):
+def test_atomic_g_year_max_inclusive_3_nistxml_sv_iv_atomic_g_year_max_inclusive_4_4(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet maxInclusive with value 1998.
     """
@@ -5271,11 +5613,12 @@ def test_atomic_g_year_max_inclusive_3_nistxml_sv_iv_atomic_g_year_max_inclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_max_inclusive_3_nistxml_sv_iv_atomic_g_year_max_inclusive_4_5(mode, save_output):
+def test_atomic_g_year_max_inclusive_3_nistxml_sv_iv_atomic_g_year_max_inclusive_4_5(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet maxInclusive with value 1998.
     """
@@ -5286,11 +5629,12 @@ def test_atomic_g_year_max_inclusive_3_nistxml_sv_iv_atomic_g_year_max_inclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_max_inclusive_2_nistxml_sv_iv_atomic_g_year_max_inclusive_3_1(mode, save_output):
+def test_atomic_g_year_max_inclusive_2_nistxml_sv_iv_atomic_g_year_max_inclusive_3_1(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet maxInclusive with value 2019.
     """
@@ -5301,11 +5645,12 @@ def test_atomic_g_year_max_inclusive_2_nistxml_sv_iv_atomic_g_year_max_inclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_max_inclusive_2_nistxml_sv_iv_atomic_g_year_max_inclusive_3_2(mode, save_output):
+def test_atomic_g_year_max_inclusive_2_nistxml_sv_iv_atomic_g_year_max_inclusive_3_2(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet maxInclusive with value 2019.
     """
@@ -5316,11 +5661,12 @@ def test_atomic_g_year_max_inclusive_2_nistxml_sv_iv_atomic_g_year_max_inclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_max_inclusive_2_nistxml_sv_iv_atomic_g_year_max_inclusive_3_3(mode, save_output):
+def test_atomic_g_year_max_inclusive_2_nistxml_sv_iv_atomic_g_year_max_inclusive_3_3(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet maxInclusive with value 2019.
     """
@@ -5331,11 +5677,12 @@ def test_atomic_g_year_max_inclusive_2_nistxml_sv_iv_atomic_g_year_max_inclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_max_inclusive_2_nistxml_sv_iv_atomic_g_year_max_inclusive_3_4(mode, save_output):
+def test_atomic_g_year_max_inclusive_2_nistxml_sv_iv_atomic_g_year_max_inclusive_3_4(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet maxInclusive with value 2019.
     """
@@ -5346,11 +5693,12 @@ def test_atomic_g_year_max_inclusive_2_nistxml_sv_iv_atomic_g_year_max_inclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_max_inclusive_2_nistxml_sv_iv_atomic_g_year_max_inclusive_3_5(mode, save_output):
+def test_atomic_g_year_max_inclusive_2_nistxml_sv_iv_atomic_g_year_max_inclusive_3_5(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet maxInclusive with value 2019.
     """
@@ -5361,11 +5709,12 @@ def test_atomic_g_year_max_inclusive_2_nistxml_sv_iv_atomic_g_year_max_inclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_max_inclusive_1_nistxml_sv_iv_atomic_g_year_max_inclusive_2_1(mode, save_output):
+def test_atomic_g_year_max_inclusive_1_nistxml_sv_iv_atomic_g_year_max_inclusive_2_1(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet maxInclusive with value 1975.
     """
@@ -5376,11 +5725,12 @@ def test_atomic_g_year_max_inclusive_1_nistxml_sv_iv_atomic_g_year_max_inclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_max_inclusive_1_nistxml_sv_iv_atomic_g_year_max_inclusive_2_2(mode, save_output):
+def test_atomic_g_year_max_inclusive_1_nistxml_sv_iv_atomic_g_year_max_inclusive_2_2(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet maxInclusive with value 1975.
     """
@@ -5391,11 +5741,12 @@ def test_atomic_g_year_max_inclusive_1_nistxml_sv_iv_atomic_g_year_max_inclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_max_inclusive_1_nistxml_sv_iv_atomic_g_year_max_inclusive_2_3(mode, save_output):
+def test_atomic_g_year_max_inclusive_1_nistxml_sv_iv_atomic_g_year_max_inclusive_2_3(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet maxInclusive with value 1975.
     """
@@ -5406,11 +5757,12 @@ def test_atomic_g_year_max_inclusive_1_nistxml_sv_iv_atomic_g_year_max_inclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_max_inclusive_1_nistxml_sv_iv_atomic_g_year_max_inclusive_2_4(mode, save_output):
+def test_atomic_g_year_max_inclusive_1_nistxml_sv_iv_atomic_g_year_max_inclusive_2_4(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet maxInclusive with value 1975.
     """
@@ -5421,11 +5773,12 @@ def test_atomic_g_year_max_inclusive_1_nistxml_sv_iv_atomic_g_year_max_inclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_max_inclusive_1_nistxml_sv_iv_atomic_g_year_max_inclusive_2_5(mode, save_output):
+def test_atomic_g_year_max_inclusive_1_nistxml_sv_iv_atomic_g_year_max_inclusive_2_5(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet maxInclusive with value 1975.
     """
@@ -5436,11 +5789,12 @@ def test_atomic_g_year_max_inclusive_1_nistxml_sv_iv_atomic_g_year_max_inclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_max_inclusive_nistxml_sv_iv_atomic_g_year_max_inclusive_1_1(mode, save_output):
+def test_atomic_g_year_max_inclusive_nistxml_sv_iv_atomic_g_year_max_inclusive_1_1(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet maxInclusive with value 1970.
     """
@@ -5451,11 +5805,12 @@ def test_atomic_g_year_max_inclusive_nistxml_sv_iv_atomic_g_year_max_inclusive_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_max_exclusive_4_nistxml_sv_iv_atomic_g_year_max_exclusive_5_1(mode, save_output):
+def test_atomic_g_year_max_exclusive_4_nistxml_sv_iv_atomic_g_year_max_exclusive_5_1(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet maxExclusive with value 2030.
     """
@@ -5466,11 +5821,12 @@ def test_atomic_g_year_max_exclusive_4_nistxml_sv_iv_atomic_g_year_max_exclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_max_exclusive_4_nistxml_sv_iv_atomic_g_year_max_exclusive_5_2(mode, save_output):
+def test_atomic_g_year_max_exclusive_4_nistxml_sv_iv_atomic_g_year_max_exclusive_5_2(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet maxExclusive with value 2030.
     """
@@ -5481,11 +5837,12 @@ def test_atomic_g_year_max_exclusive_4_nistxml_sv_iv_atomic_g_year_max_exclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_max_exclusive_4_nistxml_sv_iv_atomic_g_year_max_exclusive_5_3(mode, save_output):
+def test_atomic_g_year_max_exclusive_4_nistxml_sv_iv_atomic_g_year_max_exclusive_5_3(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet maxExclusive with value 2030.
     """
@@ -5496,11 +5853,12 @@ def test_atomic_g_year_max_exclusive_4_nistxml_sv_iv_atomic_g_year_max_exclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_max_exclusive_4_nistxml_sv_iv_atomic_g_year_max_exclusive_5_4(mode, save_output):
+def test_atomic_g_year_max_exclusive_4_nistxml_sv_iv_atomic_g_year_max_exclusive_5_4(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet maxExclusive with value 2030.
     """
@@ -5511,11 +5869,12 @@ def test_atomic_g_year_max_exclusive_4_nistxml_sv_iv_atomic_g_year_max_exclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_max_exclusive_4_nistxml_sv_iv_atomic_g_year_max_exclusive_5_5(mode, save_output):
+def test_atomic_g_year_max_exclusive_4_nistxml_sv_iv_atomic_g_year_max_exclusive_5_5(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet maxExclusive with value 2030.
     """
@@ -5526,11 +5885,12 @@ def test_atomic_g_year_max_exclusive_4_nistxml_sv_iv_atomic_g_year_max_exclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_max_exclusive_3_nistxml_sv_iv_atomic_g_year_max_exclusive_4_1(mode, save_output):
+def test_atomic_g_year_max_exclusive_3_nistxml_sv_iv_atomic_g_year_max_exclusive_4_1(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet maxExclusive with value 2005.
     """
@@ -5541,11 +5901,12 @@ def test_atomic_g_year_max_exclusive_3_nistxml_sv_iv_atomic_g_year_max_exclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_max_exclusive_3_nistxml_sv_iv_atomic_g_year_max_exclusive_4_2(mode, save_output):
+def test_atomic_g_year_max_exclusive_3_nistxml_sv_iv_atomic_g_year_max_exclusive_4_2(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet maxExclusive with value 2005.
     """
@@ -5556,11 +5917,12 @@ def test_atomic_g_year_max_exclusive_3_nistxml_sv_iv_atomic_g_year_max_exclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_max_exclusive_3_nistxml_sv_iv_atomic_g_year_max_exclusive_4_3(mode, save_output):
+def test_atomic_g_year_max_exclusive_3_nistxml_sv_iv_atomic_g_year_max_exclusive_4_3(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet maxExclusive with value 2005.
     """
@@ -5571,11 +5933,12 @@ def test_atomic_g_year_max_exclusive_3_nistxml_sv_iv_atomic_g_year_max_exclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_max_exclusive_3_nistxml_sv_iv_atomic_g_year_max_exclusive_4_4(mode, save_output):
+def test_atomic_g_year_max_exclusive_3_nistxml_sv_iv_atomic_g_year_max_exclusive_4_4(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet maxExclusive with value 2005.
     """
@@ -5586,11 +5949,12 @@ def test_atomic_g_year_max_exclusive_3_nistxml_sv_iv_atomic_g_year_max_exclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_max_exclusive_3_nistxml_sv_iv_atomic_g_year_max_exclusive_4_5(mode, save_output):
+def test_atomic_g_year_max_exclusive_3_nistxml_sv_iv_atomic_g_year_max_exclusive_4_5(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet maxExclusive with value 2005.
     """
@@ -5601,11 +5965,12 @@ def test_atomic_g_year_max_exclusive_3_nistxml_sv_iv_atomic_g_year_max_exclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_max_exclusive_2_nistxml_sv_iv_atomic_g_year_max_exclusive_3_1(mode, save_output):
+def test_atomic_g_year_max_exclusive_2_nistxml_sv_iv_atomic_g_year_max_exclusive_3_1(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet maxExclusive with value 2003.
     """
@@ -5616,11 +5981,12 @@ def test_atomic_g_year_max_exclusive_2_nistxml_sv_iv_atomic_g_year_max_exclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_max_exclusive_2_nistxml_sv_iv_atomic_g_year_max_exclusive_3_2(mode, save_output):
+def test_atomic_g_year_max_exclusive_2_nistxml_sv_iv_atomic_g_year_max_exclusive_3_2(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet maxExclusive with value 2003.
     """
@@ -5631,11 +5997,12 @@ def test_atomic_g_year_max_exclusive_2_nistxml_sv_iv_atomic_g_year_max_exclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_max_exclusive_2_nistxml_sv_iv_atomic_g_year_max_exclusive_3_3(mode, save_output):
+def test_atomic_g_year_max_exclusive_2_nistxml_sv_iv_atomic_g_year_max_exclusive_3_3(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet maxExclusive with value 2003.
     """
@@ -5646,11 +6013,12 @@ def test_atomic_g_year_max_exclusive_2_nistxml_sv_iv_atomic_g_year_max_exclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_max_exclusive_2_nistxml_sv_iv_atomic_g_year_max_exclusive_3_4(mode, save_output):
+def test_atomic_g_year_max_exclusive_2_nistxml_sv_iv_atomic_g_year_max_exclusive_3_4(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet maxExclusive with value 2003.
     """
@@ -5661,11 +6029,12 @@ def test_atomic_g_year_max_exclusive_2_nistxml_sv_iv_atomic_g_year_max_exclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_max_exclusive_2_nistxml_sv_iv_atomic_g_year_max_exclusive_3_5(mode, save_output):
+def test_atomic_g_year_max_exclusive_2_nistxml_sv_iv_atomic_g_year_max_exclusive_3_5(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet maxExclusive with value 2003.
     """
@@ -5676,11 +6045,12 @@ def test_atomic_g_year_max_exclusive_2_nistxml_sv_iv_atomic_g_year_max_exclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_max_exclusive_1_nistxml_sv_iv_atomic_g_year_max_exclusive_2_1(mode, save_output):
+def test_atomic_g_year_max_exclusive_1_nistxml_sv_iv_atomic_g_year_max_exclusive_2_1(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet maxExclusive with value 2022.
     """
@@ -5691,11 +6061,12 @@ def test_atomic_g_year_max_exclusive_1_nistxml_sv_iv_atomic_g_year_max_exclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_max_exclusive_1_nistxml_sv_iv_atomic_g_year_max_exclusive_2_2(mode, save_output):
+def test_atomic_g_year_max_exclusive_1_nistxml_sv_iv_atomic_g_year_max_exclusive_2_2(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet maxExclusive with value 2022.
     """
@@ -5706,11 +6077,12 @@ def test_atomic_g_year_max_exclusive_1_nistxml_sv_iv_atomic_g_year_max_exclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_max_exclusive_1_nistxml_sv_iv_atomic_g_year_max_exclusive_2_3(mode, save_output):
+def test_atomic_g_year_max_exclusive_1_nistxml_sv_iv_atomic_g_year_max_exclusive_2_3(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet maxExclusive with value 2022.
     """
@@ -5721,11 +6093,12 @@ def test_atomic_g_year_max_exclusive_1_nistxml_sv_iv_atomic_g_year_max_exclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_max_exclusive_1_nistxml_sv_iv_atomic_g_year_max_exclusive_2_4(mode, save_output):
+def test_atomic_g_year_max_exclusive_1_nistxml_sv_iv_atomic_g_year_max_exclusive_2_4(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet maxExclusive with value 2022.
     """
@@ -5736,11 +6109,12 @@ def test_atomic_g_year_max_exclusive_1_nistxml_sv_iv_atomic_g_year_max_exclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_max_exclusive_1_nistxml_sv_iv_atomic_g_year_max_exclusive_2_5(mode, save_output):
+def test_atomic_g_year_max_exclusive_1_nistxml_sv_iv_atomic_g_year_max_exclusive_2_5(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet maxExclusive with value 2022.
     """
@@ -5751,11 +6125,12 @@ def test_atomic_g_year_max_exclusive_1_nistxml_sv_iv_atomic_g_year_max_exclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_max_exclusive_nistxml_sv_iv_atomic_g_year_max_exclusive_1_1(mode, save_output):
+def test_atomic_g_year_max_exclusive_nistxml_sv_iv_atomic_g_year_max_exclusive_1_1(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet maxExclusive with value 1971.
     """
@@ -5766,11 +6141,12 @@ def test_atomic_g_year_max_exclusive_nistxml_sv_iv_atomic_g_year_max_exclusive_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_min_inclusive_4_nistxml_sv_iv_atomic_g_year_min_inclusive_5_1(mode, save_output):
+def test_atomic_g_year_min_inclusive_4_nistxml_sv_iv_atomic_g_year_min_inclusive_5_1(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet minInclusive with value 2030.
     """
@@ -5781,11 +6157,12 @@ def test_atomic_g_year_min_inclusive_4_nistxml_sv_iv_atomic_g_year_min_inclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_min_inclusive_3_nistxml_sv_iv_atomic_g_year_min_inclusive_4_1(mode, save_output):
+def test_atomic_g_year_min_inclusive_3_nistxml_sv_iv_atomic_g_year_min_inclusive_4_1(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet minInclusive with value 1997.
     """
@@ -5796,11 +6173,12 @@ def test_atomic_g_year_min_inclusive_3_nistxml_sv_iv_atomic_g_year_min_inclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_min_inclusive_3_nistxml_sv_iv_atomic_g_year_min_inclusive_4_2(mode, save_output):
+def test_atomic_g_year_min_inclusive_3_nistxml_sv_iv_atomic_g_year_min_inclusive_4_2(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet minInclusive with value 1997.
     """
@@ -5811,11 +6189,12 @@ def test_atomic_g_year_min_inclusive_3_nistxml_sv_iv_atomic_g_year_min_inclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_min_inclusive_3_nistxml_sv_iv_atomic_g_year_min_inclusive_4_3(mode, save_output):
+def test_atomic_g_year_min_inclusive_3_nistxml_sv_iv_atomic_g_year_min_inclusive_4_3(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet minInclusive with value 1997.
     """
@@ -5826,11 +6205,12 @@ def test_atomic_g_year_min_inclusive_3_nistxml_sv_iv_atomic_g_year_min_inclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_min_inclusive_3_nistxml_sv_iv_atomic_g_year_min_inclusive_4_4(mode, save_output):
+def test_atomic_g_year_min_inclusive_3_nistxml_sv_iv_atomic_g_year_min_inclusive_4_4(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet minInclusive with value 1997.
     """
@@ -5841,11 +6221,12 @@ def test_atomic_g_year_min_inclusive_3_nistxml_sv_iv_atomic_g_year_min_inclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_min_inclusive_3_nistxml_sv_iv_atomic_g_year_min_inclusive_4_5(mode, save_output):
+def test_atomic_g_year_min_inclusive_3_nistxml_sv_iv_atomic_g_year_min_inclusive_4_5(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet minInclusive with value 1997.
     """
@@ -5856,11 +6237,12 @@ def test_atomic_g_year_min_inclusive_3_nistxml_sv_iv_atomic_g_year_min_inclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_min_inclusive_2_nistxml_sv_iv_atomic_g_year_min_inclusive_3_1(mode, save_output):
+def test_atomic_g_year_min_inclusive_2_nistxml_sv_iv_atomic_g_year_min_inclusive_3_1(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet minInclusive with value 1974.
     """
@@ -5871,11 +6253,12 @@ def test_atomic_g_year_min_inclusive_2_nistxml_sv_iv_atomic_g_year_min_inclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_min_inclusive_2_nistxml_sv_iv_atomic_g_year_min_inclusive_3_2(mode, save_output):
+def test_atomic_g_year_min_inclusive_2_nistxml_sv_iv_atomic_g_year_min_inclusive_3_2(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet minInclusive with value 1974.
     """
@@ -5886,11 +6269,12 @@ def test_atomic_g_year_min_inclusive_2_nistxml_sv_iv_atomic_g_year_min_inclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_min_inclusive_2_nistxml_sv_iv_atomic_g_year_min_inclusive_3_3(mode, save_output):
+def test_atomic_g_year_min_inclusive_2_nistxml_sv_iv_atomic_g_year_min_inclusive_3_3(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet minInclusive with value 1974.
     """
@@ -5901,11 +6285,12 @@ def test_atomic_g_year_min_inclusive_2_nistxml_sv_iv_atomic_g_year_min_inclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_min_inclusive_2_nistxml_sv_iv_atomic_g_year_min_inclusive_3_4(mode, save_output):
+def test_atomic_g_year_min_inclusive_2_nistxml_sv_iv_atomic_g_year_min_inclusive_3_4(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet minInclusive with value 1974.
     """
@@ -5916,11 +6301,12 @@ def test_atomic_g_year_min_inclusive_2_nistxml_sv_iv_atomic_g_year_min_inclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_min_inclusive_2_nistxml_sv_iv_atomic_g_year_min_inclusive_3_5(mode, save_output):
+def test_atomic_g_year_min_inclusive_2_nistxml_sv_iv_atomic_g_year_min_inclusive_3_5(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet minInclusive with value 1974.
     """
@@ -5931,11 +6317,12 @@ def test_atomic_g_year_min_inclusive_2_nistxml_sv_iv_atomic_g_year_min_inclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_min_inclusive_1_nistxml_sv_iv_atomic_g_year_min_inclusive_2_1(mode, save_output):
+def test_atomic_g_year_min_inclusive_1_nistxml_sv_iv_atomic_g_year_min_inclusive_2_1(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet minInclusive with value 2010.
     """
@@ -5946,11 +6333,12 @@ def test_atomic_g_year_min_inclusive_1_nistxml_sv_iv_atomic_g_year_min_inclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_min_inclusive_1_nistxml_sv_iv_atomic_g_year_min_inclusive_2_2(mode, save_output):
+def test_atomic_g_year_min_inclusive_1_nistxml_sv_iv_atomic_g_year_min_inclusive_2_2(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet minInclusive with value 2010.
     """
@@ -5961,11 +6349,12 @@ def test_atomic_g_year_min_inclusive_1_nistxml_sv_iv_atomic_g_year_min_inclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_min_inclusive_1_nistxml_sv_iv_atomic_g_year_min_inclusive_2_3(mode, save_output):
+def test_atomic_g_year_min_inclusive_1_nistxml_sv_iv_atomic_g_year_min_inclusive_2_3(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet minInclusive with value 2010.
     """
@@ -5976,11 +6365,12 @@ def test_atomic_g_year_min_inclusive_1_nistxml_sv_iv_atomic_g_year_min_inclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_min_inclusive_1_nistxml_sv_iv_atomic_g_year_min_inclusive_2_4(mode, save_output):
+def test_atomic_g_year_min_inclusive_1_nistxml_sv_iv_atomic_g_year_min_inclusive_2_4(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet minInclusive with value 2010.
     """
@@ -5991,11 +6381,12 @@ def test_atomic_g_year_min_inclusive_1_nistxml_sv_iv_atomic_g_year_min_inclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_min_inclusive_1_nistxml_sv_iv_atomic_g_year_min_inclusive_2_5(mode, save_output):
+def test_atomic_g_year_min_inclusive_1_nistxml_sv_iv_atomic_g_year_min_inclusive_2_5(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet minInclusive with value 2010.
     """
@@ -6006,11 +6397,12 @@ def test_atomic_g_year_min_inclusive_1_nistxml_sv_iv_atomic_g_year_min_inclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_min_inclusive_nistxml_sv_iv_atomic_g_year_min_inclusive_1_1(mode, save_output):
+def test_atomic_g_year_min_inclusive_nistxml_sv_iv_atomic_g_year_min_inclusive_1_1(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet minInclusive with value 1970.
     """
@@ -6021,11 +6413,12 @@ def test_atomic_g_year_min_inclusive_nistxml_sv_iv_atomic_g_year_min_inclusive_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_min_inclusive_nistxml_sv_iv_atomic_g_year_min_inclusive_1_2(mode, save_output):
+def test_atomic_g_year_min_inclusive_nistxml_sv_iv_atomic_g_year_min_inclusive_1_2(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet minInclusive with value 1970.
     """
@@ -6036,11 +6429,12 @@ def test_atomic_g_year_min_inclusive_nistxml_sv_iv_atomic_g_year_min_inclusive_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_min_inclusive_nistxml_sv_iv_atomic_g_year_min_inclusive_1_3(mode, save_output):
+def test_atomic_g_year_min_inclusive_nistxml_sv_iv_atomic_g_year_min_inclusive_1_3(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet minInclusive with value 1970.
     """
@@ -6051,11 +6445,12 @@ def test_atomic_g_year_min_inclusive_nistxml_sv_iv_atomic_g_year_min_inclusive_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_min_inclusive_nistxml_sv_iv_atomic_g_year_min_inclusive_1_4(mode, save_output):
+def test_atomic_g_year_min_inclusive_nistxml_sv_iv_atomic_g_year_min_inclusive_1_4(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet minInclusive with value 1970.
     """
@@ -6066,11 +6461,12 @@ def test_atomic_g_year_min_inclusive_nistxml_sv_iv_atomic_g_year_min_inclusive_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_min_inclusive_nistxml_sv_iv_atomic_g_year_min_inclusive_1_5(mode, save_output):
+def test_atomic_g_year_min_inclusive_nistxml_sv_iv_atomic_g_year_min_inclusive_1_5(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet minInclusive with value 1970.
     """
@@ -6081,11 +6477,12 @@ def test_atomic_g_year_min_inclusive_nistxml_sv_iv_atomic_g_year_min_inclusive_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_min_exclusive_4_nistxml_sv_iv_atomic_g_year_min_exclusive_5_1(mode, save_output):
+def test_atomic_g_year_min_exclusive_4_nistxml_sv_iv_atomic_g_year_min_exclusive_5_1(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet minExclusive with value 2029.
     """
@@ -6096,11 +6493,12 @@ def test_atomic_g_year_min_exclusive_4_nistxml_sv_iv_atomic_g_year_min_exclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_min_exclusive_3_nistxml_sv_iv_atomic_g_year_min_exclusive_4_1(mode, save_output):
+def test_atomic_g_year_min_exclusive_3_nistxml_sv_iv_atomic_g_year_min_exclusive_4_1(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet minExclusive with value 2012.
     """
@@ -6111,11 +6509,12 @@ def test_atomic_g_year_min_exclusive_3_nistxml_sv_iv_atomic_g_year_min_exclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_min_exclusive_3_nistxml_sv_iv_atomic_g_year_min_exclusive_4_2(mode, save_output):
+def test_atomic_g_year_min_exclusive_3_nistxml_sv_iv_atomic_g_year_min_exclusive_4_2(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet minExclusive with value 2012.
     """
@@ -6126,11 +6525,12 @@ def test_atomic_g_year_min_exclusive_3_nistxml_sv_iv_atomic_g_year_min_exclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_min_exclusive_3_nistxml_sv_iv_atomic_g_year_min_exclusive_4_3(mode, save_output):
+def test_atomic_g_year_min_exclusive_3_nistxml_sv_iv_atomic_g_year_min_exclusive_4_3(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet minExclusive with value 2012.
     """
@@ -6141,11 +6541,12 @@ def test_atomic_g_year_min_exclusive_3_nistxml_sv_iv_atomic_g_year_min_exclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_min_exclusive_3_nistxml_sv_iv_atomic_g_year_min_exclusive_4_4(mode, save_output):
+def test_atomic_g_year_min_exclusive_3_nistxml_sv_iv_atomic_g_year_min_exclusive_4_4(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet minExclusive with value 2012.
     """
@@ -6156,11 +6557,12 @@ def test_atomic_g_year_min_exclusive_3_nistxml_sv_iv_atomic_g_year_min_exclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_min_exclusive_3_nistxml_sv_iv_atomic_g_year_min_exclusive_4_5(mode, save_output):
+def test_atomic_g_year_min_exclusive_3_nistxml_sv_iv_atomic_g_year_min_exclusive_4_5(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet minExclusive with value 2012.
     """
@@ -6171,11 +6573,12 @@ def test_atomic_g_year_min_exclusive_3_nistxml_sv_iv_atomic_g_year_min_exclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_min_exclusive_2_nistxml_sv_iv_atomic_g_year_min_exclusive_3_1(mode, save_output):
+def test_atomic_g_year_min_exclusive_2_nistxml_sv_iv_atomic_g_year_min_exclusive_3_1(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet minExclusive with value 2025.
     """
@@ -6186,11 +6589,12 @@ def test_atomic_g_year_min_exclusive_2_nistxml_sv_iv_atomic_g_year_min_exclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_min_exclusive_2_nistxml_sv_iv_atomic_g_year_min_exclusive_3_2(mode, save_output):
+def test_atomic_g_year_min_exclusive_2_nistxml_sv_iv_atomic_g_year_min_exclusive_3_2(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet minExclusive with value 2025.
     """
@@ -6201,11 +6605,12 @@ def test_atomic_g_year_min_exclusive_2_nistxml_sv_iv_atomic_g_year_min_exclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_min_exclusive_2_nistxml_sv_iv_atomic_g_year_min_exclusive_3_3(mode, save_output):
+def test_atomic_g_year_min_exclusive_2_nistxml_sv_iv_atomic_g_year_min_exclusive_3_3(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet minExclusive with value 2025.
     """
@@ -6216,11 +6621,12 @@ def test_atomic_g_year_min_exclusive_2_nistxml_sv_iv_atomic_g_year_min_exclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_min_exclusive_2_nistxml_sv_iv_atomic_g_year_min_exclusive_3_4(mode, save_output):
+def test_atomic_g_year_min_exclusive_2_nistxml_sv_iv_atomic_g_year_min_exclusive_3_4(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet minExclusive with value 2025.
     """
@@ -6231,11 +6637,12 @@ def test_atomic_g_year_min_exclusive_2_nistxml_sv_iv_atomic_g_year_min_exclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_min_exclusive_2_nistxml_sv_iv_atomic_g_year_min_exclusive_3_5(mode, save_output):
+def test_atomic_g_year_min_exclusive_2_nistxml_sv_iv_atomic_g_year_min_exclusive_3_5(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet minExclusive with value 2025.
     """
@@ -6246,11 +6653,12 @@ def test_atomic_g_year_min_exclusive_2_nistxml_sv_iv_atomic_g_year_min_exclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_min_exclusive_1_nistxml_sv_iv_atomic_g_year_min_exclusive_2_1(mode, save_output):
+def test_atomic_g_year_min_exclusive_1_nistxml_sv_iv_atomic_g_year_min_exclusive_2_1(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet minExclusive with value 2008.
     """
@@ -6261,11 +6669,12 @@ def test_atomic_g_year_min_exclusive_1_nistxml_sv_iv_atomic_g_year_min_exclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_min_exclusive_1_nistxml_sv_iv_atomic_g_year_min_exclusive_2_2(mode, save_output):
+def test_atomic_g_year_min_exclusive_1_nistxml_sv_iv_atomic_g_year_min_exclusive_2_2(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet minExclusive with value 2008.
     """
@@ -6276,11 +6685,12 @@ def test_atomic_g_year_min_exclusive_1_nistxml_sv_iv_atomic_g_year_min_exclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_min_exclusive_1_nistxml_sv_iv_atomic_g_year_min_exclusive_2_3(mode, save_output):
+def test_atomic_g_year_min_exclusive_1_nistxml_sv_iv_atomic_g_year_min_exclusive_2_3(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet minExclusive with value 2008.
     """
@@ -6291,11 +6701,12 @@ def test_atomic_g_year_min_exclusive_1_nistxml_sv_iv_atomic_g_year_min_exclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_min_exclusive_1_nistxml_sv_iv_atomic_g_year_min_exclusive_2_4(mode, save_output):
+def test_atomic_g_year_min_exclusive_1_nistxml_sv_iv_atomic_g_year_min_exclusive_2_4(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet minExclusive with value 2008.
     """
@@ -6306,11 +6717,12 @@ def test_atomic_g_year_min_exclusive_1_nistxml_sv_iv_atomic_g_year_min_exclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_min_exclusive_1_nistxml_sv_iv_atomic_g_year_min_exclusive_2_5(mode, save_output):
+def test_atomic_g_year_min_exclusive_1_nistxml_sv_iv_atomic_g_year_min_exclusive_2_5(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet minExclusive with value 2008.
     """
@@ -6321,11 +6733,12 @@ def test_atomic_g_year_min_exclusive_1_nistxml_sv_iv_atomic_g_year_min_exclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_min_exclusive_nistxml_sv_iv_atomic_g_year_min_exclusive_1_1(mode, save_output):
+def test_atomic_g_year_min_exclusive_nistxml_sv_iv_atomic_g_year_min_exclusive_1_1(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet minExclusive with value 1970.
     """
@@ -6336,11 +6749,12 @@ def test_atomic_g_year_min_exclusive_nistxml_sv_iv_atomic_g_year_min_exclusive_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_min_exclusive_nistxml_sv_iv_atomic_g_year_min_exclusive_1_2(mode, save_output):
+def test_atomic_g_year_min_exclusive_nistxml_sv_iv_atomic_g_year_min_exclusive_1_2(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet minExclusive with value 1970.
     """
@@ -6351,11 +6765,12 @@ def test_atomic_g_year_min_exclusive_nistxml_sv_iv_atomic_g_year_min_exclusive_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_min_exclusive_nistxml_sv_iv_atomic_g_year_min_exclusive_1_3(mode, save_output):
+def test_atomic_g_year_min_exclusive_nistxml_sv_iv_atomic_g_year_min_exclusive_1_3(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet minExclusive with value 1970.
     """
@@ -6366,11 +6781,12 @@ def test_atomic_g_year_min_exclusive_nistxml_sv_iv_atomic_g_year_min_exclusive_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_min_exclusive_nistxml_sv_iv_atomic_g_year_min_exclusive_1_4(mode, save_output):
+def test_atomic_g_year_min_exclusive_nistxml_sv_iv_atomic_g_year_min_exclusive_1_4(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet minExclusive with value 1970.
     """
@@ -6381,11 +6797,12 @@ def test_atomic_g_year_min_exclusive_nistxml_sv_iv_atomic_g_year_min_exclusive_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_min_exclusive_nistxml_sv_iv_atomic_g_year_min_exclusive_1_5(mode, save_output):
+def test_atomic_g_year_min_exclusive_nistxml_sv_iv_atomic_g_year_min_exclusive_1_5(mode, save_output, output_format):
     """
     Type atomic/gYear is restricted by facet minExclusive with value 1970.
     """
@@ -6396,11 +6813,12 @@ def test_atomic_g_year_min_exclusive_nistxml_sv_iv_atomic_g_year_min_exclusive_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_white_space_nistxml_sv_iv_atomic_g_year_month_white_space_1_1(mode, save_output):
+def test_atomic_g_year_month_white_space_nistxml_sv_iv_atomic_g_year_month_white_space_1_1(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet whiteSpace with value
     collapse.
@@ -6412,11 +6830,12 @@ def test_atomic_g_year_month_white_space_nistxml_sv_iv_atomic_g_year_month_white
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_white_space_nistxml_sv_iv_atomic_g_year_month_white_space_1_2(mode, save_output):
+def test_atomic_g_year_month_white_space_nistxml_sv_iv_atomic_g_year_month_white_space_1_2(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet whiteSpace with value
     collapse.
@@ -6428,11 +6847,12 @@ def test_atomic_g_year_month_white_space_nistxml_sv_iv_atomic_g_year_month_white
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_white_space_nistxml_sv_iv_atomic_g_year_month_white_space_1_3(mode, save_output):
+def test_atomic_g_year_month_white_space_nistxml_sv_iv_atomic_g_year_month_white_space_1_3(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet whiteSpace with value
     collapse.
@@ -6444,11 +6864,12 @@ def test_atomic_g_year_month_white_space_nistxml_sv_iv_atomic_g_year_month_white
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_white_space_nistxml_sv_iv_atomic_g_year_month_white_space_1_4(mode, save_output):
+def test_atomic_g_year_month_white_space_nistxml_sv_iv_atomic_g_year_month_white_space_1_4(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet whiteSpace with value
     collapse.
@@ -6460,11 +6881,12 @@ def test_atomic_g_year_month_white_space_nistxml_sv_iv_atomic_g_year_month_white
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_white_space_nistxml_sv_iv_atomic_g_year_month_white_space_1_5(mode, save_output):
+def test_atomic_g_year_month_white_space_nistxml_sv_iv_atomic_g_year_month_white_space_1_5(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet whiteSpace with value
     collapse.
@@ -6476,11 +6898,12 @@ def test_atomic_g_year_month_white_space_nistxml_sv_iv_atomic_g_year_month_white
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_enumeration_4_nistxml_sv_iv_atomic_g_year_month_enumeration_5_1(mode, save_output):
+def test_atomic_g_year_month_enumeration_4_nistxml_sv_iv_atomic_g_year_month_enumeration_5_1(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet enumeration.
     """
@@ -6491,11 +6914,12 @@ def test_atomic_g_year_month_enumeration_4_nistxml_sv_iv_atomic_g_year_month_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_enumeration_4_nistxml_sv_iv_atomic_g_year_month_enumeration_5_2(mode, save_output):
+def test_atomic_g_year_month_enumeration_4_nistxml_sv_iv_atomic_g_year_month_enumeration_5_2(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet enumeration.
     """
@@ -6506,11 +6930,12 @@ def test_atomic_g_year_month_enumeration_4_nistxml_sv_iv_atomic_g_year_month_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_enumeration_4_nistxml_sv_iv_atomic_g_year_month_enumeration_5_3(mode, save_output):
+def test_atomic_g_year_month_enumeration_4_nistxml_sv_iv_atomic_g_year_month_enumeration_5_3(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet enumeration.
     """
@@ -6521,11 +6946,12 @@ def test_atomic_g_year_month_enumeration_4_nistxml_sv_iv_atomic_g_year_month_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_enumeration_4_nistxml_sv_iv_atomic_g_year_month_enumeration_5_4(mode, save_output):
+def test_atomic_g_year_month_enumeration_4_nistxml_sv_iv_atomic_g_year_month_enumeration_5_4(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet enumeration.
     """
@@ -6536,11 +6962,12 @@ def test_atomic_g_year_month_enumeration_4_nistxml_sv_iv_atomic_g_year_month_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_enumeration_4_nistxml_sv_iv_atomic_g_year_month_enumeration_5_5(mode, save_output):
+def test_atomic_g_year_month_enumeration_4_nistxml_sv_iv_atomic_g_year_month_enumeration_5_5(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet enumeration.
     """
@@ -6551,11 +6978,12 @@ def test_atomic_g_year_month_enumeration_4_nistxml_sv_iv_atomic_g_year_month_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_enumeration_3_nistxml_sv_iv_atomic_g_year_month_enumeration_4_1(mode, save_output):
+def test_atomic_g_year_month_enumeration_3_nistxml_sv_iv_atomic_g_year_month_enumeration_4_1(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet enumeration.
     """
@@ -6566,11 +6994,12 @@ def test_atomic_g_year_month_enumeration_3_nistxml_sv_iv_atomic_g_year_month_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_enumeration_3_nistxml_sv_iv_atomic_g_year_month_enumeration_4_2(mode, save_output):
+def test_atomic_g_year_month_enumeration_3_nistxml_sv_iv_atomic_g_year_month_enumeration_4_2(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet enumeration.
     """
@@ -6581,11 +7010,12 @@ def test_atomic_g_year_month_enumeration_3_nistxml_sv_iv_atomic_g_year_month_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_enumeration_3_nistxml_sv_iv_atomic_g_year_month_enumeration_4_3(mode, save_output):
+def test_atomic_g_year_month_enumeration_3_nistxml_sv_iv_atomic_g_year_month_enumeration_4_3(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet enumeration.
     """
@@ -6596,11 +7026,12 @@ def test_atomic_g_year_month_enumeration_3_nistxml_sv_iv_atomic_g_year_month_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_enumeration_3_nistxml_sv_iv_atomic_g_year_month_enumeration_4_4(mode, save_output):
+def test_atomic_g_year_month_enumeration_3_nistxml_sv_iv_atomic_g_year_month_enumeration_4_4(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet enumeration.
     """
@@ -6611,11 +7042,12 @@ def test_atomic_g_year_month_enumeration_3_nistxml_sv_iv_atomic_g_year_month_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_enumeration_3_nistxml_sv_iv_atomic_g_year_month_enumeration_4_5(mode, save_output):
+def test_atomic_g_year_month_enumeration_3_nistxml_sv_iv_atomic_g_year_month_enumeration_4_5(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet enumeration.
     """
@@ -6626,11 +7058,12 @@ def test_atomic_g_year_month_enumeration_3_nistxml_sv_iv_atomic_g_year_month_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_enumeration_2_nistxml_sv_iv_atomic_g_year_month_enumeration_3_1(mode, save_output):
+def test_atomic_g_year_month_enumeration_2_nistxml_sv_iv_atomic_g_year_month_enumeration_3_1(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet enumeration.
     """
@@ -6641,11 +7074,12 @@ def test_atomic_g_year_month_enumeration_2_nistxml_sv_iv_atomic_g_year_month_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_enumeration_2_nistxml_sv_iv_atomic_g_year_month_enumeration_3_2(mode, save_output):
+def test_atomic_g_year_month_enumeration_2_nistxml_sv_iv_atomic_g_year_month_enumeration_3_2(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet enumeration.
     """
@@ -6656,11 +7090,12 @@ def test_atomic_g_year_month_enumeration_2_nistxml_sv_iv_atomic_g_year_month_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_enumeration_2_nistxml_sv_iv_atomic_g_year_month_enumeration_3_3(mode, save_output):
+def test_atomic_g_year_month_enumeration_2_nistxml_sv_iv_atomic_g_year_month_enumeration_3_3(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet enumeration.
     """
@@ -6671,11 +7106,12 @@ def test_atomic_g_year_month_enumeration_2_nistxml_sv_iv_atomic_g_year_month_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_enumeration_2_nistxml_sv_iv_atomic_g_year_month_enumeration_3_4(mode, save_output):
+def test_atomic_g_year_month_enumeration_2_nistxml_sv_iv_atomic_g_year_month_enumeration_3_4(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet enumeration.
     """
@@ -6686,11 +7122,12 @@ def test_atomic_g_year_month_enumeration_2_nistxml_sv_iv_atomic_g_year_month_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_enumeration_2_nistxml_sv_iv_atomic_g_year_month_enumeration_3_5(mode, save_output):
+def test_atomic_g_year_month_enumeration_2_nistxml_sv_iv_atomic_g_year_month_enumeration_3_5(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet enumeration.
     """
@@ -6701,11 +7138,12 @@ def test_atomic_g_year_month_enumeration_2_nistxml_sv_iv_atomic_g_year_month_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_enumeration_1_nistxml_sv_iv_atomic_g_year_month_enumeration_2_1(mode, save_output):
+def test_atomic_g_year_month_enumeration_1_nistxml_sv_iv_atomic_g_year_month_enumeration_2_1(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet enumeration.
     """
@@ -6716,11 +7154,12 @@ def test_atomic_g_year_month_enumeration_1_nistxml_sv_iv_atomic_g_year_month_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_enumeration_1_nistxml_sv_iv_atomic_g_year_month_enumeration_2_2(mode, save_output):
+def test_atomic_g_year_month_enumeration_1_nistxml_sv_iv_atomic_g_year_month_enumeration_2_2(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet enumeration.
     """
@@ -6731,11 +7170,12 @@ def test_atomic_g_year_month_enumeration_1_nistxml_sv_iv_atomic_g_year_month_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_enumeration_1_nistxml_sv_iv_atomic_g_year_month_enumeration_2_3(mode, save_output):
+def test_atomic_g_year_month_enumeration_1_nistxml_sv_iv_atomic_g_year_month_enumeration_2_3(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet enumeration.
     """
@@ -6746,11 +7186,12 @@ def test_atomic_g_year_month_enumeration_1_nistxml_sv_iv_atomic_g_year_month_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_enumeration_1_nistxml_sv_iv_atomic_g_year_month_enumeration_2_4(mode, save_output):
+def test_atomic_g_year_month_enumeration_1_nistxml_sv_iv_atomic_g_year_month_enumeration_2_4(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet enumeration.
     """
@@ -6761,11 +7202,12 @@ def test_atomic_g_year_month_enumeration_1_nistxml_sv_iv_atomic_g_year_month_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_enumeration_1_nistxml_sv_iv_atomic_g_year_month_enumeration_2_5(mode, save_output):
+def test_atomic_g_year_month_enumeration_1_nistxml_sv_iv_atomic_g_year_month_enumeration_2_5(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet enumeration.
     """
@@ -6776,11 +7218,12 @@ def test_atomic_g_year_month_enumeration_1_nistxml_sv_iv_atomic_g_year_month_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_enumeration_nistxml_sv_iv_atomic_g_year_month_enumeration_1_1(mode, save_output):
+def test_atomic_g_year_month_enumeration_nistxml_sv_iv_atomic_g_year_month_enumeration_1_1(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet enumeration.
     """
@@ -6791,11 +7234,12 @@ def test_atomic_g_year_month_enumeration_nistxml_sv_iv_atomic_g_year_month_enume
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_enumeration_nistxml_sv_iv_atomic_g_year_month_enumeration_1_2(mode, save_output):
+def test_atomic_g_year_month_enumeration_nistxml_sv_iv_atomic_g_year_month_enumeration_1_2(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet enumeration.
     """
@@ -6806,11 +7250,12 @@ def test_atomic_g_year_month_enumeration_nistxml_sv_iv_atomic_g_year_month_enume
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_enumeration_nistxml_sv_iv_atomic_g_year_month_enumeration_1_3(mode, save_output):
+def test_atomic_g_year_month_enumeration_nistxml_sv_iv_atomic_g_year_month_enumeration_1_3(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet enumeration.
     """
@@ -6821,11 +7266,12 @@ def test_atomic_g_year_month_enumeration_nistxml_sv_iv_atomic_g_year_month_enume
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_enumeration_nistxml_sv_iv_atomic_g_year_month_enumeration_1_4(mode, save_output):
+def test_atomic_g_year_month_enumeration_nistxml_sv_iv_atomic_g_year_month_enumeration_1_4(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet enumeration.
     """
@@ -6836,11 +7282,12 @@ def test_atomic_g_year_month_enumeration_nistxml_sv_iv_atomic_g_year_month_enume
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_enumeration_nistxml_sv_iv_atomic_g_year_month_enumeration_1_5(mode, save_output):
+def test_atomic_g_year_month_enumeration_nistxml_sv_iv_atomic_g_year_month_enumeration_1_5(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet enumeration.
     """
@@ -6851,11 +7298,12 @@ def test_atomic_g_year_month_enumeration_nistxml_sv_iv_atomic_g_year_month_enume
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_pattern_4_nistxml_sv_iv_atomic_g_year_month_pattern_5_1(mode, save_output):
+def test_atomic_g_year_month_pattern_4_nistxml_sv_iv_atomic_g_year_month_pattern_5_1(mode, save_output, output_format):
     r"""
     Type atomic/gYearMonth is restricted by facet pattern with value
     18\d\d-\d2.
@@ -6867,11 +7315,12 @@ def test_atomic_g_year_month_pattern_4_nistxml_sv_iv_atomic_g_year_month_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_pattern_4_nistxml_sv_iv_atomic_g_year_month_pattern_5_2(mode, save_output):
+def test_atomic_g_year_month_pattern_4_nistxml_sv_iv_atomic_g_year_month_pattern_5_2(mode, save_output, output_format):
     r"""
     Type atomic/gYearMonth is restricted by facet pattern with value
     18\d\d-\d2.
@@ -6883,11 +7332,12 @@ def test_atomic_g_year_month_pattern_4_nistxml_sv_iv_atomic_g_year_month_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_pattern_4_nistxml_sv_iv_atomic_g_year_month_pattern_5_3(mode, save_output):
+def test_atomic_g_year_month_pattern_4_nistxml_sv_iv_atomic_g_year_month_pattern_5_3(mode, save_output, output_format):
     r"""
     Type atomic/gYearMonth is restricted by facet pattern with value
     18\d\d-\d2.
@@ -6899,11 +7349,12 @@ def test_atomic_g_year_month_pattern_4_nistxml_sv_iv_atomic_g_year_month_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_pattern_4_nistxml_sv_iv_atomic_g_year_month_pattern_5_4(mode, save_output):
+def test_atomic_g_year_month_pattern_4_nistxml_sv_iv_atomic_g_year_month_pattern_5_4(mode, save_output, output_format):
     r"""
     Type atomic/gYearMonth is restricted by facet pattern with value
     18\d\d-\d2.
@@ -6915,11 +7366,12 @@ def test_atomic_g_year_month_pattern_4_nistxml_sv_iv_atomic_g_year_month_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_pattern_4_nistxml_sv_iv_atomic_g_year_month_pattern_5_5(mode, save_output):
+def test_atomic_g_year_month_pattern_4_nistxml_sv_iv_atomic_g_year_month_pattern_5_5(mode, save_output, output_format):
     r"""
     Type atomic/gYearMonth is restricted by facet pattern with value
     18\d\d-\d2.
@@ -6931,11 +7383,12 @@ def test_atomic_g_year_month_pattern_4_nistxml_sv_iv_atomic_g_year_month_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_pattern_3_nistxml_sv_iv_atomic_g_year_month_pattern_4_1(mode, save_output):
+def test_atomic_g_year_month_pattern_3_nistxml_sv_iv_atomic_g_year_month_pattern_4_1(mode, save_output, output_format):
     r"""
     Type atomic/gYearMonth is restricted by facet pattern with value
     17\d\d-0\d.
@@ -6947,11 +7400,12 @@ def test_atomic_g_year_month_pattern_3_nistxml_sv_iv_atomic_g_year_month_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_pattern_3_nistxml_sv_iv_atomic_g_year_month_pattern_4_2(mode, save_output):
+def test_atomic_g_year_month_pattern_3_nistxml_sv_iv_atomic_g_year_month_pattern_4_2(mode, save_output, output_format):
     r"""
     Type atomic/gYearMonth is restricted by facet pattern with value
     17\d\d-0\d.
@@ -6963,11 +7417,12 @@ def test_atomic_g_year_month_pattern_3_nistxml_sv_iv_atomic_g_year_month_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_pattern_3_nistxml_sv_iv_atomic_g_year_month_pattern_4_3(mode, save_output):
+def test_atomic_g_year_month_pattern_3_nistxml_sv_iv_atomic_g_year_month_pattern_4_3(mode, save_output, output_format):
     r"""
     Type atomic/gYearMonth is restricted by facet pattern with value
     17\d\d-0\d.
@@ -6979,11 +7434,12 @@ def test_atomic_g_year_month_pattern_3_nistxml_sv_iv_atomic_g_year_month_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_pattern_3_nistxml_sv_iv_atomic_g_year_month_pattern_4_4(mode, save_output):
+def test_atomic_g_year_month_pattern_3_nistxml_sv_iv_atomic_g_year_month_pattern_4_4(mode, save_output, output_format):
     r"""
     Type atomic/gYearMonth is restricted by facet pattern with value
     17\d\d-0\d.
@@ -6995,11 +7451,12 @@ def test_atomic_g_year_month_pattern_3_nistxml_sv_iv_atomic_g_year_month_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_pattern_3_nistxml_sv_iv_atomic_g_year_month_pattern_4_5(mode, save_output):
+def test_atomic_g_year_month_pattern_3_nistxml_sv_iv_atomic_g_year_month_pattern_4_5(mode, save_output, output_format):
     r"""
     Type atomic/gYearMonth is restricted by facet pattern with value
     17\d\d-0\d.
@@ -7011,11 +7468,12 @@ def test_atomic_g_year_month_pattern_3_nistxml_sv_iv_atomic_g_year_month_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_pattern_2_nistxml_sv_iv_atomic_g_year_month_pattern_3_1(mode, save_output):
+def test_atomic_g_year_month_pattern_2_nistxml_sv_iv_atomic_g_year_month_pattern_3_1(mode, save_output, output_format):
     r"""
     Type atomic/gYearMonth is restricted by facet pattern with value
     \d\d76-0\d.
@@ -7027,11 +7485,12 @@ def test_atomic_g_year_month_pattern_2_nistxml_sv_iv_atomic_g_year_month_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_pattern_2_nistxml_sv_iv_atomic_g_year_month_pattern_3_2(mode, save_output):
+def test_atomic_g_year_month_pattern_2_nistxml_sv_iv_atomic_g_year_month_pattern_3_2(mode, save_output, output_format):
     r"""
     Type atomic/gYearMonth is restricted by facet pattern with value
     \d\d76-0\d.
@@ -7043,11 +7502,12 @@ def test_atomic_g_year_month_pattern_2_nistxml_sv_iv_atomic_g_year_month_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_pattern_2_nistxml_sv_iv_atomic_g_year_month_pattern_3_3(mode, save_output):
+def test_atomic_g_year_month_pattern_2_nistxml_sv_iv_atomic_g_year_month_pattern_3_3(mode, save_output, output_format):
     r"""
     Type atomic/gYearMonth is restricted by facet pattern with value
     \d\d76-0\d.
@@ -7059,11 +7519,12 @@ def test_atomic_g_year_month_pattern_2_nistxml_sv_iv_atomic_g_year_month_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_pattern_2_nistxml_sv_iv_atomic_g_year_month_pattern_3_4(mode, save_output):
+def test_atomic_g_year_month_pattern_2_nistxml_sv_iv_atomic_g_year_month_pattern_3_4(mode, save_output, output_format):
     r"""
     Type atomic/gYearMonth is restricted by facet pattern with value
     \d\d76-0\d.
@@ -7075,11 +7536,12 @@ def test_atomic_g_year_month_pattern_2_nistxml_sv_iv_atomic_g_year_month_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_pattern_2_nistxml_sv_iv_atomic_g_year_month_pattern_3_5(mode, save_output):
+def test_atomic_g_year_month_pattern_2_nistxml_sv_iv_atomic_g_year_month_pattern_3_5(mode, save_output, output_format):
     r"""
     Type atomic/gYearMonth is restricted by facet pattern with value
     \d\d76-0\d.
@@ -7091,11 +7553,12 @@ def test_atomic_g_year_month_pattern_2_nistxml_sv_iv_atomic_g_year_month_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_pattern_1_nistxml_sv_iv_atomic_g_year_month_pattern_2_1(mode, save_output):
+def test_atomic_g_year_month_pattern_1_nistxml_sv_iv_atomic_g_year_month_pattern_2_1(mode, save_output, output_format):
     r"""
     Type atomic/gYearMonth is restricted by facet pattern with value
     \d\d31-\d3.
@@ -7107,11 +7570,12 @@ def test_atomic_g_year_month_pattern_1_nistxml_sv_iv_atomic_g_year_month_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_pattern_1_nistxml_sv_iv_atomic_g_year_month_pattern_2_2(mode, save_output):
+def test_atomic_g_year_month_pattern_1_nistxml_sv_iv_atomic_g_year_month_pattern_2_2(mode, save_output, output_format):
     r"""
     Type atomic/gYearMonth is restricted by facet pattern with value
     \d\d31-\d3.
@@ -7123,11 +7587,12 @@ def test_atomic_g_year_month_pattern_1_nistxml_sv_iv_atomic_g_year_month_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_pattern_1_nistxml_sv_iv_atomic_g_year_month_pattern_2_3(mode, save_output):
+def test_atomic_g_year_month_pattern_1_nistxml_sv_iv_atomic_g_year_month_pattern_2_3(mode, save_output, output_format):
     r"""
     Type atomic/gYearMonth is restricted by facet pattern with value
     \d\d31-\d3.
@@ -7139,11 +7604,12 @@ def test_atomic_g_year_month_pattern_1_nistxml_sv_iv_atomic_g_year_month_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_pattern_1_nistxml_sv_iv_atomic_g_year_month_pattern_2_4(mode, save_output):
+def test_atomic_g_year_month_pattern_1_nistxml_sv_iv_atomic_g_year_month_pattern_2_4(mode, save_output, output_format):
     r"""
     Type atomic/gYearMonth is restricted by facet pattern with value
     \d\d31-\d3.
@@ -7155,11 +7621,12 @@ def test_atomic_g_year_month_pattern_1_nistxml_sv_iv_atomic_g_year_month_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_pattern_1_nistxml_sv_iv_atomic_g_year_month_pattern_2_5(mode, save_output):
+def test_atomic_g_year_month_pattern_1_nistxml_sv_iv_atomic_g_year_month_pattern_2_5(mode, save_output, output_format):
     r"""
     Type atomic/gYearMonth is restricted by facet pattern with value
     \d\d31-\d3.
@@ -7171,11 +7638,12 @@ def test_atomic_g_year_month_pattern_1_nistxml_sv_iv_atomic_g_year_month_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_pattern_nistxml_sv_iv_atomic_g_year_month_pattern_1_1(mode, save_output):
+def test_atomic_g_year_month_pattern_nistxml_sv_iv_atomic_g_year_month_pattern_1_1(mode, save_output, output_format):
     r"""
     Type atomic/gYearMonth is restricted by facet pattern with value
     17\d\d-\d1.
@@ -7187,11 +7655,12 @@ def test_atomic_g_year_month_pattern_nistxml_sv_iv_atomic_g_year_month_pattern_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_pattern_nistxml_sv_iv_atomic_g_year_month_pattern_1_2(mode, save_output):
+def test_atomic_g_year_month_pattern_nistxml_sv_iv_atomic_g_year_month_pattern_1_2(mode, save_output, output_format):
     r"""
     Type atomic/gYearMonth is restricted by facet pattern with value
     17\d\d-\d1.
@@ -7203,11 +7672,12 @@ def test_atomic_g_year_month_pattern_nistxml_sv_iv_atomic_g_year_month_pattern_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_pattern_nistxml_sv_iv_atomic_g_year_month_pattern_1_3(mode, save_output):
+def test_atomic_g_year_month_pattern_nistxml_sv_iv_atomic_g_year_month_pattern_1_3(mode, save_output, output_format):
     r"""
     Type atomic/gYearMonth is restricted by facet pattern with value
     17\d\d-\d1.
@@ -7219,11 +7689,12 @@ def test_atomic_g_year_month_pattern_nistxml_sv_iv_atomic_g_year_month_pattern_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_pattern_nistxml_sv_iv_atomic_g_year_month_pattern_1_4(mode, save_output):
+def test_atomic_g_year_month_pattern_nistxml_sv_iv_atomic_g_year_month_pattern_1_4(mode, save_output, output_format):
     r"""
     Type atomic/gYearMonth is restricted by facet pattern with value
     17\d\d-\d1.
@@ -7235,11 +7706,12 @@ def test_atomic_g_year_month_pattern_nistxml_sv_iv_atomic_g_year_month_pattern_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_pattern_nistxml_sv_iv_atomic_g_year_month_pattern_1_5(mode, save_output):
+def test_atomic_g_year_month_pattern_nistxml_sv_iv_atomic_g_year_month_pattern_1_5(mode, save_output, output_format):
     r"""
     Type atomic/gYearMonth is restricted by facet pattern with value
     17\d\d-\d1.
@@ -7251,11 +7723,12 @@ def test_atomic_g_year_month_pattern_nistxml_sv_iv_atomic_g_year_month_pattern_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_max_inclusive_4_nistxml_sv_iv_atomic_g_year_month_max_inclusive_5_1(mode, save_output):
+def test_atomic_g_year_month_max_inclusive_4_nistxml_sv_iv_atomic_g_year_month_max_inclusive_5_1(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet maxInclusive with value
     2030-12.
@@ -7267,11 +7740,12 @@ def test_atomic_g_year_month_max_inclusive_4_nistxml_sv_iv_atomic_g_year_month_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_max_inclusive_4_nistxml_sv_iv_atomic_g_year_month_max_inclusive_5_2(mode, save_output):
+def test_atomic_g_year_month_max_inclusive_4_nistxml_sv_iv_atomic_g_year_month_max_inclusive_5_2(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet maxInclusive with value
     2030-12.
@@ -7283,11 +7757,12 @@ def test_atomic_g_year_month_max_inclusive_4_nistxml_sv_iv_atomic_g_year_month_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_max_inclusive_4_nistxml_sv_iv_atomic_g_year_month_max_inclusive_5_3(mode, save_output):
+def test_atomic_g_year_month_max_inclusive_4_nistxml_sv_iv_atomic_g_year_month_max_inclusive_5_3(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet maxInclusive with value
     2030-12.
@@ -7299,11 +7774,12 @@ def test_atomic_g_year_month_max_inclusive_4_nistxml_sv_iv_atomic_g_year_month_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_max_inclusive_4_nistxml_sv_iv_atomic_g_year_month_max_inclusive_5_4(mode, save_output):
+def test_atomic_g_year_month_max_inclusive_4_nistxml_sv_iv_atomic_g_year_month_max_inclusive_5_4(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet maxInclusive with value
     2030-12.
@@ -7315,11 +7791,12 @@ def test_atomic_g_year_month_max_inclusive_4_nistxml_sv_iv_atomic_g_year_month_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_max_inclusive_4_nistxml_sv_iv_atomic_g_year_month_max_inclusive_5_5(mode, save_output):
+def test_atomic_g_year_month_max_inclusive_4_nistxml_sv_iv_atomic_g_year_month_max_inclusive_5_5(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet maxInclusive with value
     2030-12.
@@ -7331,11 +7808,12 @@ def test_atomic_g_year_month_max_inclusive_4_nistxml_sv_iv_atomic_g_year_month_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_max_inclusive_3_nistxml_sv_iv_atomic_g_year_month_max_inclusive_4_1(mode, save_output):
+def test_atomic_g_year_month_max_inclusive_3_nistxml_sv_iv_atomic_g_year_month_max_inclusive_4_1(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet maxInclusive with value
     2014-07.
@@ -7347,11 +7825,12 @@ def test_atomic_g_year_month_max_inclusive_3_nistxml_sv_iv_atomic_g_year_month_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_max_inclusive_3_nistxml_sv_iv_atomic_g_year_month_max_inclusive_4_2(mode, save_output):
+def test_atomic_g_year_month_max_inclusive_3_nistxml_sv_iv_atomic_g_year_month_max_inclusive_4_2(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet maxInclusive with value
     2014-07.
@@ -7363,11 +7842,12 @@ def test_atomic_g_year_month_max_inclusive_3_nistxml_sv_iv_atomic_g_year_month_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_max_inclusive_3_nistxml_sv_iv_atomic_g_year_month_max_inclusive_4_3(mode, save_output):
+def test_atomic_g_year_month_max_inclusive_3_nistxml_sv_iv_atomic_g_year_month_max_inclusive_4_3(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet maxInclusive with value
     2014-07.
@@ -7379,11 +7859,12 @@ def test_atomic_g_year_month_max_inclusive_3_nistxml_sv_iv_atomic_g_year_month_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_max_inclusive_3_nistxml_sv_iv_atomic_g_year_month_max_inclusive_4_4(mode, save_output):
+def test_atomic_g_year_month_max_inclusive_3_nistxml_sv_iv_atomic_g_year_month_max_inclusive_4_4(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet maxInclusive with value
     2014-07.
@@ -7395,11 +7876,12 @@ def test_atomic_g_year_month_max_inclusive_3_nistxml_sv_iv_atomic_g_year_month_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_max_inclusive_3_nistxml_sv_iv_atomic_g_year_month_max_inclusive_4_5(mode, save_output):
+def test_atomic_g_year_month_max_inclusive_3_nistxml_sv_iv_atomic_g_year_month_max_inclusive_4_5(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet maxInclusive with value
     2014-07.
@@ -7411,11 +7893,12 @@ def test_atomic_g_year_month_max_inclusive_3_nistxml_sv_iv_atomic_g_year_month_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_max_inclusive_2_nistxml_sv_iv_atomic_g_year_month_max_inclusive_3_1(mode, save_output):
+def test_atomic_g_year_month_max_inclusive_2_nistxml_sv_iv_atomic_g_year_month_max_inclusive_3_1(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet maxInclusive with value
     1986-01.
@@ -7427,11 +7910,12 @@ def test_atomic_g_year_month_max_inclusive_2_nistxml_sv_iv_atomic_g_year_month_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_max_inclusive_2_nistxml_sv_iv_atomic_g_year_month_max_inclusive_3_2(mode, save_output):
+def test_atomic_g_year_month_max_inclusive_2_nistxml_sv_iv_atomic_g_year_month_max_inclusive_3_2(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet maxInclusive with value
     1986-01.
@@ -7443,11 +7927,12 @@ def test_atomic_g_year_month_max_inclusive_2_nistxml_sv_iv_atomic_g_year_month_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_max_inclusive_2_nistxml_sv_iv_atomic_g_year_month_max_inclusive_3_3(mode, save_output):
+def test_atomic_g_year_month_max_inclusive_2_nistxml_sv_iv_atomic_g_year_month_max_inclusive_3_3(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet maxInclusive with value
     1986-01.
@@ -7459,11 +7944,12 @@ def test_atomic_g_year_month_max_inclusive_2_nistxml_sv_iv_atomic_g_year_month_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_max_inclusive_2_nistxml_sv_iv_atomic_g_year_month_max_inclusive_3_4(mode, save_output):
+def test_atomic_g_year_month_max_inclusive_2_nistxml_sv_iv_atomic_g_year_month_max_inclusive_3_4(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet maxInclusive with value
     1986-01.
@@ -7475,11 +7961,12 @@ def test_atomic_g_year_month_max_inclusive_2_nistxml_sv_iv_atomic_g_year_month_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_max_inclusive_2_nistxml_sv_iv_atomic_g_year_month_max_inclusive_3_5(mode, save_output):
+def test_atomic_g_year_month_max_inclusive_2_nistxml_sv_iv_atomic_g_year_month_max_inclusive_3_5(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet maxInclusive with value
     1986-01.
@@ -7491,11 +7978,12 @@ def test_atomic_g_year_month_max_inclusive_2_nistxml_sv_iv_atomic_g_year_month_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_max_inclusive_1_nistxml_sv_iv_atomic_g_year_month_max_inclusive_2_1(mode, save_output):
+def test_atomic_g_year_month_max_inclusive_1_nistxml_sv_iv_atomic_g_year_month_max_inclusive_2_1(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet maxInclusive with value
     2010-06.
@@ -7507,11 +7995,12 @@ def test_atomic_g_year_month_max_inclusive_1_nistxml_sv_iv_atomic_g_year_month_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_max_inclusive_1_nistxml_sv_iv_atomic_g_year_month_max_inclusive_2_2(mode, save_output):
+def test_atomic_g_year_month_max_inclusive_1_nistxml_sv_iv_atomic_g_year_month_max_inclusive_2_2(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet maxInclusive with value
     2010-06.
@@ -7523,11 +8012,12 @@ def test_atomic_g_year_month_max_inclusive_1_nistxml_sv_iv_atomic_g_year_month_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_max_inclusive_1_nistxml_sv_iv_atomic_g_year_month_max_inclusive_2_3(mode, save_output):
+def test_atomic_g_year_month_max_inclusive_1_nistxml_sv_iv_atomic_g_year_month_max_inclusive_2_3(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet maxInclusive with value
     2010-06.
@@ -7539,11 +8029,12 @@ def test_atomic_g_year_month_max_inclusive_1_nistxml_sv_iv_atomic_g_year_month_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_max_inclusive_1_nistxml_sv_iv_atomic_g_year_month_max_inclusive_2_4(mode, save_output):
+def test_atomic_g_year_month_max_inclusive_1_nistxml_sv_iv_atomic_g_year_month_max_inclusive_2_4(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet maxInclusive with value
     2010-06.
@@ -7555,11 +8046,12 @@ def test_atomic_g_year_month_max_inclusive_1_nistxml_sv_iv_atomic_g_year_month_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_max_inclusive_1_nistxml_sv_iv_atomic_g_year_month_max_inclusive_2_5(mode, save_output):
+def test_atomic_g_year_month_max_inclusive_1_nistxml_sv_iv_atomic_g_year_month_max_inclusive_2_5(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet maxInclusive with value
     2010-06.
@@ -7571,11 +8063,12 @@ def test_atomic_g_year_month_max_inclusive_1_nistxml_sv_iv_atomic_g_year_month_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_max_inclusive_nistxml_sv_iv_atomic_g_year_month_max_inclusive_1_1(mode, save_output):
+def test_atomic_g_year_month_max_inclusive_nistxml_sv_iv_atomic_g_year_month_max_inclusive_1_1(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet maxInclusive with value
     1970-01.
@@ -7587,11 +8080,12 @@ def test_atomic_g_year_month_max_inclusive_nistxml_sv_iv_atomic_g_year_month_max
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_max_exclusive_4_nistxml_sv_iv_atomic_g_year_month_max_exclusive_5_1(mode, save_output):
+def test_atomic_g_year_month_max_exclusive_4_nistxml_sv_iv_atomic_g_year_month_max_exclusive_5_1(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet maxExclusive with value
     2030-12.
@@ -7603,11 +8097,12 @@ def test_atomic_g_year_month_max_exclusive_4_nistxml_sv_iv_atomic_g_year_month_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_max_exclusive_4_nistxml_sv_iv_atomic_g_year_month_max_exclusive_5_2(mode, save_output):
+def test_atomic_g_year_month_max_exclusive_4_nistxml_sv_iv_atomic_g_year_month_max_exclusive_5_2(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet maxExclusive with value
     2030-12.
@@ -7619,11 +8114,12 @@ def test_atomic_g_year_month_max_exclusive_4_nistxml_sv_iv_atomic_g_year_month_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_max_exclusive_4_nistxml_sv_iv_atomic_g_year_month_max_exclusive_5_3(mode, save_output):
+def test_atomic_g_year_month_max_exclusive_4_nistxml_sv_iv_atomic_g_year_month_max_exclusive_5_3(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet maxExclusive with value
     2030-12.
@@ -7635,11 +8131,12 @@ def test_atomic_g_year_month_max_exclusive_4_nistxml_sv_iv_atomic_g_year_month_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_max_exclusive_4_nistxml_sv_iv_atomic_g_year_month_max_exclusive_5_4(mode, save_output):
+def test_atomic_g_year_month_max_exclusive_4_nistxml_sv_iv_atomic_g_year_month_max_exclusive_5_4(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet maxExclusive with value
     2030-12.
@@ -7651,11 +8148,12 @@ def test_atomic_g_year_month_max_exclusive_4_nistxml_sv_iv_atomic_g_year_month_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_max_exclusive_4_nistxml_sv_iv_atomic_g_year_month_max_exclusive_5_5(mode, save_output):
+def test_atomic_g_year_month_max_exclusive_4_nistxml_sv_iv_atomic_g_year_month_max_exclusive_5_5(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet maxExclusive with value
     2030-12.
@@ -7667,11 +8165,12 @@ def test_atomic_g_year_month_max_exclusive_4_nistxml_sv_iv_atomic_g_year_month_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_max_exclusive_3_nistxml_sv_iv_atomic_g_year_month_max_exclusive_4_1(mode, save_output):
+def test_atomic_g_year_month_max_exclusive_3_nistxml_sv_iv_atomic_g_year_month_max_exclusive_4_1(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet maxExclusive with value
     1981-02.
@@ -7683,11 +8182,12 @@ def test_atomic_g_year_month_max_exclusive_3_nistxml_sv_iv_atomic_g_year_month_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_max_exclusive_3_nistxml_sv_iv_atomic_g_year_month_max_exclusive_4_2(mode, save_output):
+def test_atomic_g_year_month_max_exclusive_3_nistxml_sv_iv_atomic_g_year_month_max_exclusive_4_2(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet maxExclusive with value
     1981-02.
@@ -7699,11 +8199,12 @@ def test_atomic_g_year_month_max_exclusive_3_nistxml_sv_iv_atomic_g_year_month_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_max_exclusive_3_nistxml_sv_iv_atomic_g_year_month_max_exclusive_4_3(mode, save_output):
+def test_atomic_g_year_month_max_exclusive_3_nistxml_sv_iv_atomic_g_year_month_max_exclusive_4_3(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet maxExclusive with value
     1981-02.
@@ -7715,11 +8216,12 @@ def test_atomic_g_year_month_max_exclusive_3_nistxml_sv_iv_atomic_g_year_month_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_max_exclusive_3_nistxml_sv_iv_atomic_g_year_month_max_exclusive_4_4(mode, save_output):
+def test_atomic_g_year_month_max_exclusive_3_nistxml_sv_iv_atomic_g_year_month_max_exclusive_4_4(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet maxExclusive with value
     1981-02.
@@ -7731,11 +8233,12 @@ def test_atomic_g_year_month_max_exclusive_3_nistxml_sv_iv_atomic_g_year_month_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_max_exclusive_3_nistxml_sv_iv_atomic_g_year_month_max_exclusive_4_5(mode, save_output):
+def test_atomic_g_year_month_max_exclusive_3_nistxml_sv_iv_atomic_g_year_month_max_exclusive_4_5(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet maxExclusive with value
     1981-02.
@@ -7747,11 +8250,12 @@ def test_atomic_g_year_month_max_exclusive_3_nistxml_sv_iv_atomic_g_year_month_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_max_exclusive_2_nistxml_sv_iv_atomic_g_year_month_max_exclusive_3_1(mode, save_output):
+def test_atomic_g_year_month_max_exclusive_2_nistxml_sv_iv_atomic_g_year_month_max_exclusive_3_1(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet maxExclusive with value
     1971-05.
@@ -7763,11 +8267,12 @@ def test_atomic_g_year_month_max_exclusive_2_nistxml_sv_iv_atomic_g_year_month_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_max_exclusive_2_nistxml_sv_iv_atomic_g_year_month_max_exclusive_3_2(mode, save_output):
+def test_atomic_g_year_month_max_exclusive_2_nistxml_sv_iv_atomic_g_year_month_max_exclusive_3_2(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet maxExclusive with value
     1971-05.
@@ -7779,11 +8284,12 @@ def test_atomic_g_year_month_max_exclusive_2_nistxml_sv_iv_atomic_g_year_month_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_max_exclusive_2_nistxml_sv_iv_atomic_g_year_month_max_exclusive_3_3(mode, save_output):
+def test_atomic_g_year_month_max_exclusive_2_nistxml_sv_iv_atomic_g_year_month_max_exclusive_3_3(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet maxExclusive with value
     1971-05.
@@ -7795,11 +8301,12 @@ def test_atomic_g_year_month_max_exclusive_2_nistxml_sv_iv_atomic_g_year_month_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_max_exclusive_2_nistxml_sv_iv_atomic_g_year_month_max_exclusive_3_4(mode, save_output):
+def test_atomic_g_year_month_max_exclusive_2_nistxml_sv_iv_atomic_g_year_month_max_exclusive_3_4(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet maxExclusive with value
     1971-05.
@@ -7811,11 +8318,12 @@ def test_atomic_g_year_month_max_exclusive_2_nistxml_sv_iv_atomic_g_year_month_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_max_exclusive_2_nistxml_sv_iv_atomic_g_year_month_max_exclusive_3_5(mode, save_output):
+def test_atomic_g_year_month_max_exclusive_2_nistxml_sv_iv_atomic_g_year_month_max_exclusive_3_5(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet maxExclusive with value
     1971-05.
@@ -7827,11 +8335,12 @@ def test_atomic_g_year_month_max_exclusive_2_nistxml_sv_iv_atomic_g_year_month_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_max_exclusive_1_nistxml_sv_iv_atomic_g_year_month_max_exclusive_2_1(mode, save_output):
+def test_atomic_g_year_month_max_exclusive_1_nistxml_sv_iv_atomic_g_year_month_max_exclusive_2_1(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet maxExclusive with value
     1983-06.
@@ -7843,11 +8352,12 @@ def test_atomic_g_year_month_max_exclusive_1_nistxml_sv_iv_atomic_g_year_month_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_max_exclusive_1_nistxml_sv_iv_atomic_g_year_month_max_exclusive_2_2(mode, save_output):
+def test_atomic_g_year_month_max_exclusive_1_nistxml_sv_iv_atomic_g_year_month_max_exclusive_2_2(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet maxExclusive with value
     1983-06.
@@ -7859,11 +8369,12 @@ def test_atomic_g_year_month_max_exclusive_1_nistxml_sv_iv_atomic_g_year_month_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_max_exclusive_1_nistxml_sv_iv_atomic_g_year_month_max_exclusive_2_3(mode, save_output):
+def test_atomic_g_year_month_max_exclusive_1_nistxml_sv_iv_atomic_g_year_month_max_exclusive_2_3(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet maxExclusive with value
     1983-06.
@@ -7875,11 +8386,12 @@ def test_atomic_g_year_month_max_exclusive_1_nistxml_sv_iv_atomic_g_year_month_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_max_exclusive_1_nistxml_sv_iv_atomic_g_year_month_max_exclusive_2_4(mode, save_output):
+def test_atomic_g_year_month_max_exclusive_1_nistxml_sv_iv_atomic_g_year_month_max_exclusive_2_4(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet maxExclusive with value
     1983-06.
@@ -7891,11 +8403,12 @@ def test_atomic_g_year_month_max_exclusive_1_nistxml_sv_iv_atomic_g_year_month_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_max_exclusive_1_nistxml_sv_iv_atomic_g_year_month_max_exclusive_2_5(mode, save_output):
+def test_atomic_g_year_month_max_exclusive_1_nistxml_sv_iv_atomic_g_year_month_max_exclusive_2_5(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet maxExclusive with value
     1983-06.
@@ -7907,11 +8420,12 @@ def test_atomic_g_year_month_max_exclusive_1_nistxml_sv_iv_atomic_g_year_month_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_max_exclusive_nistxml_sv_iv_atomic_g_year_month_max_exclusive_1_1(mode, save_output):
+def test_atomic_g_year_month_max_exclusive_nistxml_sv_iv_atomic_g_year_month_max_exclusive_1_1(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet maxExclusive with value
     1970-02.
@@ -7923,11 +8437,12 @@ def test_atomic_g_year_month_max_exclusive_nistxml_sv_iv_atomic_g_year_month_max
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_min_inclusive_4_nistxml_sv_iv_atomic_g_year_month_min_inclusive_5_1(mode, save_output):
+def test_atomic_g_year_month_min_inclusive_4_nistxml_sv_iv_atomic_g_year_month_min_inclusive_5_1(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet minInclusive with value
     2030-12.
@@ -7939,11 +8454,12 @@ def test_atomic_g_year_month_min_inclusive_4_nistxml_sv_iv_atomic_g_year_month_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_min_inclusive_3_nistxml_sv_iv_atomic_g_year_month_min_inclusive_4_1(mode, save_output):
+def test_atomic_g_year_month_min_inclusive_3_nistxml_sv_iv_atomic_g_year_month_min_inclusive_4_1(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet minInclusive with value
     1988-05.
@@ -7955,11 +8471,12 @@ def test_atomic_g_year_month_min_inclusive_3_nistxml_sv_iv_atomic_g_year_month_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_min_inclusive_3_nistxml_sv_iv_atomic_g_year_month_min_inclusive_4_2(mode, save_output):
+def test_atomic_g_year_month_min_inclusive_3_nistxml_sv_iv_atomic_g_year_month_min_inclusive_4_2(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet minInclusive with value
     1988-05.
@@ -7971,11 +8488,12 @@ def test_atomic_g_year_month_min_inclusive_3_nistxml_sv_iv_atomic_g_year_month_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_min_inclusive_3_nistxml_sv_iv_atomic_g_year_month_min_inclusive_4_3(mode, save_output):
+def test_atomic_g_year_month_min_inclusive_3_nistxml_sv_iv_atomic_g_year_month_min_inclusive_4_3(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet minInclusive with value
     1988-05.
@@ -7987,11 +8505,12 @@ def test_atomic_g_year_month_min_inclusive_3_nistxml_sv_iv_atomic_g_year_month_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_min_inclusive_3_nistxml_sv_iv_atomic_g_year_month_min_inclusive_4_4(mode, save_output):
+def test_atomic_g_year_month_min_inclusive_3_nistxml_sv_iv_atomic_g_year_month_min_inclusive_4_4(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet minInclusive with value
     1988-05.
@@ -8003,11 +8522,12 @@ def test_atomic_g_year_month_min_inclusive_3_nistxml_sv_iv_atomic_g_year_month_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_min_inclusive_3_nistxml_sv_iv_atomic_g_year_month_min_inclusive_4_5(mode, save_output):
+def test_atomic_g_year_month_min_inclusive_3_nistxml_sv_iv_atomic_g_year_month_min_inclusive_4_5(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet minInclusive with value
     1988-05.
@@ -8019,11 +8539,12 @@ def test_atomic_g_year_month_min_inclusive_3_nistxml_sv_iv_atomic_g_year_month_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_min_inclusive_2_nistxml_sv_iv_atomic_g_year_month_min_inclusive_3_1(mode, save_output):
+def test_atomic_g_year_month_min_inclusive_2_nistxml_sv_iv_atomic_g_year_month_min_inclusive_3_1(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet minInclusive with value
     1974-11.
@@ -8035,11 +8556,12 @@ def test_atomic_g_year_month_min_inclusive_2_nistxml_sv_iv_atomic_g_year_month_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_min_inclusive_2_nistxml_sv_iv_atomic_g_year_month_min_inclusive_3_2(mode, save_output):
+def test_atomic_g_year_month_min_inclusive_2_nistxml_sv_iv_atomic_g_year_month_min_inclusive_3_2(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet minInclusive with value
     1974-11.
@@ -8051,11 +8573,12 @@ def test_atomic_g_year_month_min_inclusive_2_nistxml_sv_iv_atomic_g_year_month_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_min_inclusive_2_nistxml_sv_iv_atomic_g_year_month_min_inclusive_3_3(mode, save_output):
+def test_atomic_g_year_month_min_inclusive_2_nistxml_sv_iv_atomic_g_year_month_min_inclusive_3_3(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet minInclusive with value
     1974-11.
@@ -8067,11 +8590,12 @@ def test_atomic_g_year_month_min_inclusive_2_nistxml_sv_iv_atomic_g_year_month_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_min_inclusive_2_nistxml_sv_iv_atomic_g_year_month_min_inclusive_3_4(mode, save_output):
+def test_atomic_g_year_month_min_inclusive_2_nistxml_sv_iv_atomic_g_year_month_min_inclusive_3_4(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet minInclusive with value
     1974-11.
@@ -8083,11 +8607,12 @@ def test_atomic_g_year_month_min_inclusive_2_nistxml_sv_iv_atomic_g_year_month_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_min_inclusive_2_nistxml_sv_iv_atomic_g_year_month_min_inclusive_3_5(mode, save_output):
+def test_atomic_g_year_month_min_inclusive_2_nistxml_sv_iv_atomic_g_year_month_min_inclusive_3_5(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet minInclusive with value
     1974-11.
@@ -8099,11 +8624,12 @@ def test_atomic_g_year_month_min_inclusive_2_nistxml_sv_iv_atomic_g_year_month_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_min_inclusive_1_nistxml_sv_iv_atomic_g_year_month_min_inclusive_2_1(mode, save_output):
+def test_atomic_g_year_month_min_inclusive_1_nistxml_sv_iv_atomic_g_year_month_min_inclusive_2_1(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet minInclusive with value
     2012-02.
@@ -8115,11 +8641,12 @@ def test_atomic_g_year_month_min_inclusive_1_nistxml_sv_iv_atomic_g_year_month_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_min_inclusive_1_nistxml_sv_iv_atomic_g_year_month_min_inclusive_2_2(mode, save_output):
+def test_atomic_g_year_month_min_inclusive_1_nistxml_sv_iv_atomic_g_year_month_min_inclusive_2_2(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet minInclusive with value
     2012-02.
@@ -8131,11 +8658,12 @@ def test_atomic_g_year_month_min_inclusive_1_nistxml_sv_iv_atomic_g_year_month_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_min_inclusive_1_nistxml_sv_iv_atomic_g_year_month_min_inclusive_2_3(mode, save_output):
+def test_atomic_g_year_month_min_inclusive_1_nistxml_sv_iv_atomic_g_year_month_min_inclusive_2_3(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet minInclusive with value
     2012-02.
@@ -8147,11 +8675,12 @@ def test_atomic_g_year_month_min_inclusive_1_nistxml_sv_iv_atomic_g_year_month_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_min_inclusive_1_nistxml_sv_iv_atomic_g_year_month_min_inclusive_2_4(mode, save_output):
+def test_atomic_g_year_month_min_inclusive_1_nistxml_sv_iv_atomic_g_year_month_min_inclusive_2_4(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet minInclusive with value
     2012-02.
@@ -8163,11 +8692,12 @@ def test_atomic_g_year_month_min_inclusive_1_nistxml_sv_iv_atomic_g_year_month_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_min_inclusive_1_nistxml_sv_iv_atomic_g_year_month_min_inclusive_2_5(mode, save_output):
+def test_atomic_g_year_month_min_inclusive_1_nistxml_sv_iv_atomic_g_year_month_min_inclusive_2_5(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet minInclusive with value
     2012-02.
@@ -8179,11 +8709,12 @@ def test_atomic_g_year_month_min_inclusive_1_nistxml_sv_iv_atomic_g_year_month_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_min_inclusive_nistxml_sv_iv_atomic_g_year_month_min_inclusive_1_1(mode, save_output):
+def test_atomic_g_year_month_min_inclusive_nistxml_sv_iv_atomic_g_year_month_min_inclusive_1_1(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet minInclusive with value
     1970-01.
@@ -8195,11 +8726,12 @@ def test_atomic_g_year_month_min_inclusive_nistxml_sv_iv_atomic_g_year_month_min
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_min_inclusive_nistxml_sv_iv_atomic_g_year_month_min_inclusive_1_2(mode, save_output):
+def test_atomic_g_year_month_min_inclusive_nistxml_sv_iv_atomic_g_year_month_min_inclusive_1_2(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet minInclusive with value
     1970-01.
@@ -8211,11 +8743,12 @@ def test_atomic_g_year_month_min_inclusive_nistxml_sv_iv_atomic_g_year_month_min
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_min_inclusive_nistxml_sv_iv_atomic_g_year_month_min_inclusive_1_3(mode, save_output):
+def test_atomic_g_year_month_min_inclusive_nistxml_sv_iv_atomic_g_year_month_min_inclusive_1_3(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet minInclusive with value
     1970-01.
@@ -8227,11 +8760,12 @@ def test_atomic_g_year_month_min_inclusive_nistxml_sv_iv_atomic_g_year_month_min
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_min_inclusive_nistxml_sv_iv_atomic_g_year_month_min_inclusive_1_4(mode, save_output):
+def test_atomic_g_year_month_min_inclusive_nistxml_sv_iv_atomic_g_year_month_min_inclusive_1_4(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet minInclusive with value
     1970-01.
@@ -8243,11 +8777,12 @@ def test_atomic_g_year_month_min_inclusive_nistxml_sv_iv_atomic_g_year_month_min
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_min_inclusive_nistxml_sv_iv_atomic_g_year_month_min_inclusive_1_5(mode, save_output):
+def test_atomic_g_year_month_min_inclusive_nistxml_sv_iv_atomic_g_year_month_min_inclusive_1_5(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet minInclusive with value
     1970-01.
@@ -8259,11 +8794,12 @@ def test_atomic_g_year_month_min_inclusive_nistxml_sv_iv_atomic_g_year_month_min
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_min_exclusive_4_nistxml_sv_iv_atomic_g_year_month_min_exclusive_5_1(mode, save_output):
+def test_atomic_g_year_month_min_exclusive_4_nistxml_sv_iv_atomic_g_year_month_min_exclusive_5_1(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet minExclusive with value
     2030-11.
@@ -8275,11 +8811,12 @@ def test_atomic_g_year_month_min_exclusive_4_nistxml_sv_iv_atomic_g_year_month_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_min_exclusive_3_nistxml_sv_iv_atomic_g_year_month_min_exclusive_4_1(mode, save_output):
+def test_atomic_g_year_month_min_exclusive_3_nistxml_sv_iv_atomic_g_year_month_min_exclusive_4_1(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet minExclusive with value
     1970-06.
@@ -8291,11 +8828,12 @@ def test_atomic_g_year_month_min_exclusive_3_nistxml_sv_iv_atomic_g_year_month_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_min_exclusive_3_nistxml_sv_iv_atomic_g_year_month_min_exclusive_4_2(mode, save_output):
+def test_atomic_g_year_month_min_exclusive_3_nistxml_sv_iv_atomic_g_year_month_min_exclusive_4_2(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet minExclusive with value
     1970-06.
@@ -8307,11 +8845,12 @@ def test_atomic_g_year_month_min_exclusive_3_nistxml_sv_iv_atomic_g_year_month_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_min_exclusive_3_nistxml_sv_iv_atomic_g_year_month_min_exclusive_4_3(mode, save_output):
+def test_atomic_g_year_month_min_exclusive_3_nistxml_sv_iv_atomic_g_year_month_min_exclusive_4_3(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet minExclusive with value
     1970-06.
@@ -8323,11 +8862,12 @@ def test_atomic_g_year_month_min_exclusive_3_nistxml_sv_iv_atomic_g_year_month_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_min_exclusive_3_nistxml_sv_iv_atomic_g_year_month_min_exclusive_4_4(mode, save_output):
+def test_atomic_g_year_month_min_exclusive_3_nistxml_sv_iv_atomic_g_year_month_min_exclusive_4_4(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet minExclusive with value
     1970-06.
@@ -8339,11 +8879,12 @@ def test_atomic_g_year_month_min_exclusive_3_nistxml_sv_iv_atomic_g_year_month_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_min_exclusive_3_nistxml_sv_iv_atomic_g_year_month_min_exclusive_4_5(mode, save_output):
+def test_atomic_g_year_month_min_exclusive_3_nistxml_sv_iv_atomic_g_year_month_min_exclusive_4_5(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet minExclusive with value
     1970-06.
@@ -8355,11 +8896,12 @@ def test_atomic_g_year_month_min_exclusive_3_nistxml_sv_iv_atomic_g_year_month_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_min_exclusive_2_nistxml_sv_iv_atomic_g_year_month_min_exclusive_3_1(mode, save_output):
+def test_atomic_g_year_month_min_exclusive_2_nistxml_sv_iv_atomic_g_year_month_min_exclusive_3_1(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet minExclusive with value
     2029-04.
@@ -8371,11 +8913,12 @@ def test_atomic_g_year_month_min_exclusive_2_nistxml_sv_iv_atomic_g_year_month_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_min_exclusive_2_nistxml_sv_iv_atomic_g_year_month_min_exclusive_3_2(mode, save_output):
+def test_atomic_g_year_month_min_exclusive_2_nistxml_sv_iv_atomic_g_year_month_min_exclusive_3_2(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet minExclusive with value
     2029-04.
@@ -8387,11 +8930,12 @@ def test_atomic_g_year_month_min_exclusive_2_nistxml_sv_iv_atomic_g_year_month_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_min_exclusive_2_nistxml_sv_iv_atomic_g_year_month_min_exclusive_3_3(mode, save_output):
+def test_atomic_g_year_month_min_exclusive_2_nistxml_sv_iv_atomic_g_year_month_min_exclusive_3_3(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet minExclusive with value
     2029-04.
@@ -8403,11 +8947,12 @@ def test_atomic_g_year_month_min_exclusive_2_nistxml_sv_iv_atomic_g_year_month_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_min_exclusive_2_nistxml_sv_iv_atomic_g_year_month_min_exclusive_3_4(mode, save_output):
+def test_atomic_g_year_month_min_exclusive_2_nistxml_sv_iv_atomic_g_year_month_min_exclusive_3_4(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet minExclusive with value
     2029-04.
@@ -8419,11 +8964,12 @@ def test_atomic_g_year_month_min_exclusive_2_nistxml_sv_iv_atomic_g_year_month_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_min_exclusive_2_nistxml_sv_iv_atomic_g_year_month_min_exclusive_3_5(mode, save_output):
+def test_atomic_g_year_month_min_exclusive_2_nistxml_sv_iv_atomic_g_year_month_min_exclusive_3_5(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet minExclusive with value
     2029-04.
@@ -8435,11 +8981,12 @@ def test_atomic_g_year_month_min_exclusive_2_nistxml_sv_iv_atomic_g_year_month_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_min_exclusive_1_nistxml_sv_iv_atomic_g_year_month_min_exclusive_2_1(mode, save_output):
+def test_atomic_g_year_month_min_exclusive_1_nistxml_sv_iv_atomic_g_year_month_min_exclusive_2_1(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet minExclusive with value
     2030-01.
@@ -8451,11 +8998,12 @@ def test_atomic_g_year_month_min_exclusive_1_nistxml_sv_iv_atomic_g_year_month_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_min_exclusive_1_nistxml_sv_iv_atomic_g_year_month_min_exclusive_2_2(mode, save_output):
+def test_atomic_g_year_month_min_exclusive_1_nistxml_sv_iv_atomic_g_year_month_min_exclusive_2_2(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet minExclusive with value
     2030-01.
@@ -8467,11 +9015,12 @@ def test_atomic_g_year_month_min_exclusive_1_nistxml_sv_iv_atomic_g_year_month_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_min_exclusive_1_nistxml_sv_iv_atomic_g_year_month_min_exclusive_2_3(mode, save_output):
+def test_atomic_g_year_month_min_exclusive_1_nistxml_sv_iv_atomic_g_year_month_min_exclusive_2_3(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet minExclusive with value
     2030-01.
@@ -8483,11 +9032,12 @@ def test_atomic_g_year_month_min_exclusive_1_nistxml_sv_iv_atomic_g_year_month_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_min_exclusive_1_nistxml_sv_iv_atomic_g_year_month_min_exclusive_2_4(mode, save_output):
+def test_atomic_g_year_month_min_exclusive_1_nistxml_sv_iv_atomic_g_year_month_min_exclusive_2_4(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet minExclusive with value
     2030-01.
@@ -8499,11 +9049,12 @@ def test_atomic_g_year_month_min_exclusive_1_nistxml_sv_iv_atomic_g_year_month_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_min_exclusive_1_nistxml_sv_iv_atomic_g_year_month_min_exclusive_2_5(mode, save_output):
+def test_atomic_g_year_month_min_exclusive_1_nistxml_sv_iv_atomic_g_year_month_min_exclusive_2_5(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet minExclusive with value
     2030-01.
@@ -8515,11 +9066,12 @@ def test_atomic_g_year_month_min_exclusive_1_nistxml_sv_iv_atomic_g_year_month_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_min_exclusive_nistxml_sv_iv_atomic_g_year_month_min_exclusive_1_1(mode, save_output):
+def test_atomic_g_year_month_min_exclusive_nistxml_sv_iv_atomic_g_year_month_min_exclusive_1_1(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet minExclusive with value
     1970-01.
@@ -8531,11 +9083,12 @@ def test_atomic_g_year_month_min_exclusive_nistxml_sv_iv_atomic_g_year_month_min
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_min_exclusive_nistxml_sv_iv_atomic_g_year_month_min_exclusive_1_2(mode, save_output):
+def test_atomic_g_year_month_min_exclusive_nistxml_sv_iv_atomic_g_year_month_min_exclusive_1_2(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet minExclusive with value
     1970-01.
@@ -8547,11 +9100,12 @@ def test_atomic_g_year_month_min_exclusive_nistxml_sv_iv_atomic_g_year_month_min
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_min_exclusive_nistxml_sv_iv_atomic_g_year_month_min_exclusive_1_3(mode, save_output):
+def test_atomic_g_year_month_min_exclusive_nistxml_sv_iv_atomic_g_year_month_min_exclusive_1_3(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet minExclusive with value
     1970-01.
@@ -8563,11 +9117,12 @@ def test_atomic_g_year_month_min_exclusive_nistxml_sv_iv_atomic_g_year_month_min
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_min_exclusive_nistxml_sv_iv_atomic_g_year_month_min_exclusive_1_4(mode, save_output):
+def test_atomic_g_year_month_min_exclusive_nistxml_sv_iv_atomic_g_year_month_min_exclusive_1_4(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet minExclusive with value
     1970-01.
@@ -8579,11 +9134,12 @@ def test_atomic_g_year_month_min_exclusive_nistxml_sv_iv_atomic_g_year_month_min
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_year_month_min_exclusive_nistxml_sv_iv_atomic_g_year_month_min_exclusive_1_5(mode, save_output):
+def test_atomic_g_year_month_min_exclusive_nistxml_sv_iv_atomic_g_year_month_min_exclusive_1_5(mode, save_output, output_format):
     """
     Type atomic/gYearMonth is restricted by facet minExclusive with value
     1970-01.
@@ -8595,11 +9151,12 @@ def test_atomic_g_year_month_min_exclusive_nistxml_sv_iv_atomic_g_year_month_min
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_white_space_nistxml_sv_iv_atomic_date_white_space_1_1(mode, save_output):
+def test_atomic_date_white_space_nistxml_sv_iv_atomic_date_white_space_1_1(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet whiteSpace with value
     collapse.
@@ -8611,11 +9168,12 @@ def test_atomic_date_white_space_nistxml_sv_iv_atomic_date_white_space_1_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_white_space_nistxml_sv_iv_atomic_date_white_space_1_2(mode, save_output):
+def test_atomic_date_white_space_nistxml_sv_iv_atomic_date_white_space_1_2(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet whiteSpace with value
     collapse.
@@ -8627,11 +9185,12 @@ def test_atomic_date_white_space_nistxml_sv_iv_atomic_date_white_space_1_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_white_space_nistxml_sv_iv_atomic_date_white_space_1_3(mode, save_output):
+def test_atomic_date_white_space_nistxml_sv_iv_atomic_date_white_space_1_3(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet whiteSpace with value
     collapse.
@@ -8643,11 +9202,12 @@ def test_atomic_date_white_space_nistxml_sv_iv_atomic_date_white_space_1_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_white_space_nistxml_sv_iv_atomic_date_white_space_1_4(mode, save_output):
+def test_atomic_date_white_space_nistxml_sv_iv_atomic_date_white_space_1_4(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet whiteSpace with value
     collapse.
@@ -8659,11 +9219,12 @@ def test_atomic_date_white_space_nistxml_sv_iv_atomic_date_white_space_1_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_white_space_nistxml_sv_iv_atomic_date_white_space_1_5(mode, save_output):
+def test_atomic_date_white_space_nistxml_sv_iv_atomic_date_white_space_1_5(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet whiteSpace with value
     collapse.
@@ -8675,11 +9236,12 @@ def test_atomic_date_white_space_nistxml_sv_iv_atomic_date_white_space_1_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_enumeration_4_nistxml_sv_iv_atomic_date_enumeration_5_1(mode, save_output):
+def test_atomic_date_enumeration_4_nistxml_sv_iv_atomic_date_enumeration_5_1(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet enumeration.
     """
@@ -8690,11 +9252,12 @@ def test_atomic_date_enumeration_4_nistxml_sv_iv_atomic_date_enumeration_5_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_enumeration_4_nistxml_sv_iv_atomic_date_enumeration_5_2(mode, save_output):
+def test_atomic_date_enumeration_4_nistxml_sv_iv_atomic_date_enumeration_5_2(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet enumeration.
     """
@@ -8705,11 +9268,12 @@ def test_atomic_date_enumeration_4_nistxml_sv_iv_atomic_date_enumeration_5_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_enumeration_4_nistxml_sv_iv_atomic_date_enumeration_5_3(mode, save_output):
+def test_atomic_date_enumeration_4_nistxml_sv_iv_atomic_date_enumeration_5_3(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet enumeration.
     """
@@ -8720,11 +9284,12 @@ def test_atomic_date_enumeration_4_nistxml_sv_iv_atomic_date_enumeration_5_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_enumeration_4_nistxml_sv_iv_atomic_date_enumeration_5_4(mode, save_output):
+def test_atomic_date_enumeration_4_nistxml_sv_iv_atomic_date_enumeration_5_4(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet enumeration.
     """
@@ -8735,11 +9300,12 @@ def test_atomic_date_enumeration_4_nistxml_sv_iv_atomic_date_enumeration_5_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_enumeration_4_nistxml_sv_iv_atomic_date_enumeration_5_5(mode, save_output):
+def test_atomic_date_enumeration_4_nistxml_sv_iv_atomic_date_enumeration_5_5(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet enumeration.
     """
@@ -8750,11 +9316,12 @@ def test_atomic_date_enumeration_4_nistxml_sv_iv_atomic_date_enumeration_5_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_enumeration_3_nistxml_sv_iv_atomic_date_enumeration_4_1(mode, save_output):
+def test_atomic_date_enumeration_3_nistxml_sv_iv_atomic_date_enumeration_4_1(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet enumeration.
     """
@@ -8765,11 +9332,12 @@ def test_atomic_date_enumeration_3_nistxml_sv_iv_atomic_date_enumeration_4_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_enumeration_3_nistxml_sv_iv_atomic_date_enumeration_4_2(mode, save_output):
+def test_atomic_date_enumeration_3_nistxml_sv_iv_atomic_date_enumeration_4_2(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet enumeration.
     """
@@ -8780,11 +9348,12 @@ def test_atomic_date_enumeration_3_nistxml_sv_iv_atomic_date_enumeration_4_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_enumeration_3_nistxml_sv_iv_atomic_date_enumeration_4_3(mode, save_output):
+def test_atomic_date_enumeration_3_nistxml_sv_iv_atomic_date_enumeration_4_3(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet enumeration.
     """
@@ -8795,11 +9364,12 @@ def test_atomic_date_enumeration_3_nistxml_sv_iv_atomic_date_enumeration_4_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_enumeration_3_nistxml_sv_iv_atomic_date_enumeration_4_4(mode, save_output):
+def test_atomic_date_enumeration_3_nistxml_sv_iv_atomic_date_enumeration_4_4(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet enumeration.
     """
@@ -8810,11 +9380,12 @@ def test_atomic_date_enumeration_3_nistxml_sv_iv_atomic_date_enumeration_4_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_enumeration_3_nistxml_sv_iv_atomic_date_enumeration_4_5(mode, save_output):
+def test_atomic_date_enumeration_3_nistxml_sv_iv_atomic_date_enumeration_4_5(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet enumeration.
     """
@@ -8825,11 +9396,12 @@ def test_atomic_date_enumeration_3_nistxml_sv_iv_atomic_date_enumeration_4_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_enumeration_2_nistxml_sv_iv_atomic_date_enumeration_3_1(mode, save_output):
+def test_atomic_date_enumeration_2_nistxml_sv_iv_atomic_date_enumeration_3_1(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet enumeration.
     """
@@ -8840,11 +9412,12 @@ def test_atomic_date_enumeration_2_nistxml_sv_iv_atomic_date_enumeration_3_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_enumeration_2_nistxml_sv_iv_atomic_date_enumeration_3_2(mode, save_output):
+def test_atomic_date_enumeration_2_nistxml_sv_iv_atomic_date_enumeration_3_2(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet enumeration.
     """
@@ -8855,11 +9428,12 @@ def test_atomic_date_enumeration_2_nistxml_sv_iv_atomic_date_enumeration_3_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_enumeration_2_nistxml_sv_iv_atomic_date_enumeration_3_3(mode, save_output):
+def test_atomic_date_enumeration_2_nistxml_sv_iv_atomic_date_enumeration_3_3(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet enumeration.
     """
@@ -8870,11 +9444,12 @@ def test_atomic_date_enumeration_2_nistxml_sv_iv_atomic_date_enumeration_3_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_enumeration_2_nistxml_sv_iv_atomic_date_enumeration_3_4(mode, save_output):
+def test_atomic_date_enumeration_2_nistxml_sv_iv_atomic_date_enumeration_3_4(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet enumeration.
     """
@@ -8885,11 +9460,12 @@ def test_atomic_date_enumeration_2_nistxml_sv_iv_atomic_date_enumeration_3_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_enumeration_2_nistxml_sv_iv_atomic_date_enumeration_3_5(mode, save_output):
+def test_atomic_date_enumeration_2_nistxml_sv_iv_atomic_date_enumeration_3_5(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet enumeration.
     """
@@ -8900,11 +9476,12 @@ def test_atomic_date_enumeration_2_nistxml_sv_iv_atomic_date_enumeration_3_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_enumeration_1_nistxml_sv_iv_atomic_date_enumeration_2_1(mode, save_output):
+def test_atomic_date_enumeration_1_nistxml_sv_iv_atomic_date_enumeration_2_1(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet enumeration.
     """
@@ -8915,11 +9492,12 @@ def test_atomic_date_enumeration_1_nistxml_sv_iv_atomic_date_enumeration_2_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_enumeration_1_nistxml_sv_iv_atomic_date_enumeration_2_2(mode, save_output):
+def test_atomic_date_enumeration_1_nistxml_sv_iv_atomic_date_enumeration_2_2(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet enumeration.
     """
@@ -8930,11 +9508,12 @@ def test_atomic_date_enumeration_1_nistxml_sv_iv_atomic_date_enumeration_2_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_enumeration_1_nistxml_sv_iv_atomic_date_enumeration_2_3(mode, save_output):
+def test_atomic_date_enumeration_1_nistxml_sv_iv_atomic_date_enumeration_2_3(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet enumeration.
     """
@@ -8945,11 +9524,12 @@ def test_atomic_date_enumeration_1_nistxml_sv_iv_atomic_date_enumeration_2_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_enumeration_1_nistxml_sv_iv_atomic_date_enumeration_2_4(mode, save_output):
+def test_atomic_date_enumeration_1_nistxml_sv_iv_atomic_date_enumeration_2_4(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet enumeration.
     """
@@ -8960,11 +9540,12 @@ def test_atomic_date_enumeration_1_nistxml_sv_iv_atomic_date_enumeration_2_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_enumeration_1_nistxml_sv_iv_atomic_date_enumeration_2_5(mode, save_output):
+def test_atomic_date_enumeration_1_nistxml_sv_iv_atomic_date_enumeration_2_5(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet enumeration.
     """
@@ -8975,11 +9556,12 @@ def test_atomic_date_enumeration_1_nistxml_sv_iv_atomic_date_enumeration_2_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_enumeration_nistxml_sv_iv_atomic_date_enumeration_1_1(mode, save_output):
+def test_atomic_date_enumeration_nistxml_sv_iv_atomic_date_enumeration_1_1(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet enumeration.
     """
@@ -8990,11 +9572,12 @@ def test_atomic_date_enumeration_nistxml_sv_iv_atomic_date_enumeration_1_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_enumeration_nistxml_sv_iv_atomic_date_enumeration_1_2(mode, save_output):
+def test_atomic_date_enumeration_nistxml_sv_iv_atomic_date_enumeration_1_2(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet enumeration.
     """
@@ -9005,11 +9588,12 @@ def test_atomic_date_enumeration_nistxml_sv_iv_atomic_date_enumeration_1_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_enumeration_nistxml_sv_iv_atomic_date_enumeration_1_3(mode, save_output):
+def test_atomic_date_enumeration_nistxml_sv_iv_atomic_date_enumeration_1_3(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet enumeration.
     """
@@ -9020,11 +9604,12 @@ def test_atomic_date_enumeration_nistxml_sv_iv_atomic_date_enumeration_1_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_enumeration_nistxml_sv_iv_atomic_date_enumeration_1_4(mode, save_output):
+def test_atomic_date_enumeration_nistxml_sv_iv_atomic_date_enumeration_1_4(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet enumeration.
     """
@@ -9035,11 +9620,12 @@ def test_atomic_date_enumeration_nistxml_sv_iv_atomic_date_enumeration_1_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_enumeration_nistxml_sv_iv_atomic_date_enumeration_1_5(mode, save_output):
+def test_atomic_date_enumeration_nistxml_sv_iv_atomic_date_enumeration_1_5(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet enumeration.
     """
@@ -9050,11 +9636,12 @@ def test_atomic_date_enumeration_nistxml_sv_iv_atomic_date_enumeration_1_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_pattern_4_nistxml_sv_iv_atomic_date_pattern_5_1(mode, save_output):
+def test_atomic_date_pattern_4_nistxml_sv_iv_atomic_date_pattern_5_1(mode, save_output, output_format):
     r"""
     Type atomic/date is restricted by facet pattern with value
     \d\d44-\d2-\d5.
@@ -9066,11 +9653,12 @@ def test_atomic_date_pattern_4_nistxml_sv_iv_atomic_date_pattern_5_1(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_pattern_4_nistxml_sv_iv_atomic_date_pattern_5_2(mode, save_output):
+def test_atomic_date_pattern_4_nistxml_sv_iv_atomic_date_pattern_5_2(mode, save_output, output_format):
     r"""
     Type atomic/date is restricted by facet pattern with value
     \d\d44-\d2-\d5.
@@ -9082,11 +9670,12 @@ def test_atomic_date_pattern_4_nistxml_sv_iv_atomic_date_pattern_5_2(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_pattern_4_nistxml_sv_iv_atomic_date_pattern_5_3(mode, save_output):
+def test_atomic_date_pattern_4_nistxml_sv_iv_atomic_date_pattern_5_3(mode, save_output, output_format):
     r"""
     Type atomic/date is restricted by facet pattern with value
     \d\d44-\d2-\d5.
@@ -9098,11 +9687,12 @@ def test_atomic_date_pattern_4_nistxml_sv_iv_atomic_date_pattern_5_3(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_pattern_4_nistxml_sv_iv_atomic_date_pattern_5_4(mode, save_output):
+def test_atomic_date_pattern_4_nistxml_sv_iv_atomic_date_pattern_5_4(mode, save_output, output_format):
     r"""
     Type atomic/date is restricted by facet pattern with value
     \d\d44-\d2-\d5.
@@ -9114,11 +9704,12 @@ def test_atomic_date_pattern_4_nistxml_sv_iv_atomic_date_pattern_5_4(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_pattern_4_nistxml_sv_iv_atomic_date_pattern_5_5(mode, save_output):
+def test_atomic_date_pattern_4_nistxml_sv_iv_atomic_date_pattern_5_5(mode, save_output, output_format):
     r"""
     Type atomic/date is restricted by facet pattern with value
     \d\d44-\d2-\d5.
@@ -9130,11 +9721,12 @@ def test_atomic_date_pattern_4_nistxml_sv_iv_atomic_date_pattern_5_5(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_pattern_3_nistxml_sv_iv_atomic_date_pattern_4_1(mode, save_output):
+def test_atomic_date_pattern_3_nistxml_sv_iv_atomic_date_pattern_4_1(mode, save_output, output_format):
     r"""
     Type atomic/date is restricted by facet pattern with value
     17\d\d-\d0-1\d.
@@ -9146,11 +9738,12 @@ def test_atomic_date_pattern_3_nistxml_sv_iv_atomic_date_pattern_4_1(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_pattern_3_nistxml_sv_iv_atomic_date_pattern_4_2(mode, save_output):
+def test_atomic_date_pattern_3_nistxml_sv_iv_atomic_date_pattern_4_2(mode, save_output, output_format):
     r"""
     Type atomic/date is restricted by facet pattern with value
     17\d\d-\d0-1\d.
@@ -9162,11 +9755,12 @@ def test_atomic_date_pattern_3_nistxml_sv_iv_atomic_date_pattern_4_2(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_pattern_3_nistxml_sv_iv_atomic_date_pattern_4_3(mode, save_output):
+def test_atomic_date_pattern_3_nistxml_sv_iv_atomic_date_pattern_4_3(mode, save_output, output_format):
     r"""
     Type atomic/date is restricted by facet pattern with value
     17\d\d-\d0-1\d.
@@ -9178,11 +9772,12 @@ def test_atomic_date_pattern_3_nistxml_sv_iv_atomic_date_pattern_4_3(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_pattern_3_nistxml_sv_iv_atomic_date_pattern_4_4(mode, save_output):
+def test_atomic_date_pattern_3_nistxml_sv_iv_atomic_date_pattern_4_4(mode, save_output, output_format):
     r"""
     Type atomic/date is restricted by facet pattern with value
     17\d\d-\d0-1\d.
@@ -9194,11 +9789,12 @@ def test_atomic_date_pattern_3_nistxml_sv_iv_atomic_date_pattern_4_4(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_pattern_3_nistxml_sv_iv_atomic_date_pattern_4_5(mode, save_output):
+def test_atomic_date_pattern_3_nistxml_sv_iv_atomic_date_pattern_4_5(mode, save_output, output_format):
     r"""
     Type atomic/date is restricted by facet pattern with value
     17\d\d-\d0-1\d.
@@ -9210,11 +9806,12 @@ def test_atomic_date_pattern_3_nistxml_sv_iv_atomic_date_pattern_4_5(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_pattern_2_nistxml_sv_iv_atomic_date_pattern_3_1(mode, save_output):
+def test_atomic_date_pattern_2_nistxml_sv_iv_atomic_date_pattern_3_1(mode, save_output, output_format):
     r"""
     Type atomic/date is restricted by facet pattern with value
     \d\d90-\d7-2\d.
@@ -9226,11 +9823,12 @@ def test_atomic_date_pattern_2_nistxml_sv_iv_atomic_date_pattern_3_1(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_pattern_2_nistxml_sv_iv_atomic_date_pattern_3_2(mode, save_output):
+def test_atomic_date_pattern_2_nistxml_sv_iv_atomic_date_pattern_3_2(mode, save_output, output_format):
     r"""
     Type atomic/date is restricted by facet pattern with value
     \d\d90-\d7-2\d.
@@ -9242,11 +9840,12 @@ def test_atomic_date_pattern_2_nistxml_sv_iv_atomic_date_pattern_3_2(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_pattern_2_nistxml_sv_iv_atomic_date_pattern_3_3(mode, save_output):
+def test_atomic_date_pattern_2_nistxml_sv_iv_atomic_date_pattern_3_3(mode, save_output, output_format):
     r"""
     Type atomic/date is restricted by facet pattern with value
     \d\d90-\d7-2\d.
@@ -9258,11 +9857,12 @@ def test_atomic_date_pattern_2_nistxml_sv_iv_atomic_date_pattern_3_3(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_pattern_2_nistxml_sv_iv_atomic_date_pattern_3_4(mode, save_output):
+def test_atomic_date_pattern_2_nistxml_sv_iv_atomic_date_pattern_3_4(mode, save_output, output_format):
     r"""
     Type atomic/date is restricted by facet pattern with value
     \d\d90-\d7-2\d.
@@ -9274,11 +9874,12 @@ def test_atomic_date_pattern_2_nistxml_sv_iv_atomic_date_pattern_3_4(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_pattern_2_nistxml_sv_iv_atomic_date_pattern_3_5(mode, save_output):
+def test_atomic_date_pattern_2_nistxml_sv_iv_atomic_date_pattern_3_5(mode, save_output, output_format):
     r"""
     Type atomic/date is restricted by facet pattern with value
     \d\d90-\d7-2\d.
@@ -9290,11 +9891,12 @@ def test_atomic_date_pattern_2_nistxml_sv_iv_atomic_date_pattern_3_5(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_pattern_1_nistxml_sv_iv_atomic_date_pattern_2_1(mode, save_output):
+def test_atomic_date_pattern_1_nistxml_sv_iv_atomic_date_pattern_2_1(mode, save_output, output_format):
     r"""
     Type atomic/date is restricted by facet pattern with value
     \d\d10-\d4-1\d.
@@ -9306,11 +9908,12 @@ def test_atomic_date_pattern_1_nistxml_sv_iv_atomic_date_pattern_2_1(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_pattern_1_nistxml_sv_iv_atomic_date_pattern_2_2(mode, save_output):
+def test_atomic_date_pattern_1_nistxml_sv_iv_atomic_date_pattern_2_2(mode, save_output, output_format):
     r"""
     Type atomic/date is restricted by facet pattern with value
     \d\d10-\d4-1\d.
@@ -9322,11 +9925,12 @@ def test_atomic_date_pattern_1_nistxml_sv_iv_atomic_date_pattern_2_2(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_pattern_1_nistxml_sv_iv_atomic_date_pattern_2_3(mode, save_output):
+def test_atomic_date_pattern_1_nistxml_sv_iv_atomic_date_pattern_2_3(mode, save_output, output_format):
     r"""
     Type atomic/date is restricted by facet pattern with value
     \d\d10-\d4-1\d.
@@ -9338,11 +9942,12 @@ def test_atomic_date_pattern_1_nistxml_sv_iv_atomic_date_pattern_2_3(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_pattern_1_nistxml_sv_iv_atomic_date_pattern_2_4(mode, save_output):
+def test_atomic_date_pattern_1_nistxml_sv_iv_atomic_date_pattern_2_4(mode, save_output, output_format):
     r"""
     Type atomic/date is restricted by facet pattern with value
     \d\d10-\d4-1\d.
@@ -9354,11 +9959,12 @@ def test_atomic_date_pattern_1_nistxml_sv_iv_atomic_date_pattern_2_4(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_pattern_1_nistxml_sv_iv_atomic_date_pattern_2_5(mode, save_output):
+def test_atomic_date_pattern_1_nistxml_sv_iv_atomic_date_pattern_2_5(mode, save_output, output_format):
     r"""
     Type atomic/date is restricted by facet pattern with value
     \d\d10-\d4-1\d.
@@ -9370,11 +9976,12 @@ def test_atomic_date_pattern_1_nistxml_sv_iv_atomic_date_pattern_2_5(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_pattern_nistxml_sv_iv_atomic_date_pattern_1_1(mode, save_output):
+def test_atomic_date_pattern_nistxml_sv_iv_atomic_date_pattern_1_1(mode, save_output, output_format):
     r"""
     Type atomic/date is restricted by facet pattern with value
     \d\d58-0\d-\d8.
@@ -9386,11 +9993,12 @@ def test_atomic_date_pattern_nistxml_sv_iv_atomic_date_pattern_1_1(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_pattern_nistxml_sv_iv_atomic_date_pattern_1_2(mode, save_output):
+def test_atomic_date_pattern_nistxml_sv_iv_atomic_date_pattern_1_2(mode, save_output, output_format):
     r"""
     Type atomic/date is restricted by facet pattern with value
     \d\d58-0\d-\d8.
@@ -9402,11 +10010,12 @@ def test_atomic_date_pattern_nistxml_sv_iv_atomic_date_pattern_1_2(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_pattern_nistxml_sv_iv_atomic_date_pattern_1_3(mode, save_output):
+def test_atomic_date_pattern_nistxml_sv_iv_atomic_date_pattern_1_3(mode, save_output, output_format):
     r"""
     Type atomic/date is restricted by facet pattern with value
     \d\d58-0\d-\d8.
@@ -9418,11 +10027,12 @@ def test_atomic_date_pattern_nistxml_sv_iv_atomic_date_pattern_1_3(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_pattern_nistxml_sv_iv_atomic_date_pattern_1_4(mode, save_output):
+def test_atomic_date_pattern_nistxml_sv_iv_atomic_date_pattern_1_4(mode, save_output, output_format):
     r"""
     Type atomic/date is restricted by facet pattern with value
     \d\d58-0\d-\d8.
@@ -9434,11 +10044,12 @@ def test_atomic_date_pattern_nistxml_sv_iv_atomic_date_pattern_1_4(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_pattern_nistxml_sv_iv_atomic_date_pattern_1_5(mode, save_output):
+def test_atomic_date_pattern_nistxml_sv_iv_atomic_date_pattern_1_5(mode, save_output, output_format):
     r"""
     Type atomic/date is restricted by facet pattern with value
     \d\d58-0\d-\d8.
@@ -9450,11 +10061,12 @@ def test_atomic_date_pattern_nistxml_sv_iv_atomic_date_pattern_1_5(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_max_inclusive_4_nistxml_sv_iv_atomic_date_max_inclusive_5_1(mode, save_output):
+def test_atomic_date_max_inclusive_4_nistxml_sv_iv_atomic_date_max_inclusive_5_1(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet maxInclusive with value
     2030-12-31.
@@ -9466,11 +10078,12 @@ def test_atomic_date_max_inclusive_4_nistxml_sv_iv_atomic_date_max_inclusive_5_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_max_inclusive_4_nistxml_sv_iv_atomic_date_max_inclusive_5_2(mode, save_output):
+def test_atomic_date_max_inclusive_4_nistxml_sv_iv_atomic_date_max_inclusive_5_2(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet maxInclusive with value
     2030-12-31.
@@ -9482,11 +10095,12 @@ def test_atomic_date_max_inclusive_4_nistxml_sv_iv_atomic_date_max_inclusive_5_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_max_inclusive_4_nistxml_sv_iv_atomic_date_max_inclusive_5_3(mode, save_output):
+def test_atomic_date_max_inclusive_4_nistxml_sv_iv_atomic_date_max_inclusive_5_3(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet maxInclusive with value
     2030-12-31.
@@ -9498,11 +10112,12 @@ def test_atomic_date_max_inclusive_4_nistxml_sv_iv_atomic_date_max_inclusive_5_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_max_inclusive_4_nistxml_sv_iv_atomic_date_max_inclusive_5_4(mode, save_output):
+def test_atomic_date_max_inclusive_4_nistxml_sv_iv_atomic_date_max_inclusive_5_4(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet maxInclusive with value
     2030-12-31.
@@ -9514,11 +10129,12 @@ def test_atomic_date_max_inclusive_4_nistxml_sv_iv_atomic_date_max_inclusive_5_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_max_inclusive_4_nistxml_sv_iv_atomic_date_max_inclusive_5_5(mode, save_output):
+def test_atomic_date_max_inclusive_4_nistxml_sv_iv_atomic_date_max_inclusive_5_5(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet maxInclusive with value
     2030-12-31.
@@ -9530,11 +10146,12 @@ def test_atomic_date_max_inclusive_4_nistxml_sv_iv_atomic_date_max_inclusive_5_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_max_inclusive_3_nistxml_sv_iv_atomic_date_max_inclusive_4_1(mode, save_output):
+def test_atomic_date_max_inclusive_3_nistxml_sv_iv_atomic_date_max_inclusive_4_1(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet maxInclusive with value
     1971-01-23.
@@ -9546,11 +10163,12 @@ def test_atomic_date_max_inclusive_3_nistxml_sv_iv_atomic_date_max_inclusive_4_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_max_inclusive_3_nistxml_sv_iv_atomic_date_max_inclusive_4_2(mode, save_output):
+def test_atomic_date_max_inclusive_3_nistxml_sv_iv_atomic_date_max_inclusive_4_2(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet maxInclusive with value
     1971-01-23.
@@ -9562,11 +10180,12 @@ def test_atomic_date_max_inclusive_3_nistxml_sv_iv_atomic_date_max_inclusive_4_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_max_inclusive_3_nistxml_sv_iv_atomic_date_max_inclusive_4_3(mode, save_output):
+def test_atomic_date_max_inclusive_3_nistxml_sv_iv_atomic_date_max_inclusive_4_3(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet maxInclusive with value
     1971-01-23.
@@ -9578,11 +10197,12 @@ def test_atomic_date_max_inclusive_3_nistxml_sv_iv_atomic_date_max_inclusive_4_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_max_inclusive_3_nistxml_sv_iv_atomic_date_max_inclusive_4_4(mode, save_output):
+def test_atomic_date_max_inclusive_3_nistxml_sv_iv_atomic_date_max_inclusive_4_4(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet maxInclusive with value
     1971-01-23.
@@ -9594,11 +10214,12 @@ def test_atomic_date_max_inclusive_3_nistxml_sv_iv_atomic_date_max_inclusive_4_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_max_inclusive_3_nistxml_sv_iv_atomic_date_max_inclusive_4_5(mode, save_output):
+def test_atomic_date_max_inclusive_3_nistxml_sv_iv_atomic_date_max_inclusive_4_5(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet maxInclusive with value
     1971-01-23.
@@ -9610,11 +10231,12 @@ def test_atomic_date_max_inclusive_3_nistxml_sv_iv_atomic_date_max_inclusive_4_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_max_inclusive_2_nistxml_sv_iv_atomic_date_max_inclusive_3_1(mode, save_output):
+def test_atomic_date_max_inclusive_2_nistxml_sv_iv_atomic_date_max_inclusive_3_1(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet maxInclusive with value
     2020-12-27.
@@ -9626,11 +10248,12 @@ def test_atomic_date_max_inclusive_2_nistxml_sv_iv_atomic_date_max_inclusive_3_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_max_inclusive_2_nistxml_sv_iv_atomic_date_max_inclusive_3_2(mode, save_output):
+def test_atomic_date_max_inclusive_2_nistxml_sv_iv_atomic_date_max_inclusive_3_2(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet maxInclusive with value
     2020-12-27.
@@ -9642,11 +10265,12 @@ def test_atomic_date_max_inclusive_2_nistxml_sv_iv_atomic_date_max_inclusive_3_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_max_inclusive_2_nistxml_sv_iv_atomic_date_max_inclusive_3_3(mode, save_output):
+def test_atomic_date_max_inclusive_2_nistxml_sv_iv_atomic_date_max_inclusive_3_3(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet maxInclusive with value
     2020-12-27.
@@ -9658,11 +10282,12 @@ def test_atomic_date_max_inclusive_2_nistxml_sv_iv_atomic_date_max_inclusive_3_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_max_inclusive_2_nistxml_sv_iv_atomic_date_max_inclusive_3_4(mode, save_output):
+def test_atomic_date_max_inclusive_2_nistxml_sv_iv_atomic_date_max_inclusive_3_4(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet maxInclusive with value
     2020-12-27.
@@ -9674,11 +10299,12 @@ def test_atomic_date_max_inclusive_2_nistxml_sv_iv_atomic_date_max_inclusive_3_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_max_inclusive_2_nistxml_sv_iv_atomic_date_max_inclusive_3_5(mode, save_output):
+def test_atomic_date_max_inclusive_2_nistxml_sv_iv_atomic_date_max_inclusive_3_5(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet maxInclusive with value
     2020-12-27.
@@ -9690,11 +10316,12 @@ def test_atomic_date_max_inclusive_2_nistxml_sv_iv_atomic_date_max_inclusive_3_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_max_inclusive_1_nistxml_sv_iv_atomic_date_max_inclusive_2_1(mode, save_output):
+def test_atomic_date_max_inclusive_1_nistxml_sv_iv_atomic_date_max_inclusive_2_1(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet maxInclusive with value
     2029-09-09.
@@ -9706,11 +10333,12 @@ def test_atomic_date_max_inclusive_1_nistxml_sv_iv_atomic_date_max_inclusive_2_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_max_inclusive_1_nistxml_sv_iv_atomic_date_max_inclusive_2_2(mode, save_output):
+def test_atomic_date_max_inclusive_1_nistxml_sv_iv_atomic_date_max_inclusive_2_2(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet maxInclusive with value
     2029-09-09.
@@ -9722,11 +10350,12 @@ def test_atomic_date_max_inclusive_1_nistxml_sv_iv_atomic_date_max_inclusive_2_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_max_inclusive_1_nistxml_sv_iv_atomic_date_max_inclusive_2_3(mode, save_output):
+def test_atomic_date_max_inclusive_1_nistxml_sv_iv_atomic_date_max_inclusive_2_3(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet maxInclusive with value
     2029-09-09.
@@ -9738,11 +10367,12 @@ def test_atomic_date_max_inclusive_1_nistxml_sv_iv_atomic_date_max_inclusive_2_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_max_inclusive_1_nistxml_sv_iv_atomic_date_max_inclusive_2_4(mode, save_output):
+def test_atomic_date_max_inclusive_1_nistxml_sv_iv_atomic_date_max_inclusive_2_4(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet maxInclusive with value
     2029-09-09.
@@ -9754,11 +10384,12 @@ def test_atomic_date_max_inclusive_1_nistxml_sv_iv_atomic_date_max_inclusive_2_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_max_inclusive_1_nistxml_sv_iv_atomic_date_max_inclusive_2_5(mode, save_output):
+def test_atomic_date_max_inclusive_1_nistxml_sv_iv_atomic_date_max_inclusive_2_5(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet maxInclusive with value
     2029-09-09.
@@ -9770,11 +10401,12 @@ def test_atomic_date_max_inclusive_1_nistxml_sv_iv_atomic_date_max_inclusive_2_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_max_inclusive_nistxml_sv_iv_atomic_date_max_inclusive_1_1(mode, save_output):
+def test_atomic_date_max_inclusive_nistxml_sv_iv_atomic_date_max_inclusive_1_1(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet maxInclusive with value
     1970-01-01.
@@ -9786,11 +10418,12 @@ def test_atomic_date_max_inclusive_nistxml_sv_iv_atomic_date_max_inclusive_1_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_max_exclusive_4_nistxml_sv_iv_atomic_date_max_exclusive_5_1(mode, save_output):
+def test_atomic_date_max_exclusive_4_nistxml_sv_iv_atomic_date_max_exclusive_5_1(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet maxExclusive with value
     2030-12-31.
@@ -9802,11 +10435,12 @@ def test_atomic_date_max_exclusive_4_nistxml_sv_iv_atomic_date_max_exclusive_5_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_max_exclusive_4_nistxml_sv_iv_atomic_date_max_exclusive_5_2(mode, save_output):
+def test_atomic_date_max_exclusive_4_nistxml_sv_iv_atomic_date_max_exclusive_5_2(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet maxExclusive with value
     2030-12-31.
@@ -9818,11 +10452,12 @@ def test_atomic_date_max_exclusive_4_nistxml_sv_iv_atomic_date_max_exclusive_5_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_max_exclusive_4_nistxml_sv_iv_atomic_date_max_exclusive_5_3(mode, save_output):
+def test_atomic_date_max_exclusive_4_nistxml_sv_iv_atomic_date_max_exclusive_5_3(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet maxExclusive with value
     2030-12-31.
@@ -9834,11 +10469,12 @@ def test_atomic_date_max_exclusive_4_nistxml_sv_iv_atomic_date_max_exclusive_5_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_max_exclusive_4_nistxml_sv_iv_atomic_date_max_exclusive_5_4(mode, save_output):
+def test_atomic_date_max_exclusive_4_nistxml_sv_iv_atomic_date_max_exclusive_5_4(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet maxExclusive with value
     2030-12-31.
@@ -9850,11 +10486,12 @@ def test_atomic_date_max_exclusive_4_nistxml_sv_iv_atomic_date_max_exclusive_5_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_max_exclusive_4_nistxml_sv_iv_atomic_date_max_exclusive_5_5(mode, save_output):
+def test_atomic_date_max_exclusive_4_nistxml_sv_iv_atomic_date_max_exclusive_5_5(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet maxExclusive with value
     2030-12-31.
@@ -9866,11 +10503,12 @@ def test_atomic_date_max_exclusive_4_nistxml_sv_iv_atomic_date_max_exclusive_5_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_max_exclusive_3_nistxml_sv_iv_atomic_date_max_exclusive_4_1(mode, save_output):
+def test_atomic_date_max_exclusive_3_nistxml_sv_iv_atomic_date_max_exclusive_4_1(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet maxExclusive with value
     2027-10-13.
@@ -9882,11 +10520,12 @@ def test_atomic_date_max_exclusive_3_nistxml_sv_iv_atomic_date_max_exclusive_4_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_max_exclusive_3_nistxml_sv_iv_atomic_date_max_exclusive_4_2(mode, save_output):
+def test_atomic_date_max_exclusive_3_nistxml_sv_iv_atomic_date_max_exclusive_4_2(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet maxExclusive with value
     2027-10-13.
@@ -9898,11 +10537,12 @@ def test_atomic_date_max_exclusive_3_nistxml_sv_iv_atomic_date_max_exclusive_4_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_max_exclusive_3_nistxml_sv_iv_atomic_date_max_exclusive_4_3(mode, save_output):
+def test_atomic_date_max_exclusive_3_nistxml_sv_iv_atomic_date_max_exclusive_4_3(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet maxExclusive with value
     2027-10-13.
@@ -9914,11 +10554,12 @@ def test_atomic_date_max_exclusive_3_nistxml_sv_iv_atomic_date_max_exclusive_4_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_max_exclusive_3_nistxml_sv_iv_atomic_date_max_exclusive_4_4(mode, save_output):
+def test_atomic_date_max_exclusive_3_nistxml_sv_iv_atomic_date_max_exclusive_4_4(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet maxExclusive with value
     2027-10-13.
@@ -9930,11 +10571,12 @@ def test_atomic_date_max_exclusive_3_nistxml_sv_iv_atomic_date_max_exclusive_4_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_max_exclusive_3_nistxml_sv_iv_atomic_date_max_exclusive_4_5(mode, save_output):
+def test_atomic_date_max_exclusive_3_nistxml_sv_iv_atomic_date_max_exclusive_4_5(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet maxExclusive with value
     2027-10-13.
@@ -9946,11 +10588,12 @@ def test_atomic_date_max_exclusive_3_nistxml_sv_iv_atomic_date_max_exclusive_4_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_max_exclusive_2_nistxml_sv_iv_atomic_date_max_exclusive_3_1(mode, save_output):
+def test_atomic_date_max_exclusive_2_nistxml_sv_iv_atomic_date_max_exclusive_3_1(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet maxExclusive with value
     1990-01-30.
@@ -9962,11 +10605,12 @@ def test_atomic_date_max_exclusive_2_nistxml_sv_iv_atomic_date_max_exclusive_3_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_max_exclusive_2_nistxml_sv_iv_atomic_date_max_exclusive_3_2(mode, save_output):
+def test_atomic_date_max_exclusive_2_nistxml_sv_iv_atomic_date_max_exclusive_3_2(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet maxExclusive with value
     1990-01-30.
@@ -9978,11 +10622,12 @@ def test_atomic_date_max_exclusive_2_nistxml_sv_iv_atomic_date_max_exclusive_3_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_max_exclusive_2_nistxml_sv_iv_atomic_date_max_exclusive_3_3(mode, save_output):
+def test_atomic_date_max_exclusive_2_nistxml_sv_iv_atomic_date_max_exclusive_3_3(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet maxExclusive with value
     1990-01-30.
@@ -9994,11 +10639,12 @@ def test_atomic_date_max_exclusive_2_nistxml_sv_iv_atomic_date_max_exclusive_3_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_max_exclusive_2_nistxml_sv_iv_atomic_date_max_exclusive_3_4(mode, save_output):
+def test_atomic_date_max_exclusive_2_nistxml_sv_iv_atomic_date_max_exclusive_3_4(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet maxExclusive with value
     1990-01-30.
@@ -10010,11 +10656,12 @@ def test_atomic_date_max_exclusive_2_nistxml_sv_iv_atomic_date_max_exclusive_3_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_max_exclusive_2_nistxml_sv_iv_atomic_date_max_exclusive_3_5(mode, save_output):
+def test_atomic_date_max_exclusive_2_nistxml_sv_iv_atomic_date_max_exclusive_3_5(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet maxExclusive with value
     1990-01-30.
@@ -10026,11 +10673,12 @@ def test_atomic_date_max_exclusive_2_nistxml_sv_iv_atomic_date_max_exclusive_3_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_max_exclusive_1_nistxml_sv_iv_atomic_date_max_exclusive_2_1(mode, save_output):
+def test_atomic_date_max_exclusive_1_nistxml_sv_iv_atomic_date_max_exclusive_2_1(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet maxExclusive with value
     2016-09-05.
@@ -10042,11 +10690,12 @@ def test_atomic_date_max_exclusive_1_nistxml_sv_iv_atomic_date_max_exclusive_2_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_max_exclusive_1_nistxml_sv_iv_atomic_date_max_exclusive_2_2(mode, save_output):
+def test_atomic_date_max_exclusive_1_nistxml_sv_iv_atomic_date_max_exclusive_2_2(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet maxExclusive with value
     2016-09-05.
@@ -10058,11 +10707,12 @@ def test_atomic_date_max_exclusive_1_nistxml_sv_iv_atomic_date_max_exclusive_2_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_max_exclusive_1_nistxml_sv_iv_atomic_date_max_exclusive_2_3(mode, save_output):
+def test_atomic_date_max_exclusive_1_nistxml_sv_iv_atomic_date_max_exclusive_2_3(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet maxExclusive with value
     2016-09-05.
@@ -10074,11 +10724,12 @@ def test_atomic_date_max_exclusive_1_nistxml_sv_iv_atomic_date_max_exclusive_2_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_max_exclusive_1_nistxml_sv_iv_atomic_date_max_exclusive_2_4(mode, save_output):
+def test_atomic_date_max_exclusive_1_nistxml_sv_iv_atomic_date_max_exclusive_2_4(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet maxExclusive with value
     2016-09-05.
@@ -10090,11 +10741,12 @@ def test_atomic_date_max_exclusive_1_nistxml_sv_iv_atomic_date_max_exclusive_2_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_max_exclusive_1_nistxml_sv_iv_atomic_date_max_exclusive_2_5(mode, save_output):
+def test_atomic_date_max_exclusive_1_nistxml_sv_iv_atomic_date_max_exclusive_2_5(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet maxExclusive with value
     2016-09-05.
@@ -10106,11 +10758,12 @@ def test_atomic_date_max_exclusive_1_nistxml_sv_iv_atomic_date_max_exclusive_2_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_max_exclusive_nistxml_sv_iv_atomic_date_max_exclusive_1_1(mode, save_output):
+def test_atomic_date_max_exclusive_nistxml_sv_iv_atomic_date_max_exclusive_1_1(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet maxExclusive with value
     1970-01-02.
@@ -10122,11 +10775,12 @@ def test_atomic_date_max_exclusive_nistxml_sv_iv_atomic_date_max_exclusive_1_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_min_inclusive_4_nistxml_sv_iv_atomic_date_min_inclusive_5_1(mode, save_output):
+def test_atomic_date_min_inclusive_4_nistxml_sv_iv_atomic_date_min_inclusive_5_1(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet minInclusive with value
     2030-12-31.
@@ -10138,11 +10792,12 @@ def test_atomic_date_min_inclusive_4_nistxml_sv_iv_atomic_date_min_inclusive_5_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_min_inclusive_3_nistxml_sv_iv_atomic_date_min_inclusive_4_1(mode, save_output):
+def test_atomic_date_min_inclusive_3_nistxml_sv_iv_atomic_date_min_inclusive_4_1(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet minInclusive with value
     1979-03-05.
@@ -10154,11 +10809,12 @@ def test_atomic_date_min_inclusive_3_nistxml_sv_iv_atomic_date_min_inclusive_4_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_min_inclusive_3_nistxml_sv_iv_atomic_date_min_inclusive_4_2(mode, save_output):
+def test_atomic_date_min_inclusive_3_nistxml_sv_iv_atomic_date_min_inclusive_4_2(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet minInclusive with value
     1979-03-05.
@@ -10170,11 +10826,12 @@ def test_atomic_date_min_inclusive_3_nistxml_sv_iv_atomic_date_min_inclusive_4_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_min_inclusive_3_nistxml_sv_iv_atomic_date_min_inclusive_4_3(mode, save_output):
+def test_atomic_date_min_inclusive_3_nistxml_sv_iv_atomic_date_min_inclusive_4_3(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet minInclusive with value
     1979-03-05.
@@ -10186,11 +10843,12 @@ def test_atomic_date_min_inclusive_3_nistxml_sv_iv_atomic_date_min_inclusive_4_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_min_inclusive_3_nistxml_sv_iv_atomic_date_min_inclusive_4_4(mode, save_output):
+def test_atomic_date_min_inclusive_3_nistxml_sv_iv_atomic_date_min_inclusive_4_4(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet minInclusive with value
     1979-03-05.
@@ -10202,11 +10860,12 @@ def test_atomic_date_min_inclusive_3_nistxml_sv_iv_atomic_date_min_inclusive_4_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_min_inclusive_3_nistxml_sv_iv_atomic_date_min_inclusive_4_5(mode, save_output):
+def test_atomic_date_min_inclusive_3_nistxml_sv_iv_atomic_date_min_inclusive_4_5(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet minInclusive with value
     1979-03-05.
@@ -10218,11 +10877,12 @@ def test_atomic_date_min_inclusive_3_nistxml_sv_iv_atomic_date_min_inclusive_4_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_min_inclusive_2_nistxml_sv_iv_atomic_date_min_inclusive_3_1(mode, save_output):
+def test_atomic_date_min_inclusive_2_nistxml_sv_iv_atomic_date_min_inclusive_3_1(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet minInclusive with value
     2005-07-30.
@@ -10234,11 +10894,12 @@ def test_atomic_date_min_inclusive_2_nistxml_sv_iv_atomic_date_min_inclusive_3_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_min_inclusive_2_nistxml_sv_iv_atomic_date_min_inclusive_3_2(mode, save_output):
+def test_atomic_date_min_inclusive_2_nistxml_sv_iv_atomic_date_min_inclusive_3_2(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet minInclusive with value
     2005-07-30.
@@ -10250,11 +10911,12 @@ def test_atomic_date_min_inclusive_2_nistxml_sv_iv_atomic_date_min_inclusive_3_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_min_inclusive_2_nistxml_sv_iv_atomic_date_min_inclusive_3_3(mode, save_output):
+def test_atomic_date_min_inclusive_2_nistxml_sv_iv_atomic_date_min_inclusive_3_3(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet minInclusive with value
     2005-07-30.
@@ -10266,11 +10928,12 @@ def test_atomic_date_min_inclusive_2_nistxml_sv_iv_atomic_date_min_inclusive_3_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_min_inclusive_2_nistxml_sv_iv_atomic_date_min_inclusive_3_4(mode, save_output):
+def test_atomic_date_min_inclusive_2_nistxml_sv_iv_atomic_date_min_inclusive_3_4(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet minInclusive with value
     2005-07-30.
@@ -10282,11 +10945,12 @@ def test_atomic_date_min_inclusive_2_nistxml_sv_iv_atomic_date_min_inclusive_3_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_min_inclusive_2_nistxml_sv_iv_atomic_date_min_inclusive_3_5(mode, save_output):
+def test_atomic_date_min_inclusive_2_nistxml_sv_iv_atomic_date_min_inclusive_3_5(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet minInclusive with value
     2005-07-30.
@@ -10298,11 +10962,12 @@ def test_atomic_date_min_inclusive_2_nistxml_sv_iv_atomic_date_min_inclusive_3_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_min_inclusive_1_nistxml_sv_iv_atomic_date_min_inclusive_2_1(mode, save_output):
+def test_atomic_date_min_inclusive_1_nistxml_sv_iv_atomic_date_min_inclusive_2_1(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet minInclusive with value
     1973-09-08.
@@ -10314,11 +10979,12 @@ def test_atomic_date_min_inclusive_1_nistxml_sv_iv_atomic_date_min_inclusive_2_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_min_inclusive_1_nistxml_sv_iv_atomic_date_min_inclusive_2_2(mode, save_output):
+def test_atomic_date_min_inclusive_1_nistxml_sv_iv_atomic_date_min_inclusive_2_2(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet minInclusive with value
     1973-09-08.
@@ -10330,11 +10996,12 @@ def test_atomic_date_min_inclusive_1_nistxml_sv_iv_atomic_date_min_inclusive_2_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_min_inclusive_1_nistxml_sv_iv_atomic_date_min_inclusive_2_3(mode, save_output):
+def test_atomic_date_min_inclusive_1_nistxml_sv_iv_atomic_date_min_inclusive_2_3(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet minInclusive with value
     1973-09-08.
@@ -10346,11 +11013,12 @@ def test_atomic_date_min_inclusive_1_nistxml_sv_iv_atomic_date_min_inclusive_2_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_min_inclusive_1_nistxml_sv_iv_atomic_date_min_inclusive_2_4(mode, save_output):
+def test_atomic_date_min_inclusive_1_nistxml_sv_iv_atomic_date_min_inclusive_2_4(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet minInclusive with value
     1973-09-08.
@@ -10362,11 +11030,12 @@ def test_atomic_date_min_inclusive_1_nistxml_sv_iv_atomic_date_min_inclusive_2_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_min_inclusive_1_nistxml_sv_iv_atomic_date_min_inclusive_2_5(mode, save_output):
+def test_atomic_date_min_inclusive_1_nistxml_sv_iv_atomic_date_min_inclusive_2_5(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet minInclusive with value
     1973-09-08.
@@ -10378,11 +11047,12 @@ def test_atomic_date_min_inclusive_1_nistxml_sv_iv_atomic_date_min_inclusive_2_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_min_inclusive_nistxml_sv_iv_atomic_date_min_inclusive_1_1(mode, save_output):
+def test_atomic_date_min_inclusive_nistxml_sv_iv_atomic_date_min_inclusive_1_1(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet minInclusive with value
     1970-01-01.
@@ -10394,11 +11064,12 @@ def test_atomic_date_min_inclusive_nistxml_sv_iv_atomic_date_min_inclusive_1_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_min_inclusive_nistxml_sv_iv_atomic_date_min_inclusive_1_2(mode, save_output):
+def test_atomic_date_min_inclusive_nistxml_sv_iv_atomic_date_min_inclusive_1_2(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet minInclusive with value
     1970-01-01.
@@ -10410,11 +11081,12 @@ def test_atomic_date_min_inclusive_nistxml_sv_iv_atomic_date_min_inclusive_1_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_min_inclusive_nistxml_sv_iv_atomic_date_min_inclusive_1_3(mode, save_output):
+def test_atomic_date_min_inclusive_nistxml_sv_iv_atomic_date_min_inclusive_1_3(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet minInclusive with value
     1970-01-01.
@@ -10426,11 +11098,12 @@ def test_atomic_date_min_inclusive_nistxml_sv_iv_atomic_date_min_inclusive_1_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_min_inclusive_nistxml_sv_iv_atomic_date_min_inclusive_1_4(mode, save_output):
+def test_atomic_date_min_inclusive_nistxml_sv_iv_atomic_date_min_inclusive_1_4(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet minInclusive with value
     1970-01-01.
@@ -10442,11 +11115,12 @@ def test_atomic_date_min_inclusive_nistxml_sv_iv_atomic_date_min_inclusive_1_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_min_inclusive_nistxml_sv_iv_atomic_date_min_inclusive_1_5(mode, save_output):
+def test_atomic_date_min_inclusive_nistxml_sv_iv_atomic_date_min_inclusive_1_5(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet minInclusive with value
     1970-01-01.
@@ -10458,11 +11132,12 @@ def test_atomic_date_min_inclusive_nistxml_sv_iv_atomic_date_min_inclusive_1_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_min_exclusive_4_nistxml_sv_iv_atomic_date_min_exclusive_5_1(mode, save_output):
+def test_atomic_date_min_exclusive_4_nistxml_sv_iv_atomic_date_min_exclusive_5_1(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet minExclusive with value
     2030-12-30.
@@ -10474,11 +11149,12 @@ def test_atomic_date_min_exclusive_4_nistxml_sv_iv_atomic_date_min_exclusive_5_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_min_exclusive_3_nistxml_sv_iv_atomic_date_min_exclusive_4_1(mode, save_output):
+def test_atomic_date_min_exclusive_3_nistxml_sv_iv_atomic_date_min_exclusive_4_1(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet minExclusive with value
     2025-01-09.
@@ -10490,11 +11166,12 @@ def test_atomic_date_min_exclusive_3_nistxml_sv_iv_atomic_date_min_exclusive_4_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_min_exclusive_3_nistxml_sv_iv_atomic_date_min_exclusive_4_2(mode, save_output):
+def test_atomic_date_min_exclusive_3_nistxml_sv_iv_atomic_date_min_exclusive_4_2(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet minExclusive with value
     2025-01-09.
@@ -10506,11 +11183,12 @@ def test_atomic_date_min_exclusive_3_nistxml_sv_iv_atomic_date_min_exclusive_4_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_min_exclusive_3_nistxml_sv_iv_atomic_date_min_exclusive_4_3(mode, save_output):
+def test_atomic_date_min_exclusive_3_nistxml_sv_iv_atomic_date_min_exclusive_4_3(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet minExclusive with value
     2025-01-09.
@@ -10522,11 +11200,12 @@ def test_atomic_date_min_exclusive_3_nistxml_sv_iv_atomic_date_min_exclusive_4_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_min_exclusive_3_nistxml_sv_iv_atomic_date_min_exclusive_4_4(mode, save_output):
+def test_atomic_date_min_exclusive_3_nistxml_sv_iv_atomic_date_min_exclusive_4_4(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet minExclusive with value
     2025-01-09.
@@ -10538,11 +11217,12 @@ def test_atomic_date_min_exclusive_3_nistxml_sv_iv_atomic_date_min_exclusive_4_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_min_exclusive_3_nistxml_sv_iv_atomic_date_min_exclusive_4_5(mode, save_output):
+def test_atomic_date_min_exclusive_3_nistxml_sv_iv_atomic_date_min_exclusive_4_5(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet minExclusive with value
     2025-01-09.
@@ -10554,11 +11234,12 @@ def test_atomic_date_min_exclusive_3_nistxml_sv_iv_atomic_date_min_exclusive_4_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_min_exclusive_2_nistxml_sv_iv_atomic_date_min_exclusive_3_1(mode, save_output):
+def test_atomic_date_min_exclusive_2_nistxml_sv_iv_atomic_date_min_exclusive_3_1(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet minExclusive with value
     2005-11-17.
@@ -10570,11 +11251,12 @@ def test_atomic_date_min_exclusive_2_nistxml_sv_iv_atomic_date_min_exclusive_3_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_min_exclusive_2_nistxml_sv_iv_atomic_date_min_exclusive_3_2(mode, save_output):
+def test_atomic_date_min_exclusive_2_nistxml_sv_iv_atomic_date_min_exclusive_3_2(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet minExclusive with value
     2005-11-17.
@@ -10586,11 +11268,12 @@ def test_atomic_date_min_exclusive_2_nistxml_sv_iv_atomic_date_min_exclusive_3_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_min_exclusive_2_nistxml_sv_iv_atomic_date_min_exclusive_3_3(mode, save_output):
+def test_atomic_date_min_exclusive_2_nistxml_sv_iv_atomic_date_min_exclusive_3_3(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet minExclusive with value
     2005-11-17.
@@ -10602,11 +11285,12 @@ def test_atomic_date_min_exclusive_2_nistxml_sv_iv_atomic_date_min_exclusive_3_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_min_exclusive_2_nistxml_sv_iv_atomic_date_min_exclusive_3_4(mode, save_output):
+def test_atomic_date_min_exclusive_2_nistxml_sv_iv_atomic_date_min_exclusive_3_4(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet minExclusive with value
     2005-11-17.
@@ -10618,11 +11302,12 @@ def test_atomic_date_min_exclusive_2_nistxml_sv_iv_atomic_date_min_exclusive_3_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_min_exclusive_2_nistxml_sv_iv_atomic_date_min_exclusive_3_5(mode, save_output):
+def test_atomic_date_min_exclusive_2_nistxml_sv_iv_atomic_date_min_exclusive_3_5(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet minExclusive with value
     2005-11-17.
@@ -10634,11 +11319,12 @@ def test_atomic_date_min_exclusive_2_nistxml_sv_iv_atomic_date_min_exclusive_3_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_min_exclusive_1_nistxml_sv_iv_atomic_date_min_exclusive_2_1(mode, save_output):
+def test_atomic_date_min_exclusive_1_nistxml_sv_iv_atomic_date_min_exclusive_2_1(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet minExclusive with value
     2027-03-05.
@@ -10650,11 +11336,12 @@ def test_atomic_date_min_exclusive_1_nistxml_sv_iv_atomic_date_min_exclusive_2_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_min_exclusive_1_nistxml_sv_iv_atomic_date_min_exclusive_2_2(mode, save_output):
+def test_atomic_date_min_exclusive_1_nistxml_sv_iv_atomic_date_min_exclusive_2_2(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet minExclusive with value
     2027-03-05.
@@ -10666,11 +11353,12 @@ def test_atomic_date_min_exclusive_1_nistxml_sv_iv_atomic_date_min_exclusive_2_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_min_exclusive_1_nistxml_sv_iv_atomic_date_min_exclusive_2_3(mode, save_output):
+def test_atomic_date_min_exclusive_1_nistxml_sv_iv_atomic_date_min_exclusive_2_3(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet minExclusive with value
     2027-03-05.
@@ -10682,11 +11370,12 @@ def test_atomic_date_min_exclusive_1_nistxml_sv_iv_atomic_date_min_exclusive_2_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_min_exclusive_1_nistxml_sv_iv_atomic_date_min_exclusive_2_4(mode, save_output):
+def test_atomic_date_min_exclusive_1_nistxml_sv_iv_atomic_date_min_exclusive_2_4(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet minExclusive with value
     2027-03-05.
@@ -10698,11 +11387,12 @@ def test_atomic_date_min_exclusive_1_nistxml_sv_iv_atomic_date_min_exclusive_2_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_min_exclusive_1_nistxml_sv_iv_atomic_date_min_exclusive_2_5(mode, save_output):
+def test_atomic_date_min_exclusive_1_nistxml_sv_iv_atomic_date_min_exclusive_2_5(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet minExclusive with value
     2027-03-05.
@@ -10714,11 +11404,12 @@ def test_atomic_date_min_exclusive_1_nistxml_sv_iv_atomic_date_min_exclusive_2_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_min_exclusive_nistxml_sv_iv_atomic_date_min_exclusive_1_1(mode, save_output):
+def test_atomic_date_min_exclusive_nistxml_sv_iv_atomic_date_min_exclusive_1_1(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet minExclusive with value
     1970-01-01.
@@ -10730,11 +11421,12 @@ def test_atomic_date_min_exclusive_nistxml_sv_iv_atomic_date_min_exclusive_1_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_min_exclusive_nistxml_sv_iv_atomic_date_min_exclusive_1_2(mode, save_output):
+def test_atomic_date_min_exclusive_nistxml_sv_iv_atomic_date_min_exclusive_1_2(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet minExclusive with value
     1970-01-01.
@@ -10746,11 +11438,12 @@ def test_atomic_date_min_exclusive_nistxml_sv_iv_atomic_date_min_exclusive_1_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_min_exclusive_nistxml_sv_iv_atomic_date_min_exclusive_1_3(mode, save_output):
+def test_atomic_date_min_exclusive_nistxml_sv_iv_atomic_date_min_exclusive_1_3(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet minExclusive with value
     1970-01-01.
@@ -10762,11 +11455,12 @@ def test_atomic_date_min_exclusive_nistxml_sv_iv_atomic_date_min_exclusive_1_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_min_exclusive_nistxml_sv_iv_atomic_date_min_exclusive_1_4(mode, save_output):
+def test_atomic_date_min_exclusive_nistxml_sv_iv_atomic_date_min_exclusive_1_4(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet minExclusive with value
     1970-01-01.
@@ -10778,11 +11472,12 @@ def test_atomic_date_min_exclusive_nistxml_sv_iv_atomic_date_min_exclusive_1_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_min_exclusive_nistxml_sv_iv_atomic_date_min_exclusive_1_5(mode, save_output):
+def test_atomic_date_min_exclusive_nistxml_sv_iv_atomic_date_min_exclusive_1_5(mode, save_output, output_format):
     """
     Type atomic/date is restricted by facet minExclusive with value
     1970-01-01.
@@ -10794,11 +11489,12 @@ def test_atomic_date_min_exclusive_nistxml_sv_iv_atomic_date_min_exclusive_1_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_white_space_nistxml_sv_iv_atomic_time_white_space_1_1(mode, save_output):
+def test_atomic_time_white_space_nistxml_sv_iv_atomic_time_white_space_1_1(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet whiteSpace with value
     collapse.
@@ -10810,11 +11506,12 @@ def test_atomic_time_white_space_nistxml_sv_iv_atomic_time_white_space_1_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_white_space_nistxml_sv_iv_atomic_time_white_space_1_2(mode, save_output):
+def test_atomic_time_white_space_nistxml_sv_iv_atomic_time_white_space_1_2(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet whiteSpace with value
     collapse.
@@ -10826,11 +11523,12 @@ def test_atomic_time_white_space_nistxml_sv_iv_atomic_time_white_space_1_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_white_space_nistxml_sv_iv_atomic_time_white_space_1_3(mode, save_output):
+def test_atomic_time_white_space_nistxml_sv_iv_atomic_time_white_space_1_3(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet whiteSpace with value
     collapse.
@@ -10842,11 +11540,12 @@ def test_atomic_time_white_space_nistxml_sv_iv_atomic_time_white_space_1_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_white_space_nistxml_sv_iv_atomic_time_white_space_1_4(mode, save_output):
+def test_atomic_time_white_space_nistxml_sv_iv_atomic_time_white_space_1_4(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet whiteSpace with value
     collapse.
@@ -10858,11 +11557,12 @@ def test_atomic_time_white_space_nistxml_sv_iv_atomic_time_white_space_1_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_white_space_nistxml_sv_iv_atomic_time_white_space_1_5(mode, save_output):
+def test_atomic_time_white_space_nistxml_sv_iv_atomic_time_white_space_1_5(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet whiteSpace with value
     collapse.
@@ -10874,11 +11574,12 @@ def test_atomic_time_white_space_nistxml_sv_iv_atomic_time_white_space_1_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_enumeration_4_nistxml_sv_iv_atomic_time_enumeration_5_1(mode, save_output):
+def test_atomic_time_enumeration_4_nistxml_sv_iv_atomic_time_enumeration_5_1(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet enumeration.
     """
@@ -10889,11 +11590,12 @@ def test_atomic_time_enumeration_4_nistxml_sv_iv_atomic_time_enumeration_5_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_enumeration_4_nistxml_sv_iv_atomic_time_enumeration_5_2(mode, save_output):
+def test_atomic_time_enumeration_4_nistxml_sv_iv_atomic_time_enumeration_5_2(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet enumeration.
     """
@@ -10904,11 +11606,12 @@ def test_atomic_time_enumeration_4_nistxml_sv_iv_atomic_time_enumeration_5_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_enumeration_4_nistxml_sv_iv_atomic_time_enumeration_5_3(mode, save_output):
+def test_atomic_time_enumeration_4_nistxml_sv_iv_atomic_time_enumeration_5_3(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet enumeration.
     """
@@ -10919,11 +11622,12 @@ def test_atomic_time_enumeration_4_nistxml_sv_iv_atomic_time_enumeration_5_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_enumeration_4_nistxml_sv_iv_atomic_time_enumeration_5_4(mode, save_output):
+def test_atomic_time_enumeration_4_nistxml_sv_iv_atomic_time_enumeration_5_4(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet enumeration.
     """
@@ -10934,11 +11638,12 @@ def test_atomic_time_enumeration_4_nistxml_sv_iv_atomic_time_enumeration_5_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_enumeration_4_nistxml_sv_iv_atomic_time_enumeration_5_5(mode, save_output):
+def test_atomic_time_enumeration_4_nistxml_sv_iv_atomic_time_enumeration_5_5(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet enumeration.
     """
@@ -10949,11 +11654,12 @@ def test_atomic_time_enumeration_4_nistxml_sv_iv_atomic_time_enumeration_5_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_enumeration_3_nistxml_sv_iv_atomic_time_enumeration_4_1(mode, save_output):
+def test_atomic_time_enumeration_3_nistxml_sv_iv_atomic_time_enumeration_4_1(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet enumeration.
     """
@@ -10964,11 +11670,12 @@ def test_atomic_time_enumeration_3_nistxml_sv_iv_atomic_time_enumeration_4_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_enumeration_3_nistxml_sv_iv_atomic_time_enumeration_4_2(mode, save_output):
+def test_atomic_time_enumeration_3_nistxml_sv_iv_atomic_time_enumeration_4_2(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet enumeration.
     """
@@ -10979,11 +11686,12 @@ def test_atomic_time_enumeration_3_nistxml_sv_iv_atomic_time_enumeration_4_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_enumeration_3_nistxml_sv_iv_atomic_time_enumeration_4_3(mode, save_output):
+def test_atomic_time_enumeration_3_nistxml_sv_iv_atomic_time_enumeration_4_3(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet enumeration.
     """
@@ -10994,11 +11702,12 @@ def test_atomic_time_enumeration_3_nistxml_sv_iv_atomic_time_enumeration_4_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_enumeration_3_nistxml_sv_iv_atomic_time_enumeration_4_4(mode, save_output):
+def test_atomic_time_enumeration_3_nistxml_sv_iv_atomic_time_enumeration_4_4(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet enumeration.
     """
@@ -11009,11 +11718,12 @@ def test_atomic_time_enumeration_3_nistxml_sv_iv_atomic_time_enumeration_4_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_enumeration_3_nistxml_sv_iv_atomic_time_enumeration_4_5(mode, save_output):
+def test_atomic_time_enumeration_3_nistxml_sv_iv_atomic_time_enumeration_4_5(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet enumeration.
     """
@@ -11024,11 +11734,12 @@ def test_atomic_time_enumeration_3_nistxml_sv_iv_atomic_time_enumeration_4_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_enumeration_2_nistxml_sv_iv_atomic_time_enumeration_3_1(mode, save_output):
+def test_atomic_time_enumeration_2_nistxml_sv_iv_atomic_time_enumeration_3_1(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet enumeration.
     """
@@ -11039,11 +11750,12 @@ def test_atomic_time_enumeration_2_nistxml_sv_iv_atomic_time_enumeration_3_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_enumeration_2_nistxml_sv_iv_atomic_time_enumeration_3_2(mode, save_output):
+def test_atomic_time_enumeration_2_nistxml_sv_iv_atomic_time_enumeration_3_2(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet enumeration.
     """
@@ -11054,11 +11766,12 @@ def test_atomic_time_enumeration_2_nistxml_sv_iv_atomic_time_enumeration_3_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_enumeration_2_nistxml_sv_iv_atomic_time_enumeration_3_3(mode, save_output):
+def test_atomic_time_enumeration_2_nistxml_sv_iv_atomic_time_enumeration_3_3(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet enumeration.
     """
@@ -11069,11 +11782,12 @@ def test_atomic_time_enumeration_2_nistxml_sv_iv_atomic_time_enumeration_3_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_enumeration_2_nistxml_sv_iv_atomic_time_enumeration_3_4(mode, save_output):
+def test_atomic_time_enumeration_2_nistxml_sv_iv_atomic_time_enumeration_3_4(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet enumeration.
     """
@@ -11084,11 +11798,12 @@ def test_atomic_time_enumeration_2_nistxml_sv_iv_atomic_time_enumeration_3_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_enumeration_2_nistxml_sv_iv_atomic_time_enumeration_3_5(mode, save_output):
+def test_atomic_time_enumeration_2_nistxml_sv_iv_atomic_time_enumeration_3_5(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet enumeration.
     """
@@ -11099,11 +11814,12 @@ def test_atomic_time_enumeration_2_nistxml_sv_iv_atomic_time_enumeration_3_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_enumeration_1_nistxml_sv_iv_atomic_time_enumeration_2_1(mode, save_output):
+def test_atomic_time_enumeration_1_nistxml_sv_iv_atomic_time_enumeration_2_1(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet enumeration.
     """
@@ -11114,11 +11830,12 @@ def test_atomic_time_enumeration_1_nistxml_sv_iv_atomic_time_enumeration_2_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_enumeration_1_nistxml_sv_iv_atomic_time_enumeration_2_2(mode, save_output):
+def test_atomic_time_enumeration_1_nistxml_sv_iv_atomic_time_enumeration_2_2(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet enumeration.
     """
@@ -11129,11 +11846,12 @@ def test_atomic_time_enumeration_1_nistxml_sv_iv_atomic_time_enumeration_2_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_enumeration_1_nistxml_sv_iv_atomic_time_enumeration_2_3(mode, save_output):
+def test_atomic_time_enumeration_1_nistxml_sv_iv_atomic_time_enumeration_2_3(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet enumeration.
     """
@@ -11144,11 +11862,12 @@ def test_atomic_time_enumeration_1_nistxml_sv_iv_atomic_time_enumeration_2_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_enumeration_1_nistxml_sv_iv_atomic_time_enumeration_2_4(mode, save_output):
+def test_atomic_time_enumeration_1_nistxml_sv_iv_atomic_time_enumeration_2_4(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet enumeration.
     """
@@ -11159,11 +11878,12 @@ def test_atomic_time_enumeration_1_nistxml_sv_iv_atomic_time_enumeration_2_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_enumeration_1_nistxml_sv_iv_atomic_time_enumeration_2_5(mode, save_output):
+def test_atomic_time_enumeration_1_nistxml_sv_iv_atomic_time_enumeration_2_5(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet enumeration.
     """
@@ -11174,11 +11894,12 @@ def test_atomic_time_enumeration_1_nistxml_sv_iv_atomic_time_enumeration_2_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_enumeration_nistxml_sv_iv_atomic_time_enumeration_1_1(mode, save_output):
+def test_atomic_time_enumeration_nistxml_sv_iv_atomic_time_enumeration_1_1(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet enumeration.
     """
@@ -11189,11 +11910,12 @@ def test_atomic_time_enumeration_nistxml_sv_iv_atomic_time_enumeration_1_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_enumeration_nistxml_sv_iv_atomic_time_enumeration_1_2(mode, save_output):
+def test_atomic_time_enumeration_nistxml_sv_iv_atomic_time_enumeration_1_2(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet enumeration.
     """
@@ -11204,11 +11926,12 @@ def test_atomic_time_enumeration_nistxml_sv_iv_atomic_time_enumeration_1_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_enumeration_nistxml_sv_iv_atomic_time_enumeration_1_3(mode, save_output):
+def test_atomic_time_enumeration_nistxml_sv_iv_atomic_time_enumeration_1_3(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet enumeration.
     """
@@ -11219,11 +11942,12 @@ def test_atomic_time_enumeration_nistxml_sv_iv_atomic_time_enumeration_1_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_enumeration_nistxml_sv_iv_atomic_time_enumeration_1_4(mode, save_output):
+def test_atomic_time_enumeration_nistxml_sv_iv_atomic_time_enumeration_1_4(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet enumeration.
     """
@@ -11234,11 +11958,12 @@ def test_atomic_time_enumeration_nistxml_sv_iv_atomic_time_enumeration_1_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_enumeration_nistxml_sv_iv_atomic_time_enumeration_1_5(mode, save_output):
+def test_atomic_time_enumeration_nistxml_sv_iv_atomic_time_enumeration_1_5(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet enumeration.
     """
@@ -11249,11 +11974,12 @@ def test_atomic_time_enumeration_nistxml_sv_iv_atomic_time_enumeration_1_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_pattern_4_nistxml_sv_iv_atomic_time_pattern_5_1(mode, save_output):
+def test_atomic_time_pattern_4_nistxml_sv_iv_atomic_time_pattern_5_1(mode, save_output, output_format):
     r"""
     Type atomic/time is restricted by facet pattern with value
     \d0:3\d:2\d.
@@ -11265,11 +11991,12 @@ def test_atomic_time_pattern_4_nistxml_sv_iv_atomic_time_pattern_5_1(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_pattern_4_nistxml_sv_iv_atomic_time_pattern_5_2(mode, save_output):
+def test_atomic_time_pattern_4_nistxml_sv_iv_atomic_time_pattern_5_2(mode, save_output, output_format):
     r"""
     Type atomic/time is restricted by facet pattern with value
     \d0:3\d:2\d.
@@ -11281,11 +12008,12 @@ def test_atomic_time_pattern_4_nistxml_sv_iv_atomic_time_pattern_5_2(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_pattern_4_nistxml_sv_iv_atomic_time_pattern_5_3(mode, save_output):
+def test_atomic_time_pattern_4_nistxml_sv_iv_atomic_time_pattern_5_3(mode, save_output, output_format):
     r"""
     Type atomic/time is restricted by facet pattern with value
     \d0:3\d:2\d.
@@ -11297,11 +12025,12 @@ def test_atomic_time_pattern_4_nistxml_sv_iv_atomic_time_pattern_5_3(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_pattern_4_nistxml_sv_iv_atomic_time_pattern_5_4(mode, save_output):
+def test_atomic_time_pattern_4_nistxml_sv_iv_atomic_time_pattern_5_4(mode, save_output, output_format):
     r"""
     Type atomic/time is restricted by facet pattern with value
     \d0:3\d:2\d.
@@ -11313,11 +12042,12 @@ def test_atomic_time_pattern_4_nistxml_sv_iv_atomic_time_pattern_5_4(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_pattern_4_nistxml_sv_iv_atomic_time_pattern_5_5(mode, save_output):
+def test_atomic_time_pattern_4_nistxml_sv_iv_atomic_time_pattern_5_5(mode, save_output, output_format):
     r"""
     Type atomic/time is restricted by facet pattern with value
     \d0:3\d:2\d.
@@ -11329,11 +12059,12 @@ def test_atomic_time_pattern_4_nistxml_sv_iv_atomic_time_pattern_5_5(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_pattern_3_nistxml_sv_iv_atomic_time_pattern_4_1(mode, save_output):
+def test_atomic_time_pattern_3_nistxml_sv_iv_atomic_time_pattern_4_1(mode, save_output, output_format):
     r"""
     Type atomic/time is restricted by facet pattern with value
     \d8:\d4:\d6.
@@ -11345,11 +12076,12 @@ def test_atomic_time_pattern_3_nistxml_sv_iv_atomic_time_pattern_4_1(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_pattern_3_nistxml_sv_iv_atomic_time_pattern_4_2(mode, save_output):
+def test_atomic_time_pattern_3_nistxml_sv_iv_atomic_time_pattern_4_2(mode, save_output, output_format):
     r"""
     Type atomic/time is restricted by facet pattern with value
     \d8:\d4:\d6.
@@ -11361,11 +12093,12 @@ def test_atomic_time_pattern_3_nistxml_sv_iv_atomic_time_pattern_4_2(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_pattern_3_nistxml_sv_iv_atomic_time_pattern_4_3(mode, save_output):
+def test_atomic_time_pattern_3_nistxml_sv_iv_atomic_time_pattern_4_3(mode, save_output, output_format):
     r"""
     Type atomic/time is restricted by facet pattern with value
     \d8:\d4:\d6.
@@ -11377,11 +12110,12 @@ def test_atomic_time_pattern_3_nistxml_sv_iv_atomic_time_pattern_4_3(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_pattern_3_nistxml_sv_iv_atomic_time_pattern_4_4(mode, save_output):
+def test_atomic_time_pattern_3_nistxml_sv_iv_atomic_time_pattern_4_4(mode, save_output, output_format):
     r"""
     Type atomic/time is restricted by facet pattern with value
     \d8:\d4:\d6.
@@ -11393,11 +12127,12 @@ def test_atomic_time_pattern_3_nistxml_sv_iv_atomic_time_pattern_4_4(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_pattern_3_nistxml_sv_iv_atomic_time_pattern_4_5(mode, save_output):
+def test_atomic_time_pattern_3_nistxml_sv_iv_atomic_time_pattern_4_5(mode, save_output, output_format):
     r"""
     Type atomic/time is restricted by facet pattern with value
     \d8:\d4:\d6.
@@ -11409,11 +12144,12 @@ def test_atomic_time_pattern_3_nistxml_sv_iv_atomic_time_pattern_4_5(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_pattern_2_nistxml_sv_iv_atomic_time_pattern_3_1(mode, save_output):
+def test_atomic_time_pattern_2_nistxml_sv_iv_atomic_time_pattern_3_1(mode, save_output, output_format):
     r"""
     Type atomic/time is restricted by facet pattern with value
     1\d:3\d:\d5.
@@ -11425,11 +12161,12 @@ def test_atomic_time_pattern_2_nistxml_sv_iv_atomic_time_pattern_3_1(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_pattern_2_nistxml_sv_iv_atomic_time_pattern_3_2(mode, save_output):
+def test_atomic_time_pattern_2_nistxml_sv_iv_atomic_time_pattern_3_2(mode, save_output, output_format):
     r"""
     Type atomic/time is restricted by facet pattern with value
     1\d:3\d:\d5.
@@ -11441,11 +12178,12 @@ def test_atomic_time_pattern_2_nistxml_sv_iv_atomic_time_pattern_3_2(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_pattern_2_nistxml_sv_iv_atomic_time_pattern_3_3(mode, save_output):
+def test_atomic_time_pattern_2_nistxml_sv_iv_atomic_time_pattern_3_3(mode, save_output, output_format):
     r"""
     Type atomic/time is restricted by facet pattern with value
     1\d:3\d:\d5.
@@ -11457,11 +12195,12 @@ def test_atomic_time_pattern_2_nistxml_sv_iv_atomic_time_pattern_3_3(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_pattern_2_nistxml_sv_iv_atomic_time_pattern_3_4(mode, save_output):
+def test_atomic_time_pattern_2_nistxml_sv_iv_atomic_time_pattern_3_4(mode, save_output, output_format):
     r"""
     Type atomic/time is restricted by facet pattern with value
     1\d:3\d:\d5.
@@ -11473,11 +12212,12 @@ def test_atomic_time_pattern_2_nistxml_sv_iv_atomic_time_pattern_3_4(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_pattern_2_nistxml_sv_iv_atomic_time_pattern_3_5(mode, save_output):
+def test_atomic_time_pattern_2_nistxml_sv_iv_atomic_time_pattern_3_5(mode, save_output, output_format):
     r"""
     Type atomic/time is restricted by facet pattern with value
     1\d:3\d:\d5.
@@ -11489,11 +12229,12 @@ def test_atomic_time_pattern_2_nistxml_sv_iv_atomic_time_pattern_3_5(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_pattern_1_nistxml_sv_iv_atomic_time_pattern_2_1(mode, save_output):
+def test_atomic_time_pattern_1_nistxml_sv_iv_atomic_time_pattern_2_1(mode, save_output, output_format):
     r"""
     Type atomic/time is restricted by facet pattern with value
     \d6:\d9:\d9.
@@ -11505,11 +12246,12 @@ def test_atomic_time_pattern_1_nistxml_sv_iv_atomic_time_pattern_2_1(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_pattern_1_nistxml_sv_iv_atomic_time_pattern_2_2(mode, save_output):
+def test_atomic_time_pattern_1_nistxml_sv_iv_atomic_time_pattern_2_2(mode, save_output, output_format):
     r"""
     Type atomic/time is restricted by facet pattern with value
     \d6:\d9:\d9.
@@ -11521,11 +12263,12 @@ def test_atomic_time_pattern_1_nistxml_sv_iv_atomic_time_pattern_2_2(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_pattern_1_nistxml_sv_iv_atomic_time_pattern_2_3(mode, save_output):
+def test_atomic_time_pattern_1_nistxml_sv_iv_atomic_time_pattern_2_3(mode, save_output, output_format):
     r"""
     Type atomic/time is restricted by facet pattern with value
     \d6:\d9:\d9.
@@ -11537,11 +12280,12 @@ def test_atomic_time_pattern_1_nistxml_sv_iv_atomic_time_pattern_2_3(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_pattern_1_nistxml_sv_iv_atomic_time_pattern_2_4(mode, save_output):
+def test_atomic_time_pattern_1_nistxml_sv_iv_atomic_time_pattern_2_4(mode, save_output, output_format):
     r"""
     Type atomic/time is restricted by facet pattern with value
     \d6:\d9:\d9.
@@ -11553,11 +12297,12 @@ def test_atomic_time_pattern_1_nistxml_sv_iv_atomic_time_pattern_2_4(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_pattern_1_nistxml_sv_iv_atomic_time_pattern_2_5(mode, save_output):
+def test_atomic_time_pattern_1_nistxml_sv_iv_atomic_time_pattern_2_5(mode, save_output, output_format):
     r"""
     Type atomic/time is restricted by facet pattern with value
     \d6:\d9:\d9.
@@ -11569,11 +12314,12 @@ def test_atomic_time_pattern_1_nistxml_sv_iv_atomic_time_pattern_2_5(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_pattern_nistxml_sv_iv_atomic_time_pattern_1_1(mode, save_output):
+def test_atomic_time_pattern_nistxml_sv_iv_atomic_time_pattern_1_1(mode, save_output, output_format):
     r"""
     Type atomic/time is restricted by facet pattern with value
     \d9:\d2:5\d.
@@ -11585,11 +12331,12 @@ def test_atomic_time_pattern_nistxml_sv_iv_atomic_time_pattern_1_1(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_pattern_nistxml_sv_iv_atomic_time_pattern_1_2(mode, save_output):
+def test_atomic_time_pattern_nistxml_sv_iv_atomic_time_pattern_1_2(mode, save_output, output_format):
     r"""
     Type atomic/time is restricted by facet pattern with value
     \d9:\d2:5\d.
@@ -11601,11 +12348,12 @@ def test_atomic_time_pattern_nistxml_sv_iv_atomic_time_pattern_1_2(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_pattern_nistxml_sv_iv_atomic_time_pattern_1_3(mode, save_output):
+def test_atomic_time_pattern_nistxml_sv_iv_atomic_time_pattern_1_3(mode, save_output, output_format):
     r"""
     Type atomic/time is restricted by facet pattern with value
     \d9:\d2:5\d.
@@ -11617,11 +12365,12 @@ def test_atomic_time_pattern_nistxml_sv_iv_atomic_time_pattern_1_3(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_pattern_nistxml_sv_iv_atomic_time_pattern_1_4(mode, save_output):
+def test_atomic_time_pattern_nistxml_sv_iv_atomic_time_pattern_1_4(mode, save_output, output_format):
     r"""
     Type atomic/time is restricted by facet pattern with value
     \d9:\d2:5\d.
@@ -11633,11 +12382,12 @@ def test_atomic_time_pattern_nistxml_sv_iv_atomic_time_pattern_1_4(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_pattern_nistxml_sv_iv_atomic_time_pattern_1_5(mode, save_output):
+def test_atomic_time_pattern_nistxml_sv_iv_atomic_time_pattern_1_5(mode, save_output, output_format):
     r"""
     Type atomic/time is restricted by facet pattern with value
     \d9:\d2:5\d.
@@ -11649,11 +12399,12 @@ def test_atomic_time_pattern_nistxml_sv_iv_atomic_time_pattern_1_5(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_max_inclusive_4_nistxml_sv_iv_atomic_time_max_inclusive_5_1(mode, save_output):
+def test_atomic_time_max_inclusive_4_nistxml_sv_iv_atomic_time_max_inclusive_5_1(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet maxInclusive with value
     23:59:59.
@@ -11665,11 +12416,12 @@ def test_atomic_time_max_inclusive_4_nistxml_sv_iv_atomic_time_max_inclusive_5_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_max_inclusive_4_nistxml_sv_iv_atomic_time_max_inclusive_5_2(mode, save_output):
+def test_atomic_time_max_inclusive_4_nistxml_sv_iv_atomic_time_max_inclusive_5_2(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet maxInclusive with value
     23:59:59.
@@ -11681,11 +12433,12 @@ def test_atomic_time_max_inclusive_4_nistxml_sv_iv_atomic_time_max_inclusive_5_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_max_inclusive_4_nistxml_sv_iv_atomic_time_max_inclusive_5_3(mode, save_output):
+def test_atomic_time_max_inclusive_4_nistxml_sv_iv_atomic_time_max_inclusive_5_3(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet maxInclusive with value
     23:59:59.
@@ -11697,11 +12450,12 @@ def test_atomic_time_max_inclusive_4_nistxml_sv_iv_atomic_time_max_inclusive_5_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_max_inclusive_4_nistxml_sv_iv_atomic_time_max_inclusive_5_4(mode, save_output):
+def test_atomic_time_max_inclusive_4_nistxml_sv_iv_atomic_time_max_inclusive_5_4(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet maxInclusive with value
     23:59:59.
@@ -11713,11 +12467,12 @@ def test_atomic_time_max_inclusive_4_nistxml_sv_iv_atomic_time_max_inclusive_5_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_max_inclusive_4_nistxml_sv_iv_atomic_time_max_inclusive_5_5(mode, save_output):
+def test_atomic_time_max_inclusive_4_nistxml_sv_iv_atomic_time_max_inclusive_5_5(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet maxInclusive with value
     23:59:59.
@@ -11729,11 +12484,12 @@ def test_atomic_time_max_inclusive_4_nistxml_sv_iv_atomic_time_max_inclusive_5_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_max_inclusive_3_nistxml_sv_iv_atomic_time_max_inclusive_4_1(mode, save_output):
+def test_atomic_time_max_inclusive_3_nistxml_sv_iv_atomic_time_max_inclusive_4_1(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet maxInclusive with value
     18:06:59.
@@ -11745,11 +12501,12 @@ def test_atomic_time_max_inclusive_3_nistxml_sv_iv_atomic_time_max_inclusive_4_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_max_inclusive_3_nistxml_sv_iv_atomic_time_max_inclusive_4_2(mode, save_output):
+def test_atomic_time_max_inclusive_3_nistxml_sv_iv_atomic_time_max_inclusive_4_2(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet maxInclusive with value
     18:06:59.
@@ -11761,11 +12518,12 @@ def test_atomic_time_max_inclusive_3_nistxml_sv_iv_atomic_time_max_inclusive_4_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_max_inclusive_3_nistxml_sv_iv_atomic_time_max_inclusive_4_3(mode, save_output):
+def test_atomic_time_max_inclusive_3_nistxml_sv_iv_atomic_time_max_inclusive_4_3(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet maxInclusive with value
     18:06:59.
@@ -11777,11 +12535,12 @@ def test_atomic_time_max_inclusive_3_nistxml_sv_iv_atomic_time_max_inclusive_4_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_max_inclusive_3_nistxml_sv_iv_atomic_time_max_inclusive_4_4(mode, save_output):
+def test_atomic_time_max_inclusive_3_nistxml_sv_iv_atomic_time_max_inclusive_4_4(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet maxInclusive with value
     18:06:59.
@@ -11793,11 +12552,12 @@ def test_atomic_time_max_inclusive_3_nistxml_sv_iv_atomic_time_max_inclusive_4_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_max_inclusive_3_nistxml_sv_iv_atomic_time_max_inclusive_4_5(mode, save_output):
+def test_atomic_time_max_inclusive_3_nistxml_sv_iv_atomic_time_max_inclusive_4_5(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet maxInclusive with value
     18:06:59.
@@ -11809,11 +12569,12 @@ def test_atomic_time_max_inclusive_3_nistxml_sv_iv_atomic_time_max_inclusive_4_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_max_inclusive_2_nistxml_sv_iv_atomic_time_max_inclusive_3_1(mode, save_output):
+def test_atomic_time_max_inclusive_2_nistxml_sv_iv_atomic_time_max_inclusive_3_1(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet maxInclusive with value
     05:07:34.
@@ -11825,11 +12586,12 @@ def test_atomic_time_max_inclusive_2_nistxml_sv_iv_atomic_time_max_inclusive_3_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_max_inclusive_2_nistxml_sv_iv_atomic_time_max_inclusive_3_2(mode, save_output):
+def test_atomic_time_max_inclusive_2_nistxml_sv_iv_atomic_time_max_inclusive_3_2(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet maxInclusive with value
     05:07:34.
@@ -11841,11 +12603,12 @@ def test_atomic_time_max_inclusive_2_nistxml_sv_iv_atomic_time_max_inclusive_3_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_max_inclusive_2_nistxml_sv_iv_atomic_time_max_inclusive_3_3(mode, save_output):
+def test_atomic_time_max_inclusive_2_nistxml_sv_iv_atomic_time_max_inclusive_3_3(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet maxInclusive with value
     05:07:34.
@@ -11857,11 +12620,12 @@ def test_atomic_time_max_inclusive_2_nistxml_sv_iv_atomic_time_max_inclusive_3_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_max_inclusive_2_nistxml_sv_iv_atomic_time_max_inclusive_3_4(mode, save_output):
+def test_atomic_time_max_inclusive_2_nistxml_sv_iv_atomic_time_max_inclusive_3_4(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet maxInclusive with value
     05:07:34.
@@ -11873,11 +12637,12 @@ def test_atomic_time_max_inclusive_2_nistxml_sv_iv_atomic_time_max_inclusive_3_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_max_inclusive_2_nistxml_sv_iv_atomic_time_max_inclusive_3_5(mode, save_output):
+def test_atomic_time_max_inclusive_2_nistxml_sv_iv_atomic_time_max_inclusive_3_5(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet maxInclusive with value
     05:07:34.
@@ -11889,11 +12654,12 @@ def test_atomic_time_max_inclusive_2_nistxml_sv_iv_atomic_time_max_inclusive_3_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_max_inclusive_1_nistxml_sv_iv_atomic_time_max_inclusive_2_1(mode, save_output):
+def test_atomic_time_max_inclusive_1_nistxml_sv_iv_atomic_time_max_inclusive_2_1(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet maxInclusive with value
     13:46:08.
@@ -11905,11 +12671,12 @@ def test_atomic_time_max_inclusive_1_nistxml_sv_iv_atomic_time_max_inclusive_2_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_max_inclusive_1_nistxml_sv_iv_atomic_time_max_inclusive_2_2(mode, save_output):
+def test_atomic_time_max_inclusive_1_nistxml_sv_iv_atomic_time_max_inclusive_2_2(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet maxInclusive with value
     13:46:08.
@@ -11921,11 +12688,12 @@ def test_atomic_time_max_inclusive_1_nistxml_sv_iv_atomic_time_max_inclusive_2_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_max_inclusive_1_nistxml_sv_iv_atomic_time_max_inclusive_2_3(mode, save_output):
+def test_atomic_time_max_inclusive_1_nistxml_sv_iv_atomic_time_max_inclusive_2_3(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet maxInclusive with value
     13:46:08.
@@ -11937,11 +12705,12 @@ def test_atomic_time_max_inclusive_1_nistxml_sv_iv_atomic_time_max_inclusive_2_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_max_inclusive_1_nistxml_sv_iv_atomic_time_max_inclusive_2_4(mode, save_output):
+def test_atomic_time_max_inclusive_1_nistxml_sv_iv_atomic_time_max_inclusive_2_4(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet maxInclusive with value
     13:46:08.
@@ -11953,11 +12722,12 @@ def test_atomic_time_max_inclusive_1_nistxml_sv_iv_atomic_time_max_inclusive_2_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_max_inclusive_1_nistxml_sv_iv_atomic_time_max_inclusive_2_5(mode, save_output):
+def test_atomic_time_max_inclusive_1_nistxml_sv_iv_atomic_time_max_inclusive_2_5(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet maxInclusive with value
     13:46:08.
@@ -11969,11 +12739,12 @@ def test_atomic_time_max_inclusive_1_nistxml_sv_iv_atomic_time_max_inclusive_2_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_max_inclusive_nistxml_sv_iv_atomic_time_max_inclusive_1_1(mode, save_output):
+def test_atomic_time_max_inclusive_nistxml_sv_iv_atomic_time_max_inclusive_1_1(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet maxInclusive with value
     00:00:00.
@@ -11985,11 +12756,12 @@ def test_atomic_time_max_inclusive_nistxml_sv_iv_atomic_time_max_inclusive_1_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_max_exclusive_4_nistxml_sv_iv_atomic_time_max_exclusive_5_1(mode, save_output):
+def test_atomic_time_max_exclusive_4_nistxml_sv_iv_atomic_time_max_exclusive_5_1(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet maxExclusive with value
     23:59:59.
@@ -12001,11 +12773,12 @@ def test_atomic_time_max_exclusive_4_nistxml_sv_iv_atomic_time_max_exclusive_5_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_max_exclusive_4_nistxml_sv_iv_atomic_time_max_exclusive_5_2(mode, save_output):
+def test_atomic_time_max_exclusive_4_nistxml_sv_iv_atomic_time_max_exclusive_5_2(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet maxExclusive with value
     23:59:59.
@@ -12017,11 +12790,12 @@ def test_atomic_time_max_exclusive_4_nistxml_sv_iv_atomic_time_max_exclusive_5_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_max_exclusive_4_nistxml_sv_iv_atomic_time_max_exclusive_5_3(mode, save_output):
+def test_atomic_time_max_exclusive_4_nistxml_sv_iv_atomic_time_max_exclusive_5_3(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet maxExclusive with value
     23:59:59.
@@ -12033,11 +12807,12 @@ def test_atomic_time_max_exclusive_4_nistxml_sv_iv_atomic_time_max_exclusive_5_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_max_exclusive_4_nistxml_sv_iv_atomic_time_max_exclusive_5_4(mode, save_output):
+def test_atomic_time_max_exclusive_4_nistxml_sv_iv_atomic_time_max_exclusive_5_4(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet maxExclusive with value
     23:59:59.
@@ -12049,11 +12824,12 @@ def test_atomic_time_max_exclusive_4_nistxml_sv_iv_atomic_time_max_exclusive_5_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_max_exclusive_4_nistxml_sv_iv_atomic_time_max_exclusive_5_5(mode, save_output):
+def test_atomic_time_max_exclusive_4_nistxml_sv_iv_atomic_time_max_exclusive_5_5(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet maxExclusive with value
     23:59:59.
@@ -12065,11 +12841,12 @@ def test_atomic_time_max_exclusive_4_nistxml_sv_iv_atomic_time_max_exclusive_5_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_max_exclusive_3_nistxml_sv_iv_atomic_time_max_exclusive_4_1(mode, save_output):
+def test_atomic_time_max_exclusive_3_nistxml_sv_iv_atomic_time_max_exclusive_4_1(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet maxExclusive with value
     12:25:37.
@@ -12081,11 +12858,12 @@ def test_atomic_time_max_exclusive_3_nistxml_sv_iv_atomic_time_max_exclusive_4_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_max_exclusive_3_nistxml_sv_iv_atomic_time_max_exclusive_4_2(mode, save_output):
+def test_atomic_time_max_exclusive_3_nistxml_sv_iv_atomic_time_max_exclusive_4_2(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet maxExclusive with value
     12:25:37.
@@ -12097,11 +12875,12 @@ def test_atomic_time_max_exclusive_3_nistxml_sv_iv_atomic_time_max_exclusive_4_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_max_exclusive_3_nistxml_sv_iv_atomic_time_max_exclusive_4_3(mode, save_output):
+def test_atomic_time_max_exclusive_3_nistxml_sv_iv_atomic_time_max_exclusive_4_3(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet maxExclusive with value
     12:25:37.
@@ -12113,11 +12892,12 @@ def test_atomic_time_max_exclusive_3_nistxml_sv_iv_atomic_time_max_exclusive_4_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_max_exclusive_3_nistxml_sv_iv_atomic_time_max_exclusive_4_4(mode, save_output):
+def test_atomic_time_max_exclusive_3_nistxml_sv_iv_atomic_time_max_exclusive_4_4(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet maxExclusive with value
     12:25:37.
@@ -12129,11 +12909,12 @@ def test_atomic_time_max_exclusive_3_nistxml_sv_iv_atomic_time_max_exclusive_4_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_max_exclusive_3_nistxml_sv_iv_atomic_time_max_exclusive_4_5(mode, save_output):
+def test_atomic_time_max_exclusive_3_nistxml_sv_iv_atomic_time_max_exclusive_4_5(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet maxExclusive with value
     12:25:37.
@@ -12145,11 +12926,12 @@ def test_atomic_time_max_exclusive_3_nistxml_sv_iv_atomic_time_max_exclusive_4_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_max_exclusive_2_nistxml_sv_iv_atomic_time_max_exclusive_3_1(mode, save_output):
+def test_atomic_time_max_exclusive_2_nistxml_sv_iv_atomic_time_max_exclusive_3_1(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet maxExclusive with value
     23:35:02.
@@ -12161,11 +12943,12 @@ def test_atomic_time_max_exclusive_2_nistxml_sv_iv_atomic_time_max_exclusive_3_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_max_exclusive_2_nistxml_sv_iv_atomic_time_max_exclusive_3_2(mode, save_output):
+def test_atomic_time_max_exclusive_2_nistxml_sv_iv_atomic_time_max_exclusive_3_2(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet maxExclusive with value
     23:35:02.
@@ -12177,11 +12960,12 @@ def test_atomic_time_max_exclusive_2_nistxml_sv_iv_atomic_time_max_exclusive_3_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_max_exclusive_2_nistxml_sv_iv_atomic_time_max_exclusive_3_3(mode, save_output):
+def test_atomic_time_max_exclusive_2_nistxml_sv_iv_atomic_time_max_exclusive_3_3(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet maxExclusive with value
     23:35:02.
@@ -12193,11 +12977,12 @@ def test_atomic_time_max_exclusive_2_nistxml_sv_iv_atomic_time_max_exclusive_3_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_max_exclusive_2_nistxml_sv_iv_atomic_time_max_exclusive_3_4(mode, save_output):
+def test_atomic_time_max_exclusive_2_nistxml_sv_iv_atomic_time_max_exclusive_3_4(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet maxExclusive with value
     23:35:02.
@@ -12209,11 +12994,12 @@ def test_atomic_time_max_exclusive_2_nistxml_sv_iv_atomic_time_max_exclusive_3_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_max_exclusive_2_nistxml_sv_iv_atomic_time_max_exclusive_3_5(mode, save_output):
+def test_atomic_time_max_exclusive_2_nistxml_sv_iv_atomic_time_max_exclusive_3_5(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet maxExclusive with value
     23:35:02.
@@ -12225,11 +13011,12 @@ def test_atomic_time_max_exclusive_2_nistxml_sv_iv_atomic_time_max_exclusive_3_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_max_exclusive_1_nistxml_sv_iv_atomic_time_max_exclusive_2_1(mode, save_output):
+def test_atomic_time_max_exclusive_1_nistxml_sv_iv_atomic_time_max_exclusive_2_1(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet maxExclusive with value
     08:19:11.
@@ -12241,11 +13028,12 @@ def test_atomic_time_max_exclusive_1_nistxml_sv_iv_atomic_time_max_exclusive_2_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_max_exclusive_1_nistxml_sv_iv_atomic_time_max_exclusive_2_2(mode, save_output):
+def test_atomic_time_max_exclusive_1_nistxml_sv_iv_atomic_time_max_exclusive_2_2(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet maxExclusive with value
     08:19:11.
@@ -12257,11 +13045,12 @@ def test_atomic_time_max_exclusive_1_nistxml_sv_iv_atomic_time_max_exclusive_2_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_max_exclusive_1_nistxml_sv_iv_atomic_time_max_exclusive_2_3(mode, save_output):
+def test_atomic_time_max_exclusive_1_nistxml_sv_iv_atomic_time_max_exclusive_2_3(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet maxExclusive with value
     08:19:11.
@@ -12273,11 +13062,12 @@ def test_atomic_time_max_exclusive_1_nistxml_sv_iv_atomic_time_max_exclusive_2_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_max_exclusive_1_nistxml_sv_iv_atomic_time_max_exclusive_2_4(mode, save_output):
+def test_atomic_time_max_exclusive_1_nistxml_sv_iv_atomic_time_max_exclusive_2_4(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet maxExclusive with value
     08:19:11.
@@ -12289,11 +13079,12 @@ def test_atomic_time_max_exclusive_1_nistxml_sv_iv_atomic_time_max_exclusive_2_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_max_exclusive_1_nistxml_sv_iv_atomic_time_max_exclusive_2_5(mode, save_output):
+def test_atomic_time_max_exclusive_1_nistxml_sv_iv_atomic_time_max_exclusive_2_5(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet maxExclusive with value
     08:19:11.
@@ -12305,11 +13096,12 @@ def test_atomic_time_max_exclusive_1_nistxml_sv_iv_atomic_time_max_exclusive_2_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_max_exclusive_nistxml_sv_iv_atomic_time_max_exclusive_1_1(mode, save_output):
+def test_atomic_time_max_exclusive_nistxml_sv_iv_atomic_time_max_exclusive_1_1(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet maxExclusive with value
     00:00:01.
@@ -12321,11 +13113,12 @@ def test_atomic_time_max_exclusive_nistxml_sv_iv_atomic_time_max_exclusive_1_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_min_inclusive_4_nistxml_sv_iv_atomic_time_min_inclusive_5_1(mode, save_output):
+def test_atomic_time_min_inclusive_4_nistxml_sv_iv_atomic_time_min_inclusive_5_1(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet minInclusive with value
     23:59:59.
@@ -12337,11 +13130,12 @@ def test_atomic_time_min_inclusive_4_nistxml_sv_iv_atomic_time_min_inclusive_5_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_min_inclusive_3_nistxml_sv_iv_atomic_time_min_inclusive_4_1(mode, save_output):
+def test_atomic_time_min_inclusive_3_nistxml_sv_iv_atomic_time_min_inclusive_4_1(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet minInclusive with value
     19:31:35.
@@ -12353,11 +13147,12 @@ def test_atomic_time_min_inclusive_3_nistxml_sv_iv_atomic_time_min_inclusive_4_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_min_inclusive_3_nistxml_sv_iv_atomic_time_min_inclusive_4_2(mode, save_output):
+def test_atomic_time_min_inclusive_3_nistxml_sv_iv_atomic_time_min_inclusive_4_2(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet minInclusive with value
     19:31:35.
@@ -12369,11 +13164,12 @@ def test_atomic_time_min_inclusive_3_nistxml_sv_iv_atomic_time_min_inclusive_4_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_min_inclusive_3_nistxml_sv_iv_atomic_time_min_inclusive_4_3(mode, save_output):
+def test_atomic_time_min_inclusive_3_nistxml_sv_iv_atomic_time_min_inclusive_4_3(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet minInclusive with value
     19:31:35.
@@ -12385,11 +13181,12 @@ def test_atomic_time_min_inclusive_3_nistxml_sv_iv_atomic_time_min_inclusive_4_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_min_inclusive_3_nistxml_sv_iv_atomic_time_min_inclusive_4_4(mode, save_output):
+def test_atomic_time_min_inclusive_3_nistxml_sv_iv_atomic_time_min_inclusive_4_4(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet minInclusive with value
     19:31:35.
@@ -12401,11 +13198,12 @@ def test_atomic_time_min_inclusive_3_nistxml_sv_iv_atomic_time_min_inclusive_4_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_min_inclusive_3_nistxml_sv_iv_atomic_time_min_inclusive_4_5(mode, save_output):
+def test_atomic_time_min_inclusive_3_nistxml_sv_iv_atomic_time_min_inclusive_4_5(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet minInclusive with value
     19:31:35.
@@ -12417,11 +13215,12 @@ def test_atomic_time_min_inclusive_3_nistxml_sv_iv_atomic_time_min_inclusive_4_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_min_inclusive_2_nistxml_sv_iv_atomic_time_min_inclusive_3_1(mode, save_output):
+def test_atomic_time_min_inclusive_2_nistxml_sv_iv_atomic_time_min_inclusive_3_1(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet minInclusive with value
     01:03:08.
@@ -12433,11 +13232,12 @@ def test_atomic_time_min_inclusive_2_nistxml_sv_iv_atomic_time_min_inclusive_3_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_min_inclusive_2_nistxml_sv_iv_atomic_time_min_inclusive_3_2(mode, save_output):
+def test_atomic_time_min_inclusive_2_nistxml_sv_iv_atomic_time_min_inclusive_3_2(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet minInclusive with value
     01:03:08.
@@ -12449,11 +13249,12 @@ def test_atomic_time_min_inclusive_2_nistxml_sv_iv_atomic_time_min_inclusive_3_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_min_inclusive_2_nistxml_sv_iv_atomic_time_min_inclusive_3_3(mode, save_output):
+def test_atomic_time_min_inclusive_2_nistxml_sv_iv_atomic_time_min_inclusive_3_3(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet minInclusive with value
     01:03:08.
@@ -12465,11 +13266,12 @@ def test_atomic_time_min_inclusive_2_nistxml_sv_iv_atomic_time_min_inclusive_3_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_min_inclusive_2_nistxml_sv_iv_atomic_time_min_inclusive_3_4(mode, save_output):
+def test_atomic_time_min_inclusive_2_nistxml_sv_iv_atomic_time_min_inclusive_3_4(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet minInclusive with value
     01:03:08.
@@ -12481,11 +13283,12 @@ def test_atomic_time_min_inclusive_2_nistxml_sv_iv_atomic_time_min_inclusive_3_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_min_inclusive_2_nistxml_sv_iv_atomic_time_min_inclusive_3_5(mode, save_output):
+def test_atomic_time_min_inclusive_2_nistxml_sv_iv_atomic_time_min_inclusive_3_5(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet minInclusive with value
     01:03:08.
@@ -12497,11 +13300,12 @@ def test_atomic_time_min_inclusive_2_nistxml_sv_iv_atomic_time_min_inclusive_3_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_min_inclusive_1_nistxml_sv_iv_atomic_time_min_inclusive_2_1(mode, save_output):
+def test_atomic_time_min_inclusive_1_nistxml_sv_iv_atomic_time_min_inclusive_2_1(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet minInclusive with value
     21:11:44.
@@ -12513,11 +13317,12 @@ def test_atomic_time_min_inclusive_1_nistxml_sv_iv_atomic_time_min_inclusive_2_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_min_inclusive_1_nistxml_sv_iv_atomic_time_min_inclusive_2_2(mode, save_output):
+def test_atomic_time_min_inclusive_1_nistxml_sv_iv_atomic_time_min_inclusive_2_2(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet minInclusive with value
     21:11:44.
@@ -12529,11 +13334,12 @@ def test_atomic_time_min_inclusive_1_nistxml_sv_iv_atomic_time_min_inclusive_2_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_min_inclusive_1_nistxml_sv_iv_atomic_time_min_inclusive_2_3(mode, save_output):
+def test_atomic_time_min_inclusive_1_nistxml_sv_iv_atomic_time_min_inclusive_2_3(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet minInclusive with value
     21:11:44.
@@ -12545,11 +13351,12 @@ def test_atomic_time_min_inclusive_1_nistxml_sv_iv_atomic_time_min_inclusive_2_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_min_inclusive_1_nistxml_sv_iv_atomic_time_min_inclusive_2_4(mode, save_output):
+def test_atomic_time_min_inclusive_1_nistxml_sv_iv_atomic_time_min_inclusive_2_4(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet minInclusive with value
     21:11:44.
@@ -12561,11 +13368,12 @@ def test_atomic_time_min_inclusive_1_nistxml_sv_iv_atomic_time_min_inclusive_2_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_min_inclusive_1_nistxml_sv_iv_atomic_time_min_inclusive_2_5(mode, save_output):
+def test_atomic_time_min_inclusive_1_nistxml_sv_iv_atomic_time_min_inclusive_2_5(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet minInclusive with value
     21:11:44.
@@ -12577,11 +13385,12 @@ def test_atomic_time_min_inclusive_1_nistxml_sv_iv_atomic_time_min_inclusive_2_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_min_inclusive_nistxml_sv_iv_atomic_time_min_inclusive_1_1(mode, save_output):
+def test_atomic_time_min_inclusive_nistxml_sv_iv_atomic_time_min_inclusive_1_1(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet minInclusive with value
     00:00:00.
@@ -12593,11 +13402,12 @@ def test_atomic_time_min_inclusive_nistxml_sv_iv_atomic_time_min_inclusive_1_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_min_inclusive_nistxml_sv_iv_atomic_time_min_inclusive_1_2(mode, save_output):
+def test_atomic_time_min_inclusive_nistxml_sv_iv_atomic_time_min_inclusive_1_2(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet minInclusive with value
     00:00:00.
@@ -12609,11 +13419,12 @@ def test_atomic_time_min_inclusive_nistxml_sv_iv_atomic_time_min_inclusive_1_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_min_inclusive_nistxml_sv_iv_atomic_time_min_inclusive_1_3(mode, save_output):
+def test_atomic_time_min_inclusive_nistxml_sv_iv_atomic_time_min_inclusive_1_3(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet minInclusive with value
     00:00:00.
@@ -12625,11 +13436,12 @@ def test_atomic_time_min_inclusive_nistxml_sv_iv_atomic_time_min_inclusive_1_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_min_inclusive_nistxml_sv_iv_atomic_time_min_inclusive_1_4(mode, save_output):
+def test_atomic_time_min_inclusive_nistxml_sv_iv_atomic_time_min_inclusive_1_4(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet minInclusive with value
     00:00:00.
@@ -12641,11 +13453,12 @@ def test_atomic_time_min_inclusive_nistxml_sv_iv_atomic_time_min_inclusive_1_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_min_inclusive_nistxml_sv_iv_atomic_time_min_inclusive_1_5(mode, save_output):
+def test_atomic_time_min_inclusive_nistxml_sv_iv_atomic_time_min_inclusive_1_5(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet minInclusive with value
     00:00:00.
@@ -12657,11 +13470,12 @@ def test_atomic_time_min_inclusive_nistxml_sv_iv_atomic_time_min_inclusive_1_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_min_exclusive_4_nistxml_sv_iv_atomic_time_min_exclusive_5_1(mode, save_output):
+def test_atomic_time_min_exclusive_4_nistxml_sv_iv_atomic_time_min_exclusive_5_1(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet minExclusive with value
     23:59:58.
@@ -12673,11 +13487,12 @@ def test_atomic_time_min_exclusive_4_nistxml_sv_iv_atomic_time_min_exclusive_5_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_min_exclusive_3_nistxml_sv_iv_atomic_time_min_exclusive_4_1(mode, save_output):
+def test_atomic_time_min_exclusive_3_nistxml_sv_iv_atomic_time_min_exclusive_4_1(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet minExclusive with value
     18:16:28.
@@ -12689,11 +13504,12 @@ def test_atomic_time_min_exclusive_3_nistxml_sv_iv_atomic_time_min_exclusive_4_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_min_exclusive_3_nistxml_sv_iv_atomic_time_min_exclusive_4_2(mode, save_output):
+def test_atomic_time_min_exclusive_3_nistxml_sv_iv_atomic_time_min_exclusive_4_2(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet minExclusive with value
     18:16:28.
@@ -12705,11 +13521,12 @@ def test_atomic_time_min_exclusive_3_nistxml_sv_iv_atomic_time_min_exclusive_4_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_min_exclusive_3_nistxml_sv_iv_atomic_time_min_exclusive_4_3(mode, save_output):
+def test_atomic_time_min_exclusive_3_nistxml_sv_iv_atomic_time_min_exclusive_4_3(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet minExclusive with value
     18:16:28.
@@ -12721,11 +13538,12 @@ def test_atomic_time_min_exclusive_3_nistxml_sv_iv_atomic_time_min_exclusive_4_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_min_exclusive_3_nistxml_sv_iv_atomic_time_min_exclusive_4_4(mode, save_output):
+def test_atomic_time_min_exclusive_3_nistxml_sv_iv_atomic_time_min_exclusive_4_4(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet minExclusive with value
     18:16:28.
@@ -12737,11 +13555,12 @@ def test_atomic_time_min_exclusive_3_nistxml_sv_iv_atomic_time_min_exclusive_4_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_min_exclusive_3_nistxml_sv_iv_atomic_time_min_exclusive_4_5(mode, save_output):
+def test_atomic_time_min_exclusive_3_nistxml_sv_iv_atomic_time_min_exclusive_4_5(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet minExclusive with value
     18:16:28.
@@ -12753,11 +13572,12 @@ def test_atomic_time_min_exclusive_3_nistxml_sv_iv_atomic_time_min_exclusive_4_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_min_exclusive_2_nistxml_sv_iv_atomic_time_min_exclusive_3_1(mode, save_output):
+def test_atomic_time_min_exclusive_2_nistxml_sv_iv_atomic_time_min_exclusive_3_1(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet minExclusive with value
     13:38:10.
@@ -12769,11 +13589,12 @@ def test_atomic_time_min_exclusive_2_nistxml_sv_iv_atomic_time_min_exclusive_3_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_min_exclusive_2_nistxml_sv_iv_atomic_time_min_exclusive_3_2(mode, save_output):
+def test_atomic_time_min_exclusive_2_nistxml_sv_iv_atomic_time_min_exclusive_3_2(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet minExclusive with value
     13:38:10.
@@ -12785,11 +13606,12 @@ def test_atomic_time_min_exclusive_2_nistxml_sv_iv_atomic_time_min_exclusive_3_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_min_exclusive_2_nistxml_sv_iv_atomic_time_min_exclusive_3_3(mode, save_output):
+def test_atomic_time_min_exclusive_2_nistxml_sv_iv_atomic_time_min_exclusive_3_3(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet minExclusive with value
     13:38:10.
@@ -12801,11 +13623,12 @@ def test_atomic_time_min_exclusive_2_nistxml_sv_iv_atomic_time_min_exclusive_3_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_min_exclusive_2_nistxml_sv_iv_atomic_time_min_exclusive_3_4(mode, save_output):
+def test_atomic_time_min_exclusive_2_nistxml_sv_iv_atomic_time_min_exclusive_3_4(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet minExclusive with value
     13:38:10.
@@ -12817,11 +13640,12 @@ def test_atomic_time_min_exclusive_2_nistxml_sv_iv_atomic_time_min_exclusive_3_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_min_exclusive_2_nistxml_sv_iv_atomic_time_min_exclusive_3_5(mode, save_output):
+def test_atomic_time_min_exclusive_2_nistxml_sv_iv_atomic_time_min_exclusive_3_5(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet minExclusive with value
     13:38:10.
@@ -12833,11 +13657,12 @@ def test_atomic_time_min_exclusive_2_nistxml_sv_iv_atomic_time_min_exclusive_3_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_min_exclusive_1_nistxml_sv_iv_atomic_time_min_exclusive_2_1(mode, save_output):
+def test_atomic_time_min_exclusive_1_nistxml_sv_iv_atomic_time_min_exclusive_2_1(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet minExclusive with value
     02:57:29.
@@ -12849,11 +13674,12 @@ def test_atomic_time_min_exclusive_1_nistxml_sv_iv_atomic_time_min_exclusive_2_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_min_exclusive_1_nistxml_sv_iv_atomic_time_min_exclusive_2_2(mode, save_output):
+def test_atomic_time_min_exclusive_1_nistxml_sv_iv_atomic_time_min_exclusive_2_2(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet minExclusive with value
     02:57:29.
@@ -12865,11 +13691,12 @@ def test_atomic_time_min_exclusive_1_nistxml_sv_iv_atomic_time_min_exclusive_2_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_min_exclusive_1_nistxml_sv_iv_atomic_time_min_exclusive_2_3(mode, save_output):
+def test_atomic_time_min_exclusive_1_nistxml_sv_iv_atomic_time_min_exclusive_2_3(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet minExclusive with value
     02:57:29.
@@ -12881,11 +13708,12 @@ def test_atomic_time_min_exclusive_1_nistxml_sv_iv_atomic_time_min_exclusive_2_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_min_exclusive_1_nistxml_sv_iv_atomic_time_min_exclusive_2_4(mode, save_output):
+def test_atomic_time_min_exclusive_1_nistxml_sv_iv_atomic_time_min_exclusive_2_4(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet minExclusive with value
     02:57:29.
@@ -12897,11 +13725,12 @@ def test_atomic_time_min_exclusive_1_nistxml_sv_iv_atomic_time_min_exclusive_2_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_min_exclusive_1_nistxml_sv_iv_atomic_time_min_exclusive_2_5(mode, save_output):
+def test_atomic_time_min_exclusive_1_nistxml_sv_iv_atomic_time_min_exclusive_2_5(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet minExclusive with value
     02:57:29.
@@ -12913,11 +13742,12 @@ def test_atomic_time_min_exclusive_1_nistxml_sv_iv_atomic_time_min_exclusive_2_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_min_exclusive_nistxml_sv_iv_atomic_time_min_exclusive_1_1(mode, save_output):
+def test_atomic_time_min_exclusive_nistxml_sv_iv_atomic_time_min_exclusive_1_1(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet minExclusive with value
     00:00:00.
@@ -12929,11 +13759,12 @@ def test_atomic_time_min_exclusive_nistxml_sv_iv_atomic_time_min_exclusive_1_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_min_exclusive_nistxml_sv_iv_atomic_time_min_exclusive_1_2(mode, save_output):
+def test_atomic_time_min_exclusive_nistxml_sv_iv_atomic_time_min_exclusive_1_2(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet minExclusive with value
     00:00:00.
@@ -12945,11 +13776,12 @@ def test_atomic_time_min_exclusive_nistxml_sv_iv_atomic_time_min_exclusive_1_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_min_exclusive_nistxml_sv_iv_atomic_time_min_exclusive_1_3(mode, save_output):
+def test_atomic_time_min_exclusive_nistxml_sv_iv_atomic_time_min_exclusive_1_3(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet minExclusive with value
     00:00:00.
@@ -12961,11 +13793,12 @@ def test_atomic_time_min_exclusive_nistxml_sv_iv_atomic_time_min_exclusive_1_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_min_exclusive_nistxml_sv_iv_atomic_time_min_exclusive_1_4(mode, save_output):
+def test_atomic_time_min_exclusive_nistxml_sv_iv_atomic_time_min_exclusive_1_4(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet minExclusive with value
     00:00:00.
@@ -12977,11 +13810,12 @@ def test_atomic_time_min_exclusive_nistxml_sv_iv_atomic_time_min_exclusive_1_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_time_min_exclusive_nistxml_sv_iv_atomic_time_min_exclusive_1_5(mode, save_output):
+def test_atomic_time_min_exclusive_nistxml_sv_iv_atomic_time_min_exclusive_1_5(mode, save_output, output_format):
     """
     Type atomic/time is restricted by facet minExclusive with value
     00:00:00.
@@ -12993,11 +13827,12 @@ def test_atomic_time_min_exclusive_nistxml_sv_iv_atomic_time_min_exclusive_1_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_white_space_nistxml_sv_iv_atomic_date_time_white_space_1_1(mode, save_output):
+def test_atomic_date_time_white_space_nistxml_sv_iv_atomic_date_time_white_space_1_1(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet whiteSpace with value
     collapse.
@@ -13009,11 +13844,12 @@ def test_atomic_date_time_white_space_nistxml_sv_iv_atomic_date_time_white_space
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_white_space_nistxml_sv_iv_atomic_date_time_white_space_1_2(mode, save_output):
+def test_atomic_date_time_white_space_nistxml_sv_iv_atomic_date_time_white_space_1_2(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet whiteSpace with value
     collapse.
@@ -13025,11 +13861,12 @@ def test_atomic_date_time_white_space_nistxml_sv_iv_atomic_date_time_white_space
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_white_space_nistxml_sv_iv_atomic_date_time_white_space_1_3(mode, save_output):
+def test_atomic_date_time_white_space_nistxml_sv_iv_atomic_date_time_white_space_1_3(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet whiteSpace with value
     collapse.
@@ -13041,11 +13878,12 @@ def test_atomic_date_time_white_space_nistxml_sv_iv_atomic_date_time_white_space
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_white_space_nistxml_sv_iv_atomic_date_time_white_space_1_4(mode, save_output):
+def test_atomic_date_time_white_space_nistxml_sv_iv_atomic_date_time_white_space_1_4(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet whiteSpace with value
     collapse.
@@ -13057,11 +13895,12 @@ def test_atomic_date_time_white_space_nistxml_sv_iv_atomic_date_time_white_space
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_white_space_nistxml_sv_iv_atomic_date_time_white_space_1_5(mode, save_output):
+def test_atomic_date_time_white_space_nistxml_sv_iv_atomic_date_time_white_space_1_5(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet whiteSpace with value
     collapse.
@@ -13073,11 +13912,12 @@ def test_atomic_date_time_white_space_nistxml_sv_iv_atomic_date_time_white_space
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_enumeration_4_nistxml_sv_iv_atomic_date_time_enumeration_5_1(mode, save_output):
+def test_atomic_date_time_enumeration_4_nistxml_sv_iv_atomic_date_time_enumeration_5_1(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet enumeration.
     """
@@ -13088,11 +13928,12 @@ def test_atomic_date_time_enumeration_4_nistxml_sv_iv_atomic_date_time_enumerati
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_enumeration_4_nistxml_sv_iv_atomic_date_time_enumeration_5_2(mode, save_output):
+def test_atomic_date_time_enumeration_4_nistxml_sv_iv_atomic_date_time_enumeration_5_2(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet enumeration.
     """
@@ -13103,11 +13944,12 @@ def test_atomic_date_time_enumeration_4_nistxml_sv_iv_atomic_date_time_enumerati
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_enumeration_4_nistxml_sv_iv_atomic_date_time_enumeration_5_3(mode, save_output):
+def test_atomic_date_time_enumeration_4_nistxml_sv_iv_atomic_date_time_enumeration_5_3(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet enumeration.
     """
@@ -13118,11 +13960,12 @@ def test_atomic_date_time_enumeration_4_nistxml_sv_iv_atomic_date_time_enumerati
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_enumeration_4_nistxml_sv_iv_atomic_date_time_enumeration_5_4(mode, save_output):
+def test_atomic_date_time_enumeration_4_nistxml_sv_iv_atomic_date_time_enumeration_5_4(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet enumeration.
     """
@@ -13133,11 +13976,12 @@ def test_atomic_date_time_enumeration_4_nistxml_sv_iv_atomic_date_time_enumerati
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_enumeration_4_nistxml_sv_iv_atomic_date_time_enumeration_5_5(mode, save_output):
+def test_atomic_date_time_enumeration_4_nistxml_sv_iv_atomic_date_time_enumeration_5_5(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet enumeration.
     """
@@ -13148,11 +13992,12 @@ def test_atomic_date_time_enumeration_4_nistxml_sv_iv_atomic_date_time_enumerati
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_enumeration_3_nistxml_sv_iv_atomic_date_time_enumeration_4_1(mode, save_output):
+def test_atomic_date_time_enumeration_3_nistxml_sv_iv_atomic_date_time_enumeration_4_1(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet enumeration.
     """
@@ -13163,11 +14008,12 @@ def test_atomic_date_time_enumeration_3_nistxml_sv_iv_atomic_date_time_enumerati
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_enumeration_3_nistxml_sv_iv_atomic_date_time_enumeration_4_2(mode, save_output):
+def test_atomic_date_time_enumeration_3_nistxml_sv_iv_atomic_date_time_enumeration_4_2(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet enumeration.
     """
@@ -13178,11 +14024,12 @@ def test_atomic_date_time_enumeration_3_nistxml_sv_iv_atomic_date_time_enumerati
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_enumeration_3_nistxml_sv_iv_atomic_date_time_enumeration_4_3(mode, save_output):
+def test_atomic_date_time_enumeration_3_nistxml_sv_iv_atomic_date_time_enumeration_4_3(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet enumeration.
     """
@@ -13193,11 +14040,12 @@ def test_atomic_date_time_enumeration_3_nistxml_sv_iv_atomic_date_time_enumerati
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_enumeration_3_nistxml_sv_iv_atomic_date_time_enumeration_4_4(mode, save_output):
+def test_atomic_date_time_enumeration_3_nistxml_sv_iv_atomic_date_time_enumeration_4_4(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet enumeration.
     """
@@ -13208,11 +14056,12 @@ def test_atomic_date_time_enumeration_3_nistxml_sv_iv_atomic_date_time_enumerati
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_enumeration_3_nistxml_sv_iv_atomic_date_time_enumeration_4_5(mode, save_output):
+def test_atomic_date_time_enumeration_3_nistxml_sv_iv_atomic_date_time_enumeration_4_5(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet enumeration.
     """
@@ -13223,11 +14072,12 @@ def test_atomic_date_time_enumeration_3_nistxml_sv_iv_atomic_date_time_enumerati
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_enumeration_2_nistxml_sv_iv_atomic_date_time_enumeration_3_1(mode, save_output):
+def test_atomic_date_time_enumeration_2_nistxml_sv_iv_atomic_date_time_enumeration_3_1(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet enumeration.
     """
@@ -13238,11 +14088,12 @@ def test_atomic_date_time_enumeration_2_nistxml_sv_iv_atomic_date_time_enumerati
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_enumeration_2_nistxml_sv_iv_atomic_date_time_enumeration_3_2(mode, save_output):
+def test_atomic_date_time_enumeration_2_nistxml_sv_iv_atomic_date_time_enumeration_3_2(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet enumeration.
     """
@@ -13253,11 +14104,12 @@ def test_atomic_date_time_enumeration_2_nistxml_sv_iv_atomic_date_time_enumerati
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_enumeration_2_nistxml_sv_iv_atomic_date_time_enumeration_3_3(mode, save_output):
+def test_atomic_date_time_enumeration_2_nistxml_sv_iv_atomic_date_time_enumeration_3_3(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet enumeration.
     """
@@ -13268,11 +14120,12 @@ def test_atomic_date_time_enumeration_2_nistxml_sv_iv_atomic_date_time_enumerati
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_enumeration_2_nistxml_sv_iv_atomic_date_time_enumeration_3_4(mode, save_output):
+def test_atomic_date_time_enumeration_2_nistxml_sv_iv_atomic_date_time_enumeration_3_4(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet enumeration.
     """
@@ -13283,11 +14136,12 @@ def test_atomic_date_time_enumeration_2_nistxml_sv_iv_atomic_date_time_enumerati
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_enumeration_2_nistxml_sv_iv_atomic_date_time_enumeration_3_5(mode, save_output):
+def test_atomic_date_time_enumeration_2_nistxml_sv_iv_atomic_date_time_enumeration_3_5(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet enumeration.
     """
@@ -13298,11 +14152,12 @@ def test_atomic_date_time_enumeration_2_nistxml_sv_iv_atomic_date_time_enumerati
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_enumeration_1_nistxml_sv_iv_atomic_date_time_enumeration_2_1(mode, save_output):
+def test_atomic_date_time_enumeration_1_nistxml_sv_iv_atomic_date_time_enumeration_2_1(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet enumeration.
     """
@@ -13313,11 +14168,12 @@ def test_atomic_date_time_enumeration_1_nistxml_sv_iv_atomic_date_time_enumerati
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_enumeration_1_nistxml_sv_iv_atomic_date_time_enumeration_2_2(mode, save_output):
+def test_atomic_date_time_enumeration_1_nistxml_sv_iv_atomic_date_time_enumeration_2_2(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet enumeration.
     """
@@ -13328,11 +14184,12 @@ def test_atomic_date_time_enumeration_1_nistxml_sv_iv_atomic_date_time_enumerati
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_enumeration_1_nistxml_sv_iv_atomic_date_time_enumeration_2_3(mode, save_output):
+def test_atomic_date_time_enumeration_1_nistxml_sv_iv_atomic_date_time_enumeration_2_3(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet enumeration.
     """
@@ -13343,11 +14200,12 @@ def test_atomic_date_time_enumeration_1_nistxml_sv_iv_atomic_date_time_enumerati
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_enumeration_1_nistxml_sv_iv_atomic_date_time_enumeration_2_4(mode, save_output):
+def test_atomic_date_time_enumeration_1_nistxml_sv_iv_atomic_date_time_enumeration_2_4(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet enumeration.
     """
@@ -13358,11 +14216,12 @@ def test_atomic_date_time_enumeration_1_nistxml_sv_iv_atomic_date_time_enumerati
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_enumeration_1_nistxml_sv_iv_atomic_date_time_enumeration_2_5(mode, save_output):
+def test_atomic_date_time_enumeration_1_nistxml_sv_iv_atomic_date_time_enumeration_2_5(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet enumeration.
     """
@@ -13373,11 +14232,12 @@ def test_atomic_date_time_enumeration_1_nistxml_sv_iv_atomic_date_time_enumerati
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_enumeration_nistxml_sv_iv_atomic_date_time_enumeration_1_1(mode, save_output):
+def test_atomic_date_time_enumeration_nistxml_sv_iv_atomic_date_time_enumeration_1_1(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet enumeration.
     """
@@ -13388,11 +14248,12 @@ def test_atomic_date_time_enumeration_nistxml_sv_iv_atomic_date_time_enumeration
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_enumeration_nistxml_sv_iv_atomic_date_time_enumeration_1_2(mode, save_output):
+def test_atomic_date_time_enumeration_nistxml_sv_iv_atomic_date_time_enumeration_1_2(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet enumeration.
     """
@@ -13403,11 +14264,12 @@ def test_atomic_date_time_enumeration_nistxml_sv_iv_atomic_date_time_enumeration
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_enumeration_nistxml_sv_iv_atomic_date_time_enumeration_1_3(mode, save_output):
+def test_atomic_date_time_enumeration_nistxml_sv_iv_atomic_date_time_enumeration_1_3(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet enumeration.
     """
@@ -13418,11 +14280,12 @@ def test_atomic_date_time_enumeration_nistxml_sv_iv_atomic_date_time_enumeration
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_enumeration_nistxml_sv_iv_atomic_date_time_enumeration_1_4(mode, save_output):
+def test_atomic_date_time_enumeration_nistxml_sv_iv_atomic_date_time_enumeration_1_4(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet enumeration.
     """
@@ -13433,11 +14296,12 @@ def test_atomic_date_time_enumeration_nistxml_sv_iv_atomic_date_time_enumeration
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_enumeration_nistxml_sv_iv_atomic_date_time_enumeration_1_5(mode, save_output):
+def test_atomic_date_time_enumeration_nistxml_sv_iv_atomic_date_time_enumeration_1_5(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet enumeration.
     """
@@ -13448,11 +14312,12 @@ def test_atomic_date_time_enumeration_nistxml_sv_iv_atomic_date_time_enumeration
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_pattern_4_nistxml_sv_iv_atomic_date_time_pattern_5_1(mode, save_output):
+def test_atomic_date_time_pattern_4_nistxml_sv_iv_atomic_date_time_pattern_5_1(mode, save_output, output_format):
     r"""
     Type atomic/dateTime is restricted by facet pattern with value
     \d\d77-0\d-0\dT1\d:\d5:\d5.
@@ -13464,11 +14329,12 @@ def test_atomic_date_time_pattern_4_nistxml_sv_iv_atomic_date_time_pattern_5_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_pattern_4_nistxml_sv_iv_atomic_date_time_pattern_5_2(mode, save_output):
+def test_atomic_date_time_pattern_4_nistxml_sv_iv_atomic_date_time_pattern_5_2(mode, save_output, output_format):
     r"""
     Type atomic/dateTime is restricted by facet pattern with value
     \d\d77-0\d-0\dT1\d:\d5:\d5.
@@ -13480,11 +14346,12 @@ def test_atomic_date_time_pattern_4_nistxml_sv_iv_atomic_date_time_pattern_5_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_pattern_4_nistxml_sv_iv_atomic_date_time_pattern_5_3(mode, save_output):
+def test_atomic_date_time_pattern_4_nistxml_sv_iv_atomic_date_time_pattern_5_3(mode, save_output, output_format):
     r"""
     Type atomic/dateTime is restricted by facet pattern with value
     \d\d77-0\d-0\dT1\d:\d5:\d5.
@@ -13496,11 +14363,12 @@ def test_atomic_date_time_pattern_4_nistxml_sv_iv_atomic_date_time_pattern_5_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_pattern_4_nistxml_sv_iv_atomic_date_time_pattern_5_4(mode, save_output):
+def test_atomic_date_time_pattern_4_nistxml_sv_iv_atomic_date_time_pattern_5_4(mode, save_output, output_format):
     r"""
     Type atomic/dateTime is restricted by facet pattern with value
     \d\d77-0\d-0\dT1\d:\d5:\d5.
@@ -13512,11 +14380,12 @@ def test_atomic_date_time_pattern_4_nistxml_sv_iv_atomic_date_time_pattern_5_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_pattern_4_nistxml_sv_iv_atomic_date_time_pattern_5_5(mode, save_output):
+def test_atomic_date_time_pattern_4_nistxml_sv_iv_atomic_date_time_pattern_5_5(mode, save_output, output_format):
     r"""
     Type atomic/dateTime is restricted by facet pattern with value
     \d\d77-0\d-0\dT1\d:\d5:\d5.
@@ -13528,11 +14397,12 @@ def test_atomic_date_time_pattern_4_nistxml_sv_iv_atomic_date_time_pattern_5_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_pattern_3_nistxml_sv_iv_atomic_date_time_pattern_4_1(mode, save_output):
+def test_atomic_date_time_pattern_3_nistxml_sv_iv_atomic_date_time_pattern_4_1(mode, save_output, output_format):
     r"""
     Type atomic/dateTime is restricted by facet pattern with value
     \d\d89-\d2-\d0T1\d:2\d:1\d.
@@ -13544,11 +14414,12 @@ def test_atomic_date_time_pattern_3_nistxml_sv_iv_atomic_date_time_pattern_4_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_pattern_3_nistxml_sv_iv_atomic_date_time_pattern_4_2(mode, save_output):
+def test_atomic_date_time_pattern_3_nistxml_sv_iv_atomic_date_time_pattern_4_2(mode, save_output, output_format):
     r"""
     Type atomic/dateTime is restricted by facet pattern with value
     \d\d89-\d2-\d0T1\d:2\d:1\d.
@@ -13560,11 +14431,12 @@ def test_atomic_date_time_pattern_3_nistxml_sv_iv_atomic_date_time_pattern_4_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_pattern_3_nistxml_sv_iv_atomic_date_time_pattern_4_3(mode, save_output):
+def test_atomic_date_time_pattern_3_nistxml_sv_iv_atomic_date_time_pattern_4_3(mode, save_output, output_format):
     r"""
     Type atomic/dateTime is restricted by facet pattern with value
     \d\d89-\d2-\d0T1\d:2\d:1\d.
@@ -13576,11 +14448,12 @@ def test_atomic_date_time_pattern_3_nistxml_sv_iv_atomic_date_time_pattern_4_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_pattern_3_nistxml_sv_iv_atomic_date_time_pattern_4_4(mode, save_output):
+def test_atomic_date_time_pattern_3_nistxml_sv_iv_atomic_date_time_pattern_4_4(mode, save_output, output_format):
     r"""
     Type atomic/dateTime is restricted by facet pattern with value
     \d\d89-\d2-\d0T1\d:2\d:1\d.
@@ -13592,11 +14465,12 @@ def test_atomic_date_time_pattern_3_nistxml_sv_iv_atomic_date_time_pattern_4_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_pattern_3_nistxml_sv_iv_atomic_date_time_pattern_4_5(mode, save_output):
+def test_atomic_date_time_pattern_3_nistxml_sv_iv_atomic_date_time_pattern_4_5(mode, save_output, output_format):
     r"""
     Type atomic/dateTime is restricted by facet pattern with value
     \d\d89-\d2-\d0T1\d:2\d:1\d.
@@ -13608,11 +14482,12 @@ def test_atomic_date_time_pattern_3_nistxml_sv_iv_atomic_date_time_pattern_4_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_pattern_2_nistxml_sv_iv_atomic_date_time_pattern_3_1(mode, save_output):
+def test_atomic_date_time_pattern_2_nistxml_sv_iv_atomic_date_time_pattern_3_1(mode, save_output, output_format):
     r"""
     Type atomic/dateTime is restricted by facet pattern with value
     19\d\d-0\d-0\dT\d5:1\d:3\d.
@@ -13624,11 +14499,12 @@ def test_atomic_date_time_pattern_2_nistxml_sv_iv_atomic_date_time_pattern_3_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_pattern_2_nistxml_sv_iv_atomic_date_time_pattern_3_2(mode, save_output):
+def test_atomic_date_time_pattern_2_nistxml_sv_iv_atomic_date_time_pattern_3_2(mode, save_output, output_format):
     r"""
     Type atomic/dateTime is restricted by facet pattern with value
     19\d\d-0\d-0\dT\d5:1\d:3\d.
@@ -13640,11 +14516,12 @@ def test_atomic_date_time_pattern_2_nistxml_sv_iv_atomic_date_time_pattern_3_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_pattern_2_nistxml_sv_iv_atomic_date_time_pattern_3_3(mode, save_output):
+def test_atomic_date_time_pattern_2_nistxml_sv_iv_atomic_date_time_pattern_3_3(mode, save_output, output_format):
     r"""
     Type atomic/dateTime is restricted by facet pattern with value
     19\d\d-0\d-0\dT\d5:1\d:3\d.
@@ -13656,11 +14533,12 @@ def test_atomic_date_time_pattern_2_nistxml_sv_iv_atomic_date_time_pattern_3_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_pattern_2_nistxml_sv_iv_atomic_date_time_pattern_3_4(mode, save_output):
+def test_atomic_date_time_pattern_2_nistxml_sv_iv_atomic_date_time_pattern_3_4(mode, save_output, output_format):
     r"""
     Type atomic/dateTime is restricted by facet pattern with value
     19\d\d-0\d-0\dT\d5:1\d:3\d.
@@ -13672,11 +14550,12 @@ def test_atomic_date_time_pattern_2_nistxml_sv_iv_atomic_date_time_pattern_3_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_pattern_2_nistxml_sv_iv_atomic_date_time_pattern_3_5(mode, save_output):
+def test_atomic_date_time_pattern_2_nistxml_sv_iv_atomic_date_time_pattern_3_5(mode, save_output, output_format):
     r"""
     Type atomic/dateTime is restricted by facet pattern with value
     19\d\d-0\d-0\dT\d5:1\d:3\d.
@@ -13688,11 +14567,12 @@ def test_atomic_date_time_pattern_2_nistxml_sv_iv_atomic_date_time_pattern_3_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_pattern_1_nistxml_sv_iv_atomic_date_time_pattern_2_1(mode, save_output):
+def test_atomic_date_time_pattern_1_nistxml_sv_iv_atomic_date_time_pattern_2_1(mode, save_output, output_format):
     r"""
     Type atomic/dateTime is restricted by facet pattern with value
     \d\d55-0\d-\d8T\d6:1\d:0\d.
@@ -13704,11 +14584,12 @@ def test_atomic_date_time_pattern_1_nistxml_sv_iv_atomic_date_time_pattern_2_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_pattern_1_nistxml_sv_iv_atomic_date_time_pattern_2_2(mode, save_output):
+def test_atomic_date_time_pattern_1_nistxml_sv_iv_atomic_date_time_pattern_2_2(mode, save_output, output_format):
     r"""
     Type atomic/dateTime is restricted by facet pattern with value
     \d\d55-0\d-\d8T\d6:1\d:0\d.
@@ -13720,11 +14601,12 @@ def test_atomic_date_time_pattern_1_nistxml_sv_iv_atomic_date_time_pattern_2_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_pattern_1_nistxml_sv_iv_atomic_date_time_pattern_2_3(mode, save_output):
+def test_atomic_date_time_pattern_1_nistxml_sv_iv_atomic_date_time_pattern_2_3(mode, save_output, output_format):
     r"""
     Type atomic/dateTime is restricted by facet pattern with value
     \d\d55-0\d-\d8T\d6:1\d:0\d.
@@ -13736,11 +14618,12 @@ def test_atomic_date_time_pattern_1_nistxml_sv_iv_atomic_date_time_pattern_2_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_pattern_1_nistxml_sv_iv_atomic_date_time_pattern_2_4(mode, save_output):
+def test_atomic_date_time_pattern_1_nistxml_sv_iv_atomic_date_time_pattern_2_4(mode, save_output, output_format):
     r"""
     Type atomic/dateTime is restricted by facet pattern with value
     \d\d55-0\d-\d8T\d6:1\d:0\d.
@@ -13752,11 +14635,12 @@ def test_atomic_date_time_pattern_1_nistxml_sv_iv_atomic_date_time_pattern_2_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_pattern_1_nistxml_sv_iv_atomic_date_time_pattern_2_5(mode, save_output):
+def test_atomic_date_time_pattern_1_nistxml_sv_iv_atomic_date_time_pattern_2_5(mode, save_output, output_format):
     r"""
     Type atomic/dateTime is restricted by facet pattern with value
     \d\d55-0\d-\d8T\d6:1\d:0\d.
@@ -13768,11 +14652,12 @@ def test_atomic_date_time_pattern_1_nistxml_sv_iv_atomic_date_time_pattern_2_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_pattern_nistxml_sv_iv_atomic_date_time_pattern_1_1(mode, save_output):
+def test_atomic_date_time_pattern_nistxml_sv_iv_atomic_date_time_pattern_1_1(mode, save_output, output_format):
     r"""
     Type atomic/dateTime is restricted by facet pattern with value
     19\d\d-0\d-\d8T\d8:\d5:5\d.
@@ -13784,11 +14669,12 @@ def test_atomic_date_time_pattern_nistxml_sv_iv_atomic_date_time_pattern_1_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_pattern_nistxml_sv_iv_atomic_date_time_pattern_1_2(mode, save_output):
+def test_atomic_date_time_pattern_nistxml_sv_iv_atomic_date_time_pattern_1_2(mode, save_output, output_format):
     r"""
     Type atomic/dateTime is restricted by facet pattern with value
     19\d\d-0\d-\d8T\d8:\d5:5\d.
@@ -13800,11 +14686,12 @@ def test_atomic_date_time_pattern_nistxml_sv_iv_atomic_date_time_pattern_1_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_pattern_nistxml_sv_iv_atomic_date_time_pattern_1_3(mode, save_output):
+def test_atomic_date_time_pattern_nistxml_sv_iv_atomic_date_time_pattern_1_3(mode, save_output, output_format):
     r"""
     Type atomic/dateTime is restricted by facet pattern with value
     19\d\d-0\d-\d8T\d8:\d5:5\d.
@@ -13816,11 +14703,12 @@ def test_atomic_date_time_pattern_nistxml_sv_iv_atomic_date_time_pattern_1_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_pattern_nistxml_sv_iv_atomic_date_time_pattern_1_4(mode, save_output):
+def test_atomic_date_time_pattern_nistxml_sv_iv_atomic_date_time_pattern_1_4(mode, save_output, output_format):
     r"""
     Type atomic/dateTime is restricted by facet pattern with value
     19\d\d-0\d-\d8T\d8:\d5:5\d.
@@ -13832,11 +14720,12 @@ def test_atomic_date_time_pattern_nistxml_sv_iv_atomic_date_time_pattern_1_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_pattern_nistxml_sv_iv_atomic_date_time_pattern_1_5(mode, save_output):
+def test_atomic_date_time_pattern_nistxml_sv_iv_atomic_date_time_pattern_1_5(mode, save_output, output_format):
     r"""
     Type atomic/dateTime is restricted by facet pattern with value
     19\d\d-0\d-\d8T\d8:\d5:5\d.
@@ -13848,11 +14737,12 @@ def test_atomic_date_time_pattern_nistxml_sv_iv_atomic_date_time_pattern_1_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_max_inclusive_4_nistxml_sv_iv_atomic_date_time_max_inclusive_5_1(mode, save_output):
+def test_atomic_date_time_max_inclusive_4_nistxml_sv_iv_atomic_date_time_max_inclusive_5_1(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet maxInclusive with value
     2030-12-31T23:59:59.
@@ -13864,11 +14754,12 @@ def test_atomic_date_time_max_inclusive_4_nistxml_sv_iv_atomic_date_time_max_inc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_max_inclusive_4_nistxml_sv_iv_atomic_date_time_max_inclusive_5_2(mode, save_output):
+def test_atomic_date_time_max_inclusive_4_nistxml_sv_iv_atomic_date_time_max_inclusive_5_2(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet maxInclusive with value
     2030-12-31T23:59:59.
@@ -13880,11 +14771,12 @@ def test_atomic_date_time_max_inclusive_4_nistxml_sv_iv_atomic_date_time_max_inc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_max_inclusive_4_nistxml_sv_iv_atomic_date_time_max_inclusive_5_3(mode, save_output):
+def test_atomic_date_time_max_inclusive_4_nistxml_sv_iv_atomic_date_time_max_inclusive_5_3(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet maxInclusive with value
     2030-12-31T23:59:59.
@@ -13896,11 +14788,12 @@ def test_atomic_date_time_max_inclusive_4_nistxml_sv_iv_atomic_date_time_max_inc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_max_inclusive_4_nistxml_sv_iv_atomic_date_time_max_inclusive_5_4(mode, save_output):
+def test_atomic_date_time_max_inclusive_4_nistxml_sv_iv_atomic_date_time_max_inclusive_5_4(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet maxInclusive with value
     2030-12-31T23:59:59.
@@ -13912,11 +14805,12 @@ def test_atomic_date_time_max_inclusive_4_nistxml_sv_iv_atomic_date_time_max_inc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_max_inclusive_4_nistxml_sv_iv_atomic_date_time_max_inclusive_5_5(mode, save_output):
+def test_atomic_date_time_max_inclusive_4_nistxml_sv_iv_atomic_date_time_max_inclusive_5_5(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet maxInclusive with value
     2030-12-31T23:59:59.
@@ -13928,11 +14822,12 @@ def test_atomic_date_time_max_inclusive_4_nistxml_sv_iv_atomic_date_time_max_inc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_max_inclusive_3_nistxml_sv_iv_atomic_date_time_max_inclusive_4_1(mode, save_output):
+def test_atomic_date_time_max_inclusive_3_nistxml_sv_iv_atomic_date_time_max_inclusive_4_1(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet maxInclusive with value
     1972-09-29T19:51:19.
@@ -13944,11 +14839,12 @@ def test_atomic_date_time_max_inclusive_3_nistxml_sv_iv_atomic_date_time_max_inc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_max_inclusive_3_nistxml_sv_iv_atomic_date_time_max_inclusive_4_2(mode, save_output):
+def test_atomic_date_time_max_inclusive_3_nistxml_sv_iv_atomic_date_time_max_inclusive_4_2(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet maxInclusive with value
     1972-09-29T19:51:19.
@@ -13960,11 +14856,12 @@ def test_atomic_date_time_max_inclusive_3_nistxml_sv_iv_atomic_date_time_max_inc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_max_inclusive_3_nistxml_sv_iv_atomic_date_time_max_inclusive_4_3(mode, save_output):
+def test_atomic_date_time_max_inclusive_3_nistxml_sv_iv_atomic_date_time_max_inclusive_4_3(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet maxInclusive with value
     1972-09-29T19:51:19.
@@ -13976,11 +14873,12 @@ def test_atomic_date_time_max_inclusive_3_nistxml_sv_iv_atomic_date_time_max_inc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_max_inclusive_3_nistxml_sv_iv_atomic_date_time_max_inclusive_4_4(mode, save_output):
+def test_atomic_date_time_max_inclusive_3_nistxml_sv_iv_atomic_date_time_max_inclusive_4_4(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet maxInclusive with value
     1972-09-29T19:51:19.
@@ -13992,11 +14890,12 @@ def test_atomic_date_time_max_inclusive_3_nistxml_sv_iv_atomic_date_time_max_inc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_max_inclusive_3_nistxml_sv_iv_atomic_date_time_max_inclusive_4_5(mode, save_output):
+def test_atomic_date_time_max_inclusive_3_nistxml_sv_iv_atomic_date_time_max_inclusive_4_5(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet maxInclusive with value
     1972-09-29T19:51:19.
@@ -14008,11 +14907,12 @@ def test_atomic_date_time_max_inclusive_3_nistxml_sv_iv_atomic_date_time_max_inc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_max_inclusive_2_nistxml_sv_iv_atomic_date_time_max_inclusive_3_1(mode, save_output):
+def test_atomic_date_time_max_inclusive_2_nistxml_sv_iv_atomic_date_time_max_inclusive_3_1(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet maxInclusive with value
     2003-03-09T02:00:23.
@@ -14024,11 +14924,12 @@ def test_atomic_date_time_max_inclusive_2_nistxml_sv_iv_atomic_date_time_max_inc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_max_inclusive_2_nistxml_sv_iv_atomic_date_time_max_inclusive_3_2(mode, save_output):
+def test_atomic_date_time_max_inclusive_2_nistxml_sv_iv_atomic_date_time_max_inclusive_3_2(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet maxInclusive with value
     2003-03-09T02:00:23.
@@ -14040,11 +14941,12 @@ def test_atomic_date_time_max_inclusive_2_nistxml_sv_iv_atomic_date_time_max_inc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_max_inclusive_2_nistxml_sv_iv_atomic_date_time_max_inclusive_3_3(mode, save_output):
+def test_atomic_date_time_max_inclusive_2_nistxml_sv_iv_atomic_date_time_max_inclusive_3_3(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet maxInclusive with value
     2003-03-09T02:00:23.
@@ -14056,11 +14958,12 @@ def test_atomic_date_time_max_inclusive_2_nistxml_sv_iv_atomic_date_time_max_inc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_max_inclusive_2_nistxml_sv_iv_atomic_date_time_max_inclusive_3_4(mode, save_output):
+def test_atomic_date_time_max_inclusive_2_nistxml_sv_iv_atomic_date_time_max_inclusive_3_4(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet maxInclusive with value
     2003-03-09T02:00:23.
@@ -14072,11 +14975,12 @@ def test_atomic_date_time_max_inclusive_2_nistxml_sv_iv_atomic_date_time_max_inc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_max_inclusive_2_nistxml_sv_iv_atomic_date_time_max_inclusive_3_5(mode, save_output):
+def test_atomic_date_time_max_inclusive_2_nistxml_sv_iv_atomic_date_time_max_inclusive_3_5(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet maxInclusive with value
     2003-03-09T02:00:23.
@@ -14088,11 +14992,12 @@ def test_atomic_date_time_max_inclusive_2_nistxml_sv_iv_atomic_date_time_max_inc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_max_inclusive_1_nistxml_sv_iv_atomic_date_time_max_inclusive_2_1(mode, save_output):
+def test_atomic_date_time_max_inclusive_1_nistxml_sv_iv_atomic_date_time_max_inclusive_2_1(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet maxInclusive with value
     1982-05-22T18:01:37.
@@ -14104,11 +15009,12 @@ def test_atomic_date_time_max_inclusive_1_nistxml_sv_iv_atomic_date_time_max_inc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_max_inclusive_1_nistxml_sv_iv_atomic_date_time_max_inclusive_2_2(mode, save_output):
+def test_atomic_date_time_max_inclusive_1_nistxml_sv_iv_atomic_date_time_max_inclusive_2_2(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet maxInclusive with value
     1982-05-22T18:01:37.
@@ -14120,11 +15026,12 @@ def test_atomic_date_time_max_inclusive_1_nistxml_sv_iv_atomic_date_time_max_inc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_max_inclusive_1_nistxml_sv_iv_atomic_date_time_max_inclusive_2_3(mode, save_output):
+def test_atomic_date_time_max_inclusive_1_nistxml_sv_iv_atomic_date_time_max_inclusive_2_3(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet maxInclusive with value
     1982-05-22T18:01:37.
@@ -14136,11 +15043,12 @@ def test_atomic_date_time_max_inclusive_1_nistxml_sv_iv_atomic_date_time_max_inc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_max_inclusive_1_nistxml_sv_iv_atomic_date_time_max_inclusive_2_4(mode, save_output):
+def test_atomic_date_time_max_inclusive_1_nistxml_sv_iv_atomic_date_time_max_inclusive_2_4(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet maxInclusive with value
     1982-05-22T18:01:37.
@@ -14152,11 +15060,12 @@ def test_atomic_date_time_max_inclusive_1_nistxml_sv_iv_atomic_date_time_max_inc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_max_inclusive_1_nistxml_sv_iv_atomic_date_time_max_inclusive_2_5(mode, save_output):
+def test_atomic_date_time_max_inclusive_1_nistxml_sv_iv_atomic_date_time_max_inclusive_2_5(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet maxInclusive with value
     1982-05-22T18:01:37.
@@ -14168,11 +15077,12 @@ def test_atomic_date_time_max_inclusive_1_nistxml_sv_iv_atomic_date_time_max_inc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_max_inclusive_nistxml_sv_iv_atomic_date_time_max_inclusive_1_1(mode, save_output):
+def test_atomic_date_time_max_inclusive_nistxml_sv_iv_atomic_date_time_max_inclusive_1_1(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet maxInclusive with value
     1970-01-01T00:00:00.
@@ -14184,11 +15094,12 @@ def test_atomic_date_time_max_inclusive_nistxml_sv_iv_atomic_date_time_max_inclu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_max_exclusive_4_nistxml_sv_iv_atomic_date_time_max_exclusive_5_1(mode, save_output):
+def test_atomic_date_time_max_exclusive_4_nistxml_sv_iv_atomic_date_time_max_exclusive_5_1(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet maxExclusive with value
     2030-12-31T23:59:59.
@@ -14200,11 +15111,12 @@ def test_atomic_date_time_max_exclusive_4_nistxml_sv_iv_atomic_date_time_max_exc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_max_exclusive_4_nistxml_sv_iv_atomic_date_time_max_exclusive_5_2(mode, save_output):
+def test_atomic_date_time_max_exclusive_4_nistxml_sv_iv_atomic_date_time_max_exclusive_5_2(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet maxExclusive with value
     2030-12-31T23:59:59.
@@ -14216,11 +15128,12 @@ def test_atomic_date_time_max_exclusive_4_nistxml_sv_iv_atomic_date_time_max_exc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_max_exclusive_4_nistxml_sv_iv_atomic_date_time_max_exclusive_5_3(mode, save_output):
+def test_atomic_date_time_max_exclusive_4_nistxml_sv_iv_atomic_date_time_max_exclusive_5_3(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet maxExclusive with value
     2030-12-31T23:59:59.
@@ -14232,11 +15145,12 @@ def test_atomic_date_time_max_exclusive_4_nistxml_sv_iv_atomic_date_time_max_exc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_max_exclusive_4_nistxml_sv_iv_atomic_date_time_max_exclusive_5_4(mode, save_output):
+def test_atomic_date_time_max_exclusive_4_nistxml_sv_iv_atomic_date_time_max_exclusive_5_4(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet maxExclusive with value
     2030-12-31T23:59:59.
@@ -14248,11 +15162,12 @@ def test_atomic_date_time_max_exclusive_4_nistxml_sv_iv_atomic_date_time_max_exc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_max_exclusive_4_nistxml_sv_iv_atomic_date_time_max_exclusive_5_5(mode, save_output):
+def test_atomic_date_time_max_exclusive_4_nistxml_sv_iv_atomic_date_time_max_exclusive_5_5(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet maxExclusive with value
     2030-12-31T23:59:59.
@@ -14264,11 +15179,12 @@ def test_atomic_date_time_max_exclusive_4_nistxml_sv_iv_atomic_date_time_max_exc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_max_exclusive_3_nistxml_sv_iv_atomic_date_time_max_exclusive_4_1(mode, save_output):
+def test_atomic_date_time_max_exclusive_3_nistxml_sv_iv_atomic_date_time_max_exclusive_4_1(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet maxExclusive with value
     2018-06-17T15:34:43.
@@ -14280,11 +15196,12 @@ def test_atomic_date_time_max_exclusive_3_nistxml_sv_iv_atomic_date_time_max_exc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_max_exclusive_3_nistxml_sv_iv_atomic_date_time_max_exclusive_4_2(mode, save_output):
+def test_atomic_date_time_max_exclusive_3_nistxml_sv_iv_atomic_date_time_max_exclusive_4_2(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet maxExclusive with value
     2018-06-17T15:34:43.
@@ -14296,11 +15213,12 @@ def test_atomic_date_time_max_exclusive_3_nistxml_sv_iv_atomic_date_time_max_exc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_max_exclusive_3_nistxml_sv_iv_atomic_date_time_max_exclusive_4_3(mode, save_output):
+def test_atomic_date_time_max_exclusive_3_nistxml_sv_iv_atomic_date_time_max_exclusive_4_3(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet maxExclusive with value
     2018-06-17T15:34:43.
@@ -14312,11 +15230,12 @@ def test_atomic_date_time_max_exclusive_3_nistxml_sv_iv_atomic_date_time_max_exc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_max_exclusive_3_nistxml_sv_iv_atomic_date_time_max_exclusive_4_4(mode, save_output):
+def test_atomic_date_time_max_exclusive_3_nistxml_sv_iv_atomic_date_time_max_exclusive_4_4(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet maxExclusive with value
     2018-06-17T15:34:43.
@@ -14328,11 +15247,12 @@ def test_atomic_date_time_max_exclusive_3_nistxml_sv_iv_atomic_date_time_max_exc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_max_exclusive_3_nistxml_sv_iv_atomic_date_time_max_exclusive_4_5(mode, save_output):
+def test_atomic_date_time_max_exclusive_3_nistxml_sv_iv_atomic_date_time_max_exclusive_4_5(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet maxExclusive with value
     2018-06-17T15:34:43.
@@ -14344,11 +15264,12 @@ def test_atomic_date_time_max_exclusive_3_nistxml_sv_iv_atomic_date_time_max_exc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_max_exclusive_2_nistxml_sv_iv_atomic_date_time_max_exclusive_3_1(mode, save_output):
+def test_atomic_date_time_max_exclusive_2_nistxml_sv_iv_atomic_date_time_max_exclusive_3_1(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet maxExclusive with value
     1996-08-13T00:44:39.
@@ -14360,11 +15281,12 @@ def test_atomic_date_time_max_exclusive_2_nistxml_sv_iv_atomic_date_time_max_exc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_max_exclusive_2_nistxml_sv_iv_atomic_date_time_max_exclusive_3_2(mode, save_output):
+def test_atomic_date_time_max_exclusive_2_nistxml_sv_iv_atomic_date_time_max_exclusive_3_2(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet maxExclusive with value
     1996-08-13T00:44:39.
@@ -14376,11 +15298,12 @@ def test_atomic_date_time_max_exclusive_2_nistxml_sv_iv_atomic_date_time_max_exc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_max_exclusive_2_nistxml_sv_iv_atomic_date_time_max_exclusive_3_3(mode, save_output):
+def test_atomic_date_time_max_exclusive_2_nistxml_sv_iv_atomic_date_time_max_exclusive_3_3(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet maxExclusive with value
     1996-08-13T00:44:39.
@@ -14392,11 +15315,12 @@ def test_atomic_date_time_max_exclusive_2_nistxml_sv_iv_atomic_date_time_max_exc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_max_exclusive_2_nistxml_sv_iv_atomic_date_time_max_exclusive_3_4(mode, save_output):
+def test_atomic_date_time_max_exclusive_2_nistxml_sv_iv_atomic_date_time_max_exclusive_3_4(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet maxExclusive with value
     1996-08-13T00:44:39.
@@ -14408,11 +15332,12 @@ def test_atomic_date_time_max_exclusive_2_nistxml_sv_iv_atomic_date_time_max_exc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_max_exclusive_2_nistxml_sv_iv_atomic_date_time_max_exclusive_3_5(mode, save_output):
+def test_atomic_date_time_max_exclusive_2_nistxml_sv_iv_atomic_date_time_max_exclusive_3_5(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet maxExclusive with value
     1996-08-13T00:44:39.
@@ -14424,11 +15349,12 @@ def test_atomic_date_time_max_exclusive_2_nistxml_sv_iv_atomic_date_time_max_exc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_max_exclusive_1_nistxml_sv_iv_atomic_date_time_max_exclusive_2_1(mode, save_output):
+def test_atomic_date_time_max_exclusive_1_nistxml_sv_iv_atomic_date_time_max_exclusive_2_1(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet maxExclusive with value
     1980-05-22T13:12:09.
@@ -14440,11 +15366,12 @@ def test_atomic_date_time_max_exclusive_1_nistxml_sv_iv_atomic_date_time_max_exc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_max_exclusive_1_nistxml_sv_iv_atomic_date_time_max_exclusive_2_2(mode, save_output):
+def test_atomic_date_time_max_exclusive_1_nistxml_sv_iv_atomic_date_time_max_exclusive_2_2(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet maxExclusive with value
     1980-05-22T13:12:09.
@@ -14456,11 +15383,12 @@ def test_atomic_date_time_max_exclusive_1_nistxml_sv_iv_atomic_date_time_max_exc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_max_exclusive_1_nistxml_sv_iv_atomic_date_time_max_exclusive_2_3(mode, save_output):
+def test_atomic_date_time_max_exclusive_1_nistxml_sv_iv_atomic_date_time_max_exclusive_2_3(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet maxExclusive with value
     1980-05-22T13:12:09.
@@ -14472,11 +15400,12 @@ def test_atomic_date_time_max_exclusive_1_nistxml_sv_iv_atomic_date_time_max_exc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_max_exclusive_1_nistxml_sv_iv_atomic_date_time_max_exclusive_2_4(mode, save_output):
+def test_atomic_date_time_max_exclusive_1_nistxml_sv_iv_atomic_date_time_max_exclusive_2_4(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet maxExclusive with value
     1980-05-22T13:12:09.
@@ -14488,11 +15417,12 @@ def test_atomic_date_time_max_exclusive_1_nistxml_sv_iv_atomic_date_time_max_exc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_max_exclusive_1_nistxml_sv_iv_atomic_date_time_max_exclusive_2_5(mode, save_output):
+def test_atomic_date_time_max_exclusive_1_nistxml_sv_iv_atomic_date_time_max_exclusive_2_5(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet maxExclusive with value
     1980-05-22T13:12:09.
@@ -14504,11 +15434,12 @@ def test_atomic_date_time_max_exclusive_1_nistxml_sv_iv_atomic_date_time_max_exc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_max_exclusive_nistxml_sv_iv_atomic_date_time_max_exclusive_1_1(mode, save_output):
+def test_atomic_date_time_max_exclusive_nistxml_sv_iv_atomic_date_time_max_exclusive_1_1(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet maxExclusive with value
     1970-01-01T00:00:01.
@@ -14520,11 +15451,12 @@ def test_atomic_date_time_max_exclusive_nistxml_sv_iv_atomic_date_time_max_exclu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_min_inclusive_4_nistxml_sv_iv_atomic_date_time_min_inclusive_5_1(mode, save_output):
+def test_atomic_date_time_min_inclusive_4_nistxml_sv_iv_atomic_date_time_min_inclusive_5_1(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet minInclusive with value
     2030-12-31T23:59:59.
@@ -14536,11 +15468,12 @@ def test_atomic_date_time_min_inclusive_4_nistxml_sv_iv_atomic_date_time_min_inc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_min_inclusive_3_nistxml_sv_iv_atomic_date_time_min_inclusive_4_1(mode, save_output):
+def test_atomic_date_time_min_inclusive_3_nistxml_sv_iv_atomic_date_time_min_inclusive_4_1(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet minInclusive with value
     2006-07-21T01:32:21.
@@ -14552,11 +15485,12 @@ def test_atomic_date_time_min_inclusive_3_nistxml_sv_iv_atomic_date_time_min_inc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_min_inclusive_3_nistxml_sv_iv_atomic_date_time_min_inclusive_4_2(mode, save_output):
+def test_atomic_date_time_min_inclusive_3_nistxml_sv_iv_atomic_date_time_min_inclusive_4_2(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet minInclusive with value
     2006-07-21T01:32:21.
@@ -14568,11 +15502,12 @@ def test_atomic_date_time_min_inclusive_3_nistxml_sv_iv_atomic_date_time_min_inc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_min_inclusive_3_nistxml_sv_iv_atomic_date_time_min_inclusive_4_3(mode, save_output):
+def test_atomic_date_time_min_inclusive_3_nistxml_sv_iv_atomic_date_time_min_inclusive_4_3(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet minInclusive with value
     2006-07-21T01:32:21.
@@ -14584,11 +15519,12 @@ def test_atomic_date_time_min_inclusive_3_nistxml_sv_iv_atomic_date_time_min_inc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_min_inclusive_3_nistxml_sv_iv_atomic_date_time_min_inclusive_4_4(mode, save_output):
+def test_atomic_date_time_min_inclusive_3_nistxml_sv_iv_atomic_date_time_min_inclusive_4_4(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet minInclusive with value
     2006-07-21T01:32:21.
@@ -14600,11 +15536,12 @@ def test_atomic_date_time_min_inclusive_3_nistxml_sv_iv_atomic_date_time_min_inc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_min_inclusive_3_nistxml_sv_iv_atomic_date_time_min_inclusive_4_5(mode, save_output):
+def test_atomic_date_time_min_inclusive_3_nistxml_sv_iv_atomic_date_time_min_inclusive_4_5(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet minInclusive with value
     2006-07-21T01:32:21.
@@ -14616,11 +15553,12 @@ def test_atomic_date_time_min_inclusive_3_nistxml_sv_iv_atomic_date_time_min_inc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_min_inclusive_2_nistxml_sv_iv_atomic_date_time_min_inclusive_3_1(mode, save_output):
+def test_atomic_date_time_min_inclusive_2_nistxml_sv_iv_atomic_date_time_min_inclusive_3_1(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet minInclusive with value
     1978-11-30T10:14:33.
@@ -14632,11 +15570,12 @@ def test_atomic_date_time_min_inclusive_2_nistxml_sv_iv_atomic_date_time_min_inc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_min_inclusive_2_nistxml_sv_iv_atomic_date_time_min_inclusive_3_2(mode, save_output):
+def test_atomic_date_time_min_inclusive_2_nistxml_sv_iv_atomic_date_time_min_inclusive_3_2(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet minInclusive with value
     1978-11-30T10:14:33.
@@ -14648,11 +15587,12 @@ def test_atomic_date_time_min_inclusive_2_nistxml_sv_iv_atomic_date_time_min_inc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_min_inclusive_2_nistxml_sv_iv_atomic_date_time_min_inclusive_3_3(mode, save_output):
+def test_atomic_date_time_min_inclusive_2_nistxml_sv_iv_atomic_date_time_min_inclusive_3_3(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet minInclusive with value
     1978-11-30T10:14:33.
@@ -14664,11 +15604,12 @@ def test_atomic_date_time_min_inclusive_2_nistxml_sv_iv_atomic_date_time_min_inc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_min_inclusive_2_nistxml_sv_iv_atomic_date_time_min_inclusive_3_4(mode, save_output):
+def test_atomic_date_time_min_inclusive_2_nistxml_sv_iv_atomic_date_time_min_inclusive_3_4(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet minInclusive with value
     1978-11-30T10:14:33.
@@ -14680,11 +15621,12 @@ def test_atomic_date_time_min_inclusive_2_nistxml_sv_iv_atomic_date_time_min_inc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_min_inclusive_2_nistxml_sv_iv_atomic_date_time_min_inclusive_3_5(mode, save_output):
+def test_atomic_date_time_min_inclusive_2_nistxml_sv_iv_atomic_date_time_min_inclusive_3_5(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet minInclusive with value
     1978-11-30T10:14:33.
@@ -14696,11 +15638,12 @@ def test_atomic_date_time_min_inclusive_2_nistxml_sv_iv_atomic_date_time_min_inc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_min_inclusive_1_nistxml_sv_iv_atomic_date_time_min_inclusive_2_1(mode, save_output):
+def test_atomic_date_time_min_inclusive_1_nistxml_sv_iv_atomic_date_time_min_inclusive_2_1(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet minInclusive with value
     1972-10-10T11:07:03.
@@ -14712,11 +15655,12 @@ def test_atomic_date_time_min_inclusive_1_nistxml_sv_iv_atomic_date_time_min_inc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_min_inclusive_1_nistxml_sv_iv_atomic_date_time_min_inclusive_2_2(mode, save_output):
+def test_atomic_date_time_min_inclusive_1_nistxml_sv_iv_atomic_date_time_min_inclusive_2_2(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet minInclusive with value
     1972-10-10T11:07:03.
@@ -14728,11 +15672,12 @@ def test_atomic_date_time_min_inclusive_1_nistxml_sv_iv_atomic_date_time_min_inc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_min_inclusive_1_nistxml_sv_iv_atomic_date_time_min_inclusive_2_3(mode, save_output):
+def test_atomic_date_time_min_inclusive_1_nistxml_sv_iv_atomic_date_time_min_inclusive_2_3(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet minInclusive with value
     1972-10-10T11:07:03.
@@ -14744,11 +15689,12 @@ def test_atomic_date_time_min_inclusive_1_nistxml_sv_iv_atomic_date_time_min_inc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_min_inclusive_1_nistxml_sv_iv_atomic_date_time_min_inclusive_2_4(mode, save_output):
+def test_atomic_date_time_min_inclusive_1_nistxml_sv_iv_atomic_date_time_min_inclusive_2_4(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet minInclusive with value
     1972-10-10T11:07:03.
@@ -14760,11 +15706,12 @@ def test_atomic_date_time_min_inclusive_1_nistxml_sv_iv_atomic_date_time_min_inc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_min_inclusive_1_nistxml_sv_iv_atomic_date_time_min_inclusive_2_5(mode, save_output):
+def test_atomic_date_time_min_inclusive_1_nistxml_sv_iv_atomic_date_time_min_inclusive_2_5(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet minInclusive with value
     1972-10-10T11:07:03.
@@ -14776,11 +15723,12 @@ def test_atomic_date_time_min_inclusive_1_nistxml_sv_iv_atomic_date_time_min_inc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_min_inclusive_nistxml_sv_iv_atomic_date_time_min_inclusive_1_1(mode, save_output):
+def test_atomic_date_time_min_inclusive_nistxml_sv_iv_atomic_date_time_min_inclusive_1_1(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet minInclusive with value
     1970-01-01T00:00:00.
@@ -14792,11 +15740,12 @@ def test_atomic_date_time_min_inclusive_nistxml_sv_iv_atomic_date_time_min_inclu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_min_inclusive_nistxml_sv_iv_atomic_date_time_min_inclusive_1_2(mode, save_output):
+def test_atomic_date_time_min_inclusive_nistxml_sv_iv_atomic_date_time_min_inclusive_1_2(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet minInclusive with value
     1970-01-01T00:00:00.
@@ -14808,11 +15757,12 @@ def test_atomic_date_time_min_inclusive_nistxml_sv_iv_atomic_date_time_min_inclu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_min_inclusive_nistxml_sv_iv_atomic_date_time_min_inclusive_1_3(mode, save_output):
+def test_atomic_date_time_min_inclusive_nistxml_sv_iv_atomic_date_time_min_inclusive_1_3(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet minInclusive with value
     1970-01-01T00:00:00.
@@ -14824,11 +15774,12 @@ def test_atomic_date_time_min_inclusive_nistxml_sv_iv_atomic_date_time_min_inclu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_min_inclusive_nistxml_sv_iv_atomic_date_time_min_inclusive_1_4(mode, save_output):
+def test_atomic_date_time_min_inclusive_nistxml_sv_iv_atomic_date_time_min_inclusive_1_4(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet minInclusive with value
     1970-01-01T00:00:00.
@@ -14840,11 +15791,12 @@ def test_atomic_date_time_min_inclusive_nistxml_sv_iv_atomic_date_time_min_inclu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_min_inclusive_nistxml_sv_iv_atomic_date_time_min_inclusive_1_5(mode, save_output):
+def test_atomic_date_time_min_inclusive_nistxml_sv_iv_atomic_date_time_min_inclusive_1_5(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet minInclusive with value
     1970-01-01T00:00:00.
@@ -14856,11 +15808,12 @@ def test_atomic_date_time_min_inclusive_nistxml_sv_iv_atomic_date_time_min_inclu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_min_exclusive_4_nistxml_sv_iv_atomic_date_time_min_exclusive_5_1(mode, save_output):
+def test_atomic_date_time_min_exclusive_4_nistxml_sv_iv_atomic_date_time_min_exclusive_5_1(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet minExclusive with value
     2030-12-31T23:59:58.
@@ -14872,11 +15825,12 @@ def test_atomic_date_time_min_exclusive_4_nistxml_sv_iv_atomic_date_time_min_exc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_min_exclusive_3_nistxml_sv_iv_atomic_date_time_min_exclusive_4_1(mode, save_output):
+def test_atomic_date_time_min_exclusive_3_nistxml_sv_iv_atomic_date_time_min_exclusive_4_1(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet minExclusive with value
     2001-09-04T00:13:18.
@@ -14888,11 +15842,12 @@ def test_atomic_date_time_min_exclusive_3_nistxml_sv_iv_atomic_date_time_min_exc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_min_exclusive_3_nistxml_sv_iv_atomic_date_time_min_exclusive_4_2(mode, save_output):
+def test_atomic_date_time_min_exclusive_3_nistxml_sv_iv_atomic_date_time_min_exclusive_4_2(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet minExclusive with value
     2001-09-04T00:13:18.
@@ -14904,11 +15859,12 @@ def test_atomic_date_time_min_exclusive_3_nistxml_sv_iv_atomic_date_time_min_exc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_min_exclusive_3_nistxml_sv_iv_atomic_date_time_min_exclusive_4_3(mode, save_output):
+def test_atomic_date_time_min_exclusive_3_nistxml_sv_iv_atomic_date_time_min_exclusive_4_3(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet minExclusive with value
     2001-09-04T00:13:18.
@@ -14920,11 +15876,12 @@ def test_atomic_date_time_min_exclusive_3_nistxml_sv_iv_atomic_date_time_min_exc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_min_exclusive_3_nistxml_sv_iv_atomic_date_time_min_exclusive_4_4(mode, save_output):
+def test_atomic_date_time_min_exclusive_3_nistxml_sv_iv_atomic_date_time_min_exclusive_4_4(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet minExclusive with value
     2001-09-04T00:13:18.
@@ -14936,11 +15893,12 @@ def test_atomic_date_time_min_exclusive_3_nistxml_sv_iv_atomic_date_time_min_exc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_min_exclusive_3_nistxml_sv_iv_atomic_date_time_min_exclusive_4_5(mode, save_output):
+def test_atomic_date_time_min_exclusive_3_nistxml_sv_iv_atomic_date_time_min_exclusive_4_5(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet minExclusive with value
     2001-09-04T00:13:18.
@@ -14952,11 +15910,12 @@ def test_atomic_date_time_min_exclusive_3_nistxml_sv_iv_atomic_date_time_min_exc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_min_exclusive_2_nistxml_sv_iv_atomic_date_time_min_exclusive_3_1(mode, save_output):
+def test_atomic_date_time_min_exclusive_2_nistxml_sv_iv_atomic_date_time_min_exclusive_3_1(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet minExclusive with value
     1981-06-08T06:29:37.
@@ -14968,11 +15927,12 @@ def test_atomic_date_time_min_exclusive_2_nistxml_sv_iv_atomic_date_time_min_exc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_min_exclusive_2_nistxml_sv_iv_atomic_date_time_min_exclusive_3_2(mode, save_output):
+def test_atomic_date_time_min_exclusive_2_nistxml_sv_iv_atomic_date_time_min_exclusive_3_2(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet minExclusive with value
     1981-06-08T06:29:37.
@@ -14984,11 +15944,12 @@ def test_atomic_date_time_min_exclusive_2_nistxml_sv_iv_atomic_date_time_min_exc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_min_exclusive_2_nistxml_sv_iv_atomic_date_time_min_exclusive_3_3(mode, save_output):
+def test_atomic_date_time_min_exclusive_2_nistxml_sv_iv_atomic_date_time_min_exclusive_3_3(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet minExclusive with value
     1981-06-08T06:29:37.
@@ -15000,11 +15961,12 @@ def test_atomic_date_time_min_exclusive_2_nistxml_sv_iv_atomic_date_time_min_exc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_min_exclusive_2_nistxml_sv_iv_atomic_date_time_min_exclusive_3_4(mode, save_output):
+def test_atomic_date_time_min_exclusive_2_nistxml_sv_iv_atomic_date_time_min_exclusive_3_4(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet minExclusive with value
     1981-06-08T06:29:37.
@@ -15016,11 +15978,12 @@ def test_atomic_date_time_min_exclusive_2_nistxml_sv_iv_atomic_date_time_min_exc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_min_exclusive_2_nistxml_sv_iv_atomic_date_time_min_exclusive_3_5(mode, save_output):
+def test_atomic_date_time_min_exclusive_2_nistxml_sv_iv_atomic_date_time_min_exclusive_3_5(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet minExclusive with value
     1981-06-08T06:29:37.
@@ -15032,11 +15995,12 @@ def test_atomic_date_time_min_exclusive_2_nistxml_sv_iv_atomic_date_time_min_exc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_min_exclusive_1_nistxml_sv_iv_atomic_date_time_min_exclusive_2_1(mode, save_output):
+def test_atomic_date_time_min_exclusive_1_nistxml_sv_iv_atomic_date_time_min_exclusive_2_1(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet minExclusive with value
     1974-04-26T23:23:51.
@@ -15048,11 +16012,12 @@ def test_atomic_date_time_min_exclusive_1_nistxml_sv_iv_atomic_date_time_min_exc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_min_exclusive_1_nistxml_sv_iv_atomic_date_time_min_exclusive_2_2(mode, save_output):
+def test_atomic_date_time_min_exclusive_1_nistxml_sv_iv_atomic_date_time_min_exclusive_2_2(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet minExclusive with value
     1974-04-26T23:23:51.
@@ -15064,11 +16029,12 @@ def test_atomic_date_time_min_exclusive_1_nistxml_sv_iv_atomic_date_time_min_exc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_min_exclusive_1_nistxml_sv_iv_atomic_date_time_min_exclusive_2_3(mode, save_output):
+def test_atomic_date_time_min_exclusive_1_nistxml_sv_iv_atomic_date_time_min_exclusive_2_3(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet minExclusive with value
     1974-04-26T23:23:51.
@@ -15080,11 +16046,12 @@ def test_atomic_date_time_min_exclusive_1_nistxml_sv_iv_atomic_date_time_min_exc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_min_exclusive_1_nistxml_sv_iv_atomic_date_time_min_exclusive_2_4(mode, save_output):
+def test_atomic_date_time_min_exclusive_1_nistxml_sv_iv_atomic_date_time_min_exclusive_2_4(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet minExclusive with value
     1974-04-26T23:23:51.
@@ -15096,11 +16063,12 @@ def test_atomic_date_time_min_exclusive_1_nistxml_sv_iv_atomic_date_time_min_exc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_min_exclusive_1_nistxml_sv_iv_atomic_date_time_min_exclusive_2_5(mode, save_output):
+def test_atomic_date_time_min_exclusive_1_nistxml_sv_iv_atomic_date_time_min_exclusive_2_5(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet minExclusive with value
     1974-04-26T23:23:51.
@@ -15112,11 +16080,12 @@ def test_atomic_date_time_min_exclusive_1_nistxml_sv_iv_atomic_date_time_min_exc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_min_exclusive_nistxml_sv_iv_atomic_date_time_min_exclusive_1_1(mode, save_output):
+def test_atomic_date_time_min_exclusive_nistxml_sv_iv_atomic_date_time_min_exclusive_1_1(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet minExclusive with value
     1970-01-01T00:00:00.
@@ -15128,11 +16097,12 @@ def test_atomic_date_time_min_exclusive_nistxml_sv_iv_atomic_date_time_min_exclu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_min_exclusive_nistxml_sv_iv_atomic_date_time_min_exclusive_1_2(mode, save_output):
+def test_atomic_date_time_min_exclusive_nistxml_sv_iv_atomic_date_time_min_exclusive_1_2(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet minExclusive with value
     1970-01-01T00:00:00.
@@ -15144,11 +16114,12 @@ def test_atomic_date_time_min_exclusive_nistxml_sv_iv_atomic_date_time_min_exclu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_min_exclusive_nistxml_sv_iv_atomic_date_time_min_exclusive_1_3(mode, save_output):
+def test_atomic_date_time_min_exclusive_nistxml_sv_iv_atomic_date_time_min_exclusive_1_3(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet minExclusive with value
     1970-01-01T00:00:00.
@@ -15160,11 +16131,12 @@ def test_atomic_date_time_min_exclusive_nistxml_sv_iv_atomic_date_time_min_exclu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_min_exclusive_nistxml_sv_iv_atomic_date_time_min_exclusive_1_4(mode, save_output):
+def test_atomic_date_time_min_exclusive_nistxml_sv_iv_atomic_date_time_min_exclusive_1_4(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet minExclusive with value
     1970-01-01T00:00:00.
@@ -15176,11 +16148,12 @@ def test_atomic_date_time_min_exclusive_nistxml_sv_iv_atomic_date_time_min_exclu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_date_time_min_exclusive_nistxml_sv_iv_atomic_date_time_min_exclusive_1_5(mode, save_output):
+def test_atomic_date_time_min_exclusive_nistxml_sv_iv_atomic_date_time_min_exclusive_1_5(mode, save_output, output_format):
     """
     Type atomic/dateTime is restricted by facet minExclusive with value
     1970-01-01T00:00:00.
@@ -15192,11 +16165,12 @@ def test_atomic_date_time_min_exclusive_nistxml_sv_iv_atomic_date_time_min_exclu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_duration_white_space_nistxml_sv_iv_atomic_duration_white_space_1_1(mode, save_output):
+def test_atomic_duration_white_space_nistxml_sv_iv_atomic_duration_white_space_1_1(mode, save_output, output_format):
     """
     Type atomic/duration is restricted by facet whiteSpace with value
     collapse.
@@ -15208,11 +16182,12 @@ def test_atomic_duration_white_space_nistxml_sv_iv_atomic_duration_white_space_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_duration_white_space_nistxml_sv_iv_atomic_duration_white_space_1_2(mode, save_output):
+def test_atomic_duration_white_space_nistxml_sv_iv_atomic_duration_white_space_1_2(mode, save_output, output_format):
     """
     Type atomic/duration is restricted by facet whiteSpace with value
     collapse.
@@ -15224,11 +16199,12 @@ def test_atomic_duration_white_space_nistxml_sv_iv_atomic_duration_white_space_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_duration_white_space_nistxml_sv_iv_atomic_duration_white_space_1_3(mode, save_output):
+def test_atomic_duration_white_space_nistxml_sv_iv_atomic_duration_white_space_1_3(mode, save_output, output_format):
     """
     Type atomic/duration is restricted by facet whiteSpace with value
     collapse.
@@ -15240,11 +16216,12 @@ def test_atomic_duration_white_space_nistxml_sv_iv_atomic_duration_white_space_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_duration_white_space_nistxml_sv_iv_atomic_duration_white_space_1_4(mode, save_output):
+def test_atomic_duration_white_space_nistxml_sv_iv_atomic_duration_white_space_1_4(mode, save_output, output_format):
     """
     Type atomic/duration is restricted by facet whiteSpace with value
     collapse.
@@ -15256,11 +16233,12 @@ def test_atomic_duration_white_space_nistxml_sv_iv_atomic_duration_white_space_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_duration_white_space_nistxml_sv_iv_atomic_duration_white_space_1_5(mode, save_output):
+def test_atomic_duration_white_space_nistxml_sv_iv_atomic_duration_white_space_1_5(mode, save_output, output_format):
     """
     Type atomic/duration is restricted by facet whiteSpace with value
     collapse.
@@ -15272,11 +16250,12 @@ def test_atomic_duration_white_space_nistxml_sv_iv_atomic_duration_white_space_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_duration_enumeration_4_nistxml_sv_iv_atomic_duration_enumeration_5_1(mode, save_output):
+def test_atomic_duration_enumeration_4_nistxml_sv_iv_atomic_duration_enumeration_5_1(mode, save_output, output_format):
     """
     Type atomic/duration is restricted by facet enumeration.
     """
@@ -15287,11 +16266,12 @@ def test_atomic_duration_enumeration_4_nistxml_sv_iv_atomic_duration_enumeration
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_duration_enumeration_4_nistxml_sv_iv_atomic_duration_enumeration_5_2(mode, save_output):
+def test_atomic_duration_enumeration_4_nistxml_sv_iv_atomic_duration_enumeration_5_2(mode, save_output, output_format):
     """
     Type atomic/duration is restricted by facet enumeration.
     """
@@ -15302,11 +16282,12 @@ def test_atomic_duration_enumeration_4_nistxml_sv_iv_atomic_duration_enumeration
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_duration_enumeration_4_nistxml_sv_iv_atomic_duration_enumeration_5_3(mode, save_output):
+def test_atomic_duration_enumeration_4_nistxml_sv_iv_atomic_duration_enumeration_5_3(mode, save_output, output_format):
     """
     Type atomic/duration is restricted by facet enumeration.
     """
@@ -15317,11 +16298,12 @@ def test_atomic_duration_enumeration_4_nistxml_sv_iv_atomic_duration_enumeration
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_duration_enumeration_4_nistxml_sv_iv_atomic_duration_enumeration_5_4(mode, save_output):
+def test_atomic_duration_enumeration_4_nistxml_sv_iv_atomic_duration_enumeration_5_4(mode, save_output, output_format):
     """
     Type atomic/duration is restricted by facet enumeration.
     """
@@ -15332,11 +16314,12 @@ def test_atomic_duration_enumeration_4_nistxml_sv_iv_atomic_duration_enumeration
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_duration_enumeration_4_nistxml_sv_iv_atomic_duration_enumeration_5_5(mode, save_output):
+def test_atomic_duration_enumeration_4_nistxml_sv_iv_atomic_duration_enumeration_5_5(mode, save_output, output_format):
     """
     Type atomic/duration is restricted by facet enumeration.
     """
@@ -15347,11 +16330,12 @@ def test_atomic_duration_enumeration_4_nistxml_sv_iv_atomic_duration_enumeration
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_duration_enumeration_3_nistxml_sv_iv_atomic_duration_enumeration_4_1(mode, save_output):
+def test_atomic_duration_enumeration_3_nistxml_sv_iv_atomic_duration_enumeration_4_1(mode, save_output, output_format):
     """
     Type atomic/duration is restricted by facet enumeration.
     """
@@ -15362,11 +16346,12 @@ def test_atomic_duration_enumeration_3_nistxml_sv_iv_atomic_duration_enumeration
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_duration_enumeration_3_nistxml_sv_iv_atomic_duration_enumeration_4_2(mode, save_output):
+def test_atomic_duration_enumeration_3_nistxml_sv_iv_atomic_duration_enumeration_4_2(mode, save_output, output_format):
     """
     Type atomic/duration is restricted by facet enumeration.
     """
@@ -15377,11 +16362,12 @@ def test_atomic_duration_enumeration_3_nistxml_sv_iv_atomic_duration_enumeration
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_duration_enumeration_3_nistxml_sv_iv_atomic_duration_enumeration_4_3(mode, save_output):
+def test_atomic_duration_enumeration_3_nistxml_sv_iv_atomic_duration_enumeration_4_3(mode, save_output, output_format):
     """
     Type atomic/duration is restricted by facet enumeration.
     """
@@ -15392,11 +16378,12 @@ def test_atomic_duration_enumeration_3_nistxml_sv_iv_atomic_duration_enumeration
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_duration_enumeration_3_nistxml_sv_iv_atomic_duration_enumeration_4_4(mode, save_output):
+def test_atomic_duration_enumeration_3_nistxml_sv_iv_atomic_duration_enumeration_4_4(mode, save_output, output_format):
     """
     Type atomic/duration is restricted by facet enumeration.
     """
@@ -15407,11 +16394,12 @@ def test_atomic_duration_enumeration_3_nistxml_sv_iv_atomic_duration_enumeration
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_duration_enumeration_3_nistxml_sv_iv_atomic_duration_enumeration_4_5(mode, save_output):
+def test_atomic_duration_enumeration_3_nistxml_sv_iv_atomic_duration_enumeration_4_5(mode, save_output, output_format):
     """
     Type atomic/duration is restricted by facet enumeration.
     """
@@ -15422,11 +16410,12 @@ def test_atomic_duration_enumeration_3_nistxml_sv_iv_atomic_duration_enumeration
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_duration_enumeration_2_nistxml_sv_iv_atomic_duration_enumeration_3_1(mode, save_output):
+def test_atomic_duration_enumeration_2_nistxml_sv_iv_atomic_duration_enumeration_3_1(mode, save_output, output_format):
     """
     Type atomic/duration is restricted by facet enumeration.
     """
@@ -15437,11 +16426,12 @@ def test_atomic_duration_enumeration_2_nistxml_sv_iv_atomic_duration_enumeration
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_duration_enumeration_2_nistxml_sv_iv_atomic_duration_enumeration_3_2(mode, save_output):
+def test_atomic_duration_enumeration_2_nistxml_sv_iv_atomic_duration_enumeration_3_2(mode, save_output, output_format):
     """
     Type atomic/duration is restricted by facet enumeration.
     """
@@ -15452,11 +16442,12 @@ def test_atomic_duration_enumeration_2_nistxml_sv_iv_atomic_duration_enumeration
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_duration_enumeration_2_nistxml_sv_iv_atomic_duration_enumeration_3_3(mode, save_output):
+def test_atomic_duration_enumeration_2_nistxml_sv_iv_atomic_duration_enumeration_3_3(mode, save_output, output_format):
     """
     Type atomic/duration is restricted by facet enumeration.
     """
@@ -15467,11 +16458,12 @@ def test_atomic_duration_enumeration_2_nistxml_sv_iv_atomic_duration_enumeration
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_duration_enumeration_2_nistxml_sv_iv_atomic_duration_enumeration_3_4(mode, save_output):
+def test_atomic_duration_enumeration_2_nistxml_sv_iv_atomic_duration_enumeration_3_4(mode, save_output, output_format):
     """
     Type atomic/duration is restricted by facet enumeration.
     """
@@ -15482,11 +16474,12 @@ def test_atomic_duration_enumeration_2_nistxml_sv_iv_atomic_duration_enumeration
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_duration_enumeration_2_nistxml_sv_iv_atomic_duration_enumeration_3_5(mode, save_output):
+def test_atomic_duration_enumeration_2_nistxml_sv_iv_atomic_duration_enumeration_3_5(mode, save_output, output_format):
     """
     Type atomic/duration is restricted by facet enumeration.
     """
@@ -15497,11 +16490,12 @@ def test_atomic_duration_enumeration_2_nistxml_sv_iv_atomic_duration_enumeration
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_duration_enumeration_1_nistxml_sv_iv_atomic_duration_enumeration_2_1(mode, save_output):
+def test_atomic_duration_enumeration_1_nistxml_sv_iv_atomic_duration_enumeration_2_1(mode, save_output, output_format):
     """
     Type atomic/duration is restricted by facet enumeration.
     """
@@ -15512,11 +16506,12 @@ def test_atomic_duration_enumeration_1_nistxml_sv_iv_atomic_duration_enumeration
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_duration_enumeration_1_nistxml_sv_iv_atomic_duration_enumeration_2_2(mode, save_output):
+def test_atomic_duration_enumeration_1_nistxml_sv_iv_atomic_duration_enumeration_2_2(mode, save_output, output_format):
     """
     Type atomic/duration is restricted by facet enumeration.
     """
@@ -15527,11 +16522,12 @@ def test_atomic_duration_enumeration_1_nistxml_sv_iv_atomic_duration_enumeration
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_duration_enumeration_1_nistxml_sv_iv_atomic_duration_enumeration_2_3(mode, save_output):
+def test_atomic_duration_enumeration_1_nistxml_sv_iv_atomic_duration_enumeration_2_3(mode, save_output, output_format):
     """
     Type atomic/duration is restricted by facet enumeration.
     """
@@ -15542,11 +16538,12 @@ def test_atomic_duration_enumeration_1_nistxml_sv_iv_atomic_duration_enumeration
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_duration_enumeration_1_nistxml_sv_iv_atomic_duration_enumeration_2_4(mode, save_output):
+def test_atomic_duration_enumeration_1_nistxml_sv_iv_atomic_duration_enumeration_2_4(mode, save_output, output_format):
     """
     Type atomic/duration is restricted by facet enumeration.
     """
@@ -15557,11 +16554,12 @@ def test_atomic_duration_enumeration_1_nistxml_sv_iv_atomic_duration_enumeration
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_duration_enumeration_1_nistxml_sv_iv_atomic_duration_enumeration_2_5(mode, save_output):
+def test_atomic_duration_enumeration_1_nistxml_sv_iv_atomic_duration_enumeration_2_5(mode, save_output, output_format):
     """
     Type atomic/duration is restricted by facet enumeration.
     """
@@ -15572,11 +16570,12 @@ def test_atomic_duration_enumeration_1_nistxml_sv_iv_atomic_duration_enumeration
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_duration_enumeration_nistxml_sv_iv_atomic_duration_enumeration_1_1(mode, save_output):
+def test_atomic_duration_enumeration_nistxml_sv_iv_atomic_duration_enumeration_1_1(mode, save_output, output_format):
     """
     Type atomic/duration is restricted by facet enumeration.
     """
@@ -15587,5 +16586,6 @@ def test_atomic_duration_enumeration_nistxml_sv_iv_atomic_duration_enumeration_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )

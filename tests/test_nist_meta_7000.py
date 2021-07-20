@@ -1,7 +1,7 @@
 from tests.utils import assert_bindings
 
 
-def test_atomic_id_length_4_nistxml_sv_iv_atomic_id_length_5_1(mode, save_output):
+def test_atomic_id_length_4_nistxml_sv_iv_atomic_id_length_5_1(mode, save_output, output_format):
     """
     Type atomic/ID is restricted by facet length with value 64.
     """
@@ -12,11 +12,12 @@ def test_atomic_id_length_4_nistxml_sv_iv_atomic_id_length_5_1(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_id_length_4_nistxml_sv_iv_atomic_id_length_5_2(mode, save_output):
+def test_atomic_id_length_4_nistxml_sv_iv_atomic_id_length_5_2(mode, save_output, output_format):
     """
     Type atomic/ID is restricted by facet length with value 64.
     """
@@ -27,11 +28,12 @@ def test_atomic_id_length_4_nistxml_sv_iv_atomic_id_length_5_2(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_id_length_4_nistxml_sv_iv_atomic_id_length_5_3(mode, save_output):
+def test_atomic_id_length_4_nistxml_sv_iv_atomic_id_length_5_3(mode, save_output, output_format):
     """
     Type atomic/ID is restricted by facet length with value 64.
     """
@@ -42,11 +44,12 @@ def test_atomic_id_length_4_nistxml_sv_iv_atomic_id_length_5_3(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_id_length_4_nistxml_sv_iv_atomic_id_length_5_4(mode, save_output):
+def test_atomic_id_length_4_nistxml_sv_iv_atomic_id_length_5_4(mode, save_output, output_format):
     """
     Type atomic/ID is restricted by facet length with value 64.
     """
@@ -57,11 +60,12 @@ def test_atomic_id_length_4_nistxml_sv_iv_atomic_id_length_5_4(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_id_length_4_nistxml_sv_iv_atomic_id_length_5_5(mode, save_output):
+def test_atomic_id_length_4_nistxml_sv_iv_atomic_id_length_5_5(mode, save_output, output_format):
     """
     Type atomic/ID is restricted by facet length with value 64.
     """
@@ -72,11 +76,12 @@ def test_atomic_id_length_4_nistxml_sv_iv_atomic_id_length_5_5(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_id_length_3_nistxml_sv_iv_atomic_id_length_4_1(mode, save_output):
+def test_atomic_id_length_3_nistxml_sv_iv_atomic_id_length_4_1(mode, save_output, output_format):
     """
     Type atomic/ID is restricted by facet length with value 8.
     """
@@ -87,11 +92,12 @@ def test_atomic_id_length_3_nistxml_sv_iv_atomic_id_length_4_1(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_id_length_3_nistxml_sv_iv_atomic_id_length_4_2(mode, save_output):
+def test_atomic_id_length_3_nistxml_sv_iv_atomic_id_length_4_2(mode, save_output, output_format):
     """
     Type atomic/ID is restricted by facet length with value 8.
     """
@@ -102,11 +108,12 @@ def test_atomic_id_length_3_nistxml_sv_iv_atomic_id_length_4_2(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_id_length_3_nistxml_sv_iv_atomic_id_length_4_3(mode, save_output):
+def test_atomic_id_length_3_nistxml_sv_iv_atomic_id_length_4_3(mode, save_output, output_format):
     """
     Type atomic/ID is restricted by facet length with value 8.
     """
@@ -117,11 +124,12 @@ def test_atomic_id_length_3_nistxml_sv_iv_atomic_id_length_4_3(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_id_length_3_nistxml_sv_iv_atomic_id_length_4_4(mode, save_output):
+def test_atomic_id_length_3_nistxml_sv_iv_atomic_id_length_4_4(mode, save_output, output_format):
     """
     Type atomic/ID is restricted by facet length with value 8.
     """
@@ -132,11 +140,12 @@ def test_atomic_id_length_3_nistxml_sv_iv_atomic_id_length_4_4(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_id_length_3_nistxml_sv_iv_atomic_id_length_4_5(mode, save_output):
+def test_atomic_id_length_3_nistxml_sv_iv_atomic_id_length_4_5(mode, save_output, output_format):
     """
     Type atomic/ID is restricted by facet length with value 8.
     """
@@ -147,11 +156,12 @@ def test_atomic_id_length_3_nistxml_sv_iv_atomic_id_length_4_5(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_id_length_2_nistxml_sv_iv_atomic_id_length_3_1(mode, save_output):
+def test_atomic_id_length_2_nistxml_sv_iv_atomic_id_length_3_1(mode, save_output, output_format):
     """
     Type atomic/ID is restricted by facet length with value 24.
     """
@@ -162,11 +172,12 @@ def test_atomic_id_length_2_nistxml_sv_iv_atomic_id_length_3_1(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_id_length_2_nistxml_sv_iv_atomic_id_length_3_2(mode, save_output):
+def test_atomic_id_length_2_nistxml_sv_iv_atomic_id_length_3_2(mode, save_output, output_format):
     """
     Type atomic/ID is restricted by facet length with value 24.
     """
@@ -177,11 +188,12 @@ def test_atomic_id_length_2_nistxml_sv_iv_atomic_id_length_3_2(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_id_length_2_nistxml_sv_iv_atomic_id_length_3_3(mode, save_output):
+def test_atomic_id_length_2_nistxml_sv_iv_atomic_id_length_3_3(mode, save_output, output_format):
     """
     Type atomic/ID is restricted by facet length with value 24.
     """
@@ -192,11 +204,12 @@ def test_atomic_id_length_2_nistxml_sv_iv_atomic_id_length_3_3(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_id_length_2_nistxml_sv_iv_atomic_id_length_3_4(mode, save_output):
+def test_atomic_id_length_2_nistxml_sv_iv_atomic_id_length_3_4(mode, save_output, output_format):
     """
     Type atomic/ID is restricted by facet length with value 24.
     """
@@ -207,11 +220,12 @@ def test_atomic_id_length_2_nistxml_sv_iv_atomic_id_length_3_4(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_id_length_2_nistxml_sv_iv_atomic_id_length_3_5(mode, save_output):
+def test_atomic_id_length_2_nistxml_sv_iv_atomic_id_length_3_5(mode, save_output, output_format):
     """
     Type atomic/ID is restricted by facet length with value 24.
     """
@@ -222,11 +236,12 @@ def test_atomic_id_length_2_nistxml_sv_iv_atomic_id_length_3_5(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_id_length_1_nistxml_sv_iv_atomic_id_length_2_1(mode, save_output):
+def test_atomic_id_length_1_nistxml_sv_iv_atomic_id_length_2_1(mode, save_output, output_format):
     """
     Type atomic/ID is restricted by facet length with value 57.
     """
@@ -237,11 +252,12 @@ def test_atomic_id_length_1_nistxml_sv_iv_atomic_id_length_2_1(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_id_length_1_nistxml_sv_iv_atomic_id_length_2_2(mode, save_output):
+def test_atomic_id_length_1_nistxml_sv_iv_atomic_id_length_2_2(mode, save_output, output_format):
     """
     Type atomic/ID is restricted by facet length with value 57.
     """
@@ -252,11 +268,12 @@ def test_atomic_id_length_1_nistxml_sv_iv_atomic_id_length_2_2(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_id_length_1_nistxml_sv_iv_atomic_id_length_2_3(mode, save_output):
+def test_atomic_id_length_1_nistxml_sv_iv_atomic_id_length_2_3(mode, save_output, output_format):
     """
     Type atomic/ID is restricted by facet length with value 57.
     """
@@ -267,11 +284,12 @@ def test_atomic_id_length_1_nistxml_sv_iv_atomic_id_length_2_3(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_id_length_1_nistxml_sv_iv_atomic_id_length_2_4(mode, save_output):
+def test_atomic_id_length_1_nistxml_sv_iv_atomic_id_length_2_4(mode, save_output, output_format):
     """
     Type atomic/ID is restricted by facet length with value 57.
     """
@@ -282,11 +300,12 @@ def test_atomic_id_length_1_nistxml_sv_iv_atomic_id_length_2_4(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_id_length_1_nistxml_sv_iv_atomic_id_length_2_5(mode, save_output):
+def test_atomic_id_length_1_nistxml_sv_iv_atomic_id_length_2_5(mode, save_output, output_format):
     """
     Type atomic/ID is restricted by facet length with value 57.
     """
@@ -297,11 +316,12 @@ def test_atomic_id_length_1_nistxml_sv_iv_atomic_id_length_2_5(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_id_length_nistxml_sv_iv_atomic_id_length_1_1(mode, save_output):
+def test_atomic_id_length_nistxml_sv_iv_atomic_id_length_1_1(mode, save_output, output_format):
     """
     Type atomic/ID is restricted by facet length with value 1.
     """
@@ -312,11 +332,12 @@ def test_atomic_id_length_nistxml_sv_iv_atomic_id_length_1_1(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_id_length_nistxml_sv_iv_atomic_id_length_1_2(mode, save_output):
+def test_atomic_id_length_nistxml_sv_iv_atomic_id_length_1_2(mode, save_output, output_format):
     """
     Type atomic/ID is restricted by facet length with value 1.
     """
@@ -327,11 +348,12 @@ def test_atomic_id_length_nistxml_sv_iv_atomic_id_length_1_2(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_id_length_nistxml_sv_iv_atomic_id_length_1_3(mode, save_output):
+def test_atomic_id_length_nistxml_sv_iv_atomic_id_length_1_3(mode, save_output, output_format):
     """
     Type atomic/ID is restricted by facet length with value 1.
     """
@@ -342,11 +364,12 @@ def test_atomic_id_length_nistxml_sv_iv_atomic_id_length_1_3(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_id_length_nistxml_sv_iv_atomic_id_length_1_4(mode, save_output):
+def test_atomic_id_length_nistxml_sv_iv_atomic_id_length_1_4(mode, save_output, output_format):
     """
     Type atomic/ID is restricted by facet length with value 1.
     """
@@ -357,11 +380,12 @@ def test_atomic_id_length_nistxml_sv_iv_atomic_id_length_1_4(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_id_length_nistxml_sv_iv_atomic_id_length_1_5(mode, save_output):
+def test_atomic_id_length_nistxml_sv_iv_atomic_id_length_1_5(mode, save_output, output_format):
     """
     Type atomic/ID is restricted by facet length with value 1.
     """
@@ -372,11 +396,12 @@ def test_atomic_id_length_nistxml_sv_iv_atomic_id_length_1_5(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_id_min_length_4_nistxml_sv_iv_atomic_id_min_length_5_1(mode, save_output):
+def test_atomic_id_min_length_4_nistxml_sv_iv_atomic_id_min_length_5_1(mode, save_output, output_format):
     """
     Type atomic/ID is restricted by facet minLength with value 64.
     """
@@ -387,11 +412,12 @@ def test_atomic_id_min_length_4_nistxml_sv_iv_atomic_id_min_length_5_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_id_min_length_4_nistxml_sv_iv_atomic_id_min_length_5_2(mode, save_output):
+def test_atomic_id_min_length_4_nistxml_sv_iv_atomic_id_min_length_5_2(mode, save_output, output_format):
     """
     Type atomic/ID is restricted by facet minLength with value 64.
     """
@@ -402,11 +428,12 @@ def test_atomic_id_min_length_4_nistxml_sv_iv_atomic_id_min_length_5_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_id_min_length_4_nistxml_sv_iv_atomic_id_min_length_5_3(mode, save_output):
+def test_atomic_id_min_length_4_nistxml_sv_iv_atomic_id_min_length_5_3(mode, save_output, output_format):
     """
     Type atomic/ID is restricted by facet minLength with value 64.
     """
@@ -417,11 +444,12 @@ def test_atomic_id_min_length_4_nistxml_sv_iv_atomic_id_min_length_5_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_id_min_length_4_nistxml_sv_iv_atomic_id_min_length_5_4(mode, save_output):
+def test_atomic_id_min_length_4_nistxml_sv_iv_atomic_id_min_length_5_4(mode, save_output, output_format):
     """
     Type atomic/ID is restricted by facet minLength with value 64.
     """
@@ -432,11 +460,12 @@ def test_atomic_id_min_length_4_nistxml_sv_iv_atomic_id_min_length_5_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_id_min_length_4_nistxml_sv_iv_atomic_id_min_length_5_5(mode, save_output):
+def test_atomic_id_min_length_4_nistxml_sv_iv_atomic_id_min_length_5_5(mode, save_output, output_format):
     """
     Type atomic/ID is restricted by facet minLength with value 64.
     """
@@ -447,11 +476,12 @@ def test_atomic_id_min_length_4_nistxml_sv_iv_atomic_id_min_length_5_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_id_min_length_3_nistxml_sv_iv_atomic_id_min_length_4_1(mode, save_output):
+def test_atomic_id_min_length_3_nistxml_sv_iv_atomic_id_min_length_4_1(mode, save_output, output_format):
     """
     Type atomic/ID is restricted by facet minLength with value 6.
     """
@@ -462,11 +492,12 @@ def test_atomic_id_min_length_3_nistxml_sv_iv_atomic_id_min_length_4_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_id_min_length_3_nistxml_sv_iv_atomic_id_min_length_4_2(mode, save_output):
+def test_atomic_id_min_length_3_nistxml_sv_iv_atomic_id_min_length_4_2(mode, save_output, output_format):
     """
     Type atomic/ID is restricted by facet minLength with value 6.
     """
@@ -477,11 +508,12 @@ def test_atomic_id_min_length_3_nistxml_sv_iv_atomic_id_min_length_4_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_id_min_length_3_nistxml_sv_iv_atomic_id_min_length_4_3(mode, save_output):
+def test_atomic_id_min_length_3_nistxml_sv_iv_atomic_id_min_length_4_3(mode, save_output, output_format):
     """
     Type atomic/ID is restricted by facet minLength with value 6.
     """
@@ -492,11 +524,12 @@ def test_atomic_id_min_length_3_nistxml_sv_iv_atomic_id_min_length_4_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_id_min_length_3_nistxml_sv_iv_atomic_id_min_length_4_4(mode, save_output):
+def test_atomic_id_min_length_3_nistxml_sv_iv_atomic_id_min_length_4_4(mode, save_output, output_format):
     """
     Type atomic/ID is restricted by facet minLength with value 6.
     """
@@ -507,11 +540,12 @@ def test_atomic_id_min_length_3_nistxml_sv_iv_atomic_id_min_length_4_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_id_min_length_3_nistxml_sv_iv_atomic_id_min_length_4_5(mode, save_output):
+def test_atomic_id_min_length_3_nistxml_sv_iv_atomic_id_min_length_4_5(mode, save_output, output_format):
     """
     Type atomic/ID is restricted by facet minLength with value 6.
     """
@@ -522,11 +556,12 @@ def test_atomic_id_min_length_3_nistxml_sv_iv_atomic_id_min_length_4_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_id_min_length_2_nistxml_sv_iv_atomic_id_min_length_3_1(mode, save_output):
+def test_atomic_id_min_length_2_nistxml_sv_iv_atomic_id_min_length_3_1(mode, save_output, output_format):
     """
     Type atomic/ID is restricted by facet minLength with value 58.
     """
@@ -537,11 +572,12 @@ def test_atomic_id_min_length_2_nistxml_sv_iv_atomic_id_min_length_3_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_id_min_length_2_nistxml_sv_iv_atomic_id_min_length_3_2(mode, save_output):
+def test_atomic_id_min_length_2_nistxml_sv_iv_atomic_id_min_length_3_2(mode, save_output, output_format):
     """
     Type atomic/ID is restricted by facet minLength with value 58.
     """
@@ -552,11 +588,12 @@ def test_atomic_id_min_length_2_nistxml_sv_iv_atomic_id_min_length_3_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_id_min_length_2_nistxml_sv_iv_atomic_id_min_length_3_3(mode, save_output):
+def test_atomic_id_min_length_2_nistxml_sv_iv_atomic_id_min_length_3_3(mode, save_output, output_format):
     """
     Type atomic/ID is restricted by facet minLength with value 58.
     """
@@ -567,11 +604,12 @@ def test_atomic_id_min_length_2_nistxml_sv_iv_atomic_id_min_length_3_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_id_min_length_2_nistxml_sv_iv_atomic_id_min_length_3_4(mode, save_output):
+def test_atomic_id_min_length_2_nistxml_sv_iv_atomic_id_min_length_3_4(mode, save_output, output_format):
     """
     Type atomic/ID is restricted by facet minLength with value 58.
     """
@@ -582,11 +620,12 @@ def test_atomic_id_min_length_2_nistxml_sv_iv_atomic_id_min_length_3_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_id_min_length_2_nistxml_sv_iv_atomic_id_min_length_3_5(mode, save_output):
+def test_atomic_id_min_length_2_nistxml_sv_iv_atomic_id_min_length_3_5(mode, save_output, output_format):
     """
     Type atomic/ID is restricted by facet minLength with value 58.
     """
@@ -597,11 +636,12 @@ def test_atomic_id_min_length_2_nistxml_sv_iv_atomic_id_min_length_3_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_id_min_length_1_nistxml_sv_iv_atomic_id_min_length_2_1(mode, save_output):
+def test_atomic_id_min_length_1_nistxml_sv_iv_atomic_id_min_length_2_1(mode, save_output, output_format):
     """
     Type atomic/ID is restricted by facet minLength with value 45.
     """
@@ -612,11 +652,12 @@ def test_atomic_id_min_length_1_nistxml_sv_iv_atomic_id_min_length_2_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_id_min_length_1_nistxml_sv_iv_atomic_id_min_length_2_2(mode, save_output):
+def test_atomic_id_min_length_1_nistxml_sv_iv_atomic_id_min_length_2_2(mode, save_output, output_format):
     """
     Type atomic/ID is restricted by facet minLength with value 45.
     """
@@ -627,11 +668,12 @@ def test_atomic_id_min_length_1_nistxml_sv_iv_atomic_id_min_length_2_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_id_min_length_1_nistxml_sv_iv_atomic_id_min_length_2_3(mode, save_output):
+def test_atomic_id_min_length_1_nistxml_sv_iv_atomic_id_min_length_2_3(mode, save_output, output_format):
     """
     Type atomic/ID is restricted by facet minLength with value 45.
     """
@@ -642,11 +684,12 @@ def test_atomic_id_min_length_1_nistxml_sv_iv_atomic_id_min_length_2_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_id_min_length_1_nistxml_sv_iv_atomic_id_min_length_2_4(mode, save_output):
+def test_atomic_id_min_length_1_nistxml_sv_iv_atomic_id_min_length_2_4(mode, save_output, output_format):
     """
     Type atomic/ID is restricted by facet minLength with value 45.
     """
@@ -657,11 +700,12 @@ def test_atomic_id_min_length_1_nistxml_sv_iv_atomic_id_min_length_2_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_id_min_length_1_nistxml_sv_iv_atomic_id_min_length_2_5(mode, save_output):
+def test_atomic_id_min_length_1_nistxml_sv_iv_atomic_id_min_length_2_5(mode, save_output, output_format):
     """
     Type atomic/ID is restricted by facet minLength with value 45.
     """
@@ -672,11 +716,12 @@ def test_atomic_id_min_length_1_nistxml_sv_iv_atomic_id_min_length_2_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_id_min_length_nistxml_sv_iv_atomic_id_min_length_1_1(mode, save_output):
+def test_atomic_id_min_length_nistxml_sv_iv_atomic_id_min_length_1_1(mode, save_output, output_format):
     """
     Type atomic/ID is restricted by facet minLength with value 1.
     """
@@ -687,11 +732,12 @@ def test_atomic_id_min_length_nistxml_sv_iv_atomic_id_min_length_1_1(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_id_min_length_nistxml_sv_iv_atomic_id_min_length_1_2(mode, save_output):
+def test_atomic_id_min_length_nistxml_sv_iv_atomic_id_min_length_1_2(mode, save_output, output_format):
     """
     Type atomic/ID is restricted by facet minLength with value 1.
     """
@@ -702,11 +748,12 @@ def test_atomic_id_min_length_nistxml_sv_iv_atomic_id_min_length_1_2(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_id_min_length_nistxml_sv_iv_atomic_id_min_length_1_3(mode, save_output):
+def test_atomic_id_min_length_nistxml_sv_iv_atomic_id_min_length_1_3(mode, save_output, output_format):
     """
     Type atomic/ID is restricted by facet minLength with value 1.
     """
@@ -717,11 +764,12 @@ def test_atomic_id_min_length_nistxml_sv_iv_atomic_id_min_length_1_3(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_id_min_length_nistxml_sv_iv_atomic_id_min_length_1_4(mode, save_output):
+def test_atomic_id_min_length_nistxml_sv_iv_atomic_id_min_length_1_4(mode, save_output, output_format):
     """
     Type atomic/ID is restricted by facet minLength with value 1.
     """
@@ -732,11 +780,12 @@ def test_atomic_id_min_length_nistxml_sv_iv_atomic_id_min_length_1_4(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_id_min_length_nistxml_sv_iv_atomic_id_min_length_1_5(mode, save_output):
+def test_atomic_id_min_length_nistxml_sv_iv_atomic_id_min_length_1_5(mode, save_output, output_format):
     """
     Type atomic/ID is restricted by facet minLength with value 1.
     """
@@ -747,11 +796,12 @@ def test_atomic_id_min_length_nistxml_sv_iv_atomic_id_min_length_1_5(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_id_max_length_4_nistxml_sv_iv_atomic_id_max_length_5_1(mode, save_output):
+def test_atomic_id_max_length_4_nistxml_sv_iv_atomic_id_max_length_5_1(mode, save_output, output_format):
     """
     Type atomic/ID is restricted by facet maxLength with value 64.
     """
@@ -762,11 +812,12 @@ def test_atomic_id_max_length_4_nistxml_sv_iv_atomic_id_max_length_5_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_id_max_length_4_nistxml_sv_iv_atomic_id_max_length_5_2(mode, save_output):
+def test_atomic_id_max_length_4_nistxml_sv_iv_atomic_id_max_length_5_2(mode, save_output, output_format):
     """
     Type atomic/ID is restricted by facet maxLength with value 64.
     """
@@ -777,11 +828,12 @@ def test_atomic_id_max_length_4_nistxml_sv_iv_atomic_id_max_length_5_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_id_max_length_4_nistxml_sv_iv_atomic_id_max_length_5_3(mode, save_output):
+def test_atomic_id_max_length_4_nistxml_sv_iv_atomic_id_max_length_5_3(mode, save_output, output_format):
     """
     Type atomic/ID is restricted by facet maxLength with value 64.
     """
@@ -792,11 +844,12 @@ def test_atomic_id_max_length_4_nistxml_sv_iv_atomic_id_max_length_5_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_id_max_length_4_nistxml_sv_iv_atomic_id_max_length_5_4(mode, save_output):
+def test_atomic_id_max_length_4_nistxml_sv_iv_atomic_id_max_length_5_4(mode, save_output, output_format):
     """
     Type atomic/ID is restricted by facet maxLength with value 64.
     """
@@ -807,11 +860,12 @@ def test_atomic_id_max_length_4_nistxml_sv_iv_atomic_id_max_length_5_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_id_max_length_4_nistxml_sv_iv_atomic_id_max_length_5_5(mode, save_output):
+def test_atomic_id_max_length_4_nistxml_sv_iv_atomic_id_max_length_5_5(mode, save_output, output_format):
     """
     Type atomic/ID is restricted by facet maxLength with value 64.
     """
@@ -822,11 +876,12 @@ def test_atomic_id_max_length_4_nistxml_sv_iv_atomic_id_max_length_5_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_id_max_length_3_nistxml_sv_iv_atomic_id_max_length_4_1(mode, save_output):
+def test_atomic_id_max_length_3_nistxml_sv_iv_atomic_id_max_length_4_1(mode, save_output, output_format):
     """
     Type atomic/ID is restricted by facet maxLength with value 22.
     """
@@ -837,11 +892,12 @@ def test_atomic_id_max_length_3_nistxml_sv_iv_atomic_id_max_length_4_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_id_max_length_3_nistxml_sv_iv_atomic_id_max_length_4_2(mode, save_output):
+def test_atomic_id_max_length_3_nistxml_sv_iv_atomic_id_max_length_4_2(mode, save_output, output_format):
     """
     Type atomic/ID is restricted by facet maxLength with value 22.
     """
@@ -852,11 +908,12 @@ def test_atomic_id_max_length_3_nistxml_sv_iv_atomic_id_max_length_4_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_id_max_length_3_nistxml_sv_iv_atomic_id_max_length_4_3(mode, save_output):
+def test_atomic_id_max_length_3_nistxml_sv_iv_atomic_id_max_length_4_3(mode, save_output, output_format):
     """
     Type atomic/ID is restricted by facet maxLength with value 22.
     """
@@ -867,11 +924,12 @@ def test_atomic_id_max_length_3_nistxml_sv_iv_atomic_id_max_length_4_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_id_max_length_3_nistxml_sv_iv_atomic_id_max_length_4_4(mode, save_output):
+def test_atomic_id_max_length_3_nistxml_sv_iv_atomic_id_max_length_4_4(mode, save_output, output_format):
     """
     Type atomic/ID is restricted by facet maxLength with value 22.
     """
@@ -882,11 +940,12 @@ def test_atomic_id_max_length_3_nistxml_sv_iv_atomic_id_max_length_4_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_id_max_length_3_nistxml_sv_iv_atomic_id_max_length_4_5(mode, save_output):
+def test_atomic_id_max_length_3_nistxml_sv_iv_atomic_id_max_length_4_5(mode, save_output, output_format):
     """
     Type atomic/ID is restricted by facet maxLength with value 22.
     """
@@ -897,11 +956,12 @@ def test_atomic_id_max_length_3_nistxml_sv_iv_atomic_id_max_length_4_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_id_max_length_2_nistxml_sv_iv_atomic_id_max_length_3_1(mode, save_output):
+def test_atomic_id_max_length_2_nistxml_sv_iv_atomic_id_max_length_3_1(mode, save_output, output_format):
     """
     Type atomic/ID is restricted by facet maxLength with value 58.
     """
@@ -912,11 +972,12 @@ def test_atomic_id_max_length_2_nistxml_sv_iv_atomic_id_max_length_3_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_id_max_length_2_nistxml_sv_iv_atomic_id_max_length_3_2(mode, save_output):
+def test_atomic_id_max_length_2_nistxml_sv_iv_atomic_id_max_length_3_2(mode, save_output, output_format):
     """
     Type atomic/ID is restricted by facet maxLength with value 58.
     """
@@ -927,11 +988,12 @@ def test_atomic_id_max_length_2_nistxml_sv_iv_atomic_id_max_length_3_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_id_max_length_2_nistxml_sv_iv_atomic_id_max_length_3_3(mode, save_output):
+def test_atomic_id_max_length_2_nistxml_sv_iv_atomic_id_max_length_3_3(mode, save_output, output_format):
     """
     Type atomic/ID is restricted by facet maxLength with value 58.
     """
@@ -942,11 +1004,12 @@ def test_atomic_id_max_length_2_nistxml_sv_iv_atomic_id_max_length_3_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_id_max_length_2_nistxml_sv_iv_atomic_id_max_length_3_4(mode, save_output):
+def test_atomic_id_max_length_2_nistxml_sv_iv_atomic_id_max_length_3_4(mode, save_output, output_format):
     """
     Type atomic/ID is restricted by facet maxLength with value 58.
     """
@@ -957,11 +1020,12 @@ def test_atomic_id_max_length_2_nistxml_sv_iv_atomic_id_max_length_3_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_id_max_length_2_nistxml_sv_iv_atomic_id_max_length_3_5(mode, save_output):
+def test_atomic_id_max_length_2_nistxml_sv_iv_atomic_id_max_length_3_5(mode, save_output, output_format):
     """
     Type atomic/ID is restricted by facet maxLength with value 58.
     """
@@ -972,11 +1036,12 @@ def test_atomic_id_max_length_2_nistxml_sv_iv_atomic_id_max_length_3_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_id_max_length_1_nistxml_sv_iv_atomic_id_max_length_2_1(mode, save_output):
+def test_atomic_id_max_length_1_nistxml_sv_iv_atomic_id_max_length_2_1(mode, save_output, output_format):
     """
     Type atomic/ID is restricted by facet maxLength with value 62.
     """
@@ -987,11 +1052,12 @@ def test_atomic_id_max_length_1_nistxml_sv_iv_atomic_id_max_length_2_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_id_max_length_1_nistxml_sv_iv_atomic_id_max_length_2_2(mode, save_output):
+def test_atomic_id_max_length_1_nistxml_sv_iv_atomic_id_max_length_2_2(mode, save_output, output_format):
     """
     Type atomic/ID is restricted by facet maxLength with value 62.
     """
@@ -1002,11 +1068,12 @@ def test_atomic_id_max_length_1_nistxml_sv_iv_atomic_id_max_length_2_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_id_max_length_1_nistxml_sv_iv_atomic_id_max_length_2_3(mode, save_output):
+def test_atomic_id_max_length_1_nistxml_sv_iv_atomic_id_max_length_2_3(mode, save_output, output_format):
     """
     Type atomic/ID is restricted by facet maxLength with value 62.
     """
@@ -1017,11 +1084,12 @@ def test_atomic_id_max_length_1_nistxml_sv_iv_atomic_id_max_length_2_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_id_max_length_1_nistxml_sv_iv_atomic_id_max_length_2_4(mode, save_output):
+def test_atomic_id_max_length_1_nistxml_sv_iv_atomic_id_max_length_2_4(mode, save_output, output_format):
     """
     Type atomic/ID is restricted by facet maxLength with value 62.
     """
@@ -1032,11 +1100,12 @@ def test_atomic_id_max_length_1_nistxml_sv_iv_atomic_id_max_length_2_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_id_max_length_1_nistxml_sv_iv_atomic_id_max_length_2_5(mode, save_output):
+def test_atomic_id_max_length_1_nistxml_sv_iv_atomic_id_max_length_2_5(mode, save_output, output_format):
     """
     Type atomic/ID is restricted by facet maxLength with value 62.
     """
@@ -1047,11 +1116,12 @@ def test_atomic_id_max_length_1_nistxml_sv_iv_atomic_id_max_length_2_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_id_max_length_nistxml_sv_iv_atomic_id_max_length_1_1(mode, save_output):
+def test_atomic_id_max_length_nistxml_sv_iv_atomic_id_max_length_1_1(mode, save_output, output_format):
     """
     Type atomic/ID is restricted by facet maxLength with value 1.
     """
@@ -1062,11 +1132,12 @@ def test_atomic_id_max_length_nistxml_sv_iv_atomic_id_max_length_1_1(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_id_max_length_nistxml_sv_iv_atomic_id_max_length_1_2(mode, save_output):
+def test_atomic_id_max_length_nistxml_sv_iv_atomic_id_max_length_1_2(mode, save_output, output_format):
     """
     Type atomic/ID is restricted by facet maxLength with value 1.
     """
@@ -1077,11 +1148,12 @@ def test_atomic_id_max_length_nistxml_sv_iv_atomic_id_max_length_1_2(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_id_max_length_nistxml_sv_iv_atomic_id_max_length_1_3(mode, save_output):
+def test_atomic_id_max_length_nistxml_sv_iv_atomic_id_max_length_1_3(mode, save_output, output_format):
     """
     Type atomic/ID is restricted by facet maxLength with value 1.
     """
@@ -1092,11 +1164,12 @@ def test_atomic_id_max_length_nistxml_sv_iv_atomic_id_max_length_1_3(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_id_max_length_nistxml_sv_iv_atomic_id_max_length_1_4(mode, save_output):
+def test_atomic_id_max_length_nistxml_sv_iv_atomic_id_max_length_1_4(mode, save_output, output_format):
     """
     Type atomic/ID is restricted by facet maxLength with value 1.
     """
@@ -1107,11 +1180,12 @@ def test_atomic_id_max_length_nistxml_sv_iv_atomic_id_max_length_1_4(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_id_max_length_nistxml_sv_iv_atomic_id_max_length_1_5(mode, save_output):
+def test_atomic_id_max_length_nistxml_sv_iv_atomic_id_max_length_1_5(mode, save_output, output_format):
     """
     Type atomic/ID is restricted by facet maxLength with value 1.
     """
@@ -1122,11 +1196,12 @@ def test_atomic_id_max_length_nistxml_sv_iv_atomic_id_max_length_1_5(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_white_space_nistxml_sv_iv_atomic_ncname_white_space_1_1(mode, save_output):
+def test_atomic_ncname_white_space_nistxml_sv_iv_atomic_ncname_white_space_1_1(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet whiteSpace with value
     collapse.
@@ -1138,11 +1213,12 @@ def test_atomic_ncname_white_space_nistxml_sv_iv_atomic_ncname_white_space_1_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_white_space_nistxml_sv_iv_atomic_ncname_white_space_1_2(mode, save_output):
+def test_atomic_ncname_white_space_nistxml_sv_iv_atomic_ncname_white_space_1_2(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet whiteSpace with value
     collapse.
@@ -1154,11 +1230,12 @@ def test_atomic_ncname_white_space_nistxml_sv_iv_atomic_ncname_white_space_1_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_white_space_nistxml_sv_iv_atomic_ncname_white_space_1_3(mode, save_output):
+def test_atomic_ncname_white_space_nistxml_sv_iv_atomic_ncname_white_space_1_3(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet whiteSpace with value
     collapse.
@@ -1170,11 +1247,12 @@ def test_atomic_ncname_white_space_nistxml_sv_iv_atomic_ncname_white_space_1_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_white_space_nistxml_sv_iv_atomic_ncname_white_space_1_4(mode, save_output):
+def test_atomic_ncname_white_space_nistxml_sv_iv_atomic_ncname_white_space_1_4(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet whiteSpace with value
     collapse.
@@ -1186,11 +1264,12 @@ def test_atomic_ncname_white_space_nistxml_sv_iv_atomic_ncname_white_space_1_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_white_space_nistxml_sv_iv_atomic_ncname_white_space_1_5(mode, save_output):
+def test_atomic_ncname_white_space_nistxml_sv_iv_atomic_ncname_white_space_1_5(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet whiteSpace with value
     collapse.
@@ -1202,11 +1281,12 @@ def test_atomic_ncname_white_space_nistxml_sv_iv_atomic_ncname_white_space_1_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_enumeration_4_nistxml_sv_iv_atomic_ncname_enumeration_5_1(mode, save_output):
+def test_atomic_ncname_enumeration_4_nistxml_sv_iv_atomic_ncname_enumeration_5_1(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet enumeration.
     """
@@ -1217,11 +1297,12 @@ def test_atomic_ncname_enumeration_4_nistxml_sv_iv_atomic_ncname_enumeration_5_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_enumeration_4_nistxml_sv_iv_atomic_ncname_enumeration_5_2(mode, save_output):
+def test_atomic_ncname_enumeration_4_nistxml_sv_iv_atomic_ncname_enumeration_5_2(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet enumeration.
     """
@@ -1232,11 +1313,12 @@ def test_atomic_ncname_enumeration_4_nistxml_sv_iv_atomic_ncname_enumeration_5_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_enumeration_4_nistxml_sv_iv_atomic_ncname_enumeration_5_3(mode, save_output):
+def test_atomic_ncname_enumeration_4_nistxml_sv_iv_atomic_ncname_enumeration_5_3(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet enumeration.
     """
@@ -1247,11 +1329,12 @@ def test_atomic_ncname_enumeration_4_nistxml_sv_iv_atomic_ncname_enumeration_5_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_enumeration_4_nistxml_sv_iv_atomic_ncname_enumeration_5_4(mode, save_output):
+def test_atomic_ncname_enumeration_4_nistxml_sv_iv_atomic_ncname_enumeration_5_4(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet enumeration.
     """
@@ -1262,11 +1345,12 @@ def test_atomic_ncname_enumeration_4_nistxml_sv_iv_atomic_ncname_enumeration_5_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_enumeration_4_nistxml_sv_iv_atomic_ncname_enumeration_5_5(mode, save_output):
+def test_atomic_ncname_enumeration_4_nistxml_sv_iv_atomic_ncname_enumeration_5_5(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet enumeration.
     """
@@ -1277,11 +1361,12 @@ def test_atomic_ncname_enumeration_4_nistxml_sv_iv_atomic_ncname_enumeration_5_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_enumeration_3_nistxml_sv_iv_atomic_ncname_enumeration_4_1(mode, save_output):
+def test_atomic_ncname_enumeration_3_nistxml_sv_iv_atomic_ncname_enumeration_4_1(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet enumeration.
     """
@@ -1292,11 +1377,12 @@ def test_atomic_ncname_enumeration_3_nistxml_sv_iv_atomic_ncname_enumeration_4_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_enumeration_3_nistxml_sv_iv_atomic_ncname_enumeration_4_2(mode, save_output):
+def test_atomic_ncname_enumeration_3_nistxml_sv_iv_atomic_ncname_enumeration_4_2(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet enumeration.
     """
@@ -1307,11 +1393,12 @@ def test_atomic_ncname_enumeration_3_nistxml_sv_iv_atomic_ncname_enumeration_4_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_enumeration_3_nistxml_sv_iv_atomic_ncname_enumeration_4_3(mode, save_output):
+def test_atomic_ncname_enumeration_3_nistxml_sv_iv_atomic_ncname_enumeration_4_3(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet enumeration.
     """
@@ -1322,11 +1409,12 @@ def test_atomic_ncname_enumeration_3_nistxml_sv_iv_atomic_ncname_enumeration_4_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_enumeration_3_nistxml_sv_iv_atomic_ncname_enumeration_4_4(mode, save_output):
+def test_atomic_ncname_enumeration_3_nistxml_sv_iv_atomic_ncname_enumeration_4_4(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet enumeration.
     """
@@ -1337,11 +1425,12 @@ def test_atomic_ncname_enumeration_3_nistxml_sv_iv_atomic_ncname_enumeration_4_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_enumeration_3_nistxml_sv_iv_atomic_ncname_enumeration_4_5(mode, save_output):
+def test_atomic_ncname_enumeration_3_nistxml_sv_iv_atomic_ncname_enumeration_4_5(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet enumeration.
     """
@@ -1352,11 +1441,12 @@ def test_atomic_ncname_enumeration_3_nistxml_sv_iv_atomic_ncname_enumeration_4_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_enumeration_2_nistxml_sv_iv_atomic_ncname_enumeration_3_1(mode, save_output):
+def test_atomic_ncname_enumeration_2_nistxml_sv_iv_atomic_ncname_enumeration_3_1(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet enumeration.
     """
@@ -1367,11 +1457,12 @@ def test_atomic_ncname_enumeration_2_nistxml_sv_iv_atomic_ncname_enumeration_3_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_enumeration_2_nistxml_sv_iv_atomic_ncname_enumeration_3_2(mode, save_output):
+def test_atomic_ncname_enumeration_2_nistxml_sv_iv_atomic_ncname_enumeration_3_2(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet enumeration.
     """
@@ -1382,11 +1473,12 @@ def test_atomic_ncname_enumeration_2_nistxml_sv_iv_atomic_ncname_enumeration_3_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_enumeration_2_nistxml_sv_iv_atomic_ncname_enumeration_3_3(mode, save_output):
+def test_atomic_ncname_enumeration_2_nistxml_sv_iv_atomic_ncname_enumeration_3_3(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet enumeration.
     """
@@ -1397,11 +1489,12 @@ def test_atomic_ncname_enumeration_2_nistxml_sv_iv_atomic_ncname_enumeration_3_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_enumeration_2_nistxml_sv_iv_atomic_ncname_enumeration_3_4(mode, save_output):
+def test_atomic_ncname_enumeration_2_nistxml_sv_iv_atomic_ncname_enumeration_3_4(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet enumeration.
     """
@@ -1412,11 +1505,12 @@ def test_atomic_ncname_enumeration_2_nistxml_sv_iv_atomic_ncname_enumeration_3_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_enumeration_2_nistxml_sv_iv_atomic_ncname_enumeration_3_5(mode, save_output):
+def test_atomic_ncname_enumeration_2_nistxml_sv_iv_atomic_ncname_enumeration_3_5(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet enumeration.
     """
@@ -1427,11 +1521,12 @@ def test_atomic_ncname_enumeration_2_nistxml_sv_iv_atomic_ncname_enumeration_3_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_enumeration_1_nistxml_sv_iv_atomic_ncname_enumeration_2_1(mode, save_output):
+def test_atomic_ncname_enumeration_1_nistxml_sv_iv_atomic_ncname_enumeration_2_1(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet enumeration.
     """
@@ -1442,11 +1537,12 @@ def test_atomic_ncname_enumeration_1_nistxml_sv_iv_atomic_ncname_enumeration_2_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_enumeration_1_nistxml_sv_iv_atomic_ncname_enumeration_2_2(mode, save_output):
+def test_atomic_ncname_enumeration_1_nistxml_sv_iv_atomic_ncname_enumeration_2_2(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet enumeration.
     """
@@ -1457,11 +1553,12 @@ def test_atomic_ncname_enumeration_1_nistxml_sv_iv_atomic_ncname_enumeration_2_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_enumeration_1_nistxml_sv_iv_atomic_ncname_enumeration_2_3(mode, save_output):
+def test_atomic_ncname_enumeration_1_nistxml_sv_iv_atomic_ncname_enumeration_2_3(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet enumeration.
     """
@@ -1472,11 +1569,12 @@ def test_atomic_ncname_enumeration_1_nistxml_sv_iv_atomic_ncname_enumeration_2_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_enumeration_1_nistxml_sv_iv_atomic_ncname_enumeration_2_4(mode, save_output):
+def test_atomic_ncname_enumeration_1_nistxml_sv_iv_atomic_ncname_enumeration_2_4(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet enumeration.
     """
@@ -1487,11 +1585,12 @@ def test_atomic_ncname_enumeration_1_nistxml_sv_iv_atomic_ncname_enumeration_2_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_enumeration_1_nistxml_sv_iv_atomic_ncname_enumeration_2_5(mode, save_output):
+def test_atomic_ncname_enumeration_1_nistxml_sv_iv_atomic_ncname_enumeration_2_5(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet enumeration.
     """
@@ -1502,11 +1601,12 @@ def test_atomic_ncname_enumeration_1_nistxml_sv_iv_atomic_ncname_enumeration_2_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_enumeration_nistxml_sv_iv_atomic_ncname_enumeration_1_1(mode, save_output):
+def test_atomic_ncname_enumeration_nistxml_sv_iv_atomic_ncname_enumeration_1_1(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet enumeration.
     """
@@ -1517,11 +1617,12 @@ def test_atomic_ncname_enumeration_nistxml_sv_iv_atomic_ncname_enumeration_1_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_enumeration_nistxml_sv_iv_atomic_ncname_enumeration_1_2(mode, save_output):
+def test_atomic_ncname_enumeration_nistxml_sv_iv_atomic_ncname_enumeration_1_2(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet enumeration.
     """
@@ -1532,11 +1633,12 @@ def test_atomic_ncname_enumeration_nistxml_sv_iv_atomic_ncname_enumeration_1_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_enumeration_nistxml_sv_iv_atomic_ncname_enumeration_1_3(mode, save_output):
+def test_atomic_ncname_enumeration_nistxml_sv_iv_atomic_ncname_enumeration_1_3(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet enumeration.
     """
@@ -1547,11 +1649,12 @@ def test_atomic_ncname_enumeration_nistxml_sv_iv_atomic_ncname_enumeration_1_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_enumeration_nistxml_sv_iv_atomic_ncname_enumeration_1_4(mode, save_output):
+def test_atomic_ncname_enumeration_nistxml_sv_iv_atomic_ncname_enumeration_1_4(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet enumeration.
     """
@@ -1562,11 +1665,12 @@ def test_atomic_ncname_enumeration_nistxml_sv_iv_atomic_ncname_enumeration_1_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_enumeration_nistxml_sv_iv_atomic_ncname_enumeration_1_5(mode, save_output):
+def test_atomic_ncname_enumeration_nistxml_sv_iv_atomic_ncname_enumeration_1_5(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet enumeration.
     """
@@ -1577,11 +1681,12 @@ def test_atomic_ncname_enumeration_nistxml_sv_iv_atomic_ncname_enumeration_1_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_pattern_4_nistxml_sv_iv_atomic_ncname_pattern_5_1(mode, save_output):
+def test_atomic_ncname_pattern_4_nistxml_sv_iv_atomic_ncname_pattern_5_1(mode, save_output, output_format):
     r"""
     Type atomic/NCName is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{63}.
@@ -1593,11 +1698,12 @@ def test_atomic_ncname_pattern_4_nistxml_sv_iv_atomic_ncname_pattern_5_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_pattern_4_nistxml_sv_iv_atomic_ncname_pattern_5_2(mode, save_output):
+def test_atomic_ncname_pattern_4_nistxml_sv_iv_atomic_ncname_pattern_5_2(mode, save_output, output_format):
     r"""
     Type atomic/NCName is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{63}.
@@ -1609,11 +1715,12 @@ def test_atomic_ncname_pattern_4_nistxml_sv_iv_atomic_ncname_pattern_5_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_pattern_4_nistxml_sv_iv_atomic_ncname_pattern_5_3(mode, save_output):
+def test_atomic_ncname_pattern_4_nistxml_sv_iv_atomic_ncname_pattern_5_3(mode, save_output, output_format):
     r"""
     Type atomic/NCName is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{63}.
@@ -1625,11 +1732,12 @@ def test_atomic_ncname_pattern_4_nistxml_sv_iv_atomic_ncname_pattern_5_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_pattern_4_nistxml_sv_iv_atomic_ncname_pattern_5_4(mode, save_output):
+def test_atomic_ncname_pattern_4_nistxml_sv_iv_atomic_ncname_pattern_5_4(mode, save_output, output_format):
     r"""
     Type atomic/NCName is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{63}.
@@ -1641,11 +1749,12 @@ def test_atomic_ncname_pattern_4_nistxml_sv_iv_atomic_ncname_pattern_5_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_pattern_4_nistxml_sv_iv_atomic_ncname_pattern_5_5(mode, save_output):
+def test_atomic_ncname_pattern_4_nistxml_sv_iv_atomic_ncname_pattern_5_5(mode, save_output, output_format):
     r"""
     Type atomic/NCName is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{63}.
@@ -1657,11 +1766,12 @@ def test_atomic_ncname_pattern_4_nistxml_sv_iv_atomic_ncname_pattern_5_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_pattern_3_nistxml_sv_iv_atomic_ncname_pattern_4_1(mode, save_output):
+def test_atomic_ncname_pattern_3_nistxml_sv_iv_atomic_ncname_pattern_4_1(mode, save_output, output_format):
     r"""
     Type atomic/NCName is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{12}.
@@ -1673,11 +1783,12 @@ def test_atomic_ncname_pattern_3_nistxml_sv_iv_atomic_ncname_pattern_4_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_pattern_3_nistxml_sv_iv_atomic_ncname_pattern_4_2(mode, save_output):
+def test_atomic_ncname_pattern_3_nistxml_sv_iv_atomic_ncname_pattern_4_2(mode, save_output, output_format):
     r"""
     Type atomic/NCName is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{12}.
@@ -1689,11 +1800,12 @@ def test_atomic_ncname_pattern_3_nistxml_sv_iv_atomic_ncname_pattern_4_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_pattern_3_nistxml_sv_iv_atomic_ncname_pattern_4_3(mode, save_output):
+def test_atomic_ncname_pattern_3_nistxml_sv_iv_atomic_ncname_pattern_4_3(mode, save_output, output_format):
     r"""
     Type atomic/NCName is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{12}.
@@ -1705,11 +1817,12 @@ def test_atomic_ncname_pattern_3_nistxml_sv_iv_atomic_ncname_pattern_4_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_pattern_3_nistxml_sv_iv_atomic_ncname_pattern_4_4(mode, save_output):
+def test_atomic_ncname_pattern_3_nistxml_sv_iv_atomic_ncname_pattern_4_4(mode, save_output, output_format):
     r"""
     Type atomic/NCName is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{12}.
@@ -1721,11 +1834,12 @@ def test_atomic_ncname_pattern_3_nistxml_sv_iv_atomic_ncname_pattern_4_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_pattern_3_nistxml_sv_iv_atomic_ncname_pattern_4_5(mode, save_output):
+def test_atomic_ncname_pattern_3_nistxml_sv_iv_atomic_ncname_pattern_4_5(mode, save_output, output_format):
     r"""
     Type atomic/NCName is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{12}.
@@ -1737,11 +1851,12 @@ def test_atomic_ncname_pattern_3_nistxml_sv_iv_atomic_ncname_pattern_4_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_pattern_2_nistxml_sv_iv_atomic_ncname_pattern_3_1(mode, save_output):
+def test_atomic_ncname_pattern_2_nistxml_sv_iv_atomic_ncname_pattern_3_1(mode, save_output, output_format):
     r"""
     Type atomic/NCName is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{27}.
@@ -1753,11 +1868,12 @@ def test_atomic_ncname_pattern_2_nistxml_sv_iv_atomic_ncname_pattern_3_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_pattern_2_nistxml_sv_iv_atomic_ncname_pattern_3_2(mode, save_output):
+def test_atomic_ncname_pattern_2_nistxml_sv_iv_atomic_ncname_pattern_3_2(mode, save_output, output_format):
     r"""
     Type atomic/NCName is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{27}.
@@ -1769,11 +1885,12 @@ def test_atomic_ncname_pattern_2_nistxml_sv_iv_atomic_ncname_pattern_3_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_pattern_2_nistxml_sv_iv_atomic_ncname_pattern_3_3(mode, save_output):
+def test_atomic_ncname_pattern_2_nistxml_sv_iv_atomic_ncname_pattern_3_3(mode, save_output, output_format):
     r"""
     Type atomic/NCName is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{27}.
@@ -1785,11 +1902,12 @@ def test_atomic_ncname_pattern_2_nistxml_sv_iv_atomic_ncname_pattern_3_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_pattern_2_nistxml_sv_iv_atomic_ncname_pattern_3_4(mode, save_output):
+def test_atomic_ncname_pattern_2_nistxml_sv_iv_atomic_ncname_pattern_3_4(mode, save_output, output_format):
     r"""
     Type atomic/NCName is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{27}.
@@ -1801,11 +1919,12 @@ def test_atomic_ncname_pattern_2_nistxml_sv_iv_atomic_ncname_pattern_3_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_pattern_2_nistxml_sv_iv_atomic_ncname_pattern_3_5(mode, save_output):
+def test_atomic_ncname_pattern_2_nistxml_sv_iv_atomic_ncname_pattern_3_5(mode, save_output, output_format):
     r"""
     Type atomic/NCName is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{27}.
@@ -1817,11 +1936,12 @@ def test_atomic_ncname_pattern_2_nistxml_sv_iv_atomic_ncname_pattern_3_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_pattern_1_nistxml_sv_iv_atomic_ncname_pattern_2_1(mode, save_output):
+def test_atomic_ncname_pattern_1_nistxml_sv_iv_atomic_ncname_pattern_2_1(mode, save_output, output_format):
     r"""
     Type atomic/NCName is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{40}.
@@ -1833,11 +1953,12 @@ def test_atomic_ncname_pattern_1_nistxml_sv_iv_atomic_ncname_pattern_2_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_pattern_1_nistxml_sv_iv_atomic_ncname_pattern_2_2(mode, save_output):
+def test_atomic_ncname_pattern_1_nistxml_sv_iv_atomic_ncname_pattern_2_2(mode, save_output, output_format):
     r"""
     Type atomic/NCName is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{40}.
@@ -1849,11 +1970,12 @@ def test_atomic_ncname_pattern_1_nistxml_sv_iv_atomic_ncname_pattern_2_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_pattern_1_nistxml_sv_iv_atomic_ncname_pattern_2_3(mode, save_output):
+def test_atomic_ncname_pattern_1_nistxml_sv_iv_atomic_ncname_pattern_2_3(mode, save_output, output_format):
     r"""
     Type atomic/NCName is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{40}.
@@ -1865,11 +1987,12 @@ def test_atomic_ncname_pattern_1_nistxml_sv_iv_atomic_ncname_pattern_2_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_pattern_1_nistxml_sv_iv_atomic_ncname_pattern_2_4(mode, save_output):
+def test_atomic_ncname_pattern_1_nistxml_sv_iv_atomic_ncname_pattern_2_4(mode, save_output, output_format):
     r"""
     Type atomic/NCName is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{40}.
@@ -1881,11 +2004,12 @@ def test_atomic_ncname_pattern_1_nistxml_sv_iv_atomic_ncname_pattern_2_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_pattern_1_nistxml_sv_iv_atomic_ncname_pattern_2_5(mode, save_output):
+def test_atomic_ncname_pattern_1_nistxml_sv_iv_atomic_ncname_pattern_2_5(mode, save_output, output_format):
     r"""
     Type atomic/NCName is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{40}.
@@ -1897,11 +2021,12 @@ def test_atomic_ncname_pattern_1_nistxml_sv_iv_atomic_ncname_pattern_2_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_pattern_nistxml_sv_iv_atomic_ncname_pattern_1_1(mode, save_output):
+def test_atomic_ncname_pattern_nistxml_sv_iv_atomic_ncname_pattern_1_1(mode, save_output, output_format):
     r"""
     Type atomic/NCName is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{16}.
@@ -1913,11 +2038,12 @@ def test_atomic_ncname_pattern_nistxml_sv_iv_atomic_ncname_pattern_1_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_pattern_nistxml_sv_iv_atomic_ncname_pattern_1_2(mode, save_output):
+def test_atomic_ncname_pattern_nistxml_sv_iv_atomic_ncname_pattern_1_2(mode, save_output, output_format):
     r"""
     Type atomic/NCName is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{16}.
@@ -1929,11 +2055,12 @@ def test_atomic_ncname_pattern_nistxml_sv_iv_atomic_ncname_pattern_1_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_pattern_nistxml_sv_iv_atomic_ncname_pattern_1_3(mode, save_output):
+def test_atomic_ncname_pattern_nistxml_sv_iv_atomic_ncname_pattern_1_3(mode, save_output, output_format):
     r"""
     Type atomic/NCName is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{16}.
@@ -1945,11 +2072,12 @@ def test_atomic_ncname_pattern_nistxml_sv_iv_atomic_ncname_pattern_1_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_pattern_nistxml_sv_iv_atomic_ncname_pattern_1_4(mode, save_output):
+def test_atomic_ncname_pattern_nistxml_sv_iv_atomic_ncname_pattern_1_4(mode, save_output, output_format):
     r"""
     Type atomic/NCName is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{16}.
@@ -1961,11 +2089,12 @@ def test_atomic_ncname_pattern_nistxml_sv_iv_atomic_ncname_pattern_1_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_pattern_nistxml_sv_iv_atomic_ncname_pattern_1_5(mode, save_output):
+def test_atomic_ncname_pattern_nistxml_sv_iv_atomic_ncname_pattern_1_5(mode, save_output, output_format):
     r"""
     Type atomic/NCName is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{16}.
@@ -1977,11 +2106,12 @@ def test_atomic_ncname_pattern_nistxml_sv_iv_atomic_ncname_pattern_1_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_length_4_nistxml_sv_iv_atomic_ncname_length_5_1(mode, save_output):
+def test_atomic_ncname_length_4_nistxml_sv_iv_atomic_ncname_length_5_1(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet length with value 64.
     """
@@ -1992,11 +2122,12 @@ def test_atomic_ncname_length_4_nistxml_sv_iv_atomic_ncname_length_5_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_length_4_nistxml_sv_iv_atomic_ncname_length_5_2(mode, save_output):
+def test_atomic_ncname_length_4_nistxml_sv_iv_atomic_ncname_length_5_2(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet length with value 64.
     """
@@ -2007,11 +2138,12 @@ def test_atomic_ncname_length_4_nistxml_sv_iv_atomic_ncname_length_5_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_length_4_nistxml_sv_iv_atomic_ncname_length_5_3(mode, save_output):
+def test_atomic_ncname_length_4_nistxml_sv_iv_atomic_ncname_length_5_3(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet length with value 64.
     """
@@ -2022,11 +2154,12 @@ def test_atomic_ncname_length_4_nistxml_sv_iv_atomic_ncname_length_5_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_length_4_nistxml_sv_iv_atomic_ncname_length_5_4(mode, save_output):
+def test_atomic_ncname_length_4_nistxml_sv_iv_atomic_ncname_length_5_4(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet length with value 64.
     """
@@ -2037,11 +2170,12 @@ def test_atomic_ncname_length_4_nistxml_sv_iv_atomic_ncname_length_5_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_length_4_nistxml_sv_iv_atomic_ncname_length_5_5(mode, save_output):
+def test_atomic_ncname_length_4_nistxml_sv_iv_atomic_ncname_length_5_5(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet length with value 64.
     """
@@ -2052,11 +2186,12 @@ def test_atomic_ncname_length_4_nistxml_sv_iv_atomic_ncname_length_5_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_length_3_nistxml_sv_iv_atomic_ncname_length_4_1(mode, save_output):
+def test_atomic_ncname_length_3_nistxml_sv_iv_atomic_ncname_length_4_1(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet length with value 61.
     """
@@ -2067,11 +2202,12 @@ def test_atomic_ncname_length_3_nistxml_sv_iv_atomic_ncname_length_4_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_length_3_nistxml_sv_iv_atomic_ncname_length_4_2(mode, save_output):
+def test_atomic_ncname_length_3_nistxml_sv_iv_atomic_ncname_length_4_2(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet length with value 61.
     """
@@ -2082,11 +2218,12 @@ def test_atomic_ncname_length_3_nistxml_sv_iv_atomic_ncname_length_4_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_length_3_nistxml_sv_iv_atomic_ncname_length_4_3(mode, save_output):
+def test_atomic_ncname_length_3_nistxml_sv_iv_atomic_ncname_length_4_3(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet length with value 61.
     """
@@ -2097,11 +2234,12 @@ def test_atomic_ncname_length_3_nistxml_sv_iv_atomic_ncname_length_4_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_length_3_nistxml_sv_iv_atomic_ncname_length_4_4(mode, save_output):
+def test_atomic_ncname_length_3_nistxml_sv_iv_atomic_ncname_length_4_4(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet length with value 61.
     """
@@ -2112,11 +2250,12 @@ def test_atomic_ncname_length_3_nistxml_sv_iv_atomic_ncname_length_4_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_length_3_nistxml_sv_iv_atomic_ncname_length_4_5(mode, save_output):
+def test_atomic_ncname_length_3_nistxml_sv_iv_atomic_ncname_length_4_5(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet length with value 61.
     """
@@ -2127,11 +2266,12 @@ def test_atomic_ncname_length_3_nistxml_sv_iv_atomic_ncname_length_4_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_length_2_nistxml_sv_iv_atomic_ncname_length_3_1(mode, save_output):
+def test_atomic_ncname_length_2_nistxml_sv_iv_atomic_ncname_length_3_1(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet length with value 53.
     """
@@ -2142,11 +2282,12 @@ def test_atomic_ncname_length_2_nistxml_sv_iv_atomic_ncname_length_3_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_length_2_nistxml_sv_iv_atomic_ncname_length_3_2(mode, save_output):
+def test_atomic_ncname_length_2_nistxml_sv_iv_atomic_ncname_length_3_2(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet length with value 53.
     """
@@ -2157,11 +2298,12 @@ def test_atomic_ncname_length_2_nistxml_sv_iv_atomic_ncname_length_3_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_length_2_nistxml_sv_iv_atomic_ncname_length_3_3(mode, save_output):
+def test_atomic_ncname_length_2_nistxml_sv_iv_atomic_ncname_length_3_3(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet length with value 53.
     """
@@ -2172,11 +2314,12 @@ def test_atomic_ncname_length_2_nistxml_sv_iv_atomic_ncname_length_3_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_length_2_nistxml_sv_iv_atomic_ncname_length_3_4(mode, save_output):
+def test_atomic_ncname_length_2_nistxml_sv_iv_atomic_ncname_length_3_4(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet length with value 53.
     """
@@ -2187,11 +2330,12 @@ def test_atomic_ncname_length_2_nistxml_sv_iv_atomic_ncname_length_3_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_length_2_nistxml_sv_iv_atomic_ncname_length_3_5(mode, save_output):
+def test_atomic_ncname_length_2_nistxml_sv_iv_atomic_ncname_length_3_5(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet length with value 53.
     """
@@ -2202,11 +2346,12 @@ def test_atomic_ncname_length_2_nistxml_sv_iv_atomic_ncname_length_3_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_length_1_nistxml_sv_iv_atomic_ncname_length_2_1(mode, save_output):
+def test_atomic_ncname_length_1_nistxml_sv_iv_atomic_ncname_length_2_1(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet length with value 61.
     """
@@ -2217,11 +2362,12 @@ def test_atomic_ncname_length_1_nistxml_sv_iv_atomic_ncname_length_2_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_length_1_nistxml_sv_iv_atomic_ncname_length_2_2(mode, save_output):
+def test_atomic_ncname_length_1_nistxml_sv_iv_atomic_ncname_length_2_2(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet length with value 61.
     """
@@ -2232,11 +2378,12 @@ def test_atomic_ncname_length_1_nistxml_sv_iv_atomic_ncname_length_2_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_length_1_nistxml_sv_iv_atomic_ncname_length_2_3(mode, save_output):
+def test_atomic_ncname_length_1_nistxml_sv_iv_atomic_ncname_length_2_3(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet length with value 61.
     """
@@ -2247,11 +2394,12 @@ def test_atomic_ncname_length_1_nistxml_sv_iv_atomic_ncname_length_2_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_length_1_nistxml_sv_iv_atomic_ncname_length_2_4(mode, save_output):
+def test_atomic_ncname_length_1_nistxml_sv_iv_atomic_ncname_length_2_4(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet length with value 61.
     """
@@ -2262,11 +2410,12 @@ def test_atomic_ncname_length_1_nistxml_sv_iv_atomic_ncname_length_2_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_length_1_nistxml_sv_iv_atomic_ncname_length_2_5(mode, save_output):
+def test_atomic_ncname_length_1_nistxml_sv_iv_atomic_ncname_length_2_5(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet length with value 61.
     """
@@ -2277,11 +2426,12 @@ def test_atomic_ncname_length_1_nistxml_sv_iv_atomic_ncname_length_2_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_length_nistxml_sv_iv_atomic_ncname_length_1_1(mode, save_output):
+def test_atomic_ncname_length_nistxml_sv_iv_atomic_ncname_length_1_1(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet length with value 1.
     """
@@ -2292,11 +2442,12 @@ def test_atomic_ncname_length_nistxml_sv_iv_atomic_ncname_length_1_1(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_length_nistxml_sv_iv_atomic_ncname_length_1_2(mode, save_output):
+def test_atomic_ncname_length_nistxml_sv_iv_atomic_ncname_length_1_2(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet length with value 1.
     """
@@ -2307,11 +2458,12 @@ def test_atomic_ncname_length_nistxml_sv_iv_atomic_ncname_length_1_2(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_length_nistxml_sv_iv_atomic_ncname_length_1_3(mode, save_output):
+def test_atomic_ncname_length_nistxml_sv_iv_atomic_ncname_length_1_3(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet length with value 1.
     """
@@ -2322,11 +2474,12 @@ def test_atomic_ncname_length_nistxml_sv_iv_atomic_ncname_length_1_3(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_length_nistxml_sv_iv_atomic_ncname_length_1_4(mode, save_output):
+def test_atomic_ncname_length_nistxml_sv_iv_atomic_ncname_length_1_4(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet length with value 1.
     """
@@ -2337,11 +2490,12 @@ def test_atomic_ncname_length_nistxml_sv_iv_atomic_ncname_length_1_4(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_length_nistxml_sv_iv_atomic_ncname_length_1_5(mode, save_output):
+def test_atomic_ncname_length_nistxml_sv_iv_atomic_ncname_length_1_5(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet length with value 1.
     """
@@ -2352,11 +2506,12 @@ def test_atomic_ncname_length_nistxml_sv_iv_atomic_ncname_length_1_5(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_min_length_4_nistxml_sv_iv_atomic_ncname_min_length_5_1(mode, save_output):
+def test_atomic_ncname_min_length_4_nistxml_sv_iv_atomic_ncname_min_length_5_1(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet minLength with value 64.
     """
@@ -2367,11 +2522,12 @@ def test_atomic_ncname_min_length_4_nistxml_sv_iv_atomic_ncname_min_length_5_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_min_length_4_nistxml_sv_iv_atomic_ncname_min_length_5_2(mode, save_output):
+def test_atomic_ncname_min_length_4_nistxml_sv_iv_atomic_ncname_min_length_5_2(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet minLength with value 64.
     """
@@ -2382,11 +2538,12 @@ def test_atomic_ncname_min_length_4_nistxml_sv_iv_atomic_ncname_min_length_5_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_min_length_4_nistxml_sv_iv_atomic_ncname_min_length_5_3(mode, save_output):
+def test_atomic_ncname_min_length_4_nistxml_sv_iv_atomic_ncname_min_length_5_3(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet minLength with value 64.
     """
@@ -2397,11 +2554,12 @@ def test_atomic_ncname_min_length_4_nistxml_sv_iv_atomic_ncname_min_length_5_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_min_length_4_nistxml_sv_iv_atomic_ncname_min_length_5_4(mode, save_output):
+def test_atomic_ncname_min_length_4_nistxml_sv_iv_atomic_ncname_min_length_5_4(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet minLength with value 64.
     """
@@ -2412,11 +2570,12 @@ def test_atomic_ncname_min_length_4_nistxml_sv_iv_atomic_ncname_min_length_5_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_min_length_4_nistxml_sv_iv_atomic_ncname_min_length_5_5(mode, save_output):
+def test_atomic_ncname_min_length_4_nistxml_sv_iv_atomic_ncname_min_length_5_5(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet minLength with value 64.
     """
@@ -2427,11 +2586,12 @@ def test_atomic_ncname_min_length_4_nistxml_sv_iv_atomic_ncname_min_length_5_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_min_length_3_nistxml_sv_iv_atomic_ncname_min_length_4_1(mode, save_output):
+def test_atomic_ncname_min_length_3_nistxml_sv_iv_atomic_ncname_min_length_4_1(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet minLength with value 60.
     """
@@ -2442,11 +2602,12 @@ def test_atomic_ncname_min_length_3_nistxml_sv_iv_atomic_ncname_min_length_4_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_min_length_3_nistxml_sv_iv_atomic_ncname_min_length_4_2(mode, save_output):
+def test_atomic_ncname_min_length_3_nistxml_sv_iv_atomic_ncname_min_length_4_2(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet minLength with value 60.
     """
@@ -2457,11 +2618,12 @@ def test_atomic_ncname_min_length_3_nistxml_sv_iv_atomic_ncname_min_length_4_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_min_length_3_nistxml_sv_iv_atomic_ncname_min_length_4_3(mode, save_output):
+def test_atomic_ncname_min_length_3_nistxml_sv_iv_atomic_ncname_min_length_4_3(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet minLength with value 60.
     """
@@ -2472,11 +2634,12 @@ def test_atomic_ncname_min_length_3_nistxml_sv_iv_atomic_ncname_min_length_4_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_min_length_3_nistxml_sv_iv_atomic_ncname_min_length_4_4(mode, save_output):
+def test_atomic_ncname_min_length_3_nistxml_sv_iv_atomic_ncname_min_length_4_4(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet minLength with value 60.
     """
@@ -2487,11 +2650,12 @@ def test_atomic_ncname_min_length_3_nistxml_sv_iv_atomic_ncname_min_length_4_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_min_length_3_nistxml_sv_iv_atomic_ncname_min_length_4_5(mode, save_output):
+def test_atomic_ncname_min_length_3_nistxml_sv_iv_atomic_ncname_min_length_4_5(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet minLength with value 60.
     """
@@ -2502,11 +2666,12 @@ def test_atomic_ncname_min_length_3_nistxml_sv_iv_atomic_ncname_min_length_4_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_min_length_2_nistxml_sv_iv_atomic_ncname_min_length_3_1(mode, save_output):
+def test_atomic_ncname_min_length_2_nistxml_sv_iv_atomic_ncname_min_length_3_1(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet minLength with value 32.
     """
@@ -2517,11 +2682,12 @@ def test_atomic_ncname_min_length_2_nistxml_sv_iv_atomic_ncname_min_length_3_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_min_length_2_nistxml_sv_iv_atomic_ncname_min_length_3_2(mode, save_output):
+def test_atomic_ncname_min_length_2_nistxml_sv_iv_atomic_ncname_min_length_3_2(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet minLength with value 32.
     """
@@ -2532,11 +2698,12 @@ def test_atomic_ncname_min_length_2_nistxml_sv_iv_atomic_ncname_min_length_3_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_min_length_2_nistxml_sv_iv_atomic_ncname_min_length_3_3(mode, save_output):
+def test_atomic_ncname_min_length_2_nistxml_sv_iv_atomic_ncname_min_length_3_3(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet minLength with value 32.
     """
@@ -2547,11 +2714,12 @@ def test_atomic_ncname_min_length_2_nistxml_sv_iv_atomic_ncname_min_length_3_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_min_length_2_nistxml_sv_iv_atomic_ncname_min_length_3_4(mode, save_output):
+def test_atomic_ncname_min_length_2_nistxml_sv_iv_atomic_ncname_min_length_3_4(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet minLength with value 32.
     """
@@ -2562,11 +2730,12 @@ def test_atomic_ncname_min_length_2_nistxml_sv_iv_atomic_ncname_min_length_3_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_min_length_2_nistxml_sv_iv_atomic_ncname_min_length_3_5(mode, save_output):
+def test_atomic_ncname_min_length_2_nistxml_sv_iv_atomic_ncname_min_length_3_5(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet minLength with value 32.
     """
@@ -2577,11 +2746,12 @@ def test_atomic_ncname_min_length_2_nistxml_sv_iv_atomic_ncname_min_length_3_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_min_length_1_nistxml_sv_iv_atomic_ncname_min_length_2_1(mode, save_output):
+def test_atomic_ncname_min_length_1_nistxml_sv_iv_atomic_ncname_min_length_2_1(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet minLength with value 47.
     """
@@ -2592,11 +2762,12 @@ def test_atomic_ncname_min_length_1_nistxml_sv_iv_atomic_ncname_min_length_2_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_min_length_1_nistxml_sv_iv_atomic_ncname_min_length_2_2(mode, save_output):
+def test_atomic_ncname_min_length_1_nistxml_sv_iv_atomic_ncname_min_length_2_2(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet minLength with value 47.
     """
@@ -2607,11 +2778,12 @@ def test_atomic_ncname_min_length_1_nistxml_sv_iv_atomic_ncname_min_length_2_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_min_length_1_nistxml_sv_iv_atomic_ncname_min_length_2_3(mode, save_output):
+def test_atomic_ncname_min_length_1_nistxml_sv_iv_atomic_ncname_min_length_2_3(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet minLength with value 47.
     """
@@ -2622,11 +2794,12 @@ def test_atomic_ncname_min_length_1_nistxml_sv_iv_atomic_ncname_min_length_2_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_min_length_1_nistxml_sv_iv_atomic_ncname_min_length_2_4(mode, save_output):
+def test_atomic_ncname_min_length_1_nistxml_sv_iv_atomic_ncname_min_length_2_4(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet minLength with value 47.
     """
@@ -2637,11 +2810,12 @@ def test_atomic_ncname_min_length_1_nistxml_sv_iv_atomic_ncname_min_length_2_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_min_length_1_nistxml_sv_iv_atomic_ncname_min_length_2_5(mode, save_output):
+def test_atomic_ncname_min_length_1_nistxml_sv_iv_atomic_ncname_min_length_2_5(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet minLength with value 47.
     """
@@ -2652,11 +2826,12 @@ def test_atomic_ncname_min_length_1_nistxml_sv_iv_atomic_ncname_min_length_2_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_min_length_nistxml_sv_iv_atomic_ncname_min_length_1_1(mode, save_output):
+def test_atomic_ncname_min_length_nistxml_sv_iv_atomic_ncname_min_length_1_1(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet minLength with value 1.
     """
@@ -2667,11 +2842,12 @@ def test_atomic_ncname_min_length_nistxml_sv_iv_atomic_ncname_min_length_1_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_min_length_nistxml_sv_iv_atomic_ncname_min_length_1_2(mode, save_output):
+def test_atomic_ncname_min_length_nistxml_sv_iv_atomic_ncname_min_length_1_2(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet minLength with value 1.
     """
@@ -2682,11 +2858,12 @@ def test_atomic_ncname_min_length_nistxml_sv_iv_atomic_ncname_min_length_1_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_min_length_nistxml_sv_iv_atomic_ncname_min_length_1_3(mode, save_output):
+def test_atomic_ncname_min_length_nistxml_sv_iv_atomic_ncname_min_length_1_3(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet minLength with value 1.
     """
@@ -2697,11 +2874,12 @@ def test_atomic_ncname_min_length_nistxml_sv_iv_atomic_ncname_min_length_1_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_min_length_nistxml_sv_iv_atomic_ncname_min_length_1_4(mode, save_output):
+def test_atomic_ncname_min_length_nistxml_sv_iv_atomic_ncname_min_length_1_4(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet minLength with value 1.
     """
@@ -2712,11 +2890,12 @@ def test_atomic_ncname_min_length_nistxml_sv_iv_atomic_ncname_min_length_1_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_min_length_nistxml_sv_iv_atomic_ncname_min_length_1_5(mode, save_output):
+def test_atomic_ncname_min_length_nistxml_sv_iv_atomic_ncname_min_length_1_5(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet minLength with value 1.
     """
@@ -2727,11 +2906,12 @@ def test_atomic_ncname_min_length_nistxml_sv_iv_atomic_ncname_min_length_1_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_max_length_4_nistxml_sv_iv_atomic_ncname_max_length_5_1(mode, save_output):
+def test_atomic_ncname_max_length_4_nistxml_sv_iv_atomic_ncname_max_length_5_1(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet maxLength with value 64.
     """
@@ -2742,11 +2922,12 @@ def test_atomic_ncname_max_length_4_nistxml_sv_iv_atomic_ncname_max_length_5_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_max_length_4_nistxml_sv_iv_atomic_ncname_max_length_5_2(mode, save_output):
+def test_atomic_ncname_max_length_4_nistxml_sv_iv_atomic_ncname_max_length_5_2(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet maxLength with value 64.
     """
@@ -2757,11 +2938,12 @@ def test_atomic_ncname_max_length_4_nistxml_sv_iv_atomic_ncname_max_length_5_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_max_length_4_nistxml_sv_iv_atomic_ncname_max_length_5_3(mode, save_output):
+def test_atomic_ncname_max_length_4_nistxml_sv_iv_atomic_ncname_max_length_5_3(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet maxLength with value 64.
     """
@@ -2772,11 +2954,12 @@ def test_atomic_ncname_max_length_4_nistxml_sv_iv_atomic_ncname_max_length_5_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_max_length_4_nistxml_sv_iv_atomic_ncname_max_length_5_4(mode, save_output):
+def test_atomic_ncname_max_length_4_nistxml_sv_iv_atomic_ncname_max_length_5_4(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet maxLength with value 64.
     """
@@ -2787,11 +2970,12 @@ def test_atomic_ncname_max_length_4_nistxml_sv_iv_atomic_ncname_max_length_5_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_max_length_4_nistxml_sv_iv_atomic_ncname_max_length_5_5(mode, save_output):
+def test_atomic_ncname_max_length_4_nistxml_sv_iv_atomic_ncname_max_length_5_5(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet maxLength with value 64.
     """
@@ -2802,11 +2986,12 @@ def test_atomic_ncname_max_length_4_nistxml_sv_iv_atomic_ncname_max_length_5_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_max_length_3_nistxml_sv_iv_atomic_ncname_max_length_4_1(mode, save_output):
+def test_atomic_ncname_max_length_3_nistxml_sv_iv_atomic_ncname_max_length_4_1(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet maxLength with value 37.
     """
@@ -2817,11 +3002,12 @@ def test_atomic_ncname_max_length_3_nistxml_sv_iv_atomic_ncname_max_length_4_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_max_length_3_nistxml_sv_iv_atomic_ncname_max_length_4_2(mode, save_output):
+def test_atomic_ncname_max_length_3_nistxml_sv_iv_atomic_ncname_max_length_4_2(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet maxLength with value 37.
     """
@@ -2832,11 +3018,12 @@ def test_atomic_ncname_max_length_3_nistxml_sv_iv_atomic_ncname_max_length_4_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_max_length_3_nistxml_sv_iv_atomic_ncname_max_length_4_3(mode, save_output):
+def test_atomic_ncname_max_length_3_nistxml_sv_iv_atomic_ncname_max_length_4_3(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet maxLength with value 37.
     """
@@ -2847,11 +3034,12 @@ def test_atomic_ncname_max_length_3_nistxml_sv_iv_atomic_ncname_max_length_4_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_max_length_3_nistxml_sv_iv_atomic_ncname_max_length_4_4(mode, save_output):
+def test_atomic_ncname_max_length_3_nistxml_sv_iv_atomic_ncname_max_length_4_4(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet maxLength with value 37.
     """
@@ -2862,11 +3050,12 @@ def test_atomic_ncname_max_length_3_nistxml_sv_iv_atomic_ncname_max_length_4_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_max_length_3_nistxml_sv_iv_atomic_ncname_max_length_4_5(mode, save_output):
+def test_atomic_ncname_max_length_3_nistxml_sv_iv_atomic_ncname_max_length_4_5(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet maxLength with value 37.
     """
@@ -2877,11 +3066,12 @@ def test_atomic_ncname_max_length_3_nistxml_sv_iv_atomic_ncname_max_length_4_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_max_length_2_nistxml_sv_iv_atomic_ncname_max_length_3_1(mode, save_output):
+def test_atomic_ncname_max_length_2_nistxml_sv_iv_atomic_ncname_max_length_3_1(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet maxLength with value 12.
     """
@@ -2892,11 +3082,12 @@ def test_atomic_ncname_max_length_2_nistxml_sv_iv_atomic_ncname_max_length_3_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_max_length_2_nistxml_sv_iv_atomic_ncname_max_length_3_2(mode, save_output):
+def test_atomic_ncname_max_length_2_nistxml_sv_iv_atomic_ncname_max_length_3_2(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet maxLength with value 12.
     """
@@ -2907,11 +3098,12 @@ def test_atomic_ncname_max_length_2_nistxml_sv_iv_atomic_ncname_max_length_3_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_max_length_2_nistxml_sv_iv_atomic_ncname_max_length_3_3(mode, save_output):
+def test_atomic_ncname_max_length_2_nistxml_sv_iv_atomic_ncname_max_length_3_3(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet maxLength with value 12.
     """
@@ -2922,11 +3114,12 @@ def test_atomic_ncname_max_length_2_nistxml_sv_iv_atomic_ncname_max_length_3_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_max_length_2_nistxml_sv_iv_atomic_ncname_max_length_3_4(mode, save_output):
+def test_atomic_ncname_max_length_2_nistxml_sv_iv_atomic_ncname_max_length_3_4(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet maxLength with value 12.
     """
@@ -2937,11 +3130,12 @@ def test_atomic_ncname_max_length_2_nistxml_sv_iv_atomic_ncname_max_length_3_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_max_length_2_nistxml_sv_iv_atomic_ncname_max_length_3_5(mode, save_output):
+def test_atomic_ncname_max_length_2_nistxml_sv_iv_atomic_ncname_max_length_3_5(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet maxLength with value 12.
     """
@@ -2952,11 +3146,12 @@ def test_atomic_ncname_max_length_2_nistxml_sv_iv_atomic_ncname_max_length_3_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_max_length_1_nistxml_sv_iv_atomic_ncname_max_length_2_1(mode, save_output):
+def test_atomic_ncname_max_length_1_nistxml_sv_iv_atomic_ncname_max_length_2_1(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet maxLength with value 48.
     """
@@ -2967,11 +3162,12 @@ def test_atomic_ncname_max_length_1_nistxml_sv_iv_atomic_ncname_max_length_2_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_max_length_1_nistxml_sv_iv_atomic_ncname_max_length_2_2(mode, save_output):
+def test_atomic_ncname_max_length_1_nistxml_sv_iv_atomic_ncname_max_length_2_2(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet maxLength with value 48.
     """
@@ -2982,11 +3178,12 @@ def test_atomic_ncname_max_length_1_nistxml_sv_iv_atomic_ncname_max_length_2_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_max_length_1_nistxml_sv_iv_atomic_ncname_max_length_2_3(mode, save_output):
+def test_atomic_ncname_max_length_1_nistxml_sv_iv_atomic_ncname_max_length_2_3(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet maxLength with value 48.
     """
@@ -2997,11 +3194,12 @@ def test_atomic_ncname_max_length_1_nistxml_sv_iv_atomic_ncname_max_length_2_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_max_length_1_nistxml_sv_iv_atomic_ncname_max_length_2_4(mode, save_output):
+def test_atomic_ncname_max_length_1_nistxml_sv_iv_atomic_ncname_max_length_2_4(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet maxLength with value 48.
     """
@@ -3012,11 +3210,12 @@ def test_atomic_ncname_max_length_1_nistxml_sv_iv_atomic_ncname_max_length_2_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_max_length_1_nistxml_sv_iv_atomic_ncname_max_length_2_5(mode, save_output):
+def test_atomic_ncname_max_length_1_nistxml_sv_iv_atomic_ncname_max_length_2_5(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet maxLength with value 48.
     """
@@ -3027,11 +3226,12 @@ def test_atomic_ncname_max_length_1_nistxml_sv_iv_atomic_ncname_max_length_2_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_max_length_nistxml_sv_iv_atomic_ncname_max_length_1_1(mode, save_output):
+def test_atomic_ncname_max_length_nistxml_sv_iv_atomic_ncname_max_length_1_1(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet maxLength with value 1.
     """
@@ -3042,11 +3242,12 @@ def test_atomic_ncname_max_length_nistxml_sv_iv_atomic_ncname_max_length_1_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_max_length_nistxml_sv_iv_atomic_ncname_max_length_1_2(mode, save_output):
+def test_atomic_ncname_max_length_nistxml_sv_iv_atomic_ncname_max_length_1_2(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet maxLength with value 1.
     """
@@ -3057,11 +3258,12 @@ def test_atomic_ncname_max_length_nistxml_sv_iv_atomic_ncname_max_length_1_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_max_length_nistxml_sv_iv_atomic_ncname_max_length_1_3(mode, save_output):
+def test_atomic_ncname_max_length_nistxml_sv_iv_atomic_ncname_max_length_1_3(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet maxLength with value 1.
     """
@@ -3072,11 +3274,12 @@ def test_atomic_ncname_max_length_nistxml_sv_iv_atomic_ncname_max_length_1_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_max_length_nistxml_sv_iv_atomic_ncname_max_length_1_4(mode, save_output):
+def test_atomic_ncname_max_length_nistxml_sv_iv_atomic_ncname_max_length_1_4(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet maxLength with value 1.
     """
@@ -3087,11 +3290,12 @@ def test_atomic_ncname_max_length_nistxml_sv_iv_atomic_ncname_max_length_1_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_ncname_max_length_nistxml_sv_iv_atomic_ncname_max_length_1_5(mode, save_output):
+def test_atomic_ncname_max_length_nistxml_sv_iv_atomic_ncname_max_length_1_5(mode, save_output, output_format):
     """
     Type atomic/NCName is restricted by facet maxLength with value 1.
     """
@@ -3102,11 +3306,12 @@ def test_atomic_ncname_max_length_nistxml_sv_iv_atomic_ncname_max_length_1_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_white_space_nistxml_sv_iv_atomic_nmtoken_white_space_1_1(mode, save_output):
+def test_atomic_nmtoken_white_space_nistxml_sv_iv_atomic_nmtoken_white_space_1_1(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet whiteSpace with value
     collapse.
@@ -3118,11 +3323,12 @@ def test_atomic_nmtoken_white_space_nistxml_sv_iv_atomic_nmtoken_white_space_1_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_white_space_nistxml_sv_iv_atomic_nmtoken_white_space_1_2(mode, save_output):
+def test_atomic_nmtoken_white_space_nistxml_sv_iv_atomic_nmtoken_white_space_1_2(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet whiteSpace with value
     collapse.
@@ -3134,11 +3340,12 @@ def test_atomic_nmtoken_white_space_nistxml_sv_iv_atomic_nmtoken_white_space_1_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_white_space_nistxml_sv_iv_atomic_nmtoken_white_space_1_3(mode, save_output):
+def test_atomic_nmtoken_white_space_nistxml_sv_iv_atomic_nmtoken_white_space_1_3(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet whiteSpace with value
     collapse.
@@ -3150,11 +3357,12 @@ def test_atomic_nmtoken_white_space_nistxml_sv_iv_atomic_nmtoken_white_space_1_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_white_space_nistxml_sv_iv_atomic_nmtoken_white_space_1_4(mode, save_output):
+def test_atomic_nmtoken_white_space_nistxml_sv_iv_atomic_nmtoken_white_space_1_4(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet whiteSpace with value
     collapse.
@@ -3166,11 +3374,12 @@ def test_atomic_nmtoken_white_space_nistxml_sv_iv_atomic_nmtoken_white_space_1_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_white_space_nistxml_sv_iv_atomic_nmtoken_white_space_1_5(mode, save_output):
+def test_atomic_nmtoken_white_space_nistxml_sv_iv_atomic_nmtoken_white_space_1_5(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet whiteSpace with value
     collapse.
@@ -3182,11 +3391,12 @@ def test_atomic_nmtoken_white_space_nistxml_sv_iv_atomic_nmtoken_white_space_1_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_enumeration_4_nistxml_sv_iv_atomic_nmtoken_enumeration_5_1(mode, save_output):
+def test_atomic_nmtoken_enumeration_4_nistxml_sv_iv_atomic_nmtoken_enumeration_5_1(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet enumeration.
     """
@@ -3197,11 +3407,12 @@ def test_atomic_nmtoken_enumeration_4_nistxml_sv_iv_atomic_nmtoken_enumeration_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_enumeration_4_nistxml_sv_iv_atomic_nmtoken_enumeration_5_2(mode, save_output):
+def test_atomic_nmtoken_enumeration_4_nistxml_sv_iv_atomic_nmtoken_enumeration_5_2(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet enumeration.
     """
@@ -3212,11 +3423,12 @@ def test_atomic_nmtoken_enumeration_4_nistxml_sv_iv_atomic_nmtoken_enumeration_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_enumeration_4_nistxml_sv_iv_atomic_nmtoken_enumeration_5_3(mode, save_output):
+def test_atomic_nmtoken_enumeration_4_nistxml_sv_iv_atomic_nmtoken_enumeration_5_3(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet enumeration.
     """
@@ -3227,11 +3439,12 @@ def test_atomic_nmtoken_enumeration_4_nistxml_sv_iv_atomic_nmtoken_enumeration_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_enumeration_4_nistxml_sv_iv_atomic_nmtoken_enumeration_5_4(mode, save_output):
+def test_atomic_nmtoken_enumeration_4_nistxml_sv_iv_atomic_nmtoken_enumeration_5_4(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet enumeration.
     """
@@ -3242,11 +3455,12 @@ def test_atomic_nmtoken_enumeration_4_nistxml_sv_iv_atomic_nmtoken_enumeration_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_enumeration_4_nistxml_sv_iv_atomic_nmtoken_enumeration_5_5(mode, save_output):
+def test_atomic_nmtoken_enumeration_4_nistxml_sv_iv_atomic_nmtoken_enumeration_5_5(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet enumeration.
     """
@@ -3257,11 +3471,12 @@ def test_atomic_nmtoken_enumeration_4_nistxml_sv_iv_atomic_nmtoken_enumeration_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_enumeration_3_nistxml_sv_iv_atomic_nmtoken_enumeration_4_1(mode, save_output):
+def test_atomic_nmtoken_enumeration_3_nistxml_sv_iv_atomic_nmtoken_enumeration_4_1(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet enumeration.
     """
@@ -3272,11 +3487,12 @@ def test_atomic_nmtoken_enumeration_3_nistxml_sv_iv_atomic_nmtoken_enumeration_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_enumeration_3_nistxml_sv_iv_atomic_nmtoken_enumeration_4_2(mode, save_output):
+def test_atomic_nmtoken_enumeration_3_nistxml_sv_iv_atomic_nmtoken_enumeration_4_2(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet enumeration.
     """
@@ -3287,11 +3503,12 @@ def test_atomic_nmtoken_enumeration_3_nistxml_sv_iv_atomic_nmtoken_enumeration_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_enumeration_3_nistxml_sv_iv_atomic_nmtoken_enumeration_4_3(mode, save_output):
+def test_atomic_nmtoken_enumeration_3_nistxml_sv_iv_atomic_nmtoken_enumeration_4_3(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet enumeration.
     """
@@ -3302,11 +3519,12 @@ def test_atomic_nmtoken_enumeration_3_nistxml_sv_iv_atomic_nmtoken_enumeration_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_enumeration_3_nistxml_sv_iv_atomic_nmtoken_enumeration_4_4(mode, save_output):
+def test_atomic_nmtoken_enumeration_3_nistxml_sv_iv_atomic_nmtoken_enumeration_4_4(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet enumeration.
     """
@@ -3317,11 +3535,12 @@ def test_atomic_nmtoken_enumeration_3_nistxml_sv_iv_atomic_nmtoken_enumeration_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_enumeration_3_nistxml_sv_iv_atomic_nmtoken_enumeration_4_5(mode, save_output):
+def test_atomic_nmtoken_enumeration_3_nistxml_sv_iv_atomic_nmtoken_enumeration_4_5(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet enumeration.
     """
@@ -3332,11 +3551,12 @@ def test_atomic_nmtoken_enumeration_3_nistxml_sv_iv_atomic_nmtoken_enumeration_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_enumeration_2_nistxml_sv_iv_atomic_nmtoken_enumeration_3_1(mode, save_output):
+def test_atomic_nmtoken_enumeration_2_nistxml_sv_iv_atomic_nmtoken_enumeration_3_1(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet enumeration.
     """
@@ -3347,11 +3567,12 @@ def test_atomic_nmtoken_enumeration_2_nistxml_sv_iv_atomic_nmtoken_enumeration_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_enumeration_2_nistxml_sv_iv_atomic_nmtoken_enumeration_3_2(mode, save_output):
+def test_atomic_nmtoken_enumeration_2_nistxml_sv_iv_atomic_nmtoken_enumeration_3_2(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet enumeration.
     """
@@ -3362,11 +3583,12 @@ def test_atomic_nmtoken_enumeration_2_nistxml_sv_iv_atomic_nmtoken_enumeration_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_enumeration_2_nistxml_sv_iv_atomic_nmtoken_enumeration_3_3(mode, save_output):
+def test_atomic_nmtoken_enumeration_2_nistxml_sv_iv_atomic_nmtoken_enumeration_3_3(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet enumeration.
     """
@@ -3377,11 +3599,12 @@ def test_atomic_nmtoken_enumeration_2_nistxml_sv_iv_atomic_nmtoken_enumeration_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_enumeration_2_nistxml_sv_iv_atomic_nmtoken_enumeration_3_4(mode, save_output):
+def test_atomic_nmtoken_enumeration_2_nistxml_sv_iv_atomic_nmtoken_enumeration_3_4(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet enumeration.
     """
@@ -3392,11 +3615,12 @@ def test_atomic_nmtoken_enumeration_2_nistxml_sv_iv_atomic_nmtoken_enumeration_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_enumeration_2_nistxml_sv_iv_atomic_nmtoken_enumeration_3_5(mode, save_output):
+def test_atomic_nmtoken_enumeration_2_nistxml_sv_iv_atomic_nmtoken_enumeration_3_5(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet enumeration.
     """
@@ -3407,11 +3631,12 @@ def test_atomic_nmtoken_enumeration_2_nistxml_sv_iv_atomic_nmtoken_enumeration_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_enumeration_1_nistxml_sv_iv_atomic_nmtoken_enumeration_2_1(mode, save_output):
+def test_atomic_nmtoken_enumeration_1_nistxml_sv_iv_atomic_nmtoken_enumeration_2_1(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet enumeration.
     """
@@ -3422,11 +3647,12 @@ def test_atomic_nmtoken_enumeration_1_nistxml_sv_iv_atomic_nmtoken_enumeration_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_enumeration_1_nistxml_sv_iv_atomic_nmtoken_enumeration_2_2(mode, save_output):
+def test_atomic_nmtoken_enumeration_1_nistxml_sv_iv_atomic_nmtoken_enumeration_2_2(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet enumeration.
     """
@@ -3437,11 +3663,12 @@ def test_atomic_nmtoken_enumeration_1_nistxml_sv_iv_atomic_nmtoken_enumeration_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_enumeration_1_nistxml_sv_iv_atomic_nmtoken_enumeration_2_3(mode, save_output):
+def test_atomic_nmtoken_enumeration_1_nistxml_sv_iv_atomic_nmtoken_enumeration_2_3(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet enumeration.
     """
@@ -3452,11 +3679,12 @@ def test_atomic_nmtoken_enumeration_1_nistxml_sv_iv_atomic_nmtoken_enumeration_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_enumeration_1_nistxml_sv_iv_atomic_nmtoken_enumeration_2_4(mode, save_output):
+def test_atomic_nmtoken_enumeration_1_nistxml_sv_iv_atomic_nmtoken_enumeration_2_4(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet enumeration.
     """
@@ -3467,11 +3695,12 @@ def test_atomic_nmtoken_enumeration_1_nistxml_sv_iv_atomic_nmtoken_enumeration_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_enumeration_1_nistxml_sv_iv_atomic_nmtoken_enumeration_2_5(mode, save_output):
+def test_atomic_nmtoken_enumeration_1_nistxml_sv_iv_atomic_nmtoken_enumeration_2_5(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet enumeration.
     """
@@ -3482,11 +3711,12 @@ def test_atomic_nmtoken_enumeration_1_nistxml_sv_iv_atomic_nmtoken_enumeration_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_enumeration_nistxml_sv_iv_atomic_nmtoken_enumeration_1_1(mode, save_output):
+def test_atomic_nmtoken_enumeration_nistxml_sv_iv_atomic_nmtoken_enumeration_1_1(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet enumeration.
     """
@@ -3497,11 +3727,12 @@ def test_atomic_nmtoken_enumeration_nistxml_sv_iv_atomic_nmtoken_enumeration_1_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_enumeration_nistxml_sv_iv_atomic_nmtoken_enumeration_1_2(mode, save_output):
+def test_atomic_nmtoken_enumeration_nistxml_sv_iv_atomic_nmtoken_enumeration_1_2(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet enumeration.
     """
@@ -3512,11 +3743,12 @@ def test_atomic_nmtoken_enumeration_nistxml_sv_iv_atomic_nmtoken_enumeration_1_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_enumeration_nistxml_sv_iv_atomic_nmtoken_enumeration_1_3(mode, save_output):
+def test_atomic_nmtoken_enumeration_nistxml_sv_iv_atomic_nmtoken_enumeration_1_3(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet enumeration.
     """
@@ -3527,11 +3759,12 @@ def test_atomic_nmtoken_enumeration_nistxml_sv_iv_atomic_nmtoken_enumeration_1_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_enumeration_nistxml_sv_iv_atomic_nmtoken_enumeration_1_4(mode, save_output):
+def test_atomic_nmtoken_enumeration_nistxml_sv_iv_atomic_nmtoken_enumeration_1_4(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet enumeration.
     """
@@ -3542,11 +3775,12 @@ def test_atomic_nmtoken_enumeration_nistxml_sv_iv_atomic_nmtoken_enumeration_1_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_enumeration_nistxml_sv_iv_atomic_nmtoken_enumeration_1_5(mode, save_output):
+def test_atomic_nmtoken_enumeration_nistxml_sv_iv_atomic_nmtoken_enumeration_1_5(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet enumeration.
     """
@@ -3557,11 +3791,12 @@ def test_atomic_nmtoken_enumeration_nistxml_sv_iv_atomic_nmtoken_enumeration_1_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_pattern_4_nistxml_sv_iv_atomic_nmtoken_pattern_5_1(mode, save_output):
+def test_atomic_nmtoken_pattern_4_nistxml_sv_iv_atomic_nmtoken_pattern_5_1(mode, save_output, output_format):
     r"""
     Type atomic/NMTOKEN is restricted by facet pattern with value \c{18}.
     """
@@ -3572,11 +3807,12 @@ def test_atomic_nmtoken_pattern_4_nistxml_sv_iv_atomic_nmtoken_pattern_5_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_pattern_4_nistxml_sv_iv_atomic_nmtoken_pattern_5_2(mode, save_output):
+def test_atomic_nmtoken_pattern_4_nistxml_sv_iv_atomic_nmtoken_pattern_5_2(mode, save_output, output_format):
     r"""
     Type atomic/NMTOKEN is restricted by facet pattern with value \c{18}.
     """
@@ -3587,11 +3823,12 @@ def test_atomic_nmtoken_pattern_4_nistxml_sv_iv_atomic_nmtoken_pattern_5_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_pattern_4_nistxml_sv_iv_atomic_nmtoken_pattern_5_3(mode, save_output):
+def test_atomic_nmtoken_pattern_4_nistxml_sv_iv_atomic_nmtoken_pattern_5_3(mode, save_output, output_format):
     r"""
     Type atomic/NMTOKEN is restricted by facet pattern with value \c{18}.
     """
@@ -3602,11 +3839,12 @@ def test_atomic_nmtoken_pattern_4_nistxml_sv_iv_atomic_nmtoken_pattern_5_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_pattern_4_nistxml_sv_iv_atomic_nmtoken_pattern_5_4(mode, save_output):
+def test_atomic_nmtoken_pattern_4_nistxml_sv_iv_atomic_nmtoken_pattern_5_4(mode, save_output, output_format):
     r"""
     Type atomic/NMTOKEN is restricted by facet pattern with value \c{18}.
     """
@@ -3617,11 +3855,12 @@ def test_atomic_nmtoken_pattern_4_nistxml_sv_iv_atomic_nmtoken_pattern_5_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_pattern_4_nistxml_sv_iv_atomic_nmtoken_pattern_5_5(mode, save_output):
+def test_atomic_nmtoken_pattern_4_nistxml_sv_iv_atomic_nmtoken_pattern_5_5(mode, save_output, output_format):
     r"""
     Type atomic/NMTOKEN is restricted by facet pattern with value \c{18}.
     """
@@ -3632,11 +3871,12 @@ def test_atomic_nmtoken_pattern_4_nistxml_sv_iv_atomic_nmtoken_pattern_5_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_pattern_3_nistxml_sv_iv_atomic_nmtoken_pattern_4_1(mode, save_output):
+def test_atomic_nmtoken_pattern_3_nistxml_sv_iv_atomic_nmtoken_pattern_4_1(mode, save_output, output_format):
     r"""
     Type atomic/NMTOKEN is restricted by facet pattern with value \c{33}.
     """
@@ -3647,11 +3887,12 @@ def test_atomic_nmtoken_pattern_3_nistxml_sv_iv_atomic_nmtoken_pattern_4_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_pattern_3_nistxml_sv_iv_atomic_nmtoken_pattern_4_2(mode, save_output):
+def test_atomic_nmtoken_pattern_3_nistxml_sv_iv_atomic_nmtoken_pattern_4_2(mode, save_output, output_format):
     r"""
     Type atomic/NMTOKEN is restricted by facet pattern with value \c{33}.
     """
@@ -3662,11 +3903,12 @@ def test_atomic_nmtoken_pattern_3_nistxml_sv_iv_atomic_nmtoken_pattern_4_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_pattern_3_nistxml_sv_iv_atomic_nmtoken_pattern_4_3(mode, save_output):
+def test_atomic_nmtoken_pattern_3_nistxml_sv_iv_atomic_nmtoken_pattern_4_3(mode, save_output, output_format):
     r"""
     Type atomic/NMTOKEN is restricted by facet pattern with value \c{33}.
     """
@@ -3677,11 +3919,12 @@ def test_atomic_nmtoken_pattern_3_nistxml_sv_iv_atomic_nmtoken_pattern_4_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_pattern_3_nistxml_sv_iv_atomic_nmtoken_pattern_4_4(mode, save_output):
+def test_atomic_nmtoken_pattern_3_nistxml_sv_iv_atomic_nmtoken_pattern_4_4(mode, save_output, output_format):
     r"""
     Type atomic/NMTOKEN is restricted by facet pattern with value \c{33}.
     """
@@ -3692,11 +3935,12 @@ def test_atomic_nmtoken_pattern_3_nistxml_sv_iv_atomic_nmtoken_pattern_4_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_pattern_3_nistxml_sv_iv_atomic_nmtoken_pattern_4_5(mode, save_output):
+def test_atomic_nmtoken_pattern_3_nistxml_sv_iv_atomic_nmtoken_pattern_4_5(mode, save_output, output_format):
     r"""
     Type atomic/NMTOKEN is restricted by facet pattern with value \c{33}.
     """
@@ -3707,11 +3951,12 @@ def test_atomic_nmtoken_pattern_3_nistxml_sv_iv_atomic_nmtoken_pattern_4_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_pattern_2_nistxml_sv_iv_atomic_nmtoken_pattern_3_1(mode, save_output):
+def test_atomic_nmtoken_pattern_2_nistxml_sv_iv_atomic_nmtoken_pattern_3_1(mode, save_output, output_format):
     r"""
     Type atomic/NMTOKEN is restricted by facet pattern with value \c{6}.
     """
@@ -3722,11 +3967,12 @@ def test_atomic_nmtoken_pattern_2_nistxml_sv_iv_atomic_nmtoken_pattern_3_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_pattern_2_nistxml_sv_iv_atomic_nmtoken_pattern_3_2(mode, save_output):
+def test_atomic_nmtoken_pattern_2_nistxml_sv_iv_atomic_nmtoken_pattern_3_2(mode, save_output, output_format):
     r"""
     Type atomic/NMTOKEN is restricted by facet pattern with value \c{6}.
     """
@@ -3737,11 +3983,12 @@ def test_atomic_nmtoken_pattern_2_nistxml_sv_iv_atomic_nmtoken_pattern_3_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_pattern_2_nistxml_sv_iv_atomic_nmtoken_pattern_3_3(mode, save_output):
+def test_atomic_nmtoken_pattern_2_nistxml_sv_iv_atomic_nmtoken_pattern_3_3(mode, save_output, output_format):
     r"""
     Type atomic/NMTOKEN is restricted by facet pattern with value \c{6}.
     """
@@ -3752,11 +3999,12 @@ def test_atomic_nmtoken_pattern_2_nistxml_sv_iv_atomic_nmtoken_pattern_3_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_pattern_2_nistxml_sv_iv_atomic_nmtoken_pattern_3_4(mode, save_output):
+def test_atomic_nmtoken_pattern_2_nistxml_sv_iv_atomic_nmtoken_pattern_3_4(mode, save_output, output_format):
     r"""
     Type atomic/NMTOKEN is restricted by facet pattern with value \c{6}.
     """
@@ -3767,11 +4015,12 @@ def test_atomic_nmtoken_pattern_2_nistxml_sv_iv_atomic_nmtoken_pattern_3_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_pattern_2_nistxml_sv_iv_atomic_nmtoken_pattern_3_5(mode, save_output):
+def test_atomic_nmtoken_pattern_2_nistxml_sv_iv_atomic_nmtoken_pattern_3_5(mode, save_output, output_format):
     r"""
     Type atomic/NMTOKEN is restricted by facet pattern with value \c{6}.
     """
@@ -3782,11 +4031,12 @@ def test_atomic_nmtoken_pattern_2_nistxml_sv_iv_atomic_nmtoken_pattern_3_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_pattern_1_nistxml_sv_iv_atomic_nmtoken_pattern_2_1(mode, save_output):
+def test_atomic_nmtoken_pattern_1_nistxml_sv_iv_atomic_nmtoken_pattern_2_1(mode, save_output, output_format):
     r"""
     Type atomic/NMTOKEN is restricted by facet pattern with value \c{18}.
     """
@@ -3797,11 +4047,12 @@ def test_atomic_nmtoken_pattern_1_nistxml_sv_iv_atomic_nmtoken_pattern_2_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_pattern_1_nistxml_sv_iv_atomic_nmtoken_pattern_2_2(mode, save_output):
+def test_atomic_nmtoken_pattern_1_nistxml_sv_iv_atomic_nmtoken_pattern_2_2(mode, save_output, output_format):
     r"""
     Type atomic/NMTOKEN is restricted by facet pattern with value \c{18}.
     """
@@ -3812,11 +4063,12 @@ def test_atomic_nmtoken_pattern_1_nistxml_sv_iv_atomic_nmtoken_pattern_2_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_pattern_1_nistxml_sv_iv_atomic_nmtoken_pattern_2_3(mode, save_output):
+def test_atomic_nmtoken_pattern_1_nistxml_sv_iv_atomic_nmtoken_pattern_2_3(mode, save_output, output_format):
     r"""
     Type atomic/NMTOKEN is restricted by facet pattern with value \c{18}.
     """
@@ -3827,11 +4079,12 @@ def test_atomic_nmtoken_pattern_1_nistxml_sv_iv_atomic_nmtoken_pattern_2_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_pattern_1_nistxml_sv_iv_atomic_nmtoken_pattern_2_4(mode, save_output):
+def test_atomic_nmtoken_pattern_1_nistxml_sv_iv_atomic_nmtoken_pattern_2_4(mode, save_output, output_format):
     r"""
     Type atomic/NMTOKEN is restricted by facet pattern with value \c{18}.
     """
@@ -3842,11 +4095,12 @@ def test_atomic_nmtoken_pattern_1_nistxml_sv_iv_atomic_nmtoken_pattern_2_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_pattern_1_nistxml_sv_iv_atomic_nmtoken_pattern_2_5(mode, save_output):
+def test_atomic_nmtoken_pattern_1_nistxml_sv_iv_atomic_nmtoken_pattern_2_5(mode, save_output, output_format):
     r"""
     Type atomic/NMTOKEN is restricted by facet pattern with value \c{18}.
     """
@@ -3857,11 +4111,12 @@ def test_atomic_nmtoken_pattern_1_nistxml_sv_iv_atomic_nmtoken_pattern_2_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_pattern_nistxml_sv_iv_atomic_nmtoken_pattern_1_1(mode, save_output):
+def test_atomic_nmtoken_pattern_nistxml_sv_iv_atomic_nmtoken_pattern_1_1(mode, save_output, output_format):
     r"""
     Type atomic/NMTOKEN is restricted by facet pattern with value \c{40}.
     """
@@ -3872,11 +4127,12 @@ def test_atomic_nmtoken_pattern_nistxml_sv_iv_atomic_nmtoken_pattern_1_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_pattern_nistxml_sv_iv_atomic_nmtoken_pattern_1_2(mode, save_output):
+def test_atomic_nmtoken_pattern_nistxml_sv_iv_atomic_nmtoken_pattern_1_2(mode, save_output, output_format):
     r"""
     Type atomic/NMTOKEN is restricted by facet pattern with value \c{40}.
     """
@@ -3887,11 +4143,12 @@ def test_atomic_nmtoken_pattern_nistxml_sv_iv_atomic_nmtoken_pattern_1_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_pattern_nistxml_sv_iv_atomic_nmtoken_pattern_1_3(mode, save_output):
+def test_atomic_nmtoken_pattern_nistxml_sv_iv_atomic_nmtoken_pattern_1_3(mode, save_output, output_format):
     r"""
     Type atomic/NMTOKEN is restricted by facet pattern with value \c{40}.
     """
@@ -3902,11 +4159,12 @@ def test_atomic_nmtoken_pattern_nistxml_sv_iv_atomic_nmtoken_pattern_1_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_pattern_nistxml_sv_iv_atomic_nmtoken_pattern_1_4(mode, save_output):
+def test_atomic_nmtoken_pattern_nistxml_sv_iv_atomic_nmtoken_pattern_1_4(mode, save_output, output_format):
     r"""
     Type atomic/NMTOKEN is restricted by facet pattern with value \c{40}.
     """
@@ -3917,11 +4175,12 @@ def test_atomic_nmtoken_pattern_nistxml_sv_iv_atomic_nmtoken_pattern_1_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_pattern_nistxml_sv_iv_atomic_nmtoken_pattern_1_5(mode, save_output):
+def test_atomic_nmtoken_pattern_nistxml_sv_iv_atomic_nmtoken_pattern_1_5(mode, save_output, output_format):
     r"""
     Type atomic/NMTOKEN is restricted by facet pattern with value \c{40}.
     """
@@ -3932,11 +4191,12 @@ def test_atomic_nmtoken_pattern_nistxml_sv_iv_atomic_nmtoken_pattern_1_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_length_4_nistxml_sv_iv_atomic_nmtoken_length_5_1(mode, save_output):
+def test_atomic_nmtoken_length_4_nistxml_sv_iv_atomic_nmtoken_length_5_1(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet length with value 64.
     """
@@ -3947,11 +4207,12 @@ def test_atomic_nmtoken_length_4_nistxml_sv_iv_atomic_nmtoken_length_5_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_length_4_nistxml_sv_iv_atomic_nmtoken_length_5_2(mode, save_output):
+def test_atomic_nmtoken_length_4_nistxml_sv_iv_atomic_nmtoken_length_5_2(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet length with value 64.
     """
@@ -3962,11 +4223,12 @@ def test_atomic_nmtoken_length_4_nistxml_sv_iv_atomic_nmtoken_length_5_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_length_4_nistxml_sv_iv_atomic_nmtoken_length_5_3(mode, save_output):
+def test_atomic_nmtoken_length_4_nistxml_sv_iv_atomic_nmtoken_length_5_3(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet length with value 64.
     """
@@ -3977,11 +4239,12 @@ def test_atomic_nmtoken_length_4_nistxml_sv_iv_atomic_nmtoken_length_5_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_length_4_nistxml_sv_iv_atomic_nmtoken_length_5_4(mode, save_output):
+def test_atomic_nmtoken_length_4_nistxml_sv_iv_atomic_nmtoken_length_5_4(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet length with value 64.
     """
@@ -3992,11 +4255,12 @@ def test_atomic_nmtoken_length_4_nistxml_sv_iv_atomic_nmtoken_length_5_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_length_4_nistxml_sv_iv_atomic_nmtoken_length_5_5(mode, save_output):
+def test_atomic_nmtoken_length_4_nistxml_sv_iv_atomic_nmtoken_length_5_5(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet length with value 64.
     """
@@ -4007,11 +4271,12 @@ def test_atomic_nmtoken_length_4_nistxml_sv_iv_atomic_nmtoken_length_5_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_length_3_nistxml_sv_iv_atomic_nmtoken_length_4_1(mode, save_output):
+def test_atomic_nmtoken_length_3_nistxml_sv_iv_atomic_nmtoken_length_4_1(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet length with value 60.
     """
@@ -4022,11 +4287,12 @@ def test_atomic_nmtoken_length_3_nistxml_sv_iv_atomic_nmtoken_length_4_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_length_3_nistxml_sv_iv_atomic_nmtoken_length_4_2(mode, save_output):
+def test_atomic_nmtoken_length_3_nistxml_sv_iv_atomic_nmtoken_length_4_2(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet length with value 60.
     """
@@ -4037,11 +4303,12 @@ def test_atomic_nmtoken_length_3_nistxml_sv_iv_atomic_nmtoken_length_4_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_length_3_nistxml_sv_iv_atomic_nmtoken_length_4_3(mode, save_output):
+def test_atomic_nmtoken_length_3_nistxml_sv_iv_atomic_nmtoken_length_4_3(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet length with value 60.
     """
@@ -4052,11 +4319,12 @@ def test_atomic_nmtoken_length_3_nistxml_sv_iv_atomic_nmtoken_length_4_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_length_3_nistxml_sv_iv_atomic_nmtoken_length_4_4(mode, save_output):
+def test_atomic_nmtoken_length_3_nistxml_sv_iv_atomic_nmtoken_length_4_4(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet length with value 60.
     """
@@ -4067,11 +4335,12 @@ def test_atomic_nmtoken_length_3_nistxml_sv_iv_atomic_nmtoken_length_4_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_length_3_nistxml_sv_iv_atomic_nmtoken_length_4_5(mode, save_output):
+def test_atomic_nmtoken_length_3_nistxml_sv_iv_atomic_nmtoken_length_4_5(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet length with value 60.
     """
@@ -4082,11 +4351,12 @@ def test_atomic_nmtoken_length_3_nistxml_sv_iv_atomic_nmtoken_length_4_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_length_2_nistxml_sv_iv_atomic_nmtoken_length_3_1(mode, save_output):
+def test_atomic_nmtoken_length_2_nistxml_sv_iv_atomic_nmtoken_length_3_1(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet length with value 57.
     """
@@ -4097,11 +4367,12 @@ def test_atomic_nmtoken_length_2_nistxml_sv_iv_atomic_nmtoken_length_3_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_length_2_nistxml_sv_iv_atomic_nmtoken_length_3_2(mode, save_output):
+def test_atomic_nmtoken_length_2_nistxml_sv_iv_atomic_nmtoken_length_3_2(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet length with value 57.
     """
@@ -4112,11 +4383,12 @@ def test_atomic_nmtoken_length_2_nistxml_sv_iv_atomic_nmtoken_length_3_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_length_2_nistxml_sv_iv_atomic_nmtoken_length_3_3(mode, save_output):
+def test_atomic_nmtoken_length_2_nistxml_sv_iv_atomic_nmtoken_length_3_3(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet length with value 57.
     """
@@ -4127,11 +4399,12 @@ def test_atomic_nmtoken_length_2_nistxml_sv_iv_atomic_nmtoken_length_3_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_length_2_nistxml_sv_iv_atomic_nmtoken_length_3_4(mode, save_output):
+def test_atomic_nmtoken_length_2_nistxml_sv_iv_atomic_nmtoken_length_3_4(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet length with value 57.
     """
@@ -4142,11 +4415,12 @@ def test_atomic_nmtoken_length_2_nistxml_sv_iv_atomic_nmtoken_length_3_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_length_2_nistxml_sv_iv_atomic_nmtoken_length_3_5(mode, save_output):
+def test_atomic_nmtoken_length_2_nistxml_sv_iv_atomic_nmtoken_length_3_5(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet length with value 57.
     """
@@ -4157,11 +4431,12 @@ def test_atomic_nmtoken_length_2_nistxml_sv_iv_atomic_nmtoken_length_3_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_length_1_nistxml_sv_iv_atomic_nmtoken_length_2_1(mode, save_output):
+def test_atomic_nmtoken_length_1_nistxml_sv_iv_atomic_nmtoken_length_2_1(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet length with value 38.
     """
@@ -4172,11 +4447,12 @@ def test_atomic_nmtoken_length_1_nistxml_sv_iv_atomic_nmtoken_length_2_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_length_1_nistxml_sv_iv_atomic_nmtoken_length_2_2(mode, save_output):
+def test_atomic_nmtoken_length_1_nistxml_sv_iv_atomic_nmtoken_length_2_2(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet length with value 38.
     """
@@ -4187,11 +4463,12 @@ def test_atomic_nmtoken_length_1_nistxml_sv_iv_atomic_nmtoken_length_2_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_length_1_nistxml_sv_iv_atomic_nmtoken_length_2_3(mode, save_output):
+def test_atomic_nmtoken_length_1_nistxml_sv_iv_atomic_nmtoken_length_2_3(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet length with value 38.
     """
@@ -4202,11 +4479,12 @@ def test_atomic_nmtoken_length_1_nistxml_sv_iv_atomic_nmtoken_length_2_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_length_1_nistxml_sv_iv_atomic_nmtoken_length_2_4(mode, save_output):
+def test_atomic_nmtoken_length_1_nistxml_sv_iv_atomic_nmtoken_length_2_4(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet length with value 38.
     """
@@ -4217,11 +4495,12 @@ def test_atomic_nmtoken_length_1_nistxml_sv_iv_atomic_nmtoken_length_2_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_length_1_nistxml_sv_iv_atomic_nmtoken_length_2_5(mode, save_output):
+def test_atomic_nmtoken_length_1_nistxml_sv_iv_atomic_nmtoken_length_2_5(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet length with value 38.
     """
@@ -4232,11 +4511,12 @@ def test_atomic_nmtoken_length_1_nistxml_sv_iv_atomic_nmtoken_length_2_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_length_nistxml_sv_iv_atomic_nmtoken_length_1_1(mode, save_output):
+def test_atomic_nmtoken_length_nistxml_sv_iv_atomic_nmtoken_length_1_1(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet length with value 1.
     """
@@ -4247,11 +4527,12 @@ def test_atomic_nmtoken_length_nistxml_sv_iv_atomic_nmtoken_length_1_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_length_nistxml_sv_iv_atomic_nmtoken_length_1_2(mode, save_output):
+def test_atomic_nmtoken_length_nistxml_sv_iv_atomic_nmtoken_length_1_2(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet length with value 1.
     """
@@ -4262,11 +4543,12 @@ def test_atomic_nmtoken_length_nistxml_sv_iv_atomic_nmtoken_length_1_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_length_nistxml_sv_iv_atomic_nmtoken_length_1_3(mode, save_output):
+def test_atomic_nmtoken_length_nistxml_sv_iv_atomic_nmtoken_length_1_3(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet length with value 1.
     """
@@ -4277,11 +4559,12 @@ def test_atomic_nmtoken_length_nistxml_sv_iv_atomic_nmtoken_length_1_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_length_nistxml_sv_iv_atomic_nmtoken_length_1_4(mode, save_output):
+def test_atomic_nmtoken_length_nistxml_sv_iv_atomic_nmtoken_length_1_4(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet length with value 1.
     """
@@ -4292,11 +4575,12 @@ def test_atomic_nmtoken_length_nistxml_sv_iv_atomic_nmtoken_length_1_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_length_nistxml_sv_iv_atomic_nmtoken_length_1_5(mode, save_output):
+def test_atomic_nmtoken_length_nistxml_sv_iv_atomic_nmtoken_length_1_5(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet length with value 1.
     """
@@ -4307,11 +4591,12 @@ def test_atomic_nmtoken_length_nistxml_sv_iv_atomic_nmtoken_length_1_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_min_length_4_nistxml_sv_iv_atomic_nmtoken_min_length_5_1(mode, save_output):
+def test_atomic_nmtoken_min_length_4_nistxml_sv_iv_atomic_nmtoken_min_length_5_1(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet minLength with value 64.
     """
@@ -4322,11 +4607,12 @@ def test_atomic_nmtoken_min_length_4_nistxml_sv_iv_atomic_nmtoken_min_length_5_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_min_length_4_nistxml_sv_iv_atomic_nmtoken_min_length_5_2(mode, save_output):
+def test_atomic_nmtoken_min_length_4_nistxml_sv_iv_atomic_nmtoken_min_length_5_2(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet minLength with value 64.
     """
@@ -4337,11 +4623,12 @@ def test_atomic_nmtoken_min_length_4_nistxml_sv_iv_atomic_nmtoken_min_length_5_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_min_length_4_nistxml_sv_iv_atomic_nmtoken_min_length_5_3(mode, save_output):
+def test_atomic_nmtoken_min_length_4_nistxml_sv_iv_atomic_nmtoken_min_length_5_3(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet minLength with value 64.
     """
@@ -4352,11 +4639,12 @@ def test_atomic_nmtoken_min_length_4_nistxml_sv_iv_atomic_nmtoken_min_length_5_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_min_length_4_nistxml_sv_iv_atomic_nmtoken_min_length_5_4(mode, save_output):
+def test_atomic_nmtoken_min_length_4_nistxml_sv_iv_atomic_nmtoken_min_length_5_4(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet minLength with value 64.
     """
@@ -4367,11 +4655,12 @@ def test_atomic_nmtoken_min_length_4_nistxml_sv_iv_atomic_nmtoken_min_length_5_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_min_length_4_nistxml_sv_iv_atomic_nmtoken_min_length_5_5(mode, save_output):
+def test_atomic_nmtoken_min_length_4_nistxml_sv_iv_atomic_nmtoken_min_length_5_5(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet minLength with value 64.
     """
@@ -4382,11 +4671,12 @@ def test_atomic_nmtoken_min_length_4_nistxml_sv_iv_atomic_nmtoken_min_length_5_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_min_length_3_nistxml_sv_iv_atomic_nmtoken_min_length_4_1(mode, save_output):
+def test_atomic_nmtoken_min_length_3_nistxml_sv_iv_atomic_nmtoken_min_length_4_1(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet minLength with value 33.
     """
@@ -4397,11 +4687,12 @@ def test_atomic_nmtoken_min_length_3_nistxml_sv_iv_atomic_nmtoken_min_length_4_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_min_length_3_nistxml_sv_iv_atomic_nmtoken_min_length_4_2(mode, save_output):
+def test_atomic_nmtoken_min_length_3_nistxml_sv_iv_atomic_nmtoken_min_length_4_2(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet minLength with value 33.
     """
@@ -4412,11 +4703,12 @@ def test_atomic_nmtoken_min_length_3_nistxml_sv_iv_atomic_nmtoken_min_length_4_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_min_length_3_nistxml_sv_iv_atomic_nmtoken_min_length_4_3(mode, save_output):
+def test_atomic_nmtoken_min_length_3_nistxml_sv_iv_atomic_nmtoken_min_length_4_3(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet minLength with value 33.
     """
@@ -4427,11 +4719,12 @@ def test_atomic_nmtoken_min_length_3_nistxml_sv_iv_atomic_nmtoken_min_length_4_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_min_length_3_nistxml_sv_iv_atomic_nmtoken_min_length_4_4(mode, save_output):
+def test_atomic_nmtoken_min_length_3_nistxml_sv_iv_atomic_nmtoken_min_length_4_4(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet minLength with value 33.
     """
@@ -4442,11 +4735,12 @@ def test_atomic_nmtoken_min_length_3_nistxml_sv_iv_atomic_nmtoken_min_length_4_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_min_length_3_nistxml_sv_iv_atomic_nmtoken_min_length_4_5(mode, save_output):
+def test_atomic_nmtoken_min_length_3_nistxml_sv_iv_atomic_nmtoken_min_length_4_5(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet minLength with value 33.
     """
@@ -4457,11 +4751,12 @@ def test_atomic_nmtoken_min_length_3_nistxml_sv_iv_atomic_nmtoken_min_length_4_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_min_length_2_nistxml_sv_iv_atomic_nmtoken_min_length_3_1(mode, save_output):
+def test_atomic_nmtoken_min_length_2_nistxml_sv_iv_atomic_nmtoken_min_length_3_1(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet minLength with value 35.
     """
@@ -4472,11 +4767,12 @@ def test_atomic_nmtoken_min_length_2_nistxml_sv_iv_atomic_nmtoken_min_length_3_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_min_length_2_nistxml_sv_iv_atomic_nmtoken_min_length_3_2(mode, save_output):
+def test_atomic_nmtoken_min_length_2_nistxml_sv_iv_atomic_nmtoken_min_length_3_2(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet minLength with value 35.
     """
@@ -4487,11 +4783,12 @@ def test_atomic_nmtoken_min_length_2_nistxml_sv_iv_atomic_nmtoken_min_length_3_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_min_length_2_nistxml_sv_iv_atomic_nmtoken_min_length_3_3(mode, save_output):
+def test_atomic_nmtoken_min_length_2_nistxml_sv_iv_atomic_nmtoken_min_length_3_3(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet minLength with value 35.
     """
@@ -4502,11 +4799,12 @@ def test_atomic_nmtoken_min_length_2_nistxml_sv_iv_atomic_nmtoken_min_length_3_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_min_length_2_nistxml_sv_iv_atomic_nmtoken_min_length_3_4(mode, save_output):
+def test_atomic_nmtoken_min_length_2_nistxml_sv_iv_atomic_nmtoken_min_length_3_4(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet minLength with value 35.
     """
@@ -4517,11 +4815,12 @@ def test_atomic_nmtoken_min_length_2_nistxml_sv_iv_atomic_nmtoken_min_length_3_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_min_length_2_nistxml_sv_iv_atomic_nmtoken_min_length_3_5(mode, save_output):
+def test_atomic_nmtoken_min_length_2_nistxml_sv_iv_atomic_nmtoken_min_length_3_5(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet minLength with value 35.
     """
@@ -4532,11 +4831,12 @@ def test_atomic_nmtoken_min_length_2_nistxml_sv_iv_atomic_nmtoken_min_length_3_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_min_length_1_nistxml_sv_iv_atomic_nmtoken_min_length_2_1(mode, save_output):
+def test_atomic_nmtoken_min_length_1_nistxml_sv_iv_atomic_nmtoken_min_length_2_1(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet minLength with value 45.
     """
@@ -4547,11 +4847,12 @@ def test_atomic_nmtoken_min_length_1_nistxml_sv_iv_atomic_nmtoken_min_length_2_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_min_length_1_nistxml_sv_iv_atomic_nmtoken_min_length_2_2(mode, save_output):
+def test_atomic_nmtoken_min_length_1_nistxml_sv_iv_atomic_nmtoken_min_length_2_2(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet minLength with value 45.
     """
@@ -4562,11 +4863,12 @@ def test_atomic_nmtoken_min_length_1_nistxml_sv_iv_atomic_nmtoken_min_length_2_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_min_length_1_nistxml_sv_iv_atomic_nmtoken_min_length_2_3(mode, save_output):
+def test_atomic_nmtoken_min_length_1_nistxml_sv_iv_atomic_nmtoken_min_length_2_3(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet minLength with value 45.
     """
@@ -4577,11 +4879,12 @@ def test_atomic_nmtoken_min_length_1_nistxml_sv_iv_atomic_nmtoken_min_length_2_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_min_length_1_nistxml_sv_iv_atomic_nmtoken_min_length_2_4(mode, save_output):
+def test_atomic_nmtoken_min_length_1_nistxml_sv_iv_atomic_nmtoken_min_length_2_4(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet minLength with value 45.
     """
@@ -4592,11 +4895,12 @@ def test_atomic_nmtoken_min_length_1_nistxml_sv_iv_atomic_nmtoken_min_length_2_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_min_length_1_nistxml_sv_iv_atomic_nmtoken_min_length_2_5(mode, save_output):
+def test_atomic_nmtoken_min_length_1_nistxml_sv_iv_atomic_nmtoken_min_length_2_5(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet minLength with value 45.
     """
@@ -4607,11 +4911,12 @@ def test_atomic_nmtoken_min_length_1_nistxml_sv_iv_atomic_nmtoken_min_length_2_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_min_length_nistxml_sv_iv_atomic_nmtoken_min_length_1_1(mode, save_output):
+def test_atomic_nmtoken_min_length_nistxml_sv_iv_atomic_nmtoken_min_length_1_1(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet minLength with value 1.
     """
@@ -4622,11 +4927,12 @@ def test_atomic_nmtoken_min_length_nistxml_sv_iv_atomic_nmtoken_min_length_1_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_min_length_nistxml_sv_iv_atomic_nmtoken_min_length_1_2(mode, save_output):
+def test_atomic_nmtoken_min_length_nistxml_sv_iv_atomic_nmtoken_min_length_1_2(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet minLength with value 1.
     """
@@ -4637,11 +4943,12 @@ def test_atomic_nmtoken_min_length_nistxml_sv_iv_atomic_nmtoken_min_length_1_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_min_length_nistxml_sv_iv_atomic_nmtoken_min_length_1_3(mode, save_output):
+def test_atomic_nmtoken_min_length_nistxml_sv_iv_atomic_nmtoken_min_length_1_3(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet minLength with value 1.
     """
@@ -4652,11 +4959,12 @@ def test_atomic_nmtoken_min_length_nistxml_sv_iv_atomic_nmtoken_min_length_1_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_min_length_nistxml_sv_iv_atomic_nmtoken_min_length_1_4(mode, save_output):
+def test_atomic_nmtoken_min_length_nistxml_sv_iv_atomic_nmtoken_min_length_1_4(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet minLength with value 1.
     """
@@ -4667,11 +4975,12 @@ def test_atomic_nmtoken_min_length_nistxml_sv_iv_atomic_nmtoken_min_length_1_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_min_length_nistxml_sv_iv_atomic_nmtoken_min_length_1_5(mode, save_output):
+def test_atomic_nmtoken_min_length_nistxml_sv_iv_atomic_nmtoken_min_length_1_5(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet minLength with value 1.
     """
@@ -4682,11 +4991,12 @@ def test_atomic_nmtoken_min_length_nistxml_sv_iv_atomic_nmtoken_min_length_1_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_max_length_4_nistxml_sv_iv_atomic_nmtoken_max_length_5_1(mode, save_output):
+def test_atomic_nmtoken_max_length_4_nistxml_sv_iv_atomic_nmtoken_max_length_5_1(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet maxLength with value 64.
     """
@@ -4697,11 +5007,12 @@ def test_atomic_nmtoken_max_length_4_nistxml_sv_iv_atomic_nmtoken_max_length_5_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_max_length_4_nistxml_sv_iv_atomic_nmtoken_max_length_5_2(mode, save_output):
+def test_atomic_nmtoken_max_length_4_nistxml_sv_iv_atomic_nmtoken_max_length_5_2(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet maxLength with value 64.
     """
@@ -4712,11 +5023,12 @@ def test_atomic_nmtoken_max_length_4_nistxml_sv_iv_atomic_nmtoken_max_length_5_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_max_length_4_nistxml_sv_iv_atomic_nmtoken_max_length_5_3(mode, save_output):
+def test_atomic_nmtoken_max_length_4_nistxml_sv_iv_atomic_nmtoken_max_length_5_3(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet maxLength with value 64.
     """
@@ -4727,11 +5039,12 @@ def test_atomic_nmtoken_max_length_4_nistxml_sv_iv_atomic_nmtoken_max_length_5_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_max_length_4_nistxml_sv_iv_atomic_nmtoken_max_length_5_4(mode, save_output):
+def test_atomic_nmtoken_max_length_4_nistxml_sv_iv_atomic_nmtoken_max_length_5_4(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet maxLength with value 64.
     """
@@ -4742,11 +5055,12 @@ def test_atomic_nmtoken_max_length_4_nistxml_sv_iv_atomic_nmtoken_max_length_5_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_max_length_4_nistxml_sv_iv_atomic_nmtoken_max_length_5_5(mode, save_output):
+def test_atomic_nmtoken_max_length_4_nistxml_sv_iv_atomic_nmtoken_max_length_5_5(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet maxLength with value 64.
     """
@@ -4757,11 +5071,12 @@ def test_atomic_nmtoken_max_length_4_nistxml_sv_iv_atomic_nmtoken_max_length_5_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_max_length_3_nistxml_sv_iv_atomic_nmtoken_max_length_4_1(mode, save_output):
+def test_atomic_nmtoken_max_length_3_nistxml_sv_iv_atomic_nmtoken_max_length_4_1(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet maxLength with value 54.
     """
@@ -4772,11 +5087,12 @@ def test_atomic_nmtoken_max_length_3_nistxml_sv_iv_atomic_nmtoken_max_length_4_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_max_length_3_nistxml_sv_iv_atomic_nmtoken_max_length_4_2(mode, save_output):
+def test_atomic_nmtoken_max_length_3_nistxml_sv_iv_atomic_nmtoken_max_length_4_2(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet maxLength with value 54.
     """
@@ -4787,11 +5103,12 @@ def test_atomic_nmtoken_max_length_3_nistxml_sv_iv_atomic_nmtoken_max_length_4_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_max_length_3_nistxml_sv_iv_atomic_nmtoken_max_length_4_3(mode, save_output):
+def test_atomic_nmtoken_max_length_3_nistxml_sv_iv_atomic_nmtoken_max_length_4_3(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet maxLength with value 54.
     """
@@ -4802,11 +5119,12 @@ def test_atomic_nmtoken_max_length_3_nistxml_sv_iv_atomic_nmtoken_max_length_4_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_max_length_3_nistxml_sv_iv_atomic_nmtoken_max_length_4_4(mode, save_output):
+def test_atomic_nmtoken_max_length_3_nistxml_sv_iv_atomic_nmtoken_max_length_4_4(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet maxLength with value 54.
     """
@@ -4817,11 +5135,12 @@ def test_atomic_nmtoken_max_length_3_nistxml_sv_iv_atomic_nmtoken_max_length_4_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_max_length_3_nistxml_sv_iv_atomic_nmtoken_max_length_4_5(mode, save_output):
+def test_atomic_nmtoken_max_length_3_nistxml_sv_iv_atomic_nmtoken_max_length_4_5(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet maxLength with value 54.
     """
@@ -4832,11 +5151,12 @@ def test_atomic_nmtoken_max_length_3_nistxml_sv_iv_atomic_nmtoken_max_length_4_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_max_length_2_nistxml_sv_iv_atomic_nmtoken_max_length_3_1(mode, save_output):
+def test_atomic_nmtoken_max_length_2_nistxml_sv_iv_atomic_nmtoken_max_length_3_1(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet maxLength with value 42.
     """
@@ -4847,11 +5167,12 @@ def test_atomic_nmtoken_max_length_2_nistxml_sv_iv_atomic_nmtoken_max_length_3_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_max_length_2_nistxml_sv_iv_atomic_nmtoken_max_length_3_2(mode, save_output):
+def test_atomic_nmtoken_max_length_2_nistxml_sv_iv_atomic_nmtoken_max_length_3_2(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet maxLength with value 42.
     """
@@ -4862,11 +5183,12 @@ def test_atomic_nmtoken_max_length_2_nistxml_sv_iv_atomic_nmtoken_max_length_3_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_max_length_2_nistxml_sv_iv_atomic_nmtoken_max_length_3_3(mode, save_output):
+def test_atomic_nmtoken_max_length_2_nistxml_sv_iv_atomic_nmtoken_max_length_3_3(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet maxLength with value 42.
     """
@@ -4877,11 +5199,12 @@ def test_atomic_nmtoken_max_length_2_nistxml_sv_iv_atomic_nmtoken_max_length_3_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_max_length_2_nistxml_sv_iv_atomic_nmtoken_max_length_3_4(mode, save_output):
+def test_atomic_nmtoken_max_length_2_nistxml_sv_iv_atomic_nmtoken_max_length_3_4(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet maxLength with value 42.
     """
@@ -4892,11 +5215,12 @@ def test_atomic_nmtoken_max_length_2_nistxml_sv_iv_atomic_nmtoken_max_length_3_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_max_length_2_nistxml_sv_iv_atomic_nmtoken_max_length_3_5(mode, save_output):
+def test_atomic_nmtoken_max_length_2_nistxml_sv_iv_atomic_nmtoken_max_length_3_5(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet maxLength with value 42.
     """
@@ -4907,11 +5231,12 @@ def test_atomic_nmtoken_max_length_2_nistxml_sv_iv_atomic_nmtoken_max_length_3_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_max_length_1_nistxml_sv_iv_atomic_nmtoken_max_length_2_1(mode, save_output):
+def test_atomic_nmtoken_max_length_1_nistxml_sv_iv_atomic_nmtoken_max_length_2_1(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet maxLength with value 41.
     """
@@ -4922,11 +5247,12 @@ def test_atomic_nmtoken_max_length_1_nistxml_sv_iv_atomic_nmtoken_max_length_2_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_max_length_1_nistxml_sv_iv_atomic_nmtoken_max_length_2_2(mode, save_output):
+def test_atomic_nmtoken_max_length_1_nistxml_sv_iv_atomic_nmtoken_max_length_2_2(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet maxLength with value 41.
     """
@@ -4937,11 +5263,12 @@ def test_atomic_nmtoken_max_length_1_nistxml_sv_iv_atomic_nmtoken_max_length_2_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_max_length_1_nistxml_sv_iv_atomic_nmtoken_max_length_2_3(mode, save_output):
+def test_atomic_nmtoken_max_length_1_nistxml_sv_iv_atomic_nmtoken_max_length_2_3(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet maxLength with value 41.
     """
@@ -4952,11 +5279,12 @@ def test_atomic_nmtoken_max_length_1_nistxml_sv_iv_atomic_nmtoken_max_length_2_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_max_length_1_nistxml_sv_iv_atomic_nmtoken_max_length_2_4(mode, save_output):
+def test_atomic_nmtoken_max_length_1_nistxml_sv_iv_atomic_nmtoken_max_length_2_4(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet maxLength with value 41.
     """
@@ -4967,11 +5295,12 @@ def test_atomic_nmtoken_max_length_1_nistxml_sv_iv_atomic_nmtoken_max_length_2_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_max_length_1_nistxml_sv_iv_atomic_nmtoken_max_length_2_5(mode, save_output):
+def test_atomic_nmtoken_max_length_1_nistxml_sv_iv_atomic_nmtoken_max_length_2_5(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet maxLength with value 41.
     """
@@ -4982,11 +5311,12 @@ def test_atomic_nmtoken_max_length_1_nistxml_sv_iv_atomic_nmtoken_max_length_2_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_max_length_nistxml_sv_iv_atomic_nmtoken_max_length_1_1(mode, save_output):
+def test_atomic_nmtoken_max_length_nistxml_sv_iv_atomic_nmtoken_max_length_1_1(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet maxLength with value 1.
     """
@@ -4997,11 +5327,12 @@ def test_atomic_nmtoken_max_length_nistxml_sv_iv_atomic_nmtoken_max_length_1_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_max_length_nistxml_sv_iv_atomic_nmtoken_max_length_1_2(mode, save_output):
+def test_atomic_nmtoken_max_length_nistxml_sv_iv_atomic_nmtoken_max_length_1_2(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet maxLength with value 1.
     """
@@ -5012,11 +5343,12 @@ def test_atomic_nmtoken_max_length_nistxml_sv_iv_atomic_nmtoken_max_length_1_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_max_length_nistxml_sv_iv_atomic_nmtoken_max_length_1_3(mode, save_output):
+def test_atomic_nmtoken_max_length_nistxml_sv_iv_atomic_nmtoken_max_length_1_3(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet maxLength with value 1.
     """
@@ -5027,11 +5359,12 @@ def test_atomic_nmtoken_max_length_nistxml_sv_iv_atomic_nmtoken_max_length_1_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_max_length_nistxml_sv_iv_atomic_nmtoken_max_length_1_4(mode, save_output):
+def test_atomic_nmtoken_max_length_nistxml_sv_iv_atomic_nmtoken_max_length_1_4(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet maxLength with value 1.
     """
@@ -5042,11 +5375,12 @@ def test_atomic_nmtoken_max_length_nistxml_sv_iv_atomic_nmtoken_max_length_1_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_nmtoken_max_length_nistxml_sv_iv_atomic_nmtoken_max_length_1_5(mode, save_output):
+def test_atomic_nmtoken_max_length_nistxml_sv_iv_atomic_nmtoken_max_length_1_5(mode, save_output, output_format):
     """
     Type atomic/NMTOKEN is restricted by facet maxLength with value 1.
     """
@@ -5057,11 +5391,12 @@ def test_atomic_nmtoken_max_length_nistxml_sv_iv_atomic_nmtoken_max_length_1_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_white_space_nistxml_sv_iv_atomic_name_white_space_1_1(mode, save_output):
+def test_atomic_name_white_space_nistxml_sv_iv_atomic_name_white_space_1_1(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet whiteSpace with value
     collapse.
@@ -5073,11 +5408,12 @@ def test_atomic_name_white_space_nistxml_sv_iv_atomic_name_white_space_1_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_white_space_nistxml_sv_iv_atomic_name_white_space_1_2(mode, save_output):
+def test_atomic_name_white_space_nistxml_sv_iv_atomic_name_white_space_1_2(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet whiteSpace with value
     collapse.
@@ -5089,11 +5425,12 @@ def test_atomic_name_white_space_nistxml_sv_iv_atomic_name_white_space_1_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_white_space_nistxml_sv_iv_atomic_name_white_space_1_3(mode, save_output):
+def test_atomic_name_white_space_nistxml_sv_iv_atomic_name_white_space_1_3(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet whiteSpace with value
     collapse.
@@ -5105,11 +5442,12 @@ def test_atomic_name_white_space_nistxml_sv_iv_atomic_name_white_space_1_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_white_space_nistxml_sv_iv_atomic_name_white_space_1_4(mode, save_output):
+def test_atomic_name_white_space_nistxml_sv_iv_atomic_name_white_space_1_4(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet whiteSpace with value
     collapse.
@@ -5121,11 +5459,12 @@ def test_atomic_name_white_space_nistxml_sv_iv_atomic_name_white_space_1_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_white_space_nistxml_sv_iv_atomic_name_white_space_1_5(mode, save_output):
+def test_atomic_name_white_space_nistxml_sv_iv_atomic_name_white_space_1_5(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet whiteSpace with value
     collapse.
@@ -5137,11 +5476,12 @@ def test_atomic_name_white_space_nistxml_sv_iv_atomic_name_white_space_1_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_enumeration_4_nistxml_sv_iv_atomic_name_enumeration_5_1(mode, save_output):
+def test_atomic_name_enumeration_4_nistxml_sv_iv_atomic_name_enumeration_5_1(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet enumeration.
     """
@@ -5152,11 +5492,12 @@ def test_atomic_name_enumeration_4_nistxml_sv_iv_atomic_name_enumeration_5_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_enumeration_4_nistxml_sv_iv_atomic_name_enumeration_5_2(mode, save_output):
+def test_atomic_name_enumeration_4_nistxml_sv_iv_atomic_name_enumeration_5_2(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet enumeration.
     """
@@ -5167,11 +5508,12 @@ def test_atomic_name_enumeration_4_nistxml_sv_iv_atomic_name_enumeration_5_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_enumeration_4_nistxml_sv_iv_atomic_name_enumeration_5_3(mode, save_output):
+def test_atomic_name_enumeration_4_nistxml_sv_iv_atomic_name_enumeration_5_3(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet enumeration.
     """
@@ -5182,11 +5524,12 @@ def test_atomic_name_enumeration_4_nistxml_sv_iv_atomic_name_enumeration_5_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_enumeration_4_nistxml_sv_iv_atomic_name_enumeration_5_4(mode, save_output):
+def test_atomic_name_enumeration_4_nistxml_sv_iv_atomic_name_enumeration_5_4(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet enumeration.
     """
@@ -5197,11 +5540,12 @@ def test_atomic_name_enumeration_4_nistxml_sv_iv_atomic_name_enumeration_5_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_enumeration_4_nistxml_sv_iv_atomic_name_enumeration_5_5(mode, save_output):
+def test_atomic_name_enumeration_4_nistxml_sv_iv_atomic_name_enumeration_5_5(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet enumeration.
     """
@@ -5212,11 +5556,12 @@ def test_atomic_name_enumeration_4_nistxml_sv_iv_atomic_name_enumeration_5_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_enumeration_3_nistxml_sv_iv_atomic_name_enumeration_4_1(mode, save_output):
+def test_atomic_name_enumeration_3_nistxml_sv_iv_atomic_name_enumeration_4_1(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet enumeration.
     """
@@ -5227,11 +5572,12 @@ def test_atomic_name_enumeration_3_nistxml_sv_iv_atomic_name_enumeration_4_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_enumeration_3_nistxml_sv_iv_atomic_name_enumeration_4_2(mode, save_output):
+def test_atomic_name_enumeration_3_nistxml_sv_iv_atomic_name_enumeration_4_2(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet enumeration.
     """
@@ -5242,11 +5588,12 @@ def test_atomic_name_enumeration_3_nistxml_sv_iv_atomic_name_enumeration_4_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_enumeration_3_nistxml_sv_iv_atomic_name_enumeration_4_3(mode, save_output):
+def test_atomic_name_enumeration_3_nistxml_sv_iv_atomic_name_enumeration_4_3(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet enumeration.
     """
@@ -5257,11 +5604,12 @@ def test_atomic_name_enumeration_3_nistxml_sv_iv_atomic_name_enumeration_4_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_enumeration_3_nistxml_sv_iv_atomic_name_enumeration_4_4(mode, save_output):
+def test_atomic_name_enumeration_3_nistxml_sv_iv_atomic_name_enumeration_4_4(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet enumeration.
     """
@@ -5272,11 +5620,12 @@ def test_atomic_name_enumeration_3_nistxml_sv_iv_atomic_name_enumeration_4_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_enumeration_3_nistxml_sv_iv_atomic_name_enumeration_4_5(mode, save_output):
+def test_atomic_name_enumeration_3_nistxml_sv_iv_atomic_name_enumeration_4_5(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet enumeration.
     """
@@ -5287,11 +5636,12 @@ def test_atomic_name_enumeration_3_nistxml_sv_iv_atomic_name_enumeration_4_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_enumeration_2_nistxml_sv_iv_atomic_name_enumeration_3_1(mode, save_output):
+def test_atomic_name_enumeration_2_nistxml_sv_iv_atomic_name_enumeration_3_1(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet enumeration.
     """
@@ -5302,11 +5652,12 @@ def test_atomic_name_enumeration_2_nistxml_sv_iv_atomic_name_enumeration_3_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_enumeration_2_nistxml_sv_iv_atomic_name_enumeration_3_2(mode, save_output):
+def test_atomic_name_enumeration_2_nistxml_sv_iv_atomic_name_enumeration_3_2(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet enumeration.
     """
@@ -5317,11 +5668,12 @@ def test_atomic_name_enumeration_2_nistxml_sv_iv_atomic_name_enumeration_3_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_enumeration_2_nistxml_sv_iv_atomic_name_enumeration_3_3(mode, save_output):
+def test_atomic_name_enumeration_2_nistxml_sv_iv_atomic_name_enumeration_3_3(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet enumeration.
     """
@@ -5332,11 +5684,12 @@ def test_atomic_name_enumeration_2_nistxml_sv_iv_atomic_name_enumeration_3_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_enumeration_2_nistxml_sv_iv_atomic_name_enumeration_3_4(mode, save_output):
+def test_atomic_name_enumeration_2_nistxml_sv_iv_atomic_name_enumeration_3_4(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet enumeration.
     """
@@ -5347,11 +5700,12 @@ def test_atomic_name_enumeration_2_nistxml_sv_iv_atomic_name_enumeration_3_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_enumeration_2_nistxml_sv_iv_atomic_name_enumeration_3_5(mode, save_output):
+def test_atomic_name_enumeration_2_nistxml_sv_iv_atomic_name_enumeration_3_5(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet enumeration.
     """
@@ -5362,11 +5716,12 @@ def test_atomic_name_enumeration_2_nistxml_sv_iv_atomic_name_enumeration_3_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_enumeration_1_nistxml_sv_iv_atomic_name_enumeration_2_1(mode, save_output):
+def test_atomic_name_enumeration_1_nistxml_sv_iv_atomic_name_enumeration_2_1(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet enumeration.
     """
@@ -5377,11 +5732,12 @@ def test_atomic_name_enumeration_1_nistxml_sv_iv_atomic_name_enumeration_2_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_enumeration_1_nistxml_sv_iv_atomic_name_enumeration_2_2(mode, save_output):
+def test_atomic_name_enumeration_1_nistxml_sv_iv_atomic_name_enumeration_2_2(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet enumeration.
     """
@@ -5392,11 +5748,12 @@ def test_atomic_name_enumeration_1_nistxml_sv_iv_atomic_name_enumeration_2_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_enumeration_1_nistxml_sv_iv_atomic_name_enumeration_2_3(mode, save_output):
+def test_atomic_name_enumeration_1_nistxml_sv_iv_atomic_name_enumeration_2_3(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet enumeration.
     """
@@ -5407,11 +5764,12 @@ def test_atomic_name_enumeration_1_nistxml_sv_iv_atomic_name_enumeration_2_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_enumeration_1_nistxml_sv_iv_atomic_name_enumeration_2_4(mode, save_output):
+def test_atomic_name_enumeration_1_nistxml_sv_iv_atomic_name_enumeration_2_4(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet enumeration.
     """
@@ -5422,11 +5780,12 @@ def test_atomic_name_enumeration_1_nistxml_sv_iv_atomic_name_enumeration_2_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_enumeration_1_nistxml_sv_iv_atomic_name_enumeration_2_5(mode, save_output):
+def test_atomic_name_enumeration_1_nistxml_sv_iv_atomic_name_enumeration_2_5(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet enumeration.
     """
@@ -5437,11 +5796,12 @@ def test_atomic_name_enumeration_1_nistxml_sv_iv_atomic_name_enumeration_2_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_enumeration_nistxml_sv_iv_atomic_name_enumeration_1_1(mode, save_output):
+def test_atomic_name_enumeration_nistxml_sv_iv_atomic_name_enumeration_1_1(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet enumeration.
     """
@@ -5452,11 +5812,12 @@ def test_atomic_name_enumeration_nistxml_sv_iv_atomic_name_enumeration_1_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_enumeration_nistxml_sv_iv_atomic_name_enumeration_1_2(mode, save_output):
+def test_atomic_name_enumeration_nistxml_sv_iv_atomic_name_enumeration_1_2(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet enumeration.
     """
@@ -5467,11 +5828,12 @@ def test_atomic_name_enumeration_nistxml_sv_iv_atomic_name_enumeration_1_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_enumeration_nistxml_sv_iv_atomic_name_enumeration_1_3(mode, save_output):
+def test_atomic_name_enumeration_nistxml_sv_iv_atomic_name_enumeration_1_3(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet enumeration.
     """
@@ -5482,11 +5844,12 @@ def test_atomic_name_enumeration_nistxml_sv_iv_atomic_name_enumeration_1_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_enumeration_nistxml_sv_iv_atomic_name_enumeration_1_4(mode, save_output):
+def test_atomic_name_enumeration_nistxml_sv_iv_atomic_name_enumeration_1_4(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet enumeration.
     """
@@ -5497,11 +5860,12 @@ def test_atomic_name_enumeration_nistxml_sv_iv_atomic_name_enumeration_1_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_enumeration_nistxml_sv_iv_atomic_name_enumeration_1_5(mode, save_output):
+def test_atomic_name_enumeration_nistxml_sv_iv_atomic_name_enumeration_1_5(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet enumeration.
     """
@@ -5512,11 +5876,12 @@ def test_atomic_name_enumeration_nistxml_sv_iv_atomic_name_enumeration_1_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_pattern_4_nistxml_sv_iv_atomic_name_pattern_5_1(mode, save_output):
+def test_atomic_name_pattern_4_nistxml_sv_iv_atomic_name_pattern_5_1(mode, save_output, output_format):
     r"""
     Type atomic/Name is restricted by facet pattern with value \i\c{31}.
     """
@@ -5527,11 +5892,12 @@ def test_atomic_name_pattern_4_nistxml_sv_iv_atomic_name_pattern_5_1(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_pattern_4_nistxml_sv_iv_atomic_name_pattern_5_2(mode, save_output):
+def test_atomic_name_pattern_4_nistxml_sv_iv_atomic_name_pattern_5_2(mode, save_output, output_format):
     r"""
     Type atomic/Name is restricted by facet pattern with value \i\c{31}.
     """
@@ -5542,11 +5908,12 @@ def test_atomic_name_pattern_4_nistxml_sv_iv_atomic_name_pattern_5_2(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_pattern_4_nistxml_sv_iv_atomic_name_pattern_5_3(mode, save_output):
+def test_atomic_name_pattern_4_nistxml_sv_iv_atomic_name_pattern_5_3(mode, save_output, output_format):
     r"""
     Type atomic/Name is restricted by facet pattern with value \i\c{31}.
     """
@@ -5557,11 +5924,12 @@ def test_atomic_name_pattern_4_nistxml_sv_iv_atomic_name_pattern_5_3(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_pattern_4_nistxml_sv_iv_atomic_name_pattern_5_4(mode, save_output):
+def test_atomic_name_pattern_4_nistxml_sv_iv_atomic_name_pattern_5_4(mode, save_output, output_format):
     r"""
     Type atomic/Name is restricted by facet pattern with value \i\c{31}.
     """
@@ -5572,11 +5940,12 @@ def test_atomic_name_pattern_4_nistxml_sv_iv_atomic_name_pattern_5_4(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_pattern_4_nistxml_sv_iv_atomic_name_pattern_5_5(mode, save_output):
+def test_atomic_name_pattern_4_nistxml_sv_iv_atomic_name_pattern_5_5(mode, save_output, output_format):
     r"""
     Type atomic/Name is restricted by facet pattern with value \i\c{31}.
     """
@@ -5587,11 +5956,12 @@ def test_atomic_name_pattern_4_nistxml_sv_iv_atomic_name_pattern_5_5(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_pattern_3_nistxml_sv_iv_atomic_name_pattern_4_1(mode, save_output):
+def test_atomic_name_pattern_3_nistxml_sv_iv_atomic_name_pattern_4_1(mode, save_output, output_format):
     r"""
     Type atomic/Name is restricted by facet pattern with value \i\c{14}.
     """
@@ -5602,11 +5972,12 @@ def test_atomic_name_pattern_3_nistxml_sv_iv_atomic_name_pattern_4_1(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_pattern_3_nistxml_sv_iv_atomic_name_pattern_4_2(mode, save_output):
+def test_atomic_name_pattern_3_nistxml_sv_iv_atomic_name_pattern_4_2(mode, save_output, output_format):
     r"""
     Type atomic/Name is restricted by facet pattern with value \i\c{14}.
     """
@@ -5617,11 +5988,12 @@ def test_atomic_name_pattern_3_nistxml_sv_iv_atomic_name_pattern_4_2(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_pattern_3_nistxml_sv_iv_atomic_name_pattern_4_3(mode, save_output):
+def test_atomic_name_pattern_3_nistxml_sv_iv_atomic_name_pattern_4_3(mode, save_output, output_format):
     r"""
     Type atomic/Name is restricted by facet pattern with value \i\c{14}.
     """
@@ -5632,11 +6004,12 @@ def test_atomic_name_pattern_3_nistxml_sv_iv_atomic_name_pattern_4_3(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_pattern_3_nistxml_sv_iv_atomic_name_pattern_4_4(mode, save_output):
+def test_atomic_name_pattern_3_nistxml_sv_iv_atomic_name_pattern_4_4(mode, save_output, output_format):
     r"""
     Type atomic/Name is restricted by facet pattern with value \i\c{14}.
     """
@@ -5647,11 +6020,12 @@ def test_atomic_name_pattern_3_nistxml_sv_iv_atomic_name_pattern_4_4(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_pattern_3_nistxml_sv_iv_atomic_name_pattern_4_5(mode, save_output):
+def test_atomic_name_pattern_3_nistxml_sv_iv_atomic_name_pattern_4_5(mode, save_output, output_format):
     r"""
     Type atomic/Name is restricted by facet pattern with value \i\c{14}.
     """
@@ -5662,11 +6036,12 @@ def test_atomic_name_pattern_3_nistxml_sv_iv_atomic_name_pattern_4_5(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_pattern_2_nistxml_sv_iv_atomic_name_pattern_3_1(mode, save_output):
+def test_atomic_name_pattern_2_nistxml_sv_iv_atomic_name_pattern_3_1(mode, save_output, output_format):
     r"""
     Type atomic/Name is restricted by facet pattern with value \i\c{32}.
     """
@@ -5677,11 +6052,12 @@ def test_atomic_name_pattern_2_nistxml_sv_iv_atomic_name_pattern_3_1(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_pattern_2_nistxml_sv_iv_atomic_name_pattern_3_2(mode, save_output):
+def test_atomic_name_pattern_2_nistxml_sv_iv_atomic_name_pattern_3_2(mode, save_output, output_format):
     r"""
     Type atomic/Name is restricted by facet pattern with value \i\c{32}.
     """
@@ -5692,11 +6068,12 @@ def test_atomic_name_pattern_2_nistxml_sv_iv_atomic_name_pattern_3_2(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_pattern_2_nistxml_sv_iv_atomic_name_pattern_3_3(mode, save_output):
+def test_atomic_name_pattern_2_nistxml_sv_iv_atomic_name_pattern_3_3(mode, save_output, output_format):
     r"""
     Type atomic/Name is restricted by facet pattern with value \i\c{32}.
     """
@@ -5707,11 +6084,12 @@ def test_atomic_name_pattern_2_nistxml_sv_iv_atomic_name_pattern_3_3(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_pattern_2_nistxml_sv_iv_atomic_name_pattern_3_4(mode, save_output):
+def test_atomic_name_pattern_2_nistxml_sv_iv_atomic_name_pattern_3_4(mode, save_output, output_format):
     r"""
     Type atomic/Name is restricted by facet pattern with value \i\c{32}.
     """
@@ -5722,11 +6100,12 @@ def test_atomic_name_pattern_2_nistxml_sv_iv_atomic_name_pattern_3_4(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_pattern_2_nistxml_sv_iv_atomic_name_pattern_3_5(mode, save_output):
+def test_atomic_name_pattern_2_nistxml_sv_iv_atomic_name_pattern_3_5(mode, save_output, output_format):
     r"""
     Type atomic/Name is restricted by facet pattern with value \i\c{32}.
     """
@@ -5737,11 +6116,12 @@ def test_atomic_name_pattern_2_nistxml_sv_iv_atomic_name_pattern_3_5(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_pattern_1_nistxml_sv_iv_atomic_name_pattern_2_1(mode, save_output):
+def test_atomic_name_pattern_1_nistxml_sv_iv_atomic_name_pattern_2_1(mode, save_output, output_format):
     r"""
     Type atomic/Name is restricted by facet pattern with value \i\c{52}.
     """
@@ -5752,11 +6132,12 @@ def test_atomic_name_pattern_1_nistxml_sv_iv_atomic_name_pattern_2_1(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_pattern_1_nistxml_sv_iv_atomic_name_pattern_2_2(mode, save_output):
+def test_atomic_name_pattern_1_nistxml_sv_iv_atomic_name_pattern_2_2(mode, save_output, output_format):
     r"""
     Type atomic/Name is restricted by facet pattern with value \i\c{52}.
     """
@@ -5767,11 +6148,12 @@ def test_atomic_name_pattern_1_nistxml_sv_iv_atomic_name_pattern_2_2(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_pattern_1_nistxml_sv_iv_atomic_name_pattern_2_3(mode, save_output):
+def test_atomic_name_pattern_1_nistxml_sv_iv_atomic_name_pattern_2_3(mode, save_output, output_format):
     r"""
     Type atomic/Name is restricted by facet pattern with value \i\c{52}.
     """
@@ -5782,11 +6164,12 @@ def test_atomic_name_pattern_1_nistxml_sv_iv_atomic_name_pattern_2_3(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_pattern_1_nistxml_sv_iv_atomic_name_pattern_2_4(mode, save_output):
+def test_atomic_name_pattern_1_nistxml_sv_iv_atomic_name_pattern_2_4(mode, save_output, output_format):
     r"""
     Type atomic/Name is restricted by facet pattern with value \i\c{52}.
     """
@@ -5797,11 +6180,12 @@ def test_atomic_name_pattern_1_nistxml_sv_iv_atomic_name_pattern_2_4(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_pattern_1_nistxml_sv_iv_atomic_name_pattern_2_5(mode, save_output):
+def test_atomic_name_pattern_1_nistxml_sv_iv_atomic_name_pattern_2_5(mode, save_output, output_format):
     r"""
     Type atomic/Name is restricted by facet pattern with value \i\c{52}.
     """
@@ -5812,11 +6196,12 @@ def test_atomic_name_pattern_1_nistxml_sv_iv_atomic_name_pattern_2_5(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_pattern_nistxml_sv_iv_atomic_name_pattern_1_1(mode, save_output):
+def test_atomic_name_pattern_nistxml_sv_iv_atomic_name_pattern_1_1(mode, save_output, output_format):
     r"""
     Type atomic/Name is restricted by facet pattern with value \i\c{45}.
     """
@@ -5827,11 +6212,12 @@ def test_atomic_name_pattern_nistxml_sv_iv_atomic_name_pattern_1_1(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_pattern_nistxml_sv_iv_atomic_name_pattern_1_2(mode, save_output):
+def test_atomic_name_pattern_nistxml_sv_iv_atomic_name_pattern_1_2(mode, save_output, output_format):
     r"""
     Type atomic/Name is restricted by facet pattern with value \i\c{45}.
     """
@@ -5842,11 +6228,12 @@ def test_atomic_name_pattern_nistxml_sv_iv_atomic_name_pattern_1_2(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_pattern_nistxml_sv_iv_atomic_name_pattern_1_3(mode, save_output):
+def test_atomic_name_pattern_nistxml_sv_iv_atomic_name_pattern_1_3(mode, save_output, output_format):
     r"""
     Type atomic/Name is restricted by facet pattern with value \i\c{45}.
     """
@@ -5857,11 +6244,12 @@ def test_atomic_name_pattern_nistxml_sv_iv_atomic_name_pattern_1_3(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_pattern_nistxml_sv_iv_atomic_name_pattern_1_4(mode, save_output):
+def test_atomic_name_pattern_nistxml_sv_iv_atomic_name_pattern_1_4(mode, save_output, output_format):
     r"""
     Type atomic/Name is restricted by facet pattern with value \i\c{45}.
     """
@@ -5872,11 +6260,12 @@ def test_atomic_name_pattern_nistxml_sv_iv_atomic_name_pattern_1_4(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_pattern_nistxml_sv_iv_atomic_name_pattern_1_5(mode, save_output):
+def test_atomic_name_pattern_nistxml_sv_iv_atomic_name_pattern_1_5(mode, save_output, output_format):
     r"""
     Type atomic/Name is restricted by facet pattern with value \i\c{45}.
     """
@@ -5887,11 +6276,12 @@ def test_atomic_name_pattern_nistxml_sv_iv_atomic_name_pattern_1_5(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_length_4_nistxml_sv_iv_atomic_name_length_5_1(mode, save_output):
+def test_atomic_name_length_4_nistxml_sv_iv_atomic_name_length_5_1(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet length with value 64.
     """
@@ -5902,11 +6292,12 @@ def test_atomic_name_length_4_nistxml_sv_iv_atomic_name_length_5_1(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_length_4_nistxml_sv_iv_atomic_name_length_5_2(mode, save_output):
+def test_atomic_name_length_4_nistxml_sv_iv_atomic_name_length_5_2(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet length with value 64.
     """
@@ -5917,11 +6308,12 @@ def test_atomic_name_length_4_nistxml_sv_iv_atomic_name_length_5_2(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_length_4_nistxml_sv_iv_atomic_name_length_5_3(mode, save_output):
+def test_atomic_name_length_4_nistxml_sv_iv_atomic_name_length_5_3(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet length with value 64.
     """
@@ -5932,11 +6324,12 @@ def test_atomic_name_length_4_nistxml_sv_iv_atomic_name_length_5_3(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_length_4_nistxml_sv_iv_atomic_name_length_5_4(mode, save_output):
+def test_atomic_name_length_4_nistxml_sv_iv_atomic_name_length_5_4(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet length with value 64.
     """
@@ -5947,11 +6340,12 @@ def test_atomic_name_length_4_nistxml_sv_iv_atomic_name_length_5_4(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_length_4_nistxml_sv_iv_atomic_name_length_5_5(mode, save_output):
+def test_atomic_name_length_4_nistxml_sv_iv_atomic_name_length_5_5(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet length with value 64.
     """
@@ -5962,11 +6356,12 @@ def test_atomic_name_length_4_nistxml_sv_iv_atomic_name_length_5_5(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_length_3_nistxml_sv_iv_atomic_name_length_4_1(mode, save_output):
+def test_atomic_name_length_3_nistxml_sv_iv_atomic_name_length_4_1(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet length with value 6.
     """
@@ -5977,11 +6372,12 @@ def test_atomic_name_length_3_nistxml_sv_iv_atomic_name_length_4_1(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_length_3_nistxml_sv_iv_atomic_name_length_4_2(mode, save_output):
+def test_atomic_name_length_3_nistxml_sv_iv_atomic_name_length_4_2(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet length with value 6.
     """
@@ -5992,11 +6388,12 @@ def test_atomic_name_length_3_nistxml_sv_iv_atomic_name_length_4_2(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_length_3_nistxml_sv_iv_atomic_name_length_4_3(mode, save_output):
+def test_atomic_name_length_3_nistxml_sv_iv_atomic_name_length_4_3(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet length with value 6.
     """
@@ -6007,11 +6404,12 @@ def test_atomic_name_length_3_nistxml_sv_iv_atomic_name_length_4_3(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_length_3_nistxml_sv_iv_atomic_name_length_4_4(mode, save_output):
+def test_atomic_name_length_3_nistxml_sv_iv_atomic_name_length_4_4(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet length with value 6.
     """
@@ -6022,11 +6420,12 @@ def test_atomic_name_length_3_nistxml_sv_iv_atomic_name_length_4_4(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_length_3_nistxml_sv_iv_atomic_name_length_4_5(mode, save_output):
+def test_atomic_name_length_3_nistxml_sv_iv_atomic_name_length_4_5(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet length with value 6.
     """
@@ -6037,11 +6436,12 @@ def test_atomic_name_length_3_nistxml_sv_iv_atomic_name_length_4_5(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_length_2_nistxml_sv_iv_atomic_name_length_3_1(mode, save_output):
+def test_atomic_name_length_2_nistxml_sv_iv_atomic_name_length_3_1(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet length with value 60.
     """
@@ -6052,11 +6452,12 @@ def test_atomic_name_length_2_nistxml_sv_iv_atomic_name_length_3_1(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_length_2_nistxml_sv_iv_atomic_name_length_3_2(mode, save_output):
+def test_atomic_name_length_2_nistxml_sv_iv_atomic_name_length_3_2(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet length with value 60.
     """
@@ -6067,11 +6468,12 @@ def test_atomic_name_length_2_nistxml_sv_iv_atomic_name_length_3_2(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_length_2_nistxml_sv_iv_atomic_name_length_3_3(mode, save_output):
+def test_atomic_name_length_2_nistxml_sv_iv_atomic_name_length_3_3(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet length with value 60.
     """
@@ -6082,11 +6484,12 @@ def test_atomic_name_length_2_nistxml_sv_iv_atomic_name_length_3_3(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_length_2_nistxml_sv_iv_atomic_name_length_3_4(mode, save_output):
+def test_atomic_name_length_2_nistxml_sv_iv_atomic_name_length_3_4(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet length with value 60.
     """
@@ -6097,11 +6500,12 @@ def test_atomic_name_length_2_nistxml_sv_iv_atomic_name_length_3_4(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_length_2_nistxml_sv_iv_atomic_name_length_3_5(mode, save_output):
+def test_atomic_name_length_2_nistxml_sv_iv_atomic_name_length_3_5(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet length with value 60.
     """
@@ -6112,11 +6516,12 @@ def test_atomic_name_length_2_nistxml_sv_iv_atomic_name_length_3_5(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_length_1_nistxml_sv_iv_atomic_name_length_2_1(mode, save_output):
+def test_atomic_name_length_1_nistxml_sv_iv_atomic_name_length_2_1(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet length with value 8.
     """
@@ -6127,11 +6532,12 @@ def test_atomic_name_length_1_nistxml_sv_iv_atomic_name_length_2_1(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_length_1_nistxml_sv_iv_atomic_name_length_2_2(mode, save_output):
+def test_atomic_name_length_1_nistxml_sv_iv_atomic_name_length_2_2(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet length with value 8.
     """
@@ -6142,11 +6548,12 @@ def test_atomic_name_length_1_nistxml_sv_iv_atomic_name_length_2_2(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_length_1_nistxml_sv_iv_atomic_name_length_2_3(mode, save_output):
+def test_atomic_name_length_1_nistxml_sv_iv_atomic_name_length_2_3(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet length with value 8.
     """
@@ -6157,11 +6564,12 @@ def test_atomic_name_length_1_nistxml_sv_iv_atomic_name_length_2_3(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_length_1_nistxml_sv_iv_atomic_name_length_2_4(mode, save_output):
+def test_atomic_name_length_1_nistxml_sv_iv_atomic_name_length_2_4(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet length with value 8.
     """
@@ -6172,11 +6580,12 @@ def test_atomic_name_length_1_nistxml_sv_iv_atomic_name_length_2_4(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_length_1_nistxml_sv_iv_atomic_name_length_2_5(mode, save_output):
+def test_atomic_name_length_1_nistxml_sv_iv_atomic_name_length_2_5(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet length with value 8.
     """
@@ -6187,11 +6596,12 @@ def test_atomic_name_length_1_nistxml_sv_iv_atomic_name_length_2_5(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_length_nistxml_sv_iv_atomic_name_length_1_1(mode, save_output):
+def test_atomic_name_length_nistxml_sv_iv_atomic_name_length_1_1(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet length with value 1.
     """
@@ -6202,11 +6612,12 @@ def test_atomic_name_length_nistxml_sv_iv_atomic_name_length_1_1(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_length_nistxml_sv_iv_atomic_name_length_1_2(mode, save_output):
+def test_atomic_name_length_nistxml_sv_iv_atomic_name_length_1_2(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet length with value 1.
     """
@@ -6217,11 +6628,12 @@ def test_atomic_name_length_nistxml_sv_iv_atomic_name_length_1_2(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_length_nistxml_sv_iv_atomic_name_length_1_3(mode, save_output):
+def test_atomic_name_length_nistxml_sv_iv_atomic_name_length_1_3(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet length with value 1.
     """
@@ -6232,11 +6644,12 @@ def test_atomic_name_length_nistxml_sv_iv_atomic_name_length_1_3(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_length_nistxml_sv_iv_atomic_name_length_1_4(mode, save_output):
+def test_atomic_name_length_nistxml_sv_iv_atomic_name_length_1_4(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet length with value 1.
     """
@@ -6247,11 +6660,12 @@ def test_atomic_name_length_nistxml_sv_iv_atomic_name_length_1_4(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_length_nistxml_sv_iv_atomic_name_length_1_5(mode, save_output):
+def test_atomic_name_length_nistxml_sv_iv_atomic_name_length_1_5(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet length with value 1.
     """
@@ -6262,11 +6676,12 @@ def test_atomic_name_length_nistxml_sv_iv_atomic_name_length_1_5(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_min_length_4_nistxml_sv_iv_atomic_name_min_length_5_1(mode, save_output):
+def test_atomic_name_min_length_4_nistxml_sv_iv_atomic_name_min_length_5_1(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet minLength with value 64.
     """
@@ -6277,11 +6692,12 @@ def test_atomic_name_min_length_4_nistxml_sv_iv_atomic_name_min_length_5_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_min_length_4_nistxml_sv_iv_atomic_name_min_length_5_2(mode, save_output):
+def test_atomic_name_min_length_4_nistxml_sv_iv_atomic_name_min_length_5_2(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet minLength with value 64.
     """
@@ -6292,11 +6708,12 @@ def test_atomic_name_min_length_4_nistxml_sv_iv_atomic_name_min_length_5_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_min_length_4_nistxml_sv_iv_atomic_name_min_length_5_3(mode, save_output):
+def test_atomic_name_min_length_4_nistxml_sv_iv_atomic_name_min_length_5_3(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet minLength with value 64.
     """
@@ -6307,11 +6724,12 @@ def test_atomic_name_min_length_4_nistxml_sv_iv_atomic_name_min_length_5_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_min_length_4_nistxml_sv_iv_atomic_name_min_length_5_4(mode, save_output):
+def test_atomic_name_min_length_4_nistxml_sv_iv_atomic_name_min_length_5_4(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet minLength with value 64.
     """
@@ -6322,11 +6740,12 @@ def test_atomic_name_min_length_4_nistxml_sv_iv_atomic_name_min_length_5_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_min_length_4_nistxml_sv_iv_atomic_name_min_length_5_5(mode, save_output):
+def test_atomic_name_min_length_4_nistxml_sv_iv_atomic_name_min_length_5_5(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet minLength with value 64.
     """
@@ -6337,11 +6756,12 @@ def test_atomic_name_min_length_4_nistxml_sv_iv_atomic_name_min_length_5_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_min_length_3_nistxml_sv_iv_atomic_name_min_length_4_1(mode, save_output):
+def test_atomic_name_min_length_3_nistxml_sv_iv_atomic_name_min_length_4_1(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet minLength with value 54.
     """
@@ -6352,11 +6772,12 @@ def test_atomic_name_min_length_3_nistxml_sv_iv_atomic_name_min_length_4_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_min_length_3_nistxml_sv_iv_atomic_name_min_length_4_2(mode, save_output):
+def test_atomic_name_min_length_3_nistxml_sv_iv_atomic_name_min_length_4_2(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet minLength with value 54.
     """
@@ -6367,11 +6788,12 @@ def test_atomic_name_min_length_3_nistxml_sv_iv_atomic_name_min_length_4_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_min_length_3_nistxml_sv_iv_atomic_name_min_length_4_3(mode, save_output):
+def test_atomic_name_min_length_3_nistxml_sv_iv_atomic_name_min_length_4_3(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet minLength with value 54.
     """
@@ -6382,11 +6804,12 @@ def test_atomic_name_min_length_3_nistxml_sv_iv_atomic_name_min_length_4_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_min_length_3_nistxml_sv_iv_atomic_name_min_length_4_4(mode, save_output):
+def test_atomic_name_min_length_3_nistxml_sv_iv_atomic_name_min_length_4_4(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet minLength with value 54.
     """
@@ -6397,11 +6820,12 @@ def test_atomic_name_min_length_3_nistxml_sv_iv_atomic_name_min_length_4_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_min_length_3_nistxml_sv_iv_atomic_name_min_length_4_5(mode, save_output):
+def test_atomic_name_min_length_3_nistxml_sv_iv_atomic_name_min_length_4_5(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet minLength with value 54.
     """
@@ -6412,11 +6836,12 @@ def test_atomic_name_min_length_3_nistxml_sv_iv_atomic_name_min_length_4_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_min_length_2_nistxml_sv_iv_atomic_name_min_length_3_1(mode, save_output):
+def test_atomic_name_min_length_2_nistxml_sv_iv_atomic_name_min_length_3_1(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet minLength with value 28.
     """
@@ -6427,11 +6852,12 @@ def test_atomic_name_min_length_2_nistxml_sv_iv_atomic_name_min_length_3_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_min_length_2_nistxml_sv_iv_atomic_name_min_length_3_2(mode, save_output):
+def test_atomic_name_min_length_2_nistxml_sv_iv_atomic_name_min_length_3_2(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet minLength with value 28.
     """
@@ -6442,11 +6868,12 @@ def test_atomic_name_min_length_2_nistxml_sv_iv_atomic_name_min_length_3_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_min_length_2_nistxml_sv_iv_atomic_name_min_length_3_3(mode, save_output):
+def test_atomic_name_min_length_2_nistxml_sv_iv_atomic_name_min_length_3_3(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet minLength with value 28.
     """
@@ -6457,11 +6884,12 @@ def test_atomic_name_min_length_2_nistxml_sv_iv_atomic_name_min_length_3_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_min_length_2_nistxml_sv_iv_atomic_name_min_length_3_4(mode, save_output):
+def test_atomic_name_min_length_2_nistxml_sv_iv_atomic_name_min_length_3_4(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet minLength with value 28.
     """
@@ -6472,11 +6900,12 @@ def test_atomic_name_min_length_2_nistxml_sv_iv_atomic_name_min_length_3_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_min_length_2_nistxml_sv_iv_atomic_name_min_length_3_5(mode, save_output):
+def test_atomic_name_min_length_2_nistxml_sv_iv_atomic_name_min_length_3_5(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet minLength with value 28.
     """
@@ -6487,11 +6916,12 @@ def test_atomic_name_min_length_2_nistxml_sv_iv_atomic_name_min_length_3_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_min_length_1_nistxml_sv_iv_atomic_name_min_length_2_1(mode, save_output):
+def test_atomic_name_min_length_1_nistxml_sv_iv_atomic_name_min_length_2_1(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet minLength with value 63.
     """
@@ -6502,11 +6932,12 @@ def test_atomic_name_min_length_1_nistxml_sv_iv_atomic_name_min_length_2_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_min_length_1_nistxml_sv_iv_atomic_name_min_length_2_2(mode, save_output):
+def test_atomic_name_min_length_1_nistxml_sv_iv_atomic_name_min_length_2_2(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet minLength with value 63.
     """
@@ -6517,11 +6948,12 @@ def test_atomic_name_min_length_1_nistxml_sv_iv_atomic_name_min_length_2_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_min_length_1_nistxml_sv_iv_atomic_name_min_length_2_3(mode, save_output):
+def test_atomic_name_min_length_1_nistxml_sv_iv_atomic_name_min_length_2_3(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet minLength with value 63.
     """
@@ -6532,11 +6964,12 @@ def test_atomic_name_min_length_1_nistxml_sv_iv_atomic_name_min_length_2_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_min_length_1_nistxml_sv_iv_atomic_name_min_length_2_4(mode, save_output):
+def test_atomic_name_min_length_1_nistxml_sv_iv_atomic_name_min_length_2_4(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet minLength with value 63.
     """
@@ -6547,11 +6980,12 @@ def test_atomic_name_min_length_1_nistxml_sv_iv_atomic_name_min_length_2_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_min_length_1_nistxml_sv_iv_atomic_name_min_length_2_5(mode, save_output):
+def test_atomic_name_min_length_1_nistxml_sv_iv_atomic_name_min_length_2_5(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet minLength with value 63.
     """
@@ -6562,11 +6996,12 @@ def test_atomic_name_min_length_1_nistxml_sv_iv_atomic_name_min_length_2_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_min_length_nistxml_sv_iv_atomic_name_min_length_1_1(mode, save_output):
+def test_atomic_name_min_length_nistxml_sv_iv_atomic_name_min_length_1_1(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet minLength with value 1.
     """
@@ -6577,11 +7012,12 @@ def test_atomic_name_min_length_nistxml_sv_iv_atomic_name_min_length_1_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_min_length_nistxml_sv_iv_atomic_name_min_length_1_2(mode, save_output):
+def test_atomic_name_min_length_nistxml_sv_iv_atomic_name_min_length_1_2(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet minLength with value 1.
     """
@@ -6592,11 +7028,12 @@ def test_atomic_name_min_length_nistxml_sv_iv_atomic_name_min_length_1_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_min_length_nistxml_sv_iv_atomic_name_min_length_1_3(mode, save_output):
+def test_atomic_name_min_length_nistxml_sv_iv_atomic_name_min_length_1_3(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet minLength with value 1.
     """
@@ -6607,11 +7044,12 @@ def test_atomic_name_min_length_nistxml_sv_iv_atomic_name_min_length_1_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_min_length_nistxml_sv_iv_atomic_name_min_length_1_4(mode, save_output):
+def test_atomic_name_min_length_nistxml_sv_iv_atomic_name_min_length_1_4(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet minLength with value 1.
     """
@@ -6622,11 +7060,12 @@ def test_atomic_name_min_length_nistxml_sv_iv_atomic_name_min_length_1_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_min_length_nistxml_sv_iv_atomic_name_min_length_1_5(mode, save_output):
+def test_atomic_name_min_length_nistxml_sv_iv_atomic_name_min_length_1_5(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet minLength with value 1.
     """
@@ -6637,11 +7076,12 @@ def test_atomic_name_min_length_nistxml_sv_iv_atomic_name_min_length_1_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_max_length_4_nistxml_sv_iv_atomic_name_max_length_5_1(mode, save_output):
+def test_atomic_name_max_length_4_nistxml_sv_iv_atomic_name_max_length_5_1(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet maxLength with value 64.
     """
@@ -6652,11 +7092,12 @@ def test_atomic_name_max_length_4_nistxml_sv_iv_atomic_name_max_length_5_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_max_length_4_nistxml_sv_iv_atomic_name_max_length_5_2(mode, save_output):
+def test_atomic_name_max_length_4_nistxml_sv_iv_atomic_name_max_length_5_2(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet maxLength with value 64.
     """
@@ -6667,11 +7108,12 @@ def test_atomic_name_max_length_4_nistxml_sv_iv_atomic_name_max_length_5_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_max_length_4_nistxml_sv_iv_atomic_name_max_length_5_3(mode, save_output):
+def test_atomic_name_max_length_4_nistxml_sv_iv_atomic_name_max_length_5_3(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet maxLength with value 64.
     """
@@ -6682,11 +7124,12 @@ def test_atomic_name_max_length_4_nistxml_sv_iv_atomic_name_max_length_5_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_max_length_4_nistxml_sv_iv_atomic_name_max_length_5_4(mode, save_output):
+def test_atomic_name_max_length_4_nistxml_sv_iv_atomic_name_max_length_5_4(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet maxLength with value 64.
     """
@@ -6697,11 +7140,12 @@ def test_atomic_name_max_length_4_nistxml_sv_iv_atomic_name_max_length_5_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_max_length_4_nistxml_sv_iv_atomic_name_max_length_5_5(mode, save_output):
+def test_atomic_name_max_length_4_nistxml_sv_iv_atomic_name_max_length_5_5(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet maxLength with value 64.
     """
@@ -6712,11 +7156,12 @@ def test_atomic_name_max_length_4_nistxml_sv_iv_atomic_name_max_length_5_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_max_length_3_nistxml_sv_iv_atomic_name_max_length_4_1(mode, save_output):
+def test_atomic_name_max_length_3_nistxml_sv_iv_atomic_name_max_length_4_1(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet maxLength with value 24.
     """
@@ -6727,11 +7172,12 @@ def test_atomic_name_max_length_3_nistxml_sv_iv_atomic_name_max_length_4_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_max_length_3_nistxml_sv_iv_atomic_name_max_length_4_2(mode, save_output):
+def test_atomic_name_max_length_3_nistxml_sv_iv_atomic_name_max_length_4_2(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet maxLength with value 24.
     """
@@ -6742,11 +7188,12 @@ def test_atomic_name_max_length_3_nistxml_sv_iv_atomic_name_max_length_4_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_max_length_3_nistxml_sv_iv_atomic_name_max_length_4_3(mode, save_output):
+def test_atomic_name_max_length_3_nistxml_sv_iv_atomic_name_max_length_4_3(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet maxLength with value 24.
     """
@@ -6757,11 +7204,12 @@ def test_atomic_name_max_length_3_nistxml_sv_iv_atomic_name_max_length_4_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_max_length_3_nistxml_sv_iv_atomic_name_max_length_4_4(mode, save_output):
+def test_atomic_name_max_length_3_nistxml_sv_iv_atomic_name_max_length_4_4(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet maxLength with value 24.
     """
@@ -6772,11 +7220,12 @@ def test_atomic_name_max_length_3_nistxml_sv_iv_atomic_name_max_length_4_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_max_length_3_nistxml_sv_iv_atomic_name_max_length_4_5(mode, save_output):
+def test_atomic_name_max_length_3_nistxml_sv_iv_atomic_name_max_length_4_5(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet maxLength with value 24.
     """
@@ -6787,11 +7236,12 @@ def test_atomic_name_max_length_3_nistxml_sv_iv_atomic_name_max_length_4_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_max_length_2_nistxml_sv_iv_atomic_name_max_length_3_1(mode, save_output):
+def test_atomic_name_max_length_2_nistxml_sv_iv_atomic_name_max_length_3_1(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet maxLength with value 11.
     """
@@ -6802,11 +7252,12 @@ def test_atomic_name_max_length_2_nistxml_sv_iv_atomic_name_max_length_3_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_max_length_2_nistxml_sv_iv_atomic_name_max_length_3_2(mode, save_output):
+def test_atomic_name_max_length_2_nistxml_sv_iv_atomic_name_max_length_3_2(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet maxLength with value 11.
     """
@@ -6817,11 +7268,12 @@ def test_atomic_name_max_length_2_nistxml_sv_iv_atomic_name_max_length_3_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_max_length_2_nistxml_sv_iv_atomic_name_max_length_3_3(mode, save_output):
+def test_atomic_name_max_length_2_nistxml_sv_iv_atomic_name_max_length_3_3(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet maxLength with value 11.
     """
@@ -6832,11 +7284,12 @@ def test_atomic_name_max_length_2_nistxml_sv_iv_atomic_name_max_length_3_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_max_length_2_nistxml_sv_iv_atomic_name_max_length_3_4(mode, save_output):
+def test_atomic_name_max_length_2_nistxml_sv_iv_atomic_name_max_length_3_4(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet maxLength with value 11.
     """
@@ -6847,11 +7300,12 @@ def test_atomic_name_max_length_2_nistxml_sv_iv_atomic_name_max_length_3_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_max_length_2_nistxml_sv_iv_atomic_name_max_length_3_5(mode, save_output):
+def test_atomic_name_max_length_2_nistxml_sv_iv_atomic_name_max_length_3_5(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet maxLength with value 11.
     """
@@ -6862,11 +7316,12 @@ def test_atomic_name_max_length_2_nistxml_sv_iv_atomic_name_max_length_3_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_max_length_1_nistxml_sv_iv_atomic_name_max_length_2_1(mode, save_output):
+def test_atomic_name_max_length_1_nistxml_sv_iv_atomic_name_max_length_2_1(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet maxLength with value 2.
     """
@@ -6877,11 +7332,12 @@ def test_atomic_name_max_length_1_nistxml_sv_iv_atomic_name_max_length_2_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_max_length_1_nistxml_sv_iv_atomic_name_max_length_2_2(mode, save_output):
+def test_atomic_name_max_length_1_nistxml_sv_iv_atomic_name_max_length_2_2(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet maxLength with value 2.
     """
@@ -6892,11 +7348,12 @@ def test_atomic_name_max_length_1_nistxml_sv_iv_atomic_name_max_length_2_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_max_length_1_nistxml_sv_iv_atomic_name_max_length_2_3(mode, save_output):
+def test_atomic_name_max_length_1_nistxml_sv_iv_atomic_name_max_length_2_3(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet maxLength with value 2.
     """
@@ -6907,11 +7364,12 @@ def test_atomic_name_max_length_1_nistxml_sv_iv_atomic_name_max_length_2_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_max_length_1_nistxml_sv_iv_atomic_name_max_length_2_4(mode, save_output):
+def test_atomic_name_max_length_1_nistxml_sv_iv_atomic_name_max_length_2_4(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet maxLength with value 2.
     """
@@ -6922,11 +7380,12 @@ def test_atomic_name_max_length_1_nistxml_sv_iv_atomic_name_max_length_2_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_max_length_1_nistxml_sv_iv_atomic_name_max_length_2_5(mode, save_output):
+def test_atomic_name_max_length_1_nistxml_sv_iv_atomic_name_max_length_2_5(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet maxLength with value 2.
     """
@@ -6937,11 +7396,12 @@ def test_atomic_name_max_length_1_nistxml_sv_iv_atomic_name_max_length_2_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_max_length_nistxml_sv_iv_atomic_name_max_length_1_1(mode, save_output):
+def test_atomic_name_max_length_nistxml_sv_iv_atomic_name_max_length_1_1(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet maxLength with value 1.
     """
@@ -6952,11 +7412,12 @@ def test_atomic_name_max_length_nistxml_sv_iv_atomic_name_max_length_1_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_max_length_nistxml_sv_iv_atomic_name_max_length_1_2(mode, save_output):
+def test_atomic_name_max_length_nistxml_sv_iv_atomic_name_max_length_1_2(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet maxLength with value 1.
     """
@@ -6967,11 +7428,12 @@ def test_atomic_name_max_length_nistxml_sv_iv_atomic_name_max_length_1_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_max_length_nistxml_sv_iv_atomic_name_max_length_1_3(mode, save_output):
+def test_atomic_name_max_length_nistxml_sv_iv_atomic_name_max_length_1_3(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet maxLength with value 1.
     """
@@ -6982,11 +7444,12 @@ def test_atomic_name_max_length_nistxml_sv_iv_atomic_name_max_length_1_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_max_length_nistxml_sv_iv_atomic_name_max_length_1_4(mode, save_output):
+def test_atomic_name_max_length_nistxml_sv_iv_atomic_name_max_length_1_4(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet maxLength with value 1.
     """
@@ -6997,11 +7460,12 @@ def test_atomic_name_max_length_nistxml_sv_iv_atomic_name_max_length_1_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_name_max_length_nistxml_sv_iv_atomic_name_max_length_1_5(mode, save_output):
+def test_atomic_name_max_length_nistxml_sv_iv_atomic_name_max_length_1_5(mode, save_output, output_format):
     """
     Type atomic/Name is restricted by facet maxLength with value 1.
     """
@@ -7012,11 +7476,12 @@ def test_atomic_name_max_length_nistxml_sv_iv_atomic_name_max_length_1_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_white_space_nistxml_sv_iv_atomic_token_white_space_1_1(mode, save_output):
+def test_atomic_token_white_space_nistxml_sv_iv_atomic_token_white_space_1_1(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet whiteSpace with value
     collapse.
@@ -7028,11 +7493,12 @@ def test_atomic_token_white_space_nistxml_sv_iv_atomic_token_white_space_1_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_white_space_nistxml_sv_iv_atomic_token_white_space_1_2(mode, save_output):
+def test_atomic_token_white_space_nistxml_sv_iv_atomic_token_white_space_1_2(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet whiteSpace with value
     collapse.
@@ -7044,11 +7510,12 @@ def test_atomic_token_white_space_nistxml_sv_iv_atomic_token_white_space_1_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_white_space_nistxml_sv_iv_atomic_token_white_space_1_3(mode, save_output):
+def test_atomic_token_white_space_nistxml_sv_iv_atomic_token_white_space_1_3(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet whiteSpace with value
     collapse.
@@ -7060,11 +7527,12 @@ def test_atomic_token_white_space_nistxml_sv_iv_atomic_token_white_space_1_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_white_space_nistxml_sv_iv_atomic_token_white_space_1_4(mode, save_output):
+def test_atomic_token_white_space_nistxml_sv_iv_atomic_token_white_space_1_4(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet whiteSpace with value
     collapse.
@@ -7076,11 +7544,12 @@ def test_atomic_token_white_space_nistxml_sv_iv_atomic_token_white_space_1_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_white_space_nistxml_sv_iv_atomic_token_white_space_1_5(mode, save_output):
+def test_atomic_token_white_space_nistxml_sv_iv_atomic_token_white_space_1_5(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet whiteSpace with value
     collapse.
@@ -7092,11 +7561,12 @@ def test_atomic_token_white_space_nistxml_sv_iv_atomic_token_white_space_1_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_enumeration_4_nistxml_sv_iv_atomic_token_enumeration_5_1(mode, save_output):
+def test_atomic_token_enumeration_4_nistxml_sv_iv_atomic_token_enumeration_5_1(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet enumeration.
     """
@@ -7107,11 +7577,12 @@ def test_atomic_token_enumeration_4_nistxml_sv_iv_atomic_token_enumeration_5_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_enumeration_4_nistxml_sv_iv_atomic_token_enumeration_5_2(mode, save_output):
+def test_atomic_token_enumeration_4_nistxml_sv_iv_atomic_token_enumeration_5_2(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet enumeration.
     """
@@ -7122,11 +7593,12 @@ def test_atomic_token_enumeration_4_nistxml_sv_iv_atomic_token_enumeration_5_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_enumeration_4_nistxml_sv_iv_atomic_token_enumeration_5_3(mode, save_output):
+def test_atomic_token_enumeration_4_nistxml_sv_iv_atomic_token_enumeration_5_3(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet enumeration.
     """
@@ -7137,11 +7609,12 @@ def test_atomic_token_enumeration_4_nistxml_sv_iv_atomic_token_enumeration_5_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_enumeration_4_nistxml_sv_iv_atomic_token_enumeration_5_4(mode, save_output):
+def test_atomic_token_enumeration_4_nistxml_sv_iv_atomic_token_enumeration_5_4(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet enumeration.
     """
@@ -7152,11 +7625,12 @@ def test_atomic_token_enumeration_4_nistxml_sv_iv_atomic_token_enumeration_5_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_enumeration_4_nistxml_sv_iv_atomic_token_enumeration_5_5(mode, save_output):
+def test_atomic_token_enumeration_4_nistxml_sv_iv_atomic_token_enumeration_5_5(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet enumeration.
     """
@@ -7167,11 +7641,12 @@ def test_atomic_token_enumeration_4_nistxml_sv_iv_atomic_token_enumeration_5_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_enumeration_3_nistxml_sv_iv_atomic_token_enumeration_4_1(mode, save_output):
+def test_atomic_token_enumeration_3_nistxml_sv_iv_atomic_token_enumeration_4_1(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet enumeration.
     """
@@ -7182,11 +7657,12 @@ def test_atomic_token_enumeration_3_nistxml_sv_iv_atomic_token_enumeration_4_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_enumeration_3_nistxml_sv_iv_atomic_token_enumeration_4_2(mode, save_output):
+def test_atomic_token_enumeration_3_nistxml_sv_iv_atomic_token_enumeration_4_2(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet enumeration.
     """
@@ -7197,11 +7673,12 @@ def test_atomic_token_enumeration_3_nistxml_sv_iv_atomic_token_enumeration_4_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_enumeration_3_nistxml_sv_iv_atomic_token_enumeration_4_3(mode, save_output):
+def test_atomic_token_enumeration_3_nistxml_sv_iv_atomic_token_enumeration_4_3(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet enumeration.
     """
@@ -7212,11 +7689,12 @@ def test_atomic_token_enumeration_3_nistxml_sv_iv_atomic_token_enumeration_4_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_enumeration_3_nistxml_sv_iv_atomic_token_enumeration_4_4(mode, save_output):
+def test_atomic_token_enumeration_3_nistxml_sv_iv_atomic_token_enumeration_4_4(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet enumeration.
     """
@@ -7227,11 +7705,12 @@ def test_atomic_token_enumeration_3_nistxml_sv_iv_atomic_token_enumeration_4_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_enumeration_3_nistxml_sv_iv_atomic_token_enumeration_4_5(mode, save_output):
+def test_atomic_token_enumeration_3_nistxml_sv_iv_atomic_token_enumeration_4_5(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet enumeration.
     """
@@ -7242,11 +7721,12 @@ def test_atomic_token_enumeration_3_nistxml_sv_iv_atomic_token_enumeration_4_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_enumeration_2_nistxml_sv_iv_atomic_token_enumeration_3_1(mode, save_output):
+def test_atomic_token_enumeration_2_nistxml_sv_iv_atomic_token_enumeration_3_1(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet enumeration.
     """
@@ -7257,11 +7737,12 @@ def test_atomic_token_enumeration_2_nistxml_sv_iv_atomic_token_enumeration_3_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_enumeration_2_nistxml_sv_iv_atomic_token_enumeration_3_2(mode, save_output):
+def test_atomic_token_enumeration_2_nistxml_sv_iv_atomic_token_enumeration_3_2(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet enumeration.
     """
@@ -7272,11 +7753,12 @@ def test_atomic_token_enumeration_2_nistxml_sv_iv_atomic_token_enumeration_3_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_enumeration_2_nistxml_sv_iv_atomic_token_enumeration_3_3(mode, save_output):
+def test_atomic_token_enumeration_2_nistxml_sv_iv_atomic_token_enumeration_3_3(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet enumeration.
     """
@@ -7287,11 +7769,12 @@ def test_atomic_token_enumeration_2_nistxml_sv_iv_atomic_token_enumeration_3_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_enumeration_2_nistxml_sv_iv_atomic_token_enumeration_3_4(mode, save_output):
+def test_atomic_token_enumeration_2_nistxml_sv_iv_atomic_token_enumeration_3_4(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet enumeration.
     """
@@ -7302,11 +7785,12 @@ def test_atomic_token_enumeration_2_nistxml_sv_iv_atomic_token_enumeration_3_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_enumeration_2_nistxml_sv_iv_atomic_token_enumeration_3_5(mode, save_output):
+def test_atomic_token_enumeration_2_nistxml_sv_iv_atomic_token_enumeration_3_5(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet enumeration.
     """
@@ -7317,11 +7801,12 @@ def test_atomic_token_enumeration_2_nistxml_sv_iv_atomic_token_enumeration_3_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_enumeration_1_nistxml_sv_iv_atomic_token_enumeration_2_1(mode, save_output):
+def test_atomic_token_enumeration_1_nistxml_sv_iv_atomic_token_enumeration_2_1(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet enumeration.
     """
@@ -7332,11 +7817,12 @@ def test_atomic_token_enumeration_1_nistxml_sv_iv_atomic_token_enumeration_2_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_enumeration_1_nistxml_sv_iv_atomic_token_enumeration_2_2(mode, save_output):
+def test_atomic_token_enumeration_1_nistxml_sv_iv_atomic_token_enumeration_2_2(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet enumeration.
     """
@@ -7347,11 +7833,12 @@ def test_atomic_token_enumeration_1_nistxml_sv_iv_atomic_token_enumeration_2_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_enumeration_1_nistxml_sv_iv_atomic_token_enumeration_2_3(mode, save_output):
+def test_atomic_token_enumeration_1_nistxml_sv_iv_atomic_token_enumeration_2_3(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet enumeration.
     """
@@ -7362,11 +7849,12 @@ def test_atomic_token_enumeration_1_nistxml_sv_iv_atomic_token_enumeration_2_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_enumeration_1_nistxml_sv_iv_atomic_token_enumeration_2_4(mode, save_output):
+def test_atomic_token_enumeration_1_nistxml_sv_iv_atomic_token_enumeration_2_4(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet enumeration.
     """
@@ -7377,11 +7865,12 @@ def test_atomic_token_enumeration_1_nistxml_sv_iv_atomic_token_enumeration_2_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_enumeration_1_nistxml_sv_iv_atomic_token_enumeration_2_5(mode, save_output):
+def test_atomic_token_enumeration_1_nistxml_sv_iv_atomic_token_enumeration_2_5(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet enumeration.
     """
@@ -7392,11 +7881,12 @@ def test_atomic_token_enumeration_1_nistxml_sv_iv_atomic_token_enumeration_2_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_enumeration_nistxml_sv_iv_atomic_token_enumeration_1_1(mode, save_output):
+def test_atomic_token_enumeration_nistxml_sv_iv_atomic_token_enumeration_1_1(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet enumeration.
     """
@@ -7407,11 +7897,12 @@ def test_atomic_token_enumeration_nistxml_sv_iv_atomic_token_enumeration_1_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_enumeration_nistxml_sv_iv_atomic_token_enumeration_1_2(mode, save_output):
+def test_atomic_token_enumeration_nistxml_sv_iv_atomic_token_enumeration_1_2(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet enumeration.
     """
@@ -7422,11 +7913,12 @@ def test_atomic_token_enumeration_nistxml_sv_iv_atomic_token_enumeration_1_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_enumeration_nistxml_sv_iv_atomic_token_enumeration_1_3(mode, save_output):
+def test_atomic_token_enumeration_nistxml_sv_iv_atomic_token_enumeration_1_3(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet enumeration.
     """
@@ -7437,11 +7929,12 @@ def test_atomic_token_enumeration_nistxml_sv_iv_atomic_token_enumeration_1_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_enumeration_nistxml_sv_iv_atomic_token_enumeration_1_4(mode, save_output):
+def test_atomic_token_enumeration_nistxml_sv_iv_atomic_token_enumeration_1_4(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet enumeration.
     """
@@ -7452,11 +7945,12 @@ def test_atomic_token_enumeration_nistxml_sv_iv_atomic_token_enumeration_1_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_enumeration_nistxml_sv_iv_atomic_token_enumeration_1_5(mode, save_output):
+def test_atomic_token_enumeration_nistxml_sv_iv_atomic_token_enumeration_1_5(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet enumeration.
     """
@@ -7467,11 +7961,12 @@ def test_atomic_token_enumeration_nistxml_sv_iv_atomic_token_enumeration_1_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_pattern_4_nistxml_sv_iv_atomic_token_pattern_5_1(mode, save_output):
+def test_atomic_token_pattern_4_nistxml_sv_iv_atomic_token_pattern_5_1(mode, save_output, output_format):
     r"""
     Type atomic/token is restricted by facet pattern with value \d{1,5}\s(
     [A-Z][a-z]{1,20}\s){2}Street\s([A-Z][a-z]{1,20}\s){2},\s[A-
@@ -7484,11 +7979,12 @@ def test_atomic_token_pattern_4_nistxml_sv_iv_atomic_token_pattern_5_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_pattern_4_nistxml_sv_iv_atomic_token_pattern_5_2(mode, save_output):
+def test_atomic_token_pattern_4_nistxml_sv_iv_atomic_token_pattern_5_2(mode, save_output, output_format):
     r"""
     Type atomic/token is restricted by facet pattern with value \d{1,5}\s(
     [A-Z][a-z]{1,20}\s){2}Street\s([A-Z][a-z]{1,20}\s){2},\s[A-
@@ -7501,11 +7997,12 @@ def test_atomic_token_pattern_4_nistxml_sv_iv_atomic_token_pattern_5_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_pattern_4_nistxml_sv_iv_atomic_token_pattern_5_3(mode, save_output):
+def test_atomic_token_pattern_4_nistxml_sv_iv_atomic_token_pattern_5_3(mode, save_output, output_format):
     r"""
     Type atomic/token is restricted by facet pattern with value \d{1,5}\s(
     [A-Z][a-z]{1,20}\s){2}Street\s([A-Z][a-z]{1,20}\s){2},\s[A-
@@ -7518,11 +8015,12 @@ def test_atomic_token_pattern_4_nistxml_sv_iv_atomic_token_pattern_5_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_pattern_4_nistxml_sv_iv_atomic_token_pattern_5_4(mode, save_output):
+def test_atomic_token_pattern_4_nistxml_sv_iv_atomic_token_pattern_5_4(mode, save_output, output_format):
     r"""
     Type atomic/token is restricted by facet pattern with value \d{1,5}\s(
     [A-Z][a-z]{1,20}\s){2}Street\s([A-Z][a-z]{1,20}\s){2},\s[A-
@@ -7535,11 +8033,12 @@ def test_atomic_token_pattern_4_nistxml_sv_iv_atomic_token_pattern_5_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_pattern_4_nistxml_sv_iv_atomic_token_pattern_5_5(mode, save_output):
+def test_atomic_token_pattern_4_nistxml_sv_iv_atomic_token_pattern_5_5(mode, save_output, output_format):
     r"""
     Type atomic/token is restricted by facet pattern with value \d{1,5}\s(
     [A-Z][a-z]{1,20}\s){2}Street\s([A-Z][a-z]{1,20}\s){2},\s[A-
@@ -7552,11 +8051,12 @@ def test_atomic_token_pattern_4_nistxml_sv_iv_atomic_token_pattern_5_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_pattern_3_nistxml_sv_iv_atomic_token_pattern_4_1(mode, save_output):
+def test_atomic_token_pattern_3_nistxml_sv_iv_atomic_token_pattern_4_1(mode, save_output, output_format):
     r"""
     Type atomic/token is restricted by facet pattern with value \d{1,5}\s(
     [A-Z][a-z]{1,20}\s){3}Street\s([A-Z][a-z]{1,20}\s){2},\s[A-
@@ -7569,11 +8069,12 @@ def test_atomic_token_pattern_3_nistxml_sv_iv_atomic_token_pattern_4_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_pattern_3_nistxml_sv_iv_atomic_token_pattern_4_2(mode, save_output):
+def test_atomic_token_pattern_3_nistxml_sv_iv_atomic_token_pattern_4_2(mode, save_output, output_format):
     r"""
     Type atomic/token is restricted by facet pattern with value \d{1,5}\s(
     [A-Z][a-z]{1,20}\s){3}Street\s([A-Z][a-z]{1,20}\s){2},\s[A-
@@ -7586,11 +8087,12 @@ def test_atomic_token_pattern_3_nistxml_sv_iv_atomic_token_pattern_4_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_pattern_3_nistxml_sv_iv_atomic_token_pattern_4_3(mode, save_output):
+def test_atomic_token_pattern_3_nistxml_sv_iv_atomic_token_pattern_4_3(mode, save_output, output_format):
     r"""
     Type atomic/token is restricted by facet pattern with value \d{1,5}\s(
     [A-Z][a-z]{1,20}\s){3}Street\s([A-Z][a-z]{1,20}\s){2},\s[A-
@@ -7603,11 +8105,12 @@ def test_atomic_token_pattern_3_nistxml_sv_iv_atomic_token_pattern_4_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_pattern_3_nistxml_sv_iv_atomic_token_pattern_4_4(mode, save_output):
+def test_atomic_token_pattern_3_nistxml_sv_iv_atomic_token_pattern_4_4(mode, save_output, output_format):
     r"""
     Type atomic/token is restricted by facet pattern with value \d{1,5}\s(
     [A-Z][a-z]{1,20}\s){3}Street\s([A-Z][a-z]{1,20}\s){2},\s[A-
@@ -7620,11 +8123,12 @@ def test_atomic_token_pattern_3_nistxml_sv_iv_atomic_token_pattern_4_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_pattern_3_nistxml_sv_iv_atomic_token_pattern_4_5(mode, save_output):
+def test_atomic_token_pattern_3_nistxml_sv_iv_atomic_token_pattern_4_5(mode, save_output, output_format):
     r"""
     Type atomic/token is restricted by facet pattern with value \d{1,5}\s(
     [A-Z][a-z]{1,20}\s){3}Street\s([A-Z][a-z]{1,20}\s){2},\s[A-
@@ -7637,11 +8141,12 @@ def test_atomic_token_pattern_3_nistxml_sv_iv_atomic_token_pattern_4_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_pattern_2_nistxml_sv_iv_atomic_token_pattern_3_1(mode, save_output):
+def test_atomic_token_pattern_2_nistxml_sv_iv_atomic_token_pattern_3_1(mode, save_output, output_format):
     r"""
     Type atomic/token is restricted by facet pattern with value \d{1,5}\s(
     [A-Z][a-z]{1,20}\s){4}Street\s([A-Z][a-z]{1,20}\s){3},\s[A-
@@ -7654,11 +8159,12 @@ def test_atomic_token_pattern_2_nistxml_sv_iv_atomic_token_pattern_3_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_pattern_2_nistxml_sv_iv_atomic_token_pattern_3_2(mode, save_output):
+def test_atomic_token_pattern_2_nistxml_sv_iv_atomic_token_pattern_3_2(mode, save_output, output_format):
     r"""
     Type atomic/token is restricted by facet pattern with value \d{1,5}\s(
     [A-Z][a-z]{1,20}\s){4}Street\s([A-Z][a-z]{1,20}\s){3},\s[A-
@@ -7671,11 +8177,12 @@ def test_atomic_token_pattern_2_nistxml_sv_iv_atomic_token_pattern_3_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_pattern_2_nistxml_sv_iv_atomic_token_pattern_3_3(mode, save_output):
+def test_atomic_token_pattern_2_nistxml_sv_iv_atomic_token_pattern_3_3(mode, save_output, output_format):
     r"""
     Type atomic/token is restricted by facet pattern with value \d{1,5}\s(
     [A-Z][a-z]{1,20}\s){4}Street\s([A-Z][a-z]{1,20}\s){3},\s[A-
@@ -7688,11 +8195,12 @@ def test_atomic_token_pattern_2_nistxml_sv_iv_atomic_token_pattern_3_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_pattern_2_nistxml_sv_iv_atomic_token_pattern_3_4(mode, save_output):
+def test_atomic_token_pattern_2_nistxml_sv_iv_atomic_token_pattern_3_4(mode, save_output, output_format):
     r"""
     Type atomic/token is restricted by facet pattern with value \d{1,5}\s(
     [A-Z][a-z]{1,20}\s){4}Street\s([A-Z][a-z]{1,20}\s){3},\s[A-
@@ -7705,11 +8213,12 @@ def test_atomic_token_pattern_2_nistxml_sv_iv_atomic_token_pattern_3_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_pattern_2_nistxml_sv_iv_atomic_token_pattern_3_5(mode, save_output):
+def test_atomic_token_pattern_2_nistxml_sv_iv_atomic_token_pattern_3_5(mode, save_output, output_format):
     r"""
     Type atomic/token is restricted by facet pattern with value \d{1,5}\s(
     [A-Z][a-z]{1,20}\s){4}Street\s([A-Z][a-z]{1,20}\s){3},\s[A-
@@ -7722,11 +8231,12 @@ def test_atomic_token_pattern_2_nistxml_sv_iv_atomic_token_pattern_3_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_pattern_1_nistxml_sv_iv_atomic_token_pattern_2_1(mode, save_output):
+def test_atomic_token_pattern_1_nistxml_sv_iv_atomic_token_pattern_2_1(mode, save_output, output_format):
     r"""
     Type atomic/token is restricted by facet pattern with value \d{1,5}\s(
     [A-Z][a-z]{1,20}\s){4}Street\s([A-Z][a-z]{1,20}\s){3},\s[A-
@@ -7739,11 +8249,12 @@ def test_atomic_token_pattern_1_nistxml_sv_iv_atomic_token_pattern_2_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_pattern_1_nistxml_sv_iv_atomic_token_pattern_2_2(mode, save_output):
+def test_atomic_token_pattern_1_nistxml_sv_iv_atomic_token_pattern_2_2(mode, save_output, output_format):
     r"""
     Type atomic/token is restricted by facet pattern with value \d{1,5}\s(
     [A-Z][a-z]{1,20}\s){4}Street\s([A-Z][a-z]{1,20}\s){3},\s[A-
@@ -7756,11 +8267,12 @@ def test_atomic_token_pattern_1_nistxml_sv_iv_atomic_token_pattern_2_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_pattern_1_nistxml_sv_iv_atomic_token_pattern_2_3(mode, save_output):
+def test_atomic_token_pattern_1_nistxml_sv_iv_atomic_token_pattern_2_3(mode, save_output, output_format):
     r"""
     Type atomic/token is restricted by facet pattern with value \d{1,5}\s(
     [A-Z][a-z]{1,20}\s){4}Street\s([A-Z][a-z]{1,20}\s){3},\s[A-
@@ -7773,11 +8285,12 @@ def test_atomic_token_pattern_1_nistxml_sv_iv_atomic_token_pattern_2_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_pattern_1_nistxml_sv_iv_atomic_token_pattern_2_4(mode, save_output):
+def test_atomic_token_pattern_1_nistxml_sv_iv_atomic_token_pattern_2_4(mode, save_output, output_format):
     r"""
     Type atomic/token is restricted by facet pattern with value \d{1,5}\s(
     [A-Z][a-z]{1,20}\s){4}Street\s([A-Z][a-z]{1,20}\s){3},\s[A-
@@ -7790,11 +8303,12 @@ def test_atomic_token_pattern_1_nistxml_sv_iv_atomic_token_pattern_2_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_pattern_1_nistxml_sv_iv_atomic_token_pattern_2_5(mode, save_output):
+def test_atomic_token_pattern_1_nistxml_sv_iv_atomic_token_pattern_2_5(mode, save_output, output_format):
     r"""
     Type atomic/token is restricted by facet pattern with value \d{1,5}\s(
     [A-Z][a-z]{1,20}\s){4}Street\s([A-Z][a-z]{1,20}\s){3},\s[A-
@@ -7807,11 +8321,12 @@ def test_atomic_token_pattern_1_nistxml_sv_iv_atomic_token_pattern_2_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_pattern_nistxml_sv_iv_atomic_token_pattern_1_1(mode, save_output):
+def test_atomic_token_pattern_nistxml_sv_iv_atomic_token_pattern_1_1(mode, save_output, output_format):
     r"""
     Type atomic/token is restricted by facet pattern with value \d{1,5}\s(
     [A-Z][a-z]{1,20}\s){4}Street\s([A-Z][a-z]{1,20}\s){2},\s[A-
@@ -7824,11 +8339,12 @@ def test_atomic_token_pattern_nistxml_sv_iv_atomic_token_pattern_1_1(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_pattern_nistxml_sv_iv_atomic_token_pattern_1_2(mode, save_output):
+def test_atomic_token_pattern_nistxml_sv_iv_atomic_token_pattern_1_2(mode, save_output, output_format):
     r"""
     Type atomic/token is restricted by facet pattern with value \d{1,5}\s(
     [A-Z][a-z]{1,20}\s){4}Street\s([A-Z][a-z]{1,20}\s){2},\s[A-
@@ -7841,11 +8357,12 @@ def test_atomic_token_pattern_nistxml_sv_iv_atomic_token_pattern_1_2(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_pattern_nistxml_sv_iv_atomic_token_pattern_1_3(mode, save_output):
+def test_atomic_token_pattern_nistxml_sv_iv_atomic_token_pattern_1_3(mode, save_output, output_format):
     r"""
     Type atomic/token is restricted by facet pattern with value \d{1,5}\s(
     [A-Z][a-z]{1,20}\s){4}Street\s([A-Z][a-z]{1,20}\s){2},\s[A-
@@ -7858,11 +8375,12 @@ def test_atomic_token_pattern_nistxml_sv_iv_atomic_token_pattern_1_3(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_pattern_nistxml_sv_iv_atomic_token_pattern_1_4(mode, save_output):
+def test_atomic_token_pattern_nistxml_sv_iv_atomic_token_pattern_1_4(mode, save_output, output_format):
     r"""
     Type atomic/token is restricted by facet pattern with value \d{1,5}\s(
     [A-Z][a-z]{1,20}\s){4}Street\s([A-Z][a-z]{1,20}\s){2},\s[A-
@@ -7875,11 +8393,12 @@ def test_atomic_token_pattern_nistxml_sv_iv_atomic_token_pattern_1_4(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_pattern_nistxml_sv_iv_atomic_token_pattern_1_5(mode, save_output):
+def test_atomic_token_pattern_nistxml_sv_iv_atomic_token_pattern_1_5(mode, save_output, output_format):
     r"""
     Type atomic/token is restricted by facet pattern with value \d{1,5}\s(
     [A-Z][a-z]{1,20}\s){4}Street\s([A-Z][a-z]{1,20}\s){2},\s[A-
@@ -7892,11 +8411,12 @@ def test_atomic_token_pattern_nistxml_sv_iv_atomic_token_pattern_1_5(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_length_4_nistxml_sv_iv_atomic_token_length_5_1(mode, save_output):
+def test_atomic_token_length_4_nistxml_sv_iv_atomic_token_length_5_1(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet length with value 1000.
     """
@@ -7907,11 +8427,12 @@ def test_atomic_token_length_4_nistxml_sv_iv_atomic_token_length_5_1(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_length_4_nistxml_sv_iv_atomic_token_length_5_2(mode, save_output):
+def test_atomic_token_length_4_nistxml_sv_iv_atomic_token_length_5_2(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet length with value 1000.
     """
@@ -7922,11 +8443,12 @@ def test_atomic_token_length_4_nistxml_sv_iv_atomic_token_length_5_2(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_length_4_nistxml_sv_iv_atomic_token_length_5_3(mode, save_output):
+def test_atomic_token_length_4_nistxml_sv_iv_atomic_token_length_5_3(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet length with value 1000.
     """
@@ -7937,11 +8459,12 @@ def test_atomic_token_length_4_nistxml_sv_iv_atomic_token_length_5_3(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_length_4_nistxml_sv_iv_atomic_token_length_5_4(mode, save_output):
+def test_atomic_token_length_4_nistxml_sv_iv_atomic_token_length_5_4(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet length with value 1000.
     """
@@ -7952,11 +8475,12 @@ def test_atomic_token_length_4_nistxml_sv_iv_atomic_token_length_5_4(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_length_4_nistxml_sv_iv_atomic_token_length_5_5(mode, save_output):
+def test_atomic_token_length_4_nistxml_sv_iv_atomic_token_length_5_5(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet length with value 1000.
     """
@@ -7967,11 +8491,12 @@ def test_atomic_token_length_4_nistxml_sv_iv_atomic_token_length_5_5(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_length_3_nistxml_sv_iv_atomic_token_length_4_1(mode, save_output):
+def test_atomic_token_length_3_nistxml_sv_iv_atomic_token_length_4_1(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet length with value 979.
     """
@@ -7982,11 +8507,12 @@ def test_atomic_token_length_3_nistxml_sv_iv_atomic_token_length_4_1(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_length_3_nistxml_sv_iv_atomic_token_length_4_2(mode, save_output):
+def test_atomic_token_length_3_nistxml_sv_iv_atomic_token_length_4_2(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet length with value 979.
     """
@@ -7997,11 +8523,12 @@ def test_atomic_token_length_3_nistxml_sv_iv_atomic_token_length_4_2(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_length_3_nistxml_sv_iv_atomic_token_length_4_3(mode, save_output):
+def test_atomic_token_length_3_nistxml_sv_iv_atomic_token_length_4_3(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet length with value 979.
     """
@@ -8012,11 +8539,12 @@ def test_atomic_token_length_3_nistxml_sv_iv_atomic_token_length_4_3(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_length_3_nistxml_sv_iv_atomic_token_length_4_4(mode, save_output):
+def test_atomic_token_length_3_nistxml_sv_iv_atomic_token_length_4_4(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet length with value 979.
     """
@@ -8027,11 +8555,12 @@ def test_atomic_token_length_3_nistxml_sv_iv_atomic_token_length_4_4(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_length_3_nistxml_sv_iv_atomic_token_length_4_5(mode, save_output):
+def test_atomic_token_length_3_nistxml_sv_iv_atomic_token_length_4_5(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet length with value 979.
     """
@@ -8042,11 +8571,12 @@ def test_atomic_token_length_3_nistxml_sv_iv_atomic_token_length_4_5(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_length_2_nistxml_sv_iv_atomic_token_length_3_1(mode, save_output):
+def test_atomic_token_length_2_nistxml_sv_iv_atomic_token_length_3_1(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet length with value 662.
     """
@@ -8057,11 +8587,12 @@ def test_atomic_token_length_2_nistxml_sv_iv_atomic_token_length_3_1(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_length_2_nistxml_sv_iv_atomic_token_length_3_2(mode, save_output):
+def test_atomic_token_length_2_nistxml_sv_iv_atomic_token_length_3_2(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet length with value 662.
     """
@@ -8072,11 +8603,12 @@ def test_atomic_token_length_2_nistxml_sv_iv_atomic_token_length_3_2(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_length_2_nistxml_sv_iv_atomic_token_length_3_3(mode, save_output):
+def test_atomic_token_length_2_nistxml_sv_iv_atomic_token_length_3_3(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet length with value 662.
     """
@@ -8087,11 +8619,12 @@ def test_atomic_token_length_2_nistxml_sv_iv_atomic_token_length_3_3(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_length_2_nistxml_sv_iv_atomic_token_length_3_4(mode, save_output):
+def test_atomic_token_length_2_nistxml_sv_iv_atomic_token_length_3_4(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet length with value 662.
     """
@@ -8102,11 +8635,12 @@ def test_atomic_token_length_2_nistxml_sv_iv_atomic_token_length_3_4(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_length_2_nistxml_sv_iv_atomic_token_length_3_5(mode, save_output):
+def test_atomic_token_length_2_nistxml_sv_iv_atomic_token_length_3_5(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet length with value 662.
     """
@@ -8117,11 +8651,12 @@ def test_atomic_token_length_2_nistxml_sv_iv_atomic_token_length_3_5(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_length_1_nistxml_sv_iv_atomic_token_length_2_1(mode, save_output):
+def test_atomic_token_length_1_nistxml_sv_iv_atomic_token_length_2_1(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet length with value 295.
     """
@@ -8132,11 +8667,12 @@ def test_atomic_token_length_1_nistxml_sv_iv_atomic_token_length_2_1(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_length_1_nistxml_sv_iv_atomic_token_length_2_2(mode, save_output):
+def test_atomic_token_length_1_nistxml_sv_iv_atomic_token_length_2_2(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet length with value 295.
     """
@@ -8147,11 +8683,12 @@ def test_atomic_token_length_1_nistxml_sv_iv_atomic_token_length_2_2(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_length_1_nistxml_sv_iv_atomic_token_length_2_3(mode, save_output):
+def test_atomic_token_length_1_nistxml_sv_iv_atomic_token_length_2_3(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet length with value 295.
     """
@@ -8162,11 +8699,12 @@ def test_atomic_token_length_1_nistxml_sv_iv_atomic_token_length_2_3(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_length_1_nistxml_sv_iv_atomic_token_length_2_4(mode, save_output):
+def test_atomic_token_length_1_nistxml_sv_iv_atomic_token_length_2_4(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet length with value 295.
     """
@@ -8177,11 +8715,12 @@ def test_atomic_token_length_1_nistxml_sv_iv_atomic_token_length_2_4(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_length_1_nistxml_sv_iv_atomic_token_length_2_5(mode, save_output):
+def test_atomic_token_length_1_nistxml_sv_iv_atomic_token_length_2_5(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet length with value 295.
     """
@@ -8192,11 +8731,12 @@ def test_atomic_token_length_1_nistxml_sv_iv_atomic_token_length_2_5(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_length_nistxml_sv_iv_atomic_token_length_1_1(mode, save_output):
+def test_atomic_token_length_nistxml_sv_iv_atomic_token_length_1_1(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet length with value 0.
     """
@@ -8207,11 +8747,12 @@ def test_atomic_token_length_nistxml_sv_iv_atomic_token_length_1_1(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_length_nistxml_sv_iv_atomic_token_length_1_2(mode, save_output):
+def test_atomic_token_length_nistxml_sv_iv_atomic_token_length_1_2(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet length with value 0.
     """
@@ -8222,11 +8763,12 @@ def test_atomic_token_length_nistxml_sv_iv_atomic_token_length_1_2(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_length_nistxml_sv_iv_atomic_token_length_1_3(mode, save_output):
+def test_atomic_token_length_nistxml_sv_iv_atomic_token_length_1_3(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet length with value 0.
     """
@@ -8237,11 +8779,12 @@ def test_atomic_token_length_nistxml_sv_iv_atomic_token_length_1_3(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_length_nistxml_sv_iv_atomic_token_length_1_4(mode, save_output):
+def test_atomic_token_length_nistxml_sv_iv_atomic_token_length_1_4(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet length with value 0.
     """
@@ -8252,11 +8795,12 @@ def test_atomic_token_length_nistxml_sv_iv_atomic_token_length_1_4(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_length_nistxml_sv_iv_atomic_token_length_1_5(mode, save_output):
+def test_atomic_token_length_nistxml_sv_iv_atomic_token_length_1_5(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet length with value 0.
     """
@@ -8267,11 +8811,12 @@ def test_atomic_token_length_nistxml_sv_iv_atomic_token_length_1_5(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_min_length_4_nistxml_sv_iv_atomic_token_min_length_5_1(mode, save_output):
+def test_atomic_token_min_length_4_nistxml_sv_iv_atomic_token_min_length_5_1(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet minLength with value 1000.
     """
@@ -8282,11 +8827,12 @@ def test_atomic_token_min_length_4_nistxml_sv_iv_atomic_token_min_length_5_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_min_length_4_nistxml_sv_iv_atomic_token_min_length_5_2(mode, save_output):
+def test_atomic_token_min_length_4_nistxml_sv_iv_atomic_token_min_length_5_2(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet minLength with value 1000.
     """
@@ -8297,11 +8843,12 @@ def test_atomic_token_min_length_4_nistxml_sv_iv_atomic_token_min_length_5_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_min_length_4_nistxml_sv_iv_atomic_token_min_length_5_3(mode, save_output):
+def test_atomic_token_min_length_4_nistxml_sv_iv_atomic_token_min_length_5_3(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet minLength with value 1000.
     """
@@ -8312,11 +8859,12 @@ def test_atomic_token_min_length_4_nistxml_sv_iv_atomic_token_min_length_5_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_min_length_4_nistxml_sv_iv_atomic_token_min_length_5_4(mode, save_output):
+def test_atomic_token_min_length_4_nistxml_sv_iv_atomic_token_min_length_5_4(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet minLength with value 1000.
     """
@@ -8327,11 +8875,12 @@ def test_atomic_token_min_length_4_nistxml_sv_iv_atomic_token_min_length_5_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_min_length_4_nistxml_sv_iv_atomic_token_min_length_5_5(mode, save_output):
+def test_atomic_token_min_length_4_nistxml_sv_iv_atomic_token_min_length_5_5(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet minLength with value 1000.
     """
@@ -8342,11 +8891,12 @@ def test_atomic_token_min_length_4_nistxml_sv_iv_atomic_token_min_length_5_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_min_length_3_nistxml_sv_iv_atomic_token_min_length_4_1(mode, save_output):
+def test_atomic_token_min_length_3_nistxml_sv_iv_atomic_token_min_length_4_1(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet minLength with value 202.
     """
@@ -8357,11 +8907,12 @@ def test_atomic_token_min_length_3_nistxml_sv_iv_atomic_token_min_length_4_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_min_length_3_nistxml_sv_iv_atomic_token_min_length_4_2(mode, save_output):
+def test_atomic_token_min_length_3_nistxml_sv_iv_atomic_token_min_length_4_2(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet minLength with value 202.
     """
@@ -8372,11 +8923,12 @@ def test_atomic_token_min_length_3_nistxml_sv_iv_atomic_token_min_length_4_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_min_length_3_nistxml_sv_iv_atomic_token_min_length_4_3(mode, save_output):
+def test_atomic_token_min_length_3_nistxml_sv_iv_atomic_token_min_length_4_3(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet minLength with value 202.
     """
@@ -8387,11 +8939,12 @@ def test_atomic_token_min_length_3_nistxml_sv_iv_atomic_token_min_length_4_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_min_length_3_nistxml_sv_iv_atomic_token_min_length_4_4(mode, save_output):
+def test_atomic_token_min_length_3_nistxml_sv_iv_atomic_token_min_length_4_4(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet minLength with value 202.
     """
@@ -8402,11 +8955,12 @@ def test_atomic_token_min_length_3_nistxml_sv_iv_atomic_token_min_length_4_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_min_length_3_nistxml_sv_iv_atomic_token_min_length_4_5(mode, save_output):
+def test_atomic_token_min_length_3_nistxml_sv_iv_atomic_token_min_length_4_5(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet minLength with value 202.
     """
@@ -8417,11 +8971,12 @@ def test_atomic_token_min_length_3_nistxml_sv_iv_atomic_token_min_length_4_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_min_length_2_nistxml_sv_iv_atomic_token_min_length_3_1(mode, save_output):
+def test_atomic_token_min_length_2_nistxml_sv_iv_atomic_token_min_length_3_1(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet minLength with value 39.
     """
@@ -8432,11 +8987,12 @@ def test_atomic_token_min_length_2_nistxml_sv_iv_atomic_token_min_length_3_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_min_length_2_nistxml_sv_iv_atomic_token_min_length_3_2(mode, save_output):
+def test_atomic_token_min_length_2_nistxml_sv_iv_atomic_token_min_length_3_2(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet minLength with value 39.
     """
@@ -8447,11 +9003,12 @@ def test_atomic_token_min_length_2_nistxml_sv_iv_atomic_token_min_length_3_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_min_length_2_nistxml_sv_iv_atomic_token_min_length_3_3(mode, save_output):
+def test_atomic_token_min_length_2_nistxml_sv_iv_atomic_token_min_length_3_3(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet minLength with value 39.
     """
@@ -8462,11 +9019,12 @@ def test_atomic_token_min_length_2_nistxml_sv_iv_atomic_token_min_length_3_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_min_length_2_nistxml_sv_iv_atomic_token_min_length_3_4(mode, save_output):
+def test_atomic_token_min_length_2_nistxml_sv_iv_atomic_token_min_length_3_4(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet minLength with value 39.
     """
@@ -8477,11 +9035,12 @@ def test_atomic_token_min_length_2_nistxml_sv_iv_atomic_token_min_length_3_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_min_length_2_nistxml_sv_iv_atomic_token_min_length_3_5(mode, save_output):
+def test_atomic_token_min_length_2_nistxml_sv_iv_atomic_token_min_length_3_5(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet minLength with value 39.
     """
@@ -8492,11 +9051,12 @@ def test_atomic_token_min_length_2_nistxml_sv_iv_atomic_token_min_length_3_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_min_length_1_nistxml_sv_iv_atomic_token_min_length_2_1(mode, save_output):
+def test_atomic_token_min_length_1_nistxml_sv_iv_atomic_token_min_length_2_1(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet minLength with value 305.
     """
@@ -8507,11 +9067,12 @@ def test_atomic_token_min_length_1_nistxml_sv_iv_atomic_token_min_length_2_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_min_length_1_nistxml_sv_iv_atomic_token_min_length_2_2(mode, save_output):
+def test_atomic_token_min_length_1_nistxml_sv_iv_atomic_token_min_length_2_2(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet minLength with value 305.
     """
@@ -8522,11 +9083,12 @@ def test_atomic_token_min_length_1_nistxml_sv_iv_atomic_token_min_length_2_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_min_length_1_nistxml_sv_iv_atomic_token_min_length_2_3(mode, save_output):
+def test_atomic_token_min_length_1_nistxml_sv_iv_atomic_token_min_length_2_3(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet minLength with value 305.
     """
@@ -8537,11 +9099,12 @@ def test_atomic_token_min_length_1_nistxml_sv_iv_atomic_token_min_length_2_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_min_length_1_nistxml_sv_iv_atomic_token_min_length_2_4(mode, save_output):
+def test_atomic_token_min_length_1_nistxml_sv_iv_atomic_token_min_length_2_4(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet minLength with value 305.
     """
@@ -8552,11 +9115,12 @@ def test_atomic_token_min_length_1_nistxml_sv_iv_atomic_token_min_length_2_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_min_length_1_nistxml_sv_iv_atomic_token_min_length_2_5(mode, save_output):
+def test_atomic_token_min_length_1_nistxml_sv_iv_atomic_token_min_length_2_5(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet minLength with value 305.
     """
@@ -8567,11 +9131,12 @@ def test_atomic_token_min_length_1_nistxml_sv_iv_atomic_token_min_length_2_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_min_length_nistxml_sv_iv_atomic_token_min_length_1_1(mode, save_output):
+def test_atomic_token_min_length_nistxml_sv_iv_atomic_token_min_length_1_1(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet minLength with value 0.
     """
@@ -8582,11 +9147,12 @@ def test_atomic_token_min_length_nistxml_sv_iv_atomic_token_min_length_1_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_min_length_nistxml_sv_iv_atomic_token_min_length_1_2(mode, save_output):
+def test_atomic_token_min_length_nistxml_sv_iv_atomic_token_min_length_1_2(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet minLength with value 0.
     """
@@ -8597,11 +9163,12 @@ def test_atomic_token_min_length_nistxml_sv_iv_atomic_token_min_length_1_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_min_length_nistxml_sv_iv_atomic_token_min_length_1_3(mode, save_output):
+def test_atomic_token_min_length_nistxml_sv_iv_atomic_token_min_length_1_3(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet minLength with value 0.
     """
@@ -8612,11 +9179,12 @@ def test_atomic_token_min_length_nistxml_sv_iv_atomic_token_min_length_1_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_min_length_nistxml_sv_iv_atomic_token_min_length_1_4(mode, save_output):
+def test_atomic_token_min_length_nistxml_sv_iv_atomic_token_min_length_1_4(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet minLength with value 0.
     """
@@ -8627,11 +9195,12 @@ def test_atomic_token_min_length_nistxml_sv_iv_atomic_token_min_length_1_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_min_length_nistxml_sv_iv_atomic_token_min_length_1_5(mode, save_output):
+def test_atomic_token_min_length_nistxml_sv_iv_atomic_token_min_length_1_5(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet minLength with value 0.
     """
@@ -8642,11 +9211,12 @@ def test_atomic_token_min_length_nistxml_sv_iv_atomic_token_min_length_1_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_max_length_4_nistxml_sv_iv_atomic_token_max_length_5_1(mode, save_output):
+def test_atomic_token_max_length_4_nistxml_sv_iv_atomic_token_max_length_5_1(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet maxLength with value 1000.
     """
@@ -8657,11 +9227,12 @@ def test_atomic_token_max_length_4_nistxml_sv_iv_atomic_token_max_length_5_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_max_length_4_nistxml_sv_iv_atomic_token_max_length_5_2(mode, save_output):
+def test_atomic_token_max_length_4_nistxml_sv_iv_atomic_token_max_length_5_2(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet maxLength with value 1000.
     """
@@ -8672,11 +9243,12 @@ def test_atomic_token_max_length_4_nistxml_sv_iv_atomic_token_max_length_5_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_max_length_4_nistxml_sv_iv_atomic_token_max_length_5_3(mode, save_output):
+def test_atomic_token_max_length_4_nistxml_sv_iv_atomic_token_max_length_5_3(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet maxLength with value 1000.
     """
@@ -8687,11 +9259,12 @@ def test_atomic_token_max_length_4_nistxml_sv_iv_atomic_token_max_length_5_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_max_length_4_nistxml_sv_iv_atomic_token_max_length_5_4(mode, save_output):
+def test_atomic_token_max_length_4_nistxml_sv_iv_atomic_token_max_length_5_4(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet maxLength with value 1000.
     """
@@ -8702,11 +9275,12 @@ def test_atomic_token_max_length_4_nistxml_sv_iv_atomic_token_max_length_5_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_max_length_4_nistxml_sv_iv_atomic_token_max_length_5_5(mode, save_output):
+def test_atomic_token_max_length_4_nistxml_sv_iv_atomic_token_max_length_5_5(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet maxLength with value 1000.
     """
@@ -8717,11 +9291,12 @@ def test_atomic_token_max_length_4_nistxml_sv_iv_atomic_token_max_length_5_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_max_length_3_nistxml_sv_iv_atomic_token_max_length_4_1(mode, save_output):
+def test_atomic_token_max_length_3_nistxml_sv_iv_atomic_token_max_length_4_1(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet maxLength with value 670.
     """
@@ -8732,11 +9307,12 @@ def test_atomic_token_max_length_3_nistxml_sv_iv_atomic_token_max_length_4_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_max_length_3_nistxml_sv_iv_atomic_token_max_length_4_2(mode, save_output):
+def test_atomic_token_max_length_3_nistxml_sv_iv_atomic_token_max_length_4_2(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet maxLength with value 670.
     """
@@ -8747,11 +9323,12 @@ def test_atomic_token_max_length_3_nistxml_sv_iv_atomic_token_max_length_4_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_max_length_3_nistxml_sv_iv_atomic_token_max_length_4_3(mode, save_output):
+def test_atomic_token_max_length_3_nistxml_sv_iv_atomic_token_max_length_4_3(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet maxLength with value 670.
     """
@@ -8762,11 +9339,12 @@ def test_atomic_token_max_length_3_nistxml_sv_iv_atomic_token_max_length_4_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_max_length_3_nistxml_sv_iv_atomic_token_max_length_4_4(mode, save_output):
+def test_atomic_token_max_length_3_nistxml_sv_iv_atomic_token_max_length_4_4(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet maxLength with value 670.
     """
@@ -8777,11 +9355,12 @@ def test_atomic_token_max_length_3_nistxml_sv_iv_atomic_token_max_length_4_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_max_length_3_nistxml_sv_iv_atomic_token_max_length_4_5(mode, save_output):
+def test_atomic_token_max_length_3_nistxml_sv_iv_atomic_token_max_length_4_5(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet maxLength with value 670.
     """
@@ -8792,11 +9371,12 @@ def test_atomic_token_max_length_3_nistxml_sv_iv_atomic_token_max_length_4_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_max_length_2_nistxml_sv_iv_atomic_token_max_length_3_1(mode, save_output):
+def test_atomic_token_max_length_2_nistxml_sv_iv_atomic_token_max_length_3_1(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet maxLength with value 834.
     """
@@ -8807,11 +9387,12 @@ def test_atomic_token_max_length_2_nistxml_sv_iv_atomic_token_max_length_3_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_max_length_2_nistxml_sv_iv_atomic_token_max_length_3_2(mode, save_output):
+def test_atomic_token_max_length_2_nistxml_sv_iv_atomic_token_max_length_3_2(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet maxLength with value 834.
     """
@@ -8822,11 +9403,12 @@ def test_atomic_token_max_length_2_nistxml_sv_iv_atomic_token_max_length_3_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_max_length_2_nistxml_sv_iv_atomic_token_max_length_3_3(mode, save_output):
+def test_atomic_token_max_length_2_nistxml_sv_iv_atomic_token_max_length_3_3(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet maxLength with value 834.
     """
@@ -8837,11 +9419,12 @@ def test_atomic_token_max_length_2_nistxml_sv_iv_atomic_token_max_length_3_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_max_length_2_nistxml_sv_iv_atomic_token_max_length_3_4(mode, save_output):
+def test_atomic_token_max_length_2_nistxml_sv_iv_atomic_token_max_length_3_4(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet maxLength with value 834.
     """
@@ -8852,11 +9435,12 @@ def test_atomic_token_max_length_2_nistxml_sv_iv_atomic_token_max_length_3_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_max_length_2_nistxml_sv_iv_atomic_token_max_length_3_5(mode, save_output):
+def test_atomic_token_max_length_2_nistxml_sv_iv_atomic_token_max_length_3_5(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet maxLength with value 834.
     """
@@ -8867,11 +9451,12 @@ def test_atomic_token_max_length_2_nistxml_sv_iv_atomic_token_max_length_3_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_max_length_1_nistxml_sv_iv_atomic_token_max_length_2_1(mode, save_output):
+def test_atomic_token_max_length_1_nistxml_sv_iv_atomic_token_max_length_2_1(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet maxLength with value 919.
     """
@@ -8882,11 +9467,12 @@ def test_atomic_token_max_length_1_nistxml_sv_iv_atomic_token_max_length_2_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_max_length_1_nistxml_sv_iv_atomic_token_max_length_2_2(mode, save_output):
+def test_atomic_token_max_length_1_nistxml_sv_iv_atomic_token_max_length_2_2(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet maxLength with value 919.
     """
@@ -8897,11 +9483,12 @@ def test_atomic_token_max_length_1_nistxml_sv_iv_atomic_token_max_length_2_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_max_length_1_nistxml_sv_iv_atomic_token_max_length_2_3(mode, save_output):
+def test_atomic_token_max_length_1_nistxml_sv_iv_atomic_token_max_length_2_3(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet maxLength with value 919.
     """
@@ -8912,11 +9499,12 @@ def test_atomic_token_max_length_1_nistxml_sv_iv_atomic_token_max_length_2_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_max_length_1_nistxml_sv_iv_atomic_token_max_length_2_4(mode, save_output):
+def test_atomic_token_max_length_1_nistxml_sv_iv_atomic_token_max_length_2_4(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet maxLength with value 919.
     """
@@ -8927,11 +9515,12 @@ def test_atomic_token_max_length_1_nistxml_sv_iv_atomic_token_max_length_2_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_max_length_1_nistxml_sv_iv_atomic_token_max_length_2_5(mode, save_output):
+def test_atomic_token_max_length_1_nistxml_sv_iv_atomic_token_max_length_2_5(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet maxLength with value 919.
     """
@@ -8942,11 +9531,12 @@ def test_atomic_token_max_length_1_nistxml_sv_iv_atomic_token_max_length_2_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_max_length_nistxml_sv_iv_atomic_token_max_length_1_1(mode, save_output):
+def test_atomic_token_max_length_nistxml_sv_iv_atomic_token_max_length_1_1(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet maxLength with value 0.
     """
@@ -8957,11 +9547,12 @@ def test_atomic_token_max_length_nistxml_sv_iv_atomic_token_max_length_1_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_max_length_nistxml_sv_iv_atomic_token_max_length_1_2(mode, save_output):
+def test_atomic_token_max_length_nistxml_sv_iv_atomic_token_max_length_1_2(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet maxLength with value 0.
     """
@@ -8972,11 +9563,12 @@ def test_atomic_token_max_length_nistxml_sv_iv_atomic_token_max_length_1_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_max_length_nistxml_sv_iv_atomic_token_max_length_1_3(mode, save_output):
+def test_atomic_token_max_length_nistxml_sv_iv_atomic_token_max_length_1_3(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet maxLength with value 0.
     """
@@ -8987,11 +9579,12 @@ def test_atomic_token_max_length_nistxml_sv_iv_atomic_token_max_length_1_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_max_length_nistxml_sv_iv_atomic_token_max_length_1_4(mode, save_output):
+def test_atomic_token_max_length_nistxml_sv_iv_atomic_token_max_length_1_4(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet maxLength with value 0.
     """
@@ -9002,11 +9595,12 @@ def test_atomic_token_max_length_nistxml_sv_iv_atomic_token_max_length_1_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_token_max_length_nistxml_sv_iv_atomic_token_max_length_1_5(mode, save_output):
+def test_atomic_token_max_length_nistxml_sv_iv_atomic_token_max_length_1_5(mode, save_output, output_format):
     """
     Type atomic/token is restricted by facet maxLength with value 0.
     """
@@ -9017,11 +9611,12 @@ def test_atomic_token_max_length_nistxml_sv_iv_atomic_token_max_length_1_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_white_space_1_nistxml_sv_iv_atomic_normalized_string_white_space_2_1(mode, save_output):
+def test_atomic_normalized_string_white_space_1_nistxml_sv_iv_atomic_normalized_string_white_space_2_1(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet whiteSpace with
     value collapse.
@@ -9033,11 +9628,12 @@ def test_atomic_normalized_string_white_space_1_nistxml_sv_iv_atomic_normalized_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_white_space_1_nistxml_sv_iv_atomic_normalized_string_white_space_2_2(mode, save_output):
+def test_atomic_normalized_string_white_space_1_nistxml_sv_iv_atomic_normalized_string_white_space_2_2(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet whiteSpace with
     value collapse.
@@ -9049,11 +9645,12 @@ def test_atomic_normalized_string_white_space_1_nistxml_sv_iv_atomic_normalized_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_white_space_1_nistxml_sv_iv_atomic_normalized_string_white_space_2_3(mode, save_output):
+def test_atomic_normalized_string_white_space_1_nistxml_sv_iv_atomic_normalized_string_white_space_2_3(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet whiteSpace with
     value collapse.
@@ -9065,11 +9662,12 @@ def test_atomic_normalized_string_white_space_1_nistxml_sv_iv_atomic_normalized_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_white_space_1_nistxml_sv_iv_atomic_normalized_string_white_space_2_4(mode, save_output):
+def test_atomic_normalized_string_white_space_1_nistxml_sv_iv_atomic_normalized_string_white_space_2_4(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet whiteSpace with
     value collapse.
@@ -9081,11 +9679,12 @@ def test_atomic_normalized_string_white_space_1_nistxml_sv_iv_atomic_normalized_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_white_space_1_nistxml_sv_iv_atomic_normalized_string_white_space_2_5(mode, save_output):
+def test_atomic_normalized_string_white_space_1_nistxml_sv_iv_atomic_normalized_string_white_space_2_5(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet whiteSpace with
     value collapse.
@@ -9097,11 +9696,12 @@ def test_atomic_normalized_string_white_space_1_nistxml_sv_iv_atomic_normalized_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_white_space_nistxml_sv_iv_atomic_normalized_string_white_space_1_1(mode, save_output):
+def test_atomic_normalized_string_white_space_nistxml_sv_iv_atomic_normalized_string_white_space_1_1(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet whiteSpace with
     value replace.
@@ -9113,11 +9713,12 @@ def test_atomic_normalized_string_white_space_nistxml_sv_iv_atomic_normalized_st
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_white_space_nistxml_sv_iv_atomic_normalized_string_white_space_1_2(mode, save_output):
+def test_atomic_normalized_string_white_space_nistxml_sv_iv_atomic_normalized_string_white_space_1_2(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet whiteSpace with
     value replace.
@@ -9129,11 +9730,12 @@ def test_atomic_normalized_string_white_space_nistxml_sv_iv_atomic_normalized_st
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_white_space_nistxml_sv_iv_atomic_normalized_string_white_space_1_3(mode, save_output):
+def test_atomic_normalized_string_white_space_nistxml_sv_iv_atomic_normalized_string_white_space_1_3(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet whiteSpace with
     value replace.
@@ -9145,11 +9747,12 @@ def test_atomic_normalized_string_white_space_nistxml_sv_iv_atomic_normalized_st
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_white_space_nistxml_sv_iv_atomic_normalized_string_white_space_1_4(mode, save_output):
+def test_atomic_normalized_string_white_space_nistxml_sv_iv_atomic_normalized_string_white_space_1_4(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet whiteSpace with
     value replace.
@@ -9161,11 +9764,12 @@ def test_atomic_normalized_string_white_space_nistxml_sv_iv_atomic_normalized_st
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_white_space_nistxml_sv_iv_atomic_normalized_string_white_space_1_5(mode, save_output):
+def test_atomic_normalized_string_white_space_nistxml_sv_iv_atomic_normalized_string_white_space_1_5(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet whiteSpace with
     value replace.
@@ -9177,11 +9781,12 @@ def test_atomic_normalized_string_white_space_nistxml_sv_iv_atomic_normalized_st
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_enumeration_4_nistxml_sv_iv_atomic_normalized_string_enumeration_5_1(mode, save_output):
+def test_atomic_normalized_string_enumeration_4_nistxml_sv_iv_atomic_normalized_string_enumeration_5_1(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet enumeration.
     """
@@ -9192,11 +9797,12 @@ def test_atomic_normalized_string_enumeration_4_nistxml_sv_iv_atomic_normalized_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_enumeration_4_nistxml_sv_iv_atomic_normalized_string_enumeration_5_2(mode, save_output):
+def test_atomic_normalized_string_enumeration_4_nistxml_sv_iv_atomic_normalized_string_enumeration_5_2(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet enumeration.
     """
@@ -9207,11 +9813,12 @@ def test_atomic_normalized_string_enumeration_4_nistxml_sv_iv_atomic_normalized_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_enumeration_4_nistxml_sv_iv_atomic_normalized_string_enumeration_5_3(mode, save_output):
+def test_atomic_normalized_string_enumeration_4_nistxml_sv_iv_atomic_normalized_string_enumeration_5_3(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet enumeration.
     """
@@ -9222,11 +9829,12 @@ def test_atomic_normalized_string_enumeration_4_nistxml_sv_iv_atomic_normalized_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_enumeration_4_nistxml_sv_iv_atomic_normalized_string_enumeration_5_4(mode, save_output):
+def test_atomic_normalized_string_enumeration_4_nistxml_sv_iv_atomic_normalized_string_enumeration_5_4(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet enumeration.
     """
@@ -9237,11 +9845,12 @@ def test_atomic_normalized_string_enumeration_4_nistxml_sv_iv_atomic_normalized_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_enumeration_4_nistxml_sv_iv_atomic_normalized_string_enumeration_5_5(mode, save_output):
+def test_atomic_normalized_string_enumeration_4_nistxml_sv_iv_atomic_normalized_string_enumeration_5_5(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet enumeration.
     """
@@ -9252,11 +9861,12 @@ def test_atomic_normalized_string_enumeration_4_nistxml_sv_iv_atomic_normalized_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_enumeration_3_nistxml_sv_iv_atomic_normalized_string_enumeration_4_1(mode, save_output):
+def test_atomic_normalized_string_enumeration_3_nistxml_sv_iv_atomic_normalized_string_enumeration_4_1(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet enumeration.
     """
@@ -9267,11 +9877,12 @@ def test_atomic_normalized_string_enumeration_3_nistxml_sv_iv_atomic_normalized_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_enumeration_3_nistxml_sv_iv_atomic_normalized_string_enumeration_4_2(mode, save_output):
+def test_atomic_normalized_string_enumeration_3_nistxml_sv_iv_atomic_normalized_string_enumeration_4_2(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet enumeration.
     """
@@ -9282,11 +9893,12 @@ def test_atomic_normalized_string_enumeration_3_nistxml_sv_iv_atomic_normalized_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_enumeration_3_nistxml_sv_iv_atomic_normalized_string_enumeration_4_3(mode, save_output):
+def test_atomic_normalized_string_enumeration_3_nistxml_sv_iv_atomic_normalized_string_enumeration_4_3(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet enumeration.
     """
@@ -9297,11 +9909,12 @@ def test_atomic_normalized_string_enumeration_3_nistxml_sv_iv_atomic_normalized_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_enumeration_3_nistxml_sv_iv_atomic_normalized_string_enumeration_4_4(mode, save_output):
+def test_atomic_normalized_string_enumeration_3_nistxml_sv_iv_atomic_normalized_string_enumeration_4_4(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet enumeration.
     """
@@ -9312,11 +9925,12 @@ def test_atomic_normalized_string_enumeration_3_nistxml_sv_iv_atomic_normalized_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_enumeration_3_nistxml_sv_iv_atomic_normalized_string_enumeration_4_5(mode, save_output):
+def test_atomic_normalized_string_enumeration_3_nistxml_sv_iv_atomic_normalized_string_enumeration_4_5(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet enumeration.
     """
@@ -9327,11 +9941,12 @@ def test_atomic_normalized_string_enumeration_3_nistxml_sv_iv_atomic_normalized_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_enumeration_2_nistxml_sv_iv_atomic_normalized_string_enumeration_3_1(mode, save_output):
+def test_atomic_normalized_string_enumeration_2_nistxml_sv_iv_atomic_normalized_string_enumeration_3_1(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet enumeration.
     """
@@ -9342,11 +9957,12 @@ def test_atomic_normalized_string_enumeration_2_nistxml_sv_iv_atomic_normalized_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_enumeration_2_nistxml_sv_iv_atomic_normalized_string_enumeration_3_2(mode, save_output):
+def test_atomic_normalized_string_enumeration_2_nistxml_sv_iv_atomic_normalized_string_enumeration_3_2(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet enumeration.
     """
@@ -9357,11 +9973,12 @@ def test_atomic_normalized_string_enumeration_2_nistxml_sv_iv_atomic_normalized_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_enumeration_2_nistxml_sv_iv_atomic_normalized_string_enumeration_3_3(mode, save_output):
+def test_atomic_normalized_string_enumeration_2_nistxml_sv_iv_atomic_normalized_string_enumeration_3_3(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet enumeration.
     """
@@ -9372,11 +9989,12 @@ def test_atomic_normalized_string_enumeration_2_nistxml_sv_iv_atomic_normalized_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_enumeration_2_nistxml_sv_iv_atomic_normalized_string_enumeration_3_4(mode, save_output):
+def test_atomic_normalized_string_enumeration_2_nistxml_sv_iv_atomic_normalized_string_enumeration_3_4(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet enumeration.
     """
@@ -9387,11 +10005,12 @@ def test_atomic_normalized_string_enumeration_2_nistxml_sv_iv_atomic_normalized_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_enumeration_2_nistxml_sv_iv_atomic_normalized_string_enumeration_3_5(mode, save_output):
+def test_atomic_normalized_string_enumeration_2_nistxml_sv_iv_atomic_normalized_string_enumeration_3_5(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet enumeration.
     """
@@ -9402,11 +10021,12 @@ def test_atomic_normalized_string_enumeration_2_nistxml_sv_iv_atomic_normalized_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_enumeration_1_nistxml_sv_iv_atomic_normalized_string_enumeration_2_1(mode, save_output):
+def test_atomic_normalized_string_enumeration_1_nistxml_sv_iv_atomic_normalized_string_enumeration_2_1(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet enumeration.
     """
@@ -9417,11 +10037,12 @@ def test_atomic_normalized_string_enumeration_1_nistxml_sv_iv_atomic_normalized_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_enumeration_1_nistxml_sv_iv_atomic_normalized_string_enumeration_2_2(mode, save_output):
+def test_atomic_normalized_string_enumeration_1_nistxml_sv_iv_atomic_normalized_string_enumeration_2_2(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet enumeration.
     """
@@ -9432,11 +10053,12 @@ def test_atomic_normalized_string_enumeration_1_nistxml_sv_iv_atomic_normalized_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_enumeration_1_nistxml_sv_iv_atomic_normalized_string_enumeration_2_3(mode, save_output):
+def test_atomic_normalized_string_enumeration_1_nistxml_sv_iv_atomic_normalized_string_enumeration_2_3(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet enumeration.
     """
@@ -9447,11 +10069,12 @@ def test_atomic_normalized_string_enumeration_1_nistxml_sv_iv_atomic_normalized_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_enumeration_1_nistxml_sv_iv_atomic_normalized_string_enumeration_2_4(mode, save_output):
+def test_atomic_normalized_string_enumeration_1_nistxml_sv_iv_atomic_normalized_string_enumeration_2_4(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet enumeration.
     """
@@ -9462,11 +10085,12 @@ def test_atomic_normalized_string_enumeration_1_nistxml_sv_iv_atomic_normalized_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_enumeration_1_nistxml_sv_iv_atomic_normalized_string_enumeration_2_5(mode, save_output):
+def test_atomic_normalized_string_enumeration_1_nistxml_sv_iv_atomic_normalized_string_enumeration_2_5(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet enumeration.
     """
@@ -9477,11 +10101,12 @@ def test_atomic_normalized_string_enumeration_1_nistxml_sv_iv_atomic_normalized_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_enumeration_nistxml_sv_iv_atomic_normalized_string_enumeration_1_1(mode, save_output):
+def test_atomic_normalized_string_enumeration_nistxml_sv_iv_atomic_normalized_string_enumeration_1_1(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet enumeration.
     """
@@ -9492,11 +10117,12 @@ def test_atomic_normalized_string_enumeration_nistxml_sv_iv_atomic_normalized_st
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_enumeration_nistxml_sv_iv_atomic_normalized_string_enumeration_1_2(mode, save_output):
+def test_atomic_normalized_string_enumeration_nistxml_sv_iv_atomic_normalized_string_enumeration_1_2(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet enumeration.
     """
@@ -9507,11 +10133,12 @@ def test_atomic_normalized_string_enumeration_nistxml_sv_iv_atomic_normalized_st
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_enumeration_nistxml_sv_iv_atomic_normalized_string_enumeration_1_3(mode, save_output):
+def test_atomic_normalized_string_enumeration_nistxml_sv_iv_atomic_normalized_string_enumeration_1_3(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet enumeration.
     """
@@ -9522,11 +10149,12 @@ def test_atomic_normalized_string_enumeration_nistxml_sv_iv_atomic_normalized_st
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_enumeration_nistxml_sv_iv_atomic_normalized_string_enumeration_1_4(mode, save_output):
+def test_atomic_normalized_string_enumeration_nistxml_sv_iv_atomic_normalized_string_enumeration_1_4(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet enumeration.
     """
@@ -9537,11 +10165,12 @@ def test_atomic_normalized_string_enumeration_nistxml_sv_iv_atomic_normalized_st
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_enumeration_nistxml_sv_iv_atomic_normalized_string_enumeration_1_5(mode, save_output):
+def test_atomic_normalized_string_enumeration_nistxml_sv_iv_atomic_normalized_string_enumeration_1_5(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet enumeration.
     """
@@ -9552,11 +10181,12 @@ def test_atomic_normalized_string_enumeration_nistxml_sv_iv_atomic_normalized_st
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_pattern_4_nistxml_sv_iv_atomic_normalized_string_pattern_5_1(mode, save_output):
+def test_atomic_normalized_string_pattern_4_nistxml_sv_iv_atomic_normalized_string_pattern_5_1(mode, save_output, output_format):
     r"""
     Type atomic/normalizedString is restricted by facet pattern with value
     \d{1,5}\s([A-Z][a-z]{1,20}\s){1}Street\s([A-Z][a-z]{1,20}\s){3},\s[A-
@@ -9569,11 +10199,12 @@ def test_atomic_normalized_string_pattern_4_nistxml_sv_iv_atomic_normalized_stri
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_pattern_4_nistxml_sv_iv_atomic_normalized_string_pattern_5_2(mode, save_output):
+def test_atomic_normalized_string_pattern_4_nistxml_sv_iv_atomic_normalized_string_pattern_5_2(mode, save_output, output_format):
     r"""
     Type atomic/normalizedString is restricted by facet pattern with value
     \d{1,5}\s([A-Z][a-z]{1,20}\s){1}Street\s([A-Z][a-z]{1,20}\s){3},\s[A-
@@ -9586,11 +10217,12 @@ def test_atomic_normalized_string_pattern_4_nistxml_sv_iv_atomic_normalized_stri
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_pattern_4_nistxml_sv_iv_atomic_normalized_string_pattern_5_3(mode, save_output):
+def test_atomic_normalized_string_pattern_4_nistxml_sv_iv_atomic_normalized_string_pattern_5_3(mode, save_output, output_format):
     r"""
     Type atomic/normalizedString is restricted by facet pattern with value
     \d{1,5}\s([A-Z][a-z]{1,20}\s){1}Street\s([A-Z][a-z]{1,20}\s){3},\s[A-
@@ -9603,11 +10235,12 @@ def test_atomic_normalized_string_pattern_4_nistxml_sv_iv_atomic_normalized_stri
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_pattern_4_nistxml_sv_iv_atomic_normalized_string_pattern_5_4(mode, save_output):
+def test_atomic_normalized_string_pattern_4_nistxml_sv_iv_atomic_normalized_string_pattern_5_4(mode, save_output, output_format):
     r"""
     Type atomic/normalizedString is restricted by facet pattern with value
     \d{1,5}\s([A-Z][a-z]{1,20}\s){1}Street\s([A-Z][a-z]{1,20}\s){3},\s[A-
@@ -9620,11 +10253,12 @@ def test_atomic_normalized_string_pattern_4_nistxml_sv_iv_atomic_normalized_stri
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_pattern_4_nistxml_sv_iv_atomic_normalized_string_pattern_5_5(mode, save_output):
+def test_atomic_normalized_string_pattern_4_nistxml_sv_iv_atomic_normalized_string_pattern_5_5(mode, save_output, output_format):
     r"""
     Type atomic/normalizedString is restricted by facet pattern with value
     \d{1,5}\s([A-Z][a-z]{1,20}\s){1}Street\s([A-Z][a-z]{1,20}\s){3},\s[A-
@@ -9637,11 +10271,12 @@ def test_atomic_normalized_string_pattern_4_nistxml_sv_iv_atomic_normalized_stri
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_pattern_3_nistxml_sv_iv_atomic_normalized_string_pattern_4_1(mode, save_output):
+def test_atomic_normalized_string_pattern_3_nistxml_sv_iv_atomic_normalized_string_pattern_4_1(mode, save_output, output_format):
     r"""
     Type atomic/normalizedString is restricted by facet pattern with value
     \d{1,5}\s([A-Z][a-z]{1,20}\s){1}Street\s([A-Z][a-z]{1,20}\s){1},\s[A-
@@ -9654,11 +10289,12 @@ def test_atomic_normalized_string_pattern_3_nistxml_sv_iv_atomic_normalized_stri
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_pattern_3_nistxml_sv_iv_atomic_normalized_string_pattern_4_2(mode, save_output):
+def test_atomic_normalized_string_pattern_3_nistxml_sv_iv_atomic_normalized_string_pattern_4_2(mode, save_output, output_format):
     r"""
     Type atomic/normalizedString is restricted by facet pattern with value
     \d{1,5}\s([A-Z][a-z]{1,20}\s){1}Street\s([A-Z][a-z]{1,20}\s){1},\s[A-
@@ -9671,11 +10307,12 @@ def test_atomic_normalized_string_pattern_3_nistxml_sv_iv_atomic_normalized_stri
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_pattern_3_nistxml_sv_iv_atomic_normalized_string_pattern_4_3(mode, save_output):
+def test_atomic_normalized_string_pattern_3_nistxml_sv_iv_atomic_normalized_string_pattern_4_3(mode, save_output, output_format):
     r"""
     Type atomic/normalizedString is restricted by facet pattern with value
     \d{1,5}\s([A-Z][a-z]{1,20}\s){1}Street\s([A-Z][a-z]{1,20}\s){1},\s[A-
@@ -9688,11 +10325,12 @@ def test_atomic_normalized_string_pattern_3_nistxml_sv_iv_atomic_normalized_stri
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_pattern_3_nistxml_sv_iv_atomic_normalized_string_pattern_4_4(mode, save_output):
+def test_atomic_normalized_string_pattern_3_nistxml_sv_iv_atomic_normalized_string_pattern_4_4(mode, save_output, output_format):
     r"""
     Type atomic/normalizedString is restricted by facet pattern with value
     \d{1,5}\s([A-Z][a-z]{1,20}\s){1}Street\s([A-Z][a-z]{1,20}\s){1},\s[A-
@@ -9705,11 +10343,12 @@ def test_atomic_normalized_string_pattern_3_nistxml_sv_iv_atomic_normalized_stri
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_pattern_3_nistxml_sv_iv_atomic_normalized_string_pattern_4_5(mode, save_output):
+def test_atomic_normalized_string_pattern_3_nistxml_sv_iv_atomic_normalized_string_pattern_4_5(mode, save_output, output_format):
     r"""
     Type atomic/normalizedString is restricted by facet pattern with value
     \d{1,5}\s([A-Z][a-z]{1,20}\s){1}Street\s([A-Z][a-z]{1,20}\s){1},\s[A-
@@ -9722,11 +10361,12 @@ def test_atomic_normalized_string_pattern_3_nistxml_sv_iv_atomic_normalized_stri
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_pattern_2_nistxml_sv_iv_atomic_normalized_string_pattern_3_1(mode, save_output):
+def test_atomic_normalized_string_pattern_2_nistxml_sv_iv_atomic_normalized_string_pattern_3_1(mode, save_output, output_format):
     r"""
     Type atomic/normalizedString is restricted by facet pattern with value
     \d{1,5}\s([A-Z][a-z]{1,20}\s){4}Street\s([A-Z][a-z]{1,20}\s){3},\s[A-
@@ -9739,11 +10379,12 @@ def test_atomic_normalized_string_pattern_2_nistxml_sv_iv_atomic_normalized_stri
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_pattern_2_nistxml_sv_iv_atomic_normalized_string_pattern_3_2(mode, save_output):
+def test_atomic_normalized_string_pattern_2_nistxml_sv_iv_atomic_normalized_string_pattern_3_2(mode, save_output, output_format):
     r"""
     Type atomic/normalizedString is restricted by facet pattern with value
     \d{1,5}\s([A-Z][a-z]{1,20}\s){4}Street\s([A-Z][a-z]{1,20}\s){3},\s[A-
@@ -9756,11 +10397,12 @@ def test_atomic_normalized_string_pattern_2_nistxml_sv_iv_atomic_normalized_stri
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_pattern_2_nistxml_sv_iv_atomic_normalized_string_pattern_3_3(mode, save_output):
+def test_atomic_normalized_string_pattern_2_nistxml_sv_iv_atomic_normalized_string_pattern_3_3(mode, save_output, output_format):
     r"""
     Type atomic/normalizedString is restricted by facet pattern with value
     \d{1,5}\s([A-Z][a-z]{1,20}\s){4}Street\s([A-Z][a-z]{1,20}\s){3},\s[A-
@@ -9773,11 +10415,12 @@ def test_atomic_normalized_string_pattern_2_nistxml_sv_iv_atomic_normalized_stri
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_pattern_2_nistxml_sv_iv_atomic_normalized_string_pattern_3_4(mode, save_output):
+def test_atomic_normalized_string_pattern_2_nistxml_sv_iv_atomic_normalized_string_pattern_3_4(mode, save_output, output_format):
     r"""
     Type atomic/normalizedString is restricted by facet pattern with value
     \d{1,5}\s([A-Z][a-z]{1,20}\s){4}Street\s([A-Z][a-z]{1,20}\s){3},\s[A-
@@ -9790,11 +10433,12 @@ def test_atomic_normalized_string_pattern_2_nistxml_sv_iv_atomic_normalized_stri
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_pattern_2_nistxml_sv_iv_atomic_normalized_string_pattern_3_5(mode, save_output):
+def test_atomic_normalized_string_pattern_2_nistxml_sv_iv_atomic_normalized_string_pattern_3_5(mode, save_output, output_format):
     r"""
     Type atomic/normalizedString is restricted by facet pattern with value
     \d{1,5}\s([A-Z][a-z]{1,20}\s){4}Street\s([A-Z][a-z]{1,20}\s){3},\s[A-
@@ -9807,11 +10451,12 @@ def test_atomic_normalized_string_pattern_2_nistxml_sv_iv_atomic_normalized_stri
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_pattern_1_nistxml_sv_iv_atomic_normalized_string_pattern_2_1(mode, save_output):
+def test_atomic_normalized_string_pattern_1_nistxml_sv_iv_atomic_normalized_string_pattern_2_1(mode, save_output, output_format):
     r"""
     Type atomic/normalizedString is restricted by facet pattern with value
     \d{1,5}\s([A-Z][a-z]{1,20}\s){4}Street\s([A-Z][a-z]{1,20}\s){2},\s[A-
@@ -9824,11 +10469,12 @@ def test_atomic_normalized_string_pattern_1_nistxml_sv_iv_atomic_normalized_stri
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_pattern_1_nistxml_sv_iv_atomic_normalized_string_pattern_2_2(mode, save_output):
+def test_atomic_normalized_string_pattern_1_nistxml_sv_iv_atomic_normalized_string_pattern_2_2(mode, save_output, output_format):
     r"""
     Type atomic/normalizedString is restricted by facet pattern with value
     \d{1,5}\s([A-Z][a-z]{1,20}\s){4}Street\s([A-Z][a-z]{1,20}\s){2},\s[A-
@@ -9841,11 +10487,12 @@ def test_atomic_normalized_string_pattern_1_nistxml_sv_iv_atomic_normalized_stri
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_pattern_1_nistxml_sv_iv_atomic_normalized_string_pattern_2_3(mode, save_output):
+def test_atomic_normalized_string_pattern_1_nistxml_sv_iv_atomic_normalized_string_pattern_2_3(mode, save_output, output_format):
     r"""
     Type atomic/normalizedString is restricted by facet pattern with value
     \d{1,5}\s([A-Z][a-z]{1,20}\s){4}Street\s([A-Z][a-z]{1,20}\s){2},\s[A-
@@ -9858,11 +10505,12 @@ def test_atomic_normalized_string_pattern_1_nistxml_sv_iv_atomic_normalized_stri
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_pattern_1_nistxml_sv_iv_atomic_normalized_string_pattern_2_4(mode, save_output):
+def test_atomic_normalized_string_pattern_1_nistxml_sv_iv_atomic_normalized_string_pattern_2_4(mode, save_output, output_format):
     r"""
     Type atomic/normalizedString is restricted by facet pattern with value
     \d{1,5}\s([A-Z][a-z]{1,20}\s){4}Street\s([A-Z][a-z]{1,20}\s){2},\s[A-
@@ -9875,11 +10523,12 @@ def test_atomic_normalized_string_pattern_1_nistxml_sv_iv_atomic_normalized_stri
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_pattern_1_nistxml_sv_iv_atomic_normalized_string_pattern_2_5(mode, save_output):
+def test_atomic_normalized_string_pattern_1_nistxml_sv_iv_atomic_normalized_string_pattern_2_5(mode, save_output, output_format):
     r"""
     Type atomic/normalizedString is restricted by facet pattern with value
     \d{1,5}\s([A-Z][a-z]{1,20}\s){4}Street\s([A-Z][a-z]{1,20}\s){2},\s[A-
@@ -9892,11 +10541,12 @@ def test_atomic_normalized_string_pattern_1_nistxml_sv_iv_atomic_normalized_stri
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_pattern_nistxml_sv_iv_atomic_normalized_string_pattern_1_1(mode, save_output):
+def test_atomic_normalized_string_pattern_nistxml_sv_iv_atomic_normalized_string_pattern_1_1(mode, save_output, output_format):
     r"""
     Type atomic/normalizedString is restricted by facet pattern with value
     \d{1,5}\s([A-Z][a-z]{1,20}\s){4}Street\s([A-Z][a-z]{1,20}\s){1},\s[A-
@@ -9909,11 +10559,12 @@ def test_atomic_normalized_string_pattern_nistxml_sv_iv_atomic_normalized_string
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_pattern_nistxml_sv_iv_atomic_normalized_string_pattern_1_2(mode, save_output):
+def test_atomic_normalized_string_pattern_nistxml_sv_iv_atomic_normalized_string_pattern_1_2(mode, save_output, output_format):
     r"""
     Type atomic/normalizedString is restricted by facet pattern with value
     \d{1,5}\s([A-Z][a-z]{1,20}\s){4}Street\s([A-Z][a-z]{1,20}\s){1},\s[A-
@@ -9926,11 +10577,12 @@ def test_atomic_normalized_string_pattern_nistxml_sv_iv_atomic_normalized_string
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_pattern_nistxml_sv_iv_atomic_normalized_string_pattern_1_3(mode, save_output):
+def test_atomic_normalized_string_pattern_nistxml_sv_iv_atomic_normalized_string_pattern_1_3(mode, save_output, output_format):
     r"""
     Type atomic/normalizedString is restricted by facet pattern with value
     \d{1,5}\s([A-Z][a-z]{1,20}\s){4}Street\s([A-Z][a-z]{1,20}\s){1},\s[A-
@@ -9943,11 +10595,12 @@ def test_atomic_normalized_string_pattern_nistxml_sv_iv_atomic_normalized_string
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_pattern_nistxml_sv_iv_atomic_normalized_string_pattern_1_4(mode, save_output):
+def test_atomic_normalized_string_pattern_nistxml_sv_iv_atomic_normalized_string_pattern_1_4(mode, save_output, output_format):
     r"""
     Type atomic/normalizedString is restricted by facet pattern with value
     \d{1,5}\s([A-Z][a-z]{1,20}\s){4}Street\s([A-Z][a-z]{1,20}\s){1},\s[A-
@@ -9960,11 +10613,12 @@ def test_atomic_normalized_string_pattern_nistxml_sv_iv_atomic_normalized_string
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_pattern_nistxml_sv_iv_atomic_normalized_string_pattern_1_5(mode, save_output):
+def test_atomic_normalized_string_pattern_nistxml_sv_iv_atomic_normalized_string_pattern_1_5(mode, save_output, output_format):
     r"""
     Type atomic/normalizedString is restricted by facet pattern with value
     \d{1,5}\s([A-Z][a-z]{1,20}\s){4}Street\s([A-Z][a-z]{1,20}\s){1},\s[A-
@@ -9977,11 +10631,12 @@ def test_atomic_normalized_string_pattern_nistxml_sv_iv_atomic_normalized_string
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_length_4_nistxml_sv_iv_atomic_normalized_string_length_5_1(mode, save_output):
+def test_atomic_normalized_string_length_4_nistxml_sv_iv_atomic_normalized_string_length_5_1(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet length with value
     1000.
@@ -9993,11 +10648,12 @@ def test_atomic_normalized_string_length_4_nistxml_sv_iv_atomic_normalized_strin
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_length_4_nistxml_sv_iv_atomic_normalized_string_length_5_2(mode, save_output):
+def test_atomic_normalized_string_length_4_nistxml_sv_iv_atomic_normalized_string_length_5_2(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet length with value
     1000.
@@ -10009,11 +10665,12 @@ def test_atomic_normalized_string_length_4_nistxml_sv_iv_atomic_normalized_strin
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_length_4_nistxml_sv_iv_atomic_normalized_string_length_5_3(mode, save_output):
+def test_atomic_normalized_string_length_4_nistxml_sv_iv_atomic_normalized_string_length_5_3(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet length with value
     1000.
@@ -10025,11 +10682,12 @@ def test_atomic_normalized_string_length_4_nistxml_sv_iv_atomic_normalized_strin
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_length_4_nistxml_sv_iv_atomic_normalized_string_length_5_4(mode, save_output):
+def test_atomic_normalized_string_length_4_nistxml_sv_iv_atomic_normalized_string_length_5_4(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet length with value
     1000.
@@ -10041,11 +10699,12 @@ def test_atomic_normalized_string_length_4_nistxml_sv_iv_atomic_normalized_strin
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_length_4_nistxml_sv_iv_atomic_normalized_string_length_5_5(mode, save_output):
+def test_atomic_normalized_string_length_4_nistxml_sv_iv_atomic_normalized_string_length_5_5(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet length with value
     1000.
@@ -10057,11 +10716,12 @@ def test_atomic_normalized_string_length_4_nistxml_sv_iv_atomic_normalized_strin
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_length_3_nistxml_sv_iv_atomic_normalized_string_length_4_1(mode, save_output):
+def test_atomic_normalized_string_length_3_nistxml_sv_iv_atomic_normalized_string_length_4_1(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet length with value
     645.
@@ -10073,11 +10733,12 @@ def test_atomic_normalized_string_length_3_nistxml_sv_iv_atomic_normalized_strin
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_length_3_nistxml_sv_iv_atomic_normalized_string_length_4_2(mode, save_output):
+def test_atomic_normalized_string_length_3_nistxml_sv_iv_atomic_normalized_string_length_4_2(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet length with value
     645.
@@ -10089,11 +10750,12 @@ def test_atomic_normalized_string_length_3_nistxml_sv_iv_atomic_normalized_strin
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_length_3_nistxml_sv_iv_atomic_normalized_string_length_4_3(mode, save_output):
+def test_atomic_normalized_string_length_3_nistxml_sv_iv_atomic_normalized_string_length_4_3(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet length with value
     645.
@@ -10105,11 +10767,12 @@ def test_atomic_normalized_string_length_3_nistxml_sv_iv_atomic_normalized_strin
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_length_3_nistxml_sv_iv_atomic_normalized_string_length_4_4(mode, save_output):
+def test_atomic_normalized_string_length_3_nistxml_sv_iv_atomic_normalized_string_length_4_4(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet length with value
     645.
@@ -10121,11 +10784,12 @@ def test_atomic_normalized_string_length_3_nistxml_sv_iv_atomic_normalized_strin
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_length_3_nistxml_sv_iv_atomic_normalized_string_length_4_5(mode, save_output):
+def test_atomic_normalized_string_length_3_nistxml_sv_iv_atomic_normalized_string_length_4_5(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet length with value
     645.
@@ -10137,11 +10801,12 @@ def test_atomic_normalized_string_length_3_nistxml_sv_iv_atomic_normalized_strin
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_length_2_nistxml_sv_iv_atomic_normalized_string_length_3_1(mode, save_output):
+def test_atomic_normalized_string_length_2_nistxml_sv_iv_atomic_normalized_string_length_3_1(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet length with value
     916.
@@ -10153,11 +10818,12 @@ def test_atomic_normalized_string_length_2_nistxml_sv_iv_atomic_normalized_strin
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_length_2_nistxml_sv_iv_atomic_normalized_string_length_3_2(mode, save_output):
+def test_atomic_normalized_string_length_2_nistxml_sv_iv_atomic_normalized_string_length_3_2(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet length with value
     916.
@@ -10169,11 +10835,12 @@ def test_atomic_normalized_string_length_2_nistxml_sv_iv_atomic_normalized_strin
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_length_2_nistxml_sv_iv_atomic_normalized_string_length_3_3(mode, save_output):
+def test_atomic_normalized_string_length_2_nistxml_sv_iv_atomic_normalized_string_length_3_3(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet length with value
     916.
@@ -10185,11 +10852,12 @@ def test_atomic_normalized_string_length_2_nistxml_sv_iv_atomic_normalized_strin
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_length_2_nistxml_sv_iv_atomic_normalized_string_length_3_4(mode, save_output):
+def test_atomic_normalized_string_length_2_nistxml_sv_iv_atomic_normalized_string_length_3_4(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet length with value
     916.
@@ -10201,11 +10869,12 @@ def test_atomic_normalized_string_length_2_nistxml_sv_iv_atomic_normalized_strin
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_length_2_nistxml_sv_iv_atomic_normalized_string_length_3_5(mode, save_output):
+def test_atomic_normalized_string_length_2_nistxml_sv_iv_atomic_normalized_string_length_3_5(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet length with value
     916.
@@ -10217,11 +10886,12 @@ def test_atomic_normalized_string_length_2_nistxml_sv_iv_atomic_normalized_strin
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_length_1_nistxml_sv_iv_atomic_normalized_string_length_2_1(mode, save_output):
+def test_atomic_normalized_string_length_1_nistxml_sv_iv_atomic_normalized_string_length_2_1(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet length with value
     625.
@@ -10233,11 +10903,12 @@ def test_atomic_normalized_string_length_1_nistxml_sv_iv_atomic_normalized_strin
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_length_1_nistxml_sv_iv_atomic_normalized_string_length_2_2(mode, save_output):
+def test_atomic_normalized_string_length_1_nistxml_sv_iv_atomic_normalized_string_length_2_2(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet length with value
     625.
@@ -10249,11 +10920,12 @@ def test_atomic_normalized_string_length_1_nistxml_sv_iv_atomic_normalized_strin
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_length_1_nistxml_sv_iv_atomic_normalized_string_length_2_3(mode, save_output):
+def test_atomic_normalized_string_length_1_nistxml_sv_iv_atomic_normalized_string_length_2_3(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet length with value
     625.
@@ -10265,11 +10937,12 @@ def test_atomic_normalized_string_length_1_nistxml_sv_iv_atomic_normalized_strin
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_length_1_nistxml_sv_iv_atomic_normalized_string_length_2_4(mode, save_output):
+def test_atomic_normalized_string_length_1_nistxml_sv_iv_atomic_normalized_string_length_2_4(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet length with value
     625.
@@ -10281,11 +10954,12 @@ def test_atomic_normalized_string_length_1_nistxml_sv_iv_atomic_normalized_strin
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_length_1_nistxml_sv_iv_atomic_normalized_string_length_2_5(mode, save_output):
+def test_atomic_normalized_string_length_1_nistxml_sv_iv_atomic_normalized_string_length_2_5(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet length with value
     625.
@@ -10297,11 +10971,12 @@ def test_atomic_normalized_string_length_1_nistxml_sv_iv_atomic_normalized_strin
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_length_nistxml_sv_iv_atomic_normalized_string_length_1_1(mode, save_output):
+def test_atomic_normalized_string_length_nistxml_sv_iv_atomic_normalized_string_length_1_1(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet length with value
     0.
@@ -10313,11 +10988,12 @@ def test_atomic_normalized_string_length_nistxml_sv_iv_atomic_normalized_string_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_length_nistxml_sv_iv_atomic_normalized_string_length_1_2(mode, save_output):
+def test_atomic_normalized_string_length_nistxml_sv_iv_atomic_normalized_string_length_1_2(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet length with value
     0.
@@ -10329,11 +11005,12 @@ def test_atomic_normalized_string_length_nistxml_sv_iv_atomic_normalized_string_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_length_nistxml_sv_iv_atomic_normalized_string_length_1_3(mode, save_output):
+def test_atomic_normalized_string_length_nistxml_sv_iv_atomic_normalized_string_length_1_3(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet length with value
     0.
@@ -10345,11 +11022,12 @@ def test_atomic_normalized_string_length_nistxml_sv_iv_atomic_normalized_string_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_length_nistxml_sv_iv_atomic_normalized_string_length_1_4(mode, save_output):
+def test_atomic_normalized_string_length_nistxml_sv_iv_atomic_normalized_string_length_1_4(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet length with value
     0.
@@ -10361,11 +11039,12 @@ def test_atomic_normalized_string_length_nistxml_sv_iv_atomic_normalized_string_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_length_nistxml_sv_iv_atomic_normalized_string_length_1_5(mode, save_output):
+def test_atomic_normalized_string_length_nistxml_sv_iv_atomic_normalized_string_length_1_5(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet length with value
     0.
@@ -10377,11 +11056,12 @@ def test_atomic_normalized_string_length_nistxml_sv_iv_atomic_normalized_string_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_min_length_4_nistxml_sv_iv_atomic_normalized_string_min_length_5_1(mode, save_output):
+def test_atomic_normalized_string_min_length_4_nistxml_sv_iv_atomic_normalized_string_min_length_5_1(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet minLength with
     value 1000.
@@ -10393,11 +11073,12 @@ def test_atomic_normalized_string_min_length_4_nistxml_sv_iv_atomic_normalized_s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_min_length_4_nistxml_sv_iv_atomic_normalized_string_min_length_5_2(mode, save_output):
+def test_atomic_normalized_string_min_length_4_nistxml_sv_iv_atomic_normalized_string_min_length_5_2(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet minLength with
     value 1000.
@@ -10409,11 +11090,12 @@ def test_atomic_normalized_string_min_length_4_nistxml_sv_iv_atomic_normalized_s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_min_length_4_nistxml_sv_iv_atomic_normalized_string_min_length_5_3(mode, save_output):
+def test_atomic_normalized_string_min_length_4_nistxml_sv_iv_atomic_normalized_string_min_length_5_3(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet minLength with
     value 1000.
@@ -10425,11 +11107,12 @@ def test_atomic_normalized_string_min_length_4_nistxml_sv_iv_atomic_normalized_s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_min_length_4_nistxml_sv_iv_atomic_normalized_string_min_length_5_4(mode, save_output):
+def test_atomic_normalized_string_min_length_4_nistxml_sv_iv_atomic_normalized_string_min_length_5_4(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet minLength with
     value 1000.
@@ -10441,11 +11124,12 @@ def test_atomic_normalized_string_min_length_4_nistxml_sv_iv_atomic_normalized_s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_min_length_4_nistxml_sv_iv_atomic_normalized_string_min_length_5_5(mode, save_output):
+def test_atomic_normalized_string_min_length_4_nistxml_sv_iv_atomic_normalized_string_min_length_5_5(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet minLength with
     value 1000.
@@ -10457,11 +11141,12 @@ def test_atomic_normalized_string_min_length_4_nistxml_sv_iv_atomic_normalized_s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_min_length_3_nistxml_sv_iv_atomic_normalized_string_min_length_4_1(mode, save_output):
+def test_atomic_normalized_string_min_length_3_nistxml_sv_iv_atomic_normalized_string_min_length_4_1(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet minLength with
     value 74.
@@ -10473,11 +11158,12 @@ def test_atomic_normalized_string_min_length_3_nistxml_sv_iv_atomic_normalized_s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_min_length_3_nistxml_sv_iv_atomic_normalized_string_min_length_4_2(mode, save_output):
+def test_atomic_normalized_string_min_length_3_nistxml_sv_iv_atomic_normalized_string_min_length_4_2(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet minLength with
     value 74.
@@ -10489,11 +11175,12 @@ def test_atomic_normalized_string_min_length_3_nistxml_sv_iv_atomic_normalized_s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_min_length_3_nistxml_sv_iv_atomic_normalized_string_min_length_4_3(mode, save_output):
+def test_atomic_normalized_string_min_length_3_nistxml_sv_iv_atomic_normalized_string_min_length_4_3(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet minLength with
     value 74.
@@ -10505,11 +11192,12 @@ def test_atomic_normalized_string_min_length_3_nistxml_sv_iv_atomic_normalized_s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_min_length_3_nistxml_sv_iv_atomic_normalized_string_min_length_4_4(mode, save_output):
+def test_atomic_normalized_string_min_length_3_nistxml_sv_iv_atomic_normalized_string_min_length_4_4(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet minLength with
     value 74.
@@ -10521,11 +11209,12 @@ def test_atomic_normalized_string_min_length_3_nistxml_sv_iv_atomic_normalized_s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_min_length_3_nistxml_sv_iv_atomic_normalized_string_min_length_4_5(mode, save_output):
+def test_atomic_normalized_string_min_length_3_nistxml_sv_iv_atomic_normalized_string_min_length_4_5(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet minLength with
     value 74.
@@ -10537,11 +11226,12 @@ def test_atomic_normalized_string_min_length_3_nistxml_sv_iv_atomic_normalized_s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_min_length_2_nistxml_sv_iv_atomic_normalized_string_min_length_3_1(mode, save_output):
+def test_atomic_normalized_string_min_length_2_nistxml_sv_iv_atomic_normalized_string_min_length_3_1(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet minLength with
     value 628.
@@ -10553,11 +11243,12 @@ def test_atomic_normalized_string_min_length_2_nistxml_sv_iv_atomic_normalized_s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_min_length_2_nistxml_sv_iv_atomic_normalized_string_min_length_3_2(mode, save_output):
+def test_atomic_normalized_string_min_length_2_nistxml_sv_iv_atomic_normalized_string_min_length_3_2(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet minLength with
     value 628.
@@ -10569,11 +11260,12 @@ def test_atomic_normalized_string_min_length_2_nistxml_sv_iv_atomic_normalized_s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_min_length_2_nistxml_sv_iv_atomic_normalized_string_min_length_3_3(mode, save_output):
+def test_atomic_normalized_string_min_length_2_nistxml_sv_iv_atomic_normalized_string_min_length_3_3(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet minLength with
     value 628.
@@ -10585,11 +11277,12 @@ def test_atomic_normalized_string_min_length_2_nistxml_sv_iv_atomic_normalized_s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_min_length_2_nistxml_sv_iv_atomic_normalized_string_min_length_3_4(mode, save_output):
+def test_atomic_normalized_string_min_length_2_nistxml_sv_iv_atomic_normalized_string_min_length_3_4(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet minLength with
     value 628.
@@ -10601,11 +11294,12 @@ def test_atomic_normalized_string_min_length_2_nistxml_sv_iv_atomic_normalized_s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_min_length_2_nistxml_sv_iv_atomic_normalized_string_min_length_3_5(mode, save_output):
+def test_atomic_normalized_string_min_length_2_nistxml_sv_iv_atomic_normalized_string_min_length_3_5(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet minLength with
     value 628.
@@ -10617,11 +11311,12 @@ def test_atomic_normalized_string_min_length_2_nistxml_sv_iv_atomic_normalized_s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_min_length_1_nistxml_sv_iv_atomic_normalized_string_min_length_2_1(mode, save_output):
+def test_atomic_normalized_string_min_length_1_nistxml_sv_iv_atomic_normalized_string_min_length_2_1(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet minLength with
     value 139.
@@ -10633,11 +11328,12 @@ def test_atomic_normalized_string_min_length_1_nistxml_sv_iv_atomic_normalized_s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_min_length_1_nistxml_sv_iv_atomic_normalized_string_min_length_2_2(mode, save_output):
+def test_atomic_normalized_string_min_length_1_nistxml_sv_iv_atomic_normalized_string_min_length_2_2(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet minLength with
     value 139.
@@ -10649,11 +11345,12 @@ def test_atomic_normalized_string_min_length_1_nistxml_sv_iv_atomic_normalized_s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_min_length_1_nistxml_sv_iv_atomic_normalized_string_min_length_2_3(mode, save_output):
+def test_atomic_normalized_string_min_length_1_nistxml_sv_iv_atomic_normalized_string_min_length_2_3(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet minLength with
     value 139.
@@ -10665,11 +11362,12 @@ def test_atomic_normalized_string_min_length_1_nistxml_sv_iv_atomic_normalized_s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_min_length_1_nistxml_sv_iv_atomic_normalized_string_min_length_2_4(mode, save_output):
+def test_atomic_normalized_string_min_length_1_nistxml_sv_iv_atomic_normalized_string_min_length_2_4(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet minLength with
     value 139.
@@ -10681,11 +11379,12 @@ def test_atomic_normalized_string_min_length_1_nistxml_sv_iv_atomic_normalized_s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_min_length_1_nistxml_sv_iv_atomic_normalized_string_min_length_2_5(mode, save_output):
+def test_atomic_normalized_string_min_length_1_nistxml_sv_iv_atomic_normalized_string_min_length_2_5(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet minLength with
     value 139.
@@ -10697,11 +11396,12 @@ def test_atomic_normalized_string_min_length_1_nistxml_sv_iv_atomic_normalized_s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_min_length_nistxml_sv_iv_atomic_normalized_string_min_length_1_1(mode, save_output):
+def test_atomic_normalized_string_min_length_nistxml_sv_iv_atomic_normalized_string_min_length_1_1(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet minLength with
     value 0.
@@ -10713,11 +11413,12 @@ def test_atomic_normalized_string_min_length_nistxml_sv_iv_atomic_normalized_str
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_min_length_nistxml_sv_iv_atomic_normalized_string_min_length_1_2(mode, save_output):
+def test_atomic_normalized_string_min_length_nistxml_sv_iv_atomic_normalized_string_min_length_1_2(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet minLength with
     value 0.
@@ -10729,11 +11430,12 @@ def test_atomic_normalized_string_min_length_nistxml_sv_iv_atomic_normalized_str
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_min_length_nistxml_sv_iv_atomic_normalized_string_min_length_1_3(mode, save_output):
+def test_atomic_normalized_string_min_length_nistxml_sv_iv_atomic_normalized_string_min_length_1_3(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet minLength with
     value 0.
@@ -10745,11 +11447,12 @@ def test_atomic_normalized_string_min_length_nistxml_sv_iv_atomic_normalized_str
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_min_length_nistxml_sv_iv_atomic_normalized_string_min_length_1_4(mode, save_output):
+def test_atomic_normalized_string_min_length_nistxml_sv_iv_atomic_normalized_string_min_length_1_4(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet minLength with
     value 0.
@@ -10761,11 +11464,12 @@ def test_atomic_normalized_string_min_length_nistxml_sv_iv_atomic_normalized_str
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_min_length_nistxml_sv_iv_atomic_normalized_string_min_length_1_5(mode, save_output):
+def test_atomic_normalized_string_min_length_nistxml_sv_iv_atomic_normalized_string_min_length_1_5(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet minLength with
     value 0.
@@ -10777,11 +11481,12 @@ def test_atomic_normalized_string_min_length_nistxml_sv_iv_atomic_normalized_str
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_max_length_4_nistxml_sv_iv_atomic_normalized_string_max_length_5_1(mode, save_output):
+def test_atomic_normalized_string_max_length_4_nistxml_sv_iv_atomic_normalized_string_max_length_5_1(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet maxLength with
     value 1000.
@@ -10793,11 +11498,12 @@ def test_atomic_normalized_string_max_length_4_nistxml_sv_iv_atomic_normalized_s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_max_length_4_nistxml_sv_iv_atomic_normalized_string_max_length_5_2(mode, save_output):
+def test_atomic_normalized_string_max_length_4_nistxml_sv_iv_atomic_normalized_string_max_length_5_2(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet maxLength with
     value 1000.
@@ -10809,11 +11515,12 @@ def test_atomic_normalized_string_max_length_4_nistxml_sv_iv_atomic_normalized_s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_max_length_4_nistxml_sv_iv_atomic_normalized_string_max_length_5_3(mode, save_output):
+def test_atomic_normalized_string_max_length_4_nistxml_sv_iv_atomic_normalized_string_max_length_5_3(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet maxLength with
     value 1000.
@@ -10825,11 +11532,12 @@ def test_atomic_normalized_string_max_length_4_nistxml_sv_iv_atomic_normalized_s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_max_length_4_nistxml_sv_iv_atomic_normalized_string_max_length_5_4(mode, save_output):
+def test_atomic_normalized_string_max_length_4_nistxml_sv_iv_atomic_normalized_string_max_length_5_4(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet maxLength with
     value 1000.
@@ -10841,11 +11549,12 @@ def test_atomic_normalized_string_max_length_4_nistxml_sv_iv_atomic_normalized_s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_max_length_4_nistxml_sv_iv_atomic_normalized_string_max_length_5_5(mode, save_output):
+def test_atomic_normalized_string_max_length_4_nistxml_sv_iv_atomic_normalized_string_max_length_5_5(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet maxLength with
     value 1000.
@@ -10857,11 +11566,12 @@ def test_atomic_normalized_string_max_length_4_nistxml_sv_iv_atomic_normalized_s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_max_length_3_nistxml_sv_iv_atomic_normalized_string_max_length_4_1(mode, save_output):
+def test_atomic_normalized_string_max_length_3_nistxml_sv_iv_atomic_normalized_string_max_length_4_1(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet maxLength with
     value 266.
@@ -10873,11 +11583,12 @@ def test_atomic_normalized_string_max_length_3_nistxml_sv_iv_atomic_normalized_s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_max_length_3_nistxml_sv_iv_atomic_normalized_string_max_length_4_2(mode, save_output):
+def test_atomic_normalized_string_max_length_3_nistxml_sv_iv_atomic_normalized_string_max_length_4_2(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet maxLength with
     value 266.
@@ -10889,11 +11600,12 @@ def test_atomic_normalized_string_max_length_3_nistxml_sv_iv_atomic_normalized_s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_max_length_3_nistxml_sv_iv_atomic_normalized_string_max_length_4_3(mode, save_output):
+def test_atomic_normalized_string_max_length_3_nistxml_sv_iv_atomic_normalized_string_max_length_4_3(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet maxLength with
     value 266.
@@ -10905,11 +11617,12 @@ def test_atomic_normalized_string_max_length_3_nistxml_sv_iv_atomic_normalized_s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_max_length_3_nistxml_sv_iv_atomic_normalized_string_max_length_4_4(mode, save_output):
+def test_atomic_normalized_string_max_length_3_nistxml_sv_iv_atomic_normalized_string_max_length_4_4(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet maxLength with
     value 266.
@@ -10921,11 +11634,12 @@ def test_atomic_normalized_string_max_length_3_nistxml_sv_iv_atomic_normalized_s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_max_length_3_nistxml_sv_iv_atomic_normalized_string_max_length_4_5(mode, save_output):
+def test_atomic_normalized_string_max_length_3_nistxml_sv_iv_atomic_normalized_string_max_length_4_5(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet maxLength with
     value 266.
@@ -10937,11 +11651,12 @@ def test_atomic_normalized_string_max_length_3_nistxml_sv_iv_atomic_normalized_s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_max_length_2_nistxml_sv_iv_atomic_normalized_string_max_length_3_1(mode, save_output):
+def test_atomic_normalized_string_max_length_2_nistxml_sv_iv_atomic_normalized_string_max_length_3_1(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet maxLength with
     value 295.
@@ -10953,11 +11668,12 @@ def test_atomic_normalized_string_max_length_2_nistxml_sv_iv_atomic_normalized_s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_max_length_2_nistxml_sv_iv_atomic_normalized_string_max_length_3_2(mode, save_output):
+def test_atomic_normalized_string_max_length_2_nistxml_sv_iv_atomic_normalized_string_max_length_3_2(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet maxLength with
     value 295.
@@ -10969,11 +11685,12 @@ def test_atomic_normalized_string_max_length_2_nistxml_sv_iv_atomic_normalized_s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_max_length_2_nistxml_sv_iv_atomic_normalized_string_max_length_3_3(mode, save_output):
+def test_atomic_normalized_string_max_length_2_nistxml_sv_iv_atomic_normalized_string_max_length_3_3(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet maxLength with
     value 295.
@@ -10985,11 +11702,12 @@ def test_atomic_normalized_string_max_length_2_nistxml_sv_iv_atomic_normalized_s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_max_length_2_nistxml_sv_iv_atomic_normalized_string_max_length_3_4(mode, save_output):
+def test_atomic_normalized_string_max_length_2_nistxml_sv_iv_atomic_normalized_string_max_length_3_4(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet maxLength with
     value 295.
@@ -11001,11 +11719,12 @@ def test_atomic_normalized_string_max_length_2_nistxml_sv_iv_atomic_normalized_s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_max_length_2_nistxml_sv_iv_atomic_normalized_string_max_length_3_5(mode, save_output):
+def test_atomic_normalized_string_max_length_2_nistxml_sv_iv_atomic_normalized_string_max_length_3_5(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet maxLength with
     value 295.
@@ -11017,11 +11736,12 @@ def test_atomic_normalized_string_max_length_2_nistxml_sv_iv_atomic_normalized_s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_max_length_1_nistxml_sv_iv_atomic_normalized_string_max_length_2_1(mode, save_output):
+def test_atomic_normalized_string_max_length_1_nistxml_sv_iv_atomic_normalized_string_max_length_2_1(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet maxLength with
     value 861.
@@ -11033,11 +11753,12 @@ def test_atomic_normalized_string_max_length_1_nistxml_sv_iv_atomic_normalized_s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_max_length_1_nistxml_sv_iv_atomic_normalized_string_max_length_2_2(mode, save_output):
+def test_atomic_normalized_string_max_length_1_nistxml_sv_iv_atomic_normalized_string_max_length_2_2(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet maxLength with
     value 861.
@@ -11049,11 +11770,12 @@ def test_atomic_normalized_string_max_length_1_nistxml_sv_iv_atomic_normalized_s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_max_length_1_nistxml_sv_iv_atomic_normalized_string_max_length_2_3(mode, save_output):
+def test_atomic_normalized_string_max_length_1_nistxml_sv_iv_atomic_normalized_string_max_length_2_3(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet maxLength with
     value 861.
@@ -11065,11 +11787,12 @@ def test_atomic_normalized_string_max_length_1_nistxml_sv_iv_atomic_normalized_s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_max_length_1_nistxml_sv_iv_atomic_normalized_string_max_length_2_4(mode, save_output):
+def test_atomic_normalized_string_max_length_1_nistxml_sv_iv_atomic_normalized_string_max_length_2_4(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet maxLength with
     value 861.
@@ -11081,11 +11804,12 @@ def test_atomic_normalized_string_max_length_1_nistxml_sv_iv_atomic_normalized_s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_max_length_1_nistxml_sv_iv_atomic_normalized_string_max_length_2_5(mode, save_output):
+def test_atomic_normalized_string_max_length_1_nistxml_sv_iv_atomic_normalized_string_max_length_2_5(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet maxLength with
     value 861.
@@ -11097,11 +11821,12 @@ def test_atomic_normalized_string_max_length_1_nistxml_sv_iv_atomic_normalized_s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_max_length_nistxml_sv_iv_atomic_normalized_string_max_length_1_1(mode, save_output):
+def test_atomic_normalized_string_max_length_nistxml_sv_iv_atomic_normalized_string_max_length_1_1(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet maxLength with
     value 0.
@@ -11113,11 +11838,12 @@ def test_atomic_normalized_string_max_length_nistxml_sv_iv_atomic_normalized_str
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_max_length_nistxml_sv_iv_atomic_normalized_string_max_length_1_2(mode, save_output):
+def test_atomic_normalized_string_max_length_nistxml_sv_iv_atomic_normalized_string_max_length_1_2(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet maxLength with
     value 0.
@@ -11129,11 +11855,12 @@ def test_atomic_normalized_string_max_length_nistxml_sv_iv_atomic_normalized_str
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_max_length_nistxml_sv_iv_atomic_normalized_string_max_length_1_3(mode, save_output):
+def test_atomic_normalized_string_max_length_nistxml_sv_iv_atomic_normalized_string_max_length_1_3(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet maxLength with
     value 0.
@@ -11145,11 +11872,12 @@ def test_atomic_normalized_string_max_length_nistxml_sv_iv_atomic_normalized_str
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_max_length_nistxml_sv_iv_atomic_normalized_string_max_length_1_4(mode, save_output):
+def test_atomic_normalized_string_max_length_nistxml_sv_iv_atomic_normalized_string_max_length_1_4(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet maxLength with
     value 0.
@@ -11161,11 +11889,12 @@ def test_atomic_normalized_string_max_length_nistxml_sv_iv_atomic_normalized_str
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_normalized_string_max_length_nistxml_sv_iv_atomic_normalized_string_max_length_1_5(mode, save_output):
+def test_atomic_normalized_string_max_length_nistxml_sv_iv_atomic_normalized_string_max_length_1_5(mode, save_output, output_format):
     """
     Type atomic/normalizedString is restricted by facet maxLength with
     value 0.
@@ -11177,11 +11906,12 @@ def test_atomic_normalized_string_max_length_nistxml_sv_iv_atomic_normalized_str
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_white_space_2_nistxml_sv_iv_atomic_string_white_space_3_1(mode, save_output):
+def test_atomic_string_white_space_2_nistxml_sv_iv_atomic_string_white_space_3_1(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet whiteSpace with value
     replace.
@@ -11193,11 +11923,12 @@ def test_atomic_string_white_space_2_nistxml_sv_iv_atomic_string_white_space_3_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_white_space_2_nistxml_sv_iv_atomic_string_white_space_3_2(mode, save_output):
+def test_atomic_string_white_space_2_nistxml_sv_iv_atomic_string_white_space_3_2(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet whiteSpace with value
     replace.
@@ -11209,11 +11940,12 @@ def test_atomic_string_white_space_2_nistxml_sv_iv_atomic_string_white_space_3_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_white_space_2_nistxml_sv_iv_atomic_string_white_space_3_3(mode, save_output):
+def test_atomic_string_white_space_2_nistxml_sv_iv_atomic_string_white_space_3_3(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet whiteSpace with value
     replace.
@@ -11225,11 +11957,12 @@ def test_atomic_string_white_space_2_nistxml_sv_iv_atomic_string_white_space_3_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_white_space_2_nistxml_sv_iv_atomic_string_white_space_3_4(mode, save_output):
+def test_atomic_string_white_space_2_nistxml_sv_iv_atomic_string_white_space_3_4(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet whiteSpace with value
     replace.
@@ -11241,11 +11974,12 @@ def test_atomic_string_white_space_2_nistxml_sv_iv_atomic_string_white_space_3_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_white_space_2_nistxml_sv_iv_atomic_string_white_space_3_5(mode, save_output):
+def test_atomic_string_white_space_2_nistxml_sv_iv_atomic_string_white_space_3_5(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet whiteSpace with value
     replace.
@@ -11257,11 +11991,12 @@ def test_atomic_string_white_space_2_nistxml_sv_iv_atomic_string_white_space_3_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_white_space_1_nistxml_sv_iv_atomic_string_white_space_2_1(mode, save_output):
+def test_atomic_string_white_space_1_nistxml_sv_iv_atomic_string_white_space_2_1(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet whiteSpace with value
     collapse.
@@ -11273,11 +12008,12 @@ def test_atomic_string_white_space_1_nistxml_sv_iv_atomic_string_white_space_2_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_white_space_1_nistxml_sv_iv_atomic_string_white_space_2_2(mode, save_output):
+def test_atomic_string_white_space_1_nistxml_sv_iv_atomic_string_white_space_2_2(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet whiteSpace with value
     collapse.
@@ -11289,11 +12025,12 @@ def test_atomic_string_white_space_1_nistxml_sv_iv_atomic_string_white_space_2_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_white_space_1_nistxml_sv_iv_atomic_string_white_space_2_3(mode, save_output):
+def test_atomic_string_white_space_1_nistxml_sv_iv_atomic_string_white_space_2_3(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet whiteSpace with value
     collapse.
@@ -11305,11 +12042,12 @@ def test_atomic_string_white_space_1_nistxml_sv_iv_atomic_string_white_space_2_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_white_space_1_nistxml_sv_iv_atomic_string_white_space_2_4(mode, save_output):
+def test_atomic_string_white_space_1_nistxml_sv_iv_atomic_string_white_space_2_4(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet whiteSpace with value
     collapse.
@@ -11321,11 +12059,12 @@ def test_atomic_string_white_space_1_nistxml_sv_iv_atomic_string_white_space_2_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_white_space_1_nistxml_sv_iv_atomic_string_white_space_2_5(mode, save_output):
+def test_atomic_string_white_space_1_nistxml_sv_iv_atomic_string_white_space_2_5(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet whiteSpace with value
     collapse.
@@ -11337,11 +12076,12 @@ def test_atomic_string_white_space_1_nistxml_sv_iv_atomic_string_white_space_2_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_white_space_nistxml_sv_iv_atomic_string_white_space_1_1(mode, save_output):
+def test_atomic_string_white_space_nistxml_sv_iv_atomic_string_white_space_1_1(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet whiteSpace with value
     preserve.
@@ -11353,11 +12093,12 @@ def test_atomic_string_white_space_nistxml_sv_iv_atomic_string_white_space_1_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_white_space_nistxml_sv_iv_atomic_string_white_space_1_2(mode, save_output):
+def test_atomic_string_white_space_nistxml_sv_iv_atomic_string_white_space_1_2(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet whiteSpace with value
     preserve.
@@ -11369,11 +12110,12 @@ def test_atomic_string_white_space_nistxml_sv_iv_atomic_string_white_space_1_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_white_space_nistxml_sv_iv_atomic_string_white_space_1_3(mode, save_output):
+def test_atomic_string_white_space_nistxml_sv_iv_atomic_string_white_space_1_3(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet whiteSpace with value
     preserve.
@@ -11385,11 +12127,12 @@ def test_atomic_string_white_space_nistxml_sv_iv_atomic_string_white_space_1_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_white_space_nistxml_sv_iv_atomic_string_white_space_1_4(mode, save_output):
+def test_atomic_string_white_space_nistxml_sv_iv_atomic_string_white_space_1_4(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet whiteSpace with value
     preserve.
@@ -11401,11 +12144,12 @@ def test_atomic_string_white_space_nistxml_sv_iv_atomic_string_white_space_1_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_white_space_nistxml_sv_iv_atomic_string_white_space_1_5(mode, save_output):
+def test_atomic_string_white_space_nistxml_sv_iv_atomic_string_white_space_1_5(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet whiteSpace with value
     preserve.
@@ -11417,11 +12161,12 @@ def test_atomic_string_white_space_nistxml_sv_iv_atomic_string_white_space_1_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_enumeration_4_nistxml_sv_iv_atomic_string_enumeration_5_1(mode, save_output):
+def test_atomic_string_enumeration_4_nistxml_sv_iv_atomic_string_enumeration_5_1(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet enumeration.
     """
@@ -11432,11 +12177,12 @@ def test_atomic_string_enumeration_4_nistxml_sv_iv_atomic_string_enumeration_5_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_enumeration_4_nistxml_sv_iv_atomic_string_enumeration_5_2(mode, save_output):
+def test_atomic_string_enumeration_4_nistxml_sv_iv_atomic_string_enumeration_5_2(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet enumeration.
     """
@@ -11447,11 +12193,12 @@ def test_atomic_string_enumeration_4_nistxml_sv_iv_atomic_string_enumeration_5_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_enumeration_4_nistxml_sv_iv_atomic_string_enumeration_5_3(mode, save_output):
+def test_atomic_string_enumeration_4_nistxml_sv_iv_atomic_string_enumeration_5_3(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet enumeration.
     """
@@ -11462,11 +12209,12 @@ def test_atomic_string_enumeration_4_nistxml_sv_iv_atomic_string_enumeration_5_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_enumeration_4_nistxml_sv_iv_atomic_string_enumeration_5_4(mode, save_output):
+def test_atomic_string_enumeration_4_nistxml_sv_iv_atomic_string_enumeration_5_4(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet enumeration.
     """
@@ -11477,11 +12225,12 @@ def test_atomic_string_enumeration_4_nistxml_sv_iv_atomic_string_enumeration_5_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_enumeration_4_nistxml_sv_iv_atomic_string_enumeration_5_5(mode, save_output):
+def test_atomic_string_enumeration_4_nistxml_sv_iv_atomic_string_enumeration_5_5(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet enumeration.
     """
@@ -11492,11 +12241,12 @@ def test_atomic_string_enumeration_4_nistxml_sv_iv_atomic_string_enumeration_5_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_enumeration_3_nistxml_sv_iv_atomic_string_enumeration_4_1(mode, save_output):
+def test_atomic_string_enumeration_3_nistxml_sv_iv_atomic_string_enumeration_4_1(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet enumeration.
     """
@@ -11507,11 +12257,12 @@ def test_atomic_string_enumeration_3_nistxml_sv_iv_atomic_string_enumeration_4_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_enumeration_3_nistxml_sv_iv_atomic_string_enumeration_4_2(mode, save_output):
+def test_atomic_string_enumeration_3_nistxml_sv_iv_atomic_string_enumeration_4_2(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet enumeration.
     """
@@ -11522,11 +12273,12 @@ def test_atomic_string_enumeration_3_nistxml_sv_iv_atomic_string_enumeration_4_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_enumeration_3_nistxml_sv_iv_atomic_string_enumeration_4_3(mode, save_output):
+def test_atomic_string_enumeration_3_nistxml_sv_iv_atomic_string_enumeration_4_3(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet enumeration.
     """
@@ -11537,11 +12289,12 @@ def test_atomic_string_enumeration_3_nistxml_sv_iv_atomic_string_enumeration_4_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_enumeration_3_nistxml_sv_iv_atomic_string_enumeration_4_4(mode, save_output):
+def test_atomic_string_enumeration_3_nistxml_sv_iv_atomic_string_enumeration_4_4(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet enumeration.
     """
@@ -11552,11 +12305,12 @@ def test_atomic_string_enumeration_3_nistxml_sv_iv_atomic_string_enumeration_4_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_enumeration_3_nistxml_sv_iv_atomic_string_enumeration_4_5(mode, save_output):
+def test_atomic_string_enumeration_3_nistxml_sv_iv_atomic_string_enumeration_4_5(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet enumeration.
     """
@@ -11567,11 +12321,12 @@ def test_atomic_string_enumeration_3_nistxml_sv_iv_atomic_string_enumeration_4_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_enumeration_2_nistxml_sv_iv_atomic_string_enumeration_3_1(mode, save_output):
+def test_atomic_string_enumeration_2_nistxml_sv_iv_atomic_string_enumeration_3_1(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet enumeration.
     """
@@ -11582,11 +12337,12 @@ def test_atomic_string_enumeration_2_nistxml_sv_iv_atomic_string_enumeration_3_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_enumeration_2_nistxml_sv_iv_atomic_string_enumeration_3_2(mode, save_output):
+def test_atomic_string_enumeration_2_nistxml_sv_iv_atomic_string_enumeration_3_2(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet enumeration.
     """
@@ -11597,11 +12353,12 @@ def test_atomic_string_enumeration_2_nistxml_sv_iv_atomic_string_enumeration_3_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_enumeration_2_nistxml_sv_iv_atomic_string_enumeration_3_3(mode, save_output):
+def test_atomic_string_enumeration_2_nistxml_sv_iv_atomic_string_enumeration_3_3(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet enumeration.
     """
@@ -11612,11 +12369,12 @@ def test_atomic_string_enumeration_2_nistxml_sv_iv_atomic_string_enumeration_3_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_enumeration_2_nistxml_sv_iv_atomic_string_enumeration_3_4(mode, save_output):
+def test_atomic_string_enumeration_2_nistxml_sv_iv_atomic_string_enumeration_3_4(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet enumeration.
     """
@@ -11627,11 +12385,12 @@ def test_atomic_string_enumeration_2_nistxml_sv_iv_atomic_string_enumeration_3_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_enumeration_2_nistxml_sv_iv_atomic_string_enumeration_3_5(mode, save_output):
+def test_atomic_string_enumeration_2_nistxml_sv_iv_atomic_string_enumeration_3_5(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet enumeration.
     """
@@ -11642,11 +12401,12 @@ def test_atomic_string_enumeration_2_nistxml_sv_iv_atomic_string_enumeration_3_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_enumeration_1_nistxml_sv_iv_atomic_string_enumeration_2_1(mode, save_output):
+def test_atomic_string_enumeration_1_nistxml_sv_iv_atomic_string_enumeration_2_1(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet enumeration.
     """
@@ -11657,11 +12417,12 @@ def test_atomic_string_enumeration_1_nistxml_sv_iv_atomic_string_enumeration_2_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_enumeration_1_nistxml_sv_iv_atomic_string_enumeration_2_2(mode, save_output):
+def test_atomic_string_enumeration_1_nistxml_sv_iv_atomic_string_enumeration_2_2(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet enumeration.
     """
@@ -11672,11 +12433,12 @@ def test_atomic_string_enumeration_1_nistxml_sv_iv_atomic_string_enumeration_2_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_enumeration_1_nistxml_sv_iv_atomic_string_enumeration_2_3(mode, save_output):
+def test_atomic_string_enumeration_1_nistxml_sv_iv_atomic_string_enumeration_2_3(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet enumeration.
     """
@@ -11687,11 +12449,12 @@ def test_atomic_string_enumeration_1_nistxml_sv_iv_atomic_string_enumeration_2_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_enumeration_1_nistxml_sv_iv_atomic_string_enumeration_2_4(mode, save_output):
+def test_atomic_string_enumeration_1_nistxml_sv_iv_atomic_string_enumeration_2_4(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet enumeration.
     """
@@ -11702,11 +12465,12 @@ def test_atomic_string_enumeration_1_nistxml_sv_iv_atomic_string_enumeration_2_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_enumeration_1_nistxml_sv_iv_atomic_string_enumeration_2_5(mode, save_output):
+def test_atomic_string_enumeration_1_nistxml_sv_iv_atomic_string_enumeration_2_5(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet enumeration.
     """
@@ -11717,11 +12481,12 @@ def test_atomic_string_enumeration_1_nistxml_sv_iv_atomic_string_enumeration_2_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_enumeration_nistxml_sv_iv_atomic_string_enumeration_1_1(mode, save_output):
+def test_atomic_string_enumeration_nistxml_sv_iv_atomic_string_enumeration_1_1(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet enumeration.
     """
@@ -11732,11 +12497,12 @@ def test_atomic_string_enumeration_nistxml_sv_iv_atomic_string_enumeration_1_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_enumeration_nistxml_sv_iv_atomic_string_enumeration_1_2(mode, save_output):
+def test_atomic_string_enumeration_nistxml_sv_iv_atomic_string_enumeration_1_2(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet enumeration.
     """
@@ -11747,11 +12513,12 @@ def test_atomic_string_enumeration_nistxml_sv_iv_atomic_string_enumeration_1_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_enumeration_nistxml_sv_iv_atomic_string_enumeration_1_3(mode, save_output):
+def test_atomic_string_enumeration_nistxml_sv_iv_atomic_string_enumeration_1_3(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet enumeration.
     """
@@ -11762,11 +12529,12 @@ def test_atomic_string_enumeration_nistxml_sv_iv_atomic_string_enumeration_1_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_enumeration_nistxml_sv_iv_atomic_string_enumeration_1_4(mode, save_output):
+def test_atomic_string_enumeration_nistxml_sv_iv_atomic_string_enumeration_1_4(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet enumeration.
     """
@@ -11777,11 +12545,12 @@ def test_atomic_string_enumeration_nistxml_sv_iv_atomic_string_enumeration_1_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_enumeration_nistxml_sv_iv_atomic_string_enumeration_1_5(mode, save_output):
+def test_atomic_string_enumeration_nistxml_sv_iv_atomic_string_enumeration_1_5(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet enumeration.
     """
@@ -11792,11 +12561,12 @@ def test_atomic_string_enumeration_nistxml_sv_iv_atomic_string_enumeration_1_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_pattern_4_nistxml_sv_iv_atomic_string_pattern_5_1(mode, save_output):
+def test_atomic_string_pattern_4_nistxml_sv_iv_atomic_string_pattern_5_1(mode, save_output, output_format):
     r"""
     Type atomic/string is restricted by facet pattern with value \d{1,5}\s
     ([A-Z][a-z]{1,20}\s){3}Street\n([A-Z][a-z]{1,20}\s){1},\s[A-
@@ -11809,11 +12579,12 @@ def test_atomic_string_pattern_4_nistxml_sv_iv_atomic_string_pattern_5_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_pattern_4_nistxml_sv_iv_atomic_string_pattern_5_2(mode, save_output):
+def test_atomic_string_pattern_4_nistxml_sv_iv_atomic_string_pattern_5_2(mode, save_output, output_format):
     r"""
     Type atomic/string is restricted by facet pattern with value \d{1,5}\s
     ([A-Z][a-z]{1,20}\s){3}Street\n([A-Z][a-z]{1,20}\s){1},\s[A-
@@ -11826,11 +12597,12 @@ def test_atomic_string_pattern_4_nistxml_sv_iv_atomic_string_pattern_5_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_pattern_4_nistxml_sv_iv_atomic_string_pattern_5_3(mode, save_output):
+def test_atomic_string_pattern_4_nistxml_sv_iv_atomic_string_pattern_5_3(mode, save_output, output_format):
     r"""
     Type atomic/string is restricted by facet pattern with value \d{1,5}\s
     ([A-Z][a-z]{1,20}\s){3}Street\n([A-Z][a-z]{1,20}\s){1},\s[A-
@@ -11843,11 +12615,12 @@ def test_atomic_string_pattern_4_nistxml_sv_iv_atomic_string_pattern_5_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_pattern_4_nistxml_sv_iv_atomic_string_pattern_5_4(mode, save_output):
+def test_atomic_string_pattern_4_nistxml_sv_iv_atomic_string_pattern_5_4(mode, save_output, output_format):
     r"""
     Type atomic/string is restricted by facet pattern with value \d{1,5}\s
     ([A-Z][a-z]{1,20}\s){3}Street\n([A-Z][a-z]{1,20}\s){1},\s[A-
@@ -11860,11 +12633,12 @@ def test_atomic_string_pattern_4_nistxml_sv_iv_atomic_string_pattern_5_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_pattern_4_nistxml_sv_iv_atomic_string_pattern_5_5(mode, save_output):
+def test_atomic_string_pattern_4_nistxml_sv_iv_atomic_string_pattern_5_5(mode, save_output, output_format):
     r"""
     Type atomic/string is restricted by facet pattern with value \d{1,5}\s
     ([A-Z][a-z]{1,20}\s){3}Street\n([A-Z][a-z]{1,20}\s){1},\s[A-
@@ -11877,11 +12651,12 @@ def test_atomic_string_pattern_4_nistxml_sv_iv_atomic_string_pattern_5_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_pattern_3_nistxml_sv_iv_atomic_string_pattern_4_1(mode, save_output):
+def test_atomic_string_pattern_3_nistxml_sv_iv_atomic_string_pattern_4_1(mode, save_output, output_format):
     r"""
     Type atomic/string is restricted by facet pattern with value \d{1,5}\s
     ([A-Z][a-z]{1,20}\s){4}Street\n([A-Z][a-z]{1,20}\s){2},\s[A-
@@ -11894,11 +12669,12 @@ def test_atomic_string_pattern_3_nistxml_sv_iv_atomic_string_pattern_4_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_pattern_3_nistxml_sv_iv_atomic_string_pattern_4_2(mode, save_output):
+def test_atomic_string_pattern_3_nistxml_sv_iv_atomic_string_pattern_4_2(mode, save_output, output_format):
     r"""
     Type atomic/string is restricted by facet pattern with value \d{1,5}\s
     ([A-Z][a-z]{1,20}\s){4}Street\n([A-Z][a-z]{1,20}\s){2},\s[A-
@@ -11911,11 +12687,12 @@ def test_atomic_string_pattern_3_nistxml_sv_iv_atomic_string_pattern_4_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_pattern_3_nistxml_sv_iv_atomic_string_pattern_4_3(mode, save_output):
+def test_atomic_string_pattern_3_nistxml_sv_iv_atomic_string_pattern_4_3(mode, save_output, output_format):
     r"""
     Type atomic/string is restricted by facet pattern with value \d{1,5}\s
     ([A-Z][a-z]{1,20}\s){4}Street\n([A-Z][a-z]{1,20}\s){2},\s[A-
@@ -11928,11 +12705,12 @@ def test_atomic_string_pattern_3_nistxml_sv_iv_atomic_string_pattern_4_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_pattern_3_nistxml_sv_iv_atomic_string_pattern_4_4(mode, save_output):
+def test_atomic_string_pattern_3_nistxml_sv_iv_atomic_string_pattern_4_4(mode, save_output, output_format):
     r"""
     Type atomic/string is restricted by facet pattern with value \d{1,5}\s
     ([A-Z][a-z]{1,20}\s){4}Street\n([A-Z][a-z]{1,20}\s){2},\s[A-
@@ -11945,11 +12723,12 @@ def test_atomic_string_pattern_3_nistxml_sv_iv_atomic_string_pattern_4_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_pattern_3_nistxml_sv_iv_atomic_string_pattern_4_5(mode, save_output):
+def test_atomic_string_pattern_3_nistxml_sv_iv_atomic_string_pattern_4_5(mode, save_output, output_format):
     r"""
     Type atomic/string is restricted by facet pattern with value \d{1,5}\s
     ([A-Z][a-z]{1,20}\s){4}Street\n([A-Z][a-z]{1,20}\s){2},\s[A-
@@ -11962,11 +12741,12 @@ def test_atomic_string_pattern_3_nistxml_sv_iv_atomic_string_pattern_4_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_pattern_2_nistxml_sv_iv_atomic_string_pattern_3_1(mode, save_output):
+def test_atomic_string_pattern_2_nistxml_sv_iv_atomic_string_pattern_3_1(mode, save_output, output_format):
     r"""
     Type atomic/string is restricted by facet pattern with value \d{1,5}\s
     ([A-Z][a-z]{1,20}\s){4}Street\n([A-Z][a-z]{1,20}\s){1},\s[A-
@@ -11979,11 +12759,12 @@ def test_atomic_string_pattern_2_nistxml_sv_iv_atomic_string_pattern_3_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_pattern_2_nistxml_sv_iv_atomic_string_pattern_3_2(mode, save_output):
+def test_atomic_string_pattern_2_nistxml_sv_iv_atomic_string_pattern_3_2(mode, save_output, output_format):
     r"""
     Type atomic/string is restricted by facet pattern with value \d{1,5}\s
     ([A-Z][a-z]{1,20}\s){4}Street\n([A-Z][a-z]{1,20}\s){1},\s[A-
@@ -11996,11 +12777,12 @@ def test_atomic_string_pattern_2_nistxml_sv_iv_atomic_string_pattern_3_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_pattern_2_nistxml_sv_iv_atomic_string_pattern_3_3(mode, save_output):
+def test_atomic_string_pattern_2_nistxml_sv_iv_atomic_string_pattern_3_3(mode, save_output, output_format):
     r"""
     Type atomic/string is restricted by facet pattern with value \d{1,5}\s
     ([A-Z][a-z]{1,20}\s){4}Street\n([A-Z][a-z]{1,20}\s){1},\s[A-
@@ -12013,11 +12795,12 @@ def test_atomic_string_pattern_2_nistxml_sv_iv_atomic_string_pattern_3_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_pattern_2_nistxml_sv_iv_atomic_string_pattern_3_4(mode, save_output):
+def test_atomic_string_pattern_2_nistxml_sv_iv_atomic_string_pattern_3_4(mode, save_output, output_format):
     r"""
     Type atomic/string is restricted by facet pattern with value \d{1,5}\s
     ([A-Z][a-z]{1,20}\s){4}Street\n([A-Z][a-z]{1,20}\s){1},\s[A-
@@ -12030,11 +12813,12 @@ def test_atomic_string_pattern_2_nistxml_sv_iv_atomic_string_pattern_3_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_pattern_2_nistxml_sv_iv_atomic_string_pattern_3_5(mode, save_output):
+def test_atomic_string_pattern_2_nistxml_sv_iv_atomic_string_pattern_3_5(mode, save_output, output_format):
     r"""
     Type atomic/string is restricted by facet pattern with value \d{1,5}\s
     ([A-Z][a-z]{1,20}\s){4}Street\n([A-Z][a-z]{1,20}\s){1},\s[A-
@@ -12047,11 +12831,12 @@ def test_atomic_string_pattern_2_nistxml_sv_iv_atomic_string_pattern_3_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_pattern_1_nistxml_sv_iv_atomic_string_pattern_2_1(mode, save_output):
+def test_atomic_string_pattern_1_nistxml_sv_iv_atomic_string_pattern_2_1(mode, save_output, output_format):
     r"""
     Type atomic/string is restricted by facet pattern with value \d{1,5}\s
     ([A-Z][a-z]{1,20}\s){2}Street\n([A-Z][a-z]{1,20}\s){3},\s[A-
@@ -12064,11 +12849,12 @@ def test_atomic_string_pattern_1_nistxml_sv_iv_atomic_string_pattern_2_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_pattern_1_nistxml_sv_iv_atomic_string_pattern_2_2(mode, save_output):
+def test_atomic_string_pattern_1_nistxml_sv_iv_atomic_string_pattern_2_2(mode, save_output, output_format):
     r"""
     Type atomic/string is restricted by facet pattern with value \d{1,5}\s
     ([A-Z][a-z]{1,20}\s){2}Street\n([A-Z][a-z]{1,20}\s){3},\s[A-
@@ -12081,11 +12867,12 @@ def test_atomic_string_pattern_1_nistxml_sv_iv_atomic_string_pattern_2_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_pattern_1_nistxml_sv_iv_atomic_string_pattern_2_3(mode, save_output):
+def test_atomic_string_pattern_1_nistxml_sv_iv_atomic_string_pattern_2_3(mode, save_output, output_format):
     r"""
     Type atomic/string is restricted by facet pattern with value \d{1,5}\s
     ([A-Z][a-z]{1,20}\s){2}Street\n([A-Z][a-z]{1,20}\s){3},\s[A-
@@ -12098,11 +12885,12 @@ def test_atomic_string_pattern_1_nistxml_sv_iv_atomic_string_pattern_2_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_pattern_1_nistxml_sv_iv_atomic_string_pattern_2_4(mode, save_output):
+def test_atomic_string_pattern_1_nistxml_sv_iv_atomic_string_pattern_2_4(mode, save_output, output_format):
     r"""
     Type atomic/string is restricted by facet pattern with value \d{1,5}\s
     ([A-Z][a-z]{1,20}\s){2}Street\n([A-Z][a-z]{1,20}\s){3},\s[A-
@@ -12115,11 +12903,12 @@ def test_atomic_string_pattern_1_nistxml_sv_iv_atomic_string_pattern_2_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_pattern_1_nistxml_sv_iv_atomic_string_pattern_2_5(mode, save_output):
+def test_atomic_string_pattern_1_nistxml_sv_iv_atomic_string_pattern_2_5(mode, save_output, output_format):
     r"""
     Type atomic/string is restricted by facet pattern with value \d{1,5}\s
     ([A-Z][a-z]{1,20}\s){2}Street\n([A-Z][a-z]{1,20}\s){3},\s[A-
@@ -12132,11 +12921,12 @@ def test_atomic_string_pattern_1_nistxml_sv_iv_atomic_string_pattern_2_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_pattern_nistxml_sv_iv_atomic_string_pattern_1_1(mode, save_output):
+def test_atomic_string_pattern_nistxml_sv_iv_atomic_string_pattern_1_1(mode, save_output, output_format):
     r"""
     Type atomic/string is restricted by facet pattern with value \d{1,5}\s
     ([A-Z][a-z]{1,20}\s){4}Street\n([A-Z][a-z]{1,20}\s){2},\s[A-
@@ -12149,11 +12939,12 @@ def test_atomic_string_pattern_nistxml_sv_iv_atomic_string_pattern_1_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_pattern_nistxml_sv_iv_atomic_string_pattern_1_2(mode, save_output):
+def test_atomic_string_pattern_nistxml_sv_iv_atomic_string_pattern_1_2(mode, save_output, output_format):
     r"""
     Type atomic/string is restricted by facet pattern with value \d{1,5}\s
     ([A-Z][a-z]{1,20}\s){4}Street\n([A-Z][a-z]{1,20}\s){2},\s[A-
@@ -12166,11 +12957,12 @@ def test_atomic_string_pattern_nistxml_sv_iv_atomic_string_pattern_1_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_pattern_nistxml_sv_iv_atomic_string_pattern_1_3(mode, save_output):
+def test_atomic_string_pattern_nistxml_sv_iv_atomic_string_pattern_1_3(mode, save_output, output_format):
     r"""
     Type atomic/string is restricted by facet pattern with value \d{1,5}\s
     ([A-Z][a-z]{1,20}\s){4}Street\n([A-Z][a-z]{1,20}\s){2},\s[A-
@@ -12183,11 +12975,12 @@ def test_atomic_string_pattern_nistxml_sv_iv_atomic_string_pattern_1_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_pattern_nistxml_sv_iv_atomic_string_pattern_1_4(mode, save_output):
+def test_atomic_string_pattern_nistxml_sv_iv_atomic_string_pattern_1_4(mode, save_output, output_format):
     r"""
     Type atomic/string is restricted by facet pattern with value \d{1,5}\s
     ([A-Z][a-z]{1,20}\s){4}Street\n([A-Z][a-z]{1,20}\s){2},\s[A-
@@ -12200,11 +12993,12 @@ def test_atomic_string_pattern_nistxml_sv_iv_atomic_string_pattern_1_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_pattern_nistxml_sv_iv_atomic_string_pattern_1_5(mode, save_output):
+def test_atomic_string_pattern_nistxml_sv_iv_atomic_string_pattern_1_5(mode, save_output, output_format):
     r"""
     Type atomic/string is restricted by facet pattern with value \d{1,5}\s
     ([A-Z][a-z]{1,20}\s){4}Street\n([A-Z][a-z]{1,20}\s){2},\s[A-
@@ -12217,11 +13011,12 @@ def test_atomic_string_pattern_nistxml_sv_iv_atomic_string_pattern_1_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_length_4_nistxml_sv_iv_atomic_string_length_5_1(mode, save_output):
+def test_atomic_string_length_4_nistxml_sv_iv_atomic_string_length_5_1(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet length with value 1000.
     """
@@ -12232,11 +13027,12 @@ def test_atomic_string_length_4_nistxml_sv_iv_atomic_string_length_5_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_length_4_nistxml_sv_iv_atomic_string_length_5_2(mode, save_output):
+def test_atomic_string_length_4_nistxml_sv_iv_atomic_string_length_5_2(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet length with value 1000.
     """
@@ -12247,11 +13043,12 @@ def test_atomic_string_length_4_nistxml_sv_iv_atomic_string_length_5_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_length_4_nistxml_sv_iv_atomic_string_length_5_3(mode, save_output):
+def test_atomic_string_length_4_nistxml_sv_iv_atomic_string_length_5_3(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet length with value 1000.
     """
@@ -12262,11 +13059,12 @@ def test_atomic_string_length_4_nistxml_sv_iv_atomic_string_length_5_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_length_4_nistxml_sv_iv_atomic_string_length_5_4(mode, save_output):
+def test_atomic_string_length_4_nistxml_sv_iv_atomic_string_length_5_4(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet length with value 1000.
     """
@@ -12277,11 +13075,12 @@ def test_atomic_string_length_4_nistxml_sv_iv_atomic_string_length_5_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_length_4_nistxml_sv_iv_atomic_string_length_5_5(mode, save_output):
+def test_atomic_string_length_4_nistxml_sv_iv_atomic_string_length_5_5(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet length with value 1000.
     """
@@ -12292,11 +13091,12 @@ def test_atomic_string_length_4_nistxml_sv_iv_atomic_string_length_5_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_length_3_nistxml_sv_iv_atomic_string_length_4_1(mode, save_output):
+def test_atomic_string_length_3_nistxml_sv_iv_atomic_string_length_4_1(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet length with value 243.
     """
@@ -12307,11 +13107,12 @@ def test_atomic_string_length_3_nistxml_sv_iv_atomic_string_length_4_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_length_3_nistxml_sv_iv_atomic_string_length_4_2(mode, save_output):
+def test_atomic_string_length_3_nistxml_sv_iv_atomic_string_length_4_2(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet length with value 243.
     """
@@ -12322,11 +13123,12 @@ def test_atomic_string_length_3_nistxml_sv_iv_atomic_string_length_4_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_length_3_nistxml_sv_iv_atomic_string_length_4_3(mode, save_output):
+def test_atomic_string_length_3_nistxml_sv_iv_atomic_string_length_4_3(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet length with value 243.
     """
@@ -12337,11 +13139,12 @@ def test_atomic_string_length_3_nistxml_sv_iv_atomic_string_length_4_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_length_3_nistxml_sv_iv_atomic_string_length_4_4(mode, save_output):
+def test_atomic_string_length_3_nistxml_sv_iv_atomic_string_length_4_4(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet length with value 243.
     """
@@ -12352,11 +13155,12 @@ def test_atomic_string_length_3_nistxml_sv_iv_atomic_string_length_4_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_length_3_nistxml_sv_iv_atomic_string_length_4_5(mode, save_output):
+def test_atomic_string_length_3_nistxml_sv_iv_atomic_string_length_4_5(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet length with value 243.
     """
@@ -12367,11 +13171,12 @@ def test_atomic_string_length_3_nistxml_sv_iv_atomic_string_length_4_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_length_2_nistxml_sv_iv_atomic_string_length_3_1(mode, save_output):
+def test_atomic_string_length_2_nistxml_sv_iv_atomic_string_length_3_1(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet length with value 713.
     """
@@ -12382,11 +13187,12 @@ def test_atomic_string_length_2_nistxml_sv_iv_atomic_string_length_3_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_length_2_nistxml_sv_iv_atomic_string_length_3_2(mode, save_output):
+def test_atomic_string_length_2_nistxml_sv_iv_atomic_string_length_3_2(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet length with value 713.
     """
@@ -12397,11 +13203,12 @@ def test_atomic_string_length_2_nistxml_sv_iv_atomic_string_length_3_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_length_2_nistxml_sv_iv_atomic_string_length_3_3(mode, save_output):
+def test_atomic_string_length_2_nistxml_sv_iv_atomic_string_length_3_3(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet length with value 713.
     """
@@ -12412,11 +13219,12 @@ def test_atomic_string_length_2_nistxml_sv_iv_atomic_string_length_3_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_length_2_nistxml_sv_iv_atomic_string_length_3_4(mode, save_output):
+def test_atomic_string_length_2_nistxml_sv_iv_atomic_string_length_3_4(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet length with value 713.
     """
@@ -12427,11 +13235,12 @@ def test_atomic_string_length_2_nistxml_sv_iv_atomic_string_length_3_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_length_2_nistxml_sv_iv_atomic_string_length_3_5(mode, save_output):
+def test_atomic_string_length_2_nistxml_sv_iv_atomic_string_length_3_5(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet length with value 713.
     """
@@ -12442,11 +13251,12 @@ def test_atomic_string_length_2_nistxml_sv_iv_atomic_string_length_3_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_length_1_nistxml_sv_iv_atomic_string_length_2_1(mode, save_output):
+def test_atomic_string_length_1_nistxml_sv_iv_atomic_string_length_2_1(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet length with value 925.
     """
@@ -12457,11 +13267,12 @@ def test_atomic_string_length_1_nistxml_sv_iv_atomic_string_length_2_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_length_1_nistxml_sv_iv_atomic_string_length_2_2(mode, save_output):
+def test_atomic_string_length_1_nistxml_sv_iv_atomic_string_length_2_2(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet length with value 925.
     """
@@ -12472,11 +13283,12 @@ def test_atomic_string_length_1_nistxml_sv_iv_atomic_string_length_2_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_length_1_nistxml_sv_iv_atomic_string_length_2_3(mode, save_output):
+def test_atomic_string_length_1_nistxml_sv_iv_atomic_string_length_2_3(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet length with value 925.
     """
@@ -12487,11 +13299,12 @@ def test_atomic_string_length_1_nistxml_sv_iv_atomic_string_length_2_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_length_1_nistxml_sv_iv_atomic_string_length_2_4(mode, save_output):
+def test_atomic_string_length_1_nistxml_sv_iv_atomic_string_length_2_4(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet length with value 925.
     """
@@ -12502,11 +13315,12 @@ def test_atomic_string_length_1_nistxml_sv_iv_atomic_string_length_2_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_length_1_nistxml_sv_iv_atomic_string_length_2_5(mode, save_output):
+def test_atomic_string_length_1_nistxml_sv_iv_atomic_string_length_2_5(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet length with value 925.
     """
@@ -12517,11 +13331,12 @@ def test_atomic_string_length_1_nistxml_sv_iv_atomic_string_length_2_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_length_nistxml_sv_iv_atomic_string_length_1_1(mode, save_output):
+def test_atomic_string_length_nistxml_sv_iv_atomic_string_length_1_1(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet length with value 0.
     """
@@ -12532,11 +13347,12 @@ def test_atomic_string_length_nistxml_sv_iv_atomic_string_length_1_1(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_length_nistxml_sv_iv_atomic_string_length_1_2(mode, save_output):
+def test_atomic_string_length_nistxml_sv_iv_atomic_string_length_1_2(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet length with value 0.
     """
@@ -12547,11 +13363,12 @@ def test_atomic_string_length_nistxml_sv_iv_atomic_string_length_1_2(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_length_nistxml_sv_iv_atomic_string_length_1_3(mode, save_output):
+def test_atomic_string_length_nistxml_sv_iv_atomic_string_length_1_3(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet length with value 0.
     """
@@ -12562,11 +13379,12 @@ def test_atomic_string_length_nistxml_sv_iv_atomic_string_length_1_3(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_length_nistxml_sv_iv_atomic_string_length_1_4(mode, save_output):
+def test_atomic_string_length_nistxml_sv_iv_atomic_string_length_1_4(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet length with value 0.
     """
@@ -12577,11 +13395,12 @@ def test_atomic_string_length_nistxml_sv_iv_atomic_string_length_1_4(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_length_nistxml_sv_iv_atomic_string_length_1_5(mode, save_output):
+def test_atomic_string_length_nistxml_sv_iv_atomic_string_length_1_5(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet length with value 0.
     """
@@ -12592,11 +13411,12 @@ def test_atomic_string_length_nistxml_sv_iv_atomic_string_length_1_5(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_min_length_4_nistxml_sv_iv_atomic_string_min_length_5_1(mode, save_output):
+def test_atomic_string_min_length_4_nistxml_sv_iv_atomic_string_min_length_5_1(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet minLength with value 1000.
     """
@@ -12607,11 +13427,12 @@ def test_atomic_string_min_length_4_nistxml_sv_iv_atomic_string_min_length_5_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_min_length_4_nistxml_sv_iv_atomic_string_min_length_5_2(mode, save_output):
+def test_atomic_string_min_length_4_nistxml_sv_iv_atomic_string_min_length_5_2(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet minLength with value 1000.
     """
@@ -12622,11 +13443,12 @@ def test_atomic_string_min_length_4_nistxml_sv_iv_atomic_string_min_length_5_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_min_length_4_nistxml_sv_iv_atomic_string_min_length_5_3(mode, save_output):
+def test_atomic_string_min_length_4_nistxml_sv_iv_atomic_string_min_length_5_3(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet minLength with value 1000.
     """
@@ -12637,11 +13459,12 @@ def test_atomic_string_min_length_4_nistxml_sv_iv_atomic_string_min_length_5_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_min_length_4_nistxml_sv_iv_atomic_string_min_length_5_4(mode, save_output):
+def test_atomic_string_min_length_4_nistxml_sv_iv_atomic_string_min_length_5_4(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet minLength with value 1000.
     """
@@ -12652,11 +13475,12 @@ def test_atomic_string_min_length_4_nistxml_sv_iv_atomic_string_min_length_5_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_min_length_4_nistxml_sv_iv_atomic_string_min_length_5_5(mode, save_output):
+def test_atomic_string_min_length_4_nistxml_sv_iv_atomic_string_min_length_5_5(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet minLength with value 1000.
     """
@@ -12667,11 +13491,12 @@ def test_atomic_string_min_length_4_nistxml_sv_iv_atomic_string_min_length_5_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_min_length_3_nistxml_sv_iv_atomic_string_min_length_4_1(mode, save_output):
+def test_atomic_string_min_length_3_nistxml_sv_iv_atomic_string_min_length_4_1(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet minLength with value 946.
     """
@@ -12682,11 +13507,12 @@ def test_atomic_string_min_length_3_nistxml_sv_iv_atomic_string_min_length_4_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_min_length_3_nistxml_sv_iv_atomic_string_min_length_4_2(mode, save_output):
+def test_atomic_string_min_length_3_nistxml_sv_iv_atomic_string_min_length_4_2(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet minLength with value 946.
     """
@@ -12697,11 +13523,12 @@ def test_atomic_string_min_length_3_nistxml_sv_iv_atomic_string_min_length_4_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_min_length_3_nistxml_sv_iv_atomic_string_min_length_4_3(mode, save_output):
+def test_atomic_string_min_length_3_nistxml_sv_iv_atomic_string_min_length_4_3(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet minLength with value 946.
     """
@@ -12712,11 +13539,12 @@ def test_atomic_string_min_length_3_nistxml_sv_iv_atomic_string_min_length_4_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_min_length_3_nistxml_sv_iv_atomic_string_min_length_4_4(mode, save_output):
+def test_atomic_string_min_length_3_nistxml_sv_iv_atomic_string_min_length_4_4(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet minLength with value 946.
     """
@@ -12727,11 +13555,12 @@ def test_atomic_string_min_length_3_nistxml_sv_iv_atomic_string_min_length_4_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_min_length_3_nistxml_sv_iv_atomic_string_min_length_4_5(mode, save_output):
+def test_atomic_string_min_length_3_nistxml_sv_iv_atomic_string_min_length_4_5(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet minLength with value 946.
     """
@@ -12742,11 +13571,12 @@ def test_atomic_string_min_length_3_nistxml_sv_iv_atomic_string_min_length_4_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_min_length_2_nistxml_sv_iv_atomic_string_min_length_3_1(mode, save_output):
+def test_atomic_string_min_length_2_nistxml_sv_iv_atomic_string_min_length_3_1(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet minLength with value 90.
     """
@@ -12757,11 +13587,12 @@ def test_atomic_string_min_length_2_nistxml_sv_iv_atomic_string_min_length_3_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_min_length_2_nistxml_sv_iv_atomic_string_min_length_3_2(mode, save_output):
+def test_atomic_string_min_length_2_nistxml_sv_iv_atomic_string_min_length_3_2(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet minLength with value 90.
     """
@@ -12772,11 +13603,12 @@ def test_atomic_string_min_length_2_nistxml_sv_iv_atomic_string_min_length_3_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_min_length_2_nistxml_sv_iv_atomic_string_min_length_3_3(mode, save_output):
+def test_atomic_string_min_length_2_nistxml_sv_iv_atomic_string_min_length_3_3(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet minLength with value 90.
     """
@@ -12787,11 +13619,12 @@ def test_atomic_string_min_length_2_nistxml_sv_iv_atomic_string_min_length_3_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_min_length_2_nistxml_sv_iv_atomic_string_min_length_3_4(mode, save_output):
+def test_atomic_string_min_length_2_nistxml_sv_iv_atomic_string_min_length_3_4(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet minLength with value 90.
     """
@@ -12802,11 +13635,12 @@ def test_atomic_string_min_length_2_nistxml_sv_iv_atomic_string_min_length_3_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_min_length_2_nistxml_sv_iv_atomic_string_min_length_3_5(mode, save_output):
+def test_atomic_string_min_length_2_nistxml_sv_iv_atomic_string_min_length_3_5(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet minLength with value 90.
     """
@@ -12817,11 +13651,12 @@ def test_atomic_string_min_length_2_nistxml_sv_iv_atomic_string_min_length_3_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_min_length_1_nistxml_sv_iv_atomic_string_min_length_2_1(mode, save_output):
+def test_atomic_string_min_length_1_nistxml_sv_iv_atomic_string_min_length_2_1(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet minLength with value 657.
     """
@@ -12832,11 +13667,12 @@ def test_atomic_string_min_length_1_nistxml_sv_iv_atomic_string_min_length_2_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_min_length_1_nistxml_sv_iv_atomic_string_min_length_2_2(mode, save_output):
+def test_atomic_string_min_length_1_nistxml_sv_iv_atomic_string_min_length_2_2(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet minLength with value 657.
     """
@@ -12847,11 +13683,12 @@ def test_atomic_string_min_length_1_nistxml_sv_iv_atomic_string_min_length_2_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_min_length_1_nistxml_sv_iv_atomic_string_min_length_2_3(mode, save_output):
+def test_atomic_string_min_length_1_nistxml_sv_iv_atomic_string_min_length_2_3(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet minLength with value 657.
     """
@@ -12862,11 +13699,12 @@ def test_atomic_string_min_length_1_nistxml_sv_iv_atomic_string_min_length_2_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_min_length_1_nistxml_sv_iv_atomic_string_min_length_2_4(mode, save_output):
+def test_atomic_string_min_length_1_nistxml_sv_iv_atomic_string_min_length_2_4(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet minLength with value 657.
     """
@@ -12877,11 +13715,12 @@ def test_atomic_string_min_length_1_nistxml_sv_iv_atomic_string_min_length_2_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_min_length_1_nistxml_sv_iv_atomic_string_min_length_2_5(mode, save_output):
+def test_atomic_string_min_length_1_nistxml_sv_iv_atomic_string_min_length_2_5(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet minLength with value 657.
     """
@@ -12892,11 +13731,12 @@ def test_atomic_string_min_length_1_nistxml_sv_iv_atomic_string_min_length_2_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_min_length_nistxml_sv_iv_atomic_string_min_length_1_1(mode, save_output):
+def test_atomic_string_min_length_nistxml_sv_iv_atomic_string_min_length_1_1(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet minLength with value 0.
     """
@@ -12907,11 +13747,12 @@ def test_atomic_string_min_length_nistxml_sv_iv_atomic_string_min_length_1_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_min_length_nistxml_sv_iv_atomic_string_min_length_1_2(mode, save_output):
+def test_atomic_string_min_length_nistxml_sv_iv_atomic_string_min_length_1_2(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet minLength with value 0.
     """
@@ -12922,11 +13763,12 @@ def test_atomic_string_min_length_nistxml_sv_iv_atomic_string_min_length_1_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_min_length_nistxml_sv_iv_atomic_string_min_length_1_3(mode, save_output):
+def test_atomic_string_min_length_nistxml_sv_iv_atomic_string_min_length_1_3(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet minLength with value 0.
     """
@@ -12937,11 +13779,12 @@ def test_atomic_string_min_length_nistxml_sv_iv_atomic_string_min_length_1_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_min_length_nistxml_sv_iv_atomic_string_min_length_1_4(mode, save_output):
+def test_atomic_string_min_length_nistxml_sv_iv_atomic_string_min_length_1_4(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet minLength with value 0.
     """
@@ -12952,11 +13795,12 @@ def test_atomic_string_min_length_nistxml_sv_iv_atomic_string_min_length_1_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_min_length_nistxml_sv_iv_atomic_string_min_length_1_5(mode, save_output):
+def test_atomic_string_min_length_nistxml_sv_iv_atomic_string_min_length_1_5(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet minLength with value 0.
     """
@@ -12967,11 +13811,12 @@ def test_atomic_string_min_length_nistxml_sv_iv_atomic_string_min_length_1_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_max_length_4_nistxml_sv_iv_atomic_string_max_length_5_1(mode, save_output):
+def test_atomic_string_max_length_4_nistxml_sv_iv_atomic_string_max_length_5_1(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet maxLength with value 1000.
     """
@@ -12982,11 +13827,12 @@ def test_atomic_string_max_length_4_nistxml_sv_iv_atomic_string_max_length_5_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_max_length_4_nistxml_sv_iv_atomic_string_max_length_5_2(mode, save_output):
+def test_atomic_string_max_length_4_nistxml_sv_iv_atomic_string_max_length_5_2(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet maxLength with value 1000.
     """
@@ -12997,11 +13843,12 @@ def test_atomic_string_max_length_4_nistxml_sv_iv_atomic_string_max_length_5_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_max_length_4_nistxml_sv_iv_atomic_string_max_length_5_3(mode, save_output):
+def test_atomic_string_max_length_4_nistxml_sv_iv_atomic_string_max_length_5_3(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet maxLength with value 1000.
     """
@@ -13012,11 +13859,12 @@ def test_atomic_string_max_length_4_nistxml_sv_iv_atomic_string_max_length_5_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_max_length_4_nistxml_sv_iv_atomic_string_max_length_5_4(mode, save_output):
+def test_atomic_string_max_length_4_nistxml_sv_iv_atomic_string_max_length_5_4(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet maxLength with value 1000.
     """
@@ -13027,11 +13875,12 @@ def test_atomic_string_max_length_4_nistxml_sv_iv_atomic_string_max_length_5_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_max_length_4_nistxml_sv_iv_atomic_string_max_length_5_5(mode, save_output):
+def test_atomic_string_max_length_4_nistxml_sv_iv_atomic_string_max_length_5_5(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet maxLength with value 1000.
     """
@@ -13042,11 +13891,12 @@ def test_atomic_string_max_length_4_nistxml_sv_iv_atomic_string_max_length_5_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_max_length_3_nistxml_sv_iv_atomic_string_max_length_4_1(mode, save_output):
+def test_atomic_string_max_length_3_nistxml_sv_iv_atomic_string_max_length_4_1(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet maxLength with value 205.
     """
@@ -13057,11 +13907,12 @@ def test_atomic_string_max_length_3_nistxml_sv_iv_atomic_string_max_length_4_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_max_length_3_nistxml_sv_iv_atomic_string_max_length_4_2(mode, save_output):
+def test_atomic_string_max_length_3_nistxml_sv_iv_atomic_string_max_length_4_2(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet maxLength with value 205.
     """
@@ -13072,11 +13923,12 @@ def test_atomic_string_max_length_3_nistxml_sv_iv_atomic_string_max_length_4_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_max_length_3_nistxml_sv_iv_atomic_string_max_length_4_3(mode, save_output):
+def test_atomic_string_max_length_3_nistxml_sv_iv_atomic_string_max_length_4_3(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet maxLength with value 205.
     """
@@ -13087,11 +13939,12 @@ def test_atomic_string_max_length_3_nistxml_sv_iv_atomic_string_max_length_4_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_max_length_3_nistxml_sv_iv_atomic_string_max_length_4_4(mode, save_output):
+def test_atomic_string_max_length_3_nistxml_sv_iv_atomic_string_max_length_4_4(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet maxLength with value 205.
     """
@@ -13102,11 +13955,12 @@ def test_atomic_string_max_length_3_nistxml_sv_iv_atomic_string_max_length_4_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_max_length_3_nistxml_sv_iv_atomic_string_max_length_4_5(mode, save_output):
+def test_atomic_string_max_length_3_nistxml_sv_iv_atomic_string_max_length_4_5(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet maxLength with value 205.
     """
@@ -13117,11 +13971,12 @@ def test_atomic_string_max_length_3_nistxml_sv_iv_atomic_string_max_length_4_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_max_length_2_nistxml_sv_iv_atomic_string_max_length_3_1(mode, save_output):
+def test_atomic_string_max_length_2_nistxml_sv_iv_atomic_string_max_length_3_1(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet maxLength with value 913.
     """
@@ -13132,11 +13987,12 @@ def test_atomic_string_max_length_2_nistxml_sv_iv_atomic_string_max_length_3_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_max_length_2_nistxml_sv_iv_atomic_string_max_length_3_2(mode, save_output):
+def test_atomic_string_max_length_2_nistxml_sv_iv_atomic_string_max_length_3_2(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet maxLength with value 913.
     """
@@ -13147,11 +14003,12 @@ def test_atomic_string_max_length_2_nistxml_sv_iv_atomic_string_max_length_3_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_max_length_2_nistxml_sv_iv_atomic_string_max_length_3_3(mode, save_output):
+def test_atomic_string_max_length_2_nistxml_sv_iv_atomic_string_max_length_3_3(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet maxLength with value 913.
     """
@@ -13162,11 +14019,12 @@ def test_atomic_string_max_length_2_nistxml_sv_iv_atomic_string_max_length_3_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_max_length_2_nistxml_sv_iv_atomic_string_max_length_3_4(mode, save_output):
+def test_atomic_string_max_length_2_nistxml_sv_iv_atomic_string_max_length_3_4(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet maxLength with value 913.
     """
@@ -13177,11 +14035,12 @@ def test_atomic_string_max_length_2_nistxml_sv_iv_atomic_string_max_length_3_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_max_length_2_nistxml_sv_iv_atomic_string_max_length_3_5(mode, save_output):
+def test_atomic_string_max_length_2_nistxml_sv_iv_atomic_string_max_length_3_5(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet maxLength with value 913.
     """
@@ -13192,11 +14051,12 @@ def test_atomic_string_max_length_2_nistxml_sv_iv_atomic_string_max_length_3_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_max_length_1_nistxml_sv_iv_atomic_string_max_length_2_1(mode, save_output):
+def test_atomic_string_max_length_1_nistxml_sv_iv_atomic_string_max_length_2_1(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet maxLength with value 969.
     """
@@ -13207,11 +14067,12 @@ def test_atomic_string_max_length_1_nistxml_sv_iv_atomic_string_max_length_2_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_max_length_1_nistxml_sv_iv_atomic_string_max_length_2_2(mode, save_output):
+def test_atomic_string_max_length_1_nistxml_sv_iv_atomic_string_max_length_2_2(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet maxLength with value 969.
     """
@@ -13222,11 +14083,12 @@ def test_atomic_string_max_length_1_nistxml_sv_iv_atomic_string_max_length_2_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_max_length_1_nistxml_sv_iv_atomic_string_max_length_2_3(mode, save_output):
+def test_atomic_string_max_length_1_nistxml_sv_iv_atomic_string_max_length_2_3(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet maxLength with value 969.
     """
@@ -13237,11 +14099,12 @@ def test_atomic_string_max_length_1_nistxml_sv_iv_atomic_string_max_length_2_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_max_length_1_nistxml_sv_iv_atomic_string_max_length_2_4(mode, save_output):
+def test_atomic_string_max_length_1_nistxml_sv_iv_atomic_string_max_length_2_4(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet maxLength with value 969.
     """
@@ -13252,11 +14115,12 @@ def test_atomic_string_max_length_1_nistxml_sv_iv_atomic_string_max_length_2_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_max_length_1_nistxml_sv_iv_atomic_string_max_length_2_5(mode, save_output):
+def test_atomic_string_max_length_1_nistxml_sv_iv_atomic_string_max_length_2_5(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet maxLength with value 969.
     """
@@ -13267,11 +14131,12 @@ def test_atomic_string_max_length_1_nistxml_sv_iv_atomic_string_max_length_2_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_max_length_nistxml_sv_iv_atomic_string_max_length_1_1(mode, save_output):
+def test_atomic_string_max_length_nistxml_sv_iv_atomic_string_max_length_1_1(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet maxLength with value 0.
     """
@@ -13282,11 +14147,12 @@ def test_atomic_string_max_length_nistxml_sv_iv_atomic_string_max_length_1_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_max_length_nistxml_sv_iv_atomic_string_max_length_1_2(mode, save_output):
+def test_atomic_string_max_length_nistxml_sv_iv_atomic_string_max_length_1_2(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet maxLength with value 0.
     """
@@ -13297,11 +14163,12 @@ def test_atomic_string_max_length_nistxml_sv_iv_atomic_string_max_length_1_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_max_length_nistxml_sv_iv_atomic_string_max_length_1_3(mode, save_output):
+def test_atomic_string_max_length_nistxml_sv_iv_atomic_string_max_length_1_3(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet maxLength with value 0.
     """
@@ -13312,11 +14179,12 @@ def test_atomic_string_max_length_nistxml_sv_iv_atomic_string_max_length_1_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_max_length_nistxml_sv_iv_atomic_string_max_length_1_4(mode, save_output):
+def test_atomic_string_max_length_nistxml_sv_iv_atomic_string_max_length_1_4(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet maxLength with value 0.
     """
@@ -13327,11 +14195,12 @@ def test_atomic_string_max_length_nistxml_sv_iv_atomic_string_max_length_1_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_string_max_length_nistxml_sv_iv_atomic_string_max_length_1_5(mode, save_output):
+def test_atomic_string_max_length_nistxml_sv_iv_atomic_string_max_length_1_5(mode, save_output, output_format):
     """
     Type atomic/string is restricted by facet maxLength with value 0.
     """
@@ -13342,11 +14211,12 @@ def test_atomic_string_max_length_nistxml_sv_iv_atomic_string_max_length_1_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_white_space_nistxml_sv_iv_atomic_g_month_white_space_1_1(mode, save_output):
+def test_atomic_g_month_white_space_nistxml_sv_iv_atomic_g_month_white_space_1_1(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet whiteSpace with value
     collapse.
@@ -13358,11 +14228,12 @@ def test_atomic_g_month_white_space_nistxml_sv_iv_atomic_g_month_white_space_1_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_white_space_nistxml_sv_iv_atomic_g_month_white_space_1_2(mode, save_output):
+def test_atomic_g_month_white_space_nistxml_sv_iv_atomic_g_month_white_space_1_2(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet whiteSpace with value
     collapse.
@@ -13374,11 +14245,12 @@ def test_atomic_g_month_white_space_nistxml_sv_iv_atomic_g_month_white_space_1_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_white_space_nistxml_sv_iv_atomic_g_month_white_space_1_3(mode, save_output):
+def test_atomic_g_month_white_space_nistxml_sv_iv_atomic_g_month_white_space_1_3(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet whiteSpace with value
     collapse.
@@ -13390,11 +14262,12 @@ def test_atomic_g_month_white_space_nistxml_sv_iv_atomic_g_month_white_space_1_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_white_space_nistxml_sv_iv_atomic_g_month_white_space_1_4(mode, save_output):
+def test_atomic_g_month_white_space_nistxml_sv_iv_atomic_g_month_white_space_1_4(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet whiteSpace with value
     collapse.
@@ -13406,11 +14279,12 @@ def test_atomic_g_month_white_space_nistxml_sv_iv_atomic_g_month_white_space_1_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_white_space_nistxml_sv_iv_atomic_g_month_white_space_1_5(mode, save_output):
+def test_atomic_g_month_white_space_nistxml_sv_iv_atomic_g_month_white_space_1_5(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet whiteSpace with value
     collapse.
@@ -13422,11 +14296,12 @@ def test_atomic_g_month_white_space_nistxml_sv_iv_atomic_g_month_white_space_1_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_enumeration_4_nistxml_sv_iv_atomic_g_month_enumeration_5_1(mode, save_output):
+def test_atomic_g_month_enumeration_4_nistxml_sv_iv_atomic_g_month_enumeration_5_1(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet enumeration.
     """
@@ -13437,11 +14312,12 @@ def test_atomic_g_month_enumeration_4_nistxml_sv_iv_atomic_g_month_enumeration_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_enumeration_4_nistxml_sv_iv_atomic_g_month_enumeration_5_2(mode, save_output):
+def test_atomic_g_month_enumeration_4_nistxml_sv_iv_atomic_g_month_enumeration_5_2(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet enumeration.
     """
@@ -13452,11 +14328,12 @@ def test_atomic_g_month_enumeration_4_nistxml_sv_iv_atomic_g_month_enumeration_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_enumeration_4_nistxml_sv_iv_atomic_g_month_enumeration_5_3(mode, save_output):
+def test_atomic_g_month_enumeration_4_nistxml_sv_iv_atomic_g_month_enumeration_5_3(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet enumeration.
     """
@@ -13467,11 +14344,12 @@ def test_atomic_g_month_enumeration_4_nistxml_sv_iv_atomic_g_month_enumeration_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_enumeration_4_nistxml_sv_iv_atomic_g_month_enumeration_5_4(mode, save_output):
+def test_atomic_g_month_enumeration_4_nistxml_sv_iv_atomic_g_month_enumeration_5_4(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet enumeration.
     """
@@ -13482,11 +14360,12 @@ def test_atomic_g_month_enumeration_4_nistxml_sv_iv_atomic_g_month_enumeration_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_enumeration_4_nistxml_sv_iv_atomic_g_month_enumeration_5_5(mode, save_output):
+def test_atomic_g_month_enumeration_4_nistxml_sv_iv_atomic_g_month_enumeration_5_5(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet enumeration.
     """
@@ -13497,11 +14376,12 @@ def test_atomic_g_month_enumeration_4_nistxml_sv_iv_atomic_g_month_enumeration_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_enumeration_3_nistxml_sv_iv_atomic_g_month_enumeration_4_1(mode, save_output):
+def test_atomic_g_month_enumeration_3_nistxml_sv_iv_atomic_g_month_enumeration_4_1(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet enumeration.
     """
@@ -13512,11 +14392,12 @@ def test_atomic_g_month_enumeration_3_nistxml_sv_iv_atomic_g_month_enumeration_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_enumeration_3_nistxml_sv_iv_atomic_g_month_enumeration_4_2(mode, save_output):
+def test_atomic_g_month_enumeration_3_nistxml_sv_iv_atomic_g_month_enumeration_4_2(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet enumeration.
     """
@@ -13527,11 +14408,12 @@ def test_atomic_g_month_enumeration_3_nistxml_sv_iv_atomic_g_month_enumeration_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_enumeration_3_nistxml_sv_iv_atomic_g_month_enumeration_4_3(mode, save_output):
+def test_atomic_g_month_enumeration_3_nistxml_sv_iv_atomic_g_month_enumeration_4_3(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet enumeration.
     """
@@ -13542,11 +14424,12 @@ def test_atomic_g_month_enumeration_3_nistxml_sv_iv_atomic_g_month_enumeration_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_enumeration_3_nistxml_sv_iv_atomic_g_month_enumeration_4_4(mode, save_output):
+def test_atomic_g_month_enumeration_3_nistxml_sv_iv_atomic_g_month_enumeration_4_4(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet enumeration.
     """
@@ -13557,11 +14440,12 @@ def test_atomic_g_month_enumeration_3_nistxml_sv_iv_atomic_g_month_enumeration_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_enumeration_3_nistxml_sv_iv_atomic_g_month_enumeration_4_5(mode, save_output):
+def test_atomic_g_month_enumeration_3_nistxml_sv_iv_atomic_g_month_enumeration_4_5(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet enumeration.
     """
@@ -13572,11 +14456,12 @@ def test_atomic_g_month_enumeration_3_nistxml_sv_iv_atomic_g_month_enumeration_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_enumeration_2_nistxml_sv_iv_atomic_g_month_enumeration_3_1(mode, save_output):
+def test_atomic_g_month_enumeration_2_nistxml_sv_iv_atomic_g_month_enumeration_3_1(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet enumeration.
     """
@@ -13587,11 +14472,12 @@ def test_atomic_g_month_enumeration_2_nistxml_sv_iv_atomic_g_month_enumeration_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_enumeration_2_nistxml_sv_iv_atomic_g_month_enumeration_3_2(mode, save_output):
+def test_atomic_g_month_enumeration_2_nistxml_sv_iv_atomic_g_month_enumeration_3_2(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet enumeration.
     """
@@ -13602,11 +14488,12 @@ def test_atomic_g_month_enumeration_2_nistxml_sv_iv_atomic_g_month_enumeration_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_enumeration_2_nistxml_sv_iv_atomic_g_month_enumeration_3_3(mode, save_output):
+def test_atomic_g_month_enumeration_2_nistxml_sv_iv_atomic_g_month_enumeration_3_3(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet enumeration.
     """
@@ -13617,11 +14504,12 @@ def test_atomic_g_month_enumeration_2_nistxml_sv_iv_atomic_g_month_enumeration_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_enumeration_2_nistxml_sv_iv_atomic_g_month_enumeration_3_4(mode, save_output):
+def test_atomic_g_month_enumeration_2_nistxml_sv_iv_atomic_g_month_enumeration_3_4(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet enumeration.
     """
@@ -13632,11 +14520,12 @@ def test_atomic_g_month_enumeration_2_nistxml_sv_iv_atomic_g_month_enumeration_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_enumeration_2_nistxml_sv_iv_atomic_g_month_enumeration_3_5(mode, save_output):
+def test_atomic_g_month_enumeration_2_nistxml_sv_iv_atomic_g_month_enumeration_3_5(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet enumeration.
     """
@@ -13647,11 +14536,12 @@ def test_atomic_g_month_enumeration_2_nistxml_sv_iv_atomic_g_month_enumeration_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_enumeration_1_nistxml_sv_iv_atomic_g_month_enumeration_2_1(mode, save_output):
+def test_atomic_g_month_enumeration_1_nistxml_sv_iv_atomic_g_month_enumeration_2_1(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet enumeration.
     """
@@ -13662,11 +14552,12 @@ def test_atomic_g_month_enumeration_1_nistxml_sv_iv_atomic_g_month_enumeration_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_enumeration_1_nistxml_sv_iv_atomic_g_month_enumeration_2_2(mode, save_output):
+def test_atomic_g_month_enumeration_1_nistxml_sv_iv_atomic_g_month_enumeration_2_2(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet enumeration.
     """
@@ -13677,11 +14568,12 @@ def test_atomic_g_month_enumeration_1_nistxml_sv_iv_atomic_g_month_enumeration_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_enumeration_1_nistxml_sv_iv_atomic_g_month_enumeration_2_3(mode, save_output):
+def test_atomic_g_month_enumeration_1_nistxml_sv_iv_atomic_g_month_enumeration_2_3(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet enumeration.
     """
@@ -13692,11 +14584,12 @@ def test_atomic_g_month_enumeration_1_nistxml_sv_iv_atomic_g_month_enumeration_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_enumeration_1_nistxml_sv_iv_atomic_g_month_enumeration_2_4(mode, save_output):
+def test_atomic_g_month_enumeration_1_nistxml_sv_iv_atomic_g_month_enumeration_2_4(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet enumeration.
     """
@@ -13707,11 +14600,12 @@ def test_atomic_g_month_enumeration_1_nistxml_sv_iv_atomic_g_month_enumeration_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_enumeration_1_nistxml_sv_iv_atomic_g_month_enumeration_2_5(mode, save_output):
+def test_atomic_g_month_enumeration_1_nistxml_sv_iv_atomic_g_month_enumeration_2_5(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet enumeration.
     """
@@ -13722,11 +14616,12 @@ def test_atomic_g_month_enumeration_1_nistxml_sv_iv_atomic_g_month_enumeration_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_enumeration_nistxml_sv_iv_atomic_g_month_enumeration_1_1(mode, save_output):
+def test_atomic_g_month_enumeration_nistxml_sv_iv_atomic_g_month_enumeration_1_1(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet enumeration.
     """
@@ -13737,11 +14632,12 @@ def test_atomic_g_month_enumeration_nistxml_sv_iv_atomic_g_month_enumeration_1_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_enumeration_nistxml_sv_iv_atomic_g_month_enumeration_1_2(mode, save_output):
+def test_atomic_g_month_enumeration_nistxml_sv_iv_atomic_g_month_enumeration_1_2(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet enumeration.
     """
@@ -13752,11 +14648,12 @@ def test_atomic_g_month_enumeration_nistxml_sv_iv_atomic_g_month_enumeration_1_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_enumeration_nistxml_sv_iv_atomic_g_month_enumeration_1_3(mode, save_output):
+def test_atomic_g_month_enumeration_nistxml_sv_iv_atomic_g_month_enumeration_1_3(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet enumeration.
     """
@@ -13767,11 +14664,12 @@ def test_atomic_g_month_enumeration_nistxml_sv_iv_atomic_g_month_enumeration_1_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_enumeration_nistxml_sv_iv_atomic_g_month_enumeration_1_4(mode, save_output):
+def test_atomic_g_month_enumeration_nistxml_sv_iv_atomic_g_month_enumeration_1_4(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet enumeration.
     """
@@ -13782,11 +14680,12 @@ def test_atomic_g_month_enumeration_nistxml_sv_iv_atomic_g_month_enumeration_1_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_enumeration_nistxml_sv_iv_atomic_g_month_enumeration_1_5(mode, save_output):
+def test_atomic_g_month_enumeration_nistxml_sv_iv_atomic_g_month_enumeration_1_5(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet enumeration.
     """
@@ -13797,11 +14696,12 @@ def test_atomic_g_month_enumeration_nistxml_sv_iv_atomic_g_month_enumeration_1_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_pattern_4_nistxml_sv_iv_atomic_g_month_pattern_5_1(mode, save_output):
+def test_atomic_g_month_pattern_4_nistxml_sv_iv_atomic_g_month_pattern_5_1(mode, save_output, output_format):
     r"""
     Type atomic/gMonth is restricted by facet pattern with value --0\d.
     """
@@ -13812,11 +14712,12 @@ def test_atomic_g_month_pattern_4_nistxml_sv_iv_atomic_g_month_pattern_5_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_pattern_4_nistxml_sv_iv_atomic_g_month_pattern_5_2(mode, save_output):
+def test_atomic_g_month_pattern_4_nistxml_sv_iv_atomic_g_month_pattern_5_2(mode, save_output, output_format):
     r"""
     Type atomic/gMonth is restricted by facet pattern with value --0\d.
     """
@@ -13827,11 +14728,12 @@ def test_atomic_g_month_pattern_4_nistxml_sv_iv_atomic_g_month_pattern_5_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_pattern_4_nistxml_sv_iv_atomic_g_month_pattern_5_3(mode, save_output):
+def test_atomic_g_month_pattern_4_nistxml_sv_iv_atomic_g_month_pattern_5_3(mode, save_output, output_format):
     r"""
     Type atomic/gMonth is restricted by facet pattern with value --0\d.
     """
@@ -13842,11 +14744,12 @@ def test_atomic_g_month_pattern_4_nistxml_sv_iv_atomic_g_month_pattern_5_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_pattern_4_nistxml_sv_iv_atomic_g_month_pattern_5_4(mode, save_output):
+def test_atomic_g_month_pattern_4_nistxml_sv_iv_atomic_g_month_pattern_5_4(mode, save_output, output_format):
     r"""
     Type atomic/gMonth is restricted by facet pattern with value --0\d.
     """
@@ -13857,11 +14760,12 @@ def test_atomic_g_month_pattern_4_nistxml_sv_iv_atomic_g_month_pattern_5_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_pattern_4_nistxml_sv_iv_atomic_g_month_pattern_5_5(mode, save_output):
+def test_atomic_g_month_pattern_4_nistxml_sv_iv_atomic_g_month_pattern_5_5(mode, save_output, output_format):
     r"""
     Type atomic/gMonth is restricted by facet pattern with value --0\d.
     """
@@ -13872,11 +14776,12 @@ def test_atomic_g_month_pattern_4_nistxml_sv_iv_atomic_g_month_pattern_5_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_pattern_3_nistxml_sv_iv_atomic_g_month_pattern_4_1(mode, save_output):
+def test_atomic_g_month_pattern_3_nistxml_sv_iv_atomic_g_month_pattern_4_1(mode, save_output, output_format):
     r"""
     Type atomic/gMonth is restricted by facet pattern with value --\d6.
     """
@@ -13887,11 +14792,12 @@ def test_atomic_g_month_pattern_3_nistxml_sv_iv_atomic_g_month_pattern_4_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_pattern_3_nistxml_sv_iv_atomic_g_month_pattern_4_2(mode, save_output):
+def test_atomic_g_month_pattern_3_nistxml_sv_iv_atomic_g_month_pattern_4_2(mode, save_output, output_format):
     r"""
     Type atomic/gMonth is restricted by facet pattern with value --\d6.
     """
@@ -13902,11 +14808,12 @@ def test_atomic_g_month_pattern_3_nistxml_sv_iv_atomic_g_month_pattern_4_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_pattern_3_nistxml_sv_iv_atomic_g_month_pattern_4_3(mode, save_output):
+def test_atomic_g_month_pattern_3_nistxml_sv_iv_atomic_g_month_pattern_4_3(mode, save_output, output_format):
     r"""
     Type atomic/gMonth is restricted by facet pattern with value --\d6.
     """
@@ -13917,11 +14824,12 @@ def test_atomic_g_month_pattern_3_nistxml_sv_iv_atomic_g_month_pattern_4_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_pattern_3_nistxml_sv_iv_atomic_g_month_pattern_4_4(mode, save_output):
+def test_atomic_g_month_pattern_3_nistxml_sv_iv_atomic_g_month_pattern_4_4(mode, save_output, output_format):
     r"""
     Type atomic/gMonth is restricted by facet pattern with value --\d6.
     """
@@ -13932,11 +14840,12 @@ def test_atomic_g_month_pattern_3_nistxml_sv_iv_atomic_g_month_pattern_4_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_pattern_3_nistxml_sv_iv_atomic_g_month_pattern_4_5(mode, save_output):
+def test_atomic_g_month_pattern_3_nistxml_sv_iv_atomic_g_month_pattern_4_5(mode, save_output, output_format):
     r"""
     Type atomic/gMonth is restricted by facet pattern with value --\d6.
     """
@@ -13947,11 +14856,12 @@ def test_atomic_g_month_pattern_3_nistxml_sv_iv_atomic_g_month_pattern_4_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_pattern_2_nistxml_sv_iv_atomic_g_month_pattern_3_1(mode, save_output):
+def test_atomic_g_month_pattern_2_nistxml_sv_iv_atomic_g_month_pattern_3_1(mode, save_output, output_format):
     r"""
     Type atomic/gMonth is restricted by facet pattern with value --\d9.
     """
@@ -13962,11 +14872,12 @@ def test_atomic_g_month_pattern_2_nistxml_sv_iv_atomic_g_month_pattern_3_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_pattern_2_nistxml_sv_iv_atomic_g_month_pattern_3_2(mode, save_output):
+def test_atomic_g_month_pattern_2_nistxml_sv_iv_atomic_g_month_pattern_3_2(mode, save_output, output_format):
     r"""
     Type atomic/gMonth is restricted by facet pattern with value --\d9.
     """
@@ -13977,11 +14888,12 @@ def test_atomic_g_month_pattern_2_nistxml_sv_iv_atomic_g_month_pattern_3_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_pattern_2_nistxml_sv_iv_atomic_g_month_pattern_3_3(mode, save_output):
+def test_atomic_g_month_pattern_2_nistxml_sv_iv_atomic_g_month_pattern_3_3(mode, save_output, output_format):
     r"""
     Type atomic/gMonth is restricted by facet pattern with value --\d9.
     """
@@ -13992,11 +14904,12 @@ def test_atomic_g_month_pattern_2_nistxml_sv_iv_atomic_g_month_pattern_3_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_pattern_2_nistxml_sv_iv_atomic_g_month_pattern_3_4(mode, save_output):
+def test_atomic_g_month_pattern_2_nistxml_sv_iv_atomic_g_month_pattern_3_4(mode, save_output, output_format):
     r"""
     Type atomic/gMonth is restricted by facet pattern with value --\d9.
     """
@@ -14007,11 +14920,12 @@ def test_atomic_g_month_pattern_2_nistxml_sv_iv_atomic_g_month_pattern_3_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_pattern_2_nistxml_sv_iv_atomic_g_month_pattern_3_5(mode, save_output):
+def test_atomic_g_month_pattern_2_nistxml_sv_iv_atomic_g_month_pattern_3_5(mode, save_output, output_format):
     r"""
     Type atomic/gMonth is restricted by facet pattern with value --\d9.
     """
@@ -14022,11 +14936,12 @@ def test_atomic_g_month_pattern_2_nistxml_sv_iv_atomic_g_month_pattern_3_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_pattern_1_nistxml_sv_iv_atomic_g_month_pattern_2_1(mode, save_output):
+def test_atomic_g_month_pattern_1_nistxml_sv_iv_atomic_g_month_pattern_2_1(mode, save_output, output_format):
     r"""
     Type atomic/gMonth is restricted by facet pattern with value --\d2.
     """
@@ -14037,11 +14952,12 @@ def test_atomic_g_month_pattern_1_nistxml_sv_iv_atomic_g_month_pattern_2_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_pattern_1_nistxml_sv_iv_atomic_g_month_pattern_2_2(mode, save_output):
+def test_atomic_g_month_pattern_1_nistxml_sv_iv_atomic_g_month_pattern_2_2(mode, save_output, output_format):
     r"""
     Type atomic/gMonth is restricted by facet pattern with value --\d2.
     """
@@ -14052,11 +14968,12 @@ def test_atomic_g_month_pattern_1_nistxml_sv_iv_atomic_g_month_pattern_2_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_pattern_1_nistxml_sv_iv_atomic_g_month_pattern_2_3(mode, save_output):
+def test_atomic_g_month_pattern_1_nistxml_sv_iv_atomic_g_month_pattern_2_3(mode, save_output, output_format):
     r"""
     Type atomic/gMonth is restricted by facet pattern with value --\d2.
     """
@@ -14067,11 +14984,12 @@ def test_atomic_g_month_pattern_1_nistxml_sv_iv_atomic_g_month_pattern_2_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_pattern_1_nistxml_sv_iv_atomic_g_month_pattern_2_4(mode, save_output):
+def test_atomic_g_month_pattern_1_nistxml_sv_iv_atomic_g_month_pattern_2_4(mode, save_output, output_format):
     r"""
     Type atomic/gMonth is restricted by facet pattern with value --\d2.
     """
@@ -14082,11 +15000,12 @@ def test_atomic_g_month_pattern_1_nistxml_sv_iv_atomic_g_month_pattern_2_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_pattern_1_nistxml_sv_iv_atomic_g_month_pattern_2_5(mode, save_output):
+def test_atomic_g_month_pattern_1_nistxml_sv_iv_atomic_g_month_pattern_2_5(mode, save_output, output_format):
     r"""
     Type atomic/gMonth is restricted by facet pattern with value --\d2.
     """
@@ -14097,11 +15016,12 @@ def test_atomic_g_month_pattern_1_nistxml_sv_iv_atomic_g_month_pattern_2_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_pattern_nistxml_sv_iv_atomic_g_month_pattern_1_1(mode, save_output):
+def test_atomic_g_month_pattern_nistxml_sv_iv_atomic_g_month_pattern_1_1(mode, save_output, output_format):
     r"""
     Type atomic/gMonth is restricted by facet pattern with value --1\d.
     """
@@ -14112,11 +15032,12 @@ def test_atomic_g_month_pattern_nistxml_sv_iv_atomic_g_month_pattern_1_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_pattern_nistxml_sv_iv_atomic_g_month_pattern_1_2(mode, save_output):
+def test_atomic_g_month_pattern_nistxml_sv_iv_atomic_g_month_pattern_1_2(mode, save_output, output_format):
     r"""
     Type atomic/gMonth is restricted by facet pattern with value --1\d.
     """
@@ -14127,11 +15048,12 @@ def test_atomic_g_month_pattern_nistxml_sv_iv_atomic_g_month_pattern_1_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_pattern_nistxml_sv_iv_atomic_g_month_pattern_1_3(mode, save_output):
+def test_atomic_g_month_pattern_nistxml_sv_iv_atomic_g_month_pattern_1_3(mode, save_output, output_format):
     r"""
     Type atomic/gMonth is restricted by facet pattern with value --1\d.
     """
@@ -14142,11 +15064,12 @@ def test_atomic_g_month_pattern_nistxml_sv_iv_atomic_g_month_pattern_1_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_pattern_nistxml_sv_iv_atomic_g_month_pattern_1_4(mode, save_output):
+def test_atomic_g_month_pattern_nistxml_sv_iv_atomic_g_month_pattern_1_4(mode, save_output, output_format):
     r"""
     Type atomic/gMonth is restricted by facet pattern with value --1\d.
     """
@@ -14157,11 +15080,12 @@ def test_atomic_g_month_pattern_nistxml_sv_iv_atomic_g_month_pattern_1_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_pattern_nistxml_sv_iv_atomic_g_month_pattern_1_5(mode, save_output):
+def test_atomic_g_month_pattern_nistxml_sv_iv_atomic_g_month_pattern_1_5(mode, save_output, output_format):
     r"""
     Type atomic/gMonth is restricted by facet pattern with value --1\d.
     """
@@ -14172,11 +15096,12 @@ def test_atomic_g_month_pattern_nistxml_sv_iv_atomic_g_month_pattern_1_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_max_inclusive_4_nistxml_sv_iv_atomic_g_month_max_inclusive_5_1(mode, save_output):
+def test_atomic_g_month_max_inclusive_4_nistxml_sv_iv_atomic_g_month_max_inclusive_5_1(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet maxInclusive with value
     --12.
@@ -14188,11 +15113,12 @@ def test_atomic_g_month_max_inclusive_4_nistxml_sv_iv_atomic_g_month_max_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_max_inclusive_4_nistxml_sv_iv_atomic_g_month_max_inclusive_5_2(mode, save_output):
+def test_atomic_g_month_max_inclusive_4_nistxml_sv_iv_atomic_g_month_max_inclusive_5_2(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet maxInclusive with value
     --12.
@@ -14204,11 +15130,12 @@ def test_atomic_g_month_max_inclusive_4_nistxml_sv_iv_atomic_g_month_max_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_max_inclusive_4_nistxml_sv_iv_atomic_g_month_max_inclusive_5_3(mode, save_output):
+def test_atomic_g_month_max_inclusive_4_nistxml_sv_iv_atomic_g_month_max_inclusive_5_3(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet maxInclusive with value
     --12.
@@ -14220,11 +15147,12 @@ def test_atomic_g_month_max_inclusive_4_nistxml_sv_iv_atomic_g_month_max_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_max_inclusive_4_nistxml_sv_iv_atomic_g_month_max_inclusive_5_4(mode, save_output):
+def test_atomic_g_month_max_inclusive_4_nistxml_sv_iv_atomic_g_month_max_inclusive_5_4(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet maxInclusive with value
     --12.
@@ -14236,11 +15164,12 @@ def test_atomic_g_month_max_inclusive_4_nistxml_sv_iv_atomic_g_month_max_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_max_inclusive_4_nistxml_sv_iv_atomic_g_month_max_inclusive_5_5(mode, save_output):
+def test_atomic_g_month_max_inclusive_4_nistxml_sv_iv_atomic_g_month_max_inclusive_5_5(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet maxInclusive with value
     --12.
@@ -14252,11 +15181,12 @@ def test_atomic_g_month_max_inclusive_4_nistxml_sv_iv_atomic_g_month_max_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_max_inclusive_3_nistxml_sv_iv_atomic_g_month_max_inclusive_4_1(mode, save_output):
+def test_atomic_g_month_max_inclusive_3_nistxml_sv_iv_atomic_g_month_max_inclusive_4_1(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet maxInclusive with value
     --03.
@@ -14268,11 +15198,12 @@ def test_atomic_g_month_max_inclusive_3_nistxml_sv_iv_atomic_g_month_max_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_max_inclusive_3_nistxml_sv_iv_atomic_g_month_max_inclusive_4_2(mode, save_output):
+def test_atomic_g_month_max_inclusive_3_nistxml_sv_iv_atomic_g_month_max_inclusive_4_2(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet maxInclusive with value
     --03.
@@ -14284,11 +15215,12 @@ def test_atomic_g_month_max_inclusive_3_nistxml_sv_iv_atomic_g_month_max_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_max_inclusive_3_nistxml_sv_iv_atomic_g_month_max_inclusive_4_3(mode, save_output):
+def test_atomic_g_month_max_inclusive_3_nistxml_sv_iv_atomic_g_month_max_inclusive_4_3(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet maxInclusive with value
     --03.
@@ -14300,11 +15232,12 @@ def test_atomic_g_month_max_inclusive_3_nistxml_sv_iv_atomic_g_month_max_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_max_inclusive_3_nistxml_sv_iv_atomic_g_month_max_inclusive_4_4(mode, save_output):
+def test_atomic_g_month_max_inclusive_3_nistxml_sv_iv_atomic_g_month_max_inclusive_4_4(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet maxInclusive with value
     --03.
@@ -14316,11 +15249,12 @@ def test_atomic_g_month_max_inclusive_3_nistxml_sv_iv_atomic_g_month_max_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_max_inclusive_3_nistxml_sv_iv_atomic_g_month_max_inclusive_4_5(mode, save_output):
+def test_atomic_g_month_max_inclusive_3_nistxml_sv_iv_atomic_g_month_max_inclusive_4_5(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet maxInclusive with value
     --03.
@@ -14332,11 +15266,12 @@ def test_atomic_g_month_max_inclusive_3_nistxml_sv_iv_atomic_g_month_max_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_max_inclusive_2_nistxml_sv_iv_atomic_g_month_max_inclusive_3_1(mode, save_output):
+def test_atomic_g_month_max_inclusive_2_nistxml_sv_iv_atomic_g_month_max_inclusive_3_1(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet maxInclusive with value
     --04.
@@ -14348,11 +15283,12 @@ def test_atomic_g_month_max_inclusive_2_nistxml_sv_iv_atomic_g_month_max_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_max_inclusive_2_nistxml_sv_iv_atomic_g_month_max_inclusive_3_2(mode, save_output):
+def test_atomic_g_month_max_inclusive_2_nistxml_sv_iv_atomic_g_month_max_inclusive_3_2(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet maxInclusive with value
     --04.
@@ -14364,11 +15300,12 @@ def test_atomic_g_month_max_inclusive_2_nistxml_sv_iv_atomic_g_month_max_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_max_inclusive_2_nistxml_sv_iv_atomic_g_month_max_inclusive_3_3(mode, save_output):
+def test_atomic_g_month_max_inclusive_2_nistxml_sv_iv_atomic_g_month_max_inclusive_3_3(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet maxInclusive with value
     --04.
@@ -14380,11 +15317,12 @@ def test_atomic_g_month_max_inclusive_2_nistxml_sv_iv_atomic_g_month_max_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_max_inclusive_2_nistxml_sv_iv_atomic_g_month_max_inclusive_3_4(mode, save_output):
+def test_atomic_g_month_max_inclusive_2_nistxml_sv_iv_atomic_g_month_max_inclusive_3_4(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet maxInclusive with value
     --04.
@@ -14396,11 +15334,12 @@ def test_atomic_g_month_max_inclusive_2_nistxml_sv_iv_atomic_g_month_max_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_max_inclusive_2_nistxml_sv_iv_atomic_g_month_max_inclusive_3_5(mode, save_output):
+def test_atomic_g_month_max_inclusive_2_nistxml_sv_iv_atomic_g_month_max_inclusive_3_5(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet maxInclusive with value
     --04.
@@ -14412,11 +15351,12 @@ def test_atomic_g_month_max_inclusive_2_nistxml_sv_iv_atomic_g_month_max_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_max_inclusive_1_nistxml_sv_iv_atomic_g_month_max_inclusive_2_1(mode, save_output):
+def test_atomic_g_month_max_inclusive_1_nistxml_sv_iv_atomic_g_month_max_inclusive_2_1(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet maxInclusive with value
     --09.
@@ -14428,11 +15368,12 @@ def test_atomic_g_month_max_inclusive_1_nistxml_sv_iv_atomic_g_month_max_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_max_inclusive_1_nistxml_sv_iv_atomic_g_month_max_inclusive_2_2(mode, save_output):
+def test_atomic_g_month_max_inclusive_1_nistxml_sv_iv_atomic_g_month_max_inclusive_2_2(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet maxInclusive with value
     --09.
@@ -14444,11 +15385,12 @@ def test_atomic_g_month_max_inclusive_1_nistxml_sv_iv_atomic_g_month_max_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_max_inclusive_1_nistxml_sv_iv_atomic_g_month_max_inclusive_2_3(mode, save_output):
+def test_atomic_g_month_max_inclusive_1_nistxml_sv_iv_atomic_g_month_max_inclusive_2_3(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet maxInclusive with value
     --09.
@@ -14460,11 +15402,12 @@ def test_atomic_g_month_max_inclusive_1_nistxml_sv_iv_atomic_g_month_max_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_max_inclusive_1_nistxml_sv_iv_atomic_g_month_max_inclusive_2_4(mode, save_output):
+def test_atomic_g_month_max_inclusive_1_nistxml_sv_iv_atomic_g_month_max_inclusive_2_4(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet maxInclusive with value
     --09.
@@ -14476,11 +15419,12 @@ def test_atomic_g_month_max_inclusive_1_nistxml_sv_iv_atomic_g_month_max_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_max_inclusive_1_nistxml_sv_iv_atomic_g_month_max_inclusive_2_5(mode, save_output):
+def test_atomic_g_month_max_inclusive_1_nistxml_sv_iv_atomic_g_month_max_inclusive_2_5(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet maxInclusive with value
     --09.
@@ -14492,11 +15436,12 @@ def test_atomic_g_month_max_inclusive_1_nistxml_sv_iv_atomic_g_month_max_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_max_inclusive_nistxml_sv_iv_atomic_g_month_max_inclusive_1_1(mode, save_output):
+def test_atomic_g_month_max_inclusive_nistxml_sv_iv_atomic_g_month_max_inclusive_1_1(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet maxInclusive with value
     --01.
@@ -14508,11 +15453,12 @@ def test_atomic_g_month_max_inclusive_nistxml_sv_iv_atomic_g_month_max_inclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_max_exclusive_4_nistxml_sv_iv_atomic_g_month_max_exclusive_5_1(mode, save_output):
+def test_atomic_g_month_max_exclusive_4_nistxml_sv_iv_atomic_g_month_max_exclusive_5_1(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet maxExclusive with value
     --12.
@@ -14524,11 +15470,12 @@ def test_atomic_g_month_max_exclusive_4_nistxml_sv_iv_atomic_g_month_max_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_max_exclusive_4_nistxml_sv_iv_atomic_g_month_max_exclusive_5_2(mode, save_output):
+def test_atomic_g_month_max_exclusive_4_nistxml_sv_iv_atomic_g_month_max_exclusive_5_2(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet maxExclusive with value
     --12.
@@ -14540,11 +15487,12 @@ def test_atomic_g_month_max_exclusive_4_nistxml_sv_iv_atomic_g_month_max_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_max_exclusive_4_nistxml_sv_iv_atomic_g_month_max_exclusive_5_3(mode, save_output):
+def test_atomic_g_month_max_exclusive_4_nistxml_sv_iv_atomic_g_month_max_exclusive_5_3(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet maxExclusive with value
     --12.
@@ -14556,11 +15504,12 @@ def test_atomic_g_month_max_exclusive_4_nistxml_sv_iv_atomic_g_month_max_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_max_exclusive_4_nistxml_sv_iv_atomic_g_month_max_exclusive_5_4(mode, save_output):
+def test_atomic_g_month_max_exclusive_4_nistxml_sv_iv_atomic_g_month_max_exclusive_5_4(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet maxExclusive with value
     --12.
@@ -14572,11 +15521,12 @@ def test_atomic_g_month_max_exclusive_4_nistxml_sv_iv_atomic_g_month_max_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_max_exclusive_4_nistxml_sv_iv_atomic_g_month_max_exclusive_5_5(mode, save_output):
+def test_atomic_g_month_max_exclusive_4_nistxml_sv_iv_atomic_g_month_max_exclusive_5_5(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet maxExclusive with value
     --12.
@@ -14588,11 +15538,12 @@ def test_atomic_g_month_max_exclusive_4_nistxml_sv_iv_atomic_g_month_max_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_max_exclusive_3_nistxml_sv_iv_atomic_g_month_max_exclusive_4_1(mode, save_output):
+def test_atomic_g_month_max_exclusive_3_nistxml_sv_iv_atomic_g_month_max_exclusive_4_1(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet maxExclusive with value
     --09.
@@ -14604,11 +15555,12 @@ def test_atomic_g_month_max_exclusive_3_nistxml_sv_iv_atomic_g_month_max_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_max_exclusive_3_nistxml_sv_iv_atomic_g_month_max_exclusive_4_2(mode, save_output):
+def test_atomic_g_month_max_exclusive_3_nistxml_sv_iv_atomic_g_month_max_exclusive_4_2(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet maxExclusive with value
     --09.
@@ -14620,11 +15572,12 @@ def test_atomic_g_month_max_exclusive_3_nistxml_sv_iv_atomic_g_month_max_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_max_exclusive_3_nistxml_sv_iv_atomic_g_month_max_exclusive_4_3(mode, save_output):
+def test_atomic_g_month_max_exclusive_3_nistxml_sv_iv_atomic_g_month_max_exclusive_4_3(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet maxExclusive with value
     --09.
@@ -14636,11 +15589,12 @@ def test_atomic_g_month_max_exclusive_3_nistxml_sv_iv_atomic_g_month_max_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_max_exclusive_3_nistxml_sv_iv_atomic_g_month_max_exclusive_4_4(mode, save_output):
+def test_atomic_g_month_max_exclusive_3_nistxml_sv_iv_atomic_g_month_max_exclusive_4_4(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet maxExclusive with value
     --09.
@@ -14652,11 +15606,12 @@ def test_atomic_g_month_max_exclusive_3_nistxml_sv_iv_atomic_g_month_max_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_max_exclusive_3_nistxml_sv_iv_atomic_g_month_max_exclusive_4_5(mode, save_output):
+def test_atomic_g_month_max_exclusive_3_nistxml_sv_iv_atomic_g_month_max_exclusive_4_5(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet maxExclusive with value
     --09.
@@ -14668,11 +15623,12 @@ def test_atomic_g_month_max_exclusive_3_nistxml_sv_iv_atomic_g_month_max_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_max_exclusive_2_nistxml_sv_iv_atomic_g_month_max_exclusive_3_1(mode, save_output):
+def test_atomic_g_month_max_exclusive_2_nistxml_sv_iv_atomic_g_month_max_exclusive_3_1(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet maxExclusive with value
     --11.
@@ -14684,11 +15640,12 @@ def test_atomic_g_month_max_exclusive_2_nistxml_sv_iv_atomic_g_month_max_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_max_exclusive_2_nistxml_sv_iv_atomic_g_month_max_exclusive_3_2(mode, save_output):
+def test_atomic_g_month_max_exclusive_2_nistxml_sv_iv_atomic_g_month_max_exclusive_3_2(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet maxExclusive with value
     --11.
@@ -14700,11 +15657,12 @@ def test_atomic_g_month_max_exclusive_2_nistxml_sv_iv_atomic_g_month_max_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_max_exclusive_2_nistxml_sv_iv_atomic_g_month_max_exclusive_3_3(mode, save_output):
+def test_atomic_g_month_max_exclusive_2_nistxml_sv_iv_atomic_g_month_max_exclusive_3_3(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet maxExclusive with value
     --11.
@@ -14716,11 +15674,12 @@ def test_atomic_g_month_max_exclusive_2_nistxml_sv_iv_atomic_g_month_max_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_max_exclusive_2_nistxml_sv_iv_atomic_g_month_max_exclusive_3_4(mode, save_output):
+def test_atomic_g_month_max_exclusive_2_nistxml_sv_iv_atomic_g_month_max_exclusive_3_4(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet maxExclusive with value
     --11.
@@ -14732,11 +15691,12 @@ def test_atomic_g_month_max_exclusive_2_nistxml_sv_iv_atomic_g_month_max_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_max_exclusive_2_nistxml_sv_iv_atomic_g_month_max_exclusive_3_5(mode, save_output):
+def test_atomic_g_month_max_exclusive_2_nistxml_sv_iv_atomic_g_month_max_exclusive_3_5(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet maxExclusive with value
     --11.
@@ -14748,11 +15708,12 @@ def test_atomic_g_month_max_exclusive_2_nistxml_sv_iv_atomic_g_month_max_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_max_exclusive_1_nistxml_sv_iv_atomic_g_month_max_exclusive_2_1(mode, save_output):
+def test_atomic_g_month_max_exclusive_1_nistxml_sv_iv_atomic_g_month_max_exclusive_2_1(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet maxExclusive with value
     --02.
@@ -14764,11 +15725,12 @@ def test_atomic_g_month_max_exclusive_1_nistxml_sv_iv_atomic_g_month_max_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_max_exclusive_nistxml_sv_iv_atomic_g_month_max_exclusive_1_1(mode, save_output):
+def test_atomic_g_month_max_exclusive_nistxml_sv_iv_atomic_g_month_max_exclusive_1_1(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet maxExclusive with value
     --02.
@@ -14780,11 +15742,12 @@ def test_atomic_g_month_max_exclusive_nistxml_sv_iv_atomic_g_month_max_exclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_min_inclusive_4_nistxml_sv_iv_atomic_g_month_min_inclusive_5_1(mode, save_output):
+def test_atomic_g_month_min_inclusive_4_nistxml_sv_iv_atomic_g_month_min_inclusive_5_1(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet minInclusive with value
     --12.
@@ -14796,11 +15759,12 @@ def test_atomic_g_month_min_inclusive_4_nistxml_sv_iv_atomic_g_month_min_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_min_inclusive_3_nistxml_sv_iv_atomic_g_month_min_inclusive_4_1(mode, save_output):
+def test_atomic_g_month_min_inclusive_3_nistxml_sv_iv_atomic_g_month_min_inclusive_4_1(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet minInclusive with value
     --11.
@@ -14812,11 +15776,12 @@ def test_atomic_g_month_min_inclusive_3_nistxml_sv_iv_atomic_g_month_min_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_min_inclusive_3_nistxml_sv_iv_atomic_g_month_min_inclusive_4_2(mode, save_output):
+def test_atomic_g_month_min_inclusive_3_nistxml_sv_iv_atomic_g_month_min_inclusive_4_2(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet minInclusive with value
     --11.
@@ -14828,11 +15793,12 @@ def test_atomic_g_month_min_inclusive_3_nistxml_sv_iv_atomic_g_month_min_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_min_inclusive_3_nistxml_sv_iv_atomic_g_month_min_inclusive_4_3(mode, save_output):
+def test_atomic_g_month_min_inclusive_3_nistxml_sv_iv_atomic_g_month_min_inclusive_4_3(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet minInclusive with value
     --11.
@@ -14844,11 +15810,12 @@ def test_atomic_g_month_min_inclusive_3_nistxml_sv_iv_atomic_g_month_min_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_min_inclusive_3_nistxml_sv_iv_atomic_g_month_min_inclusive_4_4(mode, save_output):
+def test_atomic_g_month_min_inclusive_3_nistxml_sv_iv_atomic_g_month_min_inclusive_4_4(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet minInclusive with value
     --11.
@@ -14860,11 +15827,12 @@ def test_atomic_g_month_min_inclusive_3_nistxml_sv_iv_atomic_g_month_min_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_min_inclusive_3_nistxml_sv_iv_atomic_g_month_min_inclusive_4_5(mode, save_output):
+def test_atomic_g_month_min_inclusive_3_nistxml_sv_iv_atomic_g_month_min_inclusive_4_5(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet minInclusive with value
     --11.
@@ -14876,11 +15844,12 @@ def test_atomic_g_month_min_inclusive_3_nistxml_sv_iv_atomic_g_month_min_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_min_inclusive_2_nistxml_sv_iv_atomic_g_month_min_inclusive_3_1(mode, save_output):
+def test_atomic_g_month_min_inclusive_2_nistxml_sv_iv_atomic_g_month_min_inclusive_3_1(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet minInclusive with value
     --07.
@@ -14892,11 +15861,12 @@ def test_atomic_g_month_min_inclusive_2_nistxml_sv_iv_atomic_g_month_min_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_min_inclusive_2_nistxml_sv_iv_atomic_g_month_min_inclusive_3_2(mode, save_output):
+def test_atomic_g_month_min_inclusive_2_nistxml_sv_iv_atomic_g_month_min_inclusive_3_2(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet minInclusive with value
     --07.
@@ -14908,11 +15878,12 @@ def test_atomic_g_month_min_inclusive_2_nistxml_sv_iv_atomic_g_month_min_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_min_inclusive_2_nistxml_sv_iv_atomic_g_month_min_inclusive_3_3(mode, save_output):
+def test_atomic_g_month_min_inclusive_2_nistxml_sv_iv_atomic_g_month_min_inclusive_3_3(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet minInclusive with value
     --07.
@@ -14924,11 +15895,12 @@ def test_atomic_g_month_min_inclusive_2_nistxml_sv_iv_atomic_g_month_min_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_min_inclusive_2_nistxml_sv_iv_atomic_g_month_min_inclusive_3_4(mode, save_output):
+def test_atomic_g_month_min_inclusive_2_nistxml_sv_iv_atomic_g_month_min_inclusive_3_4(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet minInclusive with value
     --07.
@@ -14940,11 +15912,12 @@ def test_atomic_g_month_min_inclusive_2_nistxml_sv_iv_atomic_g_month_min_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_min_inclusive_2_nistxml_sv_iv_atomic_g_month_min_inclusive_3_5(mode, save_output):
+def test_atomic_g_month_min_inclusive_2_nistxml_sv_iv_atomic_g_month_min_inclusive_3_5(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet minInclusive with value
     --07.
@@ -14956,11 +15929,12 @@ def test_atomic_g_month_min_inclusive_2_nistxml_sv_iv_atomic_g_month_min_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_min_inclusive_1_nistxml_sv_iv_atomic_g_month_min_inclusive_2_1(mode, save_output):
+def test_atomic_g_month_min_inclusive_1_nistxml_sv_iv_atomic_g_month_min_inclusive_2_1(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet minInclusive with value
     --05.
@@ -14972,11 +15946,12 @@ def test_atomic_g_month_min_inclusive_1_nistxml_sv_iv_atomic_g_month_min_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_min_inclusive_1_nistxml_sv_iv_atomic_g_month_min_inclusive_2_2(mode, save_output):
+def test_atomic_g_month_min_inclusive_1_nistxml_sv_iv_atomic_g_month_min_inclusive_2_2(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet minInclusive with value
     --05.
@@ -14988,11 +15963,12 @@ def test_atomic_g_month_min_inclusive_1_nistxml_sv_iv_atomic_g_month_min_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_min_inclusive_1_nistxml_sv_iv_atomic_g_month_min_inclusive_2_3(mode, save_output):
+def test_atomic_g_month_min_inclusive_1_nistxml_sv_iv_atomic_g_month_min_inclusive_2_3(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet minInclusive with value
     --05.
@@ -15004,11 +15980,12 @@ def test_atomic_g_month_min_inclusive_1_nistxml_sv_iv_atomic_g_month_min_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_min_inclusive_1_nistxml_sv_iv_atomic_g_month_min_inclusive_2_4(mode, save_output):
+def test_atomic_g_month_min_inclusive_1_nistxml_sv_iv_atomic_g_month_min_inclusive_2_4(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet minInclusive with value
     --05.
@@ -15020,11 +15997,12 @@ def test_atomic_g_month_min_inclusive_1_nistxml_sv_iv_atomic_g_month_min_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_min_inclusive_1_nistxml_sv_iv_atomic_g_month_min_inclusive_2_5(mode, save_output):
+def test_atomic_g_month_min_inclusive_1_nistxml_sv_iv_atomic_g_month_min_inclusive_2_5(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet minInclusive with value
     --05.
@@ -15036,11 +16014,12 @@ def test_atomic_g_month_min_inclusive_1_nistxml_sv_iv_atomic_g_month_min_inclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_min_inclusive_nistxml_sv_iv_atomic_g_month_min_inclusive_1_1(mode, save_output):
+def test_atomic_g_month_min_inclusive_nistxml_sv_iv_atomic_g_month_min_inclusive_1_1(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet minInclusive with value
     --01.
@@ -15052,11 +16031,12 @@ def test_atomic_g_month_min_inclusive_nistxml_sv_iv_atomic_g_month_min_inclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_min_inclusive_nistxml_sv_iv_atomic_g_month_min_inclusive_1_2(mode, save_output):
+def test_atomic_g_month_min_inclusive_nistxml_sv_iv_atomic_g_month_min_inclusive_1_2(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet minInclusive with value
     --01.
@@ -15068,11 +16048,12 @@ def test_atomic_g_month_min_inclusive_nistxml_sv_iv_atomic_g_month_min_inclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_min_inclusive_nistxml_sv_iv_atomic_g_month_min_inclusive_1_3(mode, save_output):
+def test_atomic_g_month_min_inclusive_nistxml_sv_iv_atomic_g_month_min_inclusive_1_3(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet minInclusive with value
     --01.
@@ -15084,11 +16065,12 @@ def test_atomic_g_month_min_inclusive_nistxml_sv_iv_atomic_g_month_min_inclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_min_inclusive_nistxml_sv_iv_atomic_g_month_min_inclusive_1_4(mode, save_output):
+def test_atomic_g_month_min_inclusive_nistxml_sv_iv_atomic_g_month_min_inclusive_1_4(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet minInclusive with value
     --01.
@@ -15100,11 +16082,12 @@ def test_atomic_g_month_min_inclusive_nistxml_sv_iv_atomic_g_month_min_inclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_min_inclusive_nistxml_sv_iv_atomic_g_month_min_inclusive_1_5(mode, save_output):
+def test_atomic_g_month_min_inclusive_nistxml_sv_iv_atomic_g_month_min_inclusive_1_5(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet minInclusive with value
     --01.
@@ -15116,11 +16099,12 @@ def test_atomic_g_month_min_inclusive_nistxml_sv_iv_atomic_g_month_min_inclusive
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_min_exclusive_4_nistxml_sv_iv_atomic_g_month_min_exclusive_5_1(mode, save_output):
+def test_atomic_g_month_min_exclusive_4_nistxml_sv_iv_atomic_g_month_min_exclusive_5_1(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet minExclusive with value
     --11.
@@ -15132,11 +16116,12 @@ def test_atomic_g_month_min_exclusive_4_nistxml_sv_iv_atomic_g_month_min_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_min_exclusive_3_nistxml_sv_iv_atomic_g_month_min_exclusive_4_1(mode, save_output):
+def test_atomic_g_month_min_exclusive_3_nistxml_sv_iv_atomic_g_month_min_exclusive_4_1(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet minExclusive with value
     --04.
@@ -15148,11 +16133,12 @@ def test_atomic_g_month_min_exclusive_3_nistxml_sv_iv_atomic_g_month_min_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_min_exclusive_3_nistxml_sv_iv_atomic_g_month_min_exclusive_4_2(mode, save_output):
+def test_atomic_g_month_min_exclusive_3_nistxml_sv_iv_atomic_g_month_min_exclusive_4_2(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet minExclusive with value
     --04.
@@ -15164,11 +16150,12 @@ def test_atomic_g_month_min_exclusive_3_nistxml_sv_iv_atomic_g_month_min_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_min_exclusive_3_nistxml_sv_iv_atomic_g_month_min_exclusive_4_3(mode, save_output):
+def test_atomic_g_month_min_exclusive_3_nistxml_sv_iv_atomic_g_month_min_exclusive_4_3(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet minExclusive with value
     --04.
@@ -15180,11 +16167,12 @@ def test_atomic_g_month_min_exclusive_3_nistxml_sv_iv_atomic_g_month_min_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_min_exclusive_3_nistxml_sv_iv_atomic_g_month_min_exclusive_4_4(mode, save_output):
+def test_atomic_g_month_min_exclusive_3_nistxml_sv_iv_atomic_g_month_min_exclusive_4_4(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet minExclusive with value
     --04.
@@ -15196,11 +16184,12 @@ def test_atomic_g_month_min_exclusive_3_nistxml_sv_iv_atomic_g_month_min_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_min_exclusive_3_nistxml_sv_iv_atomic_g_month_min_exclusive_4_5(mode, save_output):
+def test_atomic_g_month_min_exclusive_3_nistxml_sv_iv_atomic_g_month_min_exclusive_4_5(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet minExclusive with value
     --04.
@@ -15212,11 +16201,12 @@ def test_atomic_g_month_min_exclusive_3_nistxml_sv_iv_atomic_g_month_min_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_min_exclusive_2_nistxml_sv_iv_atomic_g_month_min_exclusive_3_1(mode, save_output):
+def test_atomic_g_month_min_exclusive_2_nistxml_sv_iv_atomic_g_month_min_exclusive_3_1(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet minExclusive with value
     --03.
@@ -15228,11 +16218,12 @@ def test_atomic_g_month_min_exclusive_2_nistxml_sv_iv_atomic_g_month_min_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_min_exclusive_2_nistxml_sv_iv_atomic_g_month_min_exclusive_3_2(mode, save_output):
+def test_atomic_g_month_min_exclusive_2_nistxml_sv_iv_atomic_g_month_min_exclusive_3_2(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet minExclusive with value
     --03.
@@ -15244,11 +16235,12 @@ def test_atomic_g_month_min_exclusive_2_nistxml_sv_iv_atomic_g_month_min_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_min_exclusive_2_nistxml_sv_iv_atomic_g_month_min_exclusive_3_3(mode, save_output):
+def test_atomic_g_month_min_exclusive_2_nistxml_sv_iv_atomic_g_month_min_exclusive_3_3(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet minExclusive with value
     --03.
@@ -15260,11 +16252,12 @@ def test_atomic_g_month_min_exclusive_2_nistxml_sv_iv_atomic_g_month_min_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_min_exclusive_2_nistxml_sv_iv_atomic_g_month_min_exclusive_3_4(mode, save_output):
+def test_atomic_g_month_min_exclusive_2_nistxml_sv_iv_atomic_g_month_min_exclusive_3_4(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet minExclusive with value
     --03.
@@ -15276,11 +16269,12 @@ def test_atomic_g_month_min_exclusive_2_nistxml_sv_iv_atomic_g_month_min_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_min_exclusive_2_nistxml_sv_iv_atomic_g_month_min_exclusive_3_5(mode, save_output):
+def test_atomic_g_month_min_exclusive_2_nistxml_sv_iv_atomic_g_month_min_exclusive_3_5(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet minExclusive with value
     --03.
@@ -15292,11 +16286,12 @@ def test_atomic_g_month_min_exclusive_2_nistxml_sv_iv_atomic_g_month_min_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_min_exclusive_1_nistxml_sv_iv_atomic_g_month_min_exclusive_2_1(mode, save_output):
+def test_atomic_g_month_min_exclusive_1_nistxml_sv_iv_atomic_g_month_min_exclusive_2_1(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet minExclusive with value
     --09.
@@ -15308,11 +16303,12 @@ def test_atomic_g_month_min_exclusive_1_nistxml_sv_iv_atomic_g_month_min_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_min_exclusive_1_nistxml_sv_iv_atomic_g_month_min_exclusive_2_2(mode, save_output):
+def test_atomic_g_month_min_exclusive_1_nistxml_sv_iv_atomic_g_month_min_exclusive_2_2(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet minExclusive with value
     --09.
@@ -15324,11 +16320,12 @@ def test_atomic_g_month_min_exclusive_1_nistxml_sv_iv_atomic_g_month_min_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_min_exclusive_1_nistxml_sv_iv_atomic_g_month_min_exclusive_2_3(mode, save_output):
+def test_atomic_g_month_min_exclusive_1_nistxml_sv_iv_atomic_g_month_min_exclusive_2_3(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet minExclusive with value
     --09.
@@ -15340,11 +16337,12 @@ def test_atomic_g_month_min_exclusive_1_nistxml_sv_iv_atomic_g_month_min_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_min_exclusive_1_nistxml_sv_iv_atomic_g_month_min_exclusive_2_4(mode, save_output):
+def test_atomic_g_month_min_exclusive_1_nistxml_sv_iv_atomic_g_month_min_exclusive_2_4(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet minExclusive with value
     --09.
@@ -15356,11 +16354,12 @@ def test_atomic_g_month_min_exclusive_1_nistxml_sv_iv_atomic_g_month_min_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_atomic_g_month_min_exclusive_1_nistxml_sv_iv_atomic_g_month_min_exclusive_2_5(mode, save_output):
+def test_atomic_g_month_min_exclusive_1_nistxml_sv_iv_atomic_g_month_min_exclusive_2_5(mode, save_output, output_format):
     """
     Type atomic/gMonth is restricted by facet minExclusive with value
     --09.
@@ -15372,5 +16371,6 @@ def test_atomic_g_month_min_exclusive_1_nistxml_sv_iv_atomic_g_month_min_exclusi
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )

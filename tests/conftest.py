@@ -15,6 +15,13 @@ def pytest_addoption(parser):
         choices=["xsd", "xml", "json", "build"],
         help="Mode",
     )
+    parser.addoption(
+        "--output-format",
+        action="store",
+        default="dataclasses",
+        choices=["dataclasses", "attrs"],
+        help="Mode",
+    )
 
 
 @pytest.fixture
@@ -25,6 +32,11 @@ def save_output(request):
 @pytest.fixture
 def mode(request):
     return request.config.getoption("--mode")
+
+
+@pytest.fixture
+def output_format(request):
+    return request.config.getoption("--output-format")
 
 
 @pytest.hookimpl

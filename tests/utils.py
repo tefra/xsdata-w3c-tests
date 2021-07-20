@@ -13,6 +13,7 @@ import xmlschema
 from click.testing import CliRunner
 from lxml import etree
 from xsdata.cli import cli
+from xsdata.formats.dataclass.context import XmlContext
 from xsdata.formats.dataclass.parsers import JsonParser
 from xsdata.formats.dataclass.parsers import XmlParser
 from xsdata.formats.dataclass.serializers import JsonSerializer
@@ -36,6 +37,7 @@ def assert_bindings(
     version: str,
     mode: str,
     save_output: bool,
+    output_format: str,
     structure_style: str,
 ):
     __tracebackhide__ = True
@@ -45,15 +47,15 @@ def assert_bindings(
         pck_arr = list(map(text.snake_case, instance_path.parts))
         package = f"output.xml_models.{'.'.join(pck_arr)}"
         instance_path = w3c.joinpath(instance_path)
-        clazz = generate_models(
-            str(instance_path), package, class_name, structure_style
-        )
+        source = str(instance_path)
     else:
         schema_path = Path(schema)
         pck_arr = list(map(text.snake_case, schema_path.parts))
         package = f"output.models.{'.'.join(pck_arr)}"
         schema_path = w3c.joinpath(schema)
-        clazz = generate_models(str(schema_path), package, class_name, structure_style)
+        source = str(schema_path)
+
+    clazz = generate_models(source, package, class_name, output_format, structure_style)
 
     if mode == "build":
         return
@@ -64,7 +66,8 @@ def assert_bindings(
     try:
         instance_path = w3c.joinpath(instance)
         schema_path = w3c.joinpath(schema)
-        parser = XmlParser()
+        context = XmlContext(class_type=output_format)
+        parser = XmlParser(context=context)
         obj = parser.from_path(instance_path, clazz)
     except Exception as e:
         raise e
@@ -75,18 +78,18 @@ def assert_bindings(
         save_path.parent.mkdir(parents=True, exist_ok=True)
 
     if mode == "json":
-        assert_json_bindings(obj, save_path)
+        assert_json_bindings(context, obj, save_path)
     else:
         assert_xml_bindings(
-            obj, parser.ns_map, schema_path, instance_path, save_path, version
+            context, obj, parser.ns_map, schema_path, instance_path, save_path, version
         )
 
 
-def assert_json_bindings(obj: Any, save_path: Optional[Path]):
+def assert_json_bindings(context: XmlContext, obj: Any, save_path: Optional[Path]):
     __tracebackhide__ = True
 
-    serializer = JsonSerializer(indent=4)
-    parser = JsonParser()
+    serializer = JsonSerializer(context=context, indent=4)
+    parser = JsonParser(context=context)
     obj_json = serializer.render(obj)
     obj_b = parser.from_string(obj_json, obj.__class__)
 
@@ -111,6 +114,7 @@ def assert_json_bindings(obj: Any, save_path: Optional[Path]):
 
 
 def assert_xml_bindings(
+    context: XmlContext,
     obj: Any,
     ns_map: Dict,
     schema_path: Path,
@@ -125,9 +129,9 @@ def assert_xml_bindings(
         pytest.skip("Schema validator failed on parsing definition")
 
     try:
-        xsdata_xml = XmlSerializer(config=config).render(obj, ns_map)
+        xsdata_xml = XmlSerializer(context=context, config=config).render(obj, ns_map)
         if save_path:
-            json_document = JsonSerializer(indent=4).render(obj)
+            json_document = JsonSerializer(context=context, indent=4).render(obj)
             save_path.write_text(xsdata_xml)
             save_path.with_suffix(".json").write_text(json_document)
         return assert_valid(schema_validator, xsdata_xml)
@@ -147,9 +151,13 @@ def assert_valid(validator, tree):
 
 
 @functools.lru_cache(maxsize=5)
-def generate_models(xsd: str, package: str, class_name: str, structure_style: str):
+def generate_models(
+    xsd: str, package: str, class_name: str, output_format: str, structure_style: str
+):
     runner = CliRunner()
-    result = runner.invoke(cli, [xsd, "-ss", structure_style, "-p", package, "-cf"])
+    result = runner.invoke(
+        cli, [xsd, "-ss", structure_style, "-p", package, "-o", output_format, "-cf"]
+    )
 
     if result.exception:
         return result.exception

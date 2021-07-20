@@ -15,7 +15,6 @@ class E:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-            "required": True,
         }
     )
 
@@ -27,10 +26,7 @@ class E1:
         namespace = "foo"
 
     value: Optional[int] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 

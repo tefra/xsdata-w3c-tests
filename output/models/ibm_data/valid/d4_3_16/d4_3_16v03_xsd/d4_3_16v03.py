@@ -16,7 +16,6 @@ class DTimeRoot:
             "name": "elDTimeET",
             "type": "Element",
             "namespace": "",
-            "required": True,
             "explicit_timezone": "required",
         }
     )

@@ -1,4 +1,4 @@
 {
     "foo": "\u0400fixed",
-    "att": null
+    "att": "\u0400fixed"
 }

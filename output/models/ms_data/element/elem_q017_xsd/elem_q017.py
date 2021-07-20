@@ -8,7 +8,7 @@ class FooTest:
 
     value: str = field(
         init=False,
-        default="Hello",
+        default="Hello"
     )
 
 

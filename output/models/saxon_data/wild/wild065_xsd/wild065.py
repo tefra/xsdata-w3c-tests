@@ -9,10 +9,7 @@ class E:
         name = "e"
 
     value: Optional[Decimal] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -22,10 +19,7 @@ class G:
         name = "g"
 
     value: Optional[int] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -38,14 +32,12 @@ class Zing:
         default=None,
         metadata={
             "type": "Element",
-            "required": True,
         }
     )
     e: Optional[Decimal] = field(
         default=None,
         metadata={
             "type": "Element",
-            "required": True,
         }
     )
     f: Optional[int] = field(

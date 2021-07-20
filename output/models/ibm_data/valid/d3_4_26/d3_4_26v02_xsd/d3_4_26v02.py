@@ -20,10 +20,7 @@ class Root:
         namespace = "http://xstest-tns/schema11_D3_4_26_v02"
 
     value: Optional[str] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
     ay_mdtype: Optional[XmlDuration] = field(
         default=None,

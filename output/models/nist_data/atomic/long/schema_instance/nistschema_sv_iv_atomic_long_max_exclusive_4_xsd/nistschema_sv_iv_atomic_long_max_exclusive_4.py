@@ -13,7 +13,6 @@ class NistschemaSvIvAtomicLongMaxExclusive4:
     value: Optional[int] = field(
         default=None,
         metadata={
-            "required": True,
             "max_exclusive": -40900034799576711,
         }
     )

@@ -14,7 +14,6 @@ class NistschemaSvIvAtomicDurationMaxExclusive3:
     value: Optional[XmlDuration] = field(
         default=None,
         metadata={
-            "required": True,
             "max_exclusive": XmlDuration("P2009Y03M30DT15H11M46S"),
         }
     )

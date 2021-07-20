@@ -8,5 +8,5 @@ class Root:
 
     value: str = field(
         init=False,
-        default="abc",
+        default="abc"
     )

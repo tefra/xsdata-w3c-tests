@@ -29,10 +29,7 @@ class Root:
         @dataclass
         class Idelt:
             value: Optional[int] = field(
-                default=None,
-                metadata={
-                    "required": True,
-                }
+                default=None
             )
             attr: Optional[str] = field(
                 default=None,

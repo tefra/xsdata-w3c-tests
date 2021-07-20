@@ -31,7 +31,7 @@ class MixedTitleType(TitleType):
         name = "mixedTitleType"
 
     value: Optional[Union[int, str]] = field(
-        default=None,
+        default=None
     )
 
 
@@ -54,11 +54,11 @@ class Root:
     @dataclass
     class TypeText(TitleType):
         value: Optional[str] = field(
-            default=None,
+            default=None
         )
 
     @dataclass
     class TypeNumber(TitleType):
         value: Optional[int] = field(
-            default=None,
+            default=None
         )

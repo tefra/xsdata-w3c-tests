@@ -25,8 +25,5 @@ class NistschemaSvIvUnionGMonthDayGYearMonthEnumeration3:
         namespace = "NISTSchema-SV-IV-union-gMonthDay-gYearMonth-enumeration-3-NS"
 
     value: Optional[NistschemaSvIvUnionGMonthDayGYearMonthEnumeration3Type] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )

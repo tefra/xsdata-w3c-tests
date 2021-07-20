@@ -10,10 +10,7 @@ class Answer:
         name = "answer"
 
     value: Optional[bool] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
     certainty: Optional[str] = field(
         default=None,
@@ -34,7 +31,6 @@ class Root:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-            "required": True,
         }
     )
 

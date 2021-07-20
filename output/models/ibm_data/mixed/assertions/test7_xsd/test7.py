@@ -10,7 +10,6 @@ class Message:
     value: Optional[str] = field(
         default=None,
         metadata={
-            "required": True,
             "max_length": 25,
         }
     )

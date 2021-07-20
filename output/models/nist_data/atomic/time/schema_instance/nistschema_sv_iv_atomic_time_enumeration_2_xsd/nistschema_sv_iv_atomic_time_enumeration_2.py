@@ -22,8 +22,5 @@ class NistschemaSvIvAtomicTimeEnumeration2:
         namespace = "NISTSchema-SV-IV-atomic-time-enumeration-2-NS"
 
     value: Optional[NistschemaSvIvAtomicTimeEnumeration2Type] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )

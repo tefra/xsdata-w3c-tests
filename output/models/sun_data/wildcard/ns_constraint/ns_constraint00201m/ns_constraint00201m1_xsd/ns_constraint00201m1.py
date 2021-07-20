@@ -28,8 +28,5 @@ class Date:
         namespace = "nsConstraint"
 
     value: Optional[XmlDate] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )

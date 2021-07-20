@@ -11,10 +11,7 @@ class A:
         namespace = "a"
 
     value: Optional[int] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -25,10 +22,7 @@ class B:
         namespace = "a"
 
     value: Optional[int] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -39,10 +33,7 @@ class C:
         namespace = "a"
 
     value: Optional[int] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -53,10 +44,7 @@ class D:
         namespace = "a"
 
     value: Optional[int] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -70,7 +58,6 @@ class T:
         metadata={
             "type": "Element",
             "namespace": "a",
-            "required": True,
         }
     )
     b: Optional[int] = field(
@@ -78,7 +65,6 @@ class T:
         metadata={
             "type": "Element",
             "namespace": "a",
-            "required": True,
         }
     )
     any_element: List[object] = field(
@@ -94,7 +80,6 @@ class T:
         metadata={
             "type": "Element",
             "namespace": "a",
-            "required": True,
         }
     )
 

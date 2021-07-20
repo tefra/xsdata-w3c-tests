@@ -14,7 +14,6 @@ class NistschemaSvIvAtomicDecimalMaxExclusive3:
     value: Optional[Decimal] = field(
         default=None,
         metadata={
-            "required": True,
             "max_exclusive": Decimal("171942968603657986"),
         }
     )

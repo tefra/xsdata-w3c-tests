@@ -17,5 +17,5 @@ class Price:
         namespace = "http://simple022.ly/"
 
     value: Optional[PriceValue] = field(
-        default=None,
+        default=None
     )

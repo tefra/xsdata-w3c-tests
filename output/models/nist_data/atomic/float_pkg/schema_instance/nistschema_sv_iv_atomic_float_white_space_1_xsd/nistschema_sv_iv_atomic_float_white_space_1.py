@@ -13,7 +13,6 @@ class NistschemaSvIvAtomicFloatWhiteSpace1:
     value: Optional[float] = field(
         default=None,
         metadata={
-            "required": True,
             "white_space": "collapse",
         }
     )

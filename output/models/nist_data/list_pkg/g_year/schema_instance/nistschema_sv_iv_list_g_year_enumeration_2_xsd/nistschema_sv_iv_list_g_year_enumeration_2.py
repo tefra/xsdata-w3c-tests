@@ -85,8 +85,5 @@ class NistschemaSvIvListGYearEnumeration2:
         namespace = "NISTSchema-SV-IV-list-gYear-enumeration-2-NS"
 
     value: Optional[NistschemaSvIvListGYearEnumeration2Type] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )

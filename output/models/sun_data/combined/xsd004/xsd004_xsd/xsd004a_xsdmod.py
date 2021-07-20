@@ -11,10 +11,7 @@ class A:
         namespace = "bar"
 
     value: Optional[str] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -25,10 +22,7 @@ class B:
         namespace = "bar"
 
     value: Optional[str] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -39,8 +33,5 @@ class C:
         namespace = "bar"
 
     value: Optional[str] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )

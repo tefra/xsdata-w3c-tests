@@ -10,7 +10,7 @@ class E:
         namespace = "ElemDecl/valueConstraint"
 
     value: bool = field(
-        default=True,
+        default=True
     )
 
 
@@ -25,6 +25,5 @@ class Root:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-            "required": True,
         }
     )

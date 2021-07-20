@@ -9,8 +9,5 @@ class Doc:
         name = "doc"
 
     value: Optional[XmlDateTime] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )

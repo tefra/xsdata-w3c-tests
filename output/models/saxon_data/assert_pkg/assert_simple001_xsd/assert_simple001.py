@@ -9,7 +9,7 @@ class Date:
         name = "date"
 
     value: Optional[XmlDate] = field(
-        default=None,
+        default=None
     )
 
 

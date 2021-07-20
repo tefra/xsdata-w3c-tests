@@ -14,7 +14,6 @@ class Root:
     value: Optional[Union[str, TPredefinedLnclassEnum]] = field(
         default=None,
         metadata={
-            "required": True,
             "min_length": 1,
             "pattern": r"\p{Lu}+",
         }

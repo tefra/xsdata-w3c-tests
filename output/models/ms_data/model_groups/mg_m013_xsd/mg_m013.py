@@ -12,7 +12,6 @@ class Doc:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-            "required": True,
         }
     )
 
@@ -50,6 +49,5 @@ class Global:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-            "required": True,
         }
     )

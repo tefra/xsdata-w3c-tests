@@ -10,10 +10,7 @@ class Root:
         nillable = True
 
     value: Optional[Decimal] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
     present: bool = field(
         default=True,

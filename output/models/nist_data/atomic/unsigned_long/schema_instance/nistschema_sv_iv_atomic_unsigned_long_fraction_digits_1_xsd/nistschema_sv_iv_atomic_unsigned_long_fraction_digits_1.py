@@ -13,7 +13,6 @@ class NistschemaSvIvAtomicUnsignedLongFractionDigits1:
     value: Optional[int] = field(
         default=None,
         metadata={
-            "required": True,
             "fraction_digits": 0,
         }
     )

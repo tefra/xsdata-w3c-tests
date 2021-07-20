@@ -12,7 +12,6 @@ class Root:
         metadata={
             "type": "Element",
             "namespace": "",
-            "min_occurs": 1,
             "max_occurs": 10,
             "pattern": r"Chapter\s{1,2}\d",
         }

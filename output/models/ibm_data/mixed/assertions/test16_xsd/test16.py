@@ -8,10 +8,7 @@ class MyBase:
         name = "myBase"
 
     value: Optional[str] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
     a: Optional[int] = field(
         default=None,

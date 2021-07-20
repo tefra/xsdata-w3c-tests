@@ -10,10 +10,7 @@ class Head:
         namespace = "ElemDecl/typeDef"
 
     value: Optional[bool] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -28,6 +25,5 @@ class Root:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-            "required": True,
         }
     )

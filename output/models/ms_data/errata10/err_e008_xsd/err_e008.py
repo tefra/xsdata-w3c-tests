@@ -15,7 +15,6 @@ class Root:
         metadata={
             "name": "testToken",
             "type": "Element",
-            "required": True,
         }
     )
 
@@ -27,8 +26,5 @@ class TestToken:
         namespace = "http://www.tempuri.org"
 
     value: Optional[str] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )

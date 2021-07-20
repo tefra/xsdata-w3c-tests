@@ -25,7 +25,6 @@ class Root:
             "name": "elyMDType",
             "type": "Element",
             "namespace": "",
-            "min_occurs": 1,
         }
     )
     ely_mdenumeration: List[YMdenumeration] = field(
@@ -43,7 +42,6 @@ class Root:
             "name": "elyMDMinMaxInclusive",
             "type": "Element",
             "namespace": "",
-            "min_occurs": 1,
             "min_inclusive": XmlDuration("-P2Y"),
             "max_inclusive": XmlDuration("P30Y23M"),
         }
@@ -54,7 +52,6 @@ class Root:
             "name": "elyMDMinMaxExclusive",
             "type": "Element",
             "namespace": "",
-            "min_occurs": 1,
             "min_exclusive": XmlDuration("-P2Y"),
             "max_exclusive": XmlDuration("P30Y23M"),
         }

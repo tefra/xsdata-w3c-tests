@@ -9,8 +9,5 @@ class Number:
         name = "number"
 
     value: Optional[Decimal] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )

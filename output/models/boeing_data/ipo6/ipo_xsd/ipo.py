@@ -51,10 +51,7 @@ class Comment:
         namespace = "http://www.example.com/IPO"
 
     value: Optional[str] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -65,10 +62,7 @@ class CustomerComment:
         namespace = "http://www.example.com/IPO"
 
     value: Optional[str] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -79,10 +73,7 @@ class ShipComment:
         namespace = "http://www.example.com/IPO"
 
     value: Optional[str] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -202,7 +193,6 @@ class Ukaddress(AddressType):
         metadata={
             "type": "Element",
             "namespace": "http://www.example.com/IPO",
-            "required": True,
             "pattern": r"[A-Z]{2}\d\s\d[A-Z]{2}",
         }
     )
@@ -253,7 +243,6 @@ class PurchaseOrderType:
         metadata={
             "type": "Element",
             "namespace": "http://www.example.com/add",
-            "required": True,
         }
     )
     extern_first_element: Optional[str] = field(
@@ -262,7 +251,6 @@ class PurchaseOrderType:
             "name": "ExternFirstElement",
             "type": "Element",
             "namespace": "http://www.example.com/IPO",
-            "required": True,
         }
     )
     ship_to: Optional[AddressType] = field(

@@ -10,10 +10,7 @@ class AnySimpleType:
         name = "anySimpleType"
 
     value: Optional[object] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
     type: Optional[str] = field(
         default=None,
@@ -29,7 +26,7 @@ class DoubleType:
         name = "doubleType"
 
     value: Optional[float] = field(
-        default=None,
+        default=None
     )
     type: Optional[str] = field(
         default=None,
@@ -45,7 +42,7 @@ class FloatType:
         name = "floatType"
 
     value: Optional[float] = field(
-        default=None,
+        default=None
     )
     type: Optional[str] = field(
         default=None,

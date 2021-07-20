@@ -11,8 +11,5 @@ class Para:
         namespace = "http://example.com/over018"
 
     value: Optional[str] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )

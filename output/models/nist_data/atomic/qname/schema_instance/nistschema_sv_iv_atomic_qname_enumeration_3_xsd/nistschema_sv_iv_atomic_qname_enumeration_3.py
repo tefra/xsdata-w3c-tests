@@ -24,10 +24,7 @@ class LanguagesAndTransformingTechnologiesIsImpa:
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-3-NS"
 
     value: Optional[str] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -38,10 +35,7 @@ class KdomainsAsAutomaticAcademiaWorkEnsureTes:
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-3-NS"
 
     value: Optional[str] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -52,10 +46,7 @@ class TonAndItsT:
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-3-NS"
 
     value: Optional[str] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -66,10 +57,7 @@ class XstandardFileUseEa:
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-3-NS"
 
     value: Optional[str] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -80,10 +68,7 @@ class YinvolvedEEffor:
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-3-NS"
 
     value: Optional[str] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -94,8 +79,5 @@ class NistschemaSvIvAtomicQnameEnumeration3:
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-3-NS"
 
     value: Optional[NistschemaSvIvAtomicQnameEnumeration3Type] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )

@@ -12,8 +12,5 @@ class A:
         namespace = "contentType"
 
     value: Optional[XmlDate] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )

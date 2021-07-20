@@ -14,7 +14,6 @@ class NistschemaSvIvAtomicDecimalFractionDigits5:
     value: Optional[Decimal] = field(
         default=None,
         metadata={
-            "required": True,
             "fraction_digits": 18,
         }
     )

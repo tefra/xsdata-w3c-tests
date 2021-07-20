@@ -54,8 +54,9 @@ class Doc:
             "type": "Element",
         }
     )
-    ga1: Optional[str] = field(
-        default=None,
+    ga1: str = field(
+        init=False,
+        default="abc",
         metadata={
             "type": "Attribute",
             "namespace": "http://xsdtesting",

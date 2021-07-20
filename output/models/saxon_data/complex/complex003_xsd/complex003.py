@@ -9,10 +9,7 @@ class Root:
         name = "root"
 
     value: Optional[Decimal] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
     type: Optional[str] = field(
         default=None,

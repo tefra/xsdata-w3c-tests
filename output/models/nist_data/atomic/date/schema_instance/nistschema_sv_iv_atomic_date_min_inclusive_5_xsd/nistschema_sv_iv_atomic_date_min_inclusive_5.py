@@ -14,7 +14,6 @@ class NistschemaSvIvAtomicDateMinInclusive5:
     value: Optional[XmlDate] = field(
         default=None,
         metadata={
-            "required": True,
             "min_inclusive": XmlDate(2030, 12, 31),
         }
     )

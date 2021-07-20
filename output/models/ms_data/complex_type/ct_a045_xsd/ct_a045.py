@@ -8,10 +8,7 @@ class Xmlns:
         name = "xmlns"
 
     value: Optional[str] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
     attr_test: Optional[str] = field(
         default=None,

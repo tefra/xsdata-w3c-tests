@@ -11,8 +11,5 @@ class Salutation:
         namespace = "http://www.example.com/add"
 
     value: Optional[str] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )

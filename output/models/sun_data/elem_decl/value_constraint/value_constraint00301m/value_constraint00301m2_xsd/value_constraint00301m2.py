@@ -11,5 +11,5 @@ class Root:
 
     value: str = field(
         init=False,
-        default="0",
+        default="0"
     )

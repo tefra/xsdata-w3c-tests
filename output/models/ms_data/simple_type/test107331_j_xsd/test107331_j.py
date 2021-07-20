@@ -10,10 +10,7 @@ class Anyuri:
         name = "anyuri"
 
     value: Optional[str] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -23,10 +20,7 @@ class Bool:
         name = "bool"
 
     value: Optional[bool] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -36,10 +30,7 @@ class Date:
         name = "date"
 
     value: Optional[XmlDate] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -49,10 +40,7 @@ class Datetime:
         name = "datetime"
 
     value: Optional[XmlDateTime] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -62,10 +50,7 @@ class Day:
         name = "day"
 
     value: Optional[XmlPeriod] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -75,10 +60,7 @@ class DecimalType:
         name = "decimal"
 
     value: Optional[Decimal] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -88,10 +70,7 @@ class Double:
         name = "double"
 
     value: Optional[float] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -101,10 +80,7 @@ class Duration:
         name = "duration"
 
     value: Optional[XmlDuration] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -114,10 +90,7 @@ class Entity:
         name = "entity"
 
     value: Optional[str] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -127,10 +100,7 @@ class Float:
         name = "float"
 
     value: Optional[float] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -142,7 +112,6 @@ class Hexbinary:
     value: Optional[bytes] = field(
         default=None,
         metadata={
-            "required": True,
             "format": "base16",
         }
     )
@@ -154,10 +123,7 @@ class Int:
         name = "int"
 
     value: Optional[int] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -171,7 +137,6 @@ class Item:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-            "required": True,
         }
     )
 
@@ -182,10 +147,7 @@ class Month:
         name = "month"
 
     value: Optional[XmlPeriod] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -195,10 +157,7 @@ class Monthday:
         name = "monthday"
 
     value: Optional[XmlPeriod] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -208,10 +167,7 @@ class String:
         name = "string"
 
     value: Optional[str] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -221,10 +177,7 @@ class Time:
         name = "time"
 
     value: Optional[XmlTime] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -234,10 +187,7 @@ class Year:
         name = "year"
 
     value: Optional[XmlPeriod] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -250,21 +200,18 @@ class Root:
         default_factory=list,
         metadata={
             "type": "Element",
-            "min_occurs": 1,
         }
     )
     anyuri: List[str] = field(
         default_factory=list,
         metadata={
             "type": "Element",
-            "min_occurs": 1,
         }
     )
     hexbinary: List[bytes] = field(
         default_factory=list,
         metadata={
             "type": "Element",
-            "min_occurs": 1,
             "format": "base16",
         }
     )
@@ -272,70 +219,60 @@ class Root:
         default_factory=list,
         metadata={
             "type": "Element",
-            "min_occurs": 1,
         }
     )
     day: List[XmlPeriod] = field(
         default_factory=list,
         metadata={
             "type": "Element",
-            "min_occurs": 1,
         }
     )
     monthday: List[XmlPeriod] = field(
         default_factory=list,
         metadata={
             "type": "Element",
-            "min_occurs": 1,
         }
     )
     year: List[XmlPeriod] = field(
         default_factory=list,
         metadata={
             "type": "Element",
-            "min_occurs": 1,
         }
     )
     date: List[XmlDate] = field(
         default_factory=list,
         metadata={
             "type": "Element",
-            "min_occurs": 1,
         }
     )
     time: List[XmlTime] = field(
         default_factory=list,
         metadata={
             "type": "Element",
-            "min_occurs": 1,
         }
     )
     datetime: List[XmlDateTime] = field(
         default_factory=list,
         metadata={
             "type": "Element",
-            "min_occurs": 1,
         }
     )
     duration: List[XmlDuration] = field(
         default_factory=list,
         metadata={
             "type": "Element",
-            "min_occurs": 1,
         }
     )
     decimal: List[Decimal] = field(
         default_factory=list,
         metadata={
             "type": "Element",
-            "min_occurs": 1,
         }
     )
     double: List[float] = field(
         default_factory=list,
         metadata={
             "type": "Element",
-            "min_occurs": 1,
         }
     )
     float_value: List[float] = field(
@@ -343,7 +280,6 @@ class Root:
         metadata={
             "name": "float",
             "type": "Element",
-            "min_occurs": 1,
         }
     )
     bool_value: List[bool] = field(
@@ -351,7 +287,6 @@ class Root:
         metadata={
             "name": "bool",
             "type": "Element",
-            "min_occurs": 1,
         }
     )
     int_value: List[int] = field(
@@ -359,14 +294,12 @@ class Root:
         metadata={
             "name": "int",
             "type": "Element",
-            "min_occurs": 1,
         }
     )
     string: List[str] = field(
         default_factory=list,
         metadata={
             "type": "Element",
-            "min_occurs": 1,
         }
     )
     item: List[Item] = field(

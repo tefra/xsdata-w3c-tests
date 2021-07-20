@@ -26,7 +26,6 @@ class SimpleTest:
     value: Optional[bytes] = field(
         default=None,
         metadata={
-            "required": True,
             "format": "base64",
         }
     )
@@ -56,7 +55,6 @@ class Root:
         metadata={
             "name": "simpleTest",
             "type": "Element",
-            "required": True,
             "format": "base64",
         }
     )

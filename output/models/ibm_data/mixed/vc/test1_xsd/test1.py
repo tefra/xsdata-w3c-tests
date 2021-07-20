@@ -8,5 +8,5 @@ class Test:
         name = "test"
 
     value: Optional[int] = field(
-        default=None,
+        default=None
     )

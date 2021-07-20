@@ -19,10 +19,7 @@ class FooType:
     @dataclass
     class Foo:
         value: Optional[str] = field(
-            default=None,
-            metadata={
-                "required": True,
-            }
+            default=None
         )
         attr_test: List[str] = field(
             default_factory=list,

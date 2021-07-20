@@ -16,10 +16,7 @@ class A:
         namespace = "foo"
 
     value: Optional[St] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -33,6 +30,5 @@ class Doc:
         default=None,
         metadata={
             "type": "Element",
-            "required": True,
         }
     )

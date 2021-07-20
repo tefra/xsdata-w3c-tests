@@ -8,7 +8,7 @@ class N:
         name = "n"
 
     value: Optional[str] = field(
-        default=None,
+        default=None
     )
 
 

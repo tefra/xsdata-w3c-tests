@@ -101,8 +101,5 @@ class NistschemaSvIvListUnsignedIntEnumeration5:
         namespace = "NISTSchema-SV-IV-list-unsignedInt-enumeration-5-NS"
 
     value: Optional[NistschemaSvIvListUnsignedIntEnumeration5Type] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )

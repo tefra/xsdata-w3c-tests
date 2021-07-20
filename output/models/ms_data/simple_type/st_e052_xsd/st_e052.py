@@ -9,5 +9,5 @@ class Root:
 
     value: Union[bool, int, str] = field(
         init=False,
-        default="abcdefg",
+        default="abcdefg"
     )

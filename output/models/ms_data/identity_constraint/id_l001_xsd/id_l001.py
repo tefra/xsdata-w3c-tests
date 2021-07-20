@@ -11,7 +11,6 @@ class Root:
         default_factory=list,
         metadata={
             "type": "Element",
-            "min_occurs": 1,
         }
     )
 
@@ -22,8 +21,5 @@ class Uid:
         name = "uid"
 
     value: Optional[str] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )

@@ -20,8 +20,5 @@ class NistschemaSvIvAtomicFloatEnumeration2:
         namespace = "NISTSchema-SV-IV-atomic-float-enumeration-2-NS"
 
     value: Optional[NistschemaSvIvAtomicFloatEnumeration2Type] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )

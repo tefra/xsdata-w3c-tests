@@ -11,7 +11,7 @@ class A:
         namespace = "http://test2"
 
     value: Optional[int] = field(
-        default=None,
+        default=None
     )
 
 

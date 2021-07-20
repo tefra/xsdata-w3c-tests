@@ -39,8 +39,5 @@ class NistschemaSvIvAtomicIdEnumeration4:
         namespace = "NISTSchema-SV-IV-atomic-ID-enumeration-4-NS"
 
     value: Optional[NistschemaSvIvAtomicIdEnumeration4Type] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )

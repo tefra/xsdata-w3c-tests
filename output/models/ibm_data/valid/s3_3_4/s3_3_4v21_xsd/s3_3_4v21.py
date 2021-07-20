@@ -8,7 +8,7 @@ class Root:
         name = "root"
 
     value: Optional[Union[int, bool, str]] = field(
-        default=None,
+        default=None
     )
     idref_attr: Optional[str] = field(
         default=None,

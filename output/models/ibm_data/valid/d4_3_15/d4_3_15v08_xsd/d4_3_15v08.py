@@ -8,10 +8,7 @@ class ComType:
         name = "comType"
 
     value: Optional[int] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
     attr: Optional[str] = field(
         default=None,

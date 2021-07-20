@@ -21,8 +21,5 @@ class NistschemaSvIvAtomicUnsignedLongEnumeration4:
         namespace = "NISTSchema-SV-IV-atomic-unsignedLong-enumeration-4-NS"
 
     value: Optional[NistschemaSvIvAtomicUnsignedLongEnumeration4Type] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )

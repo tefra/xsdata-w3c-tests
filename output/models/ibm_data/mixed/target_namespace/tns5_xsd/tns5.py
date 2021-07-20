@@ -8,10 +8,7 @@ class TestType:
         name = "TEST_TYPE"
 
     value: Optional[str] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
     any_attributes: Dict[str, str] = field(
         default_factory=dict,

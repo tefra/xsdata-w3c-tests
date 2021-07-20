@@ -17,7 +17,6 @@ class Root:
             "name": "elDate",
             "type": "Element",
             "namespace": "",
-            "min_occurs": 1,
             "min_inclusive": XmlPeriod("---16+13:00"),
         }
     )

@@ -11,10 +11,7 @@ class A:
         namespace = "a"
 
     value: Optional[int] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -25,10 +22,7 @@ class C:
         namespace = "a"
 
     value: Optional[int] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 

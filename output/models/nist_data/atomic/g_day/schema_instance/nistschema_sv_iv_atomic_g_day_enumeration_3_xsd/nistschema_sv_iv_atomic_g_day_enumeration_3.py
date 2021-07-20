@@ -25,8 +25,5 @@ class NistschemaSvIvAtomicGDayEnumeration3:
         namespace = "NISTSchema-SV-IV-atomic-gDay-enumeration-3-NS"
 
     value: Optional[NistschemaSvIvAtomicGDayEnumeration3Type] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )

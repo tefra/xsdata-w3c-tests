@@ -61,10 +61,7 @@ class Bar:
         name = "bar"
 
     value: Optional[St] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -77,7 +74,6 @@ class Root:
         default_factory=list,
         metadata={
             "type": "Element",
-            "min_occurs": 1,
             "max_occurs": 100,
         }
     )

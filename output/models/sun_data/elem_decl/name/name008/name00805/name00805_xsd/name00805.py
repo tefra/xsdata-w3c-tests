@@ -11,10 +11,7 @@ class TypeType:
         namespace = "ElemDecl/name"
 
     value: Optional[int] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -25,10 +22,7 @@ class Type0:
         namespace = "ElemDecl/name"
 
     value: Optional[int] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -43,7 +37,6 @@ class Root:
         metadata={
             "name": "_-.",
             "type": "Element",
-            "required": True,
         }
     )
     value_0: Optional[int] = field(
@@ -51,6 +44,5 @@ class Root:
         metadata={
             "name": "_-0.",
             "type": "Element",
-            "required": True,
         }
     )

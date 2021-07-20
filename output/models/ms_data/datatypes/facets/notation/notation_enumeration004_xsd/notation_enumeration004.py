@@ -32,10 +32,7 @@ class FooType:
     @dataclass
     class Foo:
         value: Optional[str] = field(
-            default=None,
-            metadata={
-                "required": True,
-            }
+            default=None
         )
         attr_test: Optional[FooAttrTest] = field(
             default=None,

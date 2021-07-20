@@ -85,10 +85,7 @@ class CompetenceCommerceSeriesOfC:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-3-NS"
 
     value: Optional[str] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -99,10 +96,7 @@ class CorrectnessOfInteroperabilityBrowsersOfNetworksAsA:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-3-NS"
 
     value: Optional[str] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -113,10 +107,7 @@ class FileFilterAReviewedThoseCreationWellFor:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-3-NS"
 
     value: Optional[str] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -127,10 +118,7 @@ class ThemSemanticsProblemsVirtuallyWideTheToolsTesti:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-3-NS"
 
     value: Optional[str] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -141,10 +129,7 @@ class ToInTheVirtuall:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-3-NS"
 
     value: Optional[str] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -155,10 +140,7 @@ class WillRepositoryEffectivelyObjectBuildWirelessMetrol:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-3-NS"
 
     value: Optional[str] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -169,10 +151,7 @@ class AandPrototypesWebWorkContributeHasTh:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-3-NS"
 
     value: Optional[str] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -183,10 +162,7 @@ class AtoBenefits:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-3-NS"
 
     value: Optional[str] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -197,10 +173,7 @@ class BbyTheTheseTestByAndH:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-3-NS"
 
     value: Optional[str] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -211,10 +184,7 @@ class HlandscapeOfIncludedIssuesVoice:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-3-NS"
 
     value: Optional[str] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -225,10 +195,7 @@ class IaMakeOfProcessWouldInLaunchingOfTheObjectTransac:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-3-NS"
 
     value: Optional[str] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -239,10 +206,7 @@ class IforPartnersForIsAndUnbia:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-3-NS"
 
     value: Optional[str] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -253,10 +217,7 @@ class J:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-3-NS"
 
     value: Optional[str] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -267,10 +228,7 @@ class JbeRecommendingAbilityStandardizationToTheToUsedAnd:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-3-NS"
 
     value: Optional[str] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -281,10 +239,7 @@ class MfromInteract:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-3-NS"
 
     value: Optional[str] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -295,10 +250,7 @@ class Nan:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-3-NS"
 
     value: Optional[str] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -309,10 +261,7 @@ class OvocabularyDifferent:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-3-NS"
 
     value: Optional[str] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -323,10 +272,7 @@ class QdesignAndSoftwareAndAndTheWas:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-3-NS"
 
     value: Optional[str] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -337,10 +283,7 @@ class RalsoToLibrariesPr:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-3-NS"
 
     value: Optional[str] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -351,10 +294,7 @@ class RdependsA:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-3-NS"
 
     value: Optional[str] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -365,10 +305,7 @@ class TdesktopToRepositoryAsOfThatTheAreKnownProblemsOfG:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-3-NS"
 
     value: Optional[str] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -379,10 +316,7 @@ class TparticularToolsEntireReviewTechnologiesToToToAlre:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-3-NS"
 
     value: Optional[str] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -393,10 +327,7 @@ class WisN:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-3-NS"
 
     value: Optional[str] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -407,10 +338,7 @@ class XanWithBu:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-3-NS"
 
     value: Optional[str] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -421,10 +349,7 @@ class XandRetrieveStan:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-3-NS"
 
     value: Optional[str] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -435,10 +360,7 @@ class XwellChallenge:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-3-NS"
 
     value: Optional[str] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -449,10 +371,7 @@ class YspecificationsAsPervasiveWeb:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-3-NS"
 
     value: Optional[str] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -463,8 +382,5 @@ class NistschemaSvIvListQnameEnumeration3:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-3-NS"
 
     value: Optional[NistschemaSvIvListQnameEnumeration3Type] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )

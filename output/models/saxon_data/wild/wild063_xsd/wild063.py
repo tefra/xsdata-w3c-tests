@@ -8,10 +8,7 @@ class E:
         name = "e"
 
     value: Optional[int] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 

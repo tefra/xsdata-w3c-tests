@@ -12,7 +12,6 @@ class ContainHead2Type:
             "name": "Member2",
             "type": "Element",
             "namespace": "urn:my-namespace",
-            "required": True,
         }
     )
     head2: Optional[str] = field(
@@ -21,7 +20,6 @@ class ContainHead2Type:
             "name": "Head2",
             "type": "Element",
             "namespace": "urn:my-namespace",
-            "required": True,
         }
     )
 
@@ -34,7 +32,6 @@ class ContainMember2Type:
             "name": "Member2",
             "type": "Element",
             "namespace": "urn:my-namespace",
-            "required": True,
         }
     )
     head2: Optional[str] = field(
@@ -43,7 +40,6 @@ class ContainMember2Type:
             "name": "Head2",
             "type": "Element",
             "namespace": "urn:my-namespace",
-            "required": True,
         }
     )
 
@@ -54,10 +50,7 @@ class Head2:
         namespace = "urn:my-namespace"
 
     value: Optional[str] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -67,10 +60,7 @@ class Member2:
         namespace = "urn:my-namespace"
 
     value: Optional[str] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 

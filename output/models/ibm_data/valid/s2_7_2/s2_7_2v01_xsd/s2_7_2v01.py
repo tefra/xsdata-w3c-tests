@@ -12,10 +12,7 @@ class B:
         namespace = "a"
 
     value: Optional[int] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 

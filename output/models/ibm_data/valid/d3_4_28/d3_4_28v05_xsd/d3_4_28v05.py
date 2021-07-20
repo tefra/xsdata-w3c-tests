@@ -22,7 +22,7 @@ class ElEnumerationA:
         namespace = "http://xstest-tns/schema11_D3_4_28_v05"
 
     value: Optional[ElEnumerationAValue] = field(
-        default=None,
+        default=None
     )
 
 
@@ -33,7 +33,7 @@ class ElEnumerationB:
         namespace = "http://xstest-tns/schema11_D3_4_28_v05"
 
     value: Optional[ElEnumerationBValue] = field(
-        default=None,
+        default=None
     )
 
 

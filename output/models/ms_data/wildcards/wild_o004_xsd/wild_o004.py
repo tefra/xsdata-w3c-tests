@@ -11,10 +11,7 @@ class Foo:
         namespace = "http://foobar"
 
     value: Optional[str] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
     other_attributes: Dict[str, str] = field(
         default_factory=dict,

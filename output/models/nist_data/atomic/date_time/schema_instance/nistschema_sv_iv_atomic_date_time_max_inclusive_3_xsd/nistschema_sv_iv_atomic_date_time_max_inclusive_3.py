@@ -14,7 +14,6 @@ class NistschemaSvIvAtomicDateTimeMaxInclusive3:
     value: Optional[XmlDateTime] = field(
         default=None,
         metadata={
-            "required": True,
             "max_inclusive": XmlDateTime(2003, 3, 9, 2, 0, 23),
         }
     )

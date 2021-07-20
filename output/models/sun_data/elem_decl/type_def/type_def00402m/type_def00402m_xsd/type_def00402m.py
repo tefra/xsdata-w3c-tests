@@ -13,7 +13,6 @@ class ComplexType:
             "name": "Global",
             "type": "Element",
             "namespace": "ElemDecl/typeDef",
-            "required": True,
         }
     )
     local: Optional[Decimal] = field(
@@ -33,10 +32,7 @@ class Global:
         namespace = "ElemDecl/typeDef"
 
     value: Optional[bool] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 

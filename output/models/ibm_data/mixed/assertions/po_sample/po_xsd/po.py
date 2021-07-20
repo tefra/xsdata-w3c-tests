@@ -142,7 +142,6 @@ class Order1(PoBusinessRules):
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
             "pattern": r".*@.*\..*",
         }
     )
@@ -159,7 +158,6 @@ class Order1(PoBusinessRules):
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
             "min_inclusive": Decimal("0"),
         }
     )
@@ -169,7 +167,6 @@ class Order1(PoBusinessRules):
             "name": "bill-amount",
             "type": "Element",
             "namespace": "",
-            "required": True,
             "min_inclusive": Decimal("0"),
         }
     )

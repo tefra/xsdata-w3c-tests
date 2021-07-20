@@ -16,7 +16,6 @@ class DTimeStampRoot:
             "name": "eldTimeStampPattern",
             "type": "Element",
             "namespace": "",
-            "required": True,
             "pattern": r"[2][0][0][0-9][-][0-1][1-2][-][0-2][1-8][T]*.*",
         }
     )

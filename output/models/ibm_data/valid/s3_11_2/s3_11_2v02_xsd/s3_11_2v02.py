@@ -10,10 +10,7 @@ class Numtype:
         name = "numtype"
 
     value: Optional[int] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
     id_1: Optional[int] = field(
         default=None,

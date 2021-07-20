@@ -12,7 +12,6 @@ class Ct:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
             "min_exclusive": 2,
             "min_inclusive": 2,
         }
@@ -22,7 +21,6 @@ class Ct:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
             "min_exclusive": 2,
             "min_inclusive": 3,
         }

@@ -16,7 +16,6 @@ class RootType:
             "name": "testElement",
             "type": "Element",
             "namespace": "http://www.tempuri.org",
-            "required": True,
         }
     )
 
@@ -28,10 +27,7 @@ class TestElement:
         namespace = "http://www.tempuri.org"
 
     value: Optional[XmlPeriod] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 

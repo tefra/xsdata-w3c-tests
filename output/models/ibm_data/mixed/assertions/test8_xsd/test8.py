@@ -8,10 +8,7 @@ class ShoeType:
         name = "shoeType"
 
     value: Optional[int] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
     country: Optional[str] = field(
         default=None,

@@ -10,7 +10,6 @@ class Root:
     value: Optional[str] = field(
         default=None,
         metadata={
-            "required": True,
             "length": 5,
             "white_space": "preserve",
         }

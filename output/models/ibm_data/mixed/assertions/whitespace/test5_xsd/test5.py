@@ -8,5 +8,5 @@ class X:
         name = "x"
 
     value: Optional[str] = field(
-        default=None,
+        default=None
     )

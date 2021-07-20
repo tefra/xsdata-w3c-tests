@@ -10,10 +10,7 @@ class Local:
         namespace = "ElemDecl/typeDef"
 
     value: Optional[bool] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -28,6 +25,5 @@ class Root:
         metadata={
             "name": "Local",
             "type": "Element",
-            "required": True,
         }
     )

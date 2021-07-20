@@ -11,10 +11,7 @@ class Aa111A2Aa:
         namespace = "ElemDecl/name"
 
     value: Optional[int] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -25,10 +22,7 @@ class Aa22B3C:
         namespace = "ElemDecl/name"
 
     value: Optional[int] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -39,10 +33,7 @@ class Aa34:
         namespace = "ElemDecl/name"
 
     value: Optional[int] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -57,7 +48,6 @@ class Root:
         metadata={
             "name": "aa111a2Aa",
             "type": "Element",
-            "required": True,
         }
     )
     aa22_b3c: Optional[int] = field(
@@ -65,7 +55,6 @@ class Root:
         metadata={
             "name": "aa22B3c",
             "type": "Element",
-            "required": True,
         }
     )
     aa3_4: Optional[int] = field(
@@ -73,6 +62,5 @@ class Root:
         metadata={
             "name": "aa3-4_",
             "type": "Element",
-            "required": True,
         }
     )

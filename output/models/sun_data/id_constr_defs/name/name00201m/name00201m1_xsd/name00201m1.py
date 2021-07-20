@@ -22,10 +22,7 @@ class Name:
     @dataclass
     class NameInner:
         value: Optional[str] = field(
-            default=None,
-            metadata={
-                "required": True,
-            }
+            default=None
         )
         name: Optional[str] = field(
             default=None,

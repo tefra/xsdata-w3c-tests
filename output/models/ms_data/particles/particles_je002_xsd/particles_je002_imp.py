@@ -68,7 +68,6 @@ class ImpElem1:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-            "required": True,
         }
     )
 

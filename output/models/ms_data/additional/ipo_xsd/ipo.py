@@ -79,10 +79,7 @@ class Comment:
         namespace = "http://www.example.com/IPO"
 
     value: Optional[str] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 

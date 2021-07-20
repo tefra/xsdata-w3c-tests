@@ -13,7 +13,6 @@ class NistschemaSvIvAtomicUnsignedIntMinInclusive5:
     value: Optional[int] = field(
         default=None,
         metadata={
-            "required": True,
             "min_inclusive": 4294967295,
         }
     )

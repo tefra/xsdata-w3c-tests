@@ -11,7 +11,6 @@ class Root:
     value: Optional[Decimal] = field(
         default=None,
         metadata={
-            "required": True,
             "fraction_digits": 5,
         }
     )

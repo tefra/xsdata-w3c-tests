@@ -10,5 +10,5 @@ class Root:
 
     value: Union[XmlPeriod, str] = field(
         init=False,
-        default="ENU ",
+        default="ENU "
     )

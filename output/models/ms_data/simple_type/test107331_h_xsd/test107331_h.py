@@ -8,10 +8,7 @@ class A:
         name = "a"
 
     value: Optional[object] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -25,7 +22,6 @@ class Item:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-            "required": True,
         }
     )
 
@@ -39,7 +35,6 @@ class Root:
         default_factory=list,
         metadata={
             "type": "Element",
-            "min_occurs": 1,
         }
     )
     item: List[Item] = field(

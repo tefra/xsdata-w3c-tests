@@ -13,7 +13,6 @@ class NistschemaSvIvAtomicGDayPattern5:
     value: Optional[str] = field(
         default=None,
         metadata={
-            "required": True,
             "pattern": r"---1\d",
         }
     )

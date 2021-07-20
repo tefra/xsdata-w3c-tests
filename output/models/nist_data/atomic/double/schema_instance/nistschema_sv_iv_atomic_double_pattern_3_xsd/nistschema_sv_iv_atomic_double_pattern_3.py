@@ -13,7 +13,6 @@ class NistschemaSvIvAtomicDoublePattern3:
     value: Optional[str] = field(
         default=None,
         metadata={
-            "required": True,
             "pattern": r"\d{1}\.\d{8}E\-\d{1}",
         }
     )

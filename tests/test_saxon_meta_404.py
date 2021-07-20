@@ -3,7 +3,7 @@ import pytest
 from tests.utils import assert_bindings
 
 
-def test_all314_all314_v01_xml(mode, save_output):
+def test_all314_all314_v01_xml(mode, save_output, output_format):
     """
     All model group derived by extension from another all model group,
     both minOccurs="0" Allowed in 1.1. Test case from Priscilla Walmsley
@@ -15,11 +15,12 @@ def test_all314_all314_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_all314_all314_v02_xml(mode, save_output):
+def test_all314_all314_v02_xml(mode, save_output, output_format):
     """
     All model group derived by extension from another all model group,
     both minOccurs="0" Allowed in 1.1. Test case from Priscilla Walmsley
@@ -31,11 +32,12 @@ def test_all314_all314_v02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_all314_all314_v05_xml(mode, save_output):
+def test_all314_all314_v05_xml(mode, save_output, output_format):
     """
     All model group derived by extension from another all model group,
     both minOccurs="0" Allowed in 1.1. Test case from Priscilla Walmsley
@@ -47,11 +49,12 @@ def test_all314_all314_v05_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_all306_all306_v01_xml(mode, save_output):
+def test_all306_all306_v01_xml(mode, save_output, output_format):
     """
     All model group derived by extension from another all model group;
     mixed="true" in extension. Allowed in 1.1
@@ -63,11 +66,12 @@ def test_all306_all306_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_all304_all304_v01_xml(mode, save_output):
+def test_all304_all304_v01_xml(mode, save_output, output_format):
     """
     All model group derived by extension from another all model group
     Allowed in 1.1
@@ -79,11 +83,12 @@ def test_all304_all304_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_all301_all301_v01_xml(mode, save_output):
+def test_all301_all301_v01_xml(mode, save_output, output_format):
     """
     All model group derived by extension from another all model group
     Allowed in 1.1
@@ -95,11 +100,12 @@ def test_all301_all301_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_all007_all007_v01_xml(mode, save_output):
+def test_all007_all007_v01_xml(mode, save_output, output_format):
     """
     All model group with a nested xs:group reference All model group with
     with a nested xs:group reference (otherwise same as all001)
@@ -111,11 +117,12 @@ def test_all007_all007_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_all006_all006_v01_xml(mode, save_output):
+def test_all006_all006_v01_xml(mode, save_output, output_format):
     """
     All model group, test on children Test that each child of an all group
     is validated against the right type
@@ -127,11 +134,12 @@ def test_all006_all006_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_all005_all005_v01_xml(mode, save_output):
+def test_all005_all005_v01_xml(mode, save_output, output_format):
     """
     All model group with two xs:any wildcards Test cases matching and non-
     matching wildcards
@@ -143,11 +151,12 @@ def test_all005_all005_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_all004_all004_v01_xml(mode, save_output):
+def test_all004_all004_v01_xml(mode, save_output, output_format):
     """
     All model group with nillable="true" Test cases involving
     xsi:nil="true" or "false"
@@ -159,11 +168,12 @@ def test_all004_all004_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_all004_all004_v02_xml(mode, save_output):
+def test_all004_all004_v02_xml(mode, save_output, output_format):
     """
     All model group with nillable="true" Test cases involving
     xsi:nil="true" or "false"
@@ -175,11 +185,12 @@ def test_all004_all004_v02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_all003_all003_v01_xml(mode, save_output):
+def test_all003_all003_v01_xml(mode, save_output, output_format):
     """
     All model group with mixed content with extended minOccurs and
     maxOccurs values All model group with mixed content with extended
@@ -192,11 +203,12 @@ def test_all003_all003_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_all003_all003_v02_xml(mode, save_output):
+def test_all003_all003_v02_xml(mode, save_output, output_format):
     """
     All model group with mixed content with extended minOccurs and
     maxOccurs values All model group with mixed content with extended
@@ -209,11 +221,12 @@ def test_all003_all003_v02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_all003_all003_v03_xml(mode, save_output):
+def test_all003_all003_v03_xml(mode, save_output, output_format):
     """
     All model group with mixed content with extended minOccurs and
     maxOccurs values All model group with mixed content with extended
@@ -226,11 +239,12 @@ def test_all003_all003_v03_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_all002_all002_v01_xml(mode, save_output):
+def test_all002_all002_v01_xml(mode, save_output, output_format):
     """
     All model group with substitution groups All model group with extended
     minOccurs and maxOccurs values
@@ -242,11 +256,12 @@ def test_all002_all002_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_all001_all001_v01_xml(mode, save_output):
+def test_all001_all001_v01_xml(mode, save_output, output_format):
     """
     All model group with extended minOccurs and maxOccurs values All model
     group with extended minOccurs and maxOccurs values
@@ -258,11 +273,12 @@ def test_all001_all001_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_assert_simple006_assert_simple006_v1_xml(mode, save_output):
+def test_assert_simple006_assert_simple006_v1_xml(mode, save_output, output_format):
     """
     Assertion on a simple type with variety union Assertion on a simple
     type: $value contains the typed value
@@ -274,11 +290,12 @@ def test_assert_simple006_assert_simple006_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_assert_simple005_assert_simple005_v1_xml(mode, save_output):
+def test_assert_simple005_assert_simple005_v1_xml(mode, save_output, output_format):
     """
     Assertion on a simple type with variety list Assertion on a simple
     type: $value contains the typed value
@@ -290,11 +307,12 @@ def test_assert_simple005_assert_simple005_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_assert_simple004_assert_simple004_v1_xml(mode, save_output):
+def test_assert_simple004_assert_simple004_v1_xml(mode, save_output, output_format):
     """
     Assertion on a simple type using xpathDefaultNamespace on xs:schema
     element Assertion on a simple type: value must be castable to
@@ -307,11 +325,12 @@ def test_assert_simple004_assert_simple004_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_assert_simple003_assert_simple003_v1_xml(mode, save_output):
+def test_assert_simple003_assert_simple003_v1_xml(mode, save_output, output_format):
     """
     Assertion on a simple type using xpathDefaultNamespace Assertion on a
     simple type: value must be castable to xs:double
@@ -323,11 +342,12 @@ def test_assert_simple003_assert_simple003_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_assert_simple001_assert_simple001_v1_xml(mode, save_output):
+def test_assert_simple001_assert_simple001_v1_xml(mode, save_output, output_format):
     """
     Assertion on a simple type Assertion on a simple type: date must be in
     the past
@@ -339,11 +359,12 @@ def test_assert_simple001_assert_simple001_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_assert024_assert024_v1_xml(mode, save_output):
+def test_assert024_assert024_v1_xml(mode, save_output, output_format):
     """
     Namespace-aware assertions The subtree being validated must include
     copies of in-scope namespaces
@@ -355,11 +376,12 @@ def test_assert024_assert024_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_assert023_assert023_v1_xml(mode, save_output):
+def test_assert023_assert023_v1_xml(mode, save_output, output_format):
     """
     Check that comments are by default not visible in assertions Schema
     asserts that comments are not allowed. Result depends on configuration
@@ -372,11 +394,12 @@ def test_assert023_assert023_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_assert023_assert023_v2_xml(mode, save_output):
+def test_assert023_assert023_v2_xml(mode, save_output, output_format):
     """
     Check that comments are by default not visible in assertions Schema
     asserts that comments are not allowed. Result depends on configuration
@@ -389,11 +412,12 @@ def test_assert023_assert023_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_assert022_assert022_v1_xml(mode, save_output):
+def test_assert022_assert022_v1_xml(mode, save_output, output_format):
     """
     Assertion testing type of data Elements below the assertion root are
     properly typed
@@ -405,11 +429,12 @@ def test_assert022_assert022_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_assert021_assert021_v1_xml(mode, save_output):
+def test_assert021_assert021_v1_xml(mode, save_output, output_format):
     """
     Assertion combined with chameleon include Effect of
     xpathDefaultNamespace="##targetNamespace"
@@ -421,11 +446,12 @@ def test_assert021_assert021_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_assert020_assert020_v1_xml(mode, save_output):
+def test_assert020_assert020_v1_xml(mode, save_output, output_format):
     """
     Assertion combined with chameleon include Effect of
     xpathDefaultNamespace="##targetNamespace"
@@ -437,11 +463,12 @@ def test_assert020_assert020_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_assert019_assert019_v1_xml(mode, save_output):
+def test_assert019_assert019_v1_xml(mode, save_output, output_format):
     """
     Assertion testing type of data Elements below the assertion root are
     properly typed
@@ -453,11 +480,12 @@ def test_assert019_assert019_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_assert018_assert018_v1_xml(mode, save_output):
+def test_assert018_assert018_v1_xml(mode, save_output, output_format):
     """
     Assertion testing type of data Elements below the assertion root are
     properly typed
@@ -469,11 +497,12 @@ def test_assert018_assert018_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_assert017_assert017_v1_xml(mode, save_output):
+def test_assert017_assert017_v1_xml(mode, save_output, output_format):
     """
     Assertion testing type of data Atomizing the element succeeds, and the
     result is untypedAtomic
@@ -485,11 +514,12 @@ def test_assert017_assert017_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_assert016_assert016_v1_xml(mode, save_output):
+def test_assert016_assert016_v1_xml(mode, save_output, output_format):
     """
     Assertion testing type of data Atomizing the element succeeds (it has
     type xs:anyType, not a type with element-only content)
@@ -501,11 +531,12 @@ def test_assert016_assert016_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_assert015_assert015_v1_xml(mode, save_output):
+def test_assert015_assert015_v1_xml(mode, save_output, output_format):
     """
     Assertion testing type of data $value is typed (complex type with
     simple content)
@@ -517,11 +548,12 @@ def test_assert015_assert015_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_assert014_assert014_v1_xml(mode, save_output):
+def test_assert014_assert014_v1_xml(mode, save_output, output_format):
     """
     Assertion testing type of data Element root of subtree is anyType
     """
@@ -532,11 +564,12 @@ def test_assert014_assert014_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_assert013_assert013_v1_xml(mode, save_output):
+def test_assert013_assert013_v1_xml(mode, save_output, output_format):
     """
     Assertion testing type of data Attribute within subtree is typed
     """
@@ -547,11 +580,12 @@ def test_assert013_assert013_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_assert010_assert010_v1_xml(mode, save_output):
+def test_assert010_assert010_v1_xml(mode, save_output, output_format):
     """
     Assertion on a complex type with simple content Co-occurrence
     constraint between the text content and an attribute.
@@ -563,11 +597,12 @@ def test_assert010_assert010_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_assert009_assert009_v1_xml(mode, save_output):
+def test_assert009_assert009_v1_xml(mode, save_output, output_format):
     """
     Assert that a node-set is empty - error diagnostics handled specially
     by Saxon Simple assertion on an attribute value
@@ -579,11 +614,12 @@ def test_assert009_assert009_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_assert008a_assert008a_v1_xml(mode, save_output):
+def test_assert008a_assert008a_v1_xml(mode, save_output, output_format):
     """
     Use xpathDefaultNamespace on xs:schema element Variant of assert007
     written with xpathDefaultNamespace. Same instance documents.
@@ -595,11 +631,12 @@ def test_assert008a_assert008a_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_assert008_assert008_v1_xml(mode, save_output):
+def test_assert008_assert008_v1_xml(mode, save_output, output_format):
     """
     Use xpathDefaultNamespace on xs:assert Variant of assert007 written
     with xpathDefaultNamespace. Same instance documents.
@@ -611,11 +648,12 @@ def test_assert008_assert008_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_assert007_assert007_v1_xml(mode, save_output):
+def test_assert007_assert007_v1_xml(mode, save_output, output_format):
     """
     Inheritance of constraints in a type derived by extension Tests
     inheritance of constraints; also imposes a constraint on a text node
@@ -628,11 +666,12 @@ def test_assert007_assert007_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_assert006_assert006_v1_xml(mode, save_output):
+def test_assert006_assert006_v1_xml(mode, save_output, output_format):
     """
     Inheritance of constraints in a type derived by restriction Tests
     inheritance of constraints; also imposes a constraint on a text node
@@ -645,11 +684,12 @@ def test_assert006_assert006_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_assert005_assert005_v1_xml(mode, save_output):
+def test_assert005_assert005_v1_xml(mode, save_output, output_format):
     """
     Multiple constraints on an inner level, no constraint at outer level
     Tests the ability to construct multiple subtrees for validation,
@@ -663,11 +703,12 @@ def test_assert005_assert005_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_assert005_assert005_v2_xml(mode, save_output):
+def test_assert005_assert005_v2_xml(mode, save_output, output_format):
     """
     Multiple constraints on an inner level, no constraint at outer level
     Tests the ability to construct multiple subtrees for validation,
@@ -681,11 +722,12 @@ def test_assert005_assert005_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_assert004_assert004_v1_xml(mode, save_output):
+def test_assert004_assert004_v1_xml(mode, save_output, output_format):
     """
     Constraints at more than one level Imposes constraints at two levels
     of the same tree; also tests that constraints at the inner level are
@@ -698,11 +740,12 @@ def test_assert004_assert004_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_assert004_assert004_v2_xml(mode, save_output):
+def test_assert004_assert004_v2_xml(mode, save_output, output_format):
     """
     Constraints at more than one level Imposes constraints at two levels
     of the same tree; also tests that constraints at the inner level are
@@ -715,11 +758,12 @@ def test_assert004_assert004_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_assert003_assert003_v1_xml(mode, save_output):
+def test_assert003_assert003_v1_xml(mode, save_output, output_format):
     """
     Cross validation between elements and attributes Asserts that
     existence of an attribute and a descendant element are mutually
@@ -732,11 +776,12 @@ def test_assert003_assert003_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_assert003_assert003_v2_xml(mode, save_output):
+def test_assert003_assert003_v2_xml(mode, save_output, output_format):
     """
     Cross validation between elements and attributes Asserts that
     existence of an attribute and a descendant element are mutually
@@ -749,11 +794,12 @@ def test_assert003_assert003_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_assert002_assert002_v1_xml(mode, save_output):
+def test_assert002_assert002_v1_xml(mode, save_output, output_format):
     """
     Cross validation between two attributes Cross validation between two
     attributes
@@ -765,11 +811,12 @@ def test_assert002_assert002_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_assert001_assert001_v1_xml(mode, save_output):
+def test_assert001_assert001_v1_xml(mode, save_output, output_format):
     """
     Simple assertion on an attribute value Simple assertion on an
     attribute value
@@ -781,11 +828,12 @@ def test_assert001_assert001_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_unique003_unique003_v1_xml(mode, save_output):
+def test_unique003_unique003_v1_xml(mode, save_output, output_format):
     """
     For the purposes of uniqueness constraints, NaN is effectively equal
     to NaN For the purposes of uniqueness constraints, NaN is effectively
@@ -799,11 +847,12 @@ def test_unique003_unique003_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_unique003_unique003_v2_xml(mode, save_output):
+def test_unique003_unique003_v2_xml(mode, save_output, output_format):
     """
     For the purposes of uniqueness constraints, NaN is effectively equal
     to NaN For the purposes of uniqueness constraints, NaN is effectively
@@ -817,11 +866,12 @@ def test_unique003_unique003_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_unique001_unique001_v1_xml(mode, save_output):
+def test_unique001_unique001_v1_xml(mode, save_output, output_format):
     """
     Test uniqueness constraint on a field having a complex type with
     simple content See comment in the schema document, and bug 10236. In
@@ -835,11 +885,12 @@ def test_unique001_unique001_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_complex014_complex014_v1_xml(mode, save_output):
+def test_complex014_complex014_v1_xml(mode, save_output, output_format):
     """
     xsi:nil on complex type with element-only content, xs:all compositor
     (not specific to 1.1) All combinations of xsi:nil with value present
@@ -852,11 +903,12 @@ def test_complex014_complex014_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_complex014_complex014_v2_xml(mode, save_output):
+def test_complex014_complex014_v2_xml(mode, save_output, output_format):
     """
     xsi:nil on complex type with element-only content, xs:all compositor
     (not specific to 1.1) All combinations of xsi:nil with value present
@@ -869,11 +921,12 @@ def test_complex014_complex014_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_complex013_complex013_v1_xml(mode, save_output):
+def test_complex013_complex013_v1_xml(mode, save_output, output_format):
     """
     xsi:nil on complex type with element-only content (not specific to
     1.1) All combinations of xsi:nil with value present or absent
@@ -885,11 +938,12 @@ def test_complex013_complex013_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_complex013_complex013_v2_xml(mode, save_output):
+def test_complex013_complex013_v2_xml(mode, save_output, output_format):
     """
     xsi:nil on complex type with element-only content (not specific to
     1.1) All combinations of xsi:nil with value present or absent
@@ -901,11 +955,12 @@ def test_complex013_complex013_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_complex012_complex012_v1_xml(mode, save_output):
+def test_complex012_complex012_v1_xml(mode, save_output, output_format):
     """
     xsi:nil on complex type with mixede content (not specific to 1.1) All
     combinations of xsi:nil with value present or absent
@@ -917,11 +972,12 @@ def test_complex012_complex012_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_complex012_complex012_v2_xml(mode, save_output):
+def test_complex012_complex012_v2_xml(mode, save_output, output_format):
     """
     xsi:nil on complex type with mixede content (not specific to 1.1) All
     combinations of xsi:nil with value present or absent
@@ -933,11 +989,12 @@ def test_complex012_complex012_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_complex012_complex012_v3_xml(mode, save_output):
+def test_complex012_complex012_v3_xml(mode, save_output, output_format):
     """
     xsi:nil on complex type with mixede content (not specific to 1.1) All
     combinations of xsi:nil with value present or absent
@@ -949,11 +1006,12 @@ def test_complex012_complex012_v3_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_complex012_complex012_v4_xml(mode, save_output):
+def test_complex012_complex012_v4_xml(mode, save_output, output_format):
     """
     xsi:nil on complex type with mixede content (not specific to 1.1) All
     combinations of xsi:nil with value present or absent
@@ -965,11 +1023,12 @@ def test_complex012_complex012_v4_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_complex012_complex012_v5_xml(mode, save_output):
+def test_complex012_complex012_v5_xml(mode, save_output, output_format):
     """
     xsi:nil on complex type with mixede content (not specific to 1.1) All
     combinations of xsi:nil with value present or absent
@@ -981,11 +1040,12 @@ def test_complex012_complex012_v5_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_complex012_complex012_v6_xml(mode, save_output):
+def test_complex012_complex012_v6_xml(mode, save_output, output_format):
     """
     xsi:nil on complex type with mixede content (not specific to 1.1) All
     combinations of xsi:nil with value present or absent
@@ -997,11 +1057,12 @@ def test_complex012_complex012_v6_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_complex011_complex011_v1_xml(mode, save_output):
+def test_complex011_complex011_v1_xml(mode, save_output, output_format):
     """
     xsi:nil on complex type with simple content (not specific to 1.1) All
     combinations of xsi:nil with value present or absent
@@ -1013,11 +1074,12 @@ def test_complex011_complex011_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_complex011_complex011_v2_xml(mode, save_output):
+def test_complex011_complex011_v2_xml(mode, save_output, output_format):
     """
     xsi:nil on complex type with simple content (not specific to 1.1) All
     combinations of xsi:nil with value present or absent
@@ -1029,11 +1091,12 @@ def test_complex011_complex011_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_complex010_complex010_v1_xml(mode, save_output):
+def test_complex010_complex010_v1_xml(mode, save_output, output_format):
     """
     xsi:noNamespaceSchemaLocation use="required Specifying use="required"
     for xsi:noNamespaceSchemaLocation is allowed and effective
@@ -1045,11 +1108,12 @@ def test_complex010_complex010_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_complex009_complex009_v1_xml(mode, save_output):
+def test_complex009_complex009_v1_xml(mode, save_output, output_format):
     """
     xsi:type use="required Specifying use="required" for xsi:type is
     allowed and effective
@@ -1061,11 +1125,12 @@ def test_complex009_complex009_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_complex009_complex009_v2_xml(mode, save_output):
+def test_complex009_complex009_v2_xml(mode, save_output, output_format):
     """
     xsi:type use="required Specifying use="required" for xsi:type is
     allowed and effective
@@ -1077,11 +1142,12 @@ def test_complex009_complex009_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_complex007_complex007_v1_xml(mode, save_output):
+def test_complex007_complex007_v1_xml(mode, save_output, output_format):
     """
     xsi:nil fixed Fixed value for xsi:nil is allowed but ignored, except
     if present in the instance it must match and be obeyed
@@ -1093,11 +1159,12 @@ def test_complex007_complex007_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_complex007_complex007_v2_xml(mode, save_output):
+def test_complex007_complex007_v2_xml(mode, save_output, output_format):
     """
     xsi:nil fixed Fixed value for xsi:nil is allowed but ignored, except
     if present in the instance it must match and be obeyed
@@ -1109,11 +1176,12 @@ def test_complex007_complex007_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_complex006_complex006_v1_xml(mode, save_output):
+def test_complex006_complex006_v1_xml(mode, save_output, output_format):
     """
     xsi:nil default Default value for xsi:nil is allowed but ignored
     """
@@ -1124,11 +1192,12 @@ def test_complex006_complex006_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_complex006_complex006_v2_xml(mode, save_output):
+def test_complex006_complex006_v2_xml(mode, save_output, output_format):
     """
     xsi:nil default Default value for xsi:nil is allowed but ignored
     """
@@ -1139,11 +1208,12 @@ def test_complex006_complex006_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_complex005_complex005_v2_xml(mode, save_output):
+def test_complex005_complex005_v2_xml(mode, save_output, output_format):
     """
     xsi:type fixed Fixed value for xsi:type is allowed but ignored, except
     that the instance must match
@@ -1155,11 +1225,12 @@ def test_complex005_complex005_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_complex004_complex004_v1_xml(mode, save_output):
+def test_complex004_complex004_v1_xml(mode, save_output, output_format):
     """
     xsi:type default Default value for xsi:type is allowed but ignored
     """
@@ -1170,11 +1241,12 @@ def test_complex004_complex004_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_complex004_complex004_v2_xml(mode, save_output):
+def test_complex004_complex004_v2_xml(mode, save_output, output_format):
     """
     xsi:type default Default value for xsi:type is allowed but ignored
     """
@@ -1185,11 +1257,12 @@ def test_complex004_complex004_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_complex003_complex003_v1_xml(mode, save_output):
+def test_complex003_complex003_v1_xml(mode, save_output, output_format):
     """
     xsi:type default Default value for xsi:type is allowed but ignored
     """
@@ -1200,11 +1273,12 @@ def test_complex003_complex003_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_cta0044_cta0044_v01(mode, save_output):
+def test_cta0044_cta0044_v01(mode, save_output, output_format):
     """
     Type alternatives - restricting attributes Attribute allowed in one
     alternative but not allowed in another
@@ -1216,11 +1290,12 @@ def test_cta0044_cta0044_v01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_cta0042_cta0042_v01(mode, save_output):
+def test_cta0042_cta0042_v01(mode, save_output, output_format):
     """
     Element Declarations Consistent Two particles in a content model have
     the same name; permitted because they have the same type table
@@ -1232,11 +1307,12 @@ def test_cta0042_cta0042_v01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_cta0041_cta0041_v01(mode, save_output):
+def test_cta0041_cta0041_v01(mode, save_output, output_format):
     """
     Type alternative - substitutability Invalid substitution in a
     substitution group - detected only at validation time, by particular
@@ -1249,11 +1325,12 @@ def test_cta0041_cta0041_v01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_cta0040_cta0040_v01(mode, save_output):
+def test_cta0040_cta0040_v01(mode, save_output, output_format):
     """
     Type alternative - substitutability Valid substitution in a
     substitution group
@@ -1265,11 +1342,12 @@ def test_cta0040_cta0040_v01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_cta0028_cta0028_v01(mode, save_output):
+def test_cta0028_cta0028_v01(mode, save_output, output_format):
     """
     Type alternative using a simple type Static context of XPath
     expression
@@ -1281,11 +1359,12 @@ def test_cta0028_cta0028_v01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_cta0027_cta0027_v01(mode, save_output):
+def test_cta0027_cta0027_v01(mode, save_output, output_format):
     """
     Type alternative using a simple type Static context of XPath
     expression
@@ -1297,11 +1376,12 @@ def test_cta0027_cta0027_v01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_cta0026_cta0026_v01(mode, save_output):
+def test_cta0026_cta0026_v01(mode, save_output, output_format):
     """
     Type alternative using a simple type Static context of XPath
     expression
@@ -1313,11 +1393,12 @@ def test_cta0026_cta0026_v01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_cta0025_cta0025_v01(mode, save_output):
+def test_cta0025_cta0025_v01(mode, save_output, output_format):
     """
     Type alternative using a simple type Static context of XPath
     expression
@@ -1329,11 +1410,12 @@ def test_cta0025_cta0025_v01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_cta0024_cta0024_v01(mode, save_output):
+def test_cta0024_cta0024_v01(mode, save_output, output_format):
     """
     Type alternative using a simple type Static context of XPath
     expression
@@ -1345,11 +1427,12 @@ def test_cta0024_cta0024_v01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_cta0023_cta0023_v01(mode, save_output):
+def test_cta0023_cta0023_v01(mode, save_output, output_format):
     """
     Type alternative using a simple type Static context of XPath
     expression
@@ -1361,11 +1444,12 @@ def test_cta0023_cta0023_v01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_cta0022_cta0022_v01(mode, save_output):
+def test_cta0022_cta0022_v01(mode, save_output, output_format):
     """
     Type alternative using a simple type Dynamic context of XPath
     expression
@@ -1377,11 +1461,12 @@ def test_cta0022_cta0022_v01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_cta0021_cta0021_v01(mode, save_output):
+def test_cta0021_cta0021_v01(mode, save_output, output_format):
     """
     Type alternative using a simple type XPath expression sees base URI of
     element node
@@ -1393,11 +1478,12 @@ def test_cta0021_cta0021_v01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_cta0020_cta0020_v01(mode, save_output):
+def test_cta0020_cta0020_v01(mode, save_output, output_format):
     """
     Type alternative using a simple type XPath expression sees name of
     element node
@@ -1409,11 +1495,12 @@ def test_cta0020_cta0020_v01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_cta0019_cta0019_v01(mode, save_output):
+def test_cta0019_cta0019_v01(mode, save_output, output_format):
     """
     Type alternative using a simple type XPath expression sees untyped
     data
@@ -1425,11 +1512,12 @@ def test_cta0019_cta0019_v01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_cta0018_cta0018_v01(mode, save_output):
+def test_cta0018_cta0018_v01(mode, save_output, output_format):
     """
     Type alternative using a simple type XPath expression sees untyped
     data
@@ -1441,11 +1529,12 @@ def test_cta0018_cta0018_v01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_cta0017_cta0017_v01(mode, save_output):
+def test_cta0017_cta0017_v01(mode, save_output, output_format):
     """
     Type alternative using a simple type XPath expression can only access
     attributes
@@ -1457,11 +1546,12 @@ def test_cta0017_cta0017_v01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_cta0016_cta0016_v01(mode, save_output):
+def test_cta0016_cta0016_v01(mode, save_output, output_format):
     """
     Type alternative using a simple type Error in XPath evaluation treated
     as false
@@ -1473,11 +1563,12 @@ def test_cta0016_cta0016_v01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_cta0016_cta0016_v02(mode, save_output):
+def test_cta0016_cta0016_v02(mode, save_output, output_format):
     """
     Type alternative using a simple type Error in XPath evaluation treated
     as false
@@ -1489,11 +1580,12 @@ def test_cta0016_cta0016_v02(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_cta0015_cta0015_v01(mode, save_output):
+def test_cta0015_cta0015_v01(mode, save_output, output_format):
     """
     Type alternative using a simple type Implicit default alternative as
     last alternative
@@ -1505,11 +1597,12 @@ def test_cta0015_cta0015_v01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_cta0015_cta0015_v02(mode, save_output):
+def test_cta0015_cta0015_v02(mode, save_output, output_format):
     """
     Type alternative using a simple type Implicit default alternative as
     last alternative
@@ -1521,11 +1614,12 @@ def test_cta0015_cta0015_v02(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_cta0014_cta0014_v01(mode, save_output):
+def test_cta0014_cta0014_v01(mode, save_output, output_format):
     """
     Type alternative using a simple type Explicit default alternative as
     last alternative
@@ -1537,11 +1631,12 @@ def test_cta0014_cta0014_v01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_cta0014_cta0014_v02(mode, save_output):
+def test_cta0014_cta0014_v02(mode, save_output, output_format):
     """
     Type alternative using a simple type Explicit default alternative as
     last alternative
@@ -1553,11 +1648,12 @@ def test_cta0014_cta0014_v02(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_cta0013_cta0013_v01(mode, save_output):
+def test_cta0013_cta0013_v01(mode, save_output, output_format):
     """
     Type alternative using an inherited attribute A non-inheritable
     attribute does not mask an inheritable attribute on an ancestor
@@ -1569,11 +1665,12 @@ def test_cta0013_cta0013_v01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_cta0013_cta0013_v02(mode, save_output):
+def test_cta0013_cta0013_v02(mode, save_output, output_format):
     """
     Type alternative using an inherited attribute A non-inheritable
     attribute does not mask an inheritable attribute on an ancestor
@@ -1585,11 +1682,12 @@ def test_cta0013_cta0013_v02(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_cta0012_cta0012_v01(mode, save_output):
+def test_cta0012_cta0012_v01(mode, save_output, output_format):
     """
     Type alternative using an inherited attribute Inheritability differs
     between attribute declaration and use: attribute use wins
@@ -1601,11 +1699,12 @@ def test_cta0012_cta0012_v01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_cta0011_cta0011_v01(mode, save_output):
+def test_cta0011_cta0011_v01(mode, save_output, output_format):
     """
     Type alternative using an inherited attribute Inheritability differs
     between attribute declaration and use: attribute use wins
@@ -1617,11 +1716,12 @@ def test_cta0011_cta0011_v01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_cta0011_cta0011_v02(mode, save_output):
+def test_cta0011_cta0011_v02(mode, save_output, output_format):
     """
     Type alternative using an inherited attribute Inheritability differs
     between attribute declaration and use: attribute use wins
@@ -1633,11 +1733,12 @@ def test_cta0011_cta0011_v02(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_cta0010_cta0010_v01(mode, save_output):
+def test_cta0010_cta0010_v01(mode, save_output, output_format):
     """
     Type alternative using an inherited attribute Type alternative is an
     anonymous type defined as child of xs:alternative
@@ -1649,11 +1750,12 @@ def test_cta0010_cta0010_v01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_cta0010_cta0010_v02(mode, save_output):
+def test_cta0010_cta0010_v02(mode, save_output, output_format):
     """
     Type alternative using an inherited attribute Type alternative is an
     anonymous type defined as child of xs:alternative
@@ -1665,11 +1767,12 @@ def test_cta0010_cta0010_v02(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_cta0009_cta0009_v01(mode, save_output):
+def test_cta0009_cta0009_v01(mode, save_output, output_format):
     """
     Type alternative using an inherited attribute Type alternative is an
     anonymous type defined as child of xs:alternative
@@ -1681,11 +1784,12 @@ def test_cta0009_cta0009_v01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_cta0009_cta0009_v02(mode, save_output):
+def test_cta0009_cta0009_v02(mode, save_output, output_format):
     """
     Type alternative using an inherited attribute Type alternative is an
     anonymous type defined as child of xs:alternative
@@ -1697,11 +1801,12 @@ def test_cta0009_cta0009_v02(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_cta0008_cta0008_v01(mode, save_output):
+def test_cta0008_cta0008_v01(mode, save_output, output_format):
     """
     Inline type alternative Type alternative is an anonymous type defined
     as child of xs:alternative
@@ -1713,11 +1818,12 @@ def test_cta0008_cta0008_v01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_cta0006_cta0006_v01(mode, save_output):
+def test_cta0006_cta0006_v01(mode, save_output, output_format):
     """
     Conditional simple type: selecting a branch of a union Simple type of
     message depends on enumerated kind attribute, value is a QName
@@ -1730,11 +1836,12 @@ def test_cta0006_cta0006_v01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_cta0005_cta0005_v01(mode, save_output):
+def test_cta0005_cta0005_v01(mode, save_output, output_format):
     """
     Conditional complex type with namespaces Variant of cta0003 (same
     instance documents) using xpathDefaultNamespace at the schema level
@@ -1746,11 +1853,12 @@ def test_cta0005_cta0005_v01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_cta0004_cta0004_v01(mode, save_output):
+def test_cta0004_cta0004_v01(mode, save_output, output_format):
     """
     Conditional complex type with namespaces Variant of cta0003 (same
     instance documents) using xpathDefaultNamespace
@@ -1762,11 +1870,12 @@ def test_cta0004_cta0004_v01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_cta0003_cta0003_v01(mode, save_output):
+def test_cta0003_cta0003_v01(mode, save_output, output_format):
     """
     Conditional complex type with namespaces Trivial reference to the name
     of the element
@@ -1778,11 +1887,12 @@ def test_cta0003_cta0003_v01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_cta0002_cta0002_v01(mode, save_output):
+def test_cta0002_cta0002_v01(mode, save_output, output_format):
     """
     Conditional complex type with namespaces Complex type of message
     depends on enumerated min attribute
@@ -1794,11 +1904,12 @@ def test_cta0002_cta0002_v01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_cta0001_cta0001_v01(mode, save_output):
+def test_cta0001_cta0001_v01(mode, save_output, output_format):
     """
     Conditional simple type: example based on spec Simple type of message
     depends on enumerated kind attribute
@@ -1810,11 +1921,12 @@ def test_cta0001_cta0001_v01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_cta0001_cta0001_v02(mode, save_output):
+def test_cta0001_cta0001_v02(mode, save_output, output_format):
     """
     Conditional simple type: example based on spec Simple type of message
     depends on enumerated kind attribute
@@ -1826,11 +1938,12 @@ def test_cta0001_cta0001_v02(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_cta0001_cta0001_v03(mode, save_output):
+def test_cta0001_cta0001_v03(mode, save_output, output_format):
     """
     Conditional simple type: example based on spec Simple type of message
     depends on enumerated kind attribute
@@ -1842,11 +1955,12 @@ def test_cta0001_cta0001_v03(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id054_id054_v01_xml(mode, save_output):
+def test_id054_id054_v01_xml(mode, save_output, output_format):
     """
     Keyref constraint using xpathDefaultNamespace Use
     XPathDefaultNamespace=##local on the local element and the xs:schema
@@ -1859,11 +1973,12 @@ def test_id054_id054_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id053_id053_v01_xml(mode, save_output):
+def test_id053_id053_v01_xml(mode, save_output, output_format):
     """
     Key constraint using xpathDefaultNamespace Use
     XPathDefaultNamespace=##targetNamespace on the local element
@@ -1875,11 +1990,12 @@ def test_id053_id053_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id052_id052_v01_xml(mode, save_output):
+def test_id052_id052_v01_xml(mode, save_output, output_format):
     """
     Key constraint using xpathDefaultNamespace Use XPathDefaultNamespace
     on the xs:schema element
@@ -1891,11 +2007,12 @@ def test_id052_id052_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id051_id051_v01_xml(mode, save_output):
+def test_id051_id051_v01_xml(mode, save_output, output_format):
     """
     Key constraint using xpathDefaultNamespace Use XPathDefaultNamespace
     on the xs:schema element
@@ -1907,11 +2024,12 @@ def test_id051_id051_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id050_id050_v01_xml(mode, save_output):
+def test_id050_id050_v01_xml(mode, save_output, output_format):
     """
     Unique constraint using xpathDefaultNamespace Use
     XPathDefaultNamespace on the selector and field elements
@@ -1923,11 +2041,12 @@ def test_id050_id050_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id044_id044_v01_xml(mode, save_output):
+def test_id044_id044_v01_xml(mode, save_output, output_format):
     """
     Keyref constraint using ref attribute Keyref constraint refers to
     another keyref constraint using ref attribute
@@ -1939,11 +2058,12 @@ def test_id044_id044_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id043_id043_v01_xml(mode, save_output):
+def test_id043_id043_v01_xml(mode, save_output, output_format):
     """
     Key constraint using ref attribute Key constraint refers to another
     key constraint using ref attribute
@@ -1955,11 +2075,12 @@ def test_id043_id043_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id040_id040_v01_xml(mode, save_output):
+def test_id040_id040_v01_xml(mode, save_output, output_format):
     """
     Unique constraint using ref attribute Unique constraint refers to
     another unique constraint using ref attribute
@@ -1971,11 +2092,12 @@ def test_id040_id040_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id022_id022_v01_xml(mode, save_output):
+def test_id022_id022_v01_xml(mode, save_output, output_format):
     """
     Atomic value equal to singleton list Value of a key is atomic; value
     of keyref is a list; they can be equal
@@ -1987,11 +2109,12 @@ def test_id022_id022_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id021_id021_v01_xml(mode, save_output):
+def test_id021_id021_v01_xml(mode, save_output, output_format):
     """
     Element of type xs:ENTITIES with default value Element of type
     xs:ENTITIES with default value
@@ -2003,11 +2126,12 @@ def test_id021_id021_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id021_id021_v02_xml(mode, save_output):
+def test_id021_id021_v02_xml(mode, save_output, output_format):
     """
     Element of type xs:ENTITIES with default value Element of type
     xs:ENTITIES with default value
@@ -2019,11 +2143,12 @@ def test_id021_id021_v02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id020_id020_v01_xml(mode, save_output):
+def test_id020_id020_v01_xml(mode, save_output, output_format):
     """
     Element of type xs:ENTITY with default value Element of type xs:ENTITY
     with default value
@@ -2035,11 +2160,12 @@ def test_id020_id020_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id020_id020_v02_xml(mode, save_output):
+def test_id020_id020_v02_xml(mode, save_output, output_format):
     """
     Element of type xs:ENTITY with default value Element of type xs:ENTITY
     with default value
@@ -2051,11 +2177,12 @@ def test_id020_id020_v02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id020_id020_v03_xml(mode, save_output):
+def test_id020_id020_v03_xml(mode, save_output, output_format):
     """
     Element of type xs:ENTITY with default value Element of type xs:ENTITY
     with default value
@@ -2067,11 +2194,12 @@ def test_id020_id020_v03_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id019_id019_v01_xml(mode, save_output):
+def test_id019_id019_v01_xml(mode, save_output, output_format):
     """
     Union of ENTITY and integer attribute with default value Union of
     ENTITY and integer attribute with default value
@@ -2083,11 +2211,12 @@ def test_id019_id019_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id019_id019_v02_xml(mode, save_output):
+def test_id019_id019_v02_xml(mode, save_output, output_format):
     """
     Union of ENTITY and integer attribute with default value Union of
     ENTITY and integer attribute with default value
@@ -2099,11 +2228,12 @@ def test_id019_id019_v02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id018_id018_v01_xml(mode, save_output):
+def test_id018_id018_v01_xml(mode, save_output, output_format):
     """
     ENTITIES attribute with default value ENTITIES attribute with default
     value
@@ -2115,11 +2245,12 @@ def test_id018_id018_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id018_id018_v02_xml(mode, save_output):
+def test_id018_id018_v02_xml(mode, save_output, output_format):
     """
     ENTITIES attribute with default value ENTITIES attribute with default
     value
@@ -2131,11 +2262,12 @@ def test_id018_id018_v02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id018_id018_v03_xml(mode, save_output):
+def test_id018_id018_v03_xml(mode, save_output, output_format):
     """
     ENTITIES attribute with default value ENTITIES attribute with default
     value
@@ -2147,11 +2279,12 @@ def test_id018_id018_v03_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id017_id017_v01_xml(mode, save_output):
+def test_id017_id017_v01_xml(mode, save_output, output_format):
     """
     ENTITY attribute with default value ENTITY attribute with default
     value
@@ -2163,11 +2296,12 @@ def test_id017_id017_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id017_id017_v02_xml(mode, save_output):
+def test_id017_id017_v02_xml(mode, save_output, output_format):
     """
     ENTITY attribute with default value ENTITY attribute with default
     value
@@ -2179,11 +2313,12 @@ def test_id017_id017_v02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id016_id016_v01_xml(mode, save_output):
+def test_id016_id016_v01_xml(mode, save_output, output_format):
     """
     IDREF attribute with default value IDREF attribute with default value
     """
@@ -2194,11 +2329,12 @@ def test_id016_id016_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id016_id016_v02_xml(mode, save_output):
+def test_id016_id016_v02_xml(mode, save_output, output_format):
     """
     IDREF attribute with default value IDREF attribute with default value
     """
@@ -2209,11 +2345,12 @@ def test_id016_id016_v02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id015_id015_v01_xml(mode, save_output):
+def test_id015_id015_v01_xml(mode, save_output, output_format):
     """
     ID element with fixed value ID element with fixed value
     """
@@ -2224,11 +2361,12 @@ def test_id015_id015_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id014_id014_v01_xml(mode, save_output):
+def test_id014_id014_v01_xml(mode, save_output, output_format):
     """
     ID element with default value ID element with default value
     """
@@ -2239,11 +2377,12 @@ def test_id014_id014_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id013_id013_v01_xml(mode, save_output):
+def test_id013_id013_v01_xml(mode, save_output, output_format):
     """
     ID attribute with fixed value ID attribute with fixed value
     """
@@ -2254,11 +2393,12 @@ def test_id013_id013_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id012_id012_v01_xml(mode, save_output):
+def test_id012_id012_v01_xml(mode, save_output, output_format):
     """
     ID attribute with default value ID attribute with default value
     """
@@ -2269,11 +2409,12 @@ def test_id012_id012_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id011_id011_v01_xml(mode, save_output):
+def test_id011_id011_v01_xml(mode, save_output, output_format):
     """
     ID attribute with fixed value ID attribute with fixed value
     """
@@ -2284,11 +2425,12 @@ def test_id011_id011_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id010_id010_v01_xml(mode, save_output):
+def test_id010_id010_v01_xml(mode, save_output, output_format):
     """
     ID attribute with default value ID attribute with default value
     """
@@ -2299,11 +2441,12 @@ def test_id010_id010_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id009_id009_v01_xml(mode, save_output):
+def test_id009_id009_v01_xml(mode, save_output, output_format):
     """
     Nillable ID/IDREF elements Nillable ID/IDREF elements
     """
@@ -2314,11 +2457,12 @@ def test_id009_id009_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id008_id008_v01_xml(mode, save_output):
+def test_id008_id008_v01_xml(mode, save_output, output_format):
     """
     A complex type with simple ID/IDREF content A complex type with simple
     ID/IDREF content at one time imposed no uniqueness or referential
@@ -2331,11 +2475,12 @@ def test_id008_id008_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id007_id007_v01_xml(mode, save_output):
+def test_id007_id007_v01_xml(mode, save_output, output_format):
     """
     A highly devious test in which we define a list type whose items may
     be either IDs or IDREFs A highly devious test in which we define a
@@ -2348,11 +2493,12 @@ def test_id007_id007_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id006_id006_v01_xml(mode, save_output):
+def test_id006_id006_v01_xml(mode, save_output, output_format):
     """
     Element with list-of-maybe-IDREF attributes and list-of-maybe-IDREF
     children Element with list-of-maybe-IDREF attributes and list-of-
@@ -2365,11 +2511,12 @@ def test_id006_id006_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id005_id005_v01_xml(mode, save_output):
+def test_id005_id005_v01_xml(mode, save_output, output_format):
     """
     Element with list-of-IDREF attributes and list-of-IDREF children
     Element with list-of-IDREF attributes and list-of-IDREF children
@@ -2381,11 +2528,12 @@ def test_id005_id005_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id004_id004_v01_xml(mode, save_output):
+def test_id004_id004_v01_xml(mode, save_output, output_format):
     """
     Element with list-of-ID attributes and list-of-ID children Element
     with list-of-ID attributes and list-of-ID children
@@ -2397,11 +2545,12 @@ def test_id004_id004_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id003_id003_v01_xml(mode, save_output):
+def test_id003_id003_v01_xml(mode, save_output, output_format):
     """
     Element with more than one ID attribute, one being a wildcard, plus ID
     children Element with more than one ID attribute, one being a
@@ -2414,11 +2563,12 @@ def test_id003_id003_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id002_id002_v01_xml(mode, save_output):
+def test_id002_id002_v01_xml(mode, save_output, output_format):
     """
     Element with more than one ID attribute, one being a wildcard Element
     with more than one ID attribute, one being a wildcard
@@ -2430,11 +2580,12 @@ def test_id002_id002_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id001_id001_v01_xml(mode, save_output):
+def test_id001_id001_v01_xml(mode, save_output, output_format):
     """
     Element with more than one ID attribute Element with more than one ID
     attribute
@@ -2446,11 +2597,12 @@ def test_id001_id001_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_missing006_missing006_v1_xml(mode, save_output):
+def test_missing006_missing006_v1_xml(mode, save_output, output_format):
     """
     List type with missing item type Error only if the list type is needed
     for validation
@@ -2462,11 +2614,12 @@ def test_missing006_missing006_v1_xml(mode, save_output):
         version="1.0",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_missing003_missing003_v1_xml(mode, save_output):
+def test_missing003_missing003_v1_xml(mode, save_output, output_format):
     """
     Element declaration with missing substitution group head Error only if
     the element declaration is needed for validation
@@ -2478,11 +2631,12 @@ def test_missing003_missing003_v1_xml(mode, save_output):
         version="1.0",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_missing002_missing001_v1_xml(mode, save_output):
+def test_missing002_missing001_v1_xml(mode, save_output, output_format):
     """
     Element declaration with missing substitution group head Error only if
     the element declaration is needed for validation
@@ -2494,11 +2648,12 @@ def test_missing002_missing001_v1_xml(mode, save_output):
         version="1.0",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_missing002_missing001_n1_xml(mode, save_output):
+def test_missing002_missing001_n1_xml(mode, save_output, output_format):
     """
     Element declaration with missing substitution group head Error only if
     the element declaration is needed for validation
@@ -2510,11 +2665,12 @@ def test_missing002_missing001_n1_xml(mode, save_output):
         version="1.0",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_missing001_missing001_v1_xml(mode, save_output):
+def test_missing001_missing001_v1_xml(mode, save_output, output_format):
     """
     Element declaration with missing type Error only if the element
     declaration is needed for validation
@@ -2526,11 +2682,12 @@ def test_missing001_missing001_v1_xml(mode, save_output):
         version="1.0",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_open205_open205_v1_xml(mode, save_output):
+def test_open205_open205_v1_xml(mode, save_output, output_format):
     """
     Valid content model defaultAttributes in an imported namespace
     """
@@ -2541,11 +2698,12 @@ def test_open205_open205_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_open202_open202_v1_xml(mode, save_output):
+def test_open202_open202_v1_xml(mode, save_output, output_format):
     """
     Valid content model Basic test of defaultAttributes with
     defaultAttributesApply=false
@@ -2557,11 +2715,12 @@ def test_open202_open202_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_open201_open201_v1_xml(mode, save_output):
+def test_open201_open201_v1_xml(mode, save_output, output_format):
     """
     Valid content model Basic test of defaultAttributes
     """
@@ -2572,11 +2731,12 @@ def test_open201_open201_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_open201_open201_v2_xml(mode, save_output):
+def test_open201_open201_v2_xml(mode, save_output, output_format):
     """
     Valid content model Basic test of defaultAttributes
     """
@@ -2587,11 +2747,12 @@ def test_open201_open201_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_open047_open047_v1_xml(mode, save_output):
+def test_open047_open047_v1_xml(mode, save_output, output_format):
     """
     A valid extension complex type extension: derived type's open content
     allows the union of the wildcards specified for the base type and for
@@ -2604,11 +2765,12 @@ def test_open047_open047_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_open047_open047_v2_xml(mode, save_output):
+def test_open047_open047_v2_xml(mode, save_output, output_format):
     """
     A valid extension complex type extension: derived type's open content
     allows the union of the wildcards specified for the base type and for
@@ -2621,11 +2783,12 @@ def test_open047_open047_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_open047_open047_v3_xml(mode, save_output):
+def test_open047_open047_v3_xml(mode, save_output, output_format):
     """
     A valid extension complex type extension: derived type's open content
     allows the union of the wildcards specified for the base type and for
@@ -2638,11 +2801,12 @@ def test_open047_open047_v3_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_open045_open045_v1_xml(mode, save_output):
+def test_open045_open045_v1_xml(mode, save_output, output_format):
     """
     defaultAttributes does not apply to types defined within xs:override
     defaultAttributes does not apply to types defined within xs:override.
@@ -2658,11 +2822,12 @@ def test_open045_open045_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_open044_open044_v1_xml(mode, save_output):
+def test_open044_open044_v1_xml(mode, save_output, output_format):
     """
     defaultAttributes applies to types defined within xs:redefine
     defaultAttributes applies to types defined within xs:redefine
@@ -2674,11 +2839,12 @@ def test_open044_open044_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_open043_open043_v1_xml(mode, save_output):
+def test_open043_open043_v1_xml(mode, save_output, output_format):
     """
     For types defined within xs:override, the relevant defaultOpenContent
     is the one in the overridden schema document For types defined within
@@ -2693,11 +2859,12 @@ def test_open043_open043_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_open042_open042_v1_xml(mode, save_output):
+def test_open042_open042_v1_xml(mode, save_output, output_format):
     """
     defaultOpenContent applies to types defined within xs:redefine
     defaultOpenContent applies to types defined within xs:redefine
@@ -2709,11 +2876,12 @@ def test_open042_open042_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_open041_open041_v1_xml(mode, save_output):
+def test_open041_open041_v1_xml(mode, save_output, output_format):
     """
     defaultOpenContent is scoped to a schema document defaultOpenContent
     does not apply to types included from a different schema document
@@ -2725,11 +2893,12 @@ def test_open041_open041_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_open040_open040_v1_xml(mode, save_output):
+def test_open040_open040_v1_xml(mode, save_output, output_format):
     """
     defaultOpenContent is scoped to a schema document defaultOpenContent
     does not apply to types included from a different schema document
@@ -2741,11 +2910,12 @@ def test_open040_open040_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_open035_open035_v1_xml(mode, save_output):
+def test_open035_open035_v1_xml(mode, save_output, output_format):
     """
     Test defaultAttributesApply on an anonymous complex type Attribute is
     allowed on both named and unnamed types
@@ -2757,11 +2927,12 @@ def test_open035_open035_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_open031_open031_v1_xml(mode, save_output):
+def test_open031_open031_v1_xml(mode, save_output, output_format):
     """
     A valid extension complex type extension: derived type takes
     openContent from the base type ignoring the defaultOpenContent when
@@ -2774,11 +2945,12 @@ def test_open031_open031_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_open031_open031_v2_xml(mode, save_output):
+def test_open031_open031_v2_xml(mode, save_output, output_format):
     """
     A valid extension complex type extension: derived type takes
     openContent from the base type ignoring the defaultOpenContent when
@@ -2791,11 +2963,12 @@ def test_open031_open031_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_open031_open031_v3_xml(mode, save_output):
+def test_open031_open031_v3_xml(mode, save_output, output_format):
     """
     A valid extension complex type extension: derived type takes
     openContent from the base type ignoring the defaultOpenContent when
@@ -2808,11 +2981,12 @@ def test_open031_open031_v3_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_open031_open031_v4_xml(mode, save_output):
+def test_open031_open031_v4_xml(mode, save_output, output_format):
     """
     A valid extension complex type extension: derived type takes
     openContent from the base type ignoring the defaultOpenContent when
@@ -2825,11 +2999,12 @@ def test_open031_open031_v4_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_open028_open028_v1_xml(mode, save_output):
+def test_open028_open028_v1_xml(mode, save_output, output_format):
     """
     A valid extension Derived type has suffix open content, base type does
     not
@@ -2841,11 +3016,12 @@ def test_open028_open028_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_open028_open028_v2_xml(mode, save_output):
+def test_open028_open028_v2_xml(mode, save_output, output_format):
     """
     A valid extension Derived type has suffix open content, base type does
     not
@@ -2857,11 +3033,12 @@ def test_open028_open028_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_open028_open028_v3_xml(mode, save_output):
+def test_open028_open028_v3_xml(mode, save_output, output_format):
     """
     A valid extension Derived type has suffix open content, base type does
     not
@@ -2873,11 +3050,12 @@ def test_open028_open028_v3_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_open027_open027_v1_xml(mode, save_output):
+def test_open027_open027_v1_xml(mode, save_output, output_format):
     """
     A valid extension Base type has suffix open content, extended type
     does not
@@ -2889,11 +3067,12 @@ def test_open027_open027_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_open027_open027_v2_xml(mode, save_output):
+def test_open027_open027_v2_xml(mode, save_output, output_format):
     """
     A valid extension Base type has suffix open content, extended type
     does not
@@ -2905,11 +3084,12 @@ def test_open027_open027_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_open027_open027_v3_xml(mode, save_output):
+def test_open027_open027_v3_xml(mode, save_output, output_format):
     """
     A valid extension Base type has suffix open content, extended type
     does not
@@ -2921,11 +3101,12 @@ def test_open027_open027_v3_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_open025_open025_v1_xml(mode, save_output):
+def test_open025_open025_v1_xml(mode, save_output, output_format):
     """
     Open content and regular content match the same instances Show that
     regular particles take precedence
@@ -2937,11 +3118,12 @@ def test_open025_open025_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_open024_open024_v1_xml(mode, save_output):
+def test_open024_open024_v1_xml(mode, save_output, output_format):
     """
     A valid restriction Open content in base type has weaker
     processContents than open content in derived type
@@ -2953,11 +3135,12 @@ def test_open024_open024_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_open023_open023_v1_xml(mode, save_output):
+def test_open023_open023_v1_xml(mode, save_output, output_format):
     """
     A valid restriction Open content in base type allows more namespaces
     than open content in derived type
@@ -2969,11 +3152,12 @@ def test_open023_open023_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_open022_open022_v1_xml(mode, save_output):
+def test_open022_open022_v1_xml(mode, save_output, output_format):
     """
     A valid restriction (though Saxon can't yet handle it) Base type has
     an explicit wildcard, restricted type has interleaved open content,
@@ -2986,11 +3170,12 @@ def test_open022_open022_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_open021_open021_v1_xml(mode, save_output):
+def test_open021_open021_v1_xml(mode, save_output, output_format):
     """
     A valid restriction Base type has suffixed open content, restricted
     type has interleaved open content, but it's OK because the restricted
@@ -3003,11 +3188,12 @@ def test_open021_open021_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_open020_open020_v1_xml(mode, save_output):
+def test_open020_open020_v1_xml(mode, save_output, output_format):
     """
     A valid restriction Base type has suffixed open content, restricted
     type has interleaved open content, but it's OK because the restricted
@@ -3020,11 +3206,12 @@ def test_open020_open020_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_open016_open016_v1_xml(mode, save_output):
+def test_open016_open016_v1_xml(mode, save_output, output_format):
     """
     Open content: no effect on complex types with simple content Default
     open content ignored on a CT-with-SC
@@ -3036,11 +3223,12 @@ def test_open016_open016_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_open015_open015_v1_xml(mode, save_output):
+def test_open015_open015_v1_xml(mode, save_output, output_format):
     """
     A valid restriction Base type has open content, restricted type has
     identical open content
@@ -3052,11 +3240,12 @@ def test_open015_open015_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_open014_open014_v1_xml(mode, save_output):
+def test_open014_open014_v1_xml(mode, save_output, output_format):
     """
     A valid restriction Base type has open content, restricted type does
     not
@@ -3068,11 +3257,12 @@ def test_open014_open014_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_open013_open013_v1_xml(mode, save_output):
+def test_open013_open013_v1_xml(mode, save_output, output_format):
     """
     Schema defines default open content not applying to an empty content
     model - but it does apply to a mixed content model with an empty
@@ -3085,11 +3275,12 @@ def test_open013_open013_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_open012_open012_v1_xml(mode, save_output):
+def test_open012_open012_v1_xml(mode, save_output, output_format):
     """
     Schema defines default open content but not applying to an empty
     content model Defined by defaultOpenContent with appliesToEmpty=false.
@@ -3101,11 +3292,12 @@ def test_open012_open012_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_open011_open011_v1_xml(mode, save_output):
+def test_open011_open011_v1_xml(mode, save_output, output_format):
     """
     Open content in an (otherwise) empty content model Defined by
     defaultOpenContent with appliesToEmpty=true. Uses same instances as
@@ -3118,11 +3310,12 @@ def test_open011_open011_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_open011_open011_v2_xml(mode, save_output):
+def test_open011_open011_v2_xml(mode, save_output, output_format):
     """
     Open content in an (otherwise) empty content model Defined by
     defaultOpenContent with appliesToEmpty=true. Uses same instances as
@@ -3135,11 +3328,12 @@ def test_open011_open011_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_open010_open010_v1_xml(mode, save_output):
+def test_open010_open010_v1_xml(mode, save_output, output_format):
     """
     Open content in an (otherwise) empty content model Allows any element
     in specified namespace
@@ -3151,11 +3345,12 @@ def test_open010_open010_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_open010_open010_v2_xml(mode, save_output):
+def test_open010_open010_v2_xml(mode, save_output, output_format):
     """
     Open content in an (otherwise) empty content model Allows any element
     in specified namespace
@@ -3167,11 +3362,12 @@ def test_open010_open010_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_open009_open009_v1_xml(mode, save_output):
+def test_open009_open009_v1_xml(mode, save_output, output_format):
     """
     Suffix open content in an xs:all group Allows any element in specified
     namespace at end of xs:all content
@@ -3183,11 +3379,12 @@ def test_open009_open009_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_open009_open009_v2_xml(mode, save_output):
+def test_open009_open009_v2_xml(mode, save_output, output_format):
     """
     Suffix open content in an xs:all group Allows any element in specified
     namespace at end of xs:all content
@@ -3199,11 +3396,12 @@ def test_open009_open009_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_open008_open008_v1_xml(mode, save_output):
+def test_open008_open008_v1_xml(mode, save_output, output_format):
     """
     Interleaved open content in an xs:all group Allows any element in
     specified namespace anywhere in xs:all content
@@ -3215,11 +3413,12 @@ def test_open008_open008_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_open008_open008_v2_xml(mode, save_output):
+def test_open008_open008_v2_xml(mode, save_output, output_format):
     """
     Interleaved open content in an xs:all group Allows any element in
     specified namespace anywhere in xs:all content
@@ -3231,11 +3430,12 @@ def test_open008_open008_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_open008_open008_v3_xml(mode, save_output):
+def test_open008_open008_v3_xml(mode, save_output, output_format):
     """
     Interleaved open content in an xs:all group Allows any element in
     specified namespace anywhere in xs:all content
@@ -3247,11 +3447,12 @@ def test_open008_open008_v3_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_open007_open007_v1_xml(mode, save_output):
+def test_open007_open007_v1_xml(mode, save_output, output_format):
     """
     Interleaved open content within a counting content model Designed to
     test that counting still works correctly.
@@ -3263,11 +3464,12 @@ def test_open007_open007_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_open007_open007_v2_xml(mode, save_output):
+def test_open007_open007_v2_xml(mode, save_output, output_format):
     """
     Interleaved open content within a counting content model Designed to
     test that counting still works correctly.
@@ -3279,11 +3481,12 @@ def test_open007_open007_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_open006_open006_v1_xml(mode, save_output):
+def test_open006_open006_v1_xml(mode, save_output, output_format):
     """
     Basic interleaved open content using defaultOpenContent definition
     Allows any element in specified namespace anywhere in content. Same as
@@ -3296,11 +3499,12 @@ def test_open006_open006_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_open006_open006_v2_xml(mode, save_output):
+def test_open006_open006_v2_xml(mode, save_output, output_format):
     """
     Basic interleaved open content using defaultOpenContent definition
     Allows any element in specified namespace anywhere in content. Same as
@@ -3313,11 +3517,12 @@ def test_open006_open006_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_open006_open006_v3_xml(mode, save_output):
+def test_open006_open006_v3_xml(mode, save_output, output_format):
     """
     Basic interleaved open content using defaultOpenContent definition
     Allows any element in specified namespace anywhere in content. Same as
@@ -3330,11 +3535,12 @@ def test_open006_open006_v3_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_open006_open006_v4_xml(mode, save_output):
+def test_open006_open006_v4_xml(mode, save_output, output_format):
     """
     Basic interleaved open content using defaultOpenContent definition
     Allows any element in specified namespace anywhere in content. Same as
@@ -3347,11 +3553,12 @@ def test_open006_open006_v4_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_open005_open005_v1_xml(mode, save_output):
+def test_open005_open005_v1_xml(mode, save_output, output_format):
     """
     Basic interleaved open content Allows any element in specified
     namespace anywhere in content
@@ -3363,11 +3570,12 @@ def test_open005_open005_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_open005_open005_v2_xml(mode, save_output):
+def test_open005_open005_v2_xml(mode, save_output, output_format):
     """
     Basic interleaved open content Allows any element in specified
     namespace anywhere in content
@@ -3379,11 +3587,12 @@ def test_open005_open005_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_open005_open005_v3_xml(mode, save_output):
+def test_open005_open005_v3_xml(mode, save_output, output_format):
     """
     Basic interleaved open content Allows any element in specified
     namespace anywhere in content
@@ -3395,11 +3604,12 @@ def test_open005_open005_v3_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_open005_open005_v4_xml(mode, save_output):
+def test_open005_open005_v4_xml(mode, save_output, output_format):
     """
     Basic interleaved open content Allows any element in specified
     namespace anywhere in content
@@ -3411,11 +3621,12 @@ def test_open005_open005_v4_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_open004_open004_v1_xml(mode, save_output):
+def test_open004_open004_v1_xml(mode, save_output, output_format):
     """
     mode="none" takes precedence over default open content Open content
     not allowed.
@@ -3427,11 +3638,12 @@ def test_open004_open004_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_open003_open003_v1_xml(mode, save_output):
+def test_open003_open003_v1_xml(mode, save_output, output_format):
     """
     Explicit open content takes precedence over default open content
     Different namespaces for the local open content and default open
@@ -3444,11 +3656,12 @@ def test_open003_open003_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_open002_open002_v1_xml(mode, save_output):
+def test_open002_open002_v1_xml(mode, save_output, output_format):
     """
     Suffixed open content defined by defaultOpenContent element Same as
     open001 except for the schema.
@@ -3460,11 +3673,12 @@ def test_open002_open002_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_open002_open002_v2_xml(mode, save_output):
+def test_open002_open002_v2_xml(mode, save_output, output_format):
     """
     Suffixed open content defined by defaultOpenContent element Same as
     open001 except for the schema.
@@ -3476,11 +3690,12 @@ def test_open002_open002_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_open002_open002_v3_xml(mode, save_output):
+def test_open002_open002_v3_xml(mode, save_output, output_format):
     """
     Suffixed open content defined by defaultOpenContent element Same as
     open001 except for the schema.
@@ -3492,11 +3707,12 @@ def test_open002_open002_v3_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_open001_open001_v1_xml(mode, save_output):
+def test_open001_open001_v1_xml(mode, save_output, output_format):
     """
     Basic suffixed open content Allows any element in specified namespace
     at end of content
@@ -3508,11 +3724,12 @@ def test_open001_open001_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_open001_open001_v2_xml(mode, save_output):
+def test_open001_open001_v2_xml(mode, save_output, output_format):
     """
     Basic suffixed open content Allows any element in specified namespace
     at end of content
@@ -3524,11 +3741,12 @@ def test_open001_open001_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_open001_open001_v3_xml(mode, save_output):
+def test_open001_open001_v3_xml(mode, save_output, output_format):
     """
     Basic suffixed open content Allows any element in specified namespace
     at end of content
@@ -3540,11 +3758,12 @@ def test_open001_open001_v3_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_over030_over030_v01_xml(mode, save_output):
+def test_over030_over030_v01_xml(mode, save_output, output_format):
     """
     Override a schema document with top-level annotation See W3C bug
     20784. Test case supplied by Norm Walsh.
@@ -3556,11 +3775,12 @@ def test_over030_over030_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_over029_over029_v01_xml(mode, save_output):
+def test_over029_over029_v01_xml(mode, save_output, output_format):
     """
     Interaction of xs:override and xs:import. Test case from Priscilla
     Walmsley The xs:override contains a reference to a type in an imported
@@ -3574,11 +3794,12 @@ def test_over029_over029_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_over028_over028_v01_xml(mode, save_output):
+def test_over028_over028_v01_xml(mode, save_output, output_format):
     """
     Simple override test. Test case from Priscilla Walmsley Override a
     simpleType
@@ -3590,11 +3811,12 @@ def test_over028_over028_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_over023_over023_v01_xml(mode, save_output):
+def test_over023_over023_v01_xml(mode, save_output, output_format):
     """
     A permissible circular xs:override A permissible circular xs:override
     (doesn't work in Saxon 9.3)
@@ -3606,11 +3828,12 @@ def test_over023_over023_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_over020_over020_v01_xml(mode, save_output):
+def test_over020_over020_v01_xml(mode, save_output, output_format):
     """
     Indirect chameleon Override declaration Indirect chameleon Override
     declaration (uses over019)
@@ -3622,11 +3845,12 @@ def test_over020_over020_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_over019_over019_v01_xml(mode, save_output):
+def test_over019_over019_v01_xml(mode, save_output, output_format):
     """
     Chameleon Override declaration Chameleon Override declaration
     """
@@ -3637,11 +3861,12 @@ def test_over019_over019_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_over018_over018_v01_xml(mode, save_output):
+def test_over018_over018_v01_xml(mode, save_output, output_format):
     """
     Override declaration in a target namespace Override declaration in a
     target namespace
@@ -3653,11 +3878,12 @@ def test_over018_over018_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_over015_over015_v01_xml(mode, save_output):
+def test_over015_over015_v01_xml(mode, save_output, output_format):
     """
     Override a notation Override a notation
     """
@@ -3668,12 +3894,13 @@ def test_over015_over015_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="namespaces",
     )
 
 
 @pytest.mark.xfail
-def test_over015_over015_v02_xml(mode, save_output):
+def test_over015_over015_v02_xml(mode, save_output, output_format):
     """
     Override a notation Override a notation
     """
@@ -3684,11 +3911,12 @@ def test_over015_over015_v02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="namespaces",
     )
 
 
-def test_over012_over012_v01_xml(mode, save_output):
+def test_over012_over012_v01_xml(mode, save_output, output_format):
     """
     Override a complex type Override a complex type
     """
@@ -3699,11 +3927,12 @@ def test_over012_over012_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_over010_over010_v01_xml(mode, save_output):
+def test_over010_over010_v01_xml(mode, save_output, output_format):
     """
     Override a simple type Override a simple type
     """
@@ -3714,11 +3943,12 @@ def test_over010_over010_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_over009_over009_v01_xml(mode, save_output):
+def test_over009_over009_v01_xml(mode, save_output, output_format):
     """
     Double override Double override. Depends on schema documents in
     over003
@@ -3730,11 +3960,12 @@ def test_over009_over009_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_over008_over008_v01_xml(mode, save_output):
+def test_over008_over008_v01_xml(mode, save_output, output_format):
     """
     xs:override of an attribute group declaration xs:override of an
     attribute group declaration
@@ -3746,11 +3977,12 @@ def test_over008_over008_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_over007_over007_v01_xml(mode, save_output):
+def test_over007_over007_v01_xml(mode, save_output, output_format):
     """
     xs:override of a model group declaration xs:override of model group
     declaration
@@ -3762,11 +3994,12 @@ def test_over007_over007_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_over006_over006_v01_xml(mode, save_output):
+def test_over006_over006_v01_xml(mode, save_output, output_format):
     """
     xs:override of a self-referential element declaration xs:override of
     self-referential element declaration
@@ -3778,11 +4011,12 @@ def test_over006_over006_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_over005_over005_v01_xml(mode, save_output):
+def test_over005_over005_v01_xml(mode, save_output, output_format):
     """
     xs:override of an attribute declaration xs:override of an attribute
     declaration
@@ -3794,11 +4028,12 @@ def test_over005_over005_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_over004_over004_v01_xml(mode, save_output):
+def test_over004_over004_v01_xml(mode, save_output, output_format):
     """
     xs:override including a declaration outside the xs:override. Depends
     on over003 xs:override including a declaration outside the xs:override
@@ -3810,11 +4045,12 @@ def test_over004_over004_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_over003_over003_v01_xml(mode, save_output):
+def test_over003_over003_v01_xml(mode, save_output, output_format):
     """
     xs:override including a declaration which overrides nothing in the
     overridden schema xs:override including a declaration which overrides
@@ -3827,11 +4063,12 @@ def test_over003_over003_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_over002_over002_v01_xml(mode, save_output):
+def test_over002_over002_v01_xml(mode, save_output, output_format):
     """
     xs:override overriding an element declaration which is referenced in
     the overridden schema doc xs:override overriding an element
@@ -3844,11 +4081,12 @@ def test_over002_over002_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_over001_over001_v01_xml(mode, save_output):
+def test_over001_over001_v01_xml(mode, save_output, output_format):
     """
     xs:override overriding an element declaration xs:override overriding
     an element declaration
@@ -3860,11 +4098,12 @@ def test_over001_over001_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_simple085_simple085_v01_xml(mode, save_output):
+def test_simple085_simple085_v01_xml(mode, save_output, output_format):
     """
     Union derived by restriction with a pattern facet Pattern facet
     applies after doing whitespace processing defined in the member type
@@ -3877,11 +4116,12 @@ def test_simple085_simple085_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_simple050_simple050_v01_xml(mode, save_output):
+def test_simple050_simple050_v01_xml(mode, save_output, output_format):
     """
     Use of xs:anyAtomicType Tests use of xs:anyAtomicType as the type of
     an element declaration
@@ -3893,11 +4133,12 @@ def test_simple050_simple050_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_simple050_simple050_v02_xml(mode, save_output):
+def test_simple050_simple050_v02_xml(mode, save_output, output_format):
     """
     Use of xs:anyAtomicType Tests use of xs:anyAtomicType as the type of
     an element declaration
@@ -3909,11 +4150,12 @@ def test_simple050_simple050_v02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_simple046_simple046_v01_xml(mode, save_output):
+def test_simple046_simple046_v01_xml(mode, save_output, output_format):
     """
     Hyphens in regular expressions Tests use of hyphens in regular
     expressions
@@ -3925,11 +4167,12 @@ def test_simple046_simple046_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_simple045_simple045_v01_xml(mode, save_output):
+def test_simple045_simple045_v01_xml(mode, save_output, output_format):
     """
     Hyphens in regular expressions Tests use of hyphens in regular
     expressions
@@ -3941,11 +4184,12 @@ def test_simple045_simple045_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_simple044_simple044_v01_xml(mode, save_output):
+def test_simple044_simple044_v01_xml(mode, save_output, output_format):
     """
     Hyphens in regular expressions Tests use of hyphens in regular
     expressions
@@ -3957,11 +4201,12 @@ def test_simple044_simple044_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_simple040_simple040_v01_xml(mode, save_output):
+def test_simple040_simple040_v01_xml(mode, save_output, output_format):
     """
     Hyphens in regular expressions Tests use of hyphens in regular
     expressions
@@ -3973,11 +4218,12 @@ def test_simple040_simple040_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_simple022_simple022_v01_xml(mode, save_output):
+def test_simple022_simple022_v01_xml(mode, save_output, output_format):
     """
     Enumeration value OK if "equal or identical", so NaN is accepted. See
     bug 9196 Enumeration value OK if "equal or identical", so NaN is
@@ -3990,11 +4236,12 @@ def test_simple022_simple022_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_simple022_simple022_v02_xml(mode, save_output):
+def test_simple022_simple022_v02_xml(mode, save_output, output_format):
     """
     Enumeration value OK if "equal or identical", so NaN is accepted. See
     bug 9196 Enumeration value OK if "equal or identical", so NaN is
@@ -4007,11 +4254,12 @@ def test_simple022_simple022_v02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_simple022_simple022_v03_xml(mode, save_output):
+def test_simple022_simple022_v03_xml(mode, save_output, output_format):
     """
     Enumeration value OK if "equal or identical", so NaN is accepted. See
     bug 9196 Enumeration value OK if "equal or identical", so NaN is
@@ -4024,11 +4272,12 @@ def test_simple022_simple022_v03_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_simple016_simple016_v01_xml(mode, save_output):
+def test_simple016_simple016_v01_xml(mode, save_output, output_format):
     """
     xsi:type OK to select a member of a union only if there are no
     restriction facets xsi:type OK to select a member of a union only if
@@ -4041,11 +4290,12 @@ def test_simple016_simple016_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_simple013_simple013_v01_xml(mode, save_output):
+def test_simple013_simple013_v01_xml(mode, save_output, output_format):
     """
     Type D is substitutable for union(X,DT) when DT is union (D,T) Tests
     substitutability of transitive membership of the union
@@ -4057,11 +4307,12 @@ def test_simple013_simple013_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_simple012_simple012_v01_xml(mode, save_output):
+def test_simple012_simple012_v01_xml(mode, save_output, output_format):
     """
     Type X is substitutable for union(X,Y) when X is itself a union type
     Union is substitutable by one of the member types when that member
@@ -4074,11 +4325,12 @@ def test_simple012_simple012_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_simple012_simple012_v02_xml(mode, save_output):
+def test_simple012_simple012_v02_xml(mode, save_output, output_format):
     """
     Type X is substitutable for union(X,Y) when X is itself a union type
     Union is substitutable by one of the member types when that member
@@ -4091,11 +4343,12 @@ def test_simple012_simple012_v02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_simple010_simple010_v01_xml(mode, save_output):
+def test_simple010_simple010_v01_xml(mode, save_output, output_format):
     """
     Type X is substitutable for union(X,Y) Union is substitutable by one
     of the member types
@@ -4107,11 +4360,12 @@ def test_simple010_simple010_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_simple003_simple003_v01_xml(mode, save_output):
+def test_simple003_simple003_v01_xml(mode, save_output, output_format):
     """
     Test that simpleType/@final = extension is allowed Depends on
     resolution of spec bug 2074
@@ -4123,11 +4377,12 @@ def test_simple003_simple003_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_simple002_simple002_v01_xml(mode, save_output):
+def test_simple002_simple002_v01_xml(mode, save_output, output_format):
     """
     +INF allowed in xs:float lexical space +INF allowed in xs:float
     lexical space in XSD 1.1
@@ -4139,11 +4394,12 @@ def test_simple002_simple002_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_simple001_simple001_v01_xml(mode, save_output):
+def test_simple001_simple001_v01_xml(mode, save_output, output_format):
     """
     +INF allowed in xs:double lexical space +INF allowed in xs:double
     lexical space in XSD 1.1
@@ -4155,12 +4411,13 @@ def test_simple001_simple001_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
 @pytest.mark.xfail
-def test_subsgroup003_subsgroup003_v1_xml(mode, save_output):
+def test_subsgroup003_subsgroup003_v1_xml(mode, save_output, output_format):
     """
     Tests to show an a substitution group with declarations in different
     namespaces Substitution group has an abstract owner in one namespace,
@@ -4175,11 +4432,12 @@ def test_subsgroup003_subsgroup003_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_subsgroup002_subsgroup002_v1_xml(mode, save_output):
+def test_subsgroup002_subsgroup002_v1_xml(mode, save_output, output_format):
     """
     Tests to show an element declaration can be in multiple substitution
     groups Element substitutable for another in more than one way, both
@@ -4192,11 +4450,12 @@ def test_subsgroup002_subsgroup002_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_subsgroup001_subsgroup001_v1_xml(mode, save_output):
+def test_subsgroup001_subsgroup001_v1_xml(mode, save_output, output_format):
     """
     Tests to show an element declaration can be in multiple substitution
     groups Tests to show an element declaration can be in multiple
@@ -4209,11 +4468,12 @@ def test_subsgroup001_subsgroup001_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_target003_target003_v1_xml(mode, save_output):
+def test_target003_target003_v1_xml(mode, save_output, output_format):
     """
     Simple use of targetNamespace on a local attribute declaration Simple
     use of targetNamespace on a local attribute declaration
@@ -4225,11 +4485,12 @@ def test_target003_target003_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_target001_target001_v1_xml(mode, save_output):
+def test_target001_target001_v1_xml(mode, save_output, output_format):
     """
     Simple use of targetNamespace on a local element declaration Simple
     use of targetNamespace on a local element declaration
@@ -4241,11 +4502,12 @@ def test_target001_target001_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_vc024_11_vc024_v1_xml(mode, save_output):
+def test_vc024_11_vc024_v1_xml(mode, save_output, output_format):
     """
     Simple assertion on an attribute value, ignored under XSD 1.0 Simple
     assertion on an attribute value, ignored under XSD 1.0
@@ -4257,11 +4519,12 @@ def test_vc024_11_vc024_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_vc024_11_vc024_n1_xml(mode, save_output):
+def test_vc024_11_vc024_n1_xml(mode, save_output, output_format):
     """
     Simple assertion on an attribute value, ignored under XSD 1.0 Simple
     assertion on an attribute value, ignored under XSD 1.0
@@ -4273,11 +4536,12 @@ def test_vc024_11_vc024_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_vc023_vc023_v1_xml(mode, save_output):
+def test_vc023_vc023_v1_xml(mode, save_output, output_format):
     """
     vc:facetUnavailable with a mix of known and unknown facet
     vc:facetUnavailable with a mix of known and unknown facets
@@ -4289,11 +4553,12 @@ def test_vc023_vc023_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_vc020_vc020_v1_xml(mode, save_output):
+def test_vc020_vc020_v1_xml(mode, save_output, output_format):
     """
     vc:facetAvailable with a known facet vc:facetAvailable with a known
     facet
@@ -4305,11 +4570,12 @@ def test_vc020_vc020_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_vc014_vc014_v1_xml(mode, save_output):
+def test_vc014_vc014_v1_xml(mode, save_output, output_format):
     """
     Conditional use of xs:error controlled by vc:typeAvailable Conditional
     use of xs:error controlled by vc:typeAvailable
@@ -4321,11 +4587,12 @@ def test_vc014_vc014_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_vc013_vc013_v1_xml(mode, save_output):
+def test_vc013_vc013_v1_xml(mode, save_output, output_format):
     """
     vc:typeUnavailable with a mix of known and unknown types
     vc:typeUnavailable with a mix of known and unknown types
@@ -4337,11 +4604,12 @@ def test_vc013_vc013_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_vc010_vc010_v1_xml(mode, save_output):
+def test_vc010_vc010_v1_xml(mode, save_output, output_format):
     """
     vc:typeAvailable with a known type vc:typeAvailable with a known type
     """
@@ -4352,11 +4620,12 @@ def test_vc010_vc010_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_vc009_vc009_v1_xml(mode, save_output):
+def test_vc009_vc009_v1_xml(mode, save_output, output_format):
     """
     Misspelt vc: attribute has no effect Misspelt vc: attribute has no
     effect
@@ -4368,11 +4637,12 @@ def test_vc009_vc009_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_vc008_vc008_v1_xml(mode, save_output):
+def test_vc008_vc008_v1_xml(mode, save_output, output_format):
     """
     Empty vc:xx[un]available attributes have no effect Empty
     vc:xx[un]available attributes have no effect
@@ -4384,11 +4654,12 @@ def test_vc008_vc008_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_vc007_vc007_v1_xml(mode, save_output):
+def test_vc007_vc007_v1_xml(mode, save_output, output_format):
     """
     Include a schema document made empty by version control attributes
     Include a schema document made empty by version control attributes
@@ -4400,11 +4671,12 @@ def test_vc007_vc007_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_vc005_vc005_v1_xml(mode, save_output):
+def test_vc005_vc005_v1_xml(mode, save_output, output_format):
     """
     Use of version conditionals to ignore an (otherwise invalid)
     xs:include Use of version conditionals to ignore an (otherwise
@@ -4417,11 +4689,12 @@ def test_vc005_vc005_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_vc004_vc004_v1_xml(mode, save_output):
+def test_vc004_vc004_v1_xml(mode, save_output, output_format):
     """
     Use of version conditionals in an included schema document Use of
     version conditionals in an included schema document
@@ -4433,11 +4706,12 @@ def test_vc004_vc004_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_vc003_vc003_v1_xml(mode, save_output):
+def test_vc003_vc003_v1_xml(mode, save_output, output_format):
     """
     Test a hypothetical 5.0 feature ignored under XSD 1.1 Test a
     hypothetical 5.0 feature ignored under XSD 1.1
@@ -4449,11 +4723,12 @@ def test_vc003_vc003_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_vc002_vc002_v1_xml(mode, save_output):
+def test_vc002_vc002_v1_xml(mode, save_output, output_format):
     """
     Equivalent schemas with different formulations under XSD 1.0 and XSD
     1.1 Equivalent schemas with different formulations under XSD 1.0 and
@@ -4466,11 +4741,12 @@ def test_vc002_vc002_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_vc001_vc001_v1_xml(mode, save_output):
+def test_vc001_vc001_v1_xml(mode, save_output, output_format):
     """
     Simple assertion on an attribute value, ignored under XSD 1.0 Simple
     assertion on an attribute value, ignored under XSD 1.0
@@ -4482,11 +4758,12 @@ def test_vc001_vc001_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_vc001_vc001_n1_xml(mode, save_output):
+def test_vc001_vc001_n1_xml(mode, save_output, output_format):
     """
     Simple assertion on an attribute value, ignored under XSD 1.0 Simple
     assertion on an attribute value, ignored under XSD 1.0
@@ -4498,11 +4775,12 @@ def test_vc001_vc001_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_wild083_wild083_v1_xml(mode, save_output):
+def test_wild083_wild083_v1_xml(mode, save_output, output_format):
     """
     Element Wildcard union with notQName="##defined" Tests the spec note:
     Note: When one of the wildcards has defined in {disallowed names} and
@@ -4518,11 +4796,12 @@ def test_wild083_wild083_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_wild082_wild082_v1_xml(mode, save_output):
+def test_wild082_wild082_v1_xml(mode, save_output, output_format):
     """
     Consistency of governing type declarations between locally-declared
     elements in a content model No violation of Element Declarations
@@ -4535,11 +4814,12 @@ def test_wild082_wild082_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_wild080_wild080_v1_xml(mode, save_output):
+def test_wild080_wild080_v1_xml(mode, save_output, output_format):
     """
     Consistency of governing type declarations between locally-declared
     elements and lax wildcards in a content model No violation of Element
@@ -4552,11 +4832,12 @@ def test_wild080_wild080_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_wild077_wild077_v1_xml(mode, save_output):
+def test_wild077_wild077_v1_xml(mode, save_output, output_format):
     """
     Consistency of governing type declarations between locally-declared
     elements and wildcards in a content model Violation of Element Locally
@@ -4569,11 +4850,12 @@ def test_wild077_wild077_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_wild077_wild077_n1_xml(mode, save_output):
+def test_wild077_wild077_n1_xml(mode, save_output, output_format):
     """
     Consistency of governing type declarations between locally-declared
     elements and wildcards in a content model Violation of Element Locally
@@ -4586,11 +4868,12 @@ def test_wild077_wild077_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_wild076_wild076_v1_xml(mode, save_output):
+def test_wild076_wild076_v1_xml(mode, save_output, output_format):
     """
     Consistency of governing type declarations between locally-declared
     elements and wildcards in a content model Violation of Element Locally
@@ -4603,11 +4886,12 @@ def test_wild076_wild076_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_wild075_wild075_v1_xml(mode, save_output):
+def test_wild075_wild075_v1_xml(mode, save_output, output_format):
     """
     Consistency of governing type declarations between locally-declared
     elements and wildcards in a content model Violation of Element Locally
@@ -4620,11 +4904,12 @@ def test_wild075_wild075_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_wild074_wild074_v1_xml(mode, save_output):
+def test_wild074_wild074_v1_xml(mode, save_output, output_format):
     """
     Test of openContent wildcards and substitution groups in xs:sequence
     content model Open Content with ##definedSibling
@@ -4636,11 +4921,12 @@ def test_wild074_wild074_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_wild073_wild073_v1_xml(mode, save_output):
+def test_wild073_wild073_v1_xml(mode, save_output, output_format):
     """
     Test of wildcards and substitution groups in xs:all content model
     Variant of wild072 without the ##definedSibling, for comparison
@@ -4652,11 +4938,12 @@ def test_wild073_wild073_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_wild073_wild073_v2_xml(mode, save_output):
+def test_wild073_wild073_v2_xml(mode, save_output, output_format):
     """
     Test of wildcards and substitution groups in xs:all content model
     Variant of wild072 without the ##definedSibling, for comparison
@@ -4668,11 +4955,12 @@ def test_wild073_wild073_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_wild073_wild073_v3_xml(mode, save_output):
+def test_wild073_wild073_v3_xml(mode, save_output, output_format):
     """
     Test of wildcards and substitution groups in xs:all content model
     Variant of wild072 without the ##definedSibling, for comparison
@@ -4684,11 +4972,12 @@ def test_wild073_wild073_v3_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_wild072_wild072_v1_xml(mode, save_output):
+def test_wild072_wild072_v1_xml(mode, save_output, output_format):
     """
     Test of notQName=##definedSibling with substitution groups in xs:all
     content model notQName=##definedSibling in an xs:all content model
@@ -4700,11 +4989,12 @@ def test_wild072_wild072_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_wild071_wild071_v1_xml(mode, save_output):
+def test_wild071_wild071_v1_xml(mode, save_output, output_format):
     """
     Basic test of notQName=##definedSibling with substitution groups
     notQName=##definedSibling in a sequence content model
@@ -4716,11 +5006,12 @@ def test_wild071_wild071_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_wild070_wild070_v1_xml(mode, save_output):
+def test_wild070_wild070_v1_xml(mode, save_output, output_format):
     """
     Basic test of notQName=##definedSibling notQName=##definedSibling in a
     sequence content model
@@ -4732,11 +5023,12 @@ def test_wild070_wild070_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_wild066_wild066_v1_xml(mode, save_output):
+def test_wild066_wild066_v1_xml(mode, save_output, output_format):
     """
     Element fails "dynamic EDC" test - lax wildcard Substitutability
     involving a union
@@ -4748,12 +5040,13 @@ def test_wild066_wild066_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
 @pytest.mark.xfail
-def test_wild065_wild065_v1_xml(mode, save_output):
+def test_wild065_wild065_v1_xml(mode, save_output, output_format):
     """
     Element fails "dynamic EDC" test - lax wildcard Schema is valid,
     instance is not
@@ -4765,11 +5058,12 @@ def test_wild065_wild065_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_wild064_wild064_v1_xml(mode, save_output):
+def test_wild064_wild064_v1_xml(mode, save_output, output_format):
     """
     Element fails "dynamic EDC" test - lax wildcard Schema is valid,
     instance is not
@@ -4781,11 +5075,12 @@ def test_wild064_wild064_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_wild064_wild064_v2_xml(mode, save_output):
+def test_wild064_wild064_v2_xml(mode, save_output, output_format):
     """
     Element fails "dynamic EDC" test - lax wildcard Schema is valid,
     instance is not
@@ -4797,11 +5092,12 @@ def test_wild064_wild064_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_wild063_wild063_v1_xml(mode, save_output):
+def test_wild063_wild063_v1_xml(mode, save_output, output_format):
     """
     Element fails "dynamic EDC" test - lax wildcard Schema is valid,
     instance is not
@@ -4813,11 +5109,12 @@ def test_wild063_wild063_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_wild063_wild063_v2_xml(mode, save_output):
+def test_wild063_wild063_v2_xml(mode, save_output, output_format):
     """
     Element fails "dynamic EDC" test - lax wildcard Schema is valid,
     instance is not
@@ -4829,11 +5126,12 @@ def test_wild063_wild063_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_wild062_wild062_v1_xml(mode, save_output):
+def test_wild062_wild062_v1_xml(mode, save_output, output_format):
     """
     Element fails "dynamic EDC" test - lax wildcard Schema is valid,
     instance is not
@@ -4845,11 +5143,12 @@ def test_wild062_wild062_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_wild060_wild060_v1_xml(mode, save_output):
+def test_wild060_wild060_v1_xml(mode, save_output, output_format):
     """
     Attribute Wildcard union with notQName=##defined Both wildcards
     specify notQName="##defined" so union is expressible
@@ -4861,11 +5160,12 @@ def test_wild060_wild060_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_wild060_wild060_v2_xml(mode, save_output):
+def test_wild060_wild060_v2_xml(mode, save_output, output_format):
     """
     Attribute Wildcard union with notQName=##defined Both wildcards
     specify notQName="##defined" so union is expressible
@@ -4877,11 +5177,12 @@ def test_wild060_wild060_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_wild059_wild059_v1_xml(mode, save_output):
+def test_wild059_wild059_v1_xml(mode, save_output, output_format):
     """
     Attribute Wildcard intersection with notQName=##defined One wildcard
     specifies notQName="##defined"
@@ -4893,11 +5194,12 @@ def test_wild059_wild059_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_wild058_wild058_v1_xml(mode, save_output):
+def test_wild058_wild058_v1_xml(mode, save_output, output_format):
     """
     Attribute Wildcard intersection with notQName=##defined Both wildcards
     specify notQName="##defined"
@@ -4909,11 +5211,12 @@ def test_wild058_wild058_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_wild056_wild056_v1_xml(mode, save_output):
+def test_wild056_wild056_v1_xml(mode, save_output, output_format):
     """
     Attribute Wildcard with notQName=##defined Valid restriction of
     wildcard
@@ -4925,11 +5228,12 @@ def test_wild056_wild056_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_wild055_wild055_v1_xml(mode, save_output):
+def test_wild055_wild055_v1_xml(mode, save_output, output_format):
     """
     Attribute Wildcard with notQName=##defined Valid restriction of
     wildcard
@@ -4941,11 +5245,12 @@ def test_wild055_wild055_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_wild054_wild054_v1_xml(mode, save_output):
+def test_wild054_wild054_v1_xml(mode, save_output, output_format):
     """
     Attribute Wildcard with notQName=##defined Basic test of ##defined
     """
@@ -4956,11 +5261,12 @@ def test_wild054_wild054_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_wild054_wild054_v2_xml(mode, save_output):
+def test_wild054_wild054_v2_xml(mode, save_output, output_format):
     """
     Attribute Wildcard with notQName=##defined Basic test of ##defined
     """
@@ -4971,11 +5277,12 @@ def test_wild054_wild054_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_wild053_wild053_v1_xml(mode, save_output):
+def test_wild053_wild053_v1_xml(mode, save_output, output_format):
     """
     Element Wildcard with notQName=##defined Basic test of ##defined with
     multiple namespaces
@@ -4987,11 +5294,12 @@ def test_wild053_wild053_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_wild053_wild053_v2_xml(mode, save_output):
+def test_wild053_wild053_v2_xml(mode, save_output, output_format):
     """
     Element Wildcard with notQName=##defined Basic test of ##defined with
     multiple namespaces
@@ -5003,11 +5311,12 @@ def test_wild053_wild053_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_wild052_wild052_v1_xml(mode, save_output):
+def test_wild052_wild052_v1_xml(mode, save_output, output_format):
     """
     Element Wildcard with notQName=##defined Basic test of ##defined
     """
@@ -5018,11 +5327,12 @@ def test_wild052_wild052_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_wild052_wild052_v2_xml(mode, save_output):
+def test_wild052_wild052_v2_xml(mode, save_output, output_format):
     """
     Element Wildcard with notQName=##defined Basic test of ##defined
     """
@@ -5033,11 +5343,12 @@ def test_wild052_wild052_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_wild047_wild047_v1_xml(mode, save_output):
+def test_wild047_wild047_v1_xml(mode, save_output, output_format):
     """
     Element Wildcard union with notQName and notNamespace disallows the
     intersection of the disallowed QNames
@@ -5049,11 +5360,12 @@ def test_wild047_wild047_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_wild046_wild046_v1_xml(mode, save_output):
+def test_wild046_wild046_v1_xml(mode, save_output, output_format):
     """
     Wildcard union with notQName and notNamespace disallows the
     intersection of the disallowed QNames
@@ -5065,11 +5377,12 @@ def test_wild046_wild046_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_wild046_wild046_v2_xml(mode, save_output):
+def test_wild046_wild046_v2_xml(mode, save_output, output_format):
     """
     Wildcard union with notQName and notNamespace disallows the
     intersection of the disallowed QNames
@@ -5081,11 +5394,12 @@ def test_wild046_wild046_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_wild045_wild045_v1_xml(mode, save_output):
+def test_wild045_wild045_v1_xml(mode, save_output, output_format):
     """
     Wildcard union with notQName disallows the intersection of the
     disallowed QNames
@@ -5097,11 +5411,12 @@ def test_wild045_wild045_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_wild045_wild045_v2_xml(mode, save_output):
+def test_wild045_wild045_v2_xml(mode, save_output, output_format):
     """
     Wildcard union with notQName disallows the intersection of the
     disallowed QNames
@@ -5113,11 +5428,12 @@ def test_wild045_wild045_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_wild044_wild044_v1_xml(mode, save_output):
+def test_wild044_wild044_v1_xml(mode, save_output, output_format):
     """
     Wildcard intersection with notQName disallows the union of the
     disallowed QNames
@@ -5129,11 +5445,12 @@ def test_wild044_wild044_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_wild043_wild043_v1_xml(mode, save_output):
+def test_wild043_wild043_v1_xml(mode, save_output, output_format):
     """
     Wildcard intersection with notQName disallows the union of the
     disallowed QNames
@@ -5145,11 +5462,12 @@ def test_wild043_wild043_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_wild042_wild042_v1_xml(mode, save_output):
+def test_wild042_wild042_v1_xml(mode, save_output, output_format):
     """
     xsi attribute wildcards are allowed There's no rule to stop non-
     standard attributes in the xsi namespace being introduced by wildcard
@@ -5161,11 +5479,12 @@ def test_wild042_wild042_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_wild040_wild040_v1_xml(mode, save_output):
+def test_wild040_wild040_v1_xml(mode, save_output, output_format):
     """
     Banning xsi attributes has no effect xsi:type is validated without
     reference to attribute uses or wildcards
@@ -5177,11 +5496,12 @@ def test_wild040_wild040_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_wild030_wild030_v1_xml(mode, save_output):
+def test_wild030_wild030_v1_xml(mode, save_output, output_format):
     """
     Example from the spec: restricting away a child element that overlaps
     a wildcard No speaker element allowed on the subtype
@@ -5193,11 +5513,12 @@ def test_wild030_wild030_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_wild030_wild030_v2_xml(mode, save_output):
+def test_wild030_wild030_v2_xml(mode, save_output, output_format):
     """
     Example from the spec: restricting away a child element that overlaps
     a wildcard No speaker element allowed on the subtype
@@ -5209,11 +5530,12 @@ def test_wild030_wild030_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_wild029_wild029_v1_xml(mode, save_output):
+def test_wild029_wild029_v1_xml(mode, save_output, output_format):
     """
     Test of xs:any with notQName attribute in an xs:sequence model group
     Allows any child element except for a
@@ -5225,11 +5547,12 @@ def test_wild029_wild029_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_wild028_wild028_v1_xml(mode, save_output):
+def test_wild028_wild028_v1_xml(mode, save_output, output_format):
     """
     Basic test of xs:any with notQName attribute Allows any child element
     except for xml:space or xml:id
@@ -5241,11 +5564,12 @@ def test_wild028_wild028_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_wild027_wild027_v1_xml(mode, save_output):
+def test_wild027_wild027_v1_xml(mode, save_output, output_format):
     """
     Basic test of xs:anyAttribute with notQName attribute Allows any
     attribute except for xml:space or xml:id
@@ -5257,11 +5581,12 @@ def test_wild027_wild027_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_wild026_wild026_v1_xml(mode, save_output):
+def test_wild026_wild026_v1_xml(mode, save_output, output_format):
     """
     Wildcard intersection Type allows anything allowed by all the
     attribute wildcards
@@ -5273,11 +5598,12 @@ def test_wild026_wild026_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_wild025_wild025_v1_xml(mode, save_output):
+def test_wild025_wild025_v1_xml(mode, save_output, output_format):
     """
     Wildcard intersection Type allows anything allowed by all the
     attribute wildcards
@@ -5289,11 +5615,12 @@ def test_wild025_wild025_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_wild024_wild024_v1_xml(mode, save_output):
+def test_wild024_wild024_v1_xml(mode, save_output, output_format):
     """
     Wildcard intersection Type allows anything allowed by all the
     attribute wildcards
@@ -5305,11 +5632,12 @@ def test_wild024_wild024_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_wild024_wild024_v2_xml(mode, save_output):
+def test_wild024_wild024_v2_xml(mode, save_output, output_format):
     """
     Wildcard intersection Type allows anything allowed by all the
     attribute wildcards
@@ -5321,11 +5649,12 @@ def test_wild024_wild024_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_wild023_wild023_v1_xml(mode, save_output):
+def test_wild023_wild023_v1_xml(mode, save_output, output_format):
     """
     Wildcard intersection Type allows anything allowed by all the
     attribute wildcards
@@ -5337,11 +5666,12 @@ def test_wild023_wild023_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_wild019_wild019_v1_xml(mode, save_output):
+def test_wild019_wild019_v1_xml(mode, save_output, output_format):
     """
     Valid restriction of wildcards Restricted type disallows more
     namespaces than the base type disallows
@@ -5353,11 +5683,12 @@ def test_wild019_wild019_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_wild018_wild018_v1_xml(mode, save_output):
+def test_wild018_wild018_v1_xml(mode, save_output, output_format):
     """
     Valid restriction of wildcards Restricted type disallows more
     namespaces than the base type disallows
@@ -5369,11 +5700,12 @@ def test_wild018_wild018_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_wild017_wild017_v1_xml(mode, save_output):
+def test_wild017_wild017_v1_xml(mode, save_output, output_format):
     """
     Valid restriction of wildcards Restricted type disallows more
     namespaces than the base type disallows
@@ -5385,11 +5717,12 @@ def test_wild017_wild017_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_wild016_wild016_v1_xml(mode, save_output):
+def test_wild016_wild016_v1_xml(mode, save_output, output_format):
     """
     Union of two wildcards using namespace and notNamespace respectively
     The union allows adam, eve, and abel but not cain. Inversion of
@@ -5402,11 +5735,12 @@ def test_wild016_wild016_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_wild015_wild015_v1_xml(mode, save_output):
+def test_wild015_wild015_v1_xml(mode, save_output, output_format):
     """
     Union of two wildcards using namespace and notNamespace respectively
     The union allows adam, eve, and abel but not cain
@@ -5418,11 +5752,12 @@ def test_wild015_wild015_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_wild014_wild014_v1_xml(mode, save_output):
+def test_wild014_wild014_v1_xml(mode, save_output, output_format):
     """
     Union of two wildcards using notNamespace The union allows abel but
     not cain
@@ -5434,11 +5769,12 @@ def test_wild014_wild014_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_wild013_wild013_v1_xml(mode, save_output):
+def test_wild013_wild013_v1_xml(mode, save_output, output_format):
     """
     Union of two wildcards using notNamespace The union allows anything
     """
@@ -5449,11 +5785,12 @@ def test_wild013_wild013_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_wild012_wild012_v1_xml(mode, save_output):
+def test_wild012_wild012_v1_xml(mode, save_output, output_format):
     """
     Test of xs:any with notNamespace = ##targetNamespace in a namespaced
     schema Allows any child so long as it's in a namespace other than
@@ -5466,11 +5803,12 @@ def test_wild012_wild012_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_wild012_wild012_v2_xml(mode, save_output):
+def test_wild012_wild012_v2_xml(mode, save_output, output_format):
     """
     Test of xs:any with notNamespace = ##targetNamespace in a namespaced
     schema Allows any child so long as it's in a namespace other than
@@ -5483,11 +5821,12 @@ def test_wild012_wild012_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_wild011_wild011_v1_xml(mode, save_output):
+def test_wild011_wild011_v1_xml(mode, save_output, output_format):
     """
     Test of xs:anyAttribute with notNamespace = ##targetNamespace in a
     chameleon schema Allows any attribute so long as it's in a namespace
@@ -5500,11 +5839,12 @@ def test_wild011_wild011_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_wild011_wild011_v2_xml(mode, save_output):
+def test_wild011_wild011_v2_xml(mode, save_output, output_format):
     """
     Test of xs:anyAttribute with notNamespace = ##targetNamespace in a
     chameleon schema Allows any attribute so long as it's in a namespace
@@ -5517,11 +5857,12 @@ def test_wild011_wild011_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_wild010_wild010_v1_xml(mode, save_output):
+def test_wild010_wild010_v1_xml(mode, save_output, output_format):
     """
     Test of xs:any with notNamespace = ##targetNamespace in a namespaced
     schema Allows any child so long as it's in a namespace other than
@@ -5534,11 +5875,12 @@ def test_wild010_wild010_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_wild010_wild010_v2_xml(mode, save_output):
+def test_wild010_wild010_v2_xml(mode, save_output, output_format):
     """
     Test of xs:any with notNamespace = ##targetNamespace in a namespaced
     schema Allows any child so long as it's in a namespace other than
@@ -5551,11 +5893,12 @@ def test_wild010_wild010_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_wild009_wild009_v1_xml(mode, save_output):
+def test_wild009_wild009_v1_xml(mode, save_output, output_format):
     """
     Test of xs:anyAttribute with notNamespace = ##targetNamespace in a
     namespaced schema Allows any attribute so long as it's in a namespace
@@ -5568,11 +5911,12 @@ def test_wild009_wild009_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_wild009_wild009_v2_xml(mode, save_output):
+def test_wild009_wild009_v2_xml(mode, save_output, output_format):
     """
     Test of xs:anyAttribute with notNamespace = ##targetNamespace in a
     namespaced schema Allows any attribute so long as it's in a namespace
@@ -5585,11 +5929,12 @@ def test_wild009_wild009_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_wild006_wild006_v1_xml(mode, save_output):
+def test_wild006_wild006_v1_xml(mode, save_output, output_format):
     """
     Basic test of xs:any with notNamespace = ##targetNamespace in a no-
     namespace schema Allows any child so long as it's in a namespace
@@ -5601,11 +5946,12 @@ def test_wild006_wild006_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_wild006_wild006_v2_xml(mode, save_output):
+def test_wild006_wild006_v2_xml(mode, save_output, output_format):
     """
     Basic test of xs:any with notNamespace = ##targetNamespace in a no-
     namespace schema Allows any child so long as it's in a namespace
@@ -5617,11 +5963,12 @@ def test_wild006_wild006_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_wild005_wild005_v1_xml(mode, save_output):
+def test_wild005_wild005_v1_xml(mode, save_output, output_format):
     """
     Basic test of xs:anyAttribute with notNamespace = ##targetNamespace in
     a no-namespace schema Allows any attribute so long as it's in a
@@ -5634,11 +5981,12 @@ def test_wild005_wild005_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_wild005_wild005_v2_xml(mode, save_output):
+def test_wild005_wild005_v2_xml(mode, save_output, output_format):
     """
     Basic test of xs:anyAttribute with notNamespace = ##targetNamespace in
     a no-namespace schema Allows any attribute so long as it's in a
@@ -5651,11 +5999,12 @@ def test_wild005_wild005_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_wild004_wild004_v1_xml(mode, save_output):
+def test_wild004_wild004_v1_xml(mode, save_output, output_format):
     """
     Basic test of xs:any with notNamespace = ##local Allows any child so
     long as it's in a namespace
@@ -5667,11 +6016,12 @@ def test_wild004_wild004_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_wild004_wild004_v2_xml(mode, save_output):
+def test_wild004_wild004_v2_xml(mode, save_output, output_format):
     """
     Basic test of xs:any with notNamespace = ##local Allows any child so
     long as it's in a namespace
@@ -5683,11 +6033,12 @@ def test_wild004_wild004_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_wild003_wild003_v1_xml(mode, save_output):
+def test_wild003_wild003_v1_xml(mode, save_output, output_format):
     """
     Basic test of xs:anyAttribute with notNamespace = ##local Allows any
     attribute so long as it's in a namespace
@@ -5699,11 +6050,12 @@ def test_wild003_wild003_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_wild003_wild003_v2_xml(mode, save_output):
+def test_wild003_wild003_v2_xml(mode, save_output, output_format):
     """
     Basic test of xs:anyAttribute with notNamespace = ##local Allows any
     attribute so long as it's in a namespace
@@ -5715,11 +6067,12 @@ def test_wild003_wild003_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_wild002_wild002_v1_xml(mode, save_output):
+def test_wild002_wild002_v1_xml(mode, save_output, output_format):
     """
     Basic test of xs:anyAttribute with notNamespace attribute Allows any
     attribute except for two designated namespaces
@@ -5731,11 +6084,12 @@ def test_wild002_wild002_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_wild002_wild002_v2_xml(mode, save_output):
+def test_wild002_wild002_v2_xml(mode, save_output, output_format):
     """
     Basic test of xs:anyAttribute with notNamespace attribute Allows any
     attribute except for two designated namespaces
@@ -5747,11 +6101,12 @@ def test_wild002_wild002_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_wild001_wild001_v1_xml(mode, save_output):
+def test_wild001_wild001_v1_xml(mode, save_output, output_format):
     """
     Basic test of xs:anyAttribute with notNamespace attribute Allows any
     attribute except for two designated namespaces
@@ -5763,11 +6118,12 @@ def test_wild001_wild001_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_wild001_wild001_v2_xml(mode, save_output):
+def test_wild001_wild001_v2_xml(mode, save_output, output_format):
     """
     Basic test of xs:anyAttribute with notNamespace attribute Allows any
     attribute except for two designated namespaces
@@ -5779,11 +6135,12 @@ def test_wild001_wild001_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_xv100notc_xv100notc_notc_xml(mode, save_output):
+def test_xv100notc_xv100notc_notc_xml(mode, save_output, output_format):
     r"""
     Test which characters match \C in a regex Name characters in XML 1.1
     are the same as 1.05e
@@ -5795,11 +6152,12 @@ def test_xv100notc_xv100notc_notc_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_xv100noti_xv100noti_noti_xml(mode, save_output):
+def test_xv100noti_xv100noti_noti_xml(mode, save_output, output_format):
     r"""
     Test which characters match \I in a regex Name characters in XML 1.1
     are the same as 1.05e
@@ -5811,11 +6169,12 @@ def test_xv100noti_xv100noti_noti_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_xv100noti_xv100noti_notc_xml(mode, save_output):
+def test_xv100noti_xv100noti_notc_xml(mode, save_output, output_format):
     r"""
     Test which characters match \I in a regex Name characters in XML 1.1
     are the same as 1.05e
@@ -5827,11 +6186,12 @@ def test_xv100noti_xv100noti_notc_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_xv100c_xv100c_i_xml(mode, save_output):
+def test_xv100c_xv100c_i_xml(mode, save_output, output_format):
     r"""
     Test which characters match \c in a regex Name characters in XML 1.1
     are the same as 1.05e
@@ -5843,11 +6203,12 @@ def test_xv100c_xv100c_i_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_xv100c_xv100c_c_xml(mode, save_output):
+def test_xv100c_xv100c_c_xml(mode, save_output, output_format):
     r"""
     Test which characters match \c in a regex Name characters in XML 1.1
     are the same as 1.05e
@@ -5859,11 +6220,12 @@ def test_xv100c_xv100c_c_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_xv100i_xv100i_i_xml(mode, save_output):
+def test_xv100i_xv100i_i_xml(mode, save_output, output_format):
     r"""
     Test which characters match \i in a regex Name characters in XML 1.1
     are the same as 1.05e
@@ -5875,11 +6237,12 @@ def test_xv100i_xv100i_i_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_xv009_xv009_v01_xml(mode, save_output):
+def test_xv009_xv009_v01_xml(mode, save_output, output_format):
     """
     Test interpretation of NMTOKENS under XML 1.1 Name characters in XML
     1.1 were different from 1.0
@@ -5891,11 +6254,12 @@ def test_xv009_xv009_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_xv009_xv009_v02_xml(mode, save_output):
+def test_xv009_xv009_v02_xml(mode, save_output, output_format):
     """
     Test interpretation of NMTOKENS under XML 1.1 Name characters in XML
     1.1 were different from 1.0
@@ -5907,11 +6271,12 @@ def test_xv009_xv009_v02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_xv008_xv008_v01_xml(mode, save_output):
+def test_xv008_xv008_v01_xml(mode, save_output, output_format):
     r"""
     Test which characters match \C in a regex Name characters in XML 1.1
     were different from 1.0
@@ -5923,11 +6288,12 @@ def test_xv008_xv008_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_xv007_xv007_v01_xml(mode, save_output):
+def test_xv007_xv007_v01_xml(mode, save_output, output_format):
     r"""
     Test which characters match \c in a regex Name characters in XML 1.1
     were different from 1.0
@@ -5939,11 +6305,12 @@ def test_xv007_xv007_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_xv006_xv006_v01_xml(mode, save_output):
+def test_xv006_xv006_v01_xml(mode, save_output, output_format):
     r"""
     Test which characters match \I in a regex Initial name characters in
     XML 1.1 were different from 1.0
@@ -5955,11 +6322,12 @@ def test_xv006_xv006_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_xv005_xv005_v01_xml(mode, save_output):
+def test_xv005_xv005_v01_xml(mode, save_output, output_format):
     r"""
     Test which characters match \i in a regex Initial name characters in
     XML 1.1 were different from 1.0
@@ -5971,11 +6339,12 @@ def test_xv005_xv005_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_xv004_xv004_v01_xml(mode, save_output):
+def test_xv004_xv004_v01_xml(mode, save_output, output_format):
     """
     Use newly-allowed name characters in schema component names Non-BMP
     chars is allowed in names in XML 1.1 but not earlier
@@ -5987,11 +6356,12 @@ def test_xv004_xv004_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_xv003_xv003_v01_xml(mode, save_output):
+def test_xv003_xv003_v01_xml(mode, save_output, output_format):
     """
     Use newly-allowed C0 characters in character content and in attribute
     values C0 characters allowed in content in XML 1.1 but not earlier
@@ -6003,11 +6373,12 @@ def test_xv003_xv003_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_xv002_xv002_v01_xml(mode, save_output):
+def test_xv002_xv002_v01_xml(mode, save_output, output_format):
     """
     Use newly-allowed name characters in NCName value Dutch ligature ij is
     allowed in names in XML 1.1 and XML 1.0 5th ed but not earlier
@@ -6019,12 +6390,13 @@ def test_xv002_xv002_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
 @pytest.mark.xfail
-def test_xv001_xv001_v01_xml(mode, save_output):
+def test_xv001_xv001_v01_xml(mode, save_output, output_format):
     """
     Use newly-allowed name characters in element and attribute name Dutch
     ligature ij is allowed in names in XML 1.1 and XML 1.0 5th ed but not
@@ -6037,11 +6409,12 @@ def test_xv001_xv001_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_zone304_zone304_v01_xml(mode, save_output):
+def test_zone304_zone304_v01_xml(mode, save_output, output_format):
     """
     Test xs:yearMonthDuration min/max rules For example, P1Y is equal to
     P12M
@@ -6053,11 +6426,12 @@ def test_zone304_zone304_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_zone304_zone304_v02_xml(mode, save_output):
+def test_zone304_zone304_v02_xml(mode, save_output, output_format):
     """
     Test xs:yearMonthDuration min/max rules For example, P1Y is equal to
     P12M
@@ -6069,11 +6443,12 @@ def test_zone304_zone304_v02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_zone304_zone304_v03_xml(mode, save_output):
+def test_zone304_zone304_v03_xml(mode, save_output, output_format):
     """
     Test xs:yearMonthDuration min/max rules For example, P1Y is equal to
     P12M
@@ -6085,11 +6460,12 @@ def test_zone304_zone304_v03_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_zone303_zone303_v01_xml(mode, save_output):
+def test_zone303_zone303_v01_xml(mode, save_output, output_format):
     """
     Test xs:dayTimeDuration min/max rules For example, P1Y is equal to
     P12M
@@ -6101,11 +6477,12 @@ def test_zone303_zone303_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_zone303_zone303_v02_xml(mode, save_output):
+def test_zone303_zone303_v02_xml(mode, save_output, output_format):
     """
     Test xs:dayTimeDuration min/max rules For example, P1Y is equal to
     P12M
@@ -6117,11 +6494,12 @@ def test_zone303_zone303_v02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_zone303_zone303_v03_xml(mode, save_output):
+def test_zone303_zone303_v03_xml(mode, save_output, output_format):
     """
     Test xs:dayTimeDuration min/max rules For example, P1Y is equal to
     P12M
@@ -6133,11 +6511,12 @@ def test_zone303_zone303_v03_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_zone302_zone302_v01_xml(mode, save_output):
+def test_zone302_zone302_v01_xml(mode, save_output, output_format):
     """
     Test xs:yearMonthDuration including equality rules For example, P1Y is
     equal to P12M
@@ -6149,11 +6528,12 @@ def test_zone302_zone302_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_zone301_zone301_v01_xml(mode, save_output):
+def test_zone301_zone301_v01_xml(mode, save_output, output_format):
     """
     Test xs:dayTimeDuration including equality rules For example, P1D is
     equal to P24H
@@ -6165,11 +6545,12 @@ def test_zone301_zone301_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_zone206_zone206_v01_xml(mode, save_output):
+def test_zone206_zone206_v01_xml(mode, save_output, output_format):
     """
     Test equality of xs:time values appearing in integrity constraints For
     example, 00:00:00 is equal to 24:00:00
@@ -6181,11 +6562,12 @@ def test_zone206_zone206_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_zone206_zone206_v02_xml(mode, save_output):
+def test_zone206_zone206_v02_xml(mode, save_output, output_format):
     """
     Test equality of xs:time values appearing in integrity constraints For
     example, 00:00:00 is equal to 24:00:00
@@ -6197,11 +6579,12 @@ def test_zone206_zone206_v02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_zone205_zone205_v01_xml(mode, save_output):
+def test_zone205_zone205_v01_xml(mode, save_output, output_format):
     """
     Test equality of xs:dateTime values appearing in an enumeration For
     example, 00:00:00 is equal to 24:00:00 on the previous day
@@ -6213,11 +6596,12 @@ def test_zone205_zone205_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_zone205_zone205_v02_xml(mode, save_output):
+def test_zone205_zone205_v02_xml(mode, save_output, output_format):
     """
     Test equality of xs:dateTime values appearing in an enumeration For
     example, 00:00:00 is equal to 24:00:00 on the previous day
@@ -6229,11 +6613,12 @@ def test_zone205_zone205_v02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_zone205_zone205_v03_xml(mode, save_output):
+def test_zone205_zone205_v03_xml(mode, save_output, output_format):
     """
     Test equality of xs:dateTime values appearing in an enumeration For
     example, 00:00:00 is equal to 24:00:00 on the previous day
@@ -6245,11 +6630,12 @@ def test_zone205_zone205_v03_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_zone203_zone203_v01_xml(mode, save_output):
+def test_zone203_zone203_v01_xml(mode, save_output, output_format):
     """
     Test leap years in proleptic Gregorian calendar 0, -4, ... are a leap
     years; but not -100
@@ -6261,11 +6647,12 @@ def test_zone203_zone203_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_zone203_zone203_v02_xml(mode, save_output):
+def test_zone203_zone203_v02_xml(mode, save_output, output_format):
     """
     Test leap years in proleptic Gregorian calendar 0, -4, ... are a leap
     years; but not -100
@@ -6277,11 +6664,12 @@ def test_zone203_zone203_v02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_zone203_zone203_v03_xml(mode, save_output):
+def test_zone203_zone203_v03_xml(mode, save_output, output_format):
     """
     Test leap years in proleptic Gregorian calendar 0, -4, ... are a leap
     years; but not -100
@@ -6293,11 +6681,12 @@ def test_zone203_zone203_v03_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_zone202_zone202_v01_xml(mode, save_output):
+def test_zone202_zone202_v01_xml(mode, save_output, output_format):
     """
     Test year zero allowed in type xs:gYearMonth use year zero in
     enumeration facet
@@ -6309,11 +6698,12 @@ def test_zone202_zone202_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_zone202_zone202_v02_xml(mode, save_output):
+def test_zone202_zone202_v02_xml(mode, save_output, output_format):
     """
     Test year zero allowed in type xs:gYearMonth use year zero in
     enumeration facet
@@ -6325,11 +6715,12 @@ def test_zone202_zone202_v02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_zone202_zone202_v03_xml(mode, save_output):
+def test_zone202_zone202_v03_xml(mode, save_output, output_format):
     """
     Test year zero allowed in type xs:gYearMonth use year zero in
     enumeration facet
@@ -6341,11 +6732,12 @@ def test_zone202_zone202_v03_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_zone201_zone201_v01_xml(mode, save_output):
+def test_zone201_zone201_v01_xml(mode, save_output, output_format):
     """
     Test year zero allowed in type xs:dateTimeStamp use year zero in
     minInclusive facet
@@ -6357,11 +6749,12 @@ def test_zone201_zone201_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_zone201_zone201_v02_xml(mode, save_output):
+def test_zone201_zone201_v02_xml(mode, save_output, output_format):
     """
     Test year zero allowed in type xs:dateTimeStamp use year zero in
     minInclusive facet
@@ -6373,11 +6766,12 @@ def test_zone201_zone201_v02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_zone102_zone102_v01_xml(mode, save_output):
+def test_zone102_zone102_v01_xml(mode, save_output, output_format):
     """
     Test built-in type xs:dateTimeStamp restriction from xs:dateTimeStamp
     """
@@ -6388,11 +6782,12 @@ def test_zone102_zone102_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_zone102_zone102_v02_xml(mode, save_output):
+def test_zone102_zone102_v02_xml(mode, save_output, output_format):
     """
     Test built-in type xs:dateTimeStamp restriction from xs:dateTimeStamp
     """
@@ -6403,11 +6798,12 @@ def test_zone102_zone102_v02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_zone101_zone101_v01_xml(mode, save_output):
+def test_zone101_zone101_v01_xml(mode, save_output, output_format):
     """
     Test built-in type xs:dateTimeStamp A dateTime value with a required
     timezone
@@ -6419,11 +6815,12 @@ def test_zone101_zone101_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_zone101_zone101_v02_xml(mode, save_output):
+def test_zone101_zone101_v02_xml(mode, save_output, output_format):
     """
     Test built-in type xs:dateTimeStamp A dateTime value with a required
     timezone
@@ -6435,11 +6832,12 @@ def test_zone101_zone101_v02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_zone003_zone003_v01_xml(mode, save_output):
+def test_zone003_zone003_v01_xml(mode, save_output, output_format):
     """
     Test timezone facet with value="optional" Allows an xs:time value
     provided it has a timezone
@@ -6451,11 +6849,12 @@ def test_zone003_zone003_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_zone003_zone003_v02_xml(mode, save_output):
+def test_zone003_zone003_v02_xml(mode, save_output, output_format):
     """
     Test timezone facet with value="optional" Allows an xs:time value
     provided it has a timezone
@@ -6467,11 +6866,12 @@ def test_zone003_zone003_v02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_zone003_zone003_v03_xml(mode, save_output):
+def test_zone003_zone003_v03_xml(mode, save_output, output_format):
     """
     Test timezone facet with value="optional" Allows an xs:time value
     provided it has a timezone
@@ -6483,11 +6883,12 @@ def test_zone003_zone003_v03_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_zone002_zone002_v01_xml(mode, save_output):
+def test_zone002_zone002_v01_xml(mode, save_output, output_format):
     """
     Test timezone facet with value="prohibited" Allows an xs:time value
     provided it has a timezone
@@ -6499,11 +6900,12 @@ def test_zone002_zone002_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_zone001_zone001_v01_xml(mode, save_output):
+def test_zone001_zone001_v01_xml(mode, save_output, output_format):
     """
     Test timezone facet with value="required" Allows an xs:time value
     provided it has a timezone
@@ -6515,11 +6917,12 @@ def test_zone001_zone001_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_zone001_zone001_v02_xml(mode, save_output):
+def test_zone001_zone001_v02_xml(mode, save_output, output_format):
     """
     Test timezone facet with value="required" Allows an xs:time value
     provided it has a timezone
@@ -6531,5 +6934,6 @@ def test_zone001_zone001_v02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )

@@ -1,7 +1,7 @@
 from tests.utils import assert_bindings
 
 
-def test_s3_3_6v05_s3_3_6v05i(mode, save_output):
+def test_s3_3_6v05_s3_3_6v05i(mode, save_output, output_format):
     """
     Tests maxOccurs > 1 for elements within all group
     """
@@ -12,11 +12,12 @@ def test_s3_3_6v05_s3_3_6v05i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_3_6v04_s3_3_6v04i(mode, save_output):
+def test_s3_3_6v04_s3_3_6v04i(mode, save_output, output_format):
     """
     Tests restriction of all group
     """
@@ -27,11 +28,12 @@ def test_s3_3_6v04_s3_3_6v04i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_3_6v01_s3_3_6v01i(mode, save_output):
+def test_s3_3_6v01_s3_3_6v01i(mode, save_output, output_format):
     """
     Wildcards are now allowed in xs:all
     """
@@ -42,11 +44,12 @@ def test_s3_3_6v01_s3_3_6v01i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_10_6v03_s3_10_6v03i(mode, save_output):
+def test_s3_10_6v03_s3_10_6v03i(mode, save_output, output_format):
     """
     Tests namespace attribute on xs:anyAttribute
     """
@@ -57,11 +60,12 @@ def test_s3_10_6v03_s3_10_6v03i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_10_6v02_s3_10_6v02i(mode, save_output):
+def test_s3_10_6v02_s3_10_6v02i(mode, save_output, output_format):
     """
     Tests namespace attribute on xs:anyAttribute
     """
@@ -72,11 +76,12 @@ def test_s3_10_6v02_s3_10_6v02i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_10_6v01_s3_10_6v01i(mode, save_output):
+def test_s3_10_6v01_s3_10_6v01i(mode, save_output, output_format):
     """
     Tests notQName on xs:anyAttribute
     """
@@ -87,11 +92,12 @@ def test_s3_10_6v01_s3_10_6v01i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_assert_035_assert_035_2(mode, save_output):
+def test_assert_035_assert_035_2(mode, save_output, output_format):
     """
     An example demonstrating constraining the cardinality of schema
     xs:list, and defining assertion on items of the schema xs:list.
@@ -103,11 +109,12 @@ def test_assert_035_assert_035_2(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_assert_033_assert_033_2(mode, save_output):
+def test_assert_033_assert_033_2(mode, save_output, output_format):
     """
     Demonstrating assertions on memberTypes of xs:union.
     """
@@ -118,11 +125,12 @@ def test_assert_033_assert_033_2(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_assert_032_assert_032_2(mode, save_output):
+def test_assert_032_assert_032_2(mode, save_output, output_format):
     """
     This is similar to example "assert_031", but here both of memberTypes
     of union have assertions specified on them.
@@ -134,11 +142,12 @@ def test_assert_032_assert_032_2(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_assert_031_assert_031_2(mode, save_output):
+def test_assert_031_assert_031_2(mode, save_output, output_format):
     """
     An example demonstrating XSD 1.1 assertions evaluation on a simple
     type value, when the simpleType is a union type, and one of
@@ -151,11 +160,12 @@ def test_assert_031_assert_031_2(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_assert_031_assert_031_4(mode, save_output):
+def test_assert_031_assert_031_4(mode, save_output, output_format):
     """
     An example demonstrating XSD 1.1 assertions evaluation on a simple
     type value, when the simpleType is a union type, and one of
@@ -168,11 +178,12 @@ def test_assert_031_assert_031_4(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_assert_030_assert_030_2(mode, save_output):
+def test_assert_030_assert_030_2(mode, save_output, output_format):
     """
     An example demonstrating XSD 1.1 assertions defined on itemType
     definition of xs:list schema component. In this scenario assertions
@@ -187,11 +198,12 @@ def test_assert_030_assert_030_2(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_assert_029_assert_029_2(mode, save_output):
+def test_assert_029_assert_029_2(mode, save_output, output_format):
     """
     An example demonstrating XSD 1.1 assertions evaluation, where XML
     schema document declares an XML attribute in a namespace, using
@@ -208,11 +220,12 @@ def test_assert_029_assert_029_2(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_assert_028_assert_028_2(mode, save_output):
+def test_assert_028_assert_028_2(mode, save_output, output_format):
     """
     An example demonstrating XSD 1.1 assertions evaluation, where an
     assertion checks for in-scope namespace prefixes on XML element.
@@ -224,11 +237,12 @@ def test_assert_028_assert_028_2(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_assert_027_assert_027_2(mode, save_output):
+def test_assert_027_assert_027_2(mode, save_output, output_format):
     """
     An example demonstrating XSD 1.1 assertions evaluation when XML
     document is an namespace, and assertions perform namespace URI
@@ -241,11 +255,12 @@ def test_assert_027_assert_027_2(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_assert_026_assert_026_2(mode, save_output):
+def test_assert_026_assert_026_2(mode, save_output, output_format):
     """
     An example demonstrating XSD 1.1 assertions evaluation when outermost
     element in an XML document is in an namespace, while inner ones are
@@ -258,11 +273,12 @@ def test_assert_026_assert_026_2(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_assert_025_assert_025_2(mode, save_output):
+def test_assert_025_assert_025_2(mode, save_output, output_format):
     """
     An example demonstrating XSD 1.1 assertions evaluation using xs:assert
     instruction, when xs:assert has attribute "xpathDefaultNamespace".
@@ -274,11 +290,12 @@ def test_assert_025_assert_025_2(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_assert_024_assert_024_2(mode, save_output):
+def test_assert_024_assert_024_2(mode, save_output, output_format):
     """
     An example demonstrating assertions evaluation, with xs:string schema
     type when white-space normalization must not happen on the data. The
@@ -293,11 +310,12 @@ def test_assert_024_assert_024_2(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_assert_022_assert_022_2(mode, save_output):
+def test_assert_022_assert_022_2(mode, save_output, output_format):
     """
     An example demonstrating assertions evaluation, with a numeric schema
     type when white-space normalization must happen on the data. The
@@ -312,11 +330,12 @@ def test_assert_022_assert_022_2(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_assert_020_assert_020_2(mode, save_output):
+def test_assert_020_assert_020_2(mode, save_output, output_format):
     """
     An example demonstrating assertions evaluation, with a numeric schema
     type when white-space normalization must happen on the data.
@@ -328,11 +347,12 @@ def test_assert_020_assert_020_2(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_assert_019_assert_019_2(mode, save_output):
+def test_assert_019_assert_019_2(mode, save_output, output_format):
     """
     A sample "purchase order" instance validation with an XML schema,
     using XSD 1.1 assertions.
@@ -344,11 +364,12 @@ def test_assert_019_assert_019_2(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_assert_018_assert_018_2(mode, save_output):
+def test_assert_018_assert_018_2(mode, save_output, output_format):
     """
     This is similar to test 'assert_017', but element a's schema type in
     xs:group definition here has an additional assertion.
@@ -360,11 +381,12 @@ def test_assert_018_assert_018_2(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_assert_017_assert_017_2(mode, save_output):
+def test_assert_017_assert_017_2(mode, save_output, output_format):
     """
     An assertions example, where an XML schema xs:group definition is
     reused in different schema types, and cardinality of element particles
@@ -377,11 +399,12 @@ def test_assert_017_assert_017_2(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_assert_016_assert_016_2(mode, save_output):
+def test_assert_016_assert_016_2(mode, save_output, output_format):
     """
     Describing both xs:assert & xs:assertion on complexType ->
     simpleContent -> restriction.
@@ -393,11 +416,12 @@ def test_assert_016_assert_016_2(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_assert_015_assert_015_2(mode, save_output):
+def test_assert_015_assert_015_2(mode, save_output, output_format):
     """
     Describing relatively involved assertions. Assertions are described in
     the data file itself at xs:assert/xs:annotation.
@@ -409,11 +433,12 @@ def test_assert_015_assert_015_2(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_assert_014_assert_014_2(mode, save_output):
+def test_assert_014_assert_014_2(mode, save_output, output_format):
     """
     Assertion defined on attribute's schema type. Uses assertions XPath
     2.0 context variable $value.
@@ -425,11 +450,12 @@ def test_assert_014_assert_014_2(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_assert_013_assert_013_2(mode, save_output):
+def test_assert_013_assert_013_2(mode, save_output, output_format):
     """
     Assertions on a fictitious numerical example.
     """
@@ -440,11 +466,12 @@ def test_assert_013_assert_013_2(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_assert_012_assert_012_2(mode, save_output):
+def test_assert_012_assert_012_2(mode, save_output, output_format):
     """
     Multiple assertions on a complexType, with a fictitious problem
     description.
@@ -456,11 +483,12 @@ def test_assert_012_assert_012_2(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_assert_011_assert_011_2(mode, save_output):
+def test_assert_011_assert_011_2(mode, save_output, output_format):
     """
     Assertions on complex type, using xpathDefaultNamespace attribute on
     xs:assert.
@@ -472,11 +500,12 @@ def test_assert_011_assert_011_2(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_assert_010_assert_010_2(mode, save_output):
+def test_assert_010_assert_010_2(mode, save_output, output_format):
     """
     Assertions on complex type derivations.
     """
@@ -487,11 +516,12 @@ def test_assert_010_assert_010_2(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_assert_009_assert_009_2(mode, save_output):
+def test_assert_009_assert_009_2(mode, save_output, output_format):
     """
     Assertions on simple type, using assertions XPath 2.0 context variable
     $value.
@@ -503,11 +533,12 @@ def test_assert_009_assert_009_2(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_assert_008_assert_008_2(mode, save_output):
+def test_assert_008_assert_008_2(mode, save_output, output_format):
     """
     Assertions on schema "complex type" definitions, having attribute with
     simple content.
@@ -519,11 +550,12 @@ def test_assert_008_assert_008_2(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_assert_007_assert_007_2(mode, save_output):
+def test_assert_007_assert_007_2(mode, save_output, output_format):
     """
     Assertions on schema "simple type" definitions, with inheritance
     relationship.
@@ -535,11 +567,12 @@ def test_assert_007_assert_007_2(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_assert_006_assert_006_2(mode, save_output):
+def test_assert_006_assert_006_2(mode, save_output, output_format):
     """
     Assertions on complexType -> complexContent, with inheritance
     relationship between schema types.
@@ -551,11 +584,12 @@ def test_assert_006_assert_006_2(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_assert_005_assert_005_2(mode, save_output):
+def test_assert_005_assert_005_2(mode, save_output, output_format):
     """
     Multiple assertions on a sample 'simple type'.
     """
@@ -566,11 +600,12 @@ def test_assert_005_assert_005_2(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_assert_004_assert_004_2(mode, save_output):
+def test_assert_004_assert_004_2(mode, save_output, output_format):
     """
     Multiple assertions on a complex type, with a fictitious problem
     description.
@@ -582,11 +617,12 @@ def test_assert_004_assert_004_2(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_assert_003_assert_003_2(mode, save_output):
+def test_assert_003_assert_003_2(mode, save_output, output_format):
     """
     Assertions on a complex type, with relatively bigger content model.
     """
@@ -597,11 +633,12 @@ def test_assert_003_assert_003_2(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_assert_002_assert_002_2(mode, save_output):
+def test_assert_002_assert_002_2(mode, save_output, output_format):
     """
     Assertions demonstrating co-occurence constraints (constraints between
     an attribute value and elements).
@@ -613,11 +650,12 @@ def test_assert_002_assert_002_2(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_assert_001_assert_001_2(mode, save_output):
+def test_assert_001_assert_001_2(mode, save_output, output_format):
     """
     Assertions demonstrating co-occurence constraints, along with an
     assertion constraining element's simpleContent value.
@@ -629,11 +667,12 @@ def test_assert_001_assert_001_2(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d4_3_15v28_d4_3_15v28i(mode, save_output):
+def test_d4_3_15v28_d4_3_15v28i(mode, save_output, output_format):
     """
     naive xpathDefaultNamespace(with value ##local) test case in
     simpleType
@@ -645,11 +684,12 @@ def test_d4_3_15v28_d4_3_15v28i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d4_3_15v27_d4_3_15v27i(mode, save_output):
+def test_d4_3_15v27_d4_3_15v27i(mode, save_output, output_format):
     """
     naive xpathDefaultNamespace(with value ##local) test case in
     complexType
@@ -661,11 +701,12 @@ def test_d4_3_15v27_d4_3_15v27i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d4_3_15v26_d4_3_15v26i(mode, save_output):
+def test_d4_3_15v26_d4_3_15v26i(mode, save_output, output_format):
     """
     naive xpathDefaultNamespace(with value ##defaultNamespace) test case
     in simpleType
@@ -677,11 +718,12 @@ def test_d4_3_15v26_d4_3_15v26i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d4_3_15v25_d4_3_15v25i(mode, save_output):
+def test_d4_3_15v25_d4_3_15v25i(mode, save_output, output_format):
     """
     naive xpathDefaultNamespace(with value ##defaultNamespace) test case
     in complexTypen
@@ -693,11 +735,12 @@ def test_d4_3_15v25_d4_3_15v25i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d4_3_15v24_d4_3_15v24i(mode, save_output):
+def test_d4_3_15v24_d4_3_15v24i(mode, save_output, output_format):
     """
     naive xpathDefaultNamespace(exact uri of targetNamespace) test case in
     simpleType
@@ -709,11 +752,12 @@ def test_d4_3_15v24_d4_3_15v24i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d4_3_15v23_d4_3_15v23i(mode, save_output):
+def test_d4_3_15v23_d4_3_15v23i(mode, save_output, output_format):
     """
     naive xpathDefaultNamespace (exact uri of targetNamespace) test case
     in complexType
@@ -725,11 +769,12 @@ def test_d4_3_15v23_d4_3_15v23i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d4_3_15v22_d4_3_15v22i(mode, save_output):
+def test_d4_3_15v22_d4_3_15v22i(mode, save_output, output_format):
     """
     naive xpathDefaultNamespace(with value ##targetNamespace) test case in
     simpleType
@@ -741,11 +786,12 @@ def test_d4_3_15v22_d4_3_15v22i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d4_3_15v21_d4_3_15v21i(mode, save_output):
+def test_d4_3_15v21_d4_3_15v21i(mode, save_output, output_format):
     """
     naive xpathDefaultNamespace(with value ##targetNamespace) test case in
     complexType
@@ -757,11 +803,12 @@ def test_d4_3_15v21_d4_3_15v21i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d4_3_15v19_d4_3_15v19i(mode, save_output):
+def test_d4_3_15v19_d4_3_15v19i(mode, save_output, output_format):
     """
     assertions on a complex type definition, having simpleContent,
     assertions from anyAtomicType type.
@@ -773,11 +820,12 @@ def test_d4_3_15v19_d4_3_15v19i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d4_3_15v18_d4_3_15v18i(mode, save_output):
+def test_d4_3_15v18_d4_3_15v18i(mode, save_output, output_format):
     """
     assertions on a complex type definition, having complexContent,
     assertions from anySimpleType type.
@@ -789,11 +837,12 @@ def test_d4_3_15v18_d4_3_15v18i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d4_3_15v15_d4_3_15v15i(mode, save_output):
+def test_d4_3_15v15_d4_3_15v15i(mode, save_output, output_format):
     """
     inability to navigate outside the subtree, assertion on attributes
     """
@@ -804,11 +853,12 @@ def test_d4_3_15v15_d4_3_15v15i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d4_3_15v14_d4_3_15v14i(mode, save_output):
+def test_d4_3_15v14_d4_3_15v14i(mode, save_output, output_format):
     """
     inability to navigate outside the subtree, assertion on elements
     """
@@ -819,11 +869,12 @@ def test_d4_3_15v14_d4_3_15v14i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d4_3_15v13_d4_3_15v13i(mode, save_output):
+def test_d4_3_15v13_d4_3_15v13i(mode, save_output, output_format):
     """
     dynamic context of the XPath expression, assertion on element
     """
@@ -834,11 +885,12 @@ def test_d4_3_15v13_d4_3_15v13i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d4_3_15v11_d4_3_15v11i(mode, save_output):
+def test_d4_3_15v11_d4_3_15v11i(mode, save_output, output_format):
     """
     dynamic context of the XPath expression, assertion on attribute
     """
@@ -849,11 +901,12 @@ def test_d4_3_15v11_d4_3_15v11i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d4_3_15v10_d4_3_15v10i(mode, save_output):
+def test_d4_3_15v10_d4_3_15v10i(mode, save_output, output_format):
     """
     assertions on derived complex type
     """
@@ -864,11 +917,12 @@ def test_d4_3_15v10_d4_3_15v10i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d4_3_15v09_d4_3_15v09i(mode, save_output):
+def test_d4_3_15v09_d4_3_15v09i(mode, save_output, output_format):
     """
     assertions on simple type, using variable $value
     """
@@ -879,11 +933,12 @@ def test_d4_3_15v09_d4_3_15v09i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d4_3_15v08_d4_3_15v08i(mode, save_output):
+def test_d4_3_15v08_d4_3_15v08i(mode, save_output, output_format):
     """
     assertions on a complex type definition having simpleContent
     """
@@ -894,11 +949,12 @@ def test_d4_3_15v08_d4_3_15v08i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d4_3_15v07_d4_3_15v07i(mode, save_output):
+def test_d4_3_15v07_d4_3_15v07i(mode, save_output, output_format):
     """
     assertions on derived simple type definitions, all baseType and
     derivedType must evaluate to be true
@@ -910,11 +966,12 @@ def test_d4_3_15v07_d4_3_15v07i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d4_3_15v06_d4_3_15v06i(mode, save_output):
+def test_d4_3_15v06_d4_3_15v06i(mode, save_output, output_format):
     """
     having complexContent, assertions from both derived and base type must
     succeed
@@ -926,11 +983,12 @@ def test_d4_3_15v06_d4_3_15v06i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d4_3_15v05_d4_3_15v05i(mode, save_output):
+def test_d4_3_15v05_d4_3_15v05i(mode, save_output, output_format):
     """
     assertions on a simple type definition
     """
@@ -941,11 +999,12 @@ def test_d4_3_15v05_d4_3_15v05i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d4_3_15v04_d4_3_15v04i(mode, save_output):
+def test_d4_3_15v04_d4_3_15v04i(mode, save_output, output_format):
     """
     ssertions on a complex type definition. uses multiple asserts
     """
@@ -956,11 +1015,12 @@ def test_d4_3_15v04_d4_3_15v04i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d4_3_15v03_d4_3_15v03i(mode, save_output):
+def test_d4_3_15v03_d4_3_15v03i(mode, save_output, output_format):
     """
     assertions on a complex type definition
     """
@@ -971,11 +1031,12 @@ def test_d4_3_15v03_d4_3_15v03i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d4_3_15v02_d4_3_15v02i(mode, save_output):
+def test_d4_3_15v02_d4_3_15v02i(mode, save_output, output_format):
     """
     Assertions on a complex type definition
     """
@@ -986,11 +1047,12 @@ def test_d4_3_15v02_d4_3_15v02i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d4_3_15v01_d4_3_15v01i(mode, save_output):
+def test_d4_3_15v01_d4_3_15v01i(mode, save_output, output_format):
     """
     Assertions on a complex type definition
     """
@@ -1001,11 +1063,12 @@ def test_d4_3_15v01_d4_3_15v01i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s4_2_2v01_s4_2_2v01i(mode, save_output):
+def test_s4_2_2v01_s4_2_2v01i(mode, save_output, output_format):
     """
     vc: conditional inclusion Testing version
     """
@@ -1016,11 +1079,12 @@ def test_s4_2_2v01_s4_2_2v01i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_2_3v04_s3_2_3v04i(mode, save_output):
+def test_s3_2_3v04_s3_2_3v04i(mode, save_output, output_format):
     """
     Tests the targetNamespace attribute in locally declared element and
     attribute.
@@ -1032,11 +1096,12 @@ def test_s3_2_3v04_s3_2_3v04i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_2_3v01_s3_2_3v01i(mode, save_output):
+def test_s3_2_3v01_s3_2_3v01i(mode, save_output, output_format):
     """
     Tests the targetNamespace attribute in locally declared element and
     attribute.
@@ -1048,11 +1113,12 @@ def test_s3_2_3v01_s3_2_3v01i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d3_3_10v01_d3_3_10v01i(mode, save_output):
+def test_d3_3_10v01_d3_3_10v01i(mode, save_output, output_format):
     """
     A day is a calendar (or "local time") day in each timezone, including
     the timezones outside of +12:00 through -11:59 inclusive.
@@ -1064,11 +1130,12 @@ def test_d3_3_10v01_d3_3_10v01i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d3_4_28v10_d3_4_28v10i(mode, save_output):
+def test_d3_4_28v10_d3_4_28v10i(mode, save_output, output_format):
     """
     Additional dateTimeStamp tests, for attributes
     """
@@ -1079,11 +1146,12 @@ def test_d3_4_28v10_d3_4_28v10i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d3_4_28v09_d3_4_28v09i(mode, save_output):
+def test_d3_4_28v09_d3_4_28v09i(mode, save_output, output_format):
     """
     Tests the simpleType dateTimeStamp and its facets with (min|max)
     (Inclusive|Exclusive) constraint checks in derivations of simpleTypes
@@ -1095,11 +1163,12 @@ def test_d3_4_28v09_d3_4_28v09i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d3_4_28v08_d3_4_28v08i(mode, save_output):
+def test_d3_4_28v08_d3_4_28v08i(mode, save_output, output_format):
     """
     Tests the simpleType dateTimeStamp and its facets with (min|max)
     (Inclusive|Exclusive) constraint checks in derivations of simpleTypes
@@ -1111,11 +1180,12 @@ def test_d3_4_28v08_d3_4_28v08i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d3_4_28v07_d3_4_28v07i(mode, save_output):
+def test_d3_4_28v07_d3_4_28v07i(mode, save_output, output_format):
     """
     Tests the simpleType decimal and its facets with (min|max)
     (Inclusive|Exclusive) constraint checks in derivations of simpleTypes
@@ -1127,11 +1197,12 @@ def test_d3_4_28v07_d3_4_28v07i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d3_4_28v06_d3_4_28v06i(mode, save_output):
+def test_d3_4_28v06_d3_4_28v06i(mode, save_output, output_format):
     """
     Tests the simpleType dateTimeStamp and its facets with (min|max)
     (Inclusive|Exclusive) constraint checks in derivations of simpleTypes
@@ -1143,11 +1214,12 @@ def test_d3_4_28v06_d3_4_28v06i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d3_4_28v05_d3_4_28v05i(mode, save_output):
+def test_d3_4_28v05_d3_4_28v05i(mode, save_output, output_format):
     """
     Tests the simpleType decimal and its facets
     """
@@ -1158,11 +1230,12 @@ def test_d3_4_28v05_d3_4_28v05i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d3_4_28v04_d3_4_28v04i(mode, save_output):
+def test_d3_4_28v04_d3_4_28v04i(mode, save_output, output_format):
     """
     Tests the simpleType decimal and its facets, used with unions
     """
@@ -1173,11 +1246,12 @@ def test_d3_4_28v04_d3_4_28v04i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d3_4_28v03_d3_4_28v03i(mode, save_output):
+def test_d3_4_28v03_d3_4_28v03i(mode, save_output, output_format):
     """
     Tests the simpleType dateTimeStamp and its facets pattern, used in
     lists
@@ -1189,11 +1263,12 @@ def test_d3_4_28v03_d3_4_28v03i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d3_4_28v02_d3_4_28v02i(mode, save_output):
+def test_d3_4_28v02_d3_4_28v02i(mode, save_output, output_format):
     """
     Tests the simpleType decimal and its facets and its use in attributes
     """
@@ -1204,11 +1279,12 @@ def test_d3_4_28v02_d3_4_28v02i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d3_4_28v01_d3_4_28v01i(mode, save_output):
+def test_d3_4_28v01_d3_4_28v01i(mode, save_output, output_format):
     """
     Tests the simpleType dateTimeStamp and its facets and its use in
     elements
@@ -1220,11 +1296,12 @@ def test_d3_4_28v01_d3_4_28v01i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d3_4_27v05_d3_4_27v05i(mode, save_output):
+def test_d3_4_27v05_d3_4_27v05i(mode, save_output, output_format):
     """
     Additional tests for dayTimeDuration and its facets with (min|max)
     (Inclusive|Exclusive) constraint checks in derivations of simpleTypes
@@ -1236,11 +1313,12 @@ def test_d3_4_27v05_d3_4_27v05i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d3_4_27v04_d3_4_27v04i(mode, save_output):
+def test_d3_4_27v04_d3_4_27v04i(mode, save_output, output_format):
     """
     Tests the simpleType dayTimeDuration and its facets with (min|max)
     (Inclusive|Exclusive) constraint checks in derivations of simpleTypes
@@ -1252,11 +1330,12 @@ def test_d3_4_27v04_d3_4_27v04i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d3_4_27v03_d3_4_27v03i(mode, save_output):
+def test_d3_4_27v03_d3_4_27v03i(mode, save_output, output_format):
     """
     Tests dayTimeDuration used in unions
     """
@@ -1267,11 +1346,12 @@ def test_d3_4_27v03_d3_4_27v03i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d3_4_27v02_d3_4_27v02i(mode, save_output):
+def test_d3_4_27v02_d3_4_27v02i(mode, save_output, output_format):
     """
     Tests the simpleType dayTimeDuration and its facets and its use in
     attributes
@@ -1283,11 +1363,12 @@ def test_d3_4_27v02_d3_4_27v02i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d3_4_27v01_d3_4_27v01i(mode, save_output):
+def test_d3_4_27v01_d3_4_27v01i(mode, save_output, output_format):
     """
     Tests the simpleType dayTimeDuration and its facets
     """
@@ -1298,11 +1379,12 @@ def test_d3_4_27v01_d3_4_27v01i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_4_2_4ii06_s3_4_2_4ii06i(mode, save_output):
+def test_s3_4_2_4ii06_s3_4_2_4ii06i(mode, save_output, output_format):
     """
     test defaultAttributesApply = true and redefined as false
     """
@@ -1313,11 +1395,12 @@ def test_s3_4_2_4ii06_s3_4_2_4ii06i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_4_2_4v13_s3_4_2_4v13i(mode, save_output):
+def test_s3_4_2_4v13_s3_4_2_4v13i(mode, save_output, output_format):
     """
     test defaultAttributesApply is absent, and ref attribute in
     attributeGroup
@@ -1329,11 +1412,12 @@ def test_s3_4_2_4v13_s3_4_2_4v13i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_4_2_4v03_s3_4_2_4v03i(mode, save_output):
+def test_s3_4_2_4v03_s3_4_2_4v03i(mode, save_output, output_format):
     """
     test defaultAttributesApply = true
     """
@@ -1344,11 +1428,12 @@ def test_s3_4_2_4v03_s3_4_2_4v03i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_4_2_4v02_s3_4_2_4v02i(mode, save_output):
+def test_s3_4_2_4v02_s3_4_2_4v02i(mode, save_output, output_format):
     """
     test defaultAttributesApply = false
     """
@@ -1359,11 +1444,12 @@ def test_s3_4_2_4v02_s3_4_2_4v02i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_4_2_4v01_s3_4_2_4v01i(mode, save_output):
+def test_s3_4_2_4v01_s3_4_2_4v01i(mode, save_output, output_format):
     """
     test defaultAttributesApply is absent
     """
@@ -1374,11 +1460,12 @@ def test_s3_4_2_4v01_s3_4_2_4v01i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s2_7_2v01_s2_7_2v01i(mode, save_output):
+def test_s2_7_2v01_s2_7_2v01i(mode, save_output, output_format):
     """
     Structures introduces a mechanism for signaling that an element must
     be accepted as 'valid' when it has no content despite a content type
@@ -1394,11 +1481,12 @@ def test_s2_7_2v01_s2_7_2v01i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s2_7_1v01_s2_7_1v01i(mode, save_output):
+def test_s2_7_1v01_s2_7_1v01i(mode, save_output, output_format):
     """
     xsi:type must resolve to a type definition
     """
@@ -1409,11 +1497,12 @@ def test_s2_7_1v01_s2_7_1v01i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d3_3_6v02_d3_3_6v02i(mode, save_output):
+def test_d3_3_6v02_d3_3_6v02i(mode, save_output, output_format):
     """
     Lexical representation +INF for double
     """
@@ -1424,11 +1513,12 @@ def test_d3_3_6v02_d3_3_6v02i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d3_3_6v01_d3_3_6v01i(mode, save_output):
+def test_d3_3_6v01_d3_3_6v01i(mode, save_output, output_format):
     """
     Valid test for +0 and -0 bound checking
     """
@@ -1439,11 +1529,12 @@ def test_d3_3_6v01_d3_3_6v01i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d4_3_16v07_d4_3_16v07i(mode, save_output):
+def test_d4_3_16v07_d4_3_16v07i(mode, save_output, output_format):
     """
     Tests the simpleType dateTime and its facets with explicitTimezone
     constraint checks in derivations of simpleTypes
@@ -1455,11 +1546,12 @@ def test_d4_3_16v07_d4_3_16v07i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d4_3_16v06_d4_3_16v06i(mode, save_output):
+def test_d4_3_16v06_d4_3_16v06i(mode, save_output, output_format):
     """
     Tests the simpleType dateTime and its facet with explicitTimezone
     constraint checks in derivations of simpleTypes
@@ -1471,11 +1563,12 @@ def test_d4_3_16v06_d4_3_16v06i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d4_3_16v05_d4_3_16v05i(mode, save_output):
+def test_d4_3_16v05_d4_3_16v05i(mode, save_output, output_format):
     """
     Tests the simpleType dateTime and its facets, explicitTimezone
     """
@@ -1486,11 +1579,12 @@ def test_d4_3_16v05_d4_3_16v05i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d4_3_16v04_d4_3_16v04i(mode, save_output):
+def test_d4_3_16v04_d4_3_16v04i(mode, save_output, output_format):
     """
     Tests the simpleType dateTime and its facet, explicitTimezone used
     with unions
@@ -1502,11 +1596,12 @@ def test_d4_3_16v04_d4_3_16v04i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d4_3_16v03_d4_3_16v03i(mode, save_output):
+def test_d4_3_16v03_d4_3_16v03i(mode, save_output, output_format):
     """
     Tests the simpleType precisionDecimal and its facet, explicitTimezone,
     used in lists
@@ -1518,11 +1613,12 @@ def test_d4_3_16v03_d4_3_16v03i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d4_3_16v02_d4_3_16v02i(mode, save_output):
+def test_d4_3_16v02_d4_3_16v02i(mode, save_output, output_format):
     """
     Tests the simpleType dateTime and its facets, explicitTimezone and its
     use in elements
@@ -1534,11 +1630,12 @@ def test_d4_3_16v02_d4_3_16v02i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d4_3_16v01_d4_3_16v01i(mode, save_output):
+def test_d4_3_16v01_d4_3_16v01i(mode, save_output, output_format):
     """
     Tests the simpleType dateTime and its facets, explicitTimezone and its
     use in elements
@@ -1550,11 +1647,12 @@ def test_d4_3_16v01_d4_3_16v01i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d3_3_5v02_d3_3_5v02i(mode, save_output):
+def test_d3_3_5v02_d3_3_5v02i(mode, save_output, output_format):
     """
     lexical representation +INF for float
     """
@@ -1565,11 +1663,12 @@ def test_d3_3_5v02_d3_3_5v02i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d3_3_5v01_d3_3_5v01i(mode, save_output):
+def test_d3_3_5v01_d3_3_5v01i(mode, save_output, output_format):
     """
     Valid test for +0 and -0 bound checking
     """
@@ -1580,11 +1679,12 @@ def test_d3_3_5v01_d3_3_5v01i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d3_3_11v01_d3_3_11v01i(mode, save_output):
+def test_d3_3_11v01_d3_3_11v01i(mode, save_output, output_format):
     """
     A day is a calendar (or "local time") day in each timezone, including
     the timezones outside of +12:00 through -11:59 inclusive.
@@ -1596,11 +1696,12 @@ def test_d3_3_11v01_d3_3_11v01i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d3_3_12v01_d3_3_12v01i(mode, save_output):
+def test_d3_3_12v01_d3_3_12v01i(mode, save_output, output_format):
     """
     A day is a calendar (or "local time") day in each timezone, including
     the timezones outside of +12:00 through -11:59 inclusive.
@@ -1612,11 +1713,12 @@ def test_d3_3_12v01_d3_3_12v01i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d3_3_13v01_d3_3_13v01i(mode, save_output):
+def test_d3_3_13v01_d3_3_13v01i(mode, save_output, output_format):
     """
     A day is a calendar (or "local time") day in each timezone, including
     the timezones outside of +12:00 through -11:59 inclusive.
@@ -1628,11 +1730,12 @@ def test_d3_3_13v01_d3_3_13v01i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d3_3_14v01_d3_3_14v01i(mode, save_output):
+def test_d3_3_14v01_d3_3_14v01i(mode, save_output, output_format):
     """
     A day is a calendar (or "local time") day in each timezone, including
     the timezones outside of +12:00 through -11:59 inclusive.
@@ -1644,11 +1747,12 @@ def test_d3_3_14v01_d3_3_14v01i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_3_4v30_s3_3_4v30i(mode, save_output):
+def test_s3_3_4v30_s3_3_4v30i(mode, save_output, output_format):
     """
     equality of an atomic value with a singleton list in ID/IDREF
     """
@@ -1659,11 +1763,12 @@ def test_s3_3_4v30_s3_3_4v30i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_3_4v29_s3_3_4v29i(mode, save_output):
+def test_s3_3_4v29_s3_3_4v29i(mode, save_output, output_format):
     """
     Multiple attributes of type ID with default value
     """
@@ -1674,11 +1779,12 @@ def test_s3_3_4v29_s3_3_4v29i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_3_4v28_s3_3_4v28i(mode, save_output):
+def test_s3_3_4v28_s3_3_4v28i(mode, save_output, output_format):
     """
     xs:ID/IDREF with default value on attribute
     """
@@ -1689,11 +1795,12 @@ def test_s3_3_4v28_s3_3_4v28i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_3_4v27_s3_3_4v27i(mode, save_output):
+def test_s3_3_4v27_s3_3_4v27i(mode, save_output, output_format):
     """
     xs:ID/IDREF with default value on attribute
     """
@@ -1704,11 +1811,12 @@ def test_s3_3_4v27_s3_3_4v27i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_3_4v26_s3_3_4v26i(mode, save_output):
+def test_s3_3_4v26_s3_3_4v26i(mode, save_output, output_format):
     """
     xs:ID with default value on attribute, and xs:IDREF on element
     """
@@ -1719,11 +1827,12 @@ def test_s3_3_4v26_s3_3_4v26i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_3_4v25_s3_3_4v25i(mode, save_output):
+def test_s3_3_4v25_s3_3_4v25i(mode, save_output, output_format):
     """
     Multiple attributes of type ID
     """
@@ -1734,11 +1843,12 @@ def test_s3_3_4v25_s3_3_4v25i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_3_4v24_s3_3_4v24i(mode, save_output):
+def test_s3_3_4v24_s3_3_4v24i(mode, save_output, output_format):
     """
     Multiple attributes of type ID
     """
@@ -1749,11 +1859,12 @@ def test_s3_3_4v24_s3_3_4v24i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_3_4v23_s3_3_4v23i(mode, save_output):
+def test_s3_3_4v23_s3_3_4v23i(mode, save_output, output_format):
     """
     Multiple attributes of type ID
     """
@@ -1764,11 +1875,12 @@ def test_s3_3_4v23_s3_3_4v23i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_3_4v22_s3_3_4v22i(mode, save_output):
+def test_s3_3_4v22_s3_3_4v22i(mode, save_output, output_format):
     """
     Multiple attributes of type ID
     """
@@ -1779,11 +1891,12 @@ def test_s3_3_4v22_s3_3_4v22i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_3_4v21_s3_3_4v21i(mode, save_output):
+def test_s3_3_4v21_s3_3_4v21i(mode, save_output, output_format):
     """
     lists of ID, simpleContent
     """
@@ -1794,11 +1907,12 @@ def test_s3_3_4v21_s3_3_4v21i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_3_4v20_s3_3_4v20i(mode, save_output):
+def test_s3_3_4v20_s3_3_4v20i(mode, save_output, output_format):
     """
     Unions involving ID in elements, attributes
     """
@@ -1809,11 +1923,12 @@ def test_s3_3_4v20_s3_3_4v20i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_3_4v19_s3_3_4v19i(mode, save_output):
+def test_s3_3_4v19_s3_3_4v19i(mode, save_output, output_format):
     """
     Unions involving ID in elements, attributes
     """
@@ -1824,11 +1939,12 @@ def test_s3_3_4v19_s3_3_4v19i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_3_4v18_s3_3_4v18i(mode, save_output):
+def test_s3_3_4v18_s3_3_4v18i(mode, save_output, output_format):
     """
     Unions involving ID in attributes
     """
@@ -1839,11 +1955,12 @@ def test_s3_3_4v18_s3_3_4v18i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_3_4v17_s3_3_4v17i(mode, save_output):
+def test_s3_3_4v17_s3_3_4v17i(mode, save_output, output_format):
     """
     Unions involving ID in elements
     """
@@ -1854,11 +1971,12 @@ def test_s3_3_4v17_s3_3_4v17i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_3_4v16_s3_3_4v16i(mode, save_output):
+def test_s3_3_4v16_s3_3_4v16i(mode, save_output, output_format):
     """
     lists of ID, simpleContent
     """
@@ -1869,11 +1987,12 @@ def test_s3_3_4v16_s3_3_4v16i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_3_4v15_s3_3_4v15i(mode, save_output):
+def test_s3_3_4v15_s3_3_4v15i(mode, save_output, output_format):
     """
     lists of ID, simpleContent
     """
@@ -1884,11 +2003,12 @@ def test_s3_3_4v15_s3_3_4v15i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_3_4v14_s3_3_4v14i(mode, save_output):
+def test_s3_3_4v14_s3_3_4v14i(mode, save_output, output_format):
     """
     lists of ID, naive test case on elements
     """
@@ -1899,11 +2019,12 @@ def test_s3_3_4v14_s3_3_4v14i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_3_4v13_s3_3_4v13i(mode, save_output):
+def test_s3_3_4v13_s3_3_4v13i(mode, save_output, output_format):
     """
     lists of ID on attributes
     """
@@ -1914,11 +2035,12 @@ def test_s3_3_4v13_s3_3_4v13i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_3_4v12_s3_3_4v12i(mode, save_output):
+def test_s3_3_4v12_s3_3_4v12i(mode, save_output, output_format):
     """
     Multiple attributes of type ID
     """
@@ -1929,11 +2051,12 @@ def test_s3_3_4v12_s3_3_4v12i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_3_4v11_s3_3_4v11i(mode, save_output):
+def test_s3_3_4v11_s3_3_4v11i(mode, save_output, output_format):
     """
     Unions involving ID
     """
@@ -1944,11 +2067,12 @@ def test_s3_3_4v11_s3_3_4v11i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_3_4v10_s3_3_4v10i(mode, save_output):
+def test_s3_3_4v10_s3_3_4v10i(mode, save_output, output_format):
     """
     lists of ID, naive test case on elements
     """
@@ -1959,11 +2083,12 @@ def test_s3_3_4v10_s3_3_4v10i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_3_4v09_s3_3_4v09i(mode, save_output):
+def test_s3_3_4v09_s3_3_4v09i(mode, save_output, output_format):
     """
     xs:ID/IDREF with fixed value on attribute
     """
@@ -1974,11 +2099,12 @@ def test_s3_3_4v09_s3_3_4v09i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_3_4v08_s3_3_4v08i(mode, save_output):
+def test_s3_3_4v08_s3_3_4v08i(mode, save_output, output_format):
     """
     xs:ID/IDREF with default value on attribute
     """
@@ -1989,11 +2115,12 @@ def test_s3_3_4v08_s3_3_4v08i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_3_4v07_s3_3_4v07i(mode, save_output):
+def test_s3_3_4v07_s3_3_4v07i(mode, save_output, output_format):
     """
     xs:ID/IDREF with fixed value on attribute
     """
@@ -2004,11 +2131,12 @@ def test_s3_3_4v07_s3_3_4v07i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_3_4v06_s3_3_4v06i(mode, save_output):
+def test_s3_3_4v06_s3_3_4v06i(mode, save_output, output_format):
     """
     xs:ID/IDREF with default value on attribute
     """
@@ -2019,11 +2147,12 @@ def test_s3_3_4v06_s3_3_4v06i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_3_4v05_s3_3_4v05i(mode, save_output):
+def test_s3_3_4v05_s3_3_4v05i(mode, save_output, output_format):
     """
     xs:ENTITY with default value on attribute
     """
@@ -2034,11 +2163,12 @@ def test_s3_3_4v05_s3_3_4v05i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_3_4v04_s3_3_4v04i(mode, save_output):
+def test_s3_3_4v04_s3_3_4v04i(mode, save_output, output_format):
     """
     xs:ENTITIES with default value on attribute
     """
@@ -2049,11 +2179,12 @@ def test_s3_3_4v04_s3_3_4v04i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_3_4v03_s3_3_4v03i(mode, save_output):
+def test_s3_3_4v03_s3_3_4v03i(mode, save_output, output_format):
     """
     xs:ID/IDREF with fixed value on attribute
     """
@@ -2064,11 +2195,12 @@ def test_s3_3_4v03_s3_3_4v03i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_3_4v02_s3_3_4v02i(mode, save_output):
+def test_s3_3_4v02_s3_3_4v02i(mode, save_output, output_format):
     """
     xs:ID/IDREF with xs:anyAttribute
     """
@@ -2079,11 +2211,12 @@ def test_s3_3_4v02_s3_3_4v02i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_3_4v01_s3_3_4v01i(mode, save_output):
+def test_s3_3_4v01_s3_3_4v01i(mode, save_output, output_format):
     """
     xs:ID/IDREF with xs:anyAttribute
     """
@@ -2094,11 +2227,12 @@ def test_s3_3_4v01_s3_3_4v01i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s2_2_4v03_s2_2_4v03i(mode, save_output):
+def test_s2_2_4v03_s2_2_4v03i(mode, save_output, output_format):
     """
     Tests unresolvable xpath
     """
@@ -2109,11 +2243,12 @@ def test_s2_2_4v03_s2_2_4v03i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s2_2_4v02_s2_2_4v02i(mode, save_output):
+def test_s2_2_4v02_s2_2_4v02i(mode, save_output, output_format):
     """
     Valid test for identity constraint referrals
     """
@@ -2124,11 +2259,12 @@ def test_s2_2_4v02_s2_2_4v02i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s2_2_4v01_s2_2_4v01i(mode, save_output):
+def test_s2_2_4v01_s2_2_4v01i(mode, save_output, output_format):
     """
     Valid test for identity constraint referrals with annotation
     """
@@ -2139,11 +2275,12 @@ def test_s2_2_4v01_s2_2_4v01i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d2_4_1_2v01_d2_4_1_2v01i(mode, save_output):
+def test_d2_4_1_2v01_d2_4_1_2v01i(mode, save_output, output_format):
     """
     test Units of length for list datatype.
     """
@@ -2154,11 +2291,12 @@ def test_d2_4_1_2v01_d2_4_1_2v01i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_4_1v11_s3_4_1v11i(mode, save_output):
+def test_s3_4_1v11_s3_4_1v11i(mode, save_output, output_format):
     """
     complexType/@mixed
     """
@@ -2169,11 +2307,12 @@ def test_s3_4_1v11_s3_4_1v11i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_4_1v10_s3_4_1v10i(mode, save_output):
+def test_s3_4_1v10_s3_4_1v10i(mode, save_output, output_format):
     """
     Tests derivation by extension with openContent mode interleave in both
     type and its derived type
@@ -2185,11 +2324,12 @@ def test_s3_4_1v10_s3_4_1v10i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_4_1v09_s3_4_1v09i(mode, save_output):
+def test_s3_4_1v09_s3_4_1v09i(mode, save_output, output_format):
     """
     Tests derivation by restriction with openContent mode interleave in
     base type
@@ -2201,11 +2341,12 @@ def test_s3_4_1v09_s3_4_1v09i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_4_1v08_s3_4_1v08i(mode, save_output):
+def test_s3_4_1v08_s3_4_1v08i(mode, save_output, output_format):
     """
     Tests derivation by extension with openContent mode interleave in
     derived type and suffix in its base type
@@ -2217,11 +2358,12 @@ def test_s3_4_1v08_s3_4_1v08i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_4_1v07_s3_4_1v07i(mode, save_output):
+def test_s3_4_1v07_s3_4_1v07i(mode, save_output, output_format):
     """
     Tests derivation by extension with openContent mode suffix in both
     type and its derived type
@@ -2233,11 +2375,12 @@ def test_s3_4_1v07_s3_4_1v07i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_4_1v06_s3_4_1v06i(mode, save_output):
+def test_s3_4_1v06_s3_4_1v06i(mode, save_output, output_format):
     """
     Tests openContent in complexType derived by extension
     """
@@ -2248,11 +2391,12 @@ def test_s3_4_1v06_s3_4_1v06i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_4_1v05_s3_4_1v05i(mode, save_output):
+def test_s3_4_1v05_s3_4_1v05i(mode, save_output, output_format):
     """
     Tests openContent in complexType derived by restriction
     """
@@ -2263,11 +2407,12 @@ def test_s3_4_1v05_s3_4_1v05i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_4_1v04_s3_4_1v04i(mode, save_output):
+def test_s3_4_1v04_s3_4_1v04i(mode, save_output, output_format):
     """
     Tests defaultOpenContent in suffix mode
     """
@@ -2278,11 +2423,12 @@ def test_s3_4_1v04_s3_4_1v04i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_4_1v03_s3_4_1v03i(mode, save_output):
+def test_s3_4_1v03_s3_4_1v03i(mode, save_output, output_format):
     """
     Tests openContent for empty content model
     """
@@ -2293,11 +2439,12 @@ def test_s3_4_1v03_s3_4_1v03i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_4_1v02_s3_4_1v02i(mode, save_output):
+def test_s3_4_1v02_s3_4_1v02i(mode, save_output, output_format):
     """
     Tests defaultOpenContent for CT not empty
     """
@@ -2308,11 +2455,12 @@ def test_s3_4_1v02_s3_4_1v02i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_4_1v01_s3_4_1v01i(mode, save_output):
+def test_s3_4_1v01_s3_4_1v01i(mode, save_output, output_format):
     """
     Tests defaultOpenContent: appliesToEmpty="true"
     """
@@ -2323,11 +2471,12 @@ def test_s3_4_1v01_s3_4_1v01i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d6_gv04_d6_gv04i(mode, save_output):
+def test_d6_gv04_d6_gv04i(mode, save_output, output_format):
     """
     use of hyphens within square brackets in regular expressions [bc-]
     """
@@ -2338,11 +2487,12 @@ def test_d6_gv04_d6_gv04i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d6_gv03_d6_gv03i(mode, save_output):
+def test_d6_gv03_d6_gv03i(mode, save_output, output_format):
     """
     use of hyphens within square brackets in regular expressions [-abc]
     """
@@ -2353,11 +2503,12 @@ def test_d6_gv03_d6_gv03i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d6_gv02_d6_gv02i(mode, save_output):
+def test_d6_gv02_d6_gv02i(mode, save_output, output_format):
     """
     use of hyphens within square brackets in regular expressions [abc-[c]]
     """
@@ -2368,11 +2519,12 @@ def test_d6_gv02_d6_gv02i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d6_gv01_d6_gv01i(mode, save_output):
+def test_d6_gv01_d6_gv01i(mode, save_output, output_format):
     """
     use of hyphens within square brackets in regular expressions [a-c]
     """
@@ -2383,11 +2535,12 @@ def test_d6_gv01_d6_gv01i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_4_6v08_s3_4_6v08i(mode, save_output):
+def test_s3_4_6v08_s3_4_6v08i(mode, save_output, output_format):
     """
     Restrict xs:all to xs:sequence
     """
@@ -2398,11 +2551,12 @@ def test_s3_4_6v08_s3_4_6v08i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_4_6v05_s3_4_6v05i(mode, save_output):
+def test_s3_4_6v05_s3_4_6v05i(mode, save_output, output_format):
     """
     Tests maxOccurs > 1 for elements within all group
     """
@@ -2413,11 +2567,12 @@ def test_s3_4_6v05_s3_4_6v05i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_4_6v04_s3_4_6v04i(mode, save_output):
+def test_s3_4_6v04_s3_4_6v04i(mode, save_output, output_format):
     """
     Tests restriction of all group
     """
@@ -2428,11 +2583,12 @@ def test_s3_4_6v04_s3_4_6v04i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_4_6v01_s3_4_6v01i(mode, save_output):
+def test_s3_4_6v01_s3_4_6v01i(mode, save_output, output_format):
     """
     Wildcards are now allowed in xs:all
     """
@@ -2443,11 +2599,12 @@ def test_s3_4_6v01_s3_4_6v01i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d4_3_6v01_d4_3_6v01i(mode, save_output):
+def test_d4_3_6v01_d4_3_6v01i(mode, save_output, output_format):
     """
     when the value is collapse, literals consisting solely of whitespace
     characters are reduced to the empty string.
@@ -2459,11 +2616,12 @@ def test_d4_3_6v01_d4_3_6v01i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s2_2_2v03_s2_2_2v03i(mode, save_output):
+def test_s2_2_2v03_s2_2_2v03i(mode, save_output, output_format):
     """
     Tests for 1 substitution group head
     """
@@ -2474,11 +2632,12 @@ def test_s2_2_2v03_s2_2_2v03i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s2_2_2v02_s2_2_2v02i(mode, save_output):
+def test_s2_2_2v02_s2_2_2v02i(mode, save_output, output_format):
     """
     Tests multiple substitution group heads
     """
@@ -2489,11 +2648,12 @@ def test_s2_2_2v02_s2_2_2v02i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s2_2_2v01_s2_2_2v01i(mode, save_output):
+def test_s2_2_2v01_s2_2_2v01i(mode, save_output, output_format):
     """
     Tests abstract substitution group
     """
@@ -2504,11 +2664,12 @@ def test_s2_2_2v01_s2_2_2v01i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_target_namespace_005_target_namespace_005_2(mode, save_output):
+def test_target_namespace_005_target_namespace_005_2(mode, save_output, output_format):
     """
     This example demonstrates 'targetNamespace' attribute on xs:attribute
     schema component.
@@ -2520,11 +2681,12 @@ def test_target_namespace_005_target_namespace_005_2(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_target_namespace_004_target_namespace_004_2(mode, save_output):
+def test_target_namespace_004_target_namespace_004_2(mode, save_output, output_format):
     """
     Composition of XML schemas via xs:import to be able to achive
     hetrogeneous namespaced elements in "one" XML document.
@@ -2536,11 +2698,12 @@ def test_target_namespace_004_target_namespace_004_2(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d3_3_9v01_d3_3_9v01i(mode, save_output):
+def test_d3_3_9v01_d3_3_9v01i(mode, save_output, output_format):
     """
     1a: chameleon include on unqualified names in XPath expressions 1b: A
     calendar day with a very early timezone may be completely disjoint
@@ -2554,11 +2717,12 @@ def test_d3_3_9v01_d3_3_9v01i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d3_3_9v01_d3_3_9v01ai(mode, save_output):
+def test_d3_3_9v01_d3_3_9v01ai(mode, save_output, output_format):
     """
     1a: chameleon include on unqualified names in XPath expressions 1b: A
     calendar day with a very early timezone may be completely disjoint
@@ -2572,11 +2736,12 @@ def test_d3_3_9v01_d3_3_9v01ai(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d3_3_9v01_d3_3_9v01bi(mode, save_output):
+def test_d3_3_9v01_d3_3_9v01bi(mode, save_output, output_format):
     """
     1a: chameleon include on unqualified names in XPath expressions 1b: A
     calendar day with a very early timezone may be completely disjoint
@@ -2590,11 +2755,12 @@ def test_d3_3_9v01_d3_3_9v01bi(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d3_3_9v01_d3_3_9v01ci(mode, save_output):
+def test_d3_3_9v01_d3_3_9v01ci(mode, save_output, output_format):
     """
     1a: chameleon include on unqualified names in XPath expressions 1b: A
     calendar day with a very early timezone may be completely disjoint
@@ -2608,11 +2774,12 @@ def test_d3_3_9v01_d3_3_9v01ci(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_12v11_s3_12v01i(mode, save_output):
+def test_s3_12v11_s3_12v01i(mode, save_output, output_format):
     """
     Attribute declarations can now be marked {inheritable}.
     """
@@ -2623,11 +2790,12 @@ def test_s3_12v11_s3_12v01i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_12v10_s3_12v11i(mode, save_output):
+def test_s3_12v10_s3_12v11i(mode, save_output, output_format):
     """
     Basic type alternatives. Selection of the alternative type is
     dertermined by evaluating a Constructor function and a Cast Expression
@@ -2640,11 +2808,12 @@ def test_s3_12v10_s3_12v11i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_12v09_s3_12v09i(mode, save_output):
+def test_s3_12v09_s3_12v09i(mode, save_output, output_format):
     """
     Basic type alternatives.
     """
@@ -2655,11 +2824,12 @@ def test_s3_12v09_s3_12v09i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_12v08_s3_12v08i(mode, save_output):
+def test_s3_12v08_s3_12v08i(mode, save_output, output_format):
     """
     Basic type alternatives. Selection of the alternative type is
     dertermined by evaluating an And operation on the presence of
@@ -2672,11 +2842,12 @@ def test_s3_12v08_s3_12v08i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_12v07_s3_12v07i(mode, save_output):
+def test_s3_12v07_s3_12v07i(mode, save_output, output_format):
     """
     Basic type alternatives. Selection of the alternative type is
     dertermined by evaluating a Constructor function on attribute values
@@ -2688,11 +2859,12 @@ def test_s3_12v07_s3_12v07i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_12v06_s3_12v06i(mode, save_output):
+def test_s3_12v06_s3_12v06i(mode, save_output, output_format):
     """
     Basic type alternatives. Selection of the alternative type is
     dertermined by evaluating a path And and Or expressions with a
@@ -2705,11 +2877,12 @@ def test_s3_12v06_s3_12v06i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_12v05_s3_12v05i(mode, save_output):
+def test_s3_12v05_s3_12v05i(mode, save_output, output_format):
     """
     Basic type alternatives. Selection of the alternative type is
     dertermined by evaluating a path And expression with a comparator
@@ -2722,11 +2895,12 @@ def test_s3_12v05_s3_12v05i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_12v04_s3_12v04i(mode, save_output):
+def test_s3_12v04_s3_12v04i(mode, save_output, output_format):
     """
     Basic type alternatives. For the first alternative type, the attribute
     whose value is to be selected by the alternative type's {test}
@@ -2744,11 +2918,12 @@ def test_s3_12v04_s3_12v04i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_12v03_s3_12v03i(mode, save_output):
+def test_s3_12v03_s3_12v03i(mode, save_output, output_format):
     """
     Basic type alternatives. The alternative type extends the base
     element's type. More that one alternative type is present. One of the
@@ -2761,11 +2936,12 @@ def test_s3_12v03_s3_12v03i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_12v02_s3_12v02i(mode, save_output):
+def test_s3_12v02_s3_12v02i(mode, save_output, output_format):
     """
     Basic type alternatives. alternative element with a complexType child
     that is derived from the base element type and no type attribute More
@@ -2779,11 +2955,12 @@ def test_s3_12v02_s3_12v02i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_12v01_s3_12v01i(mode, save_output):
+def test_s3_12v01_s3_12v01i(mode, save_output, output_format):
     """
     Basic type alternatives. The alternative type extends the base
     element's type. More that one alternative type is present. One of the
@@ -2796,11 +2973,12 @@ def test_s3_12v01_s3_12v01i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_type_alternatives_006_type_alternatives_006_2(mode, save_output):
+def test_type_alternatives_006_type_alternatives_006_2(mode, save_output, output_format):
     """
     Demonstrates XML Schema 1.1 type-alternatives.
     """
@@ -2811,11 +2989,12 @@ def test_type_alternatives_006_type_alternatives_006_2(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_type_alternatives_006_type_alternatives_006_3(mode, save_output):
+def test_type_alternatives_006_type_alternatives_006_3(mode, save_output, output_format):
     """
     Demonstrates XML Schema 1.1 type-alternatives.
     """
@@ -2826,11 +3005,12 @@ def test_type_alternatives_006_type_alternatives_006_3(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_type_alternatives_005_type_alternatives_005_2(mode, save_output):
+def test_type_alternatives_005_type_alternatives_005_2(mode, save_output, output_format):
     """
     Demonstrates XML Schema 1.1 type-alternatives. Using inheritable
     attributes in this example.
@@ -2842,11 +3022,12 @@ def test_type_alternatives_005_type_alternatives_005_2(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_type_alternatives_004_type_alternatives_004_2(mode, save_output):
+def test_type_alternatives_004_type_alternatives_004_2(mode, save_output, output_format):
     """
     Demonstrates XML Schema 1.1 type-alternatives. Using inheritable
     attributes and assertions along with type-alternatives.
@@ -2858,11 +3039,12 @@ def test_type_alternatives_004_type_alternatives_004_2(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_type_alternatives_003_type_alternatives_003_2(mode, save_output):
+def test_type_alternatives_003_type_alternatives_003_2(mode, save_output, output_format):
     """
     Demonstrates XML Schema 1.1 type-alternatives. In this example, schema
     type definition's are provided as children of xs:alternative
@@ -2875,11 +3057,12 @@ def test_type_alternatives_003_type_alternatives_003_2(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_type_alternatives_002_type_alternatives_002_2(mode, save_output):
+def test_type_alternatives_002_type_alternatives_002_2(mode, save_output, output_format):
     """
     Demonstrates XML Schema 1.1 type-alternatives.
     """
@@ -2890,11 +3073,12 @@ def test_type_alternatives_002_type_alternatives_002_2(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_type_alternatives_001_type_alternatives_001_2(mode, save_output):
+def test_type_alternatives_001_type_alternatives_001_2(mode, save_output, output_format):
     """
     Demonstrates XML Schema 1.1 type-alternatives.
     """
@@ -2905,11 +3089,12 @@ def test_type_alternatives_001_type_alternatives_001_2(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_16_2v07_s3_16_2v07i(mode, save_output):
+def test_s3_16_2v07_s3_16_2v07i(mode, save_output, output_format):
     """
     xsi:type used to name a member of a restricted union type
     """
@@ -2920,11 +3105,12 @@ def test_s3_16_2v07_s3_16_2v07i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_16_2v06_s3_16_2v06i(mode, save_output):
+def test_s3_16_2v06_s3_16_2v06i(mode, save_output, output_format):
     """
     Union of unions
     """
@@ -2935,11 +3121,12 @@ def test_s3_16_2v06_s3_16_2v06i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_16_2v05_s3_16_2v05i(mode, save_output):
+def test_s3_16_2v05_s3_16_2v05i(mode, save_output, output_format):
     """
     xsi:type used to name a member of a restricted union type
     """
@@ -2950,11 +3137,12 @@ def test_s3_16_2v05_s3_16_2v05i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_16_2v04_s3_16_2v04i(mode, save_output):
+def test_s3_16_2v04_s3_16_2v04i(mode, save_output, output_format):
     """
     Types derived by restriction from a union type
     """
@@ -2965,11 +3153,12 @@ def test_s3_16_2v04_s3_16_2v04i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_16_2v03_s3_16_2v03i(mode, save_output):
+def test_s3_16_2v03_s3_16_2v03i(mode, save_output, output_format):
     """
     tests restriction facet in intervening union
     """
@@ -2980,11 +3169,12 @@ def test_s3_16_2v03_s3_16_2v03i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_16_2v02_s3_16_2v02i(mode, save_output):
+def test_s3_16_2v02_s3_16_2v02i(mode, save_output, output_format):
     """
     Types derived by restriction from a union type
     """
@@ -2995,11 +3185,12 @@ def test_s3_16_2v02_s3_16_2v02i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_16_2v01_s3_16_2v01i(mode, save_output):
+def test_s3_16_2v01_s3_16_2v01i(mode, save_output, output_format):
     """
     tests restriction facet in intervening union
     """
@@ -3010,11 +3201,12 @@ def test_s3_16_2v01_s3_16_2v01i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d3_3_17v01_d3_3_17v01i(mode, save_output):
+def test_d3_3_17v01_d3_3_17v01i(mode, save_output, output_format):
     """
     test Units of length for base64Binary datatype.
     """
@@ -3025,11 +3217,12 @@ def test_d3_3_17v01_d3_3_17v01i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d3_3_16v01_d3_3_16v01i(mode, save_output):
+def test_d3_3_16v01_d3_3_16v01i(mode, save_output, output_format):
     """
     test Units of length for hexBinary datatype.
     """
@@ -3040,11 +3233,12 @@ def test_d3_3_16v01_d3_3_16v01i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d3_4_24v01_d3_4_24v01i(mode, save_output):
+def test_d3_4_24v01_d3_4_24v01i(mode, save_output, output_format):
     """
     The possibility of a leading sign is allowed for unsignedByte.
     """
@@ -3055,11 +3249,12 @@ def test_d3_4_24v01_d3_4_24v01i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d3_4_23v01_d3_4_23v01i(mode, save_output):
+def test_d3_4_23v01_d3_4_23v01i(mode, save_output, output_format):
     """
     The possibility of a leading sign is allowed for unsignedInt.
     """
@@ -3070,11 +3265,12 @@ def test_d3_4_23v01_d3_4_23v01i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d3_4_22v01_d3_4_22v01i(mode, save_output):
+def test_d3_4_22v01_d3_4_22v01i(mode, save_output, output_format):
     """
     The possibility of a leading sign is allowed for unsignedInt.
     """
@@ -3085,11 +3281,12 @@ def test_d3_4_22v01_d3_4_22v01i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d3_4_21v01_d3_4_21v01i(mode, save_output):
+def test_d3_4_21v01_d3_4_21v01i(mode, save_output, output_format):
     """
     test unsignedLong
     """
@@ -3100,11 +3297,12 @@ def test_d3_4_21v01_d3_4_21v01i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_vc_009_vc_009_2(mode, save_output):
+def test_vc_009_vc_009_2(mode, save_output, output_format):
 
     assert_bindings(
         schema="ibmData/mixed/VC/test6.xsd",
@@ -3113,11 +3311,12 @@ def test_vc_009_vc_009_2(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_vc_008_vc_008_2(mode, save_output):
+def test_vc_008_vc_008_2(mode, save_output, output_format):
 
     assert_bindings(
         schema="ibmData/mixed/VC/test5_1.xsd",
@@ -3126,11 +3325,12 @@ def test_vc_008_vc_008_2(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_vc_007_vc_007_3(mode, save_output):
+def test_vc_007_vc_007_3(mode, save_output, output_format):
 
     assert_bindings(
         schema="ibmData/mixed/VC/test4.xsd",
@@ -3139,11 +3339,12 @@ def test_vc_007_vc_007_3(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_vc_001_vc_001_2(mode, save_output):
+def test_vc_001_vc_001_2(mode, save_output, output_format):
 
     assert_bindings(
         schema="ibmData/mixed/VC/test1.xsd",
@@ -3152,11 +3353,12 @@ def test_vc_001_vc_001_2(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_10_1v07_s3_10_1v07i(mode, save_output):
+def test_s3_10_1v07_s3_10_1v07i(mode, save_output, output_format):
     """
     skip wildcards now excluded from EDC constraint
     """
@@ -3167,11 +3369,12 @@ def test_s3_10_1v07_s3_10_1v07i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_10_1v06_s3_10_1v06i(mode, save_output):
+def test_s3_10_1v06_s3_10_1v06i(mode, save_output, output_format):
     """
     the keyword ##definedSibling can be used to exclude all elements
     explicitly mentioned in a content model (and all elements
@@ -3184,11 +3387,12 @@ def test_s3_10_1v06_s3_10_1v06i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_10_1v05_s3_10_1v05i(mode, save_output):
+def test_s3_10_1v05_s3_10_1v05i(mode, save_output, output_format):
     """
     the keyword ##definedSibling can be used to exclude all elements
     explicitly mentioned in a content model
@@ -3200,11 +3404,12 @@ def test_s3_10_1v05_s3_10_1v05i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_10_1v04_s3_10_1v04i(mode, save_output):
+def test_s3_10_1v04_s3_10_1v04i(mode, save_output, output_format):
     """
     Tests weakened wildcard (tests whether error occurs on violation of
     UPA)
@@ -3216,11 +3421,12 @@ def test_s3_10_1v04_s3_10_1v04i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_10_1v03_s3_10_1v03i(mode, save_output):
+def test_s3_10_1v03_s3_10_1v03i(mode, save_output, output_format):
     """
     Tests namespace attribute in wildcard
     """
@@ -3231,11 +3437,12 @@ def test_s3_10_1v03_s3_10_1v03i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_10_1v02_s3_10_1v02i(mode, save_output):
+def test_s3_10_1v02_s3_10_1v02i(mode, save_output, output_format):
     """
     Tests notQName and notNamespace list
     """
@@ -3246,11 +3453,12 @@ def test_s3_10_1v02_s3_10_1v02i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_10_1v01_s3_10_1v01i(mode, save_output):
+def test_s3_10_1v01_s3_10_1v01i(mode, save_output, output_format):
     """
     Tests notQName="##defined"
     """
@@ -3261,11 +3469,12 @@ def test_s3_10_1v01_s3_10_1v01i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d3_4_6v07_d3_4_6v07i(mode, save_output):
+def test_d3_4_6v07_d3_4_6v07i(mode, save_output, output_format):
     """
     Use of newly allowed name characters in names of schema components
     "all"
@@ -3277,11 +3486,12 @@ def test_d3_4_6v07_d3_4_6v07i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d3_4_6v06_d3_4_6v06i(mode, save_output):
+def test_d3_4_6v06_d3_4_6v06i(mode, save_output, output_format):
     """
     Use of newly allowed name characters in names of schema components
     "choice"
@@ -3293,11 +3503,12 @@ def test_d3_4_6v06_d3_4_6v06i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d3_4_6v05_d3_4_6v05i(mode, save_output):
+def test_d3_4_6v05_d3_4_6v05i(mode, save_output, output_format):
     """
     Use of newly allowed name characters in names of schema components
     "sequence"
@@ -3309,11 +3520,12 @@ def test_d3_4_6v05_d3_4_6v05i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d3_4_6v04_d3_4_6v04i(mode, save_output):
+def test_d3_4_6v04_d3_4_6v04i(mode, save_output, output_format):
     r"""
     effect of \i in regular expressions
     """
@@ -3324,11 +3536,12 @@ def test_d3_4_6v04_d3_4_6v04i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d3_4_6v03_d3_4_6v03i(mode, save_output):
+def test_d3_4_6v03_d3_4_6v03i(mode, save_output, output_format):
     r"""
     effect of \i in regular expressions
     """
@@ -3339,11 +3552,12 @@ def test_d3_4_6v03_d3_4_6v03i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d3_4_6v02_d3_4_6v02i(mode, save_output):
+def test_d3_4_6v02_d3_4_6v02i(mode, save_output, output_format):
     """
     value space of xs:Name and related types (test NCName)
     """
@@ -3354,11 +3568,12 @@ def test_d3_4_6v02_d3_4_6v02i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d3_4_6v01_d3_4_6v01i(mode, save_output):
+def test_d3_4_6v01_d3_4_6v01i(mode, save_output, output_format):
     """
     value space of xs:Name and related types (test Name)
     """
@@ -3369,11 +3584,12 @@ def test_d3_4_6v01_d3_4_6v01i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_11_2v06_s3_11_2v06i(mode, save_output):
+def test_s3_11_2v06_s3_11_2v06i(mode, save_output, output_format):
     """
     key/keyref selection expressions_2
     """
@@ -3384,11 +3600,12 @@ def test_s3_11_2v06_s3_11_2v06i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_11_2v05_s3_11_2v05i(mode, save_output):
+def test_s3_11_2v05_s3_11_2v05i(mode, save_output, output_format):
     """
     key/keyref selection expressions_1
     """
@@ -3399,11 +3616,12 @@ def test_s3_11_2v05_s3_11_2v05i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_11_2v04_s3_11_2v04i(mode, save_output):
+def test_s3_11_2v04_s3_11_2v04i(mode, save_output, output_format):
     """
     key selection expressions_2
     """
@@ -3414,11 +3632,12 @@ def test_s3_11_2v04_s3_11_2v04i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_11_2v03_s3_11_2v03i(mode, save_output):
+def test_s3_11_2v03_s3_11_2v03i(mode, save_output, output_format):
     """
     key selection expressions_1
     """
@@ -3429,11 +3648,12 @@ def test_s3_11_2v03_s3_11_2v03i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_11_2v02_s3_11_2v02i(mode, save_output):
+def test_s3_11_2v02_s3_11_2v02i(mode, save_output, output_format):
     """
     unique selection expressions 2
     """
@@ -3444,11 +3664,12 @@ def test_s3_11_2v02_s3_11_2v02i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_s3_11_2v01_s3_11_2v01i(mode, save_output):
+def test_s3_11_2v01_s3_11_2v01i(mode, save_output, output_format):
     """
     unique selection expressions
     """
@@ -3459,11 +3680,12 @@ def test_s3_11_2v01_s3_11_2v01i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d3_4_26v06_d3_4_26v06i(mode, save_output):
+def test_d3_4_26v06_d3_4_26v06i(mode, save_output, output_format):
     """
     Pattern is a valid facet for yearMonthDuration
     """
@@ -3474,11 +3696,12 @@ def test_d3_4_26v06_d3_4_26v06i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d3_4_26v05_d3_4_26v05i(mode, save_output):
+def test_d3_4_26v05_d3_4_26v05i(mode, save_output, output_format):
     """
     Additional tests for yearMonth Duration and its facets with (min|max)
     (Inclusive|Exclusive) constraint checks in derivations of simpleTypes
@@ -3490,11 +3713,12 @@ def test_d3_4_26v05_d3_4_26v05i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d3_4_26v04_d3_4_26v04i(mode, save_output):
+def test_d3_4_26v04_d3_4_26v04i(mode, save_output, output_format):
     """
     Tests the simpleType yearMonthDuration and its facets with (min|max)
     (Inclusive|Exclusive) constraint checks in derivations of simpleTypes
@@ -3506,11 +3730,12 @@ def test_d3_4_26v04_d3_4_26v04i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d3_4_26v03_d3_4_26v03i(mode, save_output):
+def test_d3_4_26v03_d3_4_26v03i(mode, save_output, output_format):
     """
     Tests yearMonthDuration used in unions
     """
@@ -3521,11 +3746,12 @@ def test_d3_4_26v03_d3_4_26v03i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d3_4_26v02_d3_4_26v02i(mode, save_output):
+def test_d3_4_26v02_d3_4_26v02i(mode, save_output, output_format):
     """
     Tests the simpleType decimal and its facets and its use in attributes
     """
@@ -3536,11 +3762,12 @@ def test_d3_4_26v02_d3_4_26v02i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_d3_4_26v01_d3_4_26v01i(mode, save_output):
+def test_d3_4_26v01_d3_4_26v01i(mode, save_output, output_format):
     """
     Tests the simpleType yearMonthDuration and its facets and its use in
     elements
@@ -3552,5 +3779,6 @@ def test_d3_4_26v01_d3_4_26v01i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )

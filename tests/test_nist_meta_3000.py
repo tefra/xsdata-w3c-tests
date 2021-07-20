@@ -1,7 +1,7 @@
 from tests.utils import assert_bindings
 
 
-def test_list_g_month_enumeration_4_nistxml_sv_iv_list_g_month_enumeration_5_1(mode, save_output):
+def test_list_g_month_enumeration_4_nistxml_sv_iv_list_g_month_enumeration_5_1(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet enumeration.
     """
@@ -12,11 +12,12 @@ def test_list_g_month_enumeration_4_nistxml_sv_iv_list_g_month_enumeration_5_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_enumeration_4_nistxml_sv_iv_list_g_month_enumeration_5_2(mode, save_output):
+def test_list_g_month_enumeration_4_nistxml_sv_iv_list_g_month_enumeration_5_2(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet enumeration.
     """
@@ -27,11 +28,12 @@ def test_list_g_month_enumeration_4_nistxml_sv_iv_list_g_month_enumeration_5_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_enumeration_4_nistxml_sv_iv_list_g_month_enumeration_5_3(mode, save_output):
+def test_list_g_month_enumeration_4_nistxml_sv_iv_list_g_month_enumeration_5_3(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet enumeration.
     """
@@ -42,11 +44,12 @@ def test_list_g_month_enumeration_4_nistxml_sv_iv_list_g_month_enumeration_5_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_enumeration_4_nistxml_sv_iv_list_g_month_enumeration_5_4(mode, save_output):
+def test_list_g_month_enumeration_4_nistxml_sv_iv_list_g_month_enumeration_5_4(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet enumeration.
     """
@@ -57,11 +60,12 @@ def test_list_g_month_enumeration_4_nistxml_sv_iv_list_g_month_enumeration_5_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_enumeration_4_nistxml_sv_iv_list_g_month_enumeration_5_5(mode, save_output):
+def test_list_g_month_enumeration_4_nistxml_sv_iv_list_g_month_enumeration_5_5(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet enumeration.
     """
@@ -72,11 +76,12 @@ def test_list_g_month_enumeration_4_nistxml_sv_iv_list_g_month_enumeration_5_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_enumeration_3_nistxml_sv_iv_list_g_month_enumeration_4_1(mode, save_output):
+def test_list_g_month_enumeration_3_nistxml_sv_iv_list_g_month_enumeration_4_1(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet enumeration.
     """
@@ -87,11 +92,12 @@ def test_list_g_month_enumeration_3_nistxml_sv_iv_list_g_month_enumeration_4_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_enumeration_3_nistxml_sv_iv_list_g_month_enumeration_4_2(mode, save_output):
+def test_list_g_month_enumeration_3_nistxml_sv_iv_list_g_month_enumeration_4_2(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet enumeration.
     """
@@ -102,11 +108,12 @@ def test_list_g_month_enumeration_3_nistxml_sv_iv_list_g_month_enumeration_4_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_enumeration_3_nistxml_sv_iv_list_g_month_enumeration_4_3(mode, save_output):
+def test_list_g_month_enumeration_3_nistxml_sv_iv_list_g_month_enumeration_4_3(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet enumeration.
     """
@@ -117,11 +124,12 @@ def test_list_g_month_enumeration_3_nistxml_sv_iv_list_g_month_enumeration_4_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_enumeration_3_nistxml_sv_iv_list_g_month_enumeration_4_4(mode, save_output):
+def test_list_g_month_enumeration_3_nistxml_sv_iv_list_g_month_enumeration_4_4(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet enumeration.
     """
@@ -132,11 +140,12 @@ def test_list_g_month_enumeration_3_nistxml_sv_iv_list_g_month_enumeration_4_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_enumeration_3_nistxml_sv_iv_list_g_month_enumeration_4_5(mode, save_output):
+def test_list_g_month_enumeration_3_nistxml_sv_iv_list_g_month_enumeration_4_5(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet enumeration.
     """
@@ -147,11 +156,12 @@ def test_list_g_month_enumeration_3_nistxml_sv_iv_list_g_month_enumeration_4_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_enumeration_2_nistxml_sv_iv_list_g_month_enumeration_3_1(mode, save_output):
+def test_list_g_month_enumeration_2_nistxml_sv_iv_list_g_month_enumeration_3_1(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet enumeration.
     """
@@ -162,11 +172,12 @@ def test_list_g_month_enumeration_2_nistxml_sv_iv_list_g_month_enumeration_3_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_enumeration_2_nistxml_sv_iv_list_g_month_enumeration_3_2(mode, save_output):
+def test_list_g_month_enumeration_2_nistxml_sv_iv_list_g_month_enumeration_3_2(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet enumeration.
     """
@@ -177,11 +188,12 @@ def test_list_g_month_enumeration_2_nistxml_sv_iv_list_g_month_enumeration_3_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_enumeration_2_nistxml_sv_iv_list_g_month_enumeration_3_3(mode, save_output):
+def test_list_g_month_enumeration_2_nistxml_sv_iv_list_g_month_enumeration_3_3(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet enumeration.
     """
@@ -192,11 +204,12 @@ def test_list_g_month_enumeration_2_nistxml_sv_iv_list_g_month_enumeration_3_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_enumeration_2_nistxml_sv_iv_list_g_month_enumeration_3_4(mode, save_output):
+def test_list_g_month_enumeration_2_nistxml_sv_iv_list_g_month_enumeration_3_4(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet enumeration.
     """
@@ -207,11 +220,12 @@ def test_list_g_month_enumeration_2_nistxml_sv_iv_list_g_month_enumeration_3_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_enumeration_2_nistxml_sv_iv_list_g_month_enumeration_3_5(mode, save_output):
+def test_list_g_month_enumeration_2_nistxml_sv_iv_list_g_month_enumeration_3_5(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet enumeration.
     """
@@ -222,11 +236,12 @@ def test_list_g_month_enumeration_2_nistxml_sv_iv_list_g_month_enumeration_3_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_enumeration_1_nistxml_sv_iv_list_g_month_enumeration_2_1(mode, save_output):
+def test_list_g_month_enumeration_1_nistxml_sv_iv_list_g_month_enumeration_2_1(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet enumeration.
     """
@@ -237,11 +252,12 @@ def test_list_g_month_enumeration_1_nistxml_sv_iv_list_g_month_enumeration_2_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_enumeration_1_nistxml_sv_iv_list_g_month_enumeration_2_2(mode, save_output):
+def test_list_g_month_enumeration_1_nistxml_sv_iv_list_g_month_enumeration_2_2(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet enumeration.
     """
@@ -252,11 +268,12 @@ def test_list_g_month_enumeration_1_nistxml_sv_iv_list_g_month_enumeration_2_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_enumeration_1_nistxml_sv_iv_list_g_month_enumeration_2_3(mode, save_output):
+def test_list_g_month_enumeration_1_nistxml_sv_iv_list_g_month_enumeration_2_3(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet enumeration.
     """
@@ -267,11 +284,12 @@ def test_list_g_month_enumeration_1_nistxml_sv_iv_list_g_month_enumeration_2_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_enumeration_1_nistxml_sv_iv_list_g_month_enumeration_2_4(mode, save_output):
+def test_list_g_month_enumeration_1_nistxml_sv_iv_list_g_month_enumeration_2_4(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet enumeration.
     """
@@ -282,11 +300,12 @@ def test_list_g_month_enumeration_1_nistxml_sv_iv_list_g_month_enumeration_2_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_enumeration_1_nistxml_sv_iv_list_g_month_enumeration_2_5(mode, save_output):
+def test_list_g_month_enumeration_1_nistxml_sv_iv_list_g_month_enumeration_2_5(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet enumeration.
     """
@@ -297,11 +316,12 @@ def test_list_g_month_enumeration_1_nistxml_sv_iv_list_g_month_enumeration_2_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_enumeration_nistxml_sv_iv_list_g_month_enumeration_1_1(mode, save_output):
+def test_list_g_month_enumeration_nistxml_sv_iv_list_g_month_enumeration_1_1(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet enumeration.
     """
@@ -312,11 +332,12 @@ def test_list_g_month_enumeration_nistxml_sv_iv_list_g_month_enumeration_1_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_enumeration_nistxml_sv_iv_list_g_month_enumeration_1_2(mode, save_output):
+def test_list_g_month_enumeration_nistxml_sv_iv_list_g_month_enumeration_1_2(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet enumeration.
     """
@@ -327,11 +348,12 @@ def test_list_g_month_enumeration_nistxml_sv_iv_list_g_month_enumeration_1_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_enumeration_nistxml_sv_iv_list_g_month_enumeration_1_3(mode, save_output):
+def test_list_g_month_enumeration_nistxml_sv_iv_list_g_month_enumeration_1_3(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet enumeration.
     """
@@ -342,11 +364,12 @@ def test_list_g_month_enumeration_nistxml_sv_iv_list_g_month_enumeration_1_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_enumeration_nistxml_sv_iv_list_g_month_enumeration_1_4(mode, save_output):
+def test_list_g_month_enumeration_nistxml_sv_iv_list_g_month_enumeration_1_4(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet enumeration.
     """
@@ -357,11 +380,12 @@ def test_list_g_month_enumeration_nistxml_sv_iv_list_g_month_enumeration_1_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_enumeration_nistxml_sv_iv_list_g_month_enumeration_1_5(mode, save_output):
+def test_list_g_month_enumeration_nistxml_sv_iv_list_g_month_enumeration_1_5(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet enumeration.
     """
@@ -372,11 +396,12 @@ def test_list_g_month_enumeration_nistxml_sv_iv_list_g_month_enumeration_1_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_pattern_4_nistxml_sv_iv_list_g_month_pattern_5_1(mode, save_output):
+def test_list_g_month_pattern_4_nistxml_sv_iv_list_g_month_pattern_5_1(mode, save_output, output_format):
     r"""
     Type list/gMonth is restricted by facet pattern with value --1\d --0\d
     --1\d --\d8 --\d8 --\d7 --0\d --\d8.
@@ -388,11 +413,12 @@ def test_list_g_month_pattern_4_nistxml_sv_iv_list_g_month_pattern_5_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_pattern_4_nistxml_sv_iv_list_g_month_pattern_5_2(mode, save_output):
+def test_list_g_month_pattern_4_nistxml_sv_iv_list_g_month_pattern_5_2(mode, save_output, output_format):
     r"""
     Type list/gMonth is restricted by facet pattern with value --1\d --0\d
     --1\d --\d8 --\d8 --\d7 --0\d --\d8.
@@ -404,11 +430,12 @@ def test_list_g_month_pattern_4_nistxml_sv_iv_list_g_month_pattern_5_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_pattern_4_nistxml_sv_iv_list_g_month_pattern_5_3(mode, save_output):
+def test_list_g_month_pattern_4_nistxml_sv_iv_list_g_month_pattern_5_3(mode, save_output, output_format):
     r"""
     Type list/gMonth is restricted by facet pattern with value --1\d --0\d
     --1\d --\d8 --\d8 --\d7 --0\d --\d8.
@@ -420,11 +447,12 @@ def test_list_g_month_pattern_4_nistxml_sv_iv_list_g_month_pattern_5_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_pattern_4_nistxml_sv_iv_list_g_month_pattern_5_4(mode, save_output):
+def test_list_g_month_pattern_4_nistxml_sv_iv_list_g_month_pattern_5_4(mode, save_output, output_format):
     r"""
     Type list/gMonth is restricted by facet pattern with value --1\d --0\d
     --1\d --\d8 --\d8 --\d7 --0\d --\d8.
@@ -436,11 +464,12 @@ def test_list_g_month_pattern_4_nistxml_sv_iv_list_g_month_pattern_5_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_pattern_4_nistxml_sv_iv_list_g_month_pattern_5_5(mode, save_output):
+def test_list_g_month_pattern_4_nistxml_sv_iv_list_g_month_pattern_5_5(mode, save_output, output_format):
     r"""
     Type list/gMonth is restricted by facet pattern with value --1\d --0\d
     --1\d --\d8 --\d8 --\d7 --0\d --\d8.
@@ -452,11 +481,12 @@ def test_list_g_month_pattern_4_nistxml_sv_iv_list_g_month_pattern_5_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_pattern_3_nistxml_sv_iv_list_g_month_pattern_4_1(mode, save_output):
+def test_list_g_month_pattern_3_nistxml_sv_iv_list_g_month_pattern_4_1(mode, save_output, output_format):
     r"""
     Type list/gMonth is restricted by facet pattern with value --\d1 --\d0
     --\d1 --0\d --\d9 --\d2 --\d1 --\d3 --1\d.
@@ -468,11 +498,12 @@ def test_list_g_month_pattern_3_nistxml_sv_iv_list_g_month_pattern_4_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_pattern_3_nistxml_sv_iv_list_g_month_pattern_4_2(mode, save_output):
+def test_list_g_month_pattern_3_nistxml_sv_iv_list_g_month_pattern_4_2(mode, save_output, output_format):
     r"""
     Type list/gMonth is restricted by facet pattern with value --\d1 --\d0
     --\d1 --0\d --\d9 --\d2 --\d1 --\d3 --1\d.
@@ -484,11 +515,12 @@ def test_list_g_month_pattern_3_nistxml_sv_iv_list_g_month_pattern_4_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_pattern_3_nistxml_sv_iv_list_g_month_pattern_4_3(mode, save_output):
+def test_list_g_month_pattern_3_nistxml_sv_iv_list_g_month_pattern_4_3(mode, save_output, output_format):
     r"""
     Type list/gMonth is restricted by facet pattern with value --\d1 --\d0
     --\d1 --0\d --\d9 --\d2 --\d1 --\d3 --1\d.
@@ -500,11 +532,12 @@ def test_list_g_month_pattern_3_nistxml_sv_iv_list_g_month_pattern_4_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_pattern_3_nistxml_sv_iv_list_g_month_pattern_4_4(mode, save_output):
+def test_list_g_month_pattern_3_nistxml_sv_iv_list_g_month_pattern_4_4(mode, save_output, output_format):
     r"""
     Type list/gMonth is restricted by facet pattern with value --\d1 --\d0
     --\d1 --0\d --\d9 --\d2 --\d1 --\d3 --1\d.
@@ -516,11 +549,12 @@ def test_list_g_month_pattern_3_nistxml_sv_iv_list_g_month_pattern_4_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_pattern_3_nistxml_sv_iv_list_g_month_pattern_4_5(mode, save_output):
+def test_list_g_month_pattern_3_nistxml_sv_iv_list_g_month_pattern_4_5(mode, save_output, output_format):
     r"""
     Type list/gMonth is restricted by facet pattern with value --\d1 --\d0
     --\d1 --0\d --\d9 --\d2 --\d1 --\d3 --1\d.
@@ -532,11 +566,12 @@ def test_list_g_month_pattern_3_nistxml_sv_iv_list_g_month_pattern_4_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_pattern_2_nistxml_sv_iv_list_g_month_pattern_3_1(mode, save_output):
+def test_list_g_month_pattern_2_nistxml_sv_iv_list_g_month_pattern_3_1(mode, save_output, output_format):
     r"""
     Type list/gMonth is restricted by facet pattern with value --1\d --0\d
     --1\d --0\d --0\d --0\d --\d8.
@@ -548,11 +583,12 @@ def test_list_g_month_pattern_2_nistxml_sv_iv_list_g_month_pattern_3_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_pattern_2_nistxml_sv_iv_list_g_month_pattern_3_2(mode, save_output):
+def test_list_g_month_pattern_2_nistxml_sv_iv_list_g_month_pattern_3_2(mode, save_output, output_format):
     r"""
     Type list/gMonth is restricted by facet pattern with value --1\d --0\d
     --1\d --0\d --0\d --0\d --\d8.
@@ -564,11 +600,12 @@ def test_list_g_month_pattern_2_nistxml_sv_iv_list_g_month_pattern_3_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_pattern_2_nistxml_sv_iv_list_g_month_pattern_3_3(mode, save_output):
+def test_list_g_month_pattern_2_nistxml_sv_iv_list_g_month_pattern_3_3(mode, save_output, output_format):
     r"""
     Type list/gMonth is restricted by facet pattern with value --1\d --0\d
     --1\d --0\d --0\d --0\d --\d8.
@@ -580,11 +617,12 @@ def test_list_g_month_pattern_2_nistxml_sv_iv_list_g_month_pattern_3_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_pattern_2_nistxml_sv_iv_list_g_month_pattern_3_4(mode, save_output):
+def test_list_g_month_pattern_2_nistxml_sv_iv_list_g_month_pattern_3_4(mode, save_output, output_format):
     r"""
     Type list/gMonth is restricted by facet pattern with value --1\d --0\d
     --1\d --0\d --0\d --0\d --\d8.
@@ -596,11 +634,12 @@ def test_list_g_month_pattern_2_nistxml_sv_iv_list_g_month_pattern_3_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_pattern_2_nistxml_sv_iv_list_g_month_pattern_3_5(mode, save_output):
+def test_list_g_month_pattern_2_nistxml_sv_iv_list_g_month_pattern_3_5(mode, save_output, output_format):
     r"""
     Type list/gMonth is restricted by facet pattern with value --1\d --0\d
     --1\d --0\d --0\d --0\d --\d8.
@@ -612,11 +651,12 @@ def test_list_g_month_pattern_2_nistxml_sv_iv_list_g_month_pattern_3_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_pattern_1_nistxml_sv_iv_list_g_month_pattern_2_1(mode, save_output):
+def test_list_g_month_pattern_1_nistxml_sv_iv_list_g_month_pattern_2_1(mode, save_output, output_format):
     r"""
     Type list/gMonth is restricted by facet pattern with value --1\d --1\d
     --1\d --1\d --0\d --\d3.
@@ -628,11 +668,12 @@ def test_list_g_month_pattern_1_nistxml_sv_iv_list_g_month_pattern_2_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_pattern_1_nistxml_sv_iv_list_g_month_pattern_2_2(mode, save_output):
+def test_list_g_month_pattern_1_nistxml_sv_iv_list_g_month_pattern_2_2(mode, save_output, output_format):
     r"""
     Type list/gMonth is restricted by facet pattern with value --1\d --1\d
     --1\d --1\d --0\d --\d3.
@@ -644,11 +685,12 @@ def test_list_g_month_pattern_1_nistxml_sv_iv_list_g_month_pattern_2_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_pattern_1_nistxml_sv_iv_list_g_month_pattern_2_3(mode, save_output):
+def test_list_g_month_pattern_1_nistxml_sv_iv_list_g_month_pattern_2_3(mode, save_output, output_format):
     r"""
     Type list/gMonth is restricted by facet pattern with value --1\d --1\d
     --1\d --1\d --0\d --\d3.
@@ -660,11 +702,12 @@ def test_list_g_month_pattern_1_nistxml_sv_iv_list_g_month_pattern_2_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_pattern_1_nistxml_sv_iv_list_g_month_pattern_2_4(mode, save_output):
+def test_list_g_month_pattern_1_nistxml_sv_iv_list_g_month_pattern_2_4(mode, save_output, output_format):
     r"""
     Type list/gMonth is restricted by facet pattern with value --1\d --1\d
     --1\d --1\d --0\d --\d3.
@@ -676,11 +719,12 @@ def test_list_g_month_pattern_1_nistxml_sv_iv_list_g_month_pattern_2_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_pattern_1_nistxml_sv_iv_list_g_month_pattern_2_5(mode, save_output):
+def test_list_g_month_pattern_1_nistxml_sv_iv_list_g_month_pattern_2_5(mode, save_output, output_format):
     r"""
     Type list/gMonth is restricted by facet pattern with value --1\d --1\d
     --1\d --1\d --0\d --\d3.
@@ -692,11 +736,12 @@ def test_list_g_month_pattern_1_nistxml_sv_iv_list_g_month_pattern_2_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_pattern_nistxml_sv_iv_list_g_month_pattern_1_1(mode, save_output):
+def test_list_g_month_pattern_nistxml_sv_iv_list_g_month_pattern_1_1(mode, save_output, output_format):
     r"""
     Type list/gMonth is restricted by facet pattern with value --\d9 --\d4
     --\d0 --0\d --\d3 --\d8 --0\d --\d1.
@@ -708,11 +753,12 @@ def test_list_g_month_pattern_nistxml_sv_iv_list_g_month_pattern_1_1(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_pattern_nistxml_sv_iv_list_g_month_pattern_1_2(mode, save_output):
+def test_list_g_month_pattern_nistxml_sv_iv_list_g_month_pattern_1_2(mode, save_output, output_format):
     r"""
     Type list/gMonth is restricted by facet pattern with value --\d9 --\d4
     --\d0 --0\d --\d3 --\d8 --0\d --\d1.
@@ -724,11 +770,12 @@ def test_list_g_month_pattern_nistxml_sv_iv_list_g_month_pattern_1_2(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_pattern_nistxml_sv_iv_list_g_month_pattern_1_3(mode, save_output):
+def test_list_g_month_pattern_nistxml_sv_iv_list_g_month_pattern_1_3(mode, save_output, output_format):
     r"""
     Type list/gMonth is restricted by facet pattern with value --\d9 --\d4
     --\d0 --0\d --\d3 --\d8 --0\d --\d1.
@@ -740,11 +787,12 @@ def test_list_g_month_pattern_nistxml_sv_iv_list_g_month_pattern_1_3(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_pattern_nistxml_sv_iv_list_g_month_pattern_1_4(mode, save_output):
+def test_list_g_month_pattern_nistxml_sv_iv_list_g_month_pattern_1_4(mode, save_output, output_format):
     r"""
     Type list/gMonth is restricted by facet pattern with value --\d9 --\d4
     --\d0 --0\d --\d3 --\d8 --0\d --\d1.
@@ -756,11 +804,12 @@ def test_list_g_month_pattern_nistxml_sv_iv_list_g_month_pattern_1_4(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_pattern_nistxml_sv_iv_list_g_month_pattern_1_5(mode, save_output):
+def test_list_g_month_pattern_nistxml_sv_iv_list_g_month_pattern_1_5(mode, save_output, output_format):
     r"""
     Type list/gMonth is restricted by facet pattern with value --\d9 --\d4
     --\d0 --0\d --\d3 --\d8 --0\d --\d1.
@@ -772,11 +821,12 @@ def test_list_g_month_pattern_nistxml_sv_iv_list_g_month_pattern_1_5(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_length_4_nistxml_sv_iv_list_g_month_length_5_1(mode, save_output):
+def test_list_g_month_length_4_nistxml_sv_iv_list_g_month_length_5_1(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet length with value 10.
     """
@@ -787,11 +837,12 @@ def test_list_g_month_length_4_nistxml_sv_iv_list_g_month_length_5_1(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_length_4_nistxml_sv_iv_list_g_month_length_5_2(mode, save_output):
+def test_list_g_month_length_4_nistxml_sv_iv_list_g_month_length_5_2(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet length with value 10.
     """
@@ -802,11 +853,12 @@ def test_list_g_month_length_4_nistxml_sv_iv_list_g_month_length_5_2(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_length_4_nistxml_sv_iv_list_g_month_length_5_3(mode, save_output):
+def test_list_g_month_length_4_nistxml_sv_iv_list_g_month_length_5_3(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet length with value 10.
     """
@@ -817,11 +869,12 @@ def test_list_g_month_length_4_nistxml_sv_iv_list_g_month_length_5_3(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_length_4_nistxml_sv_iv_list_g_month_length_5_4(mode, save_output):
+def test_list_g_month_length_4_nistxml_sv_iv_list_g_month_length_5_4(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet length with value 10.
     """
@@ -832,11 +885,12 @@ def test_list_g_month_length_4_nistxml_sv_iv_list_g_month_length_5_4(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_length_4_nistxml_sv_iv_list_g_month_length_5_5(mode, save_output):
+def test_list_g_month_length_4_nistxml_sv_iv_list_g_month_length_5_5(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet length with value 10.
     """
@@ -847,11 +901,12 @@ def test_list_g_month_length_4_nistxml_sv_iv_list_g_month_length_5_5(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_length_3_nistxml_sv_iv_list_g_month_length_4_1(mode, save_output):
+def test_list_g_month_length_3_nistxml_sv_iv_list_g_month_length_4_1(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet length with value 8.
     """
@@ -862,11 +917,12 @@ def test_list_g_month_length_3_nistxml_sv_iv_list_g_month_length_4_1(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_length_3_nistxml_sv_iv_list_g_month_length_4_2(mode, save_output):
+def test_list_g_month_length_3_nistxml_sv_iv_list_g_month_length_4_2(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet length with value 8.
     """
@@ -877,11 +933,12 @@ def test_list_g_month_length_3_nistxml_sv_iv_list_g_month_length_4_2(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_length_3_nistxml_sv_iv_list_g_month_length_4_3(mode, save_output):
+def test_list_g_month_length_3_nistxml_sv_iv_list_g_month_length_4_3(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet length with value 8.
     """
@@ -892,11 +949,12 @@ def test_list_g_month_length_3_nistxml_sv_iv_list_g_month_length_4_3(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_length_3_nistxml_sv_iv_list_g_month_length_4_4(mode, save_output):
+def test_list_g_month_length_3_nistxml_sv_iv_list_g_month_length_4_4(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet length with value 8.
     """
@@ -907,11 +965,12 @@ def test_list_g_month_length_3_nistxml_sv_iv_list_g_month_length_4_4(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_length_3_nistxml_sv_iv_list_g_month_length_4_5(mode, save_output):
+def test_list_g_month_length_3_nistxml_sv_iv_list_g_month_length_4_5(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet length with value 8.
     """
@@ -922,11 +981,12 @@ def test_list_g_month_length_3_nistxml_sv_iv_list_g_month_length_4_5(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_length_2_nistxml_sv_iv_list_g_month_length_3_1(mode, save_output):
+def test_list_g_month_length_2_nistxml_sv_iv_list_g_month_length_3_1(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet length with value 7.
     """
@@ -937,11 +997,12 @@ def test_list_g_month_length_2_nistxml_sv_iv_list_g_month_length_3_1(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_length_2_nistxml_sv_iv_list_g_month_length_3_2(mode, save_output):
+def test_list_g_month_length_2_nistxml_sv_iv_list_g_month_length_3_2(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet length with value 7.
     """
@@ -952,11 +1013,12 @@ def test_list_g_month_length_2_nistxml_sv_iv_list_g_month_length_3_2(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_length_2_nistxml_sv_iv_list_g_month_length_3_3(mode, save_output):
+def test_list_g_month_length_2_nistxml_sv_iv_list_g_month_length_3_3(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet length with value 7.
     """
@@ -967,11 +1029,12 @@ def test_list_g_month_length_2_nistxml_sv_iv_list_g_month_length_3_3(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_length_2_nistxml_sv_iv_list_g_month_length_3_4(mode, save_output):
+def test_list_g_month_length_2_nistxml_sv_iv_list_g_month_length_3_4(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet length with value 7.
     """
@@ -982,11 +1045,12 @@ def test_list_g_month_length_2_nistxml_sv_iv_list_g_month_length_3_4(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_length_2_nistxml_sv_iv_list_g_month_length_3_5(mode, save_output):
+def test_list_g_month_length_2_nistxml_sv_iv_list_g_month_length_3_5(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet length with value 7.
     """
@@ -997,11 +1061,12 @@ def test_list_g_month_length_2_nistxml_sv_iv_list_g_month_length_3_5(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_length_1_nistxml_sv_iv_list_g_month_length_2_1(mode, save_output):
+def test_list_g_month_length_1_nistxml_sv_iv_list_g_month_length_2_1(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet length with value 6.
     """
@@ -1012,11 +1077,12 @@ def test_list_g_month_length_1_nistxml_sv_iv_list_g_month_length_2_1(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_length_1_nistxml_sv_iv_list_g_month_length_2_2(mode, save_output):
+def test_list_g_month_length_1_nistxml_sv_iv_list_g_month_length_2_2(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet length with value 6.
     """
@@ -1027,11 +1093,12 @@ def test_list_g_month_length_1_nistxml_sv_iv_list_g_month_length_2_2(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_length_1_nistxml_sv_iv_list_g_month_length_2_3(mode, save_output):
+def test_list_g_month_length_1_nistxml_sv_iv_list_g_month_length_2_3(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet length with value 6.
     """
@@ -1042,11 +1109,12 @@ def test_list_g_month_length_1_nistxml_sv_iv_list_g_month_length_2_3(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_length_1_nistxml_sv_iv_list_g_month_length_2_4(mode, save_output):
+def test_list_g_month_length_1_nistxml_sv_iv_list_g_month_length_2_4(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet length with value 6.
     """
@@ -1057,11 +1125,12 @@ def test_list_g_month_length_1_nistxml_sv_iv_list_g_month_length_2_4(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_length_1_nistxml_sv_iv_list_g_month_length_2_5(mode, save_output):
+def test_list_g_month_length_1_nistxml_sv_iv_list_g_month_length_2_5(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet length with value 6.
     """
@@ -1072,11 +1141,12 @@ def test_list_g_month_length_1_nistxml_sv_iv_list_g_month_length_2_5(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_length_nistxml_sv_iv_list_g_month_length_1_1(mode, save_output):
+def test_list_g_month_length_nistxml_sv_iv_list_g_month_length_1_1(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet length with value 5.
     """
@@ -1087,11 +1157,12 @@ def test_list_g_month_length_nistxml_sv_iv_list_g_month_length_1_1(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_length_nistxml_sv_iv_list_g_month_length_1_2(mode, save_output):
+def test_list_g_month_length_nistxml_sv_iv_list_g_month_length_1_2(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet length with value 5.
     """
@@ -1102,11 +1173,12 @@ def test_list_g_month_length_nistxml_sv_iv_list_g_month_length_1_2(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_length_nistxml_sv_iv_list_g_month_length_1_3(mode, save_output):
+def test_list_g_month_length_nistxml_sv_iv_list_g_month_length_1_3(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet length with value 5.
     """
@@ -1117,11 +1189,12 @@ def test_list_g_month_length_nistxml_sv_iv_list_g_month_length_1_3(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_length_nistxml_sv_iv_list_g_month_length_1_4(mode, save_output):
+def test_list_g_month_length_nistxml_sv_iv_list_g_month_length_1_4(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet length with value 5.
     """
@@ -1132,11 +1205,12 @@ def test_list_g_month_length_nistxml_sv_iv_list_g_month_length_1_4(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_length_nistxml_sv_iv_list_g_month_length_1_5(mode, save_output):
+def test_list_g_month_length_nistxml_sv_iv_list_g_month_length_1_5(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet length with value 5.
     """
@@ -1147,11 +1221,12 @@ def test_list_g_month_length_nistxml_sv_iv_list_g_month_length_1_5(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_min_length_4_nistxml_sv_iv_list_g_month_min_length_5_1(mode, save_output):
+def test_list_g_month_min_length_4_nistxml_sv_iv_list_g_month_min_length_5_1(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet minLength with value 10.
     """
@@ -1162,11 +1237,12 @@ def test_list_g_month_min_length_4_nistxml_sv_iv_list_g_month_min_length_5_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_min_length_4_nistxml_sv_iv_list_g_month_min_length_5_2(mode, save_output):
+def test_list_g_month_min_length_4_nistxml_sv_iv_list_g_month_min_length_5_2(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet minLength with value 10.
     """
@@ -1177,11 +1253,12 @@ def test_list_g_month_min_length_4_nistxml_sv_iv_list_g_month_min_length_5_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_min_length_4_nistxml_sv_iv_list_g_month_min_length_5_3(mode, save_output):
+def test_list_g_month_min_length_4_nistxml_sv_iv_list_g_month_min_length_5_3(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet minLength with value 10.
     """
@@ -1192,11 +1269,12 @@ def test_list_g_month_min_length_4_nistxml_sv_iv_list_g_month_min_length_5_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_min_length_4_nistxml_sv_iv_list_g_month_min_length_5_4(mode, save_output):
+def test_list_g_month_min_length_4_nistxml_sv_iv_list_g_month_min_length_5_4(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet minLength with value 10.
     """
@@ -1207,11 +1285,12 @@ def test_list_g_month_min_length_4_nistxml_sv_iv_list_g_month_min_length_5_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_min_length_4_nistxml_sv_iv_list_g_month_min_length_5_5(mode, save_output):
+def test_list_g_month_min_length_4_nistxml_sv_iv_list_g_month_min_length_5_5(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet minLength with value 10.
     """
@@ -1222,11 +1301,12 @@ def test_list_g_month_min_length_4_nistxml_sv_iv_list_g_month_min_length_5_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_min_length_3_nistxml_sv_iv_list_g_month_min_length_4_1(mode, save_output):
+def test_list_g_month_min_length_3_nistxml_sv_iv_list_g_month_min_length_4_1(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet minLength with value 8.
     """
@@ -1237,11 +1317,12 @@ def test_list_g_month_min_length_3_nistxml_sv_iv_list_g_month_min_length_4_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_min_length_3_nistxml_sv_iv_list_g_month_min_length_4_2(mode, save_output):
+def test_list_g_month_min_length_3_nistxml_sv_iv_list_g_month_min_length_4_2(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet minLength with value 8.
     """
@@ -1252,11 +1333,12 @@ def test_list_g_month_min_length_3_nistxml_sv_iv_list_g_month_min_length_4_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_min_length_3_nistxml_sv_iv_list_g_month_min_length_4_3(mode, save_output):
+def test_list_g_month_min_length_3_nistxml_sv_iv_list_g_month_min_length_4_3(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet minLength with value 8.
     """
@@ -1267,11 +1349,12 @@ def test_list_g_month_min_length_3_nistxml_sv_iv_list_g_month_min_length_4_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_min_length_3_nistxml_sv_iv_list_g_month_min_length_4_4(mode, save_output):
+def test_list_g_month_min_length_3_nistxml_sv_iv_list_g_month_min_length_4_4(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet minLength with value 8.
     """
@@ -1282,11 +1365,12 @@ def test_list_g_month_min_length_3_nistxml_sv_iv_list_g_month_min_length_4_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_min_length_3_nistxml_sv_iv_list_g_month_min_length_4_5(mode, save_output):
+def test_list_g_month_min_length_3_nistxml_sv_iv_list_g_month_min_length_4_5(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet minLength with value 8.
     """
@@ -1297,11 +1381,12 @@ def test_list_g_month_min_length_3_nistxml_sv_iv_list_g_month_min_length_4_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_min_length_2_nistxml_sv_iv_list_g_month_min_length_3_1(mode, save_output):
+def test_list_g_month_min_length_2_nistxml_sv_iv_list_g_month_min_length_3_1(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet minLength with value 7.
     """
@@ -1312,11 +1397,12 @@ def test_list_g_month_min_length_2_nistxml_sv_iv_list_g_month_min_length_3_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_min_length_2_nistxml_sv_iv_list_g_month_min_length_3_2(mode, save_output):
+def test_list_g_month_min_length_2_nistxml_sv_iv_list_g_month_min_length_3_2(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet minLength with value 7.
     """
@@ -1327,11 +1413,12 @@ def test_list_g_month_min_length_2_nistxml_sv_iv_list_g_month_min_length_3_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_min_length_2_nistxml_sv_iv_list_g_month_min_length_3_3(mode, save_output):
+def test_list_g_month_min_length_2_nistxml_sv_iv_list_g_month_min_length_3_3(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet minLength with value 7.
     """
@@ -1342,11 +1429,12 @@ def test_list_g_month_min_length_2_nistxml_sv_iv_list_g_month_min_length_3_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_min_length_2_nistxml_sv_iv_list_g_month_min_length_3_4(mode, save_output):
+def test_list_g_month_min_length_2_nistxml_sv_iv_list_g_month_min_length_3_4(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet minLength with value 7.
     """
@@ -1357,11 +1445,12 @@ def test_list_g_month_min_length_2_nistxml_sv_iv_list_g_month_min_length_3_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_min_length_2_nistxml_sv_iv_list_g_month_min_length_3_5(mode, save_output):
+def test_list_g_month_min_length_2_nistxml_sv_iv_list_g_month_min_length_3_5(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet minLength with value 7.
     """
@@ -1372,11 +1461,12 @@ def test_list_g_month_min_length_2_nistxml_sv_iv_list_g_month_min_length_3_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_min_length_1_nistxml_sv_iv_list_g_month_min_length_2_1(mode, save_output):
+def test_list_g_month_min_length_1_nistxml_sv_iv_list_g_month_min_length_2_1(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet minLength with value 6.
     """
@@ -1387,11 +1477,12 @@ def test_list_g_month_min_length_1_nistxml_sv_iv_list_g_month_min_length_2_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_min_length_1_nistxml_sv_iv_list_g_month_min_length_2_2(mode, save_output):
+def test_list_g_month_min_length_1_nistxml_sv_iv_list_g_month_min_length_2_2(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet minLength with value 6.
     """
@@ -1402,11 +1493,12 @@ def test_list_g_month_min_length_1_nistxml_sv_iv_list_g_month_min_length_2_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_min_length_1_nistxml_sv_iv_list_g_month_min_length_2_3(mode, save_output):
+def test_list_g_month_min_length_1_nistxml_sv_iv_list_g_month_min_length_2_3(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet minLength with value 6.
     """
@@ -1417,11 +1509,12 @@ def test_list_g_month_min_length_1_nistxml_sv_iv_list_g_month_min_length_2_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_min_length_1_nistxml_sv_iv_list_g_month_min_length_2_4(mode, save_output):
+def test_list_g_month_min_length_1_nistxml_sv_iv_list_g_month_min_length_2_4(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet minLength with value 6.
     """
@@ -1432,11 +1525,12 @@ def test_list_g_month_min_length_1_nistxml_sv_iv_list_g_month_min_length_2_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_min_length_1_nistxml_sv_iv_list_g_month_min_length_2_5(mode, save_output):
+def test_list_g_month_min_length_1_nistxml_sv_iv_list_g_month_min_length_2_5(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet minLength with value 6.
     """
@@ -1447,11 +1541,12 @@ def test_list_g_month_min_length_1_nistxml_sv_iv_list_g_month_min_length_2_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_min_length_nistxml_sv_iv_list_g_month_min_length_1_1(mode, save_output):
+def test_list_g_month_min_length_nistxml_sv_iv_list_g_month_min_length_1_1(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet minLength with value 5.
     """
@@ -1462,11 +1557,12 @@ def test_list_g_month_min_length_nistxml_sv_iv_list_g_month_min_length_1_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_min_length_nistxml_sv_iv_list_g_month_min_length_1_2(mode, save_output):
+def test_list_g_month_min_length_nistxml_sv_iv_list_g_month_min_length_1_2(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet minLength with value 5.
     """
@@ -1477,11 +1573,12 @@ def test_list_g_month_min_length_nistxml_sv_iv_list_g_month_min_length_1_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_min_length_nistxml_sv_iv_list_g_month_min_length_1_3(mode, save_output):
+def test_list_g_month_min_length_nistxml_sv_iv_list_g_month_min_length_1_3(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet minLength with value 5.
     """
@@ -1492,11 +1589,12 @@ def test_list_g_month_min_length_nistxml_sv_iv_list_g_month_min_length_1_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_min_length_nistxml_sv_iv_list_g_month_min_length_1_4(mode, save_output):
+def test_list_g_month_min_length_nistxml_sv_iv_list_g_month_min_length_1_4(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet minLength with value 5.
     """
@@ -1507,11 +1605,12 @@ def test_list_g_month_min_length_nistxml_sv_iv_list_g_month_min_length_1_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_min_length_nistxml_sv_iv_list_g_month_min_length_1_5(mode, save_output):
+def test_list_g_month_min_length_nistxml_sv_iv_list_g_month_min_length_1_5(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet minLength with value 5.
     """
@@ -1522,11 +1621,12 @@ def test_list_g_month_min_length_nistxml_sv_iv_list_g_month_min_length_1_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_max_length_4_nistxml_sv_iv_list_g_month_max_length_5_1(mode, save_output):
+def test_list_g_month_max_length_4_nistxml_sv_iv_list_g_month_max_length_5_1(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet maxLength with value 10.
     """
@@ -1537,11 +1637,12 @@ def test_list_g_month_max_length_4_nistxml_sv_iv_list_g_month_max_length_5_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_max_length_4_nistxml_sv_iv_list_g_month_max_length_5_2(mode, save_output):
+def test_list_g_month_max_length_4_nistxml_sv_iv_list_g_month_max_length_5_2(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet maxLength with value 10.
     """
@@ -1552,11 +1653,12 @@ def test_list_g_month_max_length_4_nistxml_sv_iv_list_g_month_max_length_5_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_max_length_4_nistxml_sv_iv_list_g_month_max_length_5_3(mode, save_output):
+def test_list_g_month_max_length_4_nistxml_sv_iv_list_g_month_max_length_5_3(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet maxLength with value 10.
     """
@@ -1567,11 +1669,12 @@ def test_list_g_month_max_length_4_nistxml_sv_iv_list_g_month_max_length_5_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_max_length_4_nistxml_sv_iv_list_g_month_max_length_5_4(mode, save_output):
+def test_list_g_month_max_length_4_nistxml_sv_iv_list_g_month_max_length_5_4(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet maxLength with value 10.
     """
@@ -1582,11 +1685,12 @@ def test_list_g_month_max_length_4_nistxml_sv_iv_list_g_month_max_length_5_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_max_length_4_nistxml_sv_iv_list_g_month_max_length_5_5(mode, save_output):
+def test_list_g_month_max_length_4_nistxml_sv_iv_list_g_month_max_length_5_5(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet maxLength with value 10.
     """
@@ -1597,11 +1701,12 @@ def test_list_g_month_max_length_4_nistxml_sv_iv_list_g_month_max_length_5_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_max_length_3_nistxml_sv_iv_list_g_month_max_length_4_1(mode, save_output):
+def test_list_g_month_max_length_3_nistxml_sv_iv_list_g_month_max_length_4_1(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet maxLength with value 8.
     """
@@ -1612,11 +1717,12 @@ def test_list_g_month_max_length_3_nistxml_sv_iv_list_g_month_max_length_4_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_max_length_3_nistxml_sv_iv_list_g_month_max_length_4_2(mode, save_output):
+def test_list_g_month_max_length_3_nistxml_sv_iv_list_g_month_max_length_4_2(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet maxLength with value 8.
     """
@@ -1627,11 +1733,12 @@ def test_list_g_month_max_length_3_nistxml_sv_iv_list_g_month_max_length_4_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_max_length_3_nistxml_sv_iv_list_g_month_max_length_4_3(mode, save_output):
+def test_list_g_month_max_length_3_nistxml_sv_iv_list_g_month_max_length_4_3(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet maxLength with value 8.
     """
@@ -1642,11 +1749,12 @@ def test_list_g_month_max_length_3_nistxml_sv_iv_list_g_month_max_length_4_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_max_length_3_nistxml_sv_iv_list_g_month_max_length_4_4(mode, save_output):
+def test_list_g_month_max_length_3_nistxml_sv_iv_list_g_month_max_length_4_4(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet maxLength with value 8.
     """
@@ -1657,11 +1765,12 @@ def test_list_g_month_max_length_3_nistxml_sv_iv_list_g_month_max_length_4_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_max_length_3_nistxml_sv_iv_list_g_month_max_length_4_5(mode, save_output):
+def test_list_g_month_max_length_3_nistxml_sv_iv_list_g_month_max_length_4_5(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet maxLength with value 8.
     """
@@ -1672,11 +1781,12 @@ def test_list_g_month_max_length_3_nistxml_sv_iv_list_g_month_max_length_4_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_max_length_2_nistxml_sv_iv_list_g_month_max_length_3_1(mode, save_output):
+def test_list_g_month_max_length_2_nistxml_sv_iv_list_g_month_max_length_3_1(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet maxLength with value 7.
     """
@@ -1687,11 +1797,12 @@ def test_list_g_month_max_length_2_nistxml_sv_iv_list_g_month_max_length_3_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_max_length_2_nistxml_sv_iv_list_g_month_max_length_3_2(mode, save_output):
+def test_list_g_month_max_length_2_nistxml_sv_iv_list_g_month_max_length_3_2(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet maxLength with value 7.
     """
@@ -1702,11 +1813,12 @@ def test_list_g_month_max_length_2_nistxml_sv_iv_list_g_month_max_length_3_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_max_length_2_nistxml_sv_iv_list_g_month_max_length_3_3(mode, save_output):
+def test_list_g_month_max_length_2_nistxml_sv_iv_list_g_month_max_length_3_3(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet maxLength with value 7.
     """
@@ -1717,11 +1829,12 @@ def test_list_g_month_max_length_2_nistxml_sv_iv_list_g_month_max_length_3_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_max_length_2_nistxml_sv_iv_list_g_month_max_length_3_4(mode, save_output):
+def test_list_g_month_max_length_2_nistxml_sv_iv_list_g_month_max_length_3_4(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet maxLength with value 7.
     """
@@ -1732,11 +1845,12 @@ def test_list_g_month_max_length_2_nistxml_sv_iv_list_g_month_max_length_3_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_max_length_2_nistxml_sv_iv_list_g_month_max_length_3_5(mode, save_output):
+def test_list_g_month_max_length_2_nistxml_sv_iv_list_g_month_max_length_3_5(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet maxLength with value 7.
     """
@@ -1747,11 +1861,12 @@ def test_list_g_month_max_length_2_nistxml_sv_iv_list_g_month_max_length_3_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_max_length_1_nistxml_sv_iv_list_g_month_max_length_2_1(mode, save_output):
+def test_list_g_month_max_length_1_nistxml_sv_iv_list_g_month_max_length_2_1(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet maxLength with value 6.
     """
@@ -1762,11 +1877,12 @@ def test_list_g_month_max_length_1_nistxml_sv_iv_list_g_month_max_length_2_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_max_length_1_nistxml_sv_iv_list_g_month_max_length_2_2(mode, save_output):
+def test_list_g_month_max_length_1_nistxml_sv_iv_list_g_month_max_length_2_2(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet maxLength with value 6.
     """
@@ -1777,11 +1893,12 @@ def test_list_g_month_max_length_1_nistxml_sv_iv_list_g_month_max_length_2_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_max_length_1_nistxml_sv_iv_list_g_month_max_length_2_3(mode, save_output):
+def test_list_g_month_max_length_1_nistxml_sv_iv_list_g_month_max_length_2_3(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet maxLength with value 6.
     """
@@ -1792,11 +1909,12 @@ def test_list_g_month_max_length_1_nistxml_sv_iv_list_g_month_max_length_2_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_max_length_1_nistxml_sv_iv_list_g_month_max_length_2_4(mode, save_output):
+def test_list_g_month_max_length_1_nistxml_sv_iv_list_g_month_max_length_2_4(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet maxLength with value 6.
     """
@@ -1807,11 +1925,12 @@ def test_list_g_month_max_length_1_nistxml_sv_iv_list_g_month_max_length_2_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_max_length_1_nistxml_sv_iv_list_g_month_max_length_2_5(mode, save_output):
+def test_list_g_month_max_length_1_nistxml_sv_iv_list_g_month_max_length_2_5(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet maxLength with value 6.
     """
@@ -1822,11 +1941,12 @@ def test_list_g_month_max_length_1_nistxml_sv_iv_list_g_month_max_length_2_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_max_length_nistxml_sv_iv_list_g_month_max_length_1_1(mode, save_output):
+def test_list_g_month_max_length_nistxml_sv_iv_list_g_month_max_length_1_1(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet maxLength with value 5.
     """
@@ -1837,11 +1957,12 @@ def test_list_g_month_max_length_nistxml_sv_iv_list_g_month_max_length_1_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_max_length_nistxml_sv_iv_list_g_month_max_length_1_2(mode, save_output):
+def test_list_g_month_max_length_nistxml_sv_iv_list_g_month_max_length_1_2(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet maxLength with value 5.
     """
@@ -1852,11 +1973,12 @@ def test_list_g_month_max_length_nistxml_sv_iv_list_g_month_max_length_1_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_max_length_nistxml_sv_iv_list_g_month_max_length_1_3(mode, save_output):
+def test_list_g_month_max_length_nistxml_sv_iv_list_g_month_max_length_1_3(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet maxLength with value 5.
     """
@@ -1867,11 +1989,12 @@ def test_list_g_month_max_length_nistxml_sv_iv_list_g_month_max_length_1_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_max_length_nistxml_sv_iv_list_g_month_max_length_1_4(mode, save_output):
+def test_list_g_month_max_length_nistxml_sv_iv_list_g_month_max_length_1_4(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet maxLength with value 5.
     """
@@ -1882,11 +2005,12 @@ def test_list_g_month_max_length_nistxml_sv_iv_list_g_month_max_length_1_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_max_length_nistxml_sv_iv_list_g_month_max_length_1_5(mode, save_output):
+def test_list_g_month_max_length_nistxml_sv_iv_list_g_month_max_length_1_5(mode, save_output, output_format):
     """
     Type list/gMonth is restricted by facet maxLength with value 5.
     """
@@ -1897,11 +2021,12 @@ def test_list_g_month_max_length_nistxml_sv_iv_list_g_month_max_length_1_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_white_space_nistxml_sv_iv_list_g_day_white_space_1_1(mode, save_output):
+def test_list_g_day_white_space_nistxml_sv_iv_list_g_day_white_space_1_1(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet whiteSpace with value collapse.
     """
@@ -1912,11 +2037,12 @@ def test_list_g_day_white_space_nistxml_sv_iv_list_g_day_white_space_1_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_white_space_nistxml_sv_iv_list_g_day_white_space_1_2(mode, save_output):
+def test_list_g_day_white_space_nistxml_sv_iv_list_g_day_white_space_1_2(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet whiteSpace with value collapse.
     """
@@ -1927,11 +2053,12 @@ def test_list_g_day_white_space_nistxml_sv_iv_list_g_day_white_space_1_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_white_space_nistxml_sv_iv_list_g_day_white_space_1_3(mode, save_output):
+def test_list_g_day_white_space_nistxml_sv_iv_list_g_day_white_space_1_3(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet whiteSpace with value collapse.
     """
@@ -1942,11 +2069,12 @@ def test_list_g_day_white_space_nistxml_sv_iv_list_g_day_white_space_1_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_white_space_nistxml_sv_iv_list_g_day_white_space_1_4(mode, save_output):
+def test_list_g_day_white_space_nistxml_sv_iv_list_g_day_white_space_1_4(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet whiteSpace with value collapse.
     """
@@ -1957,11 +2085,12 @@ def test_list_g_day_white_space_nistxml_sv_iv_list_g_day_white_space_1_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_white_space_nistxml_sv_iv_list_g_day_white_space_1_5(mode, save_output):
+def test_list_g_day_white_space_nistxml_sv_iv_list_g_day_white_space_1_5(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet whiteSpace with value collapse.
     """
@@ -1972,11 +2101,12 @@ def test_list_g_day_white_space_nistxml_sv_iv_list_g_day_white_space_1_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_enumeration_4_nistxml_sv_iv_list_g_day_enumeration_5_1(mode, save_output):
+def test_list_g_day_enumeration_4_nistxml_sv_iv_list_g_day_enumeration_5_1(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet enumeration.
     """
@@ -1987,11 +2117,12 @@ def test_list_g_day_enumeration_4_nistxml_sv_iv_list_g_day_enumeration_5_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_enumeration_4_nistxml_sv_iv_list_g_day_enumeration_5_2(mode, save_output):
+def test_list_g_day_enumeration_4_nistxml_sv_iv_list_g_day_enumeration_5_2(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet enumeration.
     """
@@ -2002,11 +2133,12 @@ def test_list_g_day_enumeration_4_nistxml_sv_iv_list_g_day_enumeration_5_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_enumeration_4_nistxml_sv_iv_list_g_day_enumeration_5_3(mode, save_output):
+def test_list_g_day_enumeration_4_nistxml_sv_iv_list_g_day_enumeration_5_3(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet enumeration.
     """
@@ -2017,11 +2149,12 @@ def test_list_g_day_enumeration_4_nistxml_sv_iv_list_g_day_enumeration_5_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_enumeration_4_nistxml_sv_iv_list_g_day_enumeration_5_4(mode, save_output):
+def test_list_g_day_enumeration_4_nistxml_sv_iv_list_g_day_enumeration_5_4(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet enumeration.
     """
@@ -2032,11 +2165,12 @@ def test_list_g_day_enumeration_4_nistxml_sv_iv_list_g_day_enumeration_5_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_enumeration_4_nistxml_sv_iv_list_g_day_enumeration_5_5(mode, save_output):
+def test_list_g_day_enumeration_4_nistxml_sv_iv_list_g_day_enumeration_5_5(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet enumeration.
     """
@@ -2047,11 +2181,12 @@ def test_list_g_day_enumeration_4_nistxml_sv_iv_list_g_day_enumeration_5_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_enumeration_3_nistxml_sv_iv_list_g_day_enumeration_4_1(mode, save_output):
+def test_list_g_day_enumeration_3_nistxml_sv_iv_list_g_day_enumeration_4_1(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet enumeration.
     """
@@ -2062,11 +2197,12 @@ def test_list_g_day_enumeration_3_nistxml_sv_iv_list_g_day_enumeration_4_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_enumeration_3_nistxml_sv_iv_list_g_day_enumeration_4_2(mode, save_output):
+def test_list_g_day_enumeration_3_nistxml_sv_iv_list_g_day_enumeration_4_2(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet enumeration.
     """
@@ -2077,11 +2213,12 @@ def test_list_g_day_enumeration_3_nistxml_sv_iv_list_g_day_enumeration_4_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_enumeration_3_nistxml_sv_iv_list_g_day_enumeration_4_3(mode, save_output):
+def test_list_g_day_enumeration_3_nistxml_sv_iv_list_g_day_enumeration_4_3(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet enumeration.
     """
@@ -2092,11 +2229,12 @@ def test_list_g_day_enumeration_3_nistxml_sv_iv_list_g_day_enumeration_4_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_enumeration_3_nistxml_sv_iv_list_g_day_enumeration_4_4(mode, save_output):
+def test_list_g_day_enumeration_3_nistxml_sv_iv_list_g_day_enumeration_4_4(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet enumeration.
     """
@@ -2107,11 +2245,12 @@ def test_list_g_day_enumeration_3_nistxml_sv_iv_list_g_day_enumeration_4_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_enumeration_3_nistxml_sv_iv_list_g_day_enumeration_4_5(mode, save_output):
+def test_list_g_day_enumeration_3_nistxml_sv_iv_list_g_day_enumeration_4_5(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet enumeration.
     """
@@ -2122,11 +2261,12 @@ def test_list_g_day_enumeration_3_nistxml_sv_iv_list_g_day_enumeration_4_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_enumeration_2_nistxml_sv_iv_list_g_day_enumeration_3_1(mode, save_output):
+def test_list_g_day_enumeration_2_nistxml_sv_iv_list_g_day_enumeration_3_1(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet enumeration.
     """
@@ -2137,11 +2277,12 @@ def test_list_g_day_enumeration_2_nistxml_sv_iv_list_g_day_enumeration_3_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_enumeration_2_nistxml_sv_iv_list_g_day_enumeration_3_2(mode, save_output):
+def test_list_g_day_enumeration_2_nistxml_sv_iv_list_g_day_enumeration_3_2(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet enumeration.
     """
@@ -2152,11 +2293,12 @@ def test_list_g_day_enumeration_2_nistxml_sv_iv_list_g_day_enumeration_3_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_enumeration_2_nistxml_sv_iv_list_g_day_enumeration_3_3(mode, save_output):
+def test_list_g_day_enumeration_2_nistxml_sv_iv_list_g_day_enumeration_3_3(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet enumeration.
     """
@@ -2167,11 +2309,12 @@ def test_list_g_day_enumeration_2_nistxml_sv_iv_list_g_day_enumeration_3_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_enumeration_2_nistxml_sv_iv_list_g_day_enumeration_3_4(mode, save_output):
+def test_list_g_day_enumeration_2_nistxml_sv_iv_list_g_day_enumeration_3_4(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet enumeration.
     """
@@ -2182,11 +2325,12 @@ def test_list_g_day_enumeration_2_nistxml_sv_iv_list_g_day_enumeration_3_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_enumeration_2_nistxml_sv_iv_list_g_day_enumeration_3_5(mode, save_output):
+def test_list_g_day_enumeration_2_nistxml_sv_iv_list_g_day_enumeration_3_5(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet enumeration.
     """
@@ -2197,11 +2341,12 @@ def test_list_g_day_enumeration_2_nistxml_sv_iv_list_g_day_enumeration_3_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_enumeration_1_nistxml_sv_iv_list_g_day_enumeration_2_1(mode, save_output):
+def test_list_g_day_enumeration_1_nistxml_sv_iv_list_g_day_enumeration_2_1(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet enumeration.
     """
@@ -2212,11 +2357,12 @@ def test_list_g_day_enumeration_1_nistxml_sv_iv_list_g_day_enumeration_2_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_enumeration_1_nistxml_sv_iv_list_g_day_enumeration_2_2(mode, save_output):
+def test_list_g_day_enumeration_1_nistxml_sv_iv_list_g_day_enumeration_2_2(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet enumeration.
     """
@@ -2227,11 +2373,12 @@ def test_list_g_day_enumeration_1_nistxml_sv_iv_list_g_day_enumeration_2_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_enumeration_1_nistxml_sv_iv_list_g_day_enumeration_2_3(mode, save_output):
+def test_list_g_day_enumeration_1_nistxml_sv_iv_list_g_day_enumeration_2_3(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet enumeration.
     """
@@ -2242,11 +2389,12 @@ def test_list_g_day_enumeration_1_nistxml_sv_iv_list_g_day_enumeration_2_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_enumeration_1_nistxml_sv_iv_list_g_day_enumeration_2_4(mode, save_output):
+def test_list_g_day_enumeration_1_nistxml_sv_iv_list_g_day_enumeration_2_4(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet enumeration.
     """
@@ -2257,11 +2405,12 @@ def test_list_g_day_enumeration_1_nistxml_sv_iv_list_g_day_enumeration_2_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_enumeration_1_nistxml_sv_iv_list_g_day_enumeration_2_5(mode, save_output):
+def test_list_g_day_enumeration_1_nistxml_sv_iv_list_g_day_enumeration_2_5(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet enumeration.
     """
@@ -2272,11 +2421,12 @@ def test_list_g_day_enumeration_1_nistxml_sv_iv_list_g_day_enumeration_2_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_enumeration_nistxml_sv_iv_list_g_day_enumeration_1_1(mode, save_output):
+def test_list_g_day_enumeration_nistxml_sv_iv_list_g_day_enumeration_1_1(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet enumeration.
     """
@@ -2287,11 +2437,12 @@ def test_list_g_day_enumeration_nistxml_sv_iv_list_g_day_enumeration_1_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_enumeration_nistxml_sv_iv_list_g_day_enumeration_1_2(mode, save_output):
+def test_list_g_day_enumeration_nistxml_sv_iv_list_g_day_enumeration_1_2(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet enumeration.
     """
@@ -2302,11 +2453,12 @@ def test_list_g_day_enumeration_nistxml_sv_iv_list_g_day_enumeration_1_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_enumeration_nistxml_sv_iv_list_g_day_enumeration_1_3(mode, save_output):
+def test_list_g_day_enumeration_nistxml_sv_iv_list_g_day_enumeration_1_3(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet enumeration.
     """
@@ -2317,11 +2469,12 @@ def test_list_g_day_enumeration_nistxml_sv_iv_list_g_day_enumeration_1_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_enumeration_nistxml_sv_iv_list_g_day_enumeration_1_4(mode, save_output):
+def test_list_g_day_enumeration_nistxml_sv_iv_list_g_day_enumeration_1_4(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet enumeration.
     """
@@ -2332,11 +2485,12 @@ def test_list_g_day_enumeration_nistxml_sv_iv_list_g_day_enumeration_1_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_enumeration_nistxml_sv_iv_list_g_day_enumeration_1_5(mode, save_output):
+def test_list_g_day_enumeration_nistxml_sv_iv_list_g_day_enumeration_1_5(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet enumeration.
     """
@@ -2347,11 +2501,12 @@ def test_list_g_day_enumeration_nistxml_sv_iv_list_g_day_enumeration_1_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_pattern_4_nistxml_sv_iv_list_g_day_pattern_5_1(mode, save_output):
+def test_list_g_day_pattern_4_nistxml_sv_iv_list_g_day_pattern_5_1(mode, save_output, output_format):
     r"""
     Type list/gDay is restricted by facet pattern with value ---\d5 ---1\d
     ---1\d ---0\d ---1\d ---\d9 ---\d3 ---1\d ---\d1 ---1\d.
@@ -2363,11 +2518,12 @@ def test_list_g_day_pattern_4_nistxml_sv_iv_list_g_day_pattern_5_1(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_pattern_4_nistxml_sv_iv_list_g_day_pattern_5_2(mode, save_output):
+def test_list_g_day_pattern_4_nistxml_sv_iv_list_g_day_pattern_5_2(mode, save_output, output_format):
     r"""
     Type list/gDay is restricted by facet pattern with value ---\d5 ---1\d
     ---1\d ---0\d ---1\d ---\d9 ---\d3 ---1\d ---\d1 ---1\d.
@@ -2379,11 +2535,12 @@ def test_list_g_day_pattern_4_nistxml_sv_iv_list_g_day_pattern_5_2(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_pattern_4_nistxml_sv_iv_list_g_day_pattern_5_3(mode, save_output):
+def test_list_g_day_pattern_4_nistxml_sv_iv_list_g_day_pattern_5_3(mode, save_output, output_format):
     r"""
     Type list/gDay is restricted by facet pattern with value ---\d5 ---1\d
     ---1\d ---0\d ---1\d ---\d9 ---\d3 ---1\d ---\d1 ---1\d.
@@ -2395,11 +2552,12 @@ def test_list_g_day_pattern_4_nistxml_sv_iv_list_g_day_pattern_5_3(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_pattern_4_nistxml_sv_iv_list_g_day_pattern_5_4(mode, save_output):
+def test_list_g_day_pattern_4_nistxml_sv_iv_list_g_day_pattern_5_4(mode, save_output, output_format):
     r"""
     Type list/gDay is restricted by facet pattern with value ---\d5 ---1\d
     ---1\d ---0\d ---1\d ---\d9 ---\d3 ---1\d ---\d1 ---1\d.
@@ -2411,11 +2569,12 @@ def test_list_g_day_pattern_4_nistxml_sv_iv_list_g_day_pattern_5_4(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_pattern_4_nistxml_sv_iv_list_g_day_pattern_5_5(mode, save_output):
+def test_list_g_day_pattern_4_nistxml_sv_iv_list_g_day_pattern_5_5(mode, save_output, output_format):
     r"""
     Type list/gDay is restricted by facet pattern with value ---\d5 ---1\d
     ---1\d ---0\d ---1\d ---\d9 ---\d3 ---1\d ---\d1 ---1\d.
@@ -2427,11 +2586,12 @@ def test_list_g_day_pattern_4_nistxml_sv_iv_list_g_day_pattern_5_5(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_pattern_3_nistxml_sv_iv_list_g_day_pattern_4_1(mode, save_output):
+def test_list_g_day_pattern_3_nistxml_sv_iv_list_g_day_pattern_4_1(mode, save_output, output_format):
     r"""
     Type list/gDay is restricted by facet pattern with value ---1\d ---2\d
     ---\d7 ---2\d ---\d6.
@@ -2443,11 +2603,12 @@ def test_list_g_day_pattern_3_nistxml_sv_iv_list_g_day_pattern_4_1(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_pattern_3_nistxml_sv_iv_list_g_day_pattern_4_2(mode, save_output):
+def test_list_g_day_pattern_3_nistxml_sv_iv_list_g_day_pattern_4_2(mode, save_output, output_format):
     r"""
     Type list/gDay is restricted by facet pattern with value ---1\d ---2\d
     ---\d7 ---2\d ---\d6.
@@ -2459,11 +2620,12 @@ def test_list_g_day_pattern_3_nistxml_sv_iv_list_g_day_pattern_4_2(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_pattern_3_nistxml_sv_iv_list_g_day_pattern_4_3(mode, save_output):
+def test_list_g_day_pattern_3_nistxml_sv_iv_list_g_day_pattern_4_3(mode, save_output, output_format):
     r"""
     Type list/gDay is restricted by facet pattern with value ---1\d ---2\d
     ---\d7 ---2\d ---\d6.
@@ -2475,11 +2637,12 @@ def test_list_g_day_pattern_3_nistxml_sv_iv_list_g_day_pattern_4_3(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_pattern_3_nistxml_sv_iv_list_g_day_pattern_4_4(mode, save_output):
+def test_list_g_day_pattern_3_nistxml_sv_iv_list_g_day_pattern_4_4(mode, save_output, output_format):
     r"""
     Type list/gDay is restricted by facet pattern with value ---1\d ---2\d
     ---\d7 ---2\d ---\d6.
@@ -2491,11 +2654,12 @@ def test_list_g_day_pattern_3_nistxml_sv_iv_list_g_day_pattern_4_4(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_pattern_3_nistxml_sv_iv_list_g_day_pattern_4_5(mode, save_output):
+def test_list_g_day_pattern_3_nistxml_sv_iv_list_g_day_pattern_4_5(mode, save_output, output_format):
     r"""
     Type list/gDay is restricted by facet pattern with value ---1\d ---2\d
     ---\d7 ---2\d ---\d6.
@@ -2507,11 +2671,12 @@ def test_list_g_day_pattern_3_nistxml_sv_iv_list_g_day_pattern_4_5(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_pattern_2_nistxml_sv_iv_list_g_day_pattern_3_1(mode, save_output):
+def test_list_g_day_pattern_2_nistxml_sv_iv_list_g_day_pattern_3_1(mode, save_output, output_format):
     r"""
     Type list/gDay is restricted by facet pattern with value ---\d5 ---0\d
     ---\d1 ---0\d ---2\d ---1\d ---\d1.
@@ -2523,11 +2688,12 @@ def test_list_g_day_pattern_2_nistxml_sv_iv_list_g_day_pattern_3_1(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_pattern_2_nistxml_sv_iv_list_g_day_pattern_3_2(mode, save_output):
+def test_list_g_day_pattern_2_nistxml_sv_iv_list_g_day_pattern_3_2(mode, save_output, output_format):
     r"""
     Type list/gDay is restricted by facet pattern with value ---\d5 ---0\d
     ---\d1 ---0\d ---2\d ---1\d ---\d1.
@@ -2539,11 +2705,12 @@ def test_list_g_day_pattern_2_nistxml_sv_iv_list_g_day_pattern_3_2(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_pattern_2_nistxml_sv_iv_list_g_day_pattern_3_3(mode, save_output):
+def test_list_g_day_pattern_2_nistxml_sv_iv_list_g_day_pattern_3_3(mode, save_output, output_format):
     r"""
     Type list/gDay is restricted by facet pattern with value ---\d5 ---0\d
     ---\d1 ---0\d ---2\d ---1\d ---\d1.
@@ -2555,11 +2722,12 @@ def test_list_g_day_pattern_2_nistxml_sv_iv_list_g_day_pattern_3_3(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_pattern_2_nistxml_sv_iv_list_g_day_pattern_3_4(mode, save_output):
+def test_list_g_day_pattern_2_nistxml_sv_iv_list_g_day_pattern_3_4(mode, save_output, output_format):
     r"""
     Type list/gDay is restricted by facet pattern with value ---\d5 ---0\d
     ---\d1 ---0\d ---2\d ---1\d ---\d1.
@@ -2571,11 +2739,12 @@ def test_list_g_day_pattern_2_nistxml_sv_iv_list_g_day_pattern_3_4(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_pattern_2_nistxml_sv_iv_list_g_day_pattern_3_5(mode, save_output):
+def test_list_g_day_pattern_2_nistxml_sv_iv_list_g_day_pattern_3_5(mode, save_output, output_format):
     r"""
     Type list/gDay is restricted by facet pattern with value ---\d5 ---0\d
     ---\d1 ---0\d ---2\d ---1\d ---\d1.
@@ -2587,11 +2756,12 @@ def test_list_g_day_pattern_2_nistxml_sv_iv_list_g_day_pattern_3_5(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_pattern_1_nistxml_sv_iv_list_g_day_pattern_2_1(mode, save_output):
+def test_list_g_day_pattern_1_nistxml_sv_iv_list_g_day_pattern_2_1(mode, save_output, output_format):
     r"""
     Type list/gDay is restricted by facet pattern with value ---1\d ---\d4
     ---1\d ---\d2 ---\d8 ---\d9 ---1\d ---\d1 ---\d4.
@@ -2603,11 +2773,12 @@ def test_list_g_day_pattern_1_nistxml_sv_iv_list_g_day_pattern_2_1(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_pattern_1_nistxml_sv_iv_list_g_day_pattern_2_2(mode, save_output):
+def test_list_g_day_pattern_1_nistxml_sv_iv_list_g_day_pattern_2_2(mode, save_output, output_format):
     r"""
     Type list/gDay is restricted by facet pattern with value ---1\d ---\d4
     ---1\d ---\d2 ---\d8 ---\d9 ---1\d ---\d1 ---\d4.
@@ -2619,11 +2790,12 @@ def test_list_g_day_pattern_1_nistxml_sv_iv_list_g_day_pattern_2_2(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_pattern_1_nistxml_sv_iv_list_g_day_pattern_2_3(mode, save_output):
+def test_list_g_day_pattern_1_nistxml_sv_iv_list_g_day_pattern_2_3(mode, save_output, output_format):
     r"""
     Type list/gDay is restricted by facet pattern with value ---1\d ---\d4
     ---1\d ---\d2 ---\d8 ---\d9 ---1\d ---\d1 ---\d4.
@@ -2635,11 +2807,12 @@ def test_list_g_day_pattern_1_nistxml_sv_iv_list_g_day_pattern_2_3(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_pattern_1_nistxml_sv_iv_list_g_day_pattern_2_4(mode, save_output):
+def test_list_g_day_pattern_1_nistxml_sv_iv_list_g_day_pattern_2_4(mode, save_output, output_format):
     r"""
     Type list/gDay is restricted by facet pattern with value ---1\d ---\d4
     ---1\d ---\d2 ---\d8 ---\d9 ---1\d ---\d1 ---\d4.
@@ -2651,11 +2824,12 @@ def test_list_g_day_pattern_1_nistxml_sv_iv_list_g_day_pattern_2_4(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_pattern_1_nistxml_sv_iv_list_g_day_pattern_2_5(mode, save_output):
+def test_list_g_day_pattern_1_nistxml_sv_iv_list_g_day_pattern_2_5(mode, save_output, output_format):
     r"""
     Type list/gDay is restricted by facet pattern with value ---1\d ---\d4
     ---1\d ---\d2 ---\d8 ---\d9 ---1\d ---\d1 ---\d4.
@@ -2667,11 +2841,12 @@ def test_list_g_day_pattern_1_nistxml_sv_iv_list_g_day_pattern_2_5(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_pattern_nistxml_sv_iv_list_g_day_pattern_1_1(mode, save_output):
+def test_list_g_day_pattern_nistxml_sv_iv_list_g_day_pattern_1_1(mode, save_output, output_format):
     r"""
     Type list/gDay is restricted by facet pattern with value ---\d7 ---2\d
     ---\d9 ---\d8 ---\d8 ---\d8 ---\d2 ---0\d.
@@ -2683,11 +2858,12 @@ def test_list_g_day_pattern_nistxml_sv_iv_list_g_day_pattern_1_1(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_pattern_nistxml_sv_iv_list_g_day_pattern_1_2(mode, save_output):
+def test_list_g_day_pattern_nistxml_sv_iv_list_g_day_pattern_1_2(mode, save_output, output_format):
     r"""
     Type list/gDay is restricted by facet pattern with value ---\d7 ---2\d
     ---\d9 ---\d8 ---\d8 ---\d8 ---\d2 ---0\d.
@@ -2699,11 +2875,12 @@ def test_list_g_day_pattern_nistxml_sv_iv_list_g_day_pattern_1_2(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_pattern_nistxml_sv_iv_list_g_day_pattern_1_3(mode, save_output):
+def test_list_g_day_pattern_nistxml_sv_iv_list_g_day_pattern_1_3(mode, save_output, output_format):
     r"""
     Type list/gDay is restricted by facet pattern with value ---\d7 ---2\d
     ---\d9 ---\d8 ---\d8 ---\d8 ---\d2 ---0\d.
@@ -2715,11 +2892,12 @@ def test_list_g_day_pattern_nistxml_sv_iv_list_g_day_pattern_1_3(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_pattern_nistxml_sv_iv_list_g_day_pattern_1_4(mode, save_output):
+def test_list_g_day_pattern_nistxml_sv_iv_list_g_day_pattern_1_4(mode, save_output, output_format):
     r"""
     Type list/gDay is restricted by facet pattern with value ---\d7 ---2\d
     ---\d9 ---\d8 ---\d8 ---\d8 ---\d2 ---0\d.
@@ -2731,11 +2909,12 @@ def test_list_g_day_pattern_nistxml_sv_iv_list_g_day_pattern_1_4(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_pattern_nistxml_sv_iv_list_g_day_pattern_1_5(mode, save_output):
+def test_list_g_day_pattern_nistxml_sv_iv_list_g_day_pattern_1_5(mode, save_output, output_format):
     r"""
     Type list/gDay is restricted by facet pattern with value ---\d7 ---2\d
     ---\d9 ---\d8 ---\d8 ---\d8 ---\d2 ---0\d.
@@ -2747,11 +2926,12 @@ def test_list_g_day_pattern_nistxml_sv_iv_list_g_day_pattern_1_5(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_length_4_nistxml_sv_iv_list_g_day_length_5_1(mode, save_output):
+def test_list_g_day_length_4_nistxml_sv_iv_list_g_day_length_5_1(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet length with value 10.
     """
@@ -2762,11 +2942,12 @@ def test_list_g_day_length_4_nistxml_sv_iv_list_g_day_length_5_1(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_length_4_nistxml_sv_iv_list_g_day_length_5_2(mode, save_output):
+def test_list_g_day_length_4_nistxml_sv_iv_list_g_day_length_5_2(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet length with value 10.
     """
@@ -2777,11 +2958,12 @@ def test_list_g_day_length_4_nistxml_sv_iv_list_g_day_length_5_2(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_length_4_nistxml_sv_iv_list_g_day_length_5_3(mode, save_output):
+def test_list_g_day_length_4_nistxml_sv_iv_list_g_day_length_5_3(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet length with value 10.
     """
@@ -2792,11 +2974,12 @@ def test_list_g_day_length_4_nistxml_sv_iv_list_g_day_length_5_3(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_length_4_nistxml_sv_iv_list_g_day_length_5_4(mode, save_output):
+def test_list_g_day_length_4_nistxml_sv_iv_list_g_day_length_5_4(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet length with value 10.
     """
@@ -2807,11 +2990,12 @@ def test_list_g_day_length_4_nistxml_sv_iv_list_g_day_length_5_4(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_length_4_nistxml_sv_iv_list_g_day_length_5_5(mode, save_output):
+def test_list_g_day_length_4_nistxml_sv_iv_list_g_day_length_5_5(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet length with value 10.
     """
@@ -2822,11 +3006,12 @@ def test_list_g_day_length_4_nistxml_sv_iv_list_g_day_length_5_5(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_length_3_nistxml_sv_iv_list_g_day_length_4_1(mode, save_output):
+def test_list_g_day_length_3_nistxml_sv_iv_list_g_day_length_4_1(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet length with value 8.
     """
@@ -2837,11 +3022,12 @@ def test_list_g_day_length_3_nistxml_sv_iv_list_g_day_length_4_1(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_length_3_nistxml_sv_iv_list_g_day_length_4_2(mode, save_output):
+def test_list_g_day_length_3_nistxml_sv_iv_list_g_day_length_4_2(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet length with value 8.
     """
@@ -2852,11 +3038,12 @@ def test_list_g_day_length_3_nistxml_sv_iv_list_g_day_length_4_2(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_length_3_nistxml_sv_iv_list_g_day_length_4_3(mode, save_output):
+def test_list_g_day_length_3_nistxml_sv_iv_list_g_day_length_4_3(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet length with value 8.
     """
@@ -2867,11 +3054,12 @@ def test_list_g_day_length_3_nistxml_sv_iv_list_g_day_length_4_3(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_length_3_nistxml_sv_iv_list_g_day_length_4_4(mode, save_output):
+def test_list_g_day_length_3_nistxml_sv_iv_list_g_day_length_4_4(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet length with value 8.
     """
@@ -2882,11 +3070,12 @@ def test_list_g_day_length_3_nistxml_sv_iv_list_g_day_length_4_4(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_length_3_nistxml_sv_iv_list_g_day_length_4_5(mode, save_output):
+def test_list_g_day_length_3_nistxml_sv_iv_list_g_day_length_4_5(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet length with value 8.
     """
@@ -2897,11 +3086,12 @@ def test_list_g_day_length_3_nistxml_sv_iv_list_g_day_length_4_5(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_length_2_nistxml_sv_iv_list_g_day_length_3_1(mode, save_output):
+def test_list_g_day_length_2_nistxml_sv_iv_list_g_day_length_3_1(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet length with value 7.
     """
@@ -2912,11 +3102,12 @@ def test_list_g_day_length_2_nistxml_sv_iv_list_g_day_length_3_1(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_length_2_nistxml_sv_iv_list_g_day_length_3_2(mode, save_output):
+def test_list_g_day_length_2_nistxml_sv_iv_list_g_day_length_3_2(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet length with value 7.
     """
@@ -2927,11 +3118,12 @@ def test_list_g_day_length_2_nistxml_sv_iv_list_g_day_length_3_2(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_length_2_nistxml_sv_iv_list_g_day_length_3_3(mode, save_output):
+def test_list_g_day_length_2_nistxml_sv_iv_list_g_day_length_3_3(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet length with value 7.
     """
@@ -2942,11 +3134,12 @@ def test_list_g_day_length_2_nistxml_sv_iv_list_g_day_length_3_3(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_length_2_nistxml_sv_iv_list_g_day_length_3_4(mode, save_output):
+def test_list_g_day_length_2_nistxml_sv_iv_list_g_day_length_3_4(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet length with value 7.
     """
@@ -2957,11 +3150,12 @@ def test_list_g_day_length_2_nistxml_sv_iv_list_g_day_length_3_4(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_length_2_nistxml_sv_iv_list_g_day_length_3_5(mode, save_output):
+def test_list_g_day_length_2_nistxml_sv_iv_list_g_day_length_3_5(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet length with value 7.
     """
@@ -2972,11 +3166,12 @@ def test_list_g_day_length_2_nistxml_sv_iv_list_g_day_length_3_5(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_length_1_nistxml_sv_iv_list_g_day_length_2_1(mode, save_output):
+def test_list_g_day_length_1_nistxml_sv_iv_list_g_day_length_2_1(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet length with value 6.
     """
@@ -2987,11 +3182,12 @@ def test_list_g_day_length_1_nistxml_sv_iv_list_g_day_length_2_1(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_length_1_nistxml_sv_iv_list_g_day_length_2_2(mode, save_output):
+def test_list_g_day_length_1_nistxml_sv_iv_list_g_day_length_2_2(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet length with value 6.
     """
@@ -3002,11 +3198,12 @@ def test_list_g_day_length_1_nistxml_sv_iv_list_g_day_length_2_2(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_length_1_nistxml_sv_iv_list_g_day_length_2_3(mode, save_output):
+def test_list_g_day_length_1_nistxml_sv_iv_list_g_day_length_2_3(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet length with value 6.
     """
@@ -3017,11 +3214,12 @@ def test_list_g_day_length_1_nistxml_sv_iv_list_g_day_length_2_3(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_length_1_nistxml_sv_iv_list_g_day_length_2_4(mode, save_output):
+def test_list_g_day_length_1_nistxml_sv_iv_list_g_day_length_2_4(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet length with value 6.
     """
@@ -3032,11 +3230,12 @@ def test_list_g_day_length_1_nistxml_sv_iv_list_g_day_length_2_4(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_length_1_nistxml_sv_iv_list_g_day_length_2_5(mode, save_output):
+def test_list_g_day_length_1_nistxml_sv_iv_list_g_day_length_2_5(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet length with value 6.
     """
@@ -3047,11 +3246,12 @@ def test_list_g_day_length_1_nistxml_sv_iv_list_g_day_length_2_5(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_length_nistxml_sv_iv_list_g_day_length_1_1(mode, save_output):
+def test_list_g_day_length_nistxml_sv_iv_list_g_day_length_1_1(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet length with value 5.
     """
@@ -3062,11 +3262,12 @@ def test_list_g_day_length_nistxml_sv_iv_list_g_day_length_1_1(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_length_nistxml_sv_iv_list_g_day_length_1_2(mode, save_output):
+def test_list_g_day_length_nistxml_sv_iv_list_g_day_length_1_2(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet length with value 5.
     """
@@ -3077,11 +3278,12 @@ def test_list_g_day_length_nistxml_sv_iv_list_g_day_length_1_2(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_length_nistxml_sv_iv_list_g_day_length_1_3(mode, save_output):
+def test_list_g_day_length_nistxml_sv_iv_list_g_day_length_1_3(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet length with value 5.
     """
@@ -3092,11 +3294,12 @@ def test_list_g_day_length_nistxml_sv_iv_list_g_day_length_1_3(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_length_nistxml_sv_iv_list_g_day_length_1_4(mode, save_output):
+def test_list_g_day_length_nistxml_sv_iv_list_g_day_length_1_4(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet length with value 5.
     """
@@ -3107,11 +3310,12 @@ def test_list_g_day_length_nistxml_sv_iv_list_g_day_length_1_4(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_length_nistxml_sv_iv_list_g_day_length_1_5(mode, save_output):
+def test_list_g_day_length_nistxml_sv_iv_list_g_day_length_1_5(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet length with value 5.
     """
@@ -3122,11 +3326,12 @@ def test_list_g_day_length_nistxml_sv_iv_list_g_day_length_1_5(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_min_length_4_nistxml_sv_iv_list_g_day_min_length_5_1(mode, save_output):
+def test_list_g_day_min_length_4_nistxml_sv_iv_list_g_day_min_length_5_1(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet minLength with value 10.
     """
@@ -3137,11 +3342,12 @@ def test_list_g_day_min_length_4_nistxml_sv_iv_list_g_day_min_length_5_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_min_length_4_nistxml_sv_iv_list_g_day_min_length_5_2(mode, save_output):
+def test_list_g_day_min_length_4_nistxml_sv_iv_list_g_day_min_length_5_2(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet minLength with value 10.
     """
@@ -3152,11 +3358,12 @@ def test_list_g_day_min_length_4_nistxml_sv_iv_list_g_day_min_length_5_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_min_length_4_nistxml_sv_iv_list_g_day_min_length_5_3(mode, save_output):
+def test_list_g_day_min_length_4_nistxml_sv_iv_list_g_day_min_length_5_3(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet minLength with value 10.
     """
@@ -3167,11 +3374,12 @@ def test_list_g_day_min_length_4_nistxml_sv_iv_list_g_day_min_length_5_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_min_length_4_nistxml_sv_iv_list_g_day_min_length_5_4(mode, save_output):
+def test_list_g_day_min_length_4_nistxml_sv_iv_list_g_day_min_length_5_4(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet minLength with value 10.
     """
@@ -3182,11 +3390,12 @@ def test_list_g_day_min_length_4_nistxml_sv_iv_list_g_day_min_length_5_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_min_length_4_nistxml_sv_iv_list_g_day_min_length_5_5(mode, save_output):
+def test_list_g_day_min_length_4_nistxml_sv_iv_list_g_day_min_length_5_5(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet minLength with value 10.
     """
@@ -3197,11 +3406,12 @@ def test_list_g_day_min_length_4_nistxml_sv_iv_list_g_day_min_length_5_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_min_length_3_nistxml_sv_iv_list_g_day_min_length_4_1(mode, save_output):
+def test_list_g_day_min_length_3_nistxml_sv_iv_list_g_day_min_length_4_1(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet minLength with value 8.
     """
@@ -3212,11 +3422,12 @@ def test_list_g_day_min_length_3_nistxml_sv_iv_list_g_day_min_length_4_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_min_length_3_nistxml_sv_iv_list_g_day_min_length_4_2(mode, save_output):
+def test_list_g_day_min_length_3_nistxml_sv_iv_list_g_day_min_length_4_2(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet minLength with value 8.
     """
@@ -3227,11 +3438,12 @@ def test_list_g_day_min_length_3_nistxml_sv_iv_list_g_day_min_length_4_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_min_length_3_nistxml_sv_iv_list_g_day_min_length_4_3(mode, save_output):
+def test_list_g_day_min_length_3_nistxml_sv_iv_list_g_day_min_length_4_3(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet minLength with value 8.
     """
@@ -3242,11 +3454,12 @@ def test_list_g_day_min_length_3_nistxml_sv_iv_list_g_day_min_length_4_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_min_length_3_nistxml_sv_iv_list_g_day_min_length_4_4(mode, save_output):
+def test_list_g_day_min_length_3_nistxml_sv_iv_list_g_day_min_length_4_4(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet minLength with value 8.
     """
@@ -3257,11 +3470,12 @@ def test_list_g_day_min_length_3_nistxml_sv_iv_list_g_day_min_length_4_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_min_length_3_nistxml_sv_iv_list_g_day_min_length_4_5(mode, save_output):
+def test_list_g_day_min_length_3_nistxml_sv_iv_list_g_day_min_length_4_5(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet minLength with value 8.
     """
@@ -3272,11 +3486,12 @@ def test_list_g_day_min_length_3_nistxml_sv_iv_list_g_day_min_length_4_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_min_length_2_nistxml_sv_iv_list_g_day_min_length_3_1(mode, save_output):
+def test_list_g_day_min_length_2_nistxml_sv_iv_list_g_day_min_length_3_1(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet minLength with value 7.
     """
@@ -3287,11 +3502,12 @@ def test_list_g_day_min_length_2_nistxml_sv_iv_list_g_day_min_length_3_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_min_length_2_nistxml_sv_iv_list_g_day_min_length_3_2(mode, save_output):
+def test_list_g_day_min_length_2_nistxml_sv_iv_list_g_day_min_length_3_2(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet minLength with value 7.
     """
@@ -3302,11 +3518,12 @@ def test_list_g_day_min_length_2_nistxml_sv_iv_list_g_day_min_length_3_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_min_length_2_nistxml_sv_iv_list_g_day_min_length_3_3(mode, save_output):
+def test_list_g_day_min_length_2_nistxml_sv_iv_list_g_day_min_length_3_3(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet minLength with value 7.
     """
@@ -3317,11 +3534,12 @@ def test_list_g_day_min_length_2_nistxml_sv_iv_list_g_day_min_length_3_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_min_length_2_nistxml_sv_iv_list_g_day_min_length_3_4(mode, save_output):
+def test_list_g_day_min_length_2_nistxml_sv_iv_list_g_day_min_length_3_4(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet minLength with value 7.
     """
@@ -3332,11 +3550,12 @@ def test_list_g_day_min_length_2_nistxml_sv_iv_list_g_day_min_length_3_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_min_length_2_nistxml_sv_iv_list_g_day_min_length_3_5(mode, save_output):
+def test_list_g_day_min_length_2_nistxml_sv_iv_list_g_day_min_length_3_5(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet minLength with value 7.
     """
@@ -3347,11 +3566,12 @@ def test_list_g_day_min_length_2_nistxml_sv_iv_list_g_day_min_length_3_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_min_length_1_nistxml_sv_iv_list_g_day_min_length_2_1(mode, save_output):
+def test_list_g_day_min_length_1_nistxml_sv_iv_list_g_day_min_length_2_1(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet minLength with value 6.
     """
@@ -3362,11 +3582,12 @@ def test_list_g_day_min_length_1_nistxml_sv_iv_list_g_day_min_length_2_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_min_length_1_nistxml_sv_iv_list_g_day_min_length_2_2(mode, save_output):
+def test_list_g_day_min_length_1_nistxml_sv_iv_list_g_day_min_length_2_2(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet minLength with value 6.
     """
@@ -3377,11 +3598,12 @@ def test_list_g_day_min_length_1_nistxml_sv_iv_list_g_day_min_length_2_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_min_length_1_nistxml_sv_iv_list_g_day_min_length_2_3(mode, save_output):
+def test_list_g_day_min_length_1_nistxml_sv_iv_list_g_day_min_length_2_3(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet minLength with value 6.
     """
@@ -3392,11 +3614,12 @@ def test_list_g_day_min_length_1_nistxml_sv_iv_list_g_day_min_length_2_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_min_length_1_nistxml_sv_iv_list_g_day_min_length_2_4(mode, save_output):
+def test_list_g_day_min_length_1_nistxml_sv_iv_list_g_day_min_length_2_4(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet minLength with value 6.
     """
@@ -3407,11 +3630,12 @@ def test_list_g_day_min_length_1_nistxml_sv_iv_list_g_day_min_length_2_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_min_length_1_nistxml_sv_iv_list_g_day_min_length_2_5(mode, save_output):
+def test_list_g_day_min_length_1_nistxml_sv_iv_list_g_day_min_length_2_5(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet minLength with value 6.
     """
@@ -3422,11 +3646,12 @@ def test_list_g_day_min_length_1_nistxml_sv_iv_list_g_day_min_length_2_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_min_length_nistxml_sv_iv_list_g_day_min_length_1_1(mode, save_output):
+def test_list_g_day_min_length_nistxml_sv_iv_list_g_day_min_length_1_1(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet minLength with value 5.
     """
@@ -3437,11 +3662,12 @@ def test_list_g_day_min_length_nistxml_sv_iv_list_g_day_min_length_1_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_min_length_nistxml_sv_iv_list_g_day_min_length_1_2(mode, save_output):
+def test_list_g_day_min_length_nistxml_sv_iv_list_g_day_min_length_1_2(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet minLength with value 5.
     """
@@ -3452,11 +3678,12 @@ def test_list_g_day_min_length_nistxml_sv_iv_list_g_day_min_length_1_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_min_length_nistxml_sv_iv_list_g_day_min_length_1_3(mode, save_output):
+def test_list_g_day_min_length_nistxml_sv_iv_list_g_day_min_length_1_3(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet minLength with value 5.
     """
@@ -3467,11 +3694,12 @@ def test_list_g_day_min_length_nistxml_sv_iv_list_g_day_min_length_1_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_min_length_nistxml_sv_iv_list_g_day_min_length_1_4(mode, save_output):
+def test_list_g_day_min_length_nistxml_sv_iv_list_g_day_min_length_1_4(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet minLength with value 5.
     """
@@ -3482,11 +3710,12 @@ def test_list_g_day_min_length_nistxml_sv_iv_list_g_day_min_length_1_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_min_length_nistxml_sv_iv_list_g_day_min_length_1_5(mode, save_output):
+def test_list_g_day_min_length_nistxml_sv_iv_list_g_day_min_length_1_5(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet minLength with value 5.
     """
@@ -3497,11 +3726,12 @@ def test_list_g_day_min_length_nistxml_sv_iv_list_g_day_min_length_1_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_max_length_4_nistxml_sv_iv_list_g_day_max_length_5_1(mode, save_output):
+def test_list_g_day_max_length_4_nistxml_sv_iv_list_g_day_max_length_5_1(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet maxLength with value 10.
     """
@@ -3512,11 +3742,12 @@ def test_list_g_day_max_length_4_nistxml_sv_iv_list_g_day_max_length_5_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_max_length_4_nistxml_sv_iv_list_g_day_max_length_5_2(mode, save_output):
+def test_list_g_day_max_length_4_nistxml_sv_iv_list_g_day_max_length_5_2(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet maxLength with value 10.
     """
@@ -3527,11 +3758,12 @@ def test_list_g_day_max_length_4_nistxml_sv_iv_list_g_day_max_length_5_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_max_length_4_nistxml_sv_iv_list_g_day_max_length_5_3(mode, save_output):
+def test_list_g_day_max_length_4_nistxml_sv_iv_list_g_day_max_length_5_3(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet maxLength with value 10.
     """
@@ -3542,11 +3774,12 @@ def test_list_g_day_max_length_4_nistxml_sv_iv_list_g_day_max_length_5_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_max_length_4_nistxml_sv_iv_list_g_day_max_length_5_4(mode, save_output):
+def test_list_g_day_max_length_4_nistxml_sv_iv_list_g_day_max_length_5_4(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet maxLength with value 10.
     """
@@ -3557,11 +3790,12 @@ def test_list_g_day_max_length_4_nistxml_sv_iv_list_g_day_max_length_5_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_max_length_4_nistxml_sv_iv_list_g_day_max_length_5_5(mode, save_output):
+def test_list_g_day_max_length_4_nistxml_sv_iv_list_g_day_max_length_5_5(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet maxLength with value 10.
     """
@@ -3572,11 +3806,12 @@ def test_list_g_day_max_length_4_nistxml_sv_iv_list_g_day_max_length_5_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_max_length_3_nistxml_sv_iv_list_g_day_max_length_4_1(mode, save_output):
+def test_list_g_day_max_length_3_nistxml_sv_iv_list_g_day_max_length_4_1(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet maxLength with value 8.
     """
@@ -3587,11 +3822,12 @@ def test_list_g_day_max_length_3_nistxml_sv_iv_list_g_day_max_length_4_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_max_length_3_nistxml_sv_iv_list_g_day_max_length_4_2(mode, save_output):
+def test_list_g_day_max_length_3_nistxml_sv_iv_list_g_day_max_length_4_2(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet maxLength with value 8.
     """
@@ -3602,11 +3838,12 @@ def test_list_g_day_max_length_3_nistxml_sv_iv_list_g_day_max_length_4_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_max_length_3_nistxml_sv_iv_list_g_day_max_length_4_3(mode, save_output):
+def test_list_g_day_max_length_3_nistxml_sv_iv_list_g_day_max_length_4_3(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet maxLength with value 8.
     """
@@ -3617,11 +3854,12 @@ def test_list_g_day_max_length_3_nistxml_sv_iv_list_g_day_max_length_4_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_max_length_3_nistxml_sv_iv_list_g_day_max_length_4_4(mode, save_output):
+def test_list_g_day_max_length_3_nistxml_sv_iv_list_g_day_max_length_4_4(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet maxLength with value 8.
     """
@@ -3632,11 +3870,12 @@ def test_list_g_day_max_length_3_nistxml_sv_iv_list_g_day_max_length_4_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_max_length_3_nistxml_sv_iv_list_g_day_max_length_4_5(mode, save_output):
+def test_list_g_day_max_length_3_nistxml_sv_iv_list_g_day_max_length_4_5(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet maxLength with value 8.
     """
@@ -3647,11 +3886,12 @@ def test_list_g_day_max_length_3_nistxml_sv_iv_list_g_day_max_length_4_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_max_length_2_nistxml_sv_iv_list_g_day_max_length_3_1(mode, save_output):
+def test_list_g_day_max_length_2_nistxml_sv_iv_list_g_day_max_length_3_1(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet maxLength with value 7.
     """
@@ -3662,11 +3902,12 @@ def test_list_g_day_max_length_2_nistxml_sv_iv_list_g_day_max_length_3_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_max_length_2_nistxml_sv_iv_list_g_day_max_length_3_2(mode, save_output):
+def test_list_g_day_max_length_2_nistxml_sv_iv_list_g_day_max_length_3_2(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet maxLength with value 7.
     """
@@ -3677,11 +3918,12 @@ def test_list_g_day_max_length_2_nistxml_sv_iv_list_g_day_max_length_3_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_max_length_2_nistxml_sv_iv_list_g_day_max_length_3_3(mode, save_output):
+def test_list_g_day_max_length_2_nistxml_sv_iv_list_g_day_max_length_3_3(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet maxLength with value 7.
     """
@@ -3692,11 +3934,12 @@ def test_list_g_day_max_length_2_nistxml_sv_iv_list_g_day_max_length_3_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_max_length_2_nistxml_sv_iv_list_g_day_max_length_3_4(mode, save_output):
+def test_list_g_day_max_length_2_nistxml_sv_iv_list_g_day_max_length_3_4(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet maxLength with value 7.
     """
@@ -3707,11 +3950,12 @@ def test_list_g_day_max_length_2_nistxml_sv_iv_list_g_day_max_length_3_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_max_length_2_nistxml_sv_iv_list_g_day_max_length_3_5(mode, save_output):
+def test_list_g_day_max_length_2_nistxml_sv_iv_list_g_day_max_length_3_5(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet maxLength with value 7.
     """
@@ -3722,11 +3966,12 @@ def test_list_g_day_max_length_2_nistxml_sv_iv_list_g_day_max_length_3_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_max_length_1_nistxml_sv_iv_list_g_day_max_length_2_1(mode, save_output):
+def test_list_g_day_max_length_1_nistxml_sv_iv_list_g_day_max_length_2_1(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet maxLength with value 6.
     """
@@ -3737,11 +3982,12 @@ def test_list_g_day_max_length_1_nistxml_sv_iv_list_g_day_max_length_2_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_max_length_1_nistxml_sv_iv_list_g_day_max_length_2_2(mode, save_output):
+def test_list_g_day_max_length_1_nistxml_sv_iv_list_g_day_max_length_2_2(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet maxLength with value 6.
     """
@@ -3752,11 +3998,12 @@ def test_list_g_day_max_length_1_nistxml_sv_iv_list_g_day_max_length_2_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_max_length_1_nistxml_sv_iv_list_g_day_max_length_2_3(mode, save_output):
+def test_list_g_day_max_length_1_nistxml_sv_iv_list_g_day_max_length_2_3(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet maxLength with value 6.
     """
@@ -3767,11 +4014,12 @@ def test_list_g_day_max_length_1_nistxml_sv_iv_list_g_day_max_length_2_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_max_length_1_nistxml_sv_iv_list_g_day_max_length_2_4(mode, save_output):
+def test_list_g_day_max_length_1_nistxml_sv_iv_list_g_day_max_length_2_4(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet maxLength with value 6.
     """
@@ -3782,11 +4030,12 @@ def test_list_g_day_max_length_1_nistxml_sv_iv_list_g_day_max_length_2_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_max_length_1_nistxml_sv_iv_list_g_day_max_length_2_5(mode, save_output):
+def test_list_g_day_max_length_1_nistxml_sv_iv_list_g_day_max_length_2_5(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet maxLength with value 6.
     """
@@ -3797,11 +4046,12 @@ def test_list_g_day_max_length_1_nistxml_sv_iv_list_g_day_max_length_2_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_max_length_nistxml_sv_iv_list_g_day_max_length_1_1(mode, save_output):
+def test_list_g_day_max_length_nistxml_sv_iv_list_g_day_max_length_1_1(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet maxLength with value 5.
     """
@@ -3812,11 +4062,12 @@ def test_list_g_day_max_length_nistxml_sv_iv_list_g_day_max_length_1_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_max_length_nistxml_sv_iv_list_g_day_max_length_1_2(mode, save_output):
+def test_list_g_day_max_length_nistxml_sv_iv_list_g_day_max_length_1_2(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet maxLength with value 5.
     """
@@ -3827,11 +4078,12 @@ def test_list_g_day_max_length_nistxml_sv_iv_list_g_day_max_length_1_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_max_length_nistxml_sv_iv_list_g_day_max_length_1_3(mode, save_output):
+def test_list_g_day_max_length_nistxml_sv_iv_list_g_day_max_length_1_3(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet maxLength with value 5.
     """
@@ -3842,11 +4094,12 @@ def test_list_g_day_max_length_nistxml_sv_iv_list_g_day_max_length_1_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_max_length_nistxml_sv_iv_list_g_day_max_length_1_4(mode, save_output):
+def test_list_g_day_max_length_nistxml_sv_iv_list_g_day_max_length_1_4(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet maxLength with value 5.
     """
@@ -3857,11 +4110,12 @@ def test_list_g_day_max_length_nistxml_sv_iv_list_g_day_max_length_1_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_day_max_length_nistxml_sv_iv_list_g_day_max_length_1_5(mode, save_output):
+def test_list_g_day_max_length_nistxml_sv_iv_list_g_day_max_length_1_5(mode, save_output, output_format):
     """
     Type list/gDay is restricted by facet maxLength with value 5.
     """
@@ -3872,11 +4126,12 @@ def test_list_g_day_max_length_nistxml_sv_iv_list_g_day_max_length_1_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_white_space_nistxml_sv_iv_list_g_month_day_white_space_1_1(mode, save_output):
+def test_list_g_month_day_white_space_nistxml_sv_iv_list_g_month_day_white_space_1_1(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet whiteSpace with value
     collapse.
@@ -3888,11 +4143,12 @@ def test_list_g_month_day_white_space_nistxml_sv_iv_list_g_month_day_white_space
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_white_space_nistxml_sv_iv_list_g_month_day_white_space_1_2(mode, save_output):
+def test_list_g_month_day_white_space_nistxml_sv_iv_list_g_month_day_white_space_1_2(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet whiteSpace with value
     collapse.
@@ -3904,11 +4160,12 @@ def test_list_g_month_day_white_space_nistxml_sv_iv_list_g_month_day_white_space
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_white_space_nistxml_sv_iv_list_g_month_day_white_space_1_3(mode, save_output):
+def test_list_g_month_day_white_space_nistxml_sv_iv_list_g_month_day_white_space_1_3(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet whiteSpace with value
     collapse.
@@ -3920,11 +4177,12 @@ def test_list_g_month_day_white_space_nistxml_sv_iv_list_g_month_day_white_space
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_white_space_nistxml_sv_iv_list_g_month_day_white_space_1_4(mode, save_output):
+def test_list_g_month_day_white_space_nistxml_sv_iv_list_g_month_day_white_space_1_4(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet whiteSpace with value
     collapse.
@@ -3936,11 +4194,12 @@ def test_list_g_month_day_white_space_nistxml_sv_iv_list_g_month_day_white_space
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_white_space_nistxml_sv_iv_list_g_month_day_white_space_1_5(mode, save_output):
+def test_list_g_month_day_white_space_nistxml_sv_iv_list_g_month_day_white_space_1_5(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet whiteSpace with value
     collapse.
@@ -3952,11 +4211,12 @@ def test_list_g_month_day_white_space_nistxml_sv_iv_list_g_month_day_white_space
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_enumeration_4_nistxml_sv_iv_list_g_month_day_enumeration_5_1(mode, save_output):
+def test_list_g_month_day_enumeration_4_nistxml_sv_iv_list_g_month_day_enumeration_5_1(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet enumeration.
     """
@@ -3967,11 +4227,12 @@ def test_list_g_month_day_enumeration_4_nistxml_sv_iv_list_g_month_day_enumerati
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_enumeration_4_nistxml_sv_iv_list_g_month_day_enumeration_5_2(mode, save_output):
+def test_list_g_month_day_enumeration_4_nistxml_sv_iv_list_g_month_day_enumeration_5_2(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet enumeration.
     """
@@ -3982,11 +4243,12 @@ def test_list_g_month_day_enumeration_4_nistxml_sv_iv_list_g_month_day_enumerati
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_enumeration_4_nistxml_sv_iv_list_g_month_day_enumeration_5_3(mode, save_output):
+def test_list_g_month_day_enumeration_4_nistxml_sv_iv_list_g_month_day_enumeration_5_3(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet enumeration.
     """
@@ -3997,11 +4259,12 @@ def test_list_g_month_day_enumeration_4_nistxml_sv_iv_list_g_month_day_enumerati
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_enumeration_4_nistxml_sv_iv_list_g_month_day_enumeration_5_4(mode, save_output):
+def test_list_g_month_day_enumeration_4_nistxml_sv_iv_list_g_month_day_enumeration_5_4(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet enumeration.
     """
@@ -4012,11 +4275,12 @@ def test_list_g_month_day_enumeration_4_nistxml_sv_iv_list_g_month_day_enumerati
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_enumeration_4_nistxml_sv_iv_list_g_month_day_enumeration_5_5(mode, save_output):
+def test_list_g_month_day_enumeration_4_nistxml_sv_iv_list_g_month_day_enumeration_5_5(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet enumeration.
     """
@@ -4027,11 +4291,12 @@ def test_list_g_month_day_enumeration_4_nistxml_sv_iv_list_g_month_day_enumerati
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_enumeration_3_nistxml_sv_iv_list_g_month_day_enumeration_4_1(mode, save_output):
+def test_list_g_month_day_enumeration_3_nistxml_sv_iv_list_g_month_day_enumeration_4_1(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet enumeration.
     """
@@ -4042,11 +4307,12 @@ def test_list_g_month_day_enumeration_3_nistxml_sv_iv_list_g_month_day_enumerati
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_enumeration_3_nistxml_sv_iv_list_g_month_day_enumeration_4_2(mode, save_output):
+def test_list_g_month_day_enumeration_3_nistxml_sv_iv_list_g_month_day_enumeration_4_2(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet enumeration.
     """
@@ -4057,11 +4323,12 @@ def test_list_g_month_day_enumeration_3_nistxml_sv_iv_list_g_month_day_enumerati
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_enumeration_3_nistxml_sv_iv_list_g_month_day_enumeration_4_3(mode, save_output):
+def test_list_g_month_day_enumeration_3_nistxml_sv_iv_list_g_month_day_enumeration_4_3(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet enumeration.
     """
@@ -4072,11 +4339,12 @@ def test_list_g_month_day_enumeration_3_nistxml_sv_iv_list_g_month_day_enumerati
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_enumeration_3_nistxml_sv_iv_list_g_month_day_enumeration_4_4(mode, save_output):
+def test_list_g_month_day_enumeration_3_nistxml_sv_iv_list_g_month_day_enumeration_4_4(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet enumeration.
     """
@@ -4087,11 +4355,12 @@ def test_list_g_month_day_enumeration_3_nistxml_sv_iv_list_g_month_day_enumerati
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_enumeration_3_nistxml_sv_iv_list_g_month_day_enumeration_4_5(mode, save_output):
+def test_list_g_month_day_enumeration_3_nistxml_sv_iv_list_g_month_day_enumeration_4_5(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet enumeration.
     """
@@ -4102,11 +4371,12 @@ def test_list_g_month_day_enumeration_3_nistxml_sv_iv_list_g_month_day_enumerati
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_enumeration_2_nistxml_sv_iv_list_g_month_day_enumeration_3_1(mode, save_output):
+def test_list_g_month_day_enumeration_2_nistxml_sv_iv_list_g_month_day_enumeration_3_1(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet enumeration.
     """
@@ -4117,11 +4387,12 @@ def test_list_g_month_day_enumeration_2_nistxml_sv_iv_list_g_month_day_enumerati
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_enumeration_2_nistxml_sv_iv_list_g_month_day_enumeration_3_2(mode, save_output):
+def test_list_g_month_day_enumeration_2_nistxml_sv_iv_list_g_month_day_enumeration_3_2(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet enumeration.
     """
@@ -4132,11 +4403,12 @@ def test_list_g_month_day_enumeration_2_nistxml_sv_iv_list_g_month_day_enumerati
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_enumeration_2_nistxml_sv_iv_list_g_month_day_enumeration_3_3(mode, save_output):
+def test_list_g_month_day_enumeration_2_nistxml_sv_iv_list_g_month_day_enumeration_3_3(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet enumeration.
     """
@@ -4147,11 +4419,12 @@ def test_list_g_month_day_enumeration_2_nistxml_sv_iv_list_g_month_day_enumerati
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_enumeration_2_nistxml_sv_iv_list_g_month_day_enumeration_3_4(mode, save_output):
+def test_list_g_month_day_enumeration_2_nistxml_sv_iv_list_g_month_day_enumeration_3_4(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet enumeration.
     """
@@ -4162,11 +4435,12 @@ def test_list_g_month_day_enumeration_2_nistxml_sv_iv_list_g_month_day_enumerati
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_enumeration_2_nistxml_sv_iv_list_g_month_day_enumeration_3_5(mode, save_output):
+def test_list_g_month_day_enumeration_2_nistxml_sv_iv_list_g_month_day_enumeration_3_5(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet enumeration.
     """
@@ -4177,11 +4451,12 @@ def test_list_g_month_day_enumeration_2_nistxml_sv_iv_list_g_month_day_enumerati
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_enumeration_1_nistxml_sv_iv_list_g_month_day_enumeration_2_1(mode, save_output):
+def test_list_g_month_day_enumeration_1_nistxml_sv_iv_list_g_month_day_enumeration_2_1(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet enumeration.
     """
@@ -4192,11 +4467,12 @@ def test_list_g_month_day_enumeration_1_nistxml_sv_iv_list_g_month_day_enumerati
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_enumeration_1_nistxml_sv_iv_list_g_month_day_enumeration_2_2(mode, save_output):
+def test_list_g_month_day_enumeration_1_nistxml_sv_iv_list_g_month_day_enumeration_2_2(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet enumeration.
     """
@@ -4207,11 +4483,12 @@ def test_list_g_month_day_enumeration_1_nistxml_sv_iv_list_g_month_day_enumerati
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_enumeration_1_nistxml_sv_iv_list_g_month_day_enumeration_2_3(mode, save_output):
+def test_list_g_month_day_enumeration_1_nistxml_sv_iv_list_g_month_day_enumeration_2_3(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet enumeration.
     """
@@ -4222,11 +4499,12 @@ def test_list_g_month_day_enumeration_1_nistxml_sv_iv_list_g_month_day_enumerati
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_enumeration_1_nistxml_sv_iv_list_g_month_day_enumeration_2_4(mode, save_output):
+def test_list_g_month_day_enumeration_1_nistxml_sv_iv_list_g_month_day_enumeration_2_4(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet enumeration.
     """
@@ -4237,11 +4515,12 @@ def test_list_g_month_day_enumeration_1_nistxml_sv_iv_list_g_month_day_enumerati
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_enumeration_1_nistxml_sv_iv_list_g_month_day_enumeration_2_5(mode, save_output):
+def test_list_g_month_day_enumeration_1_nistxml_sv_iv_list_g_month_day_enumeration_2_5(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet enumeration.
     """
@@ -4252,11 +4531,12 @@ def test_list_g_month_day_enumeration_1_nistxml_sv_iv_list_g_month_day_enumerati
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_enumeration_nistxml_sv_iv_list_g_month_day_enumeration_1_1(mode, save_output):
+def test_list_g_month_day_enumeration_nistxml_sv_iv_list_g_month_day_enumeration_1_1(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet enumeration.
     """
@@ -4267,11 +4547,12 @@ def test_list_g_month_day_enumeration_nistxml_sv_iv_list_g_month_day_enumeration
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_enumeration_nistxml_sv_iv_list_g_month_day_enumeration_1_2(mode, save_output):
+def test_list_g_month_day_enumeration_nistxml_sv_iv_list_g_month_day_enumeration_1_2(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet enumeration.
     """
@@ -4282,11 +4563,12 @@ def test_list_g_month_day_enumeration_nistxml_sv_iv_list_g_month_day_enumeration
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_enumeration_nistxml_sv_iv_list_g_month_day_enumeration_1_3(mode, save_output):
+def test_list_g_month_day_enumeration_nistxml_sv_iv_list_g_month_day_enumeration_1_3(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet enumeration.
     """
@@ -4297,11 +4579,12 @@ def test_list_g_month_day_enumeration_nistxml_sv_iv_list_g_month_day_enumeration
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_enumeration_nistxml_sv_iv_list_g_month_day_enumeration_1_4(mode, save_output):
+def test_list_g_month_day_enumeration_nistxml_sv_iv_list_g_month_day_enumeration_1_4(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet enumeration.
     """
@@ -4312,11 +4595,12 @@ def test_list_g_month_day_enumeration_nistxml_sv_iv_list_g_month_day_enumeration
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_enumeration_nistxml_sv_iv_list_g_month_day_enumeration_1_5(mode, save_output):
+def test_list_g_month_day_enumeration_nistxml_sv_iv_list_g_month_day_enumeration_1_5(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet enumeration.
     """
@@ -4327,11 +4611,12 @@ def test_list_g_month_day_enumeration_nistxml_sv_iv_list_g_month_day_enumeration
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_pattern_4_nistxml_sv_iv_list_g_month_day_pattern_5_1(mode, save_output):
+def test_list_g_month_day_pattern_4_nistxml_sv_iv_list_g_month_day_pattern_5_1(mode, save_output, output_format):
     r"""
     Type list/gMonthDay is restricted by facet pattern with value
     --0\d-1\d --\d3-1\d --0\d-\d3 --\d5-\d7 --\d2-2\d --0\d-0\d --0\d-1\d
@@ -4344,11 +4629,12 @@ def test_list_g_month_day_pattern_4_nistxml_sv_iv_list_g_month_day_pattern_5_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_pattern_4_nistxml_sv_iv_list_g_month_day_pattern_5_2(mode, save_output):
+def test_list_g_month_day_pattern_4_nistxml_sv_iv_list_g_month_day_pattern_5_2(mode, save_output, output_format):
     r"""
     Type list/gMonthDay is restricted by facet pattern with value
     --0\d-1\d --\d3-1\d --0\d-\d3 --\d5-\d7 --\d2-2\d --0\d-0\d --0\d-1\d
@@ -4361,11 +4647,12 @@ def test_list_g_month_day_pattern_4_nistxml_sv_iv_list_g_month_day_pattern_5_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_pattern_4_nistxml_sv_iv_list_g_month_day_pattern_5_3(mode, save_output):
+def test_list_g_month_day_pattern_4_nistxml_sv_iv_list_g_month_day_pattern_5_3(mode, save_output, output_format):
     r"""
     Type list/gMonthDay is restricted by facet pattern with value
     --0\d-1\d --\d3-1\d --0\d-\d3 --\d5-\d7 --\d2-2\d --0\d-0\d --0\d-1\d
@@ -4378,11 +4665,12 @@ def test_list_g_month_day_pattern_4_nistxml_sv_iv_list_g_month_day_pattern_5_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_pattern_4_nistxml_sv_iv_list_g_month_day_pattern_5_4(mode, save_output):
+def test_list_g_month_day_pattern_4_nistxml_sv_iv_list_g_month_day_pattern_5_4(mode, save_output, output_format):
     r"""
     Type list/gMonthDay is restricted by facet pattern with value
     --0\d-1\d --\d3-1\d --0\d-\d3 --\d5-\d7 --\d2-2\d --0\d-0\d --0\d-1\d
@@ -4395,11 +4683,12 @@ def test_list_g_month_day_pattern_4_nistxml_sv_iv_list_g_month_day_pattern_5_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_pattern_4_nistxml_sv_iv_list_g_month_day_pattern_5_5(mode, save_output):
+def test_list_g_month_day_pattern_4_nistxml_sv_iv_list_g_month_day_pattern_5_5(mode, save_output, output_format):
     r"""
     Type list/gMonthDay is restricted by facet pattern with value
     --0\d-1\d --\d3-1\d --0\d-\d3 --\d5-\d7 --\d2-2\d --0\d-0\d --0\d-1\d
@@ -4412,11 +4701,12 @@ def test_list_g_month_day_pattern_4_nistxml_sv_iv_list_g_month_day_pattern_5_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_pattern_3_nistxml_sv_iv_list_g_month_day_pattern_4_1(mode, save_output):
+def test_list_g_month_day_pattern_3_nistxml_sv_iv_list_g_month_day_pattern_4_1(mode, save_output, output_format):
     r"""
     Type list/gMonthDay is restricted by facet pattern with value
     --\d7-\d5 --0\d-\d2 --0\d-2\d --0\d-\d3 --\d1-\d0 --0\d-\d6 --\d6-0\d
@@ -4429,11 +4719,12 @@ def test_list_g_month_day_pattern_3_nistxml_sv_iv_list_g_month_day_pattern_4_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_pattern_3_nistxml_sv_iv_list_g_month_day_pattern_4_2(mode, save_output):
+def test_list_g_month_day_pattern_3_nistxml_sv_iv_list_g_month_day_pattern_4_2(mode, save_output, output_format):
     r"""
     Type list/gMonthDay is restricted by facet pattern with value
     --\d7-\d5 --0\d-\d2 --0\d-2\d --0\d-\d3 --\d1-\d0 --0\d-\d6 --\d6-0\d
@@ -4446,11 +4737,12 @@ def test_list_g_month_day_pattern_3_nistxml_sv_iv_list_g_month_day_pattern_4_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_pattern_3_nistxml_sv_iv_list_g_month_day_pattern_4_3(mode, save_output):
+def test_list_g_month_day_pattern_3_nistxml_sv_iv_list_g_month_day_pattern_4_3(mode, save_output, output_format):
     r"""
     Type list/gMonthDay is restricted by facet pattern with value
     --\d7-\d5 --0\d-\d2 --0\d-2\d --0\d-\d3 --\d1-\d0 --0\d-\d6 --\d6-0\d
@@ -4463,11 +4755,12 @@ def test_list_g_month_day_pattern_3_nistxml_sv_iv_list_g_month_day_pattern_4_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_pattern_3_nistxml_sv_iv_list_g_month_day_pattern_4_4(mode, save_output):
+def test_list_g_month_day_pattern_3_nistxml_sv_iv_list_g_month_day_pattern_4_4(mode, save_output, output_format):
     r"""
     Type list/gMonthDay is restricted by facet pattern with value
     --\d7-\d5 --0\d-\d2 --0\d-2\d --0\d-\d3 --\d1-\d0 --0\d-\d6 --\d6-0\d
@@ -4480,11 +4773,12 @@ def test_list_g_month_day_pattern_3_nistxml_sv_iv_list_g_month_day_pattern_4_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_pattern_3_nistxml_sv_iv_list_g_month_day_pattern_4_5(mode, save_output):
+def test_list_g_month_day_pattern_3_nistxml_sv_iv_list_g_month_day_pattern_4_5(mode, save_output, output_format):
     r"""
     Type list/gMonthDay is restricted by facet pattern with value
     --\d7-\d5 --0\d-\d2 --0\d-2\d --0\d-\d3 --\d1-\d0 --0\d-\d6 --\d6-0\d
@@ -4497,11 +4791,12 @@ def test_list_g_month_day_pattern_3_nistxml_sv_iv_list_g_month_day_pattern_4_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_pattern_2_nistxml_sv_iv_list_g_month_day_pattern_3_1(mode, save_output):
+def test_list_g_month_day_pattern_2_nistxml_sv_iv_list_g_month_day_pattern_3_1(mode, save_output, output_format):
     r"""
     Type list/gMonthDay is restricted by facet pattern with value
     --\d5-1\d --\d3-2\d --\d4-2\d --0\d-\d2 --\d1-\d3 --\d7-0\d --1\d-\d9
@@ -4514,11 +4809,12 @@ def test_list_g_month_day_pattern_2_nistxml_sv_iv_list_g_month_day_pattern_3_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_pattern_2_nistxml_sv_iv_list_g_month_day_pattern_3_2(mode, save_output):
+def test_list_g_month_day_pattern_2_nistxml_sv_iv_list_g_month_day_pattern_3_2(mode, save_output, output_format):
     r"""
     Type list/gMonthDay is restricted by facet pattern with value
     --\d5-1\d --\d3-2\d --\d4-2\d --0\d-\d2 --\d1-\d3 --\d7-0\d --1\d-\d9
@@ -4531,11 +4827,12 @@ def test_list_g_month_day_pattern_2_nistxml_sv_iv_list_g_month_day_pattern_3_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_pattern_2_nistxml_sv_iv_list_g_month_day_pattern_3_3(mode, save_output):
+def test_list_g_month_day_pattern_2_nistxml_sv_iv_list_g_month_day_pattern_3_3(mode, save_output, output_format):
     r"""
     Type list/gMonthDay is restricted by facet pattern with value
     --\d5-1\d --\d3-2\d --\d4-2\d --0\d-\d2 --\d1-\d3 --\d7-0\d --1\d-\d9
@@ -4548,11 +4845,12 @@ def test_list_g_month_day_pattern_2_nistxml_sv_iv_list_g_month_day_pattern_3_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_pattern_2_nistxml_sv_iv_list_g_month_day_pattern_3_4(mode, save_output):
+def test_list_g_month_day_pattern_2_nistxml_sv_iv_list_g_month_day_pattern_3_4(mode, save_output, output_format):
     r"""
     Type list/gMonthDay is restricted by facet pattern with value
     --\d5-1\d --\d3-2\d --\d4-2\d --0\d-\d2 --\d1-\d3 --\d7-0\d --1\d-\d9
@@ -4565,11 +4863,12 @@ def test_list_g_month_day_pattern_2_nistxml_sv_iv_list_g_month_day_pattern_3_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_pattern_2_nistxml_sv_iv_list_g_month_day_pattern_3_5(mode, save_output):
+def test_list_g_month_day_pattern_2_nistxml_sv_iv_list_g_month_day_pattern_3_5(mode, save_output, output_format):
     r"""
     Type list/gMonthDay is restricted by facet pattern with value
     --\d5-1\d --\d3-2\d --\d4-2\d --0\d-\d2 --\d1-\d3 --\d7-0\d --1\d-\d9
@@ -4582,11 +4881,12 @@ def test_list_g_month_day_pattern_2_nistxml_sv_iv_list_g_month_day_pattern_3_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_pattern_1_nistxml_sv_iv_list_g_month_day_pattern_2_1(mode, save_output):
+def test_list_g_month_day_pattern_1_nistxml_sv_iv_list_g_month_day_pattern_2_1(mode, save_output, output_format):
     r"""
     Type list/gMonthDay is restricted by facet pattern with value
     --\d5-\d2 --\d4-\d4 --0\d-\d3 --\d7-\d6 --\d5-0\d --0\d-0\d --0\d-1\d
@@ -4599,11 +4899,12 @@ def test_list_g_month_day_pattern_1_nistxml_sv_iv_list_g_month_day_pattern_2_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_pattern_1_nistxml_sv_iv_list_g_month_day_pattern_2_2(mode, save_output):
+def test_list_g_month_day_pattern_1_nistxml_sv_iv_list_g_month_day_pattern_2_2(mode, save_output, output_format):
     r"""
     Type list/gMonthDay is restricted by facet pattern with value
     --\d5-\d2 --\d4-\d4 --0\d-\d3 --\d7-\d6 --\d5-0\d --0\d-0\d --0\d-1\d
@@ -4616,11 +4917,12 @@ def test_list_g_month_day_pattern_1_nistxml_sv_iv_list_g_month_day_pattern_2_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_pattern_1_nistxml_sv_iv_list_g_month_day_pattern_2_3(mode, save_output):
+def test_list_g_month_day_pattern_1_nistxml_sv_iv_list_g_month_day_pattern_2_3(mode, save_output, output_format):
     r"""
     Type list/gMonthDay is restricted by facet pattern with value
     --\d5-\d2 --\d4-\d4 --0\d-\d3 --\d7-\d6 --\d5-0\d --0\d-0\d --0\d-1\d
@@ -4633,11 +4935,12 @@ def test_list_g_month_day_pattern_1_nistxml_sv_iv_list_g_month_day_pattern_2_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_pattern_1_nistxml_sv_iv_list_g_month_day_pattern_2_4(mode, save_output):
+def test_list_g_month_day_pattern_1_nistxml_sv_iv_list_g_month_day_pattern_2_4(mode, save_output, output_format):
     r"""
     Type list/gMonthDay is restricted by facet pattern with value
     --\d5-\d2 --\d4-\d4 --0\d-\d3 --\d7-\d6 --\d5-0\d --0\d-0\d --0\d-1\d
@@ -4650,11 +4953,12 @@ def test_list_g_month_day_pattern_1_nistxml_sv_iv_list_g_month_day_pattern_2_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_pattern_1_nistxml_sv_iv_list_g_month_day_pattern_2_5(mode, save_output):
+def test_list_g_month_day_pattern_1_nistxml_sv_iv_list_g_month_day_pattern_2_5(mode, save_output, output_format):
     r"""
     Type list/gMonthDay is restricted by facet pattern with value
     --\d5-\d2 --\d4-\d4 --0\d-\d3 --\d7-\d6 --\d5-0\d --0\d-0\d --0\d-1\d
@@ -4667,11 +4971,12 @@ def test_list_g_month_day_pattern_1_nistxml_sv_iv_list_g_month_day_pattern_2_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_pattern_nistxml_sv_iv_list_g_month_day_pattern_1_1(mode, save_output):
+def test_list_g_month_day_pattern_nistxml_sv_iv_list_g_month_day_pattern_1_1(mode, save_output, output_format):
     r"""
     Type list/gMonthDay is restricted by facet pattern with value
     --\d1-\d8 --0\d-\d9 --\d2-\d7 --0\d-\d6 --\d0-\d0 --0\d-1\d --0\d-\d3
@@ -4684,11 +4989,12 @@ def test_list_g_month_day_pattern_nistxml_sv_iv_list_g_month_day_pattern_1_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_pattern_nistxml_sv_iv_list_g_month_day_pattern_1_2(mode, save_output):
+def test_list_g_month_day_pattern_nistxml_sv_iv_list_g_month_day_pattern_1_2(mode, save_output, output_format):
     r"""
     Type list/gMonthDay is restricted by facet pattern with value
     --\d1-\d8 --0\d-\d9 --\d2-\d7 --0\d-\d6 --\d0-\d0 --0\d-1\d --0\d-\d3
@@ -4701,11 +5007,12 @@ def test_list_g_month_day_pattern_nistxml_sv_iv_list_g_month_day_pattern_1_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_pattern_nistxml_sv_iv_list_g_month_day_pattern_1_3(mode, save_output):
+def test_list_g_month_day_pattern_nistxml_sv_iv_list_g_month_day_pattern_1_3(mode, save_output, output_format):
     r"""
     Type list/gMonthDay is restricted by facet pattern with value
     --\d1-\d8 --0\d-\d9 --\d2-\d7 --0\d-\d6 --\d0-\d0 --0\d-1\d --0\d-\d3
@@ -4718,11 +5025,12 @@ def test_list_g_month_day_pattern_nistxml_sv_iv_list_g_month_day_pattern_1_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_pattern_nistxml_sv_iv_list_g_month_day_pattern_1_4(mode, save_output):
+def test_list_g_month_day_pattern_nistxml_sv_iv_list_g_month_day_pattern_1_4(mode, save_output, output_format):
     r"""
     Type list/gMonthDay is restricted by facet pattern with value
     --\d1-\d8 --0\d-\d9 --\d2-\d7 --0\d-\d6 --\d0-\d0 --0\d-1\d --0\d-\d3
@@ -4735,11 +5043,12 @@ def test_list_g_month_day_pattern_nistxml_sv_iv_list_g_month_day_pattern_1_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_pattern_nistxml_sv_iv_list_g_month_day_pattern_1_5(mode, save_output):
+def test_list_g_month_day_pattern_nistxml_sv_iv_list_g_month_day_pattern_1_5(mode, save_output, output_format):
     r"""
     Type list/gMonthDay is restricted by facet pattern with value
     --\d1-\d8 --0\d-\d9 --\d2-\d7 --0\d-\d6 --\d0-\d0 --0\d-1\d --0\d-\d3
@@ -4752,11 +5061,12 @@ def test_list_g_month_day_pattern_nistxml_sv_iv_list_g_month_day_pattern_1_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_length_4_nistxml_sv_iv_list_g_month_day_length_5_1(mode, save_output):
+def test_list_g_month_day_length_4_nistxml_sv_iv_list_g_month_day_length_5_1(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet length with value 10.
     """
@@ -4767,11 +5077,12 @@ def test_list_g_month_day_length_4_nistxml_sv_iv_list_g_month_day_length_5_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_length_4_nistxml_sv_iv_list_g_month_day_length_5_2(mode, save_output):
+def test_list_g_month_day_length_4_nistxml_sv_iv_list_g_month_day_length_5_2(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet length with value 10.
     """
@@ -4782,11 +5093,12 @@ def test_list_g_month_day_length_4_nistxml_sv_iv_list_g_month_day_length_5_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_length_4_nistxml_sv_iv_list_g_month_day_length_5_3(mode, save_output):
+def test_list_g_month_day_length_4_nistxml_sv_iv_list_g_month_day_length_5_3(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet length with value 10.
     """
@@ -4797,11 +5109,12 @@ def test_list_g_month_day_length_4_nistxml_sv_iv_list_g_month_day_length_5_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_length_4_nistxml_sv_iv_list_g_month_day_length_5_4(mode, save_output):
+def test_list_g_month_day_length_4_nistxml_sv_iv_list_g_month_day_length_5_4(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet length with value 10.
     """
@@ -4812,11 +5125,12 @@ def test_list_g_month_day_length_4_nistxml_sv_iv_list_g_month_day_length_5_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_length_4_nistxml_sv_iv_list_g_month_day_length_5_5(mode, save_output):
+def test_list_g_month_day_length_4_nistxml_sv_iv_list_g_month_day_length_5_5(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet length with value 10.
     """
@@ -4827,11 +5141,12 @@ def test_list_g_month_day_length_4_nistxml_sv_iv_list_g_month_day_length_5_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_length_3_nistxml_sv_iv_list_g_month_day_length_4_1(mode, save_output):
+def test_list_g_month_day_length_3_nistxml_sv_iv_list_g_month_day_length_4_1(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet length with value 8.
     """
@@ -4842,11 +5157,12 @@ def test_list_g_month_day_length_3_nistxml_sv_iv_list_g_month_day_length_4_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_length_3_nistxml_sv_iv_list_g_month_day_length_4_2(mode, save_output):
+def test_list_g_month_day_length_3_nistxml_sv_iv_list_g_month_day_length_4_2(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet length with value 8.
     """
@@ -4857,11 +5173,12 @@ def test_list_g_month_day_length_3_nistxml_sv_iv_list_g_month_day_length_4_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_length_3_nistxml_sv_iv_list_g_month_day_length_4_3(mode, save_output):
+def test_list_g_month_day_length_3_nistxml_sv_iv_list_g_month_day_length_4_3(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet length with value 8.
     """
@@ -4872,11 +5189,12 @@ def test_list_g_month_day_length_3_nistxml_sv_iv_list_g_month_day_length_4_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_length_3_nistxml_sv_iv_list_g_month_day_length_4_4(mode, save_output):
+def test_list_g_month_day_length_3_nistxml_sv_iv_list_g_month_day_length_4_4(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet length with value 8.
     """
@@ -4887,11 +5205,12 @@ def test_list_g_month_day_length_3_nistxml_sv_iv_list_g_month_day_length_4_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_length_3_nistxml_sv_iv_list_g_month_day_length_4_5(mode, save_output):
+def test_list_g_month_day_length_3_nistxml_sv_iv_list_g_month_day_length_4_5(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet length with value 8.
     """
@@ -4902,11 +5221,12 @@ def test_list_g_month_day_length_3_nistxml_sv_iv_list_g_month_day_length_4_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_length_2_nistxml_sv_iv_list_g_month_day_length_3_1(mode, save_output):
+def test_list_g_month_day_length_2_nistxml_sv_iv_list_g_month_day_length_3_1(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet length with value 7.
     """
@@ -4917,11 +5237,12 @@ def test_list_g_month_day_length_2_nistxml_sv_iv_list_g_month_day_length_3_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_length_2_nistxml_sv_iv_list_g_month_day_length_3_2(mode, save_output):
+def test_list_g_month_day_length_2_nistxml_sv_iv_list_g_month_day_length_3_2(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet length with value 7.
     """
@@ -4932,11 +5253,12 @@ def test_list_g_month_day_length_2_nistxml_sv_iv_list_g_month_day_length_3_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_length_2_nistxml_sv_iv_list_g_month_day_length_3_3(mode, save_output):
+def test_list_g_month_day_length_2_nistxml_sv_iv_list_g_month_day_length_3_3(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet length with value 7.
     """
@@ -4947,11 +5269,12 @@ def test_list_g_month_day_length_2_nistxml_sv_iv_list_g_month_day_length_3_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_length_2_nistxml_sv_iv_list_g_month_day_length_3_4(mode, save_output):
+def test_list_g_month_day_length_2_nistxml_sv_iv_list_g_month_day_length_3_4(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet length with value 7.
     """
@@ -4962,11 +5285,12 @@ def test_list_g_month_day_length_2_nistxml_sv_iv_list_g_month_day_length_3_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_length_2_nistxml_sv_iv_list_g_month_day_length_3_5(mode, save_output):
+def test_list_g_month_day_length_2_nistxml_sv_iv_list_g_month_day_length_3_5(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet length with value 7.
     """
@@ -4977,11 +5301,12 @@ def test_list_g_month_day_length_2_nistxml_sv_iv_list_g_month_day_length_3_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_length_1_nistxml_sv_iv_list_g_month_day_length_2_1(mode, save_output):
+def test_list_g_month_day_length_1_nistxml_sv_iv_list_g_month_day_length_2_1(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet length with value 6.
     """
@@ -4992,11 +5317,12 @@ def test_list_g_month_day_length_1_nistxml_sv_iv_list_g_month_day_length_2_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_length_1_nistxml_sv_iv_list_g_month_day_length_2_2(mode, save_output):
+def test_list_g_month_day_length_1_nistxml_sv_iv_list_g_month_day_length_2_2(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet length with value 6.
     """
@@ -5007,11 +5333,12 @@ def test_list_g_month_day_length_1_nistxml_sv_iv_list_g_month_day_length_2_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_length_1_nistxml_sv_iv_list_g_month_day_length_2_3(mode, save_output):
+def test_list_g_month_day_length_1_nistxml_sv_iv_list_g_month_day_length_2_3(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet length with value 6.
     """
@@ -5022,11 +5349,12 @@ def test_list_g_month_day_length_1_nistxml_sv_iv_list_g_month_day_length_2_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_length_1_nistxml_sv_iv_list_g_month_day_length_2_4(mode, save_output):
+def test_list_g_month_day_length_1_nistxml_sv_iv_list_g_month_day_length_2_4(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet length with value 6.
     """
@@ -5037,11 +5365,12 @@ def test_list_g_month_day_length_1_nistxml_sv_iv_list_g_month_day_length_2_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_length_1_nistxml_sv_iv_list_g_month_day_length_2_5(mode, save_output):
+def test_list_g_month_day_length_1_nistxml_sv_iv_list_g_month_day_length_2_5(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet length with value 6.
     """
@@ -5052,11 +5381,12 @@ def test_list_g_month_day_length_1_nistxml_sv_iv_list_g_month_day_length_2_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_length_nistxml_sv_iv_list_g_month_day_length_1_1(mode, save_output):
+def test_list_g_month_day_length_nistxml_sv_iv_list_g_month_day_length_1_1(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet length with value 5.
     """
@@ -5067,11 +5397,12 @@ def test_list_g_month_day_length_nistxml_sv_iv_list_g_month_day_length_1_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_length_nistxml_sv_iv_list_g_month_day_length_1_2(mode, save_output):
+def test_list_g_month_day_length_nistxml_sv_iv_list_g_month_day_length_1_2(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet length with value 5.
     """
@@ -5082,11 +5413,12 @@ def test_list_g_month_day_length_nistxml_sv_iv_list_g_month_day_length_1_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_length_nistxml_sv_iv_list_g_month_day_length_1_3(mode, save_output):
+def test_list_g_month_day_length_nistxml_sv_iv_list_g_month_day_length_1_3(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet length with value 5.
     """
@@ -5097,11 +5429,12 @@ def test_list_g_month_day_length_nistxml_sv_iv_list_g_month_day_length_1_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_length_nistxml_sv_iv_list_g_month_day_length_1_4(mode, save_output):
+def test_list_g_month_day_length_nistxml_sv_iv_list_g_month_day_length_1_4(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet length with value 5.
     """
@@ -5112,11 +5445,12 @@ def test_list_g_month_day_length_nistxml_sv_iv_list_g_month_day_length_1_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_length_nistxml_sv_iv_list_g_month_day_length_1_5(mode, save_output):
+def test_list_g_month_day_length_nistxml_sv_iv_list_g_month_day_length_1_5(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet length with value 5.
     """
@@ -5127,11 +5461,12 @@ def test_list_g_month_day_length_nistxml_sv_iv_list_g_month_day_length_1_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_min_length_4_nistxml_sv_iv_list_g_month_day_min_length_5_1(mode, save_output):
+def test_list_g_month_day_min_length_4_nistxml_sv_iv_list_g_month_day_min_length_5_1(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet minLength with value 10.
     """
@@ -5142,11 +5477,12 @@ def test_list_g_month_day_min_length_4_nistxml_sv_iv_list_g_month_day_min_length
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_min_length_4_nistxml_sv_iv_list_g_month_day_min_length_5_2(mode, save_output):
+def test_list_g_month_day_min_length_4_nistxml_sv_iv_list_g_month_day_min_length_5_2(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet minLength with value 10.
     """
@@ -5157,11 +5493,12 @@ def test_list_g_month_day_min_length_4_nistxml_sv_iv_list_g_month_day_min_length
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_min_length_4_nistxml_sv_iv_list_g_month_day_min_length_5_3(mode, save_output):
+def test_list_g_month_day_min_length_4_nistxml_sv_iv_list_g_month_day_min_length_5_3(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet minLength with value 10.
     """
@@ -5172,11 +5509,12 @@ def test_list_g_month_day_min_length_4_nistxml_sv_iv_list_g_month_day_min_length
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_min_length_4_nistxml_sv_iv_list_g_month_day_min_length_5_4(mode, save_output):
+def test_list_g_month_day_min_length_4_nistxml_sv_iv_list_g_month_day_min_length_5_4(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet minLength with value 10.
     """
@@ -5187,11 +5525,12 @@ def test_list_g_month_day_min_length_4_nistxml_sv_iv_list_g_month_day_min_length
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_min_length_4_nistxml_sv_iv_list_g_month_day_min_length_5_5(mode, save_output):
+def test_list_g_month_day_min_length_4_nistxml_sv_iv_list_g_month_day_min_length_5_5(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet minLength with value 10.
     """
@@ -5202,11 +5541,12 @@ def test_list_g_month_day_min_length_4_nistxml_sv_iv_list_g_month_day_min_length
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_min_length_3_nistxml_sv_iv_list_g_month_day_min_length_4_1(mode, save_output):
+def test_list_g_month_day_min_length_3_nistxml_sv_iv_list_g_month_day_min_length_4_1(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet minLength with value 8.
     """
@@ -5217,11 +5557,12 @@ def test_list_g_month_day_min_length_3_nistxml_sv_iv_list_g_month_day_min_length
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_min_length_3_nistxml_sv_iv_list_g_month_day_min_length_4_2(mode, save_output):
+def test_list_g_month_day_min_length_3_nistxml_sv_iv_list_g_month_day_min_length_4_2(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet minLength with value 8.
     """
@@ -5232,11 +5573,12 @@ def test_list_g_month_day_min_length_3_nistxml_sv_iv_list_g_month_day_min_length
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_min_length_3_nistxml_sv_iv_list_g_month_day_min_length_4_3(mode, save_output):
+def test_list_g_month_day_min_length_3_nistxml_sv_iv_list_g_month_day_min_length_4_3(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet minLength with value 8.
     """
@@ -5247,11 +5589,12 @@ def test_list_g_month_day_min_length_3_nistxml_sv_iv_list_g_month_day_min_length
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_min_length_3_nistxml_sv_iv_list_g_month_day_min_length_4_4(mode, save_output):
+def test_list_g_month_day_min_length_3_nistxml_sv_iv_list_g_month_day_min_length_4_4(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet minLength with value 8.
     """
@@ -5262,11 +5605,12 @@ def test_list_g_month_day_min_length_3_nistxml_sv_iv_list_g_month_day_min_length
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_min_length_3_nistxml_sv_iv_list_g_month_day_min_length_4_5(mode, save_output):
+def test_list_g_month_day_min_length_3_nistxml_sv_iv_list_g_month_day_min_length_4_5(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet minLength with value 8.
     """
@@ -5277,11 +5621,12 @@ def test_list_g_month_day_min_length_3_nistxml_sv_iv_list_g_month_day_min_length
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_min_length_2_nistxml_sv_iv_list_g_month_day_min_length_3_1(mode, save_output):
+def test_list_g_month_day_min_length_2_nistxml_sv_iv_list_g_month_day_min_length_3_1(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet minLength with value 7.
     """
@@ -5292,11 +5637,12 @@ def test_list_g_month_day_min_length_2_nistxml_sv_iv_list_g_month_day_min_length
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_min_length_2_nistxml_sv_iv_list_g_month_day_min_length_3_2(mode, save_output):
+def test_list_g_month_day_min_length_2_nistxml_sv_iv_list_g_month_day_min_length_3_2(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet minLength with value 7.
     """
@@ -5307,11 +5653,12 @@ def test_list_g_month_day_min_length_2_nistxml_sv_iv_list_g_month_day_min_length
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_min_length_2_nistxml_sv_iv_list_g_month_day_min_length_3_3(mode, save_output):
+def test_list_g_month_day_min_length_2_nistxml_sv_iv_list_g_month_day_min_length_3_3(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet minLength with value 7.
     """
@@ -5322,11 +5669,12 @@ def test_list_g_month_day_min_length_2_nistxml_sv_iv_list_g_month_day_min_length
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_min_length_2_nistxml_sv_iv_list_g_month_day_min_length_3_4(mode, save_output):
+def test_list_g_month_day_min_length_2_nistxml_sv_iv_list_g_month_day_min_length_3_4(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet minLength with value 7.
     """
@@ -5337,11 +5685,12 @@ def test_list_g_month_day_min_length_2_nistxml_sv_iv_list_g_month_day_min_length
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_min_length_2_nistxml_sv_iv_list_g_month_day_min_length_3_5(mode, save_output):
+def test_list_g_month_day_min_length_2_nistxml_sv_iv_list_g_month_day_min_length_3_5(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet minLength with value 7.
     """
@@ -5352,11 +5701,12 @@ def test_list_g_month_day_min_length_2_nistxml_sv_iv_list_g_month_day_min_length
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_min_length_1_nistxml_sv_iv_list_g_month_day_min_length_2_1(mode, save_output):
+def test_list_g_month_day_min_length_1_nistxml_sv_iv_list_g_month_day_min_length_2_1(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet minLength with value 6.
     """
@@ -5367,11 +5717,12 @@ def test_list_g_month_day_min_length_1_nistxml_sv_iv_list_g_month_day_min_length
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_min_length_1_nistxml_sv_iv_list_g_month_day_min_length_2_2(mode, save_output):
+def test_list_g_month_day_min_length_1_nistxml_sv_iv_list_g_month_day_min_length_2_2(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet minLength with value 6.
     """
@@ -5382,11 +5733,12 @@ def test_list_g_month_day_min_length_1_nistxml_sv_iv_list_g_month_day_min_length
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_min_length_1_nistxml_sv_iv_list_g_month_day_min_length_2_3(mode, save_output):
+def test_list_g_month_day_min_length_1_nistxml_sv_iv_list_g_month_day_min_length_2_3(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet minLength with value 6.
     """
@@ -5397,11 +5749,12 @@ def test_list_g_month_day_min_length_1_nistxml_sv_iv_list_g_month_day_min_length
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_min_length_1_nistxml_sv_iv_list_g_month_day_min_length_2_4(mode, save_output):
+def test_list_g_month_day_min_length_1_nistxml_sv_iv_list_g_month_day_min_length_2_4(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet minLength with value 6.
     """
@@ -5412,11 +5765,12 @@ def test_list_g_month_day_min_length_1_nistxml_sv_iv_list_g_month_day_min_length
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_min_length_1_nistxml_sv_iv_list_g_month_day_min_length_2_5(mode, save_output):
+def test_list_g_month_day_min_length_1_nistxml_sv_iv_list_g_month_day_min_length_2_5(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet minLength with value 6.
     """
@@ -5427,11 +5781,12 @@ def test_list_g_month_day_min_length_1_nistxml_sv_iv_list_g_month_day_min_length
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_min_length_nistxml_sv_iv_list_g_month_day_min_length_1_1(mode, save_output):
+def test_list_g_month_day_min_length_nistxml_sv_iv_list_g_month_day_min_length_1_1(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet minLength with value 5.
     """
@@ -5442,11 +5797,12 @@ def test_list_g_month_day_min_length_nistxml_sv_iv_list_g_month_day_min_length_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_min_length_nistxml_sv_iv_list_g_month_day_min_length_1_2(mode, save_output):
+def test_list_g_month_day_min_length_nistxml_sv_iv_list_g_month_day_min_length_1_2(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet minLength with value 5.
     """
@@ -5457,11 +5813,12 @@ def test_list_g_month_day_min_length_nistxml_sv_iv_list_g_month_day_min_length_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_min_length_nistxml_sv_iv_list_g_month_day_min_length_1_3(mode, save_output):
+def test_list_g_month_day_min_length_nistxml_sv_iv_list_g_month_day_min_length_1_3(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet minLength with value 5.
     """
@@ -5472,11 +5829,12 @@ def test_list_g_month_day_min_length_nistxml_sv_iv_list_g_month_day_min_length_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_min_length_nistxml_sv_iv_list_g_month_day_min_length_1_4(mode, save_output):
+def test_list_g_month_day_min_length_nistxml_sv_iv_list_g_month_day_min_length_1_4(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet minLength with value 5.
     """
@@ -5487,11 +5845,12 @@ def test_list_g_month_day_min_length_nistxml_sv_iv_list_g_month_day_min_length_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_min_length_nistxml_sv_iv_list_g_month_day_min_length_1_5(mode, save_output):
+def test_list_g_month_day_min_length_nistxml_sv_iv_list_g_month_day_min_length_1_5(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet minLength with value 5.
     """
@@ -5502,11 +5861,12 @@ def test_list_g_month_day_min_length_nistxml_sv_iv_list_g_month_day_min_length_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_max_length_4_nistxml_sv_iv_list_g_month_day_max_length_5_1(mode, save_output):
+def test_list_g_month_day_max_length_4_nistxml_sv_iv_list_g_month_day_max_length_5_1(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet maxLength with value 10.
     """
@@ -5517,11 +5877,12 @@ def test_list_g_month_day_max_length_4_nistxml_sv_iv_list_g_month_day_max_length
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_max_length_4_nistxml_sv_iv_list_g_month_day_max_length_5_2(mode, save_output):
+def test_list_g_month_day_max_length_4_nistxml_sv_iv_list_g_month_day_max_length_5_2(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet maxLength with value 10.
     """
@@ -5532,11 +5893,12 @@ def test_list_g_month_day_max_length_4_nistxml_sv_iv_list_g_month_day_max_length
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_max_length_4_nistxml_sv_iv_list_g_month_day_max_length_5_3(mode, save_output):
+def test_list_g_month_day_max_length_4_nistxml_sv_iv_list_g_month_day_max_length_5_3(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet maxLength with value 10.
     """
@@ -5547,11 +5909,12 @@ def test_list_g_month_day_max_length_4_nistxml_sv_iv_list_g_month_day_max_length
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_max_length_4_nistxml_sv_iv_list_g_month_day_max_length_5_4(mode, save_output):
+def test_list_g_month_day_max_length_4_nistxml_sv_iv_list_g_month_day_max_length_5_4(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet maxLength with value 10.
     """
@@ -5562,11 +5925,12 @@ def test_list_g_month_day_max_length_4_nistxml_sv_iv_list_g_month_day_max_length
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_max_length_4_nistxml_sv_iv_list_g_month_day_max_length_5_5(mode, save_output):
+def test_list_g_month_day_max_length_4_nistxml_sv_iv_list_g_month_day_max_length_5_5(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet maxLength with value 10.
     """
@@ -5577,11 +5941,12 @@ def test_list_g_month_day_max_length_4_nistxml_sv_iv_list_g_month_day_max_length
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_max_length_3_nistxml_sv_iv_list_g_month_day_max_length_4_1(mode, save_output):
+def test_list_g_month_day_max_length_3_nistxml_sv_iv_list_g_month_day_max_length_4_1(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet maxLength with value 8.
     """
@@ -5592,11 +5957,12 @@ def test_list_g_month_day_max_length_3_nistxml_sv_iv_list_g_month_day_max_length
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_max_length_3_nistxml_sv_iv_list_g_month_day_max_length_4_2(mode, save_output):
+def test_list_g_month_day_max_length_3_nistxml_sv_iv_list_g_month_day_max_length_4_2(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet maxLength with value 8.
     """
@@ -5607,11 +5973,12 @@ def test_list_g_month_day_max_length_3_nistxml_sv_iv_list_g_month_day_max_length
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_max_length_3_nistxml_sv_iv_list_g_month_day_max_length_4_3(mode, save_output):
+def test_list_g_month_day_max_length_3_nistxml_sv_iv_list_g_month_day_max_length_4_3(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet maxLength with value 8.
     """
@@ -5622,11 +5989,12 @@ def test_list_g_month_day_max_length_3_nistxml_sv_iv_list_g_month_day_max_length
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_max_length_3_nistxml_sv_iv_list_g_month_day_max_length_4_4(mode, save_output):
+def test_list_g_month_day_max_length_3_nistxml_sv_iv_list_g_month_day_max_length_4_4(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet maxLength with value 8.
     """
@@ -5637,11 +6005,12 @@ def test_list_g_month_day_max_length_3_nistxml_sv_iv_list_g_month_day_max_length
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_max_length_3_nistxml_sv_iv_list_g_month_day_max_length_4_5(mode, save_output):
+def test_list_g_month_day_max_length_3_nistxml_sv_iv_list_g_month_day_max_length_4_5(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet maxLength with value 8.
     """
@@ -5652,11 +6021,12 @@ def test_list_g_month_day_max_length_3_nistxml_sv_iv_list_g_month_day_max_length
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_max_length_2_nistxml_sv_iv_list_g_month_day_max_length_3_1(mode, save_output):
+def test_list_g_month_day_max_length_2_nistxml_sv_iv_list_g_month_day_max_length_3_1(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet maxLength with value 7.
     """
@@ -5667,11 +6037,12 @@ def test_list_g_month_day_max_length_2_nistxml_sv_iv_list_g_month_day_max_length
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_max_length_2_nistxml_sv_iv_list_g_month_day_max_length_3_2(mode, save_output):
+def test_list_g_month_day_max_length_2_nistxml_sv_iv_list_g_month_day_max_length_3_2(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet maxLength with value 7.
     """
@@ -5682,11 +6053,12 @@ def test_list_g_month_day_max_length_2_nistxml_sv_iv_list_g_month_day_max_length
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_max_length_2_nistxml_sv_iv_list_g_month_day_max_length_3_3(mode, save_output):
+def test_list_g_month_day_max_length_2_nistxml_sv_iv_list_g_month_day_max_length_3_3(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet maxLength with value 7.
     """
@@ -5697,11 +6069,12 @@ def test_list_g_month_day_max_length_2_nistxml_sv_iv_list_g_month_day_max_length
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_max_length_2_nistxml_sv_iv_list_g_month_day_max_length_3_4(mode, save_output):
+def test_list_g_month_day_max_length_2_nistxml_sv_iv_list_g_month_day_max_length_3_4(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet maxLength with value 7.
     """
@@ -5712,11 +6085,12 @@ def test_list_g_month_day_max_length_2_nistxml_sv_iv_list_g_month_day_max_length
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_max_length_2_nistxml_sv_iv_list_g_month_day_max_length_3_5(mode, save_output):
+def test_list_g_month_day_max_length_2_nistxml_sv_iv_list_g_month_day_max_length_3_5(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet maxLength with value 7.
     """
@@ -5727,11 +6101,12 @@ def test_list_g_month_day_max_length_2_nistxml_sv_iv_list_g_month_day_max_length
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_max_length_1_nistxml_sv_iv_list_g_month_day_max_length_2_1(mode, save_output):
+def test_list_g_month_day_max_length_1_nistxml_sv_iv_list_g_month_day_max_length_2_1(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet maxLength with value 6.
     """
@@ -5742,11 +6117,12 @@ def test_list_g_month_day_max_length_1_nistxml_sv_iv_list_g_month_day_max_length
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_max_length_1_nistxml_sv_iv_list_g_month_day_max_length_2_2(mode, save_output):
+def test_list_g_month_day_max_length_1_nistxml_sv_iv_list_g_month_day_max_length_2_2(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet maxLength with value 6.
     """
@@ -5757,11 +6133,12 @@ def test_list_g_month_day_max_length_1_nistxml_sv_iv_list_g_month_day_max_length
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_max_length_1_nistxml_sv_iv_list_g_month_day_max_length_2_3(mode, save_output):
+def test_list_g_month_day_max_length_1_nistxml_sv_iv_list_g_month_day_max_length_2_3(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet maxLength with value 6.
     """
@@ -5772,11 +6149,12 @@ def test_list_g_month_day_max_length_1_nistxml_sv_iv_list_g_month_day_max_length
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_max_length_1_nistxml_sv_iv_list_g_month_day_max_length_2_4(mode, save_output):
+def test_list_g_month_day_max_length_1_nistxml_sv_iv_list_g_month_day_max_length_2_4(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet maxLength with value 6.
     """
@@ -5787,11 +6165,12 @@ def test_list_g_month_day_max_length_1_nistxml_sv_iv_list_g_month_day_max_length
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_max_length_1_nistxml_sv_iv_list_g_month_day_max_length_2_5(mode, save_output):
+def test_list_g_month_day_max_length_1_nistxml_sv_iv_list_g_month_day_max_length_2_5(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet maxLength with value 6.
     """
@@ -5802,11 +6181,12 @@ def test_list_g_month_day_max_length_1_nistxml_sv_iv_list_g_month_day_max_length
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_max_length_nistxml_sv_iv_list_g_month_day_max_length_1_1(mode, save_output):
+def test_list_g_month_day_max_length_nistxml_sv_iv_list_g_month_day_max_length_1_1(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet maxLength with value 5.
     """
@@ -5817,11 +6197,12 @@ def test_list_g_month_day_max_length_nistxml_sv_iv_list_g_month_day_max_length_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_max_length_nistxml_sv_iv_list_g_month_day_max_length_1_2(mode, save_output):
+def test_list_g_month_day_max_length_nistxml_sv_iv_list_g_month_day_max_length_1_2(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet maxLength with value 5.
     """
@@ -5832,11 +6213,12 @@ def test_list_g_month_day_max_length_nistxml_sv_iv_list_g_month_day_max_length_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_max_length_nistxml_sv_iv_list_g_month_day_max_length_1_3(mode, save_output):
+def test_list_g_month_day_max_length_nistxml_sv_iv_list_g_month_day_max_length_1_3(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet maxLength with value 5.
     """
@@ -5847,11 +6229,12 @@ def test_list_g_month_day_max_length_nistxml_sv_iv_list_g_month_day_max_length_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_max_length_nistxml_sv_iv_list_g_month_day_max_length_1_4(mode, save_output):
+def test_list_g_month_day_max_length_nistxml_sv_iv_list_g_month_day_max_length_1_4(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet maxLength with value 5.
     """
@@ -5862,11 +6245,12 @@ def test_list_g_month_day_max_length_nistxml_sv_iv_list_g_month_day_max_length_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_month_day_max_length_nistxml_sv_iv_list_g_month_day_max_length_1_5(mode, save_output):
+def test_list_g_month_day_max_length_nistxml_sv_iv_list_g_month_day_max_length_1_5(mode, save_output, output_format):
     """
     Type list/gMonthDay is restricted by facet maxLength with value 5.
     """
@@ -5877,11 +6261,12 @@ def test_list_g_month_day_max_length_nistxml_sv_iv_list_g_month_day_max_length_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_white_space_nistxml_sv_iv_list_g_year_white_space_1_1(mode, save_output):
+def test_list_g_year_white_space_nistxml_sv_iv_list_g_year_white_space_1_1(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet whiteSpace with value collapse.
     """
@@ -5892,11 +6277,12 @@ def test_list_g_year_white_space_nistxml_sv_iv_list_g_year_white_space_1_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_white_space_nistxml_sv_iv_list_g_year_white_space_1_2(mode, save_output):
+def test_list_g_year_white_space_nistxml_sv_iv_list_g_year_white_space_1_2(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet whiteSpace with value collapse.
     """
@@ -5907,11 +6293,12 @@ def test_list_g_year_white_space_nistxml_sv_iv_list_g_year_white_space_1_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_white_space_nistxml_sv_iv_list_g_year_white_space_1_3(mode, save_output):
+def test_list_g_year_white_space_nistxml_sv_iv_list_g_year_white_space_1_3(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet whiteSpace with value collapse.
     """
@@ -5922,11 +6309,12 @@ def test_list_g_year_white_space_nistxml_sv_iv_list_g_year_white_space_1_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_white_space_nistxml_sv_iv_list_g_year_white_space_1_4(mode, save_output):
+def test_list_g_year_white_space_nistxml_sv_iv_list_g_year_white_space_1_4(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet whiteSpace with value collapse.
     """
@@ -5937,11 +6325,12 @@ def test_list_g_year_white_space_nistxml_sv_iv_list_g_year_white_space_1_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_white_space_nistxml_sv_iv_list_g_year_white_space_1_5(mode, save_output):
+def test_list_g_year_white_space_nistxml_sv_iv_list_g_year_white_space_1_5(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet whiteSpace with value collapse.
     """
@@ -5952,11 +6341,12 @@ def test_list_g_year_white_space_nistxml_sv_iv_list_g_year_white_space_1_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_enumeration_4_nistxml_sv_iv_list_g_year_enumeration_5_1(mode, save_output):
+def test_list_g_year_enumeration_4_nistxml_sv_iv_list_g_year_enumeration_5_1(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet enumeration.
     """
@@ -5967,11 +6357,12 @@ def test_list_g_year_enumeration_4_nistxml_sv_iv_list_g_year_enumeration_5_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_enumeration_4_nistxml_sv_iv_list_g_year_enumeration_5_2(mode, save_output):
+def test_list_g_year_enumeration_4_nistxml_sv_iv_list_g_year_enumeration_5_2(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet enumeration.
     """
@@ -5982,11 +6373,12 @@ def test_list_g_year_enumeration_4_nistxml_sv_iv_list_g_year_enumeration_5_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_enumeration_4_nistxml_sv_iv_list_g_year_enumeration_5_3(mode, save_output):
+def test_list_g_year_enumeration_4_nistxml_sv_iv_list_g_year_enumeration_5_3(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet enumeration.
     """
@@ -5997,11 +6389,12 @@ def test_list_g_year_enumeration_4_nistxml_sv_iv_list_g_year_enumeration_5_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_enumeration_4_nistxml_sv_iv_list_g_year_enumeration_5_4(mode, save_output):
+def test_list_g_year_enumeration_4_nistxml_sv_iv_list_g_year_enumeration_5_4(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet enumeration.
     """
@@ -6012,11 +6405,12 @@ def test_list_g_year_enumeration_4_nistxml_sv_iv_list_g_year_enumeration_5_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_enumeration_4_nistxml_sv_iv_list_g_year_enumeration_5_5(mode, save_output):
+def test_list_g_year_enumeration_4_nistxml_sv_iv_list_g_year_enumeration_5_5(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet enumeration.
     """
@@ -6027,11 +6421,12 @@ def test_list_g_year_enumeration_4_nistxml_sv_iv_list_g_year_enumeration_5_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_enumeration_3_nistxml_sv_iv_list_g_year_enumeration_4_1(mode, save_output):
+def test_list_g_year_enumeration_3_nistxml_sv_iv_list_g_year_enumeration_4_1(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet enumeration.
     """
@@ -6042,11 +6437,12 @@ def test_list_g_year_enumeration_3_nistxml_sv_iv_list_g_year_enumeration_4_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_enumeration_3_nistxml_sv_iv_list_g_year_enumeration_4_2(mode, save_output):
+def test_list_g_year_enumeration_3_nistxml_sv_iv_list_g_year_enumeration_4_2(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet enumeration.
     """
@@ -6057,11 +6453,12 @@ def test_list_g_year_enumeration_3_nistxml_sv_iv_list_g_year_enumeration_4_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_enumeration_3_nistxml_sv_iv_list_g_year_enumeration_4_3(mode, save_output):
+def test_list_g_year_enumeration_3_nistxml_sv_iv_list_g_year_enumeration_4_3(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet enumeration.
     """
@@ -6072,11 +6469,12 @@ def test_list_g_year_enumeration_3_nistxml_sv_iv_list_g_year_enumeration_4_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_enumeration_3_nistxml_sv_iv_list_g_year_enumeration_4_4(mode, save_output):
+def test_list_g_year_enumeration_3_nistxml_sv_iv_list_g_year_enumeration_4_4(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet enumeration.
     """
@@ -6087,11 +6485,12 @@ def test_list_g_year_enumeration_3_nistxml_sv_iv_list_g_year_enumeration_4_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_enumeration_3_nistxml_sv_iv_list_g_year_enumeration_4_5(mode, save_output):
+def test_list_g_year_enumeration_3_nistxml_sv_iv_list_g_year_enumeration_4_5(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet enumeration.
     """
@@ -6102,11 +6501,12 @@ def test_list_g_year_enumeration_3_nistxml_sv_iv_list_g_year_enumeration_4_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_enumeration_2_nistxml_sv_iv_list_g_year_enumeration_3_1(mode, save_output):
+def test_list_g_year_enumeration_2_nistxml_sv_iv_list_g_year_enumeration_3_1(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet enumeration.
     """
@@ -6117,11 +6517,12 @@ def test_list_g_year_enumeration_2_nistxml_sv_iv_list_g_year_enumeration_3_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_enumeration_2_nistxml_sv_iv_list_g_year_enumeration_3_2(mode, save_output):
+def test_list_g_year_enumeration_2_nistxml_sv_iv_list_g_year_enumeration_3_2(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet enumeration.
     """
@@ -6132,11 +6533,12 @@ def test_list_g_year_enumeration_2_nistxml_sv_iv_list_g_year_enumeration_3_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_enumeration_2_nistxml_sv_iv_list_g_year_enumeration_3_3(mode, save_output):
+def test_list_g_year_enumeration_2_nistxml_sv_iv_list_g_year_enumeration_3_3(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet enumeration.
     """
@@ -6147,11 +6549,12 @@ def test_list_g_year_enumeration_2_nistxml_sv_iv_list_g_year_enumeration_3_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_enumeration_2_nistxml_sv_iv_list_g_year_enumeration_3_4(mode, save_output):
+def test_list_g_year_enumeration_2_nistxml_sv_iv_list_g_year_enumeration_3_4(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet enumeration.
     """
@@ -6162,11 +6565,12 @@ def test_list_g_year_enumeration_2_nistxml_sv_iv_list_g_year_enumeration_3_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_enumeration_2_nistxml_sv_iv_list_g_year_enumeration_3_5(mode, save_output):
+def test_list_g_year_enumeration_2_nistxml_sv_iv_list_g_year_enumeration_3_5(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet enumeration.
     """
@@ -6177,11 +6581,12 @@ def test_list_g_year_enumeration_2_nistxml_sv_iv_list_g_year_enumeration_3_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_enumeration_1_nistxml_sv_iv_list_g_year_enumeration_2_1(mode, save_output):
+def test_list_g_year_enumeration_1_nistxml_sv_iv_list_g_year_enumeration_2_1(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet enumeration.
     """
@@ -6192,11 +6597,12 @@ def test_list_g_year_enumeration_1_nistxml_sv_iv_list_g_year_enumeration_2_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_enumeration_1_nistxml_sv_iv_list_g_year_enumeration_2_2(mode, save_output):
+def test_list_g_year_enumeration_1_nistxml_sv_iv_list_g_year_enumeration_2_2(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet enumeration.
     """
@@ -6207,11 +6613,12 @@ def test_list_g_year_enumeration_1_nistxml_sv_iv_list_g_year_enumeration_2_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_enumeration_1_nistxml_sv_iv_list_g_year_enumeration_2_3(mode, save_output):
+def test_list_g_year_enumeration_1_nistxml_sv_iv_list_g_year_enumeration_2_3(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet enumeration.
     """
@@ -6222,11 +6629,12 @@ def test_list_g_year_enumeration_1_nistxml_sv_iv_list_g_year_enumeration_2_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_enumeration_1_nistxml_sv_iv_list_g_year_enumeration_2_4(mode, save_output):
+def test_list_g_year_enumeration_1_nistxml_sv_iv_list_g_year_enumeration_2_4(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet enumeration.
     """
@@ -6237,11 +6645,12 @@ def test_list_g_year_enumeration_1_nistxml_sv_iv_list_g_year_enumeration_2_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_enumeration_1_nistxml_sv_iv_list_g_year_enumeration_2_5(mode, save_output):
+def test_list_g_year_enumeration_1_nistxml_sv_iv_list_g_year_enumeration_2_5(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet enumeration.
     """
@@ -6252,11 +6661,12 @@ def test_list_g_year_enumeration_1_nistxml_sv_iv_list_g_year_enumeration_2_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_enumeration_nistxml_sv_iv_list_g_year_enumeration_1_1(mode, save_output):
+def test_list_g_year_enumeration_nistxml_sv_iv_list_g_year_enumeration_1_1(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet enumeration.
     """
@@ -6267,11 +6677,12 @@ def test_list_g_year_enumeration_nistxml_sv_iv_list_g_year_enumeration_1_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_enumeration_nistxml_sv_iv_list_g_year_enumeration_1_2(mode, save_output):
+def test_list_g_year_enumeration_nistxml_sv_iv_list_g_year_enumeration_1_2(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet enumeration.
     """
@@ -6282,11 +6693,12 @@ def test_list_g_year_enumeration_nistxml_sv_iv_list_g_year_enumeration_1_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_enumeration_nistxml_sv_iv_list_g_year_enumeration_1_3(mode, save_output):
+def test_list_g_year_enumeration_nistxml_sv_iv_list_g_year_enumeration_1_3(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet enumeration.
     """
@@ -6297,11 +6709,12 @@ def test_list_g_year_enumeration_nistxml_sv_iv_list_g_year_enumeration_1_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_enumeration_nistxml_sv_iv_list_g_year_enumeration_1_4(mode, save_output):
+def test_list_g_year_enumeration_nistxml_sv_iv_list_g_year_enumeration_1_4(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet enumeration.
     """
@@ -6312,11 +6725,12 @@ def test_list_g_year_enumeration_nistxml_sv_iv_list_g_year_enumeration_1_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_enumeration_nistxml_sv_iv_list_g_year_enumeration_1_5(mode, save_output):
+def test_list_g_year_enumeration_nistxml_sv_iv_list_g_year_enumeration_1_5(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet enumeration.
     """
@@ -6327,11 +6741,12 @@ def test_list_g_year_enumeration_nistxml_sv_iv_list_g_year_enumeration_1_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_pattern_4_nistxml_sv_iv_list_g_year_pattern_5_1(mode, save_output):
+def test_list_g_year_pattern_4_nistxml_sv_iv_list_g_year_pattern_5_1(mode, save_output, output_format):
     r"""
     Type list/gYear is restricted by facet pattern with value 18\d\d
     \d\d52 \d\d14 20\d\d \d\d14 \d\d43 \d\d70 19\d\d \d\d36.
@@ -6343,11 +6758,12 @@ def test_list_g_year_pattern_4_nistxml_sv_iv_list_g_year_pattern_5_1(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_pattern_4_nistxml_sv_iv_list_g_year_pattern_5_2(mode, save_output):
+def test_list_g_year_pattern_4_nistxml_sv_iv_list_g_year_pattern_5_2(mode, save_output, output_format):
     r"""
     Type list/gYear is restricted by facet pattern with value 18\d\d
     \d\d52 \d\d14 20\d\d \d\d14 \d\d43 \d\d70 19\d\d \d\d36.
@@ -6359,11 +6775,12 @@ def test_list_g_year_pattern_4_nistxml_sv_iv_list_g_year_pattern_5_2(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_pattern_4_nistxml_sv_iv_list_g_year_pattern_5_3(mode, save_output):
+def test_list_g_year_pattern_4_nistxml_sv_iv_list_g_year_pattern_5_3(mode, save_output, output_format):
     r"""
     Type list/gYear is restricted by facet pattern with value 18\d\d
     \d\d52 \d\d14 20\d\d \d\d14 \d\d43 \d\d70 19\d\d \d\d36.
@@ -6375,11 +6792,12 @@ def test_list_g_year_pattern_4_nistxml_sv_iv_list_g_year_pattern_5_3(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_pattern_4_nistxml_sv_iv_list_g_year_pattern_5_4(mode, save_output):
+def test_list_g_year_pattern_4_nistxml_sv_iv_list_g_year_pattern_5_4(mode, save_output, output_format):
     r"""
     Type list/gYear is restricted by facet pattern with value 18\d\d
     \d\d52 \d\d14 20\d\d \d\d14 \d\d43 \d\d70 19\d\d \d\d36.
@@ -6391,11 +6809,12 @@ def test_list_g_year_pattern_4_nistxml_sv_iv_list_g_year_pattern_5_4(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_pattern_4_nistxml_sv_iv_list_g_year_pattern_5_5(mode, save_output):
+def test_list_g_year_pattern_4_nistxml_sv_iv_list_g_year_pattern_5_5(mode, save_output, output_format):
     r"""
     Type list/gYear is restricted by facet pattern with value 18\d\d
     \d\d52 \d\d14 20\d\d \d\d14 \d\d43 \d\d70 19\d\d \d\d36.
@@ -6407,11 +6826,12 @@ def test_list_g_year_pattern_4_nistxml_sv_iv_list_g_year_pattern_5_5(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_pattern_3_nistxml_sv_iv_list_g_year_pattern_4_1(mode, save_output):
+def test_list_g_year_pattern_3_nistxml_sv_iv_list_g_year_pattern_4_1(mode, save_output, output_format):
     r"""
     Type list/gYear is restricted by facet pattern with value 19\d\d
     \d\d48 \d\d53 18\d\d \d\d43 19\d\d \d\d10 \d\d46.
@@ -6423,11 +6843,12 @@ def test_list_g_year_pattern_3_nistxml_sv_iv_list_g_year_pattern_4_1(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_pattern_3_nistxml_sv_iv_list_g_year_pattern_4_2(mode, save_output):
+def test_list_g_year_pattern_3_nistxml_sv_iv_list_g_year_pattern_4_2(mode, save_output, output_format):
     r"""
     Type list/gYear is restricted by facet pattern with value 19\d\d
     \d\d48 \d\d53 18\d\d \d\d43 19\d\d \d\d10 \d\d46.
@@ -6439,11 +6860,12 @@ def test_list_g_year_pattern_3_nistxml_sv_iv_list_g_year_pattern_4_2(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_pattern_3_nistxml_sv_iv_list_g_year_pattern_4_3(mode, save_output):
+def test_list_g_year_pattern_3_nistxml_sv_iv_list_g_year_pattern_4_3(mode, save_output, output_format):
     r"""
     Type list/gYear is restricted by facet pattern with value 19\d\d
     \d\d48 \d\d53 18\d\d \d\d43 19\d\d \d\d10 \d\d46.
@@ -6455,11 +6877,12 @@ def test_list_g_year_pattern_3_nistxml_sv_iv_list_g_year_pattern_4_3(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_pattern_3_nistxml_sv_iv_list_g_year_pattern_4_4(mode, save_output):
+def test_list_g_year_pattern_3_nistxml_sv_iv_list_g_year_pattern_4_4(mode, save_output, output_format):
     r"""
     Type list/gYear is restricted by facet pattern with value 19\d\d
     \d\d48 \d\d53 18\d\d \d\d43 19\d\d \d\d10 \d\d46.
@@ -6471,11 +6894,12 @@ def test_list_g_year_pattern_3_nistxml_sv_iv_list_g_year_pattern_4_4(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_pattern_3_nistxml_sv_iv_list_g_year_pattern_4_5(mode, save_output):
+def test_list_g_year_pattern_3_nistxml_sv_iv_list_g_year_pattern_4_5(mode, save_output, output_format):
     r"""
     Type list/gYear is restricted by facet pattern with value 19\d\d
     \d\d48 \d\d53 18\d\d \d\d43 19\d\d \d\d10 \d\d46.
@@ -6487,11 +6911,12 @@ def test_list_g_year_pattern_3_nistxml_sv_iv_list_g_year_pattern_4_5(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_pattern_2_nistxml_sv_iv_list_g_year_pattern_3_1(mode, save_output):
+def test_list_g_year_pattern_2_nistxml_sv_iv_list_g_year_pattern_3_1(mode, save_output, output_format):
     r"""
     Type list/gYear is restricted by facet pattern with value \d\d93
     \d\d27 18\d\d \d\d15 19\d\d \d\d57 18\d\d 19\d\d \d\d57.
@@ -6503,11 +6928,12 @@ def test_list_g_year_pattern_2_nistxml_sv_iv_list_g_year_pattern_3_1(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_pattern_2_nistxml_sv_iv_list_g_year_pattern_3_2(mode, save_output):
+def test_list_g_year_pattern_2_nistxml_sv_iv_list_g_year_pattern_3_2(mode, save_output, output_format):
     r"""
     Type list/gYear is restricted by facet pattern with value \d\d93
     \d\d27 18\d\d \d\d15 19\d\d \d\d57 18\d\d 19\d\d \d\d57.
@@ -6519,11 +6945,12 @@ def test_list_g_year_pattern_2_nistxml_sv_iv_list_g_year_pattern_3_2(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_pattern_2_nistxml_sv_iv_list_g_year_pattern_3_3(mode, save_output):
+def test_list_g_year_pattern_2_nistxml_sv_iv_list_g_year_pattern_3_3(mode, save_output, output_format):
     r"""
     Type list/gYear is restricted by facet pattern with value \d\d93
     \d\d27 18\d\d \d\d15 19\d\d \d\d57 18\d\d 19\d\d \d\d57.
@@ -6535,11 +6962,12 @@ def test_list_g_year_pattern_2_nistxml_sv_iv_list_g_year_pattern_3_3(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_pattern_2_nistxml_sv_iv_list_g_year_pattern_3_4(mode, save_output):
+def test_list_g_year_pattern_2_nistxml_sv_iv_list_g_year_pattern_3_4(mode, save_output, output_format):
     r"""
     Type list/gYear is restricted by facet pattern with value \d\d93
     \d\d27 18\d\d \d\d15 19\d\d \d\d57 18\d\d 19\d\d \d\d57.
@@ -6551,11 +6979,12 @@ def test_list_g_year_pattern_2_nistxml_sv_iv_list_g_year_pattern_3_4(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_pattern_2_nistxml_sv_iv_list_g_year_pattern_3_5(mode, save_output):
+def test_list_g_year_pattern_2_nistxml_sv_iv_list_g_year_pattern_3_5(mode, save_output, output_format):
     r"""
     Type list/gYear is restricted by facet pattern with value \d\d93
     \d\d27 18\d\d \d\d15 19\d\d \d\d57 18\d\d 19\d\d \d\d57.
@@ -6567,11 +6996,12 @@ def test_list_g_year_pattern_2_nistxml_sv_iv_list_g_year_pattern_3_5(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_pattern_1_nistxml_sv_iv_list_g_year_pattern_2_1(mode, save_output):
+def test_list_g_year_pattern_1_nistxml_sv_iv_list_g_year_pattern_2_1(mode, save_output, output_format):
     r"""
     Type list/gYear is restricted by facet pattern with value 17\d\d
     19\d\d \d\d67 \d\d26 \d\d58 \d\d06 \d\d09.
@@ -6583,11 +7013,12 @@ def test_list_g_year_pattern_1_nistxml_sv_iv_list_g_year_pattern_2_1(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_pattern_1_nistxml_sv_iv_list_g_year_pattern_2_2(mode, save_output):
+def test_list_g_year_pattern_1_nistxml_sv_iv_list_g_year_pattern_2_2(mode, save_output, output_format):
     r"""
     Type list/gYear is restricted by facet pattern with value 17\d\d
     19\d\d \d\d67 \d\d26 \d\d58 \d\d06 \d\d09.
@@ -6599,11 +7030,12 @@ def test_list_g_year_pattern_1_nistxml_sv_iv_list_g_year_pattern_2_2(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_pattern_1_nistxml_sv_iv_list_g_year_pattern_2_3(mode, save_output):
+def test_list_g_year_pattern_1_nistxml_sv_iv_list_g_year_pattern_2_3(mode, save_output, output_format):
     r"""
     Type list/gYear is restricted by facet pattern with value 17\d\d
     19\d\d \d\d67 \d\d26 \d\d58 \d\d06 \d\d09.
@@ -6615,11 +7047,12 @@ def test_list_g_year_pattern_1_nistxml_sv_iv_list_g_year_pattern_2_3(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_pattern_1_nistxml_sv_iv_list_g_year_pattern_2_4(mode, save_output):
+def test_list_g_year_pattern_1_nistxml_sv_iv_list_g_year_pattern_2_4(mode, save_output, output_format):
     r"""
     Type list/gYear is restricted by facet pattern with value 17\d\d
     19\d\d \d\d67 \d\d26 \d\d58 \d\d06 \d\d09.
@@ -6631,11 +7064,12 @@ def test_list_g_year_pattern_1_nistxml_sv_iv_list_g_year_pattern_2_4(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_pattern_1_nistxml_sv_iv_list_g_year_pattern_2_5(mode, save_output):
+def test_list_g_year_pattern_1_nistxml_sv_iv_list_g_year_pattern_2_5(mode, save_output, output_format):
     r"""
     Type list/gYear is restricted by facet pattern with value 17\d\d
     19\d\d \d\d67 \d\d26 \d\d58 \d\d06 \d\d09.
@@ -6647,11 +7081,12 @@ def test_list_g_year_pattern_1_nistxml_sv_iv_list_g_year_pattern_2_5(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_pattern_nistxml_sv_iv_list_g_year_pattern_1_1(mode, save_output):
+def test_list_g_year_pattern_nistxml_sv_iv_list_g_year_pattern_1_1(mode, save_output, output_format):
     r"""
     Type list/gYear is restricted by facet pattern with value \d\d81
     \d\d41 18\d\d \d\d64 19\d\d \d\d72 \d\d38 \d\d27.
@@ -6663,11 +7098,12 @@ def test_list_g_year_pattern_nistxml_sv_iv_list_g_year_pattern_1_1(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_pattern_nistxml_sv_iv_list_g_year_pattern_1_2(mode, save_output):
+def test_list_g_year_pattern_nistxml_sv_iv_list_g_year_pattern_1_2(mode, save_output, output_format):
     r"""
     Type list/gYear is restricted by facet pattern with value \d\d81
     \d\d41 18\d\d \d\d64 19\d\d \d\d72 \d\d38 \d\d27.
@@ -6679,11 +7115,12 @@ def test_list_g_year_pattern_nistxml_sv_iv_list_g_year_pattern_1_2(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_pattern_nistxml_sv_iv_list_g_year_pattern_1_3(mode, save_output):
+def test_list_g_year_pattern_nistxml_sv_iv_list_g_year_pattern_1_3(mode, save_output, output_format):
     r"""
     Type list/gYear is restricted by facet pattern with value \d\d81
     \d\d41 18\d\d \d\d64 19\d\d \d\d72 \d\d38 \d\d27.
@@ -6695,11 +7132,12 @@ def test_list_g_year_pattern_nistxml_sv_iv_list_g_year_pattern_1_3(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_pattern_nistxml_sv_iv_list_g_year_pattern_1_4(mode, save_output):
+def test_list_g_year_pattern_nistxml_sv_iv_list_g_year_pattern_1_4(mode, save_output, output_format):
     r"""
     Type list/gYear is restricted by facet pattern with value \d\d81
     \d\d41 18\d\d \d\d64 19\d\d \d\d72 \d\d38 \d\d27.
@@ -6711,11 +7149,12 @@ def test_list_g_year_pattern_nistxml_sv_iv_list_g_year_pattern_1_4(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_pattern_nistxml_sv_iv_list_g_year_pattern_1_5(mode, save_output):
+def test_list_g_year_pattern_nistxml_sv_iv_list_g_year_pattern_1_5(mode, save_output, output_format):
     r"""
     Type list/gYear is restricted by facet pattern with value \d\d81
     \d\d41 18\d\d \d\d64 19\d\d \d\d72 \d\d38 \d\d27.
@@ -6727,11 +7166,12 @@ def test_list_g_year_pattern_nistxml_sv_iv_list_g_year_pattern_1_5(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_length_4_nistxml_sv_iv_list_g_year_length_5_1(mode, save_output):
+def test_list_g_year_length_4_nistxml_sv_iv_list_g_year_length_5_1(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet length with value 10.
     """
@@ -6742,11 +7182,12 @@ def test_list_g_year_length_4_nistxml_sv_iv_list_g_year_length_5_1(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_length_4_nistxml_sv_iv_list_g_year_length_5_2(mode, save_output):
+def test_list_g_year_length_4_nistxml_sv_iv_list_g_year_length_5_2(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet length with value 10.
     """
@@ -6757,11 +7198,12 @@ def test_list_g_year_length_4_nistxml_sv_iv_list_g_year_length_5_2(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_length_4_nistxml_sv_iv_list_g_year_length_5_3(mode, save_output):
+def test_list_g_year_length_4_nistxml_sv_iv_list_g_year_length_5_3(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet length with value 10.
     """
@@ -6772,11 +7214,12 @@ def test_list_g_year_length_4_nistxml_sv_iv_list_g_year_length_5_3(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_length_4_nistxml_sv_iv_list_g_year_length_5_4(mode, save_output):
+def test_list_g_year_length_4_nistxml_sv_iv_list_g_year_length_5_4(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet length with value 10.
     """
@@ -6787,11 +7230,12 @@ def test_list_g_year_length_4_nistxml_sv_iv_list_g_year_length_5_4(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_length_4_nistxml_sv_iv_list_g_year_length_5_5(mode, save_output):
+def test_list_g_year_length_4_nistxml_sv_iv_list_g_year_length_5_5(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet length with value 10.
     """
@@ -6802,11 +7246,12 @@ def test_list_g_year_length_4_nistxml_sv_iv_list_g_year_length_5_5(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_length_3_nistxml_sv_iv_list_g_year_length_4_1(mode, save_output):
+def test_list_g_year_length_3_nistxml_sv_iv_list_g_year_length_4_1(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet length with value 8.
     """
@@ -6817,11 +7262,12 @@ def test_list_g_year_length_3_nistxml_sv_iv_list_g_year_length_4_1(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_length_3_nistxml_sv_iv_list_g_year_length_4_2(mode, save_output):
+def test_list_g_year_length_3_nistxml_sv_iv_list_g_year_length_4_2(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet length with value 8.
     """
@@ -6832,11 +7278,12 @@ def test_list_g_year_length_3_nistxml_sv_iv_list_g_year_length_4_2(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_length_3_nistxml_sv_iv_list_g_year_length_4_3(mode, save_output):
+def test_list_g_year_length_3_nistxml_sv_iv_list_g_year_length_4_3(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet length with value 8.
     """
@@ -6847,11 +7294,12 @@ def test_list_g_year_length_3_nistxml_sv_iv_list_g_year_length_4_3(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_length_3_nistxml_sv_iv_list_g_year_length_4_4(mode, save_output):
+def test_list_g_year_length_3_nistxml_sv_iv_list_g_year_length_4_4(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet length with value 8.
     """
@@ -6862,11 +7310,12 @@ def test_list_g_year_length_3_nistxml_sv_iv_list_g_year_length_4_4(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_length_3_nistxml_sv_iv_list_g_year_length_4_5(mode, save_output):
+def test_list_g_year_length_3_nistxml_sv_iv_list_g_year_length_4_5(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet length with value 8.
     """
@@ -6877,11 +7326,12 @@ def test_list_g_year_length_3_nistxml_sv_iv_list_g_year_length_4_5(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_length_2_nistxml_sv_iv_list_g_year_length_3_1(mode, save_output):
+def test_list_g_year_length_2_nistxml_sv_iv_list_g_year_length_3_1(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet length with value 7.
     """
@@ -6892,11 +7342,12 @@ def test_list_g_year_length_2_nistxml_sv_iv_list_g_year_length_3_1(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_length_2_nistxml_sv_iv_list_g_year_length_3_2(mode, save_output):
+def test_list_g_year_length_2_nistxml_sv_iv_list_g_year_length_3_2(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet length with value 7.
     """
@@ -6907,11 +7358,12 @@ def test_list_g_year_length_2_nistxml_sv_iv_list_g_year_length_3_2(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_length_2_nistxml_sv_iv_list_g_year_length_3_3(mode, save_output):
+def test_list_g_year_length_2_nistxml_sv_iv_list_g_year_length_3_3(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet length with value 7.
     """
@@ -6922,11 +7374,12 @@ def test_list_g_year_length_2_nistxml_sv_iv_list_g_year_length_3_3(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_length_2_nistxml_sv_iv_list_g_year_length_3_4(mode, save_output):
+def test_list_g_year_length_2_nistxml_sv_iv_list_g_year_length_3_4(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet length with value 7.
     """
@@ -6937,11 +7390,12 @@ def test_list_g_year_length_2_nistxml_sv_iv_list_g_year_length_3_4(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_length_2_nistxml_sv_iv_list_g_year_length_3_5(mode, save_output):
+def test_list_g_year_length_2_nistxml_sv_iv_list_g_year_length_3_5(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet length with value 7.
     """
@@ -6952,11 +7406,12 @@ def test_list_g_year_length_2_nistxml_sv_iv_list_g_year_length_3_5(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_length_1_nistxml_sv_iv_list_g_year_length_2_1(mode, save_output):
+def test_list_g_year_length_1_nistxml_sv_iv_list_g_year_length_2_1(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet length with value 6.
     """
@@ -6967,11 +7422,12 @@ def test_list_g_year_length_1_nistxml_sv_iv_list_g_year_length_2_1(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_length_1_nistxml_sv_iv_list_g_year_length_2_2(mode, save_output):
+def test_list_g_year_length_1_nistxml_sv_iv_list_g_year_length_2_2(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet length with value 6.
     """
@@ -6982,11 +7438,12 @@ def test_list_g_year_length_1_nistxml_sv_iv_list_g_year_length_2_2(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_length_1_nistxml_sv_iv_list_g_year_length_2_3(mode, save_output):
+def test_list_g_year_length_1_nistxml_sv_iv_list_g_year_length_2_3(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet length with value 6.
     """
@@ -6997,11 +7454,12 @@ def test_list_g_year_length_1_nistxml_sv_iv_list_g_year_length_2_3(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_length_1_nistxml_sv_iv_list_g_year_length_2_4(mode, save_output):
+def test_list_g_year_length_1_nistxml_sv_iv_list_g_year_length_2_4(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet length with value 6.
     """
@@ -7012,11 +7470,12 @@ def test_list_g_year_length_1_nistxml_sv_iv_list_g_year_length_2_4(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_length_1_nistxml_sv_iv_list_g_year_length_2_5(mode, save_output):
+def test_list_g_year_length_1_nistxml_sv_iv_list_g_year_length_2_5(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet length with value 6.
     """
@@ -7027,11 +7486,12 @@ def test_list_g_year_length_1_nistxml_sv_iv_list_g_year_length_2_5(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_length_nistxml_sv_iv_list_g_year_length_1_1(mode, save_output):
+def test_list_g_year_length_nistxml_sv_iv_list_g_year_length_1_1(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet length with value 5.
     """
@@ -7042,11 +7502,12 @@ def test_list_g_year_length_nistxml_sv_iv_list_g_year_length_1_1(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_length_nistxml_sv_iv_list_g_year_length_1_2(mode, save_output):
+def test_list_g_year_length_nistxml_sv_iv_list_g_year_length_1_2(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet length with value 5.
     """
@@ -7057,11 +7518,12 @@ def test_list_g_year_length_nistxml_sv_iv_list_g_year_length_1_2(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_length_nistxml_sv_iv_list_g_year_length_1_3(mode, save_output):
+def test_list_g_year_length_nistxml_sv_iv_list_g_year_length_1_3(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet length with value 5.
     """
@@ -7072,11 +7534,12 @@ def test_list_g_year_length_nistxml_sv_iv_list_g_year_length_1_3(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_length_nistxml_sv_iv_list_g_year_length_1_4(mode, save_output):
+def test_list_g_year_length_nistxml_sv_iv_list_g_year_length_1_4(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet length with value 5.
     """
@@ -7087,11 +7550,12 @@ def test_list_g_year_length_nistxml_sv_iv_list_g_year_length_1_4(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_length_nistxml_sv_iv_list_g_year_length_1_5(mode, save_output):
+def test_list_g_year_length_nistxml_sv_iv_list_g_year_length_1_5(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet length with value 5.
     """
@@ -7102,11 +7566,12 @@ def test_list_g_year_length_nistxml_sv_iv_list_g_year_length_1_5(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_min_length_4_nistxml_sv_iv_list_g_year_min_length_5_1(mode, save_output):
+def test_list_g_year_min_length_4_nistxml_sv_iv_list_g_year_min_length_5_1(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet minLength with value 10.
     """
@@ -7117,11 +7582,12 @@ def test_list_g_year_min_length_4_nistxml_sv_iv_list_g_year_min_length_5_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_min_length_4_nistxml_sv_iv_list_g_year_min_length_5_2(mode, save_output):
+def test_list_g_year_min_length_4_nistxml_sv_iv_list_g_year_min_length_5_2(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet minLength with value 10.
     """
@@ -7132,11 +7598,12 @@ def test_list_g_year_min_length_4_nistxml_sv_iv_list_g_year_min_length_5_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_min_length_4_nistxml_sv_iv_list_g_year_min_length_5_3(mode, save_output):
+def test_list_g_year_min_length_4_nistxml_sv_iv_list_g_year_min_length_5_3(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet minLength with value 10.
     """
@@ -7147,11 +7614,12 @@ def test_list_g_year_min_length_4_nistxml_sv_iv_list_g_year_min_length_5_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_min_length_4_nistxml_sv_iv_list_g_year_min_length_5_4(mode, save_output):
+def test_list_g_year_min_length_4_nistxml_sv_iv_list_g_year_min_length_5_4(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet minLength with value 10.
     """
@@ -7162,11 +7630,12 @@ def test_list_g_year_min_length_4_nistxml_sv_iv_list_g_year_min_length_5_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_min_length_4_nistxml_sv_iv_list_g_year_min_length_5_5(mode, save_output):
+def test_list_g_year_min_length_4_nistxml_sv_iv_list_g_year_min_length_5_5(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet minLength with value 10.
     """
@@ -7177,11 +7646,12 @@ def test_list_g_year_min_length_4_nistxml_sv_iv_list_g_year_min_length_5_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_min_length_3_nistxml_sv_iv_list_g_year_min_length_4_1(mode, save_output):
+def test_list_g_year_min_length_3_nistxml_sv_iv_list_g_year_min_length_4_1(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet minLength with value 8.
     """
@@ -7192,11 +7662,12 @@ def test_list_g_year_min_length_3_nistxml_sv_iv_list_g_year_min_length_4_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_min_length_3_nistxml_sv_iv_list_g_year_min_length_4_2(mode, save_output):
+def test_list_g_year_min_length_3_nistxml_sv_iv_list_g_year_min_length_4_2(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet minLength with value 8.
     """
@@ -7207,11 +7678,12 @@ def test_list_g_year_min_length_3_nistxml_sv_iv_list_g_year_min_length_4_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_min_length_3_nistxml_sv_iv_list_g_year_min_length_4_3(mode, save_output):
+def test_list_g_year_min_length_3_nistxml_sv_iv_list_g_year_min_length_4_3(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet minLength with value 8.
     """
@@ -7222,11 +7694,12 @@ def test_list_g_year_min_length_3_nistxml_sv_iv_list_g_year_min_length_4_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_min_length_3_nistxml_sv_iv_list_g_year_min_length_4_4(mode, save_output):
+def test_list_g_year_min_length_3_nistxml_sv_iv_list_g_year_min_length_4_4(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet minLength with value 8.
     """
@@ -7237,11 +7710,12 @@ def test_list_g_year_min_length_3_nistxml_sv_iv_list_g_year_min_length_4_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_min_length_3_nistxml_sv_iv_list_g_year_min_length_4_5(mode, save_output):
+def test_list_g_year_min_length_3_nistxml_sv_iv_list_g_year_min_length_4_5(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet minLength with value 8.
     """
@@ -7252,11 +7726,12 @@ def test_list_g_year_min_length_3_nistxml_sv_iv_list_g_year_min_length_4_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_min_length_2_nistxml_sv_iv_list_g_year_min_length_3_1(mode, save_output):
+def test_list_g_year_min_length_2_nistxml_sv_iv_list_g_year_min_length_3_1(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet minLength with value 7.
     """
@@ -7267,11 +7742,12 @@ def test_list_g_year_min_length_2_nistxml_sv_iv_list_g_year_min_length_3_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_min_length_2_nistxml_sv_iv_list_g_year_min_length_3_2(mode, save_output):
+def test_list_g_year_min_length_2_nistxml_sv_iv_list_g_year_min_length_3_2(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet minLength with value 7.
     """
@@ -7282,11 +7758,12 @@ def test_list_g_year_min_length_2_nistxml_sv_iv_list_g_year_min_length_3_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_min_length_2_nistxml_sv_iv_list_g_year_min_length_3_3(mode, save_output):
+def test_list_g_year_min_length_2_nistxml_sv_iv_list_g_year_min_length_3_3(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet minLength with value 7.
     """
@@ -7297,11 +7774,12 @@ def test_list_g_year_min_length_2_nistxml_sv_iv_list_g_year_min_length_3_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_min_length_2_nistxml_sv_iv_list_g_year_min_length_3_4(mode, save_output):
+def test_list_g_year_min_length_2_nistxml_sv_iv_list_g_year_min_length_3_4(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet minLength with value 7.
     """
@@ -7312,11 +7790,12 @@ def test_list_g_year_min_length_2_nistxml_sv_iv_list_g_year_min_length_3_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_min_length_2_nistxml_sv_iv_list_g_year_min_length_3_5(mode, save_output):
+def test_list_g_year_min_length_2_nistxml_sv_iv_list_g_year_min_length_3_5(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet minLength with value 7.
     """
@@ -7327,11 +7806,12 @@ def test_list_g_year_min_length_2_nistxml_sv_iv_list_g_year_min_length_3_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_min_length_1_nistxml_sv_iv_list_g_year_min_length_2_1(mode, save_output):
+def test_list_g_year_min_length_1_nistxml_sv_iv_list_g_year_min_length_2_1(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet minLength with value 6.
     """
@@ -7342,11 +7822,12 @@ def test_list_g_year_min_length_1_nistxml_sv_iv_list_g_year_min_length_2_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_min_length_1_nistxml_sv_iv_list_g_year_min_length_2_2(mode, save_output):
+def test_list_g_year_min_length_1_nistxml_sv_iv_list_g_year_min_length_2_2(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet minLength with value 6.
     """
@@ -7357,11 +7838,12 @@ def test_list_g_year_min_length_1_nistxml_sv_iv_list_g_year_min_length_2_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_min_length_1_nistxml_sv_iv_list_g_year_min_length_2_3(mode, save_output):
+def test_list_g_year_min_length_1_nistxml_sv_iv_list_g_year_min_length_2_3(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet minLength with value 6.
     """
@@ -7372,11 +7854,12 @@ def test_list_g_year_min_length_1_nistxml_sv_iv_list_g_year_min_length_2_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_min_length_1_nistxml_sv_iv_list_g_year_min_length_2_4(mode, save_output):
+def test_list_g_year_min_length_1_nistxml_sv_iv_list_g_year_min_length_2_4(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet minLength with value 6.
     """
@@ -7387,11 +7870,12 @@ def test_list_g_year_min_length_1_nistxml_sv_iv_list_g_year_min_length_2_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_min_length_1_nistxml_sv_iv_list_g_year_min_length_2_5(mode, save_output):
+def test_list_g_year_min_length_1_nistxml_sv_iv_list_g_year_min_length_2_5(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet minLength with value 6.
     """
@@ -7402,11 +7886,12 @@ def test_list_g_year_min_length_1_nistxml_sv_iv_list_g_year_min_length_2_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_min_length_nistxml_sv_iv_list_g_year_min_length_1_1(mode, save_output):
+def test_list_g_year_min_length_nistxml_sv_iv_list_g_year_min_length_1_1(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet minLength with value 5.
     """
@@ -7417,11 +7902,12 @@ def test_list_g_year_min_length_nistxml_sv_iv_list_g_year_min_length_1_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_min_length_nistxml_sv_iv_list_g_year_min_length_1_2(mode, save_output):
+def test_list_g_year_min_length_nistxml_sv_iv_list_g_year_min_length_1_2(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet minLength with value 5.
     """
@@ -7432,11 +7918,12 @@ def test_list_g_year_min_length_nistxml_sv_iv_list_g_year_min_length_1_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_min_length_nistxml_sv_iv_list_g_year_min_length_1_3(mode, save_output):
+def test_list_g_year_min_length_nistxml_sv_iv_list_g_year_min_length_1_3(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet minLength with value 5.
     """
@@ -7447,11 +7934,12 @@ def test_list_g_year_min_length_nistxml_sv_iv_list_g_year_min_length_1_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_min_length_nistxml_sv_iv_list_g_year_min_length_1_4(mode, save_output):
+def test_list_g_year_min_length_nistxml_sv_iv_list_g_year_min_length_1_4(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet minLength with value 5.
     """
@@ -7462,11 +7950,12 @@ def test_list_g_year_min_length_nistxml_sv_iv_list_g_year_min_length_1_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_min_length_nistxml_sv_iv_list_g_year_min_length_1_5(mode, save_output):
+def test_list_g_year_min_length_nistxml_sv_iv_list_g_year_min_length_1_5(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet minLength with value 5.
     """
@@ -7477,11 +7966,12 @@ def test_list_g_year_min_length_nistxml_sv_iv_list_g_year_min_length_1_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_max_length_4_nistxml_sv_iv_list_g_year_max_length_5_1(mode, save_output):
+def test_list_g_year_max_length_4_nistxml_sv_iv_list_g_year_max_length_5_1(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet maxLength with value 10.
     """
@@ -7492,11 +7982,12 @@ def test_list_g_year_max_length_4_nistxml_sv_iv_list_g_year_max_length_5_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_max_length_4_nistxml_sv_iv_list_g_year_max_length_5_2(mode, save_output):
+def test_list_g_year_max_length_4_nistxml_sv_iv_list_g_year_max_length_5_2(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet maxLength with value 10.
     """
@@ -7507,11 +7998,12 @@ def test_list_g_year_max_length_4_nistxml_sv_iv_list_g_year_max_length_5_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_max_length_4_nistxml_sv_iv_list_g_year_max_length_5_3(mode, save_output):
+def test_list_g_year_max_length_4_nistxml_sv_iv_list_g_year_max_length_5_3(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet maxLength with value 10.
     """
@@ -7522,11 +8014,12 @@ def test_list_g_year_max_length_4_nistxml_sv_iv_list_g_year_max_length_5_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_max_length_4_nistxml_sv_iv_list_g_year_max_length_5_4(mode, save_output):
+def test_list_g_year_max_length_4_nistxml_sv_iv_list_g_year_max_length_5_4(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet maxLength with value 10.
     """
@@ -7537,11 +8030,12 @@ def test_list_g_year_max_length_4_nistxml_sv_iv_list_g_year_max_length_5_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_max_length_4_nistxml_sv_iv_list_g_year_max_length_5_5(mode, save_output):
+def test_list_g_year_max_length_4_nistxml_sv_iv_list_g_year_max_length_5_5(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet maxLength with value 10.
     """
@@ -7552,11 +8046,12 @@ def test_list_g_year_max_length_4_nistxml_sv_iv_list_g_year_max_length_5_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_max_length_3_nistxml_sv_iv_list_g_year_max_length_4_1(mode, save_output):
+def test_list_g_year_max_length_3_nistxml_sv_iv_list_g_year_max_length_4_1(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet maxLength with value 8.
     """
@@ -7567,11 +8062,12 @@ def test_list_g_year_max_length_3_nistxml_sv_iv_list_g_year_max_length_4_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_max_length_3_nistxml_sv_iv_list_g_year_max_length_4_2(mode, save_output):
+def test_list_g_year_max_length_3_nistxml_sv_iv_list_g_year_max_length_4_2(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet maxLength with value 8.
     """
@@ -7582,11 +8078,12 @@ def test_list_g_year_max_length_3_nistxml_sv_iv_list_g_year_max_length_4_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_max_length_3_nistxml_sv_iv_list_g_year_max_length_4_3(mode, save_output):
+def test_list_g_year_max_length_3_nistxml_sv_iv_list_g_year_max_length_4_3(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet maxLength with value 8.
     """
@@ -7597,11 +8094,12 @@ def test_list_g_year_max_length_3_nistxml_sv_iv_list_g_year_max_length_4_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_max_length_3_nistxml_sv_iv_list_g_year_max_length_4_4(mode, save_output):
+def test_list_g_year_max_length_3_nistxml_sv_iv_list_g_year_max_length_4_4(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet maxLength with value 8.
     """
@@ -7612,11 +8110,12 @@ def test_list_g_year_max_length_3_nistxml_sv_iv_list_g_year_max_length_4_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_max_length_3_nistxml_sv_iv_list_g_year_max_length_4_5(mode, save_output):
+def test_list_g_year_max_length_3_nistxml_sv_iv_list_g_year_max_length_4_5(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet maxLength with value 8.
     """
@@ -7627,11 +8126,12 @@ def test_list_g_year_max_length_3_nistxml_sv_iv_list_g_year_max_length_4_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_max_length_2_nistxml_sv_iv_list_g_year_max_length_3_1(mode, save_output):
+def test_list_g_year_max_length_2_nistxml_sv_iv_list_g_year_max_length_3_1(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet maxLength with value 7.
     """
@@ -7642,11 +8142,12 @@ def test_list_g_year_max_length_2_nistxml_sv_iv_list_g_year_max_length_3_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_max_length_2_nistxml_sv_iv_list_g_year_max_length_3_2(mode, save_output):
+def test_list_g_year_max_length_2_nistxml_sv_iv_list_g_year_max_length_3_2(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet maxLength with value 7.
     """
@@ -7657,11 +8158,12 @@ def test_list_g_year_max_length_2_nistxml_sv_iv_list_g_year_max_length_3_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_max_length_2_nistxml_sv_iv_list_g_year_max_length_3_3(mode, save_output):
+def test_list_g_year_max_length_2_nistxml_sv_iv_list_g_year_max_length_3_3(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet maxLength with value 7.
     """
@@ -7672,11 +8174,12 @@ def test_list_g_year_max_length_2_nistxml_sv_iv_list_g_year_max_length_3_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_max_length_2_nistxml_sv_iv_list_g_year_max_length_3_4(mode, save_output):
+def test_list_g_year_max_length_2_nistxml_sv_iv_list_g_year_max_length_3_4(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet maxLength with value 7.
     """
@@ -7687,11 +8190,12 @@ def test_list_g_year_max_length_2_nistxml_sv_iv_list_g_year_max_length_3_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_max_length_2_nistxml_sv_iv_list_g_year_max_length_3_5(mode, save_output):
+def test_list_g_year_max_length_2_nistxml_sv_iv_list_g_year_max_length_3_5(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet maxLength with value 7.
     """
@@ -7702,11 +8206,12 @@ def test_list_g_year_max_length_2_nistxml_sv_iv_list_g_year_max_length_3_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_max_length_1_nistxml_sv_iv_list_g_year_max_length_2_1(mode, save_output):
+def test_list_g_year_max_length_1_nistxml_sv_iv_list_g_year_max_length_2_1(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet maxLength with value 6.
     """
@@ -7717,11 +8222,12 @@ def test_list_g_year_max_length_1_nistxml_sv_iv_list_g_year_max_length_2_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_max_length_1_nistxml_sv_iv_list_g_year_max_length_2_2(mode, save_output):
+def test_list_g_year_max_length_1_nistxml_sv_iv_list_g_year_max_length_2_2(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet maxLength with value 6.
     """
@@ -7732,11 +8238,12 @@ def test_list_g_year_max_length_1_nistxml_sv_iv_list_g_year_max_length_2_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_max_length_1_nistxml_sv_iv_list_g_year_max_length_2_3(mode, save_output):
+def test_list_g_year_max_length_1_nistxml_sv_iv_list_g_year_max_length_2_3(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet maxLength with value 6.
     """
@@ -7747,11 +8254,12 @@ def test_list_g_year_max_length_1_nistxml_sv_iv_list_g_year_max_length_2_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_max_length_1_nistxml_sv_iv_list_g_year_max_length_2_4(mode, save_output):
+def test_list_g_year_max_length_1_nistxml_sv_iv_list_g_year_max_length_2_4(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet maxLength with value 6.
     """
@@ -7762,11 +8270,12 @@ def test_list_g_year_max_length_1_nistxml_sv_iv_list_g_year_max_length_2_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_max_length_1_nistxml_sv_iv_list_g_year_max_length_2_5(mode, save_output):
+def test_list_g_year_max_length_1_nistxml_sv_iv_list_g_year_max_length_2_5(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet maxLength with value 6.
     """
@@ -7777,11 +8286,12 @@ def test_list_g_year_max_length_1_nistxml_sv_iv_list_g_year_max_length_2_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_max_length_nistxml_sv_iv_list_g_year_max_length_1_1(mode, save_output):
+def test_list_g_year_max_length_nistxml_sv_iv_list_g_year_max_length_1_1(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet maxLength with value 5.
     """
@@ -7792,11 +8302,12 @@ def test_list_g_year_max_length_nistxml_sv_iv_list_g_year_max_length_1_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_max_length_nistxml_sv_iv_list_g_year_max_length_1_2(mode, save_output):
+def test_list_g_year_max_length_nistxml_sv_iv_list_g_year_max_length_1_2(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet maxLength with value 5.
     """
@@ -7807,11 +8318,12 @@ def test_list_g_year_max_length_nistxml_sv_iv_list_g_year_max_length_1_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_max_length_nistxml_sv_iv_list_g_year_max_length_1_3(mode, save_output):
+def test_list_g_year_max_length_nistxml_sv_iv_list_g_year_max_length_1_3(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet maxLength with value 5.
     """
@@ -7822,11 +8334,12 @@ def test_list_g_year_max_length_nistxml_sv_iv_list_g_year_max_length_1_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_max_length_nistxml_sv_iv_list_g_year_max_length_1_4(mode, save_output):
+def test_list_g_year_max_length_nistxml_sv_iv_list_g_year_max_length_1_4(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet maxLength with value 5.
     """
@@ -7837,11 +8350,12 @@ def test_list_g_year_max_length_nistxml_sv_iv_list_g_year_max_length_1_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_max_length_nistxml_sv_iv_list_g_year_max_length_1_5(mode, save_output):
+def test_list_g_year_max_length_nistxml_sv_iv_list_g_year_max_length_1_5(mode, save_output, output_format):
     """
     Type list/gYear is restricted by facet maxLength with value 5.
     """
@@ -7852,11 +8366,12 @@ def test_list_g_year_max_length_nistxml_sv_iv_list_g_year_max_length_1_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_white_space_nistxml_sv_iv_list_g_year_month_white_space_1_1(mode, save_output):
+def test_list_g_year_month_white_space_nistxml_sv_iv_list_g_year_month_white_space_1_1(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet whiteSpace with value
     collapse.
@@ -7868,11 +8383,12 @@ def test_list_g_year_month_white_space_nistxml_sv_iv_list_g_year_month_white_spa
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_white_space_nistxml_sv_iv_list_g_year_month_white_space_1_2(mode, save_output):
+def test_list_g_year_month_white_space_nistxml_sv_iv_list_g_year_month_white_space_1_2(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet whiteSpace with value
     collapse.
@@ -7884,11 +8400,12 @@ def test_list_g_year_month_white_space_nistxml_sv_iv_list_g_year_month_white_spa
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_white_space_nistxml_sv_iv_list_g_year_month_white_space_1_3(mode, save_output):
+def test_list_g_year_month_white_space_nistxml_sv_iv_list_g_year_month_white_space_1_3(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet whiteSpace with value
     collapse.
@@ -7900,11 +8417,12 @@ def test_list_g_year_month_white_space_nistxml_sv_iv_list_g_year_month_white_spa
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_white_space_nistxml_sv_iv_list_g_year_month_white_space_1_4(mode, save_output):
+def test_list_g_year_month_white_space_nistxml_sv_iv_list_g_year_month_white_space_1_4(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet whiteSpace with value
     collapse.
@@ -7916,11 +8434,12 @@ def test_list_g_year_month_white_space_nistxml_sv_iv_list_g_year_month_white_spa
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_white_space_nistxml_sv_iv_list_g_year_month_white_space_1_5(mode, save_output):
+def test_list_g_year_month_white_space_nistxml_sv_iv_list_g_year_month_white_space_1_5(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet whiteSpace with value
     collapse.
@@ -7932,11 +8451,12 @@ def test_list_g_year_month_white_space_nistxml_sv_iv_list_g_year_month_white_spa
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_enumeration_4_nistxml_sv_iv_list_g_year_month_enumeration_5_1(mode, save_output):
+def test_list_g_year_month_enumeration_4_nistxml_sv_iv_list_g_year_month_enumeration_5_1(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet enumeration.
     """
@@ -7947,11 +8467,12 @@ def test_list_g_year_month_enumeration_4_nistxml_sv_iv_list_g_year_month_enumera
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_enumeration_4_nistxml_sv_iv_list_g_year_month_enumeration_5_2(mode, save_output):
+def test_list_g_year_month_enumeration_4_nistxml_sv_iv_list_g_year_month_enumeration_5_2(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet enumeration.
     """
@@ -7962,11 +8483,12 @@ def test_list_g_year_month_enumeration_4_nistxml_sv_iv_list_g_year_month_enumera
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_enumeration_4_nistxml_sv_iv_list_g_year_month_enumeration_5_3(mode, save_output):
+def test_list_g_year_month_enumeration_4_nistxml_sv_iv_list_g_year_month_enumeration_5_3(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet enumeration.
     """
@@ -7977,11 +8499,12 @@ def test_list_g_year_month_enumeration_4_nistxml_sv_iv_list_g_year_month_enumera
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_enumeration_4_nistxml_sv_iv_list_g_year_month_enumeration_5_4(mode, save_output):
+def test_list_g_year_month_enumeration_4_nistxml_sv_iv_list_g_year_month_enumeration_5_4(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet enumeration.
     """
@@ -7992,11 +8515,12 @@ def test_list_g_year_month_enumeration_4_nistxml_sv_iv_list_g_year_month_enumera
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_enumeration_4_nistxml_sv_iv_list_g_year_month_enumeration_5_5(mode, save_output):
+def test_list_g_year_month_enumeration_4_nistxml_sv_iv_list_g_year_month_enumeration_5_5(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet enumeration.
     """
@@ -8007,11 +8531,12 @@ def test_list_g_year_month_enumeration_4_nistxml_sv_iv_list_g_year_month_enumera
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_enumeration_3_nistxml_sv_iv_list_g_year_month_enumeration_4_1(mode, save_output):
+def test_list_g_year_month_enumeration_3_nistxml_sv_iv_list_g_year_month_enumeration_4_1(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet enumeration.
     """
@@ -8022,11 +8547,12 @@ def test_list_g_year_month_enumeration_3_nistxml_sv_iv_list_g_year_month_enumera
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_enumeration_3_nistxml_sv_iv_list_g_year_month_enumeration_4_2(mode, save_output):
+def test_list_g_year_month_enumeration_3_nistxml_sv_iv_list_g_year_month_enumeration_4_2(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet enumeration.
     """
@@ -8037,11 +8563,12 @@ def test_list_g_year_month_enumeration_3_nistxml_sv_iv_list_g_year_month_enumera
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_enumeration_3_nistxml_sv_iv_list_g_year_month_enumeration_4_3(mode, save_output):
+def test_list_g_year_month_enumeration_3_nistxml_sv_iv_list_g_year_month_enumeration_4_3(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet enumeration.
     """
@@ -8052,11 +8579,12 @@ def test_list_g_year_month_enumeration_3_nistxml_sv_iv_list_g_year_month_enumera
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_enumeration_3_nistxml_sv_iv_list_g_year_month_enumeration_4_4(mode, save_output):
+def test_list_g_year_month_enumeration_3_nistxml_sv_iv_list_g_year_month_enumeration_4_4(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet enumeration.
     """
@@ -8067,11 +8595,12 @@ def test_list_g_year_month_enumeration_3_nistxml_sv_iv_list_g_year_month_enumera
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_enumeration_3_nistxml_sv_iv_list_g_year_month_enumeration_4_5(mode, save_output):
+def test_list_g_year_month_enumeration_3_nistxml_sv_iv_list_g_year_month_enumeration_4_5(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet enumeration.
     """
@@ -8082,11 +8611,12 @@ def test_list_g_year_month_enumeration_3_nistxml_sv_iv_list_g_year_month_enumera
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_enumeration_2_nistxml_sv_iv_list_g_year_month_enumeration_3_1(mode, save_output):
+def test_list_g_year_month_enumeration_2_nistxml_sv_iv_list_g_year_month_enumeration_3_1(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet enumeration.
     """
@@ -8097,11 +8627,12 @@ def test_list_g_year_month_enumeration_2_nistxml_sv_iv_list_g_year_month_enumera
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_enumeration_2_nistxml_sv_iv_list_g_year_month_enumeration_3_2(mode, save_output):
+def test_list_g_year_month_enumeration_2_nistxml_sv_iv_list_g_year_month_enumeration_3_2(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet enumeration.
     """
@@ -8112,11 +8643,12 @@ def test_list_g_year_month_enumeration_2_nistxml_sv_iv_list_g_year_month_enumera
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_enumeration_2_nistxml_sv_iv_list_g_year_month_enumeration_3_3(mode, save_output):
+def test_list_g_year_month_enumeration_2_nistxml_sv_iv_list_g_year_month_enumeration_3_3(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet enumeration.
     """
@@ -8127,11 +8659,12 @@ def test_list_g_year_month_enumeration_2_nistxml_sv_iv_list_g_year_month_enumera
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_enumeration_2_nistxml_sv_iv_list_g_year_month_enumeration_3_4(mode, save_output):
+def test_list_g_year_month_enumeration_2_nistxml_sv_iv_list_g_year_month_enumeration_3_4(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet enumeration.
     """
@@ -8142,11 +8675,12 @@ def test_list_g_year_month_enumeration_2_nistxml_sv_iv_list_g_year_month_enumera
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_enumeration_2_nistxml_sv_iv_list_g_year_month_enumeration_3_5(mode, save_output):
+def test_list_g_year_month_enumeration_2_nistxml_sv_iv_list_g_year_month_enumeration_3_5(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet enumeration.
     """
@@ -8157,11 +8691,12 @@ def test_list_g_year_month_enumeration_2_nistxml_sv_iv_list_g_year_month_enumera
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_enumeration_1_nistxml_sv_iv_list_g_year_month_enumeration_2_1(mode, save_output):
+def test_list_g_year_month_enumeration_1_nistxml_sv_iv_list_g_year_month_enumeration_2_1(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet enumeration.
     """
@@ -8172,11 +8707,12 @@ def test_list_g_year_month_enumeration_1_nistxml_sv_iv_list_g_year_month_enumera
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_enumeration_1_nistxml_sv_iv_list_g_year_month_enumeration_2_2(mode, save_output):
+def test_list_g_year_month_enumeration_1_nistxml_sv_iv_list_g_year_month_enumeration_2_2(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet enumeration.
     """
@@ -8187,11 +8723,12 @@ def test_list_g_year_month_enumeration_1_nistxml_sv_iv_list_g_year_month_enumera
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_enumeration_1_nistxml_sv_iv_list_g_year_month_enumeration_2_3(mode, save_output):
+def test_list_g_year_month_enumeration_1_nistxml_sv_iv_list_g_year_month_enumeration_2_3(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet enumeration.
     """
@@ -8202,11 +8739,12 @@ def test_list_g_year_month_enumeration_1_nistxml_sv_iv_list_g_year_month_enumera
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_enumeration_1_nistxml_sv_iv_list_g_year_month_enumeration_2_4(mode, save_output):
+def test_list_g_year_month_enumeration_1_nistxml_sv_iv_list_g_year_month_enumeration_2_4(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet enumeration.
     """
@@ -8217,11 +8755,12 @@ def test_list_g_year_month_enumeration_1_nistxml_sv_iv_list_g_year_month_enumera
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_enumeration_1_nistxml_sv_iv_list_g_year_month_enumeration_2_5(mode, save_output):
+def test_list_g_year_month_enumeration_1_nistxml_sv_iv_list_g_year_month_enumeration_2_5(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet enumeration.
     """
@@ -8232,11 +8771,12 @@ def test_list_g_year_month_enumeration_1_nistxml_sv_iv_list_g_year_month_enumera
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_enumeration_nistxml_sv_iv_list_g_year_month_enumeration_1_1(mode, save_output):
+def test_list_g_year_month_enumeration_nistxml_sv_iv_list_g_year_month_enumeration_1_1(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet enumeration.
     """
@@ -8247,11 +8787,12 @@ def test_list_g_year_month_enumeration_nistxml_sv_iv_list_g_year_month_enumerati
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_enumeration_nistxml_sv_iv_list_g_year_month_enumeration_1_2(mode, save_output):
+def test_list_g_year_month_enumeration_nistxml_sv_iv_list_g_year_month_enumeration_1_2(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet enumeration.
     """
@@ -8262,11 +8803,12 @@ def test_list_g_year_month_enumeration_nistxml_sv_iv_list_g_year_month_enumerati
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_enumeration_nistxml_sv_iv_list_g_year_month_enumeration_1_3(mode, save_output):
+def test_list_g_year_month_enumeration_nistxml_sv_iv_list_g_year_month_enumeration_1_3(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet enumeration.
     """
@@ -8277,11 +8819,12 @@ def test_list_g_year_month_enumeration_nistxml_sv_iv_list_g_year_month_enumerati
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_enumeration_nistxml_sv_iv_list_g_year_month_enumeration_1_4(mode, save_output):
+def test_list_g_year_month_enumeration_nistxml_sv_iv_list_g_year_month_enumeration_1_4(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet enumeration.
     """
@@ -8292,11 +8835,12 @@ def test_list_g_year_month_enumeration_nistxml_sv_iv_list_g_year_month_enumerati
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_enumeration_nistxml_sv_iv_list_g_year_month_enumeration_1_5(mode, save_output):
+def test_list_g_year_month_enumeration_nistxml_sv_iv_list_g_year_month_enumeration_1_5(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet enumeration.
     """
@@ -8307,11 +8851,12 @@ def test_list_g_year_month_enumeration_nistxml_sv_iv_list_g_year_month_enumerati
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_pattern_4_nistxml_sv_iv_list_g_year_month_pattern_5_1(mode, save_output):
+def test_list_g_year_month_pattern_4_nistxml_sv_iv_list_g_year_month_pattern_5_1(mode, save_output, output_format):
     r"""
     Type list/gYearMonth is restricted by facet pattern with value
     19\d\d-1\d \d\d06-\d9 17\d\d-0\d \d\d20-\d1 \d\d77-0\d \d\d19-\d3
@@ -8324,11 +8869,12 @@ def test_list_g_year_month_pattern_4_nistxml_sv_iv_list_g_year_month_pattern_5_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_pattern_4_nistxml_sv_iv_list_g_year_month_pattern_5_2(mode, save_output):
+def test_list_g_year_month_pattern_4_nistxml_sv_iv_list_g_year_month_pattern_5_2(mode, save_output, output_format):
     r"""
     Type list/gYearMonth is restricted by facet pattern with value
     19\d\d-1\d \d\d06-\d9 17\d\d-0\d \d\d20-\d1 \d\d77-0\d \d\d19-\d3
@@ -8341,11 +8887,12 @@ def test_list_g_year_month_pattern_4_nistxml_sv_iv_list_g_year_month_pattern_5_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_pattern_4_nistxml_sv_iv_list_g_year_month_pattern_5_3(mode, save_output):
+def test_list_g_year_month_pattern_4_nistxml_sv_iv_list_g_year_month_pattern_5_3(mode, save_output, output_format):
     r"""
     Type list/gYearMonth is restricted by facet pattern with value
     19\d\d-1\d \d\d06-\d9 17\d\d-0\d \d\d20-\d1 \d\d77-0\d \d\d19-\d3
@@ -8358,11 +8905,12 @@ def test_list_g_year_month_pattern_4_nistxml_sv_iv_list_g_year_month_pattern_5_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_pattern_4_nistxml_sv_iv_list_g_year_month_pattern_5_4(mode, save_output):
+def test_list_g_year_month_pattern_4_nistxml_sv_iv_list_g_year_month_pattern_5_4(mode, save_output, output_format):
     r"""
     Type list/gYearMonth is restricted by facet pattern with value
     19\d\d-1\d \d\d06-\d9 17\d\d-0\d \d\d20-\d1 \d\d77-0\d \d\d19-\d3
@@ -8375,11 +8923,12 @@ def test_list_g_year_month_pattern_4_nistxml_sv_iv_list_g_year_month_pattern_5_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_pattern_4_nistxml_sv_iv_list_g_year_month_pattern_5_5(mode, save_output):
+def test_list_g_year_month_pattern_4_nistxml_sv_iv_list_g_year_month_pattern_5_5(mode, save_output, output_format):
     r"""
     Type list/gYearMonth is restricted by facet pattern with value
     19\d\d-1\d \d\d06-\d9 17\d\d-0\d \d\d20-\d1 \d\d77-0\d \d\d19-\d3
@@ -8392,11 +8941,12 @@ def test_list_g_year_month_pattern_4_nistxml_sv_iv_list_g_year_month_pattern_5_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_pattern_3_nistxml_sv_iv_list_g_year_month_pattern_4_1(mode, save_output):
+def test_list_g_year_month_pattern_3_nistxml_sv_iv_list_g_year_month_pattern_4_1(mode, save_output, output_format):
     r"""
     Type list/gYearMonth is restricted by facet pattern with value
     \d\d93-\d3 19\d\d-0\d \d\d33-\d3 18\d\d-\d1 \d\d34-0\d.
@@ -8408,11 +8958,12 @@ def test_list_g_year_month_pattern_3_nistxml_sv_iv_list_g_year_month_pattern_4_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_pattern_3_nistxml_sv_iv_list_g_year_month_pattern_4_2(mode, save_output):
+def test_list_g_year_month_pattern_3_nistxml_sv_iv_list_g_year_month_pattern_4_2(mode, save_output, output_format):
     r"""
     Type list/gYearMonth is restricted by facet pattern with value
     \d\d93-\d3 19\d\d-0\d \d\d33-\d3 18\d\d-\d1 \d\d34-0\d.
@@ -8424,11 +8975,12 @@ def test_list_g_year_month_pattern_3_nistxml_sv_iv_list_g_year_month_pattern_4_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_pattern_3_nistxml_sv_iv_list_g_year_month_pattern_4_3(mode, save_output):
+def test_list_g_year_month_pattern_3_nistxml_sv_iv_list_g_year_month_pattern_4_3(mode, save_output, output_format):
     r"""
     Type list/gYearMonth is restricted by facet pattern with value
     \d\d93-\d3 19\d\d-0\d \d\d33-\d3 18\d\d-\d1 \d\d34-0\d.
@@ -8440,11 +8992,12 @@ def test_list_g_year_month_pattern_3_nistxml_sv_iv_list_g_year_month_pattern_4_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_pattern_3_nistxml_sv_iv_list_g_year_month_pattern_4_4(mode, save_output):
+def test_list_g_year_month_pattern_3_nistxml_sv_iv_list_g_year_month_pattern_4_4(mode, save_output, output_format):
     r"""
     Type list/gYearMonth is restricted by facet pattern with value
     \d\d93-\d3 19\d\d-0\d \d\d33-\d3 18\d\d-\d1 \d\d34-0\d.
@@ -8456,11 +9009,12 @@ def test_list_g_year_month_pattern_3_nistxml_sv_iv_list_g_year_month_pattern_4_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_pattern_3_nistxml_sv_iv_list_g_year_month_pattern_4_5(mode, save_output):
+def test_list_g_year_month_pattern_3_nistxml_sv_iv_list_g_year_month_pattern_4_5(mode, save_output, output_format):
     r"""
     Type list/gYearMonth is restricted by facet pattern with value
     \d\d93-\d3 19\d\d-0\d \d\d33-\d3 18\d\d-\d1 \d\d34-0\d.
@@ -8472,11 +9026,12 @@ def test_list_g_year_month_pattern_3_nistxml_sv_iv_list_g_year_month_pattern_4_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_pattern_2_nistxml_sv_iv_list_g_year_month_pattern_3_1(mode, save_output):
+def test_list_g_year_month_pattern_2_nistxml_sv_iv_list_g_year_month_pattern_3_1(mode, save_output, output_format):
     r"""
     Type list/gYearMonth is restricted by facet pattern with value
     \d\d74-0\d 18\d\d-\d8 \d\d80-1\d 20\d\d-\d2 \d\d08-0\d 19\d\d-0\d
@@ -8489,11 +9044,12 @@ def test_list_g_year_month_pattern_2_nistxml_sv_iv_list_g_year_month_pattern_3_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_pattern_2_nistxml_sv_iv_list_g_year_month_pattern_3_2(mode, save_output):
+def test_list_g_year_month_pattern_2_nistxml_sv_iv_list_g_year_month_pattern_3_2(mode, save_output, output_format):
     r"""
     Type list/gYearMonth is restricted by facet pattern with value
     \d\d74-0\d 18\d\d-\d8 \d\d80-1\d 20\d\d-\d2 \d\d08-0\d 19\d\d-0\d
@@ -8506,11 +9062,12 @@ def test_list_g_year_month_pattern_2_nistxml_sv_iv_list_g_year_month_pattern_3_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_pattern_2_nistxml_sv_iv_list_g_year_month_pattern_3_3(mode, save_output):
+def test_list_g_year_month_pattern_2_nistxml_sv_iv_list_g_year_month_pattern_3_3(mode, save_output, output_format):
     r"""
     Type list/gYearMonth is restricted by facet pattern with value
     \d\d74-0\d 18\d\d-\d8 \d\d80-1\d 20\d\d-\d2 \d\d08-0\d 19\d\d-0\d
@@ -8523,11 +9080,12 @@ def test_list_g_year_month_pattern_2_nistxml_sv_iv_list_g_year_month_pattern_3_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_pattern_2_nistxml_sv_iv_list_g_year_month_pattern_3_4(mode, save_output):
+def test_list_g_year_month_pattern_2_nistxml_sv_iv_list_g_year_month_pattern_3_4(mode, save_output, output_format):
     r"""
     Type list/gYearMonth is restricted by facet pattern with value
     \d\d74-0\d 18\d\d-\d8 \d\d80-1\d 20\d\d-\d2 \d\d08-0\d 19\d\d-0\d
@@ -8540,11 +9098,12 @@ def test_list_g_year_month_pattern_2_nistxml_sv_iv_list_g_year_month_pattern_3_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_pattern_2_nistxml_sv_iv_list_g_year_month_pattern_3_5(mode, save_output):
+def test_list_g_year_month_pattern_2_nistxml_sv_iv_list_g_year_month_pattern_3_5(mode, save_output, output_format):
     r"""
     Type list/gYearMonth is restricted by facet pattern with value
     \d\d74-0\d 18\d\d-\d8 \d\d80-1\d 20\d\d-\d2 \d\d08-0\d 19\d\d-0\d
@@ -8557,11 +9116,12 @@ def test_list_g_year_month_pattern_2_nistxml_sv_iv_list_g_year_month_pattern_3_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_pattern_1_nistxml_sv_iv_list_g_year_month_pattern_2_1(mode, save_output):
+def test_list_g_year_month_pattern_1_nistxml_sv_iv_list_g_year_month_pattern_2_1(mode, save_output, output_format):
     r"""
     Type list/gYearMonth is restricted by facet pattern with value
     17\d\d-\d8 19\d\d-1\d 20\d\d-0\d 17\d\d-0\d \d\d42-\d7 \d\d81-1\d
@@ -8574,11 +9134,12 @@ def test_list_g_year_month_pattern_1_nistxml_sv_iv_list_g_year_month_pattern_2_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_pattern_1_nistxml_sv_iv_list_g_year_month_pattern_2_2(mode, save_output):
+def test_list_g_year_month_pattern_1_nistxml_sv_iv_list_g_year_month_pattern_2_2(mode, save_output, output_format):
     r"""
     Type list/gYearMonth is restricted by facet pattern with value
     17\d\d-\d8 19\d\d-1\d 20\d\d-0\d 17\d\d-0\d \d\d42-\d7 \d\d81-1\d
@@ -8591,11 +9152,12 @@ def test_list_g_year_month_pattern_1_nistxml_sv_iv_list_g_year_month_pattern_2_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_pattern_1_nistxml_sv_iv_list_g_year_month_pattern_2_3(mode, save_output):
+def test_list_g_year_month_pattern_1_nistxml_sv_iv_list_g_year_month_pattern_2_3(mode, save_output, output_format):
     r"""
     Type list/gYearMonth is restricted by facet pattern with value
     17\d\d-\d8 19\d\d-1\d 20\d\d-0\d 17\d\d-0\d \d\d42-\d7 \d\d81-1\d
@@ -8608,11 +9170,12 @@ def test_list_g_year_month_pattern_1_nistxml_sv_iv_list_g_year_month_pattern_2_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_pattern_1_nistxml_sv_iv_list_g_year_month_pattern_2_4(mode, save_output):
+def test_list_g_year_month_pattern_1_nistxml_sv_iv_list_g_year_month_pattern_2_4(mode, save_output, output_format):
     r"""
     Type list/gYearMonth is restricted by facet pattern with value
     17\d\d-\d8 19\d\d-1\d 20\d\d-0\d 17\d\d-0\d \d\d42-\d7 \d\d81-1\d
@@ -8625,11 +9188,12 @@ def test_list_g_year_month_pattern_1_nistxml_sv_iv_list_g_year_month_pattern_2_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_pattern_1_nistxml_sv_iv_list_g_year_month_pattern_2_5(mode, save_output):
+def test_list_g_year_month_pattern_1_nistxml_sv_iv_list_g_year_month_pattern_2_5(mode, save_output, output_format):
     r"""
     Type list/gYearMonth is restricted by facet pattern with value
     17\d\d-\d8 19\d\d-1\d 20\d\d-0\d 17\d\d-0\d \d\d42-\d7 \d\d81-1\d
@@ -8642,11 +9206,12 @@ def test_list_g_year_month_pattern_1_nistxml_sv_iv_list_g_year_month_pattern_2_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_pattern_nistxml_sv_iv_list_g_year_month_pattern_1_1(mode, save_output):
+def test_list_g_year_month_pattern_nistxml_sv_iv_list_g_year_month_pattern_1_1(mode, save_output, output_format):
     r"""
     Type list/gYearMonth is restricted by facet pattern with value
     18\d\d-0\d \d\d92-\d2 \d\d99-0\d \d\d49-\d4 19\d\d-\d1 \d\d74-0\d
@@ -8659,11 +9224,12 @@ def test_list_g_year_month_pattern_nistxml_sv_iv_list_g_year_month_pattern_1_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_pattern_nistxml_sv_iv_list_g_year_month_pattern_1_2(mode, save_output):
+def test_list_g_year_month_pattern_nistxml_sv_iv_list_g_year_month_pattern_1_2(mode, save_output, output_format):
     r"""
     Type list/gYearMonth is restricted by facet pattern with value
     18\d\d-0\d \d\d92-\d2 \d\d99-0\d \d\d49-\d4 19\d\d-\d1 \d\d74-0\d
@@ -8676,11 +9242,12 @@ def test_list_g_year_month_pattern_nistxml_sv_iv_list_g_year_month_pattern_1_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_pattern_nistxml_sv_iv_list_g_year_month_pattern_1_3(mode, save_output):
+def test_list_g_year_month_pattern_nistxml_sv_iv_list_g_year_month_pattern_1_3(mode, save_output, output_format):
     r"""
     Type list/gYearMonth is restricted by facet pattern with value
     18\d\d-0\d \d\d92-\d2 \d\d99-0\d \d\d49-\d4 19\d\d-\d1 \d\d74-0\d
@@ -8693,11 +9260,12 @@ def test_list_g_year_month_pattern_nistxml_sv_iv_list_g_year_month_pattern_1_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_pattern_nistxml_sv_iv_list_g_year_month_pattern_1_4(mode, save_output):
+def test_list_g_year_month_pattern_nistxml_sv_iv_list_g_year_month_pattern_1_4(mode, save_output, output_format):
     r"""
     Type list/gYearMonth is restricted by facet pattern with value
     18\d\d-0\d \d\d92-\d2 \d\d99-0\d \d\d49-\d4 19\d\d-\d1 \d\d74-0\d
@@ -8710,11 +9278,12 @@ def test_list_g_year_month_pattern_nistxml_sv_iv_list_g_year_month_pattern_1_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_pattern_nistxml_sv_iv_list_g_year_month_pattern_1_5(mode, save_output):
+def test_list_g_year_month_pattern_nistxml_sv_iv_list_g_year_month_pattern_1_5(mode, save_output, output_format):
     r"""
     Type list/gYearMonth is restricted by facet pattern with value
     18\d\d-0\d \d\d92-\d2 \d\d99-0\d \d\d49-\d4 19\d\d-\d1 \d\d74-0\d
@@ -8727,11 +9296,12 @@ def test_list_g_year_month_pattern_nistxml_sv_iv_list_g_year_month_pattern_1_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_length_4_nistxml_sv_iv_list_g_year_month_length_5_1(mode, save_output):
+def test_list_g_year_month_length_4_nistxml_sv_iv_list_g_year_month_length_5_1(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet length with value 10.
     """
@@ -8742,11 +9312,12 @@ def test_list_g_year_month_length_4_nistxml_sv_iv_list_g_year_month_length_5_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_length_4_nistxml_sv_iv_list_g_year_month_length_5_2(mode, save_output):
+def test_list_g_year_month_length_4_nistxml_sv_iv_list_g_year_month_length_5_2(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet length with value 10.
     """
@@ -8757,11 +9328,12 @@ def test_list_g_year_month_length_4_nistxml_sv_iv_list_g_year_month_length_5_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_length_4_nistxml_sv_iv_list_g_year_month_length_5_3(mode, save_output):
+def test_list_g_year_month_length_4_nistxml_sv_iv_list_g_year_month_length_5_3(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet length with value 10.
     """
@@ -8772,11 +9344,12 @@ def test_list_g_year_month_length_4_nistxml_sv_iv_list_g_year_month_length_5_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_length_4_nistxml_sv_iv_list_g_year_month_length_5_4(mode, save_output):
+def test_list_g_year_month_length_4_nistxml_sv_iv_list_g_year_month_length_5_4(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet length with value 10.
     """
@@ -8787,11 +9360,12 @@ def test_list_g_year_month_length_4_nistxml_sv_iv_list_g_year_month_length_5_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_length_4_nistxml_sv_iv_list_g_year_month_length_5_5(mode, save_output):
+def test_list_g_year_month_length_4_nistxml_sv_iv_list_g_year_month_length_5_5(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet length with value 10.
     """
@@ -8802,11 +9376,12 @@ def test_list_g_year_month_length_4_nistxml_sv_iv_list_g_year_month_length_5_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_length_3_nistxml_sv_iv_list_g_year_month_length_4_1(mode, save_output):
+def test_list_g_year_month_length_3_nistxml_sv_iv_list_g_year_month_length_4_1(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet length with value 8.
     """
@@ -8817,11 +9392,12 @@ def test_list_g_year_month_length_3_nistxml_sv_iv_list_g_year_month_length_4_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_length_3_nistxml_sv_iv_list_g_year_month_length_4_2(mode, save_output):
+def test_list_g_year_month_length_3_nistxml_sv_iv_list_g_year_month_length_4_2(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet length with value 8.
     """
@@ -8832,11 +9408,12 @@ def test_list_g_year_month_length_3_nistxml_sv_iv_list_g_year_month_length_4_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_length_3_nistxml_sv_iv_list_g_year_month_length_4_3(mode, save_output):
+def test_list_g_year_month_length_3_nistxml_sv_iv_list_g_year_month_length_4_3(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet length with value 8.
     """
@@ -8847,11 +9424,12 @@ def test_list_g_year_month_length_3_nistxml_sv_iv_list_g_year_month_length_4_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_length_3_nistxml_sv_iv_list_g_year_month_length_4_4(mode, save_output):
+def test_list_g_year_month_length_3_nistxml_sv_iv_list_g_year_month_length_4_4(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet length with value 8.
     """
@@ -8862,11 +9440,12 @@ def test_list_g_year_month_length_3_nistxml_sv_iv_list_g_year_month_length_4_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_length_3_nistxml_sv_iv_list_g_year_month_length_4_5(mode, save_output):
+def test_list_g_year_month_length_3_nistxml_sv_iv_list_g_year_month_length_4_5(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet length with value 8.
     """
@@ -8877,11 +9456,12 @@ def test_list_g_year_month_length_3_nistxml_sv_iv_list_g_year_month_length_4_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_length_2_nistxml_sv_iv_list_g_year_month_length_3_1(mode, save_output):
+def test_list_g_year_month_length_2_nistxml_sv_iv_list_g_year_month_length_3_1(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet length with value 7.
     """
@@ -8892,11 +9472,12 @@ def test_list_g_year_month_length_2_nistxml_sv_iv_list_g_year_month_length_3_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_length_2_nistxml_sv_iv_list_g_year_month_length_3_2(mode, save_output):
+def test_list_g_year_month_length_2_nistxml_sv_iv_list_g_year_month_length_3_2(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet length with value 7.
     """
@@ -8907,11 +9488,12 @@ def test_list_g_year_month_length_2_nistxml_sv_iv_list_g_year_month_length_3_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_length_2_nistxml_sv_iv_list_g_year_month_length_3_3(mode, save_output):
+def test_list_g_year_month_length_2_nistxml_sv_iv_list_g_year_month_length_3_3(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet length with value 7.
     """
@@ -8922,11 +9504,12 @@ def test_list_g_year_month_length_2_nistxml_sv_iv_list_g_year_month_length_3_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_length_2_nistxml_sv_iv_list_g_year_month_length_3_4(mode, save_output):
+def test_list_g_year_month_length_2_nistxml_sv_iv_list_g_year_month_length_3_4(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet length with value 7.
     """
@@ -8937,11 +9520,12 @@ def test_list_g_year_month_length_2_nistxml_sv_iv_list_g_year_month_length_3_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_length_2_nistxml_sv_iv_list_g_year_month_length_3_5(mode, save_output):
+def test_list_g_year_month_length_2_nistxml_sv_iv_list_g_year_month_length_3_5(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet length with value 7.
     """
@@ -8952,11 +9536,12 @@ def test_list_g_year_month_length_2_nistxml_sv_iv_list_g_year_month_length_3_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_length_1_nistxml_sv_iv_list_g_year_month_length_2_1(mode, save_output):
+def test_list_g_year_month_length_1_nistxml_sv_iv_list_g_year_month_length_2_1(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet length with value 6.
     """
@@ -8967,11 +9552,12 @@ def test_list_g_year_month_length_1_nistxml_sv_iv_list_g_year_month_length_2_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_length_1_nistxml_sv_iv_list_g_year_month_length_2_2(mode, save_output):
+def test_list_g_year_month_length_1_nistxml_sv_iv_list_g_year_month_length_2_2(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet length with value 6.
     """
@@ -8982,11 +9568,12 @@ def test_list_g_year_month_length_1_nistxml_sv_iv_list_g_year_month_length_2_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_length_1_nistxml_sv_iv_list_g_year_month_length_2_3(mode, save_output):
+def test_list_g_year_month_length_1_nistxml_sv_iv_list_g_year_month_length_2_3(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet length with value 6.
     """
@@ -8997,11 +9584,12 @@ def test_list_g_year_month_length_1_nistxml_sv_iv_list_g_year_month_length_2_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_length_1_nistxml_sv_iv_list_g_year_month_length_2_4(mode, save_output):
+def test_list_g_year_month_length_1_nistxml_sv_iv_list_g_year_month_length_2_4(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet length with value 6.
     """
@@ -9012,11 +9600,12 @@ def test_list_g_year_month_length_1_nistxml_sv_iv_list_g_year_month_length_2_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_length_1_nistxml_sv_iv_list_g_year_month_length_2_5(mode, save_output):
+def test_list_g_year_month_length_1_nistxml_sv_iv_list_g_year_month_length_2_5(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet length with value 6.
     """
@@ -9027,11 +9616,12 @@ def test_list_g_year_month_length_1_nistxml_sv_iv_list_g_year_month_length_2_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_length_nistxml_sv_iv_list_g_year_month_length_1_1(mode, save_output):
+def test_list_g_year_month_length_nistxml_sv_iv_list_g_year_month_length_1_1(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet length with value 5.
     """
@@ -9042,11 +9632,12 @@ def test_list_g_year_month_length_nistxml_sv_iv_list_g_year_month_length_1_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_length_nistxml_sv_iv_list_g_year_month_length_1_2(mode, save_output):
+def test_list_g_year_month_length_nistxml_sv_iv_list_g_year_month_length_1_2(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet length with value 5.
     """
@@ -9057,11 +9648,12 @@ def test_list_g_year_month_length_nistxml_sv_iv_list_g_year_month_length_1_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_length_nistxml_sv_iv_list_g_year_month_length_1_3(mode, save_output):
+def test_list_g_year_month_length_nistxml_sv_iv_list_g_year_month_length_1_3(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet length with value 5.
     """
@@ -9072,11 +9664,12 @@ def test_list_g_year_month_length_nistxml_sv_iv_list_g_year_month_length_1_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_length_nistxml_sv_iv_list_g_year_month_length_1_4(mode, save_output):
+def test_list_g_year_month_length_nistxml_sv_iv_list_g_year_month_length_1_4(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet length with value 5.
     """
@@ -9087,11 +9680,12 @@ def test_list_g_year_month_length_nistxml_sv_iv_list_g_year_month_length_1_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_length_nistxml_sv_iv_list_g_year_month_length_1_5(mode, save_output):
+def test_list_g_year_month_length_nistxml_sv_iv_list_g_year_month_length_1_5(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet length with value 5.
     """
@@ -9102,11 +9696,12 @@ def test_list_g_year_month_length_nistxml_sv_iv_list_g_year_month_length_1_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_min_length_4_nistxml_sv_iv_list_g_year_month_min_length_5_1(mode, save_output):
+def test_list_g_year_month_min_length_4_nistxml_sv_iv_list_g_year_month_min_length_5_1(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet minLength with value 10.
     """
@@ -9117,11 +9712,12 @@ def test_list_g_year_month_min_length_4_nistxml_sv_iv_list_g_year_month_min_leng
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_min_length_4_nistxml_sv_iv_list_g_year_month_min_length_5_2(mode, save_output):
+def test_list_g_year_month_min_length_4_nistxml_sv_iv_list_g_year_month_min_length_5_2(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet minLength with value 10.
     """
@@ -9132,11 +9728,12 @@ def test_list_g_year_month_min_length_4_nistxml_sv_iv_list_g_year_month_min_leng
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_min_length_4_nistxml_sv_iv_list_g_year_month_min_length_5_3(mode, save_output):
+def test_list_g_year_month_min_length_4_nistxml_sv_iv_list_g_year_month_min_length_5_3(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet minLength with value 10.
     """
@@ -9147,11 +9744,12 @@ def test_list_g_year_month_min_length_4_nistxml_sv_iv_list_g_year_month_min_leng
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_min_length_4_nistxml_sv_iv_list_g_year_month_min_length_5_4(mode, save_output):
+def test_list_g_year_month_min_length_4_nistxml_sv_iv_list_g_year_month_min_length_5_4(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet minLength with value 10.
     """
@@ -9162,11 +9760,12 @@ def test_list_g_year_month_min_length_4_nistxml_sv_iv_list_g_year_month_min_leng
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_min_length_4_nistxml_sv_iv_list_g_year_month_min_length_5_5(mode, save_output):
+def test_list_g_year_month_min_length_4_nistxml_sv_iv_list_g_year_month_min_length_5_5(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet minLength with value 10.
     """
@@ -9177,11 +9776,12 @@ def test_list_g_year_month_min_length_4_nistxml_sv_iv_list_g_year_month_min_leng
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_min_length_3_nistxml_sv_iv_list_g_year_month_min_length_4_1(mode, save_output):
+def test_list_g_year_month_min_length_3_nistxml_sv_iv_list_g_year_month_min_length_4_1(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet minLength with value 8.
     """
@@ -9192,11 +9792,12 @@ def test_list_g_year_month_min_length_3_nistxml_sv_iv_list_g_year_month_min_leng
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_min_length_3_nistxml_sv_iv_list_g_year_month_min_length_4_2(mode, save_output):
+def test_list_g_year_month_min_length_3_nistxml_sv_iv_list_g_year_month_min_length_4_2(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet minLength with value 8.
     """
@@ -9207,11 +9808,12 @@ def test_list_g_year_month_min_length_3_nistxml_sv_iv_list_g_year_month_min_leng
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_min_length_3_nistxml_sv_iv_list_g_year_month_min_length_4_3(mode, save_output):
+def test_list_g_year_month_min_length_3_nistxml_sv_iv_list_g_year_month_min_length_4_3(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet minLength with value 8.
     """
@@ -9222,11 +9824,12 @@ def test_list_g_year_month_min_length_3_nistxml_sv_iv_list_g_year_month_min_leng
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_min_length_3_nistxml_sv_iv_list_g_year_month_min_length_4_4(mode, save_output):
+def test_list_g_year_month_min_length_3_nistxml_sv_iv_list_g_year_month_min_length_4_4(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet minLength with value 8.
     """
@@ -9237,11 +9840,12 @@ def test_list_g_year_month_min_length_3_nistxml_sv_iv_list_g_year_month_min_leng
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_min_length_3_nistxml_sv_iv_list_g_year_month_min_length_4_5(mode, save_output):
+def test_list_g_year_month_min_length_3_nistxml_sv_iv_list_g_year_month_min_length_4_5(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet minLength with value 8.
     """
@@ -9252,11 +9856,12 @@ def test_list_g_year_month_min_length_3_nistxml_sv_iv_list_g_year_month_min_leng
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_min_length_2_nistxml_sv_iv_list_g_year_month_min_length_3_1(mode, save_output):
+def test_list_g_year_month_min_length_2_nistxml_sv_iv_list_g_year_month_min_length_3_1(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet minLength with value 7.
     """
@@ -9267,11 +9872,12 @@ def test_list_g_year_month_min_length_2_nistxml_sv_iv_list_g_year_month_min_leng
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_min_length_2_nistxml_sv_iv_list_g_year_month_min_length_3_2(mode, save_output):
+def test_list_g_year_month_min_length_2_nistxml_sv_iv_list_g_year_month_min_length_3_2(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet minLength with value 7.
     """
@@ -9282,11 +9888,12 @@ def test_list_g_year_month_min_length_2_nistxml_sv_iv_list_g_year_month_min_leng
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_min_length_2_nistxml_sv_iv_list_g_year_month_min_length_3_3(mode, save_output):
+def test_list_g_year_month_min_length_2_nistxml_sv_iv_list_g_year_month_min_length_3_3(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet minLength with value 7.
     """
@@ -9297,11 +9904,12 @@ def test_list_g_year_month_min_length_2_nistxml_sv_iv_list_g_year_month_min_leng
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_min_length_2_nistxml_sv_iv_list_g_year_month_min_length_3_4(mode, save_output):
+def test_list_g_year_month_min_length_2_nistxml_sv_iv_list_g_year_month_min_length_3_4(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet minLength with value 7.
     """
@@ -9312,11 +9920,12 @@ def test_list_g_year_month_min_length_2_nistxml_sv_iv_list_g_year_month_min_leng
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_min_length_2_nistxml_sv_iv_list_g_year_month_min_length_3_5(mode, save_output):
+def test_list_g_year_month_min_length_2_nistxml_sv_iv_list_g_year_month_min_length_3_5(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet minLength with value 7.
     """
@@ -9327,11 +9936,12 @@ def test_list_g_year_month_min_length_2_nistxml_sv_iv_list_g_year_month_min_leng
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_min_length_1_nistxml_sv_iv_list_g_year_month_min_length_2_1(mode, save_output):
+def test_list_g_year_month_min_length_1_nistxml_sv_iv_list_g_year_month_min_length_2_1(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet minLength with value 6.
     """
@@ -9342,11 +9952,12 @@ def test_list_g_year_month_min_length_1_nistxml_sv_iv_list_g_year_month_min_leng
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_min_length_1_nistxml_sv_iv_list_g_year_month_min_length_2_2(mode, save_output):
+def test_list_g_year_month_min_length_1_nistxml_sv_iv_list_g_year_month_min_length_2_2(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet minLength with value 6.
     """
@@ -9357,11 +9968,12 @@ def test_list_g_year_month_min_length_1_nistxml_sv_iv_list_g_year_month_min_leng
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_min_length_1_nistxml_sv_iv_list_g_year_month_min_length_2_3(mode, save_output):
+def test_list_g_year_month_min_length_1_nistxml_sv_iv_list_g_year_month_min_length_2_3(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet minLength with value 6.
     """
@@ -9372,11 +9984,12 @@ def test_list_g_year_month_min_length_1_nistxml_sv_iv_list_g_year_month_min_leng
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_min_length_1_nistxml_sv_iv_list_g_year_month_min_length_2_4(mode, save_output):
+def test_list_g_year_month_min_length_1_nistxml_sv_iv_list_g_year_month_min_length_2_4(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet minLength with value 6.
     """
@@ -9387,11 +10000,12 @@ def test_list_g_year_month_min_length_1_nistxml_sv_iv_list_g_year_month_min_leng
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_min_length_1_nistxml_sv_iv_list_g_year_month_min_length_2_5(mode, save_output):
+def test_list_g_year_month_min_length_1_nistxml_sv_iv_list_g_year_month_min_length_2_5(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet minLength with value 6.
     """
@@ -9402,11 +10016,12 @@ def test_list_g_year_month_min_length_1_nistxml_sv_iv_list_g_year_month_min_leng
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_min_length_nistxml_sv_iv_list_g_year_month_min_length_1_1(mode, save_output):
+def test_list_g_year_month_min_length_nistxml_sv_iv_list_g_year_month_min_length_1_1(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet minLength with value 5.
     """
@@ -9417,11 +10032,12 @@ def test_list_g_year_month_min_length_nistxml_sv_iv_list_g_year_month_min_length
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_min_length_nistxml_sv_iv_list_g_year_month_min_length_1_2(mode, save_output):
+def test_list_g_year_month_min_length_nistxml_sv_iv_list_g_year_month_min_length_1_2(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet minLength with value 5.
     """
@@ -9432,11 +10048,12 @@ def test_list_g_year_month_min_length_nistxml_sv_iv_list_g_year_month_min_length
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_min_length_nistxml_sv_iv_list_g_year_month_min_length_1_3(mode, save_output):
+def test_list_g_year_month_min_length_nistxml_sv_iv_list_g_year_month_min_length_1_3(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet minLength with value 5.
     """
@@ -9447,11 +10064,12 @@ def test_list_g_year_month_min_length_nistxml_sv_iv_list_g_year_month_min_length
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_min_length_nistxml_sv_iv_list_g_year_month_min_length_1_4(mode, save_output):
+def test_list_g_year_month_min_length_nistxml_sv_iv_list_g_year_month_min_length_1_4(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet minLength with value 5.
     """
@@ -9462,11 +10080,12 @@ def test_list_g_year_month_min_length_nistxml_sv_iv_list_g_year_month_min_length
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_min_length_nistxml_sv_iv_list_g_year_month_min_length_1_5(mode, save_output):
+def test_list_g_year_month_min_length_nistxml_sv_iv_list_g_year_month_min_length_1_5(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet minLength with value 5.
     """
@@ -9477,11 +10096,12 @@ def test_list_g_year_month_min_length_nistxml_sv_iv_list_g_year_month_min_length
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_max_length_4_nistxml_sv_iv_list_g_year_month_max_length_5_1(mode, save_output):
+def test_list_g_year_month_max_length_4_nistxml_sv_iv_list_g_year_month_max_length_5_1(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet maxLength with value 10.
     """
@@ -9492,11 +10112,12 @@ def test_list_g_year_month_max_length_4_nistxml_sv_iv_list_g_year_month_max_leng
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_max_length_4_nistxml_sv_iv_list_g_year_month_max_length_5_2(mode, save_output):
+def test_list_g_year_month_max_length_4_nistxml_sv_iv_list_g_year_month_max_length_5_2(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet maxLength with value 10.
     """
@@ -9507,11 +10128,12 @@ def test_list_g_year_month_max_length_4_nistxml_sv_iv_list_g_year_month_max_leng
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_max_length_4_nistxml_sv_iv_list_g_year_month_max_length_5_3(mode, save_output):
+def test_list_g_year_month_max_length_4_nistxml_sv_iv_list_g_year_month_max_length_5_3(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet maxLength with value 10.
     """
@@ -9522,11 +10144,12 @@ def test_list_g_year_month_max_length_4_nistxml_sv_iv_list_g_year_month_max_leng
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_max_length_4_nistxml_sv_iv_list_g_year_month_max_length_5_4(mode, save_output):
+def test_list_g_year_month_max_length_4_nistxml_sv_iv_list_g_year_month_max_length_5_4(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet maxLength with value 10.
     """
@@ -9537,11 +10160,12 @@ def test_list_g_year_month_max_length_4_nistxml_sv_iv_list_g_year_month_max_leng
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_max_length_4_nistxml_sv_iv_list_g_year_month_max_length_5_5(mode, save_output):
+def test_list_g_year_month_max_length_4_nistxml_sv_iv_list_g_year_month_max_length_5_5(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet maxLength with value 10.
     """
@@ -9552,11 +10176,12 @@ def test_list_g_year_month_max_length_4_nistxml_sv_iv_list_g_year_month_max_leng
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_max_length_3_nistxml_sv_iv_list_g_year_month_max_length_4_1(mode, save_output):
+def test_list_g_year_month_max_length_3_nistxml_sv_iv_list_g_year_month_max_length_4_1(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet maxLength with value 8.
     """
@@ -9567,11 +10192,12 @@ def test_list_g_year_month_max_length_3_nistxml_sv_iv_list_g_year_month_max_leng
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_max_length_3_nistxml_sv_iv_list_g_year_month_max_length_4_2(mode, save_output):
+def test_list_g_year_month_max_length_3_nistxml_sv_iv_list_g_year_month_max_length_4_2(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet maxLength with value 8.
     """
@@ -9582,11 +10208,12 @@ def test_list_g_year_month_max_length_3_nistxml_sv_iv_list_g_year_month_max_leng
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_max_length_3_nistxml_sv_iv_list_g_year_month_max_length_4_3(mode, save_output):
+def test_list_g_year_month_max_length_3_nistxml_sv_iv_list_g_year_month_max_length_4_3(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet maxLength with value 8.
     """
@@ -9597,11 +10224,12 @@ def test_list_g_year_month_max_length_3_nistxml_sv_iv_list_g_year_month_max_leng
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_max_length_3_nistxml_sv_iv_list_g_year_month_max_length_4_4(mode, save_output):
+def test_list_g_year_month_max_length_3_nistxml_sv_iv_list_g_year_month_max_length_4_4(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet maxLength with value 8.
     """
@@ -9612,11 +10240,12 @@ def test_list_g_year_month_max_length_3_nistxml_sv_iv_list_g_year_month_max_leng
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_max_length_3_nistxml_sv_iv_list_g_year_month_max_length_4_5(mode, save_output):
+def test_list_g_year_month_max_length_3_nistxml_sv_iv_list_g_year_month_max_length_4_5(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet maxLength with value 8.
     """
@@ -9627,11 +10256,12 @@ def test_list_g_year_month_max_length_3_nistxml_sv_iv_list_g_year_month_max_leng
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_max_length_2_nistxml_sv_iv_list_g_year_month_max_length_3_1(mode, save_output):
+def test_list_g_year_month_max_length_2_nistxml_sv_iv_list_g_year_month_max_length_3_1(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet maxLength with value 7.
     """
@@ -9642,11 +10272,12 @@ def test_list_g_year_month_max_length_2_nistxml_sv_iv_list_g_year_month_max_leng
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_max_length_2_nistxml_sv_iv_list_g_year_month_max_length_3_2(mode, save_output):
+def test_list_g_year_month_max_length_2_nistxml_sv_iv_list_g_year_month_max_length_3_2(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet maxLength with value 7.
     """
@@ -9657,11 +10288,12 @@ def test_list_g_year_month_max_length_2_nistxml_sv_iv_list_g_year_month_max_leng
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_max_length_2_nistxml_sv_iv_list_g_year_month_max_length_3_3(mode, save_output):
+def test_list_g_year_month_max_length_2_nistxml_sv_iv_list_g_year_month_max_length_3_3(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet maxLength with value 7.
     """
@@ -9672,11 +10304,12 @@ def test_list_g_year_month_max_length_2_nistxml_sv_iv_list_g_year_month_max_leng
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_max_length_2_nistxml_sv_iv_list_g_year_month_max_length_3_4(mode, save_output):
+def test_list_g_year_month_max_length_2_nistxml_sv_iv_list_g_year_month_max_length_3_4(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet maxLength with value 7.
     """
@@ -9687,11 +10320,12 @@ def test_list_g_year_month_max_length_2_nistxml_sv_iv_list_g_year_month_max_leng
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_max_length_2_nistxml_sv_iv_list_g_year_month_max_length_3_5(mode, save_output):
+def test_list_g_year_month_max_length_2_nistxml_sv_iv_list_g_year_month_max_length_3_5(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet maxLength with value 7.
     """
@@ -9702,11 +10336,12 @@ def test_list_g_year_month_max_length_2_nistxml_sv_iv_list_g_year_month_max_leng
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_max_length_1_nistxml_sv_iv_list_g_year_month_max_length_2_1(mode, save_output):
+def test_list_g_year_month_max_length_1_nistxml_sv_iv_list_g_year_month_max_length_2_1(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet maxLength with value 6.
     """
@@ -9717,11 +10352,12 @@ def test_list_g_year_month_max_length_1_nistxml_sv_iv_list_g_year_month_max_leng
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_max_length_1_nistxml_sv_iv_list_g_year_month_max_length_2_2(mode, save_output):
+def test_list_g_year_month_max_length_1_nistxml_sv_iv_list_g_year_month_max_length_2_2(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet maxLength with value 6.
     """
@@ -9732,11 +10368,12 @@ def test_list_g_year_month_max_length_1_nistxml_sv_iv_list_g_year_month_max_leng
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_max_length_1_nistxml_sv_iv_list_g_year_month_max_length_2_3(mode, save_output):
+def test_list_g_year_month_max_length_1_nistxml_sv_iv_list_g_year_month_max_length_2_3(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet maxLength with value 6.
     """
@@ -9747,11 +10384,12 @@ def test_list_g_year_month_max_length_1_nistxml_sv_iv_list_g_year_month_max_leng
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_max_length_1_nistxml_sv_iv_list_g_year_month_max_length_2_4(mode, save_output):
+def test_list_g_year_month_max_length_1_nistxml_sv_iv_list_g_year_month_max_length_2_4(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet maxLength with value 6.
     """
@@ -9762,11 +10400,12 @@ def test_list_g_year_month_max_length_1_nistxml_sv_iv_list_g_year_month_max_leng
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_max_length_1_nistxml_sv_iv_list_g_year_month_max_length_2_5(mode, save_output):
+def test_list_g_year_month_max_length_1_nistxml_sv_iv_list_g_year_month_max_length_2_5(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet maxLength with value 6.
     """
@@ -9777,11 +10416,12 @@ def test_list_g_year_month_max_length_1_nistxml_sv_iv_list_g_year_month_max_leng
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_max_length_nistxml_sv_iv_list_g_year_month_max_length_1_1(mode, save_output):
+def test_list_g_year_month_max_length_nistxml_sv_iv_list_g_year_month_max_length_1_1(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet maxLength with value 5.
     """
@@ -9792,11 +10432,12 @@ def test_list_g_year_month_max_length_nistxml_sv_iv_list_g_year_month_max_length
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_max_length_nistxml_sv_iv_list_g_year_month_max_length_1_2(mode, save_output):
+def test_list_g_year_month_max_length_nistxml_sv_iv_list_g_year_month_max_length_1_2(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet maxLength with value 5.
     """
@@ -9807,11 +10448,12 @@ def test_list_g_year_month_max_length_nistxml_sv_iv_list_g_year_month_max_length
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_max_length_nistxml_sv_iv_list_g_year_month_max_length_1_3(mode, save_output):
+def test_list_g_year_month_max_length_nistxml_sv_iv_list_g_year_month_max_length_1_3(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet maxLength with value 5.
     """
@@ -9822,11 +10464,12 @@ def test_list_g_year_month_max_length_nistxml_sv_iv_list_g_year_month_max_length
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_max_length_nistxml_sv_iv_list_g_year_month_max_length_1_4(mode, save_output):
+def test_list_g_year_month_max_length_nistxml_sv_iv_list_g_year_month_max_length_1_4(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet maxLength with value 5.
     """
@@ -9837,11 +10480,12 @@ def test_list_g_year_month_max_length_nistxml_sv_iv_list_g_year_month_max_length
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_g_year_month_max_length_nistxml_sv_iv_list_g_year_month_max_length_1_5(mode, save_output):
+def test_list_g_year_month_max_length_nistxml_sv_iv_list_g_year_month_max_length_1_5(mode, save_output, output_format):
     """
     Type list/gYearMonth is restricted by facet maxLength with value 5.
     """
@@ -9852,11 +10496,12 @@ def test_list_g_year_month_max_length_nistxml_sv_iv_list_g_year_month_max_length
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_white_space_nistxml_sv_iv_list_date_white_space_1_1(mode, save_output):
+def test_list_date_white_space_nistxml_sv_iv_list_date_white_space_1_1(mode, save_output, output_format):
     """
     Type list/date is restricted by facet whiteSpace with value collapse.
     """
@@ -9867,11 +10512,12 @@ def test_list_date_white_space_nistxml_sv_iv_list_date_white_space_1_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_white_space_nistxml_sv_iv_list_date_white_space_1_2(mode, save_output):
+def test_list_date_white_space_nistxml_sv_iv_list_date_white_space_1_2(mode, save_output, output_format):
     """
     Type list/date is restricted by facet whiteSpace with value collapse.
     """
@@ -9882,11 +10528,12 @@ def test_list_date_white_space_nistxml_sv_iv_list_date_white_space_1_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_white_space_nistxml_sv_iv_list_date_white_space_1_3(mode, save_output):
+def test_list_date_white_space_nistxml_sv_iv_list_date_white_space_1_3(mode, save_output, output_format):
     """
     Type list/date is restricted by facet whiteSpace with value collapse.
     """
@@ -9897,11 +10544,12 @@ def test_list_date_white_space_nistxml_sv_iv_list_date_white_space_1_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_white_space_nistxml_sv_iv_list_date_white_space_1_4(mode, save_output):
+def test_list_date_white_space_nistxml_sv_iv_list_date_white_space_1_4(mode, save_output, output_format):
     """
     Type list/date is restricted by facet whiteSpace with value collapse.
     """
@@ -9912,11 +10560,12 @@ def test_list_date_white_space_nistxml_sv_iv_list_date_white_space_1_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_white_space_nistxml_sv_iv_list_date_white_space_1_5(mode, save_output):
+def test_list_date_white_space_nistxml_sv_iv_list_date_white_space_1_5(mode, save_output, output_format):
     """
     Type list/date is restricted by facet whiteSpace with value collapse.
     """
@@ -9927,11 +10576,12 @@ def test_list_date_white_space_nistxml_sv_iv_list_date_white_space_1_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_enumeration_4_nistxml_sv_iv_list_date_enumeration_5_1(mode, save_output):
+def test_list_date_enumeration_4_nistxml_sv_iv_list_date_enumeration_5_1(mode, save_output, output_format):
     """
     Type list/date is restricted by facet enumeration.
     """
@@ -9942,11 +10592,12 @@ def test_list_date_enumeration_4_nistxml_sv_iv_list_date_enumeration_5_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_enumeration_4_nistxml_sv_iv_list_date_enumeration_5_2(mode, save_output):
+def test_list_date_enumeration_4_nistxml_sv_iv_list_date_enumeration_5_2(mode, save_output, output_format):
     """
     Type list/date is restricted by facet enumeration.
     """
@@ -9957,11 +10608,12 @@ def test_list_date_enumeration_4_nistxml_sv_iv_list_date_enumeration_5_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_enumeration_4_nistxml_sv_iv_list_date_enumeration_5_3(mode, save_output):
+def test_list_date_enumeration_4_nistxml_sv_iv_list_date_enumeration_5_3(mode, save_output, output_format):
     """
     Type list/date is restricted by facet enumeration.
     """
@@ -9972,11 +10624,12 @@ def test_list_date_enumeration_4_nistxml_sv_iv_list_date_enumeration_5_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_enumeration_4_nistxml_sv_iv_list_date_enumeration_5_4(mode, save_output):
+def test_list_date_enumeration_4_nistxml_sv_iv_list_date_enumeration_5_4(mode, save_output, output_format):
     """
     Type list/date is restricted by facet enumeration.
     """
@@ -9987,11 +10640,12 @@ def test_list_date_enumeration_4_nistxml_sv_iv_list_date_enumeration_5_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_enumeration_4_nistxml_sv_iv_list_date_enumeration_5_5(mode, save_output):
+def test_list_date_enumeration_4_nistxml_sv_iv_list_date_enumeration_5_5(mode, save_output, output_format):
     """
     Type list/date is restricted by facet enumeration.
     """
@@ -10002,11 +10656,12 @@ def test_list_date_enumeration_4_nistxml_sv_iv_list_date_enumeration_5_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_enumeration_3_nistxml_sv_iv_list_date_enumeration_4_1(mode, save_output):
+def test_list_date_enumeration_3_nistxml_sv_iv_list_date_enumeration_4_1(mode, save_output, output_format):
     """
     Type list/date is restricted by facet enumeration.
     """
@@ -10017,11 +10672,12 @@ def test_list_date_enumeration_3_nistxml_sv_iv_list_date_enumeration_4_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_enumeration_3_nistxml_sv_iv_list_date_enumeration_4_2(mode, save_output):
+def test_list_date_enumeration_3_nistxml_sv_iv_list_date_enumeration_4_2(mode, save_output, output_format):
     """
     Type list/date is restricted by facet enumeration.
     """
@@ -10032,11 +10688,12 @@ def test_list_date_enumeration_3_nistxml_sv_iv_list_date_enumeration_4_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_enumeration_3_nistxml_sv_iv_list_date_enumeration_4_3(mode, save_output):
+def test_list_date_enumeration_3_nistxml_sv_iv_list_date_enumeration_4_3(mode, save_output, output_format):
     """
     Type list/date is restricted by facet enumeration.
     """
@@ -10047,11 +10704,12 @@ def test_list_date_enumeration_3_nistxml_sv_iv_list_date_enumeration_4_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_enumeration_3_nistxml_sv_iv_list_date_enumeration_4_4(mode, save_output):
+def test_list_date_enumeration_3_nistxml_sv_iv_list_date_enumeration_4_4(mode, save_output, output_format):
     """
     Type list/date is restricted by facet enumeration.
     """
@@ -10062,11 +10720,12 @@ def test_list_date_enumeration_3_nistxml_sv_iv_list_date_enumeration_4_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_enumeration_3_nistxml_sv_iv_list_date_enumeration_4_5(mode, save_output):
+def test_list_date_enumeration_3_nistxml_sv_iv_list_date_enumeration_4_5(mode, save_output, output_format):
     """
     Type list/date is restricted by facet enumeration.
     """
@@ -10077,11 +10736,12 @@ def test_list_date_enumeration_3_nistxml_sv_iv_list_date_enumeration_4_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_enumeration_2_nistxml_sv_iv_list_date_enumeration_3_1(mode, save_output):
+def test_list_date_enumeration_2_nistxml_sv_iv_list_date_enumeration_3_1(mode, save_output, output_format):
     """
     Type list/date is restricted by facet enumeration.
     """
@@ -10092,11 +10752,12 @@ def test_list_date_enumeration_2_nistxml_sv_iv_list_date_enumeration_3_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_enumeration_2_nistxml_sv_iv_list_date_enumeration_3_2(mode, save_output):
+def test_list_date_enumeration_2_nistxml_sv_iv_list_date_enumeration_3_2(mode, save_output, output_format):
     """
     Type list/date is restricted by facet enumeration.
     """
@@ -10107,11 +10768,12 @@ def test_list_date_enumeration_2_nistxml_sv_iv_list_date_enumeration_3_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_enumeration_2_nistxml_sv_iv_list_date_enumeration_3_3(mode, save_output):
+def test_list_date_enumeration_2_nistxml_sv_iv_list_date_enumeration_3_3(mode, save_output, output_format):
     """
     Type list/date is restricted by facet enumeration.
     """
@@ -10122,11 +10784,12 @@ def test_list_date_enumeration_2_nistxml_sv_iv_list_date_enumeration_3_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_enumeration_2_nistxml_sv_iv_list_date_enumeration_3_4(mode, save_output):
+def test_list_date_enumeration_2_nistxml_sv_iv_list_date_enumeration_3_4(mode, save_output, output_format):
     """
     Type list/date is restricted by facet enumeration.
     """
@@ -10137,11 +10800,12 @@ def test_list_date_enumeration_2_nistxml_sv_iv_list_date_enumeration_3_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_enumeration_2_nistxml_sv_iv_list_date_enumeration_3_5(mode, save_output):
+def test_list_date_enumeration_2_nistxml_sv_iv_list_date_enumeration_3_5(mode, save_output, output_format):
     """
     Type list/date is restricted by facet enumeration.
     """
@@ -10152,11 +10816,12 @@ def test_list_date_enumeration_2_nistxml_sv_iv_list_date_enumeration_3_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_enumeration_1_nistxml_sv_iv_list_date_enumeration_2_1(mode, save_output):
+def test_list_date_enumeration_1_nistxml_sv_iv_list_date_enumeration_2_1(mode, save_output, output_format):
     """
     Type list/date is restricted by facet enumeration.
     """
@@ -10167,11 +10832,12 @@ def test_list_date_enumeration_1_nistxml_sv_iv_list_date_enumeration_2_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_enumeration_1_nistxml_sv_iv_list_date_enumeration_2_2(mode, save_output):
+def test_list_date_enumeration_1_nistxml_sv_iv_list_date_enumeration_2_2(mode, save_output, output_format):
     """
     Type list/date is restricted by facet enumeration.
     """
@@ -10182,11 +10848,12 @@ def test_list_date_enumeration_1_nistxml_sv_iv_list_date_enumeration_2_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_enumeration_1_nistxml_sv_iv_list_date_enumeration_2_3(mode, save_output):
+def test_list_date_enumeration_1_nistxml_sv_iv_list_date_enumeration_2_3(mode, save_output, output_format):
     """
     Type list/date is restricted by facet enumeration.
     """
@@ -10197,11 +10864,12 @@ def test_list_date_enumeration_1_nistxml_sv_iv_list_date_enumeration_2_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_enumeration_1_nistxml_sv_iv_list_date_enumeration_2_4(mode, save_output):
+def test_list_date_enumeration_1_nistxml_sv_iv_list_date_enumeration_2_4(mode, save_output, output_format):
     """
     Type list/date is restricted by facet enumeration.
     """
@@ -10212,11 +10880,12 @@ def test_list_date_enumeration_1_nistxml_sv_iv_list_date_enumeration_2_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_enumeration_1_nistxml_sv_iv_list_date_enumeration_2_5(mode, save_output):
+def test_list_date_enumeration_1_nistxml_sv_iv_list_date_enumeration_2_5(mode, save_output, output_format):
     """
     Type list/date is restricted by facet enumeration.
     """
@@ -10227,11 +10896,12 @@ def test_list_date_enumeration_1_nistxml_sv_iv_list_date_enumeration_2_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_enumeration_nistxml_sv_iv_list_date_enumeration_1_1(mode, save_output):
+def test_list_date_enumeration_nistxml_sv_iv_list_date_enumeration_1_1(mode, save_output, output_format):
     """
     Type list/date is restricted by facet enumeration.
     """
@@ -10242,11 +10912,12 @@ def test_list_date_enumeration_nistxml_sv_iv_list_date_enumeration_1_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_enumeration_nistxml_sv_iv_list_date_enumeration_1_2(mode, save_output):
+def test_list_date_enumeration_nistxml_sv_iv_list_date_enumeration_1_2(mode, save_output, output_format):
     """
     Type list/date is restricted by facet enumeration.
     """
@@ -10257,11 +10928,12 @@ def test_list_date_enumeration_nistxml_sv_iv_list_date_enumeration_1_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_enumeration_nistxml_sv_iv_list_date_enumeration_1_3(mode, save_output):
+def test_list_date_enumeration_nistxml_sv_iv_list_date_enumeration_1_3(mode, save_output, output_format):
     """
     Type list/date is restricted by facet enumeration.
     """
@@ -10272,11 +10944,12 @@ def test_list_date_enumeration_nistxml_sv_iv_list_date_enumeration_1_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_enumeration_nistxml_sv_iv_list_date_enumeration_1_4(mode, save_output):
+def test_list_date_enumeration_nistxml_sv_iv_list_date_enumeration_1_4(mode, save_output, output_format):
     """
     Type list/date is restricted by facet enumeration.
     """
@@ -10287,11 +10960,12 @@ def test_list_date_enumeration_nistxml_sv_iv_list_date_enumeration_1_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_enumeration_nistxml_sv_iv_list_date_enumeration_1_5(mode, save_output):
+def test_list_date_enumeration_nistxml_sv_iv_list_date_enumeration_1_5(mode, save_output, output_format):
     """
     Type list/date is restricted by facet enumeration.
     """
@@ -10302,11 +10976,12 @@ def test_list_date_enumeration_nistxml_sv_iv_list_date_enumeration_1_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_pattern_4_nistxml_sv_iv_list_date_pattern_5_1(mode, save_output):
+def test_list_date_pattern_4_nistxml_sv_iv_list_date_pattern_5_1(mode, save_output, output_format):
     r"""
     Type list/date is restricted by facet pattern with value
     \d\d74-\d7-\d5 17\d\d-0\d-2\d 19\d\d-\d1-\d8 \d\d25-\d2-1\d
@@ -10319,11 +10994,12 @@ def test_list_date_pattern_4_nistxml_sv_iv_list_date_pattern_5_1(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_pattern_4_nistxml_sv_iv_list_date_pattern_5_2(mode, save_output):
+def test_list_date_pattern_4_nistxml_sv_iv_list_date_pattern_5_2(mode, save_output, output_format):
     r"""
     Type list/date is restricted by facet pattern with value
     \d\d74-\d7-\d5 17\d\d-0\d-2\d 19\d\d-\d1-\d8 \d\d25-\d2-1\d
@@ -10336,11 +11012,12 @@ def test_list_date_pattern_4_nistxml_sv_iv_list_date_pattern_5_2(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_pattern_4_nistxml_sv_iv_list_date_pattern_5_3(mode, save_output):
+def test_list_date_pattern_4_nistxml_sv_iv_list_date_pattern_5_3(mode, save_output, output_format):
     r"""
     Type list/date is restricted by facet pattern with value
     \d\d74-\d7-\d5 17\d\d-0\d-2\d 19\d\d-\d1-\d8 \d\d25-\d2-1\d
@@ -10353,11 +11030,12 @@ def test_list_date_pattern_4_nistxml_sv_iv_list_date_pattern_5_3(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_pattern_4_nistxml_sv_iv_list_date_pattern_5_4(mode, save_output):
+def test_list_date_pattern_4_nistxml_sv_iv_list_date_pattern_5_4(mode, save_output, output_format):
     r"""
     Type list/date is restricted by facet pattern with value
     \d\d74-\d7-\d5 17\d\d-0\d-2\d 19\d\d-\d1-\d8 \d\d25-\d2-1\d
@@ -10370,11 +11048,12 @@ def test_list_date_pattern_4_nistxml_sv_iv_list_date_pattern_5_4(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_pattern_4_nistxml_sv_iv_list_date_pattern_5_5(mode, save_output):
+def test_list_date_pattern_4_nistxml_sv_iv_list_date_pattern_5_5(mode, save_output, output_format):
     r"""
     Type list/date is restricted by facet pattern with value
     \d\d74-\d7-\d5 17\d\d-0\d-2\d 19\d\d-\d1-\d8 \d\d25-\d2-1\d
@@ -10387,11 +11066,12 @@ def test_list_date_pattern_4_nistxml_sv_iv_list_date_pattern_5_5(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_pattern_3_nistxml_sv_iv_list_date_pattern_4_1(mode, save_output):
+def test_list_date_pattern_3_nistxml_sv_iv_list_date_pattern_4_1(mode, save_output, output_format):
     r"""
     Type list/date is restricted by facet pattern with value
     20\d\d-\d0-1\d \d\d75-\d5-2\d \d\d34-0\d-2\d 19\d\d-0\d-\d4
@@ -10404,11 +11084,12 @@ def test_list_date_pattern_3_nistxml_sv_iv_list_date_pattern_4_1(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_pattern_3_nistxml_sv_iv_list_date_pattern_4_2(mode, save_output):
+def test_list_date_pattern_3_nistxml_sv_iv_list_date_pattern_4_2(mode, save_output, output_format):
     r"""
     Type list/date is restricted by facet pattern with value
     20\d\d-\d0-1\d \d\d75-\d5-2\d \d\d34-0\d-2\d 19\d\d-0\d-\d4
@@ -10421,11 +11102,12 @@ def test_list_date_pattern_3_nistxml_sv_iv_list_date_pattern_4_2(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_pattern_3_nistxml_sv_iv_list_date_pattern_4_3(mode, save_output):
+def test_list_date_pattern_3_nistxml_sv_iv_list_date_pattern_4_3(mode, save_output, output_format):
     r"""
     Type list/date is restricted by facet pattern with value
     20\d\d-\d0-1\d \d\d75-\d5-2\d \d\d34-0\d-2\d 19\d\d-0\d-\d4
@@ -10438,11 +11120,12 @@ def test_list_date_pattern_3_nistxml_sv_iv_list_date_pattern_4_3(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_pattern_3_nistxml_sv_iv_list_date_pattern_4_4(mode, save_output):
+def test_list_date_pattern_3_nistxml_sv_iv_list_date_pattern_4_4(mode, save_output, output_format):
     r"""
     Type list/date is restricted by facet pattern with value
     20\d\d-\d0-1\d \d\d75-\d5-2\d \d\d34-0\d-2\d 19\d\d-0\d-\d4
@@ -10455,11 +11138,12 @@ def test_list_date_pattern_3_nistxml_sv_iv_list_date_pattern_4_4(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_pattern_3_nistxml_sv_iv_list_date_pattern_4_5(mode, save_output):
+def test_list_date_pattern_3_nistxml_sv_iv_list_date_pattern_4_5(mode, save_output, output_format):
     r"""
     Type list/date is restricted by facet pattern with value
     20\d\d-\d0-1\d \d\d75-\d5-2\d \d\d34-0\d-2\d 19\d\d-0\d-\d4
@@ -10472,11 +11156,12 @@ def test_list_date_pattern_3_nistxml_sv_iv_list_date_pattern_4_5(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_pattern_2_nistxml_sv_iv_list_date_pattern_3_1(mode, save_output):
+def test_list_date_pattern_2_nistxml_sv_iv_list_date_pattern_3_1(mode, save_output, output_format):
     r"""
     Type list/date is restricted by facet pattern with value
     \d\d47-0\d-\d2 18\d\d-0\d-\d5 20\d\d-1\d-2\d \d\d79-0\d-1\d
@@ -10489,11 +11174,12 @@ def test_list_date_pattern_2_nistxml_sv_iv_list_date_pattern_3_1(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_pattern_2_nistxml_sv_iv_list_date_pattern_3_2(mode, save_output):
+def test_list_date_pattern_2_nistxml_sv_iv_list_date_pattern_3_2(mode, save_output, output_format):
     r"""
     Type list/date is restricted by facet pattern with value
     \d\d47-0\d-\d2 18\d\d-0\d-\d5 20\d\d-1\d-2\d \d\d79-0\d-1\d
@@ -10506,11 +11192,12 @@ def test_list_date_pattern_2_nistxml_sv_iv_list_date_pattern_3_2(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_pattern_2_nistxml_sv_iv_list_date_pattern_3_3(mode, save_output):
+def test_list_date_pattern_2_nistxml_sv_iv_list_date_pattern_3_3(mode, save_output, output_format):
     r"""
     Type list/date is restricted by facet pattern with value
     \d\d47-0\d-\d2 18\d\d-0\d-\d5 20\d\d-1\d-2\d \d\d79-0\d-1\d
@@ -10523,11 +11210,12 @@ def test_list_date_pattern_2_nistxml_sv_iv_list_date_pattern_3_3(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_pattern_2_nistxml_sv_iv_list_date_pattern_3_4(mode, save_output):
+def test_list_date_pattern_2_nistxml_sv_iv_list_date_pattern_3_4(mode, save_output, output_format):
     r"""
     Type list/date is restricted by facet pattern with value
     \d\d47-0\d-\d2 18\d\d-0\d-\d5 20\d\d-1\d-2\d \d\d79-0\d-1\d
@@ -10540,11 +11228,12 @@ def test_list_date_pattern_2_nistxml_sv_iv_list_date_pattern_3_4(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_pattern_2_nistxml_sv_iv_list_date_pattern_3_5(mode, save_output):
+def test_list_date_pattern_2_nistxml_sv_iv_list_date_pattern_3_5(mode, save_output, output_format):
     r"""
     Type list/date is restricted by facet pattern with value
     \d\d47-0\d-\d2 18\d\d-0\d-\d5 20\d\d-1\d-2\d \d\d79-0\d-1\d
@@ -10557,11 +11246,12 @@ def test_list_date_pattern_2_nistxml_sv_iv_list_date_pattern_3_5(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_pattern_1_nistxml_sv_iv_list_date_pattern_2_1(mode, save_output):
+def test_list_date_pattern_1_nistxml_sv_iv_list_date_pattern_2_1(mode, save_output, output_format):
     r"""
     Type list/date is restricted by facet pattern with value
     \d\d56-\d1-0\d \d\d57-0\d-2\d \d\d49-1\d-\d4 18\d\d-\d3-2\d
@@ -10574,11 +11264,12 @@ def test_list_date_pattern_1_nistxml_sv_iv_list_date_pattern_2_1(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_pattern_1_nistxml_sv_iv_list_date_pattern_2_2(mode, save_output):
+def test_list_date_pattern_1_nistxml_sv_iv_list_date_pattern_2_2(mode, save_output, output_format):
     r"""
     Type list/date is restricted by facet pattern with value
     \d\d56-\d1-0\d \d\d57-0\d-2\d \d\d49-1\d-\d4 18\d\d-\d3-2\d
@@ -10591,11 +11282,12 @@ def test_list_date_pattern_1_nistxml_sv_iv_list_date_pattern_2_2(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_pattern_1_nistxml_sv_iv_list_date_pattern_2_3(mode, save_output):
+def test_list_date_pattern_1_nistxml_sv_iv_list_date_pattern_2_3(mode, save_output, output_format):
     r"""
     Type list/date is restricted by facet pattern with value
     \d\d56-\d1-0\d \d\d57-0\d-2\d \d\d49-1\d-\d4 18\d\d-\d3-2\d
@@ -10608,11 +11300,12 @@ def test_list_date_pattern_1_nistxml_sv_iv_list_date_pattern_2_3(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_pattern_1_nistxml_sv_iv_list_date_pattern_2_4(mode, save_output):
+def test_list_date_pattern_1_nistxml_sv_iv_list_date_pattern_2_4(mode, save_output, output_format):
     r"""
     Type list/date is restricted by facet pattern with value
     \d\d56-\d1-0\d \d\d57-0\d-2\d \d\d49-1\d-\d4 18\d\d-\d3-2\d
@@ -10625,11 +11318,12 @@ def test_list_date_pattern_1_nistxml_sv_iv_list_date_pattern_2_4(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_pattern_1_nistxml_sv_iv_list_date_pattern_2_5(mode, save_output):
+def test_list_date_pattern_1_nistxml_sv_iv_list_date_pattern_2_5(mode, save_output, output_format):
     r"""
     Type list/date is restricted by facet pattern with value
     \d\d56-\d1-0\d \d\d57-0\d-2\d \d\d49-1\d-\d4 18\d\d-\d3-2\d
@@ -10642,11 +11336,12 @@ def test_list_date_pattern_1_nistxml_sv_iv_list_date_pattern_2_5(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_pattern_nistxml_sv_iv_list_date_pattern_1_1(mode, save_output):
+def test_list_date_pattern_nistxml_sv_iv_list_date_pattern_1_1(mode, save_output, output_format):
     r"""
     Type list/date is restricted by facet pattern with value
     19\d\d-\d9-\d4 \d\d40-\d7-1\d 18\d\d-0\d-1\d \d\d05-\d4-\d5
@@ -10660,11 +11355,12 @@ def test_list_date_pattern_nistxml_sv_iv_list_date_pattern_1_1(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_pattern_nistxml_sv_iv_list_date_pattern_1_2(mode, save_output):
+def test_list_date_pattern_nistxml_sv_iv_list_date_pattern_1_2(mode, save_output, output_format):
     r"""
     Type list/date is restricted by facet pattern with value
     19\d\d-\d9-\d4 \d\d40-\d7-1\d 18\d\d-0\d-1\d \d\d05-\d4-\d5
@@ -10678,11 +11374,12 @@ def test_list_date_pattern_nistxml_sv_iv_list_date_pattern_1_2(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_pattern_nistxml_sv_iv_list_date_pattern_1_3(mode, save_output):
+def test_list_date_pattern_nistxml_sv_iv_list_date_pattern_1_3(mode, save_output, output_format):
     r"""
     Type list/date is restricted by facet pattern with value
     19\d\d-\d9-\d4 \d\d40-\d7-1\d 18\d\d-0\d-1\d \d\d05-\d4-\d5
@@ -10696,11 +11393,12 @@ def test_list_date_pattern_nistxml_sv_iv_list_date_pattern_1_3(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_pattern_nistxml_sv_iv_list_date_pattern_1_4(mode, save_output):
+def test_list_date_pattern_nistxml_sv_iv_list_date_pattern_1_4(mode, save_output, output_format):
     r"""
     Type list/date is restricted by facet pattern with value
     19\d\d-\d9-\d4 \d\d40-\d7-1\d 18\d\d-0\d-1\d \d\d05-\d4-\d5
@@ -10714,11 +11412,12 @@ def test_list_date_pattern_nistxml_sv_iv_list_date_pattern_1_4(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_pattern_nistxml_sv_iv_list_date_pattern_1_5(mode, save_output):
+def test_list_date_pattern_nistxml_sv_iv_list_date_pattern_1_5(mode, save_output, output_format):
     r"""
     Type list/date is restricted by facet pattern with value
     19\d\d-\d9-\d4 \d\d40-\d7-1\d 18\d\d-0\d-1\d \d\d05-\d4-\d5
@@ -10732,11 +11431,12 @@ def test_list_date_pattern_nistxml_sv_iv_list_date_pattern_1_5(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_length_4_nistxml_sv_iv_list_date_length_5_1(mode, save_output):
+def test_list_date_length_4_nistxml_sv_iv_list_date_length_5_1(mode, save_output, output_format):
     """
     Type list/date is restricted by facet length with value 10.
     """
@@ -10747,11 +11447,12 @@ def test_list_date_length_4_nistxml_sv_iv_list_date_length_5_1(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_length_4_nistxml_sv_iv_list_date_length_5_2(mode, save_output):
+def test_list_date_length_4_nistxml_sv_iv_list_date_length_5_2(mode, save_output, output_format):
     """
     Type list/date is restricted by facet length with value 10.
     """
@@ -10762,11 +11463,12 @@ def test_list_date_length_4_nistxml_sv_iv_list_date_length_5_2(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_length_4_nistxml_sv_iv_list_date_length_5_3(mode, save_output):
+def test_list_date_length_4_nistxml_sv_iv_list_date_length_5_3(mode, save_output, output_format):
     """
     Type list/date is restricted by facet length with value 10.
     """
@@ -10777,11 +11479,12 @@ def test_list_date_length_4_nistxml_sv_iv_list_date_length_5_3(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_length_4_nistxml_sv_iv_list_date_length_5_4(mode, save_output):
+def test_list_date_length_4_nistxml_sv_iv_list_date_length_5_4(mode, save_output, output_format):
     """
     Type list/date is restricted by facet length with value 10.
     """
@@ -10792,11 +11495,12 @@ def test_list_date_length_4_nistxml_sv_iv_list_date_length_5_4(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_length_4_nistxml_sv_iv_list_date_length_5_5(mode, save_output):
+def test_list_date_length_4_nistxml_sv_iv_list_date_length_5_5(mode, save_output, output_format):
     """
     Type list/date is restricted by facet length with value 10.
     """
@@ -10807,11 +11511,12 @@ def test_list_date_length_4_nistxml_sv_iv_list_date_length_5_5(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_length_3_nistxml_sv_iv_list_date_length_4_1(mode, save_output):
+def test_list_date_length_3_nistxml_sv_iv_list_date_length_4_1(mode, save_output, output_format):
     """
     Type list/date is restricted by facet length with value 8.
     """
@@ -10822,11 +11527,12 @@ def test_list_date_length_3_nistxml_sv_iv_list_date_length_4_1(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_length_3_nistxml_sv_iv_list_date_length_4_2(mode, save_output):
+def test_list_date_length_3_nistxml_sv_iv_list_date_length_4_2(mode, save_output, output_format):
     """
     Type list/date is restricted by facet length with value 8.
     """
@@ -10837,11 +11543,12 @@ def test_list_date_length_3_nistxml_sv_iv_list_date_length_4_2(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_length_3_nistxml_sv_iv_list_date_length_4_3(mode, save_output):
+def test_list_date_length_3_nistxml_sv_iv_list_date_length_4_3(mode, save_output, output_format):
     """
     Type list/date is restricted by facet length with value 8.
     """
@@ -10852,11 +11559,12 @@ def test_list_date_length_3_nistxml_sv_iv_list_date_length_4_3(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_length_3_nistxml_sv_iv_list_date_length_4_4(mode, save_output):
+def test_list_date_length_3_nistxml_sv_iv_list_date_length_4_4(mode, save_output, output_format):
     """
     Type list/date is restricted by facet length with value 8.
     """
@@ -10867,11 +11575,12 @@ def test_list_date_length_3_nistxml_sv_iv_list_date_length_4_4(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_length_3_nistxml_sv_iv_list_date_length_4_5(mode, save_output):
+def test_list_date_length_3_nistxml_sv_iv_list_date_length_4_5(mode, save_output, output_format):
     """
     Type list/date is restricted by facet length with value 8.
     """
@@ -10882,11 +11591,12 @@ def test_list_date_length_3_nistxml_sv_iv_list_date_length_4_5(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_length_2_nistxml_sv_iv_list_date_length_3_1(mode, save_output):
+def test_list_date_length_2_nistxml_sv_iv_list_date_length_3_1(mode, save_output, output_format):
     """
     Type list/date is restricted by facet length with value 7.
     """
@@ -10897,11 +11607,12 @@ def test_list_date_length_2_nistxml_sv_iv_list_date_length_3_1(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_length_2_nistxml_sv_iv_list_date_length_3_2(mode, save_output):
+def test_list_date_length_2_nistxml_sv_iv_list_date_length_3_2(mode, save_output, output_format):
     """
     Type list/date is restricted by facet length with value 7.
     """
@@ -10912,11 +11623,12 @@ def test_list_date_length_2_nistxml_sv_iv_list_date_length_3_2(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_length_2_nistxml_sv_iv_list_date_length_3_3(mode, save_output):
+def test_list_date_length_2_nistxml_sv_iv_list_date_length_3_3(mode, save_output, output_format):
     """
     Type list/date is restricted by facet length with value 7.
     """
@@ -10927,11 +11639,12 @@ def test_list_date_length_2_nistxml_sv_iv_list_date_length_3_3(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_length_2_nistxml_sv_iv_list_date_length_3_4(mode, save_output):
+def test_list_date_length_2_nistxml_sv_iv_list_date_length_3_4(mode, save_output, output_format):
     """
     Type list/date is restricted by facet length with value 7.
     """
@@ -10942,11 +11655,12 @@ def test_list_date_length_2_nistxml_sv_iv_list_date_length_3_4(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_length_2_nistxml_sv_iv_list_date_length_3_5(mode, save_output):
+def test_list_date_length_2_nistxml_sv_iv_list_date_length_3_5(mode, save_output, output_format):
     """
     Type list/date is restricted by facet length with value 7.
     """
@@ -10957,11 +11671,12 @@ def test_list_date_length_2_nistxml_sv_iv_list_date_length_3_5(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_length_1_nistxml_sv_iv_list_date_length_2_1(mode, save_output):
+def test_list_date_length_1_nistxml_sv_iv_list_date_length_2_1(mode, save_output, output_format):
     """
     Type list/date is restricted by facet length with value 6.
     """
@@ -10972,11 +11687,12 @@ def test_list_date_length_1_nistxml_sv_iv_list_date_length_2_1(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_length_1_nistxml_sv_iv_list_date_length_2_2(mode, save_output):
+def test_list_date_length_1_nistxml_sv_iv_list_date_length_2_2(mode, save_output, output_format):
     """
     Type list/date is restricted by facet length with value 6.
     """
@@ -10987,11 +11703,12 @@ def test_list_date_length_1_nistxml_sv_iv_list_date_length_2_2(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_length_1_nistxml_sv_iv_list_date_length_2_3(mode, save_output):
+def test_list_date_length_1_nistxml_sv_iv_list_date_length_2_3(mode, save_output, output_format):
     """
     Type list/date is restricted by facet length with value 6.
     """
@@ -11002,11 +11719,12 @@ def test_list_date_length_1_nistxml_sv_iv_list_date_length_2_3(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_length_1_nistxml_sv_iv_list_date_length_2_4(mode, save_output):
+def test_list_date_length_1_nistxml_sv_iv_list_date_length_2_4(mode, save_output, output_format):
     """
     Type list/date is restricted by facet length with value 6.
     """
@@ -11017,11 +11735,12 @@ def test_list_date_length_1_nistxml_sv_iv_list_date_length_2_4(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_length_1_nistxml_sv_iv_list_date_length_2_5(mode, save_output):
+def test_list_date_length_1_nistxml_sv_iv_list_date_length_2_5(mode, save_output, output_format):
     """
     Type list/date is restricted by facet length with value 6.
     """
@@ -11032,11 +11751,12 @@ def test_list_date_length_1_nistxml_sv_iv_list_date_length_2_5(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_length_nistxml_sv_iv_list_date_length_1_1(mode, save_output):
+def test_list_date_length_nistxml_sv_iv_list_date_length_1_1(mode, save_output, output_format):
     """
     Type list/date is restricted by facet length with value 5.
     """
@@ -11047,11 +11767,12 @@ def test_list_date_length_nistxml_sv_iv_list_date_length_1_1(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_length_nistxml_sv_iv_list_date_length_1_2(mode, save_output):
+def test_list_date_length_nistxml_sv_iv_list_date_length_1_2(mode, save_output, output_format):
     """
     Type list/date is restricted by facet length with value 5.
     """
@@ -11062,11 +11783,12 @@ def test_list_date_length_nistxml_sv_iv_list_date_length_1_2(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_length_nistxml_sv_iv_list_date_length_1_3(mode, save_output):
+def test_list_date_length_nistxml_sv_iv_list_date_length_1_3(mode, save_output, output_format):
     """
     Type list/date is restricted by facet length with value 5.
     """
@@ -11077,11 +11799,12 @@ def test_list_date_length_nistxml_sv_iv_list_date_length_1_3(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_length_nistxml_sv_iv_list_date_length_1_4(mode, save_output):
+def test_list_date_length_nistxml_sv_iv_list_date_length_1_4(mode, save_output, output_format):
     """
     Type list/date is restricted by facet length with value 5.
     """
@@ -11092,11 +11815,12 @@ def test_list_date_length_nistxml_sv_iv_list_date_length_1_4(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_length_nistxml_sv_iv_list_date_length_1_5(mode, save_output):
+def test_list_date_length_nistxml_sv_iv_list_date_length_1_5(mode, save_output, output_format):
     """
     Type list/date is restricted by facet length with value 5.
     """
@@ -11107,11 +11831,12 @@ def test_list_date_length_nistxml_sv_iv_list_date_length_1_5(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_min_length_4_nistxml_sv_iv_list_date_min_length_5_1(mode, save_output):
+def test_list_date_min_length_4_nistxml_sv_iv_list_date_min_length_5_1(mode, save_output, output_format):
     """
     Type list/date is restricted by facet minLength with value 10.
     """
@@ -11122,11 +11847,12 @@ def test_list_date_min_length_4_nistxml_sv_iv_list_date_min_length_5_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_min_length_4_nistxml_sv_iv_list_date_min_length_5_2(mode, save_output):
+def test_list_date_min_length_4_nistxml_sv_iv_list_date_min_length_5_2(mode, save_output, output_format):
     """
     Type list/date is restricted by facet minLength with value 10.
     """
@@ -11137,11 +11863,12 @@ def test_list_date_min_length_4_nistxml_sv_iv_list_date_min_length_5_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_min_length_4_nistxml_sv_iv_list_date_min_length_5_3(mode, save_output):
+def test_list_date_min_length_4_nistxml_sv_iv_list_date_min_length_5_3(mode, save_output, output_format):
     """
     Type list/date is restricted by facet minLength with value 10.
     """
@@ -11152,11 +11879,12 @@ def test_list_date_min_length_4_nistxml_sv_iv_list_date_min_length_5_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_min_length_4_nistxml_sv_iv_list_date_min_length_5_4(mode, save_output):
+def test_list_date_min_length_4_nistxml_sv_iv_list_date_min_length_5_4(mode, save_output, output_format):
     """
     Type list/date is restricted by facet minLength with value 10.
     """
@@ -11167,11 +11895,12 @@ def test_list_date_min_length_4_nistxml_sv_iv_list_date_min_length_5_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_min_length_4_nistxml_sv_iv_list_date_min_length_5_5(mode, save_output):
+def test_list_date_min_length_4_nistxml_sv_iv_list_date_min_length_5_5(mode, save_output, output_format):
     """
     Type list/date is restricted by facet minLength with value 10.
     """
@@ -11182,11 +11911,12 @@ def test_list_date_min_length_4_nistxml_sv_iv_list_date_min_length_5_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_min_length_3_nistxml_sv_iv_list_date_min_length_4_1(mode, save_output):
+def test_list_date_min_length_3_nistxml_sv_iv_list_date_min_length_4_1(mode, save_output, output_format):
     """
     Type list/date is restricted by facet minLength with value 8.
     """
@@ -11197,11 +11927,12 @@ def test_list_date_min_length_3_nistxml_sv_iv_list_date_min_length_4_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_min_length_3_nistxml_sv_iv_list_date_min_length_4_2(mode, save_output):
+def test_list_date_min_length_3_nistxml_sv_iv_list_date_min_length_4_2(mode, save_output, output_format):
     """
     Type list/date is restricted by facet minLength with value 8.
     """
@@ -11212,11 +11943,12 @@ def test_list_date_min_length_3_nistxml_sv_iv_list_date_min_length_4_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_min_length_3_nistxml_sv_iv_list_date_min_length_4_3(mode, save_output):
+def test_list_date_min_length_3_nistxml_sv_iv_list_date_min_length_4_3(mode, save_output, output_format):
     """
     Type list/date is restricted by facet minLength with value 8.
     """
@@ -11227,11 +11959,12 @@ def test_list_date_min_length_3_nistxml_sv_iv_list_date_min_length_4_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_min_length_3_nistxml_sv_iv_list_date_min_length_4_4(mode, save_output):
+def test_list_date_min_length_3_nistxml_sv_iv_list_date_min_length_4_4(mode, save_output, output_format):
     """
     Type list/date is restricted by facet minLength with value 8.
     """
@@ -11242,11 +11975,12 @@ def test_list_date_min_length_3_nistxml_sv_iv_list_date_min_length_4_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_min_length_3_nistxml_sv_iv_list_date_min_length_4_5(mode, save_output):
+def test_list_date_min_length_3_nistxml_sv_iv_list_date_min_length_4_5(mode, save_output, output_format):
     """
     Type list/date is restricted by facet minLength with value 8.
     """
@@ -11257,11 +11991,12 @@ def test_list_date_min_length_3_nistxml_sv_iv_list_date_min_length_4_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_min_length_2_nistxml_sv_iv_list_date_min_length_3_1(mode, save_output):
+def test_list_date_min_length_2_nistxml_sv_iv_list_date_min_length_3_1(mode, save_output, output_format):
     """
     Type list/date is restricted by facet minLength with value 7.
     """
@@ -11272,11 +12007,12 @@ def test_list_date_min_length_2_nistxml_sv_iv_list_date_min_length_3_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_min_length_2_nistxml_sv_iv_list_date_min_length_3_2(mode, save_output):
+def test_list_date_min_length_2_nistxml_sv_iv_list_date_min_length_3_2(mode, save_output, output_format):
     """
     Type list/date is restricted by facet minLength with value 7.
     """
@@ -11287,11 +12023,12 @@ def test_list_date_min_length_2_nistxml_sv_iv_list_date_min_length_3_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_min_length_2_nistxml_sv_iv_list_date_min_length_3_3(mode, save_output):
+def test_list_date_min_length_2_nistxml_sv_iv_list_date_min_length_3_3(mode, save_output, output_format):
     """
     Type list/date is restricted by facet minLength with value 7.
     """
@@ -11302,11 +12039,12 @@ def test_list_date_min_length_2_nistxml_sv_iv_list_date_min_length_3_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_min_length_2_nistxml_sv_iv_list_date_min_length_3_4(mode, save_output):
+def test_list_date_min_length_2_nistxml_sv_iv_list_date_min_length_3_4(mode, save_output, output_format):
     """
     Type list/date is restricted by facet minLength with value 7.
     """
@@ -11317,11 +12055,12 @@ def test_list_date_min_length_2_nistxml_sv_iv_list_date_min_length_3_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_min_length_2_nistxml_sv_iv_list_date_min_length_3_5(mode, save_output):
+def test_list_date_min_length_2_nistxml_sv_iv_list_date_min_length_3_5(mode, save_output, output_format):
     """
     Type list/date is restricted by facet minLength with value 7.
     """
@@ -11332,11 +12071,12 @@ def test_list_date_min_length_2_nistxml_sv_iv_list_date_min_length_3_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_min_length_1_nistxml_sv_iv_list_date_min_length_2_1(mode, save_output):
+def test_list_date_min_length_1_nistxml_sv_iv_list_date_min_length_2_1(mode, save_output, output_format):
     """
     Type list/date is restricted by facet minLength with value 6.
     """
@@ -11347,11 +12087,12 @@ def test_list_date_min_length_1_nistxml_sv_iv_list_date_min_length_2_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_min_length_1_nistxml_sv_iv_list_date_min_length_2_2(mode, save_output):
+def test_list_date_min_length_1_nistxml_sv_iv_list_date_min_length_2_2(mode, save_output, output_format):
     """
     Type list/date is restricted by facet minLength with value 6.
     """
@@ -11362,11 +12103,12 @@ def test_list_date_min_length_1_nistxml_sv_iv_list_date_min_length_2_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_min_length_1_nistxml_sv_iv_list_date_min_length_2_3(mode, save_output):
+def test_list_date_min_length_1_nistxml_sv_iv_list_date_min_length_2_3(mode, save_output, output_format):
     """
     Type list/date is restricted by facet minLength with value 6.
     """
@@ -11377,11 +12119,12 @@ def test_list_date_min_length_1_nistxml_sv_iv_list_date_min_length_2_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_min_length_1_nistxml_sv_iv_list_date_min_length_2_4(mode, save_output):
+def test_list_date_min_length_1_nistxml_sv_iv_list_date_min_length_2_4(mode, save_output, output_format):
     """
     Type list/date is restricted by facet minLength with value 6.
     """
@@ -11392,11 +12135,12 @@ def test_list_date_min_length_1_nistxml_sv_iv_list_date_min_length_2_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_min_length_1_nistxml_sv_iv_list_date_min_length_2_5(mode, save_output):
+def test_list_date_min_length_1_nistxml_sv_iv_list_date_min_length_2_5(mode, save_output, output_format):
     """
     Type list/date is restricted by facet minLength with value 6.
     """
@@ -11407,11 +12151,12 @@ def test_list_date_min_length_1_nistxml_sv_iv_list_date_min_length_2_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_min_length_nistxml_sv_iv_list_date_min_length_1_1(mode, save_output):
+def test_list_date_min_length_nistxml_sv_iv_list_date_min_length_1_1(mode, save_output, output_format):
     """
     Type list/date is restricted by facet minLength with value 5.
     """
@@ -11422,11 +12167,12 @@ def test_list_date_min_length_nistxml_sv_iv_list_date_min_length_1_1(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_min_length_nistxml_sv_iv_list_date_min_length_1_2(mode, save_output):
+def test_list_date_min_length_nistxml_sv_iv_list_date_min_length_1_2(mode, save_output, output_format):
     """
     Type list/date is restricted by facet minLength with value 5.
     """
@@ -11437,11 +12183,12 @@ def test_list_date_min_length_nistxml_sv_iv_list_date_min_length_1_2(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_min_length_nistxml_sv_iv_list_date_min_length_1_3(mode, save_output):
+def test_list_date_min_length_nistxml_sv_iv_list_date_min_length_1_3(mode, save_output, output_format):
     """
     Type list/date is restricted by facet minLength with value 5.
     """
@@ -11452,11 +12199,12 @@ def test_list_date_min_length_nistxml_sv_iv_list_date_min_length_1_3(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_min_length_nistxml_sv_iv_list_date_min_length_1_4(mode, save_output):
+def test_list_date_min_length_nistxml_sv_iv_list_date_min_length_1_4(mode, save_output, output_format):
     """
     Type list/date is restricted by facet minLength with value 5.
     """
@@ -11467,11 +12215,12 @@ def test_list_date_min_length_nistxml_sv_iv_list_date_min_length_1_4(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_min_length_nistxml_sv_iv_list_date_min_length_1_5(mode, save_output):
+def test_list_date_min_length_nistxml_sv_iv_list_date_min_length_1_5(mode, save_output, output_format):
     """
     Type list/date is restricted by facet minLength with value 5.
     """
@@ -11482,11 +12231,12 @@ def test_list_date_min_length_nistxml_sv_iv_list_date_min_length_1_5(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_max_length_4_nistxml_sv_iv_list_date_max_length_5_1(mode, save_output):
+def test_list_date_max_length_4_nistxml_sv_iv_list_date_max_length_5_1(mode, save_output, output_format):
     """
     Type list/date is restricted by facet maxLength with value 10.
     """
@@ -11497,11 +12247,12 @@ def test_list_date_max_length_4_nistxml_sv_iv_list_date_max_length_5_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_max_length_4_nistxml_sv_iv_list_date_max_length_5_2(mode, save_output):
+def test_list_date_max_length_4_nistxml_sv_iv_list_date_max_length_5_2(mode, save_output, output_format):
     """
     Type list/date is restricted by facet maxLength with value 10.
     """
@@ -11512,11 +12263,12 @@ def test_list_date_max_length_4_nistxml_sv_iv_list_date_max_length_5_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_max_length_4_nistxml_sv_iv_list_date_max_length_5_3(mode, save_output):
+def test_list_date_max_length_4_nistxml_sv_iv_list_date_max_length_5_3(mode, save_output, output_format):
     """
     Type list/date is restricted by facet maxLength with value 10.
     """
@@ -11527,11 +12279,12 @@ def test_list_date_max_length_4_nistxml_sv_iv_list_date_max_length_5_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_max_length_4_nistxml_sv_iv_list_date_max_length_5_4(mode, save_output):
+def test_list_date_max_length_4_nistxml_sv_iv_list_date_max_length_5_4(mode, save_output, output_format):
     """
     Type list/date is restricted by facet maxLength with value 10.
     """
@@ -11542,11 +12295,12 @@ def test_list_date_max_length_4_nistxml_sv_iv_list_date_max_length_5_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_max_length_4_nistxml_sv_iv_list_date_max_length_5_5(mode, save_output):
+def test_list_date_max_length_4_nistxml_sv_iv_list_date_max_length_5_5(mode, save_output, output_format):
     """
     Type list/date is restricted by facet maxLength with value 10.
     """
@@ -11557,11 +12311,12 @@ def test_list_date_max_length_4_nistxml_sv_iv_list_date_max_length_5_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_max_length_3_nistxml_sv_iv_list_date_max_length_4_1(mode, save_output):
+def test_list_date_max_length_3_nistxml_sv_iv_list_date_max_length_4_1(mode, save_output, output_format):
     """
     Type list/date is restricted by facet maxLength with value 8.
     """
@@ -11572,11 +12327,12 @@ def test_list_date_max_length_3_nistxml_sv_iv_list_date_max_length_4_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_max_length_3_nistxml_sv_iv_list_date_max_length_4_2(mode, save_output):
+def test_list_date_max_length_3_nistxml_sv_iv_list_date_max_length_4_2(mode, save_output, output_format):
     """
     Type list/date is restricted by facet maxLength with value 8.
     """
@@ -11587,11 +12343,12 @@ def test_list_date_max_length_3_nistxml_sv_iv_list_date_max_length_4_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_max_length_3_nistxml_sv_iv_list_date_max_length_4_3(mode, save_output):
+def test_list_date_max_length_3_nistxml_sv_iv_list_date_max_length_4_3(mode, save_output, output_format):
     """
     Type list/date is restricted by facet maxLength with value 8.
     """
@@ -11602,11 +12359,12 @@ def test_list_date_max_length_3_nistxml_sv_iv_list_date_max_length_4_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_max_length_3_nistxml_sv_iv_list_date_max_length_4_4(mode, save_output):
+def test_list_date_max_length_3_nistxml_sv_iv_list_date_max_length_4_4(mode, save_output, output_format):
     """
     Type list/date is restricted by facet maxLength with value 8.
     """
@@ -11617,11 +12375,12 @@ def test_list_date_max_length_3_nistxml_sv_iv_list_date_max_length_4_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_max_length_3_nistxml_sv_iv_list_date_max_length_4_5(mode, save_output):
+def test_list_date_max_length_3_nistxml_sv_iv_list_date_max_length_4_5(mode, save_output, output_format):
     """
     Type list/date is restricted by facet maxLength with value 8.
     """
@@ -11632,11 +12391,12 @@ def test_list_date_max_length_3_nistxml_sv_iv_list_date_max_length_4_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_max_length_2_nistxml_sv_iv_list_date_max_length_3_1(mode, save_output):
+def test_list_date_max_length_2_nistxml_sv_iv_list_date_max_length_3_1(mode, save_output, output_format):
     """
     Type list/date is restricted by facet maxLength with value 7.
     """
@@ -11647,11 +12407,12 @@ def test_list_date_max_length_2_nistxml_sv_iv_list_date_max_length_3_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_max_length_2_nistxml_sv_iv_list_date_max_length_3_2(mode, save_output):
+def test_list_date_max_length_2_nistxml_sv_iv_list_date_max_length_3_2(mode, save_output, output_format):
     """
     Type list/date is restricted by facet maxLength with value 7.
     """
@@ -11662,11 +12423,12 @@ def test_list_date_max_length_2_nistxml_sv_iv_list_date_max_length_3_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_max_length_2_nistxml_sv_iv_list_date_max_length_3_3(mode, save_output):
+def test_list_date_max_length_2_nistxml_sv_iv_list_date_max_length_3_3(mode, save_output, output_format):
     """
     Type list/date is restricted by facet maxLength with value 7.
     """
@@ -11677,11 +12439,12 @@ def test_list_date_max_length_2_nistxml_sv_iv_list_date_max_length_3_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_max_length_2_nistxml_sv_iv_list_date_max_length_3_4(mode, save_output):
+def test_list_date_max_length_2_nistxml_sv_iv_list_date_max_length_3_4(mode, save_output, output_format):
     """
     Type list/date is restricted by facet maxLength with value 7.
     """
@@ -11692,11 +12455,12 @@ def test_list_date_max_length_2_nistxml_sv_iv_list_date_max_length_3_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_max_length_2_nistxml_sv_iv_list_date_max_length_3_5(mode, save_output):
+def test_list_date_max_length_2_nistxml_sv_iv_list_date_max_length_3_5(mode, save_output, output_format):
     """
     Type list/date is restricted by facet maxLength with value 7.
     """
@@ -11707,11 +12471,12 @@ def test_list_date_max_length_2_nistxml_sv_iv_list_date_max_length_3_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_max_length_1_nistxml_sv_iv_list_date_max_length_2_1(mode, save_output):
+def test_list_date_max_length_1_nistxml_sv_iv_list_date_max_length_2_1(mode, save_output, output_format):
     """
     Type list/date is restricted by facet maxLength with value 6.
     """
@@ -11722,11 +12487,12 @@ def test_list_date_max_length_1_nistxml_sv_iv_list_date_max_length_2_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_max_length_1_nistxml_sv_iv_list_date_max_length_2_2(mode, save_output):
+def test_list_date_max_length_1_nistxml_sv_iv_list_date_max_length_2_2(mode, save_output, output_format):
     """
     Type list/date is restricted by facet maxLength with value 6.
     """
@@ -11737,11 +12503,12 @@ def test_list_date_max_length_1_nistxml_sv_iv_list_date_max_length_2_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_max_length_1_nistxml_sv_iv_list_date_max_length_2_3(mode, save_output):
+def test_list_date_max_length_1_nistxml_sv_iv_list_date_max_length_2_3(mode, save_output, output_format):
     """
     Type list/date is restricted by facet maxLength with value 6.
     """
@@ -11752,11 +12519,12 @@ def test_list_date_max_length_1_nistxml_sv_iv_list_date_max_length_2_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_max_length_1_nistxml_sv_iv_list_date_max_length_2_4(mode, save_output):
+def test_list_date_max_length_1_nistxml_sv_iv_list_date_max_length_2_4(mode, save_output, output_format):
     """
     Type list/date is restricted by facet maxLength with value 6.
     """
@@ -11767,11 +12535,12 @@ def test_list_date_max_length_1_nistxml_sv_iv_list_date_max_length_2_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_max_length_1_nistxml_sv_iv_list_date_max_length_2_5(mode, save_output):
+def test_list_date_max_length_1_nistxml_sv_iv_list_date_max_length_2_5(mode, save_output, output_format):
     """
     Type list/date is restricted by facet maxLength with value 6.
     """
@@ -11782,11 +12551,12 @@ def test_list_date_max_length_1_nistxml_sv_iv_list_date_max_length_2_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_max_length_nistxml_sv_iv_list_date_max_length_1_1(mode, save_output):
+def test_list_date_max_length_nistxml_sv_iv_list_date_max_length_1_1(mode, save_output, output_format):
     """
     Type list/date is restricted by facet maxLength with value 5.
     """
@@ -11797,11 +12567,12 @@ def test_list_date_max_length_nistxml_sv_iv_list_date_max_length_1_1(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_max_length_nistxml_sv_iv_list_date_max_length_1_2(mode, save_output):
+def test_list_date_max_length_nistxml_sv_iv_list_date_max_length_1_2(mode, save_output, output_format):
     """
     Type list/date is restricted by facet maxLength with value 5.
     """
@@ -11812,11 +12583,12 @@ def test_list_date_max_length_nistxml_sv_iv_list_date_max_length_1_2(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_max_length_nistxml_sv_iv_list_date_max_length_1_3(mode, save_output):
+def test_list_date_max_length_nistxml_sv_iv_list_date_max_length_1_3(mode, save_output, output_format):
     """
     Type list/date is restricted by facet maxLength with value 5.
     """
@@ -11827,11 +12599,12 @@ def test_list_date_max_length_nistxml_sv_iv_list_date_max_length_1_3(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_max_length_nistxml_sv_iv_list_date_max_length_1_4(mode, save_output):
+def test_list_date_max_length_nistxml_sv_iv_list_date_max_length_1_4(mode, save_output, output_format):
     """
     Type list/date is restricted by facet maxLength with value 5.
     """
@@ -11842,11 +12615,12 @@ def test_list_date_max_length_nistxml_sv_iv_list_date_max_length_1_4(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_max_length_nistxml_sv_iv_list_date_max_length_1_5(mode, save_output):
+def test_list_date_max_length_nistxml_sv_iv_list_date_max_length_1_5(mode, save_output, output_format):
     """
     Type list/date is restricted by facet maxLength with value 5.
     """
@@ -11857,11 +12631,12 @@ def test_list_date_max_length_nistxml_sv_iv_list_date_max_length_1_5(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_white_space_nistxml_sv_iv_list_time_white_space_1_1(mode, save_output):
+def test_list_time_white_space_nistxml_sv_iv_list_time_white_space_1_1(mode, save_output, output_format):
     """
     Type list/time is restricted by facet whiteSpace with value collapse.
     """
@@ -11872,11 +12647,12 @@ def test_list_time_white_space_nistxml_sv_iv_list_time_white_space_1_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_white_space_nistxml_sv_iv_list_time_white_space_1_2(mode, save_output):
+def test_list_time_white_space_nistxml_sv_iv_list_time_white_space_1_2(mode, save_output, output_format):
     """
     Type list/time is restricted by facet whiteSpace with value collapse.
     """
@@ -11887,11 +12663,12 @@ def test_list_time_white_space_nistxml_sv_iv_list_time_white_space_1_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_white_space_nistxml_sv_iv_list_time_white_space_1_3(mode, save_output):
+def test_list_time_white_space_nistxml_sv_iv_list_time_white_space_1_3(mode, save_output, output_format):
     """
     Type list/time is restricted by facet whiteSpace with value collapse.
     """
@@ -11902,11 +12679,12 @@ def test_list_time_white_space_nistxml_sv_iv_list_time_white_space_1_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_white_space_nistxml_sv_iv_list_time_white_space_1_4(mode, save_output):
+def test_list_time_white_space_nistxml_sv_iv_list_time_white_space_1_4(mode, save_output, output_format):
     """
     Type list/time is restricted by facet whiteSpace with value collapse.
     """
@@ -11917,11 +12695,12 @@ def test_list_time_white_space_nistxml_sv_iv_list_time_white_space_1_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_white_space_nistxml_sv_iv_list_time_white_space_1_5(mode, save_output):
+def test_list_time_white_space_nistxml_sv_iv_list_time_white_space_1_5(mode, save_output, output_format):
     """
     Type list/time is restricted by facet whiteSpace with value collapse.
     """
@@ -11932,11 +12711,12 @@ def test_list_time_white_space_nistxml_sv_iv_list_time_white_space_1_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_enumeration_4_nistxml_sv_iv_list_time_enumeration_5_1(mode, save_output):
+def test_list_time_enumeration_4_nistxml_sv_iv_list_time_enumeration_5_1(mode, save_output, output_format):
     """
     Type list/time is restricted by facet enumeration.
     """
@@ -11947,11 +12727,12 @@ def test_list_time_enumeration_4_nistxml_sv_iv_list_time_enumeration_5_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_enumeration_4_nistxml_sv_iv_list_time_enumeration_5_2(mode, save_output):
+def test_list_time_enumeration_4_nistxml_sv_iv_list_time_enumeration_5_2(mode, save_output, output_format):
     """
     Type list/time is restricted by facet enumeration.
     """
@@ -11962,11 +12743,12 @@ def test_list_time_enumeration_4_nistxml_sv_iv_list_time_enumeration_5_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_enumeration_4_nistxml_sv_iv_list_time_enumeration_5_3(mode, save_output):
+def test_list_time_enumeration_4_nistxml_sv_iv_list_time_enumeration_5_3(mode, save_output, output_format):
     """
     Type list/time is restricted by facet enumeration.
     """
@@ -11977,11 +12759,12 @@ def test_list_time_enumeration_4_nistxml_sv_iv_list_time_enumeration_5_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_enumeration_4_nistxml_sv_iv_list_time_enumeration_5_4(mode, save_output):
+def test_list_time_enumeration_4_nistxml_sv_iv_list_time_enumeration_5_4(mode, save_output, output_format):
     """
     Type list/time is restricted by facet enumeration.
     """
@@ -11992,11 +12775,12 @@ def test_list_time_enumeration_4_nistxml_sv_iv_list_time_enumeration_5_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_enumeration_4_nistxml_sv_iv_list_time_enumeration_5_5(mode, save_output):
+def test_list_time_enumeration_4_nistxml_sv_iv_list_time_enumeration_5_5(mode, save_output, output_format):
     """
     Type list/time is restricted by facet enumeration.
     """
@@ -12007,11 +12791,12 @@ def test_list_time_enumeration_4_nistxml_sv_iv_list_time_enumeration_5_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_enumeration_3_nistxml_sv_iv_list_time_enumeration_4_1(mode, save_output):
+def test_list_time_enumeration_3_nistxml_sv_iv_list_time_enumeration_4_1(mode, save_output, output_format):
     """
     Type list/time is restricted by facet enumeration.
     """
@@ -12022,11 +12807,12 @@ def test_list_time_enumeration_3_nistxml_sv_iv_list_time_enumeration_4_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_enumeration_3_nistxml_sv_iv_list_time_enumeration_4_2(mode, save_output):
+def test_list_time_enumeration_3_nistxml_sv_iv_list_time_enumeration_4_2(mode, save_output, output_format):
     """
     Type list/time is restricted by facet enumeration.
     """
@@ -12037,11 +12823,12 @@ def test_list_time_enumeration_3_nistxml_sv_iv_list_time_enumeration_4_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_enumeration_3_nistxml_sv_iv_list_time_enumeration_4_3(mode, save_output):
+def test_list_time_enumeration_3_nistxml_sv_iv_list_time_enumeration_4_3(mode, save_output, output_format):
     """
     Type list/time is restricted by facet enumeration.
     """
@@ -12052,11 +12839,12 @@ def test_list_time_enumeration_3_nistxml_sv_iv_list_time_enumeration_4_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_enumeration_3_nistxml_sv_iv_list_time_enumeration_4_4(mode, save_output):
+def test_list_time_enumeration_3_nistxml_sv_iv_list_time_enumeration_4_4(mode, save_output, output_format):
     """
     Type list/time is restricted by facet enumeration.
     """
@@ -12067,11 +12855,12 @@ def test_list_time_enumeration_3_nistxml_sv_iv_list_time_enumeration_4_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_enumeration_3_nistxml_sv_iv_list_time_enumeration_4_5(mode, save_output):
+def test_list_time_enumeration_3_nistxml_sv_iv_list_time_enumeration_4_5(mode, save_output, output_format):
     """
     Type list/time is restricted by facet enumeration.
     """
@@ -12082,11 +12871,12 @@ def test_list_time_enumeration_3_nistxml_sv_iv_list_time_enumeration_4_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_enumeration_2_nistxml_sv_iv_list_time_enumeration_3_1(mode, save_output):
+def test_list_time_enumeration_2_nistxml_sv_iv_list_time_enumeration_3_1(mode, save_output, output_format):
     """
     Type list/time is restricted by facet enumeration.
     """
@@ -12097,11 +12887,12 @@ def test_list_time_enumeration_2_nistxml_sv_iv_list_time_enumeration_3_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_enumeration_2_nistxml_sv_iv_list_time_enumeration_3_2(mode, save_output):
+def test_list_time_enumeration_2_nistxml_sv_iv_list_time_enumeration_3_2(mode, save_output, output_format):
     """
     Type list/time is restricted by facet enumeration.
     """
@@ -12112,11 +12903,12 @@ def test_list_time_enumeration_2_nistxml_sv_iv_list_time_enumeration_3_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_enumeration_2_nistxml_sv_iv_list_time_enumeration_3_3(mode, save_output):
+def test_list_time_enumeration_2_nistxml_sv_iv_list_time_enumeration_3_3(mode, save_output, output_format):
     """
     Type list/time is restricted by facet enumeration.
     """
@@ -12127,11 +12919,12 @@ def test_list_time_enumeration_2_nistxml_sv_iv_list_time_enumeration_3_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_enumeration_2_nistxml_sv_iv_list_time_enumeration_3_4(mode, save_output):
+def test_list_time_enumeration_2_nistxml_sv_iv_list_time_enumeration_3_4(mode, save_output, output_format):
     """
     Type list/time is restricted by facet enumeration.
     """
@@ -12142,11 +12935,12 @@ def test_list_time_enumeration_2_nistxml_sv_iv_list_time_enumeration_3_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_enumeration_2_nistxml_sv_iv_list_time_enumeration_3_5(mode, save_output):
+def test_list_time_enumeration_2_nistxml_sv_iv_list_time_enumeration_3_5(mode, save_output, output_format):
     """
     Type list/time is restricted by facet enumeration.
     """
@@ -12157,11 +12951,12 @@ def test_list_time_enumeration_2_nistxml_sv_iv_list_time_enumeration_3_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_enumeration_1_nistxml_sv_iv_list_time_enumeration_2_1(mode, save_output):
+def test_list_time_enumeration_1_nistxml_sv_iv_list_time_enumeration_2_1(mode, save_output, output_format):
     """
     Type list/time is restricted by facet enumeration.
     """
@@ -12172,11 +12967,12 @@ def test_list_time_enumeration_1_nistxml_sv_iv_list_time_enumeration_2_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_enumeration_1_nistxml_sv_iv_list_time_enumeration_2_2(mode, save_output):
+def test_list_time_enumeration_1_nistxml_sv_iv_list_time_enumeration_2_2(mode, save_output, output_format):
     """
     Type list/time is restricted by facet enumeration.
     """
@@ -12187,11 +12983,12 @@ def test_list_time_enumeration_1_nistxml_sv_iv_list_time_enumeration_2_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_enumeration_1_nistxml_sv_iv_list_time_enumeration_2_3(mode, save_output):
+def test_list_time_enumeration_1_nistxml_sv_iv_list_time_enumeration_2_3(mode, save_output, output_format):
     """
     Type list/time is restricted by facet enumeration.
     """
@@ -12202,11 +12999,12 @@ def test_list_time_enumeration_1_nistxml_sv_iv_list_time_enumeration_2_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_enumeration_1_nistxml_sv_iv_list_time_enumeration_2_4(mode, save_output):
+def test_list_time_enumeration_1_nistxml_sv_iv_list_time_enumeration_2_4(mode, save_output, output_format):
     """
     Type list/time is restricted by facet enumeration.
     """
@@ -12217,11 +13015,12 @@ def test_list_time_enumeration_1_nistxml_sv_iv_list_time_enumeration_2_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_enumeration_1_nistxml_sv_iv_list_time_enumeration_2_5(mode, save_output):
+def test_list_time_enumeration_1_nistxml_sv_iv_list_time_enumeration_2_5(mode, save_output, output_format):
     """
     Type list/time is restricted by facet enumeration.
     """
@@ -12232,11 +13031,12 @@ def test_list_time_enumeration_1_nistxml_sv_iv_list_time_enumeration_2_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_enumeration_nistxml_sv_iv_list_time_enumeration_1_1(mode, save_output):
+def test_list_time_enumeration_nistxml_sv_iv_list_time_enumeration_1_1(mode, save_output, output_format):
     """
     Type list/time is restricted by facet enumeration.
     """
@@ -12247,11 +13047,12 @@ def test_list_time_enumeration_nistxml_sv_iv_list_time_enumeration_1_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_enumeration_nistxml_sv_iv_list_time_enumeration_1_2(mode, save_output):
+def test_list_time_enumeration_nistxml_sv_iv_list_time_enumeration_1_2(mode, save_output, output_format):
     """
     Type list/time is restricted by facet enumeration.
     """
@@ -12262,11 +13063,12 @@ def test_list_time_enumeration_nistxml_sv_iv_list_time_enumeration_1_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_enumeration_nistxml_sv_iv_list_time_enumeration_1_3(mode, save_output):
+def test_list_time_enumeration_nistxml_sv_iv_list_time_enumeration_1_3(mode, save_output, output_format):
     """
     Type list/time is restricted by facet enumeration.
     """
@@ -12277,11 +13079,12 @@ def test_list_time_enumeration_nistxml_sv_iv_list_time_enumeration_1_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_enumeration_nistxml_sv_iv_list_time_enumeration_1_4(mode, save_output):
+def test_list_time_enumeration_nistxml_sv_iv_list_time_enumeration_1_4(mode, save_output, output_format):
     """
     Type list/time is restricted by facet enumeration.
     """
@@ -12292,11 +13095,12 @@ def test_list_time_enumeration_nistxml_sv_iv_list_time_enumeration_1_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_enumeration_nistxml_sv_iv_list_time_enumeration_1_5(mode, save_output):
+def test_list_time_enumeration_nistxml_sv_iv_list_time_enumeration_1_5(mode, save_output, output_format):
     """
     Type list/time is restricted by facet enumeration.
     """
@@ -12307,11 +13111,12 @@ def test_list_time_enumeration_nistxml_sv_iv_list_time_enumeration_1_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_pattern_4_nistxml_sv_iv_list_time_pattern_5_1(mode, save_output):
+def test_list_time_pattern_4_nistxml_sv_iv_list_time_pattern_5_1(mode, save_output, output_format):
     r"""
     Type list/time is restricted by facet pattern with value \d2:\d8:3\d
     1\d:\d7:\d5 1\d:\d4:0\d \d3:\d9:4\d \d4:4\d:3\d.
@@ -12323,11 +13128,12 @@ def test_list_time_pattern_4_nistxml_sv_iv_list_time_pattern_5_1(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_pattern_4_nistxml_sv_iv_list_time_pattern_5_2(mode, save_output):
+def test_list_time_pattern_4_nistxml_sv_iv_list_time_pattern_5_2(mode, save_output, output_format):
     r"""
     Type list/time is restricted by facet pattern with value \d2:\d8:3\d
     1\d:\d7:\d5 1\d:\d4:0\d \d3:\d9:4\d \d4:4\d:3\d.
@@ -12339,11 +13145,12 @@ def test_list_time_pattern_4_nistxml_sv_iv_list_time_pattern_5_2(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_pattern_4_nistxml_sv_iv_list_time_pattern_5_3(mode, save_output):
+def test_list_time_pattern_4_nistxml_sv_iv_list_time_pattern_5_3(mode, save_output, output_format):
     r"""
     Type list/time is restricted by facet pattern with value \d2:\d8:3\d
     1\d:\d7:\d5 1\d:\d4:0\d \d3:\d9:4\d \d4:4\d:3\d.
@@ -12355,11 +13162,12 @@ def test_list_time_pattern_4_nistxml_sv_iv_list_time_pattern_5_3(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_pattern_4_nistxml_sv_iv_list_time_pattern_5_4(mode, save_output):
+def test_list_time_pattern_4_nistxml_sv_iv_list_time_pattern_5_4(mode, save_output, output_format):
     r"""
     Type list/time is restricted by facet pattern with value \d2:\d8:3\d
     1\d:\d7:\d5 1\d:\d4:0\d \d3:\d9:4\d \d4:4\d:3\d.
@@ -12371,11 +13179,12 @@ def test_list_time_pattern_4_nistxml_sv_iv_list_time_pattern_5_4(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_pattern_4_nistxml_sv_iv_list_time_pattern_5_5(mode, save_output):
+def test_list_time_pattern_4_nistxml_sv_iv_list_time_pattern_5_5(mode, save_output, output_format):
     r"""
     Type list/time is restricted by facet pattern with value \d2:\d8:3\d
     1\d:\d7:\d5 1\d:\d4:0\d \d3:\d9:4\d \d4:4\d:3\d.
@@ -12387,11 +13196,12 @@ def test_list_time_pattern_4_nistxml_sv_iv_list_time_pattern_5_5(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_pattern_3_nistxml_sv_iv_list_time_pattern_4_1(mode, save_output):
+def test_list_time_pattern_3_nistxml_sv_iv_list_time_pattern_4_1(mode, save_output, output_format):
     r"""
     Type list/time is restricted by facet pattern with value \d8:0\d:0\d
     0\d:2\d:2\d \d0:\d8:2\d 0\d:0\d:\d6 \d1:\d0:\d5.
@@ -12403,11 +13213,12 @@ def test_list_time_pattern_3_nistxml_sv_iv_list_time_pattern_4_1(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_pattern_3_nistxml_sv_iv_list_time_pattern_4_2(mode, save_output):
+def test_list_time_pattern_3_nistxml_sv_iv_list_time_pattern_4_2(mode, save_output, output_format):
     r"""
     Type list/time is restricted by facet pattern with value \d8:0\d:0\d
     0\d:2\d:2\d \d0:\d8:2\d 0\d:0\d:\d6 \d1:\d0:\d5.
@@ -12419,11 +13230,12 @@ def test_list_time_pattern_3_nistxml_sv_iv_list_time_pattern_4_2(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_pattern_3_nistxml_sv_iv_list_time_pattern_4_3(mode, save_output):
+def test_list_time_pattern_3_nistxml_sv_iv_list_time_pattern_4_3(mode, save_output, output_format):
     r"""
     Type list/time is restricted by facet pattern with value \d8:0\d:0\d
     0\d:2\d:2\d \d0:\d8:2\d 0\d:0\d:\d6 \d1:\d0:\d5.
@@ -12435,11 +13247,12 @@ def test_list_time_pattern_3_nistxml_sv_iv_list_time_pattern_4_3(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_pattern_3_nistxml_sv_iv_list_time_pattern_4_4(mode, save_output):
+def test_list_time_pattern_3_nistxml_sv_iv_list_time_pattern_4_4(mode, save_output, output_format):
     r"""
     Type list/time is restricted by facet pattern with value \d8:0\d:0\d
     0\d:2\d:2\d \d0:\d8:2\d 0\d:0\d:\d6 \d1:\d0:\d5.
@@ -12451,11 +13264,12 @@ def test_list_time_pattern_3_nistxml_sv_iv_list_time_pattern_4_4(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_pattern_3_nistxml_sv_iv_list_time_pattern_4_5(mode, save_output):
+def test_list_time_pattern_3_nistxml_sv_iv_list_time_pattern_4_5(mode, save_output, output_format):
     r"""
     Type list/time is restricted by facet pattern with value \d8:0\d:0\d
     0\d:2\d:2\d \d0:\d8:2\d 0\d:0\d:\d6 \d1:\d0:\d5.
@@ -12467,11 +13281,12 @@ def test_list_time_pattern_3_nistxml_sv_iv_list_time_pattern_4_5(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_pattern_2_nistxml_sv_iv_list_time_pattern_3_1(mode, save_output):
+def test_list_time_pattern_2_nistxml_sv_iv_list_time_pattern_3_1(mode, save_output, output_format):
     r"""
     Type list/time is restricted by facet pattern with value \d4:4\d:\d8
     \d4:2\d:2\d 0\d:4\d:3\d \d3:\d4:1\d 1\d:\d8:5\d \d2:\d3:4\d
@@ -12484,11 +13299,12 @@ def test_list_time_pattern_2_nistxml_sv_iv_list_time_pattern_3_1(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_pattern_2_nistxml_sv_iv_list_time_pattern_3_2(mode, save_output):
+def test_list_time_pattern_2_nistxml_sv_iv_list_time_pattern_3_2(mode, save_output, output_format):
     r"""
     Type list/time is restricted by facet pattern with value \d4:4\d:\d8
     \d4:2\d:2\d 0\d:4\d:3\d \d3:\d4:1\d 1\d:\d8:5\d \d2:\d3:4\d
@@ -12501,11 +13317,12 @@ def test_list_time_pattern_2_nistxml_sv_iv_list_time_pattern_3_2(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_pattern_2_nistxml_sv_iv_list_time_pattern_3_3(mode, save_output):
+def test_list_time_pattern_2_nistxml_sv_iv_list_time_pattern_3_3(mode, save_output, output_format):
     r"""
     Type list/time is restricted by facet pattern with value \d4:4\d:\d8
     \d4:2\d:2\d 0\d:4\d:3\d \d3:\d4:1\d 1\d:\d8:5\d \d2:\d3:4\d
@@ -12518,11 +13335,12 @@ def test_list_time_pattern_2_nistxml_sv_iv_list_time_pattern_3_3(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_pattern_2_nistxml_sv_iv_list_time_pattern_3_4(mode, save_output):
+def test_list_time_pattern_2_nistxml_sv_iv_list_time_pattern_3_4(mode, save_output, output_format):
     r"""
     Type list/time is restricted by facet pattern with value \d4:4\d:\d8
     \d4:2\d:2\d 0\d:4\d:3\d \d3:\d4:1\d 1\d:\d8:5\d \d2:\d3:4\d
@@ -12535,11 +13353,12 @@ def test_list_time_pattern_2_nistxml_sv_iv_list_time_pattern_3_4(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_pattern_2_nistxml_sv_iv_list_time_pattern_3_5(mode, save_output):
+def test_list_time_pattern_2_nistxml_sv_iv_list_time_pattern_3_5(mode, save_output, output_format):
     r"""
     Type list/time is restricted by facet pattern with value \d4:4\d:\d8
     \d4:2\d:2\d 0\d:4\d:3\d \d3:\d4:1\d 1\d:\d8:5\d \d2:\d3:4\d
@@ -12552,11 +13371,12 @@ def test_list_time_pattern_2_nistxml_sv_iv_list_time_pattern_3_5(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_pattern_1_nistxml_sv_iv_list_time_pattern_2_1(mode, save_output):
+def test_list_time_pattern_1_nistxml_sv_iv_list_time_pattern_2_1(mode, save_output, output_format):
     r"""
     Type list/time is restricted by facet pattern with value 0\d:3\d:\d1
     1\d:1\d:1\d \d5:\d6:5\d 0\d:\d2:0\d \d7:4\d:0\d 1\d:2\d:5\d
@@ -12569,11 +13389,12 @@ def test_list_time_pattern_1_nistxml_sv_iv_list_time_pattern_2_1(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_pattern_1_nistxml_sv_iv_list_time_pattern_2_2(mode, save_output):
+def test_list_time_pattern_1_nistxml_sv_iv_list_time_pattern_2_2(mode, save_output, output_format):
     r"""
     Type list/time is restricted by facet pattern with value 0\d:3\d:\d1
     1\d:1\d:1\d \d5:\d6:5\d 0\d:\d2:0\d \d7:4\d:0\d 1\d:2\d:5\d
@@ -12586,11 +13407,12 @@ def test_list_time_pattern_1_nistxml_sv_iv_list_time_pattern_2_2(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_pattern_1_nistxml_sv_iv_list_time_pattern_2_3(mode, save_output):
+def test_list_time_pattern_1_nistxml_sv_iv_list_time_pattern_2_3(mode, save_output, output_format):
     r"""
     Type list/time is restricted by facet pattern with value 0\d:3\d:\d1
     1\d:1\d:1\d \d5:\d6:5\d 0\d:\d2:0\d \d7:4\d:0\d 1\d:2\d:5\d
@@ -12603,11 +13425,12 @@ def test_list_time_pattern_1_nistxml_sv_iv_list_time_pattern_2_3(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_pattern_1_nistxml_sv_iv_list_time_pattern_2_4(mode, save_output):
+def test_list_time_pattern_1_nistxml_sv_iv_list_time_pattern_2_4(mode, save_output, output_format):
     r"""
     Type list/time is restricted by facet pattern with value 0\d:3\d:\d1
     1\d:1\d:1\d \d5:\d6:5\d 0\d:\d2:0\d \d7:4\d:0\d 1\d:2\d:5\d
@@ -12620,11 +13443,12 @@ def test_list_time_pattern_1_nistxml_sv_iv_list_time_pattern_2_4(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_pattern_1_nistxml_sv_iv_list_time_pattern_2_5(mode, save_output):
+def test_list_time_pattern_1_nistxml_sv_iv_list_time_pattern_2_5(mode, save_output, output_format):
     r"""
     Type list/time is restricted by facet pattern with value 0\d:3\d:\d1
     1\d:1\d:1\d \d5:\d6:5\d 0\d:\d2:0\d \d7:4\d:0\d 1\d:2\d:5\d
@@ -12637,11 +13461,12 @@ def test_list_time_pattern_1_nistxml_sv_iv_list_time_pattern_2_5(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_pattern_nistxml_sv_iv_list_time_pattern_1_1(mode, save_output):
+def test_list_time_pattern_nistxml_sv_iv_list_time_pattern_1_1(mode, save_output, output_format):
     r"""
     Type list/time is restricted by facet pattern with value 1\d:\d3:\d2
     \d2:0\d:4\d \d5:\d1:\d8 \d7:0\d:0\d 0\d:1\d:5\d \d4:0\d:\d6.
@@ -12653,11 +13478,12 @@ def test_list_time_pattern_nistxml_sv_iv_list_time_pattern_1_1(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_pattern_nistxml_sv_iv_list_time_pattern_1_2(mode, save_output):
+def test_list_time_pattern_nistxml_sv_iv_list_time_pattern_1_2(mode, save_output, output_format):
     r"""
     Type list/time is restricted by facet pattern with value 1\d:\d3:\d2
     \d2:0\d:4\d \d5:\d1:\d8 \d7:0\d:0\d 0\d:1\d:5\d \d4:0\d:\d6.
@@ -12669,11 +13495,12 @@ def test_list_time_pattern_nistxml_sv_iv_list_time_pattern_1_2(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_pattern_nistxml_sv_iv_list_time_pattern_1_3(mode, save_output):
+def test_list_time_pattern_nistxml_sv_iv_list_time_pattern_1_3(mode, save_output, output_format):
     r"""
     Type list/time is restricted by facet pattern with value 1\d:\d3:\d2
     \d2:0\d:4\d \d5:\d1:\d8 \d7:0\d:0\d 0\d:1\d:5\d \d4:0\d:\d6.
@@ -12685,11 +13512,12 @@ def test_list_time_pattern_nistxml_sv_iv_list_time_pattern_1_3(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_pattern_nistxml_sv_iv_list_time_pattern_1_4(mode, save_output):
+def test_list_time_pattern_nistxml_sv_iv_list_time_pattern_1_4(mode, save_output, output_format):
     r"""
     Type list/time is restricted by facet pattern with value 1\d:\d3:\d2
     \d2:0\d:4\d \d5:\d1:\d8 \d7:0\d:0\d 0\d:1\d:5\d \d4:0\d:\d6.
@@ -12701,11 +13529,12 @@ def test_list_time_pattern_nistxml_sv_iv_list_time_pattern_1_4(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_pattern_nistxml_sv_iv_list_time_pattern_1_5(mode, save_output):
+def test_list_time_pattern_nistxml_sv_iv_list_time_pattern_1_5(mode, save_output, output_format):
     r"""
     Type list/time is restricted by facet pattern with value 1\d:\d3:\d2
     \d2:0\d:4\d \d5:\d1:\d8 \d7:0\d:0\d 0\d:1\d:5\d \d4:0\d:\d6.
@@ -12717,11 +13546,12 @@ def test_list_time_pattern_nistxml_sv_iv_list_time_pattern_1_5(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_length_4_nistxml_sv_iv_list_time_length_5_1(mode, save_output):
+def test_list_time_length_4_nistxml_sv_iv_list_time_length_5_1(mode, save_output, output_format):
     """
     Type list/time is restricted by facet length with value 10.
     """
@@ -12732,11 +13562,12 @@ def test_list_time_length_4_nistxml_sv_iv_list_time_length_5_1(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_length_4_nistxml_sv_iv_list_time_length_5_2(mode, save_output):
+def test_list_time_length_4_nistxml_sv_iv_list_time_length_5_2(mode, save_output, output_format):
     """
     Type list/time is restricted by facet length with value 10.
     """
@@ -12747,11 +13578,12 @@ def test_list_time_length_4_nistxml_sv_iv_list_time_length_5_2(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_length_4_nistxml_sv_iv_list_time_length_5_3(mode, save_output):
+def test_list_time_length_4_nistxml_sv_iv_list_time_length_5_3(mode, save_output, output_format):
     """
     Type list/time is restricted by facet length with value 10.
     """
@@ -12762,11 +13594,12 @@ def test_list_time_length_4_nistxml_sv_iv_list_time_length_5_3(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_length_4_nistxml_sv_iv_list_time_length_5_4(mode, save_output):
+def test_list_time_length_4_nistxml_sv_iv_list_time_length_5_4(mode, save_output, output_format):
     """
     Type list/time is restricted by facet length with value 10.
     """
@@ -12777,11 +13610,12 @@ def test_list_time_length_4_nistxml_sv_iv_list_time_length_5_4(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_length_4_nistxml_sv_iv_list_time_length_5_5(mode, save_output):
+def test_list_time_length_4_nistxml_sv_iv_list_time_length_5_5(mode, save_output, output_format):
     """
     Type list/time is restricted by facet length with value 10.
     """
@@ -12792,11 +13626,12 @@ def test_list_time_length_4_nistxml_sv_iv_list_time_length_5_5(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_length_3_nistxml_sv_iv_list_time_length_4_1(mode, save_output):
+def test_list_time_length_3_nistxml_sv_iv_list_time_length_4_1(mode, save_output, output_format):
     """
     Type list/time is restricted by facet length with value 8.
     """
@@ -12807,11 +13642,12 @@ def test_list_time_length_3_nistxml_sv_iv_list_time_length_4_1(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_length_3_nistxml_sv_iv_list_time_length_4_2(mode, save_output):
+def test_list_time_length_3_nistxml_sv_iv_list_time_length_4_2(mode, save_output, output_format):
     """
     Type list/time is restricted by facet length with value 8.
     """
@@ -12822,11 +13658,12 @@ def test_list_time_length_3_nistxml_sv_iv_list_time_length_4_2(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_length_3_nistxml_sv_iv_list_time_length_4_3(mode, save_output):
+def test_list_time_length_3_nistxml_sv_iv_list_time_length_4_3(mode, save_output, output_format):
     """
     Type list/time is restricted by facet length with value 8.
     """
@@ -12837,11 +13674,12 @@ def test_list_time_length_3_nistxml_sv_iv_list_time_length_4_3(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_length_3_nistxml_sv_iv_list_time_length_4_4(mode, save_output):
+def test_list_time_length_3_nistxml_sv_iv_list_time_length_4_4(mode, save_output, output_format):
     """
     Type list/time is restricted by facet length with value 8.
     """
@@ -12852,11 +13690,12 @@ def test_list_time_length_3_nistxml_sv_iv_list_time_length_4_4(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_length_3_nistxml_sv_iv_list_time_length_4_5(mode, save_output):
+def test_list_time_length_3_nistxml_sv_iv_list_time_length_4_5(mode, save_output, output_format):
     """
     Type list/time is restricted by facet length with value 8.
     """
@@ -12867,11 +13706,12 @@ def test_list_time_length_3_nistxml_sv_iv_list_time_length_4_5(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_length_2_nistxml_sv_iv_list_time_length_3_1(mode, save_output):
+def test_list_time_length_2_nistxml_sv_iv_list_time_length_3_1(mode, save_output, output_format):
     """
     Type list/time is restricted by facet length with value 7.
     """
@@ -12882,11 +13722,12 @@ def test_list_time_length_2_nistxml_sv_iv_list_time_length_3_1(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_length_2_nistxml_sv_iv_list_time_length_3_2(mode, save_output):
+def test_list_time_length_2_nistxml_sv_iv_list_time_length_3_2(mode, save_output, output_format):
     """
     Type list/time is restricted by facet length with value 7.
     """
@@ -12897,11 +13738,12 @@ def test_list_time_length_2_nistxml_sv_iv_list_time_length_3_2(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_length_2_nistxml_sv_iv_list_time_length_3_3(mode, save_output):
+def test_list_time_length_2_nistxml_sv_iv_list_time_length_3_3(mode, save_output, output_format):
     """
     Type list/time is restricted by facet length with value 7.
     """
@@ -12912,11 +13754,12 @@ def test_list_time_length_2_nistxml_sv_iv_list_time_length_3_3(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_length_2_nistxml_sv_iv_list_time_length_3_4(mode, save_output):
+def test_list_time_length_2_nistxml_sv_iv_list_time_length_3_4(mode, save_output, output_format):
     """
     Type list/time is restricted by facet length with value 7.
     """
@@ -12927,11 +13770,12 @@ def test_list_time_length_2_nistxml_sv_iv_list_time_length_3_4(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_length_2_nistxml_sv_iv_list_time_length_3_5(mode, save_output):
+def test_list_time_length_2_nistxml_sv_iv_list_time_length_3_5(mode, save_output, output_format):
     """
     Type list/time is restricted by facet length with value 7.
     """
@@ -12942,11 +13786,12 @@ def test_list_time_length_2_nistxml_sv_iv_list_time_length_3_5(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_length_1_nistxml_sv_iv_list_time_length_2_1(mode, save_output):
+def test_list_time_length_1_nistxml_sv_iv_list_time_length_2_1(mode, save_output, output_format):
     """
     Type list/time is restricted by facet length with value 6.
     """
@@ -12957,11 +13802,12 @@ def test_list_time_length_1_nistxml_sv_iv_list_time_length_2_1(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_length_1_nistxml_sv_iv_list_time_length_2_2(mode, save_output):
+def test_list_time_length_1_nistxml_sv_iv_list_time_length_2_2(mode, save_output, output_format):
     """
     Type list/time is restricted by facet length with value 6.
     """
@@ -12972,11 +13818,12 @@ def test_list_time_length_1_nistxml_sv_iv_list_time_length_2_2(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_length_1_nistxml_sv_iv_list_time_length_2_3(mode, save_output):
+def test_list_time_length_1_nistxml_sv_iv_list_time_length_2_3(mode, save_output, output_format):
     """
     Type list/time is restricted by facet length with value 6.
     """
@@ -12987,11 +13834,12 @@ def test_list_time_length_1_nistxml_sv_iv_list_time_length_2_3(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_length_1_nistxml_sv_iv_list_time_length_2_4(mode, save_output):
+def test_list_time_length_1_nistxml_sv_iv_list_time_length_2_4(mode, save_output, output_format):
     """
     Type list/time is restricted by facet length with value 6.
     """
@@ -13002,11 +13850,12 @@ def test_list_time_length_1_nistxml_sv_iv_list_time_length_2_4(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_length_1_nistxml_sv_iv_list_time_length_2_5(mode, save_output):
+def test_list_time_length_1_nistxml_sv_iv_list_time_length_2_5(mode, save_output, output_format):
     """
     Type list/time is restricted by facet length with value 6.
     """
@@ -13017,11 +13866,12 @@ def test_list_time_length_1_nistxml_sv_iv_list_time_length_2_5(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_length_nistxml_sv_iv_list_time_length_1_1(mode, save_output):
+def test_list_time_length_nistxml_sv_iv_list_time_length_1_1(mode, save_output, output_format):
     """
     Type list/time is restricted by facet length with value 5.
     """
@@ -13032,11 +13882,12 @@ def test_list_time_length_nistxml_sv_iv_list_time_length_1_1(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_length_nistxml_sv_iv_list_time_length_1_2(mode, save_output):
+def test_list_time_length_nistxml_sv_iv_list_time_length_1_2(mode, save_output, output_format):
     """
     Type list/time is restricted by facet length with value 5.
     """
@@ -13047,11 +13898,12 @@ def test_list_time_length_nistxml_sv_iv_list_time_length_1_2(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_length_nistxml_sv_iv_list_time_length_1_3(mode, save_output):
+def test_list_time_length_nistxml_sv_iv_list_time_length_1_3(mode, save_output, output_format):
     """
     Type list/time is restricted by facet length with value 5.
     """
@@ -13062,11 +13914,12 @@ def test_list_time_length_nistxml_sv_iv_list_time_length_1_3(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_length_nistxml_sv_iv_list_time_length_1_4(mode, save_output):
+def test_list_time_length_nistxml_sv_iv_list_time_length_1_4(mode, save_output, output_format):
     """
     Type list/time is restricted by facet length with value 5.
     """
@@ -13077,11 +13930,12 @@ def test_list_time_length_nistxml_sv_iv_list_time_length_1_4(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_length_nistxml_sv_iv_list_time_length_1_5(mode, save_output):
+def test_list_time_length_nistxml_sv_iv_list_time_length_1_5(mode, save_output, output_format):
     """
     Type list/time is restricted by facet length with value 5.
     """
@@ -13092,11 +13946,12 @@ def test_list_time_length_nistxml_sv_iv_list_time_length_1_5(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_min_length_4_nistxml_sv_iv_list_time_min_length_5_1(mode, save_output):
+def test_list_time_min_length_4_nistxml_sv_iv_list_time_min_length_5_1(mode, save_output, output_format):
     """
     Type list/time is restricted by facet minLength with value 10.
     """
@@ -13107,11 +13962,12 @@ def test_list_time_min_length_4_nistxml_sv_iv_list_time_min_length_5_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_min_length_4_nistxml_sv_iv_list_time_min_length_5_2(mode, save_output):
+def test_list_time_min_length_4_nistxml_sv_iv_list_time_min_length_5_2(mode, save_output, output_format):
     """
     Type list/time is restricted by facet minLength with value 10.
     """
@@ -13122,11 +13978,12 @@ def test_list_time_min_length_4_nistxml_sv_iv_list_time_min_length_5_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_min_length_4_nistxml_sv_iv_list_time_min_length_5_3(mode, save_output):
+def test_list_time_min_length_4_nistxml_sv_iv_list_time_min_length_5_3(mode, save_output, output_format):
     """
     Type list/time is restricted by facet minLength with value 10.
     """
@@ -13137,11 +13994,12 @@ def test_list_time_min_length_4_nistxml_sv_iv_list_time_min_length_5_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_min_length_4_nistxml_sv_iv_list_time_min_length_5_4(mode, save_output):
+def test_list_time_min_length_4_nistxml_sv_iv_list_time_min_length_5_4(mode, save_output, output_format):
     """
     Type list/time is restricted by facet minLength with value 10.
     """
@@ -13152,11 +14010,12 @@ def test_list_time_min_length_4_nistxml_sv_iv_list_time_min_length_5_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_min_length_4_nistxml_sv_iv_list_time_min_length_5_5(mode, save_output):
+def test_list_time_min_length_4_nistxml_sv_iv_list_time_min_length_5_5(mode, save_output, output_format):
     """
     Type list/time is restricted by facet minLength with value 10.
     """
@@ -13167,11 +14026,12 @@ def test_list_time_min_length_4_nistxml_sv_iv_list_time_min_length_5_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_min_length_3_nistxml_sv_iv_list_time_min_length_4_1(mode, save_output):
+def test_list_time_min_length_3_nistxml_sv_iv_list_time_min_length_4_1(mode, save_output, output_format):
     """
     Type list/time is restricted by facet minLength with value 8.
     """
@@ -13182,11 +14042,12 @@ def test_list_time_min_length_3_nistxml_sv_iv_list_time_min_length_4_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_min_length_3_nistxml_sv_iv_list_time_min_length_4_2(mode, save_output):
+def test_list_time_min_length_3_nistxml_sv_iv_list_time_min_length_4_2(mode, save_output, output_format):
     """
     Type list/time is restricted by facet minLength with value 8.
     """
@@ -13197,11 +14058,12 @@ def test_list_time_min_length_3_nistxml_sv_iv_list_time_min_length_4_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_min_length_3_nistxml_sv_iv_list_time_min_length_4_3(mode, save_output):
+def test_list_time_min_length_3_nistxml_sv_iv_list_time_min_length_4_3(mode, save_output, output_format):
     """
     Type list/time is restricted by facet minLength with value 8.
     """
@@ -13212,11 +14074,12 @@ def test_list_time_min_length_3_nistxml_sv_iv_list_time_min_length_4_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_min_length_3_nistxml_sv_iv_list_time_min_length_4_4(mode, save_output):
+def test_list_time_min_length_3_nistxml_sv_iv_list_time_min_length_4_4(mode, save_output, output_format):
     """
     Type list/time is restricted by facet minLength with value 8.
     """
@@ -13227,11 +14090,12 @@ def test_list_time_min_length_3_nistxml_sv_iv_list_time_min_length_4_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_min_length_3_nistxml_sv_iv_list_time_min_length_4_5(mode, save_output):
+def test_list_time_min_length_3_nistxml_sv_iv_list_time_min_length_4_5(mode, save_output, output_format):
     """
     Type list/time is restricted by facet minLength with value 8.
     """
@@ -13242,11 +14106,12 @@ def test_list_time_min_length_3_nistxml_sv_iv_list_time_min_length_4_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_min_length_2_nistxml_sv_iv_list_time_min_length_3_1(mode, save_output):
+def test_list_time_min_length_2_nistxml_sv_iv_list_time_min_length_3_1(mode, save_output, output_format):
     """
     Type list/time is restricted by facet minLength with value 7.
     """
@@ -13257,11 +14122,12 @@ def test_list_time_min_length_2_nistxml_sv_iv_list_time_min_length_3_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_min_length_2_nistxml_sv_iv_list_time_min_length_3_2(mode, save_output):
+def test_list_time_min_length_2_nistxml_sv_iv_list_time_min_length_3_2(mode, save_output, output_format):
     """
     Type list/time is restricted by facet minLength with value 7.
     """
@@ -13272,11 +14138,12 @@ def test_list_time_min_length_2_nistxml_sv_iv_list_time_min_length_3_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_min_length_2_nistxml_sv_iv_list_time_min_length_3_3(mode, save_output):
+def test_list_time_min_length_2_nistxml_sv_iv_list_time_min_length_3_3(mode, save_output, output_format):
     """
     Type list/time is restricted by facet minLength with value 7.
     """
@@ -13287,11 +14154,12 @@ def test_list_time_min_length_2_nistxml_sv_iv_list_time_min_length_3_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_min_length_2_nistxml_sv_iv_list_time_min_length_3_4(mode, save_output):
+def test_list_time_min_length_2_nistxml_sv_iv_list_time_min_length_3_4(mode, save_output, output_format):
     """
     Type list/time is restricted by facet minLength with value 7.
     """
@@ -13302,11 +14170,12 @@ def test_list_time_min_length_2_nistxml_sv_iv_list_time_min_length_3_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_min_length_2_nistxml_sv_iv_list_time_min_length_3_5(mode, save_output):
+def test_list_time_min_length_2_nistxml_sv_iv_list_time_min_length_3_5(mode, save_output, output_format):
     """
     Type list/time is restricted by facet minLength with value 7.
     """
@@ -13317,11 +14186,12 @@ def test_list_time_min_length_2_nistxml_sv_iv_list_time_min_length_3_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_min_length_1_nistxml_sv_iv_list_time_min_length_2_1(mode, save_output):
+def test_list_time_min_length_1_nistxml_sv_iv_list_time_min_length_2_1(mode, save_output, output_format):
     """
     Type list/time is restricted by facet minLength with value 6.
     """
@@ -13332,11 +14202,12 @@ def test_list_time_min_length_1_nistxml_sv_iv_list_time_min_length_2_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_min_length_1_nistxml_sv_iv_list_time_min_length_2_2(mode, save_output):
+def test_list_time_min_length_1_nistxml_sv_iv_list_time_min_length_2_2(mode, save_output, output_format):
     """
     Type list/time is restricted by facet minLength with value 6.
     """
@@ -13347,11 +14218,12 @@ def test_list_time_min_length_1_nistxml_sv_iv_list_time_min_length_2_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_min_length_1_nistxml_sv_iv_list_time_min_length_2_3(mode, save_output):
+def test_list_time_min_length_1_nistxml_sv_iv_list_time_min_length_2_3(mode, save_output, output_format):
     """
     Type list/time is restricted by facet minLength with value 6.
     """
@@ -13362,11 +14234,12 @@ def test_list_time_min_length_1_nistxml_sv_iv_list_time_min_length_2_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_min_length_1_nistxml_sv_iv_list_time_min_length_2_4(mode, save_output):
+def test_list_time_min_length_1_nistxml_sv_iv_list_time_min_length_2_4(mode, save_output, output_format):
     """
     Type list/time is restricted by facet minLength with value 6.
     """
@@ -13377,11 +14250,12 @@ def test_list_time_min_length_1_nistxml_sv_iv_list_time_min_length_2_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_min_length_1_nistxml_sv_iv_list_time_min_length_2_5(mode, save_output):
+def test_list_time_min_length_1_nistxml_sv_iv_list_time_min_length_2_5(mode, save_output, output_format):
     """
     Type list/time is restricted by facet minLength with value 6.
     """
@@ -13392,11 +14266,12 @@ def test_list_time_min_length_1_nistxml_sv_iv_list_time_min_length_2_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_min_length_nistxml_sv_iv_list_time_min_length_1_1(mode, save_output):
+def test_list_time_min_length_nistxml_sv_iv_list_time_min_length_1_1(mode, save_output, output_format):
     """
     Type list/time is restricted by facet minLength with value 5.
     """
@@ -13407,11 +14282,12 @@ def test_list_time_min_length_nistxml_sv_iv_list_time_min_length_1_1(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_min_length_nistxml_sv_iv_list_time_min_length_1_2(mode, save_output):
+def test_list_time_min_length_nistxml_sv_iv_list_time_min_length_1_2(mode, save_output, output_format):
     """
     Type list/time is restricted by facet minLength with value 5.
     """
@@ -13422,11 +14298,12 @@ def test_list_time_min_length_nistxml_sv_iv_list_time_min_length_1_2(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_min_length_nistxml_sv_iv_list_time_min_length_1_3(mode, save_output):
+def test_list_time_min_length_nistxml_sv_iv_list_time_min_length_1_3(mode, save_output, output_format):
     """
     Type list/time is restricted by facet minLength with value 5.
     """
@@ -13437,11 +14314,12 @@ def test_list_time_min_length_nistxml_sv_iv_list_time_min_length_1_3(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_min_length_nistxml_sv_iv_list_time_min_length_1_4(mode, save_output):
+def test_list_time_min_length_nistxml_sv_iv_list_time_min_length_1_4(mode, save_output, output_format):
     """
     Type list/time is restricted by facet minLength with value 5.
     """
@@ -13452,11 +14330,12 @@ def test_list_time_min_length_nistxml_sv_iv_list_time_min_length_1_4(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_min_length_nistxml_sv_iv_list_time_min_length_1_5(mode, save_output):
+def test_list_time_min_length_nistxml_sv_iv_list_time_min_length_1_5(mode, save_output, output_format):
     """
     Type list/time is restricted by facet minLength with value 5.
     """
@@ -13467,11 +14346,12 @@ def test_list_time_min_length_nistxml_sv_iv_list_time_min_length_1_5(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_max_length_4_nistxml_sv_iv_list_time_max_length_5_1(mode, save_output):
+def test_list_time_max_length_4_nistxml_sv_iv_list_time_max_length_5_1(mode, save_output, output_format):
     """
     Type list/time is restricted by facet maxLength with value 10.
     """
@@ -13482,11 +14362,12 @@ def test_list_time_max_length_4_nistxml_sv_iv_list_time_max_length_5_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_max_length_4_nistxml_sv_iv_list_time_max_length_5_2(mode, save_output):
+def test_list_time_max_length_4_nistxml_sv_iv_list_time_max_length_5_2(mode, save_output, output_format):
     """
     Type list/time is restricted by facet maxLength with value 10.
     """
@@ -13497,11 +14378,12 @@ def test_list_time_max_length_4_nistxml_sv_iv_list_time_max_length_5_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_max_length_4_nistxml_sv_iv_list_time_max_length_5_3(mode, save_output):
+def test_list_time_max_length_4_nistxml_sv_iv_list_time_max_length_5_3(mode, save_output, output_format):
     """
     Type list/time is restricted by facet maxLength with value 10.
     """
@@ -13512,11 +14394,12 @@ def test_list_time_max_length_4_nistxml_sv_iv_list_time_max_length_5_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_max_length_4_nistxml_sv_iv_list_time_max_length_5_4(mode, save_output):
+def test_list_time_max_length_4_nistxml_sv_iv_list_time_max_length_5_4(mode, save_output, output_format):
     """
     Type list/time is restricted by facet maxLength with value 10.
     """
@@ -13527,11 +14410,12 @@ def test_list_time_max_length_4_nistxml_sv_iv_list_time_max_length_5_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_max_length_4_nistxml_sv_iv_list_time_max_length_5_5(mode, save_output):
+def test_list_time_max_length_4_nistxml_sv_iv_list_time_max_length_5_5(mode, save_output, output_format):
     """
     Type list/time is restricted by facet maxLength with value 10.
     """
@@ -13542,11 +14426,12 @@ def test_list_time_max_length_4_nistxml_sv_iv_list_time_max_length_5_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_max_length_3_nistxml_sv_iv_list_time_max_length_4_1(mode, save_output):
+def test_list_time_max_length_3_nistxml_sv_iv_list_time_max_length_4_1(mode, save_output, output_format):
     """
     Type list/time is restricted by facet maxLength with value 8.
     """
@@ -13557,11 +14442,12 @@ def test_list_time_max_length_3_nistxml_sv_iv_list_time_max_length_4_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_max_length_3_nistxml_sv_iv_list_time_max_length_4_2(mode, save_output):
+def test_list_time_max_length_3_nistxml_sv_iv_list_time_max_length_4_2(mode, save_output, output_format):
     """
     Type list/time is restricted by facet maxLength with value 8.
     """
@@ -13572,11 +14458,12 @@ def test_list_time_max_length_3_nistxml_sv_iv_list_time_max_length_4_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_max_length_3_nistxml_sv_iv_list_time_max_length_4_3(mode, save_output):
+def test_list_time_max_length_3_nistxml_sv_iv_list_time_max_length_4_3(mode, save_output, output_format):
     """
     Type list/time is restricted by facet maxLength with value 8.
     """
@@ -13587,11 +14474,12 @@ def test_list_time_max_length_3_nistxml_sv_iv_list_time_max_length_4_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_max_length_3_nistxml_sv_iv_list_time_max_length_4_4(mode, save_output):
+def test_list_time_max_length_3_nistxml_sv_iv_list_time_max_length_4_4(mode, save_output, output_format):
     """
     Type list/time is restricted by facet maxLength with value 8.
     """
@@ -13602,11 +14490,12 @@ def test_list_time_max_length_3_nistxml_sv_iv_list_time_max_length_4_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_max_length_3_nistxml_sv_iv_list_time_max_length_4_5(mode, save_output):
+def test_list_time_max_length_3_nistxml_sv_iv_list_time_max_length_4_5(mode, save_output, output_format):
     """
     Type list/time is restricted by facet maxLength with value 8.
     """
@@ -13617,11 +14506,12 @@ def test_list_time_max_length_3_nistxml_sv_iv_list_time_max_length_4_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_max_length_2_nistxml_sv_iv_list_time_max_length_3_1(mode, save_output):
+def test_list_time_max_length_2_nistxml_sv_iv_list_time_max_length_3_1(mode, save_output, output_format):
     """
     Type list/time is restricted by facet maxLength with value 7.
     """
@@ -13632,11 +14522,12 @@ def test_list_time_max_length_2_nistxml_sv_iv_list_time_max_length_3_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_max_length_2_nistxml_sv_iv_list_time_max_length_3_2(mode, save_output):
+def test_list_time_max_length_2_nistxml_sv_iv_list_time_max_length_3_2(mode, save_output, output_format):
     """
     Type list/time is restricted by facet maxLength with value 7.
     """
@@ -13647,11 +14538,12 @@ def test_list_time_max_length_2_nistxml_sv_iv_list_time_max_length_3_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_max_length_2_nistxml_sv_iv_list_time_max_length_3_3(mode, save_output):
+def test_list_time_max_length_2_nistxml_sv_iv_list_time_max_length_3_3(mode, save_output, output_format):
     """
     Type list/time is restricted by facet maxLength with value 7.
     """
@@ -13662,11 +14554,12 @@ def test_list_time_max_length_2_nistxml_sv_iv_list_time_max_length_3_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_max_length_2_nistxml_sv_iv_list_time_max_length_3_4(mode, save_output):
+def test_list_time_max_length_2_nistxml_sv_iv_list_time_max_length_3_4(mode, save_output, output_format):
     """
     Type list/time is restricted by facet maxLength with value 7.
     """
@@ -13677,11 +14570,12 @@ def test_list_time_max_length_2_nistxml_sv_iv_list_time_max_length_3_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_max_length_2_nistxml_sv_iv_list_time_max_length_3_5(mode, save_output):
+def test_list_time_max_length_2_nistxml_sv_iv_list_time_max_length_3_5(mode, save_output, output_format):
     """
     Type list/time is restricted by facet maxLength with value 7.
     """
@@ -13692,11 +14586,12 @@ def test_list_time_max_length_2_nistxml_sv_iv_list_time_max_length_3_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_max_length_1_nistxml_sv_iv_list_time_max_length_2_1(mode, save_output):
+def test_list_time_max_length_1_nistxml_sv_iv_list_time_max_length_2_1(mode, save_output, output_format):
     """
     Type list/time is restricted by facet maxLength with value 6.
     """
@@ -13707,11 +14602,12 @@ def test_list_time_max_length_1_nistxml_sv_iv_list_time_max_length_2_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_max_length_1_nistxml_sv_iv_list_time_max_length_2_2(mode, save_output):
+def test_list_time_max_length_1_nistxml_sv_iv_list_time_max_length_2_2(mode, save_output, output_format):
     """
     Type list/time is restricted by facet maxLength with value 6.
     """
@@ -13722,11 +14618,12 @@ def test_list_time_max_length_1_nistxml_sv_iv_list_time_max_length_2_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_max_length_1_nistxml_sv_iv_list_time_max_length_2_3(mode, save_output):
+def test_list_time_max_length_1_nistxml_sv_iv_list_time_max_length_2_3(mode, save_output, output_format):
     """
     Type list/time is restricted by facet maxLength with value 6.
     """
@@ -13737,11 +14634,12 @@ def test_list_time_max_length_1_nistxml_sv_iv_list_time_max_length_2_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_max_length_1_nistxml_sv_iv_list_time_max_length_2_4(mode, save_output):
+def test_list_time_max_length_1_nistxml_sv_iv_list_time_max_length_2_4(mode, save_output, output_format):
     """
     Type list/time is restricted by facet maxLength with value 6.
     """
@@ -13752,11 +14650,12 @@ def test_list_time_max_length_1_nistxml_sv_iv_list_time_max_length_2_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_max_length_1_nistxml_sv_iv_list_time_max_length_2_5(mode, save_output):
+def test_list_time_max_length_1_nistxml_sv_iv_list_time_max_length_2_5(mode, save_output, output_format):
     """
     Type list/time is restricted by facet maxLength with value 6.
     """
@@ -13767,11 +14666,12 @@ def test_list_time_max_length_1_nistxml_sv_iv_list_time_max_length_2_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_max_length_nistxml_sv_iv_list_time_max_length_1_1(mode, save_output):
+def test_list_time_max_length_nistxml_sv_iv_list_time_max_length_1_1(mode, save_output, output_format):
     """
     Type list/time is restricted by facet maxLength with value 5.
     """
@@ -13782,11 +14682,12 @@ def test_list_time_max_length_nistxml_sv_iv_list_time_max_length_1_1(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_max_length_nistxml_sv_iv_list_time_max_length_1_2(mode, save_output):
+def test_list_time_max_length_nistxml_sv_iv_list_time_max_length_1_2(mode, save_output, output_format):
     """
     Type list/time is restricted by facet maxLength with value 5.
     """
@@ -13797,11 +14698,12 @@ def test_list_time_max_length_nistxml_sv_iv_list_time_max_length_1_2(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_max_length_nistxml_sv_iv_list_time_max_length_1_3(mode, save_output):
+def test_list_time_max_length_nistxml_sv_iv_list_time_max_length_1_3(mode, save_output, output_format):
     """
     Type list/time is restricted by facet maxLength with value 5.
     """
@@ -13812,11 +14714,12 @@ def test_list_time_max_length_nistxml_sv_iv_list_time_max_length_1_3(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_max_length_nistxml_sv_iv_list_time_max_length_1_4(mode, save_output):
+def test_list_time_max_length_nistxml_sv_iv_list_time_max_length_1_4(mode, save_output, output_format):
     """
     Type list/time is restricted by facet maxLength with value 5.
     """
@@ -13827,11 +14730,12 @@ def test_list_time_max_length_nistxml_sv_iv_list_time_max_length_1_4(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_time_max_length_nistxml_sv_iv_list_time_max_length_1_5(mode, save_output):
+def test_list_time_max_length_nistxml_sv_iv_list_time_max_length_1_5(mode, save_output, output_format):
     """
     Type list/time is restricted by facet maxLength with value 5.
     """
@@ -13842,11 +14746,12 @@ def test_list_time_max_length_nistxml_sv_iv_list_time_max_length_1_5(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_white_space_nistxml_sv_iv_list_date_time_white_space_1_1(mode, save_output):
+def test_list_date_time_white_space_nistxml_sv_iv_list_date_time_white_space_1_1(mode, save_output, output_format):
     """
     Type list/dateTime is restricted by facet whiteSpace with value
     collapse.
@@ -13858,11 +14763,12 @@ def test_list_date_time_white_space_nistxml_sv_iv_list_date_time_white_space_1_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_white_space_nistxml_sv_iv_list_date_time_white_space_1_2(mode, save_output):
+def test_list_date_time_white_space_nistxml_sv_iv_list_date_time_white_space_1_2(mode, save_output, output_format):
     """
     Type list/dateTime is restricted by facet whiteSpace with value
     collapse.
@@ -13874,11 +14780,12 @@ def test_list_date_time_white_space_nistxml_sv_iv_list_date_time_white_space_1_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_white_space_nistxml_sv_iv_list_date_time_white_space_1_3(mode, save_output):
+def test_list_date_time_white_space_nistxml_sv_iv_list_date_time_white_space_1_3(mode, save_output, output_format):
     """
     Type list/dateTime is restricted by facet whiteSpace with value
     collapse.
@@ -13890,11 +14797,12 @@ def test_list_date_time_white_space_nistxml_sv_iv_list_date_time_white_space_1_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_white_space_nistxml_sv_iv_list_date_time_white_space_1_4(mode, save_output):
+def test_list_date_time_white_space_nistxml_sv_iv_list_date_time_white_space_1_4(mode, save_output, output_format):
     """
     Type list/dateTime is restricted by facet whiteSpace with value
     collapse.
@@ -13906,11 +14814,12 @@ def test_list_date_time_white_space_nistxml_sv_iv_list_date_time_white_space_1_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_white_space_nistxml_sv_iv_list_date_time_white_space_1_5(mode, save_output):
+def test_list_date_time_white_space_nistxml_sv_iv_list_date_time_white_space_1_5(mode, save_output, output_format):
     """
     Type list/dateTime is restricted by facet whiteSpace with value
     collapse.
@@ -13922,11 +14831,12 @@ def test_list_date_time_white_space_nistxml_sv_iv_list_date_time_white_space_1_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_enumeration_4_nistxml_sv_iv_list_date_time_enumeration_5_1(mode, save_output):
+def test_list_date_time_enumeration_4_nistxml_sv_iv_list_date_time_enumeration_5_1(mode, save_output, output_format):
     """
     Type list/dateTime is restricted by facet enumeration.
     """
@@ -13937,11 +14847,12 @@ def test_list_date_time_enumeration_4_nistxml_sv_iv_list_date_time_enumeration_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_enumeration_4_nistxml_sv_iv_list_date_time_enumeration_5_2(mode, save_output):
+def test_list_date_time_enumeration_4_nistxml_sv_iv_list_date_time_enumeration_5_2(mode, save_output, output_format):
     """
     Type list/dateTime is restricted by facet enumeration.
     """
@@ -13952,11 +14863,12 @@ def test_list_date_time_enumeration_4_nistxml_sv_iv_list_date_time_enumeration_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_enumeration_4_nistxml_sv_iv_list_date_time_enumeration_5_3(mode, save_output):
+def test_list_date_time_enumeration_4_nistxml_sv_iv_list_date_time_enumeration_5_3(mode, save_output, output_format):
     """
     Type list/dateTime is restricted by facet enumeration.
     """
@@ -13967,11 +14879,12 @@ def test_list_date_time_enumeration_4_nistxml_sv_iv_list_date_time_enumeration_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_enumeration_4_nistxml_sv_iv_list_date_time_enumeration_5_4(mode, save_output):
+def test_list_date_time_enumeration_4_nistxml_sv_iv_list_date_time_enumeration_5_4(mode, save_output, output_format):
     """
     Type list/dateTime is restricted by facet enumeration.
     """
@@ -13982,11 +14895,12 @@ def test_list_date_time_enumeration_4_nistxml_sv_iv_list_date_time_enumeration_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_enumeration_4_nistxml_sv_iv_list_date_time_enumeration_5_5(mode, save_output):
+def test_list_date_time_enumeration_4_nistxml_sv_iv_list_date_time_enumeration_5_5(mode, save_output, output_format):
     """
     Type list/dateTime is restricted by facet enumeration.
     """
@@ -13997,11 +14911,12 @@ def test_list_date_time_enumeration_4_nistxml_sv_iv_list_date_time_enumeration_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_enumeration_3_nistxml_sv_iv_list_date_time_enumeration_4_1(mode, save_output):
+def test_list_date_time_enumeration_3_nistxml_sv_iv_list_date_time_enumeration_4_1(mode, save_output, output_format):
     """
     Type list/dateTime is restricted by facet enumeration.
     """
@@ -14012,11 +14927,12 @@ def test_list_date_time_enumeration_3_nistxml_sv_iv_list_date_time_enumeration_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_enumeration_3_nistxml_sv_iv_list_date_time_enumeration_4_2(mode, save_output):
+def test_list_date_time_enumeration_3_nistxml_sv_iv_list_date_time_enumeration_4_2(mode, save_output, output_format):
     """
     Type list/dateTime is restricted by facet enumeration.
     """
@@ -14027,11 +14943,12 @@ def test_list_date_time_enumeration_3_nistxml_sv_iv_list_date_time_enumeration_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_enumeration_3_nistxml_sv_iv_list_date_time_enumeration_4_3(mode, save_output):
+def test_list_date_time_enumeration_3_nistxml_sv_iv_list_date_time_enumeration_4_3(mode, save_output, output_format):
     """
     Type list/dateTime is restricted by facet enumeration.
     """
@@ -14042,11 +14959,12 @@ def test_list_date_time_enumeration_3_nistxml_sv_iv_list_date_time_enumeration_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_enumeration_3_nistxml_sv_iv_list_date_time_enumeration_4_4(mode, save_output):
+def test_list_date_time_enumeration_3_nistxml_sv_iv_list_date_time_enumeration_4_4(mode, save_output, output_format):
     """
     Type list/dateTime is restricted by facet enumeration.
     """
@@ -14057,11 +14975,12 @@ def test_list_date_time_enumeration_3_nistxml_sv_iv_list_date_time_enumeration_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_enumeration_3_nistxml_sv_iv_list_date_time_enumeration_4_5(mode, save_output):
+def test_list_date_time_enumeration_3_nistxml_sv_iv_list_date_time_enumeration_4_5(mode, save_output, output_format):
     """
     Type list/dateTime is restricted by facet enumeration.
     """
@@ -14072,11 +14991,12 @@ def test_list_date_time_enumeration_3_nistxml_sv_iv_list_date_time_enumeration_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_enumeration_2_nistxml_sv_iv_list_date_time_enumeration_3_1(mode, save_output):
+def test_list_date_time_enumeration_2_nistxml_sv_iv_list_date_time_enumeration_3_1(mode, save_output, output_format):
     """
     Type list/dateTime is restricted by facet enumeration.
     """
@@ -14087,11 +15007,12 @@ def test_list_date_time_enumeration_2_nistxml_sv_iv_list_date_time_enumeration_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_enumeration_2_nistxml_sv_iv_list_date_time_enumeration_3_2(mode, save_output):
+def test_list_date_time_enumeration_2_nistxml_sv_iv_list_date_time_enumeration_3_2(mode, save_output, output_format):
     """
     Type list/dateTime is restricted by facet enumeration.
     """
@@ -14102,11 +15023,12 @@ def test_list_date_time_enumeration_2_nistxml_sv_iv_list_date_time_enumeration_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_enumeration_2_nistxml_sv_iv_list_date_time_enumeration_3_3(mode, save_output):
+def test_list_date_time_enumeration_2_nistxml_sv_iv_list_date_time_enumeration_3_3(mode, save_output, output_format):
     """
     Type list/dateTime is restricted by facet enumeration.
     """
@@ -14117,11 +15039,12 @@ def test_list_date_time_enumeration_2_nistxml_sv_iv_list_date_time_enumeration_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_enumeration_2_nistxml_sv_iv_list_date_time_enumeration_3_4(mode, save_output):
+def test_list_date_time_enumeration_2_nistxml_sv_iv_list_date_time_enumeration_3_4(mode, save_output, output_format):
     """
     Type list/dateTime is restricted by facet enumeration.
     """
@@ -14132,11 +15055,12 @@ def test_list_date_time_enumeration_2_nistxml_sv_iv_list_date_time_enumeration_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_enumeration_2_nistxml_sv_iv_list_date_time_enumeration_3_5(mode, save_output):
+def test_list_date_time_enumeration_2_nistxml_sv_iv_list_date_time_enumeration_3_5(mode, save_output, output_format):
     """
     Type list/dateTime is restricted by facet enumeration.
     """
@@ -14147,11 +15071,12 @@ def test_list_date_time_enumeration_2_nistxml_sv_iv_list_date_time_enumeration_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_enumeration_1_nistxml_sv_iv_list_date_time_enumeration_2_1(mode, save_output):
+def test_list_date_time_enumeration_1_nistxml_sv_iv_list_date_time_enumeration_2_1(mode, save_output, output_format):
     """
     Type list/dateTime is restricted by facet enumeration.
     """
@@ -14162,11 +15087,12 @@ def test_list_date_time_enumeration_1_nistxml_sv_iv_list_date_time_enumeration_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_enumeration_1_nistxml_sv_iv_list_date_time_enumeration_2_2(mode, save_output):
+def test_list_date_time_enumeration_1_nistxml_sv_iv_list_date_time_enumeration_2_2(mode, save_output, output_format):
     """
     Type list/dateTime is restricted by facet enumeration.
     """
@@ -14177,11 +15103,12 @@ def test_list_date_time_enumeration_1_nistxml_sv_iv_list_date_time_enumeration_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_enumeration_1_nistxml_sv_iv_list_date_time_enumeration_2_3(mode, save_output):
+def test_list_date_time_enumeration_1_nistxml_sv_iv_list_date_time_enumeration_2_3(mode, save_output, output_format):
     """
     Type list/dateTime is restricted by facet enumeration.
     """
@@ -14192,11 +15119,12 @@ def test_list_date_time_enumeration_1_nistxml_sv_iv_list_date_time_enumeration_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_enumeration_1_nistxml_sv_iv_list_date_time_enumeration_2_4(mode, save_output):
+def test_list_date_time_enumeration_1_nistxml_sv_iv_list_date_time_enumeration_2_4(mode, save_output, output_format):
     """
     Type list/dateTime is restricted by facet enumeration.
     """
@@ -14207,11 +15135,12 @@ def test_list_date_time_enumeration_1_nistxml_sv_iv_list_date_time_enumeration_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_enumeration_1_nistxml_sv_iv_list_date_time_enumeration_2_5(mode, save_output):
+def test_list_date_time_enumeration_1_nistxml_sv_iv_list_date_time_enumeration_2_5(mode, save_output, output_format):
     """
     Type list/dateTime is restricted by facet enumeration.
     """
@@ -14222,11 +15151,12 @@ def test_list_date_time_enumeration_1_nistxml_sv_iv_list_date_time_enumeration_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_enumeration_nistxml_sv_iv_list_date_time_enumeration_1_1(mode, save_output):
+def test_list_date_time_enumeration_nistxml_sv_iv_list_date_time_enumeration_1_1(mode, save_output, output_format):
     """
     Type list/dateTime is restricted by facet enumeration.
     """
@@ -14237,11 +15167,12 @@ def test_list_date_time_enumeration_nistxml_sv_iv_list_date_time_enumeration_1_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_enumeration_nistxml_sv_iv_list_date_time_enumeration_1_2(mode, save_output):
+def test_list_date_time_enumeration_nistxml_sv_iv_list_date_time_enumeration_1_2(mode, save_output, output_format):
     """
     Type list/dateTime is restricted by facet enumeration.
     """
@@ -14252,11 +15183,12 @@ def test_list_date_time_enumeration_nistxml_sv_iv_list_date_time_enumeration_1_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_enumeration_nistxml_sv_iv_list_date_time_enumeration_1_3(mode, save_output):
+def test_list_date_time_enumeration_nistxml_sv_iv_list_date_time_enumeration_1_3(mode, save_output, output_format):
     """
     Type list/dateTime is restricted by facet enumeration.
     """
@@ -14267,11 +15199,12 @@ def test_list_date_time_enumeration_nistxml_sv_iv_list_date_time_enumeration_1_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_enumeration_nistxml_sv_iv_list_date_time_enumeration_1_4(mode, save_output):
+def test_list_date_time_enumeration_nistxml_sv_iv_list_date_time_enumeration_1_4(mode, save_output, output_format):
     """
     Type list/dateTime is restricted by facet enumeration.
     """
@@ -14282,11 +15215,12 @@ def test_list_date_time_enumeration_nistxml_sv_iv_list_date_time_enumeration_1_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_enumeration_nistxml_sv_iv_list_date_time_enumeration_1_5(mode, save_output):
+def test_list_date_time_enumeration_nistxml_sv_iv_list_date_time_enumeration_1_5(mode, save_output, output_format):
     """
     Type list/dateTime is restricted by facet enumeration.
     """
@@ -14297,11 +15231,12 @@ def test_list_date_time_enumeration_nistxml_sv_iv_list_date_time_enumeration_1_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_pattern_4_nistxml_sv_iv_list_date_time_pattern_5_1(mode, save_output):
+def test_list_date_time_pattern_4_nistxml_sv_iv_list_date_time_pattern_5_1(mode, save_output, output_format):
     r"""
     Type list/dateTime is restricted by facet pattern with value
     \d\d84-0\d-2\dT0\d:\d1:\d1 \d\d85-0\d-0\dT1\d:\d4:2\d
@@ -14315,11 +15250,12 @@ def test_list_date_time_pattern_4_nistxml_sv_iv_list_date_time_pattern_5_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_pattern_4_nistxml_sv_iv_list_date_time_pattern_5_2(mode, save_output):
+def test_list_date_time_pattern_4_nistxml_sv_iv_list_date_time_pattern_5_2(mode, save_output, output_format):
     r"""
     Type list/dateTime is restricted by facet pattern with value
     \d\d84-0\d-2\dT0\d:\d1:\d1 \d\d85-0\d-0\dT1\d:\d4:2\d
@@ -14333,11 +15269,12 @@ def test_list_date_time_pattern_4_nistxml_sv_iv_list_date_time_pattern_5_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_pattern_4_nistxml_sv_iv_list_date_time_pattern_5_3(mode, save_output):
+def test_list_date_time_pattern_4_nistxml_sv_iv_list_date_time_pattern_5_3(mode, save_output, output_format):
     r"""
     Type list/dateTime is restricted by facet pattern with value
     \d\d84-0\d-2\dT0\d:\d1:\d1 \d\d85-0\d-0\dT1\d:\d4:2\d
@@ -14351,11 +15288,12 @@ def test_list_date_time_pattern_4_nistxml_sv_iv_list_date_time_pattern_5_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_pattern_4_nistxml_sv_iv_list_date_time_pattern_5_4(mode, save_output):
+def test_list_date_time_pattern_4_nistxml_sv_iv_list_date_time_pattern_5_4(mode, save_output, output_format):
     r"""
     Type list/dateTime is restricted by facet pattern with value
     \d\d84-0\d-2\dT0\d:\d1:\d1 \d\d85-0\d-0\dT1\d:\d4:2\d
@@ -14369,11 +15307,12 @@ def test_list_date_time_pattern_4_nistxml_sv_iv_list_date_time_pattern_5_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_pattern_4_nistxml_sv_iv_list_date_time_pattern_5_5(mode, save_output):
+def test_list_date_time_pattern_4_nistxml_sv_iv_list_date_time_pattern_5_5(mode, save_output, output_format):
     r"""
     Type list/dateTime is restricted by facet pattern with value
     \d\d84-0\d-2\dT0\d:\d1:\d1 \d\d85-0\d-0\dT1\d:\d4:2\d
@@ -14387,11 +15326,12 @@ def test_list_date_time_pattern_4_nistxml_sv_iv_list_date_time_pattern_5_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_pattern_3_nistxml_sv_iv_list_date_time_pattern_4_1(mode, save_output):
+def test_list_date_time_pattern_3_nistxml_sv_iv_list_date_time_pattern_4_1(mode, save_output, output_format):
     r"""
     Type list/dateTime is restricted by facet pattern with value
     18\d\d-\d7-\d4T\d5:4\d:4\d 20\d\d-\d1-\d0T1\d:\d2:3\d
@@ -14405,11 +15345,12 @@ def test_list_date_time_pattern_3_nistxml_sv_iv_list_date_time_pattern_4_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_pattern_3_nistxml_sv_iv_list_date_time_pattern_4_2(mode, save_output):
+def test_list_date_time_pattern_3_nistxml_sv_iv_list_date_time_pattern_4_2(mode, save_output, output_format):
     r"""
     Type list/dateTime is restricted by facet pattern with value
     18\d\d-\d7-\d4T\d5:4\d:4\d 20\d\d-\d1-\d0T1\d:\d2:3\d
@@ -14423,11 +15364,12 @@ def test_list_date_time_pattern_3_nistxml_sv_iv_list_date_time_pattern_4_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_pattern_3_nistxml_sv_iv_list_date_time_pattern_4_3(mode, save_output):
+def test_list_date_time_pattern_3_nistxml_sv_iv_list_date_time_pattern_4_3(mode, save_output, output_format):
     r"""
     Type list/dateTime is restricted by facet pattern with value
     18\d\d-\d7-\d4T\d5:4\d:4\d 20\d\d-\d1-\d0T1\d:\d2:3\d
@@ -14441,11 +15383,12 @@ def test_list_date_time_pattern_3_nistxml_sv_iv_list_date_time_pattern_4_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_pattern_3_nistxml_sv_iv_list_date_time_pattern_4_4(mode, save_output):
+def test_list_date_time_pattern_3_nistxml_sv_iv_list_date_time_pattern_4_4(mode, save_output, output_format):
     r"""
     Type list/dateTime is restricted by facet pattern with value
     18\d\d-\d7-\d4T\d5:4\d:4\d 20\d\d-\d1-\d0T1\d:\d2:3\d
@@ -14459,11 +15402,12 @@ def test_list_date_time_pattern_3_nistxml_sv_iv_list_date_time_pattern_4_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_pattern_3_nistxml_sv_iv_list_date_time_pattern_4_5(mode, save_output):
+def test_list_date_time_pattern_3_nistxml_sv_iv_list_date_time_pattern_4_5(mode, save_output, output_format):
     r"""
     Type list/dateTime is restricted by facet pattern with value
     18\d\d-\d7-\d4T\d5:4\d:4\d 20\d\d-\d1-\d0T1\d:\d2:3\d
@@ -14477,11 +15421,12 @@ def test_list_date_time_pattern_3_nistxml_sv_iv_list_date_time_pattern_4_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_pattern_2_nistxml_sv_iv_list_date_time_pattern_3_1(mode, save_output):
+def test_list_date_time_pattern_2_nistxml_sv_iv_list_date_time_pattern_3_1(mode, save_output, output_format):
     r"""
     Type list/dateTime is restricted by facet pattern with value
     17\d\d-\d0-\d1T\d4:1\d:1\d 19\d\d-0\d-0\dT1\d:2\d:4\d
@@ -14497,11 +15442,12 @@ def test_list_date_time_pattern_2_nistxml_sv_iv_list_date_time_pattern_3_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_pattern_2_nistxml_sv_iv_list_date_time_pattern_3_2(mode, save_output):
+def test_list_date_time_pattern_2_nistxml_sv_iv_list_date_time_pattern_3_2(mode, save_output, output_format):
     r"""
     Type list/dateTime is restricted by facet pattern with value
     17\d\d-\d0-\d1T\d4:1\d:1\d 19\d\d-0\d-0\dT1\d:2\d:4\d
@@ -14517,11 +15463,12 @@ def test_list_date_time_pattern_2_nistxml_sv_iv_list_date_time_pattern_3_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_pattern_2_nistxml_sv_iv_list_date_time_pattern_3_3(mode, save_output):
+def test_list_date_time_pattern_2_nistxml_sv_iv_list_date_time_pattern_3_3(mode, save_output, output_format):
     r"""
     Type list/dateTime is restricted by facet pattern with value
     17\d\d-\d0-\d1T\d4:1\d:1\d 19\d\d-0\d-0\dT1\d:2\d:4\d
@@ -14537,11 +15484,12 @@ def test_list_date_time_pattern_2_nistxml_sv_iv_list_date_time_pattern_3_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_pattern_2_nistxml_sv_iv_list_date_time_pattern_3_4(mode, save_output):
+def test_list_date_time_pattern_2_nistxml_sv_iv_list_date_time_pattern_3_4(mode, save_output, output_format):
     r"""
     Type list/dateTime is restricted by facet pattern with value
     17\d\d-\d0-\d1T\d4:1\d:1\d 19\d\d-0\d-0\dT1\d:2\d:4\d
@@ -14557,11 +15505,12 @@ def test_list_date_time_pattern_2_nistxml_sv_iv_list_date_time_pattern_3_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_pattern_2_nistxml_sv_iv_list_date_time_pattern_3_5(mode, save_output):
+def test_list_date_time_pattern_2_nistxml_sv_iv_list_date_time_pattern_3_5(mode, save_output, output_format):
     r"""
     Type list/dateTime is restricted by facet pattern with value
     17\d\d-\d0-\d1T\d4:1\d:1\d 19\d\d-0\d-0\dT1\d:2\d:4\d
@@ -14577,11 +15526,12 @@ def test_list_date_time_pattern_2_nistxml_sv_iv_list_date_time_pattern_3_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_pattern_1_nistxml_sv_iv_list_date_time_pattern_2_1(mode, save_output):
+def test_list_date_time_pattern_1_nistxml_sv_iv_list_date_time_pattern_2_1(mode, save_output, output_format):
     r"""
     Type list/dateTime is restricted by facet pattern with value
     \d\d67-0\d-0\dT1\d:2\d:0\d 18\d\d-\d6-\d8T0\d:\d9:2\d
@@ -14596,11 +15546,12 @@ def test_list_date_time_pattern_1_nistxml_sv_iv_list_date_time_pattern_2_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_pattern_1_nistxml_sv_iv_list_date_time_pattern_2_2(mode, save_output):
+def test_list_date_time_pattern_1_nistxml_sv_iv_list_date_time_pattern_2_2(mode, save_output, output_format):
     r"""
     Type list/dateTime is restricted by facet pattern with value
     \d\d67-0\d-0\dT1\d:2\d:0\d 18\d\d-\d6-\d8T0\d:\d9:2\d
@@ -14615,11 +15566,12 @@ def test_list_date_time_pattern_1_nistxml_sv_iv_list_date_time_pattern_2_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_pattern_1_nistxml_sv_iv_list_date_time_pattern_2_3(mode, save_output):
+def test_list_date_time_pattern_1_nistxml_sv_iv_list_date_time_pattern_2_3(mode, save_output, output_format):
     r"""
     Type list/dateTime is restricted by facet pattern with value
     \d\d67-0\d-0\dT1\d:2\d:0\d 18\d\d-\d6-\d8T0\d:\d9:2\d
@@ -14634,11 +15586,12 @@ def test_list_date_time_pattern_1_nistxml_sv_iv_list_date_time_pattern_2_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_pattern_1_nistxml_sv_iv_list_date_time_pattern_2_4(mode, save_output):
+def test_list_date_time_pattern_1_nistxml_sv_iv_list_date_time_pattern_2_4(mode, save_output, output_format):
     r"""
     Type list/dateTime is restricted by facet pattern with value
     \d\d67-0\d-0\dT1\d:2\d:0\d 18\d\d-\d6-\d8T0\d:\d9:2\d
@@ -14653,11 +15606,12 @@ def test_list_date_time_pattern_1_nistxml_sv_iv_list_date_time_pattern_2_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_pattern_1_nistxml_sv_iv_list_date_time_pattern_2_5(mode, save_output):
+def test_list_date_time_pattern_1_nistxml_sv_iv_list_date_time_pattern_2_5(mode, save_output, output_format):
     r"""
     Type list/dateTime is restricted by facet pattern with value
     \d\d67-0\d-0\dT1\d:2\d:0\d 18\d\d-\d6-\d8T0\d:\d9:2\d
@@ -14672,11 +15626,12 @@ def test_list_date_time_pattern_1_nistxml_sv_iv_list_date_time_pattern_2_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_pattern_nistxml_sv_iv_list_date_time_pattern_1_1(mode, save_output):
+def test_list_date_time_pattern_nistxml_sv_iv_list_date_time_pattern_1_1(mode, save_output, output_format):
     r"""
     Type list/dateTime is restricted by facet pattern with value
     \d\d38-\d2-\d5T\d7:\d4:3\d \d\d33-\d5-1\dT\d6:5\d:1\d
@@ -14691,11 +15646,12 @@ def test_list_date_time_pattern_nistxml_sv_iv_list_date_time_pattern_1_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_pattern_nistxml_sv_iv_list_date_time_pattern_1_2(mode, save_output):
+def test_list_date_time_pattern_nistxml_sv_iv_list_date_time_pattern_1_2(mode, save_output, output_format):
     r"""
     Type list/dateTime is restricted by facet pattern with value
     \d\d38-\d2-\d5T\d7:\d4:3\d \d\d33-\d5-1\dT\d6:5\d:1\d
@@ -14710,11 +15666,12 @@ def test_list_date_time_pattern_nistxml_sv_iv_list_date_time_pattern_1_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_pattern_nistxml_sv_iv_list_date_time_pattern_1_3(mode, save_output):
+def test_list_date_time_pattern_nistxml_sv_iv_list_date_time_pattern_1_3(mode, save_output, output_format):
     r"""
     Type list/dateTime is restricted by facet pattern with value
     \d\d38-\d2-\d5T\d7:\d4:3\d \d\d33-\d5-1\dT\d6:5\d:1\d
@@ -14729,11 +15686,12 @@ def test_list_date_time_pattern_nistxml_sv_iv_list_date_time_pattern_1_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_pattern_nistxml_sv_iv_list_date_time_pattern_1_4(mode, save_output):
+def test_list_date_time_pattern_nistxml_sv_iv_list_date_time_pattern_1_4(mode, save_output, output_format):
     r"""
     Type list/dateTime is restricted by facet pattern with value
     \d\d38-\d2-\d5T\d7:\d4:3\d \d\d33-\d5-1\dT\d6:5\d:1\d
@@ -14748,11 +15706,12 @@ def test_list_date_time_pattern_nistxml_sv_iv_list_date_time_pattern_1_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_pattern_nistxml_sv_iv_list_date_time_pattern_1_5(mode, save_output):
+def test_list_date_time_pattern_nistxml_sv_iv_list_date_time_pattern_1_5(mode, save_output, output_format):
     r"""
     Type list/dateTime is restricted by facet pattern with value
     \d\d38-\d2-\d5T\d7:\d4:3\d \d\d33-\d5-1\dT\d6:5\d:1\d
@@ -14767,11 +15726,12 @@ def test_list_date_time_pattern_nistxml_sv_iv_list_date_time_pattern_1_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_length_4_nistxml_sv_iv_list_date_time_length_5_1(mode, save_output):
+def test_list_date_time_length_4_nistxml_sv_iv_list_date_time_length_5_1(mode, save_output, output_format):
     """
     Type list/dateTime is restricted by facet length with value 10.
     """
@@ -14782,11 +15742,12 @@ def test_list_date_time_length_4_nistxml_sv_iv_list_date_time_length_5_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_length_4_nistxml_sv_iv_list_date_time_length_5_2(mode, save_output):
+def test_list_date_time_length_4_nistxml_sv_iv_list_date_time_length_5_2(mode, save_output, output_format):
     """
     Type list/dateTime is restricted by facet length with value 10.
     """
@@ -14797,11 +15758,12 @@ def test_list_date_time_length_4_nistxml_sv_iv_list_date_time_length_5_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_length_4_nistxml_sv_iv_list_date_time_length_5_3(mode, save_output):
+def test_list_date_time_length_4_nistxml_sv_iv_list_date_time_length_5_3(mode, save_output, output_format):
     """
     Type list/dateTime is restricted by facet length with value 10.
     """
@@ -14812,11 +15774,12 @@ def test_list_date_time_length_4_nistxml_sv_iv_list_date_time_length_5_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_length_4_nistxml_sv_iv_list_date_time_length_5_4(mode, save_output):
+def test_list_date_time_length_4_nistxml_sv_iv_list_date_time_length_5_4(mode, save_output, output_format):
     """
     Type list/dateTime is restricted by facet length with value 10.
     """
@@ -14827,11 +15790,12 @@ def test_list_date_time_length_4_nistxml_sv_iv_list_date_time_length_5_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_length_4_nistxml_sv_iv_list_date_time_length_5_5(mode, save_output):
+def test_list_date_time_length_4_nistxml_sv_iv_list_date_time_length_5_5(mode, save_output, output_format):
     """
     Type list/dateTime is restricted by facet length with value 10.
     """
@@ -14842,11 +15806,12 @@ def test_list_date_time_length_4_nistxml_sv_iv_list_date_time_length_5_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_length_3_nistxml_sv_iv_list_date_time_length_4_1(mode, save_output):
+def test_list_date_time_length_3_nistxml_sv_iv_list_date_time_length_4_1(mode, save_output, output_format):
     """
     Type list/dateTime is restricted by facet length with value 8.
     """
@@ -14857,11 +15822,12 @@ def test_list_date_time_length_3_nistxml_sv_iv_list_date_time_length_4_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_length_3_nistxml_sv_iv_list_date_time_length_4_2(mode, save_output):
+def test_list_date_time_length_3_nistxml_sv_iv_list_date_time_length_4_2(mode, save_output, output_format):
     """
     Type list/dateTime is restricted by facet length with value 8.
     """
@@ -14872,11 +15838,12 @@ def test_list_date_time_length_3_nistxml_sv_iv_list_date_time_length_4_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_length_3_nistxml_sv_iv_list_date_time_length_4_3(mode, save_output):
+def test_list_date_time_length_3_nistxml_sv_iv_list_date_time_length_4_3(mode, save_output, output_format):
     """
     Type list/dateTime is restricted by facet length with value 8.
     """
@@ -14887,11 +15854,12 @@ def test_list_date_time_length_3_nistxml_sv_iv_list_date_time_length_4_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_length_3_nistxml_sv_iv_list_date_time_length_4_4(mode, save_output):
+def test_list_date_time_length_3_nistxml_sv_iv_list_date_time_length_4_4(mode, save_output, output_format):
     """
     Type list/dateTime is restricted by facet length with value 8.
     """
@@ -14902,11 +15870,12 @@ def test_list_date_time_length_3_nistxml_sv_iv_list_date_time_length_4_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_length_3_nistxml_sv_iv_list_date_time_length_4_5(mode, save_output):
+def test_list_date_time_length_3_nistxml_sv_iv_list_date_time_length_4_5(mode, save_output, output_format):
     """
     Type list/dateTime is restricted by facet length with value 8.
     """
@@ -14917,11 +15886,12 @@ def test_list_date_time_length_3_nistxml_sv_iv_list_date_time_length_4_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_length_2_nistxml_sv_iv_list_date_time_length_3_1(mode, save_output):
+def test_list_date_time_length_2_nistxml_sv_iv_list_date_time_length_3_1(mode, save_output, output_format):
     """
     Type list/dateTime is restricted by facet length with value 7.
     """
@@ -14932,11 +15902,12 @@ def test_list_date_time_length_2_nistxml_sv_iv_list_date_time_length_3_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_length_2_nistxml_sv_iv_list_date_time_length_3_2(mode, save_output):
+def test_list_date_time_length_2_nistxml_sv_iv_list_date_time_length_3_2(mode, save_output, output_format):
     """
     Type list/dateTime is restricted by facet length with value 7.
     """
@@ -14947,11 +15918,12 @@ def test_list_date_time_length_2_nistxml_sv_iv_list_date_time_length_3_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_length_2_nistxml_sv_iv_list_date_time_length_3_3(mode, save_output):
+def test_list_date_time_length_2_nistxml_sv_iv_list_date_time_length_3_3(mode, save_output, output_format):
     """
     Type list/dateTime is restricted by facet length with value 7.
     """
@@ -14962,11 +15934,12 @@ def test_list_date_time_length_2_nistxml_sv_iv_list_date_time_length_3_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_length_2_nistxml_sv_iv_list_date_time_length_3_4(mode, save_output):
+def test_list_date_time_length_2_nistxml_sv_iv_list_date_time_length_3_4(mode, save_output, output_format):
     """
     Type list/dateTime is restricted by facet length with value 7.
     """
@@ -14977,11 +15950,12 @@ def test_list_date_time_length_2_nistxml_sv_iv_list_date_time_length_3_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_length_2_nistxml_sv_iv_list_date_time_length_3_5(mode, save_output):
+def test_list_date_time_length_2_nistxml_sv_iv_list_date_time_length_3_5(mode, save_output, output_format):
     """
     Type list/dateTime is restricted by facet length with value 7.
     """
@@ -14992,11 +15966,12 @@ def test_list_date_time_length_2_nistxml_sv_iv_list_date_time_length_3_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_length_1_nistxml_sv_iv_list_date_time_length_2_1(mode, save_output):
+def test_list_date_time_length_1_nistxml_sv_iv_list_date_time_length_2_1(mode, save_output, output_format):
     """
     Type list/dateTime is restricted by facet length with value 6.
     """
@@ -15007,11 +15982,12 @@ def test_list_date_time_length_1_nistxml_sv_iv_list_date_time_length_2_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_length_1_nistxml_sv_iv_list_date_time_length_2_2(mode, save_output):
+def test_list_date_time_length_1_nistxml_sv_iv_list_date_time_length_2_2(mode, save_output, output_format):
     """
     Type list/dateTime is restricted by facet length with value 6.
     """
@@ -15022,11 +15998,12 @@ def test_list_date_time_length_1_nistxml_sv_iv_list_date_time_length_2_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_length_1_nistxml_sv_iv_list_date_time_length_2_3(mode, save_output):
+def test_list_date_time_length_1_nistxml_sv_iv_list_date_time_length_2_3(mode, save_output, output_format):
     """
     Type list/dateTime is restricted by facet length with value 6.
     """
@@ -15037,11 +16014,12 @@ def test_list_date_time_length_1_nistxml_sv_iv_list_date_time_length_2_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_length_1_nistxml_sv_iv_list_date_time_length_2_4(mode, save_output):
+def test_list_date_time_length_1_nistxml_sv_iv_list_date_time_length_2_4(mode, save_output, output_format):
     """
     Type list/dateTime is restricted by facet length with value 6.
     """
@@ -15052,11 +16030,12 @@ def test_list_date_time_length_1_nistxml_sv_iv_list_date_time_length_2_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_length_1_nistxml_sv_iv_list_date_time_length_2_5(mode, save_output):
+def test_list_date_time_length_1_nistxml_sv_iv_list_date_time_length_2_5(mode, save_output, output_format):
     """
     Type list/dateTime is restricted by facet length with value 6.
     """
@@ -15067,11 +16046,12 @@ def test_list_date_time_length_1_nistxml_sv_iv_list_date_time_length_2_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_length_nistxml_sv_iv_list_date_time_length_1_1(mode, save_output):
+def test_list_date_time_length_nistxml_sv_iv_list_date_time_length_1_1(mode, save_output, output_format):
     """
     Type list/dateTime is restricted by facet length with value 5.
     """
@@ -15082,11 +16062,12 @@ def test_list_date_time_length_nistxml_sv_iv_list_date_time_length_1_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_length_nistxml_sv_iv_list_date_time_length_1_2(mode, save_output):
+def test_list_date_time_length_nistxml_sv_iv_list_date_time_length_1_2(mode, save_output, output_format):
     """
     Type list/dateTime is restricted by facet length with value 5.
     """
@@ -15097,11 +16078,12 @@ def test_list_date_time_length_nistxml_sv_iv_list_date_time_length_1_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_length_nistxml_sv_iv_list_date_time_length_1_3(mode, save_output):
+def test_list_date_time_length_nistxml_sv_iv_list_date_time_length_1_3(mode, save_output, output_format):
     """
     Type list/dateTime is restricted by facet length with value 5.
     """
@@ -15112,11 +16094,12 @@ def test_list_date_time_length_nistxml_sv_iv_list_date_time_length_1_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_length_nistxml_sv_iv_list_date_time_length_1_4(mode, save_output):
+def test_list_date_time_length_nistxml_sv_iv_list_date_time_length_1_4(mode, save_output, output_format):
     """
     Type list/dateTime is restricted by facet length with value 5.
     """
@@ -15127,11 +16110,12 @@ def test_list_date_time_length_nistxml_sv_iv_list_date_time_length_1_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_length_nistxml_sv_iv_list_date_time_length_1_5(mode, save_output):
+def test_list_date_time_length_nistxml_sv_iv_list_date_time_length_1_5(mode, save_output, output_format):
     """
     Type list/dateTime is restricted by facet length with value 5.
     """
@@ -15142,11 +16126,12 @@ def test_list_date_time_length_nistxml_sv_iv_list_date_time_length_1_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_min_length_4_nistxml_sv_iv_list_date_time_min_length_5_1(mode, save_output):
+def test_list_date_time_min_length_4_nistxml_sv_iv_list_date_time_min_length_5_1(mode, save_output, output_format):
     """
     Type list/dateTime is restricted by facet minLength with value 10.
     """
@@ -15157,11 +16142,12 @@ def test_list_date_time_min_length_4_nistxml_sv_iv_list_date_time_min_length_5_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_min_length_4_nistxml_sv_iv_list_date_time_min_length_5_2(mode, save_output):
+def test_list_date_time_min_length_4_nistxml_sv_iv_list_date_time_min_length_5_2(mode, save_output, output_format):
     """
     Type list/dateTime is restricted by facet minLength with value 10.
     """
@@ -15172,11 +16158,12 @@ def test_list_date_time_min_length_4_nistxml_sv_iv_list_date_time_min_length_5_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_min_length_4_nistxml_sv_iv_list_date_time_min_length_5_3(mode, save_output):
+def test_list_date_time_min_length_4_nistxml_sv_iv_list_date_time_min_length_5_3(mode, save_output, output_format):
     """
     Type list/dateTime is restricted by facet minLength with value 10.
     """
@@ -15187,11 +16174,12 @@ def test_list_date_time_min_length_4_nistxml_sv_iv_list_date_time_min_length_5_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_min_length_4_nistxml_sv_iv_list_date_time_min_length_5_4(mode, save_output):
+def test_list_date_time_min_length_4_nistxml_sv_iv_list_date_time_min_length_5_4(mode, save_output, output_format):
     """
     Type list/dateTime is restricted by facet minLength with value 10.
     """
@@ -15202,11 +16190,12 @@ def test_list_date_time_min_length_4_nistxml_sv_iv_list_date_time_min_length_5_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_min_length_4_nistxml_sv_iv_list_date_time_min_length_5_5(mode, save_output):
+def test_list_date_time_min_length_4_nistxml_sv_iv_list_date_time_min_length_5_5(mode, save_output, output_format):
     """
     Type list/dateTime is restricted by facet minLength with value 10.
     """
@@ -15217,11 +16206,12 @@ def test_list_date_time_min_length_4_nistxml_sv_iv_list_date_time_min_length_5_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_min_length_3_nistxml_sv_iv_list_date_time_min_length_4_1(mode, save_output):
+def test_list_date_time_min_length_3_nistxml_sv_iv_list_date_time_min_length_4_1(mode, save_output, output_format):
     """
     Type list/dateTime is restricted by facet minLength with value 8.
     """
@@ -15232,11 +16222,12 @@ def test_list_date_time_min_length_3_nistxml_sv_iv_list_date_time_min_length_4_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_min_length_3_nistxml_sv_iv_list_date_time_min_length_4_2(mode, save_output):
+def test_list_date_time_min_length_3_nistxml_sv_iv_list_date_time_min_length_4_2(mode, save_output, output_format):
     """
     Type list/dateTime is restricted by facet minLength with value 8.
     """
@@ -15247,11 +16238,12 @@ def test_list_date_time_min_length_3_nistxml_sv_iv_list_date_time_min_length_4_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_min_length_3_nistxml_sv_iv_list_date_time_min_length_4_3(mode, save_output):
+def test_list_date_time_min_length_3_nistxml_sv_iv_list_date_time_min_length_4_3(mode, save_output, output_format):
     """
     Type list/dateTime is restricted by facet minLength with value 8.
     """
@@ -15262,11 +16254,12 @@ def test_list_date_time_min_length_3_nistxml_sv_iv_list_date_time_min_length_4_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_min_length_3_nistxml_sv_iv_list_date_time_min_length_4_4(mode, save_output):
+def test_list_date_time_min_length_3_nistxml_sv_iv_list_date_time_min_length_4_4(mode, save_output, output_format):
     """
     Type list/dateTime is restricted by facet minLength with value 8.
     """
@@ -15277,11 +16270,12 @@ def test_list_date_time_min_length_3_nistxml_sv_iv_list_date_time_min_length_4_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_min_length_3_nistxml_sv_iv_list_date_time_min_length_4_5(mode, save_output):
+def test_list_date_time_min_length_3_nistxml_sv_iv_list_date_time_min_length_4_5(mode, save_output, output_format):
     """
     Type list/dateTime is restricted by facet minLength with value 8.
     """
@@ -15292,11 +16286,12 @@ def test_list_date_time_min_length_3_nistxml_sv_iv_list_date_time_min_length_4_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_min_length_2_nistxml_sv_iv_list_date_time_min_length_3_1(mode, save_output):
+def test_list_date_time_min_length_2_nistxml_sv_iv_list_date_time_min_length_3_1(mode, save_output, output_format):
     """
     Type list/dateTime is restricted by facet minLength with value 7.
     """
@@ -15307,11 +16302,12 @@ def test_list_date_time_min_length_2_nistxml_sv_iv_list_date_time_min_length_3_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_min_length_2_nistxml_sv_iv_list_date_time_min_length_3_2(mode, save_output):
+def test_list_date_time_min_length_2_nistxml_sv_iv_list_date_time_min_length_3_2(mode, save_output, output_format):
     """
     Type list/dateTime is restricted by facet minLength with value 7.
     """
@@ -15322,11 +16318,12 @@ def test_list_date_time_min_length_2_nistxml_sv_iv_list_date_time_min_length_3_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_min_length_2_nistxml_sv_iv_list_date_time_min_length_3_3(mode, save_output):
+def test_list_date_time_min_length_2_nistxml_sv_iv_list_date_time_min_length_3_3(mode, save_output, output_format):
     """
     Type list/dateTime is restricted by facet minLength with value 7.
     """
@@ -15337,11 +16334,12 @@ def test_list_date_time_min_length_2_nistxml_sv_iv_list_date_time_min_length_3_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_min_length_2_nistxml_sv_iv_list_date_time_min_length_3_4(mode, save_output):
+def test_list_date_time_min_length_2_nistxml_sv_iv_list_date_time_min_length_3_4(mode, save_output, output_format):
     """
     Type list/dateTime is restricted by facet minLength with value 7.
     """
@@ -15352,11 +16350,12 @@ def test_list_date_time_min_length_2_nistxml_sv_iv_list_date_time_min_length_3_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_list_date_time_min_length_2_nistxml_sv_iv_list_date_time_min_length_3_5(mode, save_output):
+def test_list_date_time_min_length_2_nistxml_sv_iv_list_date_time_min_length_3_5(mode, save_output, output_format):
     """
     Type list/dateTime is restricted by facet minLength with value 7.
     """
@@ -15367,5 +16366,6 @@ def test_list_date_time_min_length_2_nistxml_sv_iv_list_date_time_min_length_3_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )

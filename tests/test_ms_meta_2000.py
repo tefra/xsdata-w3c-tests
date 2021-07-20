@@ -3,7 +3,7 @@ import pytest
 from tests.utils import assert_bindings
 
 
-def test_g_day_min_inclusive005_1268_g_day_min_inclusive005_1268_v(mode, save_output):
+def test_g_day_min_inclusive005_1268_g_day_min_inclusive005_1268_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minInclusive and value=- - -01
     and facet=maxExclusive and value=- - -30) and document value=- - -15
@@ -15,11 +15,12 @@ def test_g_day_min_inclusive005_1268_g_day_min_inclusive005_1268_v(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_g_day_min_inclusive004_1267_g_day_min_inclusive004_1267_v(mode, save_output):
+def test_g_day_min_inclusive004_1267_g_day_min_inclusive004_1267_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minInclusive and value=- - -01
     and facet=maxInclusive and value=- - -30) and document value=- - -15
@@ -31,11 +32,12 @@ def test_g_day_min_inclusive004_1267_g_day_min_inclusive004_1267_v(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_g_day_min_inclusive003_1266_g_day_min_inclusive003_1266_v(mode, save_output):
+def test_g_day_min_inclusive003_1266_g_day_min_inclusive003_1266_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minInclusive and value=- - -01
     and document value=- - -15
@@ -47,11 +49,12 @@ def test_g_day_min_inclusive003_1266_g_day_min_inclusive003_1266_v(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_g_day_min_inclusive001_1264_g_day_min_inclusive001_1264_v(mode, save_output):
+def test_g_day_min_inclusive001_1264_g_day_min_inclusive001_1264_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minInclusive and value=- - -01
     and document value=- - -01
@@ -63,11 +66,12 @@ def test_g_day_min_inclusive001_1264_g_day_min_inclusive001_1264_v(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_g_day_max_exclusive003_1263_g_day_max_exclusive003_1263_v(mode, save_output):
+def test_g_day_max_exclusive003_1263_g_day_max_exclusive003_1263_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxExclusive and value=- - -30
     and document value=- - -15
@@ -79,11 +83,12 @@ def test_g_day_max_exclusive003_1263_g_day_max_exclusive003_1263_v(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_g_day_max_inclusive003_1260_g_day_max_inclusive003_1260_v(mode, save_output):
+def test_g_day_max_inclusive003_1260_g_day_max_inclusive003_1260_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxInclusive and value=- - -30
     and document value=- - -15
@@ -95,11 +100,12 @@ def test_g_day_max_inclusive003_1260_g_day_max_inclusive003_1260_v(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_g_day_max_inclusive001_1258_g_day_max_inclusive001_1258_v(mode, save_output):
+def test_g_day_max_inclusive001_1258_g_day_max_inclusive001_1258_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxInclusive and value=- - -01
     and document value=- - -01
@@ -111,11 +117,12 @@ def test_g_day_max_inclusive001_1258_g_day_max_inclusive001_1258_v(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_g_day_enumeration004_1257_g_day_enumeration004_1257_v(mode, save_output):
+def test_g_day_enumeration004_1257_g_day_enumeration004_1257_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=enumeration and value=- - -15 -
     - -01 - - -30 and document value=- - -15
@@ -127,11 +134,12 @@ def test_g_day_enumeration004_1257_g_day_enumeration004_1257_v(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_g_day_enumeration002_1255_g_day_enumeration002_1255_v(mode, save_output):
+def test_g_day_enumeration002_1255_g_day_enumeration002_1255_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=enumeration and value=- - -15
     and document value=- - -15
@@ -143,11 +151,12 @@ def test_g_day_enumeration002_1255_g_day_enumeration002_1255_v(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_g_day_pattern001_1253_g_day_pattern001_1253_v(mode, save_output):
+def test_g_day_pattern001_1253_g_day_pattern001_1253_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=pattern and value=- - -[0-9]{2}
     and document value=- - -15
@@ -159,11 +168,12 @@ def test_g_day_pattern001_1253_g_day_pattern001_1253_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_g_month_day_min_exclusive005_1252_g_month_day_min_exclusive005_1252_v(mode, save_output):
+def test_g_month_day_min_exclusive005_1252_g_month_day_min_exclusive005_1252_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minExclusive and value=-
     -01-01 and facet=maxExclusive and value=- -10-01) and document value=-
@@ -176,11 +186,12 @@ def test_g_month_day_min_exclusive005_1252_g_month_day_min_exclusive005_1252_v(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_g_month_day_min_exclusive004_1251_g_month_day_min_exclusive004_1251_v(mode, save_output):
+def test_g_month_day_min_exclusive004_1251_g_month_day_min_exclusive004_1251_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minExclusive and value=-
     -01-01 and facet=maxInclusive and value=- -10-01) and document value=-
@@ -193,11 +204,12 @@ def test_g_month_day_min_exclusive004_1251_g_month_day_min_exclusive004_1251_v(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_g_month_day_min_exclusive003_1250_g_month_day_min_exclusive003_1250_v(mode, save_output):
+def test_g_month_day_min_exclusive003_1250_g_month_day_min_exclusive003_1250_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minExclusive and value=- -01-01
     and document value=- -03-15
@@ -209,11 +221,12 @@ def test_g_month_day_min_exclusive003_1250_g_month_day_min_exclusive003_1250_v(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_g_month_day_min_inclusive005_1247_g_month_day_min_inclusive005_1247_v(mode, save_output):
+def test_g_month_day_min_inclusive005_1247_g_month_day_min_inclusive005_1247_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minInclusive and value=-
     -01-01 and facet=maxExclusive and value=- -10-01) and document value=-
@@ -226,11 +239,12 @@ def test_g_month_day_min_inclusive005_1247_g_month_day_min_inclusive005_1247_v(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_g_month_day_min_inclusive004_1246_g_month_day_min_inclusive004_1246_v(mode, save_output):
+def test_g_month_day_min_inclusive004_1246_g_month_day_min_inclusive004_1246_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minInclusive and value=-
     -01-01 and facet=maxInclusive and value=- -10-01) and document value=-
@@ -243,11 +257,12 @@ def test_g_month_day_min_inclusive004_1246_g_month_day_min_inclusive004_1246_v(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_g_month_day_min_inclusive003_1245_g_month_day_min_inclusive003_1245_v(mode, save_output):
+def test_g_month_day_min_inclusive003_1245_g_month_day_min_inclusive003_1245_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minInclusive and value=- -01-01
     and document value=- -03-15
@@ -259,11 +274,12 @@ def test_g_month_day_min_inclusive003_1245_g_month_day_min_inclusive003_1245_v(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_g_month_day_min_inclusive001_1243_g_month_day_min_inclusive001_1243_v(mode, save_output):
+def test_g_month_day_min_inclusive001_1243_g_month_day_min_inclusive001_1243_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minInclusive and value=- -01-01
     and document value=- -01-01
@@ -275,11 +291,12 @@ def test_g_month_day_min_inclusive001_1243_g_month_day_min_inclusive001_1243_v(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_g_month_day_max_exclusive003_1242_g_month_day_max_exclusive003_1242_v(mode, save_output):
+def test_g_month_day_max_exclusive003_1242_g_month_day_max_exclusive003_1242_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxExclusive and value=- -10-01
     and document value=- -03-15
@@ -291,11 +308,12 @@ def test_g_month_day_max_exclusive003_1242_g_month_day_max_exclusive003_1242_v(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_g_month_day_max_inclusive003_1239_g_month_day_max_inclusive003_1239_v(mode, save_output):
+def test_g_month_day_max_inclusive003_1239_g_month_day_max_inclusive003_1239_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxInclusive and value=- -10-01
     and document value=- -03-15
@@ -307,11 +325,12 @@ def test_g_month_day_max_inclusive003_1239_g_month_day_max_inclusive003_1239_v(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_g_month_day_max_inclusive001_1237_g_month_day_max_inclusive001_1237_v(mode, save_output):
+def test_g_month_day_max_inclusive001_1237_g_month_day_max_inclusive001_1237_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxInclusive and value=- -01-01
     and document value=- -01-01
@@ -323,11 +342,12 @@ def test_g_month_day_max_inclusive001_1237_g_month_day_max_inclusive001_1237_v(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_g_month_day_enumeration004_1236_g_month_day_enumeration004_1236_v(mode, save_output):
+def test_g_month_day_enumeration004_1236_g_month_day_enumeration004_1236_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=enumeration and value=- -03-15
     - -01-01 - -10-01 and document value=- -03-15
@@ -339,11 +359,12 @@ def test_g_month_day_enumeration004_1236_g_month_day_enumeration004_1236_v(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_g_month_day_enumeration002_1234_g_month_day_enumeration002_1234_v(mode, save_output):
+def test_g_month_day_enumeration002_1234_g_month_day_enumeration002_1234_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=enumeration and value=- -03-15
     and document value=- -03-15
@@ -355,11 +376,12 @@ def test_g_month_day_enumeration002_1234_g_month_day_enumeration002_1234_v(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_g_month_day_pattern001_1232_g_month_day_pattern001_1232_v(mode, save_output):
+def test_g_month_day_pattern001_1232_g_month_day_pattern001_1232_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=pattern and value=-
     -[0-9]{2}-[0-9]{2} and document value=- -03-15
@@ -371,11 +393,12 @@ def test_g_month_day_pattern001_1232_g_month_day_pattern001_1232_v(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_g_year_min_exclusive005_1231_g_year_min_exclusive005_1231_v(mode, save_output):
+def test_g_year_min_exclusive005_1231_g_year_min_exclusive005_1231_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minExclusive and value=1998
     and facet=maxExclusive and value=2002) and document value=2000
@@ -387,11 +410,12 @@ def test_g_year_min_exclusive005_1231_g_year_min_exclusive005_1231_v(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_g_year_min_exclusive004_1230_g_year_min_exclusive004_1230_v(mode, save_output):
+def test_g_year_min_exclusive004_1230_g_year_min_exclusive004_1230_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minExclusive and value=1998
     and facet=maxInclusive and value=2002) and document value=2000
@@ -403,11 +427,12 @@ def test_g_year_min_exclusive004_1230_g_year_min_exclusive004_1230_v(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_g_year_min_exclusive003_1229_g_year_min_exclusive003_1229_v(mode, save_output):
+def test_g_year_min_exclusive003_1229_g_year_min_exclusive003_1229_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minExclusive and value=1998 and
     document value=2000
@@ -419,11 +444,12 @@ def test_g_year_min_exclusive003_1229_g_year_min_exclusive003_1229_v(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_g_year_min_inclusive005_1226_g_year_min_inclusive005_1226_v(mode, save_output):
+def test_g_year_min_inclusive005_1226_g_year_min_inclusive005_1226_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minInclusive and value=1998
     and facet=maxExclusive and value=2002) and document value=2000
@@ -435,11 +461,12 @@ def test_g_year_min_inclusive005_1226_g_year_min_inclusive005_1226_v(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_g_year_min_inclusive004_1225_g_year_min_inclusive004_1225_v(mode, save_output):
+def test_g_year_min_inclusive004_1225_g_year_min_inclusive004_1225_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minInclusive and value=1998
     and facet=maxInclusive and value=2002) and document value=2000
@@ -451,11 +478,12 @@ def test_g_year_min_inclusive004_1225_g_year_min_inclusive004_1225_v(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_g_year_min_inclusive003_1224_g_year_min_inclusive003_1224_v(mode, save_output):
+def test_g_year_min_inclusive003_1224_g_year_min_inclusive003_1224_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minInclusive and value=1998 and
     document value=2000
@@ -467,11 +495,12 @@ def test_g_year_min_inclusive003_1224_g_year_min_inclusive003_1224_v(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_g_year_min_inclusive001_1222_g_year_min_inclusive001_1222_v(mode, save_output):
+def test_g_year_min_inclusive001_1222_g_year_min_inclusive001_1222_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minInclusive and value=1998 and
     document value=1998
@@ -483,11 +512,12 @@ def test_g_year_min_inclusive001_1222_g_year_min_inclusive001_1222_v(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_g_year_max_exclusive003_1221_g_year_max_exclusive003_1221_v(mode, save_output):
+def test_g_year_max_exclusive003_1221_g_year_max_exclusive003_1221_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxExclusive and value=2002 and
     document value=2000
@@ -499,11 +529,12 @@ def test_g_year_max_exclusive003_1221_g_year_max_exclusive003_1221_v(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_g_year_max_inclusive003_1218_g_year_max_inclusive003_1218_v(mode, save_output):
+def test_g_year_max_inclusive003_1218_g_year_max_inclusive003_1218_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxInclusive and value=2002 and
     document value=2000
@@ -515,11 +546,12 @@ def test_g_year_max_inclusive003_1218_g_year_max_inclusive003_1218_v(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_g_year_max_inclusive001_1216_g_year_max_inclusive001_1216_v(mode, save_output):
+def test_g_year_max_inclusive001_1216_g_year_max_inclusive001_1216_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxInclusive and value=1998 and
     document value=1998
@@ -531,11 +563,12 @@ def test_g_year_max_inclusive001_1216_g_year_max_inclusive001_1216_v(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_g_year_enumeration004_1215_g_year_enumeration004_1215_v(mode, save_output):
+def test_g_year_enumeration004_1215_g_year_enumeration004_1215_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=enumeration and value=2000 1999
     2038 and document value=2000
@@ -547,11 +580,12 @@ def test_g_year_enumeration004_1215_g_year_enumeration004_1215_v(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_g_year_enumeration002_1213_g_year_enumeration002_1213_v(mode, save_output):
+def test_g_year_enumeration002_1213_g_year_enumeration002_1213_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=enumeration and value=2000 and
     document value=2000
@@ -563,11 +597,12 @@ def test_g_year_enumeration002_1213_g_year_enumeration002_1213_v(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_g_year_pattern001_1211_g_year_pattern001_1211_v(mode, save_output):
+def test_g_year_pattern001_1211_g_year_pattern001_1211_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=pattern and value=[0-9]{4} and
     document value=2000
@@ -579,11 +614,12 @@ def test_g_year_pattern001_1211_g_year_pattern001_1211_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_g_year_month_min_exclusive005_1210_g_year_month_min_exclusive005_1210_v(mode, save_output):
+def test_g_year_month_min_exclusive005_1210_g_year_month_min_exclusive005_1210_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minExclusive and value=2000-12
     and facet=maxExclusive and value=2001-12) and document value=2001-03
@@ -595,11 +631,12 @@ def test_g_year_month_min_exclusive005_1210_g_year_month_min_exclusive005_1210_v
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_g_year_month_min_exclusive004_1209_g_year_month_min_exclusive004_1209_v(mode, save_output):
+def test_g_year_month_min_exclusive004_1209_g_year_month_min_exclusive004_1209_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minExclusive and value=2000-12
     and facet=maxInclusive and value=2001-12) and document value=2001-03
@@ -611,11 +648,12 @@ def test_g_year_month_min_exclusive004_1209_g_year_month_min_exclusive004_1209_v
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_g_year_month_min_exclusive003_1208_g_year_month_min_exclusive003_1208_v(mode, save_output):
+def test_g_year_month_min_exclusive003_1208_g_year_month_min_exclusive003_1208_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minExclusive and value=2000-12
     and document value=2001-03
@@ -627,11 +665,12 @@ def test_g_year_month_min_exclusive003_1208_g_year_month_min_exclusive003_1208_v
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_g_year_month_min_inclusive005_1205_g_year_month_min_inclusive005_1205_v(mode, save_output):
+def test_g_year_month_min_inclusive005_1205_g_year_month_min_inclusive005_1205_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minInclusive and value=2000-12
     and facet=maxExclusive and value=2001-12) and document value=2001-03
@@ -643,11 +682,12 @@ def test_g_year_month_min_inclusive005_1205_g_year_month_min_inclusive005_1205_v
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_g_year_month_min_inclusive004_1204_g_year_month_min_inclusive004_1204_v(mode, save_output):
+def test_g_year_month_min_inclusive004_1204_g_year_month_min_inclusive004_1204_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minInclusive and value=2000-12
     and facet=maxInclusive and value=2001-12) and document value=2001-03
@@ -659,11 +699,12 @@ def test_g_year_month_min_inclusive004_1204_g_year_month_min_inclusive004_1204_v
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_g_year_month_min_inclusive003_1203_g_year_month_min_inclusive003_1203_v(mode, save_output):
+def test_g_year_month_min_inclusive003_1203_g_year_month_min_inclusive003_1203_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minInclusive and value=2000-12
     and document value=2001-03
@@ -675,11 +716,12 @@ def test_g_year_month_min_inclusive003_1203_g_year_month_min_inclusive003_1203_v
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_g_year_month_min_inclusive001_1201_g_year_month_min_inclusive001_1201_v(mode, save_output):
+def test_g_year_month_min_inclusive001_1201_g_year_month_min_inclusive001_1201_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minInclusive and value=2000-12
     and document value=2000-12
@@ -691,11 +733,12 @@ def test_g_year_month_min_inclusive001_1201_g_year_month_min_inclusive001_1201_v
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_g_year_month_max_exclusive003_1200_g_year_month_max_exclusive003_1200_v(mode, save_output):
+def test_g_year_month_max_exclusive003_1200_g_year_month_max_exclusive003_1200_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxExclusive and value=2001-12
     and document value=2001-03
@@ -707,11 +750,12 @@ def test_g_year_month_max_exclusive003_1200_g_year_month_max_exclusive003_1200_v
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_g_year_month_max_inclusive003_1197_g_year_month_max_inclusive003_1197_v(mode, save_output):
+def test_g_year_month_max_inclusive003_1197_g_year_month_max_inclusive003_1197_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxInclusive and value=2001-12
     and document value=2001-03
@@ -723,11 +767,12 @@ def test_g_year_month_max_inclusive003_1197_g_year_month_max_inclusive003_1197_v
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_g_year_month_max_inclusive001_1195_g_year_month_max_inclusive001_1195_v(mode, save_output):
+def test_g_year_month_max_inclusive001_1195_g_year_month_max_inclusive001_1195_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxInclusive and value=2000-12
     and document value=2000-12
@@ -739,11 +784,12 @@ def test_g_year_month_max_inclusive001_1195_g_year_month_max_inclusive001_1195_v
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_g_year_month_enumeration004_1194_g_year_month_enumeration004_1194_v(mode, save_output):
+def test_g_year_month_enumeration004_1194_g_year_month_enumeration004_1194_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=enumeration and value=2001-03
     2000-10 2001-12 and document value=2001-03
@@ -755,11 +801,12 @@ def test_g_year_month_enumeration004_1194_g_year_month_enumeration004_1194_v(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_g_year_month_enumeration002_1192_g_year_month_enumeration002_1192_v(mode, save_output):
+def test_g_year_month_enumeration002_1192_g_year_month_enumeration002_1192_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=enumeration and value=2001-03
     and document value=2001-03
@@ -771,11 +818,12 @@ def test_g_year_month_enumeration002_1192_g_year_month_enumeration002_1192_v(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_g_year_month_pattern001_1190_g_year_month_pattern001_1190_v(mode, save_output):
+def test_g_year_month_pattern001_1190_g_year_month_pattern001_1190_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=pattern and
     value=[0-9]{4}-[0-9]{2} and document value=2001-03
@@ -787,11 +835,12 @@ def test_g_year_month_pattern001_1190_g_year_month_pattern001_1190_v(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_date_min_exclusive005_1189_date_min_exclusive005_1189_v(mode, save_output):
+def test_date_min_exclusive005_1189_date_min_exclusive005_1189_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minExclusive and
     value=1999-01-31 and facet=maxExclusive and value=2000-05-31) and
@@ -804,11 +853,12 @@ def test_date_min_exclusive005_1189_date_min_exclusive005_1189_v(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_date_min_exclusive004_1188_date_min_exclusive004_1188_v(mode, save_output):
+def test_date_min_exclusive004_1188_date_min_exclusive004_1188_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minExclusive and
     value=1999-01-31 and facet=maxInclusive and value=2000-05-31) and
@@ -821,11 +871,12 @@ def test_date_min_exclusive004_1188_date_min_exclusive004_1188_v(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_date_min_exclusive003_1187_date_min_exclusive003_1187_v(mode, save_output):
+def test_date_min_exclusive003_1187_date_min_exclusive003_1187_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minExclusive and
     value=1999-01-31 and document value=1999-05-31
@@ -837,11 +888,12 @@ def test_date_min_exclusive003_1187_date_min_exclusive003_1187_v(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_date_min_inclusive005_1184_date_min_inclusive005_1184_v(mode, save_output):
+def test_date_min_inclusive005_1184_date_min_inclusive005_1184_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minInclusive and
     value=1999-01-31 and facet=maxExclusive and value=2000-05-31) and
@@ -854,11 +906,12 @@ def test_date_min_inclusive005_1184_date_min_inclusive005_1184_v(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_date_min_inclusive004_1183_date_min_inclusive004_1183_v(mode, save_output):
+def test_date_min_inclusive004_1183_date_min_inclusive004_1183_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minInclusive and
     value=1999-01-31 and facet=maxInclusive and value=2000-05-31) and
@@ -871,11 +924,12 @@ def test_date_min_inclusive004_1183_date_min_inclusive004_1183_v(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_date_min_inclusive003_1182_date_min_inclusive003_1182_v(mode, save_output):
+def test_date_min_inclusive003_1182_date_min_inclusive003_1182_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minInclusive and
     value=1999-01-31 and document value=1999-05-31
@@ -887,11 +941,12 @@ def test_date_min_inclusive003_1182_date_min_inclusive003_1182_v(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_date_min_inclusive001_1180_date_min_inclusive001_1180_v(mode, save_output):
+def test_date_min_inclusive001_1180_date_min_inclusive001_1180_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minInclusive and
     value=1999-01-31 and document value=1999-01-31
@@ -903,11 +958,12 @@ def test_date_min_inclusive001_1180_date_min_inclusive001_1180_v(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_date_max_exclusive003_1179_date_max_exclusive003_1179_v(mode, save_output):
+def test_date_max_exclusive003_1179_date_max_exclusive003_1179_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxExclusive and
     value=2000-05-31 and document value=1999-05-31
@@ -919,11 +975,12 @@ def test_date_max_exclusive003_1179_date_max_exclusive003_1179_v(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_date_max_inclusive003_1176_date_max_inclusive003_1176_v(mode, save_output):
+def test_date_max_inclusive003_1176_date_max_inclusive003_1176_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxInclusive and
     value=2000-05-31 and document value=1999-05-31
@@ -935,11 +992,12 @@ def test_date_max_inclusive003_1176_date_max_inclusive003_1176_v(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_date_max_inclusive001_1174_date_max_inclusive001_1174_v(mode, save_output):
+def test_date_max_inclusive001_1174_date_max_inclusive001_1174_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxInclusive and
     value=1999-01-31 and document value=1999-01-31
@@ -951,11 +1009,12 @@ def test_date_max_inclusive001_1174_date_max_inclusive001_1174_v(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_date_enumeration004_1173_date_enumeration004_1173_v(mode, save_output):
+def test_date_enumeration004_1173_date_enumeration004_1173_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=enumeration and
     value=1999-05-31 1999-07-31 2000-03-10 and document value=1999-05-31
@@ -967,11 +1026,12 @@ def test_date_enumeration004_1173_date_enumeration004_1173_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_date_enumeration002_1171_date_enumeration002_1171_v(mode, save_output):
+def test_date_enumeration002_1171_date_enumeration002_1171_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=enumeration and
     value=1999-05-31 and document value=1999-05-31
@@ -983,11 +1043,12 @@ def test_date_enumeration002_1171_date_enumeration002_1171_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_date_pattern001_1169_date_pattern001_1169_v(mode, save_output):
+def test_date_pattern001_1169_date_pattern001_1169_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=pattern and
     value=[0-9]{4}-[0-9]{2}-[0-9]{2} and document value=1999-05-31
@@ -999,11 +1060,12 @@ def test_date_pattern001_1169_date_pattern001_1169_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_time_min_exclusive005_1168_time_min_exclusive005_1168_v(mode, save_output):
+def test_time_min_exclusive005_1168_time_min_exclusive005_1168_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minExclusive and
     value=10:21:00-05:00 and facet=maxExclusive and value=13:20:00-04:00)
@@ -1016,11 +1078,12 @@ def test_time_min_exclusive005_1168_time_min_exclusive005_1168_v(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_time_min_exclusive004_1167_time_min_exclusive004_1167_v(mode, save_output):
+def test_time_min_exclusive004_1167_time_min_exclusive004_1167_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minExclusive and
     value=10:21:00-05:00 and facet=maxInclusive and value=13:20:00-04:00)
@@ -1033,11 +1096,12 @@ def test_time_min_exclusive004_1167_time_min_exclusive004_1167_v(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_time_min_exclusive003_1166_time_min_exclusive003_1166_v(mode, save_output):
+def test_time_min_exclusive003_1166_time_min_exclusive003_1166_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minExclusive and
     value=10:21:00-05:00 and document value=13:20:00-05:00
@@ -1049,11 +1113,12 @@ def test_time_min_exclusive003_1166_time_min_exclusive003_1166_v(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_time_min_inclusive005_1162_time_min_inclusive005_1162_v(mode, save_output):
+def test_time_min_inclusive005_1162_time_min_inclusive005_1162_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minInclusive and
     value=10:21:00-05:00 and facet=maxExclusive and value=13:20:00-04:00)
@@ -1066,11 +1131,12 @@ def test_time_min_inclusive005_1162_time_min_inclusive005_1162_v(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_time_min_inclusive004_1161_time_min_inclusive004_1161_v(mode, save_output):
+def test_time_min_inclusive004_1161_time_min_inclusive004_1161_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minInclusive and
     value=10:21:00-05:00 and facet=maxInclusive and value=13:20:00-04:00)
@@ -1083,11 +1149,12 @@ def test_time_min_inclusive004_1161_time_min_inclusive004_1161_v(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_time_min_inclusive003_1160_time_min_inclusive003_1160_v(mode, save_output):
+def test_time_min_inclusive003_1160_time_min_inclusive003_1160_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minInclusive and
     value=10:21:00-05:00 and document value=13:20:00-05:00
@@ -1099,11 +1166,12 @@ def test_time_min_inclusive003_1160_time_min_inclusive003_1160_v(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_time_min_inclusive001_1158_time_min_inclusive001_1158_v(mode, save_output):
+def test_time_min_inclusive001_1158_time_min_inclusive001_1158_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minInclusive and
     value=10:21:00-05:00 and document value=10:21:00-05:00
@@ -1115,11 +1183,12 @@ def test_time_min_inclusive001_1158_time_min_inclusive001_1158_v(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_time_max_exclusive003_1157_time_max_exclusive003_1157_v(mode, save_output):
+def test_time_max_exclusive003_1157_time_max_exclusive003_1157_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxExclusive and
     value=13:20:00-04:00 and document value=13:20:00-03:00
@@ -1131,11 +1200,12 @@ def test_time_max_exclusive003_1157_time_max_exclusive003_1157_v(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_time_max_inclusive003_1154_time_max_inclusive003_1154_v(mode, save_output):
+def test_time_max_inclusive003_1154_time_max_inclusive003_1154_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxInclusive and
     value=13:20:00-04:00 and document value=13:20:00-03:00
@@ -1147,11 +1217,12 @@ def test_time_max_inclusive003_1154_time_max_inclusive003_1154_v(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_time_max_inclusive001_1152_time_max_inclusive001_1152_v(mode, save_output):
+def test_time_max_inclusive001_1152_time_max_inclusive001_1152_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxInclusive and
     value=10:21:00-05:00 and document value=10:21:00-05:00
@@ -1163,11 +1234,12 @@ def test_time_max_inclusive001_1152_time_max_inclusive001_1152_v(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_time_enumeration004_1151_time_enumeration004_1151_v(mode, save_output):
+def test_time_enumeration004_1151_time_enumeration004_1151_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=enumeration and
     value=13:20:00-05:00 13:20:00 01:50:40 and document
@@ -1180,11 +1252,12 @@ def test_time_enumeration004_1151_time_enumeration004_1151_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_time_enumeration002_1149_time_enumeration002_1149_v(mode, save_output):
+def test_time_enumeration002_1149_time_enumeration002_1149_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=enumeration and
     value=13:20:00-05:00 and document value=13:20:00-05:00
@@ -1196,11 +1269,12 @@ def test_time_enumeration002_1149_time_enumeration002_1149_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_time_pattern001_1147_time_pattern001_1147_v(mode, save_output):
+def test_time_pattern001_1147_time_pattern001_1147_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=pattern and
     value=[0-9]{1,2}:[0-9]{2}:[0-9]{2}-[0-9]{2}:[0-9]{2} and document
@@ -1213,11 +1287,12 @@ def test_time_pattern001_1147_time_pattern001_1147_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_date_time_min_exclusive005_1146_date_time_min_exclusive005_1146_v(mode, save_output):
+def test_date_time_min_exclusive005_1146_date_time_min_exclusive005_1146_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minExclusive and
     value=1981-03-12T10:30:00 and facet=maxExclusive and
@@ -1230,11 +1305,12 @@ def test_date_time_min_exclusive005_1146_date_time_min_exclusive005_1146_v(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_date_time_min_exclusive004_1145_date_time_min_exclusive004_1145_v(mode, save_output):
+def test_date_time_min_exclusive004_1145_date_time_min_exclusive004_1145_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minExclusive and
     value=1981-03-12T10:30:00 and facet=maxInclusive and
@@ -1247,11 +1323,12 @@ def test_date_time_min_exclusive004_1145_date_time_min_exclusive004_1145_v(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_date_time_min_exclusive003_1144_date_time_min_exclusive003_1144_v(mode, save_output):
+def test_date_time_min_exclusive003_1144_date_time_min_exclusive003_1144_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minExclusive and
     value=1981-03-12T10:30:00 and document value=1985-04-12T10:30:00
@@ -1263,11 +1340,12 @@ def test_date_time_min_exclusive003_1144_date_time_min_exclusive003_1144_v(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_date_time_min_inclusive005_1141_date_time_min_inclusive005_1141_v(mode, save_output):
+def test_date_time_min_inclusive005_1141_date_time_min_inclusive005_1141_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minInclusive and
     value=1981-03-12T10:30:00 and facet=maxExclusive and
@@ -1280,11 +1358,12 @@ def test_date_time_min_inclusive005_1141_date_time_min_inclusive005_1141_v(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_date_time_min_inclusive004_1140_date_time_min_inclusive004_1140_v(mode, save_output):
+def test_date_time_min_inclusive004_1140_date_time_min_inclusive004_1140_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minInclusive and
     value=1981-03-12T10:30:00 and facet=maxInclusive and
@@ -1297,11 +1376,12 @@ def test_date_time_min_inclusive004_1140_date_time_min_inclusive004_1140_v(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_date_time_min_inclusive003_1139_date_time_min_inclusive003_1139_v(mode, save_output):
+def test_date_time_min_inclusive003_1139_date_time_min_inclusive003_1139_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minInclusive and
     value=1981-03-12T10:30:00 and document value=1985-04-12T10:30:00
@@ -1313,11 +1393,12 @@ def test_date_time_min_inclusive003_1139_date_time_min_inclusive003_1139_v(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_date_time_min_inclusive001_1137_date_time_min_inclusive001_1137_v(mode, save_output):
+def test_date_time_min_inclusive001_1137_date_time_min_inclusive001_1137_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minInclusive and
     value=1981-03-12T10:30:00 and document value=1981-03-12T10:30:00
@@ -1329,11 +1410,12 @@ def test_date_time_min_inclusive001_1137_date_time_min_inclusive001_1137_v(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_date_time_max_exclusive003_1136_date_time_max_exclusive003_1136_v(mode, save_output):
+def test_date_time_max_exclusive003_1136_date_time_max_exclusive003_1136_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxExclusive and
     value=1999-05-12T10:31:00 and document value=1985-04-12T10:30:00
@@ -1345,11 +1427,12 @@ def test_date_time_max_exclusive003_1136_date_time_max_exclusive003_1136_v(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_date_time_max_inclusive003_1133_date_time_max_inclusive003_1133_v(mode, save_output):
+def test_date_time_max_inclusive003_1133_date_time_max_inclusive003_1133_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxInclusive and
     value=1999-05-12T10:31:00 and document value=1985-04-12T10:30:00
@@ -1361,11 +1444,12 @@ def test_date_time_max_inclusive003_1133_date_time_max_inclusive003_1133_v(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_date_time_max_inclusive001_1131_date_time_max_inclusive001_1131_v(mode, save_output):
+def test_date_time_max_inclusive001_1131_date_time_max_inclusive001_1131_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxInclusive and
     value=1981-03-12T10:30:00 and document value=1981-03-12T10:30:00
@@ -1377,11 +1461,12 @@ def test_date_time_max_inclusive001_1131_date_time_max_inclusive001_1131_v(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_date_time_enumeration005b_1130_date_time_enumeration005b_1130_v(mode, save_output):
+def test_date_time_enumeration005b_1130_date_time_enumeration005b_1130_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : XSD: XsdDateTime comparison of
     identical representations of the time zones(b)
@@ -1393,11 +1478,12 @@ def test_date_time_enumeration005b_1130_date_time_enumeration005b_1130_v(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_date_time_enumeration005a_1129_date_time_enumeration005a_1129_v(mode, save_output):
+def test_date_time_enumeration005a_1129_date_time_enumeration005a_1129_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : XSD: XsdDateTime comparison of
     identical representations of the time zones(a)
@@ -1409,11 +1495,12 @@ def test_date_time_enumeration005a_1129_date_time_enumeration005a_1129_v(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_date_time_enumeration004_1128_date_time_enumeration004_1128_v(mode, save_output):
+def test_date_time_enumeration004_1128_date_time_enumeration004_1128_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=enumeration and
     value=1985-04-12T10:30:00 1985-04-12T12:00:00 1999-07-31T01:00:00 and
@@ -1426,11 +1513,12 @@ def test_date_time_enumeration004_1128_date_time_enumeration004_1128_v(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_date_time_enumeration002_1126_date_time_enumeration002_1126_v(mode, save_output):
+def test_date_time_enumeration002_1126_date_time_enumeration002_1126_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=enumeration and
     value=1985-04-12T10:30:00 and document value=1985-04-12T10:30:00
@@ -1442,11 +1530,12 @@ def test_date_time_enumeration002_1126_date_time_enumeration002_1126_v(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_date_time_pattern001_1124_date_time_pattern001_1124_v(mode, save_output):
+def test_date_time_pattern001_1124_date_time_pattern001_1124_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=pattern and
     value=[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{1,2}:[0-9]{2}:[0-9]{2} and
@@ -1459,11 +1548,12 @@ def test_date_time_pattern001_1124_date_time_pattern001_1124_v(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_duration_min_exclusive005_1123_duration_min_exclusive005_1123_v(mode, save_output):
+def test_duration_min_exclusive005_1123_duration_min_exclusive005_1123_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minExclusive and
     value=P1Y1MT1H and facet=maxExclusive and value=P2Y3MT2H) and document
@@ -1476,11 +1566,12 @@ def test_duration_min_exclusive005_1123_duration_min_exclusive005_1123_v(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_duration_min_exclusive004_1122_duration_min_exclusive004_1122_v(mode, save_output):
+def test_duration_min_exclusive004_1122_duration_min_exclusive004_1122_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minExclusive and
     value=P1Y1MT1H and facet=maxInclusive and value=P2Y3MT2H) and document
@@ -1493,11 +1584,12 @@ def test_duration_min_exclusive004_1122_duration_min_exclusive004_1122_v(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_duration_min_exclusive003_1121_duration_min_exclusive003_1121_v(mode, save_output):
+def test_duration_min_exclusive003_1121_duration_min_exclusive003_1121_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minExclusive and value=P1Y1MT1H
     and document value=P1Y2MT2H
@@ -1509,11 +1601,12 @@ def test_duration_min_exclusive003_1121_duration_min_exclusive003_1121_v(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_duration_min_inclusive005_1118_duration_min_inclusive005_1118_v(mode, save_output):
+def test_duration_min_inclusive005_1118_duration_min_inclusive005_1118_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minInclusive and
     value=P1Y1MT1H and facet=maxExclusive and value=P2Y3MT2H) and document
@@ -1526,11 +1619,12 @@ def test_duration_min_inclusive005_1118_duration_min_inclusive005_1118_v(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_duration_min_inclusive004_1117_duration_min_inclusive004_1117_v(mode, save_output):
+def test_duration_min_inclusive004_1117_duration_min_inclusive004_1117_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minInclusive and
     value=P1Y1MT1H and facet=maxInclusive and value=P2Y3MT2H) and document
@@ -1543,11 +1637,12 @@ def test_duration_min_inclusive004_1117_duration_min_inclusive004_1117_v(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_duration_min_inclusive003_1116_duration_min_inclusive003_1116_v(mode, save_output):
+def test_duration_min_inclusive003_1116_duration_min_inclusive003_1116_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minInclusive and value=P1Y1MT1H
     and document value=P1Y2MT2H
@@ -1559,11 +1654,12 @@ def test_duration_min_inclusive003_1116_duration_min_inclusive003_1116_v(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_duration_min_inclusive001_1114_duration_min_inclusive001_1114_v(mode, save_output):
+def test_duration_min_inclusive001_1114_duration_min_inclusive001_1114_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minInclusive and value=P1Y1MT1H
     and document value=P1Y1MT1H
@@ -1575,11 +1671,12 @@ def test_duration_min_inclusive001_1114_duration_min_inclusive001_1114_v(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_duration_max_exclusive003_1113_duration_max_exclusive003_1113_v(mode, save_output):
+def test_duration_max_exclusive003_1113_duration_max_exclusive003_1113_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxExclusive and value=P2Y3MT2H
     and document value=P1Y2MT2H
@@ -1591,11 +1688,12 @@ def test_duration_max_exclusive003_1113_duration_max_exclusive003_1113_v(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_duration_max_inclusive003_1110_duration_max_inclusive003_1110_v(mode, save_output):
+def test_duration_max_inclusive003_1110_duration_max_inclusive003_1110_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxInclusive and value=P2Y3MT2H
     and document value=P1Y2MT2H
@@ -1607,11 +1705,12 @@ def test_duration_max_inclusive003_1110_duration_max_inclusive003_1110_v(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_duration_max_inclusive001_1108_duration_max_inclusive001_1108_v(mode, save_output):
+def test_duration_max_inclusive001_1108_duration_max_inclusive001_1108_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxInclusive and value=P1Y1MT1H
     and document value=P1Y1MT1H
@@ -1623,11 +1722,12 @@ def test_duration_max_inclusive001_1108_duration_max_inclusive001_1108_v(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_duration_enumeration004_1107_duration_enumeration004_1107_v(mode, save_output):
+def test_duration_enumeration004_1107_duration_enumeration004_1107_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=enumeration and value=P1347Y
     P1347M P1Y2MT2H and document value=P1347Y
@@ -1639,11 +1739,12 @@ def test_duration_enumeration004_1107_duration_enumeration004_1107_v(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_duration_enumeration002_1105_duration_enumeration002_1105_v(mode, save_output):
+def test_duration_enumeration002_1105_duration_enumeration002_1105_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=enumeration and value=P1347Y
     and document value=P1347Y
@@ -1655,11 +1756,12 @@ def test_duration_enumeration002_1105_duration_enumeration002_1105_v(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_duration_pattern001_1103_duration_pattern001_1103_v(mode, save_output):
+def test_duration_pattern001_1103_duration_pattern001_1103_v(mode, save_output, output_format):
     r"""
     TEST :Facet Schemas for string : facet=pattern and
     value=P\p{Nd}{1,4}Y\p{Nd}{1,2}MT\p{Nd}{1,2}H and document
@@ -1672,11 +1774,12 @@ def test_duration_pattern001_1103_duration_pattern001_1103_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_double_min_exclusive005_1102_double_min_exclusive005_1102_v(mode, save_output):
+def test_double_min_exclusive005_1102_double_min_exclusive005_1102_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minExclusive and value=1.1 and
     facet=maxExclusive and value=7.7) and document value=5.55
@@ -1688,11 +1791,12 @@ def test_double_min_exclusive005_1102_double_min_exclusive005_1102_v(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_double_min_exclusive004_1101_double_min_exclusive004_1101_v(mode, save_output):
+def test_double_min_exclusive004_1101_double_min_exclusive004_1101_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minExclusive and value=1.1 and
     facet=maxInclusive and value=7.7) and document value=5.55
@@ -1704,11 +1808,12 @@ def test_double_min_exclusive004_1101_double_min_exclusive004_1101_v(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_double_min_exclusive003_1100_double_min_exclusive003_1100_v(mode, save_output):
+def test_double_min_exclusive003_1100_double_min_exclusive003_1100_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minExclusive and value=1.1 and
     document value=5.55
@@ -1720,11 +1825,12 @@ def test_double_min_exclusive003_1100_double_min_exclusive003_1100_v(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_double_min_inclusive005_1097_double_min_inclusive005_1097_v(mode, save_output):
+def test_double_min_inclusive005_1097_double_min_inclusive005_1097_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minInclusive and value=1.1 and
     facet=maxExclusive and value=7.7) and document value=5.55
@@ -1736,11 +1842,12 @@ def test_double_min_inclusive005_1097_double_min_inclusive005_1097_v(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_double_min_inclusive004_1096_double_min_inclusive004_1096_v(mode, save_output):
+def test_double_min_inclusive004_1096_double_min_inclusive004_1096_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minInclusive and value=1.1 and
     facet=maxInclusive and value=7.7) and document value=5.55
@@ -1752,11 +1859,12 @@ def test_double_min_inclusive004_1096_double_min_inclusive004_1096_v(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_double_min_inclusive003_1095_double_min_inclusive003_1095_v(mode, save_output):
+def test_double_min_inclusive003_1095_double_min_inclusive003_1095_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minInclusive and value=1.1 and
     document value=5.55
@@ -1768,11 +1876,12 @@ def test_double_min_inclusive003_1095_double_min_inclusive003_1095_v(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_double_min_inclusive001_1093_double_min_inclusive001_1093_v(mode, save_output):
+def test_double_min_inclusive001_1093_double_min_inclusive001_1093_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minInclusive and value=1.1 and
     document value=1.1
@@ -1784,11 +1893,12 @@ def test_double_min_inclusive001_1093_double_min_inclusive001_1093_v(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_double_max_exclusive003_1092_double_max_exclusive003_1092_v(mode, save_output):
+def test_double_max_exclusive003_1092_double_max_exclusive003_1092_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxExclusive and value=7.7 and
     document value=5.55
@@ -1800,11 +1910,12 @@ def test_double_max_exclusive003_1092_double_max_exclusive003_1092_v(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_double_max_inclusive003_1089_double_max_inclusive003_1089_v(mode, save_output):
+def test_double_max_inclusive003_1089_double_max_inclusive003_1089_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxInclusive and value=7.7 and
     document value=5.55
@@ -1816,11 +1927,12 @@ def test_double_max_inclusive003_1089_double_max_inclusive003_1089_v(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_double_max_inclusive001_1087_double_max_inclusive001_1087_v(mode, save_output):
+def test_double_max_inclusive001_1087_double_max_inclusive001_1087_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxInclusive and value=1.1 and
     document value=1.1
@@ -1832,11 +1944,12 @@ def test_double_max_inclusive001_1087_double_max_inclusive001_1087_v(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_double_enumeration004_1086_double_enumeration004_1086_v(mode, save_output):
+def test_double_enumeration004_1086_double_enumeration004_1086_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=enumeration and value=1.1 3.14
     2.718 and document value=1.1
@@ -1848,11 +1961,12 @@ def test_double_enumeration004_1086_double_enumeration004_1086_v(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_double_enumeration002_1084_double_enumeration002_1084_v(mode, save_output):
+def test_double_enumeration002_1084_double_enumeration002_1084_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=enumeration and value=1.1 and
     document value=1.1
@@ -1864,11 +1978,12 @@ def test_double_enumeration002_1084_double_enumeration002_1084_v(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_double_pattern001_1082_double_pattern001_1082_v(mode, save_output):
+def test_double_pattern001_1082_double_pattern001_1082_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=pattern and
     value=[0-9]{0,2}.[0-9]{0,2} and document value=5.55
@@ -1880,11 +1995,12 @@ def test_double_pattern001_1082_double_pattern001_1082_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_float_min_exclusive005_1081_float_min_exclusive005_1081_v(mode, save_output):
+def test_float_min_exclusive005_1081_float_min_exclusive005_1081_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minExclusive and value=1.1 and
     facet=maxExclusive and value=7.7) and document value=5.55
@@ -1896,11 +2012,12 @@ def test_float_min_exclusive005_1081_float_min_exclusive005_1081_v(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_float_min_exclusive004_1080_float_min_exclusive004_1080_v(mode, save_output):
+def test_float_min_exclusive004_1080_float_min_exclusive004_1080_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minExclusive and value=1.1 and
     facet=maxInclusive and value=7.7) and document value=5.55
@@ -1912,11 +2029,12 @@ def test_float_min_exclusive004_1080_float_min_exclusive004_1080_v(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_float_min_exclusive003_1079_float_min_exclusive003_1079_v(mode, save_output):
+def test_float_min_exclusive003_1079_float_min_exclusive003_1079_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minExclusive and value=1.1 and
     document value=5.55
@@ -1928,11 +2046,12 @@ def test_float_min_exclusive003_1079_float_min_exclusive003_1079_v(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_float_min_inclusive005_1076_float_min_inclusive005_1076_v(mode, save_output):
+def test_float_min_inclusive005_1076_float_min_inclusive005_1076_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minInclusive and value=1.1 and
     facet=maxExclusive and value=7.7) and document value=5.55
@@ -1944,11 +2063,12 @@ def test_float_min_inclusive005_1076_float_min_inclusive005_1076_v(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_float_min_inclusive004_1075_float_min_inclusive004_1075_v(mode, save_output):
+def test_float_min_inclusive004_1075_float_min_inclusive004_1075_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minInclusive and value=1.1 and
     facet=maxInclusive and value=7.7) and document value=5.55
@@ -1960,11 +2080,12 @@ def test_float_min_inclusive004_1075_float_min_inclusive004_1075_v(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_float_min_inclusive003_1074_float_min_inclusive003_1074_v(mode, save_output):
+def test_float_min_inclusive003_1074_float_min_inclusive003_1074_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minInclusive and value=1.1 and
     document value=5.55
@@ -1976,11 +2097,12 @@ def test_float_min_inclusive003_1074_float_min_inclusive003_1074_v(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_float_min_inclusive001_1072_float_min_inclusive001_1072_v(mode, save_output):
+def test_float_min_inclusive001_1072_float_min_inclusive001_1072_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minInclusive and value=1.1 and
     document value=1.1
@@ -1992,11 +2114,12 @@ def test_float_min_inclusive001_1072_float_min_inclusive001_1072_v(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_float_max_exclusive003_1071_float_max_exclusive003_1071_v(mode, save_output):
+def test_float_max_exclusive003_1071_float_max_exclusive003_1071_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxExclusive and value=7.7 and
     document value=5.55
@@ -2008,11 +2131,12 @@ def test_float_max_exclusive003_1071_float_max_exclusive003_1071_v(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_float_max_inclusive003_1068_float_max_inclusive003_1068_v(mode, save_output):
+def test_float_max_inclusive003_1068_float_max_inclusive003_1068_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxInclusive and value=7.7 and
     document value=5.55
@@ -2024,11 +2148,12 @@ def test_float_max_inclusive003_1068_float_max_inclusive003_1068_v(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_float_max_inclusive001_1066_float_max_inclusive001_1066_v(mode, save_output):
+def test_float_max_inclusive001_1066_float_max_inclusive001_1066_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxInclusive and value=1.1 and
     document value=1.1
@@ -2040,11 +2165,12 @@ def test_float_max_inclusive001_1066_float_max_inclusive001_1066_v(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_float_enumeration004_1065_float_enumeration004_1065_v(mode, save_output):
+def test_float_enumeration004_1065_float_enumeration004_1065_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=enumeration and value=1.1 3.14
     2.718 and document value=1.1
@@ -2056,11 +2182,12 @@ def test_float_enumeration004_1065_float_enumeration004_1065_v(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_float_enumeration002_1063_float_enumeration002_1063_v(mode, save_output):
+def test_float_enumeration002_1063_float_enumeration002_1063_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=enumeration and value=1.1 and
     document value=1.1
@@ -2072,11 +2199,12 @@ def test_float_enumeration002_1063_float_enumeration002_1063_v(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_float_pattern001_1061_float_pattern001_1061_v(mode, save_output):
+def test_float_pattern001_1061_float_pattern001_1061_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=pattern and
     value=[0-9]{0,2}.[0-9]{0,2} and document value=5.55
@@ -2088,11 +2216,12 @@ def test_float_pattern001_1061_float_pattern001_1061_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_decimal_total_digits004_1060_decimal_total_digits004_1060_v(mode, save_output):
+def test_decimal_total_digits004_1060_decimal_total_digits004_1060_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : XSD: totalDigits calculartion for
     xs:decimal
@@ -2104,11 +2233,12 @@ def test_decimal_total_digits004_1060_decimal_total_digits004_1060_v(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_decimal_total_digits003_1059_decimal_total_digits003_1059_v(mode, save_output):
+def test_decimal_total_digits003_1059_decimal_total_digits003_1059_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=totalDigits and value=4 and
     document value=123
@@ -2120,11 +2250,12 @@ def test_decimal_total_digits003_1059_decimal_total_digits003_1059_v(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_decimal_total_digits002_1058_decimal_total_digits002_1058_v(mode, save_output):
+def test_decimal_total_digits002_1058_decimal_total_digits002_1058_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=totalDigits and value=3 and
     document value=123
@@ -2136,11 +2267,12 @@ def test_decimal_total_digits002_1058_decimal_total_digits002_1058_v(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_decimal_min_exclusive005_1056_decimal_min_exclusive005_1056_v(mode, save_output):
+def test_decimal_min_exclusive005_1056_decimal_min_exclusive005_1056_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minExclusive and value=1.1 and
     facet=maxExclusive and value=7.7) and document value=5.55
@@ -2152,11 +2284,12 @@ def test_decimal_min_exclusive005_1056_decimal_min_exclusive005_1056_v(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_decimal_min_exclusive004_1055_decimal_min_exclusive004_1055_v(mode, save_output):
+def test_decimal_min_exclusive004_1055_decimal_min_exclusive004_1055_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minExclusive and value=1.1 and
     facet=maxInclusive and value=7.7) and document value=5.55
@@ -2168,11 +2301,12 @@ def test_decimal_min_exclusive004_1055_decimal_min_exclusive004_1055_v(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_decimal_min_exclusive003_1054_decimal_min_exclusive003_1054_v(mode, save_output):
+def test_decimal_min_exclusive003_1054_decimal_min_exclusive003_1054_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minExclusive and value=1.1 and
     document value=5.55
@@ -2184,11 +2318,12 @@ def test_decimal_min_exclusive003_1054_decimal_min_exclusive003_1054_v(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_decimal_min_inclusive005_1051_decimal_min_inclusive005_1051_v(mode, save_output):
+def test_decimal_min_inclusive005_1051_decimal_min_inclusive005_1051_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minInclusive and value=1.1 and
     facet=maxExclusive and value=7.7) and document value=5.55
@@ -2200,11 +2335,12 @@ def test_decimal_min_inclusive005_1051_decimal_min_inclusive005_1051_v(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_decimal_min_inclusive004_1050_decimal_min_inclusive004_1050_v(mode, save_output):
+def test_decimal_min_inclusive004_1050_decimal_min_inclusive004_1050_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minInclusive and value=1.1 and
     facet=maxInclusive and value=7.7) and document value=5.55
@@ -2216,11 +2352,12 @@ def test_decimal_min_inclusive004_1050_decimal_min_inclusive004_1050_v(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_decimal_min_inclusive003_1049_decimal_min_inclusive003_1049_v(mode, save_output):
+def test_decimal_min_inclusive003_1049_decimal_min_inclusive003_1049_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minInclusive and value=1.1 and
     document value=5.55
@@ -2232,11 +2369,12 @@ def test_decimal_min_inclusive003_1049_decimal_min_inclusive003_1049_v(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_decimal_min_inclusive001_1047_decimal_min_inclusive001_1047_v(mode, save_output):
+def test_decimal_min_inclusive001_1047_decimal_min_inclusive001_1047_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minInclusive and value=1.1 and
     document value=1.1
@@ -2248,11 +2386,12 @@ def test_decimal_min_inclusive001_1047_decimal_min_inclusive001_1047_v(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_decimal_max_exclusive003_1046_decimal_max_exclusive003_1046_v(mode, save_output):
+def test_decimal_max_exclusive003_1046_decimal_max_exclusive003_1046_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxExclusive and value=7.7 and
     document value=5.55
@@ -2264,11 +2403,12 @@ def test_decimal_max_exclusive003_1046_decimal_max_exclusive003_1046_v(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_decimal_max_inclusive003_1043_decimal_max_inclusive003_1043_v(mode, save_output):
+def test_decimal_max_inclusive003_1043_decimal_max_inclusive003_1043_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxInclusive and value=7.7 and
     document value=5.55
@@ -2280,11 +2420,12 @@ def test_decimal_max_inclusive003_1043_decimal_max_inclusive003_1043_v(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_decimal_max_inclusive001_1041_decimal_max_inclusive001_1041_v(mode, save_output):
+def test_decimal_max_inclusive001_1041_decimal_max_inclusive001_1041_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxInclusive and value=1.1 and
     document value=1.1
@@ -2296,11 +2437,12 @@ def test_decimal_max_inclusive001_1041_decimal_max_inclusive001_1041_v(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_decimal_enumeration004_1040_decimal_enumeration004_1040_v(mode, save_output):
+def test_decimal_enumeration004_1040_decimal_enumeration004_1040_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=enumeration and value=1.1 3.14
     2.718 and document value=1.1
@@ -2312,11 +2454,12 @@ def test_decimal_enumeration004_1040_decimal_enumeration004_1040_v(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_decimal_enumeration002_1038_decimal_enumeration002_1038_v(mode, save_output):
+def test_decimal_enumeration002_1038_decimal_enumeration002_1038_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=enumeration and value=1.1 and
     document value=1.1
@@ -2328,11 +2471,12 @@ def test_decimal_enumeration002_1038_decimal_enumeration002_1038_v(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_decimal_pattern001_1036_decimal_pattern001_1036_v(mode, save_output):
+def test_decimal_pattern001_1036_decimal_pattern001_1036_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=pattern and
     value=[0-9]{0,2}.[0-9]{0,2} and document value=5.55
@@ -2344,11 +2488,12 @@ def test_decimal_pattern001_1036_decimal_pattern001_1036_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_string_enumeration004_1035_string_enumeration004_1035_v(mode, save_output):
+def test_string_enumeration004_1035_string_enumeration004_1035_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=enumeration and value=foo 123
     foo123 and document value=foo
@@ -2360,11 +2505,12 @@ def test_string_enumeration004_1035_string_enumeration004_1035_v(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_string_enumeration002_1033_string_enumeration002_1033_v(mode, save_output):
+def test_string_enumeration002_1033_string_enumeration002_1033_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=enumeration and value=foo and
     document value=foo
@@ -2376,11 +2522,12 @@ def test_string_enumeration002_1033_string_enumeration002_1033_v(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_string_pattern001_1030_string_pattern001_1030_v(mode, save_output):
+def test_string_pattern001_1030_string_pattern001_1030_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=pattern and value=[a-z]{3} and
     document value=abc
@@ -2392,11 +2539,12 @@ def test_string_pattern001_1030_string_pattern001_1030_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_string_max_length003_1029_string_max_length003_1029_v(mode, save_output):
+def test_string_max_length003_1029_string_max_length003_1029_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxLength and value=6 and
     document value=abcde
@@ -2408,11 +2556,12 @@ def test_string_max_length003_1029_string_max_length003_1029_v(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_string_max_length002_1028_string_max_length002_1028_v(mode, save_output):
+def test_string_max_length002_1028_string_max_length002_1028_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxLength and value=5 and
     document value=abcde
@@ -2424,11 +2573,12 @@ def test_string_max_length002_1028_string_max_length002_1028_v(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_string_min_length004_1026_string_min_length004_1026_v(mode, save_output):
+def test_string_min_length004_1026_string_min_length004_1026_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minLength and value=4 and
     facet=maxLength and value=6) and document value=abcde
@@ -2440,11 +2590,12 @@ def test_string_min_length004_1026_string_min_length004_1026_v(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_string_min_length002_1024_string_min_length002_1024_v(mode, save_output):
+def test_string_min_length002_1024_string_min_length002_1024_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minLength and value=5 and
     document value=abcde
@@ -2456,11 +2607,12 @@ def test_string_min_length002_1024_string_min_length002_1024_v(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_string_min_length001_1023_string_min_length001_1023_v(mode, save_output):
+def test_string_min_length001_1023_string_min_length001_1023_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minLength and value=4 and
     document value=abcde
@@ -2472,11 +2624,12 @@ def test_string_min_length001_1023_string_min_length001_1023_v(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_string_length002_1021_string_length002_1021_v(mode, save_output):
+def test_string_length002_1021_string_length002_1021_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=length and value=5 and document
     value=abcde
@@ -2488,11 +2641,12 @@ def test_string_length002_1021_string_length002_1021_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_z029_elem_z029_v(mode, save_output):
+def test_elem_z029_elem_z029_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : XSD: an element can have a default value constraints and
@@ -2505,11 +2659,12 @@ def test_elem_z029_elem_z029_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_qfe1700g2_qfe1700g2_v(mode, save_output):
+def test_qfe1700g2_qfe1700g2_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : G2:XmlValidation for xsi:nil="false" even though
@@ -2522,11 +2677,12 @@ def test_qfe1700g2_qfe1700g2_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_qfe1700f2_qfe1700f2_v(mode, save_output):
+def test_qfe1700f2_qfe1700f2_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : F2:XmlValidation for xsi:nil="false" even though
@@ -2539,11 +2695,12 @@ def test_qfe1700f2_qfe1700f2_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_qfe1700f1_qfe1700f1_v(mode, save_output):
+def test_qfe1700f1_qfe1700f1_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : F1:XmlValidation for xsi:nil="false" even though
@@ -2556,11 +2713,12 @@ def test_qfe1700f1_qfe1700f1_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_qfe1700e2_qfe1700e2_v(mode, save_output):
+def test_qfe1700e2_qfe1700e2_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : E2:XmlValidation for xsi:nil="false" even though
@@ -2573,11 +2731,12 @@ def test_qfe1700e2_qfe1700e2_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_qfe1700e1_qfe1700e1_v(mode, save_output):
+def test_qfe1700e1_qfe1700e1_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : E1:XmlValidation for xsi:nil="false" even though
@@ -2590,11 +2749,12 @@ def test_qfe1700e1_qfe1700e1_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_qfe1700c2_qfe1700c2_v(mode, save_output):
+def test_qfe1700c2_qfe1700c2_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : C2:XmlValidation for xsi:nil="false" even though
@@ -2607,11 +2767,12 @@ def test_qfe1700c2_qfe1700c2_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_qfe1700b2_qfe1700b2_v(mode, save_output):
+def test_qfe1700b2_qfe1700b2_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : B2:XmlValidation for xsi:nil="false" even though
@@ -2624,11 +2785,12 @@ def test_qfe1700b2_qfe1700b2_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_qfe1700b1_qfe1700b1_v(mode, save_output):
+def test_qfe1700b1_qfe1700b1_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : B1:XmlValidation for xsi:nil="false" even though
@@ -2641,11 +2803,12 @@ def test_qfe1700b1_qfe1700b1_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_qfe1700a3_qfe1700a3_v(mode, save_output):
+def test_qfe1700a3_qfe1700a3_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : A3:XmlValidation for xsi:nil="false" even though
@@ -2658,11 +2821,12 @@ def test_qfe1700a3_qfe1700a3_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_qfe1700a2_qfe1700a2_v(mode, save_output):
+def test_qfe1700a2_qfe1700a2_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : A2:XmlValidation for xsi:nil="false" even though
@@ -2675,11 +2839,12 @@ def test_qfe1700a2_qfe1700a2_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_qfe1700a1_qfe1700a1_v(mode, save_output):
+def test_qfe1700a1_qfe1700a1_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : A1:XmlValidation for xsi:nil="false" even though
@@ -2692,11 +2857,12 @@ def test_qfe1700a1_qfe1700a1_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_z022b_elem_z022b_v(mode, save_output):
+def test_elem_z022b_elem_z022b_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : XSD: Wildcard prohibited element through a
@@ -2709,11 +2875,12 @@ def test_elem_z022b_elem_z022b_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_z021e_elem_z021e_v(mode, save_output):
+def test_elem_z021e_elem_z021e_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : XSD: member of substitutionGroup and local particle with
@@ -2726,11 +2893,12 @@ def test_elem_z021e_elem_z021e_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_z021d_elem_z021d_v(mode, save_output):
+def test_elem_z021d_elem_z021d_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : XSD: member of substitutionGroup and local particle with
@@ -2743,11 +2911,12 @@ def test_elem_z021d_elem_z021d_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_z021c_elem_z021c_v(mode, save_output):
+def test_elem_z021c_elem_z021c_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : XSD: member of substitutionGroup and local particle with
@@ -2760,11 +2929,12 @@ def test_elem_z021c_elem_z021c_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_z021a_elem_z021a_v(mode, save_output):
+def test_elem_z021a_elem_z021a_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : XSD: member of substitutionGroup and local particle with
@@ -2777,11 +2947,12 @@ def test_elem_z021a_elem_z021a_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_z020_elem_z020_v(mode, save_output):
+def test_elem_z020_elem_z020_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : xsd: when substitutionGroup exists, we shold not change
@@ -2794,11 +2965,12 @@ def test_elem_z020_elem_z020_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_z019_elem_z019_v(mode, save_output):
+def test_elem_z019_elem_z019_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : XSD: Namespace URIs should not be canonicalized if they
@@ -2811,11 +2983,12 @@ def test_elem_z019_elem_z019_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_z018_elem_z018_v(mode, save_output):
+def test_elem_z018_elem_z018_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : Schema with deep nested nodes (>14 nested levels)
@@ -2827,11 +3000,12 @@ def test_elem_z018_elem_z018_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_z016_elem_z016_i(mode, save_output):
+def test_elem_z016_elem_z016_i(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : xsd: element with childNodes typed=ID, dupe ID should be
@@ -2845,11 +3019,12 @@ def test_elem_z016_elem_z016_i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_z014_elem_z014_v(mode, save_output):
+def test_elem_z014_elem_z014_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : xsi:type references and namespace alias for parent
@@ -2862,11 +3037,12 @@ def test_elem_z014_elem_z014_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_z010_elem_z010_v(mode, save_output):
+def test_elem_z010_elem_z010_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : Components in A may be indirectly using components from
@@ -2883,11 +3059,12 @@ def test_elem_z010_elem_z010_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_z009_elem_z009_v(mode, save_output):
+def test_elem_z009_elem_z009_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : Components in A may be indirectly using components from
@@ -2904,11 +3081,12 @@ def test_elem_z009_elem_z009_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_z003_elem_z003_v(mode, save_output):
+def test_elem_z003_elem_z003_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : 72898 - subsitutionGroup with deep chains
@@ -2920,11 +3098,12 @@ def test_elem_z003_elem_z003_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_z002_elem_z002_v(mode, save_output):
+def test_elem_z002_elem_z002_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : 67493 - xsd: xsi:type should allowed predefined types as
@@ -2937,11 +3116,12 @@ def test_elem_z002_elem_z002_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_z001_elem_z001_v(mode, save_output):
+def test_elem_z001_elem_z001_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : 81682 - Element with xsi:nil value set to true and
@@ -2954,11 +3134,12 @@ def test_elem_z001_elem_z001_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_u024_elem_u024_v(mode, save_output):
+def test_elem_u024_elem_u024_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : regular expression: restriction on string "(ab){2}x"
@@ -2970,11 +3151,12 @@ def test_elem_u024_elem_u024_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_u023_elem_u023_v(mode, save_output):
+def test_elem_u023_elem_u023_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : regular expression: restriction on string "ab{2,}x"
@@ -2986,11 +3168,12 @@ def test_elem_u023_elem_u023_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_u022_elem_u022_v(mode, save_output):
+def test_elem_u022_elem_u022_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : regular expression: restriction on string "ab{2,4}x"
@@ -3002,11 +3185,12 @@ def test_elem_u022_elem_u022_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_u021_elem_u021_v(mode, save_output):
+def test_elem_u021_elem_u021_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : regular expression: restriction on string "ab{2}x"
@@ -3018,11 +3202,12 @@ def test_elem_u021_elem_u021_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_u020_elem_u020_v(mode, save_output):
+def test_elem_u020_elem_u020_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : regular expression: restriction on string ".*abc.*"
@@ -3034,11 +3219,12 @@ def test_elem_u020_elem_u020_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_u019_elem_u019_v(mode, save_output):
+def test_elem_u019_elem_u019_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : regular expression: restriction on string ".x"
@@ -3050,11 +3236,12 @@ def test_elem_u019_elem_u019_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_u018_elem_u018_v(mode, save_output):
+def test_elem_u018_elem_u018_v(mode, save_output, output_format):
     r"""
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : regular expression: restriction on string "\Dx"
@@ -3066,11 +3253,12 @@ def test_elem_u018_elem_u018_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_u017_elem_u017_v(mode, save_output):
+def test_elem_u017_elem_u017_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : regular expression: restriction on string "[^0-9]x"
@@ -3082,11 +3270,12 @@ def test_elem_u017_elem_u017_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_u015_elem_u015_v(mode, save_output):
+def test_elem_u015_elem_u015_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : regular expression: restriction on string "[ae-]x"
@@ -3098,11 +3287,12 @@ def test_elem_u015_elem_u015_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_u014_elem_u014_v(mode, save_output):
+def test_elem_u014_elem_u014_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : regular expression: restriction on string "[-ae]x"
@@ -3114,11 +3304,12 @@ def test_elem_u014_elem_u014_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_u013_elem_u013_v(mode, save_output):
+def test_elem_u013_elem_u013_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : regular expression: restriction on string "[a-e]x"
@@ -3130,11 +3321,12 @@ def test_elem_u013_elem_u013_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_u012_elem_u012_v(mode, save_output):
+def test_elem_u012_elem_u012_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : regular expression: restriction on string "[abcde]x"
@@ -3146,11 +3338,12 @@ def test_elem_u012_elem_u012_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_u011_elem_u011_v(mode, save_output):
+def test_elem_u011_elem_u011_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : regular expression: restriction on string "(a|b)+x"
@@ -3162,11 +3355,12 @@ def test_elem_u011_elem_u011_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_u010_elem_u010_v(mode, save_output):
+def test_elem_u010_elem_u010_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : regular expression: restriction on string "a+x"
@@ -3178,11 +3372,12 @@ def test_elem_u010_elem_u010_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_u009_elem_u009_v(mode, save_output):
+def test_elem_u009_elem_u009_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : regular expression: restriction on string "a?x"
@@ -3194,11 +3389,12 @@ def test_elem_u009_elem_u009_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_u008_elem_u008_v(mode, save_output):
+def test_elem_u008_elem_u008_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : regular expression: restriction on string "a*x"
@@ -3210,11 +3406,12 @@ def test_elem_u008_elem_u008_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_u007_elem_u007_v(mode, save_output):
+def test_elem_u007_elem_u007_v(mode, save_output, output_format):
     r"""
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : regular expression: restriction on string "\P{IsGreek}"
@@ -3226,11 +3423,12 @@ def test_elem_u007_elem_u007_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_u006_elem_u006_v(mode, save_output):
+def test_elem_u006_elem_u006_v(mode, save_output, output_format):
     r"""
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : regular expression: restriction on string "\p{IsGreek}"
@@ -3242,11 +3440,12 @@ def test_elem_u006_elem_u006_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_u005_elem_u005_v(mode, save_output):
+def test_elem_u005_elem_u005_v(mode, save_output, output_format):
     r"""
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : regular expression: restriction on string "\p{Lu}"
@@ -3258,11 +3457,12 @@ def test_elem_u005_elem_u005_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_u004_elem_u004_v(mode, save_output):
+def test_elem_u004_elem_u004_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : regular expression: restriction on string
@@ -3275,11 +3475,12 @@ def test_elem_u004_elem_u004_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_u003_elem_u003_v(mode, save_output):
+def test_elem_u003_elem_u003_v(mode, save_output, output_format):
     r"""
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : regular expression: restriction on string "\s\w"
@@ -3291,11 +3492,12 @@ def test_elem_u003_elem_u003_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_u002_elem_u002_v(mode, save_output):
+def test_elem_u002_elem_u002_v(mode, save_output, output_format):
     r"""
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : regular expression: restriction on string "\s\d"
@@ -3307,11 +3509,12 @@ def test_elem_u002_elem_u002_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_u001_elem_u001_v(mode, save_output):
+def test_elem_u001_elem_u001_v(mode, save_output, output_format):
     r"""
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : regular expression: restriction on string "\d"
@@ -3323,11 +3526,12 @@ def test_elem_u001_elem_u001_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_t073_elem_t073_v(mode, save_output):
+def test_elem_t073_elem_t073_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : Element type=Union-AB, block=extension, and instant
@@ -3340,11 +3544,12 @@ def test_elem_t073_elem_t073_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_t072_elem_t072_v(mode, save_output):
+def test_elem_t072_elem_t072_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : Element type=Union-AB, block=absent, and instant XMLhas
@@ -3357,11 +3562,12 @@ def test_elem_t072_elem_t072_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_t071_elem_t071_v(mode, save_output):
+def test_elem_t071_elem_t071_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : Element type=Union-A, block=absent, and instant XMLhas
@@ -3374,11 +3580,12 @@ def test_elem_t071_elem_t071_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_t067_elem_t067_v(mode, save_output):
+def test_elem_t067_elem_t067_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : Element type=A, block="extension", and instant XMLhas
@@ -3391,11 +3598,12 @@ def test_elem_t067_elem_t067_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_t066_elem_t066_v(mode, save_output):
+def test_elem_t066_elem_t066_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : Element type=A, block="extension", and instant XMLhas
@@ -3408,11 +3616,12 @@ def test_elem_t066_elem_t066_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_t064_elem_t064_v(mode, save_output):
+def test_elem_t064_elem_t064_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : Element type=A, block="restriction", and instant XMLhas
@@ -3425,11 +3634,12 @@ def test_elem_t064_elem_t064_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_t062_elem_t062_v(mode, save_output):
+def test_elem_t062_elem_t062_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : Element type=A, block="restriction", and instant XMLhas
@@ -3442,11 +3652,12 @@ def test_elem_t062_elem_t062_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_t058_elem_t058_v(mode, save_output):
+def test_elem_t058_elem_t058_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : several elements with different blocks and valid instance
@@ -3458,11 +3669,12 @@ def test_elem_t058_elem_t058_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_t044_elem_t044_v(mode, save_output):
+def test_elem_t044_elem_t044_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : Element type=simpleType A, block="#all", and instant
@@ -3475,11 +3687,12 @@ def test_elem_t044_elem_t044_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_t043_elem_t043_v(mode, save_output):
+def test_elem_t043_elem_t043_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : Element type=ur-Type, block="extension", and instant
@@ -3492,11 +3705,12 @@ def test_elem_t043_elem_t043_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_t042_elem_t042_v(mode, save_output):
+def test_elem_t042_elem_t042_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : Element type=ur-Type, block="extension", and instant
@@ -3509,11 +3723,12 @@ def test_elem_t042_elem_t042_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_t041_elem_t041_v(mode, save_output):
+def test_elem_t041_elem_t041_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : Element type=ur-Type, block="extension", and instant
@@ -3526,11 +3741,12 @@ def test_elem_t041_elem_t041_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_t040_elem_t040_v(mode, save_output):
+def test_elem_t040_elem_t040_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : Element type=ur-Type, block="extension", and instant
@@ -3543,11 +3759,12 @@ def test_elem_t040_elem_t040_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_t038_elem_t038_v(mode, save_output):
+def test_elem_t038_elem_t038_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : Element type=complexType A, block="extension", and
@@ -3560,11 +3777,12 @@ def test_elem_t038_elem_t038_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_t032_elem_t032_v(mode, save_output):
+def test_elem_t032_elem_t032_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : Element type=simpleType A, block="extension", and instant
@@ -3577,11 +3795,12 @@ def test_elem_t032_elem_t032_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_t030_elem_t030_v(mode, save_output):
+def test_elem_t030_elem_t030_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : Element type=simpleType A, block="extension", and instant
@@ -3594,11 +3813,12 @@ def test_elem_t030_elem_t030_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_t025_elem_t025_v(mode, save_output):
+def test_elem_t025_elem_t025_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : Element type=complexType A, block="restriction", and
@@ -3611,11 +3831,12 @@ def test_elem_t025_elem_t025_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_t016_elem_t016_v(mode, save_output):
+def test_elem_t016_elem_t016_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : Element type=simpleType A, block="restriction", and
@@ -3628,11 +3849,12 @@ def test_elem_t016_elem_t016_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_t015_elem_t015_v(mode, save_output):
+def test_elem_t015_elem_t015_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : schema with block="#all" and, element with block="", a
@@ -3645,11 +3867,12 @@ def test_elem_t015_elem_t015_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_t014_elem_t014_v(mode, save_output):
+def test_elem_t014_elem_t014_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : schema with block="#all" and, element with block="", a
@@ -3662,11 +3885,12 @@ def test_elem_t014_elem_t014_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_t008_elem_t008_v(mode, save_output):
+def test_elem_t008_elem_t008_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : Document with Element with block="" and a subsitution of
@@ -3679,11 +3903,12 @@ def test_elem_t008_elem_t008_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_t007_elem_t007_v(mode, save_output):
+def test_elem_t007_elem_t007_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : Document with Element with block="" and a subsitution of
@@ -3696,11 +3921,12 @@ def test_elem_t007_elem_t007_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_t003_elem_t003_v(mode, save_output):
+def test_elem_t003_elem_t003_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : Document with Element with block=extension and a
@@ -3713,11 +3939,12 @@ def test_elem_t003_elem_t003_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_t002_elem_t002_v(mode, save_output):
+def test_elem_t002_elem_t002_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : Document with Element with block=restriction and a
@@ -3730,11 +3957,12 @@ def test_elem_t002_elem_t002_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_s008_elem_s008_v(mode, save_output):
+def test_elem_s008_elem_s008_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : Element with final='' and an element affliation by
@@ -3747,11 +3975,12 @@ def test_elem_s008_elem_s008_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_s007_elem_s007_v(mode, save_output):
+def test_elem_s007_elem_s007_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : Element with final='' and an element affliation by
@@ -3764,11 +3993,12 @@ def test_elem_s007_elem_s007_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_s003_elem_s003_v(mode, save_output):
+def test_elem_s003_elem_s003_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : Element with final=extension and an element affliation by
@@ -3781,11 +4011,12 @@ def test_elem_s003_elem_s003_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_s002_elem_s002_v(mode, save_output):
+def test_elem_s002_elem_s002_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : Element with final=restriction and an element affliation
@@ -3798,11 +4029,12 @@ def test_elem_s002_elem_s002_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_r005_elem_r005_v(mode, save_output):
+def test_elem_r005_elem_r005_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : Valid Document for Element with schema's
@@ -3815,11 +4047,12 @@ def test_elem_r005_elem_r005_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_r004_elem_r004_v(mode, save_output):
+def test_elem_r004_elem_r004_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : Valid Document for Element with schema's
@@ -3832,11 +4065,12 @@ def test_elem_r004_elem_r004_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_r002_elem_r002_v(mode, save_output):
+def test_elem_r002_elem_r002_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : Valid Document for Element with form=qualified and
@@ -3849,11 +4083,12 @@ def test_elem_r002_elem_r002_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_r001_elem_r001_v(mode, save_output):
+def test_elem_r001_elem_r001_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : Valid Document for Element with form=qualified and
@@ -3866,11 +4101,12 @@ def test_elem_r001_elem_r001_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_q022_elem_q022_v(mode, save_output):
+def test_elem_q022_elem_q022_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : Document with default=Hello andDocument contains nothing
@@ -3882,11 +4118,12 @@ def test_elem_q022_elem_q022_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_q021_elem_q021_v(mode, save_output):
+def test_elem_q021_elem_q021_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : Document with default=Hello andDocument contains Hello
@@ -3899,11 +4136,12 @@ def test_elem_q021_elem_q021_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_q020_elem_q020_v(mode, save_output):
+def test_elem_q020_elem_q020_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : Document with default=Hello andDocument contains Hello
@@ -3915,11 +4153,12 @@ def test_elem_q020_elem_q020_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_q019_elem_q019_v(mode, save_output):
+def test_elem_q019_elem_q019_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : Document with fixed=Hello andDocument contains nothing
@@ -3931,11 +4170,12 @@ def test_elem_q019_elem_q019_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_q017_elem_q017_v(mode, save_output):
+def test_elem_q017_elem_q017_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : Document with fixed=Hello andDocument contains Hello
@@ -3947,11 +4187,12 @@ def test_elem_q017_elem_q017_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_q015_elem_q015_v(mode, save_output):
+def test_elem_q015_elem_q015_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : Document with minOccurs = 1 and maxOccurs = unbounded and
@@ -3964,11 +4205,12 @@ def test_elem_q015_elem_q015_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_q013_elem_q013_v(mode, save_output):
+def test_elem_q013_elem_q013_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : Document with minOccurs = 1 and maxOccurs = 2 and 2
@@ -3981,11 +4223,12 @@ def test_elem_q013_elem_q013_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_q011_elem_q011_v(mode, save_output):
+def test_elem_q011_elem_q011_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : Document with minOccurs = 1 and 1 occurrence
@@ -3997,11 +4240,12 @@ def test_elem_q011_elem_q011_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_q008_elem_q008_v(mode, save_output):
+def test_elem_q008_elem_q008_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : Document with default maxOccurs and 1 occurrence
@@ -4013,11 +4257,12 @@ def test_elem_q008_elem_q008_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_o012_elem_o012_v(mode, save_output):
+def test_elem_o012_elem_o012_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : Document with element with nillable = false
@@ -4029,11 +4274,12 @@ def test_elem_o012_elem_o012_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_o009_elem_o009_v(mode, save_output):
+def test_elem_o009_elem_o009_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : Document with element with nillable = true
@@ -4045,11 +4291,12 @@ def test_elem_o009_elem_o009_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_o008_elem_o008_v(mode, save_output):
+def test_elem_o008_elem_o008_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : Document with element with nillable = true andDocument's
@@ -4062,11 +4309,12 @@ def test_elem_o008_elem_o008_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_o006_elem_o006_v(mode, save_output):
+def test_elem_o006_elem_o006_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : Document with element with nillable = true in xsd
@@ -4079,11 +4327,12 @@ def test_elem_o006_elem_o006_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_o005_elem_o005_v(mode, save_output):
+def test_elem_o005_elem_o005_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : Document with element with anonymous complexType, no type
@@ -4096,11 +4345,12 @@ def test_elem_o005_elem_o005_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_o004_elem_o004_v(mode, save_output):
+def test_elem_o004_elem_o004_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : Document with element with complexType
@@ -4112,11 +4362,12 @@ def test_elem_o004_elem_o004_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_o003_elem_o003_v(mode, save_output):
+def test_elem_o003_elem_o003_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : Document with element with anonymous simpleType, no type
@@ -4129,11 +4380,12 @@ def test_elem_o003_elem_o003_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_elem_o002_elem_o002_v(mode, save_output):
+def test_elem_o002_elem_o002_v(mode, save_output, output_format):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
     Components : Document with element with simpleType
@@ -4145,11 +4397,12 @@ def test_elem_o002_elem_o002_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_err_e008_err_e008_v(mode, save_output):
+def test_err_e008_err_e008_v(mode, save_output, output_format):
     """
     TEST :Primer Errata : E2-17 Error: Do not allow carriage return in
     token values
@@ -4161,11 +4414,12 @@ def test_err_e008_err_e008_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_err_e006_err_e006_v(mode, save_output):
+def test_err_e006_err_e006_v(mode, save_output, output_format):
     """
     TEST :Primer Errata : E2-22 Clarification: test date, gYearMonth,
     gMonthDay, gDay, gMonth and gYear permit an optional, trailing time
@@ -4178,11 +4432,12 @@ def test_err_e006_err_e006_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_err_e003_err_e003_v(mode, save_output):
+def test_err_e003_err_e003_v(mode, save_output, output_format):
     """
     TEST :Primer Errata : E2-25 Error: test support for the new language
     pattern ([a-zA-Z]{1,8})-([a-zA-Z0-9]{1,8})*
@@ -4194,11 +4449,12 @@ def test_err_e003_err_e003_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_err_e002_err_e002_v(mode, save_output):
+def test_err_e002_err_e002_v(mode, save_output, output_format):
     """
     TEST :Primer Errata : E2-27 Error: test that nonNegativeIntegers
     support a '-' on zero
@@ -4210,11 +4466,12 @@ def test_err_e002_err_e002_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_err_e001_err_e001_v(mode, save_output):
+def test_err_e001_err_e001_v(mode, save_output, output_format):
     """
     TEST :Primer Errata : E2-27 Error: test that nonPositiveIntegers
     support a '+' on zero
@@ -4226,11 +4483,12 @@ def test_err_e001_err_e001_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_err_c007_err_c007_v(mode, save_output):
+def test_err_c007_err_c007_v(mode, save_output, output_format):
     """
     TEST :Primer Errata : E1-22 Error: R-117 Process contents for ur-type
     need to be lax
@@ -4242,11 +4500,12 @@ def test_err_c007_err_c007_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_err_c001_err_c001_v(mode, save_output):
+def test_err_c001_err_c001_v(mode, save_output, output_format):
     """
     TEST :Primer Errata : E1-40 Clarification: test that anySimpleType
     whitespace normalization is set to preserve
@@ -4258,11 +4517,12 @@ def test_err_c001_err_c001_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_err_a003_err_a003_v(mode, save_output):
+def test_err_a003_err_a003_v(mode, save_output, output_format):
     """
     TEST :Primer Errata : E0-15 Error, E2-12 Error: test lexical
     representation of gMonth
@@ -4274,11 +4534,12 @@ def test_err_a003_err_a003_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_err_a001_err_a001_v(mode, save_output):
+def test_err_a001_err_a001_v(mode, save_output, output_format):
     """
     TEST :Primer Errata : E0-23 Clarification: test that facet
     fractionDigits can be added to all numeric datatypes as long as value
@@ -4291,11 +4552,12 @@ def test_err_a001_err_a001_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_group_o008v_group_o008v_v(mode, save_output):
+def test_group_o008v_group_o008v_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking (id, ref) : Test content: annotation follow by
     sequence
@@ -4307,11 +4569,12 @@ def test_group_o008v_group_o008v_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_group_o006v_group_o006v_v(mode, save_output):
+def test_group_o006v_group_o006v_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking (id, ref) : Test content: annotation follow by
     choice
@@ -4323,11 +4586,12 @@ def test_group_o006v_group_o006v_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_group_o004v_group_o004v_v(mode, save_output):
+def test_group_o004v_group_o004v_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking (id, ref) : Test content: annotation follow by
     all
@@ -4339,11 +4603,12 @@ def test_group_o004v_group_o004v_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_group_n021v_group_n021v_v(mode, save_output):
+def test_group_n021v_group_n021v_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking (id, ref) : parent is complexType: elements in
     instant XML=3, maxOccurs=unbounded
@@ -4355,11 +4620,12 @@ def test_group_n021v_group_n021v_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_group_n018v_group_n018v_v(mode, save_output):
+def test_group_n018v_group_n018v_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking (id, ref) : parent is complexType: elements in
     instant XML=2, minOccurs=1, maxOccurs=2
@@ -4371,11 +4637,12 @@ def test_group_n018v_group_n018v_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_group_n017v_group_n017v_v(mode, save_output):
+def test_group_n017v_group_n017v_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking (id, ref) : parent is complexType: elements in
     instant XML=1, minOccurs=1, maxOccurs=2
@@ -4387,11 +4654,12 @@ def test_group_n017v_group_n017v_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_group_n014v_group_n014v_v(mode, save_output):
+def test_group_n014v_group_n014v_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking (id, ref) : parent is complexType: elements in
     instant XML=1, minOccurs=1, maxOccurs=1
@@ -4403,11 +4671,12 @@ def test_group_n014v_group_n014v_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_group_n011v_group_n011v_v(mode, save_output):
+def test_group_n011v_group_n011v_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking (id, ref) : parent is complexType: elements in
     instant XML=1, minOccurs=1, maxOccurs=absent
@@ -4419,11 +4688,12 @@ def test_group_n011v_group_n011v_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_group_n009v_group_n009v_v(mode, save_output):
+def test_group_n009v_group_n009v_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking (id, ref) : parent is complexType: elements in
     instant XML=0, minOccurs=0, maxOccurs=999999999
@@ -4435,11 +4705,12 @@ def test_group_n009v_group_n009v_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_group_n007v_group_n007v_v(mode, save_output):
+def test_group_n007v_group_n007v_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking (id, ref) : parent is complexType: elements in
     instant XML=0, minOccurs=0, maxOccurs=0
@@ -4451,11 +4722,12 @@ def test_group_n007v_group_n007v_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_group_n005v_group_n005v_v(mode, save_output):
+def test_group_n005v_group_n005v_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking (id, ref) : parent is complexType: elements in
     instant XML=1, minOccurs=0, maxOccurs=1
@@ -4467,11 +4739,12 @@ def test_group_n005v_group_n005v_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_group_n004v_group_n004v_v(mode, save_output):
+def test_group_n004v_group_n004v_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking (id, ref) : parent is complexType: elements in
     instant XML=0, minOccurs=0, maxOccurs=1
@@ -4483,11 +4756,12 @@ def test_group_n004v_group_n004v_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_group_n002v_group_n002v_v(mode, save_output):
+def test_group_n002v_group_n002v_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking (id, ref) : parent is complexType: elements in
     instant XML=1, minOccurs=0, maxOccurs=absent
@@ -4499,11 +4773,12 @@ def test_group_n002v_group_n002v_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_group_n001v_group_n001v_v(mode, save_output):
+def test_group_n001v_group_n001v_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking (id, ref) : parent is complexType: elements in
     instant XML=0, minOccurs=0, maxOccurs=absent
@@ -4515,11 +4790,12 @@ def test_group_n001v_group_n001v_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_group_m004v_group_m004v_v(mode, save_output):
+def test_group_m004v_group_m004v_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking (id, ref) : parent is complexType: check that
     minOccurs default is 1, elements in instant XML = 1, minOccurs=absent,
@@ -4532,11 +4808,12 @@ def test_group_m004v_group_m004v_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_group_l021v_group_l021v_v(mode, save_output):
+def test_group_l021v_group_l021v_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking (id, ref) : parent is choice: elements in
     instant XML=3, maxOccurs=unbounded
@@ -4548,11 +4825,12 @@ def test_group_l021v_group_l021v_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_group_l018v_group_l018v_v(mode, save_output):
+def test_group_l018v_group_l018v_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking (id, ref) : parent is choice: elements in
     instant XML=2, minOccurs=1, maxOccurs=2
@@ -4564,11 +4842,12 @@ def test_group_l018v_group_l018v_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_group_l017v_group_l017v_v(mode, save_output):
+def test_group_l017v_group_l017v_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking (id, ref) : parent is choice: elements in
     instant XML=1, minOccurs=1, maxOccurs=2
@@ -4580,11 +4859,12 @@ def test_group_l017v_group_l017v_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_group_l014v_group_l014v_v(mode, save_output):
+def test_group_l014v_group_l014v_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking (id, ref) : parent is choice: elements in
     instant XML=1, minOccurs=1, maxOccurs=1
@@ -4596,11 +4876,12 @@ def test_group_l014v_group_l014v_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_group_l011v_group_l011v_v(mode, save_output):
+def test_group_l011v_group_l011v_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking (id, ref) : parent is choice: elements in
     instant XML=1, minOccurs=1, maxOccurs=absent
@@ -4612,11 +4893,12 @@ def test_group_l011v_group_l011v_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_group_l009v_group_l009v_v(mode, save_output):
+def test_group_l009v_group_l009v_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking (id, ref) : parent is choice: elements in
     instant XML=0, minOccurs=0, maxOccurs=999999999
@@ -4628,11 +4910,12 @@ def test_group_l009v_group_l009v_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_group_l007_group_l007_v(mode, save_output):
+def test_group_l007_group_l007_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking (id, ref) : parent is choice: elements in
     instant XML=0, minOccurs=0, maxOccurs=0
@@ -4644,11 +4927,12 @@ def test_group_l007_group_l007_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_group_l005v_group_l005v_v(mode, save_output):
+def test_group_l005v_group_l005v_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking (id, ref) : parent is choice: elements in
     instant XML=1, minOccurs=0, maxOccurs=1
@@ -4660,11 +4944,12 @@ def test_group_l005v_group_l005v_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_group_l004v_group_l004v_v(mode, save_output):
+def test_group_l004v_group_l004v_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking (id, ref) : parent is choice: elements in
     instant XML=0, minOccurs=0, maxOccurs=1
@@ -4676,11 +4961,12 @@ def test_group_l004v_group_l004v_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_group_l002v_group_l002v_v(mode, save_output):
+def test_group_l002v_group_l002v_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking (id, ref) : parent is choice: elements in
     instant XML=1, minOccurs=0, maxOccurs=absent
@@ -4692,11 +4978,12 @@ def test_group_l002v_group_l002v_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_group_l001v_group_l001v_v(mode, save_output):
+def test_group_l001v_group_l001v_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking (id, ref) : parent is choice: elements in
     instant XML=0, minOccurs=0, maxOccurs=absent
@@ -4708,11 +4995,12 @@ def test_group_l001v_group_l001v_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_group_k004v_group_k004v_v(mode, save_output):
+def test_group_k004v_group_k004v_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking (id, ref) : parent is choice: check that
     minOccurs default is 1, elements in instant XML = 1, minOccurs=absent,
@@ -4725,11 +5013,12 @@ def test_group_k004v_group_k004v_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_group_j021v_group_j021v_v(mode, save_output):
+def test_group_j021v_group_j021v_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking (id, ref) : parent is sequence: elements in
     instant XML=3, maxOccurs=unbounded
@@ -4741,11 +5030,12 @@ def test_group_j021v_group_j021v_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_group_j018v_group_j018v_v(mode, save_output):
+def test_group_j018v_group_j018v_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking (id, ref) : parent is sequence: elements in
     instant XML=2, minOccurs=1, maxOccurs=2
@@ -4757,11 +5047,12 @@ def test_group_j018v_group_j018v_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_group_j017v_group_j017v_v(mode, save_output):
+def test_group_j017v_group_j017v_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking (id, ref) : parent is sequence: elements in
     instant XML=1, minOccurs=1, maxOccurs=2
@@ -4773,11 +5064,12 @@ def test_group_j017v_group_j017v_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_group_j014v_group_j014v_v(mode, save_output):
+def test_group_j014v_group_j014v_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking (id, ref) : parent is sequence: elements in
     instant XML=1, minOccurs=1, maxOccurs=1
@@ -4789,11 +5081,12 @@ def test_group_j014v_group_j014v_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_group_j011v_group_j011v_v(mode, save_output):
+def test_group_j011v_group_j011v_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking (id, ref) : parent is sequence: elements in
     instant XML=1, minOccurs=1, maxOccurs=absent
@@ -4805,11 +5098,12 @@ def test_group_j011v_group_j011v_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_group_j009v_group_j009v_v(mode, save_output):
+def test_group_j009v_group_j009v_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking (id, ref) : parent is sequence: elements in
     instant XML=0, minOccurs=0, maxOccurs=99999999999
@@ -4821,11 +5115,12 @@ def test_group_j009v_group_j009v_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_group_j007v_group_j007v_v(mode, save_output):
+def test_group_j007v_group_j007v_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking (id, ref) : parent is sequence: elements in
     instant XML=0, minOccurs=0, maxOccurs=0
@@ -4837,11 +5132,12 @@ def test_group_j007v_group_j007v_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_group_j005v_group_j005v_v(mode, save_output):
+def test_group_j005v_group_j005v_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking (id, ref) : parent is sequence: elements in
     instant XML=1, minOccurs=0, maxOccurs=1
@@ -4853,11 +5149,12 @@ def test_group_j005v_group_j005v_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_group_j004v_group_j004v_v(mode, save_output):
+def test_group_j004v_group_j004v_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking (id, ref) : parent is sequence: elements in
     instant XML=0, minOccurs=0, maxOccurs=1
@@ -4869,11 +5166,12 @@ def test_group_j004v_group_j004v_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_group_j002v_group_j002v_v(mode, save_output):
+def test_group_j002v_group_j002v_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking (id, ref) : parent is sequence: elements in
     instant XML=1, minOccurs=0, maxOccurs=absent
@@ -4885,11 +5183,12 @@ def test_group_j002v_group_j002v_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_group_j001v_group_j001v_v(mode, save_output):
+def test_group_j001v_group_j001v_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking (id, ref) : parent is sequence: elements in
     instant XML=0, minOccurs=0, maxOccurs=absent
@@ -4901,11 +5200,12 @@ def test_group_j001v_group_j001v_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_group_i004v_group_i004v_v(mode, save_output):
+def test_group_i004v_group_i004v_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking (id, ref) : parent is sequence: check that
     minOccurs default is 1, elements in instant XML = 1, minOccurs=absent,
@@ -4918,11 +5218,12 @@ def test_group_i004v_group_i004v_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_group_h018v_group_h018v_v(mode, save_output):
+def test_group_h018v_group_h018v_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking (id, ref) : parent is restriction: elements in
     instant XML=2, minOccurs=1, maxOccurs=2
@@ -4934,11 +5235,12 @@ def test_group_h018v_group_h018v_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_group_h017v_group_h017v_v(mode, save_output):
+def test_group_h017v_group_h017v_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking (id, ref) : parent is restriction: elements in
     instant XML=1, minOccurs=1, maxOccurs=2
@@ -4950,11 +5252,12 @@ def test_group_h017v_group_h017v_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_group_h014v_group_h014v_v(mode, save_output):
+def test_group_h014v_group_h014v_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking (id, ref) : parent is restriction: elements in
     instant XML=1, minOccurs=1, maxOccurs=1
@@ -4966,11 +5269,12 @@ def test_group_h014v_group_h014v_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_group_h011v_group_h011v_v(mode, save_output):
+def test_group_h011v_group_h011v_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking (id, ref) : parent is restriction: elements in
     instant XML=1, minOccurs=1, maxOccurs=absent
@@ -4982,11 +5286,12 @@ def test_group_h011v_group_h011v_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_group_h009v_group_h009v_v(mode, save_output):
+def test_group_h009v_group_h009v_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking (id, ref) : parent is restriction: elements in
     instant XML=0, minOccurs=0, maxOccurs=999999999999999
@@ -4998,11 +5303,12 @@ def test_group_h009v_group_h009v_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_group_h005v_group_h005v_v(mode, save_output):
+def test_group_h005v_group_h005v_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking (id, ref) : parent is restriction: elements in
     instant XML=1, minOccurs=0, maxOccurs=1
@@ -5014,11 +5320,12 @@ def test_group_h005v_group_h005v_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_group_h004v_group_h004v_v(mode, save_output):
+def test_group_h004v_group_h004v_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking (id, ref) : parent is restriction: elements in
     instant XML=0, minOccurs=0, maxOccurs=1
@@ -5030,11 +5337,12 @@ def test_group_h004v_group_h004v_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_group_h002v_group_h002v_v(mode, save_output):
+def test_group_h002v_group_h002v_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking (id, ref) : parent is restriction: elements in
     instant XML=1, minOccurs=0, maxOccurs=absent
@@ -5046,11 +5354,12 @@ def test_group_h002v_group_h002v_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_group_h001v_group_h001v_v(mode, save_output):
+def test_group_h001v_group_h001v_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking (id, ref) : parent is restriction: elements in
     instant XML=0, minOccurs=0, maxOccurs=absent
@@ -5062,11 +5371,12 @@ def test_group_h001v_group_h001v_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_group_g004v_group_g004v_v(mode, save_output):
+def test_group_g004v_group_g004v_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking (id, ref) : parent is restriction: check that
     minOccurs default is 1, elements in instant XML = 1, minOccurs=absent,
@@ -5079,11 +5389,12 @@ def test_group_g004v_group_g004v_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_group_f021v_group_f021v_v(mode, save_output):
+def test_group_f021v_group_f021v_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking (id, ref) : parent is extension: elements in
     instant XML=3, maxOccurs=unbounded
@@ -5095,11 +5406,12 @@ def test_group_f021v_group_f021v_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_group_f018v_group_f018v_v(mode, save_output):
+def test_group_f018v_group_f018v_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking (id, ref) : parent is extension: elements in
     instant XML=2, minOccurs=1, maxOccurs=2
@@ -5111,11 +5423,12 @@ def test_group_f018v_group_f018v_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_group_f017v_group_f017v_v(mode, save_output):
+def test_group_f017v_group_f017v_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking (id, ref) : parent is extension: elements in
     instant XML=1, minOccurs=1, maxOccurs=2
@@ -5127,11 +5440,12 @@ def test_group_f017v_group_f017v_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_group_f014v_group_f014v_v(mode, save_output):
+def test_group_f014v_group_f014v_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking (id, ref) : parent is extension: elements in
     instant XML=1, minOccurs=1, maxOccurs=1
@@ -5143,11 +5457,12 @@ def test_group_f014v_group_f014v_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_group_f011v_group_f011v_v(mode, save_output):
+def test_group_f011v_group_f011v_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking (id, ref) : parent is extension: elements in
     instant XML=1, minOccurs=1, maxOccurs=absent
@@ -5159,11 +5474,12 @@ def test_group_f011v_group_f011v_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_group_f009v_group_f009v_v(mode, save_output):
+def test_group_f009v_group_f009v_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking (id, ref) : parent is extension: elements in
     instant XML=0, minOccurs=0, maxOccurs=999999999999999999999
@@ -5175,11 +5491,12 @@ def test_group_f009v_group_f009v_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_group_f007v_group_f007v_v(mode, save_output):
+def test_group_f007v_group_f007v_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking (id, ref) : parent is extension: elements in
     instant XML=0, minOccurs=0, maxOccurs=0
@@ -5191,11 +5508,12 @@ def test_group_f007v_group_f007v_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_group_f005v_group_f005v_v(mode, save_output):
+def test_group_f005v_group_f005v_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking (id, ref) : parent is extension: elements in
     instant XML=1, minOccurs=0, maxOccurs=1
@@ -5207,11 +5525,12 @@ def test_group_f005v_group_f005v_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_group_f004v_group_f004v_v(mode, save_output):
+def test_group_f004v_group_f004v_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking (id, ref) : parent is extension: elements in
     instant XML=0, minOccurs=0, maxOccurs=1
@@ -5223,11 +5542,12 @@ def test_group_f004v_group_f004v_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_group_f002v_group_f002v_v(mode, save_output):
+def test_group_f002v_group_f002v_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking (id, ref) : parent is extension: elements in
     instant XML=1, minOccurs=0, maxOccurs=absent
@@ -5239,11 +5559,12 @@ def test_group_f002v_group_f002v_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_group_f001v_group_f001v_v(mode, save_output):
+def test_group_f001v_group_f001v_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking (id, ref) : parent is extension: elements in
     instant XML=0, minOccurs=0, maxOccurs=absent
@@ -5255,11 +5576,12 @@ def test_group_f001v_group_f001v_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_group_e004v_group_e004v_v(mode, save_output):
+def test_group_e004v_group_e004v_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking (id, ref) : parent is extension: check that
     minOccurs default is 1, elements in instant XML = 1, minOccurs=absent,
@@ -5272,11 +5594,12 @@ def test_group_e004v_group_e004v_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_group_b010v_group_b010v_v(mode, save_output):
+def test_group_b010v_group_b010v_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking (id, ref) : Test ref:, parent is extension,
     ref='global group from included xsd"
@@ -5288,11 +5611,12 @@ def test_group_b010v_group_b010v_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_group_b009v_group_b009v_v(mode, save_output):
+def test_group_b009v_group_b009v_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking (id, ref) : Test ref:, parent is extension,
     ref='global group from imported xsd"
@@ -5304,11 +5628,12 @@ def test_group_b009v_group_b009v_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_group_b006v_group_b006v_v(mode, save_output):
+def test_group_b006v_group_b006v_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking (id, ref) : Test ref:, parent is complexType,
     ref='global group'
@@ -5320,11 +5645,12 @@ def test_group_b006v_group_b006v_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_group_b005v_group_b005v_v(mode, save_output):
+def test_group_b005v_group_b005v_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking (id, ref) : Test ref:, parent is choice,
     ref='global group'
@@ -5336,11 +5662,12 @@ def test_group_b005v_group_b005v_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_group_b004v_group_b004v_v(mode, save_output):
+def test_group_b004v_group_b004v_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking (id, ref) : Test ref:, parent is sequence,
     ref='global group'
@@ -5352,11 +5679,12 @@ def test_group_b004v_group_b004v_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_group_b003v_group_b003v_v(mode, save_output):
+def test_group_b003v_group_b003v_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking (id, ref) : Test ref:, parent is restriction,
     ref='global group'
@@ -5368,11 +5696,12 @@ def test_group_b003v_group_b003v_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_group_b002v_group_b002v_v(mode, save_output):
+def test_group_b002v_group_b002v_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking (id, ref) : Test ref:, parent is extension,
     ref='global group'
@@ -5384,11 +5713,12 @@ def test_group_b002v_group_b002v_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_z007_id_z007_v(mode, save_output):
+def test_id_z007_id_z007_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : Values of
     simple types derived from built-in types should always be comparable
@@ -5400,11 +5730,12 @@ def test_id_z007_id_z007_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_z006_id_z006_v(mode, save_output):
+def test_id_z006_id_z006_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : test
     Validation of keys when more than one key is defined
@@ -5416,11 +5747,12 @@ def test_id_z006_id_z006_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_z005_id_z005_v(mode, save_output):
+def test_id_z005_id_z005_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : test
     Validation of keys when more than one key is defined
@@ -5432,11 +5764,12 @@ def test_id_z005_id_z005_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_l102_id_l102_v(mode, save_output):
+def test_id_l102_id_l102_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : Test for path
     | path of selector field xpath='@ncname:*' , selector contains qname |
@@ -5449,11 +5782,12 @@ def test_id_l102_id_l102_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_l098_id_l098_v(mode, save_output):
+def test_id_l098_id_l098_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : Test for path
     | path of selector field xpath='@qname' , selector contains qname |
@@ -5466,11 +5800,12 @@ def test_id_l098_id_l098_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_l096_id_l096_v(mode, save_output):
+def test_id_l096_id_l096_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : Test for path
     | path of selector field xpath='ncname:*' , selector contains qname |
@@ -5483,11 +5818,12 @@ def test_id_l096_id_l096_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_l094_id_l094_v(mode, save_output):
+def test_id_l094_id_l094_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : Test for path
     | path of selector field xpath='*' , selector contains qname | qname1
@@ -5499,11 +5835,12 @@ def test_id_l094_id_l094_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_l092_id_l092_v(mode, save_output):
+def test_id_l092_id_l092_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : Test for path
     | path of selector field xpath='qname' , selector contains qname |
@@ -5516,11 +5853,12 @@ def test_id_l092_id_l092_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_l090_id_l090_v(mode, save_output):
+def test_id_l090_id_l090_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : Test for path
     | path of selector field xpath='.' , selector contains qname | qname1
@@ -5532,11 +5870,12 @@ def test_id_l090_id_l090_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_l088_id_l088_v(mode, save_output):
+def test_id_l088_id_l088_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : Test multiple
     field statements field xpath='@ncname:* ; qname' , selector contains *
@@ -5548,11 +5887,12 @@ def test_id_l088_id_l088_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_l086_id_l086_v(mode, save_output):
+def test_id_l086_id_l086_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : Test multiple
     field statements field xpath='@* ; qname' , selector contains *
@@ -5564,11 +5904,12 @@ def test_id_l086_id_l086_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_l084_id_l084_v(mode, save_output):
+def test_id_l084_id_l084_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : Test multiple
     field statements field xpath='@qname ; qname1' , selector contains *
@@ -5580,11 +5921,12 @@ def test_id_l084_id_l084_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_l082_id_l082_v(mode, save_output):
+def test_id_l082_id_l082_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : Test multiple
     field statements field xpath='ncname:* ; qname' , selector contains *
@@ -5596,11 +5938,12 @@ def test_id_l082_id_l082_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_l078_id_l078_v(mode, save_output):
+def test_id_l078_id_l078_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : Test multiple
     field statements field xpath='qname ; qname1' , selector contains *
@@ -5612,11 +5955,12 @@ def test_id_l078_id_l078_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_l077a_id_l077_v(mode, save_output):
+def test_id_l077a_id_l077_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : Test multiple
     field statements field xpath='. ; qname' , selector contains *
@@ -5629,11 +5973,12 @@ def test_id_l077a_id_l077_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_l077_id_l077_v(mode, save_output):
+def test_id_l077_id_l077_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : Test multiple
     field statements field xpath='. ; qname' , selector contains *
@@ -5646,11 +5991,12 @@ def test_id_l077_id_l077_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_l076a_id_l076_v(mode, save_output):
+def test_id_l076a_id_l076_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : Test multiple
     field statements field xpath='. ; qname' , selector contains *
@@ -5663,11 +6009,12 @@ def test_id_l076a_id_l076_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_l076_id_l076_v(mode, save_output):
+def test_id_l076_id_l076_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : Test multiple
     field statements field xpath='. ; qname' , selector contains *
@@ -5680,11 +6027,12 @@ def test_id_l076_id_l076_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_l074_id_l074_v(mode, save_output):
+def test_id_l074_id_l074_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for keyref definition, field xpath='attribute::ncname:*' , selector
@@ -5697,11 +6045,12 @@ def test_id_l074_id_l074_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_l073_id_l073_v(mode, save_output):
+def test_id_l073_id_l073_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for keyref definition, field xpath='@ncname:*' , selector contains *
@@ -5713,11 +6062,12 @@ def test_id_l073_id_l073_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_l071_id_l071_v(mode, save_output):
+def test_id_l071_id_l071_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for keyref definition, field xpath='attribute::*' , selector contains
@@ -5730,11 +6080,12 @@ def test_id_l071_id_l071_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_l070_id_l070_v(mode, save_output):
+def test_id_l070_id_l070_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for keyref definition, field xpath='@*' , selector contains *
@@ -5746,11 +6097,12 @@ def test_id_l070_id_l070_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_l068_id_l068_v(mode, save_output):
+def test_id_l068_id_l068_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for keyref definition, field xpath='attribute::qname' , selector
@@ -5763,11 +6115,12 @@ def test_id_l068_id_l068_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_l067_id_l067_v(mode, save_output):
+def test_id_l067_id_l067_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for keyref definition, field xpath='attribute::qname' , selector
@@ -5780,11 +6133,12 @@ def test_id_l067_id_l067_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_l066_id_l066_v(mode, save_output):
+def test_id_l066_id_l066_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for keyref definition, field xpath='@qname' , selector contains *
@@ -5796,11 +6150,12 @@ def test_id_l066_id_l066_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_l064_id_l064_v(mode, save_output):
+def test_id_l064_id_l064_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for keyref definition, field xpath='child::ncname:*' , selector
@@ -5813,11 +6168,12 @@ def test_id_l064_id_l064_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_l063_id_l063_v(mode, save_output):
+def test_id_l063_id_l063_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for keyref definition, field xpath='ncname:*' , selector contains *
@@ -5829,11 +6185,12 @@ def test_id_l063_id_l063_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_l060_id_l060_v(mode, save_output):
+def test_id_l060_id_l060_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for keyref definition, field xpath='child::*' , selector contains *
@@ -5845,11 +6202,12 @@ def test_id_l060_id_l060_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_l059_id_l059_v(mode, save_output):
+def test_id_l059_id_l059_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for keyref definition, field xpath='*' , selector contains .//qname
@@ -5861,11 +6219,12 @@ def test_id_l059_id_l059_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_l058_id_l058_v(mode, save_output):
+def test_id_l058_id_l058_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for keyref definition, field xpath='*' , selector contains *
@@ -5877,11 +6236,12 @@ def test_id_l058_id_l058_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_l055_id_l055_v(mode, save_output):
+def test_id_l055_id_l055_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for keyref definition, field xpath='.//qname' , selector contains
@@ -5894,11 +6254,12 @@ def test_id_l055_id_l055_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_l054_id_l054_v(mode, save_output):
+def test_id_l054_id_l054_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for keyref definition, field xpath='child::qname' , selector contains
@@ -5911,11 +6272,12 @@ def test_id_l054_id_l054_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_l053_id_l053_v(mode, save_output):
+def test_id_l053_id_l053_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for keyref definition, field xpath='qname' , selector contains *
@@ -5927,11 +6289,12 @@ def test_id_l053_id_l053_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_l051_id_l051_v(mode, save_output):
+def test_id_l051_id_l051_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for keyref definition, field xpath='.' , selector contains *
@@ -5943,11 +6306,12 @@ def test_id_l051_id_l051_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_l049_id_l049_v(mode, save_output):
+def test_id_l049_id_l049_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for key definition, field xpath='attribute::ncname:*' , selector
@@ -5960,11 +6324,12 @@ def test_id_l049_id_l049_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_l048_id_l048_v(mode, save_output):
+def test_id_l048_id_l048_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for key definition, field xpath='@ncname:*' , selector contains *
@@ -5976,11 +6341,12 @@ def test_id_l048_id_l048_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_l046_id_l046_v(mode, save_output):
+def test_id_l046_id_l046_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for key definition, field xpath='attribute::*' , selector contains *
@@ -5992,11 +6358,12 @@ def test_id_l046_id_l046_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_l045_id_l045_v(mode, save_output):
+def test_id_l045_id_l045_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for key definition, field xpath='@*' , selector contains *
@@ -6008,11 +6375,12 @@ def test_id_l045_id_l045_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_l043_id_l043_v(mode, save_output):
+def test_id_l043_id_l043_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for key definition, field xpath='attribute::qname' , selector contains
@@ -6025,11 +6393,12 @@ def test_id_l043_id_l043_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_l042_id_l042_v(mode, save_output):
+def test_id_l042_id_l042_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for key definition, field xpath='attribute::qname' , selector contains
@@ -6042,11 +6411,12 @@ def test_id_l042_id_l042_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_l041_id_l041_v(mode, save_output):
+def test_id_l041_id_l041_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for key definition, field xpath='@qname' , selector contains *
@@ -6058,11 +6428,12 @@ def test_id_l041_id_l041_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_l039_id_l039_v(mode, save_output):
+def test_id_l039_id_l039_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for key definition, field xpath='child::ncname:*' , selector contains
@@ -6075,11 +6446,12 @@ def test_id_l039_id_l039_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_l038_id_l038_v(mode, save_output):
+def test_id_l038_id_l038_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for key definition, field xpath='ncname:*' , selector contains *
@@ -6091,11 +6463,12 @@ def test_id_l038_id_l038_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_l035_id_l035_v(mode, save_output):
+def test_id_l035_id_l035_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for key definition, field xpath='child::*' , selector contains *
@@ -6107,11 +6480,12 @@ def test_id_l035_id_l035_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_l034_id_l034_v(mode, save_output):
+def test_id_l034_id_l034_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for key definition, field xpath='*' , selector contains .//qname
@@ -6123,11 +6497,12 @@ def test_id_l034_id_l034_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_l033_id_l033_v(mode, save_output):
+def test_id_l033_id_l033_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for key definition, field xpath='*' , selector contains *
@@ -6139,11 +6514,12 @@ def test_id_l033_id_l033_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_l030_id_l030_v(mode, save_output):
+def test_id_l030_id_l030_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for key definition, field xpath='.//qname' , selector contains qname1
@@ -6155,11 +6531,12 @@ def test_id_l030_id_l030_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_l029_id_l029_v(mode, save_output):
+def test_id_l029_id_l029_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for key definition, field xpath='child::qname' , selector contains *
@@ -6171,11 +6548,12 @@ def test_id_l029_id_l029_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_l028_id_l028_v(mode, save_output):
+def test_id_l028_id_l028_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for key definition, field xpath='qname' , selector contains *
@@ -6187,11 +6565,12 @@ def test_id_l028_id_l028_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_l026_id_l026_v(mode, save_output):
+def test_id_l026_id_l026_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for key definition, field xpath='.' , selector contains *
@@ -6203,11 +6582,12 @@ def test_id_l026_id_l026_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_l024_id_l024_v(mode, save_output):
+def test_id_l024_id_l024_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for unique definition, field xpath='attribute::ncname:*' , selector
@@ -6220,11 +6600,12 @@ def test_id_l024_id_l024_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_l023_id_l023_v(mode, save_output):
+def test_id_l023_id_l023_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for unique definition, field xpath='@ncname:*' , selector contains *
@@ -6236,11 +6617,12 @@ def test_id_l023_id_l023_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_l021_id_l021_v(mode, save_output):
+def test_id_l021_id_l021_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for unique definition, field xpath='attribute::*' , selector contains
@@ -6253,11 +6635,12 @@ def test_id_l021_id_l021_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_l020_id_l020_v(mode, save_output):
+def test_id_l020_id_l020_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for unique definition, field xpath='@*' , selector contains *
@@ -6269,11 +6652,12 @@ def test_id_l020_id_l020_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_l018_id_l018_v(mode, save_output):
+def test_id_l018_id_l018_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for unique definition, field xpath='attribute::qname' , selector
@@ -6286,11 +6670,12 @@ def test_id_l018_id_l018_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_l017_id_l017_v(mode, save_output):
+def test_id_l017_id_l017_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for unique definition, field xpath='attribute::qname' , selector
@@ -6303,11 +6688,12 @@ def test_id_l017_id_l017_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_l016_id_l016_v(mode, save_output):
+def test_id_l016_id_l016_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for unique definition, field xpath='@qname' , selector contains *
@@ -6319,11 +6705,12 @@ def test_id_l016_id_l016_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_l014_id_l014_v(mode, save_output):
+def test_id_l014_id_l014_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for unique definition, field xpath='child::ncname:*' , selector
@@ -6336,11 +6723,12 @@ def test_id_l014_id_l014_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_l013_id_l013_v(mode, save_output):
+def test_id_l013_id_l013_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for unique definition, field xpath='ncname:*' , selector contains *
@@ -6352,11 +6740,12 @@ def test_id_l013_id_l013_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_l010_id_l010_v(mode, save_output):
+def test_id_l010_id_l010_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for unique definition, field xpath='child::*' , selector contains *
@@ -6368,11 +6757,12 @@ def test_id_l010_id_l010_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_l009_id_l009_v(mode, save_output):
+def test_id_l009_id_l009_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for unique definition, field xpath='*' , selector contains .//qname
@@ -6384,11 +6774,12 @@ def test_id_l009_id_l009_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_l008_id_l008_v(mode, save_output):
+def test_id_l008_id_l008_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for unique definition, field xpath='*' , selector contains *
@@ -6400,11 +6791,12 @@ def test_id_l008_id_l008_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_l005_id_l005_v(mode, save_output):
+def test_id_l005_id_l005_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for unique definition, field xpath='.//qname' , selector contains
@@ -6417,11 +6809,12 @@ def test_id_l005_id_l005_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_l004_id_l004_v(mode, save_output):
+def test_id_l004_id_l004_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for unique definition, field xpath='child::qname' , selector contains
@@ -6434,11 +6827,12 @@ def test_id_l004_id_l004_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_l003_id_l003_v(mode, save_output):
+def test_id_l003_id_l003_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for unique definition, field xpath='qname' , selector contains *
@@ -6450,11 +6844,12 @@ def test_id_l003_id_l003_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_l001_id_l001_v(mode, save_output):
+def test_id_l001_id_l001_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for unique definition, field xpath='.' , selector contains *
@@ -6466,11 +6861,12 @@ def test_id_l001_id_l001_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_k017_id_k017_v(mode, save_output):
+def test_id_k017_id_k017_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : keyref defined
     locally within key scope
@@ -6482,11 +6878,12 @@ def test_id_k017_id_k017_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_k015_id_k015_v(mode, save_output):
+def test_id_k015_id_k015_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : constraint
     locating an element that is of simpleType/union
@@ -6498,11 +6895,12 @@ def test_id_k015_id_k015_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_k014_id_k014_v(mode, save_output):
+def test_id_k014_id_k014_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : constraint
     locating an element that is of simpleType/list
@@ -6514,11 +6912,12 @@ def test_id_k014_id_k014_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_k013_id_k013_v(mode, save_output):
+def test_id_k013_id_k013_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : constraint
     locating an element that is of simpleType/restriction
@@ -6530,11 +6929,12 @@ def test_id_k013_id_k013_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_k011a_id_k011_v(mode, save_output):
+def test_id_k011a_id_k011_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : constraint
     locating an element that is of complexType/simpleContent Resolution
@@ -6547,11 +6947,12 @@ def test_id_k011a_id_k011_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_k011_id_k011_v(mode, save_output):
+def test_id_k011_id_k011_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : constraint
     locating an element that is of complexType/simpleContent Resolution
@@ -6564,11 +6965,12 @@ def test_id_k011_id_k011_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_k010_id_k010_v(mode, save_output):
+def test_id_k010_id_k010_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : keyref fields
     locating an element refers to a unique locating an element
@@ -6580,11 +6982,12 @@ def test_id_k010_id_k010_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_k009_id_k009_v(mode, save_output):
+def test_id_k009_id_k009_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : keyref fields
     locating an element refers to a key locating an element
@@ -6596,11 +6999,12 @@ def test_id_k009_id_k009_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_k008_id_k008_v(mode, save_output):
+def test_id_k008_id_k008_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : keyref fields
     locating an attribute refers to a unique locating an attribute
@@ -6612,11 +7016,12 @@ def test_id_k008_id_k008_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_k007_id_k007_v(mode, save_output):
+def test_id_k007_id_k007_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : keyref fields
     locating an attribute refers to a key locating an attribute
@@ -6628,11 +7033,12 @@ def test_id_k007_id_k007_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_k006_id_k006_v(mode, save_output):
+def test_id_k006_id_k006_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : keyref fields
     locating an element refers to a unique locating an attribute
@@ -6644,11 +7050,12 @@ def test_id_k006_id_k006_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_k005_id_k005_v(mode, save_output):
+def test_id_k005_id_k005_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : keyref fields
     locating an element refers to a key locating an attribute
@@ -6660,11 +7067,12 @@ def test_id_k005_id_k005_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_k004_id_k004_v(mode, save_output):
+def test_id_k004_id_k004_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : keyref fields
     locating an attribute subject to normalization refers to a key
@@ -6678,11 +7086,12 @@ def test_id_k004_id_k004_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_k002_id_k002_v(mode, save_output):
+def test_id_k002_id_k002_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : keyref fields
     locating an attribute refers to a unique locating an element
@@ -6694,11 +7103,12 @@ def test_id_k002_id_k002_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_k001_id_k001_v(mode, save_output):
+def test_id_k001_id_k001_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : keyref fields
     locating an attribute refers to a key locating an element
@@ -6710,11 +7120,12 @@ def test_id_k001_id_k001_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_h034_id_h034_v(mode, save_output):
+def test_id_h034_id_h034_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : keyref
     category, field points to attribute used only within xsi:type
@@ -6727,11 +7138,12 @@ def test_id_h034_id_h034_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_h032_id_h032_v(mode, save_output):
+def test_id_h032_id_h032_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : keyref
     category, field points to attribute from redefined schema
@@ -6743,11 +7155,12 @@ def test_id_h032_id_h032_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_h031a_id_h031_v(mode, save_output):
+def test_id_h031a_id_h031_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : keyref
     category, field points to attribute from imported schema Resolution
@@ -6760,11 +7173,12 @@ def test_id_h031a_id_h031_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_h031_id_h031_v(mode, save_output):
+def test_id_h031_id_h031_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : keyref
     category, field points to attribute from imported schema Resolution
@@ -6777,11 +7191,12 @@ def test_id_h031_id_h031_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_h030_id_h030_v(mode, save_output):
+def test_id_h030_id_h030_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : keyref
     category, field points to attribute within targetNamespace
@@ -6793,11 +7208,12 @@ def test_id_h030_id_h030_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_h029_id_h029_v(mode, save_output):
+def test_id_h029_id_h029_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : keyref
     category, field points to element redefined by use of
@@ -6810,11 +7226,12 @@ def test_id_h029_id_h029_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_h028_id_h028_v(mode, save_output):
+def test_id_h028_id_h028_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : keyref
     category, field points to element from redefined schema
@@ -6826,11 +7243,12 @@ def test_id_h028_id_h028_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_h027_id_h027_v(mode, save_output):
+def test_id_h027_id_h027_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : keyref
     category, field points to element from imported schema
@@ -6842,11 +7260,12 @@ def test_id_h027_id_h027_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_h026_id_h026_v(mode, save_output):
+def test_id_h026_id_h026_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : keyref
     category, field points to element outside targetNamespace in non-
@@ -6859,11 +7278,12 @@ def test_id_h026_id_h026_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_h025_id_h025_v(mode, save_output):
+def test_id_h025_id_h025_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : keyref
     category, field points to element within targetNamespace
@@ -6875,11 +7295,12 @@ def test_id_h025_id_h025_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_h024_id_h024_v(mode, save_output):
+def test_id_h024_id_h024_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : keyref
     category, selector points to element redefined by use of
@@ -6892,11 +7313,12 @@ def test_id_h024_id_h024_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_h023_id_h023_v(mode, save_output):
+def test_id_h023_id_h023_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : keyref
     category, selector points to element from redefined schema
@@ -6908,11 +7330,12 @@ def test_id_h023_id_h023_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_h022_id_h022_v(mode, save_output):
+def test_id_h022_id_h022_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : keyref
     category, selector points to element from imported schema
@@ -6924,11 +7347,12 @@ def test_id_h022_id_h022_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_h021_id_h021_v(mode, save_output):
+def test_id_h021_id_h021_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : keyref
     category, selector points to element outside of targetNamespace in a
@@ -6941,11 +7365,12 @@ def test_id_h021_id_h021_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_h020_id_h020_v(mode, save_output):
+def test_id_h020_id_h020_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : keyref
     category, selector points to element within targetNamespace
@@ -6957,11 +7382,12 @@ def test_id_h020_id_h020_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_h019_id_h019_v(mode, save_output):
+def test_id_h019_id_h019_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : keyref
     category, qualified node set defined with the use of multiple field
@@ -6974,11 +7400,12 @@ def test_id_h019_id_h019_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_h018_id_h018_v(mode, save_output):
+def test_id_h018_id_h018_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : keyref
     category, qualified node set defined with the use of multiple field
@@ -6991,11 +7418,12 @@ def test_id_h018_id_h018_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_h017_id_h017_v(mode, save_output):
+def test_id_h017_id_h017_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : keyref
     category, qualified node set defined with the use of multiple field
@@ -7008,11 +7436,12 @@ def test_id_h017_id_h017_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_h016_id_h016_v(mode, save_output):
+def test_id_h016_id_h016_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : keyref
     category, instance member (a)=test, string; instance member (b)='',
@@ -7025,11 +7454,12 @@ def test_id_h016_id_h016_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_h015_id_h015_v(mode, save_output):
+def test_id_h015_id_h015_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : keyref
     category, instance member (a)=test, string; instance member (b)='',
@@ -7042,11 +7472,12 @@ def test_id_h015_id_h015_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_h009_id_h009_v(mode, save_output):
+def test_id_h009_id_h009_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : keyref
     category, keyref refers to unique element
@@ -7058,11 +7489,12 @@ def test_id_h009_id_h009_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_h008_id_h008_v(mode, save_output):
+def test_id_h008_id_h008_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : keyref
     category, keyref refers to existing key element defined post to keyref
@@ -7074,11 +7506,12 @@ def test_id_h008_id_h008_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_h007_id_h007_v(mode, save_output):
+def test_id_h007_id_h007_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : keyref
     category, keyref refers to existing key element defined prior to
@@ -7091,11 +7524,12 @@ def test_id_h007_id_h007_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_h004_id_h004_v(mode, save_output):
+def test_id_h004_id_h004_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : keyref
     category, field element evaluates to a node-set with only one member
@@ -7107,11 +7541,12 @@ def test_id_h004_id_h004_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_h003_id_h003_v(mode, save_output):
+def test_id_h003_id_h003_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : keyref
     category, field element evaluates to an empty-node set
@@ -7123,11 +7558,12 @@ def test_id_h003_id_h003_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_h001_id_h001_v(mode, save_output):
+def test_id_h001_id_h001_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : keyref
     category, selector element evaluates to a node-set
@@ -7139,11 +7575,12 @@ def test_id_h001_id_h001_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_g030_id_g030_v(mode, save_output):
+def test_id_g030_id_g030_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : key category,
     field points to attribute used only within xsi:type substitution
@@ -7155,11 +7592,12 @@ def test_id_g030_id_g030_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_g029_id_g029_v(mode, save_output):
+def test_id_g029_id_g029_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : key category,
     field points to attribute outside targetNamespace in non-imported
@@ -7172,11 +7610,12 @@ def test_id_g029_id_g029_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_g028_id_g028_v(mode, save_output):
+def test_id_g028_id_g028_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : key category,
     field points to attribute from redefined schema
@@ -7188,11 +7627,12 @@ def test_id_g028_id_g028_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_g027_id_g027_v(mode, save_output):
+def test_id_g027_id_g027_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : key category,
     field points to attribute from imported schema
@@ -7204,11 +7644,12 @@ def test_id_g027_id_g027_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_g026_id_g026_v(mode, save_output):
+def test_id_g026_id_g026_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : key category,
     field points to attribute within targetNamespace
@@ -7220,11 +7661,12 @@ def test_id_g026_id_g026_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_g024_id_g024_v(mode, save_output):
+def test_id_g024_id_g024_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : key category,
     field points to element from redefined schema
@@ -7236,11 +7678,12 @@ def test_id_g024_id_g024_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_g023_id_g023_v(mode, save_output):
+def test_id_g023_id_g023_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : key category,
     field points to element from imported schema
@@ -7252,11 +7695,12 @@ def test_id_g023_id_g023_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_g022_id_g022_v(mode, save_output):
+def test_id_g022_id_g022_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : key category,
     field points to element outside targetNamespace in non-imported schema
@@ -7268,11 +7712,12 @@ def test_id_g022_id_g022_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_g021_id_g021_v(mode, save_output):
+def test_id_g021_id_g021_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : key category,
     field points to element within targetNamespace
@@ -7284,11 +7729,12 @@ def test_id_g021_id_g021_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_g019_id_g019_v(mode, save_output):
+def test_id_g019_id_g019_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : key category,
     selector points to element from redefined schema
@@ -7300,11 +7746,12 @@ def test_id_g019_id_g019_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_g018_id_g018_v(mode, save_output):
+def test_id_g018_id_g018_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : key category,
     selector points to element from imported schema
@@ -7316,11 +7763,12 @@ def test_id_g018_id_g018_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_g017_id_g017_v(mode, save_output):
+def test_id_g017_id_g017_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : key category,
     selector points to element outside of targetNamespace in a non-
@@ -7333,11 +7781,12 @@ def test_id_g017_id_g017_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_g016_id_g016_v(mode, save_output):
+def test_id_g016_id_g016_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : key category,
     selector points to element within targetNamespace
@@ -7349,11 +7798,12 @@ def test_id_g016_id_g016_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_g015_id_g015_v(mode, save_output):
+def test_id_g015_id_g015_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : key category,
     qualified node set defined with the use of multiple field schema
@@ -7366,11 +7816,12 @@ def test_id_g015_id_g015_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_g014_id_g014_v(mode, save_output):
+def test_id_g014_id_g014_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : key category,
     qualified node set defined with the use of multiple field schema
@@ -7383,11 +7834,12 @@ def test_id_g014_id_g014_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_g013_id_g013_v(mode, save_output):
+def test_id_g013_id_g013_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : key category,
     qualified node set defined with the use of multiple field schema
@@ -7400,11 +7852,12 @@ def test_id_g013_id_g013_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_g007_id_g007_v(mode, save_output):
+def test_id_g007_id_g007_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : key category,
     all target node set members exist in qualified node set
@@ -7416,11 +7869,12 @@ def test_id_g007_id_g007_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_g004_id_g004_v(mode, save_output):
+def test_id_g004_id_g004_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : key category,
     field element evaluates to a node-set with only one member
@@ -7432,11 +7886,12 @@ def test_id_g004_id_g004_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_g001_id_g001_v(mode, save_output):
+def test_id_g001_id_g001_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : key category,
     selector element evaluates to a node-set
@@ -7448,11 +7903,12 @@ def test_id_g001_id_g001_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_f036_id_f036_v(mode, save_output):
+def test_id_f036_id_f036_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : unique
     category, field points to attribute used only within xsi:type
@@ -7465,11 +7921,12 @@ def test_id_f036_id_f036_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_f035_id_f035_v(mode, save_output):
+def test_id_f035_id_f035_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : unique
     category, field points to attribute outside targetNamespace in non-
@@ -7482,11 +7939,12 @@ def test_id_f035_id_f035_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_f034_id_f034_v(mode, save_output):
+def test_id_f034_id_f034_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : unique
     category, field points to attribute from redefined schema
@@ -7498,11 +7956,12 @@ def test_id_f034_id_f034_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_f033_id_f033_v(mode, save_output):
+def test_id_f033_id_f033_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : unique
     category, field points to attribute from imported schema
@@ -7514,11 +7973,12 @@ def test_id_f033_id_f033_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_f032_id_f032_v(mode, save_output):
+def test_id_f032_id_f032_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : unique
     category, field points to attribute within targetNamespace
@@ -7530,11 +7990,12 @@ def test_id_f032_id_f032_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_f031_id_f031_v(mode, save_output):
+def test_id_f031_id_f031_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : unique
     category, field points to element redefined by use of
@@ -7547,11 +8008,12 @@ def test_id_f031_id_f031_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_f030_id_f030_v(mode, save_output):
+def test_id_f030_id_f030_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : unique
     category, field points to element from redefined schema
@@ -7563,11 +8025,12 @@ def test_id_f030_id_f030_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_f029_id_f029_v(mode, save_output):
+def test_id_f029_id_f029_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : unique
     category, field points to element from imported schema
@@ -7579,11 +8042,12 @@ def test_id_f029_id_f029_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_f028_id_f028_v(mode, save_output):
+def test_id_f028_id_f028_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : unique
     category, field points to element outside targetNamespace in non-
@@ -7596,11 +8060,12 @@ def test_id_f028_id_f028_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_f027_id_f027_v(mode, save_output):
+def test_id_f027_id_f027_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : unique
     category, field points to element within targetNamespace
@@ -7612,11 +8077,12 @@ def test_id_f027_id_f027_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_f026_id_f026_v(mode, save_output):
+def test_id_f026_id_f026_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : unique
     category, selector points to element redefined by use of
@@ -7629,11 +8095,12 @@ def test_id_f026_id_f026_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_f025_id_f025_v(mode, save_output):
+def test_id_f025_id_f025_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : unique
     category, selector points to element from redefined schema
@@ -7645,11 +8112,12 @@ def test_id_f025_id_f025_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_f024_id_f024_v(mode, save_output):
+def test_id_f024_id_f024_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : unique
     category, selector points to element from imported schema
@@ -7661,11 +8129,12 @@ def test_id_f024_id_f024_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_f023_id_f023_v(mode, save_output):
+def test_id_f023_id_f023_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : unique
     category, selector points to element outside of targetNamespace in a
@@ -7678,11 +8147,12 @@ def test_id_f023_id_f023_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_f022_id_f022_v(mode, save_output):
+def test_id_f022_id_f022_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : unique
     category, selector points to element within targetNamespace
@@ -7694,11 +8164,12 @@ def test_id_f022_id_f022_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_f021_id_f021_v(mode, save_output):
+def test_id_f021_id_f021_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : unique
     category, qualified node set defined with the use of multiple field
@@ -7711,11 +8182,12 @@ def test_id_f021_id_f021_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_f020_id_f020_v(mode, save_output):
+def test_id_f020_id_f020_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : unique
     category, qualified node set defined with the use of multiple field
@@ -7728,11 +8200,12 @@ def test_id_f020_id_f020_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_f019_id_f019_v(mode, save_output):
+def test_id_f019_id_f019_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : unique
     category, qualified node set defined with the use of multiple field
@@ -7745,11 +8218,12 @@ def test_id_f019_id_f019_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_f014_id_f014_v(mode, save_output):
+def test_id_f014_id_f014_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : unique
     category, instance member (a)=1, float; instance member (b)=1,
@@ -7762,11 +8236,12 @@ def test_id_f014_id_f014_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_f013_id_f013_v(mode, save_output):
+def test_id_f013_id_f013_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : unique
     category, instance member (a)=1, float; instance member (b)=1, decimal
@@ -7778,11 +8253,12 @@ def test_id_f013_id_f013_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_f012_id_f012_v(mode, save_output):
+def test_id_f012_id_f012_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : unique
     category, instance member (a)=1, boolean; instance member (b)=1,
@@ -7795,11 +8271,12 @@ def test_id_f012_id_f012_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_f011_id_f011_v(mode, save_output):
+def test_id_f011_id_f011_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : unique
     category, instance member (a)=3.0, string; instance member (b)=3,
@@ -7812,11 +8289,12 @@ def test_id_f011_id_f011_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_f009_id_f009_v(mode, save_output):
+def test_id_f009_id_f009_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : unique
     category, qualified node set contains members with an element
@@ -7829,11 +8307,12 @@ def test_id_f009_id_f009_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_f007_id_f007_v(mode, save_output):
+def test_id_f007_id_f007_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : unique
     category, all qualified node set members are unique
@@ -7845,11 +8324,12 @@ def test_id_f007_id_f007_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_f004_id_f004_v(mode, save_output):
+def test_id_f004_id_f004_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : unique
     category, field element evaluates to a node-set with only one member
@@ -7861,11 +8341,12 @@ def test_id_f004_id_f004_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_f003_id_f003_v(mode, save_output):
+def test_id_f003_id_f003_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : unique
     category, field element evaluates to an empty-node set
@@ -7877,11 +8358,12 @@ def test_id_f003_id_f003_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_f001_id_f001_v(mode, save_output):
+def test_id_f001_id_f001_v(mode, save_output, output_format):
     """
     TEST :Identity-constraint Definition Schema Component : unique
     category, selector element evaluates to a node-set
@@ -7893,11 +8375,12 @@ def test_id_f001_id_f001_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_z004_mg_z004_v(mode, save_output):
+def test_mg_z004_mg_z004_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : test occurence range of xs:choice
     """
@@ -7908,11 +8391,12 @@ def test_mg_z004_mg_z004_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_z003_mg_z003_v(mode, save_output):
+def test_mg_z003_mg_z003_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : test derivation by ext. with all with
     base=empty content
@@ -7924,11 +8408,12 @@ def test_mg_z003_mg_z003_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_q020_mg_q020_v(mode, save_output):
+def test_mg_q020_mg_q020_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : 2 particles with idendical element
     declarations (same type), one under 'choice', one under 'sequence'
@@ -7941,11 +8426,12 @@ def test_mg_q020_mg_q020_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_q019_mg_q019_v(mode, save_output):
+def test_mg_q019_mg_q019_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : 2 particles with idendical element
     declarations (same type), one under 'choice', one under 'choice'
@@ -7958,11 +8444,12 @@ def test_mg_q019_mg_q019_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_q018_mg_q018_v(mode, save_output):
+def test_mg_q018_mg_q018_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : 2 particles with idendical element
     declarations (same type), one under 'choice', one under 'sequence'
@@ -7975,11 +8462,12 @@ def test_mg_q018_mg_q018_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_q017_mg_q017_v(mode, save_output):
+def test_mg_q017_mg_q017_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : 2 particles with idendical element
     declarations (same type), one under 'sequence', one under 'choice'
@@ -7992,11 +8480,12 @@ def test_mg_q017_mg_q017_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_q016_mg_q016_v(mode, save_output):
+def test_mg_q016_mg_q016_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : 2 particles with idendical element
     declarations (same type), one under 'sequence', one under 'sequence'
@@ -8009,11 +8498,12 @@ def test_mg_q016_mg_q016_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_q015_mg_q015_v(mode, save_output):
+def test_mg_q015_mg_q015_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : 2 particles with idendical element
     declarations (same type), one under 'sequence', one under 'choice'
@@ -8026,11 +8516,12 @@ def test_mg_q015_mg_q015_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_q014_mg_q014_v(mode, save_output):
+def test_mg_q014_mg_q014_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : 2 particles with idendical element
     declarations (same type), one under 'sequence', one under 'sequence'
@@ -8043,11 +8534,12 @@ def test_mg_q014_mg_q014_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_q009_mg_q009_v(mode, save_output):
+def test_mg_q009_mg_q009_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : 2 particles with idendical element
     declarations (same type), one under 'choice', one under 'sequence'
@@ -8060,11 +8552,12 @@ def test_mg_q009_mg_q009_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_q008_mg_q008_v(mode, save_output):
+def test_mg_q008_mg_q008_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : 2 particles with idendical element
     declarations (same type), one under 'choice', one under 'choice'
@@ -8077,11 +8570,12 @@ def test_mg_q008_mg_q008_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_q007_mg_q007_v(mode, save_output):
+def test_mg_q007_mg_q007_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : 2 particles with idendical element
     declarations (same type), one under 'sequence', one under 'sequence'
@@ -8094,11 +8588,12 @@ def test_mg_q007_mg_q007_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_q006_mg_q006_v(mode, save_output):
+def test_mg_q006_mg_q006_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : 2 particles with idendical element
     declarations (same type), one under 'sequence', one under 'choice'
@@ -8111,11 +8606,12 @@ def test_mg_q006_mg_q006_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_q003_mg_q003_v(mode, save_output):
+def test_mg_q003_mg_q003_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : 2 particles with idendical element
     declarations (same type), both under choice
@@ -8127,11 +8623,12 @@ def test_mg_q003_mg_q003_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_q002_mg_q002_v(mode, save_output):
+def test_mg_q002_mg_q002_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : 2 particles with idendical element
     declarations (same type), both under sequence
@@ -8143,11 +8640,12 @@ def test_mg_q002_mg_q002_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_o038_mg_o038_v(mode, save_output):
+def test_mg_o038_mg_o038_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : group' with 'all', appear under 'choice'
     with maxOccurs=minOccurs=1 , which is part of a complexType
@@ -8159,11 +8657,12 @@ def test_mg_o038_mg_o038_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_o037_mg_o037_v(mode, save_output):
+def test_mg_o037_mg_o037_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : group' with 'all', appear under 'sequence'
     with maxOccurs=minOccurs=1, which is part of a complexType
@@ -8175,11 +8674,12 @@ def test_mg_o037_mg_o037_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_o036_mg_o036_v(mode, save_output):
+def test_mg_o036_mg_o036_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : group' with 'all', appear under
     'restriction', whiche is part of a complexType
@@ -8191,11 +8691,12 @@ def test_mg_o036_mg_o036_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_o034_mg_o034_v(mode, save_output):
+def test_mg_o034_mg_o034_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : group' with 'all', appear under 'redefine',
     which is part of a complexType
@@ -8207,11 +8708,12 @@ def test_mg_o034_mg_o034_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_o031_mg_o031_v(mode, save_output):
+def test_mg_o031_mg_o031_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : group' with 'all', appear under 'choice'
     with maxOccurs=minOccurs=1 , which is part of a complexType, and group
@@ -8224,11 +8726,12 @@ def test_mg_o031_mg_o031_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_o030_mg_o030_v(mode, save_output):
+def test_mg_o030_mg_o030_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : 'all', and has minOccurs=0, maxOccurs=1
     """
@@ -8239,11 +8742,12 @@ def test_mg_o030_mg_o030_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_o029_mg_o029_v(mode, save_output):
+def test_mg_o029_mg_o029_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : 'all', appear under 'restriction', which is
     part of a complexType, and has minOccurs=0, maxOccurs=1
@@ -8255,11 +8759,12 @@ def test_mg_o029_mg_o029_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_o017_mg_o017_v(mode, save_output):
+def test_mg_o017_mg_o017_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : group' with 'all', appear under 'choice'
     with maxOccurs=minOccurs=1 , whiche is part of a complexType, and
@@ -8272,11 +8777,12 @@ def test_mg_o017_mg_o017_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_o016_mg_o016_v(mode, save_output):
+def test_mg_o016_mg_o016_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : group' with 'all', appear under 'sequence'
     with maxOccurs=minOccurs=1, , whiche is part of a complexType, and
@@ -8289,11 +8795,12 @@ def test_mg_o016_mg_o016_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_o015_mg_o015_v(mode, save_output):
+def test_mg_o015_mg_o015_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : group' with 'all', appear under
     'restriction', whiche is part of a complexType, and particles in all
@@ -8306,11 +8813,12 @@ def test_mg_o015_mg_o015_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_o011_mg_o011_v(mode, save_output):
+def test_mg_o011_mg_o011_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : group' with 'all', appear under
     'complexType', whiche is part of a complexType, and particles in all
@@ -8323,11 +8831,12 @@ def test_mg_o011_mg_o011_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_o010_mg_o010_v(mode, save_output):
+def test_mg_o010_mg_o010_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : group' with 'all', appear under 'choice'
     which is part of a complexType
@@ -8339,11 +8848,12 @@ def test_mg_o010_mg_o010_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_o009_mg_o009_v(mode, save_output):
+def test_mg_o009_mg_o009_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : group' with 'all', appear under 'sequence'
     which is part of a complexType
@@ -8355,11 +8865,12 @@ def test_mg_o009_mg_o009_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_o008_mg_o008_v(mode, save_output):
+def test_mg_o008_mg_o008_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : group' with 'all', appear under
     'restriction', which is part of a complexType
@@ -8371,11 +8882,12 @@ def test_mg_o008_mg_o008_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_o006_mg_o006_v(mode, save_output):
+def test_mg_o006_mg_o006_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : group' with 'all', appear under 'redefine',
     which is part of a complexType
@@ -8387,11 +8899,12 @@ def test_mg_o006_mg_o006_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_o005_mg_o005_v(mode, save_output):
+def test_mg_o005_mg_o005_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : group' with 'all', appear under 'schema',
     which is part of a complexType and has maxOccurs=minOccurs (0 | 1)
@@ -8403,11 +8916,12 @@ def test_mg_o005_mg_o005_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_o004_mg_o004_v(mode, save_output):
+def test_mg_o004_mg_o004_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : all appear under 'complexType', which is
     part of a complexType, and particles in all has maxOccurs=minOccurs (0
@@ -8420,11 +8934,12 @@ def test_mg_o004_mg_o004_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_o002_mg_o002_v(mode, save_output):
+def test_mg_o002_mg_o002_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : all has particle with minOccurs=maxOccur =
     1
@@ -8436,11 +8951,12 @@ def test_mg_o002_mg_o002_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_n012_mg_n012_v(mode, save_output):
+def test_mg_n012_mg_n012_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : parent is sequence, has 2 sequence (E1, E2)
     (F1,F2), and 2 choice (C1 | C2) (D1 | D2), in the instant XML document
@@ -8453,11 +8969,12 @@ def test_mg_n012_mg_n012_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_n005_mg_n005_v(mode, save_output):
+def test_mg_n005_mg_n005_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : parent is sequence, has 2 sequence as child
     (E1,E2) (F1,F2), in the instant XML document, there is no element
@@ -8470,11 +8987,12 @@ def test_mg_n005_mg_n005_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_n001_mg_n001_v(mode, save_output):
+def test_mg_n001_mg_n001_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : parent is sequence, more than one child
     sequences, each of them again have more than one sequence child node,
@@ -8487,11 +9005,12 @@ def test_mg_n001_mg_n001_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_m013_mg_m013_v(mode, save_output):
+def test_mg_m013_mg_m013_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : all: with 2 elements instant doc has a
     global element
@@ -8503,11 +9022,12 @@ def test_mg_m013_mg_m013_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_m011_mg_m011_v(mode, save_output):
+def test_mg_m011_mg_m011_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : all: with 5 elements instant doc has all
     the element in reverse order
@@ -8519,11 +9039,12 @@ def test_mg_m011_mg_m011_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_m009_mg_m009_v(mode, save_output):
+def test_mg_m009_mg_m009_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : all: with 2 elements 2 element in different
     order is in the instant XML doc
@@ -8535,11 +9056,12 @@ def test_mg_m009_mg_m009_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_m008_mg_m008_v(mode, save_output):
+def test_mg_m008_mg_m008_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : all: with 2 elements 2 element is in the
     instant XML doc
@@ -8551,11 +9073,12 @@ def test_mg_m008_mg_m008_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_m004_mg_m004_v(mode, save_output):
+def test_mg_m004_mg_m004_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : all: with 1 elements 1 element is in the
     instant XML doc
@@ -8567,11 +9090,12 @@ def test_mg_m004_mg_m004_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_l009_mg_l009_v(mode, save_output):
+def test_mg_l009_mg_l009_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : choice: with 5 elements, 1 element in the
     instant XML doc
@@ -8583,11 +9107,12 @@ def test_mg_l009_mg_l009_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_l008_mg_l008_v(mode, save_output):
+def test_mg_l008_mg_l008_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : choice: with 5 elements, 0 element in the
     instant XML doc
@@ -8599,11 +9124,12 @@ def test_mg_l008_mg_l008_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_l006_mg_l006_v(mode, save_output):
+def test_mg_l006_mg_l006_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : choice: with 2 elements, 1 element in the
     instant XML doc
@@ -8615,11 +9141,12 @@ def test_mg_l006_mg_l006_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_l004_mg_l004_v(mode, save_output):
+def test_mg_l004_mg_l004_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : choice: with 1 elements, 1 element is in
     the instant XML doc
@@ -8631,11 +9158,12 @@ def test_mg_l004_mg_l004_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_l001_mg_l001_v(mode, save_output):
+def test_mg_l001_mg_l001_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : choice: with NO elements (max=min=absent),
     0 element is in the instant XML doc
@@ -8647,11 +9175,12 @@ def test_mg_l001_mg_l001_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_k009_mg_k009_v(mode, save_output):
+def test_mg_k009_mg_k009_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : sequence: with 5 elements, all elements
     appeared and are in defined order
@@ -8663,11 +9192,12 @@ def test_mg_k009_mg_k009_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_k004_mg_k004_v(mode, save_output):
+def test_mg_k004_mg_k004_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : sequence: with 1 elements, 1 element is in
     the instant XML doc
@@ -8679,11 +9209,12 @@ def test_mg_k004_mg_k004_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_k001_mg_k001_v(mode, save_output):
+def test_mg_k001_mg_k001_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : sequence: with NO elements
     (max=min=absent), 0 element is in the instant XML doc
@@ -8695,11 +9226,12 @@ def test_mg_k001_mg_k001_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_j026_mg_j026_v(mode, save_output):
+def test_mg_j026_mg_j026_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : choice: elements in instant XML=3,
     maxOccurs=unbounded
@@ -8711,11 +9243,12 @@ def test_mg_j026_mg_j026_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_j023_mg_j023_v(mode, save_output):
+def test_mg_j023_mg_j023_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : choice: elements in instant XML=2,
     minOccurs=1, maxOccurs=2
@@ -8727,11 +9260,12 @@ def test_mg_j023_mg_j023_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_j022_mg_j022_v(mode, save_output):
+def test_mg_j022_mg_j022_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : choice: elements in instant XML=1,
     minOccurs=1, maxOccurs=2
@@ -8743,11 +9277,12 @@ def test_mg_j022_mg_j022_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_j019_mg_j019_v(mode, save_output):
+def test_mg_j019_mg_j019_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : choice: elements in instant XML=1,
     minOccurs=1, maxOccurs=1
@@ -8759,11 +9294,12 @@ def test_mg_j019_mg_j019_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_j016_mg_j016_v(mode, save_output):
+def test_mg_j016_mg_j016_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : choice: elements in instant XML=1,
     minOccurs=1, maxOccurs=absent
@@ -8775,11 +9311,12 @@ def test_mg_j016_mg_j016_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_j014_mg_j014_v(mode, save_output):
+def test_mg_j014_mg_j014_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : choice: elements in instant XML=0,
     minOccurs=0, maxOccurs=999999999
@@ -8791,11 +9328,12 @@ def test_mg_j014_mg_j014_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_j012_mg_j012_v(mode, save_output):
+def test_mg_j012_mg_j012_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : choice: elements in instant XML=0,
     minOccurs=0, maxOccurs=0
@@ -8807,11 +9345,12 @@ def test_mg_j012_mg_j012_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_j010_mg_j010_v(mode, save_output):
+def test_mg_j010_mg_j010_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : choice: elements in instant XML=1,
     minOccurs=0, maxOccurs=1
@@ -8823,11 +9362,12 @@ def test_mg_j010_mg_j010_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_j009_mg_j009_v(mode, save_output):
+def test_mg_j009_mg_j009_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : choice: elements in instant XML=0,
     minOccurs=0, maxOccurs=1
@@ -8839,11 +9379,12 @@ def test_mg_j009_mg_j009_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_j007_mg_j007_v(mode, save_output):
+def test_mg_j007_mg_j007_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : choice: elements in instant XML=1,
     minOccurs=0, maxOccurs=absent
@@ -8855,11 +9396,12 @@ def test_mg_j007_mg_j007_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_j006_mg_j006_v(mode, save_output):
+def test_mg_j006_mg_j006_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : choice: elements in instant XML=0,
     minOccurs=0, maxOccurs=absent
@@ -8871,11 +9413,12 @@ def test_mg_j006_mg_j006_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_j004_mg_j004_v(mode, save_output):
+def test_mg_j004_mg_j004_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : choice: check that minOccurs default is 1,
     elements in instant XML = 1, minOccurs=absent, maxOccurs=absent
@@ -8887,11 +9430,12 @@ def test_mg_j004_mg_j004_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_i019_mg_i019_v(mode, save_output):
+def test_mg_i019_mg_i019_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : choice: with children 4 any, 4 elements
     """
@@ -8902,11 +9446,12 @@ def test_mg_i019_mg_i019_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_i018_mg_i018_v(mode, save_output):
+def test_mg_i018_mg_i018_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : choice: with children 4 sequence, 4 any
     """
@@ -8917,11 +9462,12 @@ def test_mg_i018_mg_i018_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_i017_mg_i017_v(mode, save_output):
+def test_mg_i017_mg_i017_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : choice: with children 4 choice, 4 sequence
     """
@@ -8932,11 +9478,12 @@ def test_mg_i017_mg_i017_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_i016_mg_i016_v(mode, save_output):
+def test_mg_i016_mg_i016_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : choice: with children 4 groups, 4 choice
     """
@@ -8947,11 +9494,12 @@ def test_mg_i016_mg_i016_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_i015_mg_i015_v(mode, save_output):
+def test_mg_i015_mg_i015_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : choice: with children 4 elements, 4 groups
     """
@@ -8962,11 +9510,12 @@ def test_mg_i015_mg_i015_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_i014_mg_i014_v(mode, save_output):
+def test_mg_i014_mg_i014_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : choice: with children any, sequence, group,
     element, choice
@@ -8978,11 +9527,12 @@ def test_mg_i014_mg_i014_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_i013_mg_i013_v(mode, save_output):
+def test_mg_i013_mg_i013_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : choice: with children sequence, group,
     choice, element, any
@@ -8994,11 +9544,12 @@ def test_mg_i013_mg_i013_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_i012_mg_i012_v(mode, save_output):
+def test_mg_i012_mg_i012_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : choice: with children choice, any, group,
     sequence, element
@@ -9010,11 +9561,12 @@ def test_mg_i012_mg_i012_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_i011_mg_i011_v(mode, save_output):
+def test_mg_i011_mg_i011_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : choice: with children group, any, choice,
     element, sequence
@@ -9026,11 +9578,12 @@ def test_mg_i011_mg_i011_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_i010_mg_i010_v(mode, save_output):
+def test_mg_i010_mg_i010_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : choice: with children element, any,
     sequence, choice, group
@@ -9042,11 +9595,12 @@ def test_mg_i010_mg_i010_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_i009_mg_i009_v(mode, save_output):
+def test_mg_i009_mg_i009_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : choice: with children annotation, element,
     group, choice, sequence, any
@@ -9058,11 +9612,12 @@ def test_mg_i009_mg_i009_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_i008_mg_i008_v(mode, save_output):
+def test_mg_i008_mg_i008_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : choice: with children annotation, any
     """
@@ -9073,11 +9628,12 @@ def test_mg_i008_mg_i008_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_i007_mg_i007_v(mode, save_output):
+def test_mg_i007_mg_i007_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : choice: with children annotation, sequence
     """
@@ -9088,11 +9644,12 @@ def test_mg_i007_mg_i007_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_i006_mg_i006_v(mode, save_output):
+def test_mg_i006_mg_i006_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : choice: with children annotation, choice
     """
@@ -9103,11 +9660,12 @@ def test_mg_i006_mg_i006_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_i005_mg_i005_v(mode, save_output):
+def test_mg_i005_mg_i005_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : choice: with children annotation, group
     """
@@ -9118,11 +9676,12 @@ def test_mg_i005_mg_i005_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_i004_mg_i004_v(mode, save_output):
+def test_mg_i004_mg_i004_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : choice: with children annotation, element
     """
@@ -9133,11 +9692,12 @@ def test_mg_i004_mg_i004_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_i002_mg_i002_v(mode, save_output):
+def test_mg_i002_mg_i002_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : choice: with one annotation only
     """
@@ -9148,11 +9708,12 @@ def test_mg_i002_mg_i002_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_i001_mg_i001_v(mode, save_output):
+def test_mg_i001_mg_i001_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : choice: with no child node
     """
@@ -9163,11 +9724,12 @@ def test_mg_i001_mg_i001_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_hb005_mg_hb005_v(mode, save_output):
+def test_mg_hb005_mg_hb005_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : choice: maxOccurs = 5
     """
@@ -9178,11 +9740,12 @@ def test_mg_hb005_mg_hb005_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_hb004_mg_hb004_v(mode, save_output):
+def test_mg_hb004_mg_hb004_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : choice: maxOccurs = unbounded
     """
@@ -9193,11 +9756,12 @@ def test_mg_hb004_mg_hb004_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_h018_mg_h018_v(mode, save_output):
+def test_mg_h018_mg_h018_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : choice: with parent sequence
     """
@@ -9208,11 +9772,12 @@ def test_mg_h018_mg_h018_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_h017_mg_h017_v(mode, save_output):
+def test_mg_h017_mg_h017_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : choice: with parent choice
     """
@@ -9223,11 +9788,12 @@ def test_mg_h017_mg_h017_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_h016_mg_h016_v(mode, save_output):
+def test_mg_h016_mg_h016_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : choice: with parent group
     """
@@ -9238,11 +9804,12 @@ def test_mg_h016_mg_h016_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_h015_mg_h015_v(mode, save_output):
+def test_mg_h015_mg_h015_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : choice: with parent extension
     """
@@ -9253,11 +9820,12 @@ def test_mg_h015_mg_h015_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_h014_mg_h014_v(mode, save_output):
+def test_mg_h014_mg_h014_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : choice: with parent restriction
     """
@@ -9268,11 +9836,12 @@ def test_mg_h014_mg_h014_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_h013_mg_h013_v(mode, save_output):
+def test_mg_h013_mg_h013_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : choice: with parent complexType
     """
@@ -9283,11 +9852,12 @@ def test_mg_h013_mg_h013_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_h001_mg_h001_v(mode, save_output):
+def test_mg_h001_mg_h001_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : choice: id, id="foo"
     """
@@ -9298,11 +9868,12 @@ def test_mg_h001_mg_h001_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_g026_mg_g026_v(mode, save_output):
+def test_mg_g026_mg_g026_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : sequence: elements in instant XML=3,
     maxOccurs=unbounded
@@ -9314,11 +9885,12 @@ def test_mg_g026_mg_g026_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_g023_mg_g023_v(mode, save_output):
+def test_mg_g023_mg_g023_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : sequence: elements in instant XML=2,
     minOccurs=1, maxOccurs=2
@@ -9330,11 +9902,12 @@ def test_mg_g023_mg_g023_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_g022_mg_g022_v(mode, save_output):
+def test_mg_g022_mg_g022_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : sequence: elements in instant XML=1,
     minOccurs=1, maxOccurs=2
@@ -9346,11 +9919,12 @@ def test_mg_g022_mg_g022_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_g019_mg_g019_v(mode, save_output):
+def test_mg_g019_mg_g019_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : sequence: elements in instant XML=1,
     minOccurs=1, maxOccurs=1
@@ -9362,11 +9936,12 @@ def test_mg_g019_mg_g019_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_g016_mg_g016_v(mode, save_output):
+def test_mg_g016_mg_g016_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : sequence: elements in instant XML=1,
     minOccurs=1, maxOccurs=absent
@@ -9378,11 +9953,12 @@ def test_mg_g016_mg_g016_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_g014_mg_g014_v(mode, save_output):
+def test_mg_g014_mg_g014_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : sequence: elements in instant XML=0,
     minOccurs=0, maxOccurs=999999999
@@ -9394,11 +9970,12 @@ def test_mg_g014_mg_g014_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_g012_mg_g012_v(mode, save_output):
+def test_mg_g012_mg_g012_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : sequence: elements in instant XML=0,
     minOccurs=0, maxOccurs=0
@@ -9410,11 +9987,12 @@ def test_mg_g012_mg_g012_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_g010_mg_g010_v(mode, save_output):
+def test_mg_g010_mg_g010_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : sequence: elements in instant XML=1,
     minOccurs=0, maxOccurs=1
@@ -9426,11 +10004,12 @@ def test_mg_g010_mg_g010_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_g009_mg_g009_v(mode, save_output):
+def test_mg_g009_mg_g009_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : sequence: elements in instant XML=0,
     minOccurs=0, maxOccurs=1
@@ -9442,11 +10021,12 @@ def test_mg_g009_mg_g009_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_g007_mg_g007_v(mode, save_output):
+def test_mg_g007_mg_g007_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : sequence: elements in instant XML=1,
     minOccurs=0, maxOccurs=absent
@@ -9458,11 +10038,12 @@ def test_mg_g007_mg_g007_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_g006_mg_g006_v(mode, save_output):
+def test_mg_g006_mg_g006_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : sequence: elements in instant XML=0,
     minOccurs=0, maxOccurs=absent
@@ -9474,11 +10055,12 @@ def test_mg_g006_mg_g006_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_g004_mg_g004_v(mode, save_output):
+def test_mg_g004_mg_g004_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : sequence: check that minOccurs default is
     1, elements in instant XML = 1, minOccurs=absent, maxOccurs=absent
@@ -9490,11 +10072,12 @@ def test_mg_g004_mg_g004_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_f019_mg_f019_v(mode, save_output):
+def test_mg_f019_mg_f019_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : sequence: with children 4 any, 4 elements
     """
@@ -9505,11 +10088,12 @@ def test_mg_f019_mg_f019_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_f018_mg_f018_v(mode, save_output):
+def test_mg_f018_mg_f018_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : sequence: with children 4 sequence, 4 any
     """
@@ -9520,11 +10104,12 @@ def test_mg_f018_mg_f018_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_f017_mg_f017_v(mode, save_output):
+def test_mg_f017_mg_f017_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : sequence: with children 4 choice, 4
     sequence
@@ -9536,11 +10121,12 @@ def test_mg_f017_mg_f017_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_f016_mg_f016_v(mode, save_output):
+def test_mg_f016_mg_f016_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : sequence: with children 4 groups, 4 choice
     """
@@ -9551,11 +10137,12 @@ def test_mg_f016_mg_f016_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_f015_mg_f015_v(mode, save_output):
+def test_mg_f015_mg_f015_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : sequence: with children 4 elements, 4
     groups
@@ -9567,11 +10154,12 @@ def test_mg_f015_mg_f015_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_f014_mg_f014_v(mode, save_output):
+def test_mg_f014_mg_f014_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : sequence: with children any, sequence,
     group, element, choice
@@ -9583,11 +10171,12 @@ def test_mg_f014_mg_f014_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_f013_mg_f013_v(mode, save_output):
+def test_mg_f013_mg_f013_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : sequence: with children sequence, group,
     choice, element, any
@@ -9599,11 +10188,12 @@ def test_mg_f013_mg_f013_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_f012_mg_f012_v(mode, save_output):
+def test_mg_f012_mg_f012_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : sequence: with children choice, any, group,
     sequence, element
@@ -9615,11 +10205,12 @@ def test_mg_f012_mg_f012_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_f011_mg_f011_v(mode, save_output):
+def test_mg_f011_mg_f011_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : sequence: with children group, any, choice,
     element, sequence
@@ -9631,11 +10222,12 @@ def test_mg_f011_mg_f011_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_f010_mg_f010_v(mode, save_output):
+def test_mg_f010_mg_f010_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : sequence: with children element, any,
     sequence, choice, group
@@ -9647,11 +10239,12 @@ def test_mg_f010_mg_f010_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_f009_mg_f009_v(mode, save_output):
+def test_mg_f009_mg_f009_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : sequence: with children annotation,
     element, group, choice, sequence, any
@@ -9663,11 +10256,12 @@ def test_mg_f009_mg_f009_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_f008_mg_f008_v(mode, save_output):
+def test_mg_f008_mg_f008_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : sequence: with children annotation, any
     """
@@ -9678,11 +10272,12 @@ def test_mg_f008_mg_f008_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_f007_mg_f007_v(mode, save_output):
+def test_mg_f007_mg_f007_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : sequence: with children annotation,
     sequence
@@ -9694,11 +10289,12 @@ def test_mg_f007_mg_f007_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_f006_mg_f006_v(mode, save_output):
+def test_mg_f006_mg_f006_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : sequence: with children annotation, choice
     """
@@ -9709,11 +10305,12 @@ def test_mg_f006_mg_f006_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_f005_mg_f005_v(mode, save_output):
+def test_mg_f005_mg_f005_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : sequence: with children annotation, group
     """
@@ -9724,11 +10321,12 @@ def test_mg_f005_mg_f005_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_f004_mg_f004_v(mode, save_output):
+def test_mg_f004_mg_f004_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : sequence: with children annotation, element
     """
@@ -9739,11 +10337,12 @@ def test_mg_f004_mg_f004_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_f002_mg_f002_v(mode, save_output):
+def test_mg_f002_mg_f002_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : sequence: with one annotation only
     """
@@ -9754,11 +10353,12 @@ def test_mg_f002_mg_f002_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_f001_mg_f001_v(mode, save_output):
+def test_mg_f001_mg_f001_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : sequence: with no child node
     """
@@ -9769,11 +10369,12 @@ def test_mg_f001_mg_f001_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_eb005_mg_eb005_v(mode, save_output):
+def test_mg_eb005_mg_eb005_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : sequence: maxOccurs = 8
     """
@@ -9784,11 +10385,12 @@ def test_mg_eb005_mg_eb005_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_eb004_mg_eb004_v(mode, save_output):
+def test_mg_eb004_mg_eb004_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : sequence: maxOccurs = unbounded
     """
@@ -9799,11 +10401,12 @@ def test_mg_eb004_mg_eb004_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_e018_mg_e018_v(mode, save_output):
+def test_mg_e018_mg_e018_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : sequence: with parent sequence
     """
@@ -9814,11 +10417,12 @@ def test_mg_e018_mg_e018_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_e017_mg_e017_v(mode, save_output):
+def test_mg_e017_mg_e017_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : sequence: with parent choice
     """
@@ -9829,11 +10433,12 @@ def test_mg_e017_mg_e017_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_e016_mg_e016_v(mode, save_output):
+def test_mg_e016_mg_e016_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : sequence: with parent group
     """
@@ -9844,11 +10449,12 @@ def test_mg_e016_mg_e016_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_e015_mg_e015_v(mode, save_output):
+def test_mg_e015_mg_e015_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : sequence: with parent extension
     """
@@ -9859,11 +10465,12 @@ def test_mg_e015_mg_e015_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_e014_mg_e014_v(mode, save_output):
+def test_mg_e014_mg_e014_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : sequence: with parent restriction
     """
@@ -9874,11 +10481,12 @@ def test_mg_e014_mg_e014_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_e013_mg_e013_v(mode, save_output):
+def test_mg_e013_mg_e013_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : sequence: with parent complexType
     """
@@ -9889,11 +10497,12 @@ def test_mg_e013_mg_e013_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_e001_mg_e001_v(mode, save_output):
+def test_mg_e001_mg_e001_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : sequence: id, id="foo"
     """
@@ -9904,11 +10513,12 @@ def test_mg_e001_mg_e001_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_d013_mg_d013_v(mode, save_output):
+def test_mg_d013_mg_d013_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : test using of minOccurs=0 and allowing
     elements to not exists
@@ -9920,11 +10530,12 @@ def test_mg_d013_mg_d013_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_d009_mg_d009_v(mode, save_output):
+def test_mg_d009_mg_d009_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : choice: with any attribute with no schema
     namespace
@@ -9936,11 +10547,12 @@ def test_mg_d009_mg_d009_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_d005_mg_d005_v(mode, save_output):
+def test_mg_d005_mg_d005_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : sequence: with any attribute with no schema
     namespace
@@ -9952,11 +10564,12 @@ def test_mg_d005_mg_d005_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_d001_mg_d001_v(mode, save_output):
+def test_mg_d001_mg_d001_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : all: with any attribute with no schema
     namespace
@@ -9968,11 +10581,12 @@ def test_mg_d001_mg_d001_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_c014_mg_c014_v(mode, save_output):
+def test_mg_c014_mg_c014_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : all with default minOccurs and maxOccurs
     with optional element children
@@ -9984,11 +10598,12 @@ def test_mg_c014_mg_c014_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_c011_mg_c011_v(mode, save_output):
+def test_mg_c011_mg_c011_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : all: elements in instant XML=1,
     minOccurs=absent, maxOccurs=1
@@ -10000,11 +10615,12 @@ def test_mg_c011_mg_c011_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_c006_mg_c006_v(mode, save_output):
+def test_mg_c006_mg_c006_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : all: elements in instant XML=1,
     minOccurs=1, maxOccurs=absent
@@ -10016,11 +10632,12 @@ def test_mg_c006_mg_c006_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_c004_mg_c004_v(mode, save_output):
+def test_mg_c004_mg_c004_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : all: minOccurs can have value of 0 or 1 max
     occurs can only have 1 as value, minOccurs=0, maxOccurs=absent
@@ -10032,11 +10649,12 @@ def test_mg_c004_mg_c004_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_c002_mg_c002_v(mode, save_output):
+def test_mg_c002_mg_c002_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : all: check that minOccurs default is 1,
     elements in instant XML = 1, minOccurs=absent, maxOccurs=absent
@@ -10048,11 +10666,12 @@ def test_mg_c002_mg_c002_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_b006_mg_b006_v(mode, save_output):
+def test_mg_b006_mg_b006_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : all: with one element only
     """
@@ -10063,11 +10682,12 @@ def test_mg_b006_mg_b006_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_b004_mg_b004_v(mode, save_output):
+def test_mg_b004_mg_b004_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : all: with annotation follow by 1 element
     """
@@ -10078,11 +10698,12 @@ def test_mg_b004_mg_b004_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_b002_mg_b002_v(mode, save_output):
+def test_mg_b002_mg_b002_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : all: with one annotation only
     """
@@ -10093,11 +10714,12 @@ def test_mg_b002_mg_b002_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_b001_mg_b001_v(mode, save_output):
+def test_mg_b001_mg_b001_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : all: with no child node
     """
@@ -10108,11 +10730,12 @@ def test_mg_b001_mg_b001_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_aa003_mg_aa003_v(mode, save_output):
+def test_mg_aa003_mg_aa003_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : all: minOccurs = 0
     """
@@ -10123,11 +10746,12 @@ def test_mg_aa003_mg_aa003_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_a017_mg_a017_v(mode, save_output):
+def test_mg_a017_mg_a017_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : all: with parent group
     """
@@ -10138,11 +10762,12 @@ def test_mg_a017_mg_a017_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_a015_mg_a015_v(mode, save_output):
+def test_mg_a015_mg_a015_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : all: with parent restriction
     """
@@ -10153,11 +10778,12 @@ def test_mg_a015_mg_a015_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_a014_mg_a014_v(mode, save_output):
+def test_mg_a014_mg_a014_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : all: with parent complexType
     """
@@ -10168,11 +10794,12 @@ def test_mg_a014_mg_a014_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_mg_a001_mg_a001_v(mode, save_output):
+def test_mg_a001_mg_a001_v(mode, save_output, output_format):
     """
     TEST :model groups (ALL) : all: id, id="foo"
     """
@@ -10183,11 +10810,12 @@ def test_mg_a001_mg_a001_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_notat_h001v_notat_h001v_v(mode, save_output):
+def test_notat_h001v_notat_h001v_v(mode, save_output, output_format):
     """
     TEST :Notations : Instance document declares a notation type
     """
@@ -10198,11 +10826,12 @@ def test_notat_h001v_notat_h001v_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_z040_particles_z040_i(mode, save_output):
+def test_particles_z040_particles_z040_i(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : XSD: validation on a sequence involving an
@@ -10215,11 +10844,12 @@ def test_particles_z040_particles_z040_i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_z036_c_particles_z036_c_v(mode, save_output):
+def test_particles_z036_c_particles_z036_c_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Schema validation engine validates as xs:any if
@@ -10234,11 +10864,12 @@ def test_particles_z036_c_particles_z036_c_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_z036_b2_particles_z036_b2_i(mode, save_output):
+def test_particles_z036_b2_particles_z036_b2_i(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Schema validation engine validates as xs:any if
@@ -10253,11 +10884,12 @@ def test_particles_z036_b2_particles_z036_b2_i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_z036_b1_particles_z036_b1_i(mode, save_output):
+def test_particles_z036_b1_particles_z036_b1_i(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Schema validation engine validates as xs:any if
@@ -10272,11 +10904,12 @@ def test_particles_z036_b1_particles_z036_b1_i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_z034_a1_particles_z034_a1_v(mode, save_output):
+def test_particles_z034_a1_particles_z034_a1_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Schema validation engine validates as xs:any if
@@ -10289,11 +10922,12 @@ def test_particles_z034_a1_particles_z034_a1_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_z012_particles_z012_v(mode, save_output):
+def test_particles_z012_particles_z012_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : id="86379" description="xsd: derived attribute's
@@ -10306,11 +10940,12 @@ def test_particles_z012_particles_z012_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_z008_particles_z008_v(mode, save_output):
+def test_particles_z008_particles_z008_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Restriction of abstract classes with abstract
@@ -10323,11 +10958,12 @@ def test_particles_z008_particles_z008_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_z005_particles_z005_v(mode, save_output):
+def test_particles_z005_particles_z005_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : xsd: test valid value in instance XML, whose xsd
@@ -10340,11 +10976,12 @@ def test_particles_z005_particles_z005_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_z003_particles_z003_v(mode, save_output):
+def test_particles_z003_particles_z003_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : xsd: should allow and recognize declaration of
@@ -10357,11 +10994,12 @@ def test_particles_z003_particles_z003_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_z002_particles_z002_v(mode, save_output):
+def test_particles_z002_particles_z002_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Schema Component Constraint: Derivation Valid
@@ -10374,11 +11012,12 @@ def test_particles_z002_particles_z002_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_z001_particles_z001_i(mode, save_output):
+def test_particles_z001_particles_z001_i(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Schema Component Constraint: Particle Derivation
@@ -10392,11 +11031,12 @@ def test_particles_z001_particles_z001_i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_w016_particles_w016_v(mode, save_output):
+def test_particles_w016_particles_w016_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Sequence:Sequence -
@@ -10410,11 +11050,12 @@ def test_particles_w016_particles_w016_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_w011_particles_w011_v(mode, save_output):
+def test_particles_w011_particles_w011_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Sequence:Sequence -
@@ -10428,11 +11069,12 @@ def test_particles_w011_particles_w011_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_w008_particles_w008_v(mode, save_output):
+def test_particles_w008_particles_w008_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Sequence:Sequence -
@@ -10446,11 +11088,12 @@ def test_particles_w008_particles_w008_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_w003_particles_w003_v(mode, save_output):
+def test_particles_w003_particles_w003_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Sequence:Sequence -
@@ -10464,11 +11107,12 @@ def test_particles_w003_particles_w003_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_w001_particles_w001_v(mode, save_output):
+def test_particles_w001_particles_w001_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Sequence:Sequence -
@@ -10482,11 +11126,12 @@ def test_particles_w001_particles_w001_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_v015_particles_v015_v(mode, save_output):
+def test_particles_v015_particles_v015_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Sequence:Choice -
@@ -10500,11 +11145,12 @@ def test_particles_v015_particles_v015_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_v014_particles_v014_v(mode, save_output):
+def test_particles_v014_particles_v014_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Sequence:Choice -
@@ -10518,11 +11164,12 @@ def test_particles_v014_particles_v014_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_v013_particles_v013_v(mode, save_output):
+def test_particles_v013_particles_v013_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Sequence:Choice -
@@ -10536,11 +11183,12 @@ def test_particles_v013_particles_v013_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_v012_particles_v012_v(mode, save_output):
+def test_particles_v012_particles_v012_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Sequence:Choice -
@@ -10554,11 +11202,12 @@ def test_particles_v012_particles_v012_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_v011_particles_v011_v(mode, save_output):
+def test_particles_v011_particles_v011_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Sequence:Choice -
@@ -10572,11 +11221,12 @@ def test_particles_v011_particles_v011_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_v010_particles_v010_v(mode, save_output):
+def test_particles_v010_particles_v010_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Sequence:Choice -
@@ -10590,11 +11240,12 @@ def test_particles_v010_particles_v010_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_v009_particles_v009_v(mode, save_output):
+def test_particles_v009_particles_v009_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Sequence:Choice -
@@ -10608,11 +11259,12 @@ def test_particles_v009_particles_v009_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_v008_particles_v008_v(mode, save_output):
+def test_particles_v008_particles_v008_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Sequence:Choice -
@@ -10626,11 +11278,12 @@ def test_particles_v008_particles_v008_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_v007_particles_v007_v(mode, save_output):
+def test_particles_v007_particles_v007_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Sequence:Choice -
@@ -10644,11 +11297,12 @@ def test_particles_v007_particles_v007_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_v006_particles_v006_v(mode, save_output):
+def test_particles_v006_particles_v006_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Sequence:Choice -
@@ -10662,11 +11316,12 @@ def test_particles_v006_particles_v006_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_v004_particles_v004_v(mode, save_output):
+def test_particles_v004_particles_v004_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Sequence:Choice -
@@ -10680,11 +11335,12 @@ def test_particles_v004_particles_v004_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_v003_particles_v003_v(mode, save_output):
+def test_particles_v003_particles_v003_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Sequence:Choice -
@@ -10698,11 +11354,12 @@ def test_particles_v003_particles_v003_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_u007_particles_u007_v(mode, save_output):
+def test_particles_u007_particles_u007_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Sequence:All -
@@ -10716,11 +11373,12 @@ def test_particles_u007_particles_u007_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_u005_particles_u005_v(mode, save_output):
+def test_particles_u005_particles_u005_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Sequence:All -
@@ -10734,11 +11392,12 @@ def test_particles_u005_particles_u005_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_u004_particles_u004_v(mode, save_output):
+def test_particles_u004_particles_u004_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Sequence:All -
@@ -10752,11 +11411,12 @@ def test_particles_u004_particles_u004_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_u003_particles_u003_v(mode, save_output):
+def test_particles_u003_particles_u003_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Sequence:All -
@@ -10770,11 +11430,12 @@ def test_particles_u003_particles_u003_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_q032_particles_q032_v(mode, save_output):
+def test_particles_q032_particles_q032_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Sequence:Any -
@@ -10789,11 +11450,12 @@ def test_particles_q032_particles_q032_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_q030_particles_q030_v(mode, save_output):
+def test_particles_q030_particles_q030_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Sequence:Any -
@@ -10807,11 +11469,12 @@ def test_particles_q030_particles_q030_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_q029_particles_q029_v(mode, save_output):
+def test_particles_q029_particles_q029_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Sequence:Any -
@@ -10825,11 +11488,12 @@ def test_particles_q029_particles_q029_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_q024_particles_q024_v(mode, save_output):
+def test_particles_q024_particles_q024_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Sequence:Any -
@@ -10844,11 +11508,12 @@ def test_particles_q024_particles_q024_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_q022_particles_q022_v(mode, save_output):
+def test_particles_q022_particles_q022_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Sequence:Any -
@@ -10862,11 +11527,12 @@ def test_particles_q022_particles_q022_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_q020_particles_q020_v(mode, save_output):
+def test_particles_q020_particles_q020_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Sequence:Any -
@@ -10880,11 +11546,12 @@ def test_particles_q020_particles_q020_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_q017_particles_q017_v(mode, save_output):
+def test_particles_q017_particles_q017_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Sequence:Any -
@@ -10898,11 +11565,12 @@ def test_particles_q017_particles_q017_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_q016_particles_q016_v(mode, save_output):
+def test_particles_q016_particles_q016_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Sequence:Any -
@@ -10916,12 +11584,13 @@ def test_particles_q016_particles_q016_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
 @pytest.mark.xfail
-def test_particles_q013_particles_q013_v(mode, save_output):
+def test_particles_q013_particles_q013_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Sequence:Any -
@@ -10936,11 +11605,12 @@ def test_particles_q013_particles_q013_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_q011_particles_q011_v(mode, save_output):
+def test_particles_q011_particles_q011_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Sequence:Any -
@@ -10955,11 +11625,12 @@ def test_particles_q011_particles_q011_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_q007_particles_q007_v(mode, save_output):
+def test_particles_q007_particles_q007_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Sequence:Any -
@@ -10974,11 +11645,12 @@ def test_particles_q007_particles_q007_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_q005_particles_q005_v(mode, save_output):
+def test_particles_q005_particles_q005_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Sequence:Any -
@@ -10993,11 +11665,12 @@ def test_particles_q005_particles_q005_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_q004_particles_q004_v(mode, save_output):
+def test_particles_q004_particles_q004_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Sequence:Any -
@@ -11012,11 +11685,12 @@ def test_particles_q004_particles_q004_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_q003_particles_q003_v(mode, save_output):
+def test_particles_q003_particles_q003_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Sequence:Any -
@@ -11031,11 +11705,12 @@ def test_particles_q003_particles_q003_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_q002_particles_q002_v(mode, save_output):
+def test_particles_q002_particles_q002_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Sequence:Any -
@@ -11050,11 +11725,12 @@ def test_particles_q002_particles_q002_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_q001_particles_q001_v(mode, save_output):
+def test_particles_q001_particles_q001_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Sequence:Any -
@@ -11069,11 +11745,12 @@ def test_particles_q001_particles_q001_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_t014_particles_t014_v(mode, save_output):
+def test_particles_t014_particles_t014_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Choice:Choice -
@@ -11088,11 +11765,12 @@ def test_particles_t014_particles_t014_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_t013_particles_t013_v(mode, save_output):
+def test_particles_t013_particles_t013_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Choice:Choice -
@@ -11106,11 +11784,12 @@ def test_particles_t013_particles_t013_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_t012_particles_t012_v(mode, save_output):
+def test_particles_t012_particles_t012_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Choice:Choice -
@@ -11125,11 +11804,12 @@ def test_particles_t012_particles_t012_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_t007_particles_t007_v(mode, save_output):
+def test_particles_t007_particles_t007_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Choice:Choice -
@@ -11143,11 +11823,12 @@ def test_particles_t007_particles_t007_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_t006_particles_t006_v(mode, save_output):
+def test_particles_t006_particles_t006_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Choice:Choice -
@@ -11161,11 +11842,12 @@ def test_particles_t006_particles_t006_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_t005_particles_t005_v(mode, save_output):
+def test_particles_t005_particles_t005_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Choice:Choice -
@@ -11179,11 +11861,12 @@ def test_particles_t005_particles_t005_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_t004_particles_t004_v(mode, save_output):
+def test_particles_t004_particles_t004_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Choice:Choice -
@@ -11197,11 +11880,12 @@ def test_particles_t004_particles_t004_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_t003_particles_t003_v(mode, save_output):
+def test_particles_t003_particles_t003_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Choice:Choice -
@@ -11215,11 +11899,12 @@ def test_particles_t003_particles_t003_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_t001_particles_t001_v(mode, save_output):
+def test_particles_t001_particles_t001_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Choice:Choice -
@@ -11233,11 +11918,12 @@ def test_particles_t001_particles_t001_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_r030_particles_r030_v(mode, save_output):
+def test_particles_r030_particles_r030_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Choice:Any -
@@ -11251,11 +11937,12 @@ def test_particles_r030_particles_r030_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_r029_particles_r029_v(mode, save_output):
+def test_particles_r029_particles_r029_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Choice:Any -
@@ -11269,11 +11956,12 @@ def test_particles_r029_particles_r029_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_r024_particles_r024_v(mode, save_output):
+def test_particles_r024_particles_r024_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Choice:Any -
@@ -11288,11 +11976,12 @@ def test_particles_r024_particles_r024_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_r022_particles_r022_v(mode, save_output):
+def test_particles_r022_particles_r022_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Choice:Any -
@@ -11306,11 +11995,12 @@ def test_particles_r022_particles_r022_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_r020_particles_r020_v(mode, save_output):
+def test_particles_r020_particles_r020_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Choice:Any -
@@ -11324,11 +12014,12 @@ def test_particles_r020_particles_r020_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_r017_particles_r017_v(mode, save_output):
+def test_particles_r017_particles_r017_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Choice:Any -
@@ -11342,11 +12033,12 @@ def test_particles_r017_particles_r017_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_r016_particles_r016_v(mode, save_output):
+def test_particles_r016_particles_r016_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Choice:Any -
@@ -11360,11 +12052,12 @@ def test_particles_r016_particles_r016_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_r015_particles_r015_v(mode, save_output):
+def test_particles_r015_particles_r015_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Choice:Any -
@@ -11378,11 +12071,12 @@ def test_particles_r015_particles_r015_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_r013_particles_r013_v(mode, save_output):
+def test_particles_r013_particles_r013_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Choice:Any -
@@ -11397,11 +12091,12 @@ def test_particles_r013_particles_r013_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_r012_particles_r012_v(mode, save_output):
+def test_particles_r012_particles_r012_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Choice:Any -
@@ -11416,11 +12111,12 @@ def test_particles_r012_particles_r012_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_r011_particles_r011_v(mode, save_output):
+def test_particles_r011_particles_r011_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Choice:Any -
@@ -11435,11 +12131,12 @@ def test_particles_r011_particles_r011_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_r009_particles_r009_v(mode, save_output):
+def test_particles_r009_particles_r009_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Choice:Any -
@@ -11454,11 +12151,12 @@ def test_particles_r009_particles_r009_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_r008_particles_r008_v(mode, save_output):
+def test_particles_r008_particles_r008_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Choice:Any -
@@ -11473,11 +12171,12 @@ def test_particles_r008_particles_r008_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_r007_particles_r007_v(mode, save_output):
+def test_particles_r007_particles_r007_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Choice:Any -
@@ -11492,11 +12191,12 @@ def test_particles_r007_particles_r007_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_r005_particles_r005_v(mode, save_output):
+def test_particles_r005_particles_r005_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Choice:Any -
@@ -11511,11 +12211,12 @@ def test_particles_r005_particles_r005_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_r004_particles_r004_v(mode, save_output):
+def test_particles_r004_particles_r004_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Choice:Any -
@@ -11530,11 +12231,12 @@ def test_particles_r004_particles_r004_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_r003_particles_r003_v(mode, save_output):
+def test_particles_r003_particles_r003_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Choice:Any -
@@ -11549,11 +12251,12 @@ def test_particles_r003_particles_r003_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_r002_particles_r002_v(mode, save_output):
+def test_particles_r002_particles_r002_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Choice:Any -
@@ -11568,11 +12271,12 @@ def test_particles_r002_particles_r002_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_r001_particles_r001_v(mode, save_output):
+def test_particles_r001_particles_r001_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Choice:Any -
@@ -11587,11 +12291,12 @@ def test_particles_r001_particles_r001_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_s011_particles_s011_v(mode, save_output):
+def test_particles_s011_particles_s011_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (All:All - Recurse) (All)
@@ -11605,11 +12310,12 @@ def test_particles_s011_particles_s011_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_s007_particles_s007_v(mode, save_output):
+def test_particles_s007_particles_s007_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (All:All - Recurse) (All)
@@ -11623,11 +12329,12 @@ def test_particles_s007_particles_s007_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_s004_particles_s004_v(mode, save_output):
+def test_particles_s004_particles_s004_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (All:All - Recurse) (All)
@@ -11641,11 +12348,12 @@ def test_particles_s004_particles_s004_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_s003_particles_s003_v(mode, save_output):
+def test_particles_s003_particles_s003_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (All:All - Recurse) (All)
@@ -11659,11 +12367,12 @@ def test_particles_s003_particles_s003_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_s001_particles_s001_v(mode, save_output):
+def test_particles_s001_particles_s001_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (All:All - Recurse) (All)
@@ -11676,11 +12385,12 @@ def test_particles_s001_particles_s001_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_p002_particles_p002_v(mode, save_output):
+def test_particles_p002_particles_p002_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (All:Any -
@@ -11694,11 +12404,12 @@ def test_particles_p002_particles_p002_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ob060_particles_ob060_v(mode, save_output):
+def test_particles_ob060_particles_ob060_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Any:Any- NSSubset) (any)
@@ -11713,11 +12424,12 @@ def test_particles_ob060_particles_ob060_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ob059_particles_ob059_v(mode, save_output):
+def test_particles_ob059_particles_ob059_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Any:Any- NSSubset) (any)
@@ -11732,11 +12444,12 @@ def test_particles_ob059_particles_ob059_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ob057_particles_ob057_v(mode, save_output):
+def test_particles_ob057_particles_ob057_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Any:Any- NSSubset) (any)
@@ -11751,11 +12464,12 @@ def test_particles_ob057_particles_ob057_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ob056_particles_ob056_v(mode, save_output):
+def test_particles_ob056_particles_ob056_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Any:Any- NSSubset) (any)
@@ -11769,11 +12483,12 @@ def test_particles_ob056_particles_ob056_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ob055_particles_ob055_v(mode, save_output):
+def test_particles_ob055_particles_ob055_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Any:Any- NSSubset) (any)
@@ -11788,11 +12503,12 @@ def test_particles_ob055_particles_ob055_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ob054_particles_ob054_v(mode, save_output):
+def test_particles_ob054_particles_ob054_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Any:Any- NSSubset) (any)
@@ -11807,11 +12523,12 @@ def test_particles_ob054_particles_ob054_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ob053_particles_ob053_v(mode, save_output):
+def test_particles_ob053_particles_ob053_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Any:Any- NSSubset) (any)
@@ -11825,11 +12542,12 @@ def test_particles_ob053_particles_ob053_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ob052_particles_ob052_v(mode, save_output):
+def test_particles_ob052_particles_ob052_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Any:Any- NSSubset) (any)
@@ -11844,11 +12562,12 @@ def test_particles_ob052_particles_ob052_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ob048_particles_ob048_v(mode, save_output):
+def test_particles_ob048_particles_ob048_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Any:Any- NSSubset) (any)
@@ -11863,11 +12582,12 @@ def test_particles_ob048_particles_ob048_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ob047_particles_ob047_v(mode, save_output):
+def test_particles_ob047_particles_ob047_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Any:Any- NSSubset) (any)
@@ -11882,11 +12602,12 @@ def test_particles_ob047_particles_ob047_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ob042_particles_ob042_v(mode, save_output):
+def test_particles_ob042_particles_ob042_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Any:Any- NSSubset) (any)
@@ -11901,11 +12622,12 @@ def test_particles_ob042_particles_ob042_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ob032_particles_ob032_v(mode, save_output):
+def test_particles_ob032_particles_ob032_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Any:Any- NSSubset) (any)
@@ -11919,11 +12641,12 @@ def test_particles_ob032_particles_ob032_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ob022_particles_ob022_v(mode, save_output):
+def test_particles_ob022_particles_ob022_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Any:Any- NSSubset) (any)
@@ -11938,11 +12661,12 @@ def test_particles_ob022_particles_ob022_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ob015_particles_ob015_v(mode, save_output):
+def test_particles_ob015_particles_ob015_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Any:Any- NSSubset) (any)
@@ -11957,11 +12681,12 @@ def test_particles_ob015_particles_ob015_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ob012_particles_ob012_v(mode, save_output):
+def test_particles_ob012_particles_ob012_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Any:Any- NSSubset) (any)
@@ -11976,11 +12701,12 @@ def test_particles_ob012_particles_ob012_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ob007_particles_ob007_v(mode, save_output):
+def test_particles_ob007_particles_ob007_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Any:Any- NSSubset) (any)
@@ -11995,11 +12721,12 @@ def test_particles_ob007_particles_ob007_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ob006_particles_ob006_v(mode, save_output):
+def test_particles_ob006_particles_ob006_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Any:Any- NSSubset) (any)
@@ -12014,11 +12741,12 @@ def test_particles_ob006_particles_ob006_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ob005_particles_ob005_v(mode, save_output):
+def test_particles_ob005_particles_ob005_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Any:Any- NSSubset) (any)
@@ -12032,11 +12760,12 @@ def test_particles_ob005_particles_ob005_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ob003_particles_ob003_v(mode, save_output):
+def test_particles_ob003_particles_ob003_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Any:Any- NSSubset) (any)
@@ -12051,11 +12780,12 @@ def test_particles_ob003_particles_ob003_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_oa014_particles_oa014_v(mode, save_output):
+def test_particles_oa014_particles_oa014_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Any:Any- NSSubset) (any)
@@ -12069,11 +12799,12 @@ def test_particles_oa014_particles_oa014_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_oa013_particles_oa013_v(mode, save_output):
+def test_particles_oa013_particles_oa013_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Any:Any- NSSubset) (any)
@@ -12087,11 +12818,12 @@ def test_particles_oa013_particles_oa013_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_oa012_particles_oa012_v(mode, save_output):
+def test_particles_oa012_particles_oa012_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Any:Any- NSSubset) (any)
@@ -12105,11 +12837,12 @@ def test_particles_oa012_particles_oa012_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_oa011_particles_oa011_v(mode, save_output):
+def test_particles_oa011_particles_oa011_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Any:Any- NSSubset) (any)
@@ -12123,11 +12856,12 @@ def test_particles_oa011_particles_oa011_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_oa006_particles_oa006_v(mode, save_output):
+def test_particles_oa006_particles_oa006_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Any:Any- NSSubset) (any)
@@ -12141,11 +12875,12 @@ def test_particles_oa006_particles_oa006_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_oa003_particles_oa003_v(mode, save_output):
+def test_particles_oa003_particles_oa003_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Any:Any- NSSubset) (any)
@@ -12159,11 +12894,12 @@ def test_particles_oa003_particles_oa003_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_oa001_particles_oa001_v(mode, save_output):
+def test_particles_oa001_particles_oa001_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Any:Any- NSSubset) (any)
@@ -12177,11 +12913,12 @@ def test_particles_oa001_particles_oa001_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_m035_particles_m035_v(mode, save_output):
+def test_particles_m035_particles_m035_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Elt:Sequence -
@@ -12195,11 +12932,12 @@ def test_particles_m035_particles_m035_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_m003_particles_m003_v(mode, save_output):
+def test_particles_m003_particles_m003_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Elt:Sequence -
@@ -12213,11 +12951,12 @@ def test_particles_m003_particles_m003_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_m002_particles_m002_v(mode, save_output):
+def test_particles_m002_particles_m002_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Elt:Sequence -
@@ -12231,11 +12970,12 @@ def test_particles_m002_particles_m002_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_l029_particles_l029_v(mode, save_output):
+def test_particles_l029_particles_l029_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Elt:Choice -
@@ -12250,11 +12990,12 @@ def test_particles_l029_particles_l029_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_l028_particles_l028_v(mode, save_output):
+def test_particles_l028_particles_l028_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Elt:Choice -
@@ -12269,11 +13010,12 @@ def test_particles_l028_particles_l028_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_l025_particles_l025_v(mode, save_output):
+def test_particles_l025_particles_l025_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Elt:Choice -
@@ -12288,11 +13030,12 @@ def test_particles_l025_particles_l025_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_l023_particles_l023_v(mode, save_output):
+def test_particles_l023_particles_l023_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Elt:Choice -
@@ -12307,11 +13050,12 @@ def test_particles_l023_particles_l023_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_l021_particles_l021_v(mode, save_output):
+def test_particles_l021_particles_l021_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Elt:Choice -
@@ -12326,11 +13070,12 @@ def test_particles_l021_particles_l021_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_l018_particles_l018_v(mode, save_output):
+def test_particles_l018_particles_l018_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Elt:Choice -
@@ -12345,11 +13090,12 @@ def test_particles_l018_particles_l018_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_l017_particles_l017_v(mode, save_output):
+def test_particles_l017_particles_l017_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Elt:Choice -
@@ -12364,11 +13110,12 @@ def test_particles_l017_particles_l017_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_l013_particles_l013_v(mode, save_output):
+def test_particles_l013_particles_l013_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Elt:Choice -
@@ -12383,11 +13130,12 @@ def test_particles_l013_particles_l013_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_l012_particles_l012_v(mode, save_output):
+def test_particles_l012_particles_l012_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Elt:Choice -
@@ -12402,11 +13150,12 @@ def test_particles_l012_particles_l012_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_l007_particles_l007_v(mode, save_output):
+def test_particles_l007_particles_l007_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Elt:Choice -
@@ -12421,11 +13170,12 @@ def test_particles_l007_particles_l007_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_l006_particles_l006_v(mode, save_output):
+def test_particles_l006_particles_l006_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Elt:Choice -
@@ -12440,11 +13190,12 @@ def test_particles_l006_particles_l006_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_l003_particles_l003_v(mode, save_output):
+def test_particles_l003_particles_l003_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Elt:Choice -
@@ -12458,11 +13209,12 @@ def test_particles_l003_particles_l003_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_k008_particles_k008_v(mode, save_output):
+def test_particles_k008_particles_k008_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Elt:All -
@@ -12477,11 +13229,12 @@ def test_particles_k008_particles_k008_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_k005_particles_k005_v(mode, save_output):
+def test_particles_k005_particles_k005_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Elt:All -
@@ -12495,11 +13248,12 @@ def test_particles_k005_particles_k005_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_k003_particles_k003_v(mode, save_output):
+def test_particles_k003_particles_k003_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Elt:All -
@@ -12514,11 +13268,12 @@ def test_particles_k003_particles_k003_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_k002_particles_k002_v(mode, save_output):
+def test_particles_k002_particles_k002_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Elt:All -
@@ -12533,11 +13288,12 @@ def test_particles_k002_particles_k002_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_k001_particles_k001_v(mode, save_output):
+def test_particles_k001_particles_k001_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Elt:All -
@@ -12551,11 +13307,12 @@ def test_particles_k001_particles_k001_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ju003_particles_ju003_v(mode, save_output):
+def test_particles_ju003_particles_ju003_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -12571,11 +13328,12 @@ def test_particles_ju003_particles_ju003_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ju002_particles_ju002_v(mode, save_output):
+def test_particles_ju002_particles_ju002_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -12590,11 +13348,12 @@ def test_particles_ju002_particles_ju002_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ju001_particles_ju001_v(mode, save_output):
+def test_particles_ju001_particles_ju001_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -12610,11 +13369,12 @@ def test_particles_ju001_particles_ju001_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_js001_particles_js001_v(mode, save_output):
+def test_particles_js001_particles_js001_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -12628,11 +13388,12 @@ def test_particles_js001_particles_js001_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_jq010_particles_jq010_v(mode, save_output):
+def test_particles_jq010_particles_jq010_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -12647,11 +13408,12 @@ def test_particles_jq010_particles_jq010_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_jq008_particles_jq008_v(mode, save_output):
+def test_particles_jq008_particles_jq008_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -12666,11 +13428,12 @@ def test_particles_jq008_particles_jq008_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_jq007_particles_jq007_v(mode, save_output):
+def test_particles_jq007_particles_jq007_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -12685,11 +13448,12 @@ def test_particles_jq007_particles_jq007_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_jp005_particles_jp005_v(mode, save_output):
+def test_particles_jp005_particles_jp005_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -12704,11 +13468,12 @@ def test_particles_jp005_particles_jp005_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_jp004_particles_jp004_v(mode, save_output):
+def test_particles_jp004_particles_jp004_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -12723,11 +13488,12 @@ def test_particles_jp004_particles_jp004_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_jn010_particles_jn010_v(mode, save_output):
+def test_particles_jn010_particles_jn010_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -12742,11 +13508,12 @@ def test_particles_jn010_particles_jn010_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_jn008_particles_jn008_v(mode, save_output):
+def test_particles_jn008_particles_jn008_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -12761,11 +13528,12 @@ def test_particles_jn008_particles_jn008_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_jn007_particles_jn007_v(mode, save_output):
+def test_particles_jn007_particles_jn007_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -12780,11 +13548,12 @@ def test_particles_jn007_particles_jn007_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_jm005_particles_jm005_v(mode, save_output):
+def test_particles_jm005_particles_jm005_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -12799,11 +13568,12 @@ def test_particles_jm005_particles_jm005_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_jm004_particles_jm004_v(mode, save_output):
+def test_particles_jm004_particles_jm004_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -12818,11 +13588,12 @@ def test_particles_jm004_particles_jm004_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_jl001_particles_jl001_v(mode, save_output):
+def test_particles_jl001_particles_jl001_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -12836,11 +13607,12 @@ def test_particles_jl001_particles_jl001_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_jk016_particles_jk016_v(mode, save_output):
+def test_particles_jk016_particles_jk016_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -12854,11 +13626,12 @@ def test_particles_jk016_particles_jk016_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_jk015_particles_jk015_v(mode, save_output):
+def test_particles_jk015_particles_jk015_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -12873,11 +13646,12 @@ def test_particles_jk015_particles_jk015_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_jk013_particles_jk013_v(mode, save_output):
+def test_particles_jk013_particles_jk013_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -12892,11 +13666,12 @@ def test_particles_jk013_particles_jk013_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_jk011_particles_jk011_v(mode, save_output):
+def test_particles_jk011_particles_jk011_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -12911,11 +13686,12 @@ def test_particles_jk011_particles_jk011_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_jk010_particles_jk010_v(mode, save_output):
+def test_particles_jk010_particles_jk010_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -12930,11 +13706,12 @@ def test_particles_jk010_particles_jk010_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_jk008_particles_jk008_v(mode, save_output):
+def test_particles_jk008_particles_jk008_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -12949,11 +13726,12 @@ def test_particles_jk008_particles_jk008_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_jk007_particles_jk007_v(mode, save_output):
+def test_particles_jk007_particles_jk007_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -12968,11 +13746,12 @@ def test_particles_jk007_particles_jk007_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_jk005_particles_jk005_v(mode, save_output):
+def test_particles_jk005_particles_jk005_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -12987,11 +13766,12 @@ def test_particles_jk005_particles_jk005_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_jk004_particles_jk004_v(mode, save_output):
+def test_particles_jk004_particles_jk004_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -13006,11 +13786,12 @@ def test_particles_jk004_particles_jk004_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_jk003_particles_jk003_v(mode, save_output):
+def test_particles_jk003_particles_jk003_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -13025,11 +13806,12 @@ def test_particles_jk003_particles_jk003_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_jk002_particles_jk002_v(mode, save_output):
+def test_particles_jk002_particles_jk002_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -13044,11 +13826,12 @@ def test_particles_jk002_particles_jk002_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_jk001_particles_jk001_v(mode, save_output):
+def test_particles_jk001_particles_jk001_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -13063,11 +13846,12 @@ def test_particles_jk001_particles_jk001_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_jj011_particles_jj011_v(mode, save_output):
+def test_particles_jj011_particles_jj011_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -13082,11 +13866,12 @@ def test_particles_jj011_particles_jj011_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_jj010_particles_jj010_v(mode, save_output):
+def test_particles_jj010_particles_jj010_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -13101,11 +13886,12 @@ def test_particles_jj010_particles_jj010_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_jj009_particles_jj009_v(mode, save_output):
+def test_particles_jj009_particles_jj009_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -13120,11 +13906,12 @@ def test_particles_jj009_particles_jj009_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_jj008_particles_jj008_v(mode, save_output):
+def test_particles_jj008_particles_jj008_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -13139,11 +13926,12 @@ def test_particles_jj008_particles_jj008_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_jj007_particles_jj007_v(mode, save_output):
+def test_particles_jj007_particles_jj007_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -13158,11 +13946,12 @@ def test_particles_jj007_particles_jj007_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_jj005_particles_jj005_v(mode, save_output):
+def test_particles_jj005_particles_jj005_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -13177,11 +13966,12 @@ def test_particles_jj005_particles_jj005_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_jj004_particles_jj004_v(mode, save_output):
+def test_particles_jj004_particles_jj004_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -13196,11 +13986,12 @@ def test_particles_jj004_particles_jj004_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_jj002_particles_jj002_v(mode, save_output):
+def test_particles_jj002_particles_jj002_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -13215,11 +14006,12 @@ def test_particles_jj002_particles_jj002_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_jj001_particles_jj001_v(mode, save_output):
+def test_particles_jj001_particles_jj001_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -13234,11 +14026,12 @@ def test_particles_jj001_particles_jj001_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_jf016_particles_jf016_v(mode, save_output):
+def test_particles_jf016_particles_jf016_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -13253,11 +14046,12 @@ def test_particles_jf016_particles_jf016_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_jf015_particles_jf015_v(mode, save_output):
+def test_particles_jf015_particles_jf015_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -13272,11 +14066,12 @@ def test_particles_jf015_particles_jf015_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_jf013_particles_jf013_v(mode, save_output):
+def test_particles_jf013_particles_jf013_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -13291,11 +14086,12 @@ def test_particles_jf013_particles_jf013_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_jf011_particles_jf011_v(mode, save_output):
+def test_particles_jf011_particles_jf011_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -13310,11 +14106,12 @@ def test_particles_jf011_particles_jf011_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_jf010_particles_jf010_v(mode, save_output):
+def test_particles_jf010_particles_jf010_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -13329,11 +14126,12 @@ def test_particles_jf010_particles_jf010_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_jf008_particles_jf008_v(mode, save_output):
+def test_particles_jf008_particles_jf008_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -13348,11 +14146,12 @@ def test_particles_jf008_particles_jf008_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_jf007_particles_jf007_v(mode, save_output):
+def test_particles_jf007_particles_jf007_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -13367,11 +14166,12 @@ def test_particles_jf007_particles_jf007_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_jf005_particles_jf005_v(mode, save_output):
+def test_particles_jf005_particles_jf005_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -13386,11 +14186,12 @@ def test_particles_jf005_particles_jf005_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_jf004_particles_jf004_v(mode, save_output):
+def test_particles_jf004_particles_jf004_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -13405,11 +14206,12 @@ def test_particles_jf004_particles_jf004_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_jf003_particles_jf003_v(mode, save_output):
+def test_particles_jf003_particles_jf003_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -13424,11 +14226,12 @@ def test_particles_jf003_particles_jf003_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_jf002_particles_jf002_v(mode, save_output):
+def test_particles_jf002_particles_jf002_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -13443,11 +14246,12 @@ def test_particles_jf002_particles_jf002_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_jf001_particles_jf001_v(mode, save_output):
+def test_particles_jf001_particles_jf001_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -13462,11 +14266,12 @@ def test_particles_jf001_particles_jf001_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_je011_particles_je011_v(mode, save_output):
+def test_particles_je011_particles_je011_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -13481,11 +14286,12 @@ def test_particles_je011_particles_je011_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_je010_particles_je010_v(mode, save_output):
+def test_particles_je010_particles_je010_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -13500,11 +14306,12 @@ def test_particles_je010_particles_je010_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_je009_particles_je009_v(mode, save_output):
+def test_particles_je009_particles_je009_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -13519,11 +14326,12 @@ def test_particles_je009_particles_je009_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_je008_particles_je008_v(mode, save_output):
+def test_particles_je008_particles_je008_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -13538,11 +14346,12 @@ def test_particles_je008_particles_je008_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_je007_particles_je007_v(mode, save_output):
+def test_particles_je007_particles_je007_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -13557,11 +14366,12 @@ def test_particles_je007_particles_je007_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_je005_particles_je005_v(mode, save_output):
+def test_particles_je005_particles_je005_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -13576,11 +14386,12 @@ def test_particles_je005_particles_je005_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_je004_particles_je004_v(mode, save_output):
+def test_particles_je004_particles_je004_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -13595,11 +14406,12 @@ def test_particles_je004_particles_je004_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_je002_particles_je002_v(mode, save_output):
+def test_particles_je002_particles_je002_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -13614,11 +14426,12 @@ def test_particles_je002_particles_je002_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_je001_particles_je001_v(mode, save_output):
+def test_particles_je001_particles_je001_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -13633,11 +14446,12 @@ def test_particles_je001_particles_je001_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_jd016_particles_jd016_v(mode, save_output):
+def test_particles_jd016_particles_jd016_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -13651,11 +14465,12 @@ def test_particles_jd016_particles_jd016_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_jd015_particles_jd015_v(mode, save_output):
+def test_particles_jd015_particles_jd015_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -13669,11 +14484,12 @@ def test_particles_jd015_particles_jd015_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_jd013_particles_jd013_v(mode, save_output):
+def test_particles_jd013_particles_jd013_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -13687,11 +14503,12 @@ def test_particles_jd013_particles_jd013_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_jd011_particles_jd011_v(mode, save_output):
+def test_particles_jd011_particles_jd011_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -13705,11 +14522,12 @@ def test_particles_jd011_particles_jd011_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_jd010_particles_jd010_v(mode, save_output):
+def test_particles_jd010_particles_jd010_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -13723,11 +14541,12 @@ def test_particles_jd010_particles_jd010_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_jd008_particles_jd008_v(mode, save_output):
+def test_particles_jd008_particles_jd008_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -13741,11 +14560,12 @@ def test_particles_jd008_particles_jd008_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_jd007_particles_jd007_v(mode, save_output):
+def test_particles_jd007_particles_jd007_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -13759,11 +14579,12 @@ def test_particles_jd007_particles_jd007_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_jd005_particles_jd005_v(mode, save_output):
+def test_particles_jd005_particles_jd005_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -13777,11 +14598,12 @@ def test_particles_jd005_particles_jd005_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_jd004_particles_jd004_v(mode, save_output):
+def test_particles_jd004_particles_jd004_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -13795,11 +14617,12 @@ def test_particles_jd004_particles_jd004_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_jd003_particles_jd003_v(mode, save_output):
+def test_particles_jd003_particles_jd003_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -13813,11 +14636,12 @@ def test_particles_jd003_particles_jd003_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_jd002_particles_jd002_v(mode, save_output):
+def test_particles_jd002_particles_jd002_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -13831,11 +14655,12 @@ def test_particles_jd002_particles_jd002_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_jd001_particles_jd001_v(mode, save_output):
+def test_particles_jd001_particles_jd001_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -13849,11 +14674,12 @@ def test_particles_jd001_particles_jd001_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_jc011_particles_jc011_v(mode, save_output):
+def test_particles_jc011_particles_jc011_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -13867,11 +14693,12 @@ def test_particles_jc011_particles_jc011_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_jc010_particles_jc010_v(mode, save_output):
+def test_particles_jc010_particles_jc010_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -13885,11 +14712,12 @@ def test_particles_jc010_particles_jc010_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_jc009_particles_jc009_v(mode, save_output):
+def test_particles_jc009_particles_jc009_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -13903,11 +14731,12 @@ def test_particles_jc009_particles_jc009_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_jc008_particles_jc008_v(mode, save_output):
+def test_particles_jc008_particles_jc008_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -13921,11 +14750,12 @@ def test_particles_jc008_particles_jc008_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_jc007_particles_jc007_v(mode, save_output):
+def test_particles_jc007_particles_jc007_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -13939,11 +14769,12 @@ def test_particles_jc007_particles_jc007_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_jc005_particles_jc005_v(mode, save_output):
+def test_particles_jc005_particles_jc005_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -13957,11 +14788,12 @@ def test_particles_jc005_particles_jc005_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_jc004_particles_jc004_v(mode, save_output):
+def test_particles_jc004_particles_jc004_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -13975,11 +14807,12 @@ def test_particles_jc004_particles_jc004_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_jc002_particles_jc002_v(mode, save_output):
+def test_particles_jc002_particles_jc002_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -13993,11 +14826,12 @@ def test_particles_jc002_particles_jc002_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_jc001_particles_jc001_v(mode, save_output):
+def test_particles_jc001_particles_jc001_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -14011,11 +14845,12 @@ def test_particles_jc001_particles_jc001_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_jb016_particles_jb016_v(mode, save_output):
+def test_particles_jb016_particles_jb016_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -14029,11 +14864,12 @@ def test_particles_jb016_particles_jb016_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_jb015_particles_jb015_v(mode, save_output):
+def test_particles_jb015_particles_jb015_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -14047,11 +14883,12 @@ def test_particles_jb015_particles_jb015_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_jb013_particles_jb013_v(mode, save_output):
+def test_particles_jb013_particles_jb013_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -14065,11 +14902,12 @@ def test_particles_jb013_particles_jb013_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_jb011_particles_jb011_v(mode, save_output):
+def test_particles_jb011_particles_jb011_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -14083,11 +14921,12 @@ def test_particles_jb011_particles_jb011_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_jb010_particles_jb010_v(mode, save_output):
+def test_particles_jb010_particles_jb010_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -14101,11 +14940,12 @@ def test_particles_jb010_particles_jb010_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_jb008_particles_jb008_v(mode, save_output):
+def test_particles_jb008_particles_jb008_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -14119,11 +14959,12 @@ def test_particles_jb008_particles_jb008_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_jb007_particles_jb007_v(mode, save_output):
+def test_particles_jb007_particles_jb007_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -14137,11 +14978,12 @@ def test_particles_jb007_particles_jb007_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_jb005_particles_jb005_v(mode, save_output):
+def test_particles_jb005_particles_jb005_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -14155,11 +14997,12 @@ def test_particles_jb005_particles_jb005_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_jb004_particles_jb004_v(mode, save_output):
+def test_particles_jb004_particles_jb004_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -14173,11 +15016,12 @@ def test_particles_jb004_particles_jb004_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_jb003_particles_jb003_v(mode, save_output):
+def test_particles_jb003_particles_jb003_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -14191,11 +15035,12 @@ def test_particles_jb003_particles_jb003_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_jb002_particles_jb002_v(mode, save_output):
+def test_particles_jb002_particles_jb002_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -14209,11 +15054,12 @@ def test_particles_jb002_particles_jb002_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_jb001_particles_jb001_v(mode, save_output):
+def test_particles_jb001_particles_jb001_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -14227,11 +15073,12 @@ def test_particles_jb001_particles_jb001_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ja011_particles_ja011_v(mode, save_output):
+def test_particles_ja011_particles_ja011_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -14245,11 +15092,12 @@ def test_particles_ja011_particles_ja011_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ja010_particles_ja010_v(mode, save_output):
+def test_particles_ja010_particles_ja010_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -14263,11 +15111,12 @@ def test_particles_ja010_particles_ja010_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ja009_particles_ja009_v(mode, save_output):
+def test_particles_ja009_particles_ja009_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -14281,11 +15130,12 @@ def test_particles_ja009_particles_ja009_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ja008_particles_ja008_v(mode, save_output):
+def test_particles_ja008_particles_ja008_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -14299,11 +15149,12 @@ def test_particles_ja008_particles_ja008_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ja007_particles_ja007_v(mode, save_output):
+def test_particles_ja007_particles_ja007_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -14317,11 +15168,12 @@ def test_particles_ja007_particles_ja007_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ja005_particles_ja005_v(mode, save_output):
+def test_particles_ja005_particles_ja005_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -14335,11 +15187,12 @@ def test_particles_ja005_particles_ja005_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ja004_particles_ja004_v(mode, save_output):
+def test_particles_ja004_particles_ja004_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -14353,11 +15206,12 @@ def test_particles_ja004_particles_ja004_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ja002_particles_ja002_v(mode, save_output):
+def test_particles_ja002_particles_ja002_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -14371,11 +15225,12 @@ def test_particles_ja002_particles_ja002_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ja001_particles_ja001_v(mode, save_output):
+def test_particles_ja001_particles_ja001_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -14389,11 +15244,12 @@ def test_particles_ja001_particles_ja001_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ik026_particles_ik026_v(mode, save_output):
+def test_particles_ik026_particles_ik026_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -14407,11 +15263,12 @@ def test_particles_ik026_particles_ik026_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ik012_particles_ik012_v(mode, save_output):
+def test_particles_ik012_particles_ik012_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -14425,11 +15282,12 @@ def test_particles_ik012_particles_ik012_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ik004_particles_ik004_v(mode, save_output):
+def test_particles_ik004_particles_ik004_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -14443,11 +15301,12 @@ def test_particles_ik004_particles_ik004_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ik001_particles_ik001_v(mode, save_output):
+def test_particles_ik001_particles_ik001_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -14461,11 +15320,12 @@ def test_particles_ik001_particles_ik001_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ij006_particles_ij006_v(mode, save_output):
+def test_particles_ij006_particles_ij006_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -14480,11 +15340,12 @@ def test_particles_ij006_particles_ij006_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ij005_particles_ij005_v(mode, save_output):
+def test_particles_ij005_particles_ij005_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -14498,11 +15359,12 @@ def test_particles_ij005_particles_ij005_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ij002_particles_ij002_v(mode, save_output):
+def test_particles_ij002_particles_ij002_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -14516,11 +15378,12 @@ def test_particles_ij002_particles_ij002_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ij001_particles_ij001_v(mode, save_output):
+def test_particles_ij001_particles_ij001_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -14533,11 +15396,12 @@ def test_particles_ij001_particles_ij001_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ig015_particles_ig015_v(mode, save_output):
+def test_particles_ig015_particles_ig015_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -14551,11 +15415,12 @@ def test_particles_ig015_particles_ig015_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ig014_particles_ig014_v(mode, save_output):
+def test_particles_ig014_particles_ig014_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -14569,11 +15434,12 @@ def test_particles_ig014_particles_ig014_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ig012_particles_ig012_v(mode, save_output):
+def test_particles_ig012_particles_ig012_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -14587,11 +15453,12 @@ def test_particles_ig012_particles_ig012_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ig011_particles_ig011_v(mode, save_output):
+def test_particles_ig011_particles_ig011_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -14605,11 +15472,12 @@ def test_particles_ig011_particles_ig011_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ig005_particles_ig005_v(mode, save_output):
+def test_particles_ig005_particles_ig005_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -14623,11 +15491,12 @@ def test_particles_ig005_particles_ig005_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ig002_particles_ig002_v(mode, save_output):
+def test_particles_ig002_particles_ig002_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -14641,11 +15510,12 @@ def test_particles_ig002_particles_ig002_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ig001_particles_ig001_v(mode, save_output):
+def test_particles_ig001_particles_ig001_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -14659,11 +15529,12 @@ def test_particles_ig001_particles_ig001_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_if006_particles_if006_v(mode, save_output):
+def test_particles_if006_particles_if006_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -14676,11 +15547,12 @@ def test_particles_if006_particles_if006_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_if005_particles_if005_v(mode, save_output):
+def test_particles_if005_particles_if005_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -14693,11 +15565,12 @@ def test_particles_if005_particles_if005_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_if004_particles_if004_v(mode, save_output):
+def test_particles_if004_particles_if004_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -14710,11 +15583,12 @@ def test_particles_if004_particles_if004_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_if003_particles_if003_v(mode, save_output):
+def test_particles_if003_particles_if003_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -14727,11 +15601,12 @@ def test_particles_if003_particles_if003_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_if002_particles_if002_v(mode, save_output):
+def test_particles_if002_particles_if002_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -14744,11 +15619,12 @@ def test_particles_if002_particles_if002_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_if001_particles_if001_v(mode, save_output):
+def test_particles_if001_particles_if001_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -14761,11 +15637,12 @@ def test_particles_if001_particles_if001_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ie016_particles_ie016_v(mode, save_output):
+def test_particles_ie016_particles_ie016_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -14778,11 +15655,12 @@ def test_particles_ie016_particles_ie016_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ie015_particles_ie015_v(mode, save_output):
+def test_particles_ie015_particles_ie015_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -14795,11 +15673,12 @@ def test_particles_ie015_particles_ie015_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ie013_particles_ie013_v(mode, save_output):
+def test_particles_ie013_particles_ie013_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -14812,11 +15691,12 @@ def test_particles_ie013_particles_ie013_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ie011_particles_ie011_v(mode, save_output):
+def test_particles_ie011_particles_ie011_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -14829,11 +15709,12 @@ def test_particles_ie011_particles_ie011_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ie010_particles_ie010_v(mode, save_output):
+def test_particles_ie010_particles_ie010_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -14846,11 +15727,12 @@ def test_particles_ie010_particles_ie010_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ie008_particles_ie008_v(mode, save_output):
+def test_particles_ie008_particles_ie008_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -14863,11 +15745,12 @@ def test_particles_ie008_particles_ie008_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ie007_particles_ie007_v(mode, save_output):
+def test_particles_ie007_particles_ie007_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -14880,11 +15763,12 @@ def test_particles_ie007_particles_ie007_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ie005_particles_ie005_v(mode, save_output):
+def test_particles_ie005_particles_ie005_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -14897,11 +15781,12 @@ def test_particles_ie005_particles_ie005_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ie004_particles_ie004_v(mode, save_output):
+def test_particles_ie004_particles_ie004_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -14914,11 +15799,12 @@ def test_particles_ie004_particles_ie004_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ie003_particles_ie003_v(mode, save_output):
+def test_particles_ie003_particles_ie003_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -14931,11 +15817,12 @@ def test_particles_ie003_particles_ie003_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ie002_particles_ie002_v(mode, save_output):
+def test_particles_ie002_particles_ie002_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -14948,11 +15835,12 @@ def test_particles_ie002_particles_ie002_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ie001_particles_ie001_v(mode, save_output):
+def test_particles_ie001_particles_ie001_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -14965,11 +15853,12 @@ def test_particles_ie001_particles_ie001_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_id011_particles_id011_v(mode, save_output):
+def test_particles_id011_particles_id011_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -14982,11 +15871,12 @@ def test_particles_id011_particles_id011_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_id010_particles_id010_v(mode, save_output):
+def test_particles_id010_particles_id010_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -14999,11 +15889,12 @@ def test_particles_id010_particles_id010_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_id009_particles_id009_v(mode, save_output):
+def test_particles_id009_particles_id009_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -15016,11 +15907,12 @@ def test_particles_id009_particles_id009_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_id008_particles_id008_v(mode, save_output):
+def test_particles_id008_particles_id008_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -15033,11 +15925,12 @@ def test_particles_id008_particles_id008_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_id007_particles_id007_v(mode, save_output):
+def test_particles_id007_particles_id007_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -15050,11 +15943,12 @@ def test_particles_id007_particles_id007_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_id005_particles_id005_v(mode, save_output):
+def test_particles_id005_particles_id005_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -15067,11 +15961,12 @@ def test_particles_id005_particles_id005_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_id004_particles_id004_v(mode, save_output):
+def test_particles_id004_particles_id004_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -15084,11 +15979,12 @@ def test_particles_id004_particles_id004_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_id002_particles_id002_v(mode, save_output):
+def test_particles_id002_particles_id002_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -15101,11 +15997,12 @@ def test_particles_id002_particles_id002_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_id001_particles_id001_v(mode, save_output):
+def test_particles_id001_particles_id001_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -15118,11 +16015,12 @@ def test_particles_id001_particles_id001_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ic007_particles_ic007_v(mode, save_output):
+def test_particles_ic007_particles_ic007_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -15136,11 +16034,12 @@ def test_particles_ic007_particles_ic007_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ic006_particles_ic006_v(mode, save_output):
+def test_particles_ic006_particles_ic006_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -15154,11 +16053,12 @@ def test_particles_ic006_particles_ic006_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ic005_particles_ic005_v(mode, save_output):
+def test_particles_ic005_particles_ic005_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -15172,11 +16072,12 @@ def test_particles_ic005_particles_ic005_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ic001_particles_ic001_v(mode, save_output):
+def test_particles_ic001_particles_ic001_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -15190,11 +16091,12 @@ def test_particles_ic001_particles_ic001_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ib005_particles_ib005_v(mode, save_output):
+def test_particles_ib005_particles_ib005_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -15208,11 +16110,12 @@ def test_particles_ib005_particles_ib005_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ib003_particles_ib003_v(mode, save_output):
+def test_particles_ib003_particles_ib003_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -15225,11 +16128,12 @@ def test_particles_ib003_particles_ib003_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ib001_particles_ib001_v(mode, save_output):
+def test_particles_ib001_particles_ib001_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -15242,11 +16146,12 @@ def test_particles_ib001_particles_ib001_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ia005_particles_ia005_v(mode, save_output):
+def test_particles_ia005_particles_ia005_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -15259,11 +16164,12 @@ def test_particles_ia005_particles_ia005_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ia004_particles_ia004_v(mode, save_output):
+def test_particles_ia004_particles_ia004_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -15276,11 +16182,12 @@ def test_particles_ia004_particles_ia004_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ia003_particles_ia003_v(mode, save_output):
+def test_particles_ia003_particles_ia003_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -15293,11 +16200,12 @@ def test_particles_ia003_particles_ia003_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ia002_particles_ia002_v(mode, save_output):
+def test_particles_ia002_particles_ia002_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -15310,11 +16218,12 @@ def test_particles_ia002_particles_ia002_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ia001_particles_ia001_v(mode, save_output):
+def test_particles_ia001_particles_ia001_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -15327,11 +16236,12 @@ def test_particles_ia001_particles_ia001_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ha018_particles_ha018_v(mode, save_output):
+def test_particles_ha018_particles_ha018_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : ignore pointless occurences of particles: All
@@ -15344,11 +16254,12 @@ def test_particles_ha018_particles_ha018_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ha017_particles_ha017_v(mode, save_output):
+def test_particles_ha017_particles_ha017_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : ignore pointless occurences of particles: All is
@@ -15361,11 +16272,12 @@ def test_particles_ha017_particles_ha017_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ha016_particles_ha016_v(mode, save_output):
+def test_particles_ha016_particles_ha016_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : ignore pointless occurences of 'choice' : choice
@@ -15379,11 +16291,12 @@ def test_particles_ha016_particles_ha016_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ha015_particles_ha015_v(mode, save_output):
+def test_particles_ha015_particles_ha015_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : ignore pointless occurences of 'choice' : choice
@@ -15397,11 +16310,12 @@ def test_particles_ha015_particles_ha015_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ha014_particles_ha014_v(mode, save_output):
+def test_particles_ha014_particles_ha014_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : ignore pointless occurences of 'choice' : choice
@@ -15415,11 +16329,12 @@ def test_particles_ha014_particles_ha014_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ha013_particles_ha013_v(mode, save_output):
+def test_particles_ha013_particles_ha013_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : ignore pointless occurences of 'choice' : choice
@@ -15433,11 +16348,12 @@ def test_particles_ha013_particles_ha013_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ha012_particles_ha012_v(mode, save_output):
+def test_particles_ha012_particles_ha012_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : ignore pointless occurences of 'choice' : choice
@@ -15451,11 +16367,12 @@ def test_particles_ha012_particles_ha012_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ha011_particles_ha011_v(mode, save_output):
+def test_particles_ha011_particles_ha011_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : ignore pointless occurences of 'choice' : choice
@@ -15469,11 +16386,12 @@ def test_particles_ha011_particles_ha011_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ha010_particles_ha010_v(mode, save_output):
+def test_particles_ha010_particles_ha010_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : ignore pointless occurences of 'choice' : choice
@@ -15487,11 +16405,12 @@ def test_particles_ha010_particles_ha010_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ha009_particles_ha009_v(mode, save_output):
+def test_particles_ha009_particles_ha009_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : ignore pointless occurences of 'choice' : choice
@@ -15505,11 +16424,12 @@ def test_particles_ha009_particles_ha009_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ha007_particles_ha007_v(mode, save_output):
+def test_particles_ha007_particles_ha007_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : ignore pointless occurences of 'sequence' :
@@ -15524,11 +16444,12 @@ def test_particles_ha007_particles_ha007_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ha006_particles_ha006_v(mode, save_output):
+def test_particles_ha006_particles_ha006_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : ignore pointless occurences of 'sequence' :
@@ -15542,11 +16463,12 @@ def test_particles_ha006_particles_ha006_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ha005_particles_ha005_v(mode, save_output):
+def test_particles_ha005_particles_ha005_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : ignore pointless occurences of 'sequence' :
@@ -15561,11 +16483,12 @@ def test_particles_ha005_particles_ha005_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ha004_particles_ha004_v(mode, save_output):
+def test_particles_ha004_particles_ha004_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : ignore pointless occurences of 'sequence' :
@@ -15579,11 +16502,12 @@ def test_particles_ha004_particles_ha004_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ha003_particles_ha003_v(mode, save_output):
+def test_particles_ha003_particles_ha003_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : ignore pointless occurences of 'sequence' :
@@ -15597,11 +16521,12 @@ def test_particles_ha003_particles_ha003_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ha002_particles_ha002_v(mode, save_output):
+def test_particles_ha002_particles_ha002_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : ignore pointless occurences of 'sequence' :
@@ -15615,11 +16540,12 @@ def test_particles_ha002_particles_ha002_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ha001_particles_ha001_v(mode, save_output):
+def test_particles_ha001_particles_ha001_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : ignore pointless occurences of 'sequence'
@@ -15632,11 +16558,12 @@ def test_particles_ha001_particles_ha001_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_fb004_particles_fb004_v(mode, save_output):
+def test_particles_fb004_particles_fb004_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : E drived by extension from B, B=group,
@@ -15649,11 +16576,12 @@ def test_particles_fb004_particles_fb004_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_fb001_particles_fb001_v(mode, save_output):
+def test_particles_fb001_particles_fb001_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : E drived by extension from B, B=choice,
@@ -15666,11 +16594,12 @@ def test_particles_fb001_particles_fb001_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_fa005_particles_fa005_v(mode, save_output):
+def test_particles_fa005_particles_fa005_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : E drived by extension from B, B= 'any', E=same
@@ -15683,11 +16612,12 @@ def test_particles_fa005_particles_fa005_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_fa004_particles_fa004_v(mode, save_output):
+def test_particles_fa004_particles_fa004_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : E drived by extension from B, B= group, E=same
@@ -15700,11 +16630,12 @@ def test_particles_fa004_particles_fa004_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_fa003_particles_fa003_v(mode, save_output):
+def test_particles_fa003_particles_fa003_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : E drived by extension from B, B= 'choice',
@@ -15717,11 +16648,12 @@ def test_particles_fa003_particles_fa003_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_fa002_particles_fa002_v(mode, save_output):
+def test_particles_fa002_particles_fa002_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : E drived by extension from B, B= 'sequence',
@@ -15734,11 +16666,12 @@ def test_particles_fa002_particles_fa002_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ec037_particles_ec037_v(mode, save_output):
+def test_particles_ec037_particles_ec037_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with minOccurs=2,
@@ -15751,11 +16684,12 @@ def test_particles_ec037_particles_ec037_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ec036_particles_ec036_v(mode, save_output):
+def test_particles_ec036_particles_ec036_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with minOccurs=2,
@@ -15768,11 +16702,12 @@ def test_particles_ec036_particles_ec036_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ec035_particles_ec035_v(mode, save_output):
+def test_particles_ec035_particles_ec035_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with minOccurs=2,
@@ -15785,11 +16720,12 @@ def test_particles_ec035_particles_ec035_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ec034_particles_ec034_v(mode, save_output):
+def test_particles_ec034_particles_ec034_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with minOccurs=2,
@@ -15802,11 +16738,12 @@ def test_particles_ec034_particles_ec034_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ec033_particles_ec033_v(mode, save_output):
+def test_particles_ec033_particles_ec033_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with minOccurs=2,
@@ -15819,11 +16756,12 @@ def test_particles_ec033_particles_ec033_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ec032_particles_ec032_v(mode, save_output):
+def test_particles_ec032_particles_ec032_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with minOccurs=2,
@@ -15836,11 +16774,12 @@ def test_particles_ec032_particles_ec032_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ec031_particles_ec031_v(mode, save_output):
+def test_particles_ec031_particles_ec031_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with minOccurs=2,
@@ -15853,11 +16792,12 @@ def test_particles_ec031_particles_ec031_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ec030_particles_ec030_v(mode, save_output):
+def test_particles_ec030_particles_ec030_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with minOccurs=2,
@@ -15870,11 +16810,12 @@ def test_particles_ec030_particles_ec030_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ec029_particles_ec029_v(mode, save_output):
+def test_particles_ec029_particles_ec029_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with minOccurs=2,
@@ -15887,11 +16828,12 @@ def test_particles_ec029_particles_ec029_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ec021_particles_ec021_v(mode, save_output):
+def test_particles_ec021_particles_ec021_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with
@@ -15905,11 +16847,12 @@ def test_particles_ec021_particles_ec021_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ec020_particles_ec020_v(mode, save_output):
+def test_particles_ec020_particles_ec020_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with
@@ -15923,11 +16866,12 @@ def test_particles_ec020_particles_ec020_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ec019_particles_ec019_v(mode, save_output):
+def test_particles_ec019_particles_ec019_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with
@@ -15941,11 +16885,12 @@ def test_particles_ec019_particles_ec019_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ec018_particles_ec018_v(mode, save_output):
+def test_particles_ec018_particles_ec018_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with
@@ -15959,11 +16904,12 @@ def test_particles_ec018_particles_ec018_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ec017_particles_ec017_v(mode, save_output):
+def test_particles_ec017_particles_ec017_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with
@@ -15977,11 +16923,12 @@ def test_particles_ec017_particles_ec017_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ec016_particles_ec016_v(mode, save_output):
+def test_particles_ec016_particles_ec016_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with
@@ -15995,11 +16942,12 @@ def test_particles_ec016_particles_ec016_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ec012_particles_ec012_v(mode, save_output):
+def test_particles_ec012_particles_ec012_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with
@@ -16013,11 +16961,12 @@ def test_particles_ec012_particles_ec012_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ec006_particles_ec006_v(mode, save_output):
+def test_particles_ec006_particles_ec006_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with minOccurs=1,
@@ -16030,11 +16979,12 @@ def test_particles_ec006_particles_ec006_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ec002_particles_ec002_v(mode, save_output):
+def test_particles_ec002_particles_ec002_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with minOccurs=0,
@@ -16047,11 +16997,12 @@ def test_particles_ec002_particles_ec002_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ec001_particles_ec001_v(mode, save_output):
+def test_particles_ec001_particles_ec001_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with minOccurs=0,
@@ -16065,11 +17016,12 @@ def test_particles_ec001_particles_ec001_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_eb041_particles_eb041_v(mode, save_output):
+def test_particles_eb041_particles_eb041_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Valid restriction of a content model from within
@@ -16082,11 +17034,12 @@ def test_particles_eb041_particles_eb041_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_eb038_particles_eb038_v(mode, save_output):
+def test_particles_eb038_particles_eb038_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with minOccurs=2,
@@ -16100,11 +17053,12 @@ def test_particles_eb038_particles_eb038_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_eb036_particles_eb036_v(mode, save_output):
+def test_particles_eb036_particles_eb036_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with minOccurs=2,
@@ -16117,11 +17071,12 @@ def test_particles_eb036_particles_eb036_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_eb027_particles_eb027_v(mode, save_output):
+def test_particles_eb027_particles_eb027_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with
@@ -16135,11 +17090,12 @@ def test_particles_eb027_particles_eb027_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_eb026_particles_eb026_v(mode, save_output):
+def test_particles_eb026_particles_eb026_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with
@@ -16153,11 +17109,12 @@ def test_particles_eb026_particles_eb026_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_eb019_particles_eb019_v(mode, save_output):
+def test_particles_eb019_particles_eb019_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with
@@ -16171,11 +17128,12 @@ def test_particles_eb019_particles_eb019_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_eb010_particles_eb010_v(mode, save_output):
+def test_particles_eb010_particles_eb010_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with minOccurs=1,
@@ -16189,11 +17147,12 @@ def test_particles_eb010_particles_eb010_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_eb003_particles_eb003_v(mode, save_output):
+def test_particles_eb003_particles_eb003_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with minOccurs=0,
@@ -16207,11 +17166,12 @@ def test_particles_eb003_particles_eb003_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_eb001_particles_eb001_v(mode, save_output):
+def test_particles_eb001_particles_eb001_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with minOccurs=0,
@@ -16225,11 +17185,12 @@ def test_particles_eb001_particles_eb001_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ea018_particles_ea018_v(mode, save_output):
+def test_particles_ea018_particles_ea018_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with
@@ -16243,11 +17204,12 @@ def test_particles_ea018_particles_ea018_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ea017_particles_ea017_v(mode, save_output):
+def test_particles_ea017_particles_ea017_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with
@@ -16261,11 +17223,12 @@ def test_particles_ea017_particles_ea017_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ea015_particles_ea015_v(mode, save_output):
+def test_particles_ea015_particles_ea015_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with
@@ -16279,11 +17242,12 @@ def test_particles_ea015_particles_ea015_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ea011_particles_ea011_v(mode, save_output):
+def test_particles_ea011_particles_ea011_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with minOccurs=1,
@@ -16296,11 +17260,12 @@ def test_particles_ea011_particles_ea011_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ea010_particles_ea010_v(mode, save_output):
+def test_particles_ea010_particles_ea010_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with minOccurs=1,
@@ -16313,11 +17278,12 @@ def test_particles_ea010_particles_ea010_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ea008_particles_ea008_v(mode, save_output):
+def test_particles_ea008_particles_ea008_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with minOccurs=1,
@@ -16331,11 +17297,12 @@ def test_particles_ea008_particles_ea008_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ea004_particles_ea004_v(mode, save_output):
+def test_particles_ea004_particles_ea004_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with
@@ -16349,11 +17316,12 @@ def test_particles_ea004_particles_ea004_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ea003_particles_ea003_v(mode, save_output):
+def test_particles_ea003_particles_ea003_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with
@@ -16367,11 +17335,12 @@ def test_particles_ea003_particles_ea003_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_ea001_particles_ea001_v(mode, save_output):
+def test_particles_ea001_particles_ea001_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with
@@ -16385,11 +17354,12 @@ def test_particles_ea001_particles_ea001_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_dc007_particles_dc007_v(mode, save_output):
+def test_particles_dc007_particles_dc007_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'element' with scope=global,
@@ -16403,11 +17373,12 @@ def test_particles_dc007_particles_dc007_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_dc003_particles_dc003_v(mode, save_output):
+def test_particles_dc003_particles_dc003_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'element' with scope=global,
@@ -16421,11 +17392,12 @@ def test_particles_dc003_particles_dc003_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_dc002_particles_dc002_v(mode, save_output):
+def test_particles_dc002_particles_dc002_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'element' with scope=global,
@@ -16439,11 +17411,12 @@ def test_particles_dc002_particles_dc002_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_dc001_particles_dc001_v(mode, save_output):
+def test_particles_dc001_particles_dc001_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'element' with scope=global,
@@ -16457,11 +17430,12 @@ def test_particles_dc001_particles_dc001_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_db007_particles_db007_v(mode, save_output):
+def test_particles_db007_particles_db007_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'element' with scope=global,
@@ -16474,11 +17448,12 @@ def test_particles_db007_particles_db007_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_db002_particles_db002_v(mode, save_output):
+def test_particles_db002_particles_db002_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'element' with scope=global,
@@ -16491,11 +17466,12 @@ def test_particles_db002_particles_db002_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_da002_particles_da002_v(mode, save_output):
+def test_particles_da002_particles_da002_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'element' with scope=local,
@@ -16508,11 +17484,12 @@ def test_particles_da002_particles_da002_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_c046_particles_c046_v(mode, save_output):
+def test_particles_c046_particles_c046_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'any' with namespace= 'foo
@@ -16526,11 +17503,12 @@ def test_particles_c046_particles_c046_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_c045_particles_c045_v(mode, save_output):
+def test_particles_c045_particles_c045_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'any' with namespace= 'foo
@@ -16544,11 +17522,12 @@ def test_particles_c045_particles_c045_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_c044_particles_c044_v(mode, save_output):
+def test_particles_c044_particles_c044_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'any' with namespace= 'foo
@@ -16561,11 +17540,12 @@ def test_particles_c044_particles_c044_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_c043_particles_c043_v(mode, save_output):
+def test_particles_c043_particles_c043_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'any' with namespace= 'foo
@@ -16578,11 +17558,12 @@ def test_particles_c043_particles_c043_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_c041_particles_c041_v(mode, save_output):
+def test_particles_c041_particles_c041_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'any' with namespace=
@@ -16596,11 +17577,12 @@ def test_particles_c041_particles_c041_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_c040_particles_c040_v(mode, save_output):
+def test_particles_c040_particles_c040_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'any' with namespace=
@@ -16614,11 +17596,12 @@ def test_particles_c040_particles_c040_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_c037_particles_c037_v(mode, save_output):
+def test_particles_c037_particles_c037_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'any' with namespace= 'foo
@@ -16631,11 +17614,12 @@ def test_particles_c037_particles_c037_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_c034_particles_c034_v(mode, save_output):
+def test_particles_c034_particles_c034_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'any' with namespace= 'foo
@@ -16648,11 +17632,12 @@ def test_particles_c034_particles_c034_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_c030_particles_c030_v(mode, save_output):
+def test_particles_c030_particles_c030_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'any' with namespace= 'foo bar
@@ -16665,11 +17650,12 @@ def test_particles_c030_particles_c030_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_c029_particles_c029_v(mode, save_output):
+def test_particles_c029_particles_c029_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'any' with namespace= 'foo bar
@@ -16682,11 +17668,12 @@ def test_particles_c029_particles_c029_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_c028_particles_c028_v(mode, save_output):
+def test_particles_c028_particles_c028_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'any' with namespace= 'foo bar
@@ -16699,11 +17686,12 @@ def test_particles_c028_particles_c028_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_c027_particles_c027_v(mode, save_output):
+def test_particles_c027_particles_c027_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'any' with namespace= ##local,
@@ -16716,11 +17704,12 @@ def test_particles_c027_particles_c027_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_c021_particles_c021_v(mode, save_output):
+def test_particles_c021_particles_c021_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'any' with namespace=
@@ -16733,11 +17722,12 @@ def test_particles_c021_particles_c021_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_c016_particles_c016_v(mode, save_output):
+def test_particles_c016_particles_c016_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'any' with namespace= 'foo bar',
@@ -16750,11 +17740,12 @@ def test_particles_c016_particles_c016_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_c015_particles_c015_v(mode, save_output):
+def test_particles_c015_particles_c015_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'any' with namespace= 'foo bar',
@@ -16767,11 +17758,12 @@ def test_particles_c015_particles_c015_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_c011_particles_c011_v(mode, save_output):
+def test_particles_c011_particles_c011_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'any' with namespace=
@@ -16784,11 +17776,12 @@ def test_particles_c011_particles_c011_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_c008_particles_c008_v(mode, save_output):
+def test_particles_c008_particles_c008_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'any' with namespace=##other,
@@ -16801,11 +17794,12 @@ def test_particles_c008_particles_c008_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_c006_particles_c006_v(mode, save_output):
+def test_particles_c006_particles_c006_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'any' with namespace=##any,
@@ -16818,11 +17812,12 @@ def test_particles_c006_particles_c006_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_c005_particles_c005_v(mode, save_output):
+def test_particles_c005_particles_c005_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'any' with namespace=##any,
@@ -16835,11 +17830,12 @@ def test_particles_c005_particles_c005_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_c004_particles_c004_v(mode, save_output):
+def test_particles_c004_particles_c004_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'any' with namespace=##any,
@@ -16852,11 +17848,12 @@ def test_particles_c004_particles_c004_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_c003_particles_c003_v(mode, save_output):
+def test_particles_c003_particles_c003_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'any' with namespace=absent
@@ -16869,11 +17866,12 @@ def test_particles_c003_particles_c003_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_c002_particles_c002_v(mode, save_output):
+def test_particles_c002_particles_c002_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'any' with namespace=absent
@@ -16886,11 +17884,12 @@ def test_particles_c002_particles_c002_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_particles_c001_particles_c001_v(mode, save_output):
+def test_particles_c001_particles_c001_v(mode, save_output, output_format):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'any' with namespace=absent
@@ -16903,5 +17902,6 @@ def test_particles_c001_particles_c001_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )

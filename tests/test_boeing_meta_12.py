@@ -1,7 +1,7 @@
 from tests.utils import assert_bindings
 
 
-def test_ipo6_ipo_1(mode, save_output):
+def test_ipo6_ipo_1(mode, save_output, output_format):
     """
     International Purchase Order 6
     """
@@ -12,11 +12,12 @@ def test_ipo6_ipo_1(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ipo6_ipo_2(mode, save_output):
+def test_ipo6_ipo_2(mode, save_output, output_format):
     """
     International Purchase Order 6
     """
@@ -27,11 +28,12 @@ def test_ipo6_ipo_2(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ipo5_ipo_1(mode, save_output):
+def test_ipo5_ipo_1(mode, save_output, output_format):
     """
     International Purchase Order 5
     """
@@ -42,11 +44,12 @@ def test_ipo5_ipo_1(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ipo5_ipo_2(mode, save_output):
+def test_ipo5_ipo_2(mode, save_output, output_format):
     """
     International Purchase Order 5
     """
@@ -57,11 +60,12 @@ def test_ipo5_ipo_2(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ipo4_ipo_1(mode, save_output):
+def test_ipo4_ipo_1(mode, save_output, output_format):
     """
     International Purchase Order 4
     """
@@ -72,11 +76,12 @@ def test_ipo4_ipo_1(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ipo4_ipo_2(mode, save_output):
+def test_ipo4_ipo_2(mode, save_output, output_format):
     """
     International Purchase Order 4
     """
@@ -87,11 +92,12 @@ def test_ipo4_ipo_2(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ipo3_ipo_1(mode, save_output):
+def test_ipo3_ipo_1(mode, save_output, output_format):
     """
     International Purchase Order 3
     """
@@ -102,11 +108,12 @@ def test_ipo3_ipo_1(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ipo3_ipo_2(mode, save_output):
+def test_ipo3_ipo_2(mode, save_output, output_format):
     """
     International Purchase Order 3
     """
@@ -117,11 +124,12 @@ def test_ipo3_ipo_2(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ipo2_ipo_1(mode, save_output):
+def test_ipo2_ipo_1(mode, save_output, output_format):
     """
     International Purchase Order 2
     """
@@ -132,11 +140,12 @@ def test_ipo2_ipo_1(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ipo2_ipo_2(mode, save_output):
+def test_ipo2_ipo_2(mode, save_output, output_format):
     """
     International Purchase Order 2
     """
@@ -147,11 +156,12 @@ def test_ipo2_ipo_2(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ipo1_ipo_1(mode, save_output):
+def test_ipo1_ipo_1(mode, save_output, output_format):
     """
     International Purchase Order 1
     """
@@ -162,11 +172,12 @@ def test_ipo1_ipo_1(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ipo1_ipo_2(mode, save_output):
+def test_ipo1_ipo_2(mode, save_output, output_format):
     """
     International Purchase Order 1
     """
@@ -177,5 +188,6 @@ def test_ipo1_ipo_2(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )

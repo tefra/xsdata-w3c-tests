@@ -3,7 +3,7 @@ import pytest
 from tests.utils import assert_bindings
 
 
-def test_member_type024_member_type024_v(mode, save_output):
+def test_member_type024_member_type024_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : Attribute of union of user defined
     typees(mybool,myint,mystring) with default value
@@ -15,11 +15,12 @@ def test_member_type024_member_type024_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_member_type023_member_type023_v(mode, save_output):
+def test_member_type023_member_type023_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : Attribute of union of user defined
     typees(mybool,myint,mystring)
@@ -31,11 +32,12 @@ def test_member_type023_member_type023_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_member_type022_member_type022_v(mode, save_output):
+def test_member_type022_member_type022_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : Element of union of user defined
     typees(mybool,myint,mystring) with default value
@@ -47,11 +49,12 @@ def test_member_type022_member_type022_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_member_type021_member_type021_v(mode, save_output):
+def test_member_type021_member_type021_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : Element of union of user defined
     typees(mybool,myint,mystring)
@@ -63,11 +66,12 @@ def test_member_type021_member_type021_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_member_type008_member_type008_v(mode, save_output):
+def test_member_type008_member_type008_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : Element with default value and xsi:type: membertype
     of union(bool,int,string)
@@ -79,11 +83,12 @@ def test_member_type008_member_type008_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_member_type007_member_type007_v(mode, save_output):
+def test_member_type007_member_type007_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : Element with xsi:type: membertype of
     union(bool,int,string)
@@ -95,11 +100,12 @@ def test_member_type007_member_type007_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_member_type006_member_type006_v(mode, save_output):
+def test_member_type006_member_type006_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : Element with xsi:type: membertype of
     union(bool,int,string)
@@ -111,11 +117,12 @@ def test_member_type006_member_type006_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_member_type005_member_type005_v(mode, save_output):
+def test_member_type005_member_type005_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : Attribute with default value: membertype of
     union(bool,int,string)
@@ -127,11 +134,12 @@ def test_member_type005_member_type005_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_member_type004_member_type004_v(mode, save_output):
+def test_member_type004_member_type004_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : Element with default value: membertype of
     union(bool,int,string)
@@ -143,11 +151,12 @@ def test_member_type004_member_type004_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_member_type003_member_type003_v(mode, save_output):
+def test_member_type003_member_type003_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : Attribute: membertype of union(bool,int,string)
     """
@@ -158,11 +167,12 @@ def test_member_type003_member_type003_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_member_type002_member_type002_v(mode, save_output):
+def test_member_type002_member_type002_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : Element: membertype of union(bool,int,string)
     """
@@ -173,11 +183,12 @@ def test_member_type002_member_type002_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_member_type001_member_type001_v(mode, save_output):
+def test_member_type001_member_type001_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : Element : membertype of union(bool,int,string)
     """
@@ -188,11 +199,12 @@ def test_member_type001_member_type001_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_is_default079_is_default079_v(mode, save_output):
+def test_is_default079_is_default079_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : multiple 'fixed' constraints
     """
@@ -203,11 +215,12 @@ def test_is_default079_is_default079_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_is_default078_is_default078_v(mode, save_output):
+def test_is_default078_is_default078_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : map xml namespace in the instance to be able to
     insert default attributes from xml namespace
@@ -219,11 +232,12 @@ def test_is_default078_is_default078_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_is_default076_is_default076_v(mode, save_output):
+def test_is_default076_is_default076_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : fixed value on mixed content
     """
@@ -234,11 +248,12 @@ def test_is_default076_is_default076_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_is_default075_is_default075_v(mode, save_output):
+def test_is_default075_is_default075_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : default value on mixed content
     """
@@ -249,11 +264,12 @@ def test_is_default075_is_default075_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_is_default074_is_default074_v(mode, save_output):
+def test_is_default074_is_default074_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : attribute of type xs:anySimpleType with a default
     and fixed value
@@ -265,11 +281,12 @@ def test_is_default074_is_default074_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_is_default073_is_default073_v(mode, save_output):
+def test_is_default073_is_default073_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : element of type xs:anyType with a default and fixed
     value
@@ -281,11 +298,12 @@ def test_is_default073_is_default073_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_is_default072_is_default072_v(mode, save_output):
+def test_is_default072_is_default072_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : While adding default attributes with
     form="qualified", should lookup all prefixes for its namespace
@@ -297,11 +315,12 @@ def test_is_default072_is_default072_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_is_default071_is_default071_v(mode, save_output):
+def test_is_default071_is_default071_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : element of type xs:anyType with value not matching
     the fixed value in the schema should error(valid)
@@ -313,11 +332,12 @@ def test_is_default071_is_default071_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_is_default060_1_is_default060_1_v(mode, save_output):
+def test_is_default060_1_is_default060_1_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : test empty element typed as xsd:int with default
     value set in schema.
@@ -329,11 +349,12 @@ def test_is_default060_1_is_default060_1_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_is_default068_is_default068_v(mode, save_output):
+def test_is_default068_is_default068_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : Attributes: IsDefault(fixed) Local Element with no
     attributes, schema HAS targetNamespace
@@ -345,11 +366,12 @@ def test_is_default068_is_default068_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_is_default067_is_default067_v(mode, save_output):
+def test_is_default067_is_default067_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : Attributes: IsDefault(fixed) Local Element with all
     attributes, schema HAS targetNamespace
@@ -361,11 +383,12 @@ def test_is_default067_is_default067_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_is_default066_is_default066_v(mode, save_output):
+def test_is_default066_is_default066_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : Attributes: IsDefault(fixed) no attributes on root
     element (empty element WITH end tag), schema HAS targetNamespace
@@ -377,11 +400,12 @@ def test_is_default066_is_default066_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_is_default065_is_default065_v(mode, save_output):
+def test_is_default065_is_default065_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : Attributes: IsDefault(fixed) No attributes on root
     element(empty element no end tag), schema HAS targetNamespace
@@ -393,11 +417,12 @@ def test_is_default065_is_default065_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_is_default061_is_default061_v(mode, save_output):
+def test_is_default061_is_default061_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : Attributes: IsDefault(fixed) attributes on root
     element, schema HAS targetNamespace
@@ -409,11 +434,12 @@ def test_is_default061_is_default061_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_is_default058_is_default058_v(mode, save_output):
+def test_is_default058_is_default058_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : Attributes: IsDefault(fixed) Local Element with no
     attributes, schema has no targetNamespace
@@ -425,11 +451,12 @@ def test_is_default058_is_default058_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_is_default057_is_default057_v(mode, save_output):
+def test_is_default057_is_default057_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : Attributes: IsDefault(fixed) Local Element with all
     attributes, schema has no targetNamespace
@@ -441,11 +468,12 @@ def test_is_default057_is_default057_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_is_default056_is_default056_v(mode, save_output):
+def test_is_default056_is_default056_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : Attributes: IsDefault(fixed) no attributes on root
     element (empty element WITH end tag), schema has no targetNamespace
@@ -457,11 +485,12 @@ def test_is_default056_is_default056_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_is_default055_is_default055_v(mode, save_output):
+def test_is_default055_is_default055_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : Attributes: IsDefault(fixed) No attributes on root
     element(empty element no end tag), schema has no targetNamespace
@@ -473,11 +502,12 @@ def test_is_default055_is_default055_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_is_default051_is_default051_v(mode, save_output):
+def test_is_default051_is_default051_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : Attributes: IsDefault(fixed) attributes on root
     element, schema has no targetNamespace
@@ -489,11 +519,12 @@ def test_is_default051_is_default051_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_is_default028_is_default028_v(mode, save_output):
+def test_is_default028_is_default028_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : Check IsDefault(default) a sequence with elements
     with invalid values
@@ -505,11 +536,12 @@ def test_is_default028_is_default028_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_is_default027_is_default027_v(mode, save_output):
+def test_is_default027_is_default027_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : Check IsDefault(default) a sequence with elements
     with fixed values present
@@ -521,11 +553,12 @@ def test_is_default027_is_default027_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_is_default026_is_default026_v(mode, save_output):
+def test_is_default026_is_default026_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : Check IsDefault(default) a sequence with elements
     with start and end tags
@@ -537,11 +570,12 @@ def test_is_default026_is_default026_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_is_default025_is_default025_v(mode, save_output):
+def test_is_default025_is_default025_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : Check IsDefault(default) a sequence with elements
     with no end tags
@@ -553,11 +587,12 @@ def test_is_default025_is_default025_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_is_default024_is_default024_v(mode, save_output):
+def test_is_default024_is_default024_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : Check IsDefault(default) for Element with invalid
     value
@@ -569,11 +604,12 @@ def test_is_default024_is_default024_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_is_default023_is_default023_v(mode, save_output):
+def test_is_default023_is_default023_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : Check IsDefault(default) for Empty Element with
     fixed value already present
@@ -585,11 +621,12 @@ def test_is_default023_is_default023_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_is_default022_is_default022_v(mode, save_output):
+def test_is_default022_is_default022_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : Check IsDefault(default) for Empty Element with
     start and end tag
@@ -601,11 +638,12 @@ def test_is_default022_is_default022_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_is_default021_is_default021_v(mode, save_output):
+def test_is_default021_is_default021_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : Check IsDefault(default) for Empty Element with no
     end tag
@@ -617,11 +655,12 @@ def test_is_default021_is_default021_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_is_default007_is_default007_v(mode, save_output):
+def test_is_default007_is_default007_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : Check IsDefault(fixed) a sequence with elements
     with fixed values present
@@ -633,11 +672,12 @@ def test_is_default007_is_default007_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_is_default006_is_default006_v(mode, save_output):
+def test_is_default006_is_default006_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : Check IsDefault(fixed) a sequence with elements
     with start and end tags
@@ -649,11 +689,12 @@ def test_is_default006_is_default006_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_is_default005_is_default005_v(mode, save_output):
+def test_is_default005_is_default005_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : Check IsDefault(fixed) a sequence with elements
     with no end tags
@@ -665,11 +706,12 @@ def test_is_default005_is_default005_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_is_default003_is_default003_v(mode, save_output):
+def test_is_default003_is_default003_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : Check IsDefault(fixed) for Empty Element with fixed
     value already present
@@ -681,11 +723,12 @@ def test_is_default003_is_default003_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_is_default002_is_default002_v(mode, save_output):
+def test_is_default002_is_default002_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : Check IsDefault(fixed) for Empty Element with start
     and end tag
@@ -697,11 +740,12 @@ def test_is_default002_is_default002_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_is_default001_is_default001_v(mode, save_output):
+def test_is_default001_is_default001_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : Check IsDefault(fixed) for Empty Element with no
     end tag
@@ -713,11 +757,12 @@ def test_is_default001_is_default001_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_add_d004a_add_d004a_v(mode, save_output):
+def test_add_d004a_add_d004a_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : SAMPLE: xsd 1.0 Sturcture spec : the ipo.xsd with a
     simplify version of ipo.xml with the xsi:type
@@ -729,11 +774,12 @@ def test_add_d004a_add_d004a_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_add_d004_add_d004_v(mode, save_output):
+def test_add_d004_add_d004_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : SAMPLE: xsd 1.0 Sturcture spec : the ipo.xsd with a
     simplify version of ipo.xml without the xsi:type
@@ -745,11 +791,12 @@ def test_add_d004_add_d004_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_add_d002_add_d002_v(mode, save_output):
+def test_add_d002_add_d002_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : xsd 1.0 Prima: the po.xml and po.xsd declared as
     targetNamespace 'foo'
@@ -761,11 +808,12 @@ def test_add_d002_add_d002_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_add_d001_add_d001_v(mode, save_output):
+def test_add_d001_add_d001_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : xsd 1.0 Prima: the po.xml and po.xsd without
     targetNamespace
@@ -777,11 +825,12 @@ def test_add_d001_add_d001_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_add_b198d_add_b198d_v(mode, save_output):
+def test_add_b198d_add_b198d_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : zero width unicode characeter test with minLength
     facet(2)
@@ -793,11 +842,12 @@ def test_add_b198d_add_b198d_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_add_b198c_add_b198c_v(mode, save_output):
+def test_add_b198c_add_b198c_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : zero width unicode characeter test with minLength
     facet(1)
@@ -809,11 +859,12 @@ def test_add_b198c_add_b198c_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_add_b197c_add_b197c_v(mode, save_output):
+def test_add_b197c_add_b197c_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : zero width unicode characeter test with enumeration
     value(3)
@@ -825,11 +876,12 @@ def test_add_b197c_add_b197c_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_add_b197a_add_b197a_v(mode, save_output):
+def test_add_b197a_add_b197a_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : zero width unicode characeter test with enumeration
     value(1)
@@ -841,11 +893,12 @@ def test_add_b197a_add_b197a_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_add_b196h_add_b196h_v(mode, save_output):
+def test_add_b196h_add_b196h_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : zero width unicode characeter test with fixed
     value(8)
@@ -857,11 +910,12 @@ def test_add_b196h_add_b196h_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_add_b196f_add_b196f_v(mode, save_output):
+def test_add_b196f_add_b196f_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : zero width unicode characeter test with fixed
     value(6)
@@ -873,11 +927,12 @@ def test_add_b196f_add_b196f_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_add_b196c_add_b196c_v(mode, save_output):
+def test_add_b196c_add_b196c_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : zero width unicode characeter test with fixed
     value(3)
@@ -889,11 +944,12 @@ def test_add_b196c_add_b196c_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_add_b196a_add_b196a_v(mode, save_output):
+def test_add_b196a_add_b196a_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : zero width unicode characeter test with fixed
     value(1)
@@ -905,11 +961,12 @@ def test_add_b196a_add_b196a_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_add_b187_add_b187_v(mode, save_output):
+def test_add_b187_add_b187_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : XSD: Support user specified schema for
     http://www.w3.org/XML/1998/namespace namespace
@@ -921,11 +978,12 @@ def test_add_b187_add_b187_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_add_b182_add_b182_v(mode, save_output):
+def test_add_b182_add_b182_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : id="schemaLocation for schema whose targetNamespace
     is the XSD namespace"
@@ -937,11 +995,12 @@ def test_add_b182_add_b182_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_add_b176_add_b176_v(mode, save_output):
+def test_add_b176_add_b176_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : id="102850" description="valid but ambigous schema"
     """
@@ -952,11 +1011,12 @@ def test_add_b176_add_b176_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_add_b174_add_b174_v(mode, save_output):
+def test_add_b174_add_b174_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : id="102433" description="Validation of xml
     instances should be namespace strict"
@@ -968,11 +1028,12 @@ def test_add_b174_add_b174_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_add_b169_1_add_b169_1_v(mode, save_output):
+def test_add_b169_1_add_b169_1_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : id="243307" description="test valid document with
     inline schema"
@@ -984,11 +1045,12 @@ def test_add_b169_1_add_b169_1_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_add_b148_add_b148_v(mode, save_output):
+def test_add_b148_add_b148_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : id="93276" description="XSD: should not overwrite
     the default namespace with the included targetNamespace for
@@ -1001,11 +1063,12 @@ def test_add_b148_add_b148_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_add_b145_add_b145_v(mode, save_output):
+def test_add_b145_add_b145_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : id="87395" description="validateElement on XSD with
     ID enumeration .." Added a wrapper element in response to bug 10100
@@ -1019,11 +1082,12 @@ def test_add_b145_add_b145_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_add_b140_add_b140_v(mode, save_output):
+def test_add_b140_add_b140_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : id="78000" description="any and
     processContents='skip'"
@@ -1035,11 +1099,12 @@ def test_add_b140_add_b140_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_add_b136_add_b136_v(mode, save_output):
+def test_add_b136_add_b136_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : id="84188" description="XSD: Attribute with
     use=prohibited and wildcard"
@@ -1051,11 +1116,12 @@ def test_add_b136_add_b136_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_add_b135_add_b135_v(mode, save_output):
+def test_add_b135_add_b135_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : id="81662" description="xsd: test element matching
     global declaration via xsd:any."
@@ -1067,11 +1133,12 @@ def test_add_b135_add_b135_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_add_b132_add_b132_v(mode, save_output):
+def test_add_b132_add_b132_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : id="66745" description="xsd validation:xsd
     substitutionGroup "
@@ -1083,11 +1150,12 @@ def test_add_b132_add_b132_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="single-package",
     )
 
 
-def test_add_b131_add_b131_v(mode, save_output):
+def test_add_b131_add_b131_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : id="76423" description="test validation of keys
     when default namespace is '' and more than one key is defined"
@@ -1099,11 +1167,12 @@ def test_add_b131_add_b131_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_add_b130_add_b130_v(mode, save_output):
+def test_add_b130_add_b130_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : id="78162" description="attribute on xsd:any
     processContents=skip"
@@ -1115,11 +1184,12 @@ def test_add_b130_add_b130_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_add_b129_add_b129_v(mode, save_output):
+def test_add_b129_add_b129_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : id="74834" description="validate xml data when it
     has a decimal digit of .0"
@@ -1131,11 +1201,12 @@ def test_add_b129_add_b129_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_add_b125_add_b125_v(mode, save_output):
+def test_add_b125_add_b125_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : id="78898" description="xsd: wildcard: content type
     with namespace=##any and processContent=skip"
@@ -1147,11 +1218,12 @@ def test_add_b125_add_b125_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_add_b122_add_b122_v(mode, save_output):
+def test_add_b122_add_b122_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : id="78910" description="xsd: wildcard: content type
     with namespace=##any and processContent=skip"
@@ -1163,11 +1235,12 @@ def test_add_b122_add_b122_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_add_b116_add_b116_v(mode, save_output):
+def test_add_b116_add_b116_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : id="75092" description="xsd: 'any' with
     processContents=strict: should allow valid content item which has
@@ -1180,11 +1253,12 @@ def test_add_b116_add_b116_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_add_b104_add_b104_v(mode, save_output):
+def test_add_b104_add_b104_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : test attribute normalization of fixed value of an
     attribute value
@@ -1196,11 +1270,12 @@ def test_add_b104_add_b104_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_add_b096_add_b096_v(mode, save_output):
+def test_add_b096_add_b096_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : id="61053" description="xsd: test 'group' reference
     is used, and content model is explicitly declared using 'sequence'."
@@ -1212,11 +1287,12 @@ def test_add_b096_add_b096_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_add_b090_add_b090_v(mode, save_output):
+def test_add_b090_add_b090_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : id="61911" description="xsd: extension: when
     'choice' is extented from 'any', the one of the item in 'choice'
@@ -1229,11 +1305,12 @@ def test_add_b090_add_b090_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_add_b088_add_b088_v(mode, save_output):
+def test_add_b088_add_b088_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : id="61692" description="xsd:
     elementFormDefault=qualified, test elements from imported xsd that are
@@ -1246,11 +1323,12 @@ def test_add_b088_add_b088_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_add_b084_add_b084_v(mode, save_output):
+def test_add_b084_add_b084_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : id="61599" description="xsd:particle: all, test
     only one element declaration, and that element is used in xml
@@ -1263,11 +1341,12 @@ def test_add_b084_add_b084_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_add_b076_add_b076_v(mode, save_output):
+def test_add_b076_add_b076_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : id="75028"
     """
@@ -1278,11 +1357,12 @@ def test_add_b076_add_b076_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_add_b068_add_b068_i(mode, save_output):
+def test_add_b068_add_b068_i(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : id="73986" description="xsd: length of QName" TSTF
     ruled that 1.0 says all QNames satisfy all length-related tests
@@ -1294,11 +1374,12 @@ def test_add_b068_add_b068_i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_add_b067_add_b067_v(mode, save_output):
+def test_add_b067_add_b067_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : id="73986" description="xsd: length of QName"
     """
@@ -1309,11 +1390,12 @@ def test_add_b067_add_b067_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_add_b059_add_b059_v(mode, save_output):
+def test_add_b059_add_b059_v(mode, save_output, output_format):
     r"""
     TEST :Adhoc XSD: : id="73666" description="xsd: Regular Expression:
     test pattern '(\n|\s)+b' and value ' b'"
@@ -1325,11 +1407,12 @@ def test_add_b059_add_b059_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_add_b058_add_b058_v(mode, save_output):
+def test_add_b058_add_b058_v(mode, save_output, output_format):
     r"""
     TEST :Adhoc XSD: : id="73665" description="xsd: Regular Expression:
     test checking for '\C' non-character correctly, test with value='?'"
@@ -1341,11 +1424,12 @@ def test_add_b058_add_b058_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_add_b056_add_b056_v(mode, save_output):
+def test_add_b056_add_b056_v(mode, save_output, output_format):
     r"""
     TEST :Adhoc XSD: : id="73715" description="xsd: Regular Expression:
     preprocess pattern '\\c' should match '\c'"
@@ -1357,11 +1441,12 @@ def test_add_b056_add_b056_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_add_b054_add_b054_v(mode, save_output):
+def test_add_b054_add_b054_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : id="70948" description="xsd:invalid facets on
     simpleContent restriction with simpleType child should work"
@@ -1373,11 +1458,12 @@ def test_add_b054_add_b054_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_add_b047_add_b047_v(mode, save_output):
+def test_add_b047_add_b047_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : id="72597" description="xsd: valid xml and xsd"
     """
@@ -1388,11 +1474,12 @@ def test_add_b047_add_b047_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_add_b046_add_b046_v(mode, save_output):
+def test_add_b046_add_b046_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : id="72097" description="xsd: when there is no
     targetNamespace, the XSD file should be allowed to add to any
@@ -1405,11 +1492,12 @@ def test_add_b046_add_b046_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_add_b040_add_b040_v(mode, save_output):
+def test_add_b040_add_b040_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : id="72049" description="xsd: schemaLocation with
     more than one pair of namespace+schemalocation "
@@ -1421,11 +1509,12 @@ def test_add_b040_add_b040_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_add_b034_add_b034_v(mode, save_output):
+def test_add_b034_add_b034_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : id="71818" description="xsd: when an attribute is
     prohibited, it should not be allowed in instant XML even if there is
@@ -1438,11 +1527,12 @@ def test_add_b034_add_b034_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_add_b31_add_b31_v(mode, save_output):
+def test_add_b31_add_b31_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : another test
     """
@@ -1453,11 +1543,12 @@ def test_add_b31_add_b31_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_add_b028_add_b028_v(mode, save_output):
+def test_add_b028_add_b028_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : XSD: xsi:type when derived from xsi:type
     """
@@ -1468,11 +1559,12 @@ def test_add_b028_add_b028_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_add_b019_add_b019_v(mode, save_output):
+def test_add_b019_add_b019_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : id="68938" description="xsd: fractional digit and
     total digit are not checking correcting in XSD datatypes"
@@ -1484,11 +1576,12 @@ def test_add_b019_add_b019_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_add_b012_add_b012_v(mode, save_output):
+def test_add_b012_add_b012_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : id="67500" title="xsd: checking QName datatype
     correctly for the namespace declared on the same element"
@@ -1500,11 +1593,12 @@ def test_add_b012_add_b012_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_add_c001_add_c001_v(mode, save_output):
+def test_add_c001_add_c001_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : use of xml:base
     """
@@ -1515,11 +1609,12 @@ def test_add_c001_add_c001_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_add_a005_add_a005_v(mode, save_output):
+def test_add_a005_add_a005_v(mode, save_output, output_format):
     """
     TEST :Adhoc XSD: : substitution group usage in the same XSD file with
     instance XML
@@ -1531,11 +1626,12 @@ def test_add_a005_add_a005_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_attg_d036_attg_d036_v(mode, save_output):
+def test_attg_d036_attg_d036_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (ID) : complexType's
     AttributeGroup with reference to attributeGroup from 'redefine', where
@@ -1549,11 +1645,12 @@ def test_attg_d036_attg_d036_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_attg_d034_attg_d034_v(mode, save_output):
+def test_attg_d034_attg_d034_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (ID) : AttributeGroup
     (w/ namespace=other, processContents=##strict), the xml has the
@@ -1567,11 +1664,12 @@ def test_attg_d034_attg_d034_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_attg_d033_attg_d033_v(mode, save_output):
+def test_attg_d033_attg_d033_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (ID) : AttributeGroup
     (w/ namespace=other, processContents=##lax), the xml has the attribute
@@ -1584,11 +1682,12 @@ def test_attg_d033_attg_d033_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_attg_d032_attg_d032_v(mode, save_output):
+def test_attg_d032_attg_d032_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (ID) : AttributeGroup
     (w/ namespace=other, processContents=##lax), the xml has the attribute
@@ -1601,11 +1700,12 @@ def test_attg_d032_attg_d032_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_attg_d031_attg_d031_v(mode, save_output):
+def test_attg_d031_attg_d031_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (ID) : AttributeGroup
     (w/ namespace=other, processContents=##skip), the xml has the
@@ -1618,11 +1718,12 @@ def test_attg_d031_attg_d031_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_attg_d029_attg_d029_v(mode, save_output):
+def test_attg_d029_attg_d029_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (ID) : Basic
     AttributeGroup with anyAttribute (w/ namespace=##targetNamespace), the
@@ -1635,11 +1736,12 @@ def test_attg_d029_attg_d029_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_attg_d027_attg_d027_v(mode, save_output):
+def test_attg_d027_attg_d027_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (ID) : Basic
     AttributeGroup with anyAttribute (w/ namespace="foo"), the xml has the
@@ -1652,11 +1754,12 @@ def test_attg_d027_attg_d027_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_attg_d025_attg_d025_v(mode, save_output):
+def test_attg_d025_attg_d025_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (ID) : Basic
     AttributeGroup with anyAttribute (w/ namespace=##local), the xml has
@@ -1669,11 +1772,12 @@ def test_attg_d025_attg_d025_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_attg_d022_attg_d022_v(mode, save_output):
+def test_attg_d022_attg_d022_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (ID) : Basic
     AttributeGroup with anyAttribute (w/ namespace=##other), the xml has
@@ -1687,11 +1791,12 @@ def test_attg_d022_attg_d022_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_attg_d021_attg_d021_v(mode, save_output):
+def test_attg_d021_attg_d021_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (ID) : Basic
     AttributeGroup with anyAttribute (w/ namespace=##any), the xml has the
@@ -1704,11 +1809,12 @@ def test_attg_d021_attg_d021_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_attg_d020_attg_d020_v(mode, save_output):
+def test_attg_d020_attg_d020_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (ID) : Basic
     AttributeGroup with anyAttribute (w/ namespace=##any), the xml has the
@@ -1721,11 +1827,12 @@ def test_attg_d020_attg_d020_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_attg_d019_attg_d019_v(mode, save_output):
+def test_attg_d019_attg_d019_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (ID) : Basic
     AttributeGroup with anyAttribute (w/ annotation)
@@ -1737,11 +1844,12 @@ def test_attg_d019_attg_d019_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_attg_d018_attg_d018_v(mode, save_output):
+def test_attg_d018_attg_d018_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (ID) : Basic
     AttributeGroup with anyAttribute (w/ id)
@@ -1753,11 +1861,12 @@ def test_attg_d018_attg_d018_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_attg_d005_attg_d005_v(mode, save_output):
+def test_attg_d005_attg_d005_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (ID) : attributeGroup
     with child in the sequence of ( att, attg, att, attg, att), the xml
@@ -1770,11 +1879,12 @@ def test_attg_d005_attg_d005_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_attg_d004_attg_d004_v(mode, save_output):
+def test_attg_d004_attg_d004_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (ID) : attributeGroup
     with just another attributeGroup, the xml has the attributes
@@ -1786,12 +1896,13 @@ def test_attg_d004_attg_d004_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
 @pytest.mark.skip(reason="Stack abuse")
-def test_attg_d003_attg_d003_v(mode, save_output):
+def test_attg_d003_attg_d003_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (ID) : attributeGroup
     with 2000 attribute decl as child, the xml has the 2000 attributes
@@ -1803,11 +1914,12 @@ def test_attg_d003_attg_d003_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_attg_c038_attg_c038_v(mode, save_output):
+def test_attg_c038_attg_c038_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (ID) : Test
     attributeGroup declaration: can only reference global attributeGroup
@@ -1821,11 +1933,12 @@ def test_attg_c038_attg_c038_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_attg_c037_attg_c037_v(mode, save_output):
+def test_attg_c037_attg_c037_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (ID) : Test
     attributeGroup declaration: can only reference global attributeGroup
@@ -1839,11 +1952,12 @@ def test_attg_c037_attg_c037_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_attg_c036_attg_c036_v(mode, save_output):
+def test_attg_c036_attg_c036_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (ID) : Test
     attributeGroup declaration: parent is redefine, ref='name of a global
@@ -1856,11 +1970,12 @@ def test_attg_c036_attg_c036_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_attg_c035_attg_c035_v(mode, save_output):
+def test_attg_c035_attg_c035_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (ID) : Test
     attributeGroup declaration: parent is redefine, ref='name of a global
@@ -1873,11 +1988,12 @@ def test_attg_c035_attg_c035_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_attg_c026_attg_c026_v(mode, save_output):
+def test_attg_c026_attg_c026_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (ID) : Test
     attributeGroup declaration: parent is extension, ref='name of a global
@@ -1890,11 +2006,12 @@ def test_attg_c026_attg_c026_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_attg_c024_attg_c024_v(mode, save_output):
+def test_attg_c024_attg_c024_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (ID) : Test
     attributeGroup declaration: parent is extension, ref='name of a global
@@ -1907,11 +2024,12 @@ def test_attg_c024_attg_c024_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_attg_c010_attg_c010a(mode, save_output):
+def test_attg_c010_attg_c010a(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (ID) : Test
     attributeGroup declaration: self referencing, name="test", has child
@@ -1924,11 +2042,12 @@ def test_attg_c010_attg_c010a(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_attg_c007_attg_c007_v(mode, save_output):
+def test_attg_c007_attg_c007_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (ID) : Test
     attributeGroup declaration: can only reference global attributeGroup
@@ -1943,11 +2062,12 @@ def test_attg_c007_attg_c007_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_att_z015_att_z015_v(mode, save_output):
+def test_att_z015_att_z015_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : XSD: a
     prohibited attribute should not be in the attribute uses of an
@@ -1960,11 +2080,12 @@ def test_att_z015_att_z015_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_att_z014b_att_z014b_i(mode, save_output):
+def test_att_z014b_att_z014b_i(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : XSD: No more
     than one attribute of type ID should be validated per Element(2)
@@ -1977,11 +2098,12 @@ def test_att_z014b_att_z014b_i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_att_z014a_att_z014a_i(mode, save_output):
+def test_att_z014a_att_z014a_i(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : XSD: No more
     than one attribute of type ID should be validated per Element(1)
@@ -1994,11 +2116,12 @@ def test_att_z014a_att_z014a_i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_att_z007v_att_z007v_v(mode, save_output):
+def test_att_z007v_att_z007v_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : XSD:
     insertion of prohibited attribute in a derived type
@@ -2010,11 +2133,12 @@ def test_att_z007v_att_z007v_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_att_z005_att_z005_v(mode, save_output):
+def test_att_z005_att_z005_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : XSD: default
     value of attribute
@@ -2026,11 +2150,12 @@ def test_att_z005_att_z005_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_att_z002_att_z002_v(mode, save_output):
+def test_att_z002_att_z002_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : prohibited
     attribute
@@ -2042,11 +2167,12 @@ def test_att_z002_att_z002_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_att_q019_att_q019_v(mode, save_output):
+def test_att_q019_att_q019_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : two
     attribute, same loca name, from different namespace on same element
@@ -2058,11 +2184,12 @@ def test_att_q019_att_q019_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_att_q014_att_q014_v(mode, save_output):
+def test_att_q014_att_q014_v(mode, save_output, output_format):
     r"""
     TEST :Syntax Checking for Attribute Declaration (form) :
     Attribute\attribute decl under extension element
@@ -2074,11 +2201,12 @@ def test_att_q014_att_q014_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_att_q003_att_q003_v(mode, save_output):
+def test_att_q003_att_q003_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : parent is
     complexType, Attr Decl, followed by Attr Group, follow by Attr
@@ -2090,11 +2218,12 @@ def test_att_q003_att_q003_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_att_p032_att_p032_v(mode, save_output):
+def test_att_p032_att_p032_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : Test that
     attributes from imported schema (global, attribute Group, complexTyped
@@ -2107,11 +2236,12 @@ def test_att_p032_att_p032_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_att_p031_att_p031_i(mode, save_output):
+def test_att_p031_att_p031_i(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (form) :
     use=prohibited, fixed="37" (must not appear in xml instant, attribute
@@ -2124,11 +2254,12 @@ def test_att_p031_att_p031_i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_att_p029_att_p029_v(mode, save_output):
+def test_att_p029_att_p029_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (form) :
     use=prohibited, fixed="37" (must not appear in xml instant, attribute
@@ -2142,11 +2273,12 @@ def test_att_p029_att_p029_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_att_p028_att_p028_v(mode, save_output):
+def test_att_p028_att_p028_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (form) :
     use=prohibited, default="37" (must not appear in xml instant,
@@ -2160,11 +2292,12 @@ def test_att_p028_att_p028_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_att_p026_att_p026_v(mode, save_output):
+def test_att_p026_att_p026_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : use=optional,
     default="37" (may appear once, may have any value), instant xml
@@ -2177,11 +2310,12 @@ def test_att_p026_att_p026_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_att_p025_att_p025_v(mode, save_output):
+def test_att_p025_att_p025_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : use=optional,
     default="37" (may appear once, may have any value), instant xml
@@ -2194,11 +2328,12 @@ def test_att_p025_att_p025_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_att_p024_att_p024_v(mode, save_output):
+def test_att_p024_att_p024_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : use=optional,
     default="37" (may appear once, may have any value), instant xml value
@@ -2211,11 +2346,12 @@ def test_att_p024_att_p024_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_att_p023_att_p023_v(mode, save_output):
+def test_att_p023_att_p023_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : use=absent,
     default="37" (may appear once, may have any value), instant xml
@@ -2228,11 +2364,12 @@ def test_att_p023_att_p023_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_att_p022_att_p022_v(mode, save_output):
+def test_att_p022_att_p022_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : use=absent,
     default="37" (may appear once, may have any value), instant xml
@@ -2245,11 +2382,12 @@ def test_att_p022_att_p022_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_att_p021_att_p021_v(mode, save_output):
+def test_att_p021_att_p021_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : use=absent,
     default="37" (may appear once, may have any value), instant xml value
@@ -2262,11 +2400,12 @@ def test_att_p021_att_p021_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_att_p019_att_p019_v(mode, save_output):
+def test_att_p019_att_p019_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : use=optional,
     fixed="37" (may appear once, if appear, value must be "37"), instant
@@ -2279,11 +2418,12 @@ def test_att_p019_att_p019_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_att_p017_att_p017_v(mode, save_output):
+def test_att_p017_att_p017_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : use=optional,
     fixed="37" (may appear once, if appear, value must be "37"), instant
@@ -2296,11 +2436,12 @@ def test_att_p017_att_p017_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_att_p015_att_p015_v(mode, save_output):
+def test_att_p015_att_p015_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : use=absent,
     fixed="37" (may appear once, if appear, value must be "37"), instant
@@ -2313,11 +2454,12 @@ def test_att_p015_att_p015_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_att_p013_att_p013_v(mode, save_output):
+def test_att_p013_att_p013_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : use=absent,
     fixed="37" (may appear once, if appear, value must be "37"), instant
@@ -2330,11 +2472,12 @@ def test_att_p013_att_p013_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_att_p011_att_p011_v(mode, save_output):
+def test_att_p011_att_p011_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : use=required,
     fixed="37" (must appear once, value must be "37"), instant xml value
@@ -2347,11 +2490,12 @@ def test_att_p011_att_p011_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_att_p007_att_p007_v(mode, save_output):
+def test_att_p007_att_p007_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : use=required,
     fixed and default are absent (must appear, value can be anything),
@@ -2364,11 +2508,12 @@ def test_att_p007_att_p007_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_att_p004_att_p004_v(mode, save_output):
+def test_att_p004_att_p004_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : type="my
     simple type", fixed=conform to the type, and xml instant has the
@@ -2381,11 +2526,12 @@ def test_att_p004_att_p004_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_att_mc009_att_mc009_v(mode, save_output):
+def test_att_mc009_att_mc009_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : parent is
     attributeGroup,form=unqualified, attributeFormDefault=qualified,
@@ -2399,11 +2545,12 @@ def test_att_mc009_att_mc009_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_att_mc008_att_mc008_v(mode, save_output):
+def test_att_mc008_att_mc008_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : parent is
     attributeGroup,form=unqualified, attributeFormDefault=unqualified,
@@ -2417,11 +2564,12 @@ def test_att_mc008_att_mc008_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_att_mc007_att_mc007_v(mode, save_output):
+def test_att_mc007_att_mc007_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : parent is
     attributeGroup,form=unqualified, attributeFormDefault=absent,
@@ -2435,11 +2583,12 @@ def test_att_mc007_att_mc007_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_att_mc006_att_mc006_v(mode, save_output):
+def test_att_mc006_att_mc006_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : parent is
     attributeGroup,form=qualified, attributeFormDefault=qualified,
@@ -2452,11 +2601,12 @@ def test_att_mc006_att_mc006_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_att_mc005_att_mc005_v(mode, save_output):
+def test_att_mc005_att_mc005_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : parent is
     attributeGroup,form=qualified, attributeFormDefault=unqualified,
@@ -2469,11 +2619,12 @@ def test_att_mc005_att_mc005_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_att_mc004_att_mc004_v(mode, save_output):
+def test_att_mc004_att_mc004_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : parent is
     attributeGroup,form=qualified, attributeFormDefault=absent, attribute
@@ -2486,11 +2637,12 @@ def test_att_mc004_att_mc004_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_att_mb009_att_mb009_v(mode, save_output):
+def test_att_mb009_att_mb009_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : parent is
     complexType, form=unqualified, attributeFormDefault=qualified,
@@ -2503,11 +2655,12 @@ def test_att_mb009_att_mb009_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_att_mb008_att_mb008_v(mode, save_output):
+def test_att_mb008_att_mb008_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : parent is
     complexType, form=unqualified, attributeFormDefault=unqualified,
@@ -2521,11 +2674,12 @@ def test_att_mb008_att_mb008_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_att_mb007_att_mb007_v(mode, save_output):
+def test_att_mb007_att_mb007_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : parent is
     complexType, form=unqualified, attributeFormDefault=absent, attribute
@@ -2539,11 +2693,12 @@ def test_att_mb007_att_mb007_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_att_mb006_att_mb006_v(mode, save_output):
+def test_att_mb006_att_mb006_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : parent is
     complexType, form=qualified, attributeFormDefault=qualified, attribute
@@ -2556,11 +2711,12 @@ def test_att_mb006_att_mb006_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_att_mb005_att_mb005_v(mode, save_output):
+def test_att_mb005_att_mb005_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : parent is
     complexType, form=qualified, attributeFormDefault=unqualified,
@@ -2573,11 +2729,12 @@ def test_att_mb005_att_mb005_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_att_mb004_att_mb004_v(mode, save_output):
+def test_att_mb004_att_mb004_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : parent is
     complexType, form=qualified, attributeFormDefault=absent, attribute in
@@ -2590,11 +2747,12 @@ def test_att_mb004_att_mb004_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_att_ma004_att_ma004_v(mode, save_output):
+def test_att_ma004_att_ma004_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : parent is
     schema (ref in complexType and attributeGroup), form=unqualified,
@@ -2608,11 +2766,12 @@ def test_att_ma004_att_ma004_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_att_ma003_att_ma003_v(mode, save_output):
+def test_att_ma003_att_ma003_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : parent is
     schema (ref in complexType and attributeGroup), form=qualified,
@@ -2626,11 +2785,12 @@ def test_att_ma003_att_ma003_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_att_o011_att_o011_v(mode, save_output):
+def test_att_o011_att_o011_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : Validation
     Rule: Attribute Locally Valid (check normalization): type=string,
@@ -2644,11 +2804,12 @@ def test_att_o011_att_o011_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_att_o010_att_o010_v(mode, save_output):
+def test_att_o010_att_o010_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : Validation
     Rule: Attribute Locally Valid (check normalization): type=NMTOKENS,
@@ -2662,11 +2823,12 @@ def test_att_o010_att_o010_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_att_o009_att_o009_v(mode, save_output):
+def test_att_o009_att_o009_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : Validation
     Rule: Attribute Locally Valid (check normalization): type=NMTOKENS,
@@ -2680,11 +2842,12 @@ def test_att_o009_att_o009_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_att_o007_att_o007_v(mode, save_output):
+def test_att_o007_att_o007_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : Validation
     Rule: Attribute Locally Valid (check normalization): type=string,
@@ -2697,11 +2860,12 @@ def test_att_o007_att_o007_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_att_o006_att_o006_v(mode, save_output):
+def test_att_o006_att_o006_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : Validation
     Rule: Attribute Locally Valid (check normalization): type=int, fixed='
@@ -2714,11 +2878,12 @@ def test_att_o006_att_o006_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_att_lc006_att_lc006_v(mode, save_output):
+def test_att_lc006_att_lc006_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : Validation
     Rule: Attribute Locally Valid: Parent is complexType, fixed='abc' ,
@@ -2731,11 +2896,12 @@ def test_att_lc006_att_lc006_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_att_lc004_att_lc004_v(mode, save_output):
+def test_att_lc004_att_lc004_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : Validation
     Rule: Attribute Locally Valid: Parent is complexType, fixed='abc' ,
@@ -2748,11 +2914,12 @@ def test_att_lc004_att_lc004_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_att_lc003_att_lc003_v(mode, save_output):
+def test_att_lc003_att_lc003_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : Validation
     Rule: Attribute Locally Valid: Parent is complexType, default='abc' ,
@@ -2765,11 +2932,12 @@ def test_att_lc003_att_lc003_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_att_lc002_att_lc002_v(mode, save_output):
+def test_att_lc002_att_lc002_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : Validation
     Rule: Attribute Locally Valid: Parent is complexType, default='abc' ,
@@ -2782,11 +2950,12 @@ def test_att_lc002_att_lc002_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_att_lc001_att_lc001_v(mode, save_output):
+def test_att_lc001_att_lc001_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : Validation
     Rule: Attribute Locally Valid: Parent is complexType, default='abc' ,
@@ -2799,11 +2968,12 @@ def test_att_lc001_att_lc001_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_att_lb006_att_lb006_v(mode, save_output):
+def test_att_lb006_att_lb006_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : Validation
     Rule: Attribute Locally Valid: Parent is attributeGroup, fixed='abc' ,
@@ -2816,11 +2986,12 @@ def test_att_lb006_att_lb006_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_att_lb004_att_lb004_v(mode, save_output):
+def test_att_lb004_att_lb004_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : Validation
     Rule: Attribute Locally Valid: Parent is attributeGroup, fixed='abc' ,
@@ -2833,11 +3004,12 @@ def test_att_lb004_att_lb004_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_att_lb003_att_lb003_v(mode, save_output):
+def test_att_lb003_att_lb003_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : Validation
     Rule: Attribute Locally Valid: Parent is attributeGroup, default='abc'
@@ -2850,11 +3022,12 @@ def test_att_lb003_att_lb003_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_att_lb002_att_lb002_v(mode, save_output):
+def test_att_lb002_att_lb002_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : Validation
     Rule: Attribute Locally Valid: Parent is attributeGroup, default='abc'
@@ -2867,11 +3040,12 @@ def test_att_lb002_att_lb002_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_att_lb001_att_lb001_v(mode, save_output):
+def test_att_lb001_att_lb001_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : Validation
     Rule: Attribute Locally Valid: Parent is attributeGroup, default='abc'
@@ -2884,11 +3058,12 @@ def test_att_lb001_att_lb001_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_att_la006_att_la006_v(mode, save_output):
+def test_att_la006_att_la006_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : Validation
     Rule: Attribute Locally Valid: Parent is schema , fixed='abc' , xml
@@ -2901,11 +3076,12 @@ def test_att_la006_att_la006_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_att_la004_att_la004_v(mode, save_output):
+def test_att_la004_att_la004_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : Validation
     Rule: Attribute Locally Valid: Parent is schema , fixed='abc' , xml
@@ -2918,11 +3094,12 @@ def test_att_la004_att_la004_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_att_la003_att_la003_v(mode, save_output):
+def test_att_la003_att_la003_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : Validation
     Rule: Attribute Locally Valid: Parent is schema , default='abc' , xml
@@ -2935,11 +3112,12 @@ def test_att_la003_att_la003_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_att_la002_att_la002_v(mode, save_output):
+def test_att_la002_att_la002_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : Validation
     Rule: Attribute Locally Valid: Parent is schema , default='abc' , xml
@@ -2952,11 +3130,12 @@ def test_att_la002_att_la002_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_att_la001_att_la001_v(mode, save_output):
+def test_att_la001_att_la001_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : Validation
     Rule: Attribute Locally Valid: Parent is schema , default='abc' , xml
@@ -2969,11 +3148,12 @@ def test_att_la001_att_la001_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_att_i003_att_i003_v(mode, save_output):
+def test_att_i003_att_i003_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : Basic
     attribute with annotation followed by simpleType content
@@ -2985,11 +3165,12 @@ def test_att_i003_att_i003_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_att_j018_att_j018_v(mode, save_output):
+def test_att_j018_att_j018_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : Basic
     attribute with parent schema, parent attributeGroup, parent
@@ -3002,11 +3183,12 @@ def test_att_j018_att_j018_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_att_j007_att_j007_v(mode, save_output):
+def test_att_j007_att_j007_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : xml doc
     specify the attribute, for att declared under complexType and
@@ -3019,11 +3201,12 @@ def test_att_j007_att_j007_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_att_j006_att_j006_v(mode, save_output):
+def test_att_j006_att_j006_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : xml doc
     specify the attribute, use = 'optional'
@@ -3035,11 +3218,12 @@ def test_att_j006_att_j006_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_att_j005_att_j005_v(mode, save_output):
+def test_att_j005_att_j005_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : xml doc do
     not specify the attribute, use = 'optional'
@@ -3051,11 +3235,12 @@ def test_att_j005_att_j005_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_att_j004_att_j004_v(mode, save_output):
+def test_att_j004_att_j004_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : xml doc does
     not specify the attribute, attribute decl under attribute group, use =
@@ -3068,11 +3253,12 @@ def test_att_j004_att_j004_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_att_j001_att_j001_v(mode, save_output):
+def test_att_j001_att_j001_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : xml doc do
     not specify the attribute, for att declared under schema, complexType
@@ -3085,11 +3271,12 @@ def test_att_j001_att_j001_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_att_f003_att_f003_v(mode, save_output):
+def test_att_f003_att_f003_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : Test
     attribute declaration with optional attribute use = 'required'
@@ -3101,11 +3288,12 @@ def test_att_f003_att_f003_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_att_f002_att_f002_v(mode, save_output):
+def test_att_f002_att_f002_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : Test
     attribute declaration with optional attribute use = 'optional'
@@ -3117,11 +3305,12 @@ def test_att_f002_att_f002_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_att_e001_att_e001_v(mode, save_output):
+def test_att_e001_att_e001_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : Local
     attribute declaration ref='global attribute name'
@@ -3133,11 +3322,12 @@ def test_att_e001_att_e001_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_att_d007_att_d007_v(mode, save_output):
+def test_att_d007_att_d007_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : Global
     attribute declaration type='simpleType with a union of two list and a
@@ -3150,11 +3340,12 @@ def test_att_d007_att_d007_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_att_d004_att_d004_v(mode, save_output):
+def test_att_d004_att_d004_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : Global
     attribute declaration type='simpleType with a list of number'
@@ -3166,11 +3357,12 @@ def test_att_d004_att_d004_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_att_d003_att_d003_v(mode, save_output):
+def test_att_d003_att_d003_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : Global
     attribute declaration type='simpleType derived by restrictrion from
@@ -3183,11 +3375,12 @@ def test_att_d003_att_d003_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_z013b_ct_z013b_v(mode, save_output):
+def test_ct_z013b_ct_z013b_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration : fixed
     value on mixed type element (2)
@@ -3199,11 +3392,12 @@ def test_ct_z013b_ct_z013b_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_z013a_ct_z013a_v(mode, save_output):
+def test_ct_z013a_ct_z013a_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration : fixed
     value on mixed type element (1)
@@ -3215,11 +3409,12 @@ def test_ct_z013a_ct_z013a_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_z011_b_ct_z011_b_v(mode, save_output):
+def test_ct_z011_b_ct_z011_b_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     "anyType" in instance document using xsi:type(2)
@@ -3231,11 +3426,12 @@ def test_ct_z011_b_ct_z011_b_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_z009_d_ct_z009_d_v(mode, save_output):
+def test_ct_z009_d_ct_z009_d_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     Ambiguous but valid content models (6)
@@ -3247,11 +3443,12 @@ def test_ct_z009_d_ct_z009_d_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_z009_b_ct_z009_b_v(mode, save_output):
+def test_ct_z009_b_ct_z009_b_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     Ambiguous but valid content models (4)
@@ -3263,11 +3460,12 @@ def test_ct_z009_b_ct_z009_b_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_z009_a_ct_z009_a_v(mode, save_output):
+def test_ct_z009_a_ct_z009_a_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     Ambiguous but valid content models (3)
@@ -3279,11 +3477,12 @@ def test_ct_z009_a_ct_z009_a_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_z009_ct_z009_v(mode, save_output):
+def test_ct_z009_ct_z009_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     Ambiguous but valid content models (2)
@@ -3295,11 +3494,12 @@ def test_ct_z009_ct_z009_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_z008_ct_z008_v(mode, save_output):
+def test_ct_z008_ct_z008_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     Ambiguous but valid content models
@@ -3311,11 +3511,12 @@ def test_ct_z008_ct_z008_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_z007_ct_z007_v(mode, save_output):
+def test_ct_z007_ct_z007_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration : Derived
     types validated as base type when substitution group used
@@ -3327,11 +3528,12 @@ def test_ct_z007_ct_z007_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="single-package",
     )
 
 
-def test_ct_z006_ct_z006_v(mode, save_output):
+def test_ct_z006_ct_z006_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     Inderterminstic schemas
@@ -3343,11 +3545,12 @@ def test_ct_z006_ct_z006_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_z003_ct_z003_v(mode, save_output):
+def test_ct_z003_ct_z003_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     id="85834" description="xsd: circular reference of complexType is
@@ -3360,11 +3563,12 @@ def test_ct_z003_ct_z003_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_z001_ct_z001_v(mode, save_output):
+def test_ct_z001_ct_z001_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     extensions to xsd:anyType in substitution groups
@@ -3376,11 +3580,12 @@ def test_ct_z001_ct_z001_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_o006_ct_o006_v(mode, save_output):
+def test_ct_o006_ct_o006_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     derivation=restriction. Derived type has Attribute Wildcard. Derived
@@ -3393,11 +3598,12 @@ def test_ct_o006_ct_o006_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_o003_ct_o003_v(mode, save_output):
+def test_ct_o003_ct_o003_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     derivation=restriction. Attribute wildcard in base type. Derived type
@@ -3410,11 +3616,12 @@ def test_ct_o003_ct_o003_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_o001_ct_o001_v(mode, save_output):
+def test_ct_o001_ct_o001_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     derivation=restriction. final base type not restriction
@@ -3426,11 +3633,12 @@ def test_ct_o001_ct_o001_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_n004_ct_n004_v(mode, save_output):
+def test_ct_n004_ct_n004_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     derivation=extension. Attribute wildcard ##any in base type. Derived
@@ -3443,11 +3651,12 @@ def test_ct_n004_ct_n004_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_n003_ct_n003_v(mode, save_output):
+def test_ct_n003_ct_n003_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     derivation=extension. Attribute wildcard ##local in base type. Derived
@@ -3460,11 +3669,12 @@ def test_ct_n003_ct_n003_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_n001_ct_n001_v(mode, save_output):
+def test_ct_n001_ct_n001_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     derivation=extension. final of base type not extension
@@ -3476,11 +3686,12 @@ def test_ct_n001_ct_n001_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_m002_ct_m002_v(mode, save_output):
+def test_ct_m002_ct_m002_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     complexType with base type a simpleType. derivation = extension
@@ -3492,11 +3703,12 @@ def test_ct_m002_ct_m002_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_l022_ct_l022_v(mode, save_output):
+def test_ct_l022_ct_l022_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration : ability
     to use abstract complexType as xsi:type using inline schemas
@@ -3508,11 +3720,12 @@ def test_ct_l022_ct_l022_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_l021_ct_l021_v(mode, save_output):
+def test_ct_l021_ct_l021_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration : content
     has attribute wildcard, processContents = 'strict' instance document
@@ -3525,11 +3738,12 @@ def test_ct_l021_ct_l021_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_l019_ct_l019_v(mode, save_output):
+def test_ct_l019_ct_l019_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration : content
     has attribute wildcard, processContents = 'strict' instance document
@@ -3542,11 +3756,12 @@ def test_ct_l019_ct_l019_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_l018_ct_l018_v(mode, save_output):
+def test_ct_l018_ct_l018_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration : content
     has attribute wildcard, processContents = 'lax' instance document has
@@ -3559,11 +3774,12 @@ def test_ct_l018_ct_l018_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_l017_ct_l017_v(mode, save_output):
+def test_ct_l017_ct_l017_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration : content
     has attribute wildcard, processContents = 'lax' instance document has
@@ -3576,11 +3792,12 @@ def test_ct_l017_ct_l017_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_l016_ct_l016_v(mode, save_output):
+def test_ct_l016_ct_l016_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration : content
     has attribute wildcard, processContents = 'skip' instance document has
@@ -3593,11 +3810,12 @@ def test_ct_l016_ct_l016_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_l015_ct_l015_v(mode, save_output):
+def test_ct_l015_ct_l015_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration : content
     has attribute wildcard, processContents = 'skip' instance document has
@@ -3610,11 +3828,12 @@ def test_ct_l015_ct_l015_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_l014_ct_l014_v(mode, save_output):
+def test_ct_l014_ct_l014_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration : content
     has attributes defined. instance document has attributes
@@ -3626,11 +3845,12 @@ def test_ct_l014_ct_l014_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_l011_ct_l011_v(mode, save_output):
+def test_ct_l011_ct_l011_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration : content
     is mixed. instance document elements in same order as type definition
@@ -3642,11 +3862,12 @@ def test_ct_l011_ct_l011_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_l008_ct_l008_v(mode, save_output):
+def test_ct_l008_ct_l008_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration : content
     is element only. instance document elements in same order as type
@@ -3659,11 +3880,12 @@ def test_ct_l008_ct_l008_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_l007_ct_l007_v(mode, save_output):
+def test_ct_l007_ct_l007_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration : content
     is element only. instance document element only whitespace
@@ -3675,11 +3897,12 @@ def test_ct_l007_ct_l007_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_l005_ct_l005_v(mode, save_output):
+def test_ct_l005_ct_l005_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration : content
     is element only. instance document element has element children
@@ -3691,11 +3914,12 @@ def test_ct_l005_ct_l005_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_l003_ct_l003_v(mode, save_output):
+def test_ct_l003_ct_l003_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration : content
     is empty. instance document element is empty
@@ -3707,11 +3931,12 @@ def test_ct_l003_ct_l003_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_k001_ct_k001_v(mode, save_output):
+def test_ct_k001_ct_k001_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     simpleContent with base = a complexType definition whose parent base
@@ -3724,11 +3949,12 @@ def test_ct_k001_ct_k001_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_j001_ct_j001_v(mode, save_output):
+def test_ct_j001_ct_j001_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     complexContent with base = a complexType definition
@@ -3740,11 +3966,12 @@ def test_ct_j001_ct_j001_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_i050_ct_i050_v(mode, save_output):
+def test_ct_i050_ct_i050_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     complexType with attribute abstract = 'true' , derived complexType
@@ -3757,11 +3984,12 @@ def test_ct_i050_ct_i050_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_i047_ct_i047_v(mode, save_output):
+def test_ct_i047_ct_i047_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration : schema
     with blockDefault = 'extension' and block='restriction' , use xsi:type
@@ -3774,11 +4002,12 @@ def test_ct_i047_ct_i047_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_i046_ct_i046_v(mode, save_output):
+def test_ct_i046_ct_i046_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration : schema
     with blockDefault = 'extension' , use xsi:type of substituted
@@ -3791,11 +4020,12 @@ def test_ct_i046_ct_i046_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_i044_ct_i044_v(mode, save_output):
+def test_ct_i044_ct_i044_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration : schema
     with blockDefault = 'restriction' and block='extension' , use xsi:type
@@ -3808,11 +4038,12 @@ def test_ct_i044_ct_i044_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_i043_ct_i043_v(mode, save_output):
+def test_ct_i043_ct_i043_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration : schema
     with blockDefault = 'restriction' , use xsi:type of substituted
@@ -3825,11 +4056,12 @@ def test_ct_i043_ct_i043_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_i041_ct_i041_v(mode, save_output):
+def test_ct_i041_ct_i041_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration : schema
     with blockDefault = '#all' and block='' , use xsi:type of substituted
@@ -3842,11 +4074,12 @@ def test_ct_i041_ct_i041_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_i040_ct_i040_v(mode, save_output):
+def test_ct_i040_ct_i040_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration : schema
     with blockDefault = '#all' and block='' , use xsi:type of substituted
@@ -3859,11 +4092,12 @@ def test_ct_i040_ct_i040_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_i037_ct_i037_v(mode, save_output):
+def test_ct_i037_ct_i037_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration : schema
     with blockDefault = '' , use xsi:type of substituted complexType by
@@ -3876,11 +4110,12 @@ def test_ct_i037_ct_i037_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_i036_ct_i036_v(mode, save_output):
+def test_ct_i036_ct_i036_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration : schema
     with blockDefault = '' , use xsi:type of substituted complexType by
@@ -3893,11 +4128,12 @@ def test_ct_i036_ct_i036_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_i034_ct_i034_v(mode, save_output):
+def test_ct_i034_ct_i034_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     complexType with attribute block = 'extension' , use xsi:type of
@@ -3910,11 +4146,12 @@ def test_ct_i034_ct_i034_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_i033_ct_i033_v(mode, save_output):
+def test_ct_i033_ct_i033_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     complexType with attribute block = 'restriction' , use xsi:type of
@@ -3927,11 +4164,12 @@ def test_ct_i033_ct_i033_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_i029_ct_i029_v(mode, save_output):
+def test_ct_i029_ct_i029_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     complexType with attribute block = '' , use xsi:type of substituted
@@ -3944,11 +4182,12 @@ def test_ct_i029_ct_i029_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_i028_ct_i028_v(mode, save_output):
+def test_ct_i028_ct_i028_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     complexType with attribute block = '' , use xsi:type of substituted
@@ -3961,11 +4200,12 @@ def test_ct_i028_ct_i028_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_i027_ct_i027_v(mode, save_output):
+def test_ct_i027_ct_i027_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration : schema
     with finalDefault = 'restriction extension' and final='extension' ,
@@ -3978,11 +4218,12 @@ def test_ct_i027_ct_i027_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_i026_ct_i026_v(mode, save_output):
+def test_ct_i026_ct_i026_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration : schema
     with finalDefault = 'restriction extension' and final='restriction' ,
@@ -3995,11 +4236,12 @@ def test_ct_i026_ct_i026_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_i025_ct_i025_v(mode, save_output):
+def test_ct_i025_ct_i025_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration : schema
     with finalDefault = 'extension' and final='restriction' , derived
@@ -4012,11 +4254,12 @@ def test_ct_i025_ct_i025_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_i023_ct_i023_v(mode, save_output):
+def test_ct_i023_ct_i023_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration : schema
     with finalDefault = 'extension' , derived complexType by restriction
@@ -4028,11 +4271,12 @@ def test_ct_i023_ct_i023_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_i022_ct_i022_v(mode, save_output):
+def test_ct_i022_ct_i022_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration : schema
     with finalDefault = 'restriction' and final='extension' , derived
@@ -4045,11 +4289,12 @@ def test_ct_i022_ct_i022_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_i021_ct_i021_v(mode, save_output):
+def test_ct_i021_ct_i021_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration : schema
     with finalDefault = 'restriction' , derived complexType by extension
@@ -4061,11 +4306,12 @@ def test_ct_i021_ct_i021_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_i019_ct_i019_v(mode, save_output):
+def test_ct_i019_ct_i019_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration : schema
     with finalDefault = '#all' and final='' , derived complexType by
@@ -4078,11 +4324,12 @@ def test_ct_i019_ct_i019_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_i018_ct_i018_v(mode, save_output):
+def test_ct_i018_ct_i018_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration : schema
     with finalDefault = '#all' and final='' , derived complexType by
@@ -4095,11 +4342,12 @@ def test_ct_i018_ct_i018_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_i015_ct_i015_v(mode, save_output):
+def test_ct_i015_ct_i015_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration : schema
     with finalDefault = '' , derived complexType by extension
@@ -4111,11 +4359,12 @@ def test_ct_i015_ct_i015_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_i014_ct_i014_v(mode, save_output):
+def test_ct_i014_ct_i014_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration : schema
     with finalDefault = '' , derived complexType by restriction
@@ -4127,11 +4376,12 @@ def test_ct_i014_ct_i014_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_i010_ct_i010_v(mode, save_output):
+def test_ct_i010_ct_i010_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     complexType with attribute final = 'extension' , derived complexType
@@ -4144,11 +4394,12 @@ def test_ct_i010_ct_i010_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_i009_ct_i009_v(mode, save_output):
+def test_ct_i009_ct_i009_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     complexType with attribute final = 'restriction' , derived complexType
@@ -4161,11 +4412,12 @@ def test_ct_i009_ct_i009_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_i005_ct_i005_v(mode, save_output):
+def test_ct_i005_ct_i005_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     complexType with attribute final = '' , derived complexType by
@@ -4178,11 +4430,12 @@ def test_ct_i005_ct_i005_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_i004_ct_i004_v(mode, save_output):
+def test_ct_i004_ct_i004_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     complexType with attribute final = '' , derived complexType by
@@ -4195,11 +4448,12 @@ def test_ct_i004_ct_i004_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_i003_ct_i003_v(mode, save_output):
+def test_ct_i003_ct_i003_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     complexType with name = 'fooType' , global attribute with
@@ -4212,11 +4466,12 @@ def test_ct_i003_ct_i003_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_h082_ct_h082_v(mode, save_output):
+def test_ct_h082_ct_h082_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     complexContent, content of extension and content with group then
@@ -4229,11 +4484,12 @@ def test_ct_h082_ct_h082_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_h071_ct_h071_v(mode, save_output):
+def test_ct_h071_ct_h071_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     complexContent, content of extension and content with anyAttribute
@@ -4245,11 +4501,12 @@ def test_ct_h071_ct_h071_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_h069_ct_h069_v(mode, save_output):
+def test_ct_h069_ct_h069_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     complexContent, content of extension and content with attributeGroup
@@ -4262,11 +4519,12 @@ def test_ct_h069_ct_h069_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_h068_ct_h068_v(mode, save_output):
+def test_ct_h068_ct_h068_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     complexContent, content of extension and content with attributeGroup
@@ -4279,11 +4537,12 @@ def test_ct_h068_ct_h068_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_h067_ct_h067_v(mode, save_output):
+def test_ct_h067_ct_h067_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     complexContent, content of extension and content with attributeGroup
@@ -4296,11 +4555,12 @@ def test_ct_h067_ct_h067_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_h066_ct_h066_v(mode, save_output):
+def test_ct_h066_ct_h066_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     complexContent, content of extension and content with attributeGroup
@@ -4313,11 +4573,12 @@ def test_ct_h066_ct_h066_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_h060_ct_h060_v(mode, save_output):
+def test_ct_h060_ct_h060_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     complexContent, content of extension and content with attributeGroup
@@ -4329,11 +4590,12 @@ def test_ct_h060_ct_h060_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_h058_ct_h058_v(mode, save_output):
+def test_ct_h058_ct_h058_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     complexContent, content of extension and content with attribute then
@@ -4346,11 +4608,12 @@ def test_ct_h058_ct_h058_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_h057_ct_h057_v(mode, save_output):
+def test_ct_h057_ct_h057_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     complexContent, content of extension and content with attribute then
@@ -4363,11 +4626,12 @@ def test_ct_h057_ct_h057_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_h056_ct_h056_v(mode, save_output):
+def test_ct_h056_ct_h056_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     complexContent, content of extension and content with attribute then
@@ -4380,11 +4644,12 @@ def test_ct_h056_ct_h056_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_h055_ct_h055_v(mode, save_output):
+def test_ct_h055_ct_h055_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     complexContent, content of extension and content with attribute then
@@ -4397,11 +4662,12 @@ def test_ct_h055_ct_h055_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_h049_ct_h049_v(mode, save_output):
+def test_ct_h049_ct_h049_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     complexContent, content of extension and content with attribute
@@ -4413,11 +4679,12 @@ def test_ct_h049_ct_h049_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_h047_ct_h047_v(mode, save_output):
+def test_ct_h047_ct_h047_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     complexContent, content of extension and content with sequence then
@@ -4430,11 +4697,12 @@ def test_ct_h047_ct_h047_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_h046_ct_h046_v(mode, save_output):
+def test_ct_h046_ct_h046_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     complexContent, content of extension and content with sequence then
@@ -4447,11 +4715,12 @@ def test_ct_h046_ct_h046_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_h045_ct_h045_v(mode, save_output):
+def test_ct_h045_ct_h045_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     complexContent, content of extension and content with sequence then
@@ -4464,11 +4733,12 @@ def test_ct_h045_ct_h045_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_h044_ct_h044_v(mode, save_output):
+def test_ct_h044_ct_h044_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     complexContent, content of extension and content with sequence then
@@ -4481,11 +4751,12 @@ def test_ct_h044_ct_h044_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_h043_ct_h043_v(mode, save_output):
+def test_ct_h043_ct_h043_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     complexContent, content of extension and content with sequence then
@@ -4498,11 +4769,12 @@ def test_ct_h043_ct_h043_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_h037_ct_h037_v(mode, save_output):
+def test_ct_h037_ct_h037_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     complexContent, content of extension and content with sequence
@@ -4514,11 +4786,12 @@ def test_ct_h037_ct_h037_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_h035_ct_h035_v(mode, save_output):
+def test_ct_h035_ct_h035_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     complexContent, content of extension and content with choice then
@@ -4531,11 +4804,12 @@ def test_ct_h035_ct_h035_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_h034_ct_h034_v(mode, save_output):
+def test_ct_h034_ct_h034_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     complexContent, content of extension and content with choice then two
@@ -4548,11 +4822,12 @@ def test_ct_h034_ct_h034_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_h033_ct_h033_v(mode, save_output):
+def test_ct_h033_ct_h033_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     complexContent, content of extension and content with choice then
@@ -4565,11 +4840,12 @@ def test_ct_h033_ct_h033_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_h032_ct_h032_v(mode, save_output):
+def test_ct_h032_ct_h032_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     complexContent, content of extension and content with choice then two
@@ -4582,11 +4858,12 @@ def test_ct_h032_ct_h032_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_h031_ct_h031_v(mode, save_output):
+def test_ct_h031_ct_h031_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     complexContent, content of extension and content with choice then
@@ -4599,11 +4876,12 @@ def test_ct_h031_ct_h031_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_h025_ct_h025_v(mode, save_output):
+def test_ct_h025_ct_h025_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     complexContent, content of extension and content with choice
@@ -4615,11 +4893,12 @@ def test_ct_h025_ct_h025_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_h011_ct_h011_v(mode, save_output):
+def test_ct_h011_ct_h011_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     complexContent, content of extension and content with group then
@@ -4632,11 +4911,12 @@ def test_ct_h011_ct_h011_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_h010_ct_h010_v(mode, save_output):
+def test_ct_h010_ct_h010_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     complexContent, content of extension and content with group then two
@@ -4649,11 +4929,12 @@ def test_ct_h010_ct_h010_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_h009_ct_h009_v(mode, save_output):
+def test_ct_h009_ct_h009_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     complexContent, content of extension and content with group then
@@ -4666,11 +4947,12 @@ def test_ct_h009_ct_h009_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_h008_ct_h008_v(mode, save_output):
+def test_ct_h008_ct_h008_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     complexContent, content of extension and content with group then two
@@ -4683,11 +4965,12 @@ def test_ct_h008_ct_h008_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_h007_ct_h007_v(mode, save_output):
+def test_ct_h007_ct_h007_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     complexContent, content of extension and content with group then
@@ -4700,11 +4983,12 @@ def test_ct_h007_ct_h007_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_h001_ct_h001_v(mode, save_output):
+def test_ct_h001_ct_h001_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     complexContent, content of extension and content with group
@@ -4716,11 +5000,12 @@ def test_ct_h001_ct_h001_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_g071_ct_g071_v(mode, save_output):
+def test_ct_g071_ct_g071_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     complexContent, content of restriction and content with anyAttribute
@@ -4732,11 +5017,12 @@ def test_ct_g071_ct_g071_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_g069_ct_g069_v(mode, save_output):
+def test_ct_g069_ct_g069_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     complexContent, content of restriction and content with attributeGroup
@@ -4749,11 +5035,12 @@ def test_ct_g069_ct_g069_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_g068_ct_g068_v(mode, save_output):
+def test_ct_g068_ct_g068_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     complexContent, content of restriction and content with attributeGroup
@@ -4766,11 +5053,12 @@ def test_ct_g068_ct_g068_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_g067_ct_g067_v(mode, save_output):
+def test_ct_g067_ct_g067_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     complexContent, content of restriction and content with attributeGroup
@@ -4783,11 +5071,12 @@ def test_ct_g067_ct_g067_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_g066_ct_g066_v(mode, save_output):
+def test_ct_g066_ct_g066_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     complexContent, content of restriction and content with attributeGroup
@@ -4800,11 +5089,12 @@ def test_ct_g066_ct_g066_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_g060_ct_g060_v(mode, save_output):
+def test_ct_g060_ct_g060_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     complexContent, content of restriction and content with attributeGroup
@@ -4816,11 +5106,12 @@ def test_ct_g060_ct_g060_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_g058_ct_g058_v(mode, save_output):
+def test_ct_g058_ct_g058_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     complexContent, content of restriction and content with attribute then
@@ -4833,11 +5124,12 @@ def test_ct_g058_ct_g058_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_g057_ct_g057_v(mode, save_output):
+def test_ct_g057_ct_g057_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     complexContent, content of restriction and content with attribute then
@@ -4850,11 +5142,12 @@ def test_ct_g057_ct_g057_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_g056_ct_g056_v(mode, save_output):
+def test_ct_g056_ct_g056_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     complexContent, content of restriction and content with attribute then
@@ -4867,11 +5160,12 @@ def test_ct_g056_ct_g056_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_g055_ct_g055_v(mode, save_output):
+def test_ct_g055_ct_g055_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     complexContent, content of restriction and content with attribute then
@@ -4884,11 +5178,12 @@ def test_ct_g055_ct_g055_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_g049_ct_g049_v(mode, save_output):
+def test_ct_g049_ct_g049_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     complexContent, content of restriction and content with attribute
@@ -4900,11 +5195,12 @@ def test_ct_g049_ct_g049_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_g047_ct_g047_v(mode, save_output):
+def test_ct_g047_ct_g047_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     complexContent, content of restriction and content with sequence then
@@ -4917,11 +5213,12 @@ def test_ct_g047_ct_g047_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_g046_ct_g046_v(mode, save_output):
+def test_ct_g046_ct_g046_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     complexContent, content of restriction and content with sequence then
@@ -4934,11 +5231,12 @@ def test_ct_g046_ct_g046_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_g045_ct_g045_v(mode, save_output):
+def test_ct_g045_ct_g045_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     complexContent, content of restriction and content with sequence then
@@ -4951,11 +5249,12 @@ def test_ct_g045_ct_g045_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_g044_ct_g044_v(mode, save_output):
+def test_ct_g044_ct_g044_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     complexContent, content of restriction and content with sequence then
@@ -4968,11 +5267,12 @@ def test_ct_g044_ct_g044_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_g043_ct_g043_v(mode, save_output):
+def test_ct_g043_ct_g043_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     complexContent, content of restriction and content with sequence then
@@ -4985,11 +5285,12 @@ def test_ct_g043_ct_g043_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_g037_ct_g037_v(mode, save_output):
+def test_ct_g037_ct_g037_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     complexContent, content of restriction and content with sequence
@@ -5001,11 +5302,12 @@ def test_ct_g037_ct_g037_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_g035_ct_g035_v(mode, save_output):
+def test_ct_g035_ct_g035_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     complexContent, content of restriction and content with choice then
@@ -5018,11 +5320,12 @@ def test_ct_g035_ct_g035_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_g034_ct_g034_v(mode, save_output):
+def test_ct_g034_ct_g034_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     complexContent, content of restriction and content with choice then
@@ -5035,11 +5338,12 @@ def test_ct_g034_ct_g034_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_g033_ct_g033_v(mode, save_output):
+def test_ct_g033_ct_g033_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     complexContent, content of restriction and content with choice then
@@ -5052,11 +5356,12 @@ def test_ct_g033_ct_g033_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_g032_ct_g032_v(mode, save_output):
+def test_ct_g032_ct_g032_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     complexContent, content of restriction and content with choice then
@@ -5069,11 +5374,12 @@ def test_ct_g032_ct_g032_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_g031_ct_g031_v(mode, save_output):
+def test_ct_g031_ct_g031_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     complexContent, content of restriction and content with choice then
@@ -5086,11 +5392,12 @@ def test_ct_g031_ct_g031_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_g025_ct_g025_v(mode, save_output):
+def test_ct_g025_ct_g025_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     complexContent, content of restriction and content with choice
@@ -5102,11 +5409,12 @@ def test_ct_g025_ct_g025_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_g023_ct_g023_v(mode, save_output):
+def test_ct_g023_ct_g023_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     complexContent, content of restriction and content with all then
@@ -5119,11 +5427,12 @@ def test_ct_g023_ct_g023_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_g022_ct_g022_v(mode, save_output):
+def test_ct_g022_ct_g022_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     complexContent, content of restriction and content with all then two
@@ -5136,11 +5445,12 @@ def test_ct_g022_ct_g022_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_g021_ct_g021_v(mode, save_output):
+def test_ct_g021_ct_g021_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     complexContent, content of restriction and content with all then
@@ -5153,11 +5463,12 @@ def test_ct_g021_ct_g021_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_g020_ct_g020_v(mode, save_output):
+def test_ct_g020_ct_g020_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     complexContent, content of restriction and content with all then two
@@ -5170,11 +5481,12 @@ def test_ct_g020_ct_g020_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_g019_ct_g019_v(mode, save_output):
+def test_ct_g019_ct_g019_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     complexContent, content of restriction and content with all then
@@ -5187,11 +5499,12 @@ def test_ct_g019_ct_g019_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_g013_ct_g013_v(mode, save_output):
+def test_ct_g013_ct_g013_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     complexContent, content of restriction and content with all
@@ -5203,11 +5516,12 @@ def test_ct_g013_ct_g013_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_g011_ct_g011_v(mode, save_output):
+def test_ct_g011_ct_g011_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     complexContent, content of restriction and content with group then
@@ -5221,11 +5535,12 @@ def test_ct_g011_ct_g011_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_g010_ct_g010_v(mode, save_output):
+def test_ct_g010_ct_g010_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     complexContent, content of restriction and content with group then two
@@ -5239,11 +5554,12 @@ def test_ct_g010_ct_g010_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_g009_ct_g009_v(mode, save_output):
+def test_ct_g009_ct_g009_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     complexContent, content of restriction and content with group then
@@ -5257,11 +5573,12 @@ def test_ct_g009_ct_g009_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_g008_ct_g008_v(mode, save_output):
+def test_ct_g008_ct_g008_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     complexContent, content of restriction and content with group then two
@@ -5275,11 +5592,12 @@ def test_ct_g008_ct_g008_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_g007_ct_g007_v(mode, save_output):
+def test_ct_g007_ct_g007_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     complexContent, content of restriction and content with group then
@@ -5293,11 +5611,12 @@ def test_ct_g007_ct_g007_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_g001_ct_g001_v(mode, save_output):
+def test_ct_g001_ct_g001_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     complexContent, content of restriction and content with group TSTF
@@ -5310,11 +5629,12 @@ def test_ct_g001_ct_g001_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_f014_ct_f014_v(mode, save_output):
+def test_ct_f014_ct_f014_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     complexContent and content of extension
@@ -5326,11 +5646,12 @@ def test_ct_f014_ct_f014_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_f013_ct_f013_v(mode, save_output):
+def test_ct_f013_ct_f013_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     complexContent and content of annotation and restriction
@@ -5342,11 +5663,12 @@ def test_ct_f013_ct_f013_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_f011_ct_f011_v(mode, save_output):
+def test_ct_f011_ct_f011_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     complexContent with optional attribute mixed = 'false' and content of
@@ -5359,11 +5681,12 @@ def test_ct_f011_ct_f011_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_f010_ct_f010_v(mode, save_output):
+def test_ct_f010_ct_f010_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     complexContent with optional attribute mixed = 'false' and content of
@@ -5376,11 +5699,12 @@ def test_ct_f010_ct_f010_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_f007_ct_f007_v(mode, save_output):
+def test_ct_f007_ct_f007_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     complexContent with optional attribute mixed = 'false' and content of
@@ -5393,11 +5717,12 @@ def test_ct_f007_ct_f007_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_f001_ct_f001_v(mode, save_output):
+def test_ct_f001_ct_f001_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     comlexContent with optional attribute id = 'foo123'
@@ -5409,11 +5734,12 @@ def test_ct_f001_ct_f001_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_e019_ct_e019_v(mode, save_output):
+def test_ct_e019_ct_e019_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     Chameleon case for simpleContent restriction
@@ -5425,11 +5751,12 @@ def test_ct_e019_ct_e019_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_e018_ct_e018_v(mode, save_output):
+def test_ct_e018_ct_e018_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     Chameleon case for simpleContent extension
@@ -5441,11 +5768,12 @@ def test_ct_e018_ct_e018_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_e017_ct_e017_v(mode, save_output):
+def test_ct_e017_ct_e017_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     simpleContent, content of extension with base='xsd:string' and content
@@ -5458,11 +5786,12 @@ def test_ct_e017_ct_e017_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_e010_ct_e010_v(mode, save_output):
+def test_ct_e010_ct_e010_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     simpleContent, content of extension with base='xsd:string' and content
@@ -5475,11 +5804,12 @@ def test_ct_e010_ct_e010_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_e008_ct_e008_v(mode, save_output):
+def test_ct_e008_ct_e008_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     simpleContent, content of extension with base='xsd:string' and content
@@ -5492,11 +5822,12 @@ def test_ct_e008_ct_e008_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_e007_ct_e007_v(mode, save_output):
+def test_ct_e007_ct_e007_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     simpleContent, content of extension with base='xsd:string' and content
@@ -5509,11 +5840,12 @@ def test_ct_e007_ct_e007_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_e006_ct_e006_v(mode, save_output):
+def test_ct_e006_ct_e006_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     simpleContent, content of extension with base='xsd:string' and content
@@ -5526,11 +5858,12 @@ def test_ct_e006_ct_e006_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_e002_ct_e002_v(mode, save_output):
+def test_ct_e002_ct_e002_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     simpleContent, content of extension and base = defined complex type
@@ -5543,11 +5876,12 @@ def test_ct_e002_ct_e002_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_e001_ct_e001_v(mode, save_output):
+def test_ct_e001_ct_e001_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     simpleContent, content of extension and base='xsd:string'
@@ -5559,11 +5893,12 @@ def test_ct_e001_ct_e001_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_d035_ct_d035_v(mode, save_output):
+def test_ct_d035_ct_d035_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     simpleContent, content of restriction with base='xsd:string' and
@@ -5576,11 +5911,12 @@ def test_ct_d035_ct_d035_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_d033_ct_d033_v(mode, save_output):
+def test_ct_d033_ct_d033_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     simpleContent, content of restriction and content of anyAttribute
@@ -5592,11 +5928,12 @@ def test_ct_d033_ct_d033_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_d032_ct_d032_v(mode, save_output):
+def test_ct_d032_ct_d032_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     simpleContent, content of restriction and content of two
@@ -5609,11 +5946,12 @@ def test_ct_d032_ct_d032_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_d031_ct_d031_v(mode, save_output):
+def test_ct_d031_ct_d031_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     simpleContent, content of restriction and content of attributeGroup
@@ -5625,11 +5963,12 @@ def test_ct_d031_ct_d031_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_d030_ct_d030_v(mode, save_output):
+def test_ct_d030_ct_d030_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     simpleContent, content of restriction and content of two attributes
@@ -5641,11 +5980,12 @@ def test_ct_d030_ct_d030_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_d029_ct_d029_v(mode, save_output):
+def test_ct_d029_ct_d029_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     simpleContent, content of restriction and content of attribute
@@ -5657,11 +5997,12 @@ def test_ct_d029_ct_d029_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_d028_ct_d028_v(mode, save_output):
+def test_ct_d028_ct_d028_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     simpleContent, content of restriction and content of two facets
@@ -5673,11 +6014,12 @@ def test_ct_d028_ct_d028_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_d027_ct_d027_v(mode, save_output):
+def test_ct_d027_ct_d027_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     simpleContent, content of restriction and content of whiteSpace
@@ -5689,11 +6031,12 @@ def test_ct_d027_ct_d027_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_d026_ct_d026_v(mode, save_output):
+def test_ct_d026_ct_d026_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     simpleContent, content of restriction and content of fractionDigits
@@ -5705,11 +6048,12 @@ def test_ct_d026_ct_d026_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_d025_ct_d025_v(mode, save_output):
+def test_ct_d025_ct_d025_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     simpleContent, content of restriction and content of totalDigits
@@ -5721,11 +6065,12 @@ def test_ct_d025_ct_d025_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_d023_ct_d023_v(mode, save_output):
+def test_ct_d023_ct_d023_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     simpleContent, content of restriction and content of pattern
@@ -5737,11 +6082,12 @@ def test_ct_d023_ct_d023_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_d022_ct_d022_v(mode, save_output):
+def test_ct_d022_ct_d022_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     simpleContent, content of restriction and content of minLength
@@ -5753,11 +6099,12 @@ def test_ct_d022_ct_d022_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_d021_ct_d021_v(mode, save_output):
+def test_ct_d021_ct_d021_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     simpleContent, content of restriction and content of minInclusive
@@ -5769,11 +6116,12 @@ def test_ct_d021_ct_d021_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_d020_ct_d020_v(mode, save_output):
+def test_ct_d020_ct_d020_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     simpleContent, content of restriction and content of minExclusive
@@ -5785,11 +6133,12 @@ def test_ct_d020_ct_d020_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_d019_ct_d019_v(mode, save_output):
+def test_ct_d019_ct_d019_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     simpleContent, content of restriction and content of maxLength
@@ -5801,11 +6150,12 @@ def test_ct_d019_ct_d019_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_d018_ct_d018_v(mode, save_output):
+def test_ct_d018_ct_d018_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     simpleContent, content of restriction and content of maxInclusive
@@ -5817,11 +6167,12 @@ def test_ct_d018_ct_d018_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_d017_ct_d017_v(mode, save_output):
+def test_ct_d017_ct_d017_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     simpleContent, content of restriction and content of maxExclusive
@@ -5833,11 +6184,12 @@ def test_ct_d017_ct_d017_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_d016_ct_d016_v(mode, save_output):
+def test_ct_d016_ct_d016_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     simpleContent, content of restriction and content of length
@@ -5849,11 +6201,12 @@ def test_ct_d016_ct_d016_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_d015_ct_d015_v(mode, save_output):
+def test_ct_d015_ct_d015_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     simpleContent, content of restriction and content of enumeration
@@ -5865,11 +6218,12 @@ def test_ct_d015_ct_d015_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_d012_ct_d012_v(mode, save_output):
+def test_ct_d012_ct_d012_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     simpleContent, content of restriction and content of simpleType then
@@ -5882,11 +6236,12 @@ def test_ct_d012_ct_d012_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_d010_ct_d010_v(mode, save_output):
+def test_ct_d010_ct_d010_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     simpleContent, content of restriction and content of annotation then
@@ -5899,11 +6254,12 @@ def test_ct_d010_ct_d010_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_d008_ct_d008_v(mode, save_output):
+def test_ct_d008_ct_d008_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     simpleContent, content of restriction and content of simpleType
@@ -5915,11 +6271,12 @@ def test_ct_d008_ct_d008_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_d006_ct_d006_v(mode, save_output):
+def test_ct_d006_ct_d006_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     simpleContent, content of restriction and content of annotation
@@ -5931,11 +6288,12 @@ def test_ct_d006_ct_d006_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_d005_ct_d005_v(mode, save_output):
+def test_ct_d005_ct_d005_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     simpleContent, content of restriction and empty content
@@ -5947,11 +6305,12 @@ def test_ct_d005_ct_d005_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_d002_ct_d002_v(mode, save_output):
+def test_ct_d002_ct_d002_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     simpleContent, content of restriction and base = defined complex type
@@ -5963,11 +6322,12 @@ def test_ct_d002_ct_d002_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_c012_ct_c012_v(mode, save_output):
+def test_ct_c012_ct_c012_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     simpleContent and content of annotation and extension
@@ -5979,11 +6339,12 @@ def test_ct_c012_ct_c012_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_c008_ct_c008_v(mode, save_output):
+def test_ct_c008_ct_c008_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     simpleContent and content of extension
@@ -5995,11 +6356,12 @@ def test_ct_c008_ct_c008_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_c007_ct_c007_v(mode, save_output):
+def test_ct_c007_ct_c007_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     simpleContent and content of annotation and restriction
@@ -6011,11 +6373,12 @@ def test_ct_c007_ct_c007_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_c006_ct_c006_v(mode, save_output):
+def test_ct_c006_ct_c006_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     attribute with non-schema namespace
@@ -6027,11 +6390,12 @@ def test_ct_c006_ct_c006_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_c001_ct_c001_v(mode, save_output):
+def test_ct_c001_ct_c001_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     simpleContent with optional attribute id = 'foo123'
@@ -6043,11 +6407,12 @@ def test_ct_c001_ct_c001_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_b113_ct_b113_v(mode, save_output):
+def test_ct_b113_ct_b113_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration : content
     with anyAttribute
@@ -6059,11 +6424,12 @@ def test_ct_b113_ct_b113_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_b111_ct_b111_v(mode, save_output):
+def test_ct_b111_ct_b111_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration : content
     with attributeGroup then anyAttribute
@@ -6075,11 +6441,12 @@ def test_ct_b111_ct_b111_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_b110_ct_b110_v(mode, save_output):
+def test_ct_b110_ct_b110_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration : content
     with attributeGroup then attributeGroup
@@ -6091,11 +6458,12 @@ def test_ct_b110_ct_b110_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_b109_ct_b109_v(mode, save_output):
+def test_ct_b109_ct_b109_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration : content
     with attributeGroup then two attributes
@@ -6107,11 +6475,12 @@ def test_ct_b109_ct_b109_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_b108_ct_b108_v(mode, save_output):
+def test_ct_b108_ct_b108_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration : content
     with attributeGroup then attribute
@@ -6123,11 +6492,12 @@ def test_ct_b108_ct_b108_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_b100_ct_b100_v(mode, save_output):
+def test_ct_b100_ct_b100_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration : content
     with attributeGroup
@@ -6139,11 +6509,12 @@ def test_ct_b100_ct_b100_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_b098_ct_b098_v(mode, save_output):
+def test_ct_b098_ct_b098_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration : content
     with attribute then anyAttribute
@@ -6155,11 +6526,12 @@ def test_ct_b098_ct_b098_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_b097_ct_b097_v(mode, save_output):
+def test_ct_b097_ct_b097_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration : content
     with attribute then two attributeGroups
@@ -6171,11 +6543,12 @@ def test_ct_b097_ct_b097_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_b096_ct_b096_v(mode, save_output):
+def test_ct_b096_ct_b096_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration : content
     with attribute then attributeGroup
@@ -6187,11 +6560,12 @@ def test_ct_b096_ct_b096_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_b095_ct_b095_v(mode, save_output):
+def test_ct_b095_ct_b095_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration : content
     with attribute then attribute
@@ -6203,11 +6577,12 @@ def test_ct_b095_ct_b095_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_b087_ct_b087_v(mode, save_output):
+def test_ct_b087_ct_b087_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration : content
     with attribute
@@ -6219,11 +6594,12 @@ def test_ct_b087_ct_b087_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_b085_ct_b085_v(mode, save_output):
+def test_ct_b085_ct_b085_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration : content
     with sequence then anyAttribute
@@ -6235,11 +6611,12 @@ def test_ct_b085_ct_b085_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_b084_ct_b084_v(mode, save_output):
+def test_ct_b084_ct_b084_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration : content
     with sequence then two attributeGroups
@@ -6251,11 +6628,12 @@ def test_ct_b084_ct_b084_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_b083_ct_b083_v(mode, save_output):
+def test_ct_b083_ct_b083_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration : content
     with sequence then attributeGroup
@@ -6267,11 +6645,12 @@ def test_ct_b083_ct_b083_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_b082_ct_b082_v(mode, save_output):
+def test_ct_b082_ct_b082_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration : content
     with sequence then two attributes
@@ -6283,11 +6662,12 @@ def test_ct_b082_ct_b082_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_b081_ct_b081_v(mode, save_output):
+def test_ct_b081_ct_b081_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration : content
     with sequence then attribute
@@ -6299,11 +6679,12 @@ def test_ct_b081_ct_b081_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_b073_ct_b073_v(mode, save_output):
+def test_ct_b073_ct_b073_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration : content
     with sequence
@@ -6315,11 +6696,12 @@ def test_ct_b073_ct_b073_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_b071_ct_b071_v(mode, save_output):
+def test_ct_b071_ct_b071_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration : content
     with choice then anyAttribute
@@ -6331,11 +6713,12 @@ def test_ct_b071_ct_b071_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_b070_ct_b070_v(mode, save_output):
+def test_ct_b070_ct_b070_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration : content
     with choice then two attributeGroups
@@ -6347,11 +6730,12 @@ def test_ct_b070_ct_b070_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_b069_ct_b069_v(mode, save_output):
+def test_ct_b069_ct_b069_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration : content
     with choice then attributeGroup
@@ -6363,11 +6747,12 @@ def test_ct_b069_ct_b069_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_b068_ct_b068_v(mode, save_output):
+def test_ct_b068_ct_b068_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration : content
     with choice then two attributes
@@ -6379,11 +6764,12 @@ def test_ct_b068_ct_b068_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_b067_ct_b067_v(mode, save_output):
+def test_ct_b067_ct_b067_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration : content
     with choice then attribute
@@ -6395,11 +6781,12 @@ def test_ct_b067_ct_b067_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_b059_ct_b059_v(mode, save_output):
+def test_ct_b059_ct_b059_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration : content
     with choice
@@ -6411,11 +6798,12 @@ def test_ct_b059_ct_b059_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_b057_ct_b057_v(mode, save_output):
+def test_ct_b057_ct_b057_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration : content
     with all then anyAttribute
@@ -6427,11 +6815,12 @@ def test_ct_b057_ct_b057_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_b056_ct_b056_v(mode, save_output):
+def test_ct_b056_ct_b056_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration : content
     with all then two attributeGroups
@@ -6443,11 +6832,12 @@ def test_ct_b056_ct_b056_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_b055_ct_b055_v(mode, save_output):
+def test_ct_b055_ct_b055_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration : content
     with all then attributeGroup
@@ -6459,11 +6849,12 @@ def test_ct_b055_ct_b055_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_b054_ct_b054_v(mode, save_output):
+def test_ct_b054_ct_b054_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration : content
     with all then two attributes
@@ -6475,11 +6866,12 @@ def test_ct_b054_ct_b054_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_b053_ct_b053_v(mode, save_output):
+def test_ct_b053_ct_b053_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration : content
     with all then attribute
@@ -6491,11 +6883,12 @@ def test_ct_b053_ct_b053_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_b045_ct_b045_v(mode, save_output):
+def test_ct_b045_ct_b045_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration : content
     with all
@@ -6507,11 +6900,12 @@ def test_ct_b045_ct_b045_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_b043_ct_b043_v(mode, save_output):
+def test_ct_b043_ct_b043_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration : content
     with group then anyAttribute
@@ -6523,11 +6917,12 @@ def test_ct_b043_ct_b043_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_b042_ct_b042_v(mode, save_output):
+def test_ct_b042_ct_b042_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration : content
     with group then two attributeGroups
@@ -6539,11 +6934,12 @@ def test_ct_b042_ct_b042_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_b041_ct_b041_v(mode, save_output):
+def test_ct_b041_ct_b041_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration : content
     with group then attributeGroup
@@ -6555,11 +6951,12 @@ def test_ct_b041_ct_b041_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_b040_ct_b040_v(mode, save_output):
+def test_ct_b040_ct_b040_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration : content
     with group then two attributes
@@ -6571,11 +6968,12 @@ def test_ct_b040_ct_b040_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_b039_ct_b039_v(mode, save_output):
+def test_ct_b039_ct_b039_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration : content
     with group then attribute
@@ -6587,11 +6985,12 @@ def test_ct_b039_ct_b039_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_b031_ct_b031_v(mode, save_output):
+def test_ct_b031_ct_b031_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration : content
     with group
@@ -6603,11 +7002,12 @@ def test_ct_b031_ct_b031_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_b017_ct_b017_v(mode, save_output):
+def test_ct_b017_ct_b017_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration : content
     with complexContent
@@ -6619,11 +7019,12 @@ def test_ct_b017_ct_b017_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_b003_ct_b003_v(mode, save_output):
+def test_ct_b003_ct_b003_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration : content
     with simpleContent
@@ -6635,11 +7036,12 @@ def test_ct_b003_ct_b003_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_b001_ct_b001_v(mode, save_output):
+def test_ct_b001_ct_b001_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration : content
     of single annotation
@@ -6651,11 +7053,12 @@ def test_ct_b001_ct_b001_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_a049_ct_a049_v(mode, save_output):
+def test_ct_a049_ct_a049_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     attribute with non-schema namespace
@@ -6667,11 +7070,12 @@ def test_ct_a049_ct_a049_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_a048_ct_a048_v(mode, save_output):
+def test_ct_a048_ct_a048_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     Declaration with optional attribute name = '_1'
@@ -6683,11 +7087,12 @@ def test_ct_a048_ct_a048_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_a047_ct_a047_v(mode, save_output):
+def test_ct_a047_ct_a047_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     Declaration with optional attribute name = '_foo'
@@ -6699,11 +7104,12 @@ def test_ct_a047_ct_a047_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_a045_ct_a045_v(mode, save_output):
+def test_ct_a045_ct_a045_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     Declaration with optional attribute name = 'xmlns'
@@ -6715,11 +7121,12 @@ def test_ct_a045_ct_a045_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_a041_ct_a041_v(mode, save_output):
+def test_ct_a041_ct_a041_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     Declaration with optional attribute name = 'fooType'
@@ -6731,11 +7138,12 @@ def test_ct_a041_ct_a041_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_a037_ct_a037_v(mode, save_output):
+def test_ct_a037_ct_a037_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     Declaration with optional attribute mixed = '0'
@@ -6747,11 +7155,12 @@ def test_ct_a037_ct_a037_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_a035_ct_a035_v(mode, save_output):
+def test_ct_a035_ct_a035_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     Declaration with optional attribute mixed = '1'
@@ -6763,11 +7172,12 @@ def test_ct_a035_ct_a035_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_a034_ct_a034_v(mode, save_output):
+def test_ct_a034_ct_a034_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     Declaration with optional attribute mixed = 'false'
@@ -6779,11 +7189,12 @@ def test_ct_a034_ct_a034_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_a033_ct_a033_v(mode, save_output):
+def test_ct_a033_ct_a033_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     Declaration with optional attribute mixed = 'true'
@@ -6795,11 +7206,12 @@ def test_ct_a033_ct_a033_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_a032_ct_a032_v(mode, save_output):
+def test_ct_a032_ct_a032_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     Declaration with optional attribute id = 'foo123' , name
@@ -6812,11 +7224,12 @@ def test_ct_a032_ct_a032_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_a027_ct_a027_v(mode, save_output):
+def test_ct_a027_ct_a027_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     Declaration with optional attribute id = 'foo123'
@@ -6828,11 +7241,12 @@ def test_ct_a027_ct_a027_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_a026_ct_a026_v(mode, save_output):
+def test_ct_a026_ct_a026_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     Declaration with optional attribute final = ''
@@ -6844,11 +7258,12 @@ def test_ct_a026_ct_a026_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_a022_ct_a022_v(mode, save_output):
+def test_ct_a022_ct_a022_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     Declaration with optional attribute final = 'extension restriction'
@@ -6860,11 +7275,12 @@ def test_ct_a022_ct_a022_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_a021_ct_a021_v(mode, save_output):
+def test_ct_a021_ct_a021_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     Declaration with optional attribute final = 'restriction extension'
@@ -6876,11 +7292,12 @@ def test_ct_a021_ct_a021_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_a020_ct_a020_v(mode, save_output):
+def test_ct_a020_ct_a020_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     Declaration with optional attribute final = 'restriction'
@@ -6892,11 +7309,12 @@ def test_ct_a020_ct_a020_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_a019_ct_a019_v(mode, save_output):
+def test_ct_a019_ct_a019_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     Declaration with optional attribute final = 'extension'
@@ -6908,11 +7326,12 @@ def test_ct_a019_ct_a019_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_a018_ct_a018_v(mode, save_output):
+def test_ct_a018_ct_a018_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     Declaration with optional attribute final = '#all'
@@ -6924,11 +7343,12 @@ def test_ct_a018_ct_a018_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_a017_ct_a017_v(mode, save_output):
+def test_ct_a017_ct_a017_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     Declaration with optional attribute block = ''
@@ -6940,11 +7360,12 @@ def test_ct_a017_ct_a017_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_a013_ct_a013_v(mode, save_output):
+def test_ct_a013_ct_a013_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     Declaration with optional attribute block = 'extension restriction'
@@ -6956,11 +7377,12 @@ def test_ct_a013_ct_a013_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_a012_ct_a012_v(mode, save_output):
+def test_ct_a012_ct_a012_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     Declaration with optional attribute block = 'restriction extension'
@@ -6972,11 +7394,12 @@ def test_ct_a012_ct_a012_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_a011_ct_a011_v(mode, save_output):
+def test_ct_a011_ct_a011_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     Declaration with optional attribute block = 'restriction'
@@ -6988,11 +7411,12 @@ def test_ct_a011_ct_a011_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_a010_ct_a010_v(mode, save_output):
+def test_ct_a010_ct_a010_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     Declaration with optional attribute block = 'extension'
@@ -7004,11 +7428,12 @@ def test_ct_a010_ct_a010_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_a009_ct_a009_v(mode, save_output):
+def test_ct_a009_ct_a009_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     Declaration with optional attribute block = '#all'
@@ -7020,11 +7445,12 @@ def test_ct_a009_ct_a009_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_a005_ct_a005_v(mode, save_output):
+def test_ct_a005_ct_a005_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     Declaration with optional attribute abstract = '0'
@@ -7036,11 +7462,12 @@ def test_ct_a005_ct_a005_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_a003_ct_a003_v(mode, save_output):
+def test_ct_a003_ct_a003_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     Declaration with optional attribute abstract = '1'
@@ -7052,11 +7479,12 @@ def test_ct_a003_ct_a003_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_a002_ct_a002_v(mode, save_output):
+def test_ct_a002_ct_a002_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     Declaration with optional attribute abstract = 'true'
@@ -7068,11 +7496,12 @@ def test_ct_a002_ct_a002_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ct_a001_ct_a001_v(mode, save_output):
+def test_ct_a001_ct_a001_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for top level complexType Declaration :
     Declaration with optional attribute abstract = 'false'
@@ -7084,11 +7513,12 @@ def test_ct_a001_ct_a001_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_dt_z107447_a_2245_dt_z107447_a_2245_i(mode, save_output):
+def test_dt_z107447_a_2245_dt_z107447_a_2245_i(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : XSD:whitespace handling for xs:token
     should be collapse(2) TSTF says 'fixed' ID attr in schema is invalid,
@@ -7102,11 +7532,12 @@ def test_dt_z107447_a_2245_dt_z107447_a_2245_i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_dt_z107447_1_2244_dt_z107447_1_2244_v(mode, save_output):
+def test_dt_z107447_1_2244_dt_z107447_1_2244_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : XSD:whitespace handling for xs:token
     should be collapse(1)
@@ -7118,11 +7549,12 @@ def test_dt_z107447_1_2244_dt_z107447_1_2244_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_dt_z107447_2243_dt_z107447_2243_v(mode, save_output):
+def test_dt_z107447_2243_dt_z107447_2243_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : XSD:whitespace handling for xs:token
     should be collapse.
@@ -7134,11 +7566,12 @@ def test_dt_z107447_2243_dt_z107447_2243_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_test70681_2241_id_test70681_2241_v(mode, save_output):
+def test_id_test70681_2241_id_test70681_2241_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : ID/IDREF should not allow heading or
     trailing whitespace like NCNAME
@@ -7150,11 +7583,12 @@ def test_id_test70681_2241_id_test70681_2241_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_test64335_2240_id_test64335_2240_v(mode, save_output):
+def test_id_test64335_2240_id_test64335_2240_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : ID data type validation
     """
@@ -7165,11 +7599,12 @@ def test_id_test64335_2240_id_test64335_2240_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_positive_integer005_2239_positive_integer005_2239_v(mode, save_output):
+def test_positive_integer005_2239_positive_integer005_2239_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=12345678901234567890123456789
     """
@@ -7180,11 +7615,12 @@ def test_positive_integer005_2239_positive_integer005_2239_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_positive_integer004_2238_positive_integer004_2238_v(mode, save_output):
+def test_positive_integer004_2238_positive_integer004_2238_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=+1
     """
@@ -7195,11 +7631,12 @@ def test_positive_integer004_2238_positive_integer004_2238_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_unsigned_byte007_2234_unsigned_byte007_2234_v(mode, save_output):
+def test_unsigned_byte007_2234_unsigned_byte007_2234_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : test for simpleType list of
     unsignedByte
@@ -7211,11 +7648,12 @@ def test_unsigned_byte007_2234_unsigned_byte007_2234_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_unsigned_byte005_2232_unsigned_byte005_2232_v(mode, save_output):
+def test_unsigned_byte005_2232_unsigned_byte005_2232_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=255
     """
@@ -7226,11 +7664,12 @@ def test_unsigned_byte005_2232_unsigned_byte005_2232_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_unsigned_byte004_2231_unsigned_byte004_2231_v(mode, save_output):
+def test_unsigned_byte004_2231_unsigned_byte004_2231_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=1
     """
@@ -7241,11 +7680,12 @@ def test_unsigned_byte004_2231_unsigned_byte004_2231_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_unsigned_byte003_2230_unsigned_byte003_2230_v(mode, save_output):
+def test_unsigned_byte003_2230_unsigned_byte003_2230_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=0
     """
@@ -7256,11 +7696,12 @@ def test_unsigned_byte003_2230_unsigned_byte003_2230_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_unsigned_short007_2227_unsigned_short007_2227_v(mode, save_output):
+def test_unsigned_short007_2227_unsigned_short007_2227_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : test for simpleType list of
     unsignedShort
@@ -7272,11 +7713,12 @@ def test_unsigned_short007_2227_unsigned_short007_2227_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_unsigned_short005_2225_unsigned_short005_2225_v(mode, save_output):
+def test_unsigned_short005_2225_unsigned_short005_2225_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=65535
     """
@@ -7287,11 +7729,12 @@ def test_unsigned_short005_2225_unsigned_short005_2225_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_unsigned_short004_2224_unsigned_short004_2224_v(mode, save_output):
+def test_unsigned_short004_2224_unsigned_short004_2224_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=1
     """
@@ -7302,11 +7745,12 @@ def test_unsigned_short004_2224_unsigned_short004_2224_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_unsigned_short003_2223_unsigned_short003_2223_v(mode, save_output):
+def test_unsigned_short003_2223_unsigned_short003_2223_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=0
     """
@@ -7317,11 +7761,12 @@ def test_unsigned_short003_2223_unsigned_short003_2223_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_unsigned_int007_2220_unsigned_int007_2220_v(mode, save_output):
+def test_unsigned_int007_2220_unsigned_int007_2220_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : test for simpleType list of
     unsignedInt
@@ -7333,11 +7778,12 @@ def test_unsigned_int007_2220_unsigned_int007_2220_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_unsigned_int005_2218_unsigned_int005_2218_v(mode, save_output):
+def test_unsigned_int005_2218_unsigned_int005_2218_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=4294967295
     """
@@ -7348,11 +7794,12 @@ def test_unsigned_int005_2218_unsigned_int005_2218_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_unsigned_int004_2217_unsigned_int004_2217_v(mode, save_output):
+def test_unsigned_int004_2217_unsigned_int004_2217_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=1
     """
@@ -7363,11 +7810,12 @@ def test_unsigned_int004_2217_unsigned_int004_2217_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_unsigned_int003_2216_unsigned_int003_2216_v(mode, save_output):
+def test_unsigned_int003_2216_unsigned_int003_2216_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=0
     """
@@ -7378,11 +7826,12 @@ def test_unsigned_int003_2216_unsigned_int003_2216_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_unsigned_long007_2213_unsigned_long007_2213_v(mode, save_output):
+def test_unsigned_long007_2213_unsigned_long007_2213_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : test for simpleType list of
     unsignedLong
@@ -7394,11 +7843,12 @@ def test_unsigned_long007_2213_unsigned_long007_2213_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_unsigned_long005_2211_unsigned_long005_2211_v(mode, save_output):
+def test_unsigned_long005_2211_unsigned_long005_2211_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=18446744073709551615
     """
@@ -7409,11 +7859,12 @@ def test_unsigned_long005_2211_unsigned_long005_2211_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_unsigned_long004_2210_unsigned_long004_2210_v(mode, save_output):
+def test_unsigned_long004_2210_unsigned_long004_2210_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=1
     """
@@ -7424,11 +7875,12 @@ def test_unsigned_long004_2210_unsigned_long004_2210_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_unsigned_long003_2209_unsigned_long003_2209_v(mode, save_output):
+def test_unsigned_long003_2209_unsigned_long003_2209_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=0
     """
@@ -7439,11 +7891,12 @@ def test_unsigned_long003_2209_unsigned_long003_2209_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_non_negative_integer005_2206_non_negative_integer005_2206_v(mode, save_output):
+def test_non_negative_integer005_2206_non_negative_integer005_2206_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=12345678901234567890123456789
     """
@@ -7454,11 +7907,12 @@ def test_non_negative_integer005_2206_non_negative_integer005_2206_v(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_non_negative_integer004_2205_non_negative_integer004_2205_v(mode, save_output):
+def test_non_negative_integer004_2205_non_negative_integer004_2205_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=+1
     """
@@ -7469,11 +7923,12 @@ def test_non_negative_integer004_2205_non_negative_integer004_2205_v(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_non_negative_integer003_2204_non_negative_integer003_2204_v(mode, save_output):
+def test_non_negative_integer003_2204_non_negative_integer003_2204_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=0
     """
@@ -7484,11 +7939,12 @@ def test_non_negative_integer003_2204_non_negative_integer003_2204_v(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_byte009_2201_byte009_2201_v(mode, save_output):
+def test_byte009_2201_byte009_2201_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : Test simpleType List of byte
     """
@@ -7499,11 +7955,12 @@ def test_byte009_2201_byte009_2201_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_byte007_2199_byte007_2199_v(mode, save_output):
+def test_byte007_2199_byte007_2199_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=-128
     """
@@ -7514,11 +7971,12 @@ def test_byte007_2199_byte007_2199_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_byte005_2197_byte005_2197_v(mode, save_output):
+def test_byte005_2197_byte005_2197_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=127
     """
@@ -7529,11 +7987,12 @@ def test_byte005_2197_byte005_2197_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_byte004_2196_byte004_2196_v(mode, save_output):
+def test_byte004_2196_byte004_2196_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=+1
     """
@@ -7544,11 +8003,12 @@ def test_byte004_2196_byte004_2196_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_byte003_2195_byte003_2195_v(mode, save_output):
+def test_byte003_2195_byte003_2195_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=0
     """
@@ -7559,11 +8019,12 @@ def test_byte003_2195_byte003_2195_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_byte002_2194_byte002_2194_v(mode, save_output):
+def test_byte002_2194_byte002_2194_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=-1
     """
@@ -7574,11 +8035,12 @@ def test_byte002_2194_byte002_2194_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_short009_2192_short009_2192_v(mode, save_output):
+def test_short009_2192_short009_2192_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : test for simpleType list of short
     """
@@ -7589,11 +8051,12 @@ def test_short009_2192_short009_2192_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_short007_2190_short007_2190_v(mode, save_output):
+def test_short007_2190_short007_2190_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=-32768
     """
@@ -7604,11 +8067,12 @@ def test_short007_2190_short007_2190_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_short005_2188_short005_2188_v(mode, save_output):
+def test_short005_2188_short005_2188_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=32767
     """
@@ -7619,11 +8083,12 @@ def test_short005_2188_short005_2188_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_short004_2187_short004_2187_v(mode, save_output):
+def test_short004_2187_short004_2187_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=+1
     """
@@ -7634,11 +8099,12 @@ def test_short004_2187_short004_2187_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_short003_2186_short003_2186_v(mode, save_output):
+def test_short003_2186_short003_2186_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=0
     """
@@ -7649,11 +8115,12 @@ def test_short003_2186_short003_2186_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_short002_2185_short002_2185_v(mode, save_output):
+def test_short002_2185_short002_2185_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=-1
     """
@@ -7664,11 +8131,12 @@ def test_short002_2185_short002_2185_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_int007_2182_int007_2182_v(mode, save_output):
+def test_int007_2182_int007_2182_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=-2147483648
     """
@@ -7679,11 +8147,12 @@ def test_int007_2182_int007_2182_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_int005_2180_int005_2180_v(mode, save_output):
+def test_int005_2180_int005_2180_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=2147483647
     """
@@ -7694,11 +8163,12 @@ def test_int005_2180_int005_2180_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_int004_2179_int004_2179_v(mode, save_output):
+def test_int004_2179_int004_2179_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=+1
     """
@@ -7709,11 +8179,12 @@ def test_int004_2179_int004_2179_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_int003_2178_int003_2178_v(mode, save_output):
+def test_int003_2178_int003_2178_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=0
     """
@@ -7724,11 +8195,12 @@ def test_int003_2178_int003_2178_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_int002_2177_int002_2177_v(mode, save_output):
+def test_int002_2177_int002_2177_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=-1
     """
@@ -7739,11 +8211,12 @@ def test_int002_2177_int002_2177_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_long009_2175_long009_2175_v(mode, save_output):
+def test_long009_2175_long009_2175_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : Test for simpleType list of Long
     """
@@ -7754,11 +8227,12 @@ def test_long009_2175_long009_2175_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_long007_2173_long007_2173_v(mode, save_output):
+def test_long007_2173_long007_2173_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=9223372036854775807
     """
@@ -7769,11 +8243,12 @@ def test_long007_2173_long007_2173_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_long005_2171_long005_2171_v(mode, save_output):
+def test_long005_2171_long005_2171_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=-9223372036854775808
     """
@@ -7784,11 +8259,12 @@ def test_long005_2171_long005_2171_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_long004_2170_long004_2170_v(mode, save_output):
+def test_long004_2170_long004_2170_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=+1
     """
@@ -7799,11 +8275,12 @@ def test_long004_2170_long004_2170_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_long003_2169_long003_2169_v(mode, save_output):
+def test_long003_2169_long003_2169_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=0
     """
@@ -7814,11 +8291,12 @@ def test_long003_2169_long003_2169_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_long002_2168_long002_2168_v(mode, save_output):
+def test_long002_2168_long002_2168_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=-1
     """
@@ -7829,11 +8307,12 @@ def test_long002_2168_long002_2168_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_negative_integer005_2166_negative_integer005_2166_v(mode, save_output):
+def test_negative_integer005_2166_negative_integer005_2166_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=-12345678901234567890123456789
     """
@@ -7844,11 +8323,12 @@ def test_negative_integer005_2166_negative_integer005_2166_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_negative_integer002_2163_negative_integer002_2163_v(mode, save_output):
+def test_negative_integer002_2163_negative_integer002_2163_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=-1
     """
@@ -7859,11 +8339,12 @@ def test_negative_integer002_2163_negative_integer002_2163_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_non_positive_integer005_2161_non_positive_integer005_2161_v(mode, save_output):
+def test_non_positive_integer005_2161_non_positive_integer005_2161_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=-12345678901234567890123456789
     """
@@ -7874,11 +8355,12 @@ def test_non_positive_integer005_2161_non_positive_integer005_2161_v(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_non_positive_integer003_2159_non_positive_integer003_2159_v(mode, save_output):
+def test_non_positive_integer003_2159_non_positive_integer003_2159_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=0
     """
@@ -7889,11 +8371,12 @@ def test_non_positive_integer003_2159_non_positive_integer003_2159_v(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_non_positive_integer002_2158_non_positive_integer002_2158_v(mode, save_output):
+def test_non_positive_integer002_2158_non_positive_integer002_2158_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=-1
     """
@@ -7904,11 +8387,12 @@ def test_non_positive_integer002_2158_non_positive_integer002_2158_v(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_integer011_2151_integer011_2151_v(mode, save_output):
+def test_integer011_2151_integer011_2151_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=12345678901234567890123456789
     """
@@ -7919,11 +8403,12 @@ def test_integer011_2151_integer011_2151_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_integer010_2150_integer010_2150_v(mode, save_output):
+def test_integer010_2150_integer010_2150_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=10000000
     """
@@ -7934,11 +8419,12 @@ def test_integer010_2150_integer010_2150_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_integer009_2149_integer009_2149_v(mode, save_output):
+def test_integer009_2149_integer009_2149_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=12678967543233
     """
@@ -7949,11 +8435,12 @@ def test_integer009_2149_integer009_2149_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_integer008_2148_integer008_2148_v(mode, save_output):
+def test_integer008_2148_integer008_2148_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=1
     """
@@ -7964,11 +8451,12 @@ def test_integer008_2148_integer008_2148_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_integer007_2147_integer007_2147_v(mode, save_output):
+def test_integer007_2147_integer007_2147_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=-1
     """
@@ -7979,11 +8467,12 @@ def test_integer007_2147_integer007_2147_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_integer005_2145_integer005_2145_v(mode, save_output):
+def test_integer005_2145_integer005_2145_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=-0
     """
@@ -7994,11 +8483,12 @@ def test_integer005_2145_integer005_2145_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_integer004_2144_integer004_2144_v(mode, save_output):
+def test_integer004_2144_integer004_2144_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=+0
     """
@@ -8009,11 +8499,12 @@ def test_integer004_2144_integer004_2144_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ncname007_2136_ncname007_2136_v(mode, save_output):
+def test_ncname007_2136_ncname007_2136_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=fo_124-.sda3
     """
@@ -8024,11 +8515,12 @@ def test_ncname007_2136_ncname007_2136_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ncname003_2132_ncname003_2132_v(mode, save_output):
+def test_ncname003_2132_ncname003_2132_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=fo124
     """
@@ -8039,11 +8531,12 @@ def test_ncname003_2132_ncname003_2132_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ncname002_2131_ncname002_2131_v(mode, save_output):
+def test_ncname002_2131_ncname002_2131_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=_foo
     """
@@ -8054,11 +8547,12 @@ def test_ncname002_2131_ncname002_2131_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_name016_2127_name016_2127_v(mode, save_output):
+def test_name016_2127_name016_2127_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=fo:fo_124-.s:da3
     """
@@ -8069,11 +8563,12 @@ def test_name016_2127_name016_2127_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_name015_2126_name015_2126_v(mode, save_output):
+def test_name015_2126_name015_2126_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=fo:fo_124-.sda3
     """
@@ -8084,11 +8579,12 @@ def test_name015_2126_name015_2126_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_name013_2124_name013_2124_v(mode, save_output):
+def test_name013_2124_name013_2124_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=fo:.foo
     """
@@ -8099,11 +8595,12 @@ def test_name013_2124_name013_2124_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_name012_2123_name012_2123_v(mode, save_output):
+def test_name012_2123_name012_2123_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=fo:1fo
     """
@@ -8114,11 +8611,12 @@ def test_name012_2123_name012_2123_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_name011_2122_name011_2122_v(mode, save_output):
+def test_name011_2122_name011_2122_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=fo:fo124
     """
@@ -8129,11 +8627,12 @@ def test_name011_2122_name011_2122_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_name010_2121_name010_2121_v(mode, save_output):
+def test_name010_2121_name010_2121_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=fo:_foo
     """
@@ -8144,11 +8643,12 @@ def test_name010_2121_name010_2121_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_name009_2120_name009_2120_v(mode, save_output):
+def test_name009_2120_name009_2120_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=:foo
     """
@@ -8159,11 +8659,12 @@ def test_name009_2120_name009_2120_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_name008_2119_name008_2119_v(mode, save_output):
+def test_name008_2119_name008_2119_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=fo:foo
     """
@@ -8174,11 +8675,12 @@ def test_name008_2119_name008_2119_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_name007_2118_name007_2118_v(mode, save_output):
+def test_name007_2118_name007_2118_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=fo_124-.sda3
     """
@@ -8189,11 +8691,12 @@ def test_name007_2118_name007_2118_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_name003_2114_name003_2114_v(mode, save_output):
+def test_name003_2114_name003_2114_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=fo124
     """
@@ -8204,11 +8707,12 @@ def test_name003_2114_name003_2114_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_name002_2113_name002_2113_v(mode, save_output):
+def test_name002_2113_name002_2113_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=_foo
     """
@@ -8219,11 +8723,12 @@ def test_name002_2113_name002_2113_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_language009_2110_language009_2110_v(mode, save_output):
+def test_language009_2110_language009_2110_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=X-2o
     """
@@ -8234,11 +8739,12 @@ def test_language009_2110_language009_2110_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_language007_2108_language007_2108_v(mode, save_output):
+def test_language007_2108_language007_2108_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=I-en-us
     """
@@ -8249,11 +8755,12 @@ def test_language007_2108_language007_2108_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_language006_2107_language006_2107_v(mode, save_output):
+def test_language006_2107_language006_2107_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=spanish
     """
@@ -8264,11 +8771,12 @@ def test_language006_2107_language006_2107_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_language005_2106_language005_2106_v(mode, save_output):
+def test_language005_2106_language005_2106_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=en
     """
@@ -8279,11 +8787,12 @@ def test_language005_2106_language005_2106_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_language004_2105_language004_2105_v(mode, save_output):
+def test_language004_2105_language004_2105_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=en-us
     """
@@ -8294,11 +8803,12 @@ def test_language004_2105_language004_2105_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_language003_2104_language003_2104_v(mode, save_output):
+def test_language003_2104_language003_2104_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=EN-US
     """
@@ -8309,11 +8819,12 @@ def test_language003_2104_language003_2104_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_language002_2103_language002_2103_v(mode, save_output):
+def test_language002_2103_language002_2103_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=EN
     """
@@ -8324,11 +8835,12 @@ def test_language002_2103_language002_2103_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_token004_2101_token004_2101_v(mode, save_output):
+def test_token004_2101_token004_2101_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=a b
     """
@@ -8339,11 +8851,12 @@ def test_token004_2101_token004_2101_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_token003_2100_token003_2100_v(mode, save_output):
+def test_token003_2100_token003_2100_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=a b
     """
@@ -8354,11 +8867,12 @@ def test_token003_2100_token003_2100_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_token002_2099_token002_2099_v(mode, save_output):
+def test_token002_2099_token002_2099_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=a b
     """
@@ -8369,11 +8883,12 @@ def test_token002_2099_token002_2099_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_token001_2098_token001_2098_v(mode, save_output):
+def test_token001_2098_token001_2098_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=
     """
@@ -8384,11 +8899,12 @@ def test_token001_2098_token001_2098_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_normalized_string003_2097_normalized_string003_2097_v(mode, save_output):
+def test_normalized_string003_2097_normalized_string003_2097_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=test line
     """
@@ -8399,11 +8915,12 @@ def test_normalized_string003_2097_normalized_string003_2097_v(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_normalized_string002_2096_normalized_string002_2096_v(mode, save_output):
+def test_normalized_string002_2096_normalized_string002_2096_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=test line
     """
@@ -8414,11 +8931,12 @@ def test_normalized_string002_2096_normalized_string002_2096_v(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_normalized_string001_2095_normalized_string001_2095_v(mode, save_output):
+def test_normalized_string001_2095_normalized_string001_2095_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=
     """
@@ -8429,11 +8947,12 @@ def test_normalized_string001_2095_normalized_string001_2095_v(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_qname006_2089_qname006_2089_v(mode, save_output):
+def test_qname006_2089_qname006_2089_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=fo:foo
     """
@@ -8444,11 +8963,12 @@ def test_qname006_2089_qname006_2089_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_qname003_2086_qname003_2086_v(mode, save_output):
+def test_qname003_2086_qname003_2086_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=fo124
     """
@@ -8459,11 +8979,12 @@ def test_qname003_2086_qname003_2086_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_qname002_2085_qname002_2085_v(mode, save_output):
+def test_qname002_2085_qname002_2085_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=_foo
     """
@@ -8474,11 +8995,12 @@ def test_qname002_2085_qname002_2085_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_any_uri011_2083_any_uri011_2083_v(mode, save_output):
+def test_any_uri011_2083_any_uri011_2083_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : test for simpleType list of anyURI
     """
@@ -8489,11 +9011,12 @@ def test_any_uri011_2083_any_uri011_2083_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_any_uri010_2082_any_uri010_2082_v(mode, save_output):
+def test_any_uri010_2082_any_uri010_2082_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=C:/TestSuites/XSD%20Spec/CR-
     xmlschema-2-20001024.htm#dc-minInclusive
@@ -8505,11 +9028,12 @@ def test_any_uri010_2082_any_uri010_2082_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_any_uri009_2081_any_uri009_2081_v(mode, save_output):
+def test_any_uri009_2081_any_uri009_2081_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string :
     value=file:///C:/TestSuites/XSD%20Spec/CR-xmlschema-2-20001024.htm#dc-
@@ -8522,11 +9046,12 @@ def test_any_uri009_2081_any_uri009_2081_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_any_uri008_2080_any_uri008_2080_v(mode, save_output):
+def test_any_uri008_2080_any_uri008_2080_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=telnet://melvyl.ucop.edu/
     """
@@ -8537,11 +9062,12 @@ def test_any_uri008_2080_any_uri008_2080_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_any_uri007_2079_any_uri007_2079_v(mode, save_output):
+def test_any_uri007_2079_any_uri007_2079_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string :
     value=news:comp.infosystems.www.servers.unix
@@ -8553,11 +9079,12 @@ def test_any_uri007_2079_any_uri007_2079_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_any_uri006_2078_any_uri006_2078_v(mode, save_output):
+def test_any_uri006_2078_any_uri006_2078_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=gopher://spinaltap.micro.umn.ed
     u/00/Weather/California/Los%20Angeles
@@ -8569,11 +9096,12 @@ def test_any_uri006_2078_any_uri006_2078_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_any_uri005_2077_any_uri005_2077_v(mode, save_output):
+def test_any_uri005_2077_any_uri005_2077_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string :
     value=ftp://ftp.is.co.za/rfc/rfc1808.txt
@@ -8585,11 +9113,12 @@ def test_any_uri005_2077_any_uri005_2077_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_any_uri004_2076_any_uri004_2076_v(mode, save_output):
+def test_any_uri004_2076_any_uri004_2076_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string :
     value=http://www.w3.org/XML/Group/xmlschema-
@@ -8602,11 +9131,12 @@ def test_any_uri004_2076_any_uri004_2076_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_any_uri003_2075_any_uri003_2075_v(mode, save_output):
+def test_any_uri003_2075_any_uri003_2075_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string :
     value=http://www.w3.org/1999/XMLSchema
@@ -8618,11 +9148,12 @@ def test_any_uri003_2075_any_uri003_2075_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_any_uri002_2074_any_uri002_2074_v(mode, save_output):
+def test_any_uri002_2074_any_uri002_2074_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=mailto:davebrow@microsoft.com
     """
@@ -8633,11 +9164,12 @@ def test_any_uri002_2074_any_uri002_2074_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_any_uri001_2073_any_uri001_2073_v(mode, save_output):
+def test_any_uri001_2073_any_uri001_2073_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=
     """
@@ -8648,11 +9180,12 @@ def test_any_uri001_2073_any_uri001_2073_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_base64_binary002_2072_base64_binary002_2072_v(mode, save_output):
+def test_base64_binary002_2072_base64_binary002_2072_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : test for simpleType list of
     base64Binary
@@ -8664,11 +9197,12 @@ def test_base64_binary002_2072_base64_binary002_2072_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_base64_binary001_2071_base64_binary001_2071_v(mode, save_output):
+def test_base64_binary001_2071_base64_binary001_2071_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=
     """
@@ -8679,11 +9213,12 @@ def test_base64_binary001_2071_base64_binary001_2071_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_hex_binary002_2068_hex_binary002_2068_v(mode, save_output):
+def test_hex_binary002_2068_hex_binary002_2068_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : test for simpleType List of hexBinary
     """
@@ -8694,11 +9229,12 @@ def test_hex_binary002_2068_hex_binary002_2068_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_hex_binary001_2067_hex_binary001_2067_v(mode, save_output):
+def test_hex_binary001_2067_hex_binary001_2067_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=
     """
@@ -8709,11 +9245,12 @@ def test_hex_binary001_2067_hex_binary001_2067_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_g_month004_2063_g_month004_2063_v(mode, save_output):
+def test_g_month004_2063_g_month004_2063_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=- -05- - -05:00
     """
@@ -8724,11 +9261,12 @@ def test_g_month004_2063_g_month004_2063_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_g_month002_2061_g_month002_2061_v(mode, save_output):
+def test_g_month002_2061_g_month002_2061_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=- -03- -
     """
@@ -8739,11 +9277,12 @@ def test_g_month002_2061_g_month002_2061_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_g_day003_2057_g_day003_2057_v(mode, save_output):
+def test_g_day003_2057_g_day003_2057_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=- - -15-05:00
     """
@@ -8754,11 +9293,12 @@ def test_g_day003_2057_g_day003_2057_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_g_day002_2056_g_day002_2056_v(mode, save_output):
+def test_g_day002_2056_g_day002_2056_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=- - -29
     """
@@ -8769,11 +9309,12 @@ def test_g_day002_2056_g_day002_2056_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_g_day001_2055_g_day001_2055_v(mode, save_output):
+def test_g_day001_2055_g_day001_2055_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=- - -15
     """
@@ -8784,11 +9325,12 @@ def test_g_day001_2055_g_day001_2055_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_g_month_day004_2052_g_month_day004_2052_v(mode, save_output):
+def test_g_month_day004_2052_g_month_day004_2052_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=- -02-29
     """
@@ -8799,11 +9341,12 @@ def test_g_month_day004_2052_g_month_day004_2052_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_g_month_day003_2051_g_month_day003_2051_v(mode, save_output):
+def test_g_month_day003_2051_g_month_day003_2051_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=- -03-15-05:00
     """
@@ -8814,11 +9357,12 @@ def test_g_month_day003_2051_g_month_day003_2051_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_g_month_day002_2050_g_month_day002_2050_v(mode, save_output):
+def test_g_month_day002_2050_g_month_day002_2050_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=- -03-15
     """
@@ -8829,11 +9373,12 @@ def test_g_month_day002_2050_g_month_day002_2050_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_g_year006_2048_g_year006_2048_v(mode, save_output):
+def test_g_year006_2048_g_year006_2048_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=1999-05:00
     """
@@ -8844,11 +9389,12 @@ def test_g_year006_2048_g_year006_2048_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_g_year002_2046_g_year002_2046_v(mode, save_output):
+def test_g_year002_2046_g_year002_2046_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=2000
     """
@@ -8859,11 +9405,12 @@ def test_g_year002_2046_g_year002_2046_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_g_year_month003_2042_g_year_month003_2042_v(mode, save_output):
+def test_g_year_month003_2042_g_year_month003_2042_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=1999-10-05:00
     """
@@ -8874,11 +9421,12 @@ def test_g_year_month003_2042_g_year_month003_2042_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_g_year_month002_2041_g_year_month002_2041_v(mode, save_output):
+def test_g_year_month002_2041_g_year_month002_2041_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=1999-10
     """
@@ -8889,11 +9437,12 @@ def test_g_year_month002_2041_g_year_month002_2041_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_date010_2038_date010_2038_v(mode, save_output):
+def test_date010_2038_date010_2038_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=2000-10-05-05:00
     """
@@ -8904,11 +9453,12 @@ def test_date010_2038_date010_2038_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_date005_2035_date005_2035_v(mode, save_output):
+def test_date005_2035_date005_2035_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=2000-02-29
     """
@@ -8919,11 +9469,12 @@ def test_date005_2035_date005_2035_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_date002_2032_date002_2032_v(mode, save_output):
+def test_date002_2032_date002_2032_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=1999-05-31
     """
@@ -8934,11 +9485,12 @@ def test_date002_2032_date002_2032_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_time013_2021_time013_2021_v(mode, save_output):
+def test_time013_2021_time013_2021_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=13:20:00.34
     """
@@ -8949,11 +9501,12 @@ def test_time013_2021_time013_2021_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_time012_2020_time012_2020_v(mode, save_output):
+def test_time012_2020_time012_2020_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=13:20:00
     """
@@ -8964,11 +9517,12 @@ def test_time012_2020_time012_2020_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_time011_2019_time011_2019_v(mode, save_output):
+def test_time011_2019_time011_2019_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=13:20:00Z
     """
@@ -8979,11 +9533,12 @@ def test_time011_2019_time011_2019_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_time009_2018_time009_2018_v(mode, save_output):
+def test_time009_2018_time009_2018_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=13:20:00+05:59
     """
@@ -8994,11 +9549,12 @@ def test_time009_2018_time009_2018_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_time008_2017_time008_2017_v(mode, save_output):
+def test_time008_2017_time008_2017_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=13:20:00-05:59
     """
@@ -9009,11 +9565,12 @@ def test_time008_2017_time008_2017_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_time007_2016_time007_2016_v(mode, save_output):
+def test_time007_2016_time007_2016_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=13:20:00+05:00
     """
@@ -9024,11 +9581,12 @@ def test_time007_2016_time007_2016_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_time006_2015_time006_2015_v(mode, save_output):
+def test_time006_2015_time006_2015_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=13:20:00-05:00
     """
@@ -9039,11 +9597,12 @@ def test_time006_2015_time006_2015_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_time005_2014_time005_2014_v(mode, save_output):
+def test_time005_2014_time005_2014_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=13:20:00+05:00
     """
@@ -9054,11 +9613,12 @@ def test_time005_2014_time005_2014_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_time004_2013_time004_2013_v(mode, save_output):
+def test_time004_2013_time004_2013_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=13:20:00-05:00
     """
@@ -9069,11 +9629,12 @@ def test_time004_2013_time004_2013_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_date_time011_2008_date_time011_2008_i(mode, save_output):
+def test_date_time011_2008_date_time011_2008_i(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=0000-01-01T00:00:00 Year zero
     is allowed in dates in XSD 1.1 - MHK
@@ -9085,11 +9646,12 @@ def test_date_time011_2008_date_time011_2008_i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_date_time010_2007_date_time010_2007_v(mode, save_output):
+def test_date_time010_2007_date_time010_2007_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=1999-05-31T13:20:00Z
     """
@@ -9100,11 +9662,12 @@ def test_date_time010_2007_date_time010_2007_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_date_time008_2006_date_time008_2006_v(mode, save_output):
+def test_date_time008_2006_date_time008_2006_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=1999-05-31T13:20:00-5:45
     """
@@ -9115,11 +9678,12 @@ def test_date_time008_2006_date_time008_2006_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_date_time007_2005_date_time007_2005_v(mode, save_output):
+def test_date_time007_2005_date_time007_2005_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=1999-05-31T13:20:00+5:45
     """
@@ -9130,11 +9694,12 @@ def test_date_time007_2005_date_time007_2005_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_date_time006_2004_date_time006_2004_v(mode, save_output):
+def test_date_time006_2004_date_time006_2004_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=1999-05-31T13:20:00+05:00
     """
@@ -9145,11 +9710,12 @@ def test_date_time006_2004_date_time006_2004_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_date_time005_2003_date_time005_2003_v(mode, save_output):
+def test_date_time005_2003_date_time005_2003_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=1999-05-31T13:20:00-05:00
     """
@@ -9160,11 +9726,12 @@ def test_date_time005_2003_date_time005_2003_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_date_time003_2001_date_time003_2001_v(mode, save_output):
+def test_date_time003_2001_date_time003_2001_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=1985-04-12T10:30:00
     """
@@ -9175,11 +9742,12 @@ def test_date_time003_2001_date_time003_2001_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_date_time002_2000_date_time002_2000_v(mode, save_output):
+def test_date_time002_2000_date_time002_2000_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=1999-05-31T13:20:00-05:00
     """
@@ -9190,11 +9758,12 @@ def test_date_time002_2000_date_time002_2000_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_duration027_1995_duration027_1995_v(mode, save_output):
+def test_duration027_1995_duration027_1995_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : Test for simpleType of duration
     """
@@ -9205,11 +9774,12 @@ def test_duration027_1995_duration027_1995_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_duration026_1994_duration026_1994_v(mode, save_output):
+def test_duration026_1994_duration026_1994_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=P2000Y2M29DT10H30M
     """
@@ -9220,11 +9790,12 @@ def test_duration026_1994_duration026_1994_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_duration025_1993_duration025_1993_v(mode, save_output):
+def test_duration025_1993_duration025_1993_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=P1Y2M15DT11H60M
     """
@@ -9235,11 +9806,12 @@ def test_duration025_1993_duration025_1993_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_duration024_1992_duration024_1992_v(mode, save_output):
+def test_duration024_1992_duration024_1992_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=P1Y2M15DT25H30M
     """
@@ -9250,11 +9822,12 @@ def test_duration024_1992_duration024_1992_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_duration023_1991_duration023_1991_v(mode, save_output):
+def test_duration023_1991_duration023_1991_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=P1Y2M32DT12H30M
     """
@@ -9265,11 +9838,12 @@ def test_duration023_1991_duration023_1991_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_duration022_1990_duration022_1990_v(mode, save_output):
+def test_duration022_1990_duration022_1990_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=P1Y13M15DT12H30M
     """
@@ -9280,11 +9854,12 @@ def test_duration022_1990_duration022_1990_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_duration020_1988_duration020_1988_v(mode, save_output):
+def test_duration020_1988_duration020_1988_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=P0Y0M0DT0H0M0.0001S
     """
@@ -9295,11 +9870,12 @@ def test_duration020_1988_duration020_1988_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_duration019_1987_duration019_1987_v(mode, save_output):
+def test_duration019_1987_duration019_1987_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=P0Y0M0D
     """
@@ -9310,11 +9886,12 @@ def test_duration019_1987_duration019_1987_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_duration018_1986_duration018_1986_v(mode, save_output):
+def test_duration018_1986_duration018_1986_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=PT31S
     """
@@ -9325,11 +9902,12 @@ def test_duration018_1986_duration018_1986_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_duration017_1985_duration017_1985_v(mode, save_output):
+def test_duration017_1985_duration017_1985_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=PT31M
     """
@@ -9340,11 +9918,12 @@ def test_duration017_1985_duration017_1985_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_duration016_1984_duration016_1984_v(mode, save_output):
+def test_duration016_1984_duration016_1984_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=PT31H
     """
@@ -9355,11 +9934,12 @@ def test_duration016_1984_duration016_1984_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_duration014_1982_duration014_1982_v(mode, save_output):
+def test_duration014_1982_duration014_1982_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=P0Y0M3D
     """
@@ -9370,11 +9950,12 @@ def test_duration014_1982_duration014_1982_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_duration012_1980_duration012_1980_v(mode, save_output):
+def test_duration012_1980_duration012_1980_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=PT2153.5S
     """
@@ -9385,11 +9966,12 @@ def test_duration012_1980_duration012_1980_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_duration009_1977_duration009_1977_v(mode, save_output):
+def test_duration009_1977_duration009_1977_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=-P1347M
     """
@@ -9400,11 +9982,12 @@ def test_duration009_1977_duration009_1977_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_duration007_1975_duration007_1975_v(mode, save_output):
+def test_duration007_1975_duration007_1975_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=P0Y1347M0D
     """
@@ -9415,11 +9998,12 @@ def test_duration007_1975_duration007_1975_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_duration006_1974_duration006_1974_v(mode, save_output):
+def test_duration006_1974_duration006_1974_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=P0Y1347M
     """
@@ -9430,11 +10014,12 @@ def test_duration006_1974_duration006_1974_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_duration005_1973_duration005_1973_v(mode, save_output):
+def test_duration005_1973_duration005_1973_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=P1Y2MT2H
     """
@@ -9445,11 +10030,12 @@ def test_duration005_1973_duration005_1973_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_duration004_1972_duration004_1972_v(mode, save_output):
+def test_duration004_1972_duration004_1972_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=P1347M
     """
@@ -9460,11 +10046,12 @@ def test_duration004_1972_duration004_1972_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_duration003_1971_duration003_1971_v(mode, save_output):
+def test_duration003_1971_duration003_1971_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=P1347Y
     """
@@ -9475,11 +10062,12 @@ def test_duration003_1971_duration003_1971_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_duration002_1970_duration002_1970_v(mode, save_output):
+def test_duration002_1970_duration002_1970_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=P1Y2M3DT10H30M
     """
@@ -9490,11 +10078,12 @@ def test_duration002_1970_duration002_1970_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_double030_1968_double030_1968_v(mode, save_output):
+def test_double030_1968_double030_1968_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : all valid double values
     """
@@ -9505,11 +10094,12 @@ def test_double030_1968_double030_1968_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_double028_1966_double028_1966_v(mode, save_output):
+def test_double028_1966_double028_1966_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=2.22e-308
     """
@@ -9520,11 +10110,12 @@ def test_double028_1966_double028_1966_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_double027_1965_double027_1965_v(mode, save_output):
+def test_double027_1965_double027_1965_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=8.98e307
     """
@@ -9535,11 +10126,12 @@ def test_double027_1965_double027_1965_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_double021_1959_double021_1959_v(mode, save_output):
+def test_double021_1959_double021_1959_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=NaN
     """
@@ -9550,11 +10142,12 @@ def test_double021_1959_double021_1959_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_double020_1958_double020_1958_v(mode, save_output):
+def test_double020_1958_double020_1958_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=-INF
     """
@@ -9565,11 +10158,12 @@ def test_double020_1958_double020_1958_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_double019_1957_double019_1957_v(mode, save_output):
+def test_double019_1957_double019_1957_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=INF
     """
@@ -9580,11 +10174,12 @@ def test_double019_1957_double019_1957_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_double018_1956_double018_1956_i(mode, save_output):
+def test_double018_1956_double018_1956_i(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=+INF Becomes valid in XSD 1.1 -
     MHK
@@ -9596,11 +10191,12 @@ def test_double018_1956_double018_1956_i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_double017_1955_double017_1955_v(mode, save_output):
+def test_double017_1955_double017_1955_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=-1E4
     """
@@ -9611,11 +10207,12 @@ def test_double017_1955_double017_1955_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_double014_1952_double014_1952_v(mode, save_output):
+def test_double014_1952_double014_1952_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=+1
     """
@@ -9626,11 +10223,12 @@ def test_double014_1952_double014_1952_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_double013_1951_double013_1951_v(mode, save_output):
+def test_double013_1951_double013_1951_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=1
     """
@@ -9641,11 +10239,12 @@ def test_double013_1951_double013_1951_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_double012_1950_double012_1950_v(mode, save_output):
+def test_double012_1950_double012_1950_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=-1
     """
@@ -9656,11 +10255,12 @@ def test_double012_1950_double012_1950_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_double011_1949_double011_1949_v(mode, save_output):
+def test_double011_1949_double011_1949_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=-1.0
     """
@@ -9671,11 +10271,12 @@ def test_double011_1949_double011_1949_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_double010_1948_double010_1948_v(mode, save_output):
+def test_double010_1948_double010_1948_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=-0.0
     """
@@ -9686,11 +10287,12 @@ def test_double010_1948_double010_1948_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_double009_1947_double009_1947_v(mode, save_output):
+def test_double009_1947_double009_1947_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=+0.0
     """
@@ -9701,11 +10303,12 @@ def test_double009_1947_double009_1947_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_double008_1946_double008_1946_v(mode, save_output):
+def test_double008_1946_double008_1946_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=-0
     """
@@ -9716,11 +10319,12 @@ def test_double008_1946_double008_1946_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_double007_1945_double007_1945_v(mode, save_output):
+def test_double007_1945_double007_1945_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=+0
     """
@@ -9731,11 +10335,12 @@ def test_double007_1945_double007_1945_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_double006_1944_double006_1944_v(mode, save_output):
+def test_double006_1944_double006_1944_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=3.14159
     """
@@ -9746,11 +10351,12 @@ def test_double006_1944_double006_1944_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_double005_1943_double005_1943_v(mode, save_output):
+def test_double005_1943_double005_1943_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=-3.14159
     """
@@ -9761,11 +10367,12 @@ def test_double005_1943_double005_1943_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_double004_1942_double004_1942_v(mode, save_output):
+def test_double004_1942_double004_1942_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=1e2
     """
@@ -9776,11 +10383,12 @@ def test_double004_1942_double004_1942_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_double003_1941_double003_1941_v(mode, save_output):
+def test_double003_1941_double003_1941_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=1E2
     """
@@ -9791,11 +10399,12 @@ def test_double003_1941_double003_1941_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_double002_1940_double002_1940_v(mode, save_output):
+def test_double002_1940_double002_1940_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=1.0
     """
@@ -9806,11 +10415,12 @@ def test_double002_1940_double002_1940_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_float039_1938_float039_1938_v(mode, save_output):
+def test_float039_1938_float039_1938_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : all valid float values
     """
@@ -9821,11 +10431,12 @@ def test_float039_1938_float039_1938_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_float038_1937_float038_1937_v(mode, save_output):
+def test_float038_1937_float038_1937_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : Test for simpleType of float
     """
@@ -9836,11 +10447,12 @@ def test_float038_1937_float038_1937_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_float034_1933_float034_1933_v(mode, save_output):
+def test_float034_1933_float034_1933_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=00.00
     """
@@ -9851,11 +10463,12 @@ def test_float034_1933_float034_1933_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_float033_1932_float033_1932_v(mode, save_output):
+def test_float033_1932_float033_1932_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=021.22
     """
@@ -9866,11 +10479,12 @@ def test_float033_1932_float033_1932_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_float032_1931_float032_1931_v(mode, save_output):
+def test_float032_1931_float032_1931_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=00.121
     """
@@ -9881,11 +10495,12 @@ def test_float032_1931_float032_1931_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_float031_1930_float031_1930_v(mode, save_output):
+def test_float031_1930_float031_1930_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=3.4e38
     """
@@ -9896,11 +10511,12 @@ def test_float031_1930_float031_1930_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_float030_1929_float030_1929_v(mode, save_output):
+def test_float030_1929_float030_1929_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=2.3e-38
     """
@@ -9911,11 +10527,12 @@ def test_float030_1929_float030_1929_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_float029_1928_float029_1928_v(mode, save_output):
+def test_float029_1928_float029_1928_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=12.78E-2
     """
@@ -9926,11 +10543,12 @@ def test_float029_1928_float029_1928_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_float028_1927_float028_1927_v(mode, save_output):
+def test_float028_1927_float028_1927_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=1267.43233E12
     """
@@ -9941,11 +10559,12 @@ def test_float028_1927_float028_1927_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_float021_1920_float021_1920_v(mode, save_output):
+def test_float021_1920_float021_1920_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=NaN
     """
@@ -9956,11 +10575,12 @@ def test_float021_1920_float021_1920_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_float020_1919_float020_1919_v(mode, save_output):
+def test_float020_1919_float020_1919_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=-INF
     """
@@ -9971,11 +10591,12 @@ def test_float020_1919_float020_1919_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_float019_1918_float019_1918_v(mode, save_output):
+def test_float019_1918_float019_1918_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=INF
     """
@@ -9986,11 +10607,12 @@ def test_float019_1918_float019_1918_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_float018_1917_float018_1917_i(mode, save_output):
+def test_float018_1917_float018_1917_i(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=+INF Becomes valid in XSD 1.1 -
     MHK
@@ -10002,11 +10624,12 @@ def test_float018_1917_float018_1917_i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_float017_1916_float017_1916_v(mode, save_output):
+def test_float017_1916_float017_1916_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=-1E4
     """
@@ -10017,11 +10640,12 @@ def test_float017_1916_float017_1916_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_float014_1913_float014_1913_v(mode, save_output):
+def test_float014_1913_float014_1913_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=+1
     """
@@ -10032,11 +10656,12 @@ def test_float014_1913_float014_1913_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_float013_1912_float013_1912_v(mode, save_output):
+def test_float013_1912_float013_1912_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=1
     """
@@ -10047,11 +10672,12 @@ def test_float013_1912_float013_1912_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_float012_1911_float012_1911_v(mode, save_output):
+def test_float012_1911_float012_1911_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=-1
     """
@@ -10062,11 +10688,12 @@ def test_float012_1911_float012_1911_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_float011_1910_float011_1910_v(mode, save_output):
+def test_float011_1910_float011_1910_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=-1.0
     """
@@ -10077,11 +10704,12 @@ def test_float011_1910_float011_1910_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_float010_1909_float010_1909_v(mode, save_output):
+def test_float010_1909_float010_1909_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=-0.0
     """
@@ -10092,11 +10720,12 @@ def test_float010_1909_float010_1909_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_float009_1908_float009_1908_v(mode, save_output):
+def test_float009_1908_float009_1908_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=+0.0
     """
@@ -10107,11 +10736,12 @@ def test_float009_1908_float009_1908_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_float008_1907_float008_1907_v(mode, save_output):
+def test_float008_1907_float008_1907_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=-0
     """
@@ -10122,11 +10752,12 @@ def test_float008_1907_float008_1907_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_float007_1906_float007_1906_v(mode, save_output):
+def test_float007_1906_float007_1906_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=+0
     """
@@ -10137,11 +10768,12 @@ def test_float007_1906_float007_1906_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_float006_1905_float006_1905_v(mode, save_output):
+def test_float006_1905_float006_1905_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=3.14159
     """
@@ -10152,11 +10784,12 @@ def test_float006_1905_float006_1905_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_float005_1904_float005_1904_v(mode, save_output):
+def test_float005_1904_float005_1904_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=-3.14159
     """
@@ -10167,11 +10800,12 @@ def test_float005_1904_float005_1904_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_float004_1903_float004_1903_v(mode, save_output):
+def test_float004_1903_float004_1903_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=1e2
     """
@@ -10182,11 +10816,12 @@ def test_float004_1903_float004_1903_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_float003_1902_float003_1902_v(mode, save_output):
+def test_float003_1902_float003_1902_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=1E2
     """
@@ -10197,11 +10832,12 @@ def test_float003_1902_float003_1902_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_float002_1901_float002_1901_v(mode, save_output):
+def test_float002_1901_float002_1901_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=1.0
     """
@@ -10212,11 +10848,12 @@ def test_float002_1901_float002_1901_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_decimal016_1890_decimal016_1890_v(mode, save_output):
+def test_decimal016_1890_decimal016_1890_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=12345678901234567890123456789
     """
@@ -10227,11 +10864,12 @@ def test_decimal016_1890_decimal016_1890_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_decimal015_1889_decimal015_1889_v(mode, save_output):
+def test_decimal015_1889_decimal015_1889_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=9876543210987654321098765432
     """
@@ -10242,11 +10880,12 @@ def test_decimal015_1889_decimal015_1889_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_decimal014_1888_decimal014_1888_v(mode, save_output):
+def test_decimal014_1888_decimal014_1888_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=987654321098765432
     """
@@ -10257,11 +10896,12 @@ def test_decimal014_1888_decimal014_1888_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_decimal013_1887_decimal013_1887_v(mode, save_output):
+def test_decimal013_1887_decimal013_1887_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=100000.00
     """
@@ -10272,11 +10912,12 @@ def test_decimal013_1887_decimal013_1887_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_decimal012_1886_decimal012_1886_v(mode, save_output):
+def test_decimal012_1886_decimal012_1886_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=12678967.543233
     """
@@ -10287,11 +10928,12 @@ def test_decimal012_1886_decimal012_1886_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_decimal011_1885_decimal011_1885_v(mode, save_output):
+def test_decimal011_1885_decimal011_1885_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=+1
     """
@@ -10302,11 +10944,12 @@ def test_decimal011_1885_decimal011_1885_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_decimal010_1884_decimal010_1884_v(mode, save_output):
+def test_decimal010_1884_decimal010_1884_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=1
     """
@@ -10317,11 +10960,12 @@ def test_decimal010_1884_decimal010_1884_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_decimal009_1883_decimal009_1883_v(mode, save_output):
+def test_decimal009_1883_decimal009_1883_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=-1
     """
@@ -10332,11 +10976,12 @@ def test_decimal009_1883_decimal009_1883_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_decimal008_1882_decimal008_1882_v(mode, save_output):
+def test_decimal008_1882_decimal008_1882_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=-1.0
     """
@@ -10347,11 +10992,12 @@ def test_decimal008_1882_decimal008_1882_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_decimal007_1881_decimal007_1881_v(mode, save_output):
+def test_decimal007_1881_decimal007_1881_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=-0.0
     """
@@ -10362,11 +11008,12 @@ def test_decimal007_1881_decimal007_1881_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_decimal006_1880_decimal006_1880_v(mode, save_output):
+def test_decimal006_1880_decimal006_1880_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=+0.0
     """
@@ -10377,11 +11024,12 @@ def test_decimal006_1880_decimal006_1880_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_decimal005_1879_decimal005_1879_v(mode, save_output):
+def test_decimal005_1879_decimal005_1879_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=-0
     """
@@ -10392,11 +11040,12 @@ def test_decimal005_1879_decimal005_1879_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_decimal004_1878_decimal004_1878_v(mode, save_output):
+def test_decimal004_1878_decimal004_1878_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=+0
     """
@@ -10407,11 +11056,12 @@ def test_decimal004_1878_decimal004_1878_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_decimal003_1877_decimal003_1877_v(mode, save_output):
+def test_decimal003_1877_decimal003_1877_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=3.14159
     """
@@ -10422,11 +11072,12 @@ def test_decimal003_1877_decimal003_1877_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_decimal002_1876_decimal002_1876_v(mode, save_output):
+def test_decimal002_1876_decimal002_1876_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=-3.14159
     """
@@ -10437,11 +11088,12 @@ def test_decimal002_1876_decimal002_1876_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_boolean018_1874_boolean018_1874_v(mode, save_output):
+def test_boolean018_1874_boolean018_1874_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : Test simpleType list with boolean
     """
@@ -10452,11 +11104,12 @@ def test_boolean018_1874_boolean018_1874_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_boolean005_1861_boolean005_1861_v(mode, save_output):
+def test_boolean005_1861_boolean005_1861_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=0
     """
@@ -10467,11 +11120,12 @@ def test_boolean005_1861_boolean005_1861_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_boolean004_1860_boolean004_1860_v(mode, save_output):
+def test_boolean004_1860_boolean004_1860_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=false
     """
@@ -10482,11 +11136,12 @@ def test_boolean004_1860_boolean004_1860_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_boolean003_1859_boolean003_1859_v(mode, save_output):
+def test_boolean003_1859_boolean003_1859_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=1
     """
@@ -10497,11 +11152,12 @@ def test_boolean003_1859_boolean003_1859_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_boolean002_1858_boolean002_1858_v(mode, save_output):
+def test_boolean002_1858_boolean002_1858_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=true
     """
@@ -10512,11 +11168,12 @@ def test_boolean002_1858_boolean002_1858_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_string006_1856_string006_1856_v(mode, save_output):
+def test_string006_1856_string006_1856_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=BaseChar ::= [#x0041-#x005A] |
     [#x0061-#x007A] | [#x00C0-#x00D6] | [#x00D8-#x00F6] | [#x00F8-#x00FF]
@@ -10543,11 +11200,12 @@ def test_string006_1856_string006_1856_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_string005_1855_string005_1855_v(mode, save_output):
+def test_string005_1855_string005_1855_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=#x20 | #xD | #xA | [a-zA-Z0-9]
     | [-'()+,./:=?;!*#@$_%]
@@ -10559,11 +11217,12 @@ def test_string005_1855_string005_1855_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_string004_1854_string004_1854_v(mode, save_output):
+def test_string004_1854_string004_1854_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=sdflhksdgh;let vm'peoaivm'weiv'
     """
@@ -10574,11 +11233,12 @@ def test_string004_1854_string004_1854_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_string003_1853_string003_1853_v(mode, save_output):
+def test_string003_1853_string003_1853_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=!$%%*))*(
     """
@@ -10589,11 +11249,12 @@ def test_string003_1853_string003_1853_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_string002_1852_string002_1852_v(mode, save_output):
+def test_string002_1852_string002_1852_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=a_?>
     """
@@ -10604,11 +11265,12 @@ def test_string002_1852_string002_1852_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_string001_1851_string001_1851_v(mode, save_output):
+def test_string001_1851_string001_1851_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : value=
     """
@@ -10619,11 +11281,12 @@ def test_string001_1851_string001_1851_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_positive_integer_total_digits003_1849_positive_integer_total_digits003_1849_v(mode, save_output):
+def test_positive_integer_total_digits003_1849_positive_integer_total_digits003_1849_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=totalDigits and value=4 and
     document value=123
@@ -10635,11 +11298,12 @@ def test_positive_integer_total_digits003_1849_positive_integer_total_digits003_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_positive_integer_total_digits002_1848_positive_integer_total_digits002_1848_v(mode, save_output):
+def test_positive_integer_total_digits002_1848_positive_integer_total_digits002_1848_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=totalDigits and value=3 and
     document value=123
@@ -10651,11 +11315,12 @@ def test_positive_integer_total_digits002_1848_positive_integer_total_digits002_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_positive_integer_min_exclusive005_1846_positive_integer_min_exclusive005_1846_v(mode, save_output):
+def test_positive_integer_min_exclusive005_1846_positive_integer_min_exclusive005_1846_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minExclusive and value=1 and
     facet=maxExclusive and value=7) and document value=5
@@ -10667,11 +11332,12 @@ def test_positive_integer_min_exclusive005_1846_positive_integer_min_exclusive00
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_positive_integer_min_exclusive004_1845_positive_integer_min_exclusive004_1845_v(mode, save_output):
+def test_positive_integer_min_exclusive004_1845_positive_integer_min_exclusive004_1845_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minExclusive and value=1 and
     facet=maxInclusive and value=7) and document value=5
@@ -10683,11 +11349,12 @@ def test_positive_integer_min_exclusive004_1845_positive_integer_min_exclusive00
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_positive_integer_min_exclusive003_1844_positive_integer_min_exclusive003_1844_v(mode, save_output):
+def test_positive_integer_min_exclusive003_1844_positive_integer_min_exclusive003_1844_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minExclusive and value=1 and
     document value=5
@@ -10699,11 +11366,12 @@ def test_positive_integer_min_exclusive003_1844_positive_integer_min_exclusive00
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_positive_integer_min_inclusive005_1841_positive_integer_min_inclusive005_1841_v(mode, save_output):
+def test_positive_integer_min_inclusive005_1841_positive_integer_min_inclusive005_1841_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minInclusive and value=1 and
     facet=maxExclusive and value=7) and document value=5
@@ -10715,11 +11383,12 @@ def test_positive_integer_min_inclusive005_1841_positive_integer_min_inclusive00
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_positive_integer_min_inclusive004_1840_positive_integer_min_inclusive004_1840_v(mode, save_output):
+def test_positive_integer_min_inclusive004_1840_positive_integer_min_inclusive004_1840_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minInclusive and value=1 and
     facet=maxInclusive and value=7) and document value=5
@@ -10731,11 +11400,12 @@ def test_positive_integer_min_inclusive004_1840_positive_integer_min_inclusive00
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_positive_integer_min_inclusive003_1839_positive_integer_min_inclusive003_1839_v(mode, save_output):
+def test_positive_integer_min_inclusive003_1839_positive_integer_min_inclusive003_1839_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minInclusive and value=1 and
     document value=5
@@ -10747,11 +11417,12 @@ def test_positive_integer_min_inclusive003_1839_positive_integer_min_inclusive00
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_positive_integer_min_inclusive001_1837_positive_integer_min_inclusive001_1837_v(mode, save_output):
+def test_positive_integer_min_inclusive001_1837_positive_integer_min_inclusive001_1837_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minInclusive and value=1 and
     document value=1
@@ -10763,11 +11434,12 @@ def test_positive_integer_min_inclusive001_1837_positive_integer_min_inclusive00
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_positive_integer_max_exclusive003_1836_positive_integer_max_exclusive003_1836_v(mode, save_output):
+def test_positive_integer_max_exclusive003_1836_positive_integer_max_exclusive003_1836_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxExclusive and value=7 and
     document value=5
@@ -10779,11 +11451,12 @@ def test_positive_integer_max_exclusive003_1836_positive_integer_max_exclusive00
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_positive_integer_max_inclusive003_1833_positive_integer_max_inclusive003_1833_v(mode, save_output):
+def test_positive_integer_max_inclusive003_1833_positive_integer_max_inclusive003_1833_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxInclusive and value=7 and
     document value=5
@@ -10795,11 +11468,12 @@ def test_positive_integer_max_inclusive003_1833_positive_integer_max_inclusive00
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_positive_integer_max_inclusive001_1831_positive_integer_max_inclusive001_1831_v(mode, save_output):
+def test_positive_integer_max_inclusive001_1831_positive_integer_max_inclusive001_1831_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxInclusive and value=1 and
     document value=1
@@ -10811,11 +11485,12 @@ def test_positive_integer_max_inclusive001_1831_positive_integer_max_inclusive00
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_positive_integer_enumeration004_1830_positive_integer_enumeration004_1830_v(mode, save_output):
+def test_positive_integer_enumeration004_1830_positive_integer_enumeration004_1830_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=enumeration and value=567 1 234
     and document value=567
@@ -10827,11 +11502,12 @@ def test_positive_integer_enumeration004_1830_positive_integer_enumeration004_18
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_positive_integer_enumeration002_1828_positive_integer_enumeration002_1828_v(mode, save_output):
+def test_positive_integer_enumeration002_1828_positive_integer_enumeration002_1828_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=enumeration and value=567 and
     document value=567
@@ -10843,11 +11519,12 @@ def test_positive_integer_enumeration002_1828_positive_integer_enumeration002_18
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_positive_integer_pattern001_1826_positive_integer_pattern001_1826_v(mode, save_output):
+def test_positive_integer_pattern001_1826_positive_integer_pattern001_1826_v(mode, save_output, output_format):
     r"""
     TEST :Facet Schemas for string : facet=pattern and value=\p{Nd}{1,3}
     and document value=5
@@ -10859,11 +11536,12 @@ def test_positive_integer_pattern001_1826_positive_integer_pattern001_1826_v(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_unsigned_byte_total_digits003_1825_unsigned_byte_total_digits003_1825_v(mode, save_output):
+def test_unsigned_byte_total_digits003_1825_unsigned_byte_total_digits003_1825_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=totalDigits and value=4 and
     document value=123
@@ -10875,11 +11553,12 @@ def test_unsigned_byte_total_digits003_1825_unsigned_byte_total_digits003_1825_v
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_unsigned_byte_total_digits002_1824_unsigned_byte_total_digits002_1824_v(mode, save_output):
+def test_unsigned_byte_total_digits002_1824_unsigned_byte_total_digits002_1824_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=totalDigits and value=3 and
     document value=123
@@ -10891,11 +11570,12 @@ def test_unsigned_byte_total_digits002_1824_unsigned_byte_total_digits002_1824_v
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_unsigned_byte_min_exclusive005_1822_unsigned_byte_min_exclusive005_1822_v(mode, save_output):
+def test_unsigned_byte_min_exclusive005_1822_unsigned_byte_min_exclusive005_1822_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minExclusive and value=1 and
     facet=maxExclusive and value=7) and document value=5
@@ -10907,11 +11587,12 @@ def test_unsigned_byte_min_exclusive005_1822_unsigned_byte_min_exclusive005_1822
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_unsigned_byte_min_exclusive004_1821_unsigned_byte_min_exclusive004_1821_v(mode, save_output):
+def test_unsigned_byte_min_exclusive004_1821_unsigned_byte_min_exclusive004_1821_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minExclusive and value=1 and
     facet=maxInclusive and value=7) and document value=5
@@ -10923,11 +11604,12 @@ def test_unsigned_byte_min_exclusive004_1821_unsigned_byte_min_exclusive004_1821
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_unsigned_byte_min_exclusive003_1820_unsigned_byte_min_exclusive003_1820_v(mode, save_output):
+def test_unsigned_byte_min_exclusive003_1820_unsigned_byte_min_exclusive003_1820_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minExclusive and value=1 and
     document value=5
@@ -10939,11 +11621,12 @@ def test_unsigned_byte_min_exclusive003_1820_unsigned_byte_min_exclusive003_1820
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_unsigned_byte_min_inclusive005_1817_unsigned_byte_min_inclusive005_1817_v(mode, save_output):
+def test_unsigned_byte_min_inclusive005_1817_unsigned_byte_min_inclusive005_1817_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minInclusive and value=1 and
     facet=maxExclusive and value=7) and document value=5
@@ -10955,11 +11638,12 @@ def test_unsigned_byte_min_inclusive005_1817_unsigned_byte_min_inclusive005_1817
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_unsigned_byte_min_inclusive004_1816_unsigned_byte_min_inclusive004_1816_v(mode, save_output):
+def test_unsigned_byte_min_inclusive004_1816_unsigned_byte_min_inclusive004_1816_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minInclusive and value=1 and
     facet=maxInclusive and value=7) and document value=5
@@ -10971,11 +11655,12 @@ def test_unsigned_byte_min_inclusive004_1816_unsigned_byte_min_inclusive004_1816
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_unsigned_byte_min_inclusive003_1815_unsigned_byte_min_inclusive003_1815_v(mode, save_output):
+def test_unsigned_byte_min_inclusive003_1815_unsigned_byte_min_inclusive003_1815_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minInclusive and value=1 and
     document value=5
@@ -10987,11 +11672,12 @@ def test_unsigned_byte_min_inclusive003_1815_unsigned_byte_min_inclusive003_1815
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_unsigned_byte_min_inclusive001_1813_unsigned_byte_min_inclusive001_1813_v(mode, save_output):
+def test_unsigned_byte_min_inclusive001_1813_unsigned_byte_min_inclusive001_1813_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minInclusive and value=1 and
     document value=1
@@ -11003,11 +11689,12 @@ def test_unsigned_byte_min_inclusive001_1813_unsigned_byte_min_inclusive001_1813
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_unsigned_byte_max_exclusive003_1812_unsigned_byte_max_exclusive003_1812_v(mode, save_output):
+def test_unsigned_byte_max_exclusive003_1812_unsigned_byte_max_exclusive003_1812_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxExclusive and value=7 and
     document value=5
@@ -11019,11 +11706,12 @@ def test_unsigned_byte_max_exclusive003_1812_unsigned_byte_max_exclusive003_1812
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_unsigned_byte_max_inclusive003_1809_unsigned_byte_max_inclusive003_1809_v(mode, save_output):
+def test_unsigned_byte_max_inclusive003_1809_unsigned_byte_max_inclusive003_1809_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxInclusive and value=7 and
     document value=5
@@ -11035,11 +11723,12 @@ def test_unsigned_byte_max_inclusive003_1809_unsigned_byte_max_inclusive003_1809
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_unsigned_byte_max_inclusive001_1807_unsigned_byte_max_inclusive001_1807_v(mode, save_output):
+def test_unsigned_byte_max_inclusive001_1807_unsigned_byte_max_inclusive001_1807_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxInclusive and value=1 and
     document value=1
@@ -11051,11 +11740,12 @@ def test_unsigned_byte_max_inclusive001_1807_unsigned_byte_max_inclusive001_1807
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_unsigned_byte_enumeration004_1806_unsigned_byte_enumeration004_1806_v(mode, save_output):
+def test_unsigned_byte_enumeration004_1806_unsigned_byte_enumeration004_1806_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=enumeration and value=0 1 234
     and document value=0
@@ -11067,11 +11757,12 @@ def test_unsigned_byte_enumeration004_1806_unsigned_byte_enumeration004_1806_v(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_unsigned_byte_enumeration002_1804_unsigned_byte_enumeration002_1804_v(mode, save_output):
+def test_unsigned_byte_enumeration002_1804_unsigned_byte_enumeration002_1804_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=enumeration and value=0 and
     document value=0
@@ -11083,11 +11774,12 @@ def test_unsigned_byte_enumeration002_1804_unsigned_byte_enumeration002_1804_v(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_unsigned_byte_pattern001_1802_unsigned_byte_pattern001_1802_v(mode, save_output):
+def test_unsigned_byte_pattern001_1802_unsigned_byte_pattern001_1802_v(mode, save_output, output_format):
     r"""
     TEST :Facet Schemas for string : facet=pattern and value=\p{Nd}{1,3}
     and document value=5
@@ -11099,11 +11791,12 @@ def test_unsigned_byte_pattern001_1802_unsigned_byte_pattern001_1802_v(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_unsigned_short_total_digits003_1801_unsigned_short_total_digits003_1801_v(mode, save_output):
+def test_unsigned_short_total_digits003_1801_unsigned_short_total_digits003_1801_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=totalDigits and value=4 and
     document value=123
@@ -11115,11 +11808,12 @@ def test_unsigned_short_total_digits003_1801_unsigned_short_total_digits003_1801
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_unsigned_short_total_digits002_1800_unsigned_short_total_digits002_1800_v(mode, save_output):
+def test_unsigned_short_total_digits002_1800_unsigned_short_total_digits002_1800_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=totalDigits and value=3 and
     document value=123
@@ -11131,11 +11825,12 @@ def test_unsigned_short_total_digits002_1800_unsigned_short_total_digits002_1800
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_unsigned_short_min_exclusive005_1798_unsigned_short_min_exclusive005_1798_v(mode, save_output):
+def test_unsigned_short_min_exclusive005_1798_unsigned_short_min_exclusive005_1798_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minExclusive and value=1 and
     facet=maxExclusive and value=7) and document value=5
@@ -11147,11 +11842,12 @@ def test_unsigned_short_min_exclusive005_1798_unsigned_short_min_exclusive005_17
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_unsigned_short_min_exclusive004_1797_unsigned_short_min_exclusive004_1797_v(mode, save_output):
+def test_unsigned_short_min_exclusive004_1797_unsigned_short_min_exclusive004_1797_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minExclusive and value=1 and
     facet=maxInclusive and value=7) and document value=5
@@ -11163,11 +11859,12 @@ def test_unsigned_short_min_exclusive004_1797_unsigned_short_min_exclusive004_17
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_unsigned_short_min_exclusive003_1796_unsigned_short_min_exclusive003_1796_v(mode, save_output):
+def test_unsigned_short_min_exclusive003_1796_unsigned_short_min_exclusive003_1796_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minExclusive and value=1 and
     document value=5
@@ -11179,11 +11876,12 @@ def test_unsigned_short_min_exclusive003_1796_unsigned_short_min_exclusive003_17
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_unsigned_short_min_inclusive005_1793_unsigned_short_min_inclusive005_1793_v(mode, save_output):
+def test_unsigned_short_min_inclusive005_1793_unsigned_short_min_inclusive005_1793_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minInclusive and value=1 and
     facet=maxExclusive and value=7) and document value=5
@@ -11195,11 +11893,12 @@ def test_unsigned_short_min_inclusive005_1793_unsigned_short_min_inclusive005_17
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_unsigned_short_min_inclusive004_1792_unsigned_short_min_inclusive004_1792_v(mode, save_output):
+def test_unsigned_short_min_inclusive004_1792_unsigned_short_min_inclusive004_1792_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minInclusive and value=1 and
     facet=maxInclusive and value=7) and document value=5
@@ -11211,11 +11910,12 @@ def test_unsigned_short_min_inclusive004_1792_unsigned_short_min_inclusive004_17
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_unsigned_short_min_inclusive003_1791_unsigned_short_min_inclusive003_1791_v(mode, save_output):
+def test_unsigned_short_min_inclusive003_1791_unsigned_short_min_inclusive003_1791_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minInclusive and value=1 and
     document value=5
@@ -11227,11 +11927,12 @@ def test_unsigned_short_min_inclusive003_1791_unsigned_short_min_inclusive003_17
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_unsigned_short_min_inclusive001_1789_unsigned_short_min_inclusive001_1789_v(mode, save_output):
+def test_unsigned_short_min_inclusive001_1789_unsigned_short_min_inclusive001_1789_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minInclusive and value=1 and
     document value=1
@@ -11243,11 +11944,12 @@ def test_unsigned_short_min_inclusive001_1789_unsigned_short_min_inclusive001_17
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_unsigned_short_max_exclusive003_1788_unsigned_short_max_exclusive003_1788_v(mode, save_output):
+def test_unsigned_short_max_exclusive003_1788_unsigned_short_max_exclusive003_1788_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxExclusive and value=7 and
     document value=5
@@ -11259,11 +11961,12 @@ def test_unsigned_short_max_exclusive003_1788_unsigned_short_max_exclusive003_17
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_unsigned_short_max_inclusive003_1785_unsigned_short_max_inclusive003_1785_v(mode, save_output):
+def test_unsigned_short_max_inclusive003_1785_unsigned_short_max_inclusive003_1785_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxInclusive and value=7 and
     document value=5
@@ -11275,11 +11978,12 @@ def test_unsigned_short_max_inclusive003_1785_unsigned_short_max_inclusive003_17
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_unsigned_short_max_inclusive001_1783_unsigned_short_max_inclusive001_1783_v(mode, save_output):
+def test_unsigned_short_max_inclusive001_1783_unsigned_short_max_inclusive001_1783_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxInclusive and value=1 and
     document value=1
@@ -11291,11 +11995,12 @@ def test_unsigned_short_max_inclusive001_1783_unsigned_short_max_inclusive001_17
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_unsigned_short_enumeration004_1782_unsigned_short_enumeration004_1782_v(mode, save_output):
+def test_unsigned_short_enumeration004_1782_unsigned_short_enumeration004_1782_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=enumeration and value=0 1 234
     and document value=0
@@ -11307,11 +12012,12 @@ def test_unsigned_short_enumeration004_1782_unsigned_short_enumeration004_1782_v
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_unsigned_short_enumeration002_1780_unsigned_short_enumeration002_1780_v(mode, save_output):
+def test_unsigned_short_enumeration002_1780_unsigned_short_enumeration002_1780_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=enumeration and value=0 and
     document value=0
@@ -11323,11 +12029,12 @@ def test_unsigned_short_enumeration002_1780_unsigned_short_enumeration002_1780_v
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_unsigned_short_pattern001_1778_unsigned_short_pattern001_1778_v(mode, save_output):
+def test_unsigned_short_pattern001_1778_unsigned_short_pattern001_1778_v(mode, save_output, output_format):
     r"""
     TEST :Facet Schemas for string : facet=pattern and value=\p{Nd}{1,3}
     and document value=5
@@ -11339,11 +12046,12 @@ def test_unsigned_short_pattern001_1778_unsigned_short_pattern001_1778_v(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_unsigned_int_total_digits003_1777_unsigned_int_total_digits003_1777_v(mode, save_output):
+def test_unsigned_int_total_digits003_1777_unsigned_int_total_digits003_1777_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=totalDigits and value=4 and
     document value=123
@@ -11355,11 +12063,12 @@ def test_unsigned_int_total_digits003_1777_unsigned_int_total_digits003_1777_v(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_unsigned_int_total_digits002_1776_unsigned_int_total_digits002_1776_v(mode, save_output):
+def test_unsigned_int_total_digits002_1776_unsigned_int_total_digits002_1776_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=totalDigits and value=3 and
     document value=123
@@ -11371,11 +12080,12 @@ def test_unsigned_int_total_digits002_1776_unsigned_int_total_digits002_1776_v(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_unsigned_int_min_exclusive005_1774_unsigned_int_min_exclusive005_1774_v(mode, save_output):
+def test_unsigned_int_min_exclusive005_1774_unsigned_int_min_exclusive005_1774_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minExclusive and value=1 and
     facet=maxExclusive and value=7) and document value=5
@@ -11387,11 +12097,12 @@ def test_unsigned_int_min_exclusive005_1774_unsigned_int_min_exclusive005_1774_v
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_unsigned_int_min_exclusive004_1773_unsigned_int_min_exclusive004_1773_v(mode, save_output):
+def test_unsigned_int_min_exclusive004_1773_unsigned_int_min_exclusive004_1773_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minExclusive and value=1 and
     facet=maxInclusive and value=7) and document value=5
@@ -11403,11 +12114,12 @@ def test_unsigned_int_min_exclusive004_1773_unsigned_int_min_exclusive004_1773_v
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_unsigned_int_min_exclusive003_1772_unsigned_int_min_exclusive003_1772_v(mode, save_output):
+def test_unsigned_int_min_exclusive003_1772_unsigned_int_min_exclusive003_1772_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minExclusive and value=1 and
     document value=5
@@ -11419,11 +12131,12 @@ def test_unsigned_int_min_exclusive003_1772_unsigned_int_min_exclusive003_1772_v
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_unsigned_int_min_inclusive005_1769_unsigned_int_min_inclusive005_1769_v(mode, save_output):
+def test_unsigned_int_min_inclusive005_1769_unsigned_int_min_inclusive005_1769_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minInclusive and value=1 and
     facet=maxExclusive and value=7) and document value=5
@@ -11435,11 +12148,12 @@ def test_unsigned_int_min_inclusive005_1769_unsigned_int_min_inclusive005_1769_v
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_unsigned_int_min_inclusive004_1768_unsigned_int_min_inclusive004_1768_v(mode, save_output):
+def test_unsigned_int_min_inclusive004_1768_unsigned_int_min_inclusive004_1768_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minInclusive and value=1 and
     facet=maxInclusive and value=7) and document value=5
@@ -11451,11 +12165,12 @@ def test_unsigned_int_min_inclusive004_1768_unsigned_int_min_inclusive004_1768_v
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_unsigned_int_min_inclusive003_1767_unsigned_int_min_inclusive003_1767_v(mode, save_output):
+def test_unsigned_int_min_inclusive003_1767_unsigned_int_min_inclusive003_1767_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minInclusive and value=1 and
     document value=5
@@ -11467,11 +12182,12 @@ def test_unsigned_int_min_inclusive003_1767_unsigned_int_min_inclusive003_1767_v
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_unsigned_int_min_inclusive001_1765_unsigned_int_min_inclusive001_1765_v(mode, save_output):
+def test_unsigned_int_min_inclusive001_1765_unsigned_int_min_inclusive001_1765_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minInclusive and value=1 and
     document value=1
@@ -11483,11 +12199,12 @@ def test_unsigned_int_min_inclusive001_1765_unsigned_int_min_inclusive001_1765_v
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_unsigned_int_max_exclusive003_1764_unsigned_int_max_exclusive003_1764_v(mode, save_output):
+def test_unsigned_int_max_exclusive003_1764_unsigned_int_max_exclusive003_1764_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxExclusive and value=7 and
     document value=5
@@ -11499,11 +12216,12 @@ def test_unsigned_int_max_exclusive003_1764_unsigned_int_max_exclusive003_1764_v
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_unsigned_int_max_inclusive003_1761_unsigned_int_max_inclusive003_1761_v(mode, save_output):
+def test_unsigned_int_max_inclusive003_1761_unsigned_int_max_inclusive003_1761_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxInclusive and value=7 and
     document value=5
@@ -11515,11 +12233,12 @@ def test_unsigned_int_max_inclusive003_1761_unsigned_int_max_inclusive003_1761_v
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_unsigned_int_max_inclusive001_1759_unsigned_int_max_inclusive001_1759_v(mode, save_output):
+def test_unsigned_int_max_inclusive001_1759_unsigned_int_max_inclusive001_1759_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxInclusive and value=1 and
     document value=1
@@ -11531,11 +12250,12 @@ def test_unsigned_int_max_inclusive001_1759_unsigned_int_max_inclusive001_1759_v
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_unsigned_int_enumeration004_1758_unsigned_int_enumeration004_1758_v(mode, save_output):
+def test_unsigned_int_enumeration004_1758_unsigned_int_enumeration004_1758_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=enumeration and value=0 1 234
     and document value=0
@@ -11547,11 +12267,12 @@ def test_unsigned_int_enumeration004_1758_unsigned_int_enumeration004_1758_v(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_unsigned_int_enumeration002_1756_unsigned_int_enumeration002_1756_v(mode, save_output):
+def test_unsigned_int_enumeration002_1756_unsigned_int_enumeration002_1756_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=enumeration and value=0 and
     document value=0
@@ -11563,11 +12284,12 @@ def test_unsigned_int_enumeration002_1756_unsigned_int_enumeration002_1756_v(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_unsigned_int_pattern001_1754_unsigned_int_pattern001_1754_v(mode, save_output):
+def test_unsigned_int_pattern001_1754_unsigned_int_pattern001_1754_v(mode, save_output, output_format):
     r"""
     TEST :Facet Schemas for string : facet=pattern and value=\p{Nd}{1,3}
     and document value=5
@@ -11579,11 +12301,12 @@ def test_unsigned_int_pattern001_1754_unsigned_int_pattern001_1754_v(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_unsigned_long_total_digits003_1753_unsigned_long_total_digits003_1753_v(mode, save_output):
+def test_unsigned_long_total_digits003_1753_unsigned_long_total_digits003_1753_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=totalDigits and value=4 and
     document value=123
@@ -11595,11 +12318,12 @@ def test_unsigned_long_total_digits003_1753_unsigned_long_total_digits003_1753_v
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_unsigned_long_total_digits002_1752_unsigned_long_total_digits002_1752_v(mode, save_output):
+def test_unsigned_long_total_digits002_1752_unsigned_long_total_digits002_1752_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=totalDigits and value=3 and
     document value=123
@@ -11611,11 +12335,12 @@ def test_unsigned_long_total_digits002_1752_unsigned_long_total_digits002_1752_v
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_unsigned_long_min_exclusive005_1750_unsigned_long_min_exclusive005_1750_v(mode, save_output):
+def test_unsigned_long_min_exclusive005_1750_unsigned_long_min_exclusive005_1750_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minExclusive and value=1 and
     facet=maxExclusive and value=7) and document value=5
@@ -11627,11 +12352,12 @@ def test_unsigned_long_min_exclusive005_1750_unsigned_long_min_exclusive005_1750
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_unsigned_long_min_exclusive004_1749_unsigned_long_min_exclusive004_1749_v(mode, save_output):
+def test_unsigned_long_min_exclusive004_1749_unsigned_long_min_exclusive004_1749_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minExclusive and value=1 and
     facet=maxInclusive and value=7) and document value=5
@@ -11643,11 +12369,12 @@ def test_unsigned_long_min_exclusive004_1749_unsigned_long_min_exclusive004_1749
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_unsigned_long_min_exclusive003_1748_unsigned_long_min_exclusive003_1748_v(mode, save_output):
+def test_unsigned_long_min_exclusive003_1748_unsigned_long_min_exclusive003_1748_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minExclusive and value=1 and
     document value=5
@@ -11659,11 +12386,12 @@ def test_unsigned_long_min_exclusive003_1748_unsigned_long_min_exclusive003_1748
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_unsigned_long_min_inclusive005_1745_unsigned_long_min_inclusive005_1745_v(mode, save_output):
+def test_unsigned_long_min_inclusive005_1745_unsigned_long_min_inclusive005_1745_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minInclusive and value=1 and
     facet=maxExclusive and value=7) and document value=5
@@ -11675,11 +12403,12 @@ def test_unsigned_long_min_inclusive005_1745_unsigned_long_min_inclusive005_1745
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_unsigned_long_min_inclusive004_1744_unsigned_long_min_inclusive004_1744_v(mode, save_output):
+def test_unsigned_long_min_inclusive004_1744_unsigned_long_min_inclusive004_1744_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minInclusive and value=1 and
     facet=maxInclusive and value=7) and document value=5
@@ -11691,11 +12420,12 @@ def test_unsigned_long_min_inclusive004_1744_unsigned_long_min_inclusive004_1744
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_unsigned_long_min_inclusive003_1743_unsigned_long_min_inclusive003_1743_v(mode, save_output):
+def test_unsigned_long_min_inclusive003_1743_unsigned_long_min_inclusive003_1743_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minInclusive and value=1 and
     document value=5
@@ -11707,11 +12437,12 @@ def test_unsigned_long_min_inclusive003_1743_unsigned_long_min_inclusive003_1743
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_unsigned_long_min_inclusive001_1741_unsigned_long_min_inclusive001_1741_v(mode, save_output):
+def test_unsigned_long_min_inclusive001_1741_unsigned_long_min_inclusive001_1741_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minInclusive and value=1 and
     document value=1
@@ -11723,11 +12454,12 @@ def test_unsigned_long_min_inclusive001_1741_unsigned_long_min_inclusive001_1741
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_unsigned_long_max_exclusive003_1740_unsigned_long_max_exclusive003_1740_v(mode, save_output):
+def test_unsigned_long_max_exclusive003_1740_unsigned_long_max_exclusive003_1740_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxExclusive and value=7 and
     document value=5
@@ -11739,11 +12471,12 @@ def test_unsigned_long_max_exclusive003_1740_unsigned_long_max_exclusive003_1740
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_unsigned_long_max_inclusive003_1737_unsigned_long_max_inclusive003_1737_v(mode, save_output):
+def test_unsigned_long_max_inclusive003_1737_unsigned_long_max_inclusive003_1737_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxInclusive and value=7 and
     document value=5
@@ -11755,11 +12488,12 @@ def test_unsigned_long_max_inclusive003_1737_unsigned_long_max_inclusive003_1737
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_unsigned_long_max_inclusive001_1735_unsigned_long_max_inclusive001_1735_v(mode, save_output):
+def test_unsigned_long_max_inclusive001_1735_unsigned_long_max_inclusive001_1735_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxInclusive and value=1 and
     document value=1
@@ -11771,11 +12505,12 @@ def test_unsigned_long_max_inclusive001_1735_unsigned_long_max_inclusive001_1735
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_unsigned_long_enumeration004_1734_unsigned_long_enumeration004_1734_v(mode, save_output):
+def test_unsigned_long_enumeration004_1734_unsigned_long_enumeration004_1734_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=enumeration and value=0 1 234
     and document value=0
@@ -11787,11 +12522,12 @@ def test_unsigned_long_enumeration004_1734_unsigned_long_enumeration004_1734_v(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_unsigned_long_enumeration002_1732_unsigned_long_enumeration002_1732_v(mode, save_output):
+def test_unsigned_long_enumeration002_1732_unsigned_long_enumeration002_1732_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=enumeration and value=0 and
     document value=0
@@ -11803,11 +12539,12 @@ def test_unsigned_long_enumeration002_1732_unsigned_long_enumeration002_1732_v(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_unsigned_long_pattern001_1730_unsigned_long_pattern001_1730_v(mode, save_output):
+def test_unsigned_long_pattern001_1730_unsigned_long_pattern001_1730_v(mode, save_output, output_format):
     r"""
     TEST :Facet Schemas for string : facet=pattern and value=\p{Nd}{1,3}
     and document value=5
@@ -11819,11 +12556,12 @@ def test_unsigned_long_pattern001_1730_unsigned_long_pattern001_1730_v(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_non_negative_integer_total_digits003_1729_non_negative_integer_total_digits003_1729_v(mode, save_output):
+def test_non_negative_integer_total_digits003_1729_non_negative_integer_total_digits003_1729_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=totalDigits and value=4 and
     document value=123
@@ -11835,11 +12573,12 @@ def test_non_negative_integer_total_digits003_1729_non_negative_integer_total_di
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_non_negative_integer_total_digits002_1728_non_negative_integer_total_digits002_1728_v(mode, save_output):
+def test_non_negative_integer_total_digits002_1728_non_negative_integer_total_digits002_1728_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=totalDigits and value=3 and
     document value=123
@@ -11851,11 +12590,12 @@ def test_non_negative_integer_total_digits002_1728_non_negative_integer_total_di
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_non_negative_integer_min_exclusive005_1726_non_negative_integer_min_exclusive005_1726_v(mode, save_output):
+def test_non_negative_integer_min_exclusive005_1726_non_negative_integer_min_exclusive005_1726_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minExclusive and value=1 and
     facet=maxExclusive and value=7) and document value=5
@@ -11867,11 +12607,12 @@ def test_non_negative_integer_min_exclusive005_1726_non_negative_integer_min_exc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_non_negative_integer_min_exclusive004_1725_non_negative_integer_min_exclusive004_1725_v(mode, save_output):
+def test_non_negative_integer_min_exclusive004_1725_non_negative_integer_min_exclusive004_1725_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minExclusive and value=1 and
     facet=maxInclusive and value=7) and document value=5
@@ -11883,11 +12624,12 @@ def test_non_negative_integer_min_exclusive004_1725_non_negative_integer_min_exc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_non_negative_integer_min_exclusive003_1724_non_negative_integer_min_exclusive003_1724_v(mode, save_output):
+def test_non_negative_integer_min_exclusive003_1724_non_negative_integer_min_exclusive003_1724_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minExclusive and value=1 and
     document value=5
@@ -11899,11 +12641,12 @@ def test_non_negative_integer_min_exclusive003_1724_non_negative_integer_min_exc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_non_negative_integer_min_inclusive005_1721_non_negative_integer_min_inclusive005_1721_v(mode, save_output):
+def test_non_negative_integer_min_inclusive005_1721_non_negative_integer_min_inclusive005_1721_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minInclusive and value=1 and
     facet=maxExclusive and value=7) and document value=5
@@ -11915,11 +12658,12 @@ def test_non_negative_integer_min_inclusive005_1721_non_negative_integer_min_inc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_non_negative_integer_min_inclusive004_1720_non_negative_integer_min_inclusive004_1720_v(mode, save_output):
+def test_non_negative_integer_min_inclusive004_1720_non_negative_integer_min_inclusive004_1720_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minInclusive and value=1 and
     facet=maxInclusive and value=7) and document value=5
@@ -11931,11 +12675,12 @@ def test_non_negative_integer_min_inclusive004_1720_non_negative_integer_min_inc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_non_negative_integer_min_inclusive003_1719_non_negative_integer_min_inclusive003_1719_v(mode, save_output):
+def test_non_negative_integer_min_inclusive003_1719_non_negative_integer_min_inclusive003_1719_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minInclusive and value=1 and
     document value=5
@@ -11947,11 +12692,12 @@ def test_non_negative_integer_min_inclusive003_1719_non_negative_integer_min_inc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_non_negative_integer_min_inclusive001_1717_non_negative_integer_min_inclusive001_1717_v(mode, save_output):
+def test_non_negative_integer_min_inclusive001_1717_non_negative_integer_min_inclusive001_1717_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minInclusive and value=1 and
     document value=1
@@ -11963,11 +12709,12 @@ def test_non_negative_integer_min_inclusive001_1717_non_negative_integer_min_inc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_non_negative_integer_max_exclusive003_1716_non_negative_integer_max_exclusive003_1716_v(mode, save_output):
+def test_non_negative_integer_max_exclusive003_1716_non_negative_integer_max_exclusive003_1716_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxExclusive and value=7 and
     document value=5
@@ -11979,11 +12726,12 @@ def test_non_negative_integer_max_exclusive003_1716_non_negative_integer_max_exc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_non_negative_integer_max_inclusive003_1713_non_negative_integer_max_inclusive003_1713_v(mode, save_output):
+def test_non_negative_integer_max_inclusive003_1713_non_negative_integer_max_inclusive003_1713_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxInclusive and value=7 and
     document value=5
@@ -11995,11 +12743,12 @@ def test_non_negative_integer_max_inclusive003_1713_non_negative_integer_max_inc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_non_negative_integer_max_inclusive001_1711_non_negative_integer_max_inclusive001_1711_v(mode, save_output):
+def test_non_negative_integer_max_inclusive001_1711_non_negative_integer_max_inclusive001_1711_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxInclusive and value=1 and
     document value=1
@@ -12011,11 +12760,12 @@ def test_non_negative_integer_max_inclusive001_1711_non_negative_integer_max_inc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_non_negative_integer_enumeration004_1710_non_negative_integer_enumeration004_1710_v(mode, save_output):
+def test_non_negative_integer_enumeration004_1710_non_negative_integer_enumeration004_1710_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=enumeration and value=456 789 0
     and document value=456
@@ -12027,11 +12777,12 @@ def test_non_negative_integer_enumeration004_1710_non_negative_integer_enumerati
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_non_negative_integer_enumeration002_1708_non_negative_integer_enumeration002_1708_v(mode, save_output):
+def test_non_negative_integer_enumeration002_1708_non_negative_integer_enumeration002_1708_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=enumeration and value=456 and
     document value=456
@@ -12043,11 +12794,12 @@ def test_non_negative_integer_enumeration002_1708_non_negative_integer_enumerati
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_non_negative_integer_pattern001_1706_non_negative_integer_pattern001_1706_v(mode, save_output):
+def test_non_negative_integer_pattern001_1706_non_negative_integer_pattern001_1706_v(mode, save_output, output_format):
     r"""
     TEST :Facet Schemas for string : facet=pattern and value=\p{Nd}{1,3}
     and document value=5
@@ -12059,11 +12811,12 @@ def test_non_negative_integer_pattern001_1706_non_negative_integer_pattern001_17
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_byte_total_digits003_1705_byte_total_digits003_1705_v(mode, save_output):
+def test_byte_total_digits003_1705_byte_total_digits003_1705_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=totalDigits and value=4 and
     document value=123
@@ -12075,11 +12828,12 @@ def test_byte_total_digits003_1705_byte_total_digits003_1705_v(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_byte_total_digits002_1704_byte_total_digits002_1704_v(mode, save_output):
+def test_byte_total_digits002_1704_byte_total_digits002_1704_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=totalDigits and value=3 and
     document value=123
@@ -12091,11 +12845,12 @@ def test_byte_total_digits002_1704_byte_total_digits002_1704_v(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_byte_min_exclusive005_1702_byte_min_exclusive005_1702_v(mode, save_output):
+def test_byte_min_exclusive005_1702_byte_min_exclusive005_1702_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minExclusive and value=1 and
     facet=maxExclusive and value=7) and document value=5
@@ -12107,11 +12862,12 @@ def test_byte_min_exclusive005_1702_byte_min_exclusive005_1702_v(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_byte_min_exclusive004_1701_byte_min_exclusive004_1701_v(mode, save_output):
+def test_byte_min_exclusive004_1701_byte_min_exclusive004_1701_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minExclusive and value=1 and
     facet=maxInclusive and value=7) and document value=5
@@ -12123,11 +12879,12 @@ def test_byte_min_exclusive004_1701_byte_min_exclusive004_1701_v(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_byte_min_exclusive003_1700_byte_min_exclusive003_1700_v(mode, save_output):
+def test_byte_min_exclusive003_1700_byte_min_exclusive003_1700_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minExclusive and value=1 and
     document value=5
@@ -12139,11 +12896,12 @@ def test_byte_min_exclusive003_1700_byte_min_exclusive003_1700_v(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_byte_min_inclusive005_1697_byte_min_inclusive005_1697_v(mode, save_output):
+def test_byte_min_inclusive005_1697_byte_min_inclusive005_1697_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minInclusive and value=1 and
     facet=maxExclusive and value=7) and document value=5
@@ -12155,11 +12913,12 @@ def test_byte_min_inclusive005_1697_byte_min_inclusive005_1697_v(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_byte_min_inclusive004_1696_byte_min_inclusive004_1696_v(mode, save_output):
+def test_byte_min_inclusive004_1696_byte_min_inclusive004_1696_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minInclusive and value=1 and
     facet=maxInclusive and value=7) and document value=5
@@ -12171,11 +12930,12 @@ def test_byte_min_inclusive004_1696_byte_min_inclusive004_1696_v(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_byte_min_inclusive003_1695_byte_min_inclusive003_1695_v(mode, save_output):
+def test_byte_min_inclusive003_1695_byte_min_inclusive003_1695_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minInclusive and value=1 and
     document value=5
@@ -12187,11 +12947,12 @@ def test_byte_min_inclusive003_1695_byte_min_inclusive003_1695_v(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_byte_min_inclusive001_1693_byte_min_inclusive001_1693_v(mode, save_output):
+def test_byte_min_inclusive001_1693_byte_min_inclusive001_1693_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minInclusive and value=1 and
     document value=1
@@ -12203,11 +12964,12 @@ def test_byte_min_inclusive001_1693_byte_min_inclusive001_1693_v(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_byte_max_exclusive003_1692_byte_max_exclusive003_1692_v(mode, save_output):
+def test_byte_max_exclusive003_1692_byte_max_exclusive003_1692_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxExclusive and value=7 and
     document value=5
@@ -12219,11 +12981,12 @@ def test_byte_max_exclusive003_1692_byte_max_exclusive003_1692_v(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_byte_max_inclusive003_1689_byte_max_inclusive003_1689_v(mode, save_output):
+def test_byte_max_inclusive003_1689_byte_max_inclusive003_1689_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxInclusive and value=7 and
     document value=5
@@ -12235,11 +12998,12 @@ def test_byte_max_inclusive003_1689_byte_max_inclusive003_1689_v(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_byte_max_inclusive001_1687_byte_max_inclusive001_1687_v(mode, save_output):
+def test_byte_max_inclusive001_1687_byte_max_inclusive001_1687_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxInclusive and value=1 and
     document value=1
@@ -12251,11 +13015,12 @@ def test_byte_max_inclusive001_1687_byte_max_inclusive001_1687_v(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_byte_enumeration004_1686_byte_enumeration004_1686_v(mode, save_output):
+def test_byte_enumeration004_1686_byte_enumeration004_1686_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=enumeration and value=-1 0 1
     and document value=0
@@ -12267,11 +13032,12 @@ def test_byte_enumeration004_1686_byte_enumeration004_1686_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_byte_enumeration002_1684_byte_enumeration002_1684_v(mode, save_output):
+def test_byte_enumeration002_1684_byte_enumeration002_1684_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=enumeration and value=0 and
     document value=0
@@ -12283,11 +13049,12 @@ def test_byte_enumeration002_1684_byte_enumeration002_1684_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_byte_pattern001_1682_byte_pattern001_1682_v(mode, save_output):
+def test_byte_pattern001_1682_byte_pattern001_1682_v(mode, save_output, output_format):
     r"""
     TEST :Facet Schemas for string : facet=pattern and value=\p{Nd}{1,3}
     and document value=5
@@ -12299,11 +13066,12 @@ def test_byte_pattern001_1682_byte_pattern001_1682_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_short_total_digits003_1681_short_total_digits003_1681_v(mode, save_output):
+def test_short_total_digits003_1681_short_total_digits003_1681_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=totalDigits and value=4 and
     document value=123
@@ -12315,11 +13083,12 @@ def test_short_total_digits003_1681_short_total_digits003_1681_v(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_short_total_digits002_1680_short_total_digits002_1680_v(mode, save_output):
+def test_short_total_digits002_1680_short_total_digits002_1680_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=totalDigits and value=3 and
     document value=123
@@ -12331,11 +13100,12 @@ def test_short_total_digits002_1680_short_total_digits002_1680_v(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_short_min_exclusive005_1678_short_min_exclusive005_1678_v(mode, save_output):
+def test_short_min_exclusive005_1678_short_min_exclusive005_1678_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minExclusive and value=1 and
     facet=maxExclusive and value=7) and document value=5
@@ -12347,11 +13117,12 @@ def test_short_min_exclusive005_1678_short_min_exclusive005_1678_v(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_short_min_exclusive004_1677_short_min_exclusive004_1677_v(mode, save_output):
+def test_short_min_exclusive004_1677_short_min_exclusive004_1677_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minExclusive and value=1 and
     facet=maxInclusive and value=7) and document value=5
@@ -12363,11 +13134,12 @@ def test_short_min_exclusive004_1677_short_min_exclusive004_1677_v(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_short_min_exclusive003_1676_short_min_exclusive003_1676_v(mode, save_output):
+def test_short_min_exclusive003_1676_short_min_exclusive003_1676_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minExclusive and value=1 and
     document value=5
@@ -12379,11 +13151,12 @@ def test_short_min_exclusive003_1676_short_min_exclusive003_1676_v(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_short_min_inclusive005_1673_short_min_inclusive005_1673_v(mode, save_output):
+def test_short_min_inclusive005_1673_short_min_inclusive005_1673_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minInclusive and value=1 and
     facet=maxExclusive and value=7) and document value=5
@@ -12395,11 +13168,12 @@ def test_short_min_inclusive005_1673_short_min_inclusive005_1673_v(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_short_min_inclusive004_1672_short_min_inclusive004_1672_v(mode, save_output):
+def test_short_min_inclusive004_1672_short_min_inclusive004_1672_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minInclusive and value=1 and
     facet=maxInclusive and value=7) and document value=5
@@ -12411,11 +13185,12 @@ def test_short_min_inclusive004_1672_short_min_inclusive004_1672_v(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_short_min_inclusive003_1671_short_min_inclusive003_1671_v(mode, save_output):
+def test_short_min_inclusive003_1671_short_min_inclusive003_1671_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minInclusive and value=1 and
     document value=5
@@ -12427,11 +13202,12 @@ def test_short_min_inclusive003_1671_short_min_inclusive003_1671_v(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_short_min_inclusive001_1669_short_min_inclusive001_1669_v(mode, save_output):
+def test_short_min_inclusive001_1669_short_min_inclusive001_1669_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minInclusive and value=1 and
     document value=1
@@ -12443,11 +13219,12 @@ def test_short_min_inclusive001_1669_short_min_inclusive001_1669_v(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_short_max_exclusive003_1668_short_max_exclusive003_1668_v(mode, save_output):
+def test_short_max_exclusive003_1668_short_max_exclusive003_1668_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxExclusive and value=7 and
     document value=5
@@ -12459,11 +13236,12 @@ def test_short_max_exclusive003_1668_short_max_exclusive003_1668_v(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_short_max_inclusive003_1665_short_max_inclusive003_1665_v(mode, save_output):
+def test_short_max_inclusive003_1665_short_max_inclusive003_1665_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxInclusive and value=7 and
     document value=5
@@ -12475,11 +13253,12 @@ def test_short_max_inclusive003_1665_short_max_inclusive003_1665_v(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_short_max_inclusive001_1663_short_max_inclusive001_1663_v(mode, save_output):
+def test_short_max_inclusive001_1663_short_max_inclusive001_1663_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxInclusive and value=1 and
     document value=1
@@ -12491,11 +13270,12 @@ def test_short_max_inclusive001_1663_short_max_inclusive001_1663_v(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_short_enumeration004_1662_short_enumeration004_1662_v(mode, save_output):
+def test_short_enumeration004_1662_short_enumeration004_1662_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=enumeration and value=-1 0 1
     and document value=0
@@ -12507,11 +13287,12 @@ def test_short_enumeration004_1662_short_enumeration004_1662_v(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_short_enumeration002_1660_short_enumeration002_1660_v(mode, save_output):
+def test_short_enumeration002_1660_short_enumeration002_1660_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=enumeration and value=0 and
     document value=0
@@ -12523,11 +13304,12 @@ def test_short_enumeration002_1660_short_enumeration002_1660_v(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_short_pattern001_1658_short_pattern001_1658_v(mode, save_output):
+def test_short_pattern001_1658_short_pattern001_1658_v(mode, save_output, output_format):
     r"""
     TEST :Facet Schemas for string : facet=pattern and value=\p{Nd}{1,3}
     and document value=5
@@ -12539,11 +13321,12 @@ def test_short_pattern001_1658_short_pattern001_1658_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_int_total_digits003_1656_int_total_digits003_1656_v(mode, save_output):
+def test_int_total_digits003_1656_int_total_digits003_1656_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=totalDigits and value=4 and
     document value=123
@@ -12555,11 +13338,12 @@ def test_int_total_digits003_1656_int_total_digits003_1656_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_int_total_digits002_1655_int_total_digits002_1655_v(mode, save_output):
+def test_int_total_digits002_1655_int_total_digits002_1655_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=totalDigits and value=3 and
     document value=123
@@ -12571,11 +13355,12 @@ def test_int_total_digits002_1655_int_total_digits002_1655_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_int_min_exclusive005_1653_int_min_exclusive005_1653_v(mode, save_output):
+def test_int_min_exclusive005_1653_int_min_exclusive005_1653_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minExclusive and value=1 and
     facet=maxExclusive and value=7) and document value=5
@@ -12587,11 +13372,12 @@ def test_int_min_exclusive005_1653_int_min_exclusive005_1653_v(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_int_min_exclusive004_1652_int_min_exclusive004_1652_v(mode, save_output):
+def test_int_min_exclusive004_1652_int_min_exclusive004_1652_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minExclusive and value=1 and
     facet=maxInclusive and value=7) and document value=5
@@ -12603,11 +13389,12 @@ def test_int_min_exclusive004_1652_int_min_exclusive004_1652_v(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_int_min_exclusive003_1651_int_min_exclusive003_1651_v(mode, save_output):
+def test_int_min_exclusive003_1651_int_min_exclusive003_1651_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minExclusive and value=1 and
     document value=5
@@ -12619,11 +13406,12 @@ def test_int_min_exclusive003_1651_int_min_exclusive003_1651_v(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_int_min_inclusive005_1648_int_min_inclusive005_1648_v(mode, save_output):
+def test_int_min_inclusive005_1648_int_min_inclusive005_1648_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minInclusive and value=1 and
     facet=maxExclusive and value=7) and document value=5
@@ -12635,11 +13423,12 @@ def test_int_min_inclusive005_1648_int_min_inclusive005_1648_v(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_int_min_inclusive004_1647_int_min_inclusive004_1647_v(mode, save_output):
+def test_int_min_inclusive004_1647_int_min_inclusive004_1647_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minInclusive and value=1 and
     facet=maxInclusive and value=7) and document value=5
@@ -12651,11 +13440,12 @@ def test_int_min_inclusive004_1647_int_min_inclusive004_1647_v(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_int_min_inclusive003_1646_int_min_inclusive003_1646_v(mode, save_output):
+def test_int_min_inclusive003_1646_int_min_inclusive003_1646_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minInclusive and value=1 and
     document value=5
@@ -12667,11 +13457,12 @@ def test_int_min_inclusive003_1646_int_min_inclusive003_1646_v(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_int_min_inclusive001_1644_int_min_inclusive001_1644_v(mode, save_output):
+def test_int_min_inclusive001_1644_int_min_inclusive001_1644_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minInclusive and value=1 and
     document value=1
@@ -12683,11 +13474,12 @@ def test_int_min_inclusive001_1644_int_min_inclusive001_1644_v(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_int_max_exclusive003_1643_int_max_exclusive003_1643_v(mode, save_output):
+def test_int_max_exclusive003_1643_int_max_exclusive003_1643_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxExclusive and value=7 and
     document value=5
@@ -12699,11 +13491,12 @@ def test_int_max_exclusive003_1643_int_max_exclusive003_1643_v(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_int_max_inclusive003_1640_int_max_inclusive003_1640_v(mode, save_output):
+def test_int_max_inclusive003_1640_int_max_inclusive003_1640_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxInclusive and value=7 and
     document value=5
@@ -12715,11 +13508,12 @@ def test_int_max_inclusive003_1640_int_max_inclusive003_1640_v(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_int_max_inclusive001_1638_int_max_inclusive001_1638_v(mode, save_output):
+def test_int_max_inclusive001_1638_int_max_inclusive001_1638_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxInclusive and value=1 and
     document value=1
@@ -12731,11 +13525,12 @@ def test_int_max_inclusive001_1638_int_max_inclusive001_1638_v(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_int_enumeration004_1637_int_enumeration004_1637_v(mode, save_output):
+def test_int_enumeration004_1637_int_enumeration004_1637_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=enumeration and value=-1 0 1
     and document value=0
@@ -12747,11 +13542,12 @@ def test_int_enumeration004_1637_int_enumeration004_1637_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_int_enumeration002_1635_int_enumeration002_1635_v(mode, save_output):
+def test_int_enumeration002_1635_int_enumeration002_1635_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=enumeration and value=0 and
     document value=0
@@ -12763,11 +13559,12 @@ def test_int_enumeration002_1635_int_enumeration002_1635_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_int_pattern001_1633_int_pattern001_1633_v(mode, save_output):
+def test_int_pattern001_1633_int_pattern001_1633_v(mode, save_output, output_format):
     r"""
     TEST :Facet Schemas for string : facet=pattern and value=\p{Nd}{1,3}
     and document value=5
@@ -12779,11 +13576,12 @@ def test_int_pattern001_1633_int_pattern001_1633_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_long_total_digits003_1632_long_total_digits003_1632_v(mode, save_output):
+def test_long_total_digits003_1632_long_total_digits003_1632_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=totalDigits and value=4 and
     document value=123
@@ -12795,11 +13593,12 @@ def test_long_total_digits003_1632_long_total_digits003_1632_v(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_long_total_digits002_1631_long_total_digits002_1631_v(mode, save_output):
+def test_long_total_digits002_1631_long_total_digits002_1631_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=totalDigits and value=3 and
     document value=123
@@ -12811,11 +13610,12 @@ def test_long_total_digits002_1631_long_total_digits002_1631_v(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_long_min_exclusive005_1629_long_min_exclusive005_1629_v(mode, save_output):
+def test_long_min_exclusive005_1629_long_min_exclusive005_1629_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minExclusive and value=1 and
     facet=maxExclusive and value=7) and document value=5
@@ -12827,11 +13627,12 @@ def test_long_min_exclusive005_1629_long_min_exclusive005_1629_v(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_long_min_exclusive004_1628_long_min_exclusive004_1628_v(mode, save_output):
+def test_long_min_exclusive004_1628_long_min_exclusive004_1628_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minExclusive and value=1 and
     facet=maxInclusive and value=7) and document value=5
@@ -12843,11 +13644,12 @@ def test_long_min_exclusive004_1628_long_min_exclusive004_1628_v(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_long_min_exclusive003_1627_long_min_exclusive003_1627_v(mode, save_output):
+def test_long_min_exclusive003_1627_long_min_exclusive003_1627_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minExclusive and value=1 and
     document value=5
@@ -12859,11 +13661,12 @@ def test_long_min_exclusive003_1627_long_min_exclusive003_1627_v(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_long_min_inclusive005_1624_long_min_inclusive005_1624_v(mode, save_output):
+def test_long_min_inclusive005_1624_long_min_inclusive005_1624_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minInclusive and value=1 and
     facet=maxExclusive and value=7) and document value=5
@@ -12875,11 +13678,12 @@ def test_long_min_inclusive005_1624_long_min_inclusive005_1624_v(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_long_min_inclusive004_1623_long_min_inclusive004_1623_v(mode, save_output):
+def test_long_min_inclusive004_1623_long_min_inclusive004_1623_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minInclusive and value=1 and
     facet=maxInclusive and value=7) and document value=5
@@ -12891,11 +13695,12 @@ def test_long_min_inclusive004_1623_long_min_inclusive004_1623_v(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_long_min_inclusive003_1622_long_min_inclusive003_1622_v(mode, save_output):
+def test_long_min_inclusive003_1622_long_min_inclusive003_1622_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minInclusive and value=1 and
     document value=5
@@ -12907,11 +13712,12 @@ def test_long_min_inclusive003_1622_long_min_inclusive003_1622_v(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_long_min_inclusive001_1620_long_min_inclusive001_1620_v(mode, save_output):
+def test_long_min_inclusive001_1620_long_min_inclusive001_1620_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minInclusive and value=1 and
     document value=1
@@ -12923,11 +13729,12 @@ def test_long_min_inclusive001_1620_long_min_inclusive001_1620_v(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_long_max_exclusive003_1619_long_max_exclusive003_1619_v(mode, save_output):
+def test_long_max_exclusive003_1619_long_max_exclusive003_1619_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxExclusive and value=7 and
     document value=5
@@ -12939,11 +13746,12 @@ def test_long_max_exclusive003_1619_long_max_exclusive003_1619_v(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_long_max_inclusive003_1616_long_max_inclusive003_1616_v(mode, save_output):
+def test_long_max_inclusive003_1616_long_max_inclusive003_1616_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxInclusive and value=7 and
     document value=5
@@ -12955,11 +13763,12 @@ def test_long_max_inclusive003_1616_long_max_inclusive003_1616_v(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_long_max_inclusive001_1614_long_max_inclusive001_1614_v(mode, save_output):
+def test_long_max_inclusive001_1614_long_max_inclusive001_1614_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxInclusive and value=1 and
     document value=1
@@ -12971,11 +13780,12 @@ def test_long_max_inclusive001_1614_long_max_inclusive001_1614_v(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_long_enumeration004_1613_long_enumeration004_1613_v(mode, save_output):
+def test_long_enumeration004_1613_long_enumeration004_1613_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=enumeration and value=-1 0 1
     and document value=0
@@ -12987,11 +13797,12 @@ def test_long_enumeration004_1613_long_enumeration004_1613_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_long_enumeration002_1611_long_enumeration002_1611_v(mode, save_output):
+def test_long_enumeration002_1611_long_enumeration002_1611_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=enumeration and value=0 and
     document value=0
@@ -13003,11 +13814,12 @@ def test_long_enumeration002_1611_long_enumeration002_1611_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_long_pattern001_1609_long_pattern001_1609_v(mode, save_output):
+def test_long_pattern001_1609_long_pattern001_1609_v(mode, save_output, output_format):
     r"""
     TEST :Facet Schemas for string : facet=pattern and value=\p{Nd}{1,3}
     and document value=5
@@ -13019,11 +13831,12 @@ def test_long_pattern001_1609_long_pattern001_1609_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_negative_integer_total_digits003_1608_negative_integer_total_digits003_1608_v(mode, save_output):
+def test_negative_integer_total_digits003_1608_negative_integer_total_digits003_1608_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=totalDigits and value=4 and
     document value=-123
@@ -13035,11 +13848,12 @@ def test_negative_integer_total_digits003_1608_negative_integer_total_digits003_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_negative_integer_total_digits002_1607_negative_integer_total_digits002_1607_v(mode, save_output):
+def test_negative_integer_total_digits002_1607_negative_integer_total_digits002_1607_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=totalDigits and value=3 and
     document value=-123
@@ -13051,11 +13865,12 @@ def test_negative_integer_total_digits002_1607_negative_integer_total_digits002_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_negative_integer_min_exclusive005_1605_negative_integer_min_exclusive005_1605_v(mode, save_output):
+def test_negative_integer_min_exclusive005_1605_negative_integer_min_exclusive005_1605_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minExclusive and value=-7 and
     facet=maxExclusive and value=-1) and document value=-5
@@ -13067,11 +13882,12 @@ def test_negative_integer_min_exclusive005_1605_negative_integer_min_exclusive00
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_negative_integer_min_exclusive004_1604_negative_integer_min_exclusive004_1604_v(mode, save_output):
+def test_negative_integer_min_exclusive004_1604_negative_integer_min_exclusive004_1604_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minExclusive and value=-7 and
     facet=maxInclusive and value=-1) and document value=-5
@@ -13083,11 +13899,12 @@ def test_negative_integer_min_exclusive004_1604_negative_integer_min_exclusive00
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_negative_integer_min_exclusive003_1603_negative_integer_min_exclusive003_1603_v(mode, save_output):
+def test_negative_integer_min_exclusive003_1603_negative_integer_min_exclusive003_1603_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minExclusive and value=-7 and
     document value=-5
@@ -13099,11 +13916,12 @@ def test_negative_integer_min_exclusive003_1603_negative_integer_min_exclusive00
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_negative_integer_min_inclusive005_1600_negative_integer_min_inclusive005_1600_v(mode, save_output):
+def test_negative_integer_min_inclusive005_1600_negative_integer_min_inclusive005_1600_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minInclusive and value=-7 and
     facet=maxExclusive and value=-1) and document value=-5
@@ -13115,11 +13933,12 @@ def test_negative_integer_min_inclusive005_1600_negative_integer_min_inclusive00
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_negative_integer_min_inclusive004_1599_negative_integer_min_inclusive004_1599_v(mode, save_output):
+def test_negative_integer_min_inclusive004_1599_negative_integer_min_inclusive004_1599_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minInclusive and value=-7 and
     facet=maxInclusive and value=-1) and document value=-5
@@ -13131,11 +13950,12 @@ def test_negative_integer_min_inclusive004_1599_negative_integer_min_inclusive00
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_negative_integer_min_inclusive003_1598_negative_integer_min_inclusive003_1598_v(mode, save_output):
+def test_negative_integer_min_inclusive003_1598_negative_integer_min_inclusive003_1598_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minInclusive and value=-7 and
     document value=-5
@@ -13147,11 +13967,12 @@ def test_negative_integer_min_inclusive003_1598_negative_integer_min_inclusive00
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_negative_integer_min_inclusive001_1596_negative_integer_min_inclusive001_1596_v(mode, save_output):
+def test_negative_integer_min_inclusive001_1596_negative_integer_min_inclusive001_1596_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minInclusive and value=-7 and
     document value=-7
@@ -13163,11 +13984,12 @@ def test_negative_integer_min_inclusive001_1596_negative_integer_min_inclusive00
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_negative_integer_max_exclusive003_1595_negative_integer_max_exclusive003_1595_v(mode, save_output):
+def test_negative_integer_max_exclusive003_1595_negative_integer_max_exclusive003_1595_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxExclusive and value=-1 and
     document value=-5
@@ -13179,11 +14001,12 @@ def test_negative_integer_max_exclusive003_1595_negative_integer_max_exclusive00
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_negative_integer_max_inclusive003_1592_negative_integer_max_inclusive003_1592_v(mode, save_output):
+def test_negative_integer_max_inclusive003_1592_negative_integer_max_inclusive003_1592_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxInclusive and value=-1 and
     document value=-5
@@ -13195,11 +14018,12 @@ def test_negative_integer_max_inclusive003_1592_negative_integer_max_inclusive00
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_negative_integer_max_inclusive001_1590_negative_integer_max_inclusive001_1590_v(mode, save_output):
+def test_negative_integer_max_inclusive001_1590_negative_integer_max_inclusive001_1590_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxInclusive and value=-7 and
     document value=-7
@@ -13211,11 +14035,12 @@ def test_negative_integer_max_inclusive001_1590_negative_integer_max_inclusive00
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_negative_integer_enumeration004_1589_negative_integer_enumeration004_1589_v(mode, save_output):
+def test_negative_integer_enumeration004_1589_negative_integer_enumeration004_1589_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=enumeration and value=-456 -789
     -1 and document value=-456
@@ -13227,11 +14052,12 @@ def test_negative_integer_enumeration004_1589_negative_integer_enumeration004_15
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_negative_integer_enumeration002_1587_negative_integer_enumeration002_1587_v(mode, save_output):
+def test_negative_integer_enumeration002_1587_negative_integer_enumeration002_1587_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=enumeration and value=-456 and
     document value=-456
@@ -13243,11 +14069,12 @@ def test_negative_integer_enumeration002_1587_negative_integer_enumeration002_15
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_negative_integer_pattern001_1585_negative_integer_pattern001_1585_v(mode, save_output):
+def test_negative_integer_pattern001_1585_negative_integer_pattern001_1585_v(mode, save_output, output_format):
     r"""
     TEST :Facet Schemas for string : facet=pattern and value=-\p{Nd}{1,3}
     and document value=-5
@@ -13259,11 +14086,12 @@ def test_negative_integer_pattern001_1585_negative_integer_pattern001_1585_v(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_non_positive_integer_total_digits003_1584_non_positive_integer_total_digits003_1584_v(mode, save_output):
+def test_non_positive_integer_total_digits003_1584_non_positive_integer_total_digits003_1584_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=totalDigits and value=4 and
     document value=-123
@@ -13275,11 +14103,12 @@ def test_non_positive_integer_total_digits003_1584_non_positive_integer_total_di
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_non_positive_integer_total_digits002_1583_non_positive_integer_total_digits002_1583_v(mode, save_output):
+def test_non_positive_integer_total_digits002_1583_non_positive_integer_total_digits002_1583_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=totalDigits and value=3 and
     document value=-123
@@ -13291,11 +14120,12 @@ def test_non_positive_integer_total_digits002_1583_non_positive_integer_total_di
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_non_positive_integer_min_exclusive005_1581_non_positive_integer_min_exclusive005_1581_v(mode, save_output):
+def test_non_positive_integer_min_exclusive005_1581_non_positive_integer_min_exclusive005_1581_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minExclusive and value=-7 and
     facet=maxExclusive and value=-1) and document value=-5
@@ -13307,11 +14137,12 @@ def test_non_positive_integer_min_exclusive005_1581_non_positive_integer_min_exc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_non_positive_integer_min_exclusive004_1580_non_positive_integer_min_exclusive004_1580_v(mode, save_output):
+def test_non_positive_integer_min_exclusive004_1580_non_positive_integer_min_exclusive004_1580_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minExclusive and value=-7 and
     facet=maxInclusive and value=-1) and document value=-5
@@ -13323,11 +14154,12 @@ def test_non_positive_integer_min_exclusive004_1580_non_positive_integer_min_exc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_non_positive_integer_min_exclusive003_1579_non_positive_integer_min_exclusive003_1579_v(mode, save_output):
+def test_non_positive_integer_min_exclusive003_1579_non_positive_integer_min_exclusive003_1579_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minExclusive and value=-7 and
     document value=-5
@@ -13339,11 +14171,12 @@ def test_non_positive_integer_min_exclusive003_1579_non_positive_integer_min_exc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_non_positive_integer_min_inclusive005_1576_non_positive_integer_min_inclusive005_1576_v(mode, save_output):
+def test_non_positive_integer_min_inclusive005_1576_non_positive_integer_min_inclusive005_1576_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minInclusive and value=-7 and
     facet=maxExclusive and value=-1) and document value=-5
@@ -13355,11 +14188,12 @@ def test_non_positive_integer_min_inclusive005_1576_non_positive_integer_min_inc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_non_positive_integer_min_inclusive004_1575_non_positive_integer_min_inclusive004_1575_v(mode, save_output):
+def test_non_positive_integer_min_inclusive004_1575_non_positive_integer_min_inclusive004_1575_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minInclusive and value=-7 and
     facet=maxInclusive and value=-1) and document value=-5
@@ -13371,11 +14205,12 @@ def test_non_positive_integer_min_inclusive004_1575_non_positive_integer_min_inc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_non_positive_integer_min_inclusive003_1574_non_positive_integer_min_inclusive003_1574_v(mode, save_output):
+def test_non_positive_integer_min_inclusive003_1574_non_positive_integer_min_inclusive003_1574_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minInclusive and value=-7 and
     document value=-5
@@ -13387,11 +14222,12 @@ def test_non_positive_integer_min_inclusive003_1574_non_positive_integer_min_inc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_non_positive_integer_min_inclusive001_1572_non_positive_integer_min_inclusive001_1572_v(mode, save_output):
+def test_non_positive_integer_min_inclusive001_1572_non_positive_integer_min_inclusive001_1572_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minInclusive and value=-7 and
     document value=-7
@@ -13403,11 +14239,12 @@ def test_non_positive_integer_min_inclusive001_1572_non_positive_integer_min_inc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_non_positive_integer_max_exclusive003_1571_non_positive_integer_max_exclusive003_1571_v(mode, save_output):
+def test_non_positive_integer_max_exclusive003_1571_non_positive_integer_max_exclusive003_1571_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxExclusive and value=-1 and
     document value=-5
@@ -13419,11 +14256,12 @@ def test_non_positive_integer_max_exclusive003_1571_non_positive_integer_max_exc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_non_positive_integer_max_inclusive003_1568_non_positive_integer_max_inclusive003_1568_v(mode, save_output):
+def test_non_positive_integer_max_inclusive003_1568_non_positive_integer_max_inclusive003_1568_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxInclusive and value=-1 and
     document value=-5
@@ -13435,11 +14273,12 @@ def test_non_positive_integer_max_inclusive003_1568_non_positive_integer_max_inc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_non_positive_integer_max_inclusive001_1566_non_positive_integer_max_inclusive001_1566_v(mode, save_output):
+def test_non_positive_integer_max_inclusive001_1566_non_positive_integer_max_inclusive001_1566_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxInclusive and value=-7 and
     document value=-7
@@ -13451,11 +14290,12 @@ def test_non_positive_integer_max_inclusive001_1566_non_positive_integer_max_inc
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_non_positive_integer_enumeration004_1565_non_positive_integer_enumeration004_1565_v(mode, save_output):
+def test_non_positive_integer_enumeration004_1565_non_positive_integer_enumeration004_1565_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=enumeration and value=-456 -789
     0 and document value=-456
@@ -13467,11 +14307,12 @@ def test_non_positive_integer_enumeration004_1565_non_positive_integer_enumerati
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_non_positive_integer_enumeration002_1563_non_positive_integer_enumeration002_1563_v(mode, save_output):
+def test_non_positive_integer_enumeration002_1563_non_positive_integer_enumeration002_1563_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=enumeration and value=-456 and
     document value=-456
@@ -13483,11 +14324,12 @@ def test_non_positive_integer_enumeration002_1563_non_positive_integer_enumerati
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_non_positive_integer_pattern001_1561_non_positive_integer_pattern001_1561_v(mode, save_output):
+def test_non_positive_integer_pattern001_1561_non_positive_integer_pattern001_1561_v(mode, save_output, output_format):
     r"""
     TEST :Facet Schemas for string : facet=pattern and value=-\p{Nd}{1,3}
     and document value=-5
@@ -13499,11 +14341,12 @@ def test_non_positive_integer_pattern001_1561_non_positive_integer_pattern001_15
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_integer_total_digits003_1560_integer_total_digits003_1560_v(mode, save_output):
+def test_integer_total_digits003_1560_integer_total_digits003_1560_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=totalDigits and value=4 and
     document value=123
@@ -13515,11 +14358,12 @@ def test_integer_total_digits003_1560_integer_total_digits003_1560_v(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_integer_total_digits002_1559_integer_total_digits002_1559_v(mode, save_output):
+def test_integer_total_digits002_1559_integer_total_digits002_1559_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=totalDigits and value=3 and
     document value=123
@@ -13531,11 +14375,12 @@ def test_integer_total_digits002_1559_integer_total_digits002_1559_v(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_integer_min_exclusive005_1557_integer_min_exclusive005_1557_v(mode, save_output):
+def test_integer_min_exclusive005_1557_integer_min_exclusive005_1557_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minExclusive and value=1 and
     facet=maxExclusive and value=7) and document value=5
@@ -13547,11 +14392,12 @@ def test_integer_min_exclusive005_1557_integer_min_exclusive005_1557_v(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_integer_min_exclusive004_1556_integer_min_exclusive004_1556_v(mode, save_output):
+def test_integer_min_exclusive004_1556_integer_min_exclusive004_1556_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minExclusive and value=1 and
     facet=maxInclusive and value=7) and document value=5
@@ -13563,11 +14409,12 @@ def test_integer_min_exclusive004_1556_integer_min_exclusive004_1556_v(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_integer_min_exclusive003_1555_integer_min_exclusive003_1555_v(mode, save_output):
+def test_integer_min_exclusive003_1555_integer_min_exclusive003_1555_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minExclusive and value=1 and
     document value=5
@@ -13579,11 +14426,12 @@ def test_integer_min_exclusive003_1555_integer_min_exclusive003_1555_v(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_integer_min_inclusive005_1552_integer_min_inclusive005_1552_v(mode, save_output):
+def test_integer_min_inclusive005_1552_integer_min_inclusive005_1552_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minInclusive and value=1 and
     facet=maxExclusive and value=7) and document value=5
@@ -13595,11 +14443,12 @@ def test_integer_min_inclusive005_1552_integer_min_inclusive005_1552_v(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_integer_min_inclusive004_1551_integer_min_inclusive004_1551_v(mode, save_output):
+def test_integer_min_inclusive004_1551_integer_min_inclusive004_1551_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minInclusive and value=1 and
     facet=maxInclusive and value=7) and document value=5
@@ -13611,11 +14460,12 @@ def test_integer_min_inclusive004_1551_integer_min_inclusive004_1551_v(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_integer_min_inclusive003_1550_integer_min_inclusive003_1550_v(mode, save_output):
+def test_integer_min_inclusive003_1550_integer_min_inclusive003_1550_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minInclusive and value=1 and
     document value=5
@@ -13627,11 +14477,12 @@ def test_integer_min_inclusive003_1550_integer_min_inclusive003_1550_v(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_integer_min_inclusive001_1548_integer_min_inclusive001_1548_v(mode, save_output):
+def test_integer_min_inclusive001_1548_integer_min_inclusive001_1548_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minInclusive and value=1 and
     document value=1
@@ -13643,11 +14494,12 @@ def test_integer_min_inclusive001_1548_integer_min_inclusive001_1548_v(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_integer_max_exclusive003_1547_integer_max_exclusive003_1547_v(mode, save_output):
+def test_integer_max_exclusive003_1547_integer_max_exclusive003_1547_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxExclusive and value=7 and
     document value=5
@@ -13659,11 +14511,12 @@ def test_integer_max_exclusive003_1547_integer_max_exclusive003_1547_v(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_integer_max_inclusive003_1544_integer_max_inclusive003_1544_v(mode, save_output):
+def test_integer_max_inclusive003_1544_integer_max_inclusive003_1544_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxInclusive and value=7 and
     document value=5
@@ -13675,11 +14528,12 @@ def test_integer_max_inclusive003_1544_integer_max_inclusive003_1544_v(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_integer_max_inclusive001_1542_integer_max_inclusive001_1542_v(mode, save_output):
+def test_integer_max_inclusive001_1542_integer_max_inclusive001_1542_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxInclusive and value=1 and
     document value=1
@@ -13691,11 +14545,12 @@ def test_integer_max_inclusive001_1542_integer_max_inclusive001_1542_v(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_integer_enumeration004_1541_integer_enumeration004_1541_v(mode, save_output):
+def test_integer_enumeration004_1541_integer_enumeration004_1541_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=enumeration and value=123 456
     789 and document value=123
@@ -13707,11 +14562,12 @@ def test_integer_enumeration004_1541_integer_enumeration004_1541_v(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_integer_enumeration002_1539_integer_enumeration002_1539_v(mode, save_output):
+def test_integer_enumeration002_1539_integer_enumeration002_1539_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=enumeration and value=123 and
     document value=123
@@ -13723,11 +14579,12 @@ def test_integer_enumeration002_1539_integer_enumeration002_1539_v(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_integer_pattern001_1537_integer_pattern001_1537_v(mode, save_output):
+def test_integer_pattern001_1537_integer_pattern001_1537_v(mode, save_output, output_format):
     r"""
     TEST :Facet Schemas for string : facet=pattern and value=\p{Nd}{1,3}
     and document value=5
@@ -13739,11 +14596,12 @@ def test_integer_pattern001_1537_integer_pattern001_1537_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_idref_enumeration004_1536_idref_enumeration004_1536_v(mode, save_output):
+def test_idref_enumeration004_1536_idref_enumeration004_1536_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=enumeration and value=foo
     foo123 fu1 and document value=foo
@@ -13755,11 +14613,12 @@ def test_idref_enumeration004_1536_idref_enumeration004_1536_v(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_idref_enumeration002_1534_idref_enumeration002_1534_v(mode, save_output):
+def test_idref_enumeration002_1534_idref_enumeration002_1534_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=enumeration and value=foo and
     document value=foo
@@ -13771,11 +14630,12 @@ def test_idref_enumeration002_1534_idref_enumeration002_1534_v(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_idref_pattern001_1532_idref_pattern001_1532_v(mode, save_output):
+def test_idref_pattern001_1532_idref_pattern001_1532_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=pattern and value=[a-z]{3} and
     document value=abc
@@ -13787,11 +14647,12 @@ def test_idref_pattern001_1532_idref_pattern001_1532_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_idref_max_length003_1531_idref_max_length003_1531_v(mode, save_output):
+def test_idref_max_length003_1531_idref_max_length003_1531_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxLength and value=6 and
     document value=foofo
@@ -13803,11 +14664,12 @@ def test_idref_max_length003_1531_idref_max_length003_1531_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_idref_max_length002_1530_idref_max_length002_1530_v(mode, save_output):
+def test_idref_max_length002_1530_idref_max_length002_1530_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxLength and value=5 and
     document value=foofo
@@ -13819,11 +14681,12 @@ def test_idref_max_length002_1530_idref_max_length002_1530_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_idref_min_length004_1528_idref_min_length004_1528_v(mode, save_output):
+def test_idref_min_length004_1528_idref_min_length004_1528_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minLength and value=4 and
     facet=maxLength and value=6) and document value=foofo
@@ -13835,11 +14698,12 @@ def test_idref_min_length004_1528_idref_min_length004_1528_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_idref_min_length002_1526_idref_min_length002_1526_v(mode, save_output):
+def test_idref_min_length002_1526_idref_min_length002_1526_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minLength and value=5 and
     document value=foofo
@@ -13851,11 +14715,12 @@ def test_idref_min_length002_1526_idref_min_length002_1526_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_idref_min_length001_1525_idref_min_length001_1525_v(mode, save_output):
+def test_idref_min_length001_1525_idref_min_length001_1525_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minLength and value=4 and
     document value=foofo
@@ -13867,11 +14732,12 @@ def test_idref_min_length001_1525_idref_min_length001_1525_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_idref_length002_1523_idref_length002_1523_v(mode, save_output):
+def test_idref_length002_1523_idref_length002_1523_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=length and value=5 and document
     value=foofo
@@ -13883,11 +14749,12 @@ def test_idref_length002_1523_idref_length002_1523_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_enumeration004_1521_id_enumeration004_1521_v(mode, save_output):
+def test_id_enumeration004_1521_id_enumeration004_1521_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=enumeration and value=foo
     foo123 fu1 and document value=foo
@@ -13899,11 +14766,12 @@ def test_id_enumeration004_1521_id_enumeration004_1521_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_enumeration002_1519_id_enumeration002_1519_v(mode, save_output):
+def test_id_enumeration002_1519_id_enumeration002_1519_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=enumeration and value=foo and
     document value=foo
@@ -13915,11 +14783,12 @@ def test_id_enumeration002_1519_id_enumeration002_1519_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_pattern001_1517_id_pattern001_1517_v(mode, save_output):
+def test_id_pattern001_1517_id_pattern001_1517_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=pattern and value=[a-z]{3} and
     document value=abc
@@ -13931,11 +14800,12 @@ def test_id_pattern001_1517_id_pattern001_1517_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_max_length003_1516_id_max_length003_1516_v(mode, save_output):
+def test_id_max_length003_1516_id_max_length003_1516_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxLength and value=6 and
     document value=foofo
@@ -13947,11 +14817,12 @@ def test_id_max_length003_1516_id_max_length003_1516_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_max_length002_1515_id_max_length002_1515_v(mode, save_output):
+def test_id_max_length002_1515_id_max_length002_1515_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxLength and value=5 and
     document value=foofo
@@ -13963,11 +14834,12 @@ def test_id_max_length002_1515_id_max_length002_1515_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_min_length004_1513_id_min_length004_1513_v(mode, save_output):
+def test_id_min_length004_1513_id_min_length004_1513_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minLength and value=4 and
     facet=maxLength and value=6) and document value=foofo
@@ -13979,11 +14851,12 @@ def test_id_min_length004_1513_id_min_length004_1513_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_min_length002_1511_id_min_length002_1511_v(mode, save_output):
+def test_id_min_length002_1511_id_min_length002_1511_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minLength and value=5 and
     document value=foofo
@@ -13995,11 +14868,12 @@ def test_id_min_length002_1511_id_min_length002_1511_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_min_length001_1510_id_min_length001_1510_v(mode, save_output):
+def test_id_min_length001_1510_id_min_length001_1510_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minLength and value=4 and
     document value=foofo
@@ -14011,11 +14885,12 @@ def test_id_min_length001_1510_id_min_length001_1510_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_id_length002_1508_id_length002_1508_v(mode, save_output):
+def test_id_length002_1508_id_length002_1508_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=length and value=5 and document
     value=foofo
@@ -14027,11 +14902,12 @@ def test_id_length002_1508_id_length002_1508_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ncname_enumeration004_1506_ncname_enumeration004_1506_v(mode, save_output):
+def test_ncname_enumeration004_1506_ncname_enumeration004_1506_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=enumeration and value=foo
     foo123 fu1 and document value=foo
@@ -14043,11 +14919,12 @@ def test_ncname_enumeration004_1506_ncname_enumeration004_1506_v(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ncname_enumeration002_1504_ncname_enumeration002_1504_v(mode, save_output):
+def test_ncname_enumeration002_1504_ncname_enumeration002_1504_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=enumeration and value=foo and
     document value=foo
@@ -14059,11 +14936,12 @@ def test_ncname_enumeration002_1504_ncname_enumeration002_1504_v(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ncname_pattern001_1502_ncname_pattern001_1502_v(mode, save_output):
+def test_ncname_pattern001_1502_ncname_pattern001_1502_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=pattern and value=[a-z]{3} and
     document value=abc
@@ -14075,11 +14953,12 @@ def test_ncname_pattern001_1502_ncname_pattern001_1502_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ncname_max_length003_1501_ncname_max_length003_1501_v(mode, save_output):
+def test_ncname_max_length003_1501_ncname_max_length003_1501_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxLength and value=6 and
     document value=foofo
@@ -14091,11 +14970,12 @@ def test_ncname_max_length003_1501_ncname_max_length003_1501_v(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ncname_max_length002_1500_ncname_max_length002_1500_v(mode, save_output):
+def test_ncname_max_length002_1500_ncname_max_length002_1500_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxLength and value=5 and
     document value=foofo
@@ -14107,11 +14987,12 @@ def test_ncname_max_length002_1500_ncname_max_length002_1500_v(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ncname_min_length004_1498_ncname_min_length004_1498_v(mode, save_output):
+def test_ncname_min_length004_1498_ncname_min_length004_1498_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minLength and value=4 and
     facet=maxLength and value=6) and document value=foofo
@@ -14123,11 +15004,12 @@ def test_ncname_min_length004_1498_ncname_min_length004_1498_v(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ncname_min_length002_1496_ncname_min_length002_1496_v(mode, save_output):
+def test_ncname_min_length002_1496_ncname_min_length002_1496_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minLength and value=5 and
     document value=foofo
@@ -14139,11 +15021,12 @@ def test_ncname_min_length002_1496_ncname_min_length002_1496_v(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ncname_min_length001_1495_ncname_min_length001_1495_v(mode, save_output):
+def test_ncname_min_length001_1495_ncname_min_length001_1495_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minLength and value=4 and
     document value=foofo
@@ -14155,11 +15038,12 @@ def test_ncname_min_length001_1495_ncname_min_length001_1495_v(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_ncname_length002_1493_ncname_length002_1493_v(mode, save_output):
+def test_ncname_length002_1493_ncname_length002_1493_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=length and value=5 and document
     value=foofo
@@ -14171,11 +15055,12 @@ def test_ncname_length002_1493_ncname_length002_1493_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_name_enumeration004_1491_name_enumeration004_1491_v(mode, save_output):
+def test_name_enumeration004_1491_name_enumeration004_1491_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=enumeration and value=foo
     foo123 fu1 and document value=foo
@@ -14187,11 +15072,12 @@ def test_name_enumeration004_1491_name_enumeration004_1491_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_name_enumeration002_1489_name_enumeration002_1489_v(mode, save_output):
+def test_name_enumeration002_1489_name_enumeration002_1489_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=enumeration and value=foo and
     document value=foo
@@ -14203,11 +15089,12 @@ def test_name_enumeration002_1489_name_enumeration002_1489_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_name_pattern001_1487_name_pattern001_1487_v(mode, save_output):
+def test_name_pattern001_1487_name_pattern001_1487_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=pattern and value=[a-z]{3} and
     document value=abc
@@ -14219,11 +15106,12 @@ def test_name_pattern001_1487_name_pattern001_1487_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_name_max_length003_1486_name_max_length003_1486_v(mode, save_output):
+def test_name_max_length003_1486_name_max_length003_1486_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxLength and value=6 and
     document value=foofo
@@ -14235,11 +15123,12 @@ def test_name_max_length003_1486_name_max_length003_1486_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_name_max_length002_1485_name_max_length002_1485_v(mode, save_output):
+def test_name_max_length002_1485_name_max_length002_1485_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxLength and value=5 and
     document value=foofo
@@ -14251,11 +15140,12 @@ def test_name_max_length002_1485_name_max_length002_1485_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_name_min_length004_1483_name_min_length004_1483_v(mode, save_output):
+def test_name_min_length004_1483_name_min_length004_1483_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minLength and value=4 and
     facet=maxLength and value=6) and document value=foofo
@@ -14267,11 +15157,12 @@ def test_name_min_length004_1483_name_min_length004_1483_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_name_min_length002_1481_name_min_length002_1481_v(mode, save_output):
+def test_name_min_length002_1481_name_min_length002_1481_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minLength and value=5 and
     document value=foofo
@@ -14283,11 +15174,12 @@ def test_name_min_length002_1481_name_min_length002_1481_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_name_min_length001_1480_name_min_length001_1480_v(mode, save_output):
+def test_name_min_length001_1480_name_min_length001_1480_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minLength and value=4 and
     document value=foofo
@@ -14299,11 +15191,12 @@ def test_name_min_length001_1480_name_min_length001_1480_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_name_length002_1478_name_length002_1478_v(mode, save_output):
+def test_name_length002_1478_name_length002_1478_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=length and value=5 and document
     value=foofo
@@ -14315,11 +15208,12 @@ def test_name_length002_1478_name_length002_1478_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_nmtokens_pattern001_1475_nmtokens_pattern001_1475_v(mode, save_output):
+def test_nmtokens_pattern001_1475_nmtokens_pattern001_1475_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : XSD: NMTOKENS, IDREFS, and ENTITIES
     now allow the pattern facet
@@ -14331,11 +15225,12 @@ def test_nmtokens_pattern001_1475_nmtokens_pattern001_1475_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_nmtokens_enumeration004_1474_nmtokens_enumeration004_1474_v(mode, save_output):
+def test_nmtokens_enumeration004_1474_nmtokens_enumeration004_1474_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=enumeration and value=foo
     foo123 fu1 and document value=foo
@@ -14347,11 +15242,12 @@ def test_nmtokens_enumeration004_1474_nmtokens_enumeration004_1474_v(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_nmtokens_enumeration002_1472_nmtokens_enumeration002_1472_v(mode, save_output):
+def test_nmtokens_enumeration002_1472_nmtokens_enumeration002_1472_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=enumeration and value=foo and
     document value=foo
@@ -14363,11 +15259,12 @@ def test_nmtokens_enumeration002_1472_nmtokens_enumeration002_1472_v(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_nmtokens_max_length003_1470_nmtokens_max_length003_1470_v(mode, save_output):
+def test_nmtokens_max_length003_1470_nmtokens_max_length003_1470_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxLength and value=6 and
     document value=foofo
@@ -14379,11 +15276,12 @@ def test_nmtokens_max_length003_1470_nmtokens_max_length003_1470_v(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_nmtokens_max_length002_1469_nmtokens_max_length002_1469_v(mode, save_output):
+def test_nmtokens_max_length002_1469_nmtokens_max_length002_1469_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxLength and value=5 and
     document value=foofo
@@ -14395,11 +15293,12 @@ def test_nmtokens_max_length002_1469_nmtokens_max_length002_1469_v(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_nmtokens_min_length002_1465_nmtokens_min_length002_1465_v(mode, save_output):
+def test_nmtokens_min_length002_1465_nmtokens_min_length002_1465_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minLength and value=5 and
     document value=foofo
@@ -14411,11 +15310,12 @@ def test_nmtokens_min_length002_1465_nmtokens_min_length002_1465_v(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_nmtokens_length002_1462_nmtokens_length002_1462_v(mode, save_output):
+def test_nmtokens_length002_1462_nmtokens_length002_1462_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=length and value=5 and document
     value=foofo
@@ -14427,11 +15327,12 @@ def test_nmtokens_length002_1462_nmtokens_length002_1462_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_nmtoken_enumeration004_1460_nmtoken_enumeration004_1460_v(mode, save_output):
+def test_nmtoken_enumeration004_1460_nmtoken_enumeration004_1460_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=enumeration and value=foo
     foo123 fu1 and document value=foo
@@ -14443,11 +15344,12 @@ def test_nmtoken_enumeration004_1460_nmtoken_enumeration004_1460_v(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_nmtoken_enumeration002_1458_nmtoken_enumeration002_1458_v(mode, save_output):
+def test_nmtoken_enumeration002_1458_nmtoken_enumeration002_1458_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=enumeration and value=foo and
     document value=foo
@@ -14459,11 +15361,12 @@ def test_nmtoken_enumeration002_1458_nmtoken_enumeration002_1458_v(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_nmtoken_pattern001_1456_nmtoken_pattern001_1456_v(mode, save_output):
+def test_nmtoken_pattern001_1456_nmtoken_pattern001_1456_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=pattern and value=[a-z]{3} and
     document value=abc
@@ -14475,11 +15378,12 @@ def test_nmtoken_pattern001_1456_nmtoken_pattern001_1456_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_nmtoken_max_length003_1455_nmtoken_max_length003_1455_v(mode, save_output):
+def test_nmtoken_max_length003_1455_nmtoken_max_length003_1455_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxLength and value=6 and
     document value=foofo
@@ -14491,11 +15395,12 @@ def test_nmtoken_max_length003_1455_nmtoken_max_length003_1455_v(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_nmtoken_max_length002_1454_nmtoken_max_length002_1454_v(mode, save_output):
+def test_nmtoken_max_length002_1454_nmtoken_max_length002_1454_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxLength and value=5 and
     document value=foofo
@@ -14507,11 +15412,12 @@ def test_nmtoken_max_length002_1454_nmtoken_max_length002_1454_v(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_nmtoken_min_length004_1452_nmtoken_min_length004_1452_v(mode, save_output):
+def test_nmtoken_min_length004_1452_nmtoken_min_length004_1452_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minLength and value=4 and
     facet=maxLength and value=6) and document value=foofo
@@ -14523,11 +15429,12 @@ def test_nmtoken_min_length004_1452_nmtoken_min_length004_1452_v(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_nmtoken_min_length002_1450_nmtoken_min_length002_1450_v(mode, save_output):
+def test_nmtoken_min_length002_1450_nmtoken_min_length002_1450_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minLength and value=5 and
     document value=foofo
@@ -14539,11 +15446,12 @@ def test_nmtoken_min_length002_1450_nmtoken_min_length002_1450_v(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_nmtoken_min_length001_1449_nmtoken_min_length001_1449_v(mode, save_output):
+def test_nmtoken_min_length001_1449_nmtoken_min_length001_1449_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minLength and value=4 and
     document value=foofo
@@ -14555,11 +15463,12 @@ def test_nmtoken_min_length001_1449_nmtoken_min_length001_1449_v(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_nmtoken_length002_1447_nmtoken_length002_1447_v(mode, save_output):
+def test_nmtoken_length002_1447_nmtoken_length002_1447_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=length and value=5 and document
     value=foofo
@@ -14571,11 +15480,12 @@ def test_nmtoken_length002_1447_nmtoken_length002_1447_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_idrefs_enumeration004_1445_idrefs_enumeration004_1445_v(mode, save_output):
+def test_idrefs_enumeration004_1445_idrefs_enumeration004_1445_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=enumeration and value=foo
     foo123 fu1 and document value=foo
@@ -14587,11 +15497,12 @@ def test_idrefs_enumeration004_1445_idrefs_enumeration004_1445_v(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_idrefs_enumeration002_1443_idrefs_enumeration002_1443_v(mode, save_output):
+def test_idrefs_enumeration002_1443_idrefs_enumeration002_1443_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=enumeration and value=foo and
     document value=foo
@@ -14603,11 +15514,12 @@ def test_idrefs_enumeration002_1443_idrefs_enumeration002_1443_v(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_idrefs_max_length003_1441_idrefs_max_length003_1441_v(mode, save_output):
+def test_idrefs_max_length003_1441_idrefs_max_length003_1441_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxLength and value=2 and
     document value=foofo
@@ -14619,11 +15531,12 @@ def test_idrefs_max_length003_1441_idrefs_max_length003_1441_v(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_idrefs_max_length002_1440_idrefs_max_length002_1440_v(mode, save_output):
+def test_idrefs_max_length002_1440_idrefs_max_length002_1440_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxLength and value=1 and
     document value=more
@@ -14635,11 +15548,12 @@ def test_idrefs_max_length002_1440_idrefs_max_length002_1440_v(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_idrefs_min_length004_1438_idrefs_min_length004_1438_v(mode, save_output):
+def test_idrefs_min_length004_1438_idrefs_min_length004_1438_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minLength and value=4 and
     facet=maxLength and value=6) and document value=foofo
@@ -14651,11 +15565,12 @@ def test_idrefs_min_length004_1438_idrefs_min_length004_1438_v(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_idrefs_min_length002_1436_idrefs_min_length002_1436_v(mode, save_output):
+def test_idrefs_min_length002_1436_idrefs_min_length002_1436_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minLength and value=2 and
     document value="more foofo"
@@ -14667,11 +15582,12 @@ def test_idrefs_min_length002_1436_idrefs_min_length002_1436_v(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_idrefs_min_length001_1435_idrefs_min_length001_1435_v(mode, save_output):
+def test_idrefs_min_length001_1435_idrefs_min_length001_1435_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minLength and value=1 and
     document value="foofo more"
@@ -14683,11 +15599,12 @@ def test_idrefs_min_length001_1435_idrefs_min_length001_1435_v(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_idrefs_length002_1433_idrefs_length002_1433_v(mode, save_output):
+def test_idrefs_length002_1433_idrefs_length002_1433_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=length and value=2 and document
     value="foofo more"
@@ -14699,11 +15616,12 @@ def test_idrefs_length002_1433_idrefs_length002_1433_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_language_enumeration004_1431_language_enumeration004_1431_v(mode, save_output):
+def test_language_enumeration004_1431_language_enumeration004_1431_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=enumeration and value=en fr de
     and document value=en
@@ -14715,11 +15633,12 @@ def test_language_enumeration004_1431_language_enumeration004_1431_v(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_language_enumeration002_1429_language_enumeration002_1429_v(mode, save_output):
+def test_language_enumeration002_1429_language_enumeration002_1429_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=enumeration and value=en and
     document value=en
@@ -14731,11 +15650,12 @@ def test_language_enumeration002_1429_language_enumeration002_1429_v(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_language_pattern001_1427_language_pattern001_1427_v(mode, save_output):
+def test_language_pattern001_1427_language_pattern001_1427_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=pattern and value=en-[a-z]{2}
     and document value=en-xx
@@ -14747,11 +15667,12 @@ def test_language_pattern001_1427_language_pattern001_1427_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_language_max_length003_1426_language_max_length003_1426_v(mode, save_output):
+def test_language_max_length003_1426_language_max_length003_1426_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxLength and value=6 and
     document value=en-xx
@@ -14763,11 +15684,12 @@ def test_language_max_length003_1426_language_max_length003_1426_v(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_language_max_length002_1425_language_max_length002_1425_v(mode, save_output):
+def test_language_max_length002_1425_language_max_length002_1425_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxLength and value=5 and
     document value=en-xx
@@ -14779,11 +15701,12 @@ def test_language_max_length002_1425_language_max_length002_1425_v(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_language_min_length004_1423_language_min_length004_1423_v(mode, save_output):
+def test_language_min_length004_1423_language_min_length004_1423_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minLength and value=4 and
     facet=maxLength and value=6) and document value=en-xx
@@ -14795,11 +15718,12 @@ def test_language_min_length004_1423_language_min_length004_1423_v(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_language_min_length002_1421_language_min_length002_1421_v(mode, save_output):
+def test_language_min_length002_1421_language_min_length002_1421_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minLength and value=5 and
     document value=en-xx
@@ -14811,11 +15735,12 @@ def test_language_min_length002_1421_language_min_length002_1421_v(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_language_min_length001_1420_language_min_length001_1420_v(mode, save_output):
+def test_language_min_length001_1420_language_min_length001_1420_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minLength and value=4 and
     document value=en-xx
@@ -14827,11 +15752,12 @@ def test_language_min_length001_1420_language_min_length001_1420_v(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_language_length002_1418_language_length002_1418_v(mode, save_output):
+def test_language_length002_1418_language_length002_1418_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=length and value=5 and document
     value=en-xx
@@ -14843,11 +15769,12 @@ def test_language_length002_1418_language_length002_1418_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_token_enumeration004_1416_token_enumeration004_1416_v(mode, save_output):
+def test_token_enumeration004_1416_token_enumeration004_1416_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=enumeration and value=foo
     foo123 fu1 and document value=foo
@@ -14859,11 +15786,12 @@ def test_token_enumeration004_1416_token_enumeration004_1416_v(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_token_enumeration002_1414_token_enumeration002_1414_v(mode, save_output):
+def test_token_enumeration002_1414_token_enumeration002_1414_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=enumeration and value=foo and
     document value=foo
@@ -14875,11 +15803,12 @@ def test_token_enumeration002_1414_token_enumeration002_1414_v(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_token_pattern001_1412_token_pattern001_1412_v(mode, save_output):
+def test_token_pattern001_1412_token_pattern001_1412_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=pattern and value=[a-z]{3} and
     document value=abc
@@ -14891,11 +15820,12 @@ def test_token_pattern001_1412_token_pattern001_1412_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_token_max_length003_1411_token_max_length003_1411_v(mode, save_output):
+def test_token_max_length003_1411_token_max_length003_1411_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxLength and value=6 and
     document value=foofo
@@ -14907,11 +15837,12 @@ def test_token_max_length003_1411_token_max_length003_1411_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_token_max_length002_1410_token_max_length002_1410_v(mode, save_output):
+def test_token_max_length002_1410_token_max_length002_1410_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxLength and value=5 and
     document value=foofo
@@ -14923,11 +15854,12 @@ def test_token_max_length002_1410_token_max_length002_1410_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_token_min_length004_1408_token_min_length004_1408_v(mode, save_output):
+def test_token_min_length004_1408_token_min_length004_1408_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minLength and value=4 and
     facet=maxLength and value=6) and document value=foofo
@@ -14939,11 +15871,12 @@ def test_token_min_length004_1408_token_min_length004_1408_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_token_min_length002_1406_token_min_length002_1406_v(mode, save_output):
+def test_token_min_length002_1406_token_min_length002_1406_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minLength and value=5 and
     document value=foofo
@@ -14955,11 +15888,12 @@ def test_token_min_length002_1406_token_min_length002_1406_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_token_min_length001_1405_token_min_length001_1405_v(mode, save_output):
+def test_token_min_length001_1405_token_min_length001_1405_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minLength and value=4 and
     document value=foofo
@@ -14971,11 +15905,12 @@ def test_token_min_length001_1405_token_min_length001_1405_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_token_length002_1403_token_length002_1403_v(mode, save_output):
+def test_token_length002_1403_token_length002_1403_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=length and value=5 and document
     value=foofo
@@ -14987,11 +15922,12 @@ def test_token_length002_1403_token_length002_1403_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_normalized_string_enumeration004_1401_normalized_string_enumeration004_1401_v(mode, save_output):
+def test_normalized_string_enumeration004_1401_normalized_string_enumeration004_1401_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=enumeration and value=foo
     foo123 fu1 and document value=foo
@@ -15003,11 +15939,12 @@ def test_normalized_string_enumeration004_1401_normalized_string_enumeration004_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_normalized_string_enumeration002_1399_normalized_string_enumeration002_1399_v(mode, save_output):
+def test_normalized_string_enumeration002_1399_normalized_string_enumeration002_1399_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=enumeration and value=foo and
     document value=foo
@@ -15019,11 +15956,12 @@ def test_normalized_string_enumeration002_1399_normalized_string_enumeration002_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_normalized_string_pattern001_1397_normalized_string_pattern001_1397_v(mode, save_output):
+def test_normalized_string_pattern001_1397_normalized_string_pattern001_1397_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=pattern and value=[a-z]{3} and
     document value=abc
@@ -15035,11 +15973,12 @@ def test_normalized_string_pattern001_1397_normalized_string_pattern001_1397_v(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_normalized_string_max_length003_1396_normalized_string_max_length003_1396_v(mode, save_output):
+def test_normalized_string_max_length003_1396_normalized_string_max_length003_1396_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxLength and value=6 and
     document value=foofo
@@ -15051,11 +15990,12 @@ def test_normalized_string_max_length003_1396_normalized_string_max_length003_13
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_normalized_string_max_length002_1395_normalized_string_max_length002_1395_v(mode, save_output):
+def test_normalized_string_max_length002_1395_normalized_string_max_length002_1395_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxLength and value=5 and
     document value=foofo
@@ -15067,11 +16007,12 @@ def test_normalized_string_max_length002_1395_normalized_string_max_length002_13
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_normalized_string_min_length004_1393_normalized_string_min_length004_1393_v(mode, save_output):
+def test_normalized_string_min_length004_1393_normalized_string_min_length004_1393_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minLength and value=4 and
     facet=maxLength and value=6) and document value=foofo
@@ -15083,11 +16024,12 @@ def test_normalized_string_min_length004_1393_normalized_string_min_length004_13
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_normalized_string_min_length002_1391_normalized_string_min_length002_1391_v(mode, save_output):
+def test_normalized_string_min_length002_1391_normalized_string_min_length002_1391_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minLength and value=5 and
     document value=foofo
@@ -15099,11 +16041,12 @@ def test_normalized_string_min_length002_1391_normalized_string_min_length002_13
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_normalized_string_min_length001_1390_normalized_string_min_length001_1390_v(mode, save_output):
+def test_normalized_string_min_length001_1390_normalized_string_min_length001_1390_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minLength and value=4 and
     document value=foofo
@@ -15115,11 +16058,12 @@ def test_normalized_string_min_length001_1390_normalized_string_min_length001_13
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_normalized_string_length002_1388_normalized_string_length002_1388_v(mode, save_output):
+def test_normalized_string_length002_1388_normalized_string_length002_1388_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=length and value=5 and document
     value=foofo
@@ -15131,11 +16075,12 @@ def test_normalized_string_length002_1388_normalized_string_length002_1388_v(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_notation_enumeration004_1386_notation_enumeration004_1386_v(mode, save_output):
+def test_notation_enumeration004_1386_notation_enumeration004_1386_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=enumeration and value=foo
     foo123 fu1 and document value=foo
@@ -15147,11 +16092,12 @@ def test_notation_enumeration004_1386_notation_enumeration004_1386_v(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_notation_enumeration002_1384_notation_enumeration002_1384_v(mode, save_output):
+def test_notation_enumeration002_1384_notation_enumeration002_1384_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=enumeration and value=foo and
     document value=foo
@@ -15163,11 +16109,12 @@ def test_notation_enumeration002_1384_notation_enumeration002_1384_v(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_notation_pattern001_1382_notation_pattern001_1382_v(mode, save_output):
+def test_notation_pattern001_1382_notation_pattern001_1382_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=pattern and value=[a-z]{3} and
     document value=abc
@@ -15179,11 +16126,12 @@ def test_notation_pattern001_1382_notation_pattern001_1382_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_notation_max_length003_1381_notation_max_length003_1381_v(mode, save_output):
+def test_notation_max_length003_1381_notation_max_length003_1381_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxLength and value=6 and
     document value=foofo
@@ -15195,11 +16143,12 @@ def test_notation_max_length003_1381_notation_max_length003_1381_v(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_notation_max_length002_1380_notation_max_length002_1380_v(mode, save_output):
+def test_notation_max_length002_1380_notation_max_length002_1380_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxLength and value=5 and
     document value=foofo
@@ -15211,11 +16160,12 @@ def test_notation_max_length002_1380_notation_max_length002_1380_v(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_notation_max_length001_1379_notation_max_length001_1379_i(mode, save_output):
+def test_notation_max_length001_1379_notation_max_length001_1379_i(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxLength and value=4 and
     document value=foofo TSTF ruled that 1.0 says all QNames satisfy all
@@ -15228,11 +16178,12 @@ def test_notation_max_length001_1379_notation_max_length001_1379_i(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_notation_min_length004_1378_notation_min_length004_1378_v(mode, save_output):
+def test_notation_min_length004_1378_notation_min_length004_1378_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minLength and value=4 and
     facet=maxLength and value=6) and document value=foofo
@@ -15244,11 +16195,12 @@ def test_notation_min_length004_1378_notation_min_length004_1378_v(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_notation_min_length003_1377_notation_min_length003_1377_i(mode, save_output):
+def test_notation_min_length003_1377_notation_min_length003_1377_i(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minLength and value=6 and
     document value=foofo TSTF ruled that 1.0 says all QNames satisfy all
@@ -15261,11 +16213,12 @@ def test_notation_min_length003_1377_notation_min_length003_1377_i(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_notation_min_length002_1376_notation_min_length002_1376_v(mode, save_output):
+def test_notation_min_length002_1376_notation_min_length002_1376_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minLength and value=5 and
     document value=foofo
@@ -15277,11 +16230,12 @@ def test_notation_min_length002_1376_notation_min_length002_1376_v(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_notation_min_length001_1375_notation_min_length001_1375_v(mode, save_output):
+def test_notation_min_length001_1375_notation_min_length001_1375_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minLength and value=4 and
     document value=foofo
@@ -15293,11 +16247,12 @@ def test_notation_min_length001_1375_notation_min_length001_1375_v(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_notation_length003_1374_notation_length003_1374_i(mode, save_output):
+def test_notation_length003_1374_notation_length003_1374_i(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=length and value=6 and document
     value=foofo TSTF ruled that 1.0 says all QNames satisfy all length-
@@ -15310,11 +16265,12 @@ def test_notation_length003_1374_notation_length003_1374_i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_notation_length002_1373_notation_length002_1373_v(mode, save_output):
+def test_notation_length002_1373_notation_length002_1373_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=length and value=5 and document
     value=foofo
@@ -15326,11 +16282,12 @@ def test_notation_length002_1373_notation_length002_1373_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_notation_length001_1372_notation_length001_1372_i(mode, save_output):
+def test_notation_length001_1372_notation_length001_1372_i(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=length and value=4 and document
     value=foofo TSTF ruled that 1.0 says all QNames satisfy all length-
@@ -15343,11 +16300,12 @@ def test_notation_length001_1372_notation_length001_1372_i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_qname_enumeration004_1371_qname_enumeration004_1371_v(mode, save_output):
+def test_qname_enumeration004_1371_qname_enumeration004_1371_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=enumeration and value=foo:fo
     foo:foo123 foo:fu1 and document value=foo:fo
@@ -15359,11 +16317,12 @@ def test_qname_enumeration004_1371_qname_enumeration004_1371_v(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_qname_enumeration002_1369_qname_enumeration002_1369_v(mode, save_output):
+def test_qname_enumeration002_1369_qname_enumeration002_1369_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=enumeration and value=foo:fo
     and document value=foo:fo
@@ -15375,11 +16334,12 @@ def test_qname_enumeration002_1369_qname_enumeration002_1369_v(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_qname_pattern001_1367_qname_pattern001_1367_v(mode, save_output):
+def test_qname_pattern001_1367_qname_pattern001_1367_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=pattern and value=[a-z]{3} and
     document value=abc
@@ -15391,11 +16351,12 @@ def test_qname_pattern001_1367_qname_pattern001_1367_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_qname_max_length003_1366_qname_max_length003_1366_v(mode, save_output):
+def test_qname_max_length003_1366_qname_max_length003_1366_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxLength and value=6 and
     document value=foofo
@@ -15407,11 +16368,12 @@ def test_qname_max_length003_1366_qname_max_length003_1366_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_qname_max_length002_1365_qname_max_length002_1365_v(mode, save_output):
+def test_qname_max_length002_1365_qname_max_length002_1365_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxLength and value=5 and
     document value=foofo
@@ -15423,11 +16385,12 @@ def test_qname_max_length002_1365_qname_max_length002_1365_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_qname_max_length001_1364_qname_max_length001_1364_i(mode, save_output):
+def test_qname_max_length001_1364_qname_max_length001_1364_i(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxLength and value=4 and
     document value=foofo TSTF ruled that 1.0 says all QNames satisfy all
@@ -15440,11 +16403,12 @@ def test_qname_max_length001_1364_qname_max_length001_1364_i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_qname_min_length004_1363_qname_min_length004_1363_v(mode, save_output):
+def test_qname_min_length004_1363_qname_min_length004_1363_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minLength and value=4 and
     facet=maxLength and value=6) and document value=foofo
@@ -15456,11 +16420,12 @@ def test_qname_min_length004_1363_qname_min_length004_1363_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_qname_min_length003_1362_qname_min_length003_1362_i(mode, save_output):
+def test_qname_min_length003_1362_qname_min_length003_1362_i(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minLength and value=6 and
     document value=foofo TSTF ruled that 1.0 says all QNames satisfy all
@@ -15473,11 +16438,12 @@ def test_qname_min_length003_1362_qname_min_length003_1362_i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_qname_min_length002_1361_qname_min_length002_1361_v(mode, save_output):
+def test_qname_min_length002_1361_qname_min_length002_1361_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minLength and value=5 and
     document value=foofo
@@ -15489,11 +16455,12 @@ def test_qname_min_length002_1361_qname_min_length002_1361_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_qname_min_length001_1360_qname_min_length001_1360_v(mode, save_output):
+def test_qname_min_length001_1360_qname_min_length001_1360_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minLength and value=4 and
     document value=foofo
@@ -15505,11 +16472,12 @@ def test_qname_min_length001_1360_qname_min_length001_1360_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_qname_length003_1359_qname_length003_1359_i(mode, save_output):
+def test_qname_length003_1359_qname_length003_1359_i(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=length and value=6 and document
     value=foofo TSTF ruled that 1.0 says all QNames satisfy all length-
@@ -15522,11 +16490,12 @@ def test_qname_length003_1359_qname_length003_1359_i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_qname_length002_1358_qname_length002_1358_v(mode, save_output):
+def test_qname_length002_1358_qname_length002_1358_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=length and value=5 and document
     value=foofo
@@ -15538,11 +16507,12 @@ def test_qname_length002_1358_qname_length002_1358_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_qname_length001_1357_qname_length001_1357_i(mode, save_output):
+def test_qname_length001_1357_qname_length001_1357_i(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=length and value=4 and document
     value=foofo TSTF ruled that 1.0 says all QNames satisfy all length-
@@ -15555,11 +16525,12 @@ def test_qname_length001_1357_qname_length001_1357_i(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_any_uri_b004_1354_any_uri_b004_1354_v(mode, save_output):
+def test_any_uri_b004_1354_any_uri_b004_1354_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : enumeration of many anyURI: a b c d e
     f g h i j k l m n o p q r s t u v w x y z 1 2 3 4 5 6 7 8 9 0 + - _ @
@@ -15575,11 +16546,12 @@ def test_any_uri_b004_1354_any_uri_b004_1354_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_any_uri_b002_1353_any_uri_b002_1353_v(mode, save_output):
+def test_any_uri_b002_1353_any_uri_b002_1353_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : enum of anyURI: with dbcs char, and
     instance has valid dbcs char
@@ -15591,11 +16563,12 @@ def test_any_uri_b002_1353_any_uri_b002_1353_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_any_uri_a002_1337_any_uri_a002_1337_v(mode, save_output):
+def test_any_uri_a002_1337_any_uri_a002_1337_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : test that dbcs charanters are allowed
     as anyURI in, any, anyAttribute, notation, appinfo, documentation,
@@ -15608,11 +16581,12 @@ def test_any_uri_a002_1337_any_uri_a002_1337_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_any_uri_a001_1336_any_uri_a001_1336_v(mode, save_output):
+def test_any_uri_a001_1336_any_uri_a001_1336_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : test that the numbers are allowed as
     anyURI in, any, anyAttribute, notation, appinfo, documentation,
@@ -15626,11 +16600,12 @@ def test_any_uri_a001_1336_any_uri_a001_1336_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_any_uri_enumeration004_1335_any_uri_enumeration004_1335_v(mode, save_output):
+def test_any_uri_enumeration004_1335_any_uri_enumeration004_1335_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=enumeration and value=foo
     http://www.microsoft.com mailto:davebrow@microsoft.com and document
@@ -15643,11 +16618,12 @@ def test_any_uri_enumeration004_1335_any_uri_enumeration004_1335_v(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_any_uri_enumeration002_1333_any_uri_enumeration002_1333_v(mode, save_output):
+def test_any_uri_enumeration002_1333_any_uri_enumeration002_1333_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=enumeration and value=foo and
     document value=foo
@@ -15659,11 +16635,12 @@ def test_any_uri_enumeration002_1333_any_uri_enumeration002_1333_v(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_any_uri_max_length003_1331_any_uri_max_length003_1331_v(mode, save_output):
+def test_any_uri_max_length003_1331_any_uri_max_length003_1331_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxLength and value=6 and
     document value=foofo
@@ -15675,11 +16652,12 @@ def test_any_uri_max_length003_1331_any_uri_max_length003_1331_v(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_any_uri_max_length002_1330_any_uri_max_length002_1330_v(mode, save_output):
+def test_any_uri_max_length002_1330_any_uri_max_length002_1330_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxLength and value=5 and
     document value=foofo
@@ -15691,11 +16669,12 @@ def test_any_uri_max_length002_1330_any_uri_max_length002_1330_v(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_any_uri_min_length004_1328_any_uri_min_length004_1328_v(mode, save_output):
+def test_any_uri_min_length004_1328_any_uri_min_length004_1328_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minLength and value=4 and
     facet=maxLength and value=6) and document value=foofo
@@ -15707,11 +16686,12 @@ def test_any_uri_min_length004_1328_any_uri_min_length004_1328_v(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_any_uri_min_length002_1326_any_uri_min_length002_1326_v(mode, save_output):
+def test_any_uri_min_length002_1326_any_uri_min_length002_1326_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minLength and value=5 and
     document value=foofo
@@ -15723,11 +16703,12 @@ def test_any_uri_min_length002_1326_any_uri_min_length002_1326_v(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_any_uri_min_length001_1325_any_uri_min_length001_1325_v(mode, save_output):
+def test_any_uri_min_length001_1325_any_uri_min_length001_1325_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minLength and value=4 and
     document value=foofo
@@ -15739,11 +16720,12 @@ def test_any_uri_min_length001_1325_any_uri_min_length001_1325_v(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_any_uri_length002_1323_any_uri_length002_1323_v(mode, save_output):
+def test_any_uri_length002_1323_any_uri_length002_1323_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=length and value=5 and document
     value=foofo
@@ -15755,11 +16737,12 @@ def test_any_uri_length002_1323_any_uri_length002_1323_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_base64_binary_enumeration002_1320_base64_binary_enumeration002_1320_v(mode, save_output):
+def test_base64_binary_enumeration002_1320_base64_binary_enumeration002_1320_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=enumeration and value=MS0yLTM=
     and document value=MS0yLTM=
@@ -15771,11 +16754,12 @@ def test_base64_binary_enumeration002_1320_base64_binary_enumeration002_1320_v(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_base64_binary_min_length004_1315_base64_binary_min_length004_1315_v(mode, save_output):
+def test_base64_binary_min_length004_1315_base64_binary_min_length004_1315_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minLength and value=4 and
     facet=maxLength and value=6) and document value=MS0yLTM=
@@ -15787,11 +16771,12 @@ def test_base64_binary_min_length004_1315_base64_binary_min_length004_1315_v(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_base64_binary_min_length002_1313_base64_binary_min_length002_1313_v(mode, save_output):
+def test_base64_binary_min_length002_1313_base64_binary_min_length002_1313_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minLength and value=5 and
     document value=MS0yLTM=
@@ -15803,11 +16788,12 @@ def test_base64_binary_min_length002_1313_base64_binary_min_length002_1313_v(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_base64_binary_min_length001_1312_base64_binary_min_length001_1312_v(mode, save_output):
+def test_base64_binary_min_length001_1312_base64_binary_min_length001_1312_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minLength and value=4 and
     document value=MS0yLTM=
@@ -15819,11 +16805,12 @@ def test_base64_binary_min_length001_1312_base64_binary_min_length001_1312_v(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_base64_binary_length002_1310_base64_binary_length002_1310_v(mode, save_output):
+def test_base64_binary_length002_1310_base64_binary_length002_1310_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=length and value=5 and document
     value=MS0yLTM=
@@ -15835,11 +16822,12 @@ def test_base64_binary_length002_1310_base64_binary_length002_1310_v(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_hex_binary_enumeration004_1308_hex_binary_enumeration004_1308_v(mode, save_output):
+def test_hex_binary_enumeration004_1308_hex_binary_enumeration004_1308_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=enumeration and value=adf789
     abcedf 0123456789 and document value=adf789
@@ -15851,11 +16839,12 @@ def test_hex_binary_enumeration004_1308_hex_binary_enumeration004_1308_v(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_hex_binary_enumeration002_1306_hex_binary_enumeration002_1306_v(mode, save_output):
+def test_hex_binary_enumeration002_1306_hex_binary_enumeration002_1306_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=enumeration and value=adf789
     and document value=adf789
@@ -15867,11 +16856,12 @@ def test_hex_binary_enumeration002_1306_hex_binary_enumeration002_1306_v(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_hex_binary_max_length003_1304_hex_binary_max_length003_1304_v(mode, save_output):
+def test_hex_binary_max_length003_1304_hex_binary_max_length003_1304_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxLength and value=6 and
     document value=abcde
@@ -15883,11 +16873,12 @@ def test_hex_binary_max_length003_1304_hex_binary_max_length003_1304_v(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_hex_binary_max_length002_1303_hex_binary_max_length002_1303_v(mode, save_output):
+def test_hex_binary_max_length002_1303_hex_binary_max_length002_1303_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxLength and value=5 and
     document value=abcde
@@ -15899,11 +16890,12 @@ def test_hex_binary_max_length002_1303_hex_binary_max_length002_1303_v(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_hex_binary_max_length001_1302_hex_binary_max_length001_1302_v(mode, save_output):
+def test_hex_binary_max_length001_1302_hex_binary_max_length001_1302_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=maxLength and value=4 and
     document value=abcde
@@ -15915,11 +16907,12 @@ def test_hex_binary_max_length001_1302_hex_binary_max_length001_1302_v(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_hex_binary_min_length004_1301_hex_binary_min_length004_1301_v(mode, save_output):
+def test_hex_binary_min_length004_1301_hex_binary_min_length004_1301_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minLength and value=4 and
     facet=maxLength and value=6) and document value=abcdef1234 (let's try
@@ -15932,11 +16925,12 @@ def test_hex_binary_min_length004_1301_hex_binary_min_length004_1301_v(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_hex_binary_min_length002_1299_hex_binary_min_length002_1299_v(mode, save_output):
+def test_hex_binary_min_length002_1299_hex_binary_min_length002_1299_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minLength and value=5 and
     document value=abcdef123456. Let's try 6 Octets [ab cd ef 12 34 56]
@@ -15948,11 +16942,12 @@ def test_hex_binary_min_length002_1299_hex_binary_min_length002_1299_v(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_hex_binary_min_length001_1298_hex_binary_min_length001_1298_v(mode, save_output):
+def test_hex_binary_min_length001_1298_hex_binary_min_length001_1298_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minLength and value=4 and
     document value=abcdefab 4 Octets are [ab cd ef ab]
@@ -15964,11 +16959,12 @@ def test_hex_binary_min_length001_1298_hex_binary_min_length001_1298_v(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_hex_binary_length002_1296_hex_binary_length002_1296_v(mode, save_output):
+def test_hex_binary_length002_1296_hex_binary_length002_1296_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=length and value=5 and document
     value=abcdefabcd where 5 Octets are [ab cd ef ab cd]
@@ -15980,11 +16976,12 @@ def test_hex_binary_length002_1296_hex_binary_length002_1296_v(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_g_day_min_exclusive005_1273_g_day_min_exclusive005_1273_v(mode, save_output):
+def test_g_day_min_exclusive005_1273_g_day_min_exclusive005_1273_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minExclusive and value=- - -01
     and facet=maxExclusive and value=- - -30) and document value=- - -15
@@ -15996,11 +16993,12 @@ def test_g_day_min_exclusive005_1273_g_day_min_exclusive005_1273_v(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_g_day_min_exclusive004_1272_g_day_min_exclusive004_1272_v(mode, save_output):
+def test_g_day_min_exclusive004_1272_g_day_min_exclusive004_1272_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : (facet=minExclusive and value=- - -01
     and facet=maxInclusive and value=- - -30) and document value=- - -15
@@ -16012,11 +17010,12 @@ def test_g_day_min_exclusive004_1272_g_day_min_exclusive004_1272_v(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )
 
 
-def test_g_day_min_exclusive003_1271_g_day_min_exclusive003_1271_v(mode, save_output):
+def test_g_day_min_exclusive003_1271_g_day_min_exclusive003_1271_v(mode, save_output, output_format):
     """
     TEST :Facet Schemas for string : facet=minExclusive and value=- - -01
     and document value=- - -15
@@ -16028,5 +17027,6 @@ def test_g_day_min_exclusive003_1271_g_day_min_exclusive003_1271_v(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        output_format=output_format,
         structure_style="filenames",
     )

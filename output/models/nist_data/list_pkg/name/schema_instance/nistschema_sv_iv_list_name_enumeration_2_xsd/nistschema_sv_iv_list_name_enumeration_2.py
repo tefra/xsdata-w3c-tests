@@ -72,8 +72,5 @@ class NistschemaSvIvListNameEnumeration2:
         namespace = "NISTSchema-SV-IV-list-Name-enumeration-2-NS"
 
     value: Optional[NistschemaSvIvListNameEnumeration2Type] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )

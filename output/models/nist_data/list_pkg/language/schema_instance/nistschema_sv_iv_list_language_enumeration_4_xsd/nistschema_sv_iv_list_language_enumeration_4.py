@@ -85,8 +85,5 @@ class NistschemaSvIvListLanguageEnumeration4:
         namespace = "NISTSchema-SV-IV-list-language-enumeration-4-NS"
 
     value: Optional[NistschemaSvIvListLanguageEnumeration4Type] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )

@@ -110,8 +110,5 @@ class NistschemaSvIvListGYearMonthEnumeration2:
         namespace = "NISTSchema-SV-IV-list-gYearMonth-enumeration-2-NS"
 
     value: Optional[NistschemaSvIvListGYearMonthEnumeration2Type] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )

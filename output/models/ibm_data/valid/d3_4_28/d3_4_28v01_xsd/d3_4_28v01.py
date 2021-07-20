@@ -25,7 +25,6 @@ class Root:
             "name": "eldTimeStampType",
             "type": "Element",
             "namespace": "",
-            "min_occurs": 1,
         }
     )
     eld_time_stamp_enumeration: List[DTimeStampEnumeration] = field(
@@ -43,7 +42,6 @@ class Root:
             "name": "eldTimeStampPattern",
             "type": "Element",
             "namespace": "",
-            "min_occurs": 1,
             "pattern": r"[2][0][0][0-9][-][0-1][1-2][-][0-2][1-8][T]*.*",
         }
     )
@@ -53,7 +51,6 @@ class Root:
             "name": "eldTimeStampMinMaxInclusive",
             "type": "Element",
             "namespace": "",
-            "min_occurs": 1,
             "min_inclusive": XmlDateTime(2001, 1, 1, 12, 0, 0, 123000, 540),
             "max_inclusive": XmlDateTime(2002, 1, 1, 12, 0, 0, 123000, 540),
         }
@@ -64,7 +61,6 @@ class Root:
             "name": "eldTimeStampMinMaxExclusive",
             "type": "Element",
             "namespace": "",
-            "min_occurs": 1,
             "min_exclusive": XmlDateTime(1998, 1, 1, 12, 0, 0, 123000, 540),
             "max_exclusive": XmlDateTime(1999, 1, 1, 12, 0, 0, 123000, 540),
         }

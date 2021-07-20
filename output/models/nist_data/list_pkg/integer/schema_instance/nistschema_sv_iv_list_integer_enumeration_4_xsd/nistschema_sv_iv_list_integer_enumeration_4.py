@@ -71,8 +71,5 @@ class NistschemaSvIvListIntegerEnumeration4:
         namespace = "NISTSchema-SV-IV-list-integer-enumeration-4-NS"
 
     value: Optional[NistschemaSvIvListIntegerEnumeration4Type] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )

@@ -11,8 +11,5 @@ class Answer:
         namespace = "ElemDecl/typeDef"
 
     value: Optional[bool] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )

@@ -57,8 +57,5 @@ class Test:
         name = "test"
 
     value: Optional[UnionAb] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )

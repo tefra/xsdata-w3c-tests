@@ -9,10 +9,7 @@ class A:
         name = "a"
 
     value: Optional[object] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -22,10 +19,7 @@ class B:
         name = "b"
 
     value: Optional[object] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -55,10 +49,7 @@ class Item:
         name = "item"
 
     value: Optional[object] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -68,10 +59,7 @@ class Ct4:
         name = "ct4"
 
     value: Optional[str] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
     name: Optional[str] = field(
         default=None,
@@ -118,20 +106,17 @@ class Root:
         default_factory=list,
         metadata={
             "type": "Element",
-            "min_occurs": 1,
         }
     )
     a: List[object] = field(
         default_factory=list,
         metadata={
             "type": "Element",
-            "min_occurs": 1,
         }
     )
     item: List[object] = field(
         default_factory=list,
         metadata={
             "type": "Element",
-            "min_occurs": 1,
         }
     )

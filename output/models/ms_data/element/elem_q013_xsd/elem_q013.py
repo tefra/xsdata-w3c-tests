@@ -8,10 +8,7 @@ class FooTest:
         name = "fooTest"
 
     value: Optional[str] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -25,7 +22,6 @@ class Root:
         metadata={
             "name": "fooTest",
             "type": "Element",
-            "min_occurs": 1,
             "max_occurs": 2,
         }
     )

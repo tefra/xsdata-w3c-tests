@@ -14,7 +14,6 @@ class NistschemaSvIvAtomicGMonthDayMaxInclusive2:
     value: Optional[XmlPeriod] = field(
         default=None,
         metadata={
-            "required": True,
             "max_inclusive": XmlPeriod("--02-24"),
         }
     )

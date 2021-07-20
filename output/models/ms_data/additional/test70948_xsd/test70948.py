@@ -11,5 +11,5 @@ class Root:
         namespace = "http://xsdtesting"
 
     value: Optional[int] = field(
-        default=None,
+        default=None
     )

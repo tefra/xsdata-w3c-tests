@@ -14,8 +14,5 @@ class Good:
         name = "good"
 
     value: Optional[int] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )

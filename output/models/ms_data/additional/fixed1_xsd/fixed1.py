@@ -14,8 +14,9 @@ class Doc:
             "namespace": "",
         }
     )
-    att: Optional[str] = field(
-        default=None,
+    att: str = field(
+        init=False,
+        default="Ѐfixed",
         metadata={
             "type": "Attribute",
         }

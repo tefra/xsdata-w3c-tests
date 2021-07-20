@@ -23,10 +23,7 @@ class KdomainsAsAutomaticAcademiaWorkEnsureTes:
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-2-NS"
 
     value: Optional[str] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -37,10 +34,7 @@ class Ncreate:
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-2-NS"
 
     value: Optional[str] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -51,8 +45,5 @@ class NistschemaSvIvAtomicQnameEnumeration2:
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-2-NS"
 
     value: Optional[NistschemaSvIvAtomicQnameEnumeration2Type] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )

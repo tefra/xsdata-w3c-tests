@@ -20,8 +20,5 @@ class NistschemaSvIvAtomicTokenEnumeration2:
         namespace = "NISTSchema-SV-IV-atomic-token-enumeration-2-NS"
 
     value: Optional[NistschemaSvIvAtomicTokenEnumeration2Type] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )

@@ -23,5 +23,5 @@ class Value:
         name = "value"
 
     value: Optional[Union[XmlDate, XmlDateTime]] = field(
-        default=None,
+        default=None
     )

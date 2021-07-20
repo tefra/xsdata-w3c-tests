@@ -41,7 +41,6 @@ class Root:
             "name": "eldTimeStampUnionC",
             "type": "Element",
             "namespace": "",
-            "min_occurs": 1,
             "pattern": r"[2][0][0][0-9][-][0-1][1-2][-][0-2][1-8][T]*.*",
         }
     )

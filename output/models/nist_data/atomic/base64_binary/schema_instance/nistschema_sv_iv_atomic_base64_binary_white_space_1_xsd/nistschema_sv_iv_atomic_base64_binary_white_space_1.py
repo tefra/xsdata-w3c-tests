@@ -13,7 +13,6 @@ class NistschemaSvIvAtomicBase64BinaryWhiteSpace1:
     value: Optional[bytes] = field(
         default=None,
         metadata={
-            "required": True,
             "white_space": "collapse",
             "format": "base64",
         }

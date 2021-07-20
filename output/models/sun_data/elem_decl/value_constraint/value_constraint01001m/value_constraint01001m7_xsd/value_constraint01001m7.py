@@ -12,7 +12,7 @@ class Id:
 
     value: str = field(
         init=False,
-        default="alpha",
+        default="alpha"
     )
 
 
@@ -27,6 +27,5 @@ class Root:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-            "required": True,
         }
     )

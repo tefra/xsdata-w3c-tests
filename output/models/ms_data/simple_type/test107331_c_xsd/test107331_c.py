@@ -18,7 +18,6 @@ class A2:
     value: Optional[int] = field(
         default=None,
         metadata={
-            "required": True,
             "min_exclusive": 0,
             "max_inclusive": 10,
         }
@@ -39,7 +38,6 @@ class B2:
     value: Optional[str] = field(
         default=None,
         metadata={
-            "required": True,
             "min_length": 0,
             "max_length": 10,
         }
@@ -74,10 +72,7 @@ class Item:
         name = "item"
 
     value: Optional[object] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -87,10 +82,7 @@ class A3:
         name = "a"
 
     value: Optional[A1] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -100,10 +92,7 @@ class B3:
         name = "b"
 
     value: Optional[B1] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -139,10 +128,7 @@ class Ra:
         name = "ra"
 
     value: Optional[RA1] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -155,7 +141,6 @@ class Root:
         default_factory=list,
         metadata={
             "type": "Element",
-            "min_occurs": 1,
         }
     )
     lab: List[List[UnionAb]] = field(
@@ -178,14 +163,12 @@ class Root:
         default_factory=list,
         metadata={
             "type": "Element",
-            "min_occurs": 1,
         }
     )
     ua: List[UnionA] = field(
         default_factory=list,
         metadata={
             "type": "Element",
-            "min_occurs": 1,
         }
     )
     b_element: List[B1] = field(
@@ -193,7 +176,6 @@ class Root:
         metadata={
             "name": "b",
             "type": "Element",
-            "min_occurs": 1,
         }
     )
     a_element: List[A1] = field(
@@ -201,7 +183,6 @@ class Root:
         metadata={
             "name": "a",
             "type": "Element",
-            "min_occurs": 1,
         }
     )
     b: List[str] = field(
@@ -209,7 +190,6 @@ class Root:
         metadata={
             "name": "B",
             "type": "Element",
-            "min_occurs": 1,
             "min_length": 0,
             "max_length": 10,
         }
@@ -219,7 +199,6 @@ class Root:
         metadata={
             "name": "A",
             "type": "Element",
-            "min_occurs": 1,
             "min_exclusive": 0,
             "max_inclusive": 10,
         }
@@ -228,7 +207,6 @@ class Root:
         default_factory=list,
         metadata={
             "type": "Element",
-            "min_occurs": 1,
         }
     )
 
@@ -239,10 +217,7 @@ class Ua:
         name = "ua"
 
     value: Optional[UnionA] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -252,8 +227,5 @@ class Uab:
         name = "uab"
 
     value: Optional[UnionAb] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )

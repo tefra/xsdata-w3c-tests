@@ -1,4 +1,5 @@
 from dataclasses import dataclass, field
+from typing import Optional
 
 __NAMESPACE__ = "ElemDecl/valueConstraint"
 
@@ -22,8 +23,8 @@ class Root:
         name = "root"
         namespace = "ElemDecl/valueConstraint"
 
-    element: str = field(
-        default="1.0E-2",
+    element: Optional[str] = field(
+        default=None,
         metadata={
             "name": "Element",
             "type": "Element",

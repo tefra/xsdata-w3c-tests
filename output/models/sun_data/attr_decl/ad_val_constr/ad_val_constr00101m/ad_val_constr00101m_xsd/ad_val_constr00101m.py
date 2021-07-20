@@ -11,8 +11,9 @@ class ElementWithAttr:
         name = "elementWithAttr"
         namespace = "AttrDecl/valConstr"
 
-    number: Optional[int] = field(
-        default=None,
+    number: int = field(
+        init=False,
+        default=12,
         metadata={
             "type": "Attribute",
             "namespace": "AttrDecl/valConstr",

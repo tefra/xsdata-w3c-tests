@@ -14,7 +14,6 @@ class NistschemaSvIvAtomicDurationWhiteSpace1:
     value: Optional[XmlDuration] = field(
         default=None,
         metadata={
-            "required": True,
             "white_space": "collapse",
         }
     )

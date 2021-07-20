@@ -12,10 +12,7 @@ class InternationalPrice:
         namespace = "http://xsdtesting"
 
     value: Optional[Decimal] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
     currency: Optional[str] = field(
         default=None,

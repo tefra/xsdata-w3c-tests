@@ -11,10 +11,7 @@ class AA:
         namespace = "ElemDecl/name"
 
     value: Optional[int] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -25,10 +22,7 @@ class BB:
         namespace = "ElemDecl/name"
 
     value: Optional[int] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -39,10 +33,7 @@ class CC:
         namespace = "ElemDecl/name"
 
     value: Optional[int] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -53,10 +44,7 @@ class DD:
         namespace = "ElemDecl/name"
 
     value: Optional[int] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -67,10 +55,7 @@ class EE:
         namespace = "ElemDecl/name"
 
     value: Optional[int] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -81,10 +66,7 @@ class FF:
         namespace = "ElemDecl/name"
 
     value: Optional[int] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -95,10 +77,7 @@ class GG:
         namespace = "ElemDecl/name"
 
     value: Optional[int] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -113,7 +92,6 @@ class Root:
         metadata={
             "name": "a--a",
             "type": "Element",
-            "required": True,
         }
     )
     b_b: Optional[int] = field(
@@ -121,7 +99,6 @@ class Root:
         metadata={
             "name": "b..b",
             "type": "Element",
-            "required": True,
         }
     )
     c_c: Optional[int] = field(
@@ -129,7 +106,6 @@ class Root:
         metadata={
             "name": "c__c",
             "type": "Element",
-            "required": True,
         }
     )
     d_d: Optional[int] = field(
@@ -137,7 +113,6 @@ class Root:
         metadata={
             "name": "d··d",
             "type": "Element",
-            "required": True,
         }
     )
     e_e: Optional[int] = field(
@@ -145,7 +120,6 @@ class Root:
         metadata={
             "name": "e··e",
             "type": "Element",
-            "required": True,
         }
     )
     f_f: Optional[int] = field(
@@ -153,7 +127,6 @@ class Root:
         metadata={
             "name": "f۝۝f",
             "type": "Element",
-            "required": True,
         }
     )
     g_g: Optional[int] = field(
@@ -161,6 +134,5 @@ class Root:
         metadata={
             "name": "g۞۞g",
             "type": "Element",
-            "required": True,
         }
     )

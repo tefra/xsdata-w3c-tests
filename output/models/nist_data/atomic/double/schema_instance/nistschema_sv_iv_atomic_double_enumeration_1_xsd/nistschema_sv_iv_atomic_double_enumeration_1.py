@@ -23,8 +23,5 @@ class NistschemaSvIvAtomicDoubleEnumeration1:
         namespace = "NISTSchema-SV-IV-atomic-double-enumeration-1-NS"
 
     value: Optional[NistschemaSvIvAtomicDoubleEnumeration1Type] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )

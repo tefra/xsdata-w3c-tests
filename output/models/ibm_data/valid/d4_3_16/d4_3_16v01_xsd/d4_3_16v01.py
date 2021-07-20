@@ -25,7 +25,6 @@ class Root:
             "name": "elDTimeETProhibited",
             "type": "Element",
             "namespace": "",
-            "min_occurs": 1,
             "explicit_timezone": "prohibited",
         }
     )
@@ -35,7 +34,6 @@ class Root:
             "name": "elDTimeETRequired",
             "type": "Element",
             "namespace": "",
-            "min_occurs": 1,
             "explicit_timezone": "required",
         }
     )
@@ -45,7 +43,6 @@ class Root:
             "name": "elDTimeETOptional",
             "type": "Element",
             "namespace": "",
-            "min_occurs": 1,
             "explicit_timezone": "optional",
         }
     )

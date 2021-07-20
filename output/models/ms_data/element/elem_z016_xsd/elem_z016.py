@@ -9,7 +9,6 @@ class DataTypes:
         metadata={
             "name": "ID",
             "type": "Element",
-            "min_occurs": 1,
             "max_occurs": 2,
             "sequential": True,
         }
@@ -19,7 +18,6 @@ class DataTypes:
         metadata={
             "name": "IDREF",
             "type": "Element",
-            "min_occurs": 1,
             "max_occurs": 2,
             "sequential": True,
         }
@@ -29,7 +27,6 @@ class DataTypes:
         metadata={
             "name": "IDREFS",
             "type": "Element",
-            "min_occurs": 1,
             "max_occurs": 2,
             "sequential": True,
             "tokens": True,
@@ -43,10 +40,7 @@ class Id:
         name = "ID"
 
     value: Optional[str] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -56,10 +50,7 @@ class Idref:
         name = "IDREF"
 
     value: Optional[str] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 

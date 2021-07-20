@@ -8,10 +8,7 @@ class Para:
         name = "para"
 
     value: Optional[str] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
     id_one: Optional[str] = field(
         default=None,

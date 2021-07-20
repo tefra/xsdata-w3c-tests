@@ -13,7 +13,6 @@ class NistschemaSvIvAtomicFloatPattern5:
     value: Optional[str] = field(
         default=None,
         metadata={
-            "required": True,
             "pattern": r"\d{1}\.\d{7}E\-\d{2}",
         }
     )

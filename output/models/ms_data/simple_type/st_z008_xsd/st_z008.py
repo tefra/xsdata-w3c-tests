@@ -8,10 +8,7 @@ class T2:
         name = "t2"
 
     value: Optional[object] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
     att: Optional[object] = field(
         default=None,
@@ -31,7 +28,6 @@ class Root:
         metadata={
             "type": "Element",
             "namespace": "",
-            "min_occurs": 1,
             "max_occurs": 10,
         }
     )

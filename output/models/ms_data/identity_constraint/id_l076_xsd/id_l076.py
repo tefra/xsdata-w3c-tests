@@ -16,10 +16,7 @@ class Ttype:
         name = "ttype"
 
     value: Optional[str] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
     col: Optional[str] = field(
         default=None,

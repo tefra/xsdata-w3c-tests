@@ -9,10 +9,7 @@ class XDecimal:
         name = "X_Decimal"
 
     value: Optional[Decimal] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
     kind: Optional[str] = field(
         default=None,
@@ -29,10 +26,7 @@ class XInt:
         name = "X_Int"
 
     value: Optional[int] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
     kind: Optional[str] = field(
         default=None,
@@ -49,10 +43,7 @@ class XString:
         name = "X_String"
 
     value: Optional[str] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
     kind: Optional[str] = field(
         default=None,

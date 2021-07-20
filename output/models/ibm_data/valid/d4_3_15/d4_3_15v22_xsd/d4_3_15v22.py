@@ -11,5 +11,5 @@ class Root:
         namespace = "http://xstest-tns/schema11_D4_3_15"
 
     value: Optional[str] = field(
-        default=None,
+        default=None
     )

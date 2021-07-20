@@ -1,6 +1,6 @@
 {
     "elementWithAttr": {
-        "number": null,
+        "number": 12,
         "price": "12.3"
     }
 }

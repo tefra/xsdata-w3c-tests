@@ -10,7 +10,7 @@ class B1:
         namespace = "b"
 
     value: str = field(
-        default="b1",
+        default="b1"
     )
 
 
@@ -22,5 +22,5 @@ class B2:
 
     value: str = field(
         init=False,
-        default="b2",
+        default="b2"
     )

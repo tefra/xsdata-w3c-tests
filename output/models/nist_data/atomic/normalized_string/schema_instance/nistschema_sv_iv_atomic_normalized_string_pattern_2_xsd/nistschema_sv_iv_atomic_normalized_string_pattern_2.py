@@ -13,7 +13,6 @@ class NistschemaSvIvAtomicNormalizedStringPattern2:
     value: Optional[str] = field(
         default=None,
         metadata={
-            "required": True,
             "pattern": r"\d{1,5}\s([A-Z][a-z]{1,20}\s){4}Street\s([A-Z][a-z]{1,20}\s){2},\s[A-Z]{2}\s11352",
         }
     )

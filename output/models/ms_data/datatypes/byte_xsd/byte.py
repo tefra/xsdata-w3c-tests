@@ -23,10 +23,7 @@ class SimpleTest:
         name = "simpleTest"
 
     value: Optional[int] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -54,6 +51,5 @@ class Root:
         metadata={
             "name": "simpleTest",
             "type": "Element",
-            "required": True,
         }
     )

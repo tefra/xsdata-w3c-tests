@@ -11,5 +11,5 @@ class Root:
 
     value: Union[XmlPeriod, str, Decimal] = field(
         init=False,
-        default="name",
+        default="name"
     )

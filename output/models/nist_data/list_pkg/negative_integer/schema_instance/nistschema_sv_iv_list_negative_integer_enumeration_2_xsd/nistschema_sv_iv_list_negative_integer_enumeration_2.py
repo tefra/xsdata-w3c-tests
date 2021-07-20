@@ -87,8 +87,5 @@ class NistschemaSvIvListNegativeIntegerEnumeration2:
         namespace = "NISTSchema-SV-IV-list-negativeInteger-enumeration-2-NS"
 
     value: Optional[NistschemaSvIvListNegativeIntegerEnumeration2Type] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )

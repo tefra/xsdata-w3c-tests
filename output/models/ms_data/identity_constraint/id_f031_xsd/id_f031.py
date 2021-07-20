@@ -8,10 +8,7 @@ class R:
         name = "r"
 
     value: Optional[str] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -21,10 +18,7 @@ class R2:
         name = "r2"
 
     value: Optional[str] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -34,10 +28,7 @@ class Rtype:
         name = "rtype"
 
     value: Optional[str] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
     val: Optional[str] = field(
         default=None,
@@ -56,14 +47,12 @@ class T:
         default=None,
         metadata={
             "type": "Element",
-            "required": True,
         }
     )
     r: Optional[str] = field(
         default=None,
         metadata={
             "type": "Element",
-            "required": True,
         }
     )
 

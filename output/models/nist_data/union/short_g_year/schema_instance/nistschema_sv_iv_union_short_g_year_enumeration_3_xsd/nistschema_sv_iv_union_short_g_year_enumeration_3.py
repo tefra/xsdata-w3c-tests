@@ -24,8 +24,5 @@ class NistschemaSvIvUnionShortGYearEnumeration3:
         namespace = "NISTSchema-SV-IV-union-short-gYear-enumeration-3-NS"
 
     value: Optional[NistschemaSvIvUnionShortGYearEnumeration3Type] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )

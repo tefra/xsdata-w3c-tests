@@ -91,8 +91,5 @@ class NistschemaSvIvListNormalizedStringEnumeration4:
         namespace = "NISTSchema-SV-IV-list-normalizedString-enumeration-4-NS"
 
     value: Optional[NistschemaSvIvListNormalizedStringEnumeration4Type] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )

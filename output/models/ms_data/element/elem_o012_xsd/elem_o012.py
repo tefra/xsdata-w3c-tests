@@ -10,7 +10,6 @@ class FooTest:
     value: Optional[str] = field(
         default=None,
         metadata={
-            "required": True,
             "min_length": 3,
         }
     )
@@ -26,7 +25,6 @@ class Root:
         metadata={
             "name": "fooTest",
             "type": "Element",
-            "required": True,
             "min_length": 3,
         }
     )

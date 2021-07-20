@@ -74,8 +74,5 @@ class NistschemaSvIvListDateTimeEnumeration4:
         namespace = "NISTSchema-SV-IV-list-dateTime-enumeration-4-NS"
 
     value: Optional[NistschemaSvIvListDateTimeEnumeration4Type] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )

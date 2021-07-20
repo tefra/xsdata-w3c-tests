@@ -11,7 +11,7 @@ class E:
 
     value: bool = field(
         init=False,
-        default=True,
+        default=True
     )
 
 
@@ -26,6 +26,5 @@ class Root:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-            "required": True,
         }
     )

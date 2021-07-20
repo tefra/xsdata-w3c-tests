@@ -23,8 +23,5 @@ class NistschemaSvIvAtomicNonNegativeIntegerEnumeration4:
         namespace = "NISTSchema-SV-IV-atomic-nonNegativeInteger-enumeration-4-NS"
 
     value: Optional[NistschemaSvIvAtomicNonNegativeIntegerEnumeration4Type] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )

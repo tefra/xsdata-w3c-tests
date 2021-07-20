@@ -7,7 +7,7 @@ class FooTest:
         name = "fooTest"
 
     value: str = field(
-        default="Hello",
+        default="Hello"
     )
 
 

@@ -10,10 +10,7 @@ class DimType:
         name = "dimType"
 
     value: Optional[str] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
     length: Optional[object] = field(
         default=None,
@@ -36,7 +33,7 @@ class RectType:
 
     value: str = field(
         init=False,
-        default="lrectangle",
+        default="lrectangle"
     )
     length: Optional[object] = field(
         default=None,
@@ -59,7 +56,7 @@ class SquareType:
 
     value: str = field(
         init=False,
-        default="square",
+        default="square"
     )
     length: Optional[object] = field(
         default=None,

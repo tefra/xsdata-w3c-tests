@@ -31,7 +31,7 @@ class IntegerTitleType(TitleType):
         name = "integerTitleType"
 
     value: Optional[int] = field(
-        default=None,
+        default=None
     )
 
 
@@ -41,7 +41,7 @@ class MixedTitleType(TitleType):
         name = "mixedTitleType"
 
     value: Optional[Union[int, str]] = field(
-        default=None,
+        default=None
     )
 
 
@@ -51,7 +51,7 @@ class StringTitleType(TitleType):
         name = "stringTitleType"
 
     value: Optional[str] = field(
-        default=None,
+        default=None
     )
 
 

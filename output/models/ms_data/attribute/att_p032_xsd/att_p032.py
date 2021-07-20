@@ -16,24 +16,27 @@ class AttRef:
             "namespace": "http://xsdtesting",
         }
     )
-    red_att: Optional[str] = field(
-        default=None,
+    red_att: str = field(
+        init=False,
+        default="37",
         metadata={
             "name": "redAtt",
             "type": "Attribute",
             "namespace": "http://xsdtesting",
         }
     )
-    inc_att: Optional[str] = field(
-        default=None,
+    inc_att: str = field(
+        init=False,
+        default="37",
         metadata={
             "name": "incAtt",
             "type": "Attribute",
             "namespace": "http://xsdtesting",
         }
     )
-    imp_att: Optional[str] = field(
-        default=None,
+    imp_att: str = field(
+        init=False,
+        default="37",
         metadata={
             "name": "impAtt",
             "type": "Attribute",

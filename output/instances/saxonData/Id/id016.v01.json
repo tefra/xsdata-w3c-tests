@@ -2,8 +2,8 @@
     "para": [
         {
             "value": null,
-            "id": null,
-            "idref": null
+            "id": "para001",
+            "idref": "para001"
         }
     ]
 }

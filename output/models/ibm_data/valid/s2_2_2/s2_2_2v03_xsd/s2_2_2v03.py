@@ -11,10 +11,7 @@ class Elem1:
         namespace = "http://xstest-tns/ibms3_3_6_v01"
 
     value: Optional[str] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -25,10 +22,7 @@ class Elem2:
         namespace = "http://xstest-tns/ibms3_3_6_v01"
 
     value: Optional[str] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -42,7 +36,6 @@ class RootType:
         metadata={
             "type": "Element",
             "namespace": "http://xstest-tns/ibms3_3_6_v01",
-            "required": True,
         }
     )
     elem1: Optional[str] = field(
@@ -50,7 +43,6 @@ class RootType:
         metadata={
             "type": "Element",
             "namespace": "http://xstest-tns/ibms3_3_6_v01",
-            "required": True,
         }
     )
 

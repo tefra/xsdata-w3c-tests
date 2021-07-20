@@ -13,7 +13,6 @@ class NistschemaSvIvAtomicUnsignedIntPattern3:
     value: Optional[str] = field(
         default=None,
         metadata={
-            "required": True,
             "pattern": r"\d{5}",
         }
     )

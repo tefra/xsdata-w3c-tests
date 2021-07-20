@@ -1,6 +1,10 @@
 {
     "elem": {
-        "foo": [],
+        "foo": [
+            {
+                "any_element": null
+            }
+        ],
         "any_element": [
             {
                 "qname": "foo",

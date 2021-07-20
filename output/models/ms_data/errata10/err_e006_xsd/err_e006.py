@@ -74,10 +74,7 @@ class TestDate:
         namespace = "http://www.tempuri.org"
 
     value: Optional[XmlDate] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -88,10 +85,7 @@ class TestGday:
         namespace = "http://www.tempuri.org"
 
     value: Optional[XmlPeriod] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -102,10 +96,7 @@ class TestGmonth:
         namespace = "http://www.tempuri.org"
 
     value: Optional[XmlPeriod] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -116,10 +107,7 @@ class TestGmonthDay:
         namespace = "http://www.tempuri.org"
 
     value: Optional[XmlPeriod] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -130,10 +118,7 @@ class TestGyear:
         namespace = "http://www.tempuri.org"
 
     value: Optional[XmlPeriod] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -144,8 +129,5 @@ class TestGyearMonth:
         namespace = "http://www.tempuri.org"
 
     value: Optional[XmlPeriod] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )

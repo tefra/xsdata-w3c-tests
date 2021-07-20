@@ -13,7 +13,6 @@ class NistschemaSvIvAtomicBooleanWhiteSpace1:
     value: Optional[bool] = field(
         default=None,
         metadata={
-            "required": True,
             "white_space": "collapse",
         }
     )

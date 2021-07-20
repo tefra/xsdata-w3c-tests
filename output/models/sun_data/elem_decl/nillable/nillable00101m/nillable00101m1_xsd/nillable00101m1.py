@@ -12,8 +12,5 @@ class Root:
         namespace = "ElemDecl/nillable"
 
     value: Optional[bool] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )

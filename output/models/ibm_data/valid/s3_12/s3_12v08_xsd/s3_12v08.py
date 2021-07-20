@@ -37,7 +37,7 @@ class DerivedType1(ChildType):
         name = "derivedType1"
 
     value: Optional[bool] = field(
-        default=None,
+        default=None
     )
 
 
@@ -47,7 +47,7 @@ class DerivedType2(ChildType):
         name = "derivedType2"
 
     value: Optional[int] = field(
-        default=None,
+        default=None
     )
 
 

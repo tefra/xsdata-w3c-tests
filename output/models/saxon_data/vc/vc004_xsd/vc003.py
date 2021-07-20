@@ -9,5 +9,5 @@ class Temp:
         name = "temp"
 
     value: Optional[XmlDate] = field(
-        default=None,
+        default=None
     )

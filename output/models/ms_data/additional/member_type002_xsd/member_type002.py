@@ -8,10 +8,7 @@ class Ct:
         name = "ct"
 
     value: Optional[str] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
     att: Optional[Union[bool, int, str]] = field(
         default=None,

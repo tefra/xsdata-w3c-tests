@@ -15,6 +15,5 @@ class Series:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-            "required": True,
         }
     )

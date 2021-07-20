@@ -10,10 +10,7 @@ class Head:
         namespace = "ElemDecl/disallowedSubst"
 
     value: Optional[str] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -23,10 +20,7 @@ class Member1:
         namespace = "ElemDecl/disallowedSubst"
 
     value: Optional[str] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -41,7 +35,6 @@ class Root:
         metadata={
             "name": "Member1",
             "type": "Element",
-            "min_occurs": 1,
         }
     )
     head: List[str] = field(
@@ -49,6 +42,5 @@ class Root:
         metadata={
             "name": "Head",
             "type": "Element",
-            "min_occurs": 1,
         }
     )

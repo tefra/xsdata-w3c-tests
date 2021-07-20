@@ -108,8 +108,5 @@ class NistschemaSvIvListUnsignedByteEnumeration2:
         namespace = "NISTSchema-SV-IV-list-unsignedByte-enumeration-2-NS"
 
     value: Optional[NistschemaSvIvListUnsignedByteEnumeration2Type] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )

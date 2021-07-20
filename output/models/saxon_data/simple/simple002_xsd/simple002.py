@@ -21,10 +21,7 @@ class Chap:
     @dataclass
     class Section:
         value: Optional[str] = field(
-            default=None,
-            metadata={
-                "required": True,
-            }
+            default=None
         )
         nr: float = field(
             default=float("inf"),

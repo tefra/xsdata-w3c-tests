@@ -27,12 +27,12 @@ class B:
 
 @dataclass
 class R:
-    foo: Optional[object] = field(
-        default=None,
+    foo: List[Foo] = field(
+        default_factory=list,
         metadata={
             "type": "Element",
             "namespace": "http://xsdtesting",
-            "required": True,
+            "max_occurs": 3,
         }
     )
     any_element: List[object] = field(
@@ -41,15 +41,6 @@ class R:
             "type": "Wildcard",
             "namespace": "##any",
             "max_occurs": 4,
-        }
-    )
-    xsdtesting_foo: List[Foo] = field(
-        default_factory=list,
-        metadata={
-            "name": "foo",
-            "type": "Element",
-            "namespace": "http://xsdtesting",
-            "max_occurs": 2,
         }
     )
 

@@ -30,7 +30,6 @@ class SubDocType:
         metadata={
             "type": "Element",
             "namespace": "http://simple013.ly/",
-            "min_occurs": 1,
         }
     )
 

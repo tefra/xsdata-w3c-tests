@@ -16,7 +16,6 @@ class Root:
         metadata={
             "type": "Element",
             "namespace": "",
-            "min_occurs": 1,
             "pattern": r"[a-z][x-z]",
         }
     )

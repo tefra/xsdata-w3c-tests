@@ -12,7 +12,6 @@ class Uid:
         metadata={
             "type": "Element",
             "namespace": "",
-            "min_occurs": 1,
         }
     )
     val: Optional[str] = field(

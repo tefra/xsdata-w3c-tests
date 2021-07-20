@@ -10,5 +10,5 @@ class Root:
         namespace = "ElemDecl/valueConstraint"
 
     value: float = field(
-        default=0.01,
+        default=0.01
     )

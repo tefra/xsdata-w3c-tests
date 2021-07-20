@@ -26,7 +26,6 @@ class NistschemaSvIvAtomicHexBinaryEnumeration4:
     value: Optional[NistschemaSvIvAtomicHexBinaryEnumeration4Type] = field(
         default=None,
         metadata={
-            "required": True,
             "format": "base16",
         }
     )

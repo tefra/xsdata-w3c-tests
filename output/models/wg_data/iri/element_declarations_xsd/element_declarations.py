@@ -10,7 +10,6 @@ class Iri3987:
     value: Optional[str] = field(
         default=None,
         metadata={
-            "required": True,
             "pattern": r"",
         }
     )
@@ -24,7 +23,6 @@ class IriReference3987:
     value: Optional[str] = field(
         default=None,
         metadata={
-            "required": True,
             "pattern": r"",
         }
     )
@@ -38,7 +36,6 @@ class Uri3986:
     value: Optional[str] = field(
         default=None,
         metadata={
-            "required": True,
             "pattern": r"((([A-Za-z])[A-Za-z0-9+\-\.]*):((\?((([A-Za-z0-9\-\._~!$&'()*+,;=:@]|(%[0-9A-Fa-f][0-9A-Fa-f]))|/|\?))*))?((#((([A-Za-z0-9\-\._~!$&'()*+,;=:@]|(%[0-9A-Fa-f][0-9A-Fa-f]))|/|\?))*))?)",
         }
     )
@@ -52,7 +49,6 @@ class UriReference3986:
     value: Optional[str] = field(
         default=None,
         metadata={
-            "required": True,
             "pattern": r"((([A-Za-z])[A-Za-z0-9+\-\.]*):((\?((([A-Za-z0-9\-\._~!$&'()*+,;=:@]|(%[0-9A-Fa-f][0-9A-Fa-f]))|/|\?))*))?((#((([A-Za-z0-9\-\._~!$&'()*+,;=:@]|(%[0-9A-Fa-f][0-9A-Fa-f]))|/|\?))*))?)",
         }
     )
@@ -66,7 +62,6 @@ class AbsoluteIri3987:
     value: Optional[str] = field(
         default=None,
         metadata={
-            "required": True,
             "pattern": r"",
         }
     )
@@ -80,7 +75,6 @@ class AbsoluteUri3986:
     value: Optional[str] = field(
         default=None,
         metadata={
-            "required": True,
             "pattern": r"((([A-Za-z])[A-Za-z0-9+\-\.]*):((\?((([A-Za-z0-9\-\._~!$&'()*+,;=:@]|(%[0-9A-Fa-f][0-9A-Fa-f]))|/|\?))*))?)",
         }
     )
@@ -94,7 +88,6 @@ class RelativeReference3986:
     value: Optional[str] = field(
         default=None,
         metadata={
-            "required": True,
             "pattern": r"",
         }
     )
@@ -108,7 +101,6 @@ class RelativeReference3987:
     value: Optional[str] = field(
         default=None,
         metadata={
-            "required": True,
             "pattern": r"",
         }
     )

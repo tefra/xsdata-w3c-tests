@@ -70,7 +70,6 @@ class SA:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-            "required": True,
         }
     )
 
@@ -85,7 +84,6 @@ class Test2:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-            "required": True,
         }
     )
 
@@ -143,8 +141,5 @@ class Test:
         name = "test"
 
     value: Optional[A] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )

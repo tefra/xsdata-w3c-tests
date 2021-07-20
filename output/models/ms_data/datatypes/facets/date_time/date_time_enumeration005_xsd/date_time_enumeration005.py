@@ -14,8 +14,5 @@ class Doc:
         name = "doc"
 
     value: Optional[Dttype] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )

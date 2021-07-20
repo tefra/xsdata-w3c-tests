@@ -23,8 +23,5 @@ class NistschemaSvIvAtomicDurationEnumeration4:
         namespace = "NISTSchema-SV-IV-atomic-duration-enumeration-4-NS"
 
     value: Optional[NistschemaSvIvAtomicDurationEnumeration4Type] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )

@@ -27,7 +27,6 @@ class Cs:
     value: Optional[str] = field(
         default=None,
         metadata={
-            "required": True,
             "min_length": 1,
             "max_length": 4,
         }
@@ -49,7 +48,6 @@ class Fe1Valid:
     value: Optional[str] = field(
         default=None,
         metadata={
-            "required": True,
             "min_length": 1,
             "max_length": 4,
         }
@@ -65,7 +63,6 @@ class FeValid:
     value: Optional[str] = field(
         default=None,
         metadata={
-            "required": True,
             "max_length": 4,
         }
     )
@@ -81,7 +78,6 @@ class Root:
         default=None,
         metadata={
             "type": "Element",
-            "required": True,
             "min_length": 1,
             "max_length": 4,
         }
@@ -90,7 +86,6 @@ class Root:
         default=None,
         metadata={
             "type": "Element",
-            "required": True,
             "max_length": 4,
         }
     )

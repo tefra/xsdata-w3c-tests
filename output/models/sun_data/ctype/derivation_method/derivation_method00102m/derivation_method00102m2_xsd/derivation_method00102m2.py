@@ -10,10 +10,7 @@ class A1:
         name = "A"
 
     value: Optional[int] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
     t: Optional[int] = field(
         default=None,

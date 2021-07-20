@@ -15,10 +15,7 @@ class Comment:
         namespace = "http://www.example.com/IPO"
 
     value: Optional[str] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -29,10 +26,7 @@ class CustomerComment:
         namespace = "http://www.example.com/IPO"
 
     value: Optional[str] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -43,10 +37,7 @@ class ShipComment:
         namespace = "http://www.example.com/IPO"
 
     value: Optional[str] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 

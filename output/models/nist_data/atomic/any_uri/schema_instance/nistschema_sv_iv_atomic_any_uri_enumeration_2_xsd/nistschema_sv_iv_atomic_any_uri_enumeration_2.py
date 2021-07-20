@@ -21,8 +21,5 @@ class NistschemaSvIvAtomicAnyUriEnumeration2:
         namespace = "NISTSchema-SV-IV-atomic-anyURI-enumeration-2-NS"
 
     value: Optional[NistschemaSvIvAtomicAnyUriEnumeration2Type] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )

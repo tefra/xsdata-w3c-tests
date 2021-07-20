@@ -12,10 +12,7 @@ class Root:
         namespace = "http://xstest-tns/schema11_F4_3_16_v02"
 
     value: Optional[str] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
     attr_dtime_type: Optional[XmlDateTime] = field(
         default=None,

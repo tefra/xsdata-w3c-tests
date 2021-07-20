@@ -14,7 +14,6 @@ class AnyTypeElement:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-            "required": True,
         }
     )
 
@@ -29,7 +28,6 @@ class DefaultTypeElement:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-            "required": True,
         }
     )
 

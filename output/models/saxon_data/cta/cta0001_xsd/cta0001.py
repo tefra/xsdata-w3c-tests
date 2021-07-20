@@ -67,7 +67,7 @@ class MessageTypeDate(MessageType):
         name = "messageTypeDate"
 
     value: Optional[XmlDate] = field(
-        default=None,
+        default=None
     )
 
 
@@ -77,7 +77,7 @@ class MessageTypeString(MessageType):
         name = "messageTypeString"
 
     value: Optional[str] = field(
-        default=None,
+        default=None
     )
 
 
@@ -87,7 +87,7 @@ class MessageTypeTime(MessageType):
         name = "messageTypeTime"
 
     value: Optional[XmlTime] = field(
-        default=None,
+        default=None
     )
 
 

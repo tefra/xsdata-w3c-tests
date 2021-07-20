@@ -26,8 +26,5 @@ class NistschemaSvIvAtomicGYearEnumeration4:
         namespace = "NISTSchema-SV-IV-atomic-gYear-enumeration-4-NS"
 
     value: Optional[NistschemaSvIvAtomicGYearEnumeration4Type] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )

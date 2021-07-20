@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <doc>
-  <para id="para001"/>
+  <para id="para001" idref="para001"/>
 </doc>

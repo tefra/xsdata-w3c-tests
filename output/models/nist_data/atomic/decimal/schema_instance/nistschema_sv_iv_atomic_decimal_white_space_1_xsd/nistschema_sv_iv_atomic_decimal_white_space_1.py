@@ -14,7 +14,6 @@ class NistschemaSvIvAtomicDecimalWhiteSpace1:
     value: Optional[Decimal] = field(
         default=None,
         metadata={
-            "required": True,
             "white_space": "collapse",
         }
     )

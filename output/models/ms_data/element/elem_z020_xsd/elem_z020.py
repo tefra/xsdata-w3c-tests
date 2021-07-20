@@ -39,10 +39,7 @@ class E1:
         namespace = "foo"
 
     value: Optional[bool] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -53,10 +50,7 @@ class Foo:
         namespace = "foo"
 
     value: Optional[bool] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 

@@ -11,8 +11,5 @@ class Iid:
         namespace = "importNS"
 
     value: Optional[str] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )

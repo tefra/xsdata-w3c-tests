@@ -87,8 +87,5 @@ class NistschemaSvIvListLongEnumeration5:
         namespace = "NISTSchema-SV-IV-list-long-enumeration-5-NS"
 
     value: Optional[NistschemaSvIvListLongEnumeration5Type] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )

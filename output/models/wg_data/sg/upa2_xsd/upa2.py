@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Optional
+from typing import List, Optional, Union
 
 __NAMESPACE__ = "http://www.w3.org/XML/2008/xsdl-exx/ns1"
 
@@ -11,10 +11,7 @@ class E:
         namespace = "http://www.w3.org/XML/2008/xsdl-exx/ns1"
 
     value: Optional[str] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -29,33 +26,29 @@ class E1:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-            "required": True,
         }
     )
 
 
 @dataclass
 class T:
-    e1: Optional[E1] = field(
-        default=None,
+    e_or_e1: List[object] = field(
+        default_factory=list,
         metadata={
-            "type": "Element",
-            "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
-        }
-    )
-    e: Optional[str] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
-        }
-    )
-    w3_org_xml_2008_xsdl_exx_ns1_e1: Optional[int] = field(
-        default=None,
-        metadata={
-            "name": "e1",
-            "type": "Element",
-            "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "e",
+                    "type": str,
+                    "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
+                },
+                {
+                    "name": "e1",
+                    "type": Union[int, E1],
+                    "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
+                },
+            ),
+            "max_occurs": 2,
         }
     )
 

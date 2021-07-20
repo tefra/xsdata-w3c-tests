@@ -36,10 +36,7 @@ class T:
         namespace = "myNS.tempuri.org"
 
     value: Optional[str] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -50,8 +47,5 @@ class U:
         namespace = "myNS.tempuri.org"
 
     value: Optional[Decimal] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )

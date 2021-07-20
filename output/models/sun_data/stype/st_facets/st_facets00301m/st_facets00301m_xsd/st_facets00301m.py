@@ -17,5 +17,5 @@ class Test:
         namespace = "SType/ST_facets"
 
     value: Optional[TestValue] = field(
-        default=None,
+        default=None
     )

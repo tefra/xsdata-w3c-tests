@@ -14,7 +14,6 @@ class Test:
     value: Optional[Decimal] = field(
         default=None,
         metadata={
-            "required": True,
             "max_inclusive": Decimal("100"),
         }
     )

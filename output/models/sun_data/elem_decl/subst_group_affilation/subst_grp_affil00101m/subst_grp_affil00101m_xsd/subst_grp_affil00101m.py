@@ -77,7 +77,6 @@ class BookStore:
         metadata={
             "name": "Magazine",
             "type": "Element",
-            "min_occurs": 1,
         }
     )
     book: List[Book] = field(
@@ -85,7 +84,6 @@ class BookStore:
         metadata={
             "name": "Book",
             "type": "Element",
-            "min_occurs": 1,
         }
     )
     publication: List[Publication] = field(
@@ -93,6 +91,5 @@ class BookStore:
         metadata={
             "name": "Publication",
             "type": "Element",
-            "min_occurs": 1,
         }
     )

@@ -58,7 +58,6 @@ class Book:
         default_factory=list,
         metadata={
             "type": "Element",
-            "min_occurs": 1,
             "sequential": True,
         }
     )
@@ -66,7 +65,6 @@ class Book:
         default_factory=list,
         metadata={
             "type": "Element",
-            "min_occurs": 1,
             "sequential": True,
         }
     )

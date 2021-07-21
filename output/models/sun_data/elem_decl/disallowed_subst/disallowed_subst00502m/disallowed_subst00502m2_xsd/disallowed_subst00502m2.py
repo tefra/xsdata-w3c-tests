@@ -46,7 +46,6 @@ class Root:
         metadata={
             "name": "Member1",
             "type": "Element",
-            "min_occurs": 1,
         }
     )
     head: List[Head] = field(
@@ -54,6 +53,5 @@ class Root:
         metadata={
             "name": "Head",
             "type": "Element",
-            "min_occurs": 1,
         }
     )

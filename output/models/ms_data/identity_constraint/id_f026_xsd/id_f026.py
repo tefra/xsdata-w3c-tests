@@ -39,14 +39,12 @@ class T:
         default=None,
         metadata={
             "type": "Element",
-            "required": True,
         }
     )
     r: Optional[R] = field(
         default=None,
         metadata={
             "type": "Element",
-            "required": True,
         }
     )
 

@@ -106,14 +106,12 @@ class Generic:
         metadata={
             "name": "int",
             "type": "Element",
-            "min_occurs": 1,
         }
     )
     long: List[Long] = field(
         default_factory=list,
         metadata={
             "type": "Element",
-            "min_occurs": 1,
         }
     )
     yes_no: List[YesNo] = field(
@@ -121,14 +119,12 @@ class Generic:
         metadata={
             "name": "yesNo",
             "type": "Element",
-            "min_occurs": 1,
         }
     )
     facet: List[Facet] = field(
         default_factory=list,
         metadata={
             "type": "Element",
-            "min_occurs": 1,
         }
     )
 
@@ -159,13 +155,11 @@ class Root:
             metadata={
                 "name": "int",
                 "type": "Element",
-                "min_occurs": 1,
             }
         )
         long: List[Long] = field(
             default_factory=list,
             metadata={
                 "type": "Element",
-                "min_occurs": 1,
             }
         )

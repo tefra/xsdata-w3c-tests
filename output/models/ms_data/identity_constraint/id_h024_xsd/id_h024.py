@@ -49,14 +49,12 @@ class Root:
         default_factory=list,
         metadata={
             "type": "Element",
-            "min_occurs": 1,
         }
     )
     uid: List[Uid] = field(
         default_factory=list,
         metadata={
             "type": "Element",
-            "min_occurs": 1,
         }
     )
     kid: List[Kid] = field(

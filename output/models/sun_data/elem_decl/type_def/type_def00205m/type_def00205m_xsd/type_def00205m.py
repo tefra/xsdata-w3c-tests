@@ -43,7 +43,6 @@ class Root:
         metadata={
             "name": "AnyTypeElement",
             "type": "Element",
-            "required": True,
         }
     )
     default_type_element: Optional[DefaultTypeElement] = field(
@@ -51,6 +50,5 @@ class Root:
         metadata={
             "name": "DefaultTypeElement",
             "type": "Element",
-            "required": True,
         }
     )

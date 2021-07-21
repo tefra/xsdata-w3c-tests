@@ -57,7 +57,6 @@ class Root:
         metadata={
             "name": "SuperElement",
             "type": "Element",
-            "min_occurs": 1,
         }
     )
     super_super_element: List[SuperSuperElement] = field(
@@ -65,7 +64,6 @@ class Root:
         metadata={
             "name": "SuperSuperElement",
             "type": "Element",
-            "min_occurs": 1,
         }
     )
     separator: Optional[object] = field(
@@ -81,6 +79,5 @@ class Root:
         metadata={
             "name": "Element",
             "type": "Element",
-            "min_occurs": 1,
         }
     )

@@ -36,7 +36,6 @@ class Zing:
         metadata={
             "name": "A",
             "type": "Element",
-            "required": True,
         }
     )
     a: Optional[str] = field(

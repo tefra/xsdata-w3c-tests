@@ -83,14 +83,12 @@ class Doc:
         metadata={
             "name": "C",
             "type": "Element",
-            "min_occurs": 2,
         }
     )
     c: List[C2] = field(
         default_factory=list,
         metadata={
             "type": "Element",
-            "min_occurs": 2,
         }
     )
     d_element: Optional[D1] = field(
@@ -98,13 +96,11 @@ class Doc:
         metadata={
             "name": "D",
             "type": "Element",
-            "required": True,
         }
     )
     d: Optional[D2] = field(
         default=None,
         metadata={
             "type": "Element",
-            "required": True,
         }
     )

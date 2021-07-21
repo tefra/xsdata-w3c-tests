@@ -76,13 +76,11 @@ class Root:
         default=None,
         metadata={
             "type": "Element",
-            "required": True,
         }
     )
     fr_valid: Optional[FrValid] = field(
         default=None,
         metadata={
             "type": "Element",
-            "required": True,
         }
     )

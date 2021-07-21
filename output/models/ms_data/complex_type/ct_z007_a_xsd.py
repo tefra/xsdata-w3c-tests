@@ -178,7 +178,6 @@ class Customers:
             "name": "MyCustomer",
             "type": "Element",
             "namespace": "urn:xmlns:25hoursaday-com:address",
-            "min_occurs": 1,
         }
     )
     customer: List[Customer] = field(
@@ -186,6 +185,5 @@ class Customers:
         metadata={
             "name": "Customer",
             "type": "Element",
-            "min_occurs": 1,
         }
     )

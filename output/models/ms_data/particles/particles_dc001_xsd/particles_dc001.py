@@ -59,13 +59,11 @@ class Doc:
         default=None,
         metadata={
             "type": "Element",
-            "required": True,
         }
     )
     elem1: Optional[Elem1] = field(
         default=None,
         metadata={
             "type": "Element",
-            "required": True,
         }
     )

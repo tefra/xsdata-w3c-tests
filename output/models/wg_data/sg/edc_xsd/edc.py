@@ -44,7 +44,6 @@ class T:
         metadata={
             "type": "Element",
             "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
-            "min_occurs": 1,
             "max_occurs": 2,
         }
     )

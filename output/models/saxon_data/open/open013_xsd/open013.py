@@ -7,11 +7,11 @@ class Doc:
     class Meta:
         name = "doc"
 
-    open_com_element: List[object] = field(
+    content: List[object] = field(
         default_factory=list,
         metadata={
             "type": "Wildcard",
-            "namespace": "http://open.com/",
+            "namespace": "##any",
             "mixed": True,
         }
     )

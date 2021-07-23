@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import Optional
 from xsdata.models.datatype import XmlDate
 
 
@@ -17,12 +17,11 @@ class Doc:
             "type": "Attribute",
         }
     )
-    open_com_element: List[object] = field(
-        default_factory=list,
+    open_com_element: Optional[object] = field(
+        default=None,
         metadata={
             "type": "Wildcard",
             "namespace": "http://open.com/",
-            "min_occurs": 1,
-            "max_occurs": 2,
+            "required": True,
         }
     )

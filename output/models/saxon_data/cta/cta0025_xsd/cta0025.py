@@ -15,7 +15,6 @@ class Event:
         default=None,
         metadata={
             "type": "Element",
-            "required": True,
         }
     )
     type: Optional[str] = field(

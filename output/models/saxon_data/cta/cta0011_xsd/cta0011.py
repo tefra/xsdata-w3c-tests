@@ -14,14 +14,12 @@ class Chap:
         default=None,
         metadata={
             "type": "Element",
-            "required": True,
         }
     )
     fr: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
-            "required": True,
         }
     )
 

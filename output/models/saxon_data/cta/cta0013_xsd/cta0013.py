@@ -14,7 +14,6 @@ class Chap:
         default=None,
         metadata={
             "type": "Element",
-            "required": True,
         }
     )
     lang: Optional[str] = field(
@@ -27,7 +26,6 @@ class Chap:
         default=None,
         metadata={
             "type": "Element",
-            "required": True,
         }
     )
 

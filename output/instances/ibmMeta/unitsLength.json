@@ -3,14 +3,14 @@
         {
             "appinfo_or_documentation": [
                 {
-                    "any_element": [
-                        " test Units of length for list datatype\n\t      "
-                    ],
                     "source": null,
                     "lang": null,
                     "other_attributes": {
                         "{http://www.w3.org/1999/xlink}href": "http://www.w3.org/TR/xmlschema11-2/#dt-list"
-                    }
+                    },
+                    "content": [
+                        " test Units of length for list datatype\n\t      "
+                    ]
                 }
             ],
             "other_attributes": {}
@@ -22,12 +22,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                " test Units of length for hexBinary datatype.  "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                " test Units of length for hexBinary datatype.  "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -114,12 +114,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                " test hexBinary datatype   "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                " test hexBinary datatype   "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -208,12 +208,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                " test Units of length for hexBinary datatype   "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                " test Units of length for hexBinary datatype   "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -302,12 +302,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                " test Units of length for base64Binary datatype.  "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                " test Units of length for base64Binary datatype.  "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -396,12 +396,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                " test base64Binary datatype "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                " test base64Binary datatype "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -490,12 +490,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                " test Units of length for list datatype    "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                " test Units of length for list datatype    "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -584,12 +584,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                " Unions with no member types (and thus with empty value space and lexical space) are now explicitly allowed.    "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                " Unions with no member types (and thus with empty value space and lexical space) are now explicitly allowed.    "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -648,12 +648,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                " use of the namespace http://www.w3.org/2001/XMLSchema-datatypes has been deprecated.  "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                " use of the namespace http://www.w3.org/2001/XMLSchema-datatypes has been deprecated.  "
+                            ]
                         }
                     ],
                     "other_attributes": {}

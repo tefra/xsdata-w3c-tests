@@ -1,12 +1,12 @@
 {
-    "content": [
-        "\ntesting\n"
-    ],
     "att1": null,
     "foo": null,
     "other_attributes": {
         "{http://www.w3.org/2001/XMLSchema-instance}noNamespaceSchemaLocation": "attgD022.xsd",
         "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "a attgD022a.xsd",
         "{a}a": "b"
-    }
+    },
+    "content": [
+        "\ntesting\n"
+    ]
 }

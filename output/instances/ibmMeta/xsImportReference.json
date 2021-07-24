@@ -3,14 +3,14 @@
         {
             "appinfo_or_documentation": [
                 {
-                    "any_element": [
-                        "Referring to a namespace requires an xs:import"
-                    ],
                     "source": null,
                     "lang": null,
                     "other_attributes": {
                         "{http://www.w3.org/1999/xlink}href": "http://www.w3.org/TR/xmlschema11-1/#composition-schemaImport"
-                    }
+                    },
+                    "content": [
+                        "Referring to a namespace requires an xs:import"
+                    ]
                 }
             ],
             "other_attributes": {}
@@ -22,12 +22,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "invalid schema for referring to a namespace requires an xs:import"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "invalid schema for referring to a namespace requires an xs:import"
+                            ]
                         }
                     ],
                     "other_attributes": {}

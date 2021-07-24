@@ -3,7 +3,12 @@
         {
             "appinfo_or_documentation": [
                 {
-                    "any_element": [
+                    "source": null,
+                    "lang": null,
+                    "other_attributes": {
+                        "{http://www.w3.org/1999/xlink}href": "http://www.w3.org/TR/xmlschema11-1/#sec-cos-all-limited"
+                    },
+                    "content": [
                         {
                             "qname": "Description",
                             "text": "Test set for All Group Limited",
@@ -11,12 +16,7 @@
                             "children": [],
                             "attributes": {}
                         }
-                    ],
-                    "source": null,
-                    "lang": null,
-                    "other_attributes": {
-                        "{http://www.w3.org/1999/xlink}href": "http://www.w3.org/TR/xmlschema11-1/#sec-cos-all-limited"
-                    }
+                    ]
                 }
             ],
             "other_attributes": {}
@@ -28,12 +28,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Wildcards are now allowed in xs:all"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Wildcards are now allowed in xs:all"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -122,12 +122,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Tests restriction of all group"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Tests restriction of all group"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -216,12 +216,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Tests maxOccurs > 1 for elements within all group"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Tests maxOccurs > 1 for elements within all group"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -310,12 +310,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "maxOccurs may now be >1 in all group"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "maxOccurs may now be >1 in all group"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -404,12 +404,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Tests notNamespace in all group"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Tests notNamespace in all group"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -498,12 +498,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Tests notQName in allgroup"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Tests notQName in allgroup"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -592,12 +592,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Tests occurence validity"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Tests occurence validity"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -658,12 +658,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Tests restriction of all modelgroup"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Tests restriction of all modelgroup"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -724,12 +724,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Tests restriction of all modelgroup"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Tests restriction of all modelgroup"
+                            ]
                         }
                     ],
                     "other_attributes": {}

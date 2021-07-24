@@ -6,7 +6,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Attribute declaration is resolved for attribute use. (valid schema)",
@@ -21,10 +24,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -105,7 +105,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Attribute declaration is resolved for attribute use. (invalid schema)",
@@ -120,10 +123,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -176,7 +176,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Attribute use is declared required.  (valid schema)",
@@ -191,10 +194,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -302,7 +302,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Attribute with fixed value is declared within element by reference  (valid schema)",
@@ -317,10 +320,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}

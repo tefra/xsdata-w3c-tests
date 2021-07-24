@@ -10,17 +10,17 @@ class R:
         name = "r"
         namespace = "importNS"
 
+    val: Optional[str] = field(
+        default=None,
+        metadata={
+            "type": "Attribute",
+        }
+    )
     content: List[object] = field(
         default_factory=list,
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
             "mixed": True,
-        }
-    )
-    val: Optional[str] = field(
-        default=None,
-        metadata={
-            "type": "Attribute",
         }
     )

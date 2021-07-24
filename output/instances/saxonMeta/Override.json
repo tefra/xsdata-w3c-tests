@@ -6,7 +6,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "xs:override overriding an element declaration",
@@ -21,10 +24,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -79,12 +79,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, satisfies the overriding declaration.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid, satisfies the overriding declaration.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -120,12 +120,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, uses content model before override.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid, uses content model before override.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -161,12 +161,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, unknown element declaration.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid, unknown element declaration.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -209,7 +209,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "xs:override overriding an element declaration which is referenced in the overridden schema doc",
@@ -224,10 +227,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -282,12 +282,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, satisfies the overriding declaration.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid, satisfies the overriding declaration.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -323,12 +323,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, uses content model before override.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid, uses content model before override.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -364,12 +364,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, unknown element declaration.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid, unknown element declaration.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -412,7 +412,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "xs:override including a declaration which overrides nothing in the overridden schema",
@@ -427,10 +430,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -485,12 +485,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, satisfies the overriding declaration.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid, satisfies the overriding declaration.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -526,12 +526,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, uses content model before override.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid, uses content model before override.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -567,12 +567,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, unknown element declaration.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid, unknown element declaration.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -615,7 +615,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "xs:override including a declaration outside the xs:override. Depends on over003",
@@ -630,10 +633,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -688,12 +688,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, satisfies the overriding declaration.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid, satisfies the overriding declaration.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -729,12 +729,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, uses content model before override.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid, uses content model before override.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -770,12 +770,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, unknown element declaration.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid, unknown element declaration.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -818,7 +818,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "xs:override of an attribute declaration",
@@ -833,10 +836,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -891,12 +891,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, satisfies the overriding declaration.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid, satisfies the overriding declaration.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -932,12 +932,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, uses content model before override.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid, uses content model before override.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -973,12 +973,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, unknown element declaration.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid, unknown element declaration.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1021,7 +1021,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "xs:override of a self-referential element declaration",
@@ -1036,10 +1039,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1094,12 +1094,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, satisfies the overriding declaration.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid, satisfies the overriding declaration.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1135,12 +1135,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, uses content model before override.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid, uses content model before override.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1176,12 +1176,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, unknown element declaration.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid, unknown element declaration.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1224,7 +1224,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "xs:override of a model group declaration",
@@ -1239,10 +1242,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1297,12 +1297,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, satisfies the overriding declaration.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid, satisfies the overriding declaration.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1338,12 +1338,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, uses content model before override.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid, uses content model before override.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1379,12 +1379,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, unknown element declaration.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid, unknown element declaration.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1427,7 +1427,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "xs:override of an attribute group declaration",
@@ -1442,10 +1445,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1500,12 +1500,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, satisfies the overriding declaration.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid, satisfies the overriding declaration.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1541,12 +1541,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, uses content model before override.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid, uses content model before override.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1582,12 +1582,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, unknown element declaration.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid, unknown element declaration.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1630,7 +1630,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Double override",
@@ -1645,10 +1648,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1703,12 +1703,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, satisfies the overriding declaration.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid, satisfies the overriding declaration.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1744,12 +1744,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, uses content model before override.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid, uses content model before override.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1785,12 +1785,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, unknown element declaration.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid, unknown element declaration.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1833,7 +1833,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Override a simple type",
@@ -1848,10 +1851,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1906,12 +1906,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, satisfies the overriding declaration.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid, satisfies the overriding declaration.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1947,12 +1947,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, uses content model before override.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid, uses content model before override.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1988,12 +1988,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, unknown element declaration.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid, unknown element declaration.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -2036,7 +2036,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Override a simple type incorrectly by restricting its former self",
@@ -2051,10 +2054,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -2115,7 +2115,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Override a complex type",
@@ -2130,10 +2133,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -2188,12 +2188,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, satisfies the overriding declaration.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid, satisfies the overriding declaration.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -2229,12 +2229,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -2270,12 +2270,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -2318,7 +2318,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Override a complex type incorrectly with a simple type",
@@ -2333,10 +2336,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -2378,12 +2378,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n                  Changed status to valid. See bug 14442.\n                "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n                  Changed status to valid. See bug 14442.\n                "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -2419,7 +2419,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Override a complex type by self-restriction",
@@ -2434,10 +2437,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -2498,7 +2498,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Override a notation",
@@ -2513,10 +2516,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -2571,12 +2571,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, satisfies the overriding declaration.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid, satisfies the overriding declaration.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -2612,12 +2612,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, satisfies the overriding element declaration.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid, satisfies the overriding element declaration.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -2653,12 +2653,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -2694,12 +2694,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -2742,7 +2742,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Override schema with wrong namespace",
@@ -2757,10 +2760,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -2821,7 +2821,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Override schema with wrong namespace",
@@ -2836,10 +2839,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -2900,7 +2900,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Override declaration in a target namespace",
@@ -2915,10 +2918,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -2973,12 +2973,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, satisfies the overriding declaration.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid, satisfies the overriding declaration.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -3014,12 +3014,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -3055,12 +3055,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -3103,7 +3103,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Chameleon Override declaration",
@@ -3118,10 +3121,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -3176,12 +3176,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, satisfies the overriding declaration.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid, satisfies the overriding declaration.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -3217,12 +3217,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -3258,12 +3258,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -3306,7 +3306,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Indirect chameleon Override declaration",
@@ -3321,10 +3324,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -3379,12 +3379,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, satisfies the overriding declaration.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid, satisfies the overriding declaration.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -3420,12 +3420,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -3461,12 +3461,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -3509,7 +3509,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Override the same thing twice",
@@ -3524,10 +3527,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -3588,7 +3588,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Override the same thing twice",
@@ -3603,10 +3606,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -3667,7 +3667,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "A permissible circular xs:override",
@@ -3682,10 +3685,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -3740,12 +3740,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, satisfies the overriding declaration.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid, satisfies the overriding declaration.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -3781,12 +3781,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, uses content model before override.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid, uses content model before override.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -3822,12 +3822,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, unknown element declaration.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid, unknown element declaration.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -3870,7 +3870,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Disallowed circular xs:override",
@@ -3885,10 +3888,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -3955,7 +3955,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Import is not transitive",
@@ -3970,10 +3973,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -4034,7 +4034,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Overrides ignored if there's nothing to override",
@@ -4049,10 +4052,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -4113,7 +4113,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Override a notation",
@@ -4128,10 +4131,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -4186,12 +4186,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, cannot validate against xs:NOTATION directly, only against a subtype with\n\t\t                an enumeration facet.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid, cannot validate against xs:NOTATION directly, only against a subtype with\n\t\t                an enumeration facet.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -4234,7 +4234,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Simple override test. Test case from Priscilla Walmsley",
@@ -4249,10 +4252,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -4307,12 +4307,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, value of simple type is out of range.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid, value of simple type is out of range.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -4348,12 +4348,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, value of simple type is in range.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid, value of simple type is in range.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -4396,7 +4396,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Interaction of xs:override and xs:import. Test case from Priscilla Walmsley",
@@ -4411,10 +4414,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -4469,12 +4469,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, child elements are in the wrong order.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid, child elements are in the wrong order.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -4510,12 +4510,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, child elements are in the right order.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid, child elements are in the right order.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -4558,7 +4558,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Override a schema document with top-level annotation",
@@ -4573,10 +4576,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}

@@ -1,71 +1,39 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import List
 
 
 @dataclass
 class B:
-    a: List[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-    b: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-    c: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-    open_com_element: List[object] = field(
+    content: List[object] = field(
         default_factory=list,
         metadata={
             "type": "Wildcard",
-            "namespace": "http://open.com/",
+            "namespace": "##any",
             "mixed": True,
+            "choices": (
+                {
+                    "name": "a",
+                    "type": object,
+                    "namespace": "",
+                },
+                {
+                    "name": "b",
+                    "type": object,
+                    "namespace": "",
+                },
+                {
+                    "name": "c",
+                    "type": object,
+                    "namespace": "",
+                },
+            ),
         }
     )
 
 
 @dataclass
-class R:
-    a: List[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-    b: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-    c: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-    open_com_element: List[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Wildcard",
-            "namespace": "http://open.com/",
-            "mixed": True,
-        }
-    )
+class R(B):
+    pass
 
 
 @dataclass

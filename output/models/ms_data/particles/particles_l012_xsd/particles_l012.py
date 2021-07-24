@@ -15,13 +15,13 @@ class Mixed:
             "type": "Wildcard",
             "namespace": "##any",
             "mixed": True,
-        }
-    )
-    foo: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
+            "choices": (
+                {
+                    "name": "foo",
+                    "type": object,
+                    "namespace": "",
+                },
+            ),
         }
     )
 
@@ -62,6 +62,14 @@ class B:
 class NotMixed(Mixed):
     class Meta:
         name = "not_mixed"
+
+    foo: Optional[object] = field(
+        default=None,
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
+    )
 
 
 @dataclass

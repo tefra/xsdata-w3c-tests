@@ -80,12 +80,6 @@ class Root:
                 "type": "Wildcard",
                 "namespace": "##any",
                 "mixed": True,
-            }
-        )
-        a_or_b_or_c: List[object] = field(
-            default_factory=list,
-            metadata={
-                "type": "Elements",
                 "choices": (
                     {
                         "name": "a",

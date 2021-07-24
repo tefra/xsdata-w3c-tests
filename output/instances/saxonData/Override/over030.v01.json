@@ -1,37 +1,34 @@
 {
     "title": {
-        "content": [
-            "Document Title"
-        ],
-        "choice": [],
         "role": null,
         "id": null,
-        "base": null
+        "base": null,
+        "content": [
+            "Document Title"
+        ]
     },
     "xsdextra": null,
     "p_or_blockquote": [
         {
+            "role": null,
+            "id": null,
+            "base": null,
             "content": [
                 "This is some ",
                 {
                     "qname": "{http://example.org/ns/document}emphasis",
                     "value": {
+                        "role": null,
+                        "id": null,
+                        "base": null,
                         "content": [
                             "text",
                             "."
-                        ],
-                        "choice": [],
-                        "role": null,
-                        "id": null,
-                        "base": null
+                        ]
                     },
                     "type": null
                 }
-            ],
-            "choice": [],
-            "role": null,
-            "id": null,
-            "base": null
+            ]
         }
     ],
     "role": null,

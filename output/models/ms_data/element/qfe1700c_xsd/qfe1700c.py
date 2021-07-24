@@ -14,14 +14,13 @@ class E2:
             "type": "Wildcard",
             "namespace": "##any",
             "mixed": True,
-        }
-    )
-    e3: Optional[int] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-            "required": True,
+            "choices": (
+                {
+                    "name": "e3",
+                    "type": int,
+                    "namespace": "",
+                },
+            ),
         }
     )
 

@@ -3,14 +3,14 @@
         {
             "appinfo_or_documentation": [
                 {
-                    "any_element": [
-                        "list"
-                    ],
                     "source": null,
                     "lang": null,
                     "other_attributes": {
                         "{http://www.w3.org/1999/xlink}href": "http://www.w3.org/TR/xmlschema11-2/#list-datatypes"
-                    }
+                    },
+                    "content": [
+                        "list"
+                    ]
                 }
             ],
             "other_attributes": {}
@@ -22,12 +22,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "test Units of length for list datatype."
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "test Units of length for list datatype."
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -116,12 +116,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Lists cannot be bounded"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Lists cannot be bounded"
+                            ]
                         }
                     ],
                     "other_attributes": {}

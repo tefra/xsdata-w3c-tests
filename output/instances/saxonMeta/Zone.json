@@ -6,7 +6,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Test timezone facet with value=\"required\"",
@@ -21,10 +24,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -79,12 +79,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, timezone present.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid, timezone present.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -120,12 +120,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, timezone present.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid, timezone present.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -161,12 +161,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, no timezone present.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid, no timezone present.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -209,7 +209,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Test timezone facet with value=\"prohibited\"",
@@ -224,10 +227,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -282,12 +282,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, timezone present.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid, timezone present.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -323,12 +323,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, timezone present.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid, timezone present.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -364,12 +364,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, no timezone present.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid, no timezone present.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -412,7 +412,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Test timezone facet with value=\"optional\"",
@@ -427,10 +430,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -485,12 +485,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                valid, timezone present.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                valid, timezone present.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -526,12 +526,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                valid, timezone present.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                valid, timezone present.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -567,12 +567,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, no timezone present.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid, no timezone present.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -615,7 +615,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Test timezone facet with value=\"optional\" derived from value=\"required\"",
@@ -630,10 +633,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -694,7 +694,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Test timezone facet with value=\"optional\" derived from value=\"prohibited\"",
@@ -709,10 +712,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -773,7 +773,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Test timezone facet",
@@ -788,10 +791,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -852,7 +852,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Test timezone facet",
@@ -867,10 +870,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -931,7 +931,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Test timezone facet",
@@ -946,10 +949,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1010,7 +1010,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Test built-in type xs:dateTimeStamp",
@@ -1025,10 +1028,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1083,12 +1083,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                valid, timezone present.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                valid, timezone present.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1124,12 +1124,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                valid, timezone present.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                valid, timezone present.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1165,12 +1165,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                invalid, no timezone present.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                invalid, no timezone present.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1213,7 +1213,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Test built-in type xs:dateTimeStamp",
@@ -1228,10 +1231,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1286,12 +1286,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                valid, timezone present.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                valid, timezone present.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1327,12 +1327,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                valid, timezone present.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                valid, timezone present.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1368,12 +1368,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                invalid, no timezone present.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                invalid, no timezone present.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1409,12 +1409,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                invalid, value out of range.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                invalid, value out of range.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1457,7 +1457,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Test year zero allowed in type xs:dateTimeStamp",
@@ -1472,10 +1475,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1530,12 +1530,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                valid, year zero date after minInclusive.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                valid, year zero date after minInclusive.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1571,12 +1571,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                valid, year zero in proleptic Gregorian calendar was a leap year.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                valid, year zero in proleptic Gregorian calendar was a leap year.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1612,12 +1612,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                invalid, year zero date before minInclusive.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                invalid, year zero date before minInclusive.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1660,7 +1660,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Test year zero allowed in type xs:gYearMonth",
@@ -1675,10 +1678,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1739,12 +1739,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                valid, year zero gYearmonth.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                valid, year zero gYearmonth.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1780,12 +1780,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                valid, year zero gYearmonth.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                valid, year zero gYearmonth.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1821,12 +1821,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                valid, year zero gYearmonth.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                valid, year zero gYearmonth.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1862,12 +1862,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                invalid, year zero date before minInclusive.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                invalid, year zero date before minInclusive.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1903,12 +1903,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                invalid, year zero date before minInclusive.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                invalid, year zero date before minInclusive.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1944,12 +1944,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                invalid, year zero date before minInclusive.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                invalid, year zero date before minInclusive.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1992,7 +1992,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Test leap years in proleptic Gregorian calendar",
@@ -2007,10 +2010,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -2071,12 +2071,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                valid, leap year.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                valid, leap year.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -2112,12 +2112,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                valid, leap year.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                valid, leap year.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -2153,12 +2153,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                valid, leap year.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                valid, leap year.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -2194,12 +2194,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                invalid, not a leap year.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                invalid, not a leap year.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -2235,12 +2235,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                invalid, not a leap year.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                invalid, not a leap year.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -2283,7 +2283,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Leap seconds are not permitted",
@@ -2298,10 +2301,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -2362,12 +2362,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                invalid, leap seconds not allowed.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                invalid, leap seconds not allowed.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -2410,7 +2410,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Test equality of xs:dateTime values appearing in an enumeration",
@@ -2425,10 +2428,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -2489,12 +2489,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                valid, 00:00 = 24:00.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                valid, 00:00 = 24:00.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -2530,12 +2530,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                valid, fraction digits equivalent.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                valid, fraction digits equivalent.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -2571,12 +2571,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                valid, same instant in different timezones.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                valid, same instant in different timezones.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -2612,12 +2612,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                invalid, different timezone.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                invalid, different timezone.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -2653,12 +2653,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                invalid, 24:00:00 is the highest time value allowed.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                invalid, 24:00:00 is the highest time value allowed.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -2701,7 +2701,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Test equality of xs:time values appearing in integrity constraints",
@@ -2716,10 +2719,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -2774,12 +2774,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                valid, all values equivalent.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                valid, all values equivalent.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -2815,12 +2815,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t               valid, all values equivalent.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t               valid, all values equivalent.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -2856,12 +2856,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                invalid, values not equivalent.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                invalid, values not equivalent.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -2897,12 +2897,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                invalid, values not equivalent.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                invalid, values not equivalent.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -2945,7 +2945,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Test xs:dayTimeDuration including equality rules",
@@ -2960,10 +2963,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -3024,12 +3024,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                valid, all values equivalent.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                valid, all values equivalent.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -3065,12 +3065,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                invalid, values not equivalent.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                invalid, values not equivalent.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -3113,7 +3113,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Test xs:yearMonthDuration including equality rules",
@@ -3128,10 +3131,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -3192,12 +3192,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                valid, all values equivalent.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                valid, all values equivalent.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -3233,12 +3233,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                invalid, values not equivalent.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                invalid, values not equivalent.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -3281,7 +3281,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Test xs:dayTimeDuration min/max rules",
@@ -3296,10 +3299,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -3360,12 +3360,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                valid, all values valid.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                valid, all values valid.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -3401,12 +3401,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                valid, all values valid.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                valid, all values valid.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -3442,12 +3442,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                valid, all values valid.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                valid, all values valid.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -3483,12 +3483,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                invalid, values out of range.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                invalid, values out of range.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -3524,12 +3524,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                invalid, values out of range.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                invalid, values out of range.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -3572,7 +3572,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Test xs:yearMonthDuration min/max rules",
@@ -3587,10 +3590,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -3651,12 +3651,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                valid, all values valid.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                valid, all values valid.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -3692,12 +3692,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                valid, all values valid.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                valid, all values valid.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -3733,12 +3733,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                valid, all values valid.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                valid, all values valid.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -3774,12 +3774,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                invalid, values out of range.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                invalid, values out of range.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -3815,12 +3815,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                invalid, values out of range.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                invalid, values out of range.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}

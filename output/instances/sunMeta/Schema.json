@@ -6,7 +6,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "human-targeted  annotation for the schema itself (valid schema)",
@@ -21,10 +24,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -105,7 +105,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "human-targeted double annotation for the schema itself (valid schema)",
@@ -120,10 +123,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -204,7 +204,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "human-targeted placed at the end annotation for the schema itself (valid schema)",
@@ -219,10 +222,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -303,7 +303,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "machine-targeted  annotation for the schema itself (valid schema)",
@@ -318,10 +321,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -402,7 +402,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "machine-targeted double annotation for the schema itself (valid schema)",
@@ -417,10 +420,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -501,7 +501,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "machine-targeted placed at the end annotation for the schema itself (valid schema)",
@@ -516,10 +519,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}

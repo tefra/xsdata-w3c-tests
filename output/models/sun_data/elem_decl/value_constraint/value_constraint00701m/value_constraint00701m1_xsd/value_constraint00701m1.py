@@ -10,24 +10,24 @@ class Root:
         name = "root"
         namespace = "ElemDecl/valueConstraint"
 
+    attr: Optional[str] = field(
+        default=None,
+        metadata={
+            "type": "Attribute",
+        }
+    )
     content: List[object] = field(
         default_factory=list,
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
             "mixed": True,
-        }
-    )
-    separator: List[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-    attr: Optional[str] = field(
-        default=None,
-        metadata={
-            "type": "Attribute",
+            "choices": (
+                {
+                    "name": "separator",
+                    "type": object,
+                    "namespace": "",
+                },
+            ),
         }
     )

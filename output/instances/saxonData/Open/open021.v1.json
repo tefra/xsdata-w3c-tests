@@ -1,8 +1,5 @@
 {
-    "a": [],
-    "b": null,
-    "c": null,
-    "open_com_element": [
+    "content": [
         "\n  o-O-o\n  ",
         {
             "qname": "{http://open.com/}extra",

@@ -3,14 +3,14 @@
         {
             "appinfo_or_documentation": [
                 {
-                    "any_element": [
-                        "substitutionGroup "
-                    ],
                     "source": null,
                     "lang": null,
                     "other_attributes": {
                         "{http://www.w3.org/1999/xlink}href": "http://www.w3.org/TR/xmlschema11-2/#regexs"
-                    }
+                    },
+                    "content": [
+                        "substitutionGroup "
+                    ]
                 }
             ],
             "other_attributes": {}
@@ -22,12 +22,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "use of hyphens within square brackets in regular expressions [a-c] "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "use of hyphens within square brackets in regular expressions [a-c] "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -116,12 +116,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "use of hyphens within square brackets in regular expressions [abc-[c]] "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "use of hyphens within square brackets in regular expressions [abc-[c]] "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -210,12 +210,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "use of hyphens within square brackets in regular expressions [-abc] "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "use of hyphens within square brackets in regular expressions [-abc] "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -304,12 +304,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "use of hyphens within square brackets in regular expressions [bc-] "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "use of hyphens within square brackets in regular expressions [bc-] "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -398,12 +398,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "invalid instance use of hyphens within square brackets in regular expressions [a-c] "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "invalid instance use of hyphens within square brackets in regular expressions [a-c] "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -492,12 +492,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "invalid instance use of hyphens within square brackets in regular expressions [abc-[c]] "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "invalid instance use of hyphens within square brackets in regular expressions [abc-[c]] "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -586,12 +586,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                " invalid instance use of hyphens within square brackets in regular expressions [-abc] "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                " invalid instance use of hyphens within square brackets in regular expressions [-abc] "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -680,12 +680,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "invalid instance use of hyphens within square brackets in regular expressions [bc-] "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "invalid instance use of hyphens within square brackets in regular expressions [bc-] "
+                            ]
                         }
                     ],
                     "other_attributes": {}

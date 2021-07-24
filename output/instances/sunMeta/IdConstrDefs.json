@@ -6,7 +6,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "human-targeted  annotation for an Identity-constraint Definition (valid schema)",
@@ -21,10 +24,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -105,7 +105,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "human-targeted misplaced annotation for an Identity-constraint Definition (invalid schema)",
@@ -120,10 +123,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -176,7 +176,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "human-targeted double annotation for an Identity-constraint Definition (invalid schema)",
@@ -191,10 +194,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -247,7 +247,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "machine-targeted  annotation for an Identity-constraint Definition (valid schema)",
@@ -262,10 +265,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -346,7 +346,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "machine-targeted misplaced annotation for an Identity-constraint Definition (invalid schema)",
@@ -361,10 +364,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -417,7 +417,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "machine-targeted double annotation for an Identity-constraint Definition (invalid schema)",
@@ -432,10 +435,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -488,7 +488,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "fields may have different types (valid schema)",
@@ -503,10 +506,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -587,7 +587,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "values of the fields are checked for equality: \ntype is decimal, values are 3.0 and -3 (valid schema)",
@@ -602,10 +605,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -686,7 +686,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "values of the fields are checked for equality: \ntype is decimal, values are 3.0 and 3 (valid schema)",
@@ -701,10 +704,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -785,7 +785,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "values of the fields are checked for equality: \ntype is decimal, values are 3.0 and 3.0 (valid schema)",
@@ -800,10 +803,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -884,7 +884,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "values of the fields are checked for equality: \ntype is string, values are 3.0 and 3 (valid schema)",
@@ -899,10 +902,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -983,7 +983,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "values of the fields are checked for equality: \ntype is string, values are 3.0 and 3.0 (valid schema)",
@@ -998,10 +1001,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1082,7 +1082,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "values of the fields are checked for equality: \nstring(3.0) compares with decimal(-3) (valid schema)",
@@ -1097,10 +1100,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1181,7 +1181,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "values of the fields are checked for equality: \nstring(3.0) compares with decimal(3) (valid schema)",
@@ -1196,10 +1199,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1280,7 +1280,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "values of the fields are checked for equality: \nstring(3.0) compares with decimal(3.0) (valid schema)",
@@ -1295,10 +1298,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1379,7 +1379,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "values of the fields are checked for equality: \nstring(3.0) compares with string(3) (valid schema)",
@@ -1394,10 +1397,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1478,7 +1478,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "values of the fields are checked for equality: \nstring(3.0) compares with string(3.0) (valid schema)",
@@ -1493,10 +1496,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1577,7 +1577,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "values of the fields are checked for equality: \ndecimal(3.0) compares with decimal(-3) (valid schema)",
@@ -1592,10 +1595,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1676,7 +1676,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "values of the fields are checked for equality: \ndecimal(3.0) compares with decimal(3) (valid schema)",
@@ -1691,10 +1694,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1775,7 +1775,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "values of the fields are checked for equality: \ndecimal(3.0) compares with decimal(3.0) (valid schema)",
@@ -1790,10 +1793,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1874,7 +1874,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "values of the fields are checked for equality: \nstring(3.0) compares with string(3) (valid schema)",
@@ -1889,10 +1892,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1973,7 +1973,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "values of the fields are checked for equality: \nstring(3.0) compares with string(3.0) (valid schema)",
@@ -1988,10 +1991,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -2072,7 +2072,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "In one namespace Identity-constraint definition names must be unique: \nthe names are KEY0 and KEY1  (valid schema)",
@@ -2087,10 +2090,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -2171,7 +2171,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "In one namespace Identity-constraint definition names must be unique: \nthe names are KEY1 and KEY1  (invalid schema)",
@@ -2186,10 +2189,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -2242,7 +2242,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "constraints have separate symbol space (valid schema)",
@@ -2257,10 +2260,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -2341,7 +2341,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Identity-constraint definition identities must be unique: different namespaces  (valid schema)",
@@ -2356,10 +2359,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -2440,7 +2440,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Identity-constraint definition identities must be unique: the same namespace  (invalid schema)",
@@ -2455,10 +2458,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}

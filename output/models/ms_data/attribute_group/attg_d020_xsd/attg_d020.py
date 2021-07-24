@@ -10,14 +10,6 @@ class Doc:
         name = "doc"
         namespace = "http://xsdtesting"
 
-    content: List[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Wildcard",
-            "namespace": "##any",
-            "mixed": True,
-        }
-    )
     att1: Optional[str] = field(
         default=None,
         metadata={
@@ -37,5 +29,13 @@ class Doc:
         metadata={
             "type": "Attributes",
             "namespace": "##any",
+        }
+    )
+    content: List[object] = field(
+        default_factory=list,
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+            "mixed": True,
         }
     )

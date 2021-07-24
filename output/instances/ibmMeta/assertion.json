@@ -3,14 +3,14 @@
         {
             "appinfo_or_documentation": [
                 {
-                    "any_element": [
-                        "assertion"
-                    ],
                     "source": null,
                     "lang": null,
                     "other_attributes": {
                         "{http://www.w3.org/1999/xlink}href": "http://www.w3.org/TR/xmlschema11-2/#rf-assertions"
-                    }
+                    },
+                    "content": [
+                        "assertion"
+                    ]
                 }
             ],
             "other_attributes": {}
@@ -22,12 +22,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Assertions on a complex type definition "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Assertions on a complex type definition "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -116,12 +116,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Assertions on a complex type definition"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Assertions on a complex type definition"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -210,12 +210,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "assertions on a complex type definition "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "assertions on a complex type definition "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -304,12 +304,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "ssertions on a complex type definition. uses multiple asserts  "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "ssertions on a complex type definition. uses multiple asserts  "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -398,12 +398,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "assertions on a simple type definition"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "assertions on a simple type definition"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -492,12 +492,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "having complexContent, assertions from both derived and base type must succeed  "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "having complexContent, assertions from both derived and base type must succeed  "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -586,12 +586,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "assertions on derived simple type definitions,\n          all baseType and derivedType must evaluate to be true"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "assertions on derived simple type definitions,\n          all baseType and derivedType must evaluate to be true"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -680,12 +680,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "assertions on a complex type definition having simpleContent"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "assertions on a complex type definition having simpleContent"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -774,12 +774,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "assertions on simple type, using variable $value "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "assertions on simple type, using variable $value "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -868,12 +868,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "assertions on derived complex type"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "assertions on derived complex type"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -962,12 +962,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "dynamic context of the XPath expression, assertion on attribute "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "dynamic context of the XPath expression, assertion on attribute "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1056,12 +1056,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "dynamic context of the XPath expression, assertion on element"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "dynamic context of the XPath expression, assertion on element"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1150,12 +1150,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "inability to navigate outside the subtree, assertion on elements "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "inability to navigate outside the subtree, assertion on elements "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1244,12 +1244,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "inability to navigate outside the subtree, assertion on attributes"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "inability to navigate outside the subtree, assertion on attributes"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1338,12 +1338,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "assertions on a complex type definition,\n          having complexContent, assertions from anySimpleType type. "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "assertions on a complex type definition,\n          having complexContent, assertions from anySimpleType type. "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1432,12 +1432,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "assertions on a complex type definition,\n          having simpleContent, assertions from anyAtomicType type."
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "assertions on a complex type definition,\n          having simpleContent, assertions from anyAtomicType type."
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1526,12 +1526,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "naive xpathDefaultNamespace(with value ##targetNamespace) test case in complexType"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "naive xpathDefaultNamespace(with value ##targetNamespace) test case in complexType"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1620,12 +1620,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "naive xpathDefaultNamespace(with value ##targetNamespace) test case in simpleType "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "naive xpathDefaultNamespace(with value ##targetNamespace) test case in simpleType "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1714,12 +1714,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "naive xpathDefaultNamespace (exact uri of targetNamespace) test case in complexType"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "naive xpathDefaultNamespace (exact uri of targetNamespace) test case in complexType"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1808,12 +1808,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "naive xpathDefaultNamespace(exact uri of targetNamespace) test case in simpleType"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "naive xpathDefaultNamespace(exact uri of targetNamespace) test case in simpleType"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1902,12 +1902,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "naive xpathDefaultNamespace(with value ##defaultNamespace) test case in complexTypen "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "naive xpathDefaultNamespace(with value ##defaultNamespace) test case in complexTypen "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1996,12 +1996,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "naive xpathDefaultNamespace(with value ##defaultNamespace) test case in simpleType"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "naive xpathDefaultNamespace(with value ##defaultNamespace) test case in simpleType"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -2090,12 +2090,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "naive xpathDefaultNamespace(with value ##local) test case in complexType "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "naive xpathDefaultNamespace(with value ##local) test case in complexType "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -2184,12 +2184,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "naive xpathDefaultNamespace(with value ##local) test case in simpleType "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "naive xpathDefaultNamespace(with value ##local) test case in simpleType "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -2278,12 +2278,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Assertions on a complex type definition"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Assertions on a complex type definition"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -2372,12 +2372,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Assertions on a complex type definition"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Assertions on a complex type definition"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -2466,12 +2466,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "assertions on a complex type definition. this schema has a bigger content model, with assertions at various levels. "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "assertions on a complex type definition. this schema has a bigger content model, with assertions at various levels. "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -2560,12 +2560,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "assertions on a complex type definition. uses multiple asserts "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "assertions on a complex type definition. uses multiple asserts "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -2654,12 +2654,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "assertions on a complex type definition,having complexContent, assertions from both derived and base type must succeed "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "assertions on a complex type definition,having complexContent, assertions from both derived and base type must succeed "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -2748,12 +2748,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "assertions on a complex type definition having simpleContent "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "assertions on a complex type definition having simpleContent "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -2842,12 +2842,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "ssertions on derived complex type"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "ssertions on derived complex type"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -2936,12 +2936,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "dynamic context of the XPath expression, assertion on attribute"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "dynamic context of the XPath expression, assertion on attribute"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -3030,12 +3030,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "inability to navigate outside the subtree, assertion on elements with derivation by extension"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "inability to navigate outside the subtree, assertion on elements with derivation by extension"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -3124,12 +3124,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "dynamic context of the XPath expression, assertion on element"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "dynamic context of the XPath expression, assertion on element"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -3218,12 +3218,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "inability to navigate outside the subtree, assertion on elements"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "inability to navigate outside the subtree, assertion on elements"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -3312,12 +3312,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "inability to navigate outside the subtree, assertion on attributes "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "inability to navigate outside the subtree, assertion on attributes "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -3406,12 +3406,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "inability to navigate outside the subtree, assertion on elements with derivation by extension "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "inability to navigate outside the subtree, assertion on elements with derivation by extension "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -3500,12 +3500,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "assertions on a complex type definition,         having complexContent, assertions from anySimpleType type"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "assertions on a complex type definition,         having complexContent, assertions from anySimpleType type"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -3594,12 +3594,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "assertions on a complex type definition,\n          having simpleContent, assertions from anyAtomicType type."
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "assertions on a complex type definition,\n          having simpleContent, assertions from anyAtomicType type."
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -3688,12 +3688,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "assertions on a simple type definition."
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "assertions on a simple type definition."
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -3782,12 +3782,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "naive xpathDefaultNamespace(with value ##targetNamespace) test case in complexType"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "naive xpathDefaultNamespace(with value ##targetNamespace) test case in complexType"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -3876,12 +3876,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "naive xpathDefaultNamespace(with value ##targetNamespace) test case in simpleType"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "naive xpathDefaultNamespace(with value ##targetNamespace) test case in simpleType"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -3970,12 +3970,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "naive xpathDefaultNamespace (exact uri of targetNamespace) test case in complexType "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "naive xpathDefaultNamespace (exact uri of targetNamespace) test case in complexType "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -4064,12 +4064,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "naive xpathDefaultNamespace(exact uri of targetNamespace) test case in simpleType"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "naive xpathDefaultNamespace(exact uri of targetNamespace) test case in simpleType"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -4158,12 +4158,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "naive xpathDefaultNamespace(with value ##defaultNamespace) test case in complexType"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "naive xpathDefaultNamespace(with value ##defaultNamespace) test case in complexType"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -4252,12 +4252,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "naive xpathDefaultNamespace(with value ##local) test case in complexType "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "naive xpathDefaultNamespace(with value ##local) test case in complexType "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -4346,12 +4346,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "xpathDefaultNamespace, assertion on different namespace test case in simpleType/complexType"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "xpathDefaultNamespace, assertion on different namespace test case in simpleType/complexType"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -4446,12 +4446,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "assertion on different namespace test case in simpleType/complexType impact of xpathDefaultNamespace locally and at schema level"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "assertion on different namespace test case in simpleType/complexType impact of xpathDefaultNamespace locally and at schema level"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -4546,12 +4546,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "\"//\" returns empty sequence"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "\"//\" returns empty sequence"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -4640,12 +4640,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "\"//\" returns empty sequence"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "\"//\" returns empty sequence"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -4734,12 +4734,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "errors in XPath evaluation are treated as a false result, assertion in complexContent in complexType"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "errors in XPath evaluation are treated as a false result, assertion in complexContent in complexType"
+                            ]
                         }
                     ],
                     "other_attributes": {}

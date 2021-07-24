@@ -6,7 +6,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Use newly-allowed name characters in element and attribute name",
@@ -21,10 +24,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -79,12 +79,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, satisfies the schema.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid, satisfies the schema.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -125,7 +125,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Use newly-allowed name characters in NCName value",
@@ -140,10 +143,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -198,12 +198,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, satisfies the schema.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid, satisfies the schema.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -244,7 +244,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Use newly-allowed C0 characters in character content and in attribute values",
@@ -259,10 +262,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -317,12 +317,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, satisfies the schema.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid, satisfies the schema.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -363,7 +363,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Use newly-allowed name characters in schema component names",
@@ -378,10 +381,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -436,12 +436,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, satisfies the schema.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid, satisfies the schema.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -482,7 +482,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Test which characters match \\i in a regex",
@@ -497,10 +500,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -555,12 +555,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, satisfies the schema.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid, satisfies the schema.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -596,12 +596,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid against the schema.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid against the schema.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -637,12 +637,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid against the schema.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid against the schema.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -683,7 +683,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Test which characters match \\I in a regex",
@@ -698,10 +701,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -756,12 +756,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, satisfies the schema.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid, satisfies the schema.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -797,12 +797,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid against the schema.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid against the schema.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -838,12 +838,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid against the schema.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid against the schema.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -879,12 +879,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid against the schema.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid against the schema.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -925,7 +925,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Test which characters match \\c in a regex",
@@ -940,10 +943,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -998,12 +998,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, satisfies the schema.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid, satisfies the schema.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1039,12 +1039,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid against the schema.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid against the schema.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1080,12 +1080,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid against the schema.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid against the schema.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1126,7 +1126,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Test which characters match \\C in a regex",
@@ -1141,10 +1144,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1199,12 +1199,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, satisfies the schema.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid, satisfies the schema.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1240,12 +1240,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid against the schema.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid against the schema.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1281,12 +1281,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid against the schema.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid against the schema.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1327,7 +1327,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Test interpretation of NMTOKENS under XML 1.1",
@@ -1342,10 +1345,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1400,12 +1400,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, satisfies the schema.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid, satisfies the schema.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1441,12 +1441,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, satisfies the schema.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid, satisfies the schema.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1482,12 +1482,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid against the schema.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid against the schema.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1523,12 +1523,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid against the schema.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid against the schema.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1564,12 +1564,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid against the schema.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid against the schema.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1610,7 +1610,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Test which characters match \\i in a regex",
@@ -1625,10 +1628,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1796,7 +1796,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Test which characters match \\c in a regex",
@@ -1811,10 +1814,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1982,7 +1982,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Test which characters match \\I in a regex",
@@ -1997,10 +2000,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -2168,7 +2168,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Test which characters match \\C in a regex",
@@ -2183,10 +2186,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}

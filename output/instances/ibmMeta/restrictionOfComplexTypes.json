@@ -3,14 +3,14 @@
         {
             "appinfo_or_documentation": [
                 {
-                    "any_element": [
-                        "\n        Restriction of complex types\n\t      "
-                    ],
                     "source": null,
                     "lang": null,
                     "other_attributes": {
                         "{http://www.w3.org/1999/xlink}href": "http://www.w3.org/TR/xmlschema11-1/#coss-ct"
-                    }
+                    },
+                    "content": [
+                        "\n        Restriction of complex types\n\t      "
+                    ]
                 }
             ],
             "other_attributes": {}
@@ -22,12 +22,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Wildcards are now allowed in xs:all"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Wildcards are now allowed in xs:all"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -116,12 +116,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Tests restriction of all group"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Tests restriction of all group"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -210,12 +210,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Tests maxOccurs > 1 for elements within all group"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Tests maxOccurs > 1 for elements within all group"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -304,12 +304,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Restrict xs:all to xs:sequence"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Restrict xs:all to xs:sequence"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -398,12 +398,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Instance document element has higher occurences than schema allows "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Instance document element has higher occurences than schema allows "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -492,12 +492,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Tests notQName  "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Tests notQName  "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -586,12 +586,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Tests occurence validity "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Tests occurence validity "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -652,12 +652,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Tests restriction of all modelgroup "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Tests restriction of all modelgroup "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -718,12 +718,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Tests restriction of all modelgroup "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Tests restriction of all modelgroup "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -784,12 +784,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Restrict xs:all to xs:sequence "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Restrict xs:all to xs:sequence "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -850,12 +850,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Restrict xs:all to xs:choice  "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Restrict xs:all to xs:choice  "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -916,12 +916,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Restrict xs:all to xs:sequence  "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Restrict xs:all to xs:sequence  "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -982,12 +982,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Restrict xs:all to xs:choice  "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Restrict xs:all to xs:choice  "
+                            ]
                         }
                     ],
                     "other_attributes": {}

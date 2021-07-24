@@ -8,20 +8,11 @@ class Doc:
         name = "doc"
         nillable = True
 
-    a_ns_element: List[object] = field(
+    content: List[object] = field(
         default_factory=list,
         metadata={
             "type": "Wildcard",
-            "namespace": "http://a.ns/",
+            "namespace": "##any",
             "mixed": True,
-            "min_occurs": 2,
-            "max_occurs": 5,
-        }
-    )
-    b_ns_element: List[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Wildcard",
-            "namespace": "http://b.ns/",
         }
     )

@@ -19,14 +19,6 @@ class MessageType:
     class Meta:
         name = "messageType"
 
-    any_element: List[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Wildcard",
-            "namespace": "##any",
-            "mixed": True,
-        }
-    )
     kind: Optional[MessageTypeValue] = field(
         default=None,
         metadata={
@@ -38,6 +30,14 @@ class MessageType:
         metadata={
             "type": "Attributes",
             "namespace": "##any",
+        }
+    )
+    content: List[object] = field(
+        default_factory=list,
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+            "mixed": True,
         }
     )
 

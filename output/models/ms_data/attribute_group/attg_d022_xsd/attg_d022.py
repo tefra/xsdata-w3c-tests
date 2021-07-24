@@ -7,14 +7,6 @@ class Doc:
     class Meta:
         name = "doc"
 
-    content: List[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Wildcard",
-            "namespace": "##any",
-            "mixed": True,
-        }
-    )
     att1: Optional[str] = field(
         default=None,
         metadata={
@@ -32,5 +24,13 @@ class Doc:
         metadata={
             "type": "Attributes",
             "namespace": "##other",
+        }
+    )
+    content: List[object] = field(
+        default_factory=list,
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+            "mixed": True,
         }
     )

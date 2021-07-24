@@ -6,7 +6,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "complexType/@mixed must not conflict with complexContent/@mixed",
@@ -21,10 +24,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -85,7 +85,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "complexType/@mixed must not conflict with complexContent/@mixed",
@@ -100,10 +103,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -164,7 +164,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "xsi:type default",
@@ -179,10 +182,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -213,12 +213,12 @@
                     {
                         "appinfo_or_documentation": [
                             {
-                                "any_element": [
-                                    "\n                    Supply default value for xsi:type that would be invalid if it were validated\n                    Note: no import of xsi namespace required, see 3.17.6.2 QName resolution (Schema Document) clause 4.2.4\n                "
-                                ],
                                 "source": null,
                                 "lang": null,
-                                "other_attributes": {}
+                                "other_attributes": {},
+                                "content": [
+                                    "\n                    Supply default value for xsi:type that would be invalid if it were validated\n                    Note: no import of xsi namespace required, see 3.17.6.2 QName resolution (Schema Document) clause 4.2.4\n                "
+                                ]
                             }
                         ],
                         "other_attributes": {}
@@ -257,12 +257,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n                    Valid instance that ignores the xsi:type\n                "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n                    Valid instance that ignores the xsi:type\n                "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -298,12 +298,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n                    Invalid instance, satisfies the xsi:type but this should be ignored\n                "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n                    Invalid instance, satisfies the xsi:type but this should be ignored\n                "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -346,7 +346,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "xsi:type default",
@@ -361,10 +364,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -395,12 +395,12 @@
                     {
                         "appinfo_or_documentation": [
                             {
-                                "any_element": [
-                                    "\n                    Supply default value for xsi:type that would be invalid if it were validated\n                    Note: import of xsi namespace is permitted, see 3.17.6.2 QName resolution (Schema Document) clause 4.2.4\n                "
-                                ],
                                 "source": null,
                                 "lang": null,
-                                "other_attributes": {}
+                                "other_attributes": {},
+                                "content": [
+                                    "\n                    Supply default value for xsi:type that would be invalid if it were validated\n                    Note: import of xsi namespace is permitted, see 3.17.6.2 QName resolution (Schema Document) clause 4.2.4\n                "
+                                ]
                             }
                         ],
                         "other_attributes": {}
@@ -439,12 +439,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n                    Valid instance that ignores the xsi:type\n                "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n                    Valid instance that ignores the xsi:type\n                "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -480,12 +480,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n                    Invalid instance, satisfies the xsi:type but this should be ignored\n                "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n                    Invalid instance, satisfies the xsi:type but this should be ignored\n                "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -521,12 +521,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n                    Valid instance, the default value of xsi:type is not valid in the context where it is used\n                    (undeclared namespace prefix \"xs\"), but this does not matter because the default value\n                    has no effect. See bug 13457.\n                "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n                    Valid instance, the default value of xsi:type is not valid in the context where it is used\n                    (undeclared namespace prefix \"xs\"), but this does not matter because the default value\n                    has no effect. See bug 13457.\n                "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -577,7 +577,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "xsi:type fixed",
@@ -592,10 +595,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -626,12 +626,12 @@
                     {
                         "appinfo_or_documentation": [
                             {
-                                "any_element": [
-                                    "\n                    Supply fixed value for xsi:type \n                    Note: import of xsi namespace is permitted, see 3.17.6.2 QName resolution (Schema Document) clause 4.2.4\n                "
-                                ],
                                 "source": null,
                                 "lang": null,
-                                "other_attributes": {}
+                                "other_attributes": {},
+                                "content": [
+                                    "\n                    Supply fixed value for xsi:type \n                    Note: import of xsi namespace is permitted, see 3.17.6.2 QName resolution (Schema Document) clause 4.2.4\n                "
+                                ]
                             }
                         ],
                         "other_attributes": {}
@@ -670,12 +670,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n                    Valid instance; xsi:type fixed in schema, absent in instance, has no effect \n                "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n                    Valid instance; xsi:type fixed in schema, absent in instance, has no effect \n                "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -711,12 +711,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n                    Invalid instance, xsi:type must conform to the fixed value if present\n                "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n                    Invalid instance, xsi:type must conform to the fixed value if present\n                "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -752,12 +752,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n                    Invalid instance, xsi:type does conform to the fixed value but supplied value is invalid\n                "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n                    Invalid instance, xsi:type does conform to the fixed value but supplied value is invalid\n                "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -793,12 +793,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n                    Invalid instance; xsi:type matches the fixed value and instance value satisfies the type, but xsi:type is not validly derived\n                    from the declared type (the declared type is complex, but the xsi:type is a simple type)\n                "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n                    Invalid instance; xsi:type matches the fixed value and instance value satisfies the type, but xsi:type is not validly derived\n                    from the declared type (the declared type is complex, but the xsi:type is a simple type)\n                "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -841,7 +841,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "xsi:nil default",
@@ -856,10 +859,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -890,12 +890,12 @@
                     {
                         "appinfo_or_documentation": [
                             {
-                                "any_element": [
-                                    "\n                    Supply default value for xsi:nil \n                    Note: import of xsi namespace is permitted, see 3.17.6.2 QName resolution (Schema Document) clause 4.2.4\n                "
-                                ],
                                 "source": null,
                                 "lang": null,
-                                "other_attributes": {}
+                                "other_attributes": {},
+                                "content": [
+                                    "\n                    Supply default value for xsi:nil \n                    Note: import of xsi namespace is permitted, see 3.17.6.2 QName resolution (Schema Document) clause 4.2.4\n                "
+                                ]
                             }
                         ],
                         "other_attributes": {}
@@ -934,12 +934,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n                    Valid instance; xsi:nil is ignored\n                "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n                    Valid instance; xsi:nil is ignored\n                "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -975,12 +975,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n                    Valid instance; xsi:nil is ignored\n                "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n                    Valid instance; xsi:nil is ignored\n                "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1016,12 +1016,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n                    Invalid instance, xsi:nil in the instance is effective\n                "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n                    Invalid instance, xsi:nil in the instance is effective\n                "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1057,12 +1057,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n                    Invalid instance, xsi:nil in the instance is effective\n                "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n                    Invalid instance, xsi:nil in the instance is effective\n                "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1098,12 +1098,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n                    Invalid instance, xsi:nil in the instance does not default to the value in the schema\n                "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n                    Invalid instance, xsi:nil in the instance does not default to the value in the schema\n                "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1146,7 +1146,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "xsi:nil fixed",
@@ -1161,10 +1164,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1195,12 +1195,12 @@
                     {
                         "appinfo_or_documentation": [
                             {
-                                "any_element": [
-                                    "\n                    Supply fixed value for xsi:nil \n                    Note: import of xsi namespace is permitted, see 3.17.6.2 QName resolution (Schema Document) clause 4.2.4\n                "
-                                ],
                                 "source": null,
                                 "lang": null,
-                                "other_attributes": {}
+                                "other_attributes": {},
+                                "content": [
+                                    "\n                    Supply fixed value for xsi:nil \n                    Note: import of xsi namespace is permitted, see 3.17.6.2 QName resolution (Schema Document) clause 4.2.4\n                "
+                                ]
                             }
                         ],
                         "other_attributes": {}
@@ -1239,12 +1239,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n                    Valid instance; xsi:nil is ignored\n                "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n                    Valid instance; xsi:nil is ignored\n                "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1280,12 +1280,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n                    Valid instance; xsi:nil is ignored\n                "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n                    Valid instance; xsi:nil is ignored\n                "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1321,12 +1321,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n                    Invalid instance, xsi:nil in the instance is effective\n                "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n                    Invalid instance, xsi:nil in the instance is effective\n                "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1362,12 +1362,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n                    Invalid instance, xsi:nil in the instance is effective\n                "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n                    Invalid instance, xsi:nil in the instance is effective\n                "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1403,12 +1403,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n                    Invalid instance, xsi:nil in the instance does not default to the value in the schema\n                "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n                    Invalid instance, xsi:nil in the instance does not default to the value in the schema\n                "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1451,7 +1451,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "xsi:type doesn't resolve",
@@ -1466,10 +1469,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1494,12 +1494,12 @@
                     {
                         "appinfo_or_documentation": [
                             {
-                                "any_element": [
-                                    "\n                    Valid schema, no particular features\n                "
-                                ],
                                 "source": null,
                                 "lang": null,
-                                "other_attributes": {}
+                                "other_attributes": {},
+                                "content": [
+                                    "\n                    Valid schema, no particular features\n                "
+                                ]
                             }
                         ],
                         "other_attributes": {}
@@ -1538,12 +1538,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n                    Invalid instance, unknown type in XSD namespace\n                "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n                    Invalid instance, unknown type in XSD namespace\n                "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1579,12 +1579,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n                    Invalid instance, invalid QName (undeclared prefix)\n                "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n                    Invalid instance, invalid QName (undeclared prefix)\n                "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1620,12 +1620,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n                    Invalid instance, xsi:type is an unknown QName\n                "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n                    Invalid instance, xsi:type is an unknown QName\n                "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1661,12 +1661,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n                    Invalid instance, xsi:type is not lexically a QName\n                "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n                    Invalid instance, xsi:type is not lexically a QName\n                "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1709,7 +1709,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "xsi:type use=\"required",
@@ -1724,10 +1727,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1758,12 +1758,12 @@
                     {
                         "appinfo_or_documentation": [
                             {
-                                "any_element": [
-                                    "\n                    Make xsi:type mandatory\n                "
-                                ],
                                 "source": null,
                                 "lang": null,
-                                "other_attributes": {}
+                                "other_attributes": {},
+                                "content": [
+                                    "\n                    Make xsi:type mandatory\n                "
+                                ]
                             }
                         ],
                         "other_attributes": {}
@@ -1802,12 +1802,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n                    Valid instance; xsi:type is present\n                "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n                    Valid instance; xsi:type is present\n                "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1843,12 +1843,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n                    Valid instance; xsi:type is present\n                "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n                    Valid instance; xsi:type is present\n                "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1884,12 +1884,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n                    Invalid instance, xsi:type is omitted\n                "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n                    Invalid instance, xsi:type is omitted\n                "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1925,12 +1925,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n                    Invalid instance, xsi:type is present but instance doesn't conform to it\n                "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n                    Invalid instance, xsi:type is present but instance doesn't conform to it\n                "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1973,7 +1973,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "xsi:noNamespaceSchemaLocation use=\"required",
@@ -1988,10 +1991,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -2022,12 +2022,12 @@
                     {
                         "appinfo_or_documentation": [
                             {
-                                "any_element": [
-                                    "\n                    Make xsi:noNamespaceSchemaLocation mandatory\n                "
-                                ],
                                 "source": null,
                                 "lang": null,
-                                "other_attributes": {}
+                                "other_attributes": {},
+                                "content": [
+                                    "\n                    Make xsi:noNamespaceSchemaLocation mandatory\n                "
+                                ]
                             }
                         ],
                         "other_attributes": {}
@@ -2066,12 +2066,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n                    Valid instance; xsi:noNamespaceSchemaLocation is present\n                "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n                    Valid instance; xsi:noNamespaceSchemaLocation is present\n                "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -2107,12 +2107,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n                    Invalid instance, xsi:noNamespaceSchemaLocation is omitted\n                "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n                    Invalid instance, xsi:noNamespaceSchemaLocation is omitted\n                "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -2155,7 +2155,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "xsi:nil on complex type with simple content (not specific to 1.1)",
@@ -2170,10 +2173,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -2192,12 +2192,12 @@
                     {
                         "appinfo_or_documentation": [
                             {
-                                "any_element": [
-                                    "\n                   Specifies element as nillable\n                "
-                                ],
                                 "source": null,
                                 "lang": null,
-                                "other_attributes": {}
+                                "other_attributes": {},
+                                "content": [
+                                    "\n                   Specifies element as nillable\n                "
+                                ]
                             }
                         ],
                         "other_attributes": {}
@@ -2236,12 +2236,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n                    Valid instance; not nil\n                "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n                    Valid instance; not nil\n                "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -2277,12 +2277,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n                    Valid instance; nil\n                "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n                    Valid instance; nil\n                "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -2318,12 +2318,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n                    Invalid instance, value missing but not nil\n                "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n                    Invalid instance, value missing but not nil\n                "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -2359,12 +2359,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n                    Invalid instance,value present but nil\n                "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n                    Invalid instance,value present but nil\n                "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -2400,12 +2400,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n                    Invalid instance, child present but nil\n                "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n                    Invalid instance, child present but nil\n                "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -2446,7 +2446,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "xsi:nil on complex type with mixede content (not specific to 1.1)",
@@ -2461,10 +2464,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -2483,12 +2483,12 @@
                     {
                         "appinfo_or_documentation": [
                             {
-                                "any_element": [
-                                    "\n                   Specifies element as nillable with mixed content\n                "
-                                ],
                                 "source": null,
                                 "lang": null,
-                                "other_attributes": {}
+                                "other_attributes": {},
+                                "content": [
+                                    "\n                   Specifies element as nillable with mixed content\n                "
+                                ]
                             }
                         ],
                         "other_attributes": {}
@@ -2527,12 +2527,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n                    Valid instance; not nil\n                "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n                    Valid instance; not nil\n                "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -2568,12 +2568,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n                    Valid instance; nil\n                "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n                    Valid instance; nil\n                "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -2609,12 +2609,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n                    Valid instance; nil\n                "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n                    Valid instance; nil\n                "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -2650,12 +2650,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n                    Valid instance; nil\n                "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n                    Valid instance; nil\n                "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -2691,12 +2691,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n                    Valid instance; nil element can contain a comment\n                "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n                    Valid instance; nil element can contain a comment\n                "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -2732,12 +2732,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n                    Valid instance; nil element can contain a PI\n                "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n                    Valid instance; nil element can contain a PI\n                "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -2773,12 +2773,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n                    Invalid instance, value missing but not nil\n                "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n                    Invalid instance, value missing but not nil\n                "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -2814,12 +2814,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n                    Invalid instance,value present but nil\n                "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n                    Invalid instance,value present but nil\n                "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -2855,12 +2855,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n                    Invalid instance, child present but nil\n                "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n                    Invalid instance, child present but nil\n                "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -2901,7 +2901,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "xsi:nil on complex type with element-only content (not specific to 1.1)",
@@ -2916,10 +2919,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -2938,12 +2938,12 @@
                     {
                         "appinfo_or_documentation": [
                             {
-                                "any_element": [
-                                    "\n                   Specifies element as nillable, element-only content, not emptiable\n                "
-                                ],
                                 "source": null,
                                 "lang": null,
-                                "other_attributes": {}
+                                "other_attributes": {},
+                                "content": [
+                                    "\n                   Specifies element as nillable, element-only content, not emptiable\n                "
+                                ]
                             }
                         ],
                         "other_attributes": {}
@@ -2982,12 +2982,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n                    Valid instance; not nil\n                "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n                    Valid instance; not nil\n                "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -3023,12 +3023,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n                    Valid instance; nil\n                "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n                    Valid instance; nil\n                "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -3064,12 +3064,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n                    Invalid instance, value missing but not nil\n                "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n                    Invalid instance, value missing but not nil\n                "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -3105,12 +3105,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n                    Invalid instance,value present but nil\n                "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n                    Invalid instance,value present but nil\n                "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -3151,7 +3151,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "xsi:nil on complex type with element-only content, xs:all compositor (not specific to 1.1)",
@@ -3166,10 +3169,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -3188,12 +3188,12 @@
                     {
                         "appinfo_or_documentation": [
                             {
-                                "any_element": [
-                                    "\n                   Specifies element as nillable, element-only content, not emptiable\n                "
-                                ],
                                 "source": null,
                                 "lang": null,
-                                "other_attributes": {}
+                                "other_attributes": {},
+                                "content": [
+                                    "\n                   Specifies element as nillable, element-only content, not emptiable\n                "
+                                ]
                             }
                         ],
                         "other_attributes": {}
@@ -3232,12 +3232,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n                    Valid instance; not nil\n                "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n                    Valid instance; not nil\n                "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -3273,12 +3273,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n                    Valid instance; nil\n                "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n                    Valid instance; nil\n                "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -3314,12 +3314,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n                    Invalid instance, value missing but not nil\n                "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n                    Invalid instance, value missing but not nil\n                "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -3355,12 +3355,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n                    Invalid instance,value present but nil\n                "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n                    Invalid instance,value present but nil\n                "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -3401,7 +3401,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "xsi:type on complex type must resolve",
@@ -3416,10 +3419,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -3444,12 +3444,12 @@
                     {
                         "appinfo_or_documentation": [
                             {
-                                "any_element": [
-                                    "\n                   Unremarkable schema\n                "
-                                ],
                                 "source": null,
                                 "lang": null,
-                                "other_attributes": {}
+                                "other_attributes": {},
+                                "content": [
+                                    "\n                   Unremarkable schema\n                "
+                                ]
                             }
                         ],
                         "other_attributes": {}
@@ -3488,12 +3488,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n                    Invalid instance, xsi:type doesn't resolve\n                "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n                    Invalid instance, xsi:type doesn't resolve\n                "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -3534,7 +3534,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Redefine an attribute group",
@@ -3549,10 +3552,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -3605,7 +3605,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Complex type derived by extension violating Element Declarations Consistent",
@@ -3620,10 +3623,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -3682,7 +3682,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "See spec bug 16786 from Priscilla Walmsley",
@@ -3697,10 +3700,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -3759,7 +3759,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Disallow minOccurs on child of named xs:group",
@@ -3774,10 +3777,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -3823,7 +3823,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Disallow maxOccurs on child of named xs:group",
@@ -3838,10 +3841,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -3887,7 +3887,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Element declared with an abstract type",
@@ -3902,10 +3905,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -3947,12 +3947,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n                    Invalid instance, validation against an abstract type\n                "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n                    Invalid instance, validation against an abstract type\n                "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -3993,7 +3993,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Empty choice should accept no instances",
@@ -4008,10 +4011,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -4053,12 +4053,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n                    Invalid instance, empty content does not satisfy empty choice\n                "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n                    Invalid instance, empty content does not satisfy empty choice\n                "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -4094,12 +4094,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n                    Invalid instance, element content does not satisfy empty choice\n                "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n                    Invalid instance, element content does not satisfy empty choice\n                "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -4140,7 +4140,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Test uniqueness constraint on a field having a complex type with simple content",
@@ -4155,10 +4158,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -4207,12 +4207,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid (despite the 1.0 spec): the field has a complex type with simple content.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid (despite the 1.0 spec): the field has a complex type with simple content.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -4248,12 +4248,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid: two fields with the same value.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid: two fields with the same value.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -4294,7 +4294,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Test uniqueness constraint on a field having a complex type with mixed content",
@@ -4309,10 +4312,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -4361,12 +4361,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid: the field has a complex type with mixed content.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid: the field has a complex type with mixed content.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -4407,7 +4407,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "For the purposes of uniqueness constraints, NaN is effectively equal to NaN",
@@ -4422,10 +4425,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -4467,12 +4467,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Value: values are distinct.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Value: values are distinct.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -4508,12 +4508,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Value: values are distinct.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Value: values are distinct.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -4549,12 +4549,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid: values are duplicates.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid: values are duplicates.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -4590,12 +4590,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid: values NaN and NaN are considered duplicates.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid: values NaN and NaN are considered duplicates.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}

@@ -6,7 +6,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Simple assertion on an attribute value",
@@ -21,10 +24,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -79,12 +79,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, satisfies the assertion.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid, satisfies the assertion.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -120,12 +120,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, does not satisfy the assertion.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid, does not satisfy the assertion.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -168,7 +168,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Cross validation between two attributes",
@@ -183,10 +186,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -241,12 +241,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, satisfies the assertion.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid, satisfies the assertion.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -282,12 +282,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, does not satisfy the assertion.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid, does not satisfy the assertion.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -330,7 +330,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Cross validation between elements and attributes",
@@ -345,10 +348,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -403,12 +403,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, only the attribute exists.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid, only the attribute exists.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -444,12 +444,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, only the element exists.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid, only the element exists.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -485,12 +485,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, both nodes exist.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid, both nodes exist.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -526,12 +526,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, neither node exists.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid, neither node exists.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -574,7 +574,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Constraints at more than one level",
@@ -589,10 +592,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -647,12 +647,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, both constraints satisfied.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid, both constraints satisfied.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -688,12 +688,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, both constraints satisfied.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid, both constraints satisfied.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -729,12 +729,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, outer constraint not satisfied.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid, outer constraint not satisfied.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -770,12 +770,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, inner constraint not satisfied on second inner element.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid, inner constraint not satisfied on second inner element.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -818,7 +818,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Multiple constraints on an inner level, no constraint at outer level",
@@ -833,10 +836,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -897,12 +897,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, both constraints satisfied.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid, both constraints satisfied.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -938,12 +938,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, both constraints satisfied.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid, both constraints satisfied.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -979,12 +979,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, first constraint not satisfied.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid, first constraint not satisfied.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1020,12 +1020,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, second constraint not satisfied.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid, second constraint not satisfied.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1068,7 +1068,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Inheritance of constraints in a type derived by restriction",
@@ -1083,10 +1086,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1141,12 +1141,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, both constraints satisfied.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid, both constraints satisfied.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1182,12 +1182,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, base constraint not satisfied.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid, base constraint not satisfied.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1223,12 +1223,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, derived constraint not satisfied.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid, derived constraint not satisfied.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1271,7 +1271,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Inheritance of constraints in a type derived by extension",
@@ -1286,10 +1289,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1344,12 +1344,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, both constraints satisfied.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid, both constraints satisfied.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1385,12 +1385,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, two moves by same player in succession.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid, two moves by same player in succession.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1426,12 +1426,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, white castles twice.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid, white castles twice.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1467,12 +1467,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, unrecognized result.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid, unrecognized result.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1515,7 +1515,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Use xpathDefaultNamespace on xs:assert",
@@ -1530,10 +1533,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1594,12 +1594,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, both constraints satisfied.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid, both constraints satisfied.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1635,12 +1635,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, two moves by same player in succession.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid, two moves by same player in succession.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1676,12 +1676,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, white castles twice.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid, white castles twice.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1717,12 +1717,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, unrecognized result.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid, unrecognized result.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1765,7 +1765,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Use xpathDefaultNamespace on xs:schema element",
@@ -1780,10 +1783,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1838,12 +1838,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, both constraints satisfied.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid, both constraints satisfied.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1879,12 +1879,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, two moves by same player in succession.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid, two moves by same player in succession.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1920,12 +1920,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, white castles twice.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid, white castles twice.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1961,12 +1961,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, unrecognized result.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid, unrecognized result.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -2009,7 +2009,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Assert that a node-set is empty - error diagnostics handled specially by Saxon",
@@ -2024,10 +2027,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -2082,12 +2082,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, satisfies the assertion.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid, satisfies the assertion.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -2123,12 +2123,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, does not satisfy the assertion.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid, does not satisfy the assertion.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -2171,7 +2171,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Assertion on a complex type with simple content",
@@ -2186,10 +2189,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -2244,12 +2244,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, satisfies the assertion.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid, satisfies the assertion.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -2285,12 +2285,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, does not satisfy the assertion.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid, does not satisfy the assertion.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -2333,7 +2333,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Assertion involving a call to the doc() function",
@@ -2348,10 +2351,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -2406,12 +2406,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, satisfies the assertion. (calls to doc() don't work)\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid, satisfies the assertion. (calls to doc() don't work)\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -2447,12 +2447,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, does not satisfy the assertion.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid, does not satisfy the assertion.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -2495,7 +2495,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Assertion involving dynamic error in XPath expression",
@@ -2510,10 +2513,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -2568,12 +2568,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, does not satisfy the assertion, because the assertion throws an error\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid, does not satisfy the assertion, because the assertion throws an error\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -2616,7 +2616,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Assertion testing type of data",
@@ -2631,10 +2634,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -2689,12 +2689,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, the attribute has the required type\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid, the attribute has the required type\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -2737,7 +2737,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Assertion testing type of data",
@@ -2752,10 +2755,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -2810,12 +2810,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, the element is anyType so atomizing it does not produce a date\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid, the element is anyType so atomizing it does not produce a date\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -2858,7 +2858,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Assertion testing type of data",
@@ -2873,10 +2876,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -2931,12 +2931,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, $value is a date\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid, $value is a date\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -2979,7 +2979,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Assertion testing type of data",
@@ -2994,10 +2997,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -3052,12 +3052,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, atomization succeeds\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid, atomization succeeds\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -3100,7 +3100,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Assertion testing type of data",
@@ -3115,10 +3118,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -3173,12 +3173,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, atomization succeeds\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid, atomization succeeds\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -3221,7 +3221,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Assertion testing type of data",
@@ -3236,10 +3239,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -3294,12 +3294,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, atomization succeeds\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid, atomization succeeds\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -3342,7 +3342,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Assertion testing type of data",
@@ -3357,10 +3360,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -3415,12 +3415,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, with a complex type, $value is the empty sequence\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid, with a complex type, $value is the empty sequence\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -3463,7 +3463,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Assertion combined with chameleon include",
@@ -3478,10 +3481,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -3536,12 +3536,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, satisfies the assertion\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid, satisfies the assertion\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -3577,12 +3577,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, unsatisfies the assertion, nested too deep\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid, unsatisfies the assertion, nested too deep\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -3625,7 +3625,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Assertion combined with chameleon include",
@@ -3640,10 +3643,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -3698,12 +3698,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, satisfies the assertion\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid, satisfies the assertion\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -3739,12 +3739,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, unsatisfies the assertion, nested too deep\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid, unsatisfies the assertion, nested too deep\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -3787,7 +3787,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Assertion testing type of data",
@@ -3802,10 +3805,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -3860,12 +3860,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, with a complex type, $value is the empty sequence\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid, with a complex type, $value is the empty sequence\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -3908,7 +3908,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Check that comments are by default not visible in assertions",
@@ -3923,10 +3926,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -3987,12 +3987,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, satisfies the assertion.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid, satisfies the assertion.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -4028,12 +4028,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Result depends on processor settings.\n\t\t                By default it is valid, that is it satisfies the assertion, \n\t\t                because although there is a comment present, it is not visible\n\t\t                to the assertion in the absence of a user option to make it so.\n\t\t                If a processor option is set to make comments and processing instructions\n\t\t                visible, then the instance becomes invalid.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Result depends on processor settings.\n\t\t                By default it is valid, that is it satisfies the assertion, \n\t\t                because although there is a comment present, it is not visible\n\t\t                to the assertion in the absence of a user option to make it so.\n\t\t                If a processor option is set to make comments and processing instructions\n\t\t                visible, then the instance becomes invalid.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -4084,7 +4084,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Namespace-aware assertions",
@@ -4099,10 +4102,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -4163,12 +4163,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, satisfies the assertion.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid, satisfies the assertion.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -4211,7 +4211,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Assertion on a simple type",
@@ -4226,10 +4229,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -4284,12 +4284,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, satisfies the assertion.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid, satisfies the assertion.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -4325,12 +4325,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, does not satisfy the assertion.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid, does not satisfy the assertion.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -4373,7 +4373,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Assertion on a simple type using xpathDefaultNamespace",
@@ -4388,10 +4391,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -4452,12 +4452,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, satisfies the assertion.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid, satisfies the assertion.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -4493,12 +4493,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, does not satisfy the assertion.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid, does not satisfy the assertion.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -4541,7 +4541,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Assertion on a simple type using xpathDefaultNamespace on xs:schema element",
@@ -4556,10 +4559,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -4620,12 +4620,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, satisfies the assertion.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid, satisfies the assertion.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -4661,12 +4661,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, does not satisfy the assertion.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid, does not satisfy the assertion.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -4709,7 +4709,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Assertion on a simple type with variety list",
@@ -4724,10 +4727,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -4788,12 +4788,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, satisfies the assertion.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid, satisfies the assertion.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -4829,12 +4829,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, does not satisfy the assertion.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid, does not satisfy the assertion.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -4877,7 +4877,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Assertion on a simple type with variety union",
@@ -4892,10 +4895,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -4956,12 +4956,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, satisfies the assertion.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid, satisfies the assertion.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -4997,12 +4997,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, does not satisfy the assertion.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid, does not satisfy the assertion.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -5045,7 +5045,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Assertion on a simple type fails with dynamic XPath error",
@@ -5060,10 +5063,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -5124,12 +5124,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, does not satisfy the assertion, dynamic error is treated as false.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid, does not satisfy the assertion, dynamic error is treated as false.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -5172,7 +5172,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Assertion on a simple type fails with dynamic XPath error",
@@ -5187,10 +5190,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -5251,12 +5251,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, does not satisfy the assertion, dynamic error is treated as false.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid, does not satisfy the assertion, dynamic error is treated as false.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -5299,7 +5299,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Assertion on a simple type fails with dynamic XPath error",
@@ -5314,10 +5317,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -5378,12 +5378,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, does not satisfy the assertion, dynamic error is treated as false.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid, does not satisfy the assertion, dynamic error is treated as false.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -5426,7 +5426,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Assertion on a simple type fails with dynamic XPath error",
@@ -5441,10 +5444,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -5505,12 +5505,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, does not satisfy the assertion, dynamic error is treated as false.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid, does not satisfy the assertion, dynamic error is treated as false.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}

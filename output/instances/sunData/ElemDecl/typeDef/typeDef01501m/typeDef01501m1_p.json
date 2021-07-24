@@ -1,4 +1,5 @@
 {
+    "ID": "a1",
     "content": [
         "\nXML Schema: Structures specifies the XML Schema definition language, \nwhich offers facilities for describing the structure and constraining \nthe contents of XML 1.0 documents, including those which exploit the \nXML Namespace facility\n\n",
         {
@@ -8,7 +9,5 @@
             "children": [],
             "attributes": {}
         }
-    ],
-    "dot": [],
-    "ID": "a1"
+    ]
 }

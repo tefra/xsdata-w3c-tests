@@ -9,14 +9,6 @@ class ChildType:
     class Meta:
         name = "childType"
 
-    content: List[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Wildcard",
-            "namespace": "##any",
-            "mixed": True,
-        }
-    )
     type1: Optional[bool] = field(
         default=None,
         metadata={
@@ -27,6 +19,14 @@ class ChildType:
         default=None,
         metadata={
             "type": "Attribute",
+        }
+    )
+    content: List[object] = field(
+        default_factory=list,
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+            "mixed": True,
         }
     )
 

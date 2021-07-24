@@ -3,14 +3,14 @@
         {
             "appinfo_or_documentation": [
                 {
-                    "any_element": [
-                        " explicitTimezone\n\t "
-                    ],
                     "source": null,
                     "lang": null,
                     "other_attributes": {
                         "{http://www.w3.org/1999/xlink}href": "http://www.w3.org/TR/xmlschema11-2/#rf-explicitTimezone"
-                    }
+                    },
+                    "content": [
+                        " explicitTimezone\n\t "
+                    ]
                 }
             ],
             "other_attributes": {}
@@ -22,12 +22,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Tests the simpleType dateTime and its facets, explicitTimezone and its use in elements "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Tests the simpleType dateTime and its facets, explicitTimezone and its use in elements "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -116,12 +116,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Tests the simpleType dateTime and its facets, explicitTimezone and its use in elements "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Tests the simpleType dateTime and its facets, explicitTimezone and its use in elements "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -210,12 +210,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Tests the simpleType precisionDecimal and its facet, explicitTimezone, used in lists"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Tests the simpleType precisionDecimal and its facet, explicitTimezone, used in lists"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -304,12 +304,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "\n            Tests the simpleType dateTime and its facet, explicitTimezone used with unions \n            "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "\n            Tests the simpleType dateTime and its facet, explicitTimezone used with unions \n            "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -398,12 +398,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Tests the simpleType dateTime and its facets, explicitTimezone  "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Tests the simpleType dateTime and its facets, explicitTimezone  "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -492,12 +492,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Tests the simpleType dateTime and its facet with explicitTimezone constraint checks in derivations of simpleTypes"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Tests the simpleType dateTime and its facet with explicitTimezone constraint checks in derivations of simpleTypes"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -586,12 +586,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Tests the simpleType dateTime and its facets with explicitTimezone constraint checks in derivations of simpleTypes "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Tests the simpleType dateTime and its facets with explicitTimezone constraint checks in derivations of simpleTypes "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -680,12 +680,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "invalid dateTime values "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "invalid dateTime values "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -774,12 +774,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Tests the simpleType dateTime and its explicitTimezone facets and its use in attributes "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Tests the simpleType dateTime and its explicitTimezone facets and its use in attributes "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -868,12 +868,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Tests the simpleType dateTime and its facets explicitTimezone, used in lists"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Tests the simpleType dateTime and its facets explicitTimezone, used in lists"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -962,12 +962,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Tests the simpleType dateTime and its facets explicitionTimezone, used with unions "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Tests the simpleType dateTime and its facets explicitionTimezone, used with unions "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1056,12 +1056,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Tests the simpleType dateTime and its facets, explicitTimezone "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Tests the simpleType dateTime and its facets, explicitTimezone "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1150,12 +1150,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Tests the simpleType dateTime and its facet with explicitTimezone constraint checks in derivations of simpleTypes "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Tests the simpleType dateTime and its facet with explicitTimezone constraint checks in derivations of simpleTypes "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1244,12 +1244,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Tests the simpleType dateTime and its facet with explicitTimezone constraint checks in derivations of simpleTypes "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Tests the simpleType dateTime and its facet with explicitTimezone constraint checks in derivations of simpleTypes "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1338,12 +1338,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "explicitTimezone, schema invalid test cases "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "explicitTimezone, schema invalid test cases "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1404,12 +1404,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "It is an error to specify more than one explicitTimezone for the same type definition "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "It is an error to specify more than one explicitTimezone for the same type definition "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1470,12 +1470,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "error if base = prohibited and child != prohibited\n          base = required and child != required  "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "error if base = prohibited and child != prohibited\n          base = required and child != required  "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1536,12 +1536,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "This test case tests the fixed attribute on facet, explicitTimezone "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "This test case tests the fixed attribute on facet, explicitTimezone "
+                            ]
                         }
                     ],
                     "other_attributes": {}

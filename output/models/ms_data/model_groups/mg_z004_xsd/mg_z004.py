@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import List
 
 __NAMESPACE__ = "urn:test"
 
@@ -15,21 +15,11 @@ class Root:
             "type": "Wildcard",
             "namespace": "##any",
             "mixed": True,
-        }
-    )
-    a: Optional[str] = field(
-        default=None,
-        metadata={
-            "name": "A",
-            "type": "Element",
-            "required": True,
-        }
-    )
-    choice: List[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Elements",
             "choices": (
+                {
+                    "name": "A",
+                    "type": str,
+                },
                 {
                     "name": "B1",
                     "type": str,
@@ -51,6 +41,5 @@ class Root:
                     "type": str,
                 },
             ),
-            "max_occurs": 5,
         }
     )

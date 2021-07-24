@@ -3,14 +3,14 @@
         {
             "appinfo_or_documentation": [
                 {
-                    "any_element": [
-                        "substitutionGroup "
-                    ],
                     "source": null,
                     "lang": null,
                     "other_attributes": {
                         "{http://www.w3.org/1999/xlink}href": "http://www.w3.org/TR/xmlschema11-1/#Element_Equivalence_Class"
-                    }
+                    },
+                    "content": [
+                        "substitutionGroup "
+                    ]
                 }
             ],
             "other_attributes": {}
@@ -22,12 +22,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Tests abstract substitution group "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Tests abstract substitution group "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -116,12 +116,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Tests multiple substitution group heads "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Tests multiple substitution group heads "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -210,12 +210,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Tests for 1 substitution group head "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Tests for 1 substitution group head "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -304,12 +304,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "structures 3.3.6.1.5 - there are circular substitution groups "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "structures 3.3.6.1.5 - there are circular substitution groups "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -370,12 +370,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "structures 3.3.6.1.4 - element's type def is NOT validly substituable for its member's type def  "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "structures 3.3.6.1.4 - element's type def is NOT validly substituable for its member's type def  "
+                            ]
                         }
                     ],
                     "other_attributes": {}

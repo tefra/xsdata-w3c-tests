@@ -9,18 +9,32 @@ class InlineType:
     class Meta:
         name = "inline.type"
 
+    role: Optional[str] = field(
+        default=None,
+        metadata={
+            "type": "Attribute",
+        }
+    )
+    id: Optional[str] = field(
+        default=None,
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://www.w3.org/XML/1998/namespace",
+        }
+    )
+    base: Optional[str] = field(
+        default=None,
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://www.w3.org/XML/1998/namespace",
+        }
+    )
     content: List[object] = field(
         default_factory=list,
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
             "mixed": True,
-        }
-    )
-    choice: List[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Elements",
             "choices": (
                 {
                     "name": "phrase",
@@ -53,26 +67,6 @@ class InlineType:
                     "namespace": "http://example.org/ns/document",
                 },
             ),
-        }
-    )
-    role: Optional[str] = field(
-        default=None,
-        metadata={
-            "type": "Attribute",
-        }
-    )
-    id: Optional[str] = field(
-        default=None,
-        metadata={
-            "type": "Attribute",
-            "namespace": "http://www.w3.org/XML/1998/namespace",
-        }
-    )
-    base: Optional[str] = field(
-        default=None,
-        metadata={
-            "type": "Attribute",
-            "namespace": "http://www.w3.org/XML/1998/namespace",
         }
     )
 
@@ -187,18 +181,32 @@ class ParaType:
     class Meta:
         name = "para.type"
 
+    role: Optional[str] = field(
+        default=None,
+        metadata={
+            "type": "Attribute",
+        }
+    )
+    id: Optional[str] = field(
+        default=None,
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://www.w3.org/XML/1998/namespace",
+        }
+    )
+    base: Optional[str] = field(
+        default=None,
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://www.w3.org/XML/1998/namespace",
+        }
+    )
     content: List[object] = field(
         default_factory=list,
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
             "mixed": True,
-        }
-    )
-    choice: List[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Elements",
             "choices": (
                 {
                     "name": "phrase",
@@ -236,26 +244,6 @@ class ParaType:
                     "namespace": "http://example.org/ns/document",
                 },
             ),
-        }
-    )
-    role: Optional[str] = field(
-        default=None,
-        metadata={
-            "type": "Attribute",
-        }
-    )
-    id: Optional[str] = field(
-        default=None,
-        metadata={
-            "type": "Attribute",
-            "namespace": "http://www.w3.org/XML/1998/namespace",
-        }
-    )
-    base: Optional[str] = field(
-        default=None,
-        metadata={
-            "type": "Attribute",
-            "namespace": "http://www.w3.org/XML/1998/namespace",
         }
     )
 

@@ -13,22 +13,18 @@ class FooType:
             "type": "Wildcard",
             "namespace": "##any",
             "mixed": True,
-        }
-    )
-    child_1: Optional[str] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-            "required": True,
-        }
-    )
-    child_2: Optional[int] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-            "required": True,
+            "choices": (
+                {
+                    "name": "child_1",
+                    "type": str,
+                    "namespace": "",
+                },
+                {
+                    "name": "child_2",
+                    "type": int,
+                    "namespace": "",
+                },
+            ),
         }
     )
 

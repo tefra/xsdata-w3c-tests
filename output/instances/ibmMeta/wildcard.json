@@ -3,14 +3,14 @@
         {
             "appinfo_or_documentation": [
                 {
-                    "any_element": [
-                        "wildcard\n\t    "
-                    ],
                     "source": null,
                     "lang": null,
                     "other_attributes": {
                         "{http://www.w3.org/1999/xlink}href": "http://www.w3.org/TR/xmlschema11-1/#Wildcard_details"
-                    }
+                    },
+                    "content": [
+                        "wildcard\n\t    "
+                    ]
                 }
             ],
             "other_attributes": {}
@@ -22,12 +22,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Tests notQName=\"##defined\" "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Tests notQName=\"##defined\" "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -116,12 +116,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Tests notQName and notNamespace list "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Tests notQName and notNamespace list "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -210,12 +210,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Tests namespace attribute in wildcard"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Tests namespace attribute in wildcard"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -304,12 +304,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Tests weakened wildcard (tests whether error occurs on violation of UPA) "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Tests weakened wildcard (tests whether error occurs on violation of UPA) "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -398,12 +398,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "the keyword ##definedSibling can be used to exclude all elements explicitly mentioned in a content model "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "the keyword ##definedSibling can be used to exclude all elements explicitly mentioned in a content model "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -492,12 +492,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "the keyword ##definedSibling can be used to exclude all elements explicitly mentioned in a content model (and all elements substitutable for those elements)"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "the keyword ##definedSibling can be used to exclude all elements explicitly mentioned in a content model (and all elements substitutable for those elements)"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -586,12 +586,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "skip wildcards now excluded from EDC constraint"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "skip wildcards now excluded from EDC constraint"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -680,12 +680,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "invalid element in instance document as it does not match ns of wildcard"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "invalid element in instance document as it does not match ns of wildcard"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -772,12 +772,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "invalid element in instance document as it does not match ns of wildcard "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "invalid element in instance document as it does not match ns of wildcard "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -866,12 +866,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "invalid element in instance document as it does not match ns of wildcard "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "invalid element in instance document as it does not match ns of wildcard "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -958,12 +958,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "invalid element in instance document as it does not match ns of wildcard"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "invalid element in instance document as it does not match ns of wildcard"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1050,12 +1050,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "invalid element in instance document as it matches the namespace in notNamespace list in wildcard"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "invalid element in instance document as it matches the namespace in notNamespace list in wildcard"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1144,12 +1144,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Tests namespace attribute in wildcard"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Tests namespace attribute in wildcard"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1236,12 +1236,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "the keyword ##definedSibling can be used to exclude all elements explicitly mentioned in a content model"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "the keyword ##definedSibling can be used to exclude all elements explicitly mentioned in a content model"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1328,12 +1328,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "the keyword ##definedSibling can be used to exclude all elements explicitly mentioned in a content model (and all elements substitutable for those elements)"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "the keyword ##definedSibling can be used to exclude all elements explicitly mentioned in a content model (and all elements substitutable for those elements)"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1420,12 +1420,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Wildcard, schema invalid test case"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Wildcard, schema invalid test case"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1484,12 +1484,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "3.10.6.1.4 - The namespace of each QName in disallowed is allowed by the namespace constraint"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "3.10.6.1.4 - The namespace of each QName in disallowed is allowed by the namespace constraint"
+                            ]
                         }
                     ],
                     "other_attributes": {}

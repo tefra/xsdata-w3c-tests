@@ -1,4 +1,5 @@
 {
+    "w3_org_xml_1998_namespace_attributes": {},
     "content": [
         {
             "qname": "a",
@@ -12,8 +13,5 @@
             },
             "type": "beta"
         }
-    ],
-    "w3_org_xml_1998_namespace_attributes": {},
-    "a": null,
-    "b": null
+    ]
 }

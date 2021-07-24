@@ -1,7 +1,7 @@
 {
-    "any_element": [
-        "23:59:59"
-    ],
     "kind": "time",
-    "any_attributes": {}
+    "any_attributes": {},
+    "content": [
+        "23:59:59"
+    ]
 }

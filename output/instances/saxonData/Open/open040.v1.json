@@ -1,7 +1,5 @@
 {
-    "a": null,
-    "b": null,
-    "open_com_element": [
+    "content": [
         {
             "qname": "a",
             "value": {

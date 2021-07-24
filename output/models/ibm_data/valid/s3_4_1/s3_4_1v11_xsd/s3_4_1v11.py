@@ -11,23 +11,23 @@ class Root:
         name = "root"
         namespace = "a"
 
+    version: Optional[Decimal] = field(
+        default=None,
+        metadata={
+            "type": "Attribute",
+        }
+    )
     content: List[object] = field(
         default_factory=list,
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
             "mixed": True,
-        }
-    )
-    element: List[str] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-        }
-    )
-    version: Optional[Decimal] = field(
-        default=None,
-        metadata={
-            "type": "Attribute",
+            "choices": (
+                {
+                    "name": "element",
+                    "type": str,
+                },
+            ),
         }
     )

@@ -3,14 +3,14 @@
         {
             "appinfo_or_documentation": [
                 {
-                    "any_element": [
-                        "unions"
-                    ],
                     "source": null,
                     "lang": null,
                     "other_attributes": {
                         "{http://www.w3.org/1999/xlink}href": "http://www.w3.org/TR/xmlschema11-1/#declare-datatype"
-                    }
+                    },
+                    "content": [
+                        "unions"
+                    ]
                 }
             ],
             "other_attributes": {}
@@ -22,12 +22,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "tests restriction facet in intervening union "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "tests restriction facet in intervening union "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -116,12 +116,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Types derived by restriction from a union type "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Types derived by restriction from a union type "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -210,12 +210,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "tests restriction facet in intervening union "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "tests restriction facet in intervening union "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -304,12 +304,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Types derived by restriction from a union type "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Types derived by restriction from a union type "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -398,12 +398,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "xsi:type used to name a member of a restricted union type "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "xsi:type used to name a member of a restricted union type "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -492,12 +492,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Union of unions"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Union of unions"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -586,12 +586,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "xsi:type used to name a member of a restricted union type "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "xsi:type used to name a member of a restricted union type "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -678,12 +678,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "tests restriction facet in intervening union "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "tests restriction facet in intervening union "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -772,12 +772,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "tests restriction facet in intervening union "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "tests restriction facet in intervening union "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -866,12 +866,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "tests restriction facet in intervening union "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "tests restriction facet in intervening union "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -960,12 +960,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Types derived by restriction from a union type "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Types derived by restriction from a union type "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1054,12 +1054,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "xsi:type used to name a member of a restricted union type  "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "xsi:type used to name a member of a restricted union type  "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1148,12 +1148,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "xsi:type used to name a member of a restricted union type"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "xsi:type used to name a member of a restricted union type"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1242,12 +1242,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "xsi:type used to name a member of a restricted union type "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "xsi:type used to name a member of a restricted union type "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1336,12 +1336,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Union type a member of its own transitive membership  "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Union type a member of its own transitive membership  "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1402,12 +1402,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Cyclicity of union types  "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Cyclicity of union types  "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1468,12 +1468,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Cyclicity of union types"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Cyclicity of union types"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1534,12 +1534,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Cyclicity of union types  "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Cyclicity of union types  "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1600,12 +1600,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Cyclicity of union types "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Cyclicity of union types "
+                            ]
                         }
                     ],
                     "other_attributes": {}

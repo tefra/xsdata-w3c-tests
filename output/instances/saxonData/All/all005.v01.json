@@ -1,5 +1,5 @@
 {
-    "a_ns_element": [
+    "content": [
         {
             "qname": "{http://a.ns/}wasp",
             "text": "",
@@ -42,6 +42,5 @@
             "children": [],
             "attributes": {}
         }
-    ],
-    "b_ns_element": []
+    ]
 }

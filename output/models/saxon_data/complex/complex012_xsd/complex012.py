@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import List
 
 
 @dataclass
@@ -14,12 +14,12 @@ class Root:
             "type": "Wildcard",
             "namespace": "##any",
             "mixed": True,
-        }
-    )
-    e: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
+            "choices": (
+                {
+                    "name": "e",
+                    "type": object,
+                    "namespace": "",
+                },
+            ),
         }
     )

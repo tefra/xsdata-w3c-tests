@@ -2,28 +2,28 @@
     "t": [
         {
             "c": {
+                "val": null,
                 "content": [
                     " 1 "
                 ],
-                "val": null,
                 "val2": "1"
             }
         },
         {
             "c": {
+                "val": null,
                 "content": [
                     " 2 "
                 ],
-                "val": null,
                 "val2": "2"
             }
         },
         {
             "c": {
+                "val": null,
                 "content": [
                     " 3 "
                 ],
-                "val": null,
                 "val2": "3"
             }
         }

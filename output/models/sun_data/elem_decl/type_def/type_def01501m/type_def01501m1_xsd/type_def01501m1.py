@@ -9,26 +9,27 @@ class Text:
     class Meta:
         name = "text"
 
+    id: Optional[str] = field(
+        default=None,
+        metadata={
+            "name": "ID",
+            "type": "Attribute",
+        }
+    )
     content: List[object] = field(
         default_factory=list,
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
             "mixed": True,
-        }
-    )
-    dot: List[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-    id: Optional[str] = field(
-        default=None,
-        metadata={
-            "name": "ID",
-            "type": "Attribute",
+            "choices": (
+                {
+                    "name": "dot",
+                    "type": object,
+                    "namespace": "",
+                    "default": "",
+                },
+            ),
         }
     )
 

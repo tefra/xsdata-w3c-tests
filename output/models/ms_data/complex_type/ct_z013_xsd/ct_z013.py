@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import List
 
 __NAMESPACE__ = "ns"
 
@@ -15,13 +15,13 @@ class Ct:
             "type": "Wildcard",
             "namespace": "##any",
             "mixed": True,
-        }
-    )
-    a: Optional[int] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
+            "choices": (
+                {
+                    "name": "a",
+                    "type": int,
+                    "namespace": "",
+                },
+            ),
         }
     )
 

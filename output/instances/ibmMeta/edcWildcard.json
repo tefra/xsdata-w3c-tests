@@ -3,14 +3,14 @@
         {
             "appinfo_or_documentation": [
                 {
-                    "any_element": [
-                        "\n        tighter rule for EDC as regards the type of an element that matches a wildcard\n        "
-                    ],
                     "source": null,
                     "lang": null,
                     "other_attributes": {
                         "{http://www.w3.org/1999/xlink}href": "http://www.w3.org/TR/xmlschema11-1/#sec-cos-element-consistent"
-                    }
+                    },
+                    "content": [
+                        "\n        tighter rule for EDC as regards the type of an element that matches a wildcard\n        "
+                    ]
                 }
             ],
             "other_attributes": {}
@@ -22,12 +22,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "tighter rule for EDC as regards the type of an element that matches a wildcard "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "tighter rule for EDC as regards the type of an element that matches a wildcard "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -97,12 +97,12 @@
                             {
                                 "appinfo_or_documentation": [
                                     {
-                                        "any_element": [
-                                            "\n                        Changed the status to \"invalid\" in response to bug #12130\n                    "
-                                        ],
                                         "source": null,
                                         "lang": null,
-                                        "other_attributes": {}
+                                        "other_attributes": {},
+                                        "content": [
+                                            "\n                        Changed the status to \"invalid\" in response to bug #12130\n                    "
+                                        ]
                                     }
                                 ],
                                 "other_attributes": {}
@@ -138,12 +138,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "tighter rule for EDC as regards the type of an element that matches a wildcard "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "tighter rule for EDC as regards the type of an element that matches a wildcard "
+                            ]
                         }
                     ],
                     "other_attributes": {}

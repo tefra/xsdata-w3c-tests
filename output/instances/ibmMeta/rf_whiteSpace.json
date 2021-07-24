@@ -3,14 +3,14 @@
         {
             "appinfo_or_documentation": [
                 {
-                    "any_element": [
-                        "collapse test for string."
-                    ],
                     "source": null,
                     "lang": null,
                     "other_attributes": {
                         "{http://www.w3.org/1999/xlink}href": "http://www.w3.org/TR/xmlschema11-2/#rf-whiteSpace"
-                    }
+                    },
+                    "content": [
+                        "collapse test for string."
+                    ]
                 }
             ],
             "other_attributes": {}
@@ -22,12 +22,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "when the value is collapse, literals consisting solely of whitespace characters are reduced to the empty string."
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "when the value is collapse, literals consisting solely of whitespace characters are reduced to the empty string."
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -116,12 +116,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "when the value is collapse, literals consisting solely of whitespace characters are reduced to the empty string."
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "when the value is collapse, literals consisting solely of whitespace characters are reduced to the empty string."
+                            ]
                         }
                     ],
                     "other_attributes": {}

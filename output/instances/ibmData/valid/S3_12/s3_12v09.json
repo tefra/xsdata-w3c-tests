@@ -3,7 +3,9 @@
         {
             "address": [
                 {
-                    "any_element": [
+                    "type": "shipping",
+                    "country": "us",
+                    "content": [
                         {
                             "qname": "state",
                             "text": "Texas",
@@ -25,16 +27,12 @@
                             "children": [],
                             "attributes": {}
                         }
-                    ],
-                    "type": "shipping",
-                    "country": "us",
-                    "content": [],
-                    "state": null,
-                    "currency": null,
-                    "zip": null
+                    ]
                 },
                 {
-                    "any_element": [
+                    "type": "billing",
+                    "country": "can",
+                    "content": [
                         {
                             "qname": "province",
                             "text": "ON",
@@ -56,20 +54,16 @@
                             "children": [],
                             "attributes": {}
                         }
-                    ],
-                    "type": "billing",
-                    "country": "can",
-                    "content": [],
-                    "state": null,
-                    "currency": null,
-                    "zip": null
+                    ]
                 }
             ]
         },
         {
             "address": [
                 {
-                    "any_element": [
+                    "type": "shipping",
+                    "country": "can",
+                    "content": [
                         {
                             "qname": "province",
                             "text": "ON",
@@ -91,16 +85,12 @@
                             "children": [],
                             "attributes": {}
                         }
-                    ],
-                    "type": "shipping",
-                    "country": "can",
-                    "content": [],
-                    "state": null,
-                    "currency": null,
-                    "zip": null
+                    ]
                 },
                 {
-                    "any_element": [
+                    "type": "billing",
+                    "country": "can",
+                    "content": [
                         {
                             "qname": "province",
                             "text": "ON",
@@ -122,13 +112,7 @@
                             "children": [],
                             "attributes": {}
                         }
-                    ],
-                    "type": "billing",
-                    "country": "can",
-                    "content": [],
-                    "state": null,
-                    "currency": null,
-                    "zip": null
+                    ]
                 }
             ]
         }

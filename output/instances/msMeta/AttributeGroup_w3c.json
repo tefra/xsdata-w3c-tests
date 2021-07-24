@@ -6,12 +6,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration with optional attribute id='a'"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration with optional attribute id='a'"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -64,12 +64,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration with optional attribute id='0'"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration with optional attribute id='0'"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -122,12 +122,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration with optional attribute id=''"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration with optional attribute id=''"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -180,12 +180,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration with attribute id=':a'"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration with attribute id=':a'"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -238,12 +238,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroups: 2 global attributeGroups with same ID"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroups: 2 global attributeGroups with same ID"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -296,12 +296,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroups: 2 attributeGroups, one is global and one is from 'redefine', with same ID"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroups: 2 attributeGroups, one is global and one is from 'redefine', with same ID"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -354,12 +354,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroups: 2 attributeGroup, one is from complexType and one is inside another attributeGroup of some extension, with same ID"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroups: 2 attributeGroup, one is from complexType and one is inside another attributeGroup of some extension, with same ID"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -412,12 +412,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroups: 2 attributeGroup, one is from imported xsd, and one is from included xsd, with same ID"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroups: 2 attributeGroup, one is from imported xsd, and one is from included xsd, with same ID"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -470,12 +470,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroups: redefine an attributeGroup and give it an existing ID"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroups: redefine an attributeGroup and give it an existing ID"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -528,12 +528,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration with attribute name='a'"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration with attribute name='a'"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -586,12 +586,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: cannot have name attribute if not global, parent is attributeGroup, name='a'"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: cannot have name attribute if not global, parent is attributeGroup, name='a'"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -644,12 +644,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: cannot have name attribute if not global, parent is complexType, name='a'"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: cannot have name attribute if not global, parent is complexType, name='a'"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -702,12 +702,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: cannot have name attribute if not global, parent is extension, name='a'"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: cannot have name attribute if not global, parent is extension, name='a'"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -760,12 +760,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: cannot have name attribute if not global (redefining global is ok), parent is redefine, name='a'"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: cannot have name attribute if not global (redefining global is ok), parent is redefine, name='a'"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -818,12 +818,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration with attribute name='0'"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration with attribute name='0'"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -876,12 +876,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration with attribute name=''"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration with attribute name=''"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -934,12 +934,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration with attribute name='msxml'"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration with attribute name='msxml'"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -992,12 +992,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: 2 attributeGroups, one imported, one included with same name but different targetNamespace"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: 2 attributeGroups, one imported, one included with same name but different targetNamespace"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1050,12 +1050,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: 2 global attributeGroups with same name"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: 2 global attributeGroups with same name"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1108,12 +1108,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: 2 attributeGroups with same name both of them from different redefine, with same namespac."
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: 2 attributeGroups with same name both of them from different redefine, with same namespac."
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1166,12 +1166,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: 2 attributeGroups with same name both of them from different import, with different namespac."
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: 2 attributeGroups with same name both of them from different import, with different namespac."
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1224,12 +1224,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: 2 imported attributeGroups with same name and same targetNamespace"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: 2 imported attributeGroups with same name and same targetNamespace"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1282,12 +1282,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: 2 imported attributeGroups with same name but different targetNamespace"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: 2 imported attributeGroups with same name but different targetNamespace"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1340,12 +1340,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: 2 attributeGroups, one imported, one included with same name and same targetNamespace"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: 2 attributeGroups, one imported, one included with same name and same targetNamespace"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1398,12 +1398,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: cannot have ref attribute on global, parent is schema, ref='name of a global attribute group '"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: cannot have ref attribute on global, parent is schema, ref='name of a global attribute group '"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1456,12 +1456,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: parent is attributeGroup, ref='name of a global attribute group declared at the beginning of xsd'"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: parent is attributeGroup, ref='name of a global attribute group declared at the beginning of xsd'"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1514,12 +1514,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: parent is attributeGroup, ref='name of a global attribute group from imported xsd'"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: parent is attributeGroup, ref='name of a global attribute group from imported xsd'"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1572,12 +1572,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: parent is attributeGroup, ref='name of a global attribute group from included xsd'"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: parent is attributeGroup, ref='name of a global attribute group from included xsd'"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1630,12 +1630,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is attributeGroup, ref='name of global attribute group declared at the end of xsd'"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is attributeGroup, ref='name of global attribute group declared at the end of xsd'"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1688,12 +1688,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is attributeGroup, ref='name of attribute group declared inside a redefine', and xml instant has value different what is defined as fixed in the redefined attributeGroup."
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is attributeGroup, ref='name of attribute group declared inside a redefine', and xml instant has value different what is defined as fixed in the redefined attributeGroup."
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1774,12 +1774,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is attributeGroup, ref='name of attribute group declared inside a redefine', and xml instant has value same as what is defined as fixed in the redefined attributeGroup."
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is attributeGroup, ref='name of attribute group declared inside a redefine', and xml instant has value same as what is defined as fixed in the redefined attributeGroup."
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1860,12 +1860,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is attributeGroup, ref='foo (not a valid reference to an attributeGroup)'"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is attributeGroup, ref='foo (not a valid reference to an attributeGroup)'"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1918,12 +1918,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is attributeGroup, ref=''"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is attributeGroup, ref=''"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1976,12 +1976,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: self referencing, name=\"test\", has child attributeGroup that also has, parent is attributeGroup, ref='test'"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: self referencing, name=\"test\", has child attributeGroup that also has, parent is attributeGroup, ref='test'"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -2026,12 +2026,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "See bug 15795. XSD 1.1 allows circular attribute group definitions."
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "See bug 15795. XSD 1.1 allows circular attribute group definitions."
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -2061,12 +2061,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "Valid instance, showing validation against a circular attribute group in XSD 1.1"
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "Valid instance, showing validation against a circular attribute group in XSD 1.1"
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -2106,12 +2106,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "Invalid instance, showing validation against a circular attribute group in XSD 1.1"
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "Invalid instance, showing validation against a circular attribute group in XSD 1.1"
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -2156,12 +2156,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is attributeGroup, ref='foo (a name of a global attribute)'"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is attributeGroup, ref='foo (a name of a global attribute)'"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -2214,12 +2214,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is attributeGroup, ref='very very log string ( more than 9999 chars)'"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is attributeGroup, ref='very very log string ( more than 9999 chars)'"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -2272,12 +2272,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: parent is complexType, ref='name of a global attribute group declared at the beginning of xsd'"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: parent is complexType, ref='name of a global attribute group declared at the beginning of xsd'"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -2330,12 +2330,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: parent is complexType, ref='name of a global attribute group from imported xsd'"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: parent is complexType, ref='name of a global attribute group from imported xsd'"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -2388,12 +2388,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: parent is complexType, ref='name of a global attribute group from included xsd'"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: parent is complexType, ref='name of a global attribute group from included xsd'"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -2446,12 +2446,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is complexType, ref='name of global attribute group declared at the end of xsd'"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is complexType, ref='name of global attribute group declared at the end of xsd'"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -2504,12 +2504,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is complexType, ref='name of attribute group declared inside a redefine'"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is complexType, ref='name of attribute group declared inside a redefine'"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -2562,12 +2562,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is complexType, ref='foo (not a valid reference to an attributeGroup)'"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is complexType, ref='foo (not a valid reference to an attributeGroup)'"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -2620,12 +2620,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is complexType, ref=''"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is complexType, ref=''"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -2678,12 +2678,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: self referencing, name=\"test\", has child attributeGroup that also has, parent is complexType, ref='test'"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: self referencing, name=\"test\", has child attributeGroup that also has, parent is complexType, ref='test'"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -2728,12 +2728,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "See bug 15795. XSD 1.1 allows circular attribute group definitions."
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "See bug 15795. XSD 1.1 allows circular attribute group definitions."
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -2767,12 +2767,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is complexType, ref='foo (a name of a global attribute)'"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is complexType, ref='foo (a name of a global attribute)'"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -2825,12 +2825,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is complexType, ref='very very log string ( more than 9999 chars)'"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is complexType, ref='very very log string ( more than 9999 chars)'"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -2883,12 +2883,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: parent is extension, ref='name of a global attribute group declared at the beginning of xsd'"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: parent is extension, ref='name of a global attribute group declared at the beginning of xsd'"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -2941,12 +2941,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: parent is extension, ref='name of a global attribute group from imported xsd'"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: parent is extension, ref='name of a global attribute group from imported xsd'"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -3027,12 +3027,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: parent is extension, ref='name of a global attribute group from included xsd'"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: parent is extension, ref='name of a global attribute group from included xsd'"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -3113,12 +3113,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: parent is extension, ref='name of a global attribute group from included xsd'"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: parent is extension, ref='name of a global attribute group from included xsd'"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -3199,12 +3199,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is extension, ref='name of global attribute group declared at the end of xsd'"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is extension, ref='name of global attribute group declared at the end of xsd'"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -3257,12 +3257,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is extension, ref='name of attribute group declared inside a redefine'"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is extension, ref='name of attribute group declared inside a redefine'"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -3315,12 +3315,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is extension, ref='foo (not a valid reference to an attributeGroup)'"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is extension, ref='foo (not a valid reference to an attributeGroup)'"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -3373,12 +3373,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is extension, ref=''"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is extension, ref=''"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -3431,12 +3431,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: self referencing, name=\"test\", has child attributeGroup that also has, parent is extension, ref='test'"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: self referencing, name=\"test\", has child attributeGroup that also has, parent is extension, ref='test'"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -3481,12 +3481,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "See bug 15795. XSD 1.1 allows circular attribute group definitions."
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "See bug 15795. XSD 1.1 allows circular attribute group definitions."
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -3520,12 +3520,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is extension, ref='foo (a name of a global attribute)'"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is extension, ref='foo (a name of a global attribute)'"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -3578,12 +3578,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is extension, ref='very very log string ( more than 9999 chars)'"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is extension, ref='very very log string ( more than 9999 chars)'"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -3636,12 +3636,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: parent is redefine, ref='name of a global attribute group declared at the beginning of xsd'"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: parent is redefine, ref='name of a global attribute group declared at the beginning of xsd'"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -3694,12 +3694,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: parent is redefine, ref='name of a global attribute group from imported xsd'"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: parent is redefine, ref='name of a global attribute group from imported xsd'"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -3780,12 +3780,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: parent is redefine, ref='name of a global attribute group from included xsd'"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: parent is redefine, ref='name of a global attribute group from included xsd'"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -3866,12 +3866,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is redefine, ref='name of global attribute group declared at the end of xsd'"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is redefine, ref='name of global attribute group declared at the end of xsd'"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -3952,12 +3952,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is redefine, ref='name of attribute group declared inside a redefine'"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is redefine, ref='name of attribute group declared inside a redefine'"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -4038,12 +4038,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is redefine, ref='foo (not a valid reference to an attributeGroup)'"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is redefine, ref='foo (not a valid reference to an attributeGroup)'"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -4096,12 +4096,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is redefine, ref=''"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is redefine, ref=''"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -4154,12 +4154,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: circular Ref is allow if parent is redefine, name=\"test\", has child attributeGroup that also has, parent is redefine, ref='test'"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: circular Ref is allow if parent is redefine, name=\"test\", has child attributeGroup that also has, parent is redefine, ref='test'"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -4212,12 +4212,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is redefine, ref='foo (a name of a global attribute)'"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is redefine, ref='foo (a name of a global attribute)'"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -4270,12 +4270,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is redefine, ref='very very log string ( more than 9999 chars)'"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is redefine, ref='very very log string ( more than 9999 chars)'"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -4328,12 +4328,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : attributeGroup with two attributeGroup as children, both has ref=\"foo\""
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : attributeGroup with two attributeGroup as children, both has ref=\"foo\""
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -4386,12 +4386,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : attributeGroup with name=\"foo\", complexType with name='foo'"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : attributeGroup with name=\"foo\", complexType with name='foo'"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -4444,12 +4444,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : attributeGroup with annotation"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : attributeGroup with annotation"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -4502,12 +4502,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : attributeGroup with two annotation"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : attributeGroup with two annotation"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -4560,12 +4560,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : attributeGroup with 2000 attribute decl as child, the xml has the 2000 attributes"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : attributeGroup with 2000 attribute decl as child, the xml has the 2000 attributes"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -4646,12 +4646,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : attributeGroup with just another attributeGroup, the xml has the attributes"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : attributeGroup with just another attributeGroup, the xml has the attributes"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -4732,12 +4732,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : attributeGroup with child in the sequence of ( att, attg, att, attg, att), the xml has the attributes"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : attributeGroup with child in the sequence of ( att, attg, att, attg, att), the xml has the attributes"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -4818,12 +4818,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : attributeGroup with two attribute, same name, same namespace"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : attributeGroup with two attribute, same name, same namespace"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -4876,12 +4876,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : attribute group with two attribute, where the name of one att is same as the ref value of the other"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : attribute group with two attribute, where the name of one att is same as the ref value of the other"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -4934,12 +4934,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : attributeGroup with two attribute, same name, same type"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : attributeGroup with two attribute, same name, same type"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -4992,12 +4992,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : attributeGroup with two attribute, same name, different type"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : attributeGroup with two attribute, same name, different type"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -5050,12 +5050,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : attributeGroup with child attribute and attributeGroup which intern reference to different attributeGroup containing attributes and attributeGroup"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : attributeGroup with child attribute and attributeGroup which intern reference to different attributeGroup containing attributes and attributeGroup"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -5108,12 +5108,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : attributeGroup with child attributeGroup that reference to an element"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : attributeGroup with child attributeGroup that reference to an element"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -5166,12 +5166,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : attributeGroup with child element declaration"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : attributeGroup with child element declaration"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -5224,12 +5224,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : attributeGroup with child attributeGroup that reference to a simpleType"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : attributeGroup with child attributeGroup that reference to a simpleType"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -5282,12 +5282,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : attributeGroup with child attributeGroup that reference to complexType"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : attributeGroup with child attributeGroup that reference to complexType"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -5340,12 +5340,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : Basic AttributeGroup ( w/ name = foo and containing an attributeGroup with ref = foobar) and attributeGroup (w/ name=foobar and containing an attributeGroup with ref=foo)"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : Basic AttributeGroup ( w/ name = foo and containing an attributeGroup with ref = foobar) and attributeGroup (w/ name=foobar and containing an attributeGroup with ref=foo)"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -5390,12 +5390,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "See bug 15795. XSD 1.1 allows circular attribute group definitions."
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "See bug 15795. XSD 1.1 allows circular attribute group definitions."
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -5429,12 +5429,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : attributeGroup that has two attributeGroups, which reference to two different attributeGroups that reference the same attribute"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : attributeGroup that has two attributeGroups, which reference to two different attributeGroups that reference the same attribute"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -5487,12 +5487,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : attributeGroup that has two attributeGroups, parent is redefined, attG1 reference a global attributeGroup which define an attribute 'foo', attG2 reference the redefining xsd's attributeGroup 'foo' with same namespace"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : attributeGroup that has two attributeGroups, parent is redefined, attG1 reference a global attributeGroup which define an attribute 'foo', attG2 reference the redefining xsd's attributeGroup 'foo' with same namespace"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -5545,12 +5545,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : Basic AttributeGroup with anyAttribute (w/ id)"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : Basic AttributeGroup with anyAttribute (w/ id)"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -5631,12 +5631,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : Basic AttributeGroup with anyAttribute (w/ annotation)"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : Basic AttributeGroup with anyAttribute (w/ annotation)"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -5723,12 +5723,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : Basic AttributeGroup with anyAttribute (w/ namespace=##any), the xml has the attribute instance with no namespace"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : Basic AttributeGroup with anyAttribute (w/ namespace=##any), the xml has the attribute instance with no namespace"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -5815,12 +5815,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : Basic AttributeGroup with anyAttribute (w/ namespace=##any), the xml has the attribute instance with \"foo\" as its namespace"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : Basic AttributeGroup with anyAttribute (w/ namespace=##any), the xml has the attribute instance with \"foo\" as its namespace"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -5907,12 +5907,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : Basic AttributeGroup with anyAttribute (w/ namespace=##other), the xml has the attribute instance with namespace different from the targetNamdspace of the xsd"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : Basic AttributeGroup with anyAttribute (w/ namespace=##other), the xml has the attribute instance with namespace different from the targetNamdspace of the xsd"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -5999,12 +5999,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : Basic AttributeGroup with anyAttribute (w/ namespace=##other), the xml has the attribute instance with namespace same as the targetNamdspace of the xsd"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : Basic AttributeGroup with anyAttribute (w/ namespace=##other), the xml has the attribute instance with namespace same as the targetNamdspace of the xsd"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -6085,12 +6085,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : Basic AttributeGroup with anyAttribute (w/ namespace=##any), the xml has the attribute instance which fall under targetNS, but not defiled in the schema"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : Basic AttributeGroup with anyAttribute (w/ namespace=##any), the xml has the attribute instance which fall under targetNS, but not defiled in the schema"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -6171,12 +6171,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : Basic AttributeGroup with anyAttribute (w/ namespace=##local), the xml has the attribute instance which is namespace UNqualified"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : Basic AttributeGroup with anyAttribute (w/ namespace=##local), the xml has the attribute instance which is namespace UNqualified"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -6263,12 +6263,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : Basic AttributeGroup with anyAttribute (w/ namespace=##local), the xml has the attribute instance which is namespace qualified"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : Basic AttributeGroup with anyAttribute (w/ namespace=##local), the xml has the attribute instance which is namespace qualified"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -6349,12 +6349,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : Basic AttributeGroup with anyAttribute (w/ namespace=\"foo\"), the xml has the attribute instance which is of namespace \"foo\""
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : Basic AttributeGroup with anyAttribute (w/ namespace=\"foo\"), the xml has the attribute instance which is of namespace \"foo\""
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -6435,12 +6435,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : Basic AttributeGroup with anyAttribute (w/ namespace=\"foo\"), the xml has the attribute instance which is of namespace \"bar\""
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : Basic AttributeGroup with anyAttribute (w/ namespace=\"foo\"), the xml has the attribute instance which is of namespace \"bar\""
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -6521,12 +6521,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : Basic AttributeGroup with anyAttribute (w/ namespace=##targetNamespace), the xml has the attribute instance which is of namespace targetNamespace"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : Basic AttributeGroup with anyAttribute (w/ namespace=##targetNamespace), the xml has the attribute instance which is of namespace targetNamespace"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -6607,12 +6607,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : Basic AttributeGroup with anyAttribute (w/ namespace=##targetNamespace), the xml has the attribute instance which is of namespace other than targetNamespace"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : Basic AttributeGroup with anyAttribute (w/ namespace=##targetNamespace), the xml has the attribute instance which is of namespace other than targetNamespace"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -6693,12 +6693,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : AttributeGroup (w/ namespace=other, processContents=##skip), the xml has the attribute instance which conatins attribute not declared in any schema"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : AttributeGroup (w/ namespace=other, processContents=##skip), the xml has the attribute instance which conatins attribute not declared in any schema"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -6779,12 +6779,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : AttributeGroup (w/ namespace=other, processContents=##lax), the xml has the attribute instance which conatins valid elements and attribute against schema"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : AttributeGroup (w/ namespace=other, processContents=##lax), the xml has the attribute instance which conatins valid elements and attribute against schema"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -6865,12 +6865,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : AttributeGroup (w/ namespace=other, processContents=##lax), the xml has the attribute instance which conatins invalid attribute against schema"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : AttributeGroup (w/ namespace=other, processContents=##lax), the xml has the attribute instance which conatins invalid attribute against schema"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -6951,12 +6951,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : AttributeGroup (w/ namespace=other, processContents=##strict), the xml has the attribute instance which conatins valid elements and attribute against schema"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : AttributeGroup (w/ namespace=other, processContents=##strict), the xml has the attribute instance which conatins valid elements and attribute against schema"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -7037,12 +7037,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : complexType's AttributeGroup with reference to attributeGroup from 'redefine', where there is an attribute declared as int, with value=\"37\", the xml has the attribute instance which \"36\""
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : complexType's AttributeGroup with reference to attributeGroup from 'redefine', where there is an attribute declared as int, with value=\"37\", the xml has the attribute instance which \"36\""
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -7123,12 +7123,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : complexType's AttributeGroup with reference to attributeGroup from 'redefine', where there is an attribute declared as int, with value=\"37\", the xml has the attribute instance which \"37\""
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : complexType's AttributeGroup with reference to attributeGroup from 'redefine', where there is an attribute declared as int, with value=\"37\", the xml has the attribute instance which \"37\""
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -7209,12 +7209,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : AttributeGroup with ref=\"foo\" and has attribute decl as child"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : AttributeGroup with ref=\"foo\" and has attribute decl as child"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -7267,12 +7267,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : AttributeGroup with ref=\"foo\" and has attributeGroup decl as child"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : AttributeGroup with ref=\"foo\" and has attributeGroup decl as child"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -7325,12 +7325,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : AttributeGroup with ref=\"foo\" and has AnyAattribute decl as child"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : AttributeGroup with ref=\"foo\" and has AnyAattribute decl as child"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -7383,12 +7383,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : AttributeGroup with ref=\"foo\" and has annotation as child"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : AttributeGroup with ref=\"foo\" and has annotation as child"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -7441,12 +7441,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : circular reference, attG A ref to B which ref C which ref back to A"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : circular reference, attG A ref to B which ref C which ref back to A"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -7499,12 +7499,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : AttributeGroup (w/ namespace=other, processContents=##strict), the xml has the attribute instance which conatins invalid attribute against schema"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : AttributeGroup (w/ namespace=other, processContents=##strict), the xml has the attribute instance which conatins invalid attribute against schema"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -7585,12 +7585,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : xsd: global attribute reference in attributeGroup should be invalid if not qualified in the instance. (attributeFormDefault is qualified)."
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : xsd: global attribute reference in attributeGroup should be invalid if not qualified in the instance. (attributeFormDefault is qualified)."
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -7671,12 +7671,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : XSD: test an attribute is eliminated from a redefined attribute group with no self reference,required"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : XSD: test an attribute is eliminated from a redefined attribute group with no self reference,required"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -7729,12 +7729,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking for Attribute Declaration (ID) : XSD: test an attribute is eliminated from a redefined attribute group with no self reference,prohibited"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking for Attribute Declaration (ID) : XSD: test an attribute is eliminated from a redefined attribute group with no self reference,prohibited"
+                            ]
                         }
                     ],
                     "other_attributes": {}

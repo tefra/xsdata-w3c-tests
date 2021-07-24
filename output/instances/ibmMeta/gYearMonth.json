@@ -3,14 +3,14 @@
         {
             "appinfo_or_documentation": [
                 {
-                    "any_element": [
-                        "gYearMonth"
-                    ],
                     "source": null,
                     "lang": null,
                     "other_attributes": {
                         "{http://www.w3.org/1999/xlink}href": "http://www.w3.org/TR/xmlschema11-2/#gYearMonth"
-                    }
+                    },
+                    "content": [
+                        "gYearMonth"
+                    ]
                 }
             ],
             "other_attributes": {}
@@ -22,12 +22,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "A day is a calendar (or \"local time\") day in each timezone, including the timezones outside of +12:00 through -11:59 inclusive. "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "A day is a calendar (or \"local time\") day in each timezone, including the timezones outside of +12:00 through -11:59 inclusive. "
+                            ]
                         }
                     ],
                     "other_attributes": {}

@@ -1,28 +1,28 @@
 {
     "title": [
         {
+            "type": "text",
             "content": [
                 "My News"
-            ],
-            "type": "text"
+            ]
         },
         {
+            "type": "number",
             "content": [
                 "122323"
-            ],
-            "type": "number"
+            ]
         },
         {
+            "type": "mixed",
             "content": [
                 "D413"
-            ],
-            "type": "mixed"
+            ]
         },
         {
+            "type": null,
             "content": [
                 "My News"
-            ],
-            "type": null
+            ]
         }
     ]
 }

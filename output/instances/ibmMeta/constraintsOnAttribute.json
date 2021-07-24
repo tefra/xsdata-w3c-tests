@@ -3,14 +3,14 @@
         {
             "appinfo_or_documentation": [
                 {
-                    "any_element": [
-                        "Attribute constraints"
-                    ],
                     "source": null,
                     "lang": null,
                     "other_attributes": {
                         "{http://www.w3.org/1999/xlink}href": "http://www.w3.org/TR/xmlschema11-1/#sec-src-attdecl"
-                    }
+                    },
+                    "content": [
+                        "Attribute constraints"
+                    ]
                 }
             ],
             "other_attributes": {}
@@ -22,12 +22,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Tests the targetNamespace attribute in locally declared element and attribute."
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Tests the targetNamespace attribute in locally declared element and attribute."
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -116,12 +116,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Tests the targetNamespace attribute in locally declared element and attribute. "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Tests the targetNamespace attribute in locally declared element and attribute. "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -210,12 +210,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Tests the targetNamespace attribute in locally declared element and attribute."
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Tests the targetNamespace attribute in locally declared element and attribute."
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -304,12 +304,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Tests for valid derivation of restriction of complexType in other namespace."
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Tests for valid derivation of restriction of complexType in other namespace."
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -404,12 +404,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Tests the targetNamespace attribute in locally declared element and attribute."
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Tests the targetNamespace attribute in locally declared element and attribute."
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -498,12 +498,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Named identity constraints on local element declarations "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Named identity constraints on local element declarations "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -592,12 +592,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Tests for valid derivation of restriction of complexType"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Tests for valid derivation of restriction of complexType"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -658,12 +658,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Tests for valid derivation of restriction of complexType."
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Tests for valid derivation of restriction of complexType."
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -724,12 +724,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Tests for valid derivation of restriction of complexType"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Tests for valid derivation of restriction of complexType"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -790,12 +790,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Attribute does not have complexType as an ancestor when the ancestor [schema] does not have a targetNamespace [attribute] or its actual value is different from the actual value of targetNamespace of [attribute]"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Attribute does not have complexType as an ancestor when the ancestor [schema] does not have a targetNamespace [attribute] or its actual value is different from the actual value of targetNamespace of [attribute]"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -856,12 +856,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "The actual value of the base [attribute] of [restriction] matches the name of xs:anyType when the ancestor [schema] does not have a targetNamespace [attribute] or its actual value is different from the actual value of targetNamespace of [attribute] "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "The actual value of the base [attribute] of [restriction] matches the name of xs:anyType when the ancestor [schema] does not have a targetNamespace [attribute] or its actual value is different from the actual value of targetNamespace of [attribute] "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -920,12 +920,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "The form attribute is present when targetAttribute attribute is present."
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "The form attribute is present when targetAttribute attribute is present."
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -986,12 +986,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Element does not have complexType as an ancestor when the ancestor [schema] does not have a targetNamespace [attribute] or its actual value is different from the actual value of targetNamespace of [attribute]"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Element does not have complexType as an ancestor when the ancestor [schema] does not have a targetNamespace [attribute] or its actual value is different from the actual value of targetNamespace of [attribute]"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1052,12 +1052,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "The actual value of the base of [attribute][restriction] matches the name of xs:anyType when the ancestor [schema] does not have a targetNamespace [attribute] or its actual value is different from the actual value of  targetNamespace of [attribute]"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "The actual value of the base of [attribute][restriction] matches the name of xs:anyType when the ancestor [schema] does not have a targetNamespace [attribute] or its actual value is different from the actual value of  targetNamespace of [attribute]"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1118,12 +1118,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Tests for valid derivation of extension of complexType in other namespace."
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Tests for valid derivation of extension of complexType in other namespace."
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1184,12 +1184,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "identity constraints on local element declarations "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "identity constraints on local element declarations "
+                            ]
                         }
                     ],
                     "other_attributes": {}

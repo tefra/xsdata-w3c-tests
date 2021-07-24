@@ -6,7 +6,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "+INF allowed in xs:double lexical space",
@@ -21,10 +24,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -79,12 +79,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, +INF used legitimately.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid, +INF used legitimately.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -120,12 +120,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, -INF conflicts with fixed value.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid, -INF conflicts with fixed value.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -161,12 +161,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, NaN conflicts with fixed value.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid, NaN conflicts with fixed value.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -207,7 +207,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "+INF allowed in xs:float lexical space",
@@ -222,10 +225,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -280,12 +280,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, +INF used legitimately.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid, +INF used legitimately.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -321,12 +321,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, -INF conflicts with fixed value.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid, -INF conflicts with fixed value.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -362,12 +362,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, NaN conflicts with fixed value.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid, NaN conflicts with fixed value.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -408,7 +408,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Test that simpleType/@final = extension is allowed",
@@ -423,10 +426,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -481,12 +481,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, the simpleType that prohibits extension is not extended.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid, the simpleType that prohibits extension is not extended.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -527,7 +527,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Test that simpleType/@final = extension is allowed, and works",
@@ -542,10 +545,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -570,12 +570,12 @@
                     {
                         "appinfo_or_documentation": [
                             {
-                                "any_element": [
-                                    "\n\t\t                Invalid, the simpleType that prohibits extension gets extended.\n\t\t            "
-                                ],
                                 "source": null,
                                 "lang": null,
-                                "other_attributes": {}
+                                "other_attributes": {},
+                                "content": [
+                                    "\n\t\t                Invalid, the simpleType that prohibits extension gets extended.\n\t\t            "
+                                ]
                             }
                         ],
                         "other_attributes": {}
@@ -618,7 +618,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Test simpleType/@final = extension defaulted from finalDefault, and works",
@@ -633,10 +636,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -661,12 +661,12 @@
                     {
                         "appinfo_or_documentation": [
                             {
-                                "any_element": [
-                                    "\n\t\t                Invalid, the simpleType that prohibits extension gets extended.\n\t\t            "
-                                ],
                                 "source": null,
                                 "lang": null,
-                                "other_attributes": {}
+                                "other_attributes": {},
+                                "content": [
+                                    "\n\t\t                Invalid, the simpleType that prohibits extension gets extended.\n\t\t            "
+                                ]
                             }
                         ],
                         "other_attributes": {}
@@ -709,7 +709,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "List type with a missing item type",
@@ -724,10 +727,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -746,12 +746,12 @@
                     {
                         "appinfo_or_documentation": [
                             {
-                                "any_element": [
-                                    "\n\t\t                Invalid, the list type refers to a non-existent item type.\n\t\t            "
-                                ],
                                 "source": null,
                                 "lang": null,
-                                "other_attributes": {}
+                                "other_attributes": {},
+                                "content": [
+                                    "\n\t\t                Invalid, the list type refers to a non-existent item type.\n\t\t            "
+                                ]
                             }
                         ],
                         "other_attributes": {}
@@ -794,7 +794,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Type X is substitutable for union(X,Y)",
@@ -809,10 +812,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -867,12 +867,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -908,12 +908,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -949,12 +949,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -995,7 +995,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Union(X,Y) is not validly derived from Union(X,Y,Z)",
@@ -1010,10 +1013,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1072,7 +1072,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Type X is substitutable for union(X,Y) when X is itself a union type",
@@ -1087,10 +1090,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1145,12 +1145,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1186,12 +1186,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid use of xsi:type here\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid use of xsi:type here\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1227,12 +1227,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1268,12 +1268,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1314,7 +1314,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Type D is substitutable for union(X,DT) when DT is union (D,T)",
@@ -1329,10 +1332,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1387,12 +1387,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1428,12 +1428,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1469,12 +1469,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1515,7 +1515,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Member of a union is not substitutable if the union is derived by restriction",
@@ -1530,10 +1533,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1592,7 +1592,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Member of a union is not substitutable if the union is derived by restriction",
@@ -1607,10 +1610,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1669,7 +1669,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "xsi:type OK to select a member of a union only if there are no restriction facets",
@@ -1684,10 +1687,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1742,12 +1742,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, xsi:type is OK here as the union is unrestricted\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid, xsi:type is OK here as the union is unrestricted\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1783,12 +1783,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, xsi:type cannot be used here as the union is restricted.\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid, xsi:type cannot be used here as the union is restricted.\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1829,7 +1829,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "The transitive membership of a union type must not contain the union itself",
@@ -1844,10 +1847,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1872,12 +1872,12 @@
                     {
                         "appinfo_or_documentation": [
                             {
-                                "any_element": [
-                                    "\n\t                invalid, cyclic union definition\n\t            "
-                                ],
                                 "source": null,
                                 "lang": null,
-                                "other_attributes": {}
+                                "other_attributes": {},
+                                "content": [
+                                    "\n\t                invalid, cyclic union definition\n\t            "
+                                ]
                             }
                         ],
                         "other_attributes": {}
@@ -1920,7 +1920,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "The transitive membership of a union type must not contain a type derived from the union",
@@ -1935,10 +1938,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1963,12 +1963,12 @@
                     {
                         "appinfo_or_documentation": [
                             {
-                                "any_element": [
-                                    "\n\t                invalid, cyclic union definition\n\t            "
-                                ],
                                 "source": null,
                                 "lang": null,
-                                "other_attributes": {}
+                                "other_attributes": {},
+                                "content": [
+                                    "\n\t                invalid, cyclic union definition\n\t            "
+                                ]
                             }
                         ],
                         "other_attributes": {}
@@ -2011,7 +2011,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "The transitive membership of a union type must not contain a type constructed from the union",
@@ -2026,10 +2029,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -2054,12 +2054,12 @@
                     {
                         "appinfo_or_documentation": [
                             {
-                                "any_element": [
-                                    "\n\t                invalid, cyclic union definition\n\t            "
-                                ],
                                 "source": null,
                                 "lang": null,
-                                "other_attributes": {}
+                                "other_attributes": {},
+                                "content": [
+                                    "\n\t                invalid, cyclic union definition\n\t            "
+                                ]
                             }
                         ],
                         "other_attributes": {}
@@ -2102,7 +2102,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "The transitive membership of a union type must not contain a type constructed from the union",
@@ -2117,10 +2120,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -2145,12 +2145,12 @@
                     {
                         "appinfo_or_documentation": [
                             {
-                                "any_element": [
-                                    "\n\t                invalid, cyclic union definition\n\t            "
-                                ],
                                 "source": null,
                                 "lang": null,
-                                "other_attributes": {}
+                                "other_attributes": {},
+                                "content": [
+                                    "\n\t                invalid, cyclic union definition\n\t            "
+                                ]
                             }
                         ],
                         "other_attributes": {}
@@ -2193,7 +2193,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "The string \"[^]\" is not a valid regex",
@@ -2208,10 +2211,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -2230,12 +2230,12 @@
                     {
                         "appinfo_or_documentation": [
                             {
-                                "any_element": [
-                                    "\n\t                invalid regular expression in pattern facet\n\t            "
-                                ],
                                 "source": null,
                                 "lang": null,
-                                "other_attributes": {}
+                                "other_attributes": {},
+                                "content": [
+                                    "\n\t                invalid regular expression in pattern facet\n\t            "
+                                ]
                             }
                         ],
                         "other_attributes": {}
@@ -2278,7 +2278,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Enumeration value OK if \"equal or identical\", so NaN is accepted. See bug 9196",
@@ -2293,10 +2296,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -2345,12 +2345,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, Enumeration value OK if \"equal or identical\"\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid, Enumeration value OK if \"equal or identical\"\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -2386,12 +2386,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, Enumeration value OK if \"equal or identical\"\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid, Enumeration value OK if \"equal or identical\"\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -2427,12 +2427,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, Enumeration value OK if \"equal or identical\"\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid, Enumeration value OK if \"equal or identical\"\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -2468,12 +2468,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, Enumeration value OK only if \"equal or identical\".\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid, Enumeration value OK only if \"equal or identical\".\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -2514,7 +2514,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Hyphens in regular expressions",
@@ -2529,10 +2532,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -2587,12 +2587,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, \n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid, \n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -2628,12 +2628,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, \n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid, \n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -2669,12 +2669,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, \n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid, \n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -2715,7 +2715,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Hyphens in regular expressions",
@@ -2730,10 +2733,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -2758,12 +2758,12 @@
                     {
                         "appinfo_or_documentation": [
                             {
-                                "any_element": [
-                                    "\n\t                invalid, cyclic union definition\n\t            "
-                                ],
                                 "source": null,
                                 "lang": null,
-                                "other_attributes": {}
+                                "other_attributes": {},
+                                "content": [
+                                    "\n\t                invalid, cyclic union definition\n\t            "
+                                ]
                             }
                         ],
                         "other_attributes": {}
@@ -2806,7 +2806,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Hyphens in regular expressions",
@@ -2821,10 +2824,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -2849,12 +2849,12 @@
                     {
                         "appinfo_or_documentation": [
                             {
-                                "any_element": [
-                                    "\n\t                invalid, cyclic union definition\n\t            "
-                                ],
                                 "source": null,
                                 "lang": null,
-                                "other_attributes": {}
+                                "other_attributes": {},
+                                "content": [
+                                    "\n\t                invalid, cyclic union definition\n\t            "
+                                ]
                             }
                         ],
                         "other_attributes": {}
@@ -2897,7 +2897,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Hyphens in regular expressions",
@@ -2912,10 +2915,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -2940,12 +2940,12 @@
                     {
                         "appinfo_or_documentation": [
                             {
-                                "any_element": [
-                                    "\n\t                this regex becomes legal by a decision of the WG in Nov 2010. See bug 13922.\n\t            "
-                                ],
                                 "source": null,
                                 "lang": null,
-                                "other_attributes": {}
+                                "other_attributes": {},
+                                "content": [
+                                    "\n\t                this regex becomes legal by a decision of the WG in Nov 2010. See bug 13922.\n\t            "
+                                ]
                             }
                         ],
                         "other_attributes": {}
@@ -2996,7 +2996,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Hyphens in regular expressions",
@@ -3011,10 +3014,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -3039,12 +3039,12 @@
                     {
                         "appinfo_or_documentation": [
                             {
-                                "any_element": [
-                                    "\n\t                valid regex\n\t            "
-                                ],
                                 "source": null,
                                 "lang": null,
-                                "other_attributes": {}
+                                "other_attributes": {},
+                                "content": [
+                                    "\n\t                valid regex\n\t            "
+                                ]
                             }
                         ],
                         "other_attributes": {}
@@ -3083,12 +3083,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, \n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid, \n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -3124,12 +3124,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, \n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid, \n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -3170,7 +3170,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Hyphens in regular expressions",
@@ -3185,10 +3188,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -3213,12 +3213,12 @@
                     {
                         "appinfo_or_documentation": [
                             {
-                                "any_element": [
-                                    "\n\t                valid regex\n\t            "
-                                ],
                                 "source": null,
                                 "lang": null,
-                                "other_attributes": {}
+                                "other_attributes": {},
+                                "content": [
+                                    "\n\t                valid regex\n\t            "
+                                ]
                             }
                         ],
                         "other_attributes": {}
@@ -3257,12 +3257,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, \n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid, \n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -3298,12 +3298,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, \n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid, \n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -3344,7 +3344,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Hyphens in regular expressions",
@@ -3359,10 +3362,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -3387,12 +3387,12 @@
                     {
                         "appinfo_or_documentation": [
                             {
-                                "any_element": [
-                                    "\n\t                valid regex\n\t            "
-                                ],
                                 "source": null,
                                 "lang": null,
-                                "other_attributes": {}
+                                "other_attributes": {},
+                                "content": [
+                                    "\n\t                valid regex\n\t            "
+                                ]
                             }
                         ],
                         "other_attributes": {}
@@ -3431,12 +3431,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, \n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid, \n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -3472,12 +3472,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, \n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid, \n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -3518,7 +3518,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Use of xs:anyAtomicType",
@@ -3533,10 +3536,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -3561,12 +3561,12 @@
                     {
                         "appinfo_or_documentation": [
                             {
-                                "any_element": [
-                                    "\n\t                valid schema using anyAtomicType\n\t            "
-                                ],
                                 "source": null,
                                 "lang": null,
-                                "other_attributes": {}
+                                "other_attributes": {},
+                                "content": [
+                                    "\n\t                valid schema using anyAtomicType\n\t            "
+                                ]
                             }
                         ],
                         "other_attributes": {}
@@ -3605,12 +3605,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, anyAtomicType allows anything\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid, anyAtomicType allows anything\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -3646,12 +3646,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid xsi:type restricting to a date\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid xsi:type restricting to a date\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -3687,12 +3687,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, if restricting to a date the date must be valid\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid, if restricting to a date the date must be valid\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -3728,12 +3728,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, restricting to an unknown type\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid, restricting to an unknown type\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -3769,12 +3769,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, restricting to untypedAtomic\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid, restricting to untypedAtomic\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -3815,7 +3815,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Use of xs:anyAtomicType",
@@ -3830,10 +3833,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -3858,12 +3858,12 @@
                     {
                         "appinfo_or_documentation": [
                             {
-                                "any_element": [
-                                    "\n\t                invalid schema using anyAtomicType\n\t            "
-                                ],
                                 "source": null,
                                 "lang": null,
-                                "other_attributes": {}
+                                "other_attributes": {},
+                                "content": [
+                                    "\n\t                invalid schema using anyAtomicType\n\t            "
+                                ]
                             }
                         ],
                         "other_attributes": {}
@@ -3906,7 +3906,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Use of xs:anyAtomicType",
@@ -3921,10 +3924,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -3949,12 +3949,12 @@
                     {
                         "appinfo_or_documentation": [
                             {
-                                "any_element": [
-                                    "\n\t                invalid schema using anyAtomicType as the item type of a list\n\t            "
-                                ],
                                 "source": null,
                                 "lang": null,
-                                "other_attributes": {}
+                                "other_attributes": {},
+                                "content": [
+                                    "\n\t                invalid schema using anyAtomicType as the item type of a list\n\t            "
+                                ]
                             }
                         ],
                         "other_attributes": {}
@@ -3997,7 +3997,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Use of xs:anyAtomicType",
@@ -4012,10 +4015,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -4040,12 +4040,12 @@
                     {
                         "appinfo_or_documentation": [
                             {
-                                "any_element": [
-                                    "\n\t                invalid schema using anyAtomicType as a member type in a union\n\t            "
-                                ],
                                 "source": null,
                                 "lang": null,
-                                "other_attributes": {}
+                                "other_attributes": {},
+                                "content": [
+                                    "\n\t                invalid schema using anyAtomicType as a member type in a union\n\t            "
+                                ]
                             }
                         ],
                         "other_attributes": {}
@@ -4088,7 +4088,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "xsi:type must resolve",
@@ -4103,10 +4106,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -4131,12 +4131,12 @@
                     {
                         "appinfo_or_documentation": [
                             {
-                                "any_element": [
-                                    "\n\t                valid schema using a union\n\t            "
-                                ],
                                 "source": null,
                                 "lang": null,
-                                "other_attributes": {}
+                                "other_attributes": {},
+                                "content": [
+                                    "\n\t                valid schema using a union\n\t            "
+                                ]
                             }
                         ],
                         "other_attributes": {}
@@ -4175,12 +4175,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, unknown xsi:type\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid, unknown xsi:type\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -4221,7 +4221,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Selector in identity constraint mistakenly identifies an element with a simple type",
@@ -4236,10 +4239,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -4258,12 +4258,12 @@
                     {
                         "appinfo_or_documentation": [
                             {
-                                "any_element": [
-                                    "\n\t                schema is valid though not useful\n\t            "
-                                ],
                                 "source": null,
                                 "lang": null,
-                                "other_attributes": {}
+                                "other_attributes": {},
+                                "content": [
+                                    "\n\t                schema is valid though not useful\n\t            "
+                                ]
                             }
                         ],
                         "other_attributes": {}
@@ -4302,12 +4302,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, field of selector selects nothing\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Invalid, field of selector selects nothing\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -4348,7 +4348,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Facet must not appear more than once",
@@ -4363,10 +4366,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -4385,12 +4385,12 @@
                     {
                         "appinfo_or_documentation": [
                             {
-                                "any_element": [
-                                    "\n\t                invalid schema, facet is repeated violating clause 1 of \n\t                Simple Type Definition Representation OK\n\t            "
-                                ],
                                 "source": null,
                                 "lang": null,
-                                "other_attributes": {}
+                                "other_attributes": {},
+                                "content": [
+                                    "\n\t                invalid schema, facet is repeated violating clause 1 of \n\t                Simple Type Definition Representation OK\n\t            "
+                                ]
                             }
                         ],
                         "other_attributes": {}
@@ -4433,7 +4433,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Facet must not appear more than once",
@@ -4448,10 +4451,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -4470,12 +4470,12 @@
                     {
                         "appinfo_or_documentation": [
                             {
-                                "any_element": [
-                                    "\n\t                invalid schema, facet is repeated violating clause 1 of \n\t                Simple Type Definition Representation OK\n\t            "
-                                ],
                                 "source": null,
                                 "lang": null,
-                                "other_attributes": {}
+                                "other_attributes": {},
+                                "content": [
+                                    "\n\t                invalid schema, facet is repeated violating clause 1 of \n\t                Simple Type Definition Representation OK\n\t            "
+                                ]
                             }
                         ],
                         "other_attributes": {}
@@ -4518,7 +4518,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Facet must not appear more than once",
@@ -4533,10 +4536,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -4555,12 +4555,12 @@
                     {
                         "appinfo_or_documentation": [
                             {
-                                "any_element": [
-                                    "\n\t                invalid schema, facet is repeated violating clause 1 of \n\t                Simple Type Definition Representation OK\n\t            "
-                                ],
                                 "source": null,
                                 "lang": null,
-                                "other_attributes": {}
+                                "other_attributes": {},
+                                "content": [
+                                    "\n\t                invalid schema, facet is repeated violating clause 1 of \n\t                Simple Type Definition Representation OK\n\t            "
+                                ]
                             }
                         ],
                         "other_attributes": {}
@@ -4603,7 +4603,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Facet must not appear more than once",
@@ -4618,10 +4621,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -4640,12 +4640,12 @@
                     {
                         "appinfo_or_documentation": [
                             {
-                                "any_element": [
-                                    "\n\t                invalid schema, facet is repeated violating clause 1 of \n\t                Simple Type Definition Representation OK\n\t            "
-                                ],
                                 "source": null,
                                 "lang": null,
-                                "other_attributes": {}
+                                "other_attributes": {},
+                                "content": [
+                                    "\n\t                invalid schema, facet is repeated violating clause 1 of \n\t                Simple Type Definition Representation OK\n\t            "
+                                ]
                             }
                         ],
                         "other_attributes": {}
@@ -4688,7 +4688,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Facet must not appear more than once",
@@ -4703,10 +4706,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -4725,12 +4725,12 @@
                     {
                         "appinfo_or_documentation": [
                             {
-                                "any_element": [
-                                    "\n\t                invalid schema, facet is repeated violating clause 1 of \n\t                Simple Type Definition Representation OK\n\t            "
-                                ],
                                 "source": null,
                                 "lang": null,
-                                "other_attributes": {}
+                                "other_attributes": {},
+                                "content": [
+                                    "\n\t                invalid schema, facet is repeated violating clause 1 of \n\t                Simple Type Definition Representation OK\n\t            "
+                                ]
                             }
                         ],
                         "other_attributes": {}
@@ -4773,7 +4773,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Facet must not appear more than once",
@@ -4788,10 +4791,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -4810,12 +4810,12 @@
                     {
                         "appinfo_or_documentation": [
                             {
-                                "any_element": [
-                                    "\n\t                invalid schema, facet is repeated violating clause 1 of \n\t                Simple Type Definition Representation OK\n\t            "
-                                ],
                                 "source": null,
                                 "lang": null,
-                                "other_attributes": {}
+                                "other_attributes": {},
+                                "content": [
+                                    "\n\t                invalid schema, facet is repeated violating clause 1 of \n\t                Simple Type Definition Representation OK\n\t            "
+                                ]
                             }
                         ],
                         "other_attributes": {}
@@ -4858,7 +4858,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Facet must not appear more than once",
@@ -4873,10 +4876,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -4895,12 +4895,12 @@
                     {
                         "appinfo_or_documentation": [
                             {
-                                "any_element": [
-                                    "\n\t                invalid schema, facet is repeated violating clause 1 of \n\t                Simple Type Definition Representation OK\n\t            "
-                                ],
                                 "source": null,
                                 "lang": null,
-                                "other_attributes": {}
+                                "other_attributes": {},
+                                "content": [
+                                    "\n\t                invalid schema, facet is repeated violating clause 1 of \n\t                Simple Type Definition Representation OK\n\t            "
+                                ]
                             }
                         ],
                         "other_attributes": {}
@@ -4943,7 +4943,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Facet must not appear more than once",
@@ -4958,10 +4961,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -4980,12 +4980,12 @@
                     {
                         "appinfo_or_documentation": [
                             {
-                                "any_element": [
-                                    "\n\t                invalid schema, facet is repeated violating clause 1 of \n\t                Simple Type Definition Representation OK\n\t            "
-                                ],
                                 "source": null,
                                 "lang": null,
-                                "other_attributes": {}
+                                "other_attributes": {},
+                                "content": [
+                                    "\n\t                invalid schema, facet is repeated violating clause 1 of \n\t                Simple Type Definition Representation OK\n\t            "
+                                ]
                             }
                         ],
                         "other_attributes": {}
@@ -5028,7 +5028,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Facet must not appear more than once",
@@ -5043,10 +5046,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -5065,12 +5065,12 @@
                     {
                         "appinfo_or_documentation": [
                             {
-                                "any_element": [
-                                    "\n\t                invalid schema, facet is repeated violating clause 1 of \n\t                Simple Type Definition Representation OK\n\t            "
-                                ],
                                 "source": null,
                                 "lang": null,
-                                "other_attributes": {}
+                                "other_attributes": {},
+                                "content": [
+                                    "\n\t                invalid schema, facet is repeated violating clause 1 of \n\t                Simple Type Definition Representation OK\n\t            "
+                                ]
                             }
                         ],
                         "other_attributes": {}
@@ -5113,7 +5113,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Facet must not appear more than once",
@@ -5128,10 +5131,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -5150,12 +5150,12 @@
                     {
                         "appinfo_or_documentation": [
                             {
-                                "any_element": [
-                                    "\n\t                invalid schema, facet is repeated violating clause 1 of \n\t                Simple Type Definition Representation OK\n\t            "
-                                ],
                                 "source": null,
                                 "lang": null,
-                                "other_attributes": {}
+                                "other_attributes": {},
+                                "content": [
+                                    "\n\t                invalid schema, facet is repeated violating clause 1 of \n\t                Simple Type Definition Representation OK\n\t            "
+                                ]
                             }
                         ],
                         "other_attributes": {}
@@ -5198,7 +5198,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Facet must not appear more than once",
@@ -5213,10 +5216,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -5235,12 +5235,12 @@
                     {
                         "appinfo_or_documentation": [
                             {
-                                "any_element": [
-                                    "\n\t                invalid schema, facet is repeated violating clause 1 of \n\t                Simple Type Definition Representation OK\n\t            "
-                                ],
                                 "source": null,
                                 "lang": null,
-                                "other_attributes": {}
+                                "other_attributes": {},
+                                "content": [
+                                    "\n\t                invalid schema, facet is repeated violating clause 1 of \n\t                Simple Type Definition Representation OK\n\t            "
+                                ]
                             }
                         ],
                         "other_attributes": {}
@@ -5283,7 +5283,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Facet must not appear more than once",
@@ -5298,10 +5301,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -5320,12 +5320,12 @@
                     {
                         "appinfo_or_documentation": [
                             {
-                                "any_element": [
-                                    "\n\t                invalid schema, facet is repeated violating clause 1 of \n\t                Simple Type Definition Representation OK\n\t            "
-                                ],
                                 "source": null,
                                 "lang": null,
-                                "other_attributes": {}
+                                "other_attributes": {},
+                                "content": [
+                                    "\n\t                invalid schema, facet is repeated violating clause 1 of \n\t                Simple Type Definition Representation OK\n\t            "
+                                ]
                             }
                         ],
                         "other_attributes": {}
@@ -5368,7 +5368,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Facet must not appear more than once",
@@ -5383,10 +5386,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -5405,12 +5405,12 @@
                     {
                         "appinfo_or_documentation": [
                             {
-                                "any_element": [
-                                    "\n\t                invalid schema, facet is repeated violating clause 1 of \n\t                Simple Type Definition Representation OK\n\t            "
-                                ],
                                 "source": null,
                                 "lang": null,
-                                "other_attributes": {}
+                                "other_attributes": {},
+                                "content": [
+                                    "\n\t                invalid schema, facet is repeated violating clause 1 of \n\t                Simple Type Definition Representation OK\n\t            "
+                                ]
                             }
                         ],
                         "other_attributes": {}
@@ -5453,7 +5453,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Facet must not appear more than once",
@@ -5468,10 +5471,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -5490,12 +5490,12 @@
                     {
                         "appinfo_or_documentation": [
                             {
-                                "any_element": [
-                                    "\n\t                invalid schema, facet is repeated violating clause 1 of \n\t                Simple Type Definition Representation OK\n\t            "
-                                ],
                                 "source": null,
                                 "lang": null,
-                                "other_attributes": {}
+                                "other_attributes": {},
+                                "content": [
+                                    "\n\t                invalid schema, facet is repeated violating clause 1 of \n\t                Simple Type Definition Representation OK\n\t            "
+                                ]
                             }
                         ],
                         "other_attributes": {}
@@ -5538,7 +5538,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Facet must not appear more than once",
@@ -5553,10 +5556,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -5575,12 +5575,12 @@
                     {
                         "appinfo_or_documentation": [
                             {
-                                "any_element": [
-                                    "\n\t                invalid schema, facet is repeated violating clause 1 of \n\t                Simple Type Definition Representation OK\n\t            "
-                                ],
                                 "source": null,
                                 "lang": null,
-                                "other_attributes": {}
+                                "other_attributes": {},
+                                "content": [
+                                    "\n\t                invalid schema, facet is repeated violating clause 1 of \n\t                Simple Type Definition Representation OK\n\t            "
+                                ]
                             }
                         ],
                         "other_attributes": {}
@@ -5623,7 +5623,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Facet must not appear more than once",
@@ -5638,10 +5641,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -5660,12 +5660,12 @@
                     {
                         "appinfo_or_documentation": [
                             {
-                                "any_element": [
-                                    "\n\t                invalid schema, facet is repeated violating clause 1 of \n\t                Simple Type Definition Representation OK\n\t            "
-                                ],
                                 "source": null,
                                 "lang": null,
-                                "other_attributes": {}
+                                "other_attributes": {},
+                                "content": [
+                                    "\n\t                invalid schema, facet is repeated violating clause 1 of \n\t                Simple Type Definition Representation OK\n\t            "
+                                ]
                             }
                         ],
                         "other_attributes": {}
@@ -5708,7 +5708,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Facet must not appear more than once",
@@ -5723,10 +5726,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -5745,12 +5745,12 @@
                     {
                         "appinfo_or_documentation": [
                             {
-                                "any_element": [
-                                    "\n\t                invalid schema, facet is repeated violating clause 1 of \n\t                Simple Type Definition Representation OK\n\t            "
-                                ],
                                 "source": null,
                                 "lang": null,
-                                "other_attributes": {}
+                                "other_attributes": {},
+                                "content": [
+                                    "\n\t                invalid schema, facet is repeated violating clause 1 of \n\t                Simple Type Definition Representation OK\n\t            "
+                                ]
                             }
                         ],
                         "other_attributes": {}
@@ -5793,7 +5793,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Facet must not appear more than once",
@@ -5808,10 +5811,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -5830,12 +5830,12 @@
                     {
                         "appinfo_or_documentation": [
                             {
-                                "any_element": [
-                                    "\n\t                invalid schema, facet is repeated violating clause 1 of \n\t                Simple Type Definition Representation OK\n\t            "
-                                ],
                                 "source": null,
                                 "lang": null,
-                                "other_attributes": {}
+                                "other_attributes": {},
+                                "content": [
+                                    "\n\t                invalid schema, facet is repeated violating clause 1 of \n\t                Simple Type Definition Representation OK\n\t            "
+                                ]
                             }
                         ],
                         "other_attributes": {}
@@ -5878,7 +5878,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Facet must not appear more than once",
@@ -5893,10 +5896,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -5915,12 +5915,12 @@
                     {
                         "appinfo_or_documentation": [
                             {
-                                "any_element": [
-                                    "\n\t                invalid schema, facet is repeated violating clause 1 of \n\t                Simple Type Definition Representation OK\n\t            "
-                                ],
                                 "source": null,
                                 "lang": null,
-                                "other_attributes": {}
+                                "other_attributes": {},
+                                "content": [
+                                    "\n\t                invalid schema, facet is repeated violating clause 1 of \n\t                Simple Type Definition Representation OK\n\t            "
+                                ]
                             }
                         ],
                         "other_attributes": {}
@@ -5963,7 +5963,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Facet must not appear more than once",
@@ -5978,10 +5981,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -6000,12 +6000,12 @@
                     {
                         "appinfo_or_documentation": [
                             {
-                                "any_element": [
-                                    "\n\t                invalid schema, facet is repeated violating clause 1 of \n\t                Simple Type Definition Representation OK\n\t            "
-                                ],
                                 "source": null,
                                 "lang": null,
-                                "other_attributes": {}
+                                "other_attributes": {},
+                                "content": [
+                                    "\n\t                invalid schema, facet is repeated violating clause 1 of \n\t                Simple Type Definition Representation OK\n\t            "
+                                ]
                             }
                         ],
                         "other_attributes": {}
@@ -6048,7 +6048,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Facet must not appear more than once",
@@ -6063,10 +6066,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -6085,12 +6085,12 @@
                     {
                         "appinfo_or_documentation": [
                             {
-                                "any_element": [
-                                    "\n\t                invalid schema, facet is repeated violating clause 1 of \n\t                Simple Type Definition Representation OK\n\t            "
-                                ],
                                 "source": null,
                                 "lang": null,
-                                "other_attributes": {}
+                                "other_attributes": {},
+                                "content": [
+                                    "\n\t                invalid schema, facet is repeated violating clause 1 of \n\t                Simple Type Definition Representation OK\n\t            "
+                                ]
                             }
                         ],
                         "other_attributes": {}
@@ -6133,7 +6133,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Facet must not appear more than once",
@@ -6148,10 +6151,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -6170,12 +6170,12 @@
                     {
                         "appinfo_or_documentation": [
                             {
-                                "any_element": [
-                                    "\n\t                invalid schema, facet is repeated violating clause 1 of \n\t                Simple Type Definition Representation OK\n\t            "
-                                ],
                                 "source": null,
                                 "lang": null,
-                                "other_attributes": {}
+                                "other_attributes": {},
+                                "content": [
+                                    "\n\t                invalid schema, facet is repeated violating clause 1 of \n\t                Simple Type Definition Representation OK\n\t            "
+                                ]
                             }
                         ],
                         "other_attributes": {}
@@ -6218,7 +6218,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Facet must not appear more than once",
@@ -6233,10 +6236,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -6255,12 +6255,12 @@
                     {
                         "appinfo_or_documentation": [
                             {
-                                "any_element": [
-                                    "\n\t                invalid schema, facet is repeated violating clause 1 of \n\t                Simple Type Definition Representation OK\n\t            "
-                                ],
                                 "source": null,
                                 "lang": null,
-                                "other_attributes": {}
+                                "other_attributes": {},
+                                "content": [
+                                    "\n\t                invalid schema, facet is repeated violating clause 1 of \n\t                Simple Type Definition Representation OK\n\t            "
+                                ]
                             }
                         ],
                         "other_attributes": {}
@@ -6303,7 +6303,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Facet must not appear more than once",
@@ -6318,10 +6321,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -6340,12 +6340,12 @@
                     {
                         "appinfo_or_documentation": [
                             {
-                                "any_element": [
-                                    "\n\t                invalid schema, facet is repeated violating clause 1 of \n\t                Simple Type Definition Representation OK\n\t            "
-                                ],
                                 "source": null,
                                 "lang": null,
-                                "other_attributes": {}
+                                "other_attributes": {},
+                                "content": [
+                                    "\n\t                invalid schema, facet is repeated violating clause 1 of \n\t                Simple Type Definition Representation OK\n\t            "
+                                ]
                             }
                         ],
                         "other_attributes": {}
@@ -6388,7 +6388,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Facet must not appear more than once",
@@ -6403,10 +6406,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -6425,12 +6425,12 @@
                     {
                         "appinfo_or_documentation": [
                             {
-                                "any_element": [
-                                    "\n\t                invalid schema, facet is repeated violating clause 1 of \n\t                Simple Type Definition Representation OK\n\t            "
-                                ],
                                 "source": null,
                                 "lang": null,
-                                "other_attributes": {}
+                                "other_attributes": {},
+                                "content": [
+                                    "\n\t                invalid schema, facet is repeated violating clause 1 of \n\t                Simple Type Definition Representation OK\n\t            "
+                                ]
                             }
                         ],
                         "other_attributes": {}
@@ -6473,7 +6473,10 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Union derived by restriction with a pattern facet",
@@ -6488,10 +6491,7 @@
                                     "children": [],
                                     "attributes": {}
                                 }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -6510,12 +6510,12 @@
                     {
                         "appinfo_or_documentation": [
                             {
-                                "any_element": [
-                                    "\n\t                schema is valid\n\t            "
-                                ],
                                 "source": null,
                                 "lang": null,
-                                "other_attributes": {}
+                                "other_attributes": {},
+                                "content": [
+                                    "\n\t                schema is valid\n\t            "
+                                ]
                             }
                         ],
                         "other_attributes": {}
@@ -6554,12 +6554,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid; pattern matches the input after whitespace normalization\n\t\t            "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n\t\t                Valid; pattern matches the input after whitespace normalization\n\t\t            "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}

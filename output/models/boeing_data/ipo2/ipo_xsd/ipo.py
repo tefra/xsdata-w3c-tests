@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from decimal import Decimal
 from enum import Enum
-from typing import List, Optional
+from typing import List, Optional, Type
 from xsdata.models.datatype import XmlDate
 from output.models.boeing_data.ipo2.ipo_xsd.address import AddressType
 
@@ -55,13 +55,13 @@ class ItemsType:
             "type": "Wildcard",
             "namespace": "##any",
             "mixed": True,
-        }
-    )
-    item: List["ItemsType.Item"] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "namespace": "",
+            "choices": (
+                {
+                    "name": "item",
+                    "type": Type["ItemsType.Item"],
+                    "namespace": "",
+                },
+            ),
         }
     )
 

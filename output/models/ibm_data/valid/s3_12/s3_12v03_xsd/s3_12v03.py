@@ -9,18 +9,18 @@ class TitleType:
     class Meta:
         name = "titleType"
 
+    type: Optional[object] = field(
+        default=None,
+        metadata={
+            "type": "Attribute",
+        }
+    )
     content: List[object] = field(
         default_factory=list,
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
             "mixed": True,
-        }
-    )
-    type: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Attribute",
         }
     )
 
@@ -43,34 +43,34 @@ class Root:
 
     @dataclass
     class TypeText:
+        type: Optional[str] = field(
+            default=None,
+            metadata={
+                "type": "Attribute",
+            }
+        )
         content: List[object] = field(
             default_factory=list,
             metadata={
                 "type": "Wildcard",
                 "namespace": "##any",
                 "mixed": True,
-            }
-        )
-        type: Optional[str] = field(
-            default=None,
-            metadata={
-                "type": "Attribute",
             }
         )
 
     @dataclass
     class TypeNumber:
+        type: Optional[str] = field(
+            default=None,
+            metadata={
+                "type": "Attribute",
+            }
+        )
         content: List[object] = field(
             default_factory=list,
             metadata={
                 "type": "Wildcard",
                 "namespace": "##any",
                 "mixed": True,
-            }
-        )
-        type: Optional[str] = field(
-            default=None,
-            metadata={
-                "type": "Attribute",
             }
         )

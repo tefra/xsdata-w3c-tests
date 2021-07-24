@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import List
 from output.models.saxon_data.open.open041_xsd.open041x import Beta
 
 
@@ -20,21 +20,17 @@ class Doc:
             "type": "Wildcard",
             "namespace": "##any",
             "mixed": True,
-        }
-    )
-    a: Optional[Alpha] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-            "required": True,
-        }
-    )
-    b: Optional[Beta] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-            "required": True,
+            "choices": (
+                {
+                    "name": "a",
+                    "type": Alpha,
+                    "namespace": "",
+                },
+                {
+                    "name": "b",
+                    "type": Beta,
+                    "namespace": "",
+                },
+            ),
         }
     )

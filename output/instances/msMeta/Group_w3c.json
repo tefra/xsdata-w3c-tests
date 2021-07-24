@@ -6,12 +6,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : Test id: group with an id"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : Test id: group with an id"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -64,12 +64,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : Test id: group without an id"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : Test id: group without an id"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -122,12 +122,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : Test id: two global groups with same id"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : Test id: two global groups with same id"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -180,12 +180,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : Test id: two groups with same id, one from global, one inside a complexType"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : Test id: two groups with same id, one from global, one inside a complexType"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -238,12 +238,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : Test id: two groups with same id, one from complexType, one inside choice"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : Test id: two groups with same id, one from complexType, one inside choice"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -296,12 +296,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : Test id: two groups with same id, one from restriction and one from redefine"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : Test id: two groups with same id, one from restriction and one from redefine"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -354,12 +354,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : Test id: two groups with same id, one from choice and one from imported"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : Test id: two groups with same id, one from choice and one from imported"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -412,12 +412,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : Test id: two groups with same id, one from imported xsd and the other from included xsd"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : Test id: two groups with same id, one from imported xsd and the other from included xsd"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -470,12 +470,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : Test id:, id=''"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : Test id:, id=''"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -528,12 +528,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : Test id:, id='1'"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : Test id:, id='1'"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -586,12 +586,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : Test id:, id='xmlns'"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : Test id:, id='xmlns'"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -644,12 +644,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : Test id:, id='a:b'"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : Test id:, id='a:b'"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -702,12 +702,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : Test ref: (ref is not allowed on top level), parent is schema, ref='global group'"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : Test ref: (ref is not allowed on top level), parent is schema, ref='global group'"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -760,12 +760,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : Test ref:, parent is extension, ref='global group'"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : Test ref:, parent is extension, ref='global group'"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -846,12 +846,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : Test ref:, parent is restriction, ref='global group'"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : Test ref:, parent is restriction, ref='global group'"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -932,12 +932,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : Test ref:, parent is sequence, ref='global group'"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : Test ref:, parent is sequence, ref='global group'"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1018,12 +1018,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : Test ref:, parent is choice, ref='global group'"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : Test ref:, parent is choice, ref='global group'"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1104,12 +1104,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : Test ref:, parent is complexType, ref='global group'"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : Test ref:, parent is complexType, ref='global group'"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1190,12 +1190,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : Test ref: (ref is not allowed on top level), parent is redefine, ref='global group'"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : Test ref: (ref is not allowed on top level), parent is redefine, ref='global group'"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1248,12 +1248,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : Test ref:, parent is extension, ref='global attributeGroup'"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : Test ref:, parent is extension, ref='global attributeGroup'"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1306,12 +1306,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : Test ref:, parent is extension, ref='global group from imported xsd\""
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : Test ref:, parent is extension, ref='global group from imported xsd\""
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1392,12 +1392,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : Test ref:, parent is extension, ref='global group from included xsd\""
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : Test ref:, parent is extension, ref='global group from included xsd\""
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1478,12 +1478,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : Test ref:, parent is extension, ref='global complexType'"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : Test ref:, parent is extension, ref='global complexType'"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1536,12 +1536,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : Test ref: circular ref is not allowed out side of redefine, parent is sequence, ref='the root parent group's name'"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : Test ref: circular ref is not allowed out side of redefine, parent is sequence, ref='the root parent group's name'"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1594,12 +1594,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : Test ref: circular ref is not allowed out side of redefine, parent is choice, ref='the root parent group's name'"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : Test ref: circular ref is not allowed out side of redefine, parent is choice, ref='the root parent group's name'"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1652,12 +1652,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : Test ref: circular ref is not allowed out side of redefine, parent is extension, ref='the root parent group's name'"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : Test ref: circular ref is not allowed out side of redefine, parent is extension, ref='the root parent group's name'"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1710,12 +1710,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : Test ref: circular ref is not allowed out side of redefine, parent is restriction, ref='the root parent group's name'"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : Test ref: circular ref is not allowed out side of redefine, parent is restriction, ref='the root parent group's name'"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1768,12 +1768,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : Test ref: circular ref is not allowed out side of redefine, parent is restriction, reference a global group 'A', which has a choice that reference another globle group 'B', which as a sequence that reference 'A'"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : Test ref: circular ref is not allowed out side of redefine, parent is restriction, reference a global group 'A', which has a choice that reference another globle group 'B', which as a sequence that reference 'A'"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1826,12 +1826,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : Test ref: reference a global group to restrict another complex type (a,b) to (a), parent is restriction"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : Test ref: reference a global group to restrict another complex type (a,b) to (a), parent is restriction"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1884,12 +1884,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : Test that circular reference is allowed in redefines"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : Test that circular reference is allowed in redefines"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1942,12 +1942,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : Test name: two global groups with same name"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : Test name: two global groups with same name"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -2000,12 +2000,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : Test name: group without an name"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : Test name: group without an name"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -2058,12 +2058,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : Test name: two groups with same name, one from global one from redefine"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : Test name: two groups with same name, one from global one from redefine"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -2116,12 +2116,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : Test name: name attribute is only allowed in toplevel, parent is extension"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : Test name: name attribute is only allowed in toplevel, parent is extension"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -2174,12 +2174,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : Test name: name attribute is only allowed in toplevel, parent is restriction"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : Test name: name attribute is only allowed in toplevel, parent is restriction"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -2232,12 +2232,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : Test name: name attribute is only allowed in toplevel, parent is sequence"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : Test name: name attribute is only allowed in toplevel, parent is sequence"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -2290,12 +2290,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : Test name: name attribute is only allowed in toplevel, parent is choice"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : Test name: name attribute is only allowed in toplevel, parent is choice"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -2348,12 +2348,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : Test name: name attribute is only allowed in toplevel, parent is complexType"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : Test name: name attribute is only allowed in toplevel, parent is complexType"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -2406,12 +2406,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : Test name:, name=''"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : Test name:, name=''"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -2464,12 +2464,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : Test name:, name='1'"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : Test name:, name='1'"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -2522,12 +2522,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : Test name:, name='xmlns'"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : Test name:, name='xmlns'"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -2580,12 +2580,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : Test name:, name='a:b'"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : Test name:, name='a:b'"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -2638,12 +2638,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : Test particles: parent is schema can't have minOccurs, minOccurs=1"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : Test particles: parent is schema can't have minOccurs, minOccurs=1"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -2696,12 +2696,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : Test particles: parent is redefine can't have minOccurs, minOccurs=1"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : Test particles: parent is redefine can't have minOccurs, minOccurs=1"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -2754,12 +2754,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : Test particles: parent is schema can't have maxOccurs, maxOccurs=1"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : Test particles: parent is schema can't have maxOccurs, maxOccurs=1"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -2812,12 +2812,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : Test particles: parent is redefine can't have maxOccurs, maxOccurs=1"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : Test particles: parent is redefine can't have maxOccurs, maxOccurs=1"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -2870,12 +2870,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is extension: check that maxOccurs default is 1, minOccurs=2, maxOccurs=absent"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is extension: check that maxOccurs default is 1, minOccurs=2, maxOccurs=absent"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -2928,12 +2928,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is extension: check that minOccurs default is 1, elements in instant XML = 0, minOccurs=absent, maxOccurs=absent"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is extension: check that minOccurs default is 1, elements in instant XML = 0, minOccurs=absent, maxOccurs=absent"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -3014,12 +3014,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is extension: check that minOccurs default is 1, elements in instant XML = 1, minOccurs=absent, maxOccurs=absent"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is extension: check that minOccurs default is 1, elements in instant XML = 1, minOccurs=absent, maxOccurs=absent"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -3100,12 +3100,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is extension: check that maxOccurs default is 1, elements in instant XML = 2, minOccurs=absent, maxOccurs=absent"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is extension: check that maxOccurs default is 1, elements in instant XML = 2, minOccurs=absent, maxOccurs=absent"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -3186,12 +3186,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=0, minOccurs=0, maxOccurs=absent"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=0, minOccurs=0, maxOccurs=absent"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -3272,12 +3272,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=1, minOccurs=0, maxOccurs=absent"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=1, minOccurs=0, maxOccurs=absent"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -3358,12 +3358,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=2, minOccurs=0, maxOccurs=absent"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=2, minOccurs=0, maxOccurs=absent"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -3444,12 +3444,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=0, minOccurs=0, maxOccurs=1"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=0, minOccurs=0, maxOccurs=1"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -3530,12 +3530,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=1, minOccurs=0, maxOccurs=1"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=1, minOccurs=0, maxOccurs=1"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -3616,12 +3616,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=2, minOccurs=0, maxOccurs=1"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=2, minOccurs=0, maxOccurs=1"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -3702,12 +3702,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=0, minOccurs=0, maxOccurs=0"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=0, minOccurs=0, maxOccurs=0"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -3788,12 +3788,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=1, minOccurs=0, maxOccurs=0"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=1, minOccurs=0, maxOccurs=0"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -3874,12 +3874,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=0, minOccurs=0, maxOccurs=999999999999999999999"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=0, minOccurs=0, maxOccurs=999999999999999999999"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -3960,12 +3960,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=0, minOccurs=1, maxOccurs=absent"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=0, minOccurs=1, maxOccurs=absent"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -4046,12 +4046,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=1, minOccurs=1, maxOccurs=absent"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=1, minOccurs=1, maxOccurs=absent"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -4132,12 +4132,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=2, minOccurs=1, maxOccurs=absent"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=2, minOccurs=1, maxOccurs=absent"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -4218,12 +4218,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=0, minOccurs=1, maxOccurs=1"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=0, minOccurs=1, maxOccurs=1"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -4304,12 +4304,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=1, minOccurs=1, maxOccurs=1"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=1, minOccurs=1, maxOccurs=1"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -4390,12 +4390,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=2, minOccurs=1, maxOccurs=1"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=2, minOccurs=1, maxOccurs=1"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -4476,12 +4476,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=0, minOccurs=1, maxOccurs=2"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=0, minOccurs=1, maxOccurs=2"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -4562,12 +4562,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=1, minOccurs=1, maxOccurs=2"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=1, minOccurs=1, maxOccurs=2"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -4648,12 +4648,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=2, minOccurs=1, maxOccurs=2"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=2, minOccurs=1, maxOccurs=2"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -4734,12 +4734,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=3, minOccurs=1, maxOccurs=2"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=3, minOccurs=1, maxOccurs=2"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -4820,12 +4820,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is extension: unbounded is not allowed as minOccurs, minOccurs=unbounded"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is extension: unbounded is not allowed as minOccurs, minOccurs=unbounded"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -4878,12 +4878,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=3, maxOccurs=unbounded"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=3, maxOccurs=unbounded"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -4964,12 +4964,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is extension: minOccurs=2, maxOccurs=1"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is extension: minOccurs=2, maxOccurs=1"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -5022,12 +5022,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is extension: minOccurs=1, maxOccurs=0"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is extension: minOccurs=1, maxOccurs=0"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -5080,12 +5080,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is extension: minOccurs=-1"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is extension: minOccurs=-1"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -5138,12 +5138,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is extension: maxOccurs=-1"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is extension: maxOccurs=-1"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -5196,12 +5196,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is restriction: check that maxOccurs default is 1, minOccurs=2, maxOccurs=absent"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is restriction: check that maxOccurs default is 1, minOccurs=2, maxOccurs=absent"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -5254,12 +5254,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is restriction: check that minOccurs default is 1, elements in instant XML = 0, minOccurs=absent, maxOccurs=absent"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is restriction: check that minOccurs default is 1, elements in instant XML = 0, minOccurs=absent, maxOccurs=absent"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -5340,12 +5340,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is restriction: check that minOccurs default is 1, elements in instant XML = 1, minOccurs=absent, maxOccurs=absent"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is restriction: check that minOccurs default is 1, elements in instant XML = 1, minOccurs=absent, maxOccurs=absent"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -5426,12 +5426,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is restriction: check that maxOccurs default is 1, elements in instant XML = 2, minOccurs=absent, maxOccurs=absent"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is restriction: check that maxOccurs default is 1, elements in instant XML = 2, minOccurs=absent, maxOccurs=absent"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -5512,12 +5512,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=0, minOccurs=0, maxOccurs=absent"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=0, minOccurs=0, maxOccurs=absent"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -5598,12 +5598,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=1, minOccurs=0, maxOccurs=absent"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=1, minOccurs=0, maxOccurs=absent"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -5684,12 +5684,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=2, minOccurs=0, maxOccurs=absent"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=2, minOccurs=0, maxOccurs=absent"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -5770,12 +5770,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=0, minOccurs=0, maxOccurs=1"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=0, minOccurs=0, maxOccurs=1"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -5856,12 +5856,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=1, minOccurs=0, maxOccurs=1"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=1, minOccurs=0, maxOccurs=1"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -5942,12 +5942,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=2, minOccurs=0, maxOccurs=1"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=2, minOccurs=0, maxOccurs=1"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -6028,12 +6028,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=0, minOccurs=0, maxOccurs=0"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=0, minOccurs=0, maxOccurs=0"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -6086,12 +6086,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=1, minOccurs=0, maxOccurs=0"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=1, minOccurs=0, maxOccurs=0"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -6172,12 +6172,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=0, minOccurs=0, maxOccurs=999999999999999"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=0, minOccurs=0, maxOccurs=999999999999999"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -6258,12 +6258,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=0, minOccurs=1, maxOccurs=absent"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=0, minOccurs=1, maxOccurs=absent"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -6344,12 +6344,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=1, minOccurs=1, maxOccurs=absent"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=1, minOccurs=1, maxOccurs=absent"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -6430,12 +6430,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=2, minOccurs=1, maxOccurs=absent"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=2, minOccurs=1, maxOccurs=absent"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -6516,12 +6516,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=0, minOccurs=1, maxOccurs=1"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=0, minOccurs=1, maxOccurs=1"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -6602,12 +6602,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=1, minOccurs=1, maxOccurs=1"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=1, minOccurs=1, maxOccurs=1"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -6688,12 +6688,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=2, minOccurs=1, maxOccurs=1"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=2, minOccurs=1, maxOccurs=1"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -6774,12 +6774,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=0, minOccurs=1, maxOccurs=2"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=0, minOccurs=1, maxOccurs=2"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -6860,12 +6860,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=1, minOccurs=1, maxOccurs=2"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=1, minOccurs=1, maxOccurs=2"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -6946,12 +6946,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=2, minOccurs=1, maxOccurs=2"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=2, minOccurs=1, maxOccurs=2"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -7032,12 +7032,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=3, minOccurs=1, maxOccurs=2"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=3, minOccurs=1, maxOccurs=2"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -7118,12 +7118,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is restriction: unbounded is not allowed as minOccurs, minOccurs=unbounded"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is restriction: unbounded is not allowed as minOccurs, minOccurs=unbounded"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -7176,20 +7176,20 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=3, maxOccurs=unbounded"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=3, maxOccurs=unbounded"
+                            ]
                         },
                         {
-                            "any_element": [
-                                "Invalid restriction, which becomes valid with XSD 1.1 - MHK"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Invalid restriction, which becomes valid with XSD 1.1 - MHK"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -7257,12 +7257,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is restriction: minOccurs=2, maxOccurs=1"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is restriction: minOccurs=2, maxOccurs=1"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -7315,12 +7315,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is restriction: minOccurs=1, maxOccurs=0"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is restriction: minOccurs=1, maxOccurs=0"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -7373,12 +7373,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is restriction: minOccurs=-1"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is restriction: minOccurs=-1"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -7431,12 +7431,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is restriction: maxOccurs=-1"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is restriction: maxOccurs=-1"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -7489,12 +7489,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is sequence: check that maxOccurs default is 1, minOccurs=2, maxOccurs=absent"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is sequence: check that maxOccurs default is 1, minOccurs=2, maxOccurs=absent"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -7547,12 +7547,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is sequence: check that minOccurs default is 1, elements in instant XML = 0, minOccurs=absent, maxOccurs=absent"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is sequence: check that minOccurs default is 1, elements in instant XML = 0, minOccurs=absent, maxOccurs=absent"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -7633,12 +7633,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is sequence: check that minOccurs default is 1, elements in instant XML = 1, minOccurs=absent, maxOccurs=absent"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is sequence: check that minOccurs default is 1, elements in instant XML = 1, minOccurs=absent, maxOccurs=absent"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -7719,12 +7719,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is sequence: check that maxOccurs default is 1, elements in instant XML = 2, minOccurs=absent, maxOccurs=absent"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is sequence: check that maxOccurs default is 1, elements in instant XML = 2, minOccurs=absent, maxOccurs=absent"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -7805,12 +7805,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=0, minOccurs=0, maxOccurs=absent"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=0, minOccurs=0, maxOccurs=absent"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -7891,12 +7891,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=1, minOccurs=0, maxOccurs=absent"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=1, minOccurs=0, maxOccurs=absent"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -7977,12 +7977,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=2, minOccurs=0, maxOccurs=absent"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=2, minOccurs=0, maxOccurs=absent"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -8063,12 +8063,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=0, minOccurs=0, maxOccurs=1"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=0, minOccurs=0, maxOccurs=1"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -8149,12 +8149,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=1, minOccurs=0, maxOccurs=1"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=1, minOccurs=0, maxOccurs=1"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -8235,12 +8235,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=2, minOccurs=0, maxOccurs=1"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=2, minOccurs=0, maxOccurs=1"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -8321,12 +8321,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=0, minOccurs=0, maxOccurs=0"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=0, minOccurs=0, maxOccurs=0"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -8407,12 +8407,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=1, minOccurs=0, maxOccurs=0"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=1, minOccurs=0, maxOccurs=0"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -8493,12 +8493,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=0, minOccurs=0, maxOccurs=99999999999"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=0, minOccurs=0, maxOccurs=99999999999"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -8579,12 +8579,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=0, minOccurs=1, maxOccurs=absent"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=0, minOccurs=1, maxOccurs=absent"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -8665,12 +8665,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=1, minOccurs=1, maxOccurs=absent"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=1, minOccurs=1, maxOccurs=absent"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -8751,12 +8751,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=2, minOccurs=1, maxOccurs=absent"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=2, minOccurs=1, maxOccurs=absent"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -8837,12 +8837,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=0, minOccurs=1, maxOccurs=1"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=0, minOccurs=1, maxOccurs=1"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -8923,12 +8923,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=1, minOccurs=1, maxOccurs=1"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=1, minOccurs=1, maxOccurs=1"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -9009,12 +9009,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=2, minOccurs=1, maxOccurs=1"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=2, minOccurs=1, maxOccurs=1"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -9095,12 +9095,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=0, minOccurs=1, maxOccurs=2"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=0, minOccurs=1, maxOccurs=2"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -9181,12 +9181,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=1, minOccurs=1, maxOccurs=2"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=1, minOccurs=1, maxOccurs=2"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -9267,12 +9267,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=2, minOccurs=1, maxOccurs=2"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=2, minOccurs=1, maxOccurs=2"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -9353,12 +9353,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=3, minOccurs=1, maxOccurs=2"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=3, minOccurs=1, maxOccurs=2"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -9439,12 +9439,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is sequence: unbounded is not allowed as minOccurs, minOccurs=unbounded"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is sequence: unbounded is not allowed as minOccurs, minOccurs=unbounded"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -9497,12 +9497,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=3, maxOccurs=unbounded"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=3, maxOccurs=unbounded"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -9583,12 +9583,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is sequence: minOccurs=2, maxOccurs=1"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is sequence: minOccurs=2, maxOccurs=1"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -9641,12 +9641,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is sequence: minOccurs=1, maxOccurs=0"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is sequence: minOccurs=1, maxOccurs=0"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -9699,12 +9699,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is sequence: minOccurs=-1"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is sequence: minOccurs=-1"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -9757,12 +9757,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is sequence: maxOccurs=-1"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is sequence: maxOccurs=-1"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -9815,12 +9815,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is choice: check that maxOccurs default is 1, minOccurs=2, maxOccurs=absent"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is choice: check that maxOccurs default is 1, minOccurs=2, maxOccurs=absent"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -9873,12 +9873,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is choice: check that minOccurs default is 1, elements in instant XML = 0, minOccurs=absent, maxOccurs=absent"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is choice: check that minOccurs default is 1, elements in instant XML = 0, minOccurs=absent, maxOccurs=absent"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -9959,12 +9959,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is choice: check that minOccurs default is 1, elements in instant XML = 1, minOccurs=absent, maxOccurs=absent"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is choice: check that minOccurs default is 1, elements in instant XML = 1, minOccurs=absent, maxOccurs=absent"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -10045,12 +10045,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is choice: check that maxOccurs default is 1, elements in instant XML = 2, minOccurs=absent, maxOccurs=absent"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is choice: check that maxOccurs default is 1, elements in instant XML = 2, minOccurs=absent, maxOccurs=absent"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -10131,12 +10131,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=0, minOccurs=0, maxOccurs=absent"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=0, minOccurs=0, maxOccurs=absent"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -10217,12 +10217,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=1, minOccurs=0, maxOccurs=absent"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=1, minOccurs=0, maxOccurs=absent"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -10303,12 +10303,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=2, minOccurs=0, maxOccurs=absent"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=2, minOccurs=0, maxOccurs=absent"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -10389,12 +10389,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=0, minOccurs=0, maxOccurs=1"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=0, minOccurs=0, maxOccurs=1"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -10475,12 +10475,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=1, minOccurs=0, maxOccurs=1"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=1, minOccurs=0, maxOccurs=1"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -10561,12 +10561,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=2, minOccurs=0, maxOccurs=1"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=2, minOccurs=0, maxOccurs=1"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -10647,12 +10647,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=0, minOccurs=0, maxOccurs=0"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=0, minOccurs=0, maxOccurs=0"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -10733,12 +10733,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=1, minOccurs=0, maxOccurs=0"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=1, minOccurs=0, maxOccurs=0"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -10819,12 +10819,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=0, minOccurs=0, maxOccurs=999999999"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=0, minOccurs=0, maxOccurs=999999999"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -10905,12 +10905,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=0, minOccurs=1, maxOccurs=absent"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=0, minOccurs=1, maxOccurs=absent"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -10991,12 +10991,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=1, minOccurs=1, maxOccurs=absent"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=1, minOccurs=1, maxOccurs=absent"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -11077,12 +11077,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=2, minOccurs=1, maxOccurs=absent"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=2, minOccurs=1, maxOccurs=absent"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -11163,12 +11163,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=0, minOccurs=1, maxOccurs=1"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=0, minOccurs=1, maxOccurs=1"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -11249,12 +11249,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=1, minOccurs=1, maxOccurs=1"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=1, minOccurs=1, maxOccurs=1"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -11335,12 +11335,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=2, minOccurs=1, maxOccurs=1"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=2, minOccurs=1, maxOccurs=1"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -11421,12 +11421,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=0, minOccurs=1, maxOccurs=2"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=0, minOccurs=1, maxOccurs=2"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -11507,12 +11507,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=1, minOccurs=1, maxOccurs=2"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=1, minOccurs=1, maxOccurs=2"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -11593,12 +11593,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=2, minOccurs=1, maxOccurs=2"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=2, minOccurs=1, maxOccurs=2"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -11679,12 +11679,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=3, minOccurs=1, maxOccurs=2"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=3, minOccurs=1, maxOccurs=2"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -11765,12 +11765,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is choice: unbounded is not allowed as minOccurs, minOccurs=unbounded"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is choice: unbounded is not allowed as minOccurs, minOccurs=unbounded"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -11823,12 +11823,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=3, maxOccurs=unbounded"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=3, maxOccurs=unbounded"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -11909,12 +11909,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is choice: minOccurs=2, maxOccurs=1"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is choice: minOccurs=2, maxOccurs=1"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -11967,12 +11967,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is choice: minOccurs=1, maxOccurs=0"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is choice: minOccurs=1, maxOccurs=0"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -12025,12 +12025,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is choice: minOccurs=-1"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is choice: minOccurs=-1"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -12083,12 +12083,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is choice: maxOccurs=-1"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is choice: maxOccurs=-1"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -12141,12 +12141,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is complexType: check that maxOccurs default is 1, minOccurs=2, maxOccurs=absent"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is complexType: check that maxOccurs default is 1, minOccurs=2, maxOccurs=absent"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -12199,12 +12199,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is complexType: check that minOccurs default is 1, elements in instant XML = 0, minOccurs=absent, maxOccurs=absent"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is complexType: check that minOccurs default is 1, elements in instant XML = 0, minOccurs=absent, maxOccurs=absent"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -12285,12 +12285,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is complexType: check that minOccurs default is 1, elements in instant XML = 1, minOccurs=absent, maxOccurs=absent"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is complexType: check that minOccurs default is 1, elements in instant XML = 1, minOccurs=absent, maxOccurs=absent"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -12371,12 +12371,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is complexType: check that maxOccurs default is 1, elements in instant XML = 2, minOccurs=absent, maxOccurs=absent"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is complexType: check that maxOccurs default is 1, elements in instant XML = 2, minOccurs=absent, maxOccurs=absent"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -12457,12 +12457,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=0, minOccurs=0, maxOccurs=absent"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=0, minOccurs=0, maxOccurs=absent"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -12543,12 +12543,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=1, minOccurs=0, maxOccurs=absent"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=1, minOccurs=0, maxOccurs=absent"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -12629,12 +12629,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=2, minOccurs=0, maxOccurs=absent"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=2, minOccurs=0, maxOccurs=absent"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -12715,12 +12715,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=0, minOccurs=0, maxOccurs=1"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=0, minOccurs=0, maxOccurs=1"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -12801,12 +12801,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=1, minOccurs=0, maxOccurs=1"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=1, minOccurs=0, maxOccurs=1"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -12887,12 +12887,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=2, minOccurs=0, maxOccurs=1"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=2, minOccurs=0, maxOccurs=1"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -12973,12 +12973,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=0, minOccurs=0, maxOccurs=0"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=0, minOccurs=0, maxOccurs=0"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -13059,12 +13059,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=1, minOccurs=0, maxOccurs=0"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=1, minOccurs=0, maxOccurs=0"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -13145,12 +13145,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=0, minOccurs=0, maxOccurs=999999999"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=0, minOccurs=0, maxOccurs=999999999"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -13231,12 +13231,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=0, minOccurs=1, maxOccurs=absent"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=0, minOccurs=1, maxOccurs=absent"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -13317,12 +13317,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=1, minOccurs=1, maxOccurs=absent"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=1, minOccurs=1, maxOccurs=absent"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -13403,12 +13403,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=2, minOccurs=1, maxOccurs=absent"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=2, minOccurs=1, maxOccurs=absent"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -13489,12 +13489,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=0, minOccurs=1, maxOccurs=1"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=0, minOccurs=1, maxOccurs=1"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -13575,12 +13575,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=1, minOccurs=1, maxOccurs=1"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=1, minOccurs=1, maxOccurs=1"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -13661,12 +13661,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=2, minOccurs=1, maxOccurs=1"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=2, minOccurs=1, maxOccurs=1"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -13747,12 +13747,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=0, minOccurs=1, maxOccurs=2"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=0, minOccurs=1, maxOccurs=2"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -13833,12 +13833,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=1, minOccurs=1, maxOccurs=2"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=1, minOccurs=1, maxOccurs=2"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -13919,12 +13919,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=2, minOccurs=1, maxOccurs=2"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=2, minOccurs=1, maxOccurs=2"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -14005,12 +14005,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=3, minOccurs=1, maxOccurs=2"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=3, minOccurs=1, maxOccurs=2"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -14091,12 +14091,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is complexType: unbounded is not allowed as minOccurs, minOccurs=unbounded"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is complexType: unbounded is not allowed as minOccurs, minOccurs=unbounded"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -14149,12 +14149,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=3, maxOccurs=unbounded"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=3, maxOccurs=unbounded"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -14235,12 +14235,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is complexType: minOccurs=2, maxOccurs=1"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is complexType: minOccurs=2, maxOccurs=1"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -14293,12 +14293,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is complexType: minOccurs=1, maxOccurs=0"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is complexType: minOccurs=1, maxOccurs=0"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -14351,12 +14351,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is complexType: minOccurs=-1"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is complexType: minOccurs=-1"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -14409,12 +14409,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : parent is complexType: maxOccurs=-1"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : parent is complexType: maxOccurs=-1"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -14467,12 +14467,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : Test content: annotation, one annotation as child node"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : Test content: annotation, one annotation as child node"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -14525,12 +14525,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : Test content: annotation, two annotation as child nodes"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : Test content: annotation, two annotation as child nodes"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -14583,12 +14583,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : Test content: annotation must be the first node if present, two children, sequence follow by annotation"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : Test content: annotation must be the first node if present, two children, sequence follow by annotation"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -14641,12 +14641,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : Test content: annotation follow by all"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : Test content: annotation follow by all"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -14727,12 +14727,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : Test content: (xml instant is invalid) annotation follow by all"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : Test content: (xml instant is invalid) annotation follow by all"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -14813,12 +14813,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : Test content: annotation follow by choice"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : Test content: annotation follow by choice"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -14899,12 +14899,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : Test content: (xml instant is invalid) annotation follow by choice"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : Test content: (xml instant is invalid) annotation follow by choice"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -14985,12 +14985,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : Test content: annotation follow by sequence"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : Test content: annotation follow by sequence"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -15071,12 +15071,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : Test content: (xml instant is invalid) annotation follow by sequence"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : Test content: (xml instant is invalid) annotation follow by sequence"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -15157,12 +15157,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : Test content: annotation follow by element"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : Test content: annotation follow by element"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -15215,12 +15215,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : Test content: annotation follow by complexType"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : Test content: annotation follow by complexType"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -15273,12 +15273,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : Test content: annotation follow by simpleType"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : Test content: annotation follow by simpleType"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -15331,12 +15331,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : Test content: annotation follow by attribute decl"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : Test content: annotation follow by attribute decl"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -15389,12 +15389,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : Test content: child node is a sequence with a child group, which has another sequence with a child group, which has another choice with a child group"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : Test content: child node is a sequence with a child group, which has another sequence with a child group, which has another choice with a child group"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -15447,12 +15447,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : Test content: only one is allow (all | choice | sequence), all follow by choice"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : Test content: only one is allow (all | choice | sequence), all follow by choice"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -15505,12 +15505,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : Test content: only one is allow (all | choice | sequence), all follow by sequence"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : Test content: only one is allow (all | choice | sequence), all follow by sequence"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -15563,12 +15563,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : Test content: only one is allow (all | choice | sequence), choice follow by sequence"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : Test content: only one is allow (all | choice | sequence), choice follow by sequence"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -15621,12 +15621,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : Test content: only one is allow (all | choice | sequence), sequence follow by all"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : Test content: only one is allow (all | choice | sequence), sequence follow by all"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -15679,12 +15679,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : Test content: only one is allow (all | choice | sequence), choice follow by all"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : Test content: only one is allow (all | choice | sequence), choice follow by all"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -15737,12 +15737,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : Test content: only one is allow (all | choice | sequence), all follow by all"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : Test content: only one is allow (all | choice | sequence), all follow by all"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -15795,12 +15795,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : Test content: only one is allow (all | choice | sequence), choice follow by choice"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : Test content: only one is allow (all | choice | sequence), choice follow by choice"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -15853,12 +15853,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : Test content: only one is allow (all | choice | sequence), sequence follow by sequence"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : Test content: only one is allow (all | choice | sequence), sequence follow by sequence"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -15911,12 +15911,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : Test parent: parent is simpleType"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : Test parent: parent is simpleType"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -15969,12 +15969,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : Test parent: parent is element"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : Test parent: parent is element"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -16027,12 +16027,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : Test parent: parent is attributeGroup"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : Test parent: parent is attributeGroup"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -16085,12 +16085,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : Test parent: parent is any"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : Test parent: parent is any"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -16143,12 +16143,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Syntax Checking (id, ref) : Test parent: parent is group"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "TEST :Syntax Checking (id, ref) : Test parent: parent is group"
+                            ]
                         }
                     ],
                     "other_attributes": {}

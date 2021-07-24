@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import List
 from xsdata.models.datatype import XmlDate
 
 __NAMESPACE__ = "contentType"
@@ -16,14 +16,13 @@ class A1:
             "type": "Wildcard",
             "namespace": "##any",
             "mixed": True,
-        }
-    )
-    date: Optional[XmlDate] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-            "required": True,
+            "choices": (
+                {
+                    "name": "date",
+                    "type": XmlDate,
+                    "namespace": "",
+                },
+            ),
         }
     )
 

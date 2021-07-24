@@ -3,14 +3,14 @@
         {
             "appinfo_or_documentation": [
                 {
-                    "any_element": [
-                        "Type alternative test cases."
-                    ],
                     "source": null,
                     "lang": null,
                     "other_attributes": {
                         "{http://www.w3.org/1999/xlink}href": "http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
-                    }
+                    },
+                    "content": [
+                        "Type alternative test cases."
+                    ]
                 }
             ],
             "other_attributes": {}
@@ -22,12 +22,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "\n            Basic type alternatives. The alternative type extends the base element's type. \n            More that one alternative type is present. One of the alternative types is the default type.  \n            "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "\n            Basic type alternatives. The alternative type extends the base element's type. \n            More that one alternative type is present. One of the alternative types is the default type.  \n            "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -116,12 +116,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "\n            Basic type alternatives. alternative element with a complexType child that is \n\t\t        derived from the base element  type and no type attribute More that one alternative \n\t\t        type is present. One of the alternative types is the default type.   \n\t\t        "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "\n            Basic type alternatives. alternative element with a complexType child that is \n\t\t        derived from the base element  type and no type attribute More that one alternative \n\t\t        type is present. One of the alternative types is the default type.   \n\t\t        "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -210,12 +210,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "\n            Basic type alternatives. \n\t\t        The alternative type extends the base element's type. \n\t\t        More that one alternative type is present. One of the alternative types is the default type.  \n\t\t        "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "\n            Basic type alternatives. \n\t\t        The alternative type extends the base element's type. \n\t\t        More that one alternative type is present. One of the alternative types is the default type.  \n\t\t        "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -304,12 +304,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "\n            Basic type alternatives.\n            For the first alternative type, the attribute whose value is to be selected by the alternative type's {test} expression is of type string.\n            The attribute value in the XML document contains a trailing space and will not normalized and selected by the alternate type. \n            For the second alternative type, the case of the attribute whose value is to be selected by the {test} expression is in a different case in the XML document.\n            In both cases, the alternative type should not be selected. \n            "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "\n            Basic type alternatives.\n            For the first alternative type, the attribute whose value is to be selected by the alternative type's {test} expression is of type string.\n            The attribute value in the XML document contains a trailing space and will not normalized and selected by the alternate type. \n            For the second alternative type, the case of the attribute whose value is to be selected by the {test} expression is in a different case in the XML document.\n            In both cases, the alternative type should not be selected. \n            "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -398,12 +398,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "\n            Basic type alternatives.\n            Selection of the alternative type is dertermined by evaluating a path And expression with a comparator operator with an attribute's value\n            "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "\n            Basic type alternatives.\n            Selection of the alternative type is dertermined by evaluating a path And expression with a comparator operator with an attribute's value\n            "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -492,12 +492,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "\n            Basic type alternatives.\n            Selection of the alternative type is dertermined by evaluating a path And and Or expressions with a comparator operator with an attribute's value  \n            "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "\n            Basic type alternatives.\n            Selection of the alternative type is dertermined by evaluating a path And and Or expressions with a comparator operator with an attribute's value  \n            "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -586,12 +586,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "\n            Basic type alternatives.\n            Selection of the alternative type is dertermined by evaluating a Constructor function on attribute values\n            "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "\n            Basic type alternatives.\n            Selection of the alternative type is dertermined by evaluating a Constructor function on attribute values\n            "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -680,12 +680,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "\n            Basic type alternatives.\n            Selection of the alternative type is dertermined by evaluating an And operation on the presence of attributes in an element  \n            "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "\n            Basic type alternatives.\n            Selection of the alternative type is dertermined by evaluating an And operation on the presence of attributes in an element  \n            "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -774,12 +774,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Basic type alternatives."
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Basic type alternatives."
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -868,12 +868,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "\n            Basic type alternatives.\n            Selection of the alternative type is dertermined by evaluating a Constructor function and a Cast Expression on attribute values\n            "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "\n            Basic type alternatives.\n            Selection of the alternative type is dertermined by evaluating a Constructor function and a Cast Expression on attribute values\n            "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -962,12 +962,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Attribute declarations can now be marked {inheritable}. "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Attribute declarations can now be marked {inheritable}. "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1056,12 +1056,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "The alternative type's value is an invalid float"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "The alternative type's value is an invalid float"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1150,12 +1150,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "The type alternative is selects an invalid element using comparator operators."
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "The type alternative is selects an invalid element using comparator operators."
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1244,12 +1244,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "The type alternative is selects an invalid element using constructor functions and comparator operators."
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "The type alternative is selects an invalid element using constructor functions and comparator operators."
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1338,12 +1338,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Basic type alternatives selecting invalid content."
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Basic type alternatives selecting invalid content."
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1432,12 +1432,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "test xs:error as conditionally assigned type"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "test xs:error as conditionally assigned type"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1526,12 +1526,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Tests an invalid XPath cast expression. The cast expression casts to a simple type defined in the schema."
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Tests an invalid XPath cast expression. The cast expression casts to a simple type defined in the schema."
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1573,12 +1573,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n                        Changed the status to \"invalid\" and removed the instance test, in response to bug #12139\n                    "
-                                    ],
                                     "source": null,
                                     "lang": null,
-                                    "other_attributes": {}
+                                    "other_attributes": {},
+                                    "content": [
+                                        "\n                        Changed the status to \"invalid\" and removed the instance test, in response to bug #12139\n                    "
+                                    ]
                                 }
                             ],
                             "other_attributes": {}
@@ -1614,12 +1614,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Tests the selection of type alternative when the element type definition"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Tests the selection of type alternative when the element type definition"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1680,12 +1680,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Tests the selection of type alternative when the element type definition is xs:anyType and alternatives not valid derivation of declared type "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Tests the selection of type alternative when the element type definition is xs:anyType and alternatives not valid derivation of declared type "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1746,12 +1746,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Alternatives not valid derivation of declared type "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Alternatives not valid derivation of declared type "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1812,12 +1812,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Tests invalid XPath expression"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Tests invalid XPath expression"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1878,12 +1878,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Tests an invalid XPath expression. The letter case in the AND expression is incorrect."
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Tests an invalid XPath expression. The letter case in the AND expression is incorrect."
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -1944,12 +1944,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Tests an invalid XPath cast expression. The QName in the cast expression is incorrect."
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Tests an invalid XPath cast expression. The QName in the cast expression is incorrect."
+                            ]
                         }
                     ],
                     "other_attributes": {}

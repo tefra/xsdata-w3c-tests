@@ -3,8 +3,7 @@
         {
             "content": [
                 "\n\t\tabcdef\n\t"
-            ],
-            "a_or_b_or_c": []
+            ]
         },
         {
             "content": [
@@ -47,8 +46,7 @@
                     },
                     "type": null
                 }
-            ],
-            "a_or_b_or_c": []
+            ]
         },
         {
             "a_or_b_or_c": [

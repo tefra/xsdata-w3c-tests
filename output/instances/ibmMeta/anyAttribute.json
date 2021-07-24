@@ -3,14 +3,14 @@
         {
             "appinfo_or_documentation": [
                 {
-                    "any_element": [
-                        "anyAttribute "
-                    ],
                     "source": null,
                     "lang": null,
                     "other_attributes": {
                         "{http://www.w3.org/1999/xlink}href": "http://www.w3.org/TR/xmlschema11-1/#coss-wildcard"
-                    }
+                    },
+                    "content": [
+                        "anyAttribute "
+                    ]
                 }
             ],
             "other_attributes": {}
@@ -22,12 +22,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Tests notQName on xs:anyAttribute"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Tests notQName on xs:anyAttribute"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -116,12 +116,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Tests namespace attribute on xs:anyAttribute"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Tests namespace attribute on xs:anyAttribute"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -210,12 +210,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Tests namespace attribute on xs:anyAttribute"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Tests namespace attribute on xs:anyAttribute"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -304,12 +304,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Tests notQName on xs:anyAttribute"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Tests notQName on xs:anyAttribute"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -396,12 +396,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Tests notQName and notNamespace list in xs:anyAttribute"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Tests notQName and notNamespace list in xs:anyAttribute"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -494,12 +494,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Tests namespace attribute on xs:anyAttribute"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Tests namespace attribute on xs:anyAttribute"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -586,12 +586,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Tests namespace attribute on xs:anyAttribute"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "Tests namespace attribute on xs:anyAttribute"
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -678,12 +678,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "namespace and notNamespace attributes are not allowed to be both present in a wildcard "
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "namespace and notNamespace attributes are not allowed to be both present in a wildcard "
+                            ]
                         }
                     ],
                     "other_attributes": {}
@@ -742,12 +742,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "The namespace of each QName in disallowed is allowed by the namespace constraint\n\t\t"
-                            ],
                             "source": null,
                             "lang": null,
-                            "other_attributes": {}
+                            "other_attributes": {},
+                            "content": [
+                                "The namespace of each QName in disallowed is allowed by the namespace constraint\n\t\t"
+                            ]
                         }
                     ],
                     "other_attributes": {}

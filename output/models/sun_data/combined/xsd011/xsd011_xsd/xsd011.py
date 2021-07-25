@@ -69,6 +69,7 @@ class Root:
                 {
                     "name": "nillable1",
                     "type": Nillable1,
+                    "nillable": True,
                 },
                 {
                     "name": "nillable2",

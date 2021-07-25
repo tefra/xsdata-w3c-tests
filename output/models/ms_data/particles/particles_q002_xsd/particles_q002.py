@@ -19,7 +19,6 @@ class B:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-            "required": True,
         }
     )
 
@@ -39,7 +38,6 @@ class R:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-            "required": True,
         }
     )
     e1: Optional[object] = field(

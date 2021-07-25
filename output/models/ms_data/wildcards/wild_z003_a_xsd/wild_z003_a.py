@@ -31,7 +31,6 @@ class Elt1:
         metadata={
             "type": "Wildcard",
             "namespace": "##other",
-            "min_occurs": 1,
             "max_occurs": 3,
         }
     )

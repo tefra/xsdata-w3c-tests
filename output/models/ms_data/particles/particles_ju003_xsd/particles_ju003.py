@@ -11,7 +11,6 @@ class B:
         metadata={
             "type": "Wildcard",
             "namespace": "##local ##targetNamespace nsFoo nsBar",
-            "min_occurs": 1,
             "max_occurs": 10,
         }
     )

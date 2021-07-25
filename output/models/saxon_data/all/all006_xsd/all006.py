@@ -69,7 +69,6 @@ class Doc:
         metadata={
             "type": "Wildcard",
             "namespace": "##targetNamespace",
-            "required": True,
         }
     )
     other_ns_element: Optional[object] = field(
@@ -77,6 +76,5 @@ class Doc:
         metadata={
             "type": "Wildcard",
             "namespace": "http://other.ns/",
-            "required": True,
         }
     )

@@ -12,7 +12,6 @@ class B:
         metadata={
             "type": "Wildcard",
             "namespace": "foo http://importedXSD bar",
-            "min_occurs": 1,
             "max_occurs": 3,
         }
     )

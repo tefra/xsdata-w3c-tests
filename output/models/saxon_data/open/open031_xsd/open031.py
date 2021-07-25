@@ -9,7 +9,6 @@ class B:
         metadata={
             "type": "Wildcard",
             "namespace": "http://open.com/",
-            "required": True,
         }
     )
     a: List[object] = field(

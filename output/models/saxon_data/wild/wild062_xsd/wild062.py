@@ -39,7 +39,6 @@ class Zing:
         metadata={
             "type": "Wildcard",
             "namespace": "##local",
-            "required": True,
         }
     )
 

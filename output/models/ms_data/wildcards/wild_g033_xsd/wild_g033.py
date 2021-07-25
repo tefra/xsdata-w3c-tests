@@ -26,6 +26,5 @@ class Foo:
         metadata={
             "type": "Wildcard",
             "namespace": "##local http://foobar",
-            "required": True,
         }
     )

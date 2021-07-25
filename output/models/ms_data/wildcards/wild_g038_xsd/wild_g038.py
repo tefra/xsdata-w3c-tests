@@ -26,6 +26,5 @@ class Foo:
         metadata={
             "type": "Wildcard",
             "namespace": "##targetNamespace http://www.w3.org/1999/xhtml",
-            "required": True,
         }
     )

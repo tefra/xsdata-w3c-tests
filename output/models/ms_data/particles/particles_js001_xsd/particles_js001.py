@@ -12,7 +12,6 @@ class B:
         metadata={
             "type": "Wildcard",
             "namespace": "##local",
-            "required": True,
         }
     )
 

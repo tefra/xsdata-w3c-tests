@@ -14,7 +14,6 @@ class CInvalid:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-            "required": True,
         }
     )
 

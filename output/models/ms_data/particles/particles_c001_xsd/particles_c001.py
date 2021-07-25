@@ -12,7 +12,6 @@ class Elem:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-            "required": True,
         }
     )
 

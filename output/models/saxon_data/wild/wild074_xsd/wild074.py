@@ -36,7 +36,6 @@ class Zing:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-            "required": True,
         }
     )
     a_element: Optional[A1] = field(

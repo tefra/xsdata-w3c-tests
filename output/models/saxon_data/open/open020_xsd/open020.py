@@ -30,7 +30,6 @@ class B:
         metadata={
             "type": "Wildcard",
             "namespace": "http://open.com/",
-            "required": True,
         }
     )
 
@@ -63,7 +62,6 @@ class R:
         metadata={
             "type": "Wildcard",
             "namespace": "http://open.com/",
-            "required": True,
         }
     )
 

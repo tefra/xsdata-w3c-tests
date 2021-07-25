@@ -19,7 +19,6 @@ class B:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-            "min_occurs": 3,
             "max_occurs": 8,
         }
     )
@@ -40,7 +39,6 @@ class R:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-            "min_occurs": 3,
             "max_occurs": 8,
         }
     )

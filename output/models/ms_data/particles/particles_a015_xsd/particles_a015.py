@@ -12,7 +12,6 @@ class Elem:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-            "min_occurs": 2,
             "max_occurs": 1000000,
         }
     )

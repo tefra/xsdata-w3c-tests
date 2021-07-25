@@ -30,6 +30,5 @@ class Out:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-            "required": True,
         }
     )

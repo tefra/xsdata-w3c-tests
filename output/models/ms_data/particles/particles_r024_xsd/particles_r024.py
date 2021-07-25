@@ -19,7 +19,6 @@ class B:
         metadata={
             "type": "Wildcard",
             "namespace": "##targetNamespace",
-            "min_occurs": 1,
             "max_occurs": 5,
         }
     )
@@ -55,7 +54,6 @@ class R:
         metadata={
             "type": "Wildcard",
             "namespace": "##targetNamespace",
-            "min_occurs": 1,
             "max_occurs": 5,
         }
     )

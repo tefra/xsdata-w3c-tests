@@ -11,7 +11,6 @@ class B:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-            "required": True,
         }
     )
     e2: List[object] = field(

@@ -34,6 +34,5 @@ class Doc:
         metadata={
             "type": "Wildcard",
             "namespace": "http://local.com/",
-            "required": True,
         }
     )

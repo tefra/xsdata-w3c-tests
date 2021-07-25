@@ -16,7 +16,6 @@ class A:
         metadata={
             "type": "Wildcard",
             "namespace": "ns_test1 ns_test2",
-            "min_occurs": 1,
             "max_occurs": 2,
         }
     )

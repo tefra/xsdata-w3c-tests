@@ -11,7 +11,6 @@ class B:
         metadata={
             "type": "Wildcard",
             "namespace": "##targetNamespace",
-            "required": True,
         }
     )
 

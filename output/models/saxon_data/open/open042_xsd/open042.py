@@ -13,7 +13,6 @@ class Beta:
         metadata={
             "type": "Wildcard",
             "namespace": "##other",
-            "required": True,
         }
     )
 

@@ -1,3 +1,5 @@
+import pytest
+
 from tests.utils import assert_bindings
 
 
@@ -10768,6 +10770,7 @@ def test_st_z057_st_z057_v(mode, save_output, output_format):
     )
 
 
+@pytest.mark.skip(reason="Invalid definition")
 def test_st_z055_st_z055_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for simpleType Declaration : Need to permit
@@ -10858,6 +10861,7 @@ def test_st_z050_st_z050_v(mode, save_output, output_format):
     )
 
 
+@pytest.mark.skip(reason="Invalid definition")
 def test_st_z047_st_z047_v(mode, save_output, output_format):
     """
     TEST :Syntax Checking for simpleType Declaration : Need to permit

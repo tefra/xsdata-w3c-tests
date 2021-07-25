@@ -1,13 +1,9 @@
 {
     "elem": {
         "foo": "",
-        "any_element": {
-            "qname": "impElem1",
-            "text": "",
-            "tail": null,
-            "children": [],
-            "attributes": {}
-        },
-        "impElem1": null
+        "any_element": null,
+        "impElem1": {
+            "any_element": null
+        }
     }
 }

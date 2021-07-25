@@ -3,23 +3,11 @@
         "foo": [
             {
                 "any_element": null
-            }
-        ],
-        "any_element": [
-            {
-                "qname": "foo",
-                "text": "",
-                "tail": null,
-                "children": [],
-                "attributes": {}
             },
             {
-                "qname": "foo",
-                "text": "",
-                "tail": null,
-                "children": [],
-                "attributes": {}
+                "any_element": null
             }
-        ]
+        ],
+        "any_element": []
     }
 }

@@ -46,7 +46,7 @@ class R:
         metadata={
             "name": "impElem1",
             "type": "Element",
-            "namespace": "http://xsdtesting",
+            "namespace": "",
         }
     )
 

@@ -117,6 +117,8 @@ def render_test_cases(test_file, cases: List[TestCase]) -> str:
 
         if case.schema_path.endswith("attgD003.xsd"):
             markers.append('@pytest.mark.skip(reason="Stack abuse")')
+        elif case.schema_path.endswith("test107331_e.xsd"):
+            markers.append('@pytest.mark.skip(reason="Invalid definition")')
         elif xfails.get(f"{test_file}::test_{name}"):
             markers.append("@pytest.mark.xfail")
 

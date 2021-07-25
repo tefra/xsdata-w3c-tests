@@ -23,7 +23,7 @@ class R(B):
         metadata={
             "name": "impElem1",
             "type": "Element",
-            "namespace": "http://xsdtesting",
+            "namespace": "",
             "required": True,
         }
     )

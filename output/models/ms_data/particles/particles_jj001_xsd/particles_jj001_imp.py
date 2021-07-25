@@ -46,7 +46,6 @@ class ImpBase:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-            "required": True,
         }
     )
     e2: Optional[object] = field(

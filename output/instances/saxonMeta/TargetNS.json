@@ -518,6 +518,72 @@
             "name": "target004",
             "version": [],
             "other_attributes": {}
+        },
+        {
+            "annotation": [
+                {
+                    "appinfo_or_documentation": [
+                        {
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {},
+                            "content": [
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    "text": "Invalid xs:import - targetNamespace does not match",
+                                    "tail": null,
+                                    "children": [],
+                                    "attributes": {}
+                                },
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    "text": "Should report an error",
+                                    "tail": null,
+                                    "children": [],
+                                    "attributes": {}
+                                }
+                            ]
+                        }
+                    ],
+                    "other_attributes": {}
+                }
+            ],
+            "documentationReference": [],
+            "schemaTest": {
+                "annotation": [],
+                "schemaDocument": [
+                    {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../saxonData/TargetNS/target007.xsd",
+                        "other_attributes": {}
+                    }
+                ],
+                "expected": [
+                    {
+                        "validity": "invalid",
+                        "version": [],
+                        "other_attributes": {}
+                    }
+                ],
+                "current": {
+                    "annotation": [],
+                    "status": "accepted",
+                    "date": "2018-10-01",
+                    "bugzilla": null,
+                    "other_attributes": {}
+                },
+                "prior": [],
+                "name": "target007.xsd",
+                "version": [],
+                "other_attributes": {}
+            },
+            "instanceTest": [],
+            "name": "target007",
+            "version": [
+                "1.1"
+            ],
+            "other_attributes": {}
         }
     ],
     "contributor": "Saxonica",

@@ -11,7 +11,6 @@ class T:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-            "required": True,
         }
     )
     s1: Optional[str] = field(

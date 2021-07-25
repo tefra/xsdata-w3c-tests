@@ -54,7 +54,6 @@ class Root:
             metadata={
                 "type": "Wildcard",
                 "namespace": "##any",
-                "min_occurs": 1,
             }
         )
 
@@ -65,7 +64,6 @@ class Root:
             metadata={
                 "type": "Wildcard",
                 "namespace": "##any",
-                "min_occurs": 1,
             }
         )
 
@@ -76,7 +74,6 @@ class Root:
             metadata={
                 "type": "Wildcard",
                 "namespace": "##any",
-                "min_occurs": 1,
             }
         )
 
@@ -87,7 +84,6 @@ class Root:
             metadata={
                 "type": "Wildcard",
                 "namespace": "##other",
-                "min_occurs": 1,
             }
         )
 
@@ -98,7 +94,6 @@ class Root:
             metadata={
                 "type": "Wildcard",
                 "namespace": "##local",
-                "min_occurs": 1,
             }
         )
 
@@ -109,7 +104,6 @@ class Root:
             metadata={
                 "type": "Wildcard",
                 "namespace": "##targetNamespace",
-                "min_occurs": 1,
             }
         )
 
@@ -120,6 +114,5 @@ class Root:
             metadata={
                 "type": "Wildcard",
                 "namespace": "bar",
-                "min_occurs": 1,
             }
         )

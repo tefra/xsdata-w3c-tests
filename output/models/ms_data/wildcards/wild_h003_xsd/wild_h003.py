@@ -30,6 +30,5 @@ class Foo:
         metadata={
             "type": "Wildcard",
             "namespace": "##targetNamespace",
-            "required": True,
         }
     )

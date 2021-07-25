@@ -12,7 +12,6 @@ class Ct1:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-            "required": True,
         }
     )
     element1: Optional[object] = field(
@@ -41,7 +40,6 @@ class Ct2:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-            "required": True,
         }
     )
 
@@ -66,7 +64,7 @@ class Ct3:
                     "namespace": "##any",
                 },
             ),
-            "min_occurs": 2,
+            "min_occurs": 1,
             "max_occurs": 3,
         }
     )
@@ -92,7 +90,7 @@ class Ct4:
                     "type": object,
                 },
             ),
-            "min_occurs": 2,
+            "min_occurs": 1,
             "max_occurs": 3,
         }
     )
@@ -115,7 +113,6 @@ class Ct5:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-            "min_occurs": 1,
             "max_occurs": 3,
         }
     )
@@ -138,7 +135,6 @@ class Ct6:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-            "min_occurs": 1,
             "max_occurs": 2,
         }
     )

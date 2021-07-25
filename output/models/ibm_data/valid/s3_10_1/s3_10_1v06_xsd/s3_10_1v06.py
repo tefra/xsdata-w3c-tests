@@ -72,7 +72,6 @@ class T:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-            "min_occurs": 1,
         }
     )
     c: Optional[int] = field(

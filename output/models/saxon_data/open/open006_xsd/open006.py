@@ -12,7 +12,6 @@ class Doc:
         metadata={
             "type": "Wildcard",
             "namespace": "http://open.com/",
-            "required": True,
         }
     )
     a: Optional[object] = field(

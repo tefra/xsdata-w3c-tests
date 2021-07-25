@@ -25,6 +25,5 @@ class Foo:
         default=None,
         metadata={
             "type": "Wildcard",
-            "required": True,
         }
     )

@@ -14,7 +14,6 @@ class C:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-            "required": True,
         }
     )
     x: Optional[int] = field(

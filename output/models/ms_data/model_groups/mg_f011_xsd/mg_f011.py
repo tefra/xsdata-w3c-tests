@@ -26,7 +26,6 @@ class Foo:
         metadata={
             "type": "Wildcard",
             "namespace": "http://www.w3.org/1999/xhtml",
-            "min_occurs": 1,
         }
     )
     c: Optional[bool] = field(

@@ -30,7 +30,6 @@ class Foo:
         metadata={
             "type": "Wildcard",
             "namespace": "##other",
-            "required": True,
         }
     )
     a_element: List[object] = field(
@@ -38,7 +37,6 @@ class Foo:
         metadata={
             "type": "Wildcard",
             "namespace": "A",
-            "min_occurs": 1,
             "max_occurs": 2,
         }
     )

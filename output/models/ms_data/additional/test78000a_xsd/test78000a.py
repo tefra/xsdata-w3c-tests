@@ -11,7 +11,6 @@ class LaxContainerType:
         metadata={
             "type": "Wildcard",
             "namespace": "##other",
-            "required": True,
         }
     )
 
@@ -23,7 +22,6 @@ class SkipContainerType:
         metadata={
             "type": "Wildcard",
             "namespace": "##other",
-            "required": True,
         }
     )
 
@@ -35,7 +33,6 @@ class StrictContainerType:
         metadata={
             "type": "Wildcard",
             "namespace": "##other",
-            "required": True,
         }
     )
 

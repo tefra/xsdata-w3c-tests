@@ -26,7 +26,6 @@ class A1:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-            "required": True,
         }
     )
 

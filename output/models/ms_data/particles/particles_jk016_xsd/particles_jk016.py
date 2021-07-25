@@ -12,7 +12,6 @@ class B:
         metadata={
             "type": "Wildcard",
             "namespace": "##other",
-            "min_occurs": 1,
             "max_occurs": 2,
         }
     )

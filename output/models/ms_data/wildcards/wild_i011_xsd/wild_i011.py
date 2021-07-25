@@ -30,7 +30,6 @@ class Foo:
         metadata={
             "type": "Wildcard",
             "namespace": "##other",
-            "required": True,
         }
     )
     a_element: Optional[object] = field(
@@ -38,6 +37,5 @@ class Foo:
         metadata={
             "type": "Wildcard",
             "namespace": "A",
-            "required": True,
         }
     )

@@ -22,7 +22,6 @@ class C:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-            "min_occurs": 1,
             "max_occurs": 3,
         }
     )

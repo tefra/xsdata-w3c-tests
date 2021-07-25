@@ -26,6 +26,5 @@ class Foo:
         metadata={
             "type": "Wildcard",
             "namespace": "A B C D E ##targetNamespace ##local",
-            "min_occurs": 1,
         }
     )

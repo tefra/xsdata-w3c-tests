@@ -12,7 +12,6 @@ class MyType:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-            "required": True,
         }
     )
     any_attributes: Dict[str, str] = field(

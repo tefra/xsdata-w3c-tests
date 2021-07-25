@@ -41,6 +41,5 @@ class Root:
         metadata={
             "type": "Wildcard",
             "namespace": "##local",
-            "required": True,
         }
     )

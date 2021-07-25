@@ -9,7 +9,6 @@ class B:
         metadata={
             "type": "Wildcard",
             "namespace": "http://www.target001.com/",
-            "required": True,
         }
     )
 

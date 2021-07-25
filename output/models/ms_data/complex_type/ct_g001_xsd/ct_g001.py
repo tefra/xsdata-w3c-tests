@@ -12,7 +12,6 @@ class MyType:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-            "required": True,
         }
     )
     my_attr: Optional[str] = field(

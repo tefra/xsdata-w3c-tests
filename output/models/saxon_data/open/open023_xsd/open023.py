@@ -31,7 +31,6 @@ class B:
         metadata={
             "type": "Wildcard",
             "namespace": "http://open.com/ http://other.com/",
-            "required": True,
         }
     )
 
@@ -65,7 +64,6 @@ class R:
         metadata={
             "type": "Wildcard",
             "namespace": "http://open.com/",
-            "required": True,
         }
     )
     open_com_other_com_element: Optional[object] = field(
@@ -73,7 +71,6 @@ class R:
         metadata={
             "type": "Wildcard",
             "namespace": "http://open.com/ http://other.com/",
-            "required": True,
         }
     )
 

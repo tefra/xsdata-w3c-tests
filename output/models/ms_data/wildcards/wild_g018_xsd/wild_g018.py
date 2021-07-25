@@ -15,6 +15,5 @@ class Foo:
         metadata={
             "type": "Wildcard",
             "namespace": "##other",
-            "required": True,
         }
     )

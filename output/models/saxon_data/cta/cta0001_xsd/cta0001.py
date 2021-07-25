@@ -101,7 +101,6 @@ class MessageTypeXml(MessageType):
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-            "required": True,
         }
     )
 

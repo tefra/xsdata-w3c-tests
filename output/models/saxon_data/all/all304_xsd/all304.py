@@ -32,7 +32,6 @@ class B:
         metadata={
             "type": "Wildcard",
             "namespace": "http://one.com/",
-            "min_occurs": 2,
             "max_occurs": 2,
         }
     )
@@ -61,7 +60,6 @@ class E(B):
         metadata={
             "type": "Wildcard",
             "namespace": "http://two.com/",
-            "min_occurs": 2,
             "max_occurs": 2,
         }
     )

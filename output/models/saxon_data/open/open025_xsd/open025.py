@@ -10,7 +10,6 @@ class T:
         metadata={
             "type": "Wildcard",
             "namespace": "##local",
-            "required": True,
         }
     )
     i: List[int] = field(

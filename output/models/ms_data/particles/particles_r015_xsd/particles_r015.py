@@ -20,7 +20,6 @@ class B:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-            "required": True,
         }
     )
 
@@ -40,7 +39,6 @@ class R:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-            "required": True,
         }
     )
     imp_elem1: Optional[ImpElem1] = field(

@@ -14,7 +14,6 @@ class B:
             "namespace": (
                 "##local foo ##targetNamespace http://importedXSD bar"
             ),
-            "min_occurs": 1,
             "max_occurs": 10,
         }
     )

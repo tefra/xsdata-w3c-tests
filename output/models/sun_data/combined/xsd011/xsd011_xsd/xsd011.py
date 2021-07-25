@@ -15,7 +15,6 @@ class Nillable1:
         default=None,
         metadata={
             "type": "Element",
-            "required": True,
         }
     )
 

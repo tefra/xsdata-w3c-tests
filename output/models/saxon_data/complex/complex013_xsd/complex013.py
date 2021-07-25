@@ -13,7 +13,6 @@ class Root:
         metadata={
             "type": "Element",
             "namespace": "",
-            "min_occurs": 1,
             "max_occurs": 2,
         }
     )

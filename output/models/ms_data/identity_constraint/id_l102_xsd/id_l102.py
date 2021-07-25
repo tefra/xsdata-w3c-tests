@@ -69,10 +69,12 @@ class Root:
                 {
                     "name": "t",
                     "type": T,
+                    "nillable": True,
                 },
                 {
                     "name": "u",
                     "type": U,
+                    "nillable": True,
                 },
             ),
         }

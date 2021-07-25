@@ -41,6 +41,6 @@ class Root:
         default=None,
         metadata={
             "type": "Element",
-            "required": True,
+            "nillable": True,
         }
     )

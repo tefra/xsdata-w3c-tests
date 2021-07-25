@@ -1,4 +1,13 @@
 {
-    "e1": null,
-    "e": null
+    "e_or_e1": [
+        {
+            "any_element": {
+                "qname": null,
+                "text": "Test case for substitution groups.",
+                "tail": null,
+                "children": [],
+                "attributes": {}
+            }
+        }
+    ]
 }

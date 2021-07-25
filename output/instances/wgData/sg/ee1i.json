@@ -1,4 +1,16 @@
 {
-    "e1": null,
-    "e": "Test of substitution groups."
+    "e": "Test of substitution groups.",
+    "e1": [
+        {
+            "any_element": {
+                "qname": null,
+                "text": "41",
+                "tail": null,
+                "children": [],
+                "attributes": {
+                    "{http://www.w3.org/2001/XMLSchema-instance}type": "{http://www.w3.org/2001/XMLSchema}short"
+                }
+            }
+        }
+    ]
 }

@@ -32,6 +32,7 @@ class T:
         metadata={
             "type": "Element",
             "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
+            "required": True,
         }
     )
 

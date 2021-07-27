@@ -62,5 +62,6 @@ class Root:
         metadata={
             "name": "simpleTest",
             "type": "Element",
+            "required": True,
         }
     )

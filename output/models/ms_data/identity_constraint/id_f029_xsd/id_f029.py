@@ -12,6 +12,7 @@ class T:
         metadata={
             "type": "Element",
             "namespace": "importNS",
+            "required": True,
         }
     )
     val: Optional[str] = field(

@@ -10,6 +10,7 @@ class Root:
             "name": "Total1",
             "type": "Element",
             "namespace": "",
+            "required": True,
             "total_digits": 3,
         }
     )
@@ -19,6 +20,7 @@ class Root:
             "name": "Total2",
             "type": "Element",
             "namespace": "",
+            "required": True,
             "min_exclusive": 100,
             "total_digits": 3,
         }

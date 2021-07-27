@@ -62,6 +62,7 @@ class Doc:
         default=None,
         metadata={
             "type": "Element",
+            "required": True,
         }
     )
     target_namespace_element: Optional[object] = field(

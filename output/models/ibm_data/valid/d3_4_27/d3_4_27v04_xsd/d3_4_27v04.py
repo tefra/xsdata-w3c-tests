@@ -17,6 +17,7 @@ class Root:
             "name": "elyMDMinInclusive_MinInclusive",
             "type": "Element",
             "namespace": "",
+            "min_occurs": 1,
             "min_inclusive": XmlDuration("P1DT535.4S"),
         }
     )
@@ -26,6 +27,7 @@ class Root:
             "name": "elyMDMinInclusive_MinExclusive",
             "type": "Element",
             "namespace": "",
+            "min_occurs": 1,
             "min_exclusive": XmlDuration("P2D"),
             "min_inclusive": XmlDuration("P1D"),
         }
@@ -36,6 +38,7 @@ class Root:
             "name": "elyMDMinInclusive_MaxInclusive",
             "type": "Element",
             "namespace": "",
+            "min_occurs": 1,
             "min_inclusive": XmlDuration("P1D"),
             "max_inclusive": XmlDuration("P3452DT2H"),
         }
@@ -46,6 +49,7 @@ class Root:
             "name": "elyMDMinInclusive_MaxExclusive",
             "type": "Element",
             "namespace": "",
+            "min_occurs": 1,
             "min_inclusive": XmlDuration("P1D"),
             "max_exclusive": XmlDuration("P43DT43M"),
         }

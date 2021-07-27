@@ -57,6 +57,7 @@ class CustomerType:
             "name": "FirstName",
             "type": "Element",
             "namespace": "urn:xmlns:25hoursaday-com:customer",
+            "required": True,
         }
     )
     last_name: Optional[str] = field(
@@ -65,6 +66,7 @@ class CustomerType:
             "name": "LastName",
             "type": "Element",
             "namespace": "urn:xmlns:25hoursaday-com:customer",
+            "required": True,
         }
     )
     customer_id: Optional[int] = field(
@@ -117,6 +119,7 @@ class MyCustomerType(CustomerType):
             "name": "PhoneNumber",
             "type": "Element",
             "namespace": "urn:xmlns:25hoursaday-com:customer",
+            "required": True,
         }
     )
     address: Optional[str] = field(
@@ -125,6 +128,7 @@ class MyCustomerType(CustomerType):
             "name": "Address",
             "type": "Element",
             "namespace": "urn:xmlns:25hoursaday-com:address",
+            "required": True,
         }
     )
     city: Optional[str] = field(
@@ -133,10 +137,12 @@ class MyCustomerType(CustomerType):
             "name": "City",
             "type": "Element",
             "namespace": "urn:xmlns:25hoursaday-com:address",
+            "required": True,
         }
     )
-    state: Optional[str] = field(
-        default=None,
+    state: str = field(
+        init=False,
+        default="WA",
         metadata={
             "name": "State",
             "type": "Element",

@@ -37,6 +37,7 @@ class Root:
         metadata={
             "name": "_-.",
             "type": "Element",
+            "required": True,
         }
     )
     value_0: Optional[int] = field(
@@ -44,5 +45,6 @@ class Root:
         metadata={
             "name": "_-0.",
             "type": "Element",
+            "required": True,
         }
     )

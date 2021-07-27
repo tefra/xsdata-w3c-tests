@@ -11,6 +11,7 @@ class Nametest:
         metadata={
             "type": "Element",
             "namespace": "a",
+            "min_occurs": 1,
             "pattern": r"\i\c",
         }
     )

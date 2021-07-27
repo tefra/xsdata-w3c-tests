@@ -25,6 +25,7 @@ class Root:
         metadata={
             "name": "fooTest",
             "type": "Element",
+            "required": True,
             "pattern": r"[A-E]{1,2}",
         }
     )

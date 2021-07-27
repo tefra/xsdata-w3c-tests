@@ -492,6 +492,7 @@ class Root:
         default=None,
         metadata={
             "type": "Element",
+            "required": True,
         }
     )
     bbb_b: Optional[int] = field(
@@ -499,6 +500,7 @@ class Root:
         metadata={
             "name": "bbbB",
             "type": "Element",
+            "required": True,
         }
     )
     cc_cc: Optional[int] = field(
@@ -506,6 +508,7 @@ class Root:
         metadata={
             "name": "ccCc",
             "type": "Element",
+            "required": True,
         }
     )
     dd_dd: Optional[int] = field(
@@ -513,6 +516,7 @@ class Root:
         metadata={
             "name": "ddDD",
             "type": "Element",
+            "required": True,
         }
     )
     e_eee: Optional[int] = field(
@@ -520,6 +524,7 @@ class Root:
         metadata={
             "name": "eEee",
             "type": "Element",
+            "required": True,
         }
     )
     f_ff_f: Optional[int] = field(
@@ -527,6 +532,7 @@ class Root:
         metadata={
             "name": "fFfF",
             "type": "Element",
+            "required": True,
         }
     )
     p_ppp: Optional[int] = field(
@@ -534,6 +540,7 @@ class Root:
         metadata={
             "name": "pPPp",
             "type": "Element",
+            "required": True,
         }
     )
     g_ggg: Optional[int] = field(
@@ -541,6 +548,7 @@ class Root:
         metadata={
             "name": "gGGG",
             "type": "Element",
+            "required": True,
         }
     )
     hhhh: Optional[int] = field(
@@ -548,6 +556,7 @@ class Root:
         metadata={
             "name": "Hhhh",
             "type": "Element",
+            "required": True,
         }
     )
     iii_i: Optional[int] = field(
@@ -555,6 +564,7 @@ class Root:
         metadata={
             "name": "IiiI",
             "type": "Element",
+            "required": True,
         }
     )
     jj_jj: Optional[int] = field(
@@ -562,6 +572,7 @@ class Root:
         metadata={
             "name": "JjJj",
             "type": "Element",
+            "required": True,
         }
     )
     kk_kk: Optional[int] = field(
@@ -569,6 +580,7 @@ class Root:
         metadata={
             "name": "KkKK",
             "type": "Element",
+            "required": True,
         }
     )
     llll: Optional[int] = field(
@@ -576,6 +588,7 @@ class Root:
         metadata={
             "name": "LLll",
             "type": "Element",
+            "required": True,
         }
     )
     mmm_m: Optional[int] = field(
@@ -583,6 +596,7 @@ class Root:
         metadata={
             "name": "MMmM",
             "type": "Element",
+            "required": True,
         }
     )
     nnnn: Optional[int] = field(
@@ -590,6 +604,7 @@ class Root:
         metadata={
             "name": "NNNn",
             "type": "Element",
+            "required": True,
         }
     )
     oooo: Optional[int] = field(
@@ -597,48 +612,56 @@ class Root:
         metadata={
             "name": "OOOO",
             "type": "Element",
+            "required": True,
         }
     )
     bbb0: Optional[int] = field(
         default=None,
         metadata={
             "type": "Element",
+            "required": True,
         }
     )
     cc0c: Optional[int] = field(
         default=None,
         metadata={
             "type": "Element",
+            "required": True,
         }
     )
     dd00: Optional[int] = field(
         default=None,
         metadata={
             "type": "Element",
+            "required": True,
         }
     )
     e0ee: Optional[int] = field(
         default=None,
         metadata={
             "type": "Element",
+            "required": True,
         }
     )
     f0f0: Optional[int] = field(
         default=None,
         metadata={
             "type": "Element",
+            "required": True,
         }
     )
     p00p: Optional[int] = field(
         default=None,
         metadata={
             "type": "Element",
+            "required": True,
         }
     )
     g000: Optional[int] = field(
         default=None,
         metadata={
             "type": "Element",
+            "required": True,
         }
     )
     bbb: Optional[int] = field(
@@ -646,12 +669,14 @@ class Root:
         metadata={
             "name": "bbb_",
             "type": "Element",
+            "required": True,
         }
     )
     cc_c: Optional[int] = field(
         default=None,
         metadata={
             "type": "Element",
+            "required": True,
         }
     )
     dd: Optional[int] = field(
@@ -659,12 +684,14 @@ class Root:
         metadata={
             "name": "dd__",
             "type": "Element",
+            "required": True,
         }
     )
     e_ee: Optional[int] = field(
         default=None,
         metadata={
             "type": "Element",
+            "required": True,
         }
     )
     f_f: Optional[int] = field(
@@ -672,6 +699,7 @@ class Root:
         metadata={
             "name": "f_f_",
             "type": "Element",
+            "required": True,
         }
     )
     p_p: Optional[int] = field(
@@ -679,6 +707,7 @@ class Root:
         metadata={
             "name": "p__p",
             "type": "Element",
+            "required": True,
         }
     )
     g: Optional[int] = field(
@@ -686,6 +715,7 @@ class Root:
         metadata={
             "name": "g___",
             "type": "Element",
+            "required": True,
         }
     )
     h111: Optional[int] = field(
@@ -693,6 +723,7 @@ class Root:
         metadata={
             "name": "H111",
             "type": "Element",
+            "required": True,
         }
     )
     i11_i: Optional[int] = field(
@@ -700,6 +731,7 @@ class Root:
         metadata={
             "name": "I11I",
             "type": "Element",
+            "required": True,
         }
     )
     j1_j1: Optional[int] = field(
@@ -707,6 +739,7 @@ class Root:
         metadata={
             "name": "J1J1",
             "type": "Element",
+            "required": True,
         }
     )
     k1_kk: Optional[int] = field(
@@ -714,6 +747,7 @@ class Root:
         metadata={
             "name": "K1KK",
             "type": "Element",
+            "required": True,
         }
     )
     ll11: Optional[int] = field(
@@ -721,6 +755,7 @@ class Root:
         metadata={
             "name": "LL11",
             "type": "Element",
+            "required": True,
         }
     )
     mm1_m: Optional[int] = field(
@@ -728,6 +763,7 @@ class Root:
         metadata={
             "name": "MM1M",
             "type": "Element",
+            "required": True,
         }
     )
     nnn1: Optional[int] = field(
@@ -735,6 +771,7 @@ class Root:
         metadata={
             "name": "NNN1",
             "type": "Element",
+            "required": True,
         }
     )
     h: Optional[int] = field(
@@ -742,6 +779,7 @@ class Root:
         metadata={
             "name": "H---",
             "type": "Element",
+            "required": True,
         }
     )
     i_i: Optional[int] = field(
@@ -749,6 +787,7 @@ class Root:
         metadata={
             "name": "I--I",
             "type": "Element",
+            "required": True,
         }
     )
     j_j: Optional[int] = field(
@@ -756,6 +795,7 @@ class Root:
         metadata={
             "name": "J-J-",
             "type": "Element",
+            "required": True,
         }
     )
     k_kk: Optional[int] = field(
@@ -763,6 +803,7 @@ class Root:
         metadata={
             "name": "K-KK",
             "type": "Element",
+            "required": True,
         }
     )
     ll: Optional[int] = field(
@@ -770,6 +811,7 @@ class Root:
         metadata={
             "name": "LL--",
             "type": "Element",
+            "required": True,
         }
     )
     mm_m: Optional[int] = field(
@@ -777,6 +819,7 @@ class Root:
         metadata={
             "name": "MM-M",
             "type": "Element",
+            "required": True,
         }
     )
     nnn: Optional[int] = field(
@@ -784,5 +827,6 @@ class Root:
         metadata={
             "name": "NNN-",
             "type": "Element",
+            "required": True,
         }
     )

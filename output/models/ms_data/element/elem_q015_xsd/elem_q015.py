@@ -22,5 +22,6 @@ class Root:
         metadata={
             "name": "fooTest",
             "type": "Element",
+            "min_occurs": 1,
         }
     )

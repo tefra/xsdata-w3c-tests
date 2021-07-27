@@ -24,6 +24,7 @@ class MyDateTime:
         metadata={
             "type": "Element",
             "namespace": "",
+            "required": True,
             "pattern": r"[0-2][0-9]:[0-5][0-9]:[0-5][0-9].[0-9][0-9][0-9]",
         }
     )
@@ -55,6 +56,7 @@ class MySmallDateTime:
         metadata={
             "type": "Element",
             "namespace": "",
+            "required": True,
             "pattern": r"[0-2][0-9]:[0-5][0-9]:[0-5][0-9]",
         }
     )

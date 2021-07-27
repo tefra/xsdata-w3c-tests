@@ -16,6 +16,7 @@ class Root:
             "name": "eldTimeETzoneOptionalFDerivedOptional",
             "type": "Element",
             "namespace": "",
+            "min_occurs": 1,
             "pattern": r"[2][0][0][0-9][-][0-1][1-2][-][0-2][1-8][T]*.*",
             "explicit_timezone": "optional",
         }
@@ -26,6 +27,7 @@ class Root:
             "name": "eldTimeETzoneOptionalFDerivedRequired",
             "type": "Element",
             "namespace": "",
+            "min_occurs": 1,
             "pattern": r"[2][0][0][0-9][-][0-1][1-2][-][0-2][1-8][T]*.*",
             "explicit_timezone": "required",
         }
@@ -36,6 +38,7 @@ class Root:
             "name": "eldTimeETzoneOptionalFDerivedProhibited",
             "type": "Element",
             "namespace": "",
+            "min_occurs": 1,
             "pattern": r"[2][0][0][0-9][-][0-1][1-2][-][0-2][1-8][T]*.*",
             "explicit_timezone": "prohibited",
         }
@@ -46,6 +49,7 @@ class Root:
             "name": "eldTimeETzoneOptionalTDerivedOptional",
             "type": "Element",
             "namespace": "",
+            "min_occurs": 1,
             "pattern": r"[2][0][0][0-9][-][0-1][1-2][-][0-2][1-8][T]*.*",
             "explicit_timezone": "optional",
         }

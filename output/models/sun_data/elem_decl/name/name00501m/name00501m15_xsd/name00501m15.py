@@ -14,6 +14,7 @@ class Global:
         metadata={
             "name": "Main",
             "type": "Element",
+            "required": True,
         }
     )
 

@@ -13,6 +13,7 @@ class ComplexType:
             "name": "Global",
             "type": "Element",
             "namespace": "ElemDecl/typeDef",
+            "required": True,
         }
     )
     global_pre_defined_type: Optional[str] = field(
@@ -21,6 +22,7 @@ class ComplexType:
             "name": "GlobalPreDefinedType",
             "type": "Element",
             "namespace": "ElemDecl/typeDef",
+            "required": True,
             "pattern": r"1|true",
         }
     )
@@ -39,6 +41,7 @@ class ComplexType:
             "name": "LocalPreDefinedType",
             "type": "Element",
             "namespace": "",
+            "required": True,
             "pattern": r"1|true",
         }
     )

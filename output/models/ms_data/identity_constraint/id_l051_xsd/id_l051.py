@@ -11,6 +11,7 @@ class Root:
         default_factory=list,
         metadata={
             "type": "Element",
+            "min_occurs": 1,
         }
     )
     kid: List[str] = field(

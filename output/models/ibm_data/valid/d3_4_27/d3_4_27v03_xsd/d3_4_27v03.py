@@ -41,5 +41,6 @@ class Root:
             "name": "elyMDUnionC",
             "type": "Element",
             "namespace": "",
+            "min_occurs": 1,
         }
     )

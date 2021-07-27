@@ -16,6 +16,7 @@ class Root:
             "name": "eldTimePattern",
             "type": "Element",
             "namespace": "",
+            "min_occurs": 1,
             "pattern": r"[2][0][0][0-9][-][0-1][1-2][-][0-2][1-8][T]*.*",
         }
     )
@@ -25,6 +26,7 @@ class Root:
             "name": "eldTimeETRequired",
             "type": "Element",
             "namespace": "",
+            "min_occurs": 1,
             "pattern": r"[2][0][0][0-9][-][0-1][1-2][-][0-2][1-8][T]*.*",
             "explicit_timezone": "required",
         }
@@ -35,6 +37,7 @@ class Root:
             "name": "eldTimeETOptional",
             "type": "Element",
             "namespace": "",
+            "min_occurs": 1,
             "pattern": r"[2][0][0][0-9][-][0-1][1-2][-][0-2][1-8][T]*.*",
             "explicit_timezone": "optional",
         }
@@ -45,6 +48,7 @@ class Root:
             "name": "eldTimeETProhibited",
             "type": "Element",
             "namespace": "",
+            "min_occurs": 1,
             "pattern": r"[2][0][0][0-9][-][0-1][1-2][-][0-2][1-8][T]*.*",
             "explicit_timezone": "prohibited",
         }
@@ -55,6 +59,7 @@ class Root:
             "name": "dTimeETOptionalDerReq",
             "type": "Element",
             "namespace": "",
+            "min_occurs": 1,
             "pattern": r"[2][0][0][0-9][-][0-1][1-2][-][0-2][1-8][T]*.*",
             "explicit_timezone": "required",
         }
@@ -65,6 +70,7 @@ class Root:
             "name": "dTimeETOptionalDerPro",
             "type": "Element",
             "namespace": "",
+            "min_occurs": 1,
             "pattern": r"[2][0][0][0-9][-][0-1][1-2][-][0-2][1-8][T]*.*",
             "explicit_timezone": "prohibited",
         }

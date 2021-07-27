@@ -9,6 +9,7 @@ class DataTypes:
         metadata={
             "name": "ID",
             "type": "Element",
+            "min_occurs": 1,
             "max_occurs": 2,
             "sequential": True,
         }
@@ -18,6 +19,7 @@ class DataTypes:
         metadata={
             "name": "IDREF",
             "type": "Element",
+            "min_occurs": 1,
             "max_occurs": 2,
             "sequential": True,
         }
@@ -27,6 +29,7 @@ class DataTypes:
         metadata={
             "name": "IDREFS",
             "type": "Element",
+            "min_occurs": 1,
             "max_occurs": 2,
             "sequential": True,
             "tokens": True,

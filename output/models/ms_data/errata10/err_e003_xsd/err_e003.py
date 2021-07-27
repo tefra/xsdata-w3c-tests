@@ -15,6 +15,7 @@ class Root:
         metadata={
             "name": "testElement",
             "type": "Element",
+            "required": True,
         }
     )
 

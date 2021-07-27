@@ -14,6 +14,7 @@ class Global:
         metadata={
             "name": "Main",
             "type": "Element",
+            "min_occurs": 1,
         }
     )
 

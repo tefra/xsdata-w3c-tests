@@ -198,6 +198,7 @@ class Ukaddress(AddressType):
         metadata={
             "type": "Element",
             "namespace": "",
+            "required": True,
             "pattern": r"[A-Z]{2}\d\s\d[A-Z]{2}",
         }
     )

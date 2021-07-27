@@ -28,6 +28,7 @@ class Root:
         metadata={
             "name": "Element",
             "type": "Element",
+            "required": True,
             "pattern": r"1|0",
         }
     )

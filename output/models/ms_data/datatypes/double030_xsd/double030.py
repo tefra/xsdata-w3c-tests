@@ -51,5 +51,6 @@ class Root:
         metadata={
             "name": "simpleTest",
             "type": "Element",
+            "min_occurs": 1,
         }
     )

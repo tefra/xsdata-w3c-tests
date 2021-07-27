@@ -16,6 +16,7 @@ class RootType:
             "name": "testElement",
             "type": "Element",
             "namespace": "http://www.tempuri.org",
+            "required": True,
         }
     )
 

@@ -58,6 +58,7 @@ class T:
         metadata={
             "type": "Element",
             "namespace": "a",
+            "required": True,
         }
     )
     any_element: List[object] = field(
@@ -72,6 +73,7 @@ class T:
         metadata={
             "type": "Element",
             "namespace": "a",
+            "required": True,
         }
     )
 

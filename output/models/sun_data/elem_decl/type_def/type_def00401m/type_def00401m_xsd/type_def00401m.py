@@ -26,6 +26,7 @@ class Root:
         metadata={
             "name": "Global",
             "type": "Element",
+            "required": True,
         }
     )
     local: Optional[Decimal] = field(

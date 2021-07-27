@@ -15,6 +15,7 @@ class Root:
         metadata={
             "name": "testToken",
             "type": "Element",
+            "required": True,
         }
     )
 

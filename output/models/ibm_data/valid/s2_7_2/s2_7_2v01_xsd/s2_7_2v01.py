@@ -14,7 +14,7 @@ class B:
     value: Optional[int] = field(
         default=None,
         metadata={
-            "required": True,
+            "nillable": True,
         }
     )
 

@@ -12,7 +12,7 @@ class Root:
     value: Optional[Decimal] = field(
         default=None,
         metadata={
-            "required": True,
+            "nillable": True,
         }
     )
     nil: str = field(

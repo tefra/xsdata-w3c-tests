@@ -10,7 +10,10 @@ class Head:
         namespace = "ElemDecl/disallowedSubst"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -20,7 +23,10 @@ class Member1:
         namespace = "ElemDecl/disallowedSubst"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 

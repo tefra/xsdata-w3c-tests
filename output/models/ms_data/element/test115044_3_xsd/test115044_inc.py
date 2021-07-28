@@ -11,5 +11,8 @@ class E1:
         namespace = "foo"
 
     value: Optional[int] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )

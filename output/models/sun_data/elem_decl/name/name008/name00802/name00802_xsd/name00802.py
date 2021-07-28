@@ -11,7 +11,10 @@ class A1234561:
         namespace = "ElemDecl/name"
 
     value: Optional[int] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -22,7 +25,10 @@ class A1234562:
         namespace = "ElemDecl/name"
 
     value: Optional[int] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 

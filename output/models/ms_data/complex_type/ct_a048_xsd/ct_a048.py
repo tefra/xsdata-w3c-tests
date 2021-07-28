@@ -8,7 +8,10 @@ class Type1:
         name = "_1"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
     attr_test: Optional[str] = field(
         default=None,

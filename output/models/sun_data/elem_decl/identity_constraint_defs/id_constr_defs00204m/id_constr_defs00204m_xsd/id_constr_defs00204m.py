@@ -22,7 +22,10 @@ class Root:
     @dataclass
     class Person:
         value: Optional[str] = field(
-            default=None
+            default=None,
+            metadata={
+                "required": True,
+            }
         )
         parent: Optional[str] = field(
             default=None,

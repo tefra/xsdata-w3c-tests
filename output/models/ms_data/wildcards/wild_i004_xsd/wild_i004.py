@@ -22,7 +22,10 @@ class Elt2:
         name = "elt2"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 

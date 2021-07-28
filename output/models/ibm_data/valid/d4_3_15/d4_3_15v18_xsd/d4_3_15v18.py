@@ -8,7 +8,10 @@ class RootType:
         name = "rootType"
 
     value: Optional[object] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
     attr: Optional[str] = field(
         default=None,

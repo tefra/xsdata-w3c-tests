@@ -14,6 +14,7 @@ class NistschemaSvIvAtomicQnameMinLength1:
     value: Optional[QName] = field(
         default=None,
         metadata={
+            "required": True,
             "min_length": 1,
         }
     )

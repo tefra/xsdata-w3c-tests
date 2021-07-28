@@ -10,7 +10,10 @@ class Global1:
         namespace = "ElemDecl/name"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -20,7 +23,10 @@ class Global2:
         namespace = "ElemDecl/name"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -31,5 +37,8 @@ class Root:
         namespace = "ElemDecl/name"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )

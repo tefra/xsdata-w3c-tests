@@ -21,5 +21,8 @@ class NistschemaSvIvAtomicNormalizedStringEnumeration5:
         namespace = "NISTSchema-SV-IV-atomic-normalizedString-enumeration-5-NS"
 
     value: Optional[NistschemaSvIvAtomicNormalizedStringEnumeration5Type] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )

@@ -14,6 +14,7 @@ class NistschemaSvIvAtomicDateMaxInclusive1:
     value: Optional[XmlDate] = field(
         default=None,
         metadata={
+            "required": True,
             "max_inclusive": XmlDate(1970, 1, 1),
         }
     )

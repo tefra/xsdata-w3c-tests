@@ -26,6 +26,7 @@ class Cs:
     value: Optional[str] = field(
         default=None,
         metadata={
+            "required": True,
             "min_length": 1,
             "max_length": 2,
         }
@@ -47,6 +48,7 @@ class Fe1Valid:
     value: Optional[str] = field(
         default=None,
         metadata={
+            "required": True,
             "min_length": 1,
             "max_length": 2,
         }
@@ -62,6 +64,7 @@ class FeValid:
     value: Optional[str] = field(
         default=None,
         metadata={
+            "required": True,
             "max_length": 4,
         }
     )

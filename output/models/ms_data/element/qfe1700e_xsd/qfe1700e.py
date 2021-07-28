@@ -9,7 +9,10 @@ class E1:
         nillable = True
 
     value: Optional[int] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 

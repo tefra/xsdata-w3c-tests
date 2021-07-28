@@ -10,7 +10,10 @@ class Anyuri:
         name = "anyuri"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -20,7 +23,10 @@ class Bool:
         name = "bool"
 
     value: Optional[bool] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -30,7 +36,10 @@ class Date:
         name = "date"
 
     value: Optional[XmlDate] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -40,7 +49,10 @@ class Datetime:
         name = "datetime"
 
     value: Optional[XmlDateTime] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -50,7 +62,10 @@ class Day:
         name = "day"
 
     value: Optional[XmlPeriod] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -60,7 +75,10 @@ class DecimalType:
         name = "decimal"
 
     value: Optional[Decimal] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -70,7 +88,10 @@ class Double:
         name = "double"
 
     value: Optional[float] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -80,7 +101,10 @@ class Duration:
         name = "duration"
 
     value: Optional[XmlDuration] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -90,7 +114,10 @@ class Entity:
         name = "entity"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -100,7 +127,10 @@ class Float:
         name = "float"
 
     value: Optional[float] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -112,6 +142,7 @@ class Hexbinary:
     value: Optional[bytes] = field(
         default=None,
         metadata={
+            "required": True,
             "format": "base16",
         }
     )
@@ -123,7 +154,10 @@ class Int:
         name = "int"
 
     value: Optional[int] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -137,6 +171,7 @@ class Item:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
+            "required": True,
         }
     )
 
@@ -147,7 +182,10 @@ class Month:
         name = "month"
 
     value: Optional[XmlPeriod] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -157,7 +195,10 @@ class Monthday:
         name = "monthday"
 
     value: Optional[XmlPeriod] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -167,7 +208,10 @@ class String:
         name = "string"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -177,7 +221,10 @@ class Time:
         name = "time"
 
     value: Optional[XmlTime] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -187,7 +234,10 @@ class Year:
         name = "year"
 
     value: Optional[XmlPeriod] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 

@@ -60,5 +60,8 @@ class NistschemaSvIvListUnsignedLongEnumeration1:
         namespace = "NISTSchema-SV-IV-list-unsignedLong-enumeration-1-NS"
 
     value: Optional[NistschemaSvIvListUnsignedLongEnumeration1Type] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )

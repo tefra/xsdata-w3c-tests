@@ -13,5 +13,8 @@ class Root:
         name = "root"
 
     value: Optional[FooType] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )

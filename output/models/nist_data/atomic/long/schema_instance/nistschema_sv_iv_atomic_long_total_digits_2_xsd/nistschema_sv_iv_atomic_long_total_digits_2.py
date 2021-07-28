@@ -13,6 +13,7 @@ class NistschemaSvIvAtomicLongTotalDigits2:
     value: Optional[int] = field(
         default=None,
         metadata={
+            "required": True,
             "total_digits": 5,
         }
     )

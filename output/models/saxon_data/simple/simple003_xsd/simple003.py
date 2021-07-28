@@ -22,7 +22,10 @@ class Chap:
     @dataclass
     class Section:
         value: Optional[str] = field(
-            default=None
+            default=None,
+            metadata={
+                "required": True,
+            }
         )
         nr: Optional[Decimal] = field(
             default=None,

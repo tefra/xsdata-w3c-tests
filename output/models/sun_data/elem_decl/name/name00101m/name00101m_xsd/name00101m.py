@@ -11,7 +11,10 @@ class Root:
         namespace = "ElemDecl/name"
 
     value: Optional[bool] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 

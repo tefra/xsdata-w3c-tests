@@ -14,6 +14,7 @@ class NistschemaSvIvAtomicGMonthMaxInclusive5:
     value: Optional[XmlPeriod] = field(
         default=None,
         metadata={
+            "required": True,
             "max_inclusive": XmlPeriod("--12"),
         }
     )

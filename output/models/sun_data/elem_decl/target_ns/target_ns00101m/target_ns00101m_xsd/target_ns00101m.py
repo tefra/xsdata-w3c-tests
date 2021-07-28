@@ -12,5 +12,8 @@ class Number:
         namespace = "ElemDecl/targetNS"
 
     value: Optional[Decimal] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )

@@ -11,7 +11,10 @@ class A:
         namespace = "zot"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -22,7 +25,10 @@ class B:
         namespace = "zot"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -33,5 +39,8 @@ class C:
         namespace = "zot"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )

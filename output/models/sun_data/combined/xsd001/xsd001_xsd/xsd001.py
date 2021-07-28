@@ -25,6 +25,7 @@ class Root:
         value: Optional[str] = field(
             default=None,
             metadata={
+                "required": True,
                 "min_length": 3,
                 "max_length": 10,
             }

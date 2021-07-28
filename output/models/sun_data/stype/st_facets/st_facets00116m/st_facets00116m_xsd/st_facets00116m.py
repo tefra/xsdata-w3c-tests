@@ -13,6 +13,7 @@ class Test:
     value: Optional[float] = field(
         default=None,
         metadata={
+            "required": True,
             "max_inclusive": 100.0,
         }
     )

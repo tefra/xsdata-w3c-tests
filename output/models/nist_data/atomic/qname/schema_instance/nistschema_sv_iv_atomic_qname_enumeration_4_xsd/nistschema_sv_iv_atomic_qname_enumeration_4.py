@@ -25,7 +25,10 @@ class InteroperabilitySLedAlsoSpecificationsProvideWithIsThu:
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-4-NS"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -36,7 +39,10 @@ class EtransformingSpecificEmergingIsDevelopedActRela:
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-4-NS"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -47,7 +53,10 @@ class TmanyRetrievalWithLanguageBothBeResultsIsOfB:
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-4-NS"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -58,7 +67,10 @@ class UtheBaseTheAbilityIntoTargetTheTestabilityDiscove:
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-4-NS"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -69,7 +81,10 @@ class YofAutomaticPartnershipsAndSetSeriesIsKeyE:
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-4-NS"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -80,5 +95,8 @@ class NistschemaSvIvAtomicQnameEnumeration4:
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-4-NS"
 
     value: Optional[NistschemaSvIvAtomicQnameEnumeration4Type] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )

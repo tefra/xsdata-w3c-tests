@@ -18,6 +18,7 @@ class A2:
     value: Optional[int] = field(
         default=None,
         metadata={
+            "required": True,
             "min_exclusive": 0,
             "max_inclusive": 10,
         }
@@ -38,6 +39,7 @@ class B2:
     value: Optional[str] = field(
         default=None,
         metadata={
+            "required": True,
             "min_length": 0,
             "max_length": 10,
         }
@@ -72,7 +74,10 @@ class Item:
         name = "item"
 
     value: Optional[object] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -82,7 +87,10 @@ class A3:
         name = "a"
 
     value: Optional[A1] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -92,7 +100,10 @@ class B3:
         name = "b"
 
     value: Optional[B1] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -128,7 +139,10 @@ class Ra:
         name = "ra"
 
     value: Optional[RA1] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -215,7 +229,10 @@ class Ua:
         name = "ua"
 
     value: Optional[UnionA] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -225,5 +242,8 @@ class Uab:
         name = "uab"
 
     value: Optional[UnionAb] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )

@@ -9,7 +9,10 @@ class Doc:
         name = "doc"
 
     value: Optional[XmlDate] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
     evidence: Optional[str] = field(
         default=None,

@@ -9,7 +9,10 @@ class Root:
         name = "root"
 
     value: Optional[Decimal] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
     no_namespace_schema_location: Optional[str] = field(
         default=None,

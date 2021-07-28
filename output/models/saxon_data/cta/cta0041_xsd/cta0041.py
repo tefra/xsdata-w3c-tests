@@ -9,7 +9,10 @@ class Appendix:
         name = "appendix"
 
     value: Optional[Union[XmlDate, XmlDateTime, XmlTime]] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
     type: Optional[str] = field(
         default=None,
@@ -25,7 +28,10 @@ class Chap:
         name = "chap"
 
     value: Optional[Union[XmlDate, XmlDateTime, XmlTime]] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
     type: Optional[str] = field(
         default=None,

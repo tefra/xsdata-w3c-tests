@@ -13,6 +13,7 @@ class Test:
     value: Optional[str] = field(
         default=None,
         metadata={
+            "required": True,
             "pattern": r"1|2|3",
         }
     )

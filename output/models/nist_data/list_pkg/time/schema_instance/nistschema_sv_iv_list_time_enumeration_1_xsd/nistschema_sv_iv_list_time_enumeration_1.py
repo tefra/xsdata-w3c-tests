@@ -78,5 +78,8 @@ class NistschemaSvIvListTimeEnumeration1:
         namespace = "NISTSchema-SV-IV-list-time-enumeration-1-NS"
 
     value: Optional[NistschemaSvIvListTimeEnumeration1Type] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )

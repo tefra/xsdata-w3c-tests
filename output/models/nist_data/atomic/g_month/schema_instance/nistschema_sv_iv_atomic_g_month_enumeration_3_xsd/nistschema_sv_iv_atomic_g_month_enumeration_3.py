@@ -21,5 +21,8 @@ class NistschemaSvIvAtomicGMonthEnumeration3:
         namespace = "NISTSchema-SV-IV-atomic-gMonth-enumeration-3-NS"
 
     value: Optional[NistschemaSvIvAtomicGMonthEnumeration3Type] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )

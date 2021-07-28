@@ -8,7 +8,10 @@ class PseudoId:
         name = "pseudoID"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
     a: Optional[str] = field(
         default=None,
@@ -24,7 +27,10 @@ class PseudoIdref:
         name = "pseudoIDREF"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
     a: Optional[str] = field(
         default=None,

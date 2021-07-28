@@ -11,7 +11,10 @@ class Bar:
         namespace = "http://foobar"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 

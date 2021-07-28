@@ -16,7 +16,10 @@ class Example:
     @dataclass
     class KindQuantity:
         value: Optional[int] = field(
-            default=None
+            default=None,
+            metadata={
+                "required": True,
+            }
         )
         kind: Optional[str] = field(
             default=None,
@@ -29,7 +32,10 @@ class Example:
     @dataclass
     class KindPrice:
         value: Optional[float] = field(
-            default=None
+            default=None,
+            metadata={
+                "required": True,
+            }
         )
         kind: Optional[str] = field(
             default=None,
@@ -42,7 +48,10 @@ class Example:
     @dataclass
     class KindMesg:
         value: Optional[str] = field(
-            default=None
+            default=None,
+            metadata={
+                "required": True,
+            }
         )
         kind: Optional[str] = field(
             default=None,

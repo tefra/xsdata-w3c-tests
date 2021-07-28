@@ -22,5 +22,8 @@ class Uid:
         name = "uid"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )

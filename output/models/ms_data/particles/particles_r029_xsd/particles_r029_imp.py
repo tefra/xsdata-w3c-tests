@@ -15,6 +15,7 @@ class ImpElem1:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
+            "required": True,
         }
     )
 
@@ -30,5 +31,6 @@ class ImpElem2:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
+            "required": True,
         }
     )

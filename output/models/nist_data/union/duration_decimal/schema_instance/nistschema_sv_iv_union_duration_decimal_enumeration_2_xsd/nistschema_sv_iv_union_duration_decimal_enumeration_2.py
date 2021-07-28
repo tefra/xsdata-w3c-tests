@@ -25,5 +25,8 @@ class NistschemaSvIvUnionDurationDecimalEnumeration2:
         namespace = "NISTSchema-SV-IV-union-duration-decimal-enumeration-2-NS"
 
     value: Optional[NistschemaSvIvUnionDurationDecimalEnumeration2Type] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )

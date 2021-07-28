@@ -11,5 +11,8 @@ class Bar:
         namespace = "http://xsdtesting"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )

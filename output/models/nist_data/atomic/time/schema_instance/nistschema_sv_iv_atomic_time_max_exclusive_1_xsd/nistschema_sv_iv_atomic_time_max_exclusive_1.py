@@ -14,6 +14,7 @@ class NistschemaSvIvAtomicTimeMaxExclusive1:
     value: Optional[XmlTime] = field(
         default=None,
         metadata={
+            "required": True,
             "max_exclusive": XmlTime(0, 0, 1, 0),
         }
     )

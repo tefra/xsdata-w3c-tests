@@ -24,7 +24,10 @@ class SimpleTest:
         name = "simpleTest"
 
     value: Optional[Decimal] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 

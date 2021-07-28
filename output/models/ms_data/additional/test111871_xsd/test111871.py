@@ -11,5 +11,8 @@ class Title:
         namespace = "http://www.w3.org/2001/XMLSchema"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )

@@ -13,6 +13,7 @@ class NistschemaSvIvAtomicAnyUriPattern1:
     value: Optional[str] = field(
         default=None,
         metadata={
+            "required": True,
             "pattern": r"\c{3,6}://(\c{1,7}\.){1,2}\c{3}",
         }
     )

@@ -10,7 +10,10 @@ class DimType:
         name = "dimType"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
     length: Optional[object] = field(
         default=None,

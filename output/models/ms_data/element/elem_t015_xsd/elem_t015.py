@@ -13,6 +13,7 @@ class FooTest:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
+            "required": True,
         }
     )
 

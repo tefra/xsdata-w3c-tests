@@ -14,7 +14,10 @@ class FooTest:
         name = "fooTest"
 
     value: Optional[FooType] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 

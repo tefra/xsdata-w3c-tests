@@ -13,6 +13,7 @@ class NistschemaSvIvAtomicBase64BinaryPattern2:
     value: Optional[str] = field(
         default=None,
         metadata={
+            "required": True,
             "pattern": r"[a-zA-Z0-9+/]{68}",
         }
     )

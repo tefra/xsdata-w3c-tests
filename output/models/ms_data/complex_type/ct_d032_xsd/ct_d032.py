@@ -8,7 +8,10 @@ class MyType:
         name = "myType"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
     any_attributes: Dict[str, str] = field(
         default_factory=dict,

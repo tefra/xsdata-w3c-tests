@@ -11,7 +11,10 @@ class H:
         namespace = "ElemDecl/name"
 
     value: Optional[int] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -21,7 +24,10 @@ class H111:
         namespace = "ElemDecl/name"
 
     value: Optional[int] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -31,7 +37,10 @@ class Hhhh:
         namespace = "ElemDecl/name"
 
     value: Optional[int] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -42,7 +51,10 @@ class II:
         namespace = "ElemDecl/name"
 
     value: Optional[int] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -52,7 +64,10 @@ class I11I:
         namespace = "ElemDecl/name"
 
     value: Optional[int] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -62,7 +77,10 @@ class IiiI:
         namespace = "ElemDecl/name"
 
     value: Optional[int] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -73,7 +91,10 @@ class JJ:
         namespace = "ElemDecl/name"
 
     value: Optional[int] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -83,7 +104,10 @@ class J1J1:
         namespace = "ElemDecl/name"
 
     value: Optional[int] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -93,7 +117,10 @@ class JjJj:
         namespace = "ElemDecl/name"
 
     value: Optional[int] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -104,7 +131,10 @@ class KKk:
         namespace = "ElemDecl/name"
 
     value: Optional[int] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -115,7 +145,10 @@ class K1Kk:
         namespace = "ElemDecl/name"
 
     value: Optional[int] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -126,7 +159,10 @@ class KkKk:
         namespace = "ElemDecl/name"
 
     value: Optional[int] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -137,7 +173,10 @@ class Ll:
         namespace = "ElemDecl/name"
 
     value: Optional[int] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -148,7 +187,10 @@ class Ll11:
         namespace = "ElemDecl/name"
 
     value: Optional[int] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -159,7 +201,10 @@ class Llll:
         namespace = "ElemDecl/name"
 
     value: Optional[int] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -170,7 +215,10 @@ class MmM:
         namespace = "ElemDecl/name"
 
     value: Optional[int] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -181,7 +229,10 @@ class Mm1M:
         namespace = "ElemDecl/name"
 
     value: Optional[int] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -192,7 +243,10 @@ class MmmM:
         namespace = "ElemDecl/name"
 
     value: Optional[int] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -203,7 +257,10 @@ class Nnn:
         namespace = "ElemDecl/name"
 
     value: Optional[int] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -214,7 +271,10 @@ class Nnn1:
         namespace = "ElemDecl/name"
 
     value: Optional[int] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -225,7 +285,10 @@ class Nnnn:
         namespace = "ElemDecl/name"
 
     value: Optional[int] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -236,7 +299,10 @@ class Oooo:
         namespace = "ElemDecl/name"
 
     value: Optional[int] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -247,7 +313,10 @@ class Aaaa:
         namespace = "ElemDecl/name"
 
     value: Optional[int] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -258,7 +327,10 @@ class Bbb0:
         namespace = "ElemDecl/name"
 
     value: Optional[int] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -269,7 +341,10 @@ class BbbB:
         namespace = "ElemDecl/name"
 
     value: Optional[int] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -280,7 +355,10 @@ class Bbb:
         namespace = "ElemDecl/name"
 
     value: Optional[int] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -291,7 +369,10 @@ class Cc0C:
         namespace = "ElemDecl/name"
 
     value: Optional[int] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -302,7 +383,10 @@ class CcCc:
         namespace = "ElemDecl/name"
 
     value: Optional[int] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -313,7 +397,10 @@ class CcC:
         namespace = "ElemDecl/name"
 
     value: Optional[int] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -324,7 +411,10 @@ class Dd00:
         namespace = "ElemDecl/name"
 
     value: Optional[int] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -335,7 +425,10 @@ class DdDd:
         namespace = "ElemDecl/name"
 
     value: Optional[int] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -346,7 +439,10 @@ class Dd:
         namespace = "ElemDecl/name"
 
     value: Optional[int] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -357,7 +453,10 @@ class E0Ee:
         namespace = "ElemDecl/name"
 
     value: Optional[int] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -368,7 +467,10 @@ class EEee:
         namespace = "ElemDecl/name"
 
     value: Optional[int] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -379,7 +481,10 @@ class EEe:
         namespace = "ElemDecl/name"
 
     value: Optional[int] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -390,7 +495,10 @@ class F0F0:
         namespace = "ElemDecl/name"
 
     value: Optional[int] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -401,7 +509,10 @@ class FFfF:
         namespace = "ElemDecl/name"
 
     value: Optional[int] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -412,7 +523,10 @@ class FF:
         namespace = "ElemDecl/name"
 
     value: Optional[int] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -423,7 +537,10 @@ class G000:
         namespace = "ElemDecl/name"
 
     value: Optional[int] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -434,7 +551,10 @@ class GGgg:
         namespace = "ElemDecl/name"
 
     value: Optional[int] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -445,7 +565,10 @@ class G:
         namespace = "ElemDecl/name"
 
     value: Optional[int] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -456,7 +579,10 @@ class P00P:
         namespace = "ElemDecl/name"
 
     value: Optional[int] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -467,7 +593,10 @@ class PPpp:
         namespace = "ElemDecl/name"
 
     value: Optional[int] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -478,7 +607,10 @@ class PP:
         namespace = "ElemDecl/name"
 
     value: Optional[int] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 

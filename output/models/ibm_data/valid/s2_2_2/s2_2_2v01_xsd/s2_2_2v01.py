@@ -11,7 +11,10 @@ class Elem0:
         namespace = "http://xstest-tns/ibms3_3_6_v04"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -22,7 +25,10 @@ class Elem1:
         namespace = "http://xstest-tns/ibms3_3_6_v04"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -33,7 +39,10 @@ class Elem2:
         namespace = "http://xstest-tns/ibms3_3_6_v04"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -44,7 +53,10 @@ class Elem3:
         namespace = "http://xstest-tns/ibms3_3_6_v04"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 

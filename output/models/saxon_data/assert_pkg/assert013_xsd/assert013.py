@@ -9,7 +9,10 @@ class DatedEvent:
         name = "datedEvent"
 
     value: Optional[XmlDate] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
     event: Optional[XmlDateTime] = field(
         default=None,

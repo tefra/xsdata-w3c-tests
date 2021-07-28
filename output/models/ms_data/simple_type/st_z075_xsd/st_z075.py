@@ -17,5 +17,8 @@ class Doc:
         namespace = "a"
 
     value: Optional[TypeType] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )

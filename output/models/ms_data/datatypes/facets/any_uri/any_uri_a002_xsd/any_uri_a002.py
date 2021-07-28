@@ -33,5 +33,8 @@ class Bar:
         namespace = "あ"
 
     value: Optional[St] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )

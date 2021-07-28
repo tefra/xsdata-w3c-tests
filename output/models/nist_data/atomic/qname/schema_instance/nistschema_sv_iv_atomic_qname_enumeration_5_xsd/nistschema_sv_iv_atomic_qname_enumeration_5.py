@@ -22,7 +22,10 @@ class ForFilesSupplyForToMustMeasur:
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-5-NS"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -33,7 +36,10 @@ class HmanipulateUs:
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-5-NS"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -44,7 +50,10 @@ class PsPervasiveInHouseOnPerformanceAls:
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-5-NS"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -55,7 +64,10 @@ class UtheBaseTheAbilityIntoTargetTheTestabilityDiscove:
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-5-NS"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -66,5 +78,8 @@ class NistschemaSvIvAtomicQnameEnumeration5:
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-5-NS"
 
     value: Optional[NistschemaSvIvAtomicQnameEnumeration5Type] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )

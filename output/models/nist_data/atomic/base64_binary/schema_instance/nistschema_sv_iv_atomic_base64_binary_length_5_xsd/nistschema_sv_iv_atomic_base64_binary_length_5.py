@@ -13,6 +13,7 @@ class NistschemaSvIvAtomicBase64BinaryLength5:
     value: Optional[bytes] = field(
         default=None,
         metadata={
+            "required": True,
             "length": 74,
             "format": "base64",
         }

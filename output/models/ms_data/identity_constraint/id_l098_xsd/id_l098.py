@@ -10,7 +10,10 @@ class Ttype:
         name = "ttype"
 
     value: Optional[bool] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
     row: Optional[str] = field(
         default=None,
@@ -27,7 +30,10 @@ class Utype:
         name = "utype"
 
     value: Optional[int] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
     row: Optional[str] = field(
         default=None,

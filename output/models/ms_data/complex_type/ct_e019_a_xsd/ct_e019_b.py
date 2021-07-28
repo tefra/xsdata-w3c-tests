@@ -10,7 +10,10 @@ class FooType:
         name = "fooType"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
     attr_test1: Optional[int] = field(
         default=None,
@@ -36,7 +39,10 @@ class Mytype1:
         name = "mytype1"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
     attr_test1: Optional[int] = field(
         default=None,

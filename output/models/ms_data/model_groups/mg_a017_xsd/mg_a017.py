@@ -12,5 +12,6 @@ class Doc:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
+            "required": True,
         }
     )

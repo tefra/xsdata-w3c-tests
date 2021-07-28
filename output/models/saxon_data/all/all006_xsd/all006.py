@@ -22,7 +22,10 @@ class A:
         name = "a"
 
     value: Optional[XmlTime] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -32,7 +35,10 @@ class B:
         name = "b"
 
     value: Optional[XmlTime] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -42,7 +48,10 @@ class C2:
         name = "c"
 
     value: Optional[XmlTime] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 

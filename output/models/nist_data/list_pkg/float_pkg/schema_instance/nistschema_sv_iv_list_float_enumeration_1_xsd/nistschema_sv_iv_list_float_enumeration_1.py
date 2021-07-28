@@ -69,5 +69,8 @@ class NistschemaSvIvListFloatEnumeration1:
         namespace = "NISTSchema-SV-IV-list-float-enumeration-1-NS"
 
     value: Optional[NistschemaSvIvListFloatEnumeration1Type] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )

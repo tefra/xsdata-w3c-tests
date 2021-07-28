@@ -13,6 +13,7 @@ class NistschemaSvIvAtomicShortWhiteSpace1:
     value: Optional[int] = field(
         default=None,
         metadata={
+            "required": True,
             "white_space": "collapse",
         }
     )

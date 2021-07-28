@@ -8,5 +8,8 @@ class Root:
         name = "root"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )

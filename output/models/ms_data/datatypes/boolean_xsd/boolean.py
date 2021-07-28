@@ -23,7 +23,10 @@ class SimpleTest:
         name = "simpleTest"
 
     value: Optional[bool] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 

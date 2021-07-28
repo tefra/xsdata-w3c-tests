@@ -11,7 +11,10 @@ class E2:
         namespace = "http://xsdtesting"
 
     value: Optional[int] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 

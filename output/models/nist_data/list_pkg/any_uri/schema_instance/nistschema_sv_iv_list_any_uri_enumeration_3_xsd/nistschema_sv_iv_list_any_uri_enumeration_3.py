@@ -90,5 +90,8 @@ class NistschemaSvIvListAnyUriEnumeration3:
         namespace = "NISTSchema-SV-IV-list-anyURI-enumeration-3-NS"
 
     value: Optional[NistschemaSvIvListAnyUriEnumeration3Type] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )

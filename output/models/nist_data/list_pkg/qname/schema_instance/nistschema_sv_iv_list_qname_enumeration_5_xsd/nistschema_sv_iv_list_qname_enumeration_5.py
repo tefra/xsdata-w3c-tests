@@ -107,7 +107,10 @@ class AndThe:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-5-NS"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -118,7 +121,10 @@ class BackParticipatingFactFactTheUsedRecentOfferOnlyI:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-5-NS"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -129,7 +135,10 @@ class OrganizationsAndWebAndWillDocumentsManipulateFineCanU:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-5-NS"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -140,7 +149,10 @@ class Revolution:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-5-NS"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -151,7 +163,10 @@ class Simulat:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-5-NS"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -162,7 +177,10 @@ class TestAnyAndTheToComputingThoseDocumentsTheMe:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-5-NS"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -173,7 +191,10 @@ class WillIncludedOfNewConsortiumTheResourcesHelpAreFor:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-5-NS"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -184,7 +205,10 @@ class Cparticipate:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-5-NS"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -195,7 +219,10 @@ class DofInvestigationPervasiveHardwareTheObjects:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-5-NS"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -206,7 +233,10 @@ class DwithInNewToOfAndIsAreasHasPagesDocumentsFromDepl:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-5-NS"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -217,7 +247,10 @@ class EexchangeWhichComputerAndBusinessFurthe:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-5-NS"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -228,7 +261,10 @@ class EofImagesAndSignaturesWasWhichFo:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-5-NS"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -239,7 +275,10 @@ class FleadershipComputingWhoCrossReference:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-5-NS"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -250,7 +289,10 @@ class GtheseUsing2000IndustryManufacturers:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-5-NS"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -261,7 +303,10 @@ class Hlocalized:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-5-NS"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -272,7 +317,10 @@ class IsetSoftwareStakeholdersCo:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-5-NS"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -283,7 +331,10 @@ class JdivisionsItsInForSuchAndTools:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-5-NS"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -294,7 +345,10 @@ class JfiveByIsViaAreConsortiumAndDevelopersPrototype:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-5-NS"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -305,7 +359,10 @@ class KandEmergingThisFileOfW:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-5-NS"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -316,7 +373,10 @@ class LapplicationsRecognitionTe:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-5-NS"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -327,7 +387,10 @@ class LtoAndEachDefiningAboutOfT:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-5-NS"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -338,7 +401,10 @@ class N20IncludingF:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-5-NS"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -349,7 +415,10 @@ class Nli:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-5-NS"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -360,7 +429,10 @@ class Oand:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-5-NS"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -371,7 +443,10 @@ class OasLacki:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-5-NS"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -382,7 +457,10 @@ class OdonateManageFineTheDefiningStandar:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-5-NS"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -393,7 +471,10 @@ class PwasProfilesDev:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-5-NS"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -404,7 +485,10 @@ class QbothTheAndParticipatingAreasFilesPartnersh:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-5-NS"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -415,7 +499,10 @@ class QthatInWirelessTransactAndAsSetLackingHardwareB:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-5-NS"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -426,7 +513,10 @@ class SwithBetweenIndustriesSignificantLanguageCostObtain:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-5-NS"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -437,7 +527,10 @@ class TlibraryFilterIncludeForCanTechnologyAlsoRef:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-5-NS"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -448,7 +541,10 @@ class TregistryC:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-5-NS"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -459,7 +555,10 @@ class Tthe:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-5-NS"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -470,7 +569,10 @@ class UreviewedTheBackResourceAPerformanceUseResou:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-5-NS"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -481,7 +583,10 @@ class WdevelopmentAndWithManipulationTheseTh:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-5-NS"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -492,7 +597,10 @@ class WtheAreTheseKnownToAbility:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-5-NS"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -503,7 +611,10 @@ class Xboth:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-5-NS"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -514,7 +625,10 @@ class XhighlyAmongCommerceDesignedTechnolog:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-5-NS"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -525,7 +639,10 @@ class YmethodsLocationToLedUserNumberThisAsRe:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-5-NS"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -536,5 +653,8 @@ class NistschemaSvIvListQnameEnumeration5:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-5-NS"
 
     value: Optional[NistschemaSvIvListQnameEnumeration5Type] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )

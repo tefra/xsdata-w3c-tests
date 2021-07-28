@@ -12,6 +12,7 @@ class AppendixContent:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
+            "required": True,
         }
     )
 
@@ -26,6 +27,7 @@ class ChapContent:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
+            "required": True,
         }
     )
 
@@ -36,7 +38,10 @@ class Para:
         name = "para"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 

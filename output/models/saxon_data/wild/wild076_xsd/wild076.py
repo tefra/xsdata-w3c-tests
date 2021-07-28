@@ -9,7 +9,10 @@ class A:
         name = "a"
 
     value: Optional[XmlDate] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 

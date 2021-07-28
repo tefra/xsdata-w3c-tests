@@ -51,7 +51,10 @@ class Head2:
         namespace = "urn:my-namespace"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -61,7 +64,10 @@ class Member2:
         namespace = "urn:my-namespace"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 

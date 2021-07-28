@@ -14,6 +14,7 @@ class NistschemaSvIvAtomicDateMaxExclusive5:
     value: Optional[XmlDate] = field(
         default=None,
         metadata={
+            "required": True,
             "max_exclusive": XmlDate(2030, 12, 31),
         }
     )

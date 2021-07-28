@@ -22,7 +22,10 @@ class ForBeProvideRelat:
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-1-NS"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -33,7 +36,10 @@ class ThoseToBusinessAndIssuesDataFor:
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-1-NS"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -44,7 +50,10 @@ class RinfluenceCreateInformationReviewedAsRe:
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-1-NS"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -55,7 +64,10 @@ class WspecificationsEmergingThatAndIs:
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-1-NS"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -66,5 +78,8 @@ class NistschemaSvIvAtomicQnameEnumeration1:
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-1-NS"
 
     value: Optional[NistschemaSvIvAtomicQnameEnumeration1Type] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )

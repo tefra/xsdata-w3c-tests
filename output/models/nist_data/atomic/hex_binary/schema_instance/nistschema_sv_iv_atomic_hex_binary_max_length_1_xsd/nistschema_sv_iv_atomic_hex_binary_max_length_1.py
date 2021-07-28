@@ -13,6 +13,7 @@ class NistschemaSvIvAtomicHexBinaryMaxLength1:
     value: Optional[bytes] = field(
         default=None,
         metadata={
+            "required": True,
             "max_length": 1,
             "format": "base16",
         }

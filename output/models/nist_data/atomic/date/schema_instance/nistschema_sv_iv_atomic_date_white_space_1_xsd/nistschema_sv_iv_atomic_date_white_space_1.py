@@ -14,6 +14,7 @@ class NistschemaSvIvAtomicDateWhiteSpace1:
     value: Optional[XmlDate] = field(
         default=None,
         metadata={
+            "required": True,
             "white_space": "collapse",
         }
     )

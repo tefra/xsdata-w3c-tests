@@ -23,5 +23,8 @@ class NistschemaSvIvAtomicDecimalEnumeration5:
         namespace = "NISTSchema-SV-IV-atomic-decimal-enumeration-5-NS"
 
     value: Optional[NistschemaSvIvAtomicDecimalEnumeration5Type] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )

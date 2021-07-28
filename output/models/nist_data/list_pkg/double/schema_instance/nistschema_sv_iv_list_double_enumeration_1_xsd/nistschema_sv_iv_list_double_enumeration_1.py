@@ -83,5 +83,8 @@ class NistschemaSvIvListDoubleEnumeration1:
         namespace = "NISTSchema-SV-IV-list-double-enumeration-1-NS"
 
     value: Optional[NistschemaSvIvListDoubleEnumeration1Type] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )

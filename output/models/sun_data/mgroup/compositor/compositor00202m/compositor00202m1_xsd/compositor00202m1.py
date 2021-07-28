@@ -11,7 +11,10 @@ class A:
         namespace = "compositor"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 

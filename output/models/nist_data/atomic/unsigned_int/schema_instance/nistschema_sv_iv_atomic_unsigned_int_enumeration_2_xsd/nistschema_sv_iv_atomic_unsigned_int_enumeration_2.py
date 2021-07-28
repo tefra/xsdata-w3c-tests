@@ -24,5 +24,8 @@ class NistschemaSvIvAtomicUnsignedIntEnumeration2:
         namespace = "NISTSchema-SV-IV-atomic-unsignedInt-enumeration-2-NS"
 
     value: Optional[NistschemaSvIvAtomicUnsignedIntEnumeration2Type] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )

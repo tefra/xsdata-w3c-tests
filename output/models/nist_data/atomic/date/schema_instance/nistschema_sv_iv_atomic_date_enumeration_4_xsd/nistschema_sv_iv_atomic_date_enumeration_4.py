@@ -22,5 +22,8 @@ class NistschemaSvIvAtomicDateEnumeration4:
         namespace = "NISTSchema-SV-IV-atomic-date-enumeration-4-NS"
 
     value: Optional[NistschemaSvIvAtomicDateEnumeration4Type] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )

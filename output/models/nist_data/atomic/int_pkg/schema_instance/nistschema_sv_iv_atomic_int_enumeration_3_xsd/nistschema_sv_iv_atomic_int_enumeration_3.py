@@ -23,5 +23,8 @@ class NistschemaSvIvAtomicIntEnumeration3:
         namespace = "NISTSchema-SV-IV-atomic-int-enumeration-3-NS"
 
     value: Optional[NistschemaSvIvAtomicIntEnumeration3Type] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )

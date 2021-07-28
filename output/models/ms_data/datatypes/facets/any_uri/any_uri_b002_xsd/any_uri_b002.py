@@ -15,7 +15,10 @@ class Ct:
         name = "ct"
 
     value: Optional[St] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
     att: Optional[St] = field(
         default=None,

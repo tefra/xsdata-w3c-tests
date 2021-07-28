@@ -13,6 +13,7 @@ class Uid:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
+            "required": True,
         }
     )
 

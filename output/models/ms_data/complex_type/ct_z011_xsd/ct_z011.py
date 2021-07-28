@@ -12,6 +12,7 @@ class A:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
+            "required": True,
         }
     )
 
@@ -40,5 +41,6 @@ class B:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
+            "required": True,
         }
     )

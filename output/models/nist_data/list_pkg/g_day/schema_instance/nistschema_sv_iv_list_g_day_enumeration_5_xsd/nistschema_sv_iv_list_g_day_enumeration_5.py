@@ -77,5 +77,8 @@ class NistschemaSvIvListGDayEnumeration5:
         namespace = "NISTSchema-SV-IV-list-gDay-enumeration-5-NS"
 
     value: Optional[NistschemaSvIvListGDayEnumeration5Type] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )

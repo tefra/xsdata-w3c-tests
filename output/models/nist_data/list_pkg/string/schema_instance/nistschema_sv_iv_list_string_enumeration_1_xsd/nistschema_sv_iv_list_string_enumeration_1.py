@@ -102,5 +102,8 @@ class NistschemaSvIvListStringEnumeration1:
         namespace = "NISTSchema-SV-IV-list-string-enumeration-1-NS"
 
     value: Optional[NistschemaSvIvListStringEnumeration1Type] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )

@@ -21,7 +21,10 @@ class Ttype:
     @dataclass
     class Row:
         value: Optional[str] = field(
-            default=None
+            default=None,
+            metadata={
+                "required": True,
+            }
         )
         col: Optional[str] = field(
             default=None,

@@ -13,6 +13,7 @@ class NistschemaSvIvAtomicPositiveIntegerMinInclusive3:
     value: Optional[int] = field(
         default=None,
         metadata={
+            "required": True,
             "min_inclusive": 828758841369869991,
         }
     )

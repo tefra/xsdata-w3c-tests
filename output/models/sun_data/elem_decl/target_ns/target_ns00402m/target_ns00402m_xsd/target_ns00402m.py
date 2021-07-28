@@ -9,5 +9,6 @@ class Global:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
+            "required": True,
         }
     )

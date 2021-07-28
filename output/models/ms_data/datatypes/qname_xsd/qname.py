@@ -24,7 +24,10 @@ class SimpleTest:
         name = "simpleTest"
 
     value: Optional[QName] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 

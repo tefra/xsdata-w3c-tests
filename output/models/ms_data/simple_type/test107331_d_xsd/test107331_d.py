@@ -8,7 +8,10 @@ class A:
         name = "a"
 
     value: Optional[object] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -18,7 +21,10 @@ class B:
         name = "b"
 
     value: Optional[float] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -54,7 +60,10 @@ class Item:
         name = "item"
 
     value: Optional[object] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 

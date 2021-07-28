@@ -13,6 +13,7 @@ class A:
     value: Optional[str] = field(
         default=None,
         metadata={
+            "required": True,
             "pattern": r"[b|c]+",
         }
     )

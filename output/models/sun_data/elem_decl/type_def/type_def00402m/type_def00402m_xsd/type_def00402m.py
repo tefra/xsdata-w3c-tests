@@ -33,7 +33,10 @@ class Global:
         namespace = "ElemDecl/typeDef"
 
     value: Optional[bool] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 

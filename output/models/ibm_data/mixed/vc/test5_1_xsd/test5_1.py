@@ -5,5 +5,8 @@ from typing import Optional
 @dataclass
 class Example:
     value: Optional[int] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )

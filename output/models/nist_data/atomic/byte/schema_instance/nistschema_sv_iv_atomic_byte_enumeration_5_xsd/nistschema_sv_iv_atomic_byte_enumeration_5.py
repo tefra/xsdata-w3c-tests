@@ -24,5 +24,8 @@ class NistschemaSvIvAtomicByteEnumeration5:
         namespace = "NISTSchema-SV-IV-atomic-byte-enumeration-5-NS"
 
     value: Optional[NistschemaSvIvAtomicByteEnumeration5Type] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )

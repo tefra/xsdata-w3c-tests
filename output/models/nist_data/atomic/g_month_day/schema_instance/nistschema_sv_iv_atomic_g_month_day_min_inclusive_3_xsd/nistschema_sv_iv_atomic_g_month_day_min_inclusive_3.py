@@ -14,6 +14,7 @@ class NistschemaSvIvAtomicGMonthDayMinInclusive3:
     value: Optional[XmlPeriod] = field(
         default=None,
         metadata={
+            "required": True,
             "min_inclusive": XmlPeriod("--07-02"),
         }
     )

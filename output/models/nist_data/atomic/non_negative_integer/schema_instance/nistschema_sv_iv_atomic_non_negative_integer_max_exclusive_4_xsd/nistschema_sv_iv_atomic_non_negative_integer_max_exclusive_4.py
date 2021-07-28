@@ -13,6 +13,7 @@ class NistschemaSvIvAtomicNonNegativeIntegerMaxExclusive4:
     value: Optional[int] = field(
         default=None,
         metadata={
+            "required": True,
             "max_exclusive": 486042717509224675,
         }
     )

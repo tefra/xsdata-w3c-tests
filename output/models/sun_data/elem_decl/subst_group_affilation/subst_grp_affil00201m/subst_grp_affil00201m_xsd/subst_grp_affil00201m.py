@@ -14,6 +14,7 @@ class Element:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
+            "required": True,
         }
     )
 
@@ -28,6 +29,7 @@ class SuperElement:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
+            "required": True,
         }
     )
 
@@ -42,6 +44,7 @@ class SuperSuperElement:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
+            "required": True,
         }
     )
 

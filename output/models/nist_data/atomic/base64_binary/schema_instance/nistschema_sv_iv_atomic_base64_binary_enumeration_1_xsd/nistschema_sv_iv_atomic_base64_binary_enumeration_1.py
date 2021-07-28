@@ -22,6 +22,7 @@ class NistschemaSvIvAtomicBase64BinaryEnumeration1:
     value: Optional[NistschemaSvIvAtomicBase64BinaryEnumeration1Type] = field(
         default=None,
         metadata={
+            "required": True,
             "format": "base64",
         }
     )

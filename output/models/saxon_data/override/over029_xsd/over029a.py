@@ -11,5 +11,8 @@ class GiftWrap:
         namespace = "http://datypic.com/spc"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )

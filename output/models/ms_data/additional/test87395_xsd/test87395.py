@@ -16,7 +16,10 @@ class A:
         namespace = "foo"
 
     value: Optional[St] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 

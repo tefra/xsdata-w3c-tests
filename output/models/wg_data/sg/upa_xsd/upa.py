@@ -11,7 +11,10 @@ class E:
         namespace = "http://www.w3.org/XML/2008/xsdl-exx/ns1"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -26,6 +29,7 @@ class E1:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
+            "required": True,
         }
     )
 

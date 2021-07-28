@@ -70,7 +70,10 @@ class AllThemSemanticsAndToolReferenceAndTheIncludeImprove:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-4-NS"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -81,7 +84,10 @@ class AndAddressingPartnershipsAAndDataTool:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-4-NS"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -92,7 +98,10 @@ class ContainingUsedVisiblyTestConsortiumsThisSecurityProf:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-4-NS"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -103,7 +112,10 @@ class HamperedOnHasBackMeasureAndBrowsersInvestigatio:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-4-NS"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -114,7 +126,10 @@ class OfMustInLiesTheRequestingStructureSyst:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-4-NS"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -125,7 +140,10 @@ class SpecificationCalledCorrectio:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-4-NS"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -136,7 +154,10 @@ class TestFrameworksTechnicalWirel:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-4-NS"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -147,7 +168,10 @@ class AcareFileSecurityFile:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-4-NS"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -158,7 +182,10 @@ class Area:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-4-NS"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -169,7 +196,10 @@ class DbasisAndContainsThatAnd2000ParadigmRevolutionDes:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-4-NS"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -180,7 +210,10 @@ class IisDesktopInformationIn:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-4-NS"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -191,7 +224,10 @@ class KsupplyOfferSUsingYea:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-4-NS"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -202,7 +238,10 @@ class MenvironmentForSupplyOfDevel:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-4-NS"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -213,7 +252,10 @@ class QalsoCorrectionInContextRichAndIsD:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-4-NS"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -224,7 +266,10 @@ class SofAsAndTheIndustrySoftwareAndTheNetworksCompetence:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-4-NS"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -235,7 +280,10 @@ class VandConsor:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-4-NS"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -246,7 +294,10 @@ class XcompetenceBusinessAndIsDyn:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-4-NS"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -257,5 +308,8 @@ class NistschemaSvIvListQnameEnumeration4:
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-4-NS"
 
     value: Optional[NistschemaSvIvListQnameEnumeration4Type] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )

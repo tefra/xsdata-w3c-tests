@@ -8,7 +8,10 @@ class Rtype:
         name = "rtype"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
     val: Optional[str] = field(
         default=None,

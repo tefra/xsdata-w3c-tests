@@ -14,6 +14,7 @@ class NistschemaSvIvAtomicGMonthDayWhiteSpace1:
     value: Optional[XmlPeriod] = field(
         default=None,
         metadata={
+            "required": True,
             "white_space": "collapse",
         }
     )

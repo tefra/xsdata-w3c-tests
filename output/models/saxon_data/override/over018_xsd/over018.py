@@ -12,5 +12,8 @@ class Doc:
         namespace = "http://example.com/over018"
 
     value: Optional[XmlDate] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )

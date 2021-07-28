@@ -8,7 +8,10 @@ class T2:
         name = "t2"
 
     value: Optional[object] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
     att: Optional[object] = field(
         default=None,

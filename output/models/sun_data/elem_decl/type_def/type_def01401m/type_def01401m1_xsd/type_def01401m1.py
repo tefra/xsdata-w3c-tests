@@ -12,5 +12,8 @@ class Root:
         namespace = "ElemDecl/typeDef"
 
     value: Optional[int] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )

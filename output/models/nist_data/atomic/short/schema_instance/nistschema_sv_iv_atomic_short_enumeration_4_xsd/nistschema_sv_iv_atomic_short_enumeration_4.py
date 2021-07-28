@@ -21,5 +21,8 @@ class NistschemaSvIvAtomicShortEnumeration4:
         namespace = "NISTSchema-SV-IV-atomic-short-enumeration-4-NS"
 
     value: Optional[NistschemaSvIvAtomicShortEnumeration4Type] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )

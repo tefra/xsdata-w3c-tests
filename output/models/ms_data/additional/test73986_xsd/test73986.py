@@ -14,6 +14,7 @@ class Root:
     value: Optional[QName] = field(
         default=None,
         metadata={
+            "required": True,
             "max_length": 5,
         }
     )

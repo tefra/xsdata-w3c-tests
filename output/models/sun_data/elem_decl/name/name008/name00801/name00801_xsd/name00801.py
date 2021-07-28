@@ -11,7 +11,10 @@ class AA:
         namespace = "ElemDecl/name"
 
     value: Optional[int] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -22,7 +25,10 @@ class BB:
         namespace = "ElemDecl/name"
 
     value: Optional[int] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -33,7 +39,10 @@ class CC:
         namespace = "ElemDecl/name"
 
     value: Optional[int] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -44,7 +53,10 @@ class DD:
         namespace = "ElemDecl/name"
 
     value: Optional[int] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -55,7 +67,10 @@ class EE:
         namespace = "ElemDecl/name"
 
     value: Optional[int] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -66,7 +81,10 @@ class FF:
         namespace = "ElemDecl/name"
 
     value: Optional[int] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -77,7 +95,10 @@ class GG:
         namespace = "ElemDecl/name"
 
     value: Optional[int] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 

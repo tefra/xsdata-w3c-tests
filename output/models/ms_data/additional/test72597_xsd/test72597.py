@@ -18,7 +18,10 @@ class A:
     @dataclass
     class Part:
         value: Optional[str] = field(
-            default=None
+            default=None,
+            metadata={
+                "required": True,
+            }
         )
         number: Optional[int] = field(
             default=None,

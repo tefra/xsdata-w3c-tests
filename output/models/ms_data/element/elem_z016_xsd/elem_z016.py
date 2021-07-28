@@ -43,7 +43,10 @@ class Id:
         name = "ID"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -53,7 +56,10 @@ class Idref:
         name = "IDREF"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 

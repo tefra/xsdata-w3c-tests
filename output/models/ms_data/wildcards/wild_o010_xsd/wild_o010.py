@@ -11,7 +11,10 @@ class Foo:
         namespace = "http://foobar"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
     local_w3_org_1999_xhtml_attributes: Dict[str, str] = field(
         default_factory=dict,

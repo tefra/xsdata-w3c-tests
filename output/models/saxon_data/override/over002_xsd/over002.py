@@ -9,5 +9,8 @@ class Para:
         name = "para"
 
     value: Optional[XmlDateTime] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )

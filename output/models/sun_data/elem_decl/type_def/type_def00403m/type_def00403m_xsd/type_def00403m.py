@@ -63,7 +63,10 @@ class Global:
         namespace = "ElemDecl/typeDef"
 
     value: Optional[bool] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -75,6 +78,7 @@ class GlobalPreDefinedType:
     value: Optional[str] = field(
         default=None,
         metadata={
+            "required": True,
             "pattern": r"1|true",
         }
     )

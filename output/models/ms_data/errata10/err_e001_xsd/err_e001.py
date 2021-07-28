@@ -27,5 +27,8 @@ class TestElement:
         namespace = "http://www.tempuri.org"
 
     value: Optional[int] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )

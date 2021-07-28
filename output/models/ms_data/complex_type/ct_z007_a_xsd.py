@@ -8,7 +8,10 @@ class Address:
         namespace = "urn:xmlns:25hoursaday-com:address"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -18,7 +21,10 @@ class City:
         namespace = "urn:xmlns:25hoursaday-com:address"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -84,7 +90,10 @@ class FirstName:
         namespace = "urn:xmlns:25hoursaday-com:customer"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -94,7 +103,10 @@ class LastName:
         namespace = "urn:xmlns:25hoursaday-com:customer"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -104,7 +116,10 @@ class PhoneNumber:
         namespace = "urn:xmlns:25hoursaday-com:customer"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 

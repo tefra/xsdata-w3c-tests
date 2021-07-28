@@ -13,6 +13,7 @@ class NistschemaSvIvAtomicAnyUriLength5:
     value: Optional[str] = field(
         default=None,
         metadata={
+            "required": True,
             "length": 63,
         }
     )

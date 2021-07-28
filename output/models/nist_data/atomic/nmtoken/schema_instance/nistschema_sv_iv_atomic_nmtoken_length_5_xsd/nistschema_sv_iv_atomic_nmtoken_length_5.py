@@ -13,6 +13,7 @@ class NistschemaSvIvAtomicNmtokenLength5:
     value: Optional[str] = field(
         default=None,
         metadata={
+            "required": True,
             "length": 64,
         }
     )

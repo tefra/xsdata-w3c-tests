@@ -88,5 +88,8 @@ class NistschemaSvIvListDurationEnumeration2:
         namespace = "NISTSchema-SV-IV-list-duration-enumeration-2-NS"
 
     value: Optional[NistschemaSvIvListDurationEnumeration2Type] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )

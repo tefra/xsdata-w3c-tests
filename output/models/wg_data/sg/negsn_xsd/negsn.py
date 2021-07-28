@@ -44,7 +44,10 @@ class E:
         namespace = "http://www.w3.org/XML/2008/xsdl-exx/ns1"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -55,7 +58,10 @@ class N:
         namespace = "http://www.w3.org/XML/2008/xsdl-exx/ns1"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -66,7 +72,10 @@ class N1:
         namespace = "http://www.w3.org/XML/2008/xsdl-exx/ns1"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -77,7 +86,10 @@ class S:
         namespace = "http://www.w3.org/XML/2008/xsdl-exx/ns1"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -88,7 +100,10 @@ class S1:
         namespace = "http://www.w3.org/XML/2008/xsdl-exx/ns1"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 

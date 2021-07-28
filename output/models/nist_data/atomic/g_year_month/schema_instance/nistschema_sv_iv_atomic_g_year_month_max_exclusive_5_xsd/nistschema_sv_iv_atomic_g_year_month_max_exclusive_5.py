@@ -14,6 +14,7 @@ class NistschemaSvIvAtomicGYearMonthMaxExclusive5:
     value: Optional[XmlPeriod] = field(
         default=None,
         metadata={
+            "required": True,
             "max_exclusive": XmlPeriod("2030-12"),
         }
     )

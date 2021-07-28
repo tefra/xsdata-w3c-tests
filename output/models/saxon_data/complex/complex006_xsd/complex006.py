@@ -10,7 +10,10 @@ class Root:
         nillable = True
 
     value: Optional[Decimal] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
     nil: str = field(
         default="true",

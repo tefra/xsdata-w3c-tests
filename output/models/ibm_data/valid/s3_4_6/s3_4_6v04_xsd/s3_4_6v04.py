@@ -33,7 +33,10 @@ class Root:
         namespace = "http://xstest-tns/schema11_S3_4_6"
 
     value: Optional[int] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 

@@ -13,6 +13,7 @@ class NistschemaSvIvAtomicIntMinExclusive5:
     value: Optional[int] = field(
         default=None,
         metadata={
+            "required": True,
             "min_exclusive": 2147483646,
         }
     )

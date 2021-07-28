@@ -61,7 +61,10 @@ class Bar:
         name = "bar"
 
     value: Optional[St] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 

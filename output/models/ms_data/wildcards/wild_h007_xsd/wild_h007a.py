@@ -11,5 +11,8 @@ class B:
         namespace = "http://www.w3.org/1999/xhtml"
 
     value: Optional[str] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )

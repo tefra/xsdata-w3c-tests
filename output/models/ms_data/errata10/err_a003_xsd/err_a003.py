@@ -28,7 +28,10 @@ class TestElement:
         namespace = "http://www.tempuri.org"
 
     value: Optional[XmlPeriod] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 

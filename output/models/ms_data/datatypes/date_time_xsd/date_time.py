@@ -24,7 +24,10 @@ class SimpleTest:
         name = "simpleTest"
 
     value: Optional[XmlDateTime] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 

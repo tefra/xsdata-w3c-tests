@@ -13,6 +13,7 @@ class NistschemaSvIvAtomicIntegerMaxInclusive4:
     value: Optional[int] = field(
         default=None,
         metadata={
+            "required": True,
             "max_inclusive": -2761698266856349,
         }
     )

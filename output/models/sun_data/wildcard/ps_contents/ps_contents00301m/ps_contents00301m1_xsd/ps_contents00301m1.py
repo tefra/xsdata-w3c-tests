@@ -27,5 +27,8 @@ class Date:
         namespace = "psContents"
 
     value: Optional[XmlDate] = field(
-        default=None
+        default=None,
+        metadata={
+            "required": True,
+        }
     )

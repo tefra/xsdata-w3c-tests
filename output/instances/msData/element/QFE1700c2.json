@@ -17,5 +17,7 @@
             "{http://www.w3.org/2001/XMLSchema-instance}nil": "false"
         }
     },
-    "e2": null
+    "e2": {
+        "content": []
+    }
 }

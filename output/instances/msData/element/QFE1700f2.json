@@ -1,6 +1,8 @@
 {
     "uid": [
-        null,
+        {
+            "any_element": null
+        },
         {
             "any_element": null
         }

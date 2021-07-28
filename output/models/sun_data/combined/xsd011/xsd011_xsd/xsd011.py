@@ -15,6 +15,7 @@ class Nillable1:
         default=None,
         metadata={
             "type": "Element",
+            "required": True,
         }
     )
 
@@ -30,6 +31,7 @@ class Nillable2:
         default_factory=list,
         metadata={
             "min_length": 2,
+            "nillable": True,
             "tokens": True,
         }
     )

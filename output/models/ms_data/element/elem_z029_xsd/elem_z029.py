@@ -9,8 +9,8 @@ class Doc:
         nillable = True
 
     value: Optional[str] = field(
-        default=None,
+        default="abc",
         metadata={
-            "required": True,
+            "nillable": True,
         }
     )

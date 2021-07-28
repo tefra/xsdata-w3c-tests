@@ -14,6 +14,6 @@ class Root:
     value: Optional[bool] = field(
         default=None,
         metadata={
-            "required": True,
+            "nillable": True,
         }
     )

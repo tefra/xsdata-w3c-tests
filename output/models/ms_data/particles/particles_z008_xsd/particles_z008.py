@@ -50,8 +50,8 @@ class Head2:
     class Meta:
         namespace = "urn:my-namespace"
 
-    value: Optional[str] = field(
-        default=None,
+    value: str = field(
+        default="",
         metadata={
             "required": True,
         }
@@ -63,8 +63,8 @@ class Member2:
     class Meta:
         namespace = "urn:my-namespace"
 
-    value: Optional[str] = field(
-        default=None,
+    value: str = field(
+        default="",
         metadata={
             "required": True,
         }

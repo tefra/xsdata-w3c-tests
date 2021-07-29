@@ -3,19 +3,19 @@
         {
             "section": [
                 {
-                    "value": null,
+                    "value": "",
                     "nr": "1"
                 },
                 {
-                    "value": null,
+                    "value": "",
                     "nr": "2"
                 },
                 {
-                    "value": null,
+                    "value": "",
                     "nr": "3"
                 },
                 {
-                    "value": null,
+                    "value": "",
                     "nr": "4"
                 }
             ]
@@ -25,19 +25,19 @@
             "value": {
                 "section": [
                     {
-                        "value": null,
+                        "value": "",
                         "nr": "1"
                     },
                     {
-                        "value": null,
+                        "value": "",
                         "nr": "2"
                     },
                     {
-                        "value": null,
+                        "value": "",
                         "nr": "3"
                     },
                     {
-                        "value": null,
+                        "value": "",
                         "nr": "4"
                     }
                 ]

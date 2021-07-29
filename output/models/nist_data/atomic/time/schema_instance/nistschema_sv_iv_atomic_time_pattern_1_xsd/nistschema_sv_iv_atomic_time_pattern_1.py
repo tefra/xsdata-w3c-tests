@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "NISTSchema-SV-IV-atomic-time-pattern-1-NS"
 
@@ -10,8 +9,8 @@ class NistschemaSvIvAtomicTimePattern1:
         name = "NISTSchema-SV-IV-atomic-time-pattern-1"
         namespace = "NISTSchema-SV-IV-atomic-time-pattern-1-NS"
 
-    value: Optional[str] = field(
-        default=None,
+    value: str = field(
+        default="",
         metadata={
             "required": True,
             "pattern": r"\d9:\d2:5\d",

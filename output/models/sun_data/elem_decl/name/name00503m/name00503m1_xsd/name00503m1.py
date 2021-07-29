@@ -9,8 +9,8 @@ class Global1:
     class Meta:
         namespace = "ElemDecl/name"
 
-    value: Optional[str] = field(
-        default=None,
+    value: str = field(
+        default="",
         metadata={
             "pattern": r"false",
         }
@@ -22,8 +22,8 @@ class Global2:
     class Meta:
         namespace = "ElemDecl/name"
 
-    value: Optional[str] = field(
-        default=None,
+    value: str = field(
+        default="",
         metadata={
             "pattern": r"false",
         }
@@ -41,6 +41,5 @@ class Root:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-            "required": True,
         }
     )

@@ -15,7 +15,6 @@ class ExtRefType:
             "name": "impE1",
             "type": "Element",
             "namespace": "http://importedXSD",
-            "required": True,
         }
     )
     imp_e2: Optional[object] = field(
@@ -24,7 +23,6 @@ class ExtRefType:
             "name": "impE2",
             "type": "Element",
             "namespace": "http://importedXSD",
-            "required": True,
         }
     )
     imp_a1: Optional[str] = field(
@@ -53,7 +51,6 @@ class ImpBase:
         metadata={
             "type": "Element",
             "namespace": "http://importedXSD",
-            "required": True,
         }
     )
 
@@ -69,7 +66,6 @@ class ImpElem1:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-            "required": True,
         }
     )
 

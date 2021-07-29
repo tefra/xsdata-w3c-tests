@@ -23,7 +23,6 @@ class R(B):
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
 

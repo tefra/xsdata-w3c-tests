@@ -6,7 +6,7 @@ class Ct:
     class Meta:
         name = "ct"
 
-    a: object = field(
+    a: str = field(
         init=False,
         default="fixed_value",
         metadata={

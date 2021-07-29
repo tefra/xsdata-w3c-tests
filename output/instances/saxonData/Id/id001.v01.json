@@ -1,17 +1,17 @@
 {
     "para": [
         {
-            "value": null,
+            "value": "",
             "id-one": "aaa",
             "id-two": "bbb"
         },
         {
-            "value": null,
+            "value": "",
             "id-one": "ccc",
             "id-two": "ddd"
         },
         {
-            "value": null,
+            "value": "",
             "id-one": "eee",
             "id-two": "eee"
         }

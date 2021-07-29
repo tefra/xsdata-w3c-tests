@@ -18,7 +18,6 @@ class Ct1:
         default=None,
         metadata={
             "type": "Element",
-            "required": True,
         }
     )
 
@@ -32,7 +31,6 @@ class Ct2:
         default=None,
         metadata={
             "type": "Element",
-            "required": True,
         }
     )
     any_element: Optional[object] = field(
@@ -90,7 +88,6 @@ class Ct4:
                     "type": object,
                 },
             ),
-            "min_occurs": 1,
             "max_occurs": 3,
         }
     )
@@ -105,7 +102,6 @@ class Ct5:
         default=None,
         metadata={
             "type": "Element",
-            "required": True,
         }
     )
     any_element: List[object] = field(
@@ -127,7 +123,6 @@ class Ct6:
         default=None,
         metadata={
             "type": "Element",
-            "required": True,
         }
     )
     any_element: List[object] = field(
@@ -150,7 +145,6 @@ class Element1:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-            "required": True,
         }
     )
 
@@ -165,7 +159,6 @@ class Element2:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-            "required": True,
         }
     )
 
@@ -180,7 +173,6 @@ class Element3:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-            "required": True,
         }
     )
 

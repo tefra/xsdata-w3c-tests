@@ -3,22 +3,22 @@
         {
             "section": [
                 {
-                    "value": null,
+                    "value": "",
                     "nr": "1",
                     "ref": "4"
                 },
                 {
-                    "value": null,
+                    "value": "",
                     "nr": "2",
                     "ref": "3"
                 },
                 {
-                    "value": null,
+                    "value": "",
                     "nr": "3",
                     "ref": "2"
                 },
                 {
-                    "value": null,
+                    "value": "",
                     "nr": "4",
                     "ref": "1"
                 }
@@ -29,22 +29,22 @@
             "value": {
                 "section": [
                     {
-                        "value": null,
+                        "value": "",
                         "nr": "1",
                         "ref": "1"
                     },
                     {
-                        "value": null,
+                        "value": "",
                         "nr": "2",
                         "ref": "2"
                     },
                     {
-                        "value": null,
+                        "value": "",
                         "nr": "3",
                         "ref": "3"
                     },
                     {
-                        "value": null,
+                        "value": "",
                         "nr": "4",
                         "ref": "4"
                     }

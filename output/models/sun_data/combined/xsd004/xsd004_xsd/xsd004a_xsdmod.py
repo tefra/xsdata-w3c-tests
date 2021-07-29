@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "bar"
 
@@ -10,8 +9,8 @@ class A:
         name = "a"
         namespace = "bar"
 
-    value: Optional[str] = field(
-        default=None,
+    value: str = field(
+        default="",
         metadata={
             "required": True,
         }
@@ -24,8 +23,8 @@ class B:
         name = "b"
         namespace = "bar"
 
-    value: Optional[str] = field(
-        default=None,
+    value: str = field(
+        default="",
         metadata={
             "required": True,
         }
@@ -38,8 +37,8 @@ class C:
         name = "c"
         namespace = "bar"
 
-    value: Optional[str] = field(
-        default=None,
+    value: str = field(
+        default="",
         metadata={
             "required": True,
         }

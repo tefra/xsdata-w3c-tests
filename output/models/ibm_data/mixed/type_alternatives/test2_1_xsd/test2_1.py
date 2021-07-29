@@ -47,8 +47,8 @@ class Example:
 
     @dataclass
     class KindMesg:
-        value: Optional[str] = field(
-            default=None,
+        value: str = field(
+            default="",
             metadata={
                 "required": True,
             }

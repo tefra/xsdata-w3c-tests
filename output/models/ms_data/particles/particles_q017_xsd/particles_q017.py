@@ -12,7 +12,6 @@ class B:
         metadata={
             "type": "Element",
             "namespace": "http://xsdtesting",
-            "required": True,
         }
     )
     any_element: List[object] = field(
@@ -32,7 +31,6 @@ class R:
         metadata={
             "type": "Element",
             "namespace": "http://xsdtesting",
-            "required": True,
         }
     )
     any_element: List[object] = field(

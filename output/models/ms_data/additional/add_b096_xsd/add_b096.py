@@ -26,7 +26,6 @@ class Elem(ComplexType):
             "name": "groupElem",
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     att2: Optional[str] = field(

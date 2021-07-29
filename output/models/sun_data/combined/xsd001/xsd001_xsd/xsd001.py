@@ -22,8 +22,8 @@ class Root:
 
     @dataclass
     class Child:
-        value: Optional[str] = field(
-            default=None,
+        value: str = field(
+            default="",
             metadata={
                 "required": True,
                 "min_length": 3,

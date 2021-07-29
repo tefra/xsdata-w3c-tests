@@ -14,7 +14,6 @@ class Base:
         metadata={
             "type": "Element",
             "namespace": "http://xsdtesting",
-            "required": True,
         }
     )
     e2: Optional[object] = field(

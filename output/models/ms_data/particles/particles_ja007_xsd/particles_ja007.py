@@ -22,7 +22,6 @@ class R(B):
         metadata={
             "type": "Element",
             "namespace": "http://xsdtesting",
-            "required": True,
         }
     )
 

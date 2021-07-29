@@ -12,7 +12,6 @@ class Elem:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     b1: Optional[object] = field(
@@ -20,7 +19,6 @@ class Elem:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     b2: Optional[object] = field(
@@ -28,7 +26,6 @@ class Elem:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
 

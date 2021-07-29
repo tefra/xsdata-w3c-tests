@@ -9,8 +9,8 @@ class Anyuri:
     class Meta:
         name = "anyuri"
 
-    value: Optional[str] = field(
-        default=None,
+    value: str = field(
+        default="",
         metadata={
             "required": True,
         }
@@ -113,8 +113,8 @@ class Entity:
     class Meta:
         name = "entity"
 
-    value: Optional[str] = field(
-        default=None,
+    value: str = field(
+        default="",
         metadata={
             "required": True,
         }
@@ -167,10 +167,7 @@ class Item:
         name = "item"
 
     value: Optional[object] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 
@@ -324,8 +321,8 @@ class String:
     class Meta:
         name = "string"
 
-    value: Optional[str] = field(
-        default=None,
+    value: str = field(
+        default="",
         metadata={
             "required": True,
         }

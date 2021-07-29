@@ -9,8 +9,8 @@ class Element:
     class Meta:
         namespace = "ElemDecl/typeDef"
 
-    value: Optional[str] = field(
-        default=None,
+    value: str = field(
+        default="",
         metadata={
             "required": True,
             "pattern": r"1|0",

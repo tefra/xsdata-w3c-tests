@@ -38,7 +38,6 @@ class Foo:
                     "namespace": "",
                 },
             ),
-            "min_occurs": 4,
             "max_occurs": 8,
         }
     )

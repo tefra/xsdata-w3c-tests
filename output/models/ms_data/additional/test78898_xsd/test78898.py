@@ -39,8 +39,8 @@ class E1:
     class Meta:
         name = "e1"
 
-    value: Optional[str] = field(
-        default=None,
+    value: str = field(
+        default="",
         metadata={
             "required": True,
             "length": 4,

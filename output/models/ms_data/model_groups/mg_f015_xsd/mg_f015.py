@@ -12,7 +12,6 @@ class Foo:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     two: Optional[object] = field(
@@ -20,7 +19,6 @@ class Foo:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     three: Optional[object] = field(
@@ -28,7 +26,6 @@ class Foo:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     four: Optional[object] = field(
@@ -36,7 +33,6 @@ class Foo:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     five: Optional[object] = field(

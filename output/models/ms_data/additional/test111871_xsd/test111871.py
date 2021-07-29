@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "http://www.w3.org/2001/XMLSchema"
 
@@ -10,8 +9,8 @@ class Title:
         name = "title"
         namespace = "http://www.w3.org/2001/XMLSchema"
 
-    value: Optional[str] = field(
-        default=None,
+    value: str = field(
+        default="",
         metadata={
             "required": True,
         }

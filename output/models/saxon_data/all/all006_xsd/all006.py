@@ -8,8 +8,8 @@ class C1:
     class Meta:
         name = "C"
 
-    value: Optional[str] = field(
-        default=None,
+    value: str = field(
+        default="",
         metadata={
             "pattern": r".*:00",
         }

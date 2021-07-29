@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "http://datypic.com/spc"
 
@@ -10,8 +9,8 @@ class GiftWrap:
         name = "giftWrap"
         namespace = "http://datypic.com/spc"
 
-    value: Optional[str] = field(
-        default=None,
+    value: str = field(
+        default="",
         metadata={
             "required": True,
         }

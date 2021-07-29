@@ -1,15 +1,15 @@
 {
     "e": [
         {
-            "value": null,
+            "value": "",
             "att": true
         },
         {
-            "value": null,
+            "value": "",
             "att": 5
         },
         {
-            "value": null,
+            "value": "",
             "att": "abc"
         }
     ]

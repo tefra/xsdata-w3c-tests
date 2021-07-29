@@ -23,7 +23,6 @@ class C1:
         metadata={
             "type": "Element",
             "namespace": "http://xstest-tns/schema11_S3_4_2_4",
-            "required": True,
         }
     )
     element2: List[object] = field(
@@ -39,6 +38,5 @@ class C1:
         metadata={
             "type": "Element",
             "namespace": "http://xstest-tns/schema11_S3_4_2_4",
-            "required": True,
         }
     )

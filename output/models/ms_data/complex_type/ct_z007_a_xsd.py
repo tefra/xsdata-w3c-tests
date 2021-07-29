@@ -7,8 +7,8 @@ class Address:
     class Meta:
         namespace = "urn:xmlns:25hoursaday-com:address"
 
-    value: Optional[str] = field(
-        default=None,
+    value: str = field(
+        default="",
         metadata={
             "required": True,
         }
@@ -20,8 +20,8 @@ class City:
     class Meta:
         namespace = "urn:xmlns:25hoursaday-com:address"
 
-    value: Optional[str] = field(
-        default=None,
+    value: str = field(
+        default="",
         metadata={
             "required": True,
         }
@@ -44,8 +44,8 @@ class Zip:
     class Meta:
         namespace = "urn:xmlns:25hoursaday-com:address"
 
-    value: Optional[str] = field(
-        default=None,
+    value: str = field(
+        default="",
         metadata={
             "pattern": r"\d{5}(-\d{4})?",
         }
@@ -89,8 +89,8 @@ class FirstName:
     class Meta:
         namespace = "urn:xmlns:25hoursaday-com:customer"
 
-    value: Optional[str] = field(
-        default=None,
+    value: str = field(
+        default="",
         metadata={
             "required": True,
         }
@@ -102,8 +102,8 @@ class LastName:
     class Meta:
         namespace = "urn:xmlns:25hoursaday-com:customer"
 
-    value: Optional[str] = field(
-        default=None,
+    value: str = field(
+        default="",
         metadata={
             "required": True,
         }
@@ -115,8 +115,8 @@ class PhoneNumber:
     class Meta:
         namespace = "urn:xmlns:25hoursaday-com:customer"
 
-    value: Optional[str] = field(
-        default=None,
+    value: str = field(
+        default="",
         metadata={
             "required": True,
         }

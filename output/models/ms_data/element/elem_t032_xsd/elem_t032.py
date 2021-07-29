@@ -70,7 +70,6 @@ class SA:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-            "required": True,
         }
     )
 
@@ -100,7 +99,6 @@ class Test2:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-            "required": True,
         }
     )
 
@@ -115,7 +113,6 @@ class ECa(Ca):
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
 

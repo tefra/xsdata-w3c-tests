@@ -13,7 +13,7 @@ class Ct:
             "namespace": "",
         }
     )
-    b: object = field(
+    b: str = field(
         init=False,
         default="fixed",
         metadata={

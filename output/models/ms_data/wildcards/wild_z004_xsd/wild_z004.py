@@ -30,6 +30,5 @@ class RootElem:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-            "required": True,
         }
     )

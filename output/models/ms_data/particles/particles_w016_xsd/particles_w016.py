@@ -23,7 +23,6 @@ class Ct1:
         metadata={
             "type": "Element",
             "namespace": "http://xsdtesting",
-            "required": True,
         }
     )
 
@@ -38,7 +37,6 @@ class Ct2:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     bar: Optional[object] = field(
@@ -46,7 +44,6 @@ class Ct2:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
 
@@ -106,7 +103,6 @@ class R:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     e3: Optional[object] = field(
@@ -114,7 +110,6 @@ class R:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
 

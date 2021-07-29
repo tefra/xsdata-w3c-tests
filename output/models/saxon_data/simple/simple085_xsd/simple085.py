@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from typing import Optional
 
 
 @dataclass
@@ -7,8 +6,8 @@ class Elem:
     class Meta:
         name = "elem"
 
-    value: Optional[str] = field(
-        default=None,
+    value: str = field(
+        default="",
         metadata={
             "white_space": "collapse",
             "pattern": r"Hello world",

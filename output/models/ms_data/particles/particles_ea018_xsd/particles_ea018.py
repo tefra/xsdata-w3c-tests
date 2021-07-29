@@ -14,35 +14,30 @@ class Doc:
         default=None,
         metadata={
             "type": "Element",
-            "required": True,
         }
     )
     a2: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
-            "required": True,
         }
     )
     a5: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
-            "required": True,
         }
     )
     a4: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
-            "required": True,
         }
     )
     a3: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
-            "required": True,
         }
     )
 
@@ -58,6 +53,5 @@ class Foo:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-            "required": True,
         }
     )

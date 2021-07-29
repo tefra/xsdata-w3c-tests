@@ -12,7 +12,6 @@ class Elem:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     a2: Optional[object] = field(
@@ -20,7 +19,6 @@ class Elem:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     a3: Optional[object] = field(
@@ -28,7 +26,6 @@ class Elem:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     a4: Optional[object] = field(
@@ -36,7 +33,6 @@ class Elem:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
 

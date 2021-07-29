@@ -24,8 +24,8 @@ class Root:
         name = "root"
         namespace = "http://xstest-tns/schema11_D3_4_28_v02"
 
-    value: Optional[str] = field(
-        default=None,
+    value: str = field(
+        default="",
         metadata={
             "required": True,
         }

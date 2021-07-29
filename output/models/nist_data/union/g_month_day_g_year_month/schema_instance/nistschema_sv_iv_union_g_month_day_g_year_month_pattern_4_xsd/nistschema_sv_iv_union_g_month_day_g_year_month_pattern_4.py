@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "NISTSchema-SV-IV-union-gMonthDay-gYearMonth-pattern-4-NS"
 
@@ -10,8 +9,8 @@ class NistschemaSvIvUnionGMonthDayGYearMonthPattern4:
         name = "NISTSchema-SV-IV-union-gMonthDay-gYearMonth-pattern-4"
         namespace = "NISTSchema-SV-IV-union-gMonthDay-gYearMonth-pattern-4-NS"
 
-    value: Optional[str] = field(
-        default=None,
+    value: str = field(
+        default="",
         metadata={
             "pattern": r"18\d\d-\d0",
         }

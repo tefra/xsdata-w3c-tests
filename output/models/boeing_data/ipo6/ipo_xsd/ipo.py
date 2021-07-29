@@ -50,8 +50,8 @@ class Comment:
         name = "comment"
         namespace = "http://www.example.com/IPO"
 
-    value: Optional[str] = field(
-        default=None,
+    value: str = field(
+        default="",
         metadata={
             "required": True,
         }
@@ -64,8 +64,8 @@ class CustomerComment:
         name = "customerComment"
         namespace = "http://www.example.com/IPO"
 
-    value: Optional[str] = field(
-        default=None,
+    value: str = field(
+        default="",
         metadata={
             "required": True,
         }
@@ -78,8 +78,8 @@ class ShipComment:
         name = "shipComment"
         namespace = "http://www.example.com/IPO"
 
-    value: Optional[str] = field(
-        default=None,
+    value: str = field(
+        default="",
         metadata={
             "required": True,
         }

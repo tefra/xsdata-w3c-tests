@@ -131,8 +131,8 @@ class Comment:
         name = "comment"
         namespace = "foo"
 
-    value: Optional[str] = field(
-        default=None,
+    value: str = field(
+        default="",
         metadata={
             "required": True,
         }

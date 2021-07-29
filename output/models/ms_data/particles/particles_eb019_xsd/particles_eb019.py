@@ -14,13 +14,11 @@ class Doc:
         default=None,
         metadata={
             "type": "Element",
-            "required": True,
         }
     )
     a2: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
-            "required": True,
         }
     )

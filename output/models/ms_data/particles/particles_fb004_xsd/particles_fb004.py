@@ -36,7 +36,6 @@ class Foo:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-            "required": True,
         }
     )
 
@@ -51,13 +50,11 @@ class Doc(Base):
         default=None,
         metadata={
             "type": "Element",
-            "required": True,
         }
     )
     s2: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
-            "required": True,
         }
     )

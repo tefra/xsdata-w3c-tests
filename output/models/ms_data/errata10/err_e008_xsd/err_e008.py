@@ -26,8 +26,8 @@ class TestToken:
         name = "testToken"
         namespace = "http://www.tempuri.org"
 
-    value: Optional[str] = field(
-        default=None,
+    value: str = field(
+        default="",
         metadata={
             "required": True,
         }

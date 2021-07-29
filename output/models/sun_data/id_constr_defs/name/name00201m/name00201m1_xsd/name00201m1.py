@@ -21,8 +21,8 @@ class Name:
 
     @dataclass
     class NameInner:
-        value: Optional[str] = field(
-            default=None,
+        value: str = field(
+            default="",
             metadata={
                 "required": True,
             }

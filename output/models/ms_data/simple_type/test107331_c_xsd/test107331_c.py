@@ -36,8 +36,8 @@ class B2:
     class Meta:
         name = "B"
 
-    value: Optional[str] = field(
-        default=None,
+    value: str = field(
+        default="",
         metadata={
             "required": True,
             "min_length": 0,
@@ -74,10 +74,7 @@ class Item:
         name = "item"
 
     value: Optional[object] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
 
 

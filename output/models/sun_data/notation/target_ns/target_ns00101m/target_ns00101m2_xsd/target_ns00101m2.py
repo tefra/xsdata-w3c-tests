@@ -16,8 +16,8 @@ class A:
         name = "a"
         namespace = "targetNS"
 
-    value: Optional[str] = field(
-        default=None,
+    value: str = field(
+        default="",
         metadata={
             "required": True,
         }

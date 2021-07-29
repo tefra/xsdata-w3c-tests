@@ -24,8 +24,8 @@ class InteroperabilitySLedAlsoSpecificationsProvideWithIsThu:
         name = "_interoperability.s.led_also-specifications_provide_with.is.thu"
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-4-NS"
 
-    value: Optional[str] = field(
-        default=None,
+    value: str = field(
+        default="",
         metadata={
             "required": True,
         }
@@ -38,8 +38,8 @@ class EtransformingSpecificEmergingIsDevelopedActRela:
         name = "etransforming-specific.emerging_is-developed.act_rela"
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-4-NS"
 
-    value: Optional[str] = field(
-        default=None,
+    value: str = field(
+        default="",
         metadata={
             "required": True,
         }
@@ -52,8 +52,8 @@ class TmanyRetrievalWithLanguageBothBeResultsIsOfB:
         name = "tmany-retrieval-with_language.both-be.results-is-of-b"
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-4-NS"
 
-    value: Optional[str] = field(
-        default=None,
+    value: str = field(
+        default="",
         metadata={
             "required": True,
         }
@@ -66,8 +66,8 @@ class UtheBaseTheAbilityIntoTargetTheTestabilityDiscove:
         name = "uthe.base_the_ability-into-target_the_testability-discove"
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-4-NS"
 
-    value: Optional[str] = field(
-        default=None,
+    value: str = field(
+        default="",
         metadata={
             "required": True,
         }
@@ -80,8 +80,8 @@ class YofAutomaticPartnershipsAndSetSeriesIsKeyE:
         name = "yof_automatic-partnerships.and.set-series_is.key.e"
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-4-NS"
 
-    value: Optional[str] = field(
-        default=None,
+    value: str = field(
+        default="",
         metadata={
             "required": True,
         }

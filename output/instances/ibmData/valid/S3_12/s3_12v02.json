@@ -4,25 +4,29 @@
             "type": "text",
             "content": [
                 "My News"
-            ]
+            ],
+            "value": ""
         },
         {
             "type": "number",
             "content": [
                 "122323"
-            ]
+            ],
+            "value": ""
         },
         {
             "type": "mixed",
             "content": [
                 "D413"
-            ]
+            ],
+            "value": ""
         },
         {
             "type": null,
             "content": [
                 "My News"
-            ]
+            ],
+            "value": ""
         }
     ]
 }

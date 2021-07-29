@@ -7,8 +7,8 @@ class Root:
     class Meta:
         name = "root"
 
-    value: Optional[Union[int, bool, str]] = field(
-        default=None
+    value: Union[int, bool, str] = field(
+        default=""
     )
     idref_attr: Optional[str] = field(
         default=None,

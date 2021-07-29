@@ -31,8 +31,8 @@ class FooType:
 
     @dataclass
     class Foo:
-        value: Optional[str] = field(
-            default=None,
+        value: str = field(
+            default="",
             metadata={
                 "required": True,
             }

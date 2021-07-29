@@ -14,7 +14,6 @@ class Foo:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     att: Optional[str] = field(
@@ -66,7 +65,6 @@ class B:
                     "namespace": "",
                 },
             ),
-            "min_occurs": 1,
         }
     )
 

@@ -12,7 +12,6 @@ class B:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     foo_bar_element: List[object] = field(
@@ -32,7 +31,6 @@ class R:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     foo_bar_element: List[object] = field(

@@ -7,8 +7,8 @@ class PseudoId:
     class Meta:
         name = "pseudoID"
 
-    value: Optional[str] = field(
-        default=None,
+    value: str = field(
+        default="",
         metadata={
             "required": True,
         }
@@ -26,8 +26,8 @@ class PseudoIdref:
     class Meta:
         name = "pseudoIDREF"
 
-    value: Optional[str] = field(
-        default=None,
+    value: str = field(
+        default="",
         metadata={
             "required": True,
         }

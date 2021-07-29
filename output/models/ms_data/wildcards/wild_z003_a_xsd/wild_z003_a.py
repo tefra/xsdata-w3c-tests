@@ -15,7 +15,6 @@ class Elt1:
         default=None,
         metadata={
             "type": "Element",
-            "required": True,
         }
     )
     elem: Optional[Elem] = field(

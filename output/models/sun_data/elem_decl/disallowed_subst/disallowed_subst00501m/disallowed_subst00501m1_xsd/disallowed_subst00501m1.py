@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import List
 
 __NAMESPACE__ = "ElemDecl/disallowedSubst"
 
@@ -9,8 +9,8 @@ class Head:
     class Meta:
         namespace = "ElemDecl/disallowedSubst"
 
-    value: Optional[str] = field(
-        default=None,
+    value: str = field(
+        default="",
         metadata={
             "required": True,
         }
@@ -22,8 +22,8 @@ class Member1:
     class Meta:
         namespace = "ElemDecl/disallowedSubst"
 
-    value: Optional[str] = field(
-        default=None,
+    value: str = field(
+        default="",
         metadata={
             "required": True,
         }

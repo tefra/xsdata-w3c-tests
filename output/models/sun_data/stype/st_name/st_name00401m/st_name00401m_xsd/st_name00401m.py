@@ -1,13 +1,12 @@
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "ST_name"
 
 
 @dataclass
 class Test:
-    value: Optional[str] = field(
-        default=None,
+    value: str = field(
+        default="",
         metadata={
             "required": True,
             "pattern": r"1|2|3",

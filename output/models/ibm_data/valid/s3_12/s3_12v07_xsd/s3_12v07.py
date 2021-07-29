@@ -9,8 +9,8 @@ class DimType:
     class Meta:
         name = "dimType"
 
-    value: Optional[str] = field(
-        default=None,
+    value: str = field(
+        default="",
         metadata={
             "required": True,
         }

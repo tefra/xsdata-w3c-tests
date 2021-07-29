@@ -40,8 +40,8 @@ class MixedTitleType(TitleType):
     class Meta:
         name = "mixedTitleType"
 
-    value: Optional[Union[int, str]] = field(
-        default=None
+    value: Union[int, str] = field(
+        default=""
     )
 
 
@@ -50,8 +50,8 @@ class StringTitleType(TitleType):
     class Meta:
         name = "stringTitleType"
 
-    value: Optional[str] = field(
-        default=None
+    value: str = field(
+        default=""
     )
 
 

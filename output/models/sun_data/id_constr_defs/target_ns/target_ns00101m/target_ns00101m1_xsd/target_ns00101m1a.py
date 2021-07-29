@@ -21,8 +21,8 @@ class Roota:
 
     @dataclass
     class Person:
-        value: Optional[str] = field(
-            default=None,
+        value: str = field(
+            default="",
             metadata={
                 "required": True,
             }

@@ -33,7 +33,6 @@ class Foo:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-            "required": True,
         }
     )
 
@@ -48,7 +47,6 @@ class Doc:
         default=None,
         metadata={
             "type": "Element",
-            "required": True,
         }
     )
     elem2: Optional[A] = field(

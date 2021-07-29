@@ -10,8 +10,8 @@ class Elem1:
         name = "elem1"
         namespace = "http://xstest-tns/ibms3_3_6_v01"
 
-    value: Optional[str] = field(
-        default=None,
+    value: str = field(
+        default="",
         metadata={
             "required": True,
         }
@@ -24,8 +24,8 @@ class Elem2:
         name = "elem2"
         namespace = "http://xstest-tns/ibms3_3_6_v01"
 
-    value: Optional[str] = field(
-        default=None,
+    value: str = field(
+        default="",
         metadata={
             "required": True,
         }

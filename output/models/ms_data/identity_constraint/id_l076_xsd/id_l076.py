@@ -15,8 +15,8 @@ class Ttype:
     class Meta:
         name = "ttype"
 
-    value: Optional[str] = field(
-        default=None,
+    value: str = field(
+        default="",
         metadata={
             "required": True,
         }

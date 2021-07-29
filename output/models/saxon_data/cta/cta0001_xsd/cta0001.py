@@ -76,8 +76,8 @@ class MessageTypeString(MessageType):
     class Meta:
         name = "messageTypeString"
 
-    value: Optional[str] = field(
-        default=None
+    value: str = field(
+        default=""
     )
 
 

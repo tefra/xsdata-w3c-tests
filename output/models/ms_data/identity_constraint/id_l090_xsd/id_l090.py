@@ -35,8 +35,8 @@ class T:
         name = "t"
         namespace = "myNS.tempuri.org"
 
-    value: Optional[str] = field(
-        default=None,
+    value: str = field(
+        default="",
         metadata={
             "required": True,
         }

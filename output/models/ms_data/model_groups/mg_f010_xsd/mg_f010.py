@@ -27,7 +27,6 @@ class Foo:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     c: Optional[bool] = field(

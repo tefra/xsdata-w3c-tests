@@ -15,7 +15,6 @@ class B:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     other_element: List[object] = field(
@@ -35,7 +34,6 @@ class R:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     other_element: List[object] = field(

@@ -12,7 +12,6 @@ class ComplexType:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
 

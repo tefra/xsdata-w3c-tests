@@ -7,8 +7,8 @@ class Rtype:
     class Meta:
         name = "rtype"
 
-    value: Optional[str] = field(
-        default=None,
+    value: str = field(
+        default="",
         metadata={
             "required": True,
         }

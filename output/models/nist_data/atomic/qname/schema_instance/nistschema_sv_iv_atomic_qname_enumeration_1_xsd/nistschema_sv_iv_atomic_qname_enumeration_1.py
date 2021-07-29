@@ -21,8 +21,8 @@ class ForBeProvideRelat:
         name = "_for.be_provide_relat"
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-1-NS"
 
-    value: Optional[str] = field(
-        default=None,
+    value: str = field(
+        default="",
         metadata={
             "required": True,
         }
@@ -35,8 +35,8 @@ class ThoseToBusinessAndIssuesDataFor:
         name = "_those-to_business_and.issues-data.for"
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-1-NS"
 
-    value: Optional[str] = field(
-        default=None,
+    value: str = field(
+        default="",
         metadata={
             "required": True,
         }
@@ -49,8 +49,8 @@ class RinfluenceCreateInformationReviewedAsRe:
         name = "rinfluence-create_information_reviewed_as.re"
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-1-NS"
 
-    value: Optional[str] = field(
-        default=None,
+    value: str = field(
+        default="",
         metadata={
             "required": True,
         }
@@ -63,8 +63,8 @@ class WspecificationsEmergingThatAndIs:
         name = "wspecifications.emerging.that_and.is_"
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-1-NS"
 
-    value: Optional[str] = field(
-        default=None,
+    value: str = field(
+        default="",
         metadata={
             "required": True,
         }

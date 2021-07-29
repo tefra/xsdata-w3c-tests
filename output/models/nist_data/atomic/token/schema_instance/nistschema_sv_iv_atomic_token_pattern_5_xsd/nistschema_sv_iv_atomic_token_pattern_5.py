@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "NISTSchema-SV-IV-atomic-token-pattern-5-NS"
 
@@ -10,8 +9,8 @@ class NistschemaSvIvAtomicTokenPattern5:
         name = "NISTSchema-SV-IV-atomic-token-pattern-5"
         namespace = "NISTSchema-SV-IV-atomic-token-pattern-5-NS"
 
-    value: Optional[str] = field(
-        default=None,
+    value: str = field(
+        default="",
         metadata={
             "required": True,
             "pattern": r"\d{1,5}\s([A-Z][a-z]{1,20}\s){2}Street\s([A-Z][a-z]{1,20}\s){2},\s[A-Z]{2}\s13926-1478",

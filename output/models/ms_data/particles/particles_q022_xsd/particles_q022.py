@@ -12,7 +12,6 @@ class B:
         metadata={
             "type": "Element",
             "namespace": "http://xsdtesting",
-            "required": True,
         }
     )
     local_element: List[object] = field(
@@ -33,7 +32,6 @@ class R:
             "name": "foo",
             "type": "Element",
             "namespace": "http://xsdtesting",
-            "required": True,
         }
     )
     local_element: List[object] = field(

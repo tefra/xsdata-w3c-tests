@@ -10,8 +10,8 @@ class Id:
         name = "ID"
         namespace = "ElemDecl/valueConstraint"
 
-    value: Optional[str] = field(
-        default=None,
+    value: str = field(
+        default="",
         metadata={
             "required": True,
         }
@@ -29,6 +29,5 @@ class Root:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-            "required": True,
         }
     )

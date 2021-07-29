@@ -21,8 +21,8 @@ class Chap:
 
     @dataclass
     class Section:
-        value: Optional[str] = field(
-            default=None,
+        value: str = field(
+            default="",
             metadata={
                 "required": True,
             }

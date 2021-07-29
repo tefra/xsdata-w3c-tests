@@ -12,7 +12,6 @@ class A1:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-            "required": True,
         }
     )
 
@@ -22,8 +21,8 @@ class A2:
     class Meta:
         name = "a"
 
-    value: Optional[str] = field(
-        default=None,
+    value: str = field(
+        default="",
         metadata={
             "required": True,
         }

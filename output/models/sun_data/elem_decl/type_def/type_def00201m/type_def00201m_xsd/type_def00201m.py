@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "ElemDecl/typeDef"
 
@@ -10,8 +9,8 @@ class Root:
         name = "root"
         namespace = "ElemDecl/typeDef"
 
-    value: Optional[str] = field(
-        default=None,
+    value: str = field(
+        default="",
         metadata={
             "pattern": r"[01]+",
         }

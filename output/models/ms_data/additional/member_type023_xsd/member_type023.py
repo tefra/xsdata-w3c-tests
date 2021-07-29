@@ -9,8 +9,8 @@ class Ct:
     class Meta:
         name = "ct"
 
-    value: Optional[str] = field(
-        default=None,
+    value: str = field(
+        default="",
         metadata={
             "required": True,
         }

@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "NISTSchema-SV-IV-atomic-normalizedString-maxLength-3-NS"
 
@@ -10,8 +9,8 @@ class NistschemaSvIvAtomicNormalizedStringMaxLength3:
         name = "NISTSchema-SV-IV-atomic-normalizedString-maxLength-3"
         namespace = "NISTSchema-SV-IV-atomic-normalizedString-maxLength-3-NS"
 
-    value: Optional[str] = field(
-        default=None,
+    value: str = field(
+        default="",
         metadata={
             "required": True,
             "max_length": 295,

@@ -12,7 +12,6 @@ class ComplexType:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
 
@@ -27,7 +26,6 @@ class Elem(ComplexType):
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
 

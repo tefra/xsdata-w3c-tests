@@ -12,7 +12,6 @@ class ComplexType:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     r2: Optional[object] = field(
@@ -20,7 +19,6 @@ class ComplexType:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     r3: Optional[object] = field(

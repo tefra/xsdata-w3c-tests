@@ -2,12 +2,12 @@
     "A": {
         "part": [
             {
-                "value": null,
+                "value": "",
                 "number": 1,
                 "number2": 2
             },
             {
-                "value": null,
+                "value": "",
                 "number": 2,
                 "number2": 1
             }

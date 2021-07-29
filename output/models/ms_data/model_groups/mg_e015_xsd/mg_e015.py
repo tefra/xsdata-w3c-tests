@@ -12,7 +12,6 @@ class Foo:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
 
@@ -27,7 +26,6 @@ class Bar(Foo):
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
 

@@ -11,7 +11,6 @@ class B:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     target_namespace_element: List[object] = field(
@@ -35,7 +34,6 @@ class E1:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-            "required": True,
         }
     )
 
@@ -47,7 +45,6 @@ class R:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     target_namespace_element: List[object] = field(

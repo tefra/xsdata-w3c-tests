@@ -94,7 +94,6 @@ class R:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     d2: Optional[object] = field(

@@ -10,8 +10,8 @@ class B:
         name = "b"
         namespace = "http://www.w3.org/1999/xhtml"
 
-    value: Optional[str] = field(
-        default=None,
+    value: str = field(
+        default="",
         metadata={
             "required": True,
         }
@@ -29,6 +29,5 @@ class Foo:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-            "required": True,
         }
     )

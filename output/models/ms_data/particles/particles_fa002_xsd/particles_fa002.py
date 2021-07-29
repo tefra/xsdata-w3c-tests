@@ -47,7 +47,6 @@ class Base:
         metadata={
             "type": "Element",
             "namespace": "http://xsdtesting",
-            "required": True,
         }
     )
 

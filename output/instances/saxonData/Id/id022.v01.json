@@ -1,19 +1,19 @@
 {
     "para": [
         {
-            "value": null,
+            "value": "",
             "key": "alpha",
             "ref": []
         },
         {
-            "value": null,
+            "value": "",
             "key": "beta",
             "ref": [
                 "alpha"
             ]
         },
         {
-            "value": null,
+            "value": "",
             "key": "gamma",
             "ref": [
                 "beta"

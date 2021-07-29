@@ -23,8 +23,8 @@ class Cs:
     class Meta:
         name = "cs"
 
-    value: Optional[str] = field(
-        default=None,
+    value: str = field(
+        default="",
         metadata={
             "required": True,
             "min_length": 1,
@@ -45,8 +45,8 @@ class Fe1Valid:
         name = "fe1_valid"
         namespace = "http://xsdtesting"
 
-    value: Optional[str] = field(
-        default=None,
+    value: str = field(
+        default="",
         metadata={
             "required": True,
             "min_length": 1,
@@ -61,8 +61,8 @@ class FeValid:
         name = "fe_valid"
         namespace = "http://xsdtesting"
 
-    value: Optional[str] = field(
-        default=None,
+    value: str = field(
+        default="",
         metadata={
             "required": True,
             "max_length": 4,

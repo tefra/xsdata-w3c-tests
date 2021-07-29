@@ -12,7 +12,6 @@ class B:
         metadata={
             "type": "Element",
             "namespace": "http://xsdtesting",
-            "required": True,
         }
     )
     other_element: List[object] = field(

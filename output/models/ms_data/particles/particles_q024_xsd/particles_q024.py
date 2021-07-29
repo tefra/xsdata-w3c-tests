@@ -11,7 +11,6 @@ class B:
         metadata={
             "type": "Element",
             "namespace": "http://xsdtesting",
-            "min_occurs": 1,
         }
     )
     target_namespace_element: List[object] = field(

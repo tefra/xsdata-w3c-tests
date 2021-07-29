@@ -14,7 +14,6 @@ class Base:
         metadata={
             "type": "Element",
             "namespace": "foo",
-            "required": True,
         }
     )
     b: Optional[object] = field(
@@ -29,7 +28,6 @@ class Base:
         metadata={
             "type": "Element",
             "namespace": "foo",
-            "required": True,
         }
     )
 
@@ -44,7 +42,6 @@ class Ext(Base):
         metadata={
             "type": "Element",
             "namespace": "foo",
-            "required": True,
         }
     )
     e: Optional[object] = field(
@@ -52,7 +49,6 @@ class Ext(Base):
         metadata={
             "type": "Element",
             "namespace": "foo",
-            "required": True,
         }
     )
 

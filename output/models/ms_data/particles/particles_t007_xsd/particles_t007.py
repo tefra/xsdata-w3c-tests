@@ -32,7 +32,6 @@ class B:
                     "namespace": "",
                 },
             ),
-            "min_occurs": 1,
         }
     )
 

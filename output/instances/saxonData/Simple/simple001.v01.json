@@ -3,22 +3,22 @@
         {
             "section": [
                 {
-                    "value": null,
+                    "value": "",
                     "nr": 1.0,
                     "ref": "+INF"
                 },
                 {
-                    "value": null,
+                    "value": "",
                     "nr": 2.0,
                     "ref": "+INF"
                 },
                 {
-                    "value": null,
+                    "value": "",
                     "nr": Infinity,
                     "ref": "+INF"
                 },
                 {
-                    "value": null,
+                    "value": "",
                     "nr": Infinity,
                     "ref": "+INF"
                 }
@@ -29,22 +29,22 @@
             "value": {
                 "section": [
                     {
-                        "value": null,
+                        "value": "",
                         "nr": 1.0,
                         "ref": "+INF"
                     },
                     {
-                        "value": null,
+                        "value": "",
                         "nr": 2.0,
                         "ref": "+INF"
                     },
                     {
-                        "value": null,
+                        "value": "",
                         "nr": Infinity,
                         "ref": "+INF"
                     },
                     {
-                        "value": null,
+                        "value": "",
                         "nr": Infinity,
                         "ref": "+INF"
                     }

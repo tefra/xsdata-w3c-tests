@@ -10,10 +10,7 @@ class AnySimpleType:
         name = "anySimpleType"
 
     value: Optional[object] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
+        default=None
     )
     type: Optional[str] = field(
         default=None,

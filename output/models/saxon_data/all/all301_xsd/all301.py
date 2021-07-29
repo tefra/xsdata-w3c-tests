@@ -33,7 +33,6 @@ class B:
         default=None,
         metadata={
             "type": "Element",
-            "required": True,
         }
     )
 
@@ -47,7 +46,6 @@ class E(B):
         default=None,
         metadata={
             "type": "Element",
-            "required": True,
         }
     )
     f: List[object] = field(

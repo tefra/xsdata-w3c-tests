@@ -23,7 +23,6 @@ class Address:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
 
@@ -39,7 +38,6 @@ class E3:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-            "required": True,
         }
     )
 
@@ -51,7 +49,6 @@ class B:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     e2: Optional[Address] = field(
@@ -77,7 +74,6 @@ class R:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     e2: Optional[Address1] = field(

@@ -22,8 +22,8 @@ class KdomainsAsAutomaticAcademiaWorkEnsureTes:
         name = "kdomains-as.automatic-academia_work-ensure_tes"
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-2-NS"
 
-    value: Optional[str] = field(
-        default=None,
+    value: str = field(
+        default="",
         metadata={
             "required": True,
         }
@@ -36,8 +36,8 @@ class Ncreate:
         name = "ncreate"
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-2-NS"
 
-    value: Optional[str] = field(
-        default=None,
+    value: str = field(
+        default="",
         metadata={
             "required": True,
         }

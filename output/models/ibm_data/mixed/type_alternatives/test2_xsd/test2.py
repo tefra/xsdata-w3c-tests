@@ -48,8 +48,8 @@ class XString:
     class Meta:
         name = "X_String"
 
-    value: Optional[str] = field(
-        default=None,
+    value: str = field(
+        default="",
         metadata={
             "required": True,
         }

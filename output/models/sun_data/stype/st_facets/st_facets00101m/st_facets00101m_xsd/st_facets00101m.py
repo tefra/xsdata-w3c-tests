@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from typing import Optional
 
 __NAMESPACE__ = "ST_facets"
 
@@ -10,8 +9,8 @@ class Test:
         name = "test"
         namespace = "ST_facets"
 
-    value: Optional[str] = field(
-        default=None,
+    value: str = field(
+        default="",
         metadata={
             "pattern": r"1*",
         }

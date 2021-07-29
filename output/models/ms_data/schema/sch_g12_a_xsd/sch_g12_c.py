@@ -15,6 +15,5 @@ class FooC:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-            "required": True,
         }
     )

@@ -22,7 +22,6 @@ class ComplexType:
             "name": "in",
             "type": "Element",
             "namespace": "foo",
-            "required": True,
         }
     )
     root: List["Root"] = field(
@@ -37,7 +36,6 @@ class ComplexType:
         metadata={
             "type": "Element",
             "namespace": "foo",
-            "required": True,
         }
     )
     g_att: Optional[SimpleType] = field(
@@ -59,7 +57,6 @@ class ComplexType:
         metadata={
             "type": "Element",
             "namespace": "foo",
-            "required": True,
         }
     )
 

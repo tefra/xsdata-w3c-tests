@@ -21,8 +21,8 @@ class ForFilesSupplyForToMustMeasur:
         name = "_for-files.supply.for.to-must_measur"
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-5-NS"
 
-    value: Optional[str] = field(
-        default=None,
+    value: str = field(
+        default="",
         metadata={
             "required": True,
         }
@@ -35,8 +35,8 @@ class HmanipulateUs:
         name = "hmanipulate-us"
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-5-NS"
 
-    value: Optional[str] = field(
-        default=None,
+    value: str = field(
+        default="",
         metadata={
             "required": True,
         }
@@ -49,8 +49,8 @@ class PsPervasiveInHouseOnPerformanceAls:
         name = "ps.pervasive.in-house_on.performance-als"
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-5-NS"
 
-    value: Optional[str] = field(
-        default=None,
+    value: str = field(
+        default="",
         metadata={
             "required": True,
         }
@@ -63,8 +63,8 @@ class UtheBaseTheAbilityIntoTargetTheTestabilityDiscove:
         name = "uthe.base_the_ability-into-target_the_testability-discove"
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-5-NS"
 
-    value: Optional[str] = field(
-        default=None,
+    value: str = field(
+        default="",
         metadata={
             "required": True,
         }

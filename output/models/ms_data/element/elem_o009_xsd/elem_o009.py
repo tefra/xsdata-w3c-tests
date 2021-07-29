@@ -9,7 +9,7 @@ class FooTest:
         nillable = True
 
     value: Optional[str] = field(
-        default=None,
+        default="",
         metadata={
             "min_length": 3,
             "nillable": True,

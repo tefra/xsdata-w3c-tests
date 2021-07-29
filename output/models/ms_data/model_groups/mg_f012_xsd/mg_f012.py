@@ -40,7 +40,6 @@ class Foo:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     a: Optional[int] = field(

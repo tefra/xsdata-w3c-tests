@@ -1,15 +1,15 @@
 {
     "para": [
         {
-            "value": null,
+            "value": "",
             "entity": "entity1"
         },
         {
-            "value": null,
+            "value": "",
             "entity": "entity2"
         },
         {
-            "value": null,
+            "value": "",
             "entity": -1
         }
     ]

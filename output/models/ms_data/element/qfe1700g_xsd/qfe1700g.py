@@ -13,7 +13,6 @@ class E1:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     e4: Optional[object] = field(

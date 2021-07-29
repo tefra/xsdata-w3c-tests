@@ -14,7 +14,6 @@ class Foo:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     bar: Optional["Foo.Bar"] = field(
@@ -32,7 +31,6 @@ class Foo:
             metadata={
                 "type": "Element",
                 "namespace": "",
-                "required": True,
             }
         )
 

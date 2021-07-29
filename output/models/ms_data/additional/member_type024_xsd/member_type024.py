@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional, Union
+from typing import List, Union
 
 __NAMESPACE__ = "foo"
 
@@ -9,8 +9,8 @@ class Ct:
     class Meta:
         name = "ct"
 
-    value: Optional[str] = field(
-        default=None,
+    value: str = field(
+        default="",
         metadata={
             "required": True,
         }

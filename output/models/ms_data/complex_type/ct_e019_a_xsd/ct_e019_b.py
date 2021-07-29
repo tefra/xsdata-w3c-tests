@@ -9,8 +9,8 @@ class FooType:
     class Meta:
         name = "fooType"
 
-    value: Optional[str] = field(
-        default=None,
+    value: str = field(
+        default="",
         metadata={
             "required": True,
         }
@@ -38,8 +38,8 @@ class Mytype1:
     class Meta:
         name = "mytype1"
 
-    value: Optional[str] = field(
-        default=None,
+    value: str = field(
+        default="",
         metadata={
             "required": True,
         }

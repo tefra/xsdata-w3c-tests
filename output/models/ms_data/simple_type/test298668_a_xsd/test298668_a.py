@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Optional, Union
+from typing import Union
 from output.models.ms_data.simple_type.test298668_a_xsd.test298668_b import TPredefinedLnclassEnum
 
 __NAMESPACE__ = "a"
@@ -11,8 +11,8 @@ class Root:
         name = "root"
         namespace = "a"
 
-    value: Optional[Union[str, TPredefinedLnclassEnum]] = field(
-        default=None,
+    value: Union[str, TPredefinedLnclassEnum] = field(
+        default="",
         metadata={
             "min_length": 1,
             "pattern": r"\p{Lu}+",

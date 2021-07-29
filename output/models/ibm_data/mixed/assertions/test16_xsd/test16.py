@@ -7,8 +7,8 @@ class MyBase:
     class Meta:
         name = "myBase"
 
-    value: Optional[str] = field(
-        default=None,
+    value: str = field(
+        default="",
         metadata={
             "required": True,
         }

@@ -12,7 +12,6 @@ class Bar:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     e2: Optional[object] = field(
@@ -20,7 +19,6 @@ class Bar:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
 

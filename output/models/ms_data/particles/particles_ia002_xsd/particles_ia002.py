@@ -14,7 +14,6 @@ class T1:
         metadata={
             "type": "Element",
             "namespace": "http://xsdtesting",
-            "required": True,
         }
     )
     b: Optional[object] = field(
@@ -22,7 +21,6 @@ class T1:
         metadata={
             "type": "Element",
             "namespace": "http://xsdtesting",
-            "required": True,
         }
     )
 

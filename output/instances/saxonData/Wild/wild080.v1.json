@@ -1,10 +1,10 @@
 {
-    "a": "2010-10-16",
-    "local_element": {
-        "qname": "a",
-        "text": "42",
-        "tail": null,
-        "children": [],
-        "attributes": {}
-    }
+  "a": "2010-10-16",
+  "local_element": {
+    "qname": "a",
+    "text": "42",
+    "tail": null,
+    "children": [],
+    "attributes": {}
+  }
 }

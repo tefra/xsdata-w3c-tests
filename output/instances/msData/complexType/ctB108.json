@@ -1,5 +1,5 @@
 {
-    "attrTest1": "first attribute",
-    "attrTest2": "test attribute",
-    "attrTest": "non-group attribute"
+  "attrTest1": "first attribute",
+  "attrTest2": "test attribute",
+  "attrTest": "non-group attribute"
 }

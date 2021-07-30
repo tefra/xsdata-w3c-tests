@@ -1,14 +1,14 @@
 {
-    "value": [
-        "{http://www.nist.gov/xsdDefaultNS}eindustry.betw",
-        "{http://www.nist.gov/xsdNS}nare-is_transa",
-        "{http://www.nist.gov/xsdNS}_and.cost_auto",
-        "{http://www.nist.gov/xsdNS}rdevices_cost.",
-        "{http://www.nist.gov/xsdNS}sprecise.the.o",
-        "{http://www.nist.gov/xsdNS}klow-cost_netw",
-        "{http://www.nist.gov/xsdDefaultNS}frepository_ba",
-        "{http://www.nist.gov/xsdNS}aon.developmen",
-        "{http://www.nist.gov/xsdNS}vbe-on_to-of-v",
-        "{http://www.nist.gov/xsdNS}eimplementatio"
-    ]
+  "value": [
+    "{http://www.nist.gov/xsdDefaultNS}eindustry.betw",
+    "{http://www.nist.gov/xsdNS}nare-is_transa",
+    "{http://www.nist.gov/xsdNS}_and.cost_auto",
+    "{http://www.nist.gov/xsdNS}rdevices_cost.",
+    "{http://www.nist.gov/xsdNS}sprecise.the.o",
+    "{http://www.nist.gov/xsdNS}klow-cost_netw",
+    "{http://www.nist.gov/xsdDefaultNS}frepository_ba",
+    "{http://www.nist.gov/xsdNS}aon.developmen",
+    "{http://www.nist.gov/xsdNS}vbe-on_to-of-v",
+    "{http://www.nist.gov/xsdNS}eimplementatio"
+  ]
 }

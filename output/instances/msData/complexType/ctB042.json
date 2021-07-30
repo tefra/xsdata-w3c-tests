@@ -1,5 +1,5 @@
 {
-    "myElement": "group field",
-    "attrTest": "tested attribute group",
-    "attrTest2": "second attribute group"
+  "myElement": "group field",
+  "attrTest": "tested attribute group",
+  "attrTest2": "second attribute group"
 }

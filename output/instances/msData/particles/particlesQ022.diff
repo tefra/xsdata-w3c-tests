@@ -1,16 +1,16 @@
   {
-      "elem": {
--         "foo": [
-+         "foo": [],
-?                 ++
+    "elem": {
+-     "foo": [
++     "foo": [],
+?             ++
 
--             {
--                 "any_element": null
--             },
--             {
--                 "any_element": null
--             }
--         ],
-          "local_element": []
-      }
+-       {
+-         "any_element": null
+-       },
+-       {
+-         "any_element": null
+-       }
+-     ],
+      "local_element": []
+    }
   }

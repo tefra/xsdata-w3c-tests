@@ -1,10 +1,10 @@
 {
-    "value": [
-        "{http://www.nist.gov/xsdNS}ras_define-repository_have.of_addressing.used-the.reference_the",
-        "{http://www.nist.gov/xsdDefaultNS}etest-repositories-having_by_lacking-available.vocabulary_and.t",
-        "{http://www.nist.gov/xsdNS}_offer-and.many_accessible_for-to-concepts-language_daily.known",
-        "{http://www.nist.gov/xsdDefaultNS}itwo.lacking_suites_enforcement_to.more.to_object_with.specific",
-        "{http://www.nist.gov/xsdNS}_first-generation.the_and.heterogeneous-in.data.individual-filt",
-        "{http://www.nist.gov/xsdDefaultNS}robject-of.organizations-law-establish_tools.unbiased-is-servic"
-    ]
+  "value": [
+    "{http://www.nist.gov/xsdNS}ras_define-repository_have.of_addressing.used-the.reference_the",
+    "{http://www.nist.gov/xsdDefaultNS}etest-repositories-having_by_lacking-available.vocabulary_and.t",
+    "{http://www.nist.gov/xsdNS}_offer-and.many_accessible_for-to-concepts-language_daily.known",
+    "{http://www.nist.gov/xsdDefaultNS}itwo.lacking_suites_enforcement_to.more.to_object_with.specific",
+    "{http://www.nist.gov/xsdNS}_first-generation.the_and.heterogeneous-in.data.individual-filt",
+    "{http://www.nist.gov/xsdDefaultNS}robject-of.organizations-law-establish_tools.unbiased-is-servic"
+  ]
 }

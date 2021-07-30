@@ -1,12 +1,12 @@
 {
-    "choice": [
-        {
-            "qname": "d",
-            "text": "",
-            "tail": null,
-            "children": [],
-            "attributes": {}
-        }
-    ],
-    "c": null
+  "choice": [
+    {
+      "qname": "d",
+      "text": "",
+      "tail": null,
+      "children": [],
+      "attributes": {}
+    }
+  ],
+  "c": null
 }

@@ -1,13 +1,13 @@
 {
-    "value": [
-        "gopher://t.informa.edu",
-        "ftp://andknow.m.rel.gov",
-        "news://info.ofre.edu",
-        "gopher://i.ofavail.edu",
-        "telnet://Con.incompl.com",
-        "http://ledsig.specif.edu",
-        "telnet://specifi.inclu.over.l.org",
-        "news://andsuc.e.com",
-        "telnet://Softwa.r.gov"
-    ]
+  "value": [
+    "gopher://t.informa.edu",
+    "ftp://andknow.m.rel.gov",
+    "news://info.ofre.edu",
+    "gopher://i.ofavail.edu",
+    "telnet://Con.incompl.com",
+    "http://ledsig.specif.edu",
+    "telnet://specifi.inclu.over.l.org",
+    "news://andsuc.e.com",
+    "telnet://Softwa.r.gov"
+  ]
 }

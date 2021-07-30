@@ -1,15 +1,15 @@
 {
-    "elem": [
+  "elem": [
+    {
+      "any_element": [
         {
-            "any_element": [
-                {
-                    "qname": "foo",
-                    "text": "",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {}
-                }
-            ]
+          "qname": "foo",
+          "text": "",
+          "tail": null,
+          "children": [],
+          "attributes": {}
         }
-    ]
+      ]
+    }
+  ]
 }

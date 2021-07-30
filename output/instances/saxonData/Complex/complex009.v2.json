@@ -1,13 +1,13 @@
 {
-    "qname": "root",
-    "value": {
-        "e": [
-            ""
-        ],
-        "f": [
-            ""
-        ],
-        "type": "R"
-    },
+  "qname": "root",
+  "value": {
+    "e": [
+      ""
+    ],
+    "f": [
+      ""
+    ],
     "type": "R"
+  },
+  "type": "R"
 }

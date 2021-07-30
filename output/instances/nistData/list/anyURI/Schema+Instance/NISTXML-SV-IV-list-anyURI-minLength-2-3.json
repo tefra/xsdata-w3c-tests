@@ -1,11 +1,11 @@
 {
-    "value": [
-        "telnet://ac.The.org",
-        "ftp://wi.s.com",
-        "gopher://forOA.inth.depl.org",
-        "ftp://d.dy.and.com",
-        "http://thefi.Thi.gov",
-        "ftp://inT.s.indust.org",
-        "http://ownto.net"
-    ]
+  "value": [
+    "telnet://ac.The.org",
+    "ftp://wi.s.com",
+    "gopher://forOA.inth.depl.org",
+    "ftp://d.dy.and.com",
+    "http://thefi.Thi.gov",
+    "ftp://inT.s.indust.org",
+    "http://ownto.net"
+  ]
 }

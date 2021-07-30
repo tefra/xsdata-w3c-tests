@@ -1,11 +1,11 @@
 {
-    "value": [
-        "{http://www.nist.gov/xsdDefaultNS}masked.of.applications-be-process.simplest-compatibilit",
-        "{http://www.nist.gov/xsdNS}eto-has.time_in-such.on.of_information-possible-effecti",
-        "{http://www.nist.gov/xsdNS}_registry.subject_into-is.and-ways-implementations_regi",
-        "{http://www.nist.gov/xsdNS}ueach_life.to-each.communications-process_context-rich-",
-        "{http://www.nist.gov/xsdDefaultNS}ydocuments_and.using-based-newcomer-for_quality.the_tha",
-        "{http://www.nist.gov/xsdNS}uthose_we.following-discovery.known_effective_analysis_",
-        "{http://www.nist.gov/xsdDefaultNS}gtechnical-describes_use_leadership-set_cost-it_and-is."
-    ]
+  "value": [
+    "{http://www.nist.gov/xsdDefaultNS}masked.of.applications-be-process.simplest-compatibilit",
+    "{http://www.nist.gov/xsdNS}eto-has.time_in-such.on.of_information-possible-effecti",
+    "{http://www.nist.gov/xsdNS}_registry.subject_into-is.and-ways-implementations_regi",
+    "{http://www.nist.gov/xsdNS}ueach_life.to-each.communications-process_context-rich-",
+    "{http://www.nist.gov/xsdDefaultNS}ydocuments_and.using-based-newcomer-for_quality.the_tha",
+    "{http://www.nist.gov/xsdNS}uthose_we.following-discovery.known_effective_analysis_",
+    "{http://www.nist.gov/xsdDefaultNS}gtechnical-describes_use_leadership-set_cost-it_and-is."
+  ]
 }

@@ -1,13 +1,13 @@
 {
-    "value": [
-        "gopher://isf.an.NSRLi.devel.gov",
-        "telnet://SOCb.ina.betwee.edu",
-        "telnet://enter.org",
-        "gopher://meth.prov.obvious.gov",
-        "news://and.these.org",
-        "telnet://andin.org",
-        "ftp://ofAtes.mee.partici.toolsdi.org",
-        "telnet://to.gov",
-        "news://se.gov"
-    ]
+  "value": [
+    "gopher://isf.an.NSRLi.devel.gov",
+    "telnet://SOCb.ina.betwee.edu",
+    "telnet://enter.org",
+    "gopher://meth.prov.obvious.gov",
+    "news://and.these.org",
+    "telnet://andin.org",
+    "ftp://ofAtes.mee.partici.toolsdi.org",
+    "telnet://to.gov",
+    "news://se.gov"
+  ]
 }

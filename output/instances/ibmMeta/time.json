@@ -1,202 +1,202 @@
 {
-    "annotation": [
+  "annotation": [
+    {
+      "appinfo_or_documentation": [
         {
-            "appinfo_or_documentation": [
-                {
-                    "source": null,
-                    "lang": null,
-                    "other_attributes": {
-                        "{http://www.w3.org/1999/xlink}href": "http://www.w3.org/TR/xmlschema11-2/#time"
-                    },
-                    "content": [
-                        "time "
-                    ]
-                }
-            ],
-            "other_attributes": {}
+          "source": null,
+          "lang": null,
+          "other_attributes": {
+            "{http://www.w3.org/1999/xlink}href": "http://www.w3.org/TR/xmlschema11-2/#time"
+          },
+          "content": [
+            "time "
+          ]
         }
-    ],
-    "testGroup": [
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                "\n\t\t\t\t1a: chameleon include on unqualified names in XPath expressions\n\t\t        1b: A calendar day with a very early timezone may be completely disjoint from a calendar day with a very late timezone.\n\t\t        1c: A time in a timezone may convert to a UTC time on a different day. \n\t\t        "
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/TR/xmlschema11-2/#time",
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../ibmData/valid/D3_3_9/d3_3_9v01.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "valid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2010-12-01",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "d3_3_9v01s",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [
-                {
-                    "annotation": [],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../ibmData/valid/D3_3_9/d3_3_9v01.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "valid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2010-12-01",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "d3_3_9v01i",
-                    "version": [],
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../ibmData/valid/D3_3_9/d3_3_9v01a.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "valid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2010-12-01",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "d3_3_9v01ai",
-                    "version": [],
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../ibmData/valid/D3_3_9/d3_3_9v01b.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "valid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2010-12-01",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "d3_3_9v01bi",
-                    "version": [],
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../ibmData/valid/D3_3_9/d3_3_9v01c.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "valid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2010-12-01",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "d3_3_9v01ci",
-                    "version": [],
-                    "other_attributes": {}
-                }
-            ],
-            "name": "d3_3_9v01",
-            "version": [
-                "1.1"
-            ],
-            "other_attributes": {}
-        }
-    ],
-    "contributor": "IBM",
-    "name": "time",
-    "version": [],
-    "other_attributes": {
-        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd"
+      ],
+      "other_attributes": {}
     }
+  ],
+  "testGroup": [
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                "\n\t\t\t\t1a: chameleon include on unqualified names in XPath expressions\n\t\t        1b: A calendar day with a very early timezone may be completely disjoint from a calendar day with a very late timezone.\n\t\t        1c: A time in a timezone may convert to a UTC time on a different day. \n\t\t        "
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/TR/xmlschema11-2/#time",
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../ibmData/valid/D3_3_9/d3_3_9v01.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "valid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2010-12-01",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "d3_3_9v01s",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [
+        {
+          "annotation": [],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../ibmData/valid/D3_3_9/d3_3_9v01.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "valid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2010-12-01",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "d3_3_9v01i",
+          "version": [],
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../ibmData/valid/D3_3_9/d3_3_9v01a.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "valid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2010-12-01",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "d3_3_9v01ai",
+          "version": [],
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../ibmData/valid/D3_3_9/d3_3_9v01b.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "valid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2010-12-01",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "d3_3_9v01bi",
+          "version": [],
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../ibmData/valid/D3_3_9/d3_3_9v01c.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "valid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2010-12-01",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "d3_3_9v01ci",
+          "version": [],
+          "other_attributes": {}
+        }
+      ],
+      "name": "d3_3_9v01",
+      "version": [
+        "1.1"
+      ],
+      "other_attributes": {}
+    }
+  ],
+  "contributor": "IBM",
+  "name": "time",
+  "version": [],
+  "other_attributes": {
+    "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd"
+  }
 }

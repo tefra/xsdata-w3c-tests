@@ -1,18 +1,18 @@
 {
-    "ns_test1_ns_test2_element": [
-        {
-            "qname": "{ns_test1}date",
-            "text": "2002-04-29",
-            "tail": null,
-            "children": [],
-            "attributes": {}
-        },
-        {
-            "qname": "{ns_test2}time",
-            "text": "15:15:00",
-            "tail": null,
-            "children": [],
-            "attributes": {}
-        }
-    ]
+  "ns_test1_ns_test2_element": [
+    {
+      "qname": "{ns_test1}date",
+      "text": "2002-04-29",
+      "tail": null,
+      "children": [],
+      "attributes": {}
+    },
+    {
+      "qname": "{ns_test2}time",
+      "text": "15:15:00",
+      "tail": null,
+      "children": [],
+      "attributes": {}
+    }
+  ]
 }

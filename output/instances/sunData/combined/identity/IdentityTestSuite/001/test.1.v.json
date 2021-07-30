@@ -1,10 +1,10 @@
 {
-    "key_or_ref": [
-        "5",
-        {
-            "qname": "{foo}ref",
-            "value": "5.0",
-            "type": null
-        }
-    ]
+  "key_or_ref": [
+    "5",
+    {
+      "qname": "{foo}ref",
+      "value": "5.0",
+      "type": null
+    }
+  ]
 }

@@ -1,6 +1,6 @@
 {
-    "complexTest": {
-        "comp_foo": "--03--"
-    },
-    "simpleTest": "--03--"
+  "complexTest": {
+    "comp_foo": "--03--"
+  },
+  "simpleTest": "--03--"
 }

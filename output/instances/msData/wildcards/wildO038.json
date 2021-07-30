@@ -1,5 +1,5 @@
 {
-    "target_namespace_w3_org_1999_xhtml_attributes": {
-        "{http://foobar}name": "bar"
-    }
+  "target_namespace_w3_org_1999_xhtml_attributes": {
+    "{http://foobar}name": "bar"
+  }
 }

@@ -1,1471 +1,1471 @@
 {
-    "annotation": [],
-    "testGroup": [
+  "annotation": [],
+  "testGroup": [
+    {
+      "annotation": [
         {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                "TEST :Primer Errata : E0-23 Clarification: test that facet fractionDigits can be added to all numeric datatypes as long as value is 0 (except for decimal which takes any value)"
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/2004/03/xmlschema-errata",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../msData/errata10/errA001.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "valid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2006-07-16",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "errA001",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [
-                {
-                    "annotation": [],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../msData/errata10/errA001.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "valid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2006-07-16",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "errA001.v",
-                    "version": [],
-                    "other_attributes": {}
-                }
-            ],
-            "name": "errA001",
-            "version": [],
-            "other_attributes": {}
-        },
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                "TEST :Primer Errata : E0-10 Error, E1-11 Error: test that ##other namespace is any namespace other than the target namespace"
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/2004/03/xmlschema-errata",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../msData/errata10/errA002.xsd",
-                        "other_attributes": {}
-                    },
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../msData/errata10/errA002a.xsd",
-                        "other_attributes": {}
-                    },
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../msData/errata10/errA002b.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "valid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2006-07-16",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "errA002",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [
-                {
-                    "annotation": [],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../msData/errata10/errA002.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "invalid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2006-07-16",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "errA002.i",
-                    "version": [],
-                    "other_attributes": {}
-                }
-            ],
-            "name": "errA002",
-            "version": [],
-            "other_attributes": {}
-        },
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                "TEST :Primer Errata : E0-15 Error, E2-12 Error: test lexical representation of gMonth"
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/2004/03/xmlschema-errata",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../msData/errata10/errA003.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "valid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2006-07-16",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "errA003",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [
-                {
-                    "annotation": [],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../msData/errata10/errA003.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "valid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2006-07-16",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "errA003.v",
-                    "version": [],
-                    "other_attributes": {}
-                }
-            ],
-            "name": "errA003",
-            "version": [],
-            "other_attributes": {}
-        },
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                "TEST :Primer Errata : E1-40 Clarification: test that anySimpleType whitespace normalization is set to preserve"
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/2004/03/xmlschema-errata",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../msData/errata10/errC001.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "valid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2006-07-16",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "errC001",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [
-                {
-                    "annotation": [],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../msData/errata10/errC001.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "valid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2006-07-16",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "errC001.v",
-                    "version": [],
-                    "other_attributes": {}
-                }
-            ],
-            "name": "errC001",
-            "version": [],
-            "other_attributes": {}
-        },
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                "TEST :Primer Errata : E1-9 Error: version definition of 'schema' is now a normalizedString instead of token"
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/2004/03/xmlschema-errata",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../msData/errata10/errC002.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "valid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2006-07-16",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "errC002",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [],
-            "name": "errC002",
-            "version": [],
-            "other_attributes": {}
-        },
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                "TEST :Primer Errata : E1-3 Error: change representation of Model Group Definition"
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/2004/03/xmlschema-errata",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../msData/errata10/errC003.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "valid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2006-07-16",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "errC003",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [],
-            "name": "errC003",
-            "version": [],
-            "other_attributes": {}
-        },
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                "TEST :Primer Errata : E1-16 Error: public attribute is now optional and has a value space of token"
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/2004/03/xmlschema-errata",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../msData/errata10/errC004.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "valid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2006-07-16",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "errC004",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [],
-            "name": "errC004",
-            "version": [],
-            "other_attributes": {}
-        },
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                "TEST :Primer Errata : E1-13 Error: local element must not have abstract attribute with value true"
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/2004/03/xmlschema-errata",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../msData/errata10/errC005.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "invalid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2006-07-16",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "errC005",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [],
-            "name": "errC005",
-            "version": [],
-            "other_attributes": {}
-        },
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                "TEST :Primer Errata : E1-13 Error: local element must not have abstract attribute with value true"
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/2004/03/xmlschema-errata",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../msData/errata10/errC006.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "invalid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2006-07-16",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "errC006",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [],
-            "name": "errC006",
-            "version": [],
-            "other_attributes": {}
-        },
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                "TEST :Primer Errata : E1-22 Error: R-117 Process contents for ur-type need to be lax"
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/2004/03/xmlschema-errata",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../msData/errata10/errC007.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "valid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2006-07-16",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "errC007",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [
-                {
-                    "annotation": [],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../msData/errata10/errC007.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "valid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2006-07-16",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "errC007.v",
-                    "version": [],
-                    "other_attributes": {}
-                }
-            ],
-            "name": "errC007",
-            "version": [],
-            "other_attributes": {}
-        },
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                "TEST :Primer Errata : Errata E1-21 - processContents of restriction must be identical or stronger than that of base,xs:any"
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/2004/03/xmlschema-errata",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../msData/errata10/errC008.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "invalid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2006-07-16",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "errC008",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [],
-            "name": "errC008",
-            "version": [],
-            "other_attributes": {}
-        },
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                "TEST :Primer Errata : Errata E1-21 - processContents of restriction must be identical or stronger than that of base,xs:anyAttribute"
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/2004/03/xmlschema-errata",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../msData/errata10/errC009.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "invalid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2006-07-16",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "errC009",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [],
-            "name": "errC009",
-            "version": [],
-            "other_attributes": {}
-        },
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                "TEST :Primer Errata : E2-27 Error: test that nonPositiveIntegers support a '+' on zero"
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/2004/03/xmlschema-errata",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../msData/errata10/errE001.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "valid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2006-07-16",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "errE001",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [
-                {
-                    "annotation": [],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../msData/errata10/errE001.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "valid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2006-07-16",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "errE001.v",
-                    "version": [],
-                    "other_attributes": {}
-                }
-            ],
-            "name": "errE001",
-            "version": [],
-            "other_attributes": {}
-        },
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                "TEST :Primer Errata : E2-27 Error: test that nonNegativeIntegers support a '-' on zero"
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/2004/03/xmlschema-errata",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../msData/errata10/errE002.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "valid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2006-07-16",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "errE002",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [
-                {
-                    "annotation": [],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../msData/errata10/errE002.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "valid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2006-07-16",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "errE002.v",
-                    "version": [],
-                    "other_attributes": {}
-                }
-            ],
-            "name": "errE002",
-            "version": [],
-            "other_attributes": {}
-        },
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                "TEST :Primer Errata : E2-25 Error: test support for the new language pattern ([a-zA-Z]{1,8})-([a-zA-Z0-9]{1,8})*"
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/2004/03/xmlschema-errata",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../msData/errata10/errE003.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "valid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2006-07-16",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "errE003",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [
-                {
-                    "annotation": [],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../msData/errata10/errE003.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "valid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2006-07-16",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "errE003.v",
-                    "version": [],
-                    "other_attributes": {}
-                }
-            ],
-            "name": "errE003",
-            "version": [],
-            "other_attributes": {}
-        },
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                "TEST :Primer Errata : E2-24 Error: test that absent 'T' is enforced when no time elements are present"
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/2004/03/xmlschema-errata",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../msData/errata10/errE004.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "valid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2006-07-16",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "errE004",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [
-                {
-                    "annotation": [],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../msData/errata10/errE004.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "invalid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2006-07-16",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "errE004.i",
-                    "version": [],
-                    "other_attributes": {}
-                }
-            ],
-            "name": "errE004",
-            "version": [],
-            "other_attributes": {}
-        },
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                "TEST :Primer Errata : E2-22 Clarification: test date, gYearMonth, gMonthDay, gDay, gMonth and gYear permit an optional, trailing time zone specification."
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/2004/03/xmlschema-errata",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../msData/errata10/errE006.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "valid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": null,
-                "prior": [],
-                "name": "errE006",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [
-                {
-                    "annotation": [],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../msData/errata10/errE006.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "valid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2011-10-12",
-                        "bugzilla": "http://www.w3.org/Bugs/Public/show_bug.cgi?id=6901",
-                        "other_attributes": {}
-                    },
-                    "prior": [
-                        {
-                            "annotation": [],
-                            "status": "accepted",
-                            "date": "2006-07-16",
-                            "bugzilla": null,
-                            "other_attributes": {}
-                        }
-                    ],
-                    "name": "errE006.v",
-                    "version": [],
-                    "other_attributes": {}
-                }
-            ],
-            "name": "errE006",
-            "version": [],
-            "other_attributes": {}
-        },
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                "TEST :Primer Errata : E2-17 Error: Do not allow carriage return in token values"
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/2004/03/xmlschema-errata",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../msData/errata10/errE008.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "valid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2006-07-16",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "errE008",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [
-                {
-                    "annotation": [],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../msData/errata10/errE008.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "valid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2006-07-16",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "errE008.v",
-                    "version": [],
-                    "other_attributes": {}
-                }
-            ],
-            "name": "errE008",
-            "version": [],
-            "other_attributes": {}
-        },
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                "TEST :Primer Errata : Errata E2-35: length facet is now allowed with either minLength or maxLength if they are specified in different derivation steps"
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/2004/03/xmlschema-errata",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../msData/errata10/errF001.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "valid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "queried",
-                    "date": "2007-06-21",
-                    "bugzilla": "http://www.w3.org/Bugs/Public/show_bug.cgi?id=4681",
-                    "other_attributes": {}
-                },
-                "prior": [
-                    {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2006-07-16",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    }
-                ],
-                "name": "errF001",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [
-                {
-                    "annotation": [],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../msData/errata10/errF001.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "invalid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2006-07-16",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "errF001.i",
-                    "version": [],
-                    "other_attributes": {}
-                }
-            ],
-            "name": "errF001",
-            "version": [],
-            "other_attributes": {}
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                "TEST :Primer Errata : E0-23 Clarification: test that facet fractionDigits can be added to all numeric datatypes as long as value is 0 (except for decimal which takes any value)"
+              ]
+            }
+          ],
+          "other_attributes": {}
         }
-    ],
-    "contributor": "Microsoft",
-    "name": "MS-Errata102006-07-15",
-    "version": [],
-    "other_attributes": {
-        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd"
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/2004/03/xmlschema-errata",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../msData/errata10/errA001.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "valid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2006-07-16",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "errA001",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [
+        {
+          "annotation": [],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../msData/errata10/errA001.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "valid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2006-07-16",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "errA001.v",
+          "version": [],
+          "other_attributes": {}
+        }
+      ],
+      "name": "errA001",
+      "version": [],
+      "other_attributes": {}
+    },
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                "TEST :Primer Errata : E0-10 Error, E1-11 Error: test that ##other namespace is any namespace other than the target namespace"
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/2004/03/xmlschema-errata",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../msData/errata10/errA002.xsd",
+            "other_attributes": {}
+          },
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../msData/errata10/errA002a.xsd",
+            "other_attributes": {}
+          },
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../msData/errata10/errA002b.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "valid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2006-07-16",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "errA002",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [
+        {
+          "annotation": [],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../msData/errata10/errA002.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "invalid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2006-07-16",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "errA002.i",
+          "version": [],
+          "other_attributes": {}
+        }
+      ],
+      "name": "errA002",
+      "version": [],
+      "other_attributes": {}
+    },
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                "TEST :Primer Errata : E0-15 Error, E2-12 Error: test lexical representation of gMonth"
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/2004/03/xmlschema-errata",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../msData/errata10/errA003.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "valid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2006-07-16",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "errA003",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [
+        {
+          "annotation": [],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../msData/errata10/errA003.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "valid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2006-07-16",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "errA003.v",
+          "version": [],
+          "other_attributes": {}
+        }
+      ],
+      "name": "errA003",
+      "version": [],
+      "other_attributes": {}
+    },
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                "TEST :Primer Errata : E1-40 Clarification: test that anySimpleType whitespace normalization is set to preserve"
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/2004/03/xmlschema-errata",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../msData/errata10/errC001.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "valid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2006-07-16",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "errC001",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [
+        {
+          "annotation": [],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../msData/errata10/errC001.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "valid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2006-07-16",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "errC001.v",
+          "version": [],
+          "other_attributes": {}
+        }
+      ],
+      "name": "errC001",
+      "version": [],
+      "other_attributes": {}
+    },
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                "TEST :Primer Errata : E1-9 Error: version definition of 'schema' is now a normalizedString instead of token"
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/2004/03/xmlschema-errata",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../msData/errata10/errC002.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "valid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2006-07-16",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "errC002",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [],
+      "name": "errC002",
+      "version": [],
+      "other_attributes": {}
+    },
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                "TEST :Primer Errata : E1-3 Error: change representation of Model Group Definition"
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/2004/03/xmlschema-errata",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../msData/errata10/errC003.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "valid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2006-07-16",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "errC003",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [],
+      "name": "errC003",
+      "version": [],
+      "other_attributes": {}
+    },
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                "TEST :Primer Errata : E1-16 Error: public attribute is now optional and has a value space of token"
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/2004/03/xmlschema-errata",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../msData/errata10/errC004.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "valid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2006-07-16",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "errC004",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [],
+      "name": "errC004",
+      "version": [],
+      "other_attributes": {}
+    },
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                "TEST :Primer Errata : E1-13 Error: local element must not have abstract attribute with value true"
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/2004/03/xmlschema-errata",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../msData/errata10/errC005.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "invalid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2006-07-16",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "errC005",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [],
+      "name": "errC005",
+      "version": [],
+      "other_attributes": {}
+    },
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                "TEST :Primer Errata : E1-13 Error: local element must not have abstract attribute with value true"
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/2004/03/xmlschema-errata",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../msData/errata10/errC006.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "invalid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2006-07-16",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "errC006",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [],
+      "name": "errC006",
+      "version": [],
+      "other_attributes": {}
+    },
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                "TEST :Primer Errata : E1-22 Error: R-117 Process contents for ur-type need to be lax"
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/2004/03/xmlschema-errata",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../msData/errata10/errC007.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "valid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2006-07-16",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "errC007",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [
+        {
+          "annotation": [],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../msData/errata10/errC007.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "valid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2006-07-16",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "errC007.v",
+          "version": [],
+          "other_attributes": {}
+        }
+      ],
+      "name": "errC007",
+      "version": [],
+      "other_attributes": {}
+    },
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                "TEST :Primer Errata : Errata E1-21 - processContents of restriction must be identical or stronger than that of base,xs:any"
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/2004/03/xmlschema-errata",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../msData/errata10/errC008.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "invalid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2006-07-16",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "errC008",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [],
+      "name": "errC008",
+      "version": [],
+      "other_attributes": {}
+    },
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                "TEST :Primer Errata : Errata E1-21 - processContents of restriction must be identical or stronger than that of base,xs:anyAttribute"
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/2004/03/xmlschema-errata",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../msData/errata10/errC009.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "invalid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2006-07-16",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "errC009",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [],
+      "name": "errC009",
+      "version": [],
+      "other_attributes": {}
+    },
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                "TEST :Primer Errata : E2-27 Error: test that nonPositiveIntegers support a '+' on zero"
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/2004/03/xmlschema-errata",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../msData/errata10/errE001.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "valid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2006-07-16",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "errE001",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [
+        {
+          "annotation": [],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../msData/errata10/errE001.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "valid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2006-07-16",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "errE001.v",
+          "version": [],
+          "other_attributes": {}
+        }
+      ],
+      "name": "errE001",
+      "version": [],
+      "other_attributes": {}
+    },
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                "TEST :Primer Errata : E2-27 Error: test that nonNegativeIntegers support a '-' on zero"
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/2004/03/xmlschema-errata",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../msData/errata10/errE002.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "valid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2006-07-16",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "errE002",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [
+        {
+          "annotation": [],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../msData/errata10/errE002.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "valid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2006-07-16",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "errE002.v",
+          "version": [],
+          "other_attributes": {}
+        }
+      ],
+      "name": "errE002",
+      "version": [],
+      "other_attributes": {}
+    },
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                "TEST :Primer Errata : E2-25 Error: test support for the new language pattern ([a-zA-Z]{1,8})-([a-zA-Z0-9]{1,8})*"
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/2004/03/xmlschema-errata",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../msData/errata10/errE003.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "valid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2006-07-16",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "errE003",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [
+        {
+          "annotation": [],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../msData/errata10/errE003.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "valid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2006-07-16",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "errE003.v",
+          "version": [],
+          "other_attributes": {}
+        }
+      ],
+      "name": "errE003",
+      "version": [],
+      "other_attributes": {}
+    },
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                "TEST :Primer Errata : E2-24 Error: test that absent 'T' is enforced when no time elements are present"
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/2004/03/xmlschema-errata",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../msData/errata10/errE004.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "valid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2006-07-16",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "errE004",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [
+        {
+          "annotation": [],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../msData/errata10/errE004.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "invalid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2006-07-16",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "errE004.i",
+          "version": [],
+          "other_attributes": {}
+        }
+      ],
+      "name": "errE004",
+      "version": [],
+      "other_attributes": {}
+    },
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                "TEST :Primer Errata : E2-22 Clarification: test date, gYearMonth, gMonthDay, gDay, gMonth and gYear permit an optional, trailing time zone specification."
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/2004/03/xmlschema-errata",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../msData/errata10/errE006.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "valid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": null,
+        "prior": [],
+        "name": "errE006",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [
+        {
+          "annotation": [],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../msData/errata10/errE006.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "valid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2011-10-12",
+            "bugzilla": "http://www.w3.org/Bugs/Public/show_bug.cgi?id=6901",
+            "other_attributes": {}
+          },
+          "prior": [
+            {
+              "annotation": [],
+              "status": "accepted",
+              "date": "2006-07-16",
+              "bugzilla": null,
+              "other_attributes": {}
+            }
+          ],
+          "name": "errE006.v",
+          "version": [],
+          "other_attributes": {}
+        }
+      ],
+      "name": "errE006",
+      "version": [],
+      "other_attributes": {}
+    },
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                "TEST :Primer Errata : E2-17 Error: Do not allow carriage return in token values"
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/2004/03/xmlschema-errata",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../msData/errata10/errE008.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "valid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2006-07-16",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "errE008",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [
+        {
+          "annotation": [],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../msData/errata10/errE008.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "valid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2006-07-16",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "errE008.v",
+          "version": [],
+          "other_attributes": {}
+        }
+      ],
+      "name": "errE008",
+      "version": [],
+      "other_attributes": {}
+    },
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                "TEST :Primer Errata : Errata E2-35: length facet is now allowed with either minLength or maxLength if they are specified in different derivation steps"
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/2004/03/xmlschema-errata",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../msData/errata10/errF001.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "valid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "queried",
+          "date": "2007-06-21",
+          "bugzilla": "http://www.w3.org/Bugs/Public/show_bug.cgi?id=4681",
+          "other_attributes": {}
+        },
+        "prior": [
+          {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2006-07-16",
+            "bugzilla": null,
+            "other_attributes": {}
+          }
+        ],
+        "name": "errF001",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [
+        {
+          "annotation": [],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../msData/errata10/errF001.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "invalid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2006-07-16",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "errF001.i",
+          "version": [],
+          "other_attributes": {}
+        }
+      ],
+      "name": "errF001",
+      "version": [],
+      "other_attributes": {}
     }
+  ],
+  "contributor": "Microsoft",
+  "name": "MS-Errata102006-07-15",
+  "version": [],
+  "other_attributes": {
+    "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd"
+  }
 }

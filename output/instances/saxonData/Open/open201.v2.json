@@ -1,10 +1,10 @@
 {
+  "extra-number": null,
+  "extra-date": null,
+  "a": {
     "extra-number": null,
-    "extra-date": null,
-    "a": {
-        "extra-number": null,
-        "extra-date": null
-    },
-    "b": null,
-    "c": null
+    "extra-date": null
+  },
+  "b": null,
+  "c": null
 }

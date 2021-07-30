@@ -1,6 +1,6 @@
 {
-    "complexTest": {
-        "comp_foo": NaN
-    },
-    "simpleTest": NaN
+  "complexTest": {
+    "comp_foo": NaN
+  },
+  "simpleTest": NaN
 }

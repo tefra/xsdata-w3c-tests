@@ -1,11 +1,11 @@
 {
-    "complex2": [
-        {}
-    ],
-    "complex1": [
-        {
-            "any_element": null
-        }
-    ],
-    "substHead": []
+  "complex2": [
+    {}
+  ],
+  "complex1": [
+    {
+      "any_element": null
+    }
+  ],
+  "substHead": []
 }

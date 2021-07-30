@@ -1,22 +1,22 @@
 {
-    "elem": {
-        "local_foo_bar_target_namespace_element": [
-            {
-                "qname": "a",
-                "text": "",
-                "tail": null,
-                "children": [
-                    {
-                        "qname": "e1",
-                        "text": "",
-                        "tail": null,
-                        "children": [],
-                        "attributes": {}
-                    }
-                ],
-                "attributes": {}
-            }
+  "elem": {
+    "local_foo_bar_target_namespace_element": [
+      {
+        "qname": "a",
+        "text": "",
+        "tail": null,
+        "children": [
+          {
+            "qname": "e1",
+            "text": "",
+            "tail": null,
+            "children": [],
+            "attributes": {}
+          }
         ],
-        "local_bar_element": []
-    }
+        "attributes": {}
+      }
+    ],
+    "local_bar_element": []
+  }
 }

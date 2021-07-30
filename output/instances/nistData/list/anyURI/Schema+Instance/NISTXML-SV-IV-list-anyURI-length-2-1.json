@@ -1,10 +1,10 @@
 {
-    "value": [
-        "ftp://andas.the.edu",
-        "telnet://thew.an.edu",
-        "telnet://high.refe.net",
-        "ftp://syst.synta.net",
-        "gopher://andi.tofo.NSRL.edu",
-        "ftp://th.t.com"
-    ]
+  "value": [
+    "ftp://andas.the.edu",
+    "telnet://thew.an.edu",
+    "telnet://high.refe.net",
+    "ftp://syst.synta.net",
+    "gopher://andi.tofo.NSRL.edu",
+    "ftp://th.t.com"
+  ]
 }

@@ -1,10 +1,10 @@
 {
-    "qname": "{pSubstitutions}e",
-    "value": {
-        "c": [
-            1,
-            2
-        ]
-    },
-    "type": "{pSubstitutions}C"
+  "qname": "{pSubstitutions}e",
+  "value": {
+    "c": [
+      1,
+      2
+    ]
+  },
+  "type": "{pSubstitutions}C"
 }

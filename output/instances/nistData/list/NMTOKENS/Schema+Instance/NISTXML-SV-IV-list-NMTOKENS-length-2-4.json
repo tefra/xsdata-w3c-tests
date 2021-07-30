@@ -1,10 +1,10 @@
 {
-    "value": [
-        "provides:reference.in",
-        "test.a-landscape_on.t",
-        "measure:and:working-a",
-        "effective:define.repo",
-        "information:technolog",
-        "repository-OASIS:XML-"
-    ]
+  "value": [
+    "provides:reference.in",
+    "test.a-landscape_on.t",
+    "measure:and:working-a",
+    "effective:define.repo",
+    "information:technolog",
+    "repository-OASIS:XML-"
+  ]
 }

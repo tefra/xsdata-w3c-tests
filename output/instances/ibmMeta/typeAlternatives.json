@@ -1,2015 +1,2015 @@
 {
-    "annotation": [
+  "annotation": [
+    {
+      "appinfo_or_documentation": [
         {
-            "appinfo_or_documentation": [
-                {
-                    "source": null,
-                    "lang": null,
-                    "other_attributes": {
-                        "{http://www.w3.org/1999/xlink}href": "http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
-                    },
-                    "content": [
-                        "Type alternative test cases."
-                    ]
-                }
-            ],
-            "other_attributes": {}
+          "source": null,
+          "lang": null,
+          "other_attributes": {
+            "{http://www.w3.org/1999/xlink}href": "http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
+          },
+          "content": [
+            "Type alternative test cases."
+          ]
         }
-    ],
-    "testGroup": [
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                "\n            Basic type alternatives. The alternative type extends the base element's type. \n            More that one alternative type is present. One of the alternative types is the default type.  \n            "
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-CTA-Basic",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../ibmData/valid/S3_12/s3_12v01.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "valid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2010-12-01",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "s3_12v01s",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [
-                {
-                    "annotation": [],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../ibmData/valid/S3_12/s3_12v01.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "valid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2010-12-01",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "s3_12v01i",
-                    "version": [],
-                    "other_attributes": {}
-                }
-            ],
-            "name": "s3_12v01",
-            "version": [
-                "1.1"
-            ],
-            "other_attributes": {}
-        },
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                "\n            Basic type alternatives. alternative element with a complexType child that is \n\t\t        derived from the base element  type and no type attribute More that one alternative \n\t\t        type is present. One of the alternative types is the default type.   \n\t\t        "
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-CTA-DerivationByRestr",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../ibmData/valid/S3_12/s3_12v02.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "valid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2010-12-01",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "s3_12v02s",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [
-                {
-                    "annotation": [],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../ibmData/valid/S3_12/s3_12v02.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "valid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2010-12-01",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "s3_12v02i",
-                    "version": [],
-                    "other_attributes": {}
-                }
-            ],
-            "name": "s3_12v02",
-            "version": [
-                "1.1"
-            ],
-            "other_attributes": {}
-        },
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                "\n            Basic type alternatives. \n\t\t        The alternative type extends the base element's type. \n\t\t        More that one alternative type is present. One of the alternative types is the default type.  \n\t\t        "
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-CTA-AltsSubstitable",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../ibmData/valid/S3_12/s3_12v03.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "valid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2010-12-01",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "s3_12v03s",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [
-                {
-                    "annotation": [],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../ibmData/valid/S3_12/s3_12v03.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "valid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2010-12-01",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "s3_12v03i",
-                    "version": [],
-                    "other_attributes": {}
-                }
-            ],
-            "name": "s3_12v03",
-            "version": [
-                "1.1"
-            ],
-            "other_attributes": {}
-        },
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                "\n            Basic type alternatives.\n            For the first alternative type, the attribute whose value is to be selected by the alternative type's {test} expression is of type string.\n            The attribute value in the XML document contains a trailing space and will not normalized and selected by the alternate type. \n            For the second alternative type, the case of the attribute whose value is to be selected by the {test} expression is in a different case in the XML document.\n            In both cases, the alternative type should not be selected. \n            "
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-CTA-Basic",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../ibmData/valid/S3_12/s3_12v04.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "valid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2010-12-01",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "s3_12v04s",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [
-                {
-                    "annotation": [],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../ibmData/valid/S3_12/s3_12v04.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "valid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2010-12-01",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "s3_12v04i",
-                    "version": [],
-                    "other_attributes": {}
-                }
-            ],
-            "name": "s3_12v04",
-            "version": [
-                "1.1"
-            ],
-            "other_attributes": {}
-        },
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                "\n            Basic type alternatives.\n            Selection of the alternative type is dertermined by evaluating a path And expression with a comparator operator with an attribute's value\n            "
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-CTA-Basic",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../ibmData/valid/S3_12/s3_12v05.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "valid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2010-12-01",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "s3_12v05s",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [
-                {
-                    "annotation": [],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../ibmData/valid/S3_12/s3_12v05.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "valid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2010-12-01",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "s3_12v05i",
-                    "version": [],
-                    "other_attributes": {}
-                }
-            ],
-            "name": "s3_12v05",
-            "version": [
-                "1.1"
-            ],
-            "other_attributes": {}
-        },
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                "\n            Basic type alternatives.\n            Selection of the alternative type is dertermined by evaluating a path And and Or expressions with a comparator operator with an attribute's value  \n            "
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-CTA-Basic",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../ibmData/valid/S3_12/s3_12v06.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "valid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2010-12-01",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "s3_12v06s",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [
-                {
-                    "annotation": [],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../ibmData/valid/S3_12/s3_12v06.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "valid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2010-12-01",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "s3_12v06i",
-                    "version": [],
-                    "other_attributes": {}
-                }
-            ],
-            "name": "s3_12v06",
-            "version": [
-                "1.1"
-            ],
-            "other_attributes": {}
-        },
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                "\n            Basic type alternatives.\n            Selection of the alternative type is dertermined by evaluating a Constructor function on attribute values\n            "
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-CTA-Basic",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../ibmData/valid/S3_12/s3_12v07.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "valid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2010-12-01",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "s3_12v07s",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [
-                {
-                    "annotation": [],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../ibmData/valid/S3_12/s3_12v07.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "valid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2010-12-01",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "s3_12v07i",
-                    "version": [],
-                    "other_attributes": {}
-                }
-            ],
-            "name": "s3_12v07",
-            "version": [
-                "1.1"
-            ],
-            "other_attributes": {}
-        },
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                "\n            Basic type alternatives.\n            Selection of the alternative type is dertermined by evaluating an And operation on the presence of attributes in an element  \n            "
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-CTA-Basic",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../ibmData/valid/S3_12/s3_12v08.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "valid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2010-12-01",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "s3_12v08s",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [
-                {
-                    "annotation": [],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../ibmData/valid/S3_12/s3_12v08.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "valid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2010-12-01",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "s3_12v08i",
-                    "version": [],
-                    "other_attributes": {}
-                }
-            ],
-            "name": "s3_12v08",
-            "version": [
-                "1.1"
-            ],
-            "other_attributes": {}
-        },
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                "Basic type alternatives."
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-CTA-Basic",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../ibmData/valid/S3_12/s3_12v09.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "valid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2010-12-01",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "s3_12v09s",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [
-                {
-                    "annotation": [],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../ibmData/valid/S3_12/s3_12v09.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "valid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2010-12-01",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "s3_12v09i",
-                    "version": [],
-                    "other_attributes": {}
-                }
-            ],
-            "name": "s3_12v09",
-            "version": [
-                "1.1"
-            ],
-            "other_attributes": {}
-        },
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                "\n            Basic type alternatives.\n            Selection of the alternative type is dertermined by evaluating a Constructor function and a Cast Expression on attribute values\n            "
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-CTA-Basic",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../ibmData/valid/S3_12/s3_12v10.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "valid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2010-12-01",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "s3_12v10s",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [
-                {
-                    "annotation": [],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../ibmData/valid/S3_12/s3_12v10.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "valid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2010-12-01",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "s3_12v11i",
-                    "version": [],
-                    "other_attributes": {}
-                }
-            ],
-            "name": "s3_12v10",
-            "version": [
-                "1.1"
-            ],
-            "other_attributes": {}
-        },
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                "Attribute declarations can now be marked {inheritable}. "
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-CTA-InheritableAttr",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../ibmData/valid/S3_12/s3_12v11.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "valid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2010-12-01",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "s3_12v11s",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [
-                {
-                    "annotation": [],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../ibmData/valid/S3_12/s3_12v11.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "valid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2010-12-01",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "s3_12v01i",
-                    "version": [],
-                    "other_attributes": {}
-                }
-            ],
-            "name": "s3_12v11",
-            "version": [
-                "1.1"
-            ],
-            "other_attributes": {}
-        },
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                "The alternative type's value is an invalid float"
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-CTA-Basic",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../ibmData/instance_invalid/S3_12/s3_12ii01.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "valid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2010-12-01",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "s3_12ii01s",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [
-                {
-                    "annotation": [],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../ibmData/instance_invalid/S3_12/s3_12ii01.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "invalid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2010-12-01",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "s3_12ii01i",
-                    "version": [],
-                    "other_attributes": {}
-                }
-            ],
-            "name": "s3_12ii01",
-            "version": [
-                "1.1"
-            ],
-            "other_attributes": {}
-        },
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                "The type alternative is selects an invalid element using comparator operators."
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-CTA-Basic",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../ibmData/instance_invalid/S3_12/s3_12ii02.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "valid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2010-12-01",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "s3_12ii02s",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [
-                {
-                    "annotation": [],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../ibmData/instance_invalid/S3_12/s3_12ii02.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "invalid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2010-12-01",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "s3_12ii02i",
-                    "version": [],
-                    "other_attributes": {}
-                }
-            ],
-            "name": "s3_12ii02",
-            "version": [
-                "1.1"
-            ],
-            "other_attributes": {}
-        },
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                "The type alternative is selects an invalid element using constructor functions and comparator operators."
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-CTA-DerivationByRestr",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../ibmData/instance_invalid/S3_12/s3_12ii03.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "valid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2010-12-01",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "s3_12ii03s",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [
-                {
-                    "annotation": [],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../ibmData/instance_invalid/S3_12/s3_12ii03.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "invalid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2010-12-01",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "s3_12ii03i",
-                    "version": [],
-                    "other_attributes": {}
-                }
-            ],
-            "name": "s3_12ii03",
-            "version": [
-                "1.1"
-            ],
-            "other_attributes": {}
-        },
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                "Basic type alternatives selecting invalid content."
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-CTA-Basic",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../ibmData/instance_invalid/S3_12/s3_12ii04.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "valid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2010-12-01",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "s3_12ii04s",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [
-                {
-                    "annotation": [],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../ibmData/instance_invalid/S3_12/s3_12ii04.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "invalid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2010-12-01",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "s3_12ii04i",
-                    "version": [],
-                    "other_attributes": {}
-                }
-            ],
-            "name": "s3_12ii04",
-            "version": [
-                "1.1"
-            ],
-            "other_attributes": {}
-        },
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                "test xs:error as conditionally assigned type"
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/TR/xmlschema11-1/#sec-src-attdecl",
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-CTA-XSErrorType",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../ibmData/instance_invalid/S3_12/s3_12ii05.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "valid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2010-12-01",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "s3_12ii05s",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [
-                {
-                    "annotation": [],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../ibmData/instance_invalid/S3_12/s3_12ii05.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "invalid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2010-12-01",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "s3_12ii05i",
-                    "version": [],
-                    "other_attributes": {}
-                }
-            ],
-            "name": "s3_12ii05",
-            "version": [
-                "1.1"
-            ],
-            "other_attributes": {}
-        },
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                "Tests an invalid XPath cast expression. The cast expression casts to a simple type defined in the schema."
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-CTA-StaticDynamicContextOfXPathExpr",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../ibmData/instance_invalid/S3_12/s3_12ii06.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "invalid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [
-                        {
-                            "appinfo_or_documentation": [
-                                {
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {},
-                                    "content": [
-                                        "\n                        Changed the status to \"invalid\" and removed the instance test, in response to bug #12139\n                    "
-                                    ]
-                                }
-                            ],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "status": "accepted",
-                    "date": "2011-07-29",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [
-                    {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2010-12-01",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    }
-                ],
-                "name": "s3_12ii06s",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [],
-            "name": "s3_12ii06",
-            "version": [
-                "1.1"
-            ],
-            "other_attributes": {}
-        },
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                "Tests the selection of type alternative when the element type definition"
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-CTA-XSErrorType",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../ibmData/schema_invalid/S3_12/s3_12si01.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "invalid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2010-12-01",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "s3_12si01s",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [],
-            "name": "s3_12si01",
-            "version": [
-                "1.1"
-            ],
-            "other_attributes": {}
-        },
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                "Tests the selection of type alternative when the element type definition is xs:anyType and alternatives not valid derivation of declared type "
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-CTA-XSErrorType",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../ibmData/schema_invalid/S3_12/s3_12si02.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "invalid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2010-12-01",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "s3_12si02s",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [],
-            "name": "s3_12si02",
-            "version": [
-                "1.1"
-            ],
-            "other_attributes": {}
-        },
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                "Alternatives not valid derivation of declared type "
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-CTA-AltsSubstitable",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../ibmData/schema_invalid/S3_12/s3_12si03.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "invalid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2010-12-01",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "s3_12si03s",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [],
-            "name": "s3_12si03",
-            "version": [
-                "1.1"
-            ],
-            "other_attributes": {}
-        },
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                "Tests invalid XPath expression"
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-CTA-StaticErrorsInXPathExpr",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../ibmData/schema_invalid/S3_12/s3_12si04.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "invalid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2010-12-01",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "s3_12si04s",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [],
-            "name": "s3_12si04",
-            "version": [
-                "1.1"
-            ],
-            "other_attributes": {}
-        },
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                "Tests an invalid XPath expression. The letter case in the AND expression is incorrect."
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-CTA-StaticErrorsInXPathExpr",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../ibmData/schema_invalid/S3_12/s3_12si05.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "invalid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2010-12-01",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "s3_12si05s",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [],
-            "name": "s3_12si05",
-            "version": [
-                "1.1"
-            ],
-            "other_attributes": {}
-        },
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                "Tests an invalid XPath cast expression. The QName in the cast expression is incorrect."
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-CTA-DynamicErrInXPathEval",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../ibmData/schema_invalid/S3_12/s3_12si06.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "invalid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2010-12-01",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "s3_12si06s",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [],
-            "name": "s3_12si06",
-            "version": [
-                "1.1"
-            ],
-            "other_attributes": {}
-        }
-    ],
-    "contributor": "IBM",
-    "name": "TypeAlternativeTests",
-    "version": [],
-    "other_attributes": {
-        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd"
+      ],
+      "other_attributes": {}
     }
+  ],
+  "testGroup": [
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                "\n            Basic type alternatives. The alternative type extends the base element's type. \n            More that one alternative type is present. One of the alternative types is the default type.  \n            "
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "../common/XSD1_1TestCategories.xml#xsd1_1-CTA-Basic",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../ibmData/valid/S3_12/s3_12v01.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "valid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2010-12-01",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "s3_12v01s",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [
+        {
+          "annotation": [],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../ibmData/valid/S3_12/s3_12v01.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "valid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2010-12-01",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "s3_12v01i",
+          "version": [],
+          "other_attributes": {}
+        }
+      ],
+      "name": "s3_12v01",
+      "version": [
+        "1.1"
+      ],
+      "other_attributes": {}
+    },
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                "\n            Basic type alternatives. alternative element with a complexType child that is \n\t\t        derived from the base element  type and no type attribute More that one alternative \n\t\t        type is present. One of the alternative types is the default type.   \n\t\t        "
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "../common/XSD1_1TestCategories.xml#xsd1_1-CTA-DerivationByRestr",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../ibmData/valid/S3_12/s3_12v02.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "valid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2010-12-01",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "s3_12v02s",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [
+        {
+          "annotation": [],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../ibmData/valid/S3_12/s3_12v02.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "valid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2010-12-01",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "s3_12v02i",
+          "version": [],
+          "other_attributes": {}
+        }
+      ],
+      "name": "s3_12v02",
+      "version": [
+        "1.1"
+      ],
+      "other_attributes": {}
+    },
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                "\n            Basic type alternatives. \n\t\t        The alternative type extends the base element's type. \n\t\t        More that one alternative type is present. One of the alternative types is the default type.  \n\t\t        "
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "../common/XSD1_1TestCategories.xml#xsd1_1-CTA-AltsSubstitable",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../ibmData/valid/S3_12/s3_12v03.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "valid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2010-12-01",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "s3_12v03s",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [
+        {
+          "annotation": [],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../ibmData/valid/S3_12/s3_12v03.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "valid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2010-12-01",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "s3_12v03i",
+          "version": [],
+          "other_attributes": {}
+        }
+      ],
+      "name": "s3_12v03",
+      "version": [
+        "1.1"
+      ],
+      "other_attributes": {}
+    },
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                "\n            Basic type alternatives.\n            For the first alternative type, the attribute whose value is to be selected by the alternative type's {test} expression is of type string.\n            The attribute value in the XML document contains a trailing space and will not normalized and selected by the alternate type. \n            For the second alternative type, the case of the attribute whose value is to be selected by the {test} expression is in a different case in the XML document.\n            In both cases, the alternative type should not be selected. \n            "
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "../common/XSD1_1TestCategories.xml#xsd1_1-CTA-Basic",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../ibmData/valid/S3_12/s3_12v04.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "valid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2010-12-01",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "s3_12v04s",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [
+        {
+          "annotation": [],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../ibmData/valid/S3_12/s3_12v04.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "valid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2010-12-01",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "s3_12v04i",
+          "version": [],
+          "other_attributes": {}
+        }
+      ],
+      "name": "s3_12v04",
+      "version": [
+        "1.1"
+      ],
+      "other_attributes": {}
+    },
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                "\n            Basic type alternatives.\n            Selection of the alternative type is dertermined by evaluating a path And expression with a comparator operator with an attribute's value\n            "
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "../common/XSD1_1TestCategories.xml#xsd1_1-CTA-Basic",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../ibmData/valid/S3_12/s3_12v05.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "valid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2010-12-01",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "s3_12v05s",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [
+        {
+          "annotation": [],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../ibmData/valid/S3_12/s3_12v05.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "valid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2010-12-01",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "s3_12v05i",
+          "version": [],
+          "other_attributes": {}
+        }
+      ],
+      "name": "s3_12v05",
+      "version": [
+        "1.1"
+      ],
+      "other_attributes": {}
+    },
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                "\n            Basic type alternatives.\n            Selection of the alternative type is dertermined by evaluating a path And and Or expressions with a comparator operator with an attribute's value  \n            "
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "../common/XSD1_1TestCategories.xml#xsd1_1-CTA-Basic",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../ibmData/valid/S3_12/s3_12v06.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "valid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2010-12-01",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "s3_12v06s",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [
+        {
+          "annotation": [],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../ibmData/valid/S3_12/s3_12v06.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "valid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2010-12-01",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "s3_12v06i",
+          "version": [],
+          "other_attributes": {}
+        }
+      ],
+      "name": "s3_12v06",
+      "version": [
+        "1.1"
+      ],
+      "other_attributes": {}
+    },
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                "\n            Basic type alternatives.\n            Selection of the alternative type is dertermined by evaluating a Constructor function on attribute values\n            "
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "../common/XSD1_1TestCategories.xml#xsd1_1-CTA-Basic",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../ibmData/valid/S3_12/s3_12v07.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "valid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2010-12-01",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "s3_12v07s",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [
+        {
+          "annotation": [],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../ibmData/valid/S3_12/s3_12v07.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "valid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2010-12-01",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "s3_12v07i",
+          "version": [],
+          "other_attributes": {}
+        }
+      ],
+      "name": "s3_12v07",
+      "version": [
+        "1.1"
+      ],
+      "other_attributes": {}
+    },
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                "\n            Basic type alternatives.\n            Selection of the alternative type is dertermined by evaluating an And operation on the presence of attributes in an element  \n            "
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "../common/XSD1_1TestCategories.xml#xsd1_1-CTA-Basic",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../ibmData/valid/S3_12/s3_12v08.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "valid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2010-12-01",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "s3_12v08s",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [
+        {
+          "annotation": [],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../ibmData/valid/S3_12/s3_12v08.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "valid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2010-12-01",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "s3_12v08i",
+          "version": [],
+          "other_attributes": {}
+        }
+      ],
+      "name": "s3_12v08",
+      "version": [
+        "1.1"
+      ],
+      "other_attributes": {}
+    },
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                "Basic type alternatives."
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "../common/XSD1_1TestCategories.xml#xsd1_1-CTA-Basic",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../ibmData/valid/S3_12/s3_12v09.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "valid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2010-12-01",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "s3_12v09s",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [
+        {
+          "annotation": [],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../ibmData/valid/S3_12/s3_12v09.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "valid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2010-12-01",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "s3_12v09i",
+          "version": [],
+          "other_attributes": {}
+        }
+      ],
+      "name": "s3_12v09",
+      "version": [
+        "1.1"
+      ],
+      "other_attributes": {}
+    },
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                "\n            Basic type alternatives.\n            Selection of the alternative type is dertermined by evaluating a Constructor function and a Cast Expression on attribute values\n            "
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "../common/XSD1_1TestCategories.xml#xsd1_1-CTA-Basic",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../ibmData/valid/S3_12/s3_12v10.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "valid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2010-12-01",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "s3_12v10s",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [
+        {
+          "annotation": [],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../ibmData/valid/S3_12/s3_12v10.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "valid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2010-12-01",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "s3_12v11i",
+          "version": [],
+          "other_attributes": {}
+        }
+      ],
+      "name": "s3_12v10",
+      "version": [
+        "1.1"
+      ],
+      "other_attributes": {}
+    },
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                "Attribute declarations can now be marked {inheritable}. "
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "../common/XSD1_1TestCategories.xml#xsd1_1-CTA-InheritableAttr",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../ibmData/valid/S3_12/s3_12v11.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "valid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2010-12-01",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "s3_12v11s",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [
+        {
+          "annotation": [],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../ibmData/valid/S3_12/s3_12v11.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "valid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2010-12-01",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "s3_12v01i",
+          "version": [],
+          "other_attributes": {}
+        }
+      ],
+      "name": "s3_12v11",
+      "version": [
+        "1.1"
+      ],
+      "other_attributes": {}
+    },
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                "The alternative type's value is an invalid float"
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "../common/XSD1_1TestCategories.xml#xsd1_1-CTA-Basic",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../ibmData/instance_invalid/S3_12/s3_12ii01.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "valid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2010-12-01",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "s3_12ii01s",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [
+        {
+          "annotation": [],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../ibmData/instance_invalid/S3_12/s3_12ii01.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "invalid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2010-12-01",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "s3_12ii01i",
+          "version": [],
+          "other_attributes": {}
+        }
+      ],
+      "name": "s3_12ii01",
+      "version": [
+        "1.1"
+      ],
+      "other_attributes": {}
+    },
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                "The type alternative is selects an invalid element using comparator operators."
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "../common/XSD1_1TestCategories.xml#xsd1_1-CTA-Basic",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../ibmData/instance_invalid/S3_12/s3_12ii02.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "valid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2010-12-01",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "s3_12ii02s",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [
+        {
+          "annotation": [],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../ibmData/instance_invalid/S3_12/s3_12ii02.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "invalid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2010-12-01",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "s3_12ii02i",
+          "version": [],
+          "other_attributes": {}
+        }
+      ],
+      "name": "s3_12ii02",
+      "version": [
+        "1.1"
+      ],
+      "other_attributes": {}
+    },
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                "The type alternative is selects an invalid element using constructor functions and comparator operators."
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "../common/XSD1_1TestCategories.xml#xsd1_1-CTA-DerivationByRestr",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../ibmData/instance_invalid/S3_12/s3_12ii03.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "valid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2010-12-01",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "s3_12ii03s",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [
+        {
+          "annotation": [],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../ibmData/instance_invalid/S3_12/s3_12ii03.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "invalid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2010-12-01",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "s3_12ii03i",
+          "version": [],
+          "other_attributes": {}
+        }
+      ],
+      "name": "s3_12ii03",
+      "version": [
+        "1.1"
+      ],
+      "other_attributes": {}
+    },
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                "Basic type alternatives selecting invalid content."
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "../common/XSD1_1TestCategories.xml#xsd1_1-CTA-Basic",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../ibmData/instance_invalid/S3_12/s3_12ii04.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "valid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2010-12-01",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "s3_12ii04s",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [
+        {
+          "annotation": [],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../ibmData/instance_invalid/S3_12/s3_12ii04.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "invalid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2010-12-01",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "s3_12ii04i",
+          "version": [],
+          "other_attributes": {}
+        }
+      ],
+      "name": "s3_12ii04",
+      "version": [
+        "1.1"
+      ],
+      "other_attributes": {}
+    },
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                "test xs:error as conditionally assigned type"
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/TR/xmlschema11-1/#sec-src-attdecl",
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "../common/XSD1_1TestCategories.xml#xsd1_1-CTA-XSErrorType",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../ibmData/instance_invalid/S3_12/s3_12ii05.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "valid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2010-12-01",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "s3_12ii05s",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [
+        {
+          "annotation": [],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../ibmData/instance_invalid/S3_12/s3_12ii05.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "invalid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2010-12-01",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "s3_12ii05i",
+          "version": [],
+          "other_attributes": {}
+        }
+      ],
+      "name": "s3_12ii05",
+      "version": [
+        "1.1"
+      ],
+      "other_attributes": {}
+    },
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                "Tests an invalid XPath cast expression. The cast expression casts to a simple type defined in the schema."
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "../common/XSD1_1TestCategories.xml#xsd1_1-CTA-StaticDynamicContextOfXPathExpr",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../ibmData/instance_invalid/S3_12/s3_12ii06.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "invalid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [
+            {
+              "appinfo_or_documentation": [
+                {
+                  "source": null,
+                  "lang": null,
+                  "other_attributes": {},
+                  "content": [
+                    "\n                        Changed the status to \"invalid\" and removed the instance test, in response to bug #12139\n                    "
+                  ]
+                }
+              ],
+              "other_attributes": {}
+            }
+          ],
+          "status": "accepted",
+          "date": "2011-07-29",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [
+          {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2010-12-01",
+            "bugzilla": null,
+            "other_attributes": {}
+          }
+        ],
+        "name": "s3_12ii06s",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [],
+      "name": "s3_12ii06",
+      "version": [
+        "1.1"
+      ],
+      "other_attributes": {}
+    },
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                "Tests the selection of type alternative when the element type definition"
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "../common/XSD1_1TestCategories.xml#xsd1_1-CTA-XSErrorType",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../ibmData/schema_invalid/S3_12/s3_12si01.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "invalid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2010-12-01",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "s3_12si01s",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [],
+      "name": "s3_12si01",
+      "version": [
+        "1.1"
+      ],
+      "other_attributes": {}
+    },
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                "Tests the selection of type alternative when the element type definition is xs:anyType and alternatives not valid derivation of declared type "
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "../common/XSD1_1TestCategories.xml#xsd1_1-CTA-XSErrorType",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../ibmData/schema_invalid/S3_12/s3_12si02.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "invalid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2010-12-01",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "s3_12si02s",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [],
+      "name": "s3_12si02",
+      "version": [
+        "1.1"
+      ],
+      "other_attributes": {}
+    },
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                "Alternatives not valid derivation of declared type "
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "../common/XSD1_1TestCategories.xml#xsd1_1-CTA-AltsSubstitable",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../ibmData/schema_invalid/S3_12/s3_12si03.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "invalid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2010-12-01",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "s3_12si03s",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [],
+      "name": "s3_12si03",
+      "version": [
+        "1.1"
+      ],
+      "other_attributes": {}
+    },
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                "Tests invalid XPath expression"
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "../common/XSD1_1TestCategories.xml#xsd1_1-CTA-StaticErrorsInXPathExpr",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../ibmData/schema_invalid/S3_12/s3_12si04.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "invalid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2010-12-01",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "s3_12si04s",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [],
+      "name": "s3_12si04",
+      "version": [
+        "1.1"
+      ],
+      "other_attributes": {}
+    },
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                "Tests an invalid XPath expression. The letter case in the AND expression is incorrect."
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "../common/XSD1_1TestCategories.xml#xsd1_1-CTA-StaticErrorsInXPathExpr",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../ibmData/schema_invalid/S3_12/s3_12si05.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "invalid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2010-12-01",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "s3_12si05s",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [],
+      "name": "s3_12si05",
+      "version": [
+        "1.1"
+      ],
+      "other_attributes": {}
+    },
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                "Tests an invalid XPath cast expression. The QName in the cast expression is incorrect."
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "../common/XSD1_1TestCategories.xml#xsd1_1-CTA-DynamicErrInXPathEval",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../ibmData/schema_invalid/S3_12/s3_12si06.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "invalid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2010-12-01",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "s3_12si06s",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [],
+      "name": "s3_12si06",
+      "version": [
+        "1.1"
+      ],
+      "other_attributes": {}
+    }
+  ],
+  "contributor": "IBM",
+  "name": "TypeAlternativeTests",
+  "version": [],
+  "other_attributes": {
+    "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd"
+  }
 }

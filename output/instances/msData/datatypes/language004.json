@@ -1,6 +1,6 @@
 {
-    "complexTest": {
-        "comp_foo": "en-us"
-    },
-    "simpleTest": "en-us"
+  "complexTest": {
+    "comp_foo": "en-us"
+  },
+  "simpleTest": "en-us"
 }

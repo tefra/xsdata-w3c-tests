@@ -1,5 +1,5 @@
 {
-    "myEle1": "string data",
-    "myEle2": 123456,
-    "myEle3": null
+  "myEle1": "string data",
+  "myEle2": 123456,
+  "myEle3": null
 }

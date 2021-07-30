@@ -1,15 +1,15 @@
 {
-    "elem": [
+  "elem": [
+    {
+      "foo_target_namespace_bar_local_element": [
         {
-            "foo_target_namespace_bar_local_element": [
-                {
-                    "qname": "foo",
-                    "text": "",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {}
-                }
-            ]
+          "qname": "foo",
+          "text": "",
+          "tail": null,
+          "children": [],
+          "attributes": {}
         }
-    ]
+      ]
+    }
+  ]
 }

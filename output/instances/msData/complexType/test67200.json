@@ -1,7 +1,7 @@
 {
-    "qname": "elt1",
-    "value": {
-        "elt2": ""
-    },
-    "type": "typeA"
+  "qname": "elt1",
+  "value": {
+    "elt2": ""
+  },
+  "type": "typeA"
 }

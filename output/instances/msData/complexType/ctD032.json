@@ -1,8 +1,8 @@
 {
-    "value": "\n\tany string\n",
-    "any_attributes": {
-        "{http://www.w3.org/2001/XMLSchema-instance}noNamespaceSchemaLocation": "ctD032.xsd"
-    },
-    "myAttr": "group attribute",
-    "myAttr1": "second group attribute"
+  "value": "\n\tany string\n",
+  "any_attributes": {
+    "{http://www.w3.org/2001/XMLSchema-instance}noNamespaceSchemaLocation": "ctD032.xsd"
+  },
+  "myAttr": "group attribute",
+  "myAttr1": "second group attribute"
 }

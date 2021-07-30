@@ -1,16 +1,16 @@
 {
-    "sub": [
-        {
-            "idelt": {
-                "value": 17,
-                "attr": "1"
-            }
-        },
-        {
-            "idelt": {
-                "value": 18,
-                "attr": "1"
-            }
-        }
-    ]
+  "sub": [
+    {
+      "idelt": {
+        "value": 17,
+        "attr": "1"
+      }
+    },
+    {
+      "idelt": {
+        "value": 18,
+        "attr": "1"
+      }
+    }
+  ]
 }

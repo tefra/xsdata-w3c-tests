@@ -1,10 +1,10 @@
 {
-    "elem": [
-        {
-            "att1": 123,
-            "any_attributes": {
-                "{foo}foo": "foo"
-            }
-        }
-    ]
+  "elem": [
+    {
+      "att1": 123,
+      "any_attributes": {
+        "{foo}foo": "foo"
+      }
+    }
+  ]
 }

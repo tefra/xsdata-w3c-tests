@@ -1,9 +1,9 @@
 {
-    "elem1": {
-        "any_element": null
-    },
-    "elem2": {
-        "a1": "",
-        "a2": null
-    }
+  "elem1": {
+    "any_element": null
+  },
+  "elem2": {
+    "a1": "",
+    "a2": null
+  }
 }

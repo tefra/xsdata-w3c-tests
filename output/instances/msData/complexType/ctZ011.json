@@ -1,19 +1,19 @@
 {
-    "any_element": {
-        "qname": null,
-        "text": "\n1242\n        ",
+  "any_element": {
+    "qname": null,
+    "text": "\n1242\n        ",
+    "tail": null,
+    "children": [
+      {
+        "qname": "b",
+        "text": "",
         "tail": null,
-        "children": [
-            {
-                "qname": "b",
-                "text": "",
-                "tail": null,
-                "children": [],
-                "attributes": {}
-            }
-        ],
-        "attributes": {
-            "{http://www.w3.org/2001/XMLSchema-instance}type": "{http://www.w3.org/2001/XMLSchema}anyType"
-        }
+        "children": [],
+        "attributes": {}
+      }
+    ],
+    "attributes": {
+      "{http://www.w3.org/2001/XMLSchema-instance}type": "{http://www.w3.org/2001/XMLSchema}anyType"
     }
+  }
 }

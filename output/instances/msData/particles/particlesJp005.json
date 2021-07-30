@@ -1,10 +1,10 @@
 {
-    "elem": {
-        "target_namespace_element": [],
-        "foo": [
-            {
-                "any_element": null
-            }
-        ]
-    }
+  "elem": {
+    "target_namespace_element": [],
+    "foo": [
+      {
+        "any_element": null
+      }
+    ]
+  }
 }

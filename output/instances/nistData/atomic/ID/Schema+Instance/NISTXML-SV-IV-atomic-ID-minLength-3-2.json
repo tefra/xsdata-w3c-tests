@@ -1,9 +1,9 @@
 {
-    "any_element": {
-        "qname": "{NISTSchema-SV-IV-atomic-ID-minLength-3-NS}NISTSchema-SV-IV-atomic-ID-minLength-3",
-        "text": "_business-oriented.generation-related-industry-browsers_dev",
-        "tail": null,
-        "children": [],
-        "attributes": {}
-    }
+  "any_element": {
+    "qname": "{NISTSchema-SV-IV-atomic-ID-minLength-3-NS}NISTSchema-SV-IV-atomic-ID-minLength-3",
+    "text": "_business-oriented.generation-related-industry-browsers_dev",
+    "tail": null,
+    "children": [],
+    "attributes": {}
+  }
 }

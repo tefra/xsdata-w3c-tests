@@ -1,12 +1,12 @@
 {
-    "value": [
-        "telnet://Groupscon.gov",
-        "ftp://XML.net",
-        "telnet://rep.thein.gov",
-        "telnet://ser.Co.org",
-        "http://inte.aOA.i.edu",
-        "telnet://partn.bes.com",
-        "telnet://Uni.and.edu",
-        "gopher://b.aimp.org"
-    ]
+  "value": [
+    "telnet://Groupscon.gov",
+    "ftp://XML.net",
+    "telnet://rep.thein.gov",
+    "telnet://ser.Co.org",
+    "http://inte.aOA.i.edu",
+    "telnet://partn.bes.com",
+    "telnet://Uni.and.edu",
+    "gopher://b.aimp.org"
+  ]
 }

@@ -1,10 +1,10 @@
 {
-    "root": {
-        "value": [
-            "b1",
-            "b2",
-            "b3"
-        ],
-        "idref_attr": "b2"
-    }
+  "root": {
+    "value": [
+      "b1",
+      "b2",
+      "b3"
+    ],
+    "idref_attr": "b2"
+  }
 }

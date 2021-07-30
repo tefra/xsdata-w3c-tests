@@ -1,18 +1,18 @@
 {
-    "target_namespace_foo_element": [
-        {
-            "qname": "{foo}elem",
-            "text": "\n\t",
-            "tail": null,
-            "children": [],
-            "attributes": {}
-        },
-        {
-            "qname": "{http://xsdtesting}foo",
-            "text": "",
-            "tail": null,
-            "children": [],
-            "attributes": {}
-        }
-    ]
+  "target_namespace_foo_element": [
+    {
+      "qname": "{foo}elem",
+      "text": "\n\t",
+      "tail": null,
+      "children": [],
+      "attributes": {}
+    },
+    {
+      "qname": "{http://xsdtesting}foo",
+      "text": "",
+      "tail": null,
+      "children": [],
+      "attributes": {}
+    }
+  ]
 }

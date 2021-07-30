@@ -1,1553 +1,1553 @@
 {
-    "annotation": [
+  "annotation": [
+    {
+      "appinfo_or_documentation": [
         {
-            "appinfo_or_documentation": [
-                {
-                    "source": null,
-                    "lang": null,
-                    "other_attributes": {
-                        "{http://www.w3.org/1999/xlink}href": "http://www.w3.org/TR/xmlschema11-1/#Wildcard_details"
-                    },
-                    "content": [
-                        "wildcard\n\t    "
-                    ]
-                }
-            ],
-            "other_attributes": {}
+          "source": null,
+          "lang": null,
+          "other_attributes": {
+            "{http://www.w3.org/1999/xlink}href": "http://www.w3.org/TR/xmlschema11-1/#Wildcard_details"
+          },
+          "content": [
+            "wildcard\n\t    "
+          ]
         }
-    ],
-    "testGroup": [
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                "Tests notQName=\"##defined\" "
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/TR/xmlschema11-1/#Wildcard_details",
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotXDefined",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../ibmData/valid/S3_10_1/s3_10_1v01.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "valid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2010-12-01",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "s3_10_1v01s",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [
-                {
-                    "annotation": [],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../ibmData/valid/S3_10_1/s3_10_1v01.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "valid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2010-12-01",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "s3_10_1v01i",
-                    "version": [],
-                    "other_attributes": {}
-                }
-            ],
-            "name": "s3_10_1v01",
-            "version": [
-                "1.1"
-            ],
-            "other_attributes": {}
-        },
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                "Tests notQName and notNamespace list "
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/TR/xmlschema11-1/#Wildcard_details",
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotQName",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../ibmData/valid/S3_10_1/s3_10_1v02.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "valid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2010-12-01",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "s3_10_1v02s",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [
-                {
-                    "annotation": [],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../ibmData/valid/S3_10_1/s3_10_1v02.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "valid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2010-12-01",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "s3_10_1v02i",
-                    "version": [],
-                    "other_attributes": {}
-                }
-            ],
-            "name": "s3_10_1v02",
-            "version": [
-                "1.1"
-            ],
-            "other_attributes": {}
-        },
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                "Tests namespace attribute in wildcard"
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/TR/xmlschema11-1/#Wildcard_details",
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotQName",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../ibmData/valid/S3_10_1/s3_10_1v03.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "valid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2010-12-01",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "s3_10_1v03s",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [
-                {
-                    "annotation": [],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../ibmData/valid/S3_10_1/s3_10_1v03.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "valid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2010-12-01",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "s3_10_1v03i",
-                    "version": [],
-                    "other_attributes": {}
-                }
-            ],
-            "name": "s3_10_1v03",
-            "version": [
-                "1.1"
-            ],
-            "other_attributes": {}
-        },
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                "Tests weakened wildcard (tests whether error occurs on violation of UPA) "
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/TR/xmlschema11-1/#Wildcard_details",
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-RelaxationOfUPA",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../ibmData/valid/S3_10_1/s3_10_1v04.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "valid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2010-12-01",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "s3_10_1v04s",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [
-                {
-                    "annotation": [],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../ibmData/valid/S3_10_1/s3_10_1v04.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "valid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2010-12-01",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "s3_10_1v04i",
-                    "version": [],
-                    "other_attributes": {}
-                }
-            ],
-            "name": "s3_10_1v04",
-            "version": [
-                "1.1"
-            ],
-            "other_attributes": {}
-        },
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                "the keyword ##definedSibling can be used to exclude all elements explicitly mentioned in a content model "
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/TR/xmlschema11-1/#Wildcard_details",
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotXDefineSibling",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../ibmData/valid/S3_10_1/s3_10_1v05.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "valid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2010-12-01",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "s3_10_1v05s",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [
-                {
-                    "annotation": [],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../ibmData/valid/S3_10_1/s3_10_1v05.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "valid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2010-12-01",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "s3_10_1v05i",
-                    "version": [],
-                    "other_attributes": {}
-                }
-            ],
-            "name": "s3_10_1v05",
-            "version": [
-                "1.1"
-            ],
-            "other_attributes": {}
-        },
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                "the keyword ##definedSibling can be used to exclude all elements explicitly mentioned in a content model (and all elements substitutable for those elements)"
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/TR/xmlschema11-1/#Wildcard_details",
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotXDefineSibling",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../ibmData/valid/S3_10_1/s3_10_1v06.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "valid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2010-12-01",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "s3_10_1v06s",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [
-                {
-                    "annotation": [],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../ibmData/valid/S3_10_1/s3_10_1v06.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "valid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2010-12-01",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "s3_10_1v06i",
-                    "version": [],
-                    "other_attributes": {}
-                }
-            ],
-            "name": "s3_10_1v06",
-            "version": [
-                "1.1"
-            ],
-            "other_attributes": {}
-        },
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                "skip wildcards now excluded from EDC constraint"
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/TR/xmlschema11-1/#Wildcard_details",
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-TighterMatchingRuleForEDC",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../ibmData/valid/S3_10_1/s3_10_1v07.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "valid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2010-12-01",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "s3_10_1v07s",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [
-                {
-                    "annotation": [],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../ibmData/valid/S3_10_1/s3_10_1v07.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "valid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2010-12-01",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "s3_10_1v07i",
-                    "version": [],
-                    "other_attributes": {}
-                }
-            ],
-            "name": "s3_10_1v07",
-            "version": [
-                "1.1"
-            ],
-            "other_attributes": {}
-        },
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                "invalid element in instance document as it does not match ns of wildcard"
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/TR/xmlschema11-1/#Wildcard_details",
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../ibmData/instance_invalid/S3_10_1/s3_10_1ii01.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "valid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2010-12-01",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "s3_10_1ii01s",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [
-                {
-                    "annotation": [],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../ibmData/instance_invalid/S3_10_1/s3_10_1ii01.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "invalid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2010-12-01",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "s3_10_1ii01i",
-                    "version": [],
-                    "other_attributes": {}
-                }
-            ],
-            "name": "s3_10_1ii01",
-            "version": [],
-            "other_attributes": {}
-        },
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                "invalid element in instance document as it does not match ns of wildcard "
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/TR/xmlschema11-1/#Wildcard_details",
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../ibmData/instance_invalid/S3_10_1/s3_10_1ii02.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "valid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2010-12-01",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "s3_10_1ii02s",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [
-                {
-                    "annotation": [],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../ibmData/instance_invalid/S3_10_1/s3_10_1ii02.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "invalid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2010-12-01",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "s3_10_1ii02i",
-                    "version": [],
-                    "other_attributes": {}
-                }
-            ],
-            "name": "s3_10_1ii02",
-            "version": [
-                "1.1"
-            ],
-            "other_attributes": {}
-        },
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                "invalid element in instance document as it does not match ns of wildcard "
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/TR/xmlschema11-1/#Wildcard_details",
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../ibmData/instance_invalid/S3_10_1/s3_10_1ii03.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "valid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2010-12-01",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "s3_10_1ii03s",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [
-                {
-                    "annotation": [],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../ibmData/instance_invalid/S3_10_1/s3_10_1ii03.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "invalid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2010-12-01",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "s3_10_1ii03i",
-                    "version": [],
-                    "other_attributes": {}
-                }
-            ],
-            "name": "s3_10_1ii03",
-            "version": [],
-            "other_attributes": {}
-        },
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                "invalid element in instance document as it does not match ns of wildcard"
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/TR/xmlschema11-1/#Wildcard_details",
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../ibmData/instance_invalid/S3_10_1/s3_10_1ii04.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "valid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2010-12-01",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "s3_10_1ii04s",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [
-                {
-                    "annotation": [],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../ibmData/instance_invalid/S3_10_1/s3_10_1ii04.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "invalid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2010-12-01",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "s3_10_1ii04i",
-                    "version": [],
-                    "other_attributes": {}
-                }
-            ],
-            "name": "s3_10_1ii04",
-            "version": [],
-            "other_attributes": {}
-        },
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                "invalid element in instance document as it matches the namespace in notNamespace list in wildcard"
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/TR/xmlschema11-1/#Wildcard_details",
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotNS",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../ibmData/instance_invalid/S3_10_1/s3_10_1ii06.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "valid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2010-12-01",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "s3_10_1ii06s",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [
-                {
-                    "annotation": [],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../ibmData/instance_invalid/S3_10_1/s3_10_1ii06.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "invalid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2010-12-01",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "s3_10_1ii06i",
-                    "version": [],
-                    "other_attributes": {}
-                }
-            ],
-            "name": "s3_10_1ii06",
-            "version": [
-                "1.1"
-            ],
-            "other_attributes": {}
-        },
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                "Tests namespace attribute in wildcard"
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/TR/xmlschema11-1/#Wildcard_details",
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotNS",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../ibmData/instance_invalid/S3_10_1/s3_10_1ii07.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "valid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2010-12-01",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "s3_10_1ii07s",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [
-                {
-                    "annotation": [],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../ibmData/instance_invalid/S3_10_1/s3_10_1ii07.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "invalid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2010-12-01",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "s3_10_1ii07i",
-                    "version": [],
-                    "other_attributes": {}
-                }
-            ],
-            "name": "s3_10_1ii07",
-            "version": [],
-            "other_attributes": {}
-        },
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                "the keyword ##definedSibling can be used to exclude all elements explicitly mentioned in a content model"
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/TR/xmlschema11-1/#Wildcard_details",
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotXDefineSibling",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../ibmData/instance_invalid/S3_10_1/s3_10_1ii08.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "valid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2010-12-01",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "s3_10_1ii08s",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [
-                {
-                    "annotation": [],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../ibmData/instance_invalid/S3_10_1/s3_10_1ii08.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "invalid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2010-12-01",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "s3_10_1ii08i",
-                    "version": [],
-                    "other_attributes": {}
-                }
-            ],
-            "name": "s3_10_1ii08",
-            "version": [],
-            "other_attributes": {}
-        },
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                "the keyword ##definedSibling can be used to exclude all elements explicitly mentioned in a content model (and all elements substitutable for those elements)"
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/TR/xmlschema11-1/#Wildcard_details",
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotXDefineSibling",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../ibmData/instance_invalid/S3_10_1/s3_10_1ii09.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "valid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2010-12-01",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "s3_10_1ii09s",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [
-                {
-                    "annotation": [],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../ibmData/instance_invalid/S3_10_1/s3_10_1ii09.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "invalid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2010-12-01",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "s3_10_1ii09i",
-                    "version": [],
-                    "other_attributes": {}
-                }
-            ],
-            "name": "s3_10_1ii09",
-            "version": [],
-            "other_attributes": {}
-        },
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                "Wildcard, schema invalid test case"
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/TR/xmlschema11-1/#Wildcard_details",
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../ibmData/schema_invalid/S3_10_1/s3_10_1si01.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "invalid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2010-12-01",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "s3_10_1si01s",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [],
-            "name": "s3_10_1si01",
-            "version": [],
-            "other_attributes": {}
-        },
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                "3.10.6.1.4 - The namespace of each QName in disallowed is allowed by the namespace constraint"
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/TR/xmlschema11-1/#Wildcard_details",
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotQName",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../ibmData/schema_invalid/S3_10_1/s3_10_1si02.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "invalid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2010-12-01",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "s3_10_1si02s",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [],
-            "name": "s3_10_1si02",
-            "version": [],
-            "other_attributes": {}
-        }
-    ],
-    "contributor": "IBM",
-    "name": "wildcard",
-    "version": [],
-    "other_attributes": {
-        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd"
+      ],
+      "other_attributes": {}
     }
+  ],
+  "testGroup": [
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                "Tests notQName=\"##defined\" "
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/TR/xmlschema11-1/#Wildcard_details",
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotXDefined",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../ibmData/valid/S3_10_1/s3_10_1v01.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "valid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2010-12-01",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "s3_10_1v01s",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [
+        {
+          "annotation": [],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../ibmData/valid/S3_10_1/s3_10_1v01.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "valid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2010-12-01",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "s3_10_1v01i",
+          "version": [],
+          "other_attributes": {}
+        }
+      ],
+      "name": "s3_10_1v01",
+      "version": [
+        "1.1"
+      ],
+      "other_attributes": {}
+    },
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                "Tests notQName and notNamespace list "
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/TR/xmlschema11-1/#Wildcard_details",
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotQName",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../ibmData/valid/S3_10_1/s3_10_1v02.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "valid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2010-12-01",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "s3_10_1v02s",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [
+        {
+          "annotation": [],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../ibmData/valid/S3_10_1/s3_10_1v02.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "valid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2010-12-01",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "s3_10_1v02i",
+          "version": [],
+          "other_attributes": {}
+        }
+      ],
+      "name": "s3_10_1v02",
+      "version": [
+        "1.1"
+      ],
+      "other_attributes": {}
+    },
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                "Tests namespace attribute in wildcard"
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/TR/xmlschema11-1/#Wildcard_details",
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotQName",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../ibmData/valid/S3_10_1/s3_10_1v03.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "valid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2010-12-01",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "s3_10_1v03s",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [
+        {
+          "annotation": [],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../ibmData/valid/S3_10_1/s3_10_1v03.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "valid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2010-12-01",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "s3_10_1v03i",
+          "version": [],
+          "other_attributes": {}
+        }
+      ],
+      "name": "s3_10_1v03",
+      "version": [
+        "1.1"
+      ],
+      "other_attributes": {}
+    },
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                "Tests weakened wildcard (tests whether error occurs on violation of UPA) "
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/TR/xmlschema11-1/#Wildcard_details",
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-RelaxationOfUPA",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../ibmData/valid/S3_10_1/s3_10_1v04.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "valid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2010-12-01",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "s3_10_1v04s",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [
+        {
+          "annotation": [],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../ibmData/valid/S3_10_1/s3_10_1v04.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "valid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2010-12-01",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "s3_10_1v04i",
+          "version": [],
+          "other_attributes": {}
+        }
+      ],
+      "name": "s3_10_1v04",
+      "version": [
+        "1.1"
+      ],
+      "other_attributes": {}
+    },
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                "the keyword ##definedSibling can be used to exclude all elements explicitly mentioned in a content model "
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/TR/xmlschema11-1/#Wildcard_details",
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotXDefineSibling",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../ibmData/valid/S3_10_1/s3_10_1v05.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "valid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2010-12-01",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "s3_10_1v05s",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [
+        {
+          "annotation": [],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../ibmData/valid/S3_10_1/s3_10_1v05.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "valid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2010-12-01",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "s3_10_1v05i",
+          "version": [],
+          "other_attributes": {}
+        }
+      ],
+      "name": "s3_10_1v05",
+      "version": [
+        "1.1"
+      ],
+      "other_attributes": {}
+    },
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                "the keyword ##definedSibling can be used to exclude all elements explicitly mentioned in a content model (and all elements substitutable for those elements)"
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/TR/xmlschema11-1/#Wildcard_details",
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotXDefineSibling",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../ibmData/valid/S3_10_1/s3_10_1v06.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "valid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2010-12-01",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "s3_10_1v06s",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [
+        {
+          "annotation": [],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../ibmData/valid/S3_10_1/s3_10_1v06.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "valid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2010-12-01",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "s3_10_1v06i",
+          "version": [],
+          "other_attributes": {}
+        }
+      ],
+      "name": "s3_10_1v06",
+      "version": [
+        "1.1"
+      ],
+      "other_attributes": {}
+    },
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                "skip wildcards now excluded from EDC constraint"
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/TR/xmlschema11-1/#Wildcard_details",
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-TighterMatchingRuleForEDC",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../ibmData/valid/S3_10_1/s3_10_1v07.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "valid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2010-12-01",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "s3_10_1v07s",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [
+        {
+          "annotation": [],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../ibmData/valid/S3_10_1/s3_10_1v07.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "valid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2010-12-01",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "s3_10_1v07i",
+          "version": [],
+          "other_attributes": {}
+        }
+      ],
+      "name": "s3_10_1v07",
+      "version": [
+        "1.1"
+      ],
+      "other_attributes": {}
+    },
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                "invalid element in instance document as it does not match ns of wildcard"
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/TR/xmlschema11-1/#Wildcard_details",
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../ibmData/instance_invalid/S3_10_1/s3_10_1ii01.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "valid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2010-12-01",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "s3_10_1ii01s",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [
+        {
+          "annotation": [],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../ibmData/instance_invalid/S3_10_1/s3_10_1ii01.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "invalid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2010-12-01",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "s3_10_1ii01i",
+          "version": [],
+          "other_attributes": {}
+        }
+      ],
+      "name": "s3_10_1ii01",
+      "version": [],
+      "other_attributes": {}
+    },
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                "invalid element in instance document as it does not match ns of wildcard "
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/TR/xmlschema11-1/#Wildcard_details",
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../ibmData/instance_invalid/S3_10_1/s3_10_1ii02.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "valid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2010-12-01",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "s3_10_1ii02s",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [
+        {
+          "annotation": [],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../ibmData/instance_invalid/S3_10_1/s3_10_1ii02.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "invalid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2010-12-01",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "s3_10_1ii02i",
+          "version": [],
+          "other_attributes": {}
+        }
+      ],
+      "name": "s3_10_1ii02",
+      "version": [
+        "1.1"
+      ],
+      "other_attributes": {}
+    },
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                "invalid element in instance document as it does not match ns of wildcard "
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/TR/xmlschema11-1/#Wildcard_details",
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../ibmData/instance_invalid/S3_10_1/s3_10_1ii03.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "valid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2010-12-01",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "s3_10_1ii03s",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [
+        {
+          "annotation": [],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../ibmData/instance_invalid/S3_10_1/s3_10_1ii03.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "invalid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2010-12-01",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "s3_10_1ii03i",
+          "version": [],
+          "other_attributes": {}
+        }
+      ],
+      "name": "s3_10_1ii03",
+      "version": [],
+      "other_attributes": {}
+    },
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                "invalid element in instance document as it does not match ns of wildcard"
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/TR/xmlschema11-1/#Wildcard_details",
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../ibmData/instance_invalid/S3_10_1/s3_10_1ii04.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "valid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2010-12-01",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "s3_10_1ii04s",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [
+        {
+          "annotation": [],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../ibmData/instance_invalid/S3_10_1/s3_10_1ii04.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "invalid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2010-12-01",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "s3_10_1ii04i",
+          "version": [],
+          "other_attributes": {}
+        }
+      ],
+      "name": "s3_10_1ii04",
+      "version": [],
+      "other_attributes": {}
+    },
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                "invalid element in instance document as it matches the namespace in notNamespace list in wildcard"
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/TR/xmlschema11-1/#Wildcard_details",
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotNS",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../ibmData/instance_invalid/S3_10_1/s3_10_1ii06.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "valid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2010-12-01",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "s3_10_1ii06s",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [
+        {
+          "annotation": [],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../ibmData/instance_invalid/S3_10_1/s3_10_1ii06.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "invalid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2010-12-01",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "s3_10_1ii06i",
+          "version": [],
+          "other_attributes": {}
+        }
+      ],
+      "name": "s3_10_1ii06",
+      "version": [
+        "1.1"
+      ],
+      "other_attributes": {}
+    },
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                "Tests namespace attribute in wildcard"
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/TR/xmlschema11-1/#Wildcard_details",
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotNS",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../ibmData/instance_invalid/S3_10_1/s3_10_1ii07.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "valid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2010-12-01",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "s3_10_1ii07s",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [
+        {
+          "annotation": [],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../ibmData/instance_invalid/S3_10_1/s3_10_1ii07.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "invalid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2010-12-01",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "s3_10_1ii07i",
+          "version": [],
+          "other_attributes": {}
+        }
+      ],
+      "name": "s3_10_1ii07",
+      "version": [],
+      "other_attributes": {}
+    },
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                "the keyword ##definedSibling can be used to exclude all elements explicitly mentioned in a content model"
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/TR/xmlschema11-1/#Wildcard_details",
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotXDefineSibling",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../ibmData/instance_invalid/S3_10_1/s3_10_1ii08.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "valid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2010-12-01",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "s3_10_1ii08s",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [
+        {
+          "annotation": [],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../ibmData/instance_invalid/S3_10_1/s3_10_1ii08.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "invalid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2010-12-01",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "s3_10_1ii08i",
+          "version": [],
+          "other_attributes": {}
+        }
+      ],
+      "name": "s3_10_1ii08",
+      "version": [],
+      "other_attributes": {}
+    },
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                "the keyword ##definedSibling can be used to exclude all elements explicitly mentioned in a content model (and all elements substitutable for those elements)"
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/TR/xmlschema11-1/#Wildcard_details",
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotXDefineSibling",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../ibmData/instance_invalid/S3_10_1/s3_10_1ii09.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "valid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2010-12-01",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "s3_10_1ii09s",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [
+        {
+          "annotation": [],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../ibmData/instance_invalid/S3_10_1/s3_10_1ii09.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "invalid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2010-12-01",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "s3_10_1ii09i",
+          "version": [],
+          "other_attributes": {}
+        }
+      ],
+      "name": "s3_10_1ii09",
+      "version": [],
+      "other_attributes": {}
+    },
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                "Wildcard, schema invalid test case"
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/TR/xmlschema11-1/#Wildcard_details",
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../ibmData/schema_invalid/S3_10_1/s3_10_1si01.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "invalid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2010-12-01",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "s3_10_1si01s",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [],
+      "name": "s3_10_1si01",
+      "version": [],
+      "other_attributes": {}
+    },
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                "3.10.6.1.4 - The namespace of each QName in disallowed is allowed by the namespace constraint"
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/TR/xmlschema11-1/#Wildcard_details",
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotQName",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../ibmData/schema_invalid/S3_10_1/s3_10_1si02.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "invalid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2010-12-01",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "s3_10_1si02s",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [],
+      "name": "s3_10_1si02",
+      "version": [],
+      "other_attributes": {}
+    }
+  ],
+  "contributor": "IBM",
+  "name": "wildcard",
+  "version": [],
+  "other_attributes": {
+    "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd"
+  }
 }

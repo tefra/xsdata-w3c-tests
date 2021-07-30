@@ -1,11 +1,11 @@
 {
-    "content": [
-        {
-            "qname": "{urn:test}A",
-            "text": "",
-            "tail": null,
-            "children": [],
-            "attributes": {}
-        }
-    ]
+  "content": [
+    {
+      "qname": "{urn:test}A",
+      "text": "",
+      "tail": null,
+      "children": [],
+      "attributes": {}
+    }
+  ]
 }

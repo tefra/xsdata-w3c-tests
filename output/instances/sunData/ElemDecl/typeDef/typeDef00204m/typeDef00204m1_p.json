@@ -1,11 +1,11 @@
 {
-    "any_element": {
-        "qname": null,
-        "text": "\n\n    true\n\n",
-        "tail": null,
-        "children": [],
-        "attributes": {
-            "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "ElemDecl/typeDef typeDef00204m.xsd"
-        }
+  "any_element": {
+    "qname": null,
+    "text": "\n\n    true\n\n",
+    "tail": null,
+    "children": [],
+    "attributes": {
+      "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "ElemDecl/typeDef typeDef00204m.xsd"
     }
+  }
 }

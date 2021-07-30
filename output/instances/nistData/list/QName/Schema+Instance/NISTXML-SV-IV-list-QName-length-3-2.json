@@ -1,11 +1,11 @@
 {
-    "value": [
-        "{http://www.nist.gov/xsdDefaultNS}wimpact-to_will.file-dis",
-        "{http://www.nist.gov/xsdDefaultNS}fis_without_health-to.me",
-        "{http://www.nist.gov/xsdNS}lof_discovery.access.the",
-        "{http://www.nist.gov/xsdDefaultNS}grelated_to.rapidly_incl",
-        "{http://www.nist.gov/xsdNS}vavailable-to-prototype.",
-        "{http://www.nist.gov/xsdNS}icontributor.and-version",
-        "{http://www.nist.gov/xsdNS}r2001.competence_use_com"
-    ]
+  "value": [
+    "{http://www.nist.gov/xsdDefaultNS}wimpact-to_will.file-dis",
+    "{http://www.nist.gov/xsdDefaultNS}fis_without_health-to.me",
+    "{http://www.nist.gov/xsdNS}lof_discovery.access.the",
+    "{http://www.nist.gov/xsdDefaultNS}grelated_to.rapidly_incl",
+    "{http://www.nist.gov/xsdNS}vavailable-to-prototype.",
+    "{http://www.nist.gov/xsdNS}icontributor.and-version",
+    "{http://www.nist.gov/xsdNS}r2001.competence_use_com"
+  ]
 }

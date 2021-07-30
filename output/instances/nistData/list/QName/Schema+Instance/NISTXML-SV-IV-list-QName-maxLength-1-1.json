@@ -1,9 +1,9 @@
 {
-    "value": [
-        "{http://www.nist.gov/xsdNS}xinvestigation.is_of_are_be.that.of-all-technologies.to.inform",
-        "{http://www.nist.gov/xsdDefaultNS}hfor_the.systems-on-a-chip.measure.can.on.of_directions.measur",
-        "{http://www.nist.gov/xsdNS}_the.define.around_technologies.range_capabilities-been_and.vi",
-        "{http://www.nist.gov/xsdDefaultNS}_process.from-these.database-000-developing.object.tools.the.w",
-        "{http://www.nist.gov/xsdDefaultNS}ofor_use_meets-the_to_act-with_to.with_for-requesting_designed"
-    ]
+  "value": [
+    "{http://www.nist.gov/xsdNS}xinvestigation.is_of_are_be.that.of-all-technologies.to.inform",
+    "{http://www.nist.gov/xsdDefaultNS}hfor_the.systems-on-a-chip.measure.can.on.of_directions.measur",
+    "{http://www.nist.gov/xsdNS}_the.define.around_technologies.range_capabilities-been_and.vi",
+    "{http://www.nist.gov/xsdDefaultNS}_process.from-these.database-000-developing.object.tools.the.w",
+    "{http://www.nist.gov/xsdDefaultNS}ofor_use_meets-the_to_act-with_to.with_for-requesting_designed"
+  ]
 }

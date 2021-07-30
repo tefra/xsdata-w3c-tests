@@ -1,14 +1,14 @@
 {
-    "a_or_any_element": [
-        "",
-        "",
-        "",
-        {
-            "qname": "b",
-            "text": "",
-            "tail": null,
-            "children": [],
-            "attributes": {}
-        }
-    ]
+  "a_or_any_element": [
+    "",
+    "",
+    "",
+    {
+      "qname": "b",
+      "text": "",
+      "tail": null,
+      "children": [],
+      "attributes": {}
+    }
+  ]
 }

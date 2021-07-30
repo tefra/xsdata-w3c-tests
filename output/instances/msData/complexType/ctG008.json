@@ -1,9 +1,9 @@
 {
-    "any_element": null,
-    "any_attributes": {
-        "{http://www.w3.org/2001/XMLSchema-instance}noNamespaceSchemaLocation": "ctG008.xsd"
-    },
-    "myElement": "test data",
-    "myAttr1": "test attribute",
-    "myAttr2": "second test attribute"
+  "any_element": null,
+  "any_attributes": {
+    "{http://www.w3.org/2001/XMLSchema-instance}noNamespaceSchemaLocation": "ctG008.xsd"
+  },
+  "myElement": "test data",
+  "myAttr1": "test attribute",
+  "myAttr2": "second test attribute"
 }

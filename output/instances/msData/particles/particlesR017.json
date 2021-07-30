@@ -1,10 +1,10 @@
 {
-    "elem": {
-        "foo": "",
-        "any_element": [],
-        "impElem1": null,
-        "impElem2": {
-            "any_element": null
-        }
+  "elem": {
+    "foo": "",
+    "any_element": [],
+    "impElem1": null,
+    "impElem2": {
+      "any_element": null
     }
+  }
 }

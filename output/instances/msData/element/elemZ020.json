@@ -1,8 +1,8 @@
 {
-    "choice": [
-        true,
-        123,
-        true,
-        123
-    ]
+  "choice": [
+    true,
+    123,
+    true,
+    123
+  ]
 }

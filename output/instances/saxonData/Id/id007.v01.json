@@ -1,44 +1,44 @@
 {
-    "node": [
+  "node": [
+    {
+      "node_or_mixed_a_or_mixed_b": [],
+      "mixedA": [
+        "A001",
+        "B001"
+      ],
+      "mixedB": []
+    },
+    {
+      "node_or_mixed_a_or_mixed_b": [],
+      "mixedA": [],
+      "mixedB": [
+        "A001",
+        "B001"
+      ]
+    },
+    {
+      "node_or_mixed_a_or_mixed_b": [
+        [
+          "A002",
+          "B002"
+        ]
+      ],
+      "mixedA": [],
+      "mixedB": []
+    },
+    {
+      "node_or_mixed_a_or_mixed_b": [
         {
-            "node_or_mixed_a_or_mixed_b": [],
-            "mixedA": [
-                "A001",
-                "B001"
-            ],
-            "mixedB": []
-        },
-        {
-            "node_or_mixed_a_or_mixed_b": [],
-            "mixedA": [],
-            "mixedB": [
-                "A001",
-                "B001"
-            ]
-        },
-        {
-            "node_or_mixed_a_or_mixed_b": [
-                [
-                    "A002",
-                    "B002"
-                ]
-            ],
-            "mixedA": [],
-            "mixedB": []
-        },
-        {
-            "node_or_mixed_a_or_mixed_b": [
-                {
-                    "qname": "mixedB",
-                    "value": [
-                        "A002",
-                        "B002"
-                    ],
-                    "type": null
-                }
-            ],
-            "mixedA": [],
-            "mixedB": []
+          "qname": "mixedB",
+          "value": [
+            "A002",
+            "B002"
+          ],
+          "type": null
         }
-    ]
+      ],
+      "mixedA": [],
+      "mixedB": []
+    }
+  ]
 }

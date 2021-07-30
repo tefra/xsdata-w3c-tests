@@ -1,6 +1,6 @@
 {
-    "myElement": "test data",
-    "myElement2": null,
-    "myAttr": "test attribute",
-    "myElement3": "sequence test data"
+  "myElement": "test data",
+  "myElement2": null,
+  "myAttr": "test attribute",
+  "myElement3": "sequence test data"
 }

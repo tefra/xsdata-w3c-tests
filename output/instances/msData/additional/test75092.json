@@ -1,15 +1,15 @@
 {
-    "a": "",
-    "any_element": [
-        {
-            "qname": "b",
-            "value": "abc",
-            "type": null
-        },
-        {
-            "qname": "c",
-            "value": 123,
-            "type": null
-        }
-    ]
+  "a": "",
+  "any_element": [
+    {
+      "qname": "b",
+      "value": "abc",
+      "type": null
+    },
+    {
+      "qname": "c",
+      "value": 123,
+      "type": null
+    }
+  ]
 }

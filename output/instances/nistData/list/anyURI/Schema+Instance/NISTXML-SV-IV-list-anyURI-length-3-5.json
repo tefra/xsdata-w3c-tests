@@ -1,11 +1,11 @@
 {
-    "value": [
-        "telnet://an.Jin.gov",
-        "telnet://di.com",
-        "http://f.fo.th.gov",
-        "ftp://wi.au.edu",
-        "http://the.d.net",
-        "gopher://t.edu",
-        "http://o.Suc.com"
-    ]
+  "value": [
+    "telnet://an.Jin.gov",
+    "telnet://di.com",
+    "http://f.fo.th.gov",
+    "ftp://wi.au.edu",
+    "http://the.d.net",
+    "gopher://t.edu",
+    "http://o.Suc.com"
+  ]
 }

@@ -1,6 +1,6 @@
 {
-    "complexTest": {
-        "comp_foo": "telnet://melvyl.ucop.edu/"
-    },
-    "simpleTest": "telnet://melvyl.ucop.edu/"
+  "complexTest": {
+    "comp_foo": "telnet://melvyl.ucop.edu/"
+  },
+  "simpleTest": "telnet://melvyl.ucop.edu/"
 }

@@ -1,37 +1,37 @@
 {
-    "any_element": {
-        "qname": null,
-        "text": null,
+  "any_element": {
+    "qname": null,
+    "text": null,
+    "tail": null,
+    "children": [
+      {
+        "qname": "zizz",
+        "text": "",
         "tail": null,
-        "children": [
-            {
-                "qname": "zizz",
-                "text": "",
-                "tail": null,
-                "children": [],
-                "attributes": {}
-            },
-            {
-                "qname": "d",
-                "text": "",
-                "tail": null,
-                "children": [],
-                "attributes": {}
-            },
-            {
-                "qname": "e",
-                "text": "",
-                "tail": null,
-                "children": [],
-                "attributes": {}
-            }
-        ],
+        "children": [],
         "attributes": {}
-    },
-    "A": {
-        "any_element": null
-    },
-    "a": null,
-    "b": "",
-    "c": ""
+      },
+      {
+        "qname": "d",
+        "text": "",
+        "tail": null,
+        "children": [],
+        "attributes": {}
+      },
+      {
+        "qname": "e",
+        "text": "",
+        "tail": null,
+        "children": [],
+        "attributes": {}
+      }
+    ],
+    "attributes": {}
+  },
+  "A": {
+    "any_element": null
+  },
+  "a": null,
+  "b": "",
+  "c": ""
 }

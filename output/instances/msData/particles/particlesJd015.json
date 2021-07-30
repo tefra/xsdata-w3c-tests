@@ -1,7 +1,7 @@
 {
-    "elem": {
-        "any_element": null,
-        "e1": "",
-        "e2": "foo"
-    }
+  "elem": {
+    "any_element": null,
+    "e1": "",
+    "e2": "foo"
+  }
 }

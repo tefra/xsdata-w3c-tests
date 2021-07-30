@@ -1,12 +1,12 @@
 {
-    "Element1": {
-        "group2_element1_or_group2_element2": [
-            "a",
-            "a",
-            "a",
-            "a",
-            "a",
-            "a"
-        ]
-    }
+  "Element1": {
+    "group2_element1_or_group2_element2": [
+      "a",
+      "a",
+      "a",
+      "a",
+      "a",
+      "a"
+    ]
+  }
 }

@@ -1,24 +1,24 @@
 {
-    "A": {
-        "any_element": null
+  "A": {
+    "any_element": null
+  },
+  "a": null,
+  "b": "",
+  "c": "",
+  "any_element": [
+    {
+      "qname": "d",
+      "text": "",
+      "tail": null,
+      "children": [],
+      "attributes": {}
     },
-    "a": null,
-    "b": "",
-    "c": "",
-    "any_element": [
-        {
-            "qname": "d",
-            "text": "",
-            "tail": null,
-            "children": [],
-            "attributes": {}
-        },
-        {
-            "qname": "e",
-            "text": "",
-            "tail": null,
-            "children": [],
-            "attributes": {}
-        }
-    ]
+    {
+      "qname": "e",
+      "text": "",
+      "tail": null,
+      "children": [],
+      "attributes": {}
+    }
+  ]
 }

@@ -1,16 +1,16 @@
 {
-    "t": [
-        {
-            "value": "a1",
-            "col": "a"
-        },
-        {
-            "value": "a1",
-            "col": "b"
-        },
-        {
-            "value": "a2",
-            "col": "a"
-        }
-    ]
+  "t": [
+    {
+      "value": "a1",
+      "col": "a"
+    },
+    {
+      "value": "a1",
+      "col": "b"
+    },
+    {
+      "value": "a2",
+      "col": "a"
+    }
+  ]
 }

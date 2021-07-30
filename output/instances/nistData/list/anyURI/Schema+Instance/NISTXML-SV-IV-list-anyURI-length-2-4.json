@@ -1,10 +1,10 @@
 {
-    "value": [
-        "telnet://usingS.dependsp.com",
-        "http://andany.Stan.th.org",
-        "ftp://t.gov",
-        "ftp://versionsc.net",
-        "telnet://toh.rob.edu",
-        "ftp://servi.gov"
-    ]
+  "value": [
+    "telnet://usingS.dependsp.com",
+    "http://andany.Stan.th.org",
+    "ftp://t.gov",
+    "ftp://versionsc.net",
+    "telnet://toh.rob.edu",
+    "ftp://servi.gov"
+  ]
 }

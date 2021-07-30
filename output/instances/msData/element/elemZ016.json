@@ -1,22 +1,22 @@
 {
-    "DataTypes": [
-        {
-            "ID": [
-                "Address",
-                "Address"
-            ],
-            "IDREF": [
-                "Address",
-                "Address"
-            ],
-            "IDREFS": [
-                [
-                    "Address"
-                ],
-                [
-                    "Address"
-                ]
-            ]
-        }
-    ]
+  "DataTypes": [
+    {
+      "ID": [
+        "Address",
+        "Address"
+      ],
+      "IDREF": [
+        "Address",
+        "Address"
+      ],
+      "IDREFS": [
+        [
+          "Address"
+        ],
+        [
+          "Address"
+        ]
+      ]
+    }
+  ]
 }

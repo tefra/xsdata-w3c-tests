@@ -1,12 +1,12 @@
 {
-    "elem": {
-        "foo_bar_element": {
-            "qname": "{bar}e1",
-            "text": "",
-            "tail": null,
-            "children": [],
-            "attributes": {}
-        },
-        "bar_element": null
-    }
+  "elem": {
+    "foo_bar_element": {
+      "qname": "{bar}e1",
+      "text": "",
+      "tail": null,
+      "children": [],
+      "attributes": {}
+    },
+    "bar_element": null
+  }
 }

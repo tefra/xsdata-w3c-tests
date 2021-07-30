@@ -1,10 +1,10 @@
 {
-    "name": "",
-    "local_target_namespace_element": {
-        "qname": "{http://wild053.org/}wang",
-        "text": "",
-        "tail": null,
-        "children": [],
-        "attributes": {}
-    }
+  "name": "",
+  "local_target_namespace_element": {
+    "qname": "{http://wild053.org/}wang",
+    "text": "",
+    "tail": null,
+    "children": [],
+    "attributes": {}
+  }
 }

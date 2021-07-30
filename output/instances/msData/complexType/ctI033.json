@@ -1,7 +1,7 @@
 {
-    "fooTest": {
-        "fooEle1": "string",
-        "fooEle2": 26,
-        "fooEle3": true
-    }
+  "fooTest": {
+    "fooEle1": "string",
+    "fooEle2": 26,
+    "fooEle3": true
+  }
 }

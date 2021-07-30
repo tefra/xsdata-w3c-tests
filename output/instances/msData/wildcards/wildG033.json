@@ -1,9 +1,9 @@
 {
-    "local_foobar_element": {
-        "qname": "{http://foobar}bar",
-        "text": "foo bar",
-        "tail": null,
-        "children": [],
-        "attributes": {}
-    }
+  "local_foobar_element": {
+    "qname": "{http://foobar}bar",
+    "text": "foo bar",
+    "tail": null,
+    "children": [],
+    "attributes": {}
+  }
 }

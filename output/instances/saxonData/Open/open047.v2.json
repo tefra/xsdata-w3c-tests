@@ -1,16 +1,16 @@
 {
-    "open_com_element": null,
-    "a": [
-        ""
-    ],
-    "b": 23,
-    "c": null,
-    "d": "",
-    "any_element": {
-        "qname": "{http://closed.com/}x",
-        "text": "",
-        "tail": null,
-        "children": [],
-        "attributes": {}
-    }
+  "open_com_element": null,
+  "a": [
+    ""
+  ],
+  "b": 23,
+  "c": null,
+  "d": "",
+  "any_element": {
+    "qname": "{http://closed.com/}x",
+    "text": "",
+    "tail": null,
+    "children": [],
+    "attributes": {}
+  }
 }

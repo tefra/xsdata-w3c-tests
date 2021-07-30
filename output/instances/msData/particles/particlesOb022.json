@@ -1,11 +1,11 @@
 {
-    "elem": {
-        "local_element": {
-            "qname": "e1",
-            "text": "",
-            "tail": null,
-            "children": [],
-            "attributes": {}
-        }
+  "elem": {
+    "local_element": {
+      "qname": "e1",
+      "text": "",
+      "tail": null,
+      "children": [],
+      "attributes": {}
     }
+  }
 }

@@ -1,9 +1,9 @@
 {
-    "other_element": {
-        "qname": "{http://foo}bar",
-        "text": "foo bar",
-        "tail": null,
-        "children": [],
-        "attributes": {}
-    }
+  "other_element": {
+    "qname": "{http://foo}bar",
+    "text": "foo bar",
+    "tail": null,
+    "children": [],
+    "attributes": {}
+  }
 }

@@ -1,15 +1,15 @@
 {
-    "chap": [
-        {
-            "de": null,
-            "fr": null,
-            "en": ""
-        },
-        {
-            "de": null,
-            "fr": null,
-            "en": ""
-        }
-    ],
-    "lang": "de"
+  "chap": [
+    {
+      "de": null,
+      "fr": null,
+      "en": ""
+    },
+    {
+      "de": null,
+      "fr": null,
+      "en": ""
+    }
+  ],
+  "lang": "de"
 }

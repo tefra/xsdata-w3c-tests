@@ -1,39 +1,39 @@
 {
-    "any_element": {
-        "qname": null,
-        "text": null,
+  "any_element": {
+    "qname": null,
+    "text": null,
+    "tail": null,
+    "children": [
+      {
+        "qname": "foo",
+        "text": "",
         "tail": null,
         "children": [
-            {
-                "qname": "foo",
-                "text": "",
-                "tail": null,
-                "children": [
-                    {
-                        "qname": "e1",
-                        "text": "",
-                        "tail": null,
-                        "children": [],
-                        "attributes": {}
-                    },
-                    {
-                        "qname": "e2",
-                        "text": "",
-                        "tail": null,
-                        "children": [],
-                        "attributes": {}
-                    }
-                ],
-                "attributes": {}
-            },
-            {
-                "qname": "global",
-                "text": "",
-                "tail": null,
-                "children": [],
-                "attributes": {}
-            }
+          {
+            "qname": "e1",
+            "text": "",
+            "tail": null,
+            "children": [],
+            "attributes": {}
+          },
+          {
+            "qname": "e2",
+            "text": "",
+            "tail": null,
+            "children": [],
+            "attributes": {}
+          }
         ],
         "attributes": {}
-    }
+      },
+      {
+        "qname": "global",
+        "text": "",
+        "tail": null,
+        "children": [],
+        "attributes": {}
+      }
+    ],
+    "attributes": {}
+  }
 }

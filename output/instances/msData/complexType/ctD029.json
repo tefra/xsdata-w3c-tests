@@ -1,7 +1,7 @@
 {
-    "value": "\n\tany string\n",
-    "any_attributes": {
-        "{http://www.w3.org/2001/XMLSchema-instance}noNamespaceSchemaLocation": "ctD029.xsd"
-    },
-    "myAttr": "test"
+  "value": "\n\tany string\n",
+  "any_attributes": {
+    "{http://www.w3.org/2001/XMLSchema-instance}noNamespaceSchemaLocation": "ctD029.xsd"
+  },
+  "myAttr": "test"
 }

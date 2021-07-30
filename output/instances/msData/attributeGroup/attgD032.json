@@ -1,6 +1,6 @@
 {
-    "elem": {
-        "foo": 123,
-        "other_attributes": {}
-    }
+  "elem": {
+    "foo": 123,
+    "other_attributes": {}
+  }
 }

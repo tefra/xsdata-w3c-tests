@@ -1,12 +1,12 @@
 {
-    "any_element": {
-        "qname": null,
-        "text": "alpha beta",
-        "tail": null,
-        "children": [],
-        "attributes": {
-            "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "ElemDecl/valueConstraint valueConstraint00801m1.xsd",
-            "{http://www.w3.org/2001/XMLSchema-instance}type": "{ElemDecl/valueConstraint}Text"
-        }
+  "any_element": {
+    "qname": null,
+    "text": "alpha beta",
+    "tail": null,
+    "children": [],
+    "attributes": {
+      "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "ElemDecl/valueConstraint valueConstraint00801m1.xsd",
+      "{http://www.w3.org/2001/XMLSchema-instance}type": "{ElemDecl/valueConstraint}Text"
     }
+  }
 }

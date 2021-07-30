@@ -1,10 +1,10 @@
 {
-    "name": "",
-    "local_target_namespace_element": {
-        "qname": "zhang",
-        "text": "",
-        "tail": null,
-        "children": [],
-        "attributes": {}
-    }
+  "name": "",
+  "local_target_namespace_element": {
+    "qname": "zhang",
+    "text": "",
+    "tail": null,
+    "children": [],
+    "attributes": {}
+  }
 }

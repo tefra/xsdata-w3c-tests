@@ -1,26 +1,26 @@
 {
-    "qname": "computer",
-    "value": {
-        "CPU": "Intel",
-        "memory": "4Gb",
-        "monitor": "17inch",
-        "speaker": null,
-        "any_element": [
-            {
-                "qname": "disk",
-                "text": "Seagate",
-                "tail": null,
-                "children": [],
-                "attributes": {}
-            },
-            {
-                "qname": "mouse",
-                "text": "USB",
-                "tail": null,
-                "children": [],
-                "attributes": {}
-            }
-        ]
-    },
-    "type": "quietComputer"
+  "qname": "computer",
+  "value": {
+    "CPU": "Intel",
+    "memory": "4Gb",
+    "monitor": "17inch",
+    "speaker": null,
+    "any_element": [
+      {
+        "qname": "disk",
+        "text": "Seagate",
+        "tail": null,
+        "children": [],
+        "attributes": {}
+      },
+      {
+        "qname": "mouse",
+        "text": "USB",
+        "tail": null,
+        "children": [],
+        "attributes": {}
+      }
+    ]
+  },
+  "type": "quietComputer"
 }

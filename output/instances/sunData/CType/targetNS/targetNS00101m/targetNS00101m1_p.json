@@ -1,7 +1,7 @@
 {
-    "qname": "{targetNS}test",
-    "value": {
-        "abc": "1"
-    },
-    "type": "{targetNS}Test"
+  "qname": "{targetNS}test",
+  "value": {
+    "abc": "1"
+  },
+  "type": "{targetNS}Test"
 }

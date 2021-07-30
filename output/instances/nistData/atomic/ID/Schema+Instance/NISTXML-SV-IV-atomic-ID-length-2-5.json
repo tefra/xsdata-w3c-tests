@@ -1,9 +1,9 @@
 {
-    "any_element": {
-        "qname": "{NISTSchema-SV-IV-atomic-ID-length-2-NS}NISTSchema-SV-IV-atomic-ID-length-2",
-        "text": "bindustries_in-of_structure_means-revolutionize_to-networ",
-        "tail": null,
-        "children": [],
-        "attributes": {}
-    }
+  "any_element": {
+    "qname": "{NISTSchema-SV-IV-atomic-ID-length-2-NS}NISTSchema-SV-IV-atomic-ID-length-2",
+    "text": "bindustries_in-of_structure_means-revolutionize_to-networ",
+    "tail": null,
+    "children": [],
+    "attributes": {}
+  }
 }

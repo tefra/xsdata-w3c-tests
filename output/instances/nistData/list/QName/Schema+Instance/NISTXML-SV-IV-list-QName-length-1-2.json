@@ -1,9 +1,9 @@
 {
-    "value": [
-        "{http://www.nist.gov/xsdDefaultNS}iof.must.development-competence.and.testability-as_for",
-        "{http://www.nist.gov/xsdNS}gdiscover-to.electronic_able_compatibility.process.exe",
-        "{http://www.nist.gov/xsdDefaultNS}_is.for-memory.the-and_are-to-to.discovery_to.retrieve",
-        "{http://www.nist.gov/xsdDefaultNS}twill_chair_information-documents-and.and_asking.enoug",
-        "{http://www.nist.gov/xsdDefaultNS}va_registries.retrieval-repository-as.reach_data_such_"
-    ]
+  "value": [
+    "{http://www.nist.gov/xsdDefaultNS}iof.must.development-competence.and.testability-as_for",
+    "{http://www.nist.gov/xsdNS}gdiscover-to.electronic_able_compatibility.process.exe",
+    "{http://www.nist.gov/xsdDefaultNS}_is.for-memory.the-and_are-to-to.discovery_to.retrieve",
+    "{http://www.nist.gov/xsdDefaultNS}twill_chair_information-documents-and.and_asking.enoug",
+    "{http://www.nist.gov/xsdDefaultNS}va_registries.retrieval-repository-as.reach_data_such_"
+  ]
 }

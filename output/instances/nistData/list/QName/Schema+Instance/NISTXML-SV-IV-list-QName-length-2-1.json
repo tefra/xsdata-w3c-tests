@@ -1,10 +1,10 @@
 {
-    "value": [
-        "{http://www.nist.gov/xsdDefaultNS}ebe.possible-tools.exchange-",
-        "{http://www.nist.gov/xsdDefaultNS}jregistry-key-leadership_law",
-        "{http://www.nist.gov/xsdDefaultNS}_original_and-g_of.well_buil",
-        "{http://www.nist.gov/xsdDefaultNS}_leadership.partnerships_wil",
-        "{http://www.nist.gov/xsdNS}_be-around_create-wide_elect",
-        "{http://www.nist.gov/xsdDefaultNS}qprovides_first.of-registry_"
-    ]
+  "value": [
+    "{http://www.nist.gov/xsdDefaultNS}ebe.possible-tools.exchange-",
+    "{http://www.nist.gov/xsdDefaultNS}jregistry-key-leadership_law",
+    "{http://www.nist.gov/xsdDefaultNS}_original_and-g_of.well_buil",
+    "{http://www.nist.gov/xsdDefaultNS}_leadership.partnerships_wil",
+    "{http://www.nist.gov/xsdNS}_be-around_create-wide_elect",
+    "{http://www.nist.gov/xsdDefaultNS}qprovides_first.of-registry_"
+  ]
 }

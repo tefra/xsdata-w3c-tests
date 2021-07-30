@@ -1,11 +1,11 @@
 {
-    "value": [
-        "ftp://indus.gov",
-        "gopher://thepr.Deve.disp.com",
-        "telnet://te.pr.wo.net",
-        "telnet://ra.sys.rec.org",
-        "gopher://a.gov",
-        "ftp://andAnt.gov",
-        "ftp://com.buildth.NSRL.org"
-    ]
+  "value": [
+    "ftp://indus.gov",
+    "gopher://thepr.Deve.disp.com",
+    "telnet://te.pr.wo.net",
+    "telnet://ra.sys.rec.org",
+    "gopher://a.gov",
+    "ftp://andAnt.gov",
+    "ftp://com.buildth.NSRL.org"
+  ]
 }

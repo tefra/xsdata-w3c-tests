@@ -1,42 +1,42 @@
 {
-    "node": [
+  "node": [
+    {
+      "node_or_id_or_idrefs": [
         {
-            "node_or_id_or_idrefs": [
-                {
-                    "node_or_id_or_idrefs": [],
-                    "id": [],
-                    "idrefs": [
-                        "bbb",
-                        "ccc",
-                        "ggg"
-                    ]
-                },
-                {
-                    "node_or_id_or_idrefs": [
-                        {
-                            "qname": "idrefs",
-                            "value": [
-                                "aaa",
-                                "ddd"
-                            ],
-                            "type": null
-                        }
-                    ],
-                    "id": [
-                        "ggg"
-                    ],
-                    "idrefs": []
-                },
-                [
-                    "ccc",
-                    "ddd"
-                ]
-            ],
-            "id": [
+          "node_or_id_or_idrefs": [],
+          "id": [],
+          "idrefs": [
+            "bbb",
+            "ccc",
+            "ggg"
+          ]
+        },
+        {
+          "node_or_id_or_idrefs": [
+            {
+              "qname": "idrefs",
+              "value": [
                 "aaa",
-                "bbb"
-            ],
-            "idrefs": []
-        }
-    ]
+                "ddd"
+              ],
+              "type": null
+            }
+          ],
+          "id": [
+            "ggg"
+          ],
+          "idrefs": []
+        },
+        [
+          "ccc",
+          "ddd"
+        ]
+      ],
+      "id": [
+        "aaa",
+        "bbb"
+      ],
+      "idrefs": []
+    }
+  ]
 }

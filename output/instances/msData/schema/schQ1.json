@@ -1,48 +1,48 @@
 {
-    "any_element": [
+  "any_element": [
+    {
+      "qname": "{ns-a}e1",
+      "text": "",
+      "tail": null,
+      "children": [
         {
-            "qname": "{ns-a}e1",
-            "text": "",
-            "tail": null,
-            "children": [
-                {
-                    "qname": "{ns-a}b1",
-                    "text": "",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {}
-                },
-                {
-                    "qname": "{ns-a}b3",
-                    "text": "",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {}
-                }
-            ],
-            "attributes": {}
+          "qname": "{ns-a}b1",
+          "text": "",
+          "tail": null,
+          "children": [],
+          "attributes": {}
         },
         {
-            "qname": "{ns-a}b-e1",
-            "text": "",
-            "tail": null,
-            "children": [
-                {
-                    "qname": "{ns-a}b2",
-                    "text": "",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {}
-                },
-                {
-                    "qname": "{ns-a}b4",
-                    "text": "",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {}
-                }
-            ],
-            "attributes": {}
+          "qname": "{ns-a}b3",
+          "text": "",
+          "tail": null,
+          "children": [],
+          "attributes": {}
         }
-    ]
+      ],
+      "attributes": {}
+    },
+    {
+      "qname": "{ns-a}b-e1",
+      "text": "",
+      "tail": null,
+      "children": [
+        {
+          "qname": "{ns-a}b2",
+          "text": "",
+          "tail": null,
+          "children": [],
+          "attributes": {}
+        },
+        {
+          "qname": "{ns-a}b4",
+          "text": "",
+          "tail": null,
+          "children": [],
+          "attributes": {}
+        }
+      ],
+      "attributes": {}
+    }
+  ]
 }

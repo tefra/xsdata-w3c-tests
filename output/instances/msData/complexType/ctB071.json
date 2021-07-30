@@ -1,7 +1,7 @@
 {
-    "myElement": "all field",
-    "any_attributes": {
-        "{http://www.w3.org/2001/XMLSchema-instance}noNamespaceSchemaLocation": "ctB071.xsd",
-        "attrTest": "attribute1"
-    }
+  "myElement": "all field",
+  "any_attributes": {
+    "{http://www.w3.org/2001/XMLSchema-instance}noNamespaceSchemaLocation": "ctB071.xsd",
+    "attrTest": "attribute1"
+  }
 }

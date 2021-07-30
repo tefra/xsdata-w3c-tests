@@ -1,11 +1,11 @@
 {
-    "any_element": {
-        "qname": "{AttrGroup/name}elementWithAttr",
-        "text": "",
-        "tail": null,
-        "children": [],
-        "attributes": {
-            "number": "157"
-        }
+  "any_element": {
+    "qname": "{AttrGroup/name}elementWithAttr",
+    "text": "",
+    "tail": null,
+    "children": [],
+    "attributes": {
+      "number": "157"
     }
+  }
 }

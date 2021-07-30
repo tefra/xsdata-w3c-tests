@@ -1,11 +1,11 @@
 {
-    "value": [
-        "telnet://vo.processes.net",
-        "news://anddo.gov",
-        "ftp://and.joi.org",
-        "ftp://Une.in.org",
-        "ftp://a.mul.org",
-        "news://newc.gov",
-        "ftp://toa.guide.Additi.areDelaw.org"
-    ]
+  "value": [
+    "telnet://vo.processes.net",
+    "news://anddo.gov",
+    "ftp://and.joi.org",
+    "ftp://Une.in.org",
+    "ftp://a.mul.org",
+    "news://newc.gov",
+    "ftp://toa.guide.Additi.areDelaw.org"
+  ]
 }

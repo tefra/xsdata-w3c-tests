@@ -1,57 +1,57 @@
 {
-    "generic": {
-        "int": [
-            {
-                "annotation": null,
-                "value": 52
-            },
-            {
-                "annotation": null,
-                "value": -55555
-            }
-        ],
-        "long": [
-            {
-                "annotation": null,
-                "value": 52
-            },
-            {
-                "annotation": null,
-                "value": -55555
-            }
-        ],
-        "yesNo": [
-            {
-                "annotation": null,
-                "value": true
-            },
-            {
-                "annotation": null,
-                "value": false
-            }
-        ],
-        "facet": []
-    },
-    "restricted": {
-        "int": [
-            {
-                "annotation": null,
-                "value": 52
-            },
-            {
-                "annotation": null,
-                "value": -55555
-            }
-        ],
-        "long": [
-            {
-                "annotation": null,
-                "value": 52
-            },
-            {
-                "annotation": null,
-                "value": -55555
-            }
-        ]
-    }
+  "generic": {
+    "int": [
+      {
+        "annotation": null,
+        "value": 52
+      },
+      {
+        "annotation": null,
+        "value": -55555
+      }
+    ],
+    "long": [
+      {
+        "annotation": null,
+        "value": 52
+      },
+      {
+        "annotation": null,
+        "value": -55555
+      }
+    ],
+    "yesNo": [
+      {
+        "annotation": null,
+        "value": true
+      },
+      {
+        "annotation": null,
+        "value": false
+      }
+    ],
+    "facet": []
+  },
+  "restricted": {
+    "int": [
+      {
+        "annotation": null,
+        "value": 52
+      },
+      {
+        "annotation": null,
+        "value": -55555
+      }
+    ],
+    "long": [
+      {
+        "annotation": null,
+        "value": 52
+      },
+      {
+        "annotation": null,
+        "value": -55555
+      }
+    ]
+  }
 }

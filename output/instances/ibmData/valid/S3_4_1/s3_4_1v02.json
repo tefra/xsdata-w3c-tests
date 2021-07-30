@@ -1,41 +1,41 @@
 {
-    "any_element": null,
-    "p": {
-        "any_element": {
-            "qname": "qwe",
-            "text": "s",
-            "tail": null,
-            "children": [],
-            "attributes": {}
-        },
-        "x": 1
+  "any_element": null,
+  "p": {
+    "any_element": {
+      "qname": "qwe",
+      "text": "s",
+      "tail": null,
+      "children": [],
+      "attributes": {}
     },
-    "q": {
-        "any_element": {
-            "qname": "wer",
-            "text": "",
-            "tail": null,
-            "children": [
-                {
-                    "qname": "g",
-                    "text": "123",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {}
-                }
-            ],
-            "attributes": {}
-        },
-        "z": 2
+    "x": 1
+  },
+  "q": {
+    "any_element": {
+      "qname": "wer",
+      "text": "",
+      "tail": null,
+      "children": [
+        {
+          "qname": "g",
+          "text": "123",
+          "tail": null,
+          "children": [],
+          "attributes": {}
+        }
+      ],
+      "attributes": {}
     },
-    "r": {
-        "any_element": {
-            "qname": "lj",
-            "text": "we",
-            "tail": null,
-            "children": [],
-            "attributes": {}
-        },
-        "y": 1
-    }
+    "z": 2
+  },
+  "r": {
+    "any_element": {
+      "qname": "lj",
+      "text": "we",
+      "tail": null,
+      "children": [],
+      "attributes": {}
+    },
+    "y": 1
+  }
 }

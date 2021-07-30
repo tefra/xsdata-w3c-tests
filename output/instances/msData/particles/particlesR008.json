@@ -1,22 +1,22 @@
 {
-    "elem": {
-        "foo": "",
-        "any_element": [],
-        "e1_or_e2": [
-            {
-                "qname": "e1",
-                "text": "",
-                "tail": null,
-                "children": [],
-                "attributes": {}
-            },
-            {
-                "qname": "e1",
-                "text": "",
-                "tail": null,
-                "children": [],
-                "attributes": {}
-            }
-        ]
-    }
+  "elem": {
+    "foo": "",
+    "any_element": [],
+    "e1_or_e2": [
+      {
+        "qname": "e1",
+        "text": "",
+        "tail": null,
+        "children": [],
+        "attributes": {}
+      },
+      {
+        "qname": "e1",
+        "text": "",
+        "tail": null,
+        "children": [],
+        "attributes": {}
+      }
+    ]
+  }
 }

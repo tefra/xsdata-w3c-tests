@@ -1,30 +1,30 @@
 {
-    "elem": [
+  "elem": [
+    {
+      "foo_bar_element": [
         {
-            "foo_bar_element": [
-                {
-                    "qname": "{foo}foo",
-                    "text": "",
-                    "tail": null,
-                    "children": [
-                        {
-                            "qname": "{just_testing_should_pass}bar",
-                            "text": "",
-                            "tail": null,
-                            "children": [],
-                            "attributes": {}
-                        }
-                    ],
-                    "attributes": {}
-                },
-                {
-                    "qname": "{foo}foo",
-                    "text": "",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {}
-                }
-            ]
+          "qname": "{foo}foo",
+          "text": "",
+          "tail": null,
+          "children": [
+            {
+              "qname": "{just_testing_should_pass}bar",
+              "text": "",
+              "tail": null,
+              "children": [],
+              "attributes": {}
+            }
+          ],
+          "attributes": {}
+        },
+        {
+          "qname": "{foo}foo",
+          "text": "",
+          "tail": null,
+          "children": [],
+          "attributes": {}
         }
-    ]
+      ]
+    }
+  ]
 }

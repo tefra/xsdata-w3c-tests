@@ -1,6 +1,6 @@
 {
-    "complexTest": {
-        "comp_foo": "P2000Y2M29DT10H30M"
-    },
-    "simpleTest": "P2000Y2M29DT10H30M"
+  "complexTest": {
+    "comp_foo": "P2000Y2M29DT10H30M"
+  },
+  "simpleTest": "P2000Y2M29DT10H30M"
 }

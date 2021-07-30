@@ -1,15 +1,15 @@
 {
-    "elyMDUnionA": [
-        "Computer",
-        "P4DT4H"
-    ],
-    "elyMDUnionB": [
-        "-PT32H4M3.4S",
-        7
-    ],
-    "elyMDUnionC": [
-        "PT34.3S",
-        1,
-        "once"
-    ]
+  "elyMDUnionA": [
+    "Computer",
+    "P4DT4H"
+  ],
+  "elyMDUnionB": [
+    "-PT32H4M3.4S",
+    7
+  ],
+  "elyMDUnionC": [
+    "PT34.3S",
+    1,
+    "once"
+  ]
 }

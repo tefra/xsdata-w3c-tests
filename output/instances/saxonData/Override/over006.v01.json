@@ -1,16 +1,16 @@
 {
-    "head": "Intro",
-    "section": [
-        {
-            "head": "Bumph",
-            "section": [],
-            "nr": "1.1"
-        },
-        {
-            "head": "More Bumph",
-            "section": [],
-            "nr": "1.2"
-        }
-    ],
-    "nr": "1"
+  "head": "Intro",
+  "section": [
+    {
+      "head": "Bumph",
+      "section": [],
+      "nr": "1.1"
+    },
+    {
+      "head": "More Bumph",
+      "section": [],
+      "nr": "1.2"
+    }
+  ],
+  "nr": "1"
 }

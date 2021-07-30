@@ -1,8 +1,8 @@
 {
-    "test": {
-        "currency": null,
-        "model": null,
-        "age": null,
-        "attFix": 37
-    }
+  "test": {
+    "currency": null,
+    "model": null,
+    "age": null,
+    "attFix": 37
+  }
 }

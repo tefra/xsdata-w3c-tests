@@ -1,11 +1,11 @@
 {
-    "any_element": {
-        "qname": "e",
-        "text": "",
-        "tail": null,
-        "children": [],
-        "attributes": {
-            "{http://www.w3.org/1999/XSL/Transform}use-attribute-sets": "foo"
-        }
+  "any_element": {
+    "qname": "e",
+    "text": "",
+    "tail": null,
+    "children": [],
+    "attributes": {
+      "{http://www.w3.org/1999/XSL/Transform}use-attribute-sets": "foo"
     }
+  }
 }

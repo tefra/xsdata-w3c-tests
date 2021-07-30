@@ -1,9 +1,9 @@
 {
-    "value": [
-        "ftp://su.w.edu",
-        "gopher://a.inc.com",
-        "ftp://op.us.gov",
-        "ftp://The.X.org",
-        "gopher://tec.fr.com"
-    ]
+  "value": [
+    "ftp://su.w.edu",
+    "gopher://a.inc.com",
+    "ftp://op.us.gov",
+    "ftp://The.X.org",
+    "gopher://tec.fr.com"
+  ]
 }

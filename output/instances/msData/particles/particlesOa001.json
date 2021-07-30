@@ -1,27 +1,27 @@
 {
-    "elem": {
-        "any_element": {
-            "qname": "{http://xsdtesting}doc",
-            "text": "",
-            "tail": null,
-            "children": [
-                {
-                    "qname": "elem",
-                    "text": "",
-                    "tail": null,
-                    "children": [
-                        {
-                            "qname": "{http://xsdtesting}foo",
-                            "text": "",
-                            "tail": null,
-                            "children": [],
-                            "attributes": {}
-                        }
-                    ],
-                    "attributes": {}
-                }
-            ],
-            "attributes": {}
+  "elem": {
+    "any_element": {
+      "qname": "{http://xsdtesting}doc",
+      "text": "",
+      "tail": null,
+      "children": [
+        {
+          "qname": "elem",
+          "text": "",
+          "tail": null,
+          "children": [
+            {
+              "qname": "{http://xsdtesting}foo",
+              "text": "",
+              "tail": null,
+              "children": [],
+              "attributes": {}
+            }
+          ],
+          "attributes": {}
         }
+      ],
+      "attributes": {}
     }
+  }
 }

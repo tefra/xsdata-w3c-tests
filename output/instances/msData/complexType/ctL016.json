@@ -1,9 +1,9 @@
 {
-    "fooTest": {
-        "child_1": "info",
-        "child_2": 3,
-        "other_attributes": {
-            "{http://www.dummy.com}testAttr": "Test Attribute"
-        }
+  "fooTest": {
+    "child_1": "info",
+    "child_2": 3,
+    "other_attributes": {
+      "{http://www.dummy.com}testAttr": "Test Attribute"
     }
+  }
 }

@@ -1,703 +1,703 @@
 {
-    "annotation": [],
-    "testGroup": [
+  "annotation": [],
+  "testGroup": [
+    {
+      "annotation": [
         {
-            "annotation": [
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
                 {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "Tests to show an element declaration can be in multiple substitution groups",
-                                    "tail": null,
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "Tests to show an element declaration can be in multiple substitution groups",
-                                    "tail": null,
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/TR/xmlschema11-1/#sec-cos-equiv-class",
-                    "other_attributes": {}
+                  "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                  "text": "Tests to show an element declaration can be in multiple substitution groups",
+                  "tail": null,
+                  "children": [],
+                  "attributes": {}
                 },
                 {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "../XSD1_1TestCategories.xml#xsd1_1-SubstitutionGroups-ElemInMoreThanOne",
-                    "other_attributes": {}
+                  "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                  "text": "Tests to show an element declaration can be in multiple substitution groups",
+                  "tail": null,
+                  "children": [],
+                  "attributes": {}
                 }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../saxonData/Subsgroup/subsgroup001.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "valid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2008-07-31",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "subsgroup001.xsd",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [
-                {
-                    "annotation": [
-                        {
-                            "appinfo_or_documentation": [
-                                {
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {},
-                                    "content": [
-                                        "\n\t\t                Valid, element subsitutes for both abstract elements.\n\t\t            "
-                                    ]
-                                }
-                            ],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../saxonData/Subsgroup/subsgroup001.v1.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "valid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2008-07-31",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "subsgroup001.v1.xml",
-                    "version": [],
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [
-                        {
-                            "appinfo_or_documentation": [
-                                {
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {},
-                                    "content": [
-                                        "\n\t\t                Invalid, abstract element present in instance.\n\t\t            "
-                                    ]
-                                }
-                            ],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../saxonData/Subsgroup/subsgroup001.n1.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "invalid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2008-07-31",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "subsgroup001.n1.xml",
-                    "version": [],
-                    "other_attributes": {}
-                }
-            ],
-            "name": "subsgroup001",
-            "version": [
-                "1.1"
-            ],
-            "other_attributes": {}
-        },
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "Tests to show an element declaration can be in multiple substitution groups",
-                                    "tail": null,
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "Element substitutable for another in more than one way, both valid",
-                                    "tail": null,
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/TR/xmlschema11-1/#sec-cos-equiv-class",
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "../XSD1_1TestCategories.xml#xsd1_1-SubstitutionGroups-ElemInMoreThanOne",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../saxonData/Subsgroup/subsgroup002.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "valid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2010-06-10",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "subsgroup002.xsd",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [
-                {
-                    "annotation": [
-                        {
-                            "appinfo_or_documentation": [
-                                {
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {},
-                                    "content": [
-                                        "\n\t\t                Valid, element subsitutes for both abstract elements.\n\t\t            "
-                                    ]
-                                }
-                            ],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../saxonData/Subsgroup/subsgroup001.v1.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "valid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2010-06-10",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "subsgroup002.v1.xml",
-                    "version": [],
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [
-                        {
-                            "appinfo_or_documentation": [
-                                {
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {},
-                                    "content": [
-                                        "\n\t\t                Invalid, abstract element present in instance.\n\t\t            "
-                                    ]
-                                }
-                            ],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../saxonData/Subsgroup/subsgroup001.n1.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "invalid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2010-06-10",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "subsgroup002.n1.xml",
-                    "version": [],
-                    "other_attributes": {}
-                }
-            ],
-            "name": "subsgroup002",
-            "version": [
-                "1.1"
-            ],
-            "other_attributes": {}
-        },
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "Tests to show an a substitution group with declarations in different namespaces",
-                                    "tail": null,
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "Substitution group has an abstract owner in one namespace, two concrete\n                members in different namespaces. Should work with XSD 1.0 or 1.1. Posted as a problem\n                on StackOverflow ref 9495098 on 29 Feb 2012.",
-                                    "tail": null,
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/TR/xmlschema11-1/#sec-cos-equiv-class",
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "../XSD1_1TestCategories.xml#xsd1_1-SubstitutionGroups-ElemInMoreThanOne",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../saxonData/Subsgroup/subsgroup003a.xsd",
-                        "other_attributes": {}
-                    },
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../saxonData/Subsgroup/subsgroup003b.xsd",
-                        "other_attributes": {}
-                    },
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../saxonData/Subsgroup/subsgroup003c.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "valid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2012-02-29",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "subsgroup003a.xsd",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [
-                {
-                    "annotation": [
-                        {
-                            "appinfo_or_documentation": [
-                                {
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {},
-                                    "content": [
-                                        "\n\t\t                Valid, both elements in the content are in the substitution group.\n\t\t            "
-                                    ]
-                                }
-                            ],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../saxonData/Subsgroup/subsgroup003.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "valid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2012-02-29",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "subsgroup003.v1.xml",
-                    "version": [],
-                    "other_attributes": {}
-                }
-            ],
-            "name": "subsgroup003",
-            "version": [],
-            "other_attributes": {}
-        },
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "Substitution group causes failure of Element Declarations Consistent",
-                                    "tail": null,
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "Element in substitution group, fails \"element declarations consistent\" because of a conflict\n     between a locally declared element and the substitution group of a globally declared element.\n     This is actually a 1.0 test, but it's a condition that appears to be untested in the 1.0\n     test suite",
-                                    "tail": null,
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/TR/xmlschema11-1/#sec-cos-equiv-class",
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "../XSD1_1TestCategories.xml#xsd1_1-SubstitutionGroups",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../saxonData/Subsgroup/subsgroup901.bad.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "invalid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2008-07-31",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "subsgroup901.xsd",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [],
-            "name": "subsgroup901",
-            "version": [],
-            "other_attributes": {}
-        },
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "Element in more than one substitution group causes UPA violation in xs:sequence group",
-                                    "tail": null,
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "The UPA violation occurs because the para element could be ascribed to either particle\n                in the content model of the 'back' element",
-                                    "tail": null,
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/TR/xmlschema11-1/#sec-cos-equiv-class",
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "../XSD1_1TestCategories.xml#xsd1_1-SubstitutionGroups-ElemInMoreThanOne",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../saxonData/Subsgroup/subsgroup902.bad.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "invalid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2010-06-10",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "subsgroup902.xsd",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [],
-            "name": "subsgroup902",
-            "version": [
-                "1.1"
-            ],
-            "other_attributes": {}
-        },
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "Element in more than one substitution group causes UPA violation in xs:all group",
-                                    "tail": null,
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "The UPA violation occurs because the para element could be ascribed to either particle\n                in the content model of the 'back' element",
-                                    "tail": null,
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/TR/xmlschema11-1/#sec-cos-equiv-class",
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "../XSD1_1TestCategories.xml#xsd1_1-SubstitutionGroups-ElemInMoreThanOne",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../saxonData/Subsgroup/subsgroup903.bad.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "invalid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2010-06-10",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "subsgroup903.xsd",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [],
-            "name": "subsgroup903",
-            "version": [
-                "1.1"
-            ],
-            "other_attributes": {}
+              ]
+            }
+          ],
+          "other_attributes": {}
         }
-    ],
-    "contributor": "Saxonica",
-    "name": "Subsgroup",
-    "version": [
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/TR/xmlschema11-1/#sec-cos-equiv-class",
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "../XSD1_1TestCategories.xml#xsd1_1-SubstitutionGroups-ElemInMoreThanOne",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../saxonData/Subsgroup/subsgroup001.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "valid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2008-07-31",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "subsgroup001.xsd",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [
+        {
+          "annotation": [
+            {
+              "appinfo_or_documentation": [
+                {
+                  "source": null,
+                  "lang": null,
+                  "other_attributes": {},
+                  "content": [
+                    "\n\t\t                Valid, element subsitutes for both abstract elements.\n\t\t            "
+                  ]
+                }
+              ],
+              "other_attributes": {}
+            }
+          ],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../saxonData/Subsgroup/subsgroup001.v1.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "valid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2008-07-31",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "subsgroup001.v1.xml",
+          "version": [],
+          "other_attributes": {}
+        },
+        {
+          "annotation": [
+            {
+              "appinfo_or_documentation": [
+                {
+                  "source": null,
+                  "lang": null,
+                  "other_attributes": {},
+                  "content": [
+                    "\n\t\t                Invalid, abstract element present in instance.\n\t\t            "
+                  ]
+                }
+              ],
+              "other_attributes": {}
+            }
+          ],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../saxonData/Subsgroup/subsgroup001.n1.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "invalid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2008-07-31",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "subsgroup001.n1.xml",
+          "version": [],
+          "other_attributes": {}
+        }
+      ],
+      "name": "subsgroup001",
+      "version": [
         "1.1"
-    ],
-    "other_attributes": {
-        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd"
+      ],
+      "other_attributes": {}
+    },
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                {
+                  "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                  "text": "Tests to show an element declaration can be in multiple substitution groups",
+                  "tail": null,
+                  "children": [],
+                  "attributes": {}
+                },
+                {
+                  "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                  "text": "Element substitutable for another in more than one way, both valid",
+                  "tail": null,
+                  "children": [],
+                  "attributes": {}
+                }
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/TR/xmlschema11-1/#sec-cos-equiv-class",
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "../XSD1_1TestCategories.xml#xsd1_1-SubstitutionGroups-ElemInMoreThanOne",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../saxonData/Subsgroup/subsgroup002.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "valid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2010-06-10",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "subsgroup002.xsd",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [
+        {
+          "annotation": [
+            {
+              "appinfo_or_documentation": [
+                {
+                  "source": null,
+                  "lang": null,
+                  "other_attributes": {},
+                  "content": [
+                    "\n\t\t                Valid, element subsitutes for both abstract elements.\n\t\t            "
+                  ]
+                }
+              ],
+              "other_attributes": {}
+            }
+          ],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../saxonData/Subsgroup/subsgroup001.v1.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "valid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2010-06-10",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "subsgroup002.v1.xml",
+          "version": [],
+          "other_attributes": {}
+        },
+        {
+          "annotation": [
+            {
+              "appinfo_or_documentation": [
+                {
+                  "source": null,
+                  "lang": null,
+                  "other_attributes": {},
+                  "content": [
+                    "\n\t\t                Invalid, abstract element present in instance.\n\t\t            "
+                  ]
+                }
+              ],
+              "other_attributes": {}
+            }
+          ],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../saxonData/Subsgroup/subsgroup001.n1.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "invalid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2010-06-10",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "subsgroup002.n1.xml",
+          "version": [],
+          "other_attributes": {}
+        }
+      ],
+      "name": "subsgroup002",
+      "version": [
+        "1.1"
+      ],
+      "other_attributes": {}
+    },
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                {
+                  "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                  "text": "Tests to show an a substitution group with declarations in different namespaces",
+                  "tail": null,
+                  "children": [],
+                  "attributes": {}
+                },
+                {
+                  "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                  "text": "Substitution group has an abstract owner in one namespace, two concrete\n                members in different namespaces. Should work with XSD 1.0 or 1.1. Posted as a problem\n                on StackOverflow ref 9495098 on 29 Feb 2012.",
+                  "tail": null,
+                  "children": [],
+                  "attributes": {}
+                }
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/TR/xmlschema11-1/#sec-cos-equiv-class",
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "../XSD1_1TestCategories.xml#xsd1_1-SubstitutionGroups-ElemInMoreThanOne",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../saxonData/Subsgroup/subsgroup003a.xsd",
+            "other_attributes": {}
+          },
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../saxonData/Subsgroup/subsgroup003b.xsd",
+            "other_attributes": {}
+          },
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../saxonData/Subsgroup/subsgroup003c.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "valid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2012-02-29",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "subsgroup003a.xsd",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [
+        {
+          "annotation": [
+            {
+              "appinfo_or_documentation": [
+                {
+                  "source": null,
+                  "lang": null,
+                  "other_attributes": {},
+                  "content": [
+                    "\n\t\t                Valid, both elements in the content are in the substitution group.\n\t\t            "
+                  ]
+                }
+              ],
+              "other_attributes": {}
+            }
+          ],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../saxonData/Subsgroup/subsgroup003.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "valid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2012-02-29",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "subsgroup003.v1.xml",
+          "version": [],
+          "other_attributes": {}
+        }
+      ],
+      "name": "subsgroup003",
+      "version": [],
+      "other_attributes": {}
+    },
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                {
+                  "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                  "text": "Substitution group causes failure of Element Declarations Consistent",
+                  "tail": null,
+                  "children": [],
+                  "attributes": {}
+                },
+                {
+                  "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                  "text": "Element in substitution group, fails \"element declarations consistent\" because of a conflict\n     between a locally declared element and the substitution group of a globally declared element.\n     This is actually a 1.0 test, but it's a condition that appears to be untested in the 1.0\n     test suite",
+                  "tail": null,
+                  "children": [],
+                  "attributes": {}
+                }
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/TR/xmlschema11-1/#sec-cos-equiv-class",
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "../XSD1_1TestCategories.xml#xsd1_1-SubstitutionGroups",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../saxonData/Subsgroup/subsgroup901.bad.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "invalid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2008-07-31",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "subsgroup901.xsd",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [],
+      "name": "subsgroup901",
+      "version": [],
+      "other_attributes": {}
+    },
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                {
+                  "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                  "text": "Element in more than one substitution group causes UPA violation in xs:sequence group",
+                  "tail": null,
+                  "children": [],
+                  "attributes": {}
+                },
+                {
+                  "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                  "text": "The UPA violation occurs because the para element could be ascribed to either particle\n                in the content model of the 'back' element",
+                  "tail": null,
+                  "children": [],
+                  "attributes": {}
+                }
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/TR/xmlschema11-1/#sec-cos-equiv-class",
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "../XSD1_1TestCategories.xml#xsd1_1-SubstitutionGroups-ElemInMoreThanOne",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../saxonData/Subsgroup/subsgroup902.bad.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "invalid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2010-06-10",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "subsgroup902.xsd",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [],
+      "name": "subsgroup902",
+      "version": [
+        "1.1"
+      ],
+      "other_attributes": {}
+    },
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                {
+                  "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                  "text": "Element in more than one substitution group causes UPA violation in xs:all group",
+                  "tail": null,
+                  "children": [],
+                  "attributes": {}
+                },
+                {
+                  "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                  "text": "The UPA violation occurs because the para element could be ascribed to either particle\n                in the content model of the 'back' element",
+                  "tail": null,
+                  "children": [],
+                  "attributes": {}
+                }
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/TR/xmlschema11-1/#sec-cos-equiv-class",
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "../XSD1_1TestCategories.xml#xsd1_1-SubstitutionGroups-ElemInMoreThanOne",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../saxonData/Subsgroup/subsgroup903.bad.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "invalid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2010-06-10",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "subsgroup903.xsd",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [],
+      "name": "subsgroup903",
+      "version": [
+        "1.1"
+      ],
+      "other_attributes": {}
     }
+  ],
+  "contributor": "Saxonica",
+  "name": "Subsgroup",
+  "version": [
+    "1.1"
+  ],
+  "other_attributes": {
+    "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd"
+  }
 }

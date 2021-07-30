@@ -1,20 +1,20 @@
 {
-    "e1": {
-        "elem1": null,
-        "elem2": null,
-        "att1": "abc",
-        "att2": null
-    },
-    "e2": {
-        "elem1": null,
-        "elem2": null,
-        "att1": null,
-        "att2": null
-    },
-    "e3": {
-        "elem1": null,
-        "elem2": null,
-        "att1": "abc",
-        "att2": null
-    }
+  "e1": {
+    "elem1": null,
+    "elem2": null,
+    "att1": "abc",
+    "att2": null
+  },
+  "e2": {
+    "elem1": null,
+    "elem2": null,
+    "att1": null,
+    "att2": null
+  },
+  "e3": {
+    "elem1": null,
+    "elem2": null,
+    "att1": "abc",
+    "att2": null
+  }
 }

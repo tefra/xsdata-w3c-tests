@@ -1,13 +1,13 @@
 {
-    "foo_or_bar": [
-        {
-            "any_element": null
-        },
-        {
-            "any_element": null
-        },
-        {
-            "any_element": null
-        }
-    ]
+  "foo_or_bar": [
+    {
+      "any_element": null
+    },
+    {
+      "any_element": null
+    },
+    {
+      "any_element": null
+    }
+  ]
 }

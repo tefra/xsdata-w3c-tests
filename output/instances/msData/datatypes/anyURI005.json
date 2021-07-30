@@ -1,6 +1,6 @@
 {
-    "complexTest": {
-        "comp_foo": "ftp://ftp.is.co.za/rfc/rfc1808.txt"
-    },
-    "simpleTest": "ftp://ftp.is.co.za/rfc/rfc1808.txt"
+  "complexTest": {
+    "comp_foo": "ftp://ftp.is.co.za/rfc/rfc1808.txt"
+  },
+  "simpleTest": "ftp://ftp.is.co.za/rfc/rfc1808.txt"
 }

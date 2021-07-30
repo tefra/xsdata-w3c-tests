@@ -1,11 +1,11 @@
 {
-    "any_element": {
-        "qname": "{AttrDecl/scope}elementWithAttr",
-        "text": "",
-        "tail": null,
-        "children": [],
-        "attributes": {
-            "{AttrDecl/scope}number": "123"
-        }
+  "any_element": {
+    "qname": "{AttrDecl/scope}elementWithAttr",
+    "text": "",
+    "tail": null,
+    "children": [],
+    "attributes": {
+      "{AttrDecl/scope}number": "123"
     }
+  }
 }

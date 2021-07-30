@@ -1,9 +1,9 @@
 {
-    "choice": [
-        {
-            "qname": "{a}_-",
-            "value": "_-",
-            "type": null
-        }
-    ]
+  "choice": [
+    {
+      "qname": "{a}_-",
+      "value": "_-",
+      "type": null
+    }
+  ]
 }

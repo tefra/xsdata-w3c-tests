@@ -1,9 +1,9 @@
 {
-    "any_element": {
-        "qname": "date",
-        "text": "2002-04-29",
-        "tail": null,
-        "children": [],
-        "attributes": {}
-    }
+  "any_element": {
+    "qname": "date",
+    "text": "2002-04-29",
+    "tail": null,
+    "children": [],
+    "attributes": {}
+  }
 }

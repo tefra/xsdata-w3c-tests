@@ -1,5 +1,5 @@
 {
-    "foobar_attributes": {
-        "{http://foobar}name": "bar"
-    }
+  "foobar_attributes": {
+    "{http://foobar}name": "bar"
+  }
 }

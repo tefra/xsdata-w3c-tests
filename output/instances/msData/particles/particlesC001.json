@@ -1,13 +1,13 @@
 {
-    "elem": [
-        {
-            "any_element": {
-                "qname": "{foo}foo",
-                "text": "",
-                "tail": null,
-                "children": [],
-                "attributes": {}
-            }
-        }
-    ]
+  "elem": [
+    {
+      "any_element": {
+        "qname": "{foo}foo",
+        "text": "",
+        "tail": null,
+        "children": [],
+        "attributes": {}
+      }
+    }
+  ]
 }

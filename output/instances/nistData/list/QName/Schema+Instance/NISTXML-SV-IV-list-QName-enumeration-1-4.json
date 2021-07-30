@@ -1,10 +1,10 @@
 {
-    "value": [
-        "{http://www.nist.gov/xsdNS}vwith-ob",
-        "{NISTSchema-SV-IV-list-QName-enumeration-1-NS}asolutions_",
-        "{http://www.nist.gov/xsdNS}vcan_mechanism",
-        "{http://www.nist.gov/xsdNS}nof_and-the_known-by-developers_and",
-        "{NISTSchema-SV-IV-list-QName-enumeration-1-NS}aas.the.information.retrieval_only-implementation-tech",
-        "{NISTSchema-SV-IV-list-QName-enumeration-1-NS}dwill.if_of.to.the-used.with.looking_t"
-    ]
+  "value": [
+    "{http://www.nist.gov/xsdNS}vwith-ob",
+    "{NISTSchema-SV-IV-list-QName-enumeration-1-NS}asolutions_",
+    "{http://www.nist.gov/xsdNS}vcan_mechanism",
+    "{http://www.nist.gov/xsdNS}nof_and-the_known-by-developers_and",
+    "{NISTSchema-SV-IV-list-QName-enumeration-1-NS}aas.the.information.retrieval_only-implementation-tech",
+    "{NISTSchema-SV-IV-list-QName-enumeration-1-NS}dwill.if_of.to.the-used.with.looking_t"
+  ]
 }

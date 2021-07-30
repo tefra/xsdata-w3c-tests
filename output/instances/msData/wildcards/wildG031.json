@@ -1,60 +1,60 @@
 {
-    "a_b_c_d_e_target_namespace_local_element": [
-        {
-            "qname": "{http://foobar}bar",
-            "text": "foo bar",
-            "tail": null,
-            "children": [],
-            "attributes": {}
-        },
-        {
-            "qname": "bar",
-            "text": "foo bar",
-            "tail": null,
-            "children": [],
-            "attributes": {}
-        },
-        {
-            "qname": "foo",
-            "text": "",
-            "tail": null,
-            "children": [],
-            "attributes": {}
-        },
-        {
-            "qname": "{A}foo",
-            "text": "",
-            "tail": null,
-            "children": [],
-            "attributes": {}
-        },
-        {
-            "qname": "{B}foo",
-            "text": "",
-            "tail": null,
-            "children": [],
-            "attributes": {}
-        },
-        {
-            "qname": "{C}foo",
-            "text": "",
-            "tail": null,
-            "children": [],
-            "attributes": {}
-        },
-        {
-            "qname": "{D}foo",
-            "text": "",
-            "tail": null,
-            "children": [],
-            "attributes": {}
-        },
-        {
-            "qname": "{E}foo",
-            "text": "",
-            "tail": null,
-            "children": [],
-            "attributes": {}
-        }
-    ]
+  "a_b_c_d_e_target_namespace_local_element": [
+    {
+      "qname": "{http://foobar}bar",
+      "text": "foo bar",
+      "tail": null,
+      "children": [],
+      "attributes": {}
+    },
+    {
+      "qname": "bar",
+      "text": "foo bar",
+      "tail": null,
+      "children": [],
+      "attributes": {}
+    },
+    {
+      "qname": "foo",
+      "text": "",
+      "tail": null,
+      "children": [],
+      "attributes": {}
+    },
+    {
+      "qname": "{A}foo",
+      "text": "",
+      "tail": null,
+      "children": [],
+      "attributes": {}
+    },
+    {
+      "qname": "{B}foo",
+      "text": "",
+      "tail": null,
+      "children": [],
+      "attributes": {}
+    },
+    {
+      "qname": "{C}foo",
+      "text": "",
+      "tail": null,
+      "children": [],
+      "attributes": {}
+    },
+    {
+      "qname": "{D}foo",
+      "text": "",
+      "tail": null,
+      "children": [],
+      "attributes": {}
+    },
+    {
+      "qname": "{E}foo",
+      "text": "",
+      "tail": null,
+      "children": [],
+      "attributes": {}
+    }
+  ]
 }

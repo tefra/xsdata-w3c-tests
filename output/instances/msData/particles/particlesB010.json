@@ -1,20 +1,20 @@
 {
-    "elem": {
-        "choice": [
-            {
-                "qname": "e4",
-                "text": "",
-                "tail": null,
-                "children": [],
-                "attributes": {}
-            },
-            {
-                "qname": "e1",
-                "text": "",
-                "tail": null,
-                "children": [],
-                "attributes": {}
-            }
-        ]
-    }
+  "elem": {
+    "choice": [
+      {
+        "qname": "e4",
+        "text": "",
+        "tail": null,
+        "children": [],
+        "attributes": {}
+      },
+      {
+        "qname": "e1",
+        "text": "",
+        "tail": null,
+        "children": [],
+        "attributes": {}
+      }
+    ]
+  }
 }

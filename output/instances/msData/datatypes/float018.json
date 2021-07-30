@@ -1,6 +1,6 @@
 {
-    "complexTest": {
-        "comp_foo": Infinity
-    },
-    "simpleTest": Infinity
+  "complexTest": {
+    "comp_foo": Infinity
+  },
+  "simpleTest": Infinity
 }

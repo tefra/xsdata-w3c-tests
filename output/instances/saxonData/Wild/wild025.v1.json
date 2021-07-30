@@ -1,6 +1,6 @@
 {
-    "adam_com_eve_com_attributes": {
-        "{http://adam.com/}adam": "adam"
-    },
-    "any_attributes": {}
+  "adam_com_eve_com_attributes": {
+    "{http://adam.com/}adam": "adam"
+  },
+  "any_attributes": {}
 }

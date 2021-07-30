@@ -1,14 +1,14 @@
 {
-    "content": [
-        {
-            "qname": "a",
-            "value": {},
-            "type": "alpha"
-        },
-        {
-            "qname": "b",
-            "value": {},
-            "type": "beta"
-        }
-    ]
+  "content": [
+    {
+      "qname": "a",
+      "value": {},
+      "type": "alpha"
+    },
+    {
+      "qname": "b",
+      "value": {},
+      "type": "beta"
+    }
+  ]
 }

@@ -1,39 +1,39 @@
 {
-    "child1_or_child2": [
-        [
-            "123456",
-            "abcdef",
-            "xxxxxxxx"
-        ],
-        {
-            "qname": "{http://foo.com}child2",
-            "value": true,
-            "type": null
-        },
-        {
-            "qname": "{http://foo.com}child2",
-            "value": false,
-            "type": null
-        },
-        {
-            "qname": "{http://foo.com}child2",
-            "value": false,
-            "type": null
-        },
-        {
-            "qname": "{http://foo.com}child2",
-            "value": true,
-            "type": null
-        },
-        {
-            "qname": "{http://foo.com}child2",
-            "value": "abcdef",
-            "type": null
-        },
-        {
-            "qname": "{http://foo.com}child2",
-            "value": "xxxxxxxx",
-            "type": null
-        }
-    ]
+  "child1_or_child2": [
+    [
+      "123456",
+      "abcdef",
+      "xxxxxxxx"
+    ],
+    {
+      "qname": "{http://foo.com}child2",
+      "value": true,
+      "type": null
+    },
+    {
+      "qname": "{http://foo.com}child2",
+      "value": false,
+      "type": null
+    },
+    {
+      "qname": "{http://foo.com}child2",
+      "value": false,
+      "type": null
+    },
+    {
+      "qname": "{http://foo.com}child2",
+      "value": true,
+      "type": null
+    },
+    {
+      "qname": "{http://foo.com}child2",
+      "value": "abcdef",
+      "type": null
+    },
+    {
+      "qname": "{http://foo.com}child2",
+      "value": "xxxxxxxx",
+      "type": null
+    }
+  ]
 }

@@ -1,13 +1,13 @@
 {
-    "elem": {
-        "local_foo_target_namespace_imported_xsd_bar_element": [],
-        "impElem1": [
-            {
-                "any_element": null
-            },
-            {
-                "any_element": null
-            }
-        ]
-    }
+  "elem": {
+    "local_foo_target_namespace_imported_xsd_bar_element": [],
+    "impElem1": [
+      {
+        "any_element": null
+      },
+      {
+        "any_element": null
+      }
+    ]
+  }
 }

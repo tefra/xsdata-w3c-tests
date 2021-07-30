@@ -1,16 +1,16 @@
 {
-    "list_of_ids_element": [
-        [
-            "asd",
-            "gfj",
-            "u123"
-        ],
-        [
-            "a1",
-            "b2",
-            "c3"
-        ]
+  "list_of_ids_element": [
+    [
+      "asd",
+      "gfj",
+      "u123"
     ],
-    "idref_element": "u123",
-    "idref_attr": "b2"
+    [
+      "a1",
+      "b2",
+      "c3"
+    ]
+  ],
+  "idref_element": "u123",
+  "idref_attr": "b2"
 }

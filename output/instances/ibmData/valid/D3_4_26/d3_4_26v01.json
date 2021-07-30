@@ -1,22 +1,22 @@
 {
-    "elyMDType": [
-        "P124Y",
-        "-P3Y348M",
-        "P1Y2M"
-    ],
-    "elyMDEnumeration": [
-        "P1Y3M",
-        "P45M",
-        "-P34Y233M"
-    ],
-    "elyMDMinMaxInclusive": [
-        "-P1Y",
-        "P23Y23M",
-        "P53M"
-    ],
-    "elyMDMinMaxExclusive": [
-        "-P21M",
-        "P42M",
-        "P31Y2M"
-    ]
+  "elyMDType": [
+    "P124Y",
+    "-P3Y348M",
+    "P1Y2M"
+  ],
+  "elyMDEnumeration": [
+    "P1Y3M",
+    "P45M",
+    "-P34Y233M"
+  ],
+  "elyMDMinMaxInclusive": [
+    "-P1Y",
+    "P23Y23M",
+    "P53M"
+  ],
+  "elyMDMinMaxExclusive": [
+    "-P21M",
+    "P42M",
+    "P31Y2M"
+  ]
 }

@@ -1,12 +1,12 @@
 {
-    "value": [
-        "telnet://todis.defines.Coordi.theser.thetestst.gov",
-        "http://St.net.com",
-        "gopher://oft.inbeco.Uni.org",
-        "ftp://elec.edu",
-        "ftp://m.c.com",
-        "gopher://se.edu",
-        "gopher://use.org",
-        "gopher://area.hamper.to.onAddit.org"
-    ]
+  "value": [
+    "telnet://todis.defines.Coordi.theser.thetestst.gov",
+    "http://St.net.com",
+    "gopher://oft.inbeco.Uni.org",
+    "ftp://elec.edu",
+    "ftp://m.c.com",
+    "gopher://se.edu",
+    "gopher://use.org",
+    "gopher://area.hamper.to.onAddit.org"
+  ]
 }

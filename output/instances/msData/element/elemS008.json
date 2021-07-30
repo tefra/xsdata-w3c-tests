@@ -1,8 +1,8 @@
 {
-    "fr1_valid": {
-        "value": "ab",
-        "a": null,
-        "b": null
-    },
-    "fr_valid": null
+  "fr1_valid": {
+    "value": "ab",
+    "a": null,
+    "b": null
+  },
+  "fr_valid": null
 }

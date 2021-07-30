@@ -1,9 +1,9 @@
 {
-    "any_element": {
-        "qname": "{NISTSchema-SV-IV-atomic-ID-minLength-1-NS}NISTSchema-SV-IV-atomic-ID-minLength-1",
-        "text": "_consistency_mat",
-        "tail": null,
-        "children": [],
-        "attributes": {}
-    }
+  "any_element": {
+    "qname": "{NISTSchema-SV-IV-atomic-ID-minLength-1-NS}NISTSchema-SV-IV-atomic-ID-minLength-1",
+    "text": "_consistency_mat",
+    "tail": null,
+    "children": [],
+    "attributes": {}
+  }
 }

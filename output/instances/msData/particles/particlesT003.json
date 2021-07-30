@@ -1,8 +1,8 @@
 {
-    "elem": {
-        "c1": null,
-        "c2": null,
-        "c3": null,
-        "foo": ""
-    }
+  "elem": {
+    "c1": null,
+    "c2": null,
+    "c3": null,
+    "foo": ""
+  }
 }

@@ -1,19 +1,19 @@
 {
-    "elem": {
-        "c1": {
-            "content": [
-                {
-                    "qname": "foo",
-                    "text": "testing",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {}
-                }
-            ],
-            "foo": null
-        },
-        "c2": null,
-        "d1": "testing",
-        "d2": null
-    }
+  "elem": {
+    "c1": {
+      "content": [
+        {
+          "qname": "foo",
+          "text": "testing",
+          "tail": null,
+          "children": [],
+          "attributes": {}
+        }
+      ],
+      "foo": null
+    },
+    "c2": null,
+    "d1": "testing",
+    "d2": null
+  }
 }

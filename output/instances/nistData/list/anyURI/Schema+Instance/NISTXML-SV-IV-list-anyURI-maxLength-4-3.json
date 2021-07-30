@@ -1,11 +1,11 @@
 {
-    "value": [
-        "ftp://i.re.edu",
-        "ftp://com.net",
-        "telnet://brow.com",
-        "gopher://can.Ele.net",
-        "telnet://onser.Co.gov",
-        "news://Proj.edu",
-        "gopher://tra.desig.theB.edu"
-    ]
+  "value": [
+    "ftp://i.re.edu",
+    "ftp://com.net",
+    "telnet://brow.com",
+    "gopher://can.Ele.net",
+    "telnet://onser.Co.gov",
+    "news://Proj.edu",
+    "gopher://tra.desig.theB.edu"
+  ]
 }

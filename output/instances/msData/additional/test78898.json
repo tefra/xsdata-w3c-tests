@@ -1,23 +1,23 @@
 {
-    "e1": null,
-    "e2": null,
-    "e3": [],
-    "e4": [],
-    "e5": [],
-    "e6": [
+  "e1": null,
+  "e2": null,
+  "e3": [],
+  "e4": [],
+  "e5": [],
+  "e6": [
+    {
+      "any_element": [
         {
-            "any_element": [
-                {
-                    "qname": "e3",
-                    "text": "",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {}
-                }
-            ],
-            "att": null
+          "qname": "e3",
+          "text": "",
+          "tail": null,
+          "children": [],
+          "attributes": {}
         }
-    ],
-    "e7": [],
-    "e8": []
+      ],
+      "att": null
+    }
+  ],
+  "e7": [],
+  "e8": []
 }

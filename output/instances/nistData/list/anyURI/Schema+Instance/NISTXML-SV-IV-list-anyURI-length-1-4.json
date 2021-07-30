@@ -1,9 +1,9 @@
 {
-    "value": [
-        "news://clean.user.hight.net",
-        "telnet://par.net",
-        "ftp://co.toa.an.org",
-        "gopher://bl.a.a.com",
-        "ftp://rel.org"
-    ]
+  "value": [
+    "news://clean.user.hight.net",
+    "telnet://par.net",
+    "ftp://co.toa.an.org",
+    "gopher://bl.a.a.com",
+    "ftp://rel.org"
+  ]
 }

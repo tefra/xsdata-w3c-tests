@@ -1,65 +1,65 @@
 {
-    "mixed_or_element_only": [
+  "mixed_or_element_only": [
+    {
+      "content": [
+        "\n\t\tabcdef\n\t"
+      ]
+    },
+    {
+      "content": [
         {
-            "content": [
-                "\n\t\tabcdef\n\t"
-            ]
+          "qname": "{foo}a",
+          "value": {
+            "any_element": {
+              "qname": null,
+              "text": null,
+              "tail": " mi ",
+              "children": [],
+              "attributes": {}
+            }
+          },
+          "type": null
         },
         {
-            "content": [
-                {
-                    "qname": "{foo}a",
-                    "value": {
-                        "any_element": {
-                            "qname": null,
-                            "text": null,
-                            "tail": " mi ",
-                            "children": [],
-                            "attributes": {}
-                        }
-                    },
-                    "type": null
-                },
-                {
-                    "qname": "{foo}b",
-                    "value": {
-                        "any_element": {
-                            "qname": null,
-                            "text": null,
-                            "tail": " xed ",
-                            "children": [],
-                            "attributes": {}
-                        }
-                    },
-                    "type": null
-                },
-                {
-                    "qname": "{foo}c",
-                    "value": {
-                        "any_element": {
-                            "qname": null,
-                            "text": null,
-                            "tail": " content\n\t",
-                            "children": [],
-                            "attributes": {}
-                        }
-                    },
-                    "type": null
-                }
-            ]
+          "qname": "{foo}b",
+          "value": {
+            "any_element": {
+              "qname": null,
+              "text": null,
+              "tail": " xed ",
+              "children": [],
+              "attributes": {}
+            }
+          },
+          "type": null
         },
         {
-            "a_or_b_or_c": [
-                {
-                    "any_element": null
-                },
-                {
-                    "any_element": null
-                },
-                {
-                    "any_element": null
-                }
-            ]
+          "qname": "{foo}c",
+          "value": {
+            "any_element": {
+              "qname": null,
+              "text": null,
+              "tail": " content\n\t",
+              "children": [],
+              "attributes": {}
+            }
+          },
+          "type": null
         }
-    ]
+      ]
+    },
+    {
+      "a_or_b_or_c": [
+        {
+          "any_element": null
+        },
+        {
+          "any_element": null
+        },
+        {
+          "any_element": null
+        }
+      ]
+    }
+  ]
 }

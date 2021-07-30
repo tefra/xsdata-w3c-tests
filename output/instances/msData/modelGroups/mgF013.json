@@ -1,24 +1,24 @@
 {
-    "d": "",
-    "b": "I am a stringy string",
-    "b2": null,
-    "c": true,
-    "a": 1,
-    "w3_org_1999_xhtml_element": [
+  "d": "",
+  "b": "I am a stringy string",
+  "b2": null,
+  "c": true,
+  "a": 1,
+  "w3_org_1999_xhtml_element": [
+    {
+      "qname": "{http://www.w3.org/1999/xhtml}html",
+      "text": "",
+      "tail": null,
+      "children": [
         {
-            "qname": "{http://www.w3.org/1999/xhtml}html",
-            "text": "",
-            "tail": null,
-            "children": [
-                {
-                    "qname": "{http://www.w3.org/1999/xhtml}body",
-                    "text": "\nHey this is html\n",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {}
-                }
-            ],
-            "attributes": {}
+          "qname": "{http://www.w3.org/1999/xhtml}body",
+          "text": "\nHey this is html\n",
+          "tail": null,
+          "children": [],
+          "attributes": {}
         }
-    ]
+      ],
+      "attributes": {}
+    }
+  ]
 }

@@ -1,16 +1,16 @@
 {
-    "s-a": null,
-    "test": null,
-    "test2": {
-        "any_element": {
-            "qname": null,
-            "text": "1 2 a 3",
-            "tail": null,
-            "children": [],
-            "attributes": {
-                "{http://www.w3.org/2001/XMLSchema-instance}type": "List-AB"
-            }
-        }
-    },
-    "test3": null
+  "s-a": null,
+  "test": null,
+  "test2": {
+    "any_element": {
+      "qname": null,
+      "text": "1 2 a 3",
+      "tail": null,
+      "children": [],
+      "attributes": {
+        "{http://www.w3.org/2001/XMLSchema-instance}type": "List-AB"
+      }
+    }
+  },
+  "test3": null
 }

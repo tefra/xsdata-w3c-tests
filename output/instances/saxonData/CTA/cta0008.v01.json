@@ -1,28 +1,28 @@
 {
-    "Publication": [
-        {
-            "Title": "Illusions The Adventures of a Reluctant Messiah",
-            "Author": [
-                "Richard Bach"
-            ],
-            "Date": "1977",
-            "kind": "book",
-            "ISBN": "0-440-34319-4",
-            "Publisher": "Dell Publishing Co."
-        },
-        {
-            "Title": "Natural Health",
-            "Author": [],
-            "Date": "1999",
-            "kind": "magazine"
-        },
-        {
-            "Title": "Time to Say Goodbye",
-            "Author": [
-                "Sarah Brightman"
-            ],
-            "Date": "1997",
-            "kind": "CD"
-        }
-    ]
+  "Publication": [
+    {
+      "Title": "Illusions The Adventures of a Reluctant Messiah",
+      "Author": [
+        "Richard Bach"
+      ],
+      "Date": "1977",
+      "kind": "book",
+      "ISBN": "0-440-34319-4",
+      "Publisher": "Dell Publishing Co."
+    },
+    {
+      "Title": "Natural Health",
+      "Author": [],
+      "Date": "1999",
+      "kind": "magazine"
+    },
+    {
+      "Title": "Time to Say Goodbye",
+      "Author": [
+        "Sarah Brightman"
+      ],
+      "Date": "1997",
+      "kind": "CD"
+    }
+  ]
 }

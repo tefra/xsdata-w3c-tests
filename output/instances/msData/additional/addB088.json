@@ -1,44 +1,44 @@
 {
-    "elem": [
-        {
-            "target_namespace_imported_xsd_element": {
-                "qname": "{http://importedXSD}doc1",
+  "elem": [
+    {
+      "target_namespace_imported_xsd_element": {
+        "qname": "{http://importedXSD}doc1",
+        "text": "",
+        "tail": null,
+        "children": [
+          {
+            "qname": "{http://importedXSD}elem1",
+            "text": "",
+            "tail": null,
+            "children": [
+              {
+                "qname": "{http://importedXSD}bbb",
                 "text": "",
                 "tail": null,
-                "children": [
-                    {
-                        "qname": "{http://importedXSD}elem1",
-                        "text": "",
-                        "tail": null,
-                        "children": [
-                            {
-                                "qname": "{http://importedXSD}bbb",
-                                "text": "",
-                                "tail": null,
-                                "children": [],
-                                "attributes": {}
-                            }
-                        ],
-                        "attributes": {}
-                    },
-                    {
-                        "qname": "{http://importedXSD}elem2",
-                        "text": "",
-                        "tail": null,
-                        "children": [
-                            {
-                                "qname": "{http://importedXSD}bbb",
-                                "text": "",
-                                "tail": null,
-                                "children": [],
-                                "attributes": {}
-                            }
-                        ],
-                        "attributes": {}
-                    }
-                ],
+                "children": [],
                 "attributes": {}
-            }
-        }
-    ]
+              }
+            ],
+            "attributes": {}
+          },
+          {
+            "qname": "{http://importedXSD}elem2",
+            "text": "",
+            "tail": null,
+            "children": [
+              {
+                "qname": "{http://importedXSD}bbb",
+                "text": "",
+                "tail": null,
+                "children": [],
+                "attributes": {}
+              }
+            ],
+            "attributes": {}
+          }
+        ],
+        "attributes": {}
+      }
+    }
+  ]
 }

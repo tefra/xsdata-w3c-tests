@@ -1,32 +1,32 @@
 {
-    "content": [
-        {
-            "qname": "b",
-            "text": "",
-            "tail": "text",
-            "children": [],
-            "attributes": {}
-        },
-        {
-            "qname": "a",
-            "text": "",
-            "tail": "text",
-            "children": [],
-            "attributes": {}
-        },
-        {
-            "qname": "d",
-            "text": "",
-            "tail": "text",
-            "children": [],
-            "attributes": {}
-        },
-        {
-            "qname": "a",
-            "text": "",
-            "tail": null,
-            "children": [],
-            "attributes": {}
-        }
-    ]
+  "content": [
+    {
+      "qname": "b",
+      "text": "",
+      "tail": "text",
+      "children": [],
+      "attributes": {}
+    },
+    {
+      "qname": "a",
+      "text": "",
+      "tail": "text",
+      "children": [],
+      "attributes": {}
+    },
+    {
+      "qname": "d",
+      "text": "",
+      "tail": "text",
+      "children": [],
+      "attributes": {}
+    },
+    {
+      "qname": "a",
+      "text": "",
+      "tail": null,
+      "children": [],
+      "attributes": {}
+    }
+  ]
 }

@@ -1,11 +1,11 @@
 {
-    "any_element": [
-        {
-            "qname": "{a}b",
-            "text": "1",
-            "tail": null,
-            "children": [],
-            "attributes": {}
-        }
-    ]
+  "any_element": [
+    {
+      "qname": "{a}b",
+      "text": "1",
+      "tail": null,
+      "children": [],
+      "attributes": {}
+    }
+  ]
 }

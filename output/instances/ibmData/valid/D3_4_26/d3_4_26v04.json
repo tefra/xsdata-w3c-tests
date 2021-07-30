@@ -1,18 +1,18 @@
 {
-    "elyMDMinInclusive_MinInclusive": [
-        "P2M",
-        "P3M"
-    ],
-    "elyMDMinInclusive_MinExclusive": [
-        "P3M",
-        "P1Y"
-    ],
-    "elyMDMinInclusive_MaxInclusive": [
-        "P3452Y2M",
-        "P1M"
-    ],
-    "elyMDMinInclusive_MaxExclusive": [
-        "P23Y1M",
-        "P1M"
-    ]
+  "elyMDMinInclusive_MinInclusive": [
+    "P2M",
+    "P3M"
+  ],
+  "elyMDMinInclusive_MinExclusive": [
+    "P3M",
+    "P1Y"
+  ],
+  "elyMDMinInclusive_MaxInclusive": [
+    "P3452Y2M",
+    "P1M"
+  ],
+  "elyMDMinInclusive_MaxExclusive": [
+    "P23Y1M",
+    "P1M"
+  ]
 }

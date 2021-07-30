@@ -1,6 +1,6 @@
 {
-    "element1": {
-        "attr1": 123,
-        "attr2": 456
-    }
+  "element1": {
+    "attr1": 123,
+    "attr2": 456
+  }
 }

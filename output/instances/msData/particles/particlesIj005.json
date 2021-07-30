@@ -1,37 +1,37 @@
 {
-    "elem": {
-        "c1": {
-            "f1_or_f2": [
-                {
-                    "qname": "{http://xsdtesting}f1",
-                    "text": "\n\t\ttest\n\t",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {}
-                },
-                {
-                    "qname": "{http://xsdtesting}f1",
-                    "text": "",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {}
-                },
-                {
-                    "qname": "{http://xsdtesting}f1",
-                    "text": "",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {}
-                },
-                {
-                    "qname": "{http://xsdtesting}f1",
-                    "text": "",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {}
-                }
-            ]
+  "elem": {
+    "c1": {
+      "f1_or_f2": [
+        {
+          "qname": "{http://xsdtesting}f1",
+          "text": "\n\t\ttest\n\t",
+          "tail": null,
+          "children": [],
+          "attributes": {}
         },
-        "c2": null
-    }
+        {
+          "qname": "{http://xsdtesting}f1",
+          "text": "",
+          "tail": null,
+          "children": [],
+          "attributes": {}
+        },
+        {
+          "qname": "{http://xsdtesting}f1",
+          "text": "",
+          "tail": null,
+          "children": [],
+          "attributes": {}
+        },
+        {
+          "qname": "{http://xsdtesting}f1",
+          "text": "",
+          "tail": null,
+          "children": [],
+          "attributes": {}
+        }
+      ]
+    },
+    "c2": null
+  }
 }

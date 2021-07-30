@@ -1,2359 +1,2359 @@
 {
-    "annotation": [],
-    "testGroup": [
+  "annotation": [],
+  "testGroup": [
+    {
+      "annotation": [
         {
-            "annotation": [
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
                 {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "Use newly-allowed name characters in element and attribute name",
-                                    "tail": null,
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "Dutch ligature ij is allowed in names in XML 1.1 and XML 1.0 5th ed but not earlier",
-                                    "tail": null,
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
+                  "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                  "text": "Use newly-allowed name characters in element and attribute name",
+                  "tail": null,
+                  "children": [],
+                  "attributes": {}
+                },
+                {
+                  "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                  "text": "Dutch ligature ij is allowed in names in XML 1.1 and XML 1.0 5th ed but not earlier",
+                  "tail": null,
+                  "children": [],
+                  "attributes": {}
                 }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/TR/2006/WD-xmlschema11-1-20060831/",
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-AddlCharsInNames",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../saxonData/XmlVersions/xv001.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "valid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2010-09-21",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "xv001.xsd",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [
-                {
-                    "annotation": [
-                        {
-                            "appinfo_or_documentation": [
-                                {
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {},
-                                    "content": [
-                                        "\n\t\t                Valid, satisfies the schema.\n\t\t            "
-                                    ]
-                                }
-                            ],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../saxonData/XmlVersions/xv001.v01.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "valid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2010-09-21",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "xv001.v01.xml",
-                    "version": [],
-                    "other_attributes": {}
-                }
-            ],
-            "name": "xv001",
-            "version": [],
-            "other_attributes": {}
-        },
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "Use newly-allowed name characters in NCName value",
-                                    "tail": null,
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "Dutch ligature ij is allowed in names in XML 1.1 and XML 1.0 5th ed but not earlier",
-                                    "tail": null,
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/TR/2006/WD-xmlschema11-1-20060831/",
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-ValSpcOfXSNameEtc",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../saxonData/XmlVersions/xv002.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "valid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2010-09-21",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "xv002.xsd",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [
-                {
-                    "annotation": [
-                        {
-                            "appinfo_or_documentation": [
-                                {
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {},
-                                    "content": [
-                                        "\n\t\t                Valid, satisfies the schema.\n\t\t            "
-                                    ]
-                                }
-                            ],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../saxonData/XmlVersions/xv002.v01.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "valid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2010-09-21",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "xv002.v01.xml",
-                    "version": [],
-                    "other_attributes": {}
-                }
-            ],
-            "name": "xv002",
-            "version": [],
-            "other_attributes": {}
-        },
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "Use newly-allowed C0 characters in character content and in attribute values",
-                                    "tail": null,
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "C0 characters allowed in content in XML 1.1 but not earlier",
-                                    "tail": null,
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/TR/2006/WD-xmlschema11-1-20060831/",
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-AddlCharsInContent",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../saxonData/XmlVersions/xv003.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "valid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2010-09-21",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "xv003.xsd",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [
-                {
-                    "annotation": [
-                        {
-                            "appinfo_or_documentation": [
-                                {
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {},
-                                    "content": [
-                                        "\n\t\t                Valid, satisfies the schema.\n\t\t            "
-                                    ]
-                                }
-                            ],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../saxonData/XmlVersions/xv003.v01.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "valid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2010-09-21",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "xv003.v01.xml",
-                    "version": [],
-                    "other_attributes": {}
-                }
-            ],
-            "name": "xv003",
-            "version": [],
-            "other_attributes": {}
-        },
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "Use newly-allowed name characters in schema component names",
-                                    "tail": null,
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "Non-BMP chars is allowed in names in XML 1.1 but not earlier",
-                                    "tail": null,
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/TR/2006/WD-xmlschema11-1-20060831/",
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-AddlCharsInNames",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../saxonData/XmlVersions/xv004.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "valid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2010-09-21",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "xv004.xsd",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [
-                {
-                    "annotation": [
-                        {
-                            "appinfo_or_documentation": [
-                                {
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {},
-                                    "content": [
-                                        "\n\t\t                Valid, satisfies the schema.\n\t\t            "
-                                    ]
-                                }
-                            ],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../saxonData/XmlVersions/xv004.v01.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "valid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2010-09-21",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "xv004.v01.xml",
-                    "version": [],
-                    "other_attributes": {}
-                }
-            ],
-            "name": "xv004",
-            "version": [],
-            "other_attributes": {}
-        },
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "Test which characters match \\i in a regex",
-                                    "tail": null,
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "Initial name characters in XML 1.1 were different from 1.0",
-                                    "tail": null,
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/TR/2006/WD-xmlschema11-1-20060831/",
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-EffectInRegex",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../saxonData/XmlVersions/xv005.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "valid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2010-09-21",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "xv005.xsd",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [
-                {
-                    "annotation": [
-                        {
-                            "appinfo_or_documentation": [
-                                {
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {},
-                                    "content": [
-                                        "\n\t\t                Valid, satisfies the schema.\n\t\t            "
-                                    ]
-                                }
-                            ],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../saxonData/XmlVersions/xv005.v01.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "valid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2010-09-21",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "xv005.v01.xml",
-                    "version": [],
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [
-                        {
-                            "appinfo_or_documentation": [
-                                {
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {},
-                                    "content": [
-                                        "\n\t\t                Invalid against the schema.\n\t\t            "
-                                    ]
-                                }
-                            ],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../saxonData/XmlVersions/xv005.n01.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "invalid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2010-09-21",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "xv005.n01.xml",
-                    "version": [],
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [
-                        {
-                            "appinfo_or_documentation": [
-                                {
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {},
-                                    "content": [
-                                        "\n\t\t                Invalid against the schema.\n\t\t            "
-                                    ]
-                                }
-                            ],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../saxonData/XmlVersions/xv005.n02.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "invalid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2010-09-21",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "xv005.n02.xml",
-                    "version": [],
-                    "other_attributes": {}
-                }
-            ],
-            "name": "xv005",
-            "version": [],
-            "other_attributes": {}
-        },
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "Test which characters match \\I in a regex",
-                                    "tail": null,
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "Initial name characters in XML 1.1 were different from 1.0",
-                                    "tail": null,
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/TR/2006/WD-xmlschema11-1-20060831/",
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-EffectInRegex",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../saxonData/XmlVersions/xv006.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "valid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2010-09-21",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "xv006.xsd",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [
-                {
-                    "annotation": [
-                        {
-                            "appinfo_or_documentation": [
-                                {
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {},
-                                    "content": [
-                                        "\n\t\t                Valid, satisfies the schema.\n\t\t            "
-                                    ]
-                                }
-                            ],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../saxonData/XmlVersions/xv006.v01.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "valid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2010-09-21",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "xv006.v01.xml",
-                    "version": [],
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [
-                        {
-                            "appinfo_or_documentation": [
-                                {
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {},
-                                    "content": [
-                                        "\n\t\t                Invalid against the schema.\n\t\t            "
-                                    ]
-                                }
-                            ],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../saxonData/XmlVersions/xv006.n01.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "invalid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2010-09-21",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "xv006.n01.xml",
-                    "version": [],
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [
-                        {
-                            "appinfo_or_documentation": [
-                                {
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {},
-                                    "content": [
-                                        "\n\t\t                Invalid against the schema.\n\t\t            "
-                                    ]
-                                }
-                            ],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../saxonData/XmlVersions/xv006.n02.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "invalid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2010-09-21",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "xv006.n02.xml",
-                    "version": [],
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [
-                        {
-                            "appinfo_or_documentation": [
-                                {
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {},
-                                    "content": [
-                                        "\n\t\t                Invalid against the schema.\n\t\t            "
-                                    ]
-                                }
-                            ],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../saxonData/XmlVersions/xv006.n03.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "invalid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2010-09-21",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "xv006.n03.xml",
-                    "version": [],
-                    "other_attributes": {}
-                }
-            ],
-            "name": "xv006",
-            "version": [],
-            "other_attributes": {}
-        },
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "Test which characters match \\c in a regex",
-                                    "tail": null,
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "Name characters in XML 1.1 were different from 1.0",
-                                    "tail": null,
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/TR/2007/WD-xmlschema11-1-20070831/",
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-EffectInRegex",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../saxonData/XmlVersions/xv007.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "valid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2010-09-21",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "xv007.xsd",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [
-                {
-                    "annotation": [
-                        {
-                            "appinfo_or_documentation": [
-                                {
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {},
-                                    "content": [
-                                        "\n\t\t                Valid, satisfies the schema.\n\t\t            "
-                                    ]
-                                }
-                            ],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../saxonData/XmlVersions/xv007.v01.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "valid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2010-09-21",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "xv007.v01.xml",
-                    "version": [],
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [
-                        {
-                            "appinfo_or_documentation": [
-                                {
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {},
-                                    "content": [
-                                        "\n\t\t                Invalid against the schema.\n\t\t            "
-                                    ]
-                                }
-                            ],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../saxonData/XmlVersions/xv007.n01.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "invalid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2010-09-21",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "xv007.n01.xml",
-                    "version": [],
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [
-                        {
-                            "appinfo_or_documentation": [
-                                {
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {},
-                                    "content": [
-                                        "\n\t\t                Invalid against the schema.\n\t\t            "
-                                    ]
-                                }
-                            ],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../saxonData/XmlVersions/xv007.n02.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "invalid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2010-09-21",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "xv007.n02.xml",
-                    "version": [],
-                    "other_attributes": {}
-                }
-            ],
-            "name": "xv007",
-            "version": [],
-            "other_attributes": {}
-        },
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "Test which characters match \\C in a regex",
-                                    "tail": null,
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "Name characters in XML 1.1 were different from 1.0",
-                                    "tail": null,
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/TR/2008/WD-xmlschema11-1-20080831/",
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-EffectInRegex",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../saxonData/XmlVersions/xv008.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "valid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2010-09-21",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "xv008.xsd",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [
-                {
-                    "annotation": [
-                        {
-                            "appinfo_or_documentation": [
-                                {
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {},
-                                    "content": [
-                                        "\n\t\t                Valid, satisfies the schema.\n\t\t            "
-                                    ]
-                                }
-                            ],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../saxonData/XmlVersions/xv008.v01.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "valid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2010-09-21",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "xv008.v01.xml",
-                    "version": [],
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [
-                        {
-                            "appinfo_or_documentation": [
-                                {
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {},
-                                    "content": [
-                                        "\n\t\t                Invalid against the schema.\n\t\t            "
-                                    ]
-                                }
-                            ],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../saxonData/XmlVersions/xv008.n01.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "invalid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2010-09-21",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "xv008.n01.xml",
-                    "version": [],
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [
-                        {
-                            "appinfo_or_documentation": [
-                                {
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {},
-                                    "content": [
-                                        "\n\t\t                Invalid against the schema.\n\t\t            "
-                                    ]
-                                }
-                            ],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../saxonData/XmlVersions/xv008.n02.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "invalid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2010-09-21",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "xv008.n02.xml",
-                    "version": [],
-                    "other_attributes": {}
-                }
-            ],
-            "name": "xv008",
-            "version": [],
-            "other_attributes": {}
-        },
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "Test interpretation of NMTOKENS under XML 1.1",
-                                    "tail": null,
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "Name characters in XML 1.1 were different from 1.0",
-                                    "tail": null,
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/TR/2009/WD-xmlschema11-1-20090831/",
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-ValSpcOfXSNameEtc",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../saxonData/XmlVersions/xv009.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "valid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2010-09-21",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "xv009.xsd",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [
-                {
-                    "annotation": [
-                        {
-                            "appinfo_or_documentation": [
-                                {
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {},
-                                    "content": [
-                                        "\n\t\t                Valid, satisfies the schema.\n\t\t            "
-                                    ]
-                                }
-                            ],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../saxonData/XmlVersions/xv009.v01.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "valid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2010-09-21",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "xv009.v01.xml",
-                    "version": [],
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [
-                        {
-                            "appinfo_or_documentation": [
-                                {
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {},
-                                    "content": [
-                                        "\n\t\t                Valid, satisfies the schema.\n\t\t            "
-                                    ]
-                                }
-                            ],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../saxonData/XmlVersions/xv009.v02.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "valid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2010-09-21",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "xv009.v02.xml",
-                    "version": [],
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [
-                        {
-                            "appinfo_or_documentation": [
-                                {
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {},
-                                    "content": [
-                                        "\n\t\t                Invalid against the schema.\n\t\t            "
-                                    ]
-                                }
-                            ],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../saxonData/XmlVersions/xv009.n01.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "invalid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2010-09-21",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "xv009.n01.xml",
-                    "version": [],
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [
-                        {
-                            "appinfo_or_documentation": [
-                                {
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {},
-                                    "content": [
-                                        "\n\t\t                Invalid against the schema.\n\t\t            "
-                                    ]
-                                }
-                            ],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../saxonData/XmlVersions/xv009.n02.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "invalid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2010-09-21",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "xv009.n02.xml",
-                    "version": [],
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [
-                        {
-                            "appinfo_or_documentation": [
-                                {
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {},
-                                    "content": [
-                                        "\n\t\t                Invalid against the schema.\n\t\t            "
-                                    ]
-                                }
-                            ],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../saxonData/XmlVersions/xv009.n03.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "invalid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2010-09-21",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "xv009.n03.xml",
-                    "version": [],
-                    "other_attributes": {}
-                }
-            ],
-            "name": "xv009",
-            "version": [],
-            "other_attributes": {}
-        },
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "Test which characters match \\i in a regex",
-                                    "tail": null,
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "Name characters in XML 1.1 are the same as 1.05e",
-                                    "tail": null,
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/TR/2008/WD-xmlschema11-1-20080831/",
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-EffectInRegex",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../saxonData/XmlVersions/xv100.i.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "valid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2011-10-24",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "xv100i.xsd",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [
-                {
-                    "annotation": [],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../saxonData/XmlVersions/xv100.i.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "valid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2010-09-21",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "xv100i.i.xml",
-                    "version": [],
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../saxonData/XmlVersions/xv100.c.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "invalid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2010-09-21",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "xv100i.c.xml",
-                    "version": [],
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../saxonData/XmlVersions/xv100.noti.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "invalid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2010-09-21",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "xv100i.noti.xml",
-                    "version": [],
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../saxonData/XmlVersions/xv100.notc.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "invalid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2010-09-21",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "xv100i.notc.xml",
-                    "version": [],
-                    "other_attributes": {}
-                }
-            ],
-            "name": "xv100i",
-            "version": [],
-            "other_attributes": {}
-        },
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "Test which characters match \\c in a regex",
-                                    "tail": null,
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "Name characters in XML 1.1 are the same as 1.05e",
-                                    "tail": null,
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/TR/2008/WD-xmlschema11-1-20080831/",
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-EffectInRegex",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../saxonData/XmlVersions/xv100.c.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "valid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2011-10-24",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "xv100c.xsd",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [
-                {
-                    "annotation": [],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../saxonData/XmlVersions/xv100.i.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "valid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2010-09-21",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "xv100c.i.xml",
-                    "version": [],
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../saxonData/XmlVersions/xv100.c.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "valid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2010-09-21",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "xv100c.c.xml",
-                    "version": [],
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../saxonData/XmlVersions/xv100.noti.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "invalid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2010-09-21",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "xv100c.noti.xml",
-                    "version": [],
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../saxonData/XmlVersions/xv100.notc.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "invalid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2010-09-21",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "xv100c.notc.xml",
-                    "version": [],
-                    "other_attributes": {}
-                }
-            ],
-            "name": "xv100c",
-            "version": [],
-            "other_attributes": {}
-        },
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "Test which characters match \\I in a regex",
-                                    "tail": null,
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "Name characters in XML 1.1 are the same as 1.05e",
-                                    "tail": null,
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/TR/2008/WD-xmlschema11-1-20080831/",
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-EffectInRegex",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../saxonData/XmlVersions/xv100.noti.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "valid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2011-10-24",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "xv100noti.xsd",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [
-                {
-                    "annotation": [],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../saxonData/XmlVersions/xv100.i.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "invalid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2010-09-21",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "xv100noti.i.xml",
-                    "version": [],
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../saxonData/XmlVersions/xv100.c.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "invalid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2010-09-21",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "xv100noti.c.xml",
-                    "version": [],
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../saxonData/XmlVersions/xv100.noti.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "valid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2010-09-21",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "xv100noti.noti.xml",
-                    "version": [],
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../saxonData/XmlVersions/xv100.notc.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "valid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2010-09-21",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "xv100noti.notc.xml",
-                    "version": [],
-                    "other_attributes": {}
-                }
-            ],
-            "name": "xv100noti",
-            "version": [],
-            "other_attributes": {}
-        },
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "Test which characters match \\C in a regex",
-                                    "tail": null,
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "Name characters in XML 1.1 are the same as 1.05e",
-                                    "tail": null,
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/TR/2008/WD-xmlschema11-1-20080831/",
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-EffectInRegex",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../saxonData/XmlVersions/xv100.notc.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "valid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2011-10-24",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "xv100notc.xsd",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [
-                {
-                    "annotation": [],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../saxonData/XmlVersions/xv100.i.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "invalid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2010-09-21",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "xv100notc.i.xml",
-                    "version": [],
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../saxonData/XmlVersions/xv100.c.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "invalid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2010-09-21",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "xv100notc.c.xml",
-                    "version": [],
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../saxonData/XmlVersions/xv100.noti.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "invalid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2010-09-21",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "xv100notc.noti.xml",
-                    "version": [],
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../saxonData/XmlVersions/xv100.notc.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "valid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2010-09-21",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "xv100notc.notc.xml",
-                    "version": [],
-                    "other_attributes": {}
-                }
-            ],
-            "name": "xv100notc",
-            "version": [],
-            "other_attributes": {}
+              ]
+            }
+          ],
+          "other_attributes": {}
         }
-    ],
-    "contributor": "Saxonica",
-    "name": "XmlVersions",
-    "version": [],
-    "other_attributes": {
-        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd"
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/TR/2006/WD-xmlschema11-1-20060831/",
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-AddlCharsInNames",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../saxonData/XmlVersions/xv001.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "valid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2010-09-21",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "xv001.xsd",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [
+        {
+          "annotation": [
+            {
+              "appinfo_or_documentation": [
+                {
+                  "source": null,
+                  "lang": null,
+                  "other_attributes": {},
+                  "content": [
+                    "\n\t\t                Valid, satisfies the schema.\n\t\t            "
+                  ]
+                }
+              ],
+              "other_attributes": {}
+            }
+          ],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../saxonData/XmlVersions/xv001.v01.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "valid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2010-09-21",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "xv001.v01.xml",
+          "version": [],
+          "other_attributes": {}
+        }
+      ],
+      "name": "xv001",
+      "version": [],
+      "other_attributes": {}
+    },
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                {
+                  "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                  "text": "Use newly-allowed name characters in NCName value",
+                  "tail": null,
+                  "children": [],
+                  "attributes": {}
+                },
+                {
+                  "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                  "text": "Dutch ligature ij is allowed in names in XML 1.1 and XML 1.0 5th ed but not earlier",
+                  "tail": null,
+                  "children": [],
+                  "attributes": {}
+                }
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/TR/2006/WD-xmlschema11-1-20060831/",
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-ValSpcOfXSNameEtc",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../saxonData/XmlVersions/xv002.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "valid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2010-09-21",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "xv002.xsd",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [
+        {
+          "annotation": [
+            {
+              "appinfo_or_documentation": [
+                {
+                  "source": null,
+                  "lang": null,
+                  "other_attributes": {},
+                  "content": [
+                    "\n\t\t                Valid, satisfies the schema.\n\t\t            "
+                  ]
+                }
+              ],
+              "other_attributes": {}
+            }
+          ],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../saxonData/XmlVersions/xv002.v01.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "valid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2010-09-21",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "xv002.v01.xml",
+          "version": [],
+          "other_attributes": {}
+        }
+      ],
+      "name": "xv002",
+      "version": [],
+      "other_attributes": {}
+    },
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                {
+                  "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                  "text": "Use newly-allowed C0 characters in character content and in attribute values",
+                  "tail": null,
+                  "children": [],
+                  "attributes": {}
+                },
+                {
+                  "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                  "text": "C0 characters allowed in content in XML 1.1 but not earlier",
+                  "tail": null,
+                  "children": [],
+                  "attributes": {}
+                }
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/TR/2006/WD-xmlschema11-1-20060831/",
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-AddlCharsInContent",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../saxonData/XmlVersions/xv003.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "valid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2010-09-21",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "xv003.xsd",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [
+        {
+          "annotation": [
+            {
+              "appinfo_or_documentation": [
+                {
+                  "source": null,
+                  "lang": null,
+                  "other_attributes": {},
+                  "content": [
+                    "\n\t\t                Valid, satisfies the schema.\n\t\t            "
+                  ]
+                }
+              ],
+              "other_attributes": {}
+            }
+          ],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../saxonData/XmlVersions/xv003.v01.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "valid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2010-09-21",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "xv003.v01.xml",
+          "version": [],
+          "other_attributes": {}
+        }
+      ],
+      "name": "xv003",
+      "version": [],
+      "other_attributes": {}
+    },
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                {
+                  "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                  "text": "Use newly-allowed name characters in schema component names",
+                  "tail": null,
+                  "children": [],
+                  "attributes": {}
+                },
+                {
+                  "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                  "text": "Non-BMP chars is allowed in names in XML 1.1 but not earlier",
+                  "tail": null,
+                  "children": [],
+                  "attributes": {}
+                }
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/TR/2006/WD-xmlschema11-1-20060831/",
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-AddlCharsInNames",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../saxonData/XmlVersions/xv004.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "valid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2010-09-21",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "xv004.xsd",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [
+        {
+          "annotation": [
+            {
+              "appinfo_or_documentation": [
+                {
+                  "source": null,
+                  "lang": null,
+                  "other_attributes": {},
+                  "content": [
+                    "\n\t\t                Valid, satisfies the schema.\n\t\t            "
+                  ]
+                }
+              ],
+              "other_attributes": {}
+            }
+          ],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../saxonData/XmlVersions/xv004.v01.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "valid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2010-09-21",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "xv004.v01.xml",
+          "version": [],
+          "other_attributes": {}
+        }
+      ],
+      "name": "xv004",
+      "version": [],
+      "other_attributes": {}
+    },
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                {
+                  "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                  "text": "Test which characters match \\i in a regex",
+                  "tail": null,
+                  "children": [],
+                  "attributes": {}
+                },
+                {
+                  "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                  "text": "Initial name characters in XML 1.1 were different from 1.0",
+                  "tail": null,
+                  "children": [],
+                  "attributes": {}
+                }
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/TR/2006/WD-xmlschema11-1-20060831/",
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-EffectInRegex",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../saxonData/XmlVersions/xv005.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "valid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2010-09-21",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "xv005.xsd",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [
+        {
+          "annotation": [
+            {
+              "appinfo_or_documentation": [
+                {
+                  "source": null,
+                  "lang": null,
+                  "other_attributes": {},
+                  "content": [
+                    "\n\t\t                Valid, satisfies the schema.\n\t\t            "
+                  ]
+                }
+              ],
+              "other_attributes": {}
+            }
+          ],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../saxonData/XmlVersions/xv005.v01.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "valid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2010-09-21",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "xv005.v01.xml",
+          "version": [],
+          "other_attributes": {}
+        },
+        {
+          "annotation": [
+            {
+              "appinfo_or_documentation": [
+                {
+                  "source": null,
+                  "lang": null,
+                  "other_attributes": {},
+                  "content": [
+                    "\n\t\t                Invalid against the schema.\n\t\t            "
+                  ]
+                }
+              ],
+              "other_attributes": {}
+            }
+          ],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../saxonData/XmlVersions/xv005.n01.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "invalid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2010-09-21",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "xv005.n01.xml",
+          "version": [],
+          "other_attributes": {}
+        },
+        {
+          "annotation": [
+            {
+              "appinfo_or_documentation": [
+                {
+                  "source": null,
+                  "lang": null,
+                  "other_attributes": {},
+                  "content": [
+                    "\n\t\t                Invalid against the schema.\n\t\t            "
+                  ]
+                }
+              ],
+              "other_attributes": {}
+            }
+          ],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../saxonData/XmlVersions/xv005.n02.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "invalid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2010-09-21",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "xv005.n02.xml",
+          "version": [],
+          "other_attributes": {}
+        }
+      ],
+      "name": "xv005",
+      "version": [],
+      "other_attributes": {}
+    },
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                {
+                  "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                  "text": "Test which characters match \\I in a regex",
+                  "tail": null,
+                  "children": [],
+                  "attributes": {}
+                },
+                {
+                  "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                  "text": "Initial name characters in XML 1.1 were different from 1.0",
+                  "tail": null,
+                  "children": [],
+                  "attributes": {}
+                }
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/TR/2006/WD-xmlschema11-1-20060831/",
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-EffectInRegex",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../saxonData/XmlVersions/xv006.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "valid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2010-09-21",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "xv006.xsd",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [
+        {
+          "annotation": [
+            {
+              "appinfo_or_documentation": [
+                {
+                  "source": null,
+                  "lang": null,
+                  "other_attributes": {},
+                  "content": [
+                    "\n\t\t                Valid, satisfies the schema.\n\t\t            "
+                  ]
+                }
+              ],
+              "other_attributes": {}
+            }
+          ],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../saxonData/XmlVersions/xv006.v01.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "valid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2010-09-21",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "xv006.v01.xml",
+          "version": [],
+          "other_attributes": {}
+        },
+        {
+          "annotation": [
+            {
+              "appinfo_or_documentation": [
+                {
+                  "source": null,
+                  "lang": null,
+                  "other_attributes": {},
+                  "content": [
+                    "\n\t\t                Invalid against the schema.\n\t\t            "
+                  ]
+                }
+              ],
+              "other_attributes": {}
+            }
+          ],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../saxonData/XmlVersions/xv006.n01.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "invalid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2010-09-21",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "xv006.n01.xml",
+          "version": [],
+          "other_attributes": {}
+        },
+        {
+          "annotation": [
+            {
+              "appinfo_or_documentation": [
+                {
+                  "source": null,
+                  "lang": null,
+                  "other_attributes": {},
+                  "content": [
+                    "\n\t\t                Invalid against the schema.\n\t\t            "
+                  ]
+                }
+              ],
+              "other_attributes": {}
+            }
+          ],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../saxonData/XmlVersions/xv006.n02.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "invalid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2010-09-21",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "xv006.n02.xml",
+          "version": [],
+          "other_attributes": {}
+        },
+        {
+          "annotation": [
+            {
+              "appinfo_or_documentation": [
+                {
+                  "source": null,
+                  "lang": null,
+                  "other_attributes": {},
+                  "content": [
+                    "\n\t\t                Invalid against the schema.\n\t\t            "
+                  ]
+                }
+              ],
+              "other_attributes": {}
+            }
+          ],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../saxonData/XmlVersions/xv006.n03.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "invalid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2010-09-21",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "xv006.n03.xml",
+          "version": [],
+          "other_attributes": {}
+        }
+      ],
+      "name": "xv006",
+      "version": [],
+      "other_attributes": {}
+    },
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                {
+                  "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                  "text": "Test which characters match \\c in a regex",
+                  "tail": null,
+                  "children": [],
+                  "attributes": {}
+                },
+                {
+                  "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                  "text": "Name characters in XML 1.1 were different from 1.0",
+                  "tail": null,
+                  "children": [],
+                  "attributes": {}
+                }
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/TR/2007/WD-xmlschema11-1-20070831/",
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-EffectInRegex",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../saxonData/XmlVersions/xv007.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "valid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2010-09-21",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "xv007.xsd",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [
+        {
+          "annotation": [
+            {
+              "appinfo_or_documentation": [
+                {
+                  "source": null,
+                  "lang": null,
+                  "other_attributes": {},
+                  "content": [
+                    "\n\t\t                Valid, satisfies the schema.\n\t\t            "
+                  ]
+                }
+              ],
+              "other_attributes": {}
+            }
+          ],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../saxonData/XmlVersions/xv007.v01.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "valid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2010-09-21",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "xv007.v01.xml",
+          "version": [],
+          "other_attributes": {}
+        },
+        {
+          "annotation": [
+            {
+              "appinfo_or_documentation": [
+                {
+                  "source": null,
+                  "lang": null,
+                  "other_attributes": {},
+                  "content": [
+                    "\n\t\t                Invalid against the schema.\n\t\t            "
+                  ]
+                }
+              ],
+              "other_attributes": {}
+            }
+          ],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../saxonData/XmlVersions/xv007.n01.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "invalid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2010-09-21",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "xv007.n01.xml",
+          "version": [],
+          "other_attributes": {}
+        },
+        {
+          "annotation": [
+            {
+              "appinfo_or_documentation": [
+                {
+                  "source": null,
+                  "lang": null,
+                  "other_attributes": {},
+                  "content": [
+                    "\n\t\t                Invalid against the schema.\n\t\t            "
+                  ]
+                }
+              ],
+              "other_attributes": {}
+            }
+          ],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../saxonData/XmlVersions/xv007.n02.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "invalid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2010-09-21",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "xv007.n02.xml",
+          "version": [],
+          "other_attributes": {}
+        }
+      ],
+      "name": "xv007",
+      "version": [],
+      "other_attributes": {}
+    },
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                {
+                  "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                  "text": "Test which characters match \\C in a regex",
+                  "tail": null,
+                  "children": [],
+                  "attributes": {}
+                },
+                {
+                  "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                  "text": "Name characters in XML 1.1 were different from 1.0",
+                  "tail": null,
+                  "children": [],
+                  "attributes": {}
+                }
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/TR/2008/WD-xmlschema11-1-20080831/",
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-EffectInRegex",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../saxonData/XmlVersions/xv008.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "valid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2010-09-21",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "xv008.xsd",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [
+        {
+          "annotation": [
+            {
+              "appinfo_or_documentation": [
+                {
+                  "source": null,
+                  "lang": null,
+                  "other_attributes": {},
+                  "content": [
+                    "\n\t\t                Valid, satisfies the schema.\n\t\t            "
+                  ]
+                }
+              ],
+              "other_attributes": {}
+            }
+          ],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../saxonData/XmlVersions/xv008.v01.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "valid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2010-09-21",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "xv008.v01.xml",
+          "version": [],
+          "other_attributes": {}
+        },
+        {
+          "annotation": [
+            {
+              "appinfo_or_documentation": [
+                {
+                  "source": null,
+                  "lang": null,
+                  "other_attributes": {},
+                  "content": [
+                    "\n\t\t                Invalid against the schema.\n\t\t            "
+                  ]
+                }
+              ],
+              "other_attributes": {}
+            }
+          ],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../saxonData/XmlVersions/xv008.n01.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "invalid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2010-09-21",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "xv008.n01.xml",
+          "version": [],
+          "other_attributes": {}
+        },
+        {
+          "annotation": [
+            {
+              "appinfo_or_documentation": [
+                {
+                  "source": null,
+                  "lang": null,
+                  "other_attributes": {},
+                  "content": [
+                    "\n\t\t                Invalid against the schema.\n\t\t            "
+                  ]
+                }
+              ],
+              "other_attributes": {}
+            }
+          ],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../saxonData/XmlVersions/xv008.n02.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "invalid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2010-09-21",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "xv008.n02.xml",
+          "version": [],
+          "other_attributes": {}
+        }
+      ],
+      "name": "xv008",
+      "version": [],
+      "other_attributes": {}
+    },
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                {
+                  "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                  "text": "Test interpretation of NMTOKENS under XML 1.1",
+                  "tail": null,
+                  "children": [],
+                  "attributes": {}
+                },
+                {
+                  "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                  "text": "Name characters in XML 1.1 were different from 1.0",
+                  "tail": null,
+                  "children": [],
+                  "attributes": {}
+                }
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/TR/2009/WD-xmlschema11-1-20090831/",
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-ValSpcOfXSNameEtc",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../saxonData/XmlVersions/xv009.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "valid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2010-09-21",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "xv009.xsd",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [
+        {
+          "annotation": [
+            {
+              "appinfo_or_documentation": [
+                {
+                  "source": null,
+                  "lang": null,
+                  "other_attributes": {},
+                  "content": [
+                    "\n\t\t                Valid, satisfies the schema.\n\t\t            "
+                  ]
+                }
+              ],
+              "other_attributes": {}
+            }
+          ],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../saxonData/XmlVersions/xv009.v01.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "valid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2010-09-21",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "xv009.v01.xml",
+          "version": [],
+          "other_attributes": {}
+        },
+        {
+          "annotation": [
+            {
+              "appinfo_or_documentation": [
+                {
+                  "source": null,
+                  "lang": null,
+                  "other_attributes": {},
+                  "content": [
+                    "\n\t\t                Valid, satisfies the schema.\n\t\t            "
+                  ]
+                }
+              ],
+              "other_attributes": {}
+            }
+          ],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../saxonData/XmlVersions/xv009.v02.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "valid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2010-09-21",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "xv009.v02.xml",
+          "version": [],
+          "other_attributes": {}
+        },
+        {
+          "annotation": [
+            {
+              "appinfo_or_documentation": [
+                {
+                  "source": null,
+                  "lang": null,
+                  "other_attributes": {},
+                  "content": [
+                    "\n\t\t                Invalid against the schema.\n\t\t            "
+                  ]
+                }
+              ],
+              "other_attributes": {}
+            }
+          ],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../saxonData/XmlVersions/xv009.n01.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "invalid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2010-09-21",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "xv009.n01.xml",
+          "version": [],
+          "other_attributes": {}
+        },
+        {
+          "annotation": [
+            {
+              "appinfo_or_documentation": [
+                {
+                  "source": null,
+                  "lang": null,
+                  "other_attributes": {},
+                  "content": [
+                    "\n\t\t                Invalid against the schema.\n\t\t            "
+                  ]
+                }
+              ],
+              "other_attributes": {}
+            }
+          ],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../saxonData/XmlVersions/xv009.n02.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "invalid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2010-09-21",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "xv009.n02.xml",
+          "version": [],
+          "other_attributes": {}
+        },
+        {
+          "annotation": [
+            {
+              "appinfo_or_documentation": [
+                {
+                  "source": null,
+                  "lang": null,
+                  "other_attributes": {},
+                  "content": [
+                    "\n\t\t                Invalid against the schema.\n\t\t            "
+                  ]
+                }
+              ],
+              "other_attributes": {}
+            }
+          ],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../saxonData/XmlVersions/xv009.n03.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "invalid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2010-09-21",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "xv009.n03.xml",
+          "version": [],
+          "other_attributes": {}
+        }
+      ],
+      "name": "xv009",
+      "version": [],
+      "other_attributes": {}
+    },
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                {
+                  "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                  "text": "Test which characters match \\i in a regex",
+                  "tail": null,
+                  "children": [],
+                  "attributes": {}
+                },
+                {
+                  "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                  "text": "Name characters in XML 1.1 are the same as 1.05e",
+                  "tail": null,
+                  "children": [],
+                  "attributes": {}
+                }
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/TR/2008/WD-xmlschema11-1-20080831/",
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-EffectInRegex",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../saxonData/XmlVersions/xv100.i.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "valid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2011-10-24",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "xv100i.xsd",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [
+        {
+          "annotation": [],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../saxonData/XmlVersions/xv100.i.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "valid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2010-09-21",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "xv100i.i.xml",
+          "version": [],
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../saxonData/XmlVersions/xv100.c.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "invalid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2010-09-21",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "xv100i.c.xml",
+          "version": [],
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../saxonData/XmlVersions/xv100.noti.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "invalid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2010-09-21",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "xv100i.noti.xml",
+          "version": [],
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../saxonData/XmlVersions/xv100.notc.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "invalid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2010-09-21",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "xv100i.notc.xml",
+          "version": [],
+          "other_attributes": {}
+        }
+      ],
+      "name": "xv100i",
+      "version": [],
+      "other_attributes": {}
+    },
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                {
+                  "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                  "text": "Test which characters match \\c in a regex",
+                  "tail": null,
+                  "children": [],
+                  "attributes": {}
+                },
+                {
+                  "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                  "text": "Name characters in XML 1.1 are the same as 1.05e",
+                  "tail": null,
+                  "children": [],
+                  "attributes": {}
+                }
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/TR/2008/WD-xmlschema11-1-20080831/",
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-EffectInRegex",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../saxonData/XmlVersions/xv100.c.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "valid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2011-10-24",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "xv100c.xsd",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [
+        {
+          "annotation": [],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../saxonData/XmlVersions/xv100.i.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "valid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2010-09-21",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "xv100c.i.xml",
+          "version": [],
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../saxonData/XmlVersions/xv100.c.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "valid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2010-09-21",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "xv100c.c.xml",
+          "version": [],
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../saxonData/XmlVersions/xv100.noti.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "invalid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2010-09-21",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "xv100c.noti.xml",
+          "version": [],
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../saxonData/XmlVersions/xv100.notc.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "invalid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2010-09-21",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "xv100c.notc.xml",
+          "version": [],
+          "other_attributes": {}
+        }
+      ],
+      "name": "xv100c",
+      "version": [],
+      "other_attributes": {}
+    },
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                {
+                  "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                  "text": "Test which characters match \\I in a regex",
+                  "tail": null,
+                  "children": [],
+                  "attributes": {}
+                },
+                {
+                  "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                  "text": "Name characters in XML 1.1 are the same as 1.05e",
+                  "tail": null,
+                  "children": [],
+                  "attributes": {}
+                }
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/TR/2008/WD-xmlschema11-1-20080831/",
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-EffectInRegex",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../saxonData/XmlVersions/xv100.noti.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "valid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2011-10-24",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "xv100noti.xsd",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [
+        {
+          "annotation": [],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../saxonData/XmlVersions/xv100.i.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "invalid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2010-09-21",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "xv100noti.i.xml",
+          "version": [],
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../saxonData/XmlVersions/xv100.c.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "invalid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2010-09-21",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "xv100noti.c.xml",
+          "version": [],
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../saxonData/XmlVersions/xv100.noti.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "valid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2010-09-21",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "xv100noti.noti.xml",
+          "version": [],
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../saxonData/XmlVersions/xv100.notc.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "valid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2010-09-21",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "xv100noti.notc.xml",
+          "version": [],
+          "other_attributes": {}
+        }
+      ],
+      "name": "xv100noti",
+      "version": [],
+      "other_attributes": {}
+    },
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                {
+                  "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                  "text": "Test which characters match \\C in a regex",
+                  "tail": null,
+                  "children": [],
+                  "attributes": {}
+                },
+                {
+                  "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                  "text": "Name characters in XML 1.1 are the same as 1.05e",
+                  "tail": null,
+                  "children": [],
+                  "attributes": {}
+                }
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/TR/2008/WD-xmlschema11-1-20080831/",
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-EffectInRegex",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../saxonData/XmlVersions/xv100.notc.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "valid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2011-10-24",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "xv100notc.xsd",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [
+        {
+          "annotation": [],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../saxonData/XmlVersions/xv100.i.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "invalid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2010-09-21",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "xv100notc.i.xml",
+          "version": [],
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../saxonData/XmlVersions/xv100.c.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "invalid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2010-09-21",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "xv100notc.c.xml",
+          "version": [],
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../saxonData/XmlVersions/xv100.noti.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "invalid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2010-09-21",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "xv100notc.noti.xml",
+          "version": [],
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../saxonData/XmlVersions/xv100.notc.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "valid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2010-09-21",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "xv100notc.notc.xml",
+          "version": [],
+          "other_attributes": {}
+        }
+      ],
+      "name": "xv100notc",
+      "version": [],
+      "other_attributes": {}
     }
+  ],
+  "contributor": "Saxonica",
+  "name": "XmlVersions",
+  "version": [],
+  "other_attributes": {
+    "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd"
+  }
 }

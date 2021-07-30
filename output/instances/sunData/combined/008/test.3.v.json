@@ -1,6 +1,6 @@
 {
-    "a_b_attributes": {
-        "{urn:b}xxx": "xxx"
-    },
-    "c_attributes": {}
+  "a_b_attributes": {
+    "{urn:b}xxx": "xxx"
+  },
+  "c_attributes": {}
 }

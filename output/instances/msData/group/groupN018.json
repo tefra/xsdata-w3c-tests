@@ -1,20 +1,20 @@
 {
-    "elem": {
-        "a1_or_a2": [
-            {
-                "qname": "a2",
-                "text": "",
-                "tail": null,
-                "children": [],
-                "attributes": {}
-            },
-            {
-                "qname": "a1",
-                "text": "",
-                "tail": null,
-                "children": [],
-                "attributes": {}
-            }
-        ]
-    }
+  "elem": {
+    "a1_or_a2": [
+      {
+        "qname": "a2",
+        "text": "",
+        "tail": null,
+        "children": [],
+        "attributes": {}
+      },
+      {
+        "qname": "a1",
+        "text": "",
+        "tail": null,
+        "children": [],
+        "attributes": {}
+      }
+    ]
+  }
 }

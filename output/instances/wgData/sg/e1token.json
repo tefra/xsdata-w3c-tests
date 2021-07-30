@@ -1,15 +1,15 @@
 {
-    "e_or_e1": [
-        {
-            "any_element": {
-                "qname": null,
-                "text": "Test",
-                "tail": null,
-                "children": [],
-                "attributes": {
-                    "{http://www.w3.org/2001/XMLSchema-instance}type": "{http://www.w3.org/2001/XMLSchema}token"
-                }
-            }
+  "e_or_e1": [
+    {
+      "any_element": {
+        "qname": null,
+        "text": "Test",
+        "tail": null,
+        "children": [],
+        "attributes": {
+          "{http://www.w3.org/2001/XMLSchema-instance}type": "{http://www.w3.org/2001/XMLSchema}token"
         }
-    ]
+      }
+    }
+  ]
 }

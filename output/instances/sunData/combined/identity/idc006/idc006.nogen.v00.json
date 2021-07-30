@@ -1,45 +1,45 @@
 {
-    "keys": {
-        "any_element": [
-            {
-                "qname": "{http://www.publishing.org}a",
+  "keys": {
+    "any_element": [
+      {
+        "qname": "{http://www.publishing.org}a",
+        "text": "",
+        "tail": null,
+        "children": [
+          {
+            "qname": "{http://www.publishing.org}a",
+            "text": "",
+            "tail": null,
+            "children": [
+              {
+                "qname": "{http://www.publishing.org}b",
                 "text": "",
                 "tail": null,
                 "children": [
-                    {
-                        "qname": "{http://www.publishing.org}a",
-                        "text": "",
-                        "tail": null,
-                        "children": [
-                            {
-                                "qname": "{http://www.publishing.org}b",
-                                "text": "",
-                                "tail": null,
-                                "children": [
-                                    {
-                                        "qname": "{http://www.publishing.org}b",
-                                        "text": "",
-                                        "tail": null,
-                                        "children": [],
-                                        "attributes": {
-                                            "id": "id2"
-                                        }
-                                    }
-                                ],
-                                "attributes": {
-                                    "id": "id1"
-                                }
-                            }
-                        ],
-                        "attributes": {}
+                  {
+                    "qname": "{http://www.publishing.org}b",
+                    "text": "",
+                    "tail": null,
+                    "children": [],
+                    "attributes": {
+                      "id": "id2"
                     }
+                  }
                 ],
-                "attributes": {}
-            }
-        ]
-    },
-    "keyref": [
-        "id1",
-        "id2"
+                "attributes": {
+                  "id": "id1"
+                }
+              }
+            ],
+            "attributes": {}
+          }
+        ],
+        "attributes": {}
+      }
     ]
+  },
+  "keyref": [
+    "id1",
+    "id2"
+  ]
 }

@@ -1,13 +1,13 @@
 {
-    "elem": {
-        "b1_or_b2": [
-            {
-                "qname": "b2",
-                "text": "",
-                "tail": null,
-                "children": [],
-                "attributes": {}
-            }
-        ]
-    }
+  "elem": {
+    "b1_or_b2": [
+      {
+        "qname": "b2",
+        "text": "",
+        "tail": null,
+        "children": [],
+        "attributes": {}
+      }
+    ]
+  }
 }

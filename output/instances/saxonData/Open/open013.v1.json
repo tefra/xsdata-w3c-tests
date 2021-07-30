@@ -1,12 +1,12 @@
 {
-    "content": [
-        "\n  (",
-        {
-            "qname": "{http://open.com/}extra",
-            "text": "",
-            "tail": ")\n",
-            "children": [],
-            "attributes": {}
-        }
-    ]
+  "content": [
+    "\n  (",
+    {
+      "qname": "{http://open.com/}extra",
+      "text": "",
+      "tail": ")\n",
+      "children": [],
+      "attributes": {}
+    }
+  ]
 }

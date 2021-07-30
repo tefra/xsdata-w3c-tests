@@ -1,8 +1,8 @@
 {
-    "elem": {
-        "foo": 123,
-        "target_namespace_attributes": {
-            "{http://xsdtesting}bar": "123"
-        }
+  "elem": {
+    "foo": 123,
+    "target_namespace_attributes": {
+      "{http://xsdtesting}bar": "123"
     }
+  }
 }

@@ -1,16 +1,16 @@
 {
-    "open_com_element": {
-        "qname": "{http://open.com/}x",
-        "text": "",
-        "tail": null,
-        "children": [],
-        "attributes": {}
-    },
-    "a": [
-        ""
-    ],
-    "b": 23,
-    "c": null,
-    "d": "",
-    "any_element": null
+  "open_com_element": {
+    "qname": "{http://open.com/}x",
+    "text": "",
+    "tail": null,
+    "children": [],
+    "attributes": {}
+  },
+  "a": [
+    ""
+  ],
+  "b": 23,
+  "c": null,
+  "d": "",
+  "any_element": null
 }

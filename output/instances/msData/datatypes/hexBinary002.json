@@ -1,10 +1,10 @@
 {
-    "complexTest": {
-        "comp_foo": [
-            "12345678ABCDEF"
-        ]
-    },
-    "simpleTest": [
-        "12345678ABCDEF"
+  "complexTest": {
+    "comp_foo": [
+      "12345678ABCDEF"
     ]
+  },
+  "simpleTest": [
+    "12345678ABCDEF"
+  ]
 }

@@ -1,16 +1,16 @@
 {
-    "title": [
-        {
-            "type": "text",
-            "content": [
-                "My News"
-            ]
-        },
-        {
-            "type": "number",
-            "content": [
-                "122323"
-            ]
-        }
-    ]
+  "title": [
+    {
+      "type": "text",
+      "content": [
+        "My News"
+      ]
+    },
+    {
+      "type": "number",
+      "content": [
+        "122323"
+      ]
+    }
+  ]
 }

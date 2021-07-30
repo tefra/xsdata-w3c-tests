@@ -1,12 +1,12 @@
 {
-    "content": [
-        "Date:",
-        {
-            "qname": "date",
-            "text": "2002-04-12",
-            "tail": null,
-            "children": [],
-            "attributes": {}
-        }
-    ]
+  "content": [
+    "Date:",
+    {
+      "qname": "date",
+      "text": "2002-04-12",
+      "tail": null,
+      "children": [],
+      "attributes": {}
+    }
+  ]
 }

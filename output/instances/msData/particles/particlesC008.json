@@ -1,15 +1,15 @@
 {
-    "elem": [
+  "elem": [
+    {
+      "other_element": [
         {
-            "other_element": [
-                {
-                    "qname": "{bar}a",
-                    "text": "",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {}
-                }
-            ]
+          "qname": "{bar}a",
+          "text": "",
+          "tail": null,
+          "children": [],
+          "attributes": {}
         }
-    ]
+      ]
+    }
+  ]
 }

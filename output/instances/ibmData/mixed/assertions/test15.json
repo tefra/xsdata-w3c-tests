@@ -1,17 +1,17 @@
 {
-    "x": [
-        {
-            "value": 2,
-            "a": "val1"
-        },
-        {
-            "value": 4,
-            "a": "val2"
-        },
-        {
-            "value": 6,
-            "a": "val3"
-        }
-    ],
-    "x_count": 3
+  "x": [
+    {
+      "value": 2,
+      "a": "val1"
+    },
+    {
+      "value": 4,
+      "a": "val2"
+    },
+    {
+      "value": 6,
+      "a": "val3"
+    }
+  ],
+  "x_count": 3
 }

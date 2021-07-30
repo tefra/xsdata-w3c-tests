@@ -1,13 +1,13 @@
 {
-    "value": [
-        "{http://www.nist.gov/xsdDefaultNS}_embedded.must.create.and.sof",
-        "{http://www.nist.gov/xsdNS}_the.documents_raised_devices",
-        "{http://www.nist.gov/xsdDefaultNS}mimplementation-and_available",
-        "{http://www.nist.gov/xsdDefaultNS}lfor_is.tools_and_a-operating",
-        "{http://www.nist.gov/xsdNS}pwith.and-with-set.for-organi",
-        "{http://www.nist.gov/xsdNS}gability.and_and-dynamic.info",
-        "{http://www.nist.gov/xsdDefaultNS}_software-relationships-than.",
-        "{http://www.nist.gov/xsdDefaultNS}ydiscover.and.industry.and.so",
-        "{http://www.nist.gov/xsdDefaultNS}danalysis-in_which_rapidly.th"
-    ]
+  "value": [
+    "{http://www.nist.gov/xsdDefaultNS}_embedded.must.create.and.sof",
+    "{http://www.nist.gov/xsdNS}_the.documents_raised_devices",
+    "{http://www.nist.gov/xsdDefaultNS}mimplementation-and_available",
+    "{http://www.nist.gov/xsdDefaultNS}lfor_is.tools_and_a-operating",
+    "{http://www.nist.gov/xsdNS}pwith.and-with-set.for-organi",
+    "{http://www.nist.gov/xsdNS}gability.and_and-dynamic.info",
+    "{http://www.nist.gov/xsdDefaultNS}_software-relationships-than.",
+    "{http://www.nist.gov/xsdDefaultNS}ydiscover.and.industry.and.so",
+    "{http://www.nist.gov/xsdDefaultNS}danalysis-in_which_rapidly.th"
+  ]
 }

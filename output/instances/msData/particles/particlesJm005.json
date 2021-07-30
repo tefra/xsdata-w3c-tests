@@ -1,25 +1,25 @@
 {
-    "elem": {
-        "foo_imported_xsd_bar_element": [],
-        "impElem1": [
-            {
-                "any_element": {
-                    "qname": null,
-                    "text": "testing",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {}
-                }
-            },
-            {
-                "any_element": {
-                    "qname": null,
-                    "text": "testing",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {}
-                }
-            }
-        ]
-    }
+  "elem": {
+    "foo_imported_xsd_bar_element": [],
+    "impElem1": [
+      {
+        "any_element": {
+          "qname": null,
+          "text": "testing",
+          "tail": null,
+          "children": [],
+          "attributes": {}
+        }
+      },
+      {
+        "any_element": {
+          "qname": null,
+          "text": "testing",
+          "tail": null,
+          "children": [],
+          "attributes": {}
+        }
+      }
+    ]
+  }
 }

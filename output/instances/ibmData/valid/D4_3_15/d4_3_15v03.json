@@ -1,28 +1,28 @@
 {
-    "timer": [
-        {
-            "time": 30,
-            "iterations": null
-        },
-        {
-            "time": null,
-            "iterations": 15
-        }
-    ],
-    "parent": [
-        {
-            "child": null,
-            "grandchild": {
-                "name": "abc",
-                "dob": "2007-01-01"
-            }
-        },
-        {
-            "child": {
-                "name": "abc",
-                "dob": "1997-01-01"
-            },
-            "grandchild": null
-        }
-    ]
+  "timer": [
+    {
+      "time": 30,
+      "iterations": null
+    },
+    {
+      "time": null,
+      "iterations": 15
+    }
+  ],
+  "parent": [
+    {
+      "child": null,
+      "grandchild": {
+        "name": "abc",
+        "dob": "2007-01-01"
+      }
+    },
+    {
+      "child": {
+        "name": "abc",
+        "dob": "1997-01-01"
+      },
+      "grandchild": null
+    }
+  ]
 }

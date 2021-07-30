@@ -32,7 +32,7 @@ python object to the object after the roundtrip conversion.
 $ pytest -n 4 --mode json --runxfail --save-output
 ```
 
-Results: **22** failed, **14651** passed, **2** warnings
+Results: **22** failed, **14650** passed, **2** warnings
 
 Most of the failures involve test cases with complex instances with wildcards and
 derived types.

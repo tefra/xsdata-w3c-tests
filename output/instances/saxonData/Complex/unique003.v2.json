@@ -1,10 +1,10 @@
 {
-    "sub": [
-        {
-            "idelt": 17.1
-        },
-        {
-            "idelt": NaN
-        }
-    ]
+  "sub": [
+    {
+      "idelt": 17.1
+    },
+    {
+      "idelt": NaN
+    }
+  ]
 }

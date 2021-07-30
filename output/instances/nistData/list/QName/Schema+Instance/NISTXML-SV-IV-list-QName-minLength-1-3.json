@@ -1,13 +1,13 @@
 {
-    "value": [
-        "{http://www.nist.gov/xsdDefaultNS}ua",
-        "{http://www.nist.gov/xsdDefaultNS}_a",
-        "{http://www.nist.gov/xsdDefaultNS}vi",
-        "{http://www.nist.gov/xsdNS}yw",
-        "{http://www.nist.gov/xsdNS}rc",
-        "{http://www.nist.gov/xsdNS}cp",
-        "{http://www.nist.gov/xsdNS}ua",
-        "{http://www.nist.gov/xsdDefaultNS}ts",
-        "{http://www.nist.gov/xsdNS}_f"
-    ]
+  "value": [
+    "{http://www.nist.gov/xsdDefaultNS}ua",
+    "{http://www.nist.gov/xsdDefaultNS}_a",
+    "{http://www.nist.gov/xsdDefaultNS}vi",
+    "{http://www.nist.gov/xsdNS}yw",
+    "{http://www.nist.gov/xsdNS}rc",
+    "{http://www.nist.gov/xsdNS}cp",
+    "{http://www.nist.gov/xsdNS}ua",
+    "{http://www.nist.gov/xsdDefaultNS}ts",
+    "{http://www.nist.gov/xsdNS}_f"
+  ]
 }

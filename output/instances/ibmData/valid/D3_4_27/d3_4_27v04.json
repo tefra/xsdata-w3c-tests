@@ -1,18 +1,18 @@
 {
-    "elyMDMinInclusive_MinInclusive": [
-        "P2D",
-        "P1DT535.4S"
-    ],
-    "elyMDMinInclusive_MinExclusive": [
-        "P3D",
-        "P2DT1S"
-    ],
-    "elyMDMinInclusive_MaxInclusive": [
-        "P3452DT2H",
-        "P1D"
-    ],
-    "elyMDMinInclusive_MaxExclusive": [
-        "P43DT42M10.1S",
-        "P1D"
-    ]
+  "elyMDMinInclusive_MinInclusive": [
+    "P2D",
+    "P1DT535.4S"
+  ],
+  "elyMDMinInclusive_MinExclusive": [
+    "P3D",
+    "P2DT1S"
+  ],
+  "elyMDMinInclusive_MaxInclusive": [
+    "P3452DT2H",
+    "P1D"
+  ],
+  "elyMDMinInclusive_MaxExclusive": [
+    "P43DT42M10.1S",
+    "P1D"
+  ]
 }

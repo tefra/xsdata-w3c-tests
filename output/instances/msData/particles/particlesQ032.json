@@ -1,20 +1,20 @@
 {
-    "elem": {
-        "foo": "",
-        "target_namespace_foo_bar_element": [],
-        "choice": [
-            {
-                "any_element": null
-            },
-            {
-                "any_element": null
-            },
-            {
-                "any_element": null
-            },
-            {
-                "any_element": null
-            }
-        ]
-    }
+  "elem": {
+    "foo": "",
+    "target_namespace_foo_bar_element": [],
+    "choice": [
+      {
+        "any_element": null
+      },
+      {
+        "any_element": null
+      },
+      {
+        "any_element": null
+      },
+      {
+        "any_element": null
+      }
+    ]
+  }
 }

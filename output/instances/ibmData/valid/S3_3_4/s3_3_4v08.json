@@ -1,8 +1,8 @@
 {
-    "a": {
-        "id": "asd"
-    },
-    "b": {
-        "idref": "asd"
-    }
+  "a": {
+    "id": "asd"
+  },
+  "b": {
+    "idref": "asd"
+  }
 }

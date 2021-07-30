@@ -1,13 +1,13 @@
 {
-    "myElement1": "test data",
-    "myElement2": "test data",
-    "myElement3": "test data",
-    "local_attributes": {
-        "myAttr": "test attribute"
-    },
-    "myElement": "test data",
-    "myAttr1": "another attribute",
-    "myAttr2": "last group 1 attribute",
-    "myAttr3": "another attribute",
-    "myAttr4": "last group2 attribute"
+  "myElement1": "test data",
+  "myElement2": "test data",
+  "myElement3": "test data",
+  "local_attributes": {
+    "myAttr": "test attribute"
+  },
+  "myElement": "test data",
+  "myAttr1": "another attribute",
+  "myAttr2": "last group 1 attribute",
+  "myAttr3": "another attribute",
+  "myAttr4": "last group2 attribute"
 }

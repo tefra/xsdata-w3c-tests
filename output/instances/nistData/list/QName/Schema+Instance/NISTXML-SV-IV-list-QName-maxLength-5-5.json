@@ -1,11 +1,11 @@
 {
-    "value": [
-        "{http://www.nist.gov/xsdNS}ban-both-software",
-        "{http://www.nist.gov/xsdNS}_less_used.and.by",
-        "{http://www.nist.gov/xsdDefaultNS}jresides.and.and.",
-        "{http://www.nist.gov/xsdNS}ycommunity-the.pi",
-        "{http://www.nist.gov/xsdNS}gtesting.used.of.",
-        "{http://www.nist.gov/xsdNS}cwe_new-and-reput",
-        "{http://www.nist.gov/xsdDefaultNS}imost.the-the-sof"
-    ]
+  "value": [
+    "{http://www.nist.gov/xsdNS}ban-both-software",
+    "{http://www.nist.gov/xsdNS}_less_used.and.by",
+    "{http://www.nist.gov/xsdDefaultNS}jresides.and.and.",
+    "{http://www.nist.gov/xsdNS}ycommunity-the.pi",
+    "{http://www.nist.gov/xsdNS}gtesting.used.of.",
+    "{http://www.nist.gov/xsdNS}cwe_new-and-reput",
+    "{http://www.nist.gov/xsdDefaultNS}imost.the-the-sof"
+  ]
 }

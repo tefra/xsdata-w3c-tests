@@ -1,11 +1,11 @@
 {
-    "elem": {
-        "any_element": {
-            "qname": "{http://xsdtesting}foo",
-            "text": "",
-            "tail": null,
-            "children": [],
-            "attributes": {}
-        }
+  "elem": {
+    "any_element": {
+      "qname": "{http://xsdtesting}foo",
+      "text": "",
+      "tail": null,
+      "children": [],
+      "attributes": {}
     }
+  }
 }

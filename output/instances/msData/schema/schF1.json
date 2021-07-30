@@ -1,48 +1,48 @@
 {
-    "any_element": [
+  "any_element": [
+    {
+      "qname": "{ns-a}e1",
+      "text": "",
+      "tail": null,
+      "children": [
         {
-            "qname": "{ns-a}e1",
-            "text": "",
-            "tail": null,
-            "children": [
-                {
-                    "qname": "{ns-a}a1",
-                    "text": "123",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {}
-                },
-                {
-                    "qname": "{ns-a}a2",
-                    "text": "true",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {}
-                }
-            ],
-            "attributes": {}
+          "qname": "{ns-a}a1",
+          "text": "123",
+          "tail": null,
+          "children": [],
+          "attributes": {}
         },
         {
-            "qname": "e1",
-            "text": "",
-            "tail": null,
-            "children": [
-                {
-                    "qname": "a1",
-                    "text": "true",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {}
-                },
-                {
-                    "qname": "a2",
-                    "text": "123",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {}
-                }
-            ],
-            "attributes": {}
+          "qname": "{ns-a}a2",
+          "text": "true",
+          "tail": null,
+          "children": [],
+          "attributes": {}
         }
-    ]
+      ],
+      "attributes": {}
+    },
+    {
+      "qname": "e1",
+      "text": "",
+      "tail": null,
+      "children": [
+        {
+          "qname": "a1",
+          "text": "true",
+          "tail": null,
+          "children": [],
+          "attributes": {}
+        },
+        {
+          "qname": "a2",
+          "text": "123",
+          "tail": null,
+          "children": [],
+          "attributes": {}
+        }
+      ],
+      "attributes": {}
+    }
+  ]
 }

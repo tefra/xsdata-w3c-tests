@@ -1,16 +1,16 @@
 {
-    "A": {
-        "part": [
-            {
-                "value": "",
-                "number": 1,
-                "number2": 2
-            },
-            {
-                "value": "",
-                "number": 2,
-                "number2": 1
-            }
-        ]
-    }
+  "A": {
+    "part": [
+      {
+        "value": "",
+        "number": 1,
+        "number2": 2
+      },
+      {
+        "value": "",
+        "number": 2,
+        "number2": 1
+      }
+    ]
+  }
 }

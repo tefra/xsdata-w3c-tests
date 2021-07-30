@@ -1,6 +1,6 @@
 {
-    "fooTest": {
-        "value": "\n\t",
-        "myAttr": "test Attribute"
-    }
+  "fooTest": {
+    "value": "\n\t",
+    "myAttr": "test Attribute"
+  }
 }

@@ -1,45 +1,45 @@
 {
-    "state": [
+  "state": [
+    {
+      "code": [
+        "CA"
+      ],
+      "vehicle": [
         {
-            "code": [
-                "CA"
-            ],
-            "vehicle": [
-                {
-                    "plateNumber": 123,
-                    "state": "CA"
-                },
-                {
-                    "plateNumber": 456,
-                    "state": "CA"
-                }
-            ],
-            "person": [
-                {
-                    "car": [
-                        {
-                            "regState": "CA",
-                            "regPlate": 123
-                        },
-                        {
-                            "regState": "NY",
-                            "regPlate": 123
-                        }
-                    ]
-                }
-            ]
+          "plateNumber": 123,
+          "state": "CA"
         },
         {
-            "code": [
-                "NY"
-            ],
-            "vehicle": [
-                {
-                    "plateNumber": 123,
-                    "state": "NY"
-                }
-            ],
-            "person": []
+          "plateNumber": 456,
+          "state": "CA"
         }
-    ]
+      ],
+      "person": [
+        {
+          "car": [
+            {
+              "regState": "CA",
+              "regPlate": 123
+            },
+            {
+              "regState": "NY",
+              "regPlate": 123
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": [
+        "NY"
+      ],
+      "vehicle": [
+        {
+          "plateNumber": 123,
+          "state": "NY"
+        }
+      ],
+      "person": []
+    }
+  ]
 }

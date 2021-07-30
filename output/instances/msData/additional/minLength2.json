@@ -1,4 +1,4 @@
 {
-    "foo": null,
-    "att": "value\u0400"
+  "foo": null,
+  "att": "value\u0400"
 }

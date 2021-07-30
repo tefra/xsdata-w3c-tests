@@ -1,9 +1,9 @@
 {
-    "e": -12,
-    "f": 42,
-    "local_element": {
-        "qname": "e",
-        "value": 93,
-        "type": null
-    }
+  "e": -12,
+  "f": 42,
+  "local_element": {
+    "qname": "e",
+    "value": 93,
+    "type": null
+  }
 }

@@ -1,31 +1,31 @@
 {
-    "open_com_element": null,
-    "a": [
-        ""
-    ],
-    "b": 23,
-    "c": null,
-    "d": "",
-    "any_element": {
-        "qname": null,
-        "text": null,
+  "open_com_element": null,
+  "a": [
+    ""
+  ],
+  "b": 23,
+  "c": null,
+  "d": "",
+  "any_element": {
+    "qname": null,
+    "text": null,
+    "tail": null,
+    "children": [
+      {
+        "qname": "x",
+        "text": "",
         "tail": null,
-        "children": [
-            {
-                "qname": "x",
-                "text": "",
-                "tail": null,
-                "children": [],
-                "attributes": {}
-            },
-            {
-                "qname": "b",
-                "text": "not-a-number",
-                "tail": null,
-                "children": [],
-                "attributes": {}
-            }
-        ],
+        "children": [],
         "attributes": {}
-    }
+      },
+      {
+        "qname": "b",
+        "text": "not-a-number",
+        "tail": null,
+        "children": [],
+        "attributes": {}
+      }
+    ],
+    "attributes": {}
+  }
 }

@@ -1,6 +1,6 @@
 {
-    "any_attributes": {
-        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "psContents psContents00102m1.xsd",
-        "{psContents}date": "2002-04-29"
-    }
+  "any_attributes": {
+    "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "psContents psContents00102m1.xsd",
+    "{psContents}date": "2002-04-29"
+  }
 }

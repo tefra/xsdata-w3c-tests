@@ -1,9 +1,9 @@
 {
-    "value": [
-        "ftp://infra.asa.org",
-        "ftp://XM.prec.by.beco.gov",
-        "gopher://W.tob.us.gov",
-        "http://ba.pr.bu.edu",
-        "telnet://be.fi.devi.org"
-    ]
+  "value": [
+    "ftp://infra.asa.org",
+    "ftp://XM.prec.by.beco.gov",
+    "gopher://W.tob.us.gov",
+    "http://ba.pr.bu.edu",
+    "telnet://be.fi.devi.org"
+  ]
 }

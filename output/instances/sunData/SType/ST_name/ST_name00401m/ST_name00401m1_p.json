@@ -1,7 +1,7 @@
 {
-    "qname": "{ST_name}test",
-    "value": {
-        "value": "2"
-    },
-    "type": "{ST_name}Test"
+  "qname": "{ST_name}test",
+  "value": {
+    "value": "2"
+  },
+  "type": "{ST_name}Test"
 }

@@ -1,37 +1,37 @@
 {
-    "title": {
-        "role": null,
-        "id": null,
-        "base": null,
-        "content": [
-            "Document Title"
-        ]
-    },
-    "xsdextra": null,
-    "p_or_blockquote": [
+  "title": {
+    "role": null,
+    "id": null,
+    "base": null,
+    "content": [
+      "Document Title"
+    ]
+  },
+  "xsdextra": null,
+  "p_or_blockquote": [
+    {
+      "role": null,
+      "id": null,
+      "base": null,
+      "content": [
+        "This is some ",
         {
+          "qname": "{http://example.org/ns/document}emphasis",
+          "value": {
             "role": null,
             "id": null,
             "base": null,
             "content": [
-                "This is some ",
-                {
-                    "qname": "{http://example.org/ns/document}emphasis",
-                    "value": {
-                        "role": null,
-                        "id": null,
-                        "base": null,
-                        "content": [
-                            "text",
-                            "."
-                        ]
-                    },
-                    "type": null
-                }
+              "text",
+              "."
             ]
+          },
+          "type": null
         }
-    ],
-    "role": null,
-    "id": null,
-    "base": null
+      ]
+    }
+  ],
+  "role": null,
+  "id": null,
+  "base": null
 }

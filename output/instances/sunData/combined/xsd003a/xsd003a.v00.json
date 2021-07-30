@@ -1,21 +1,21 @@
 {
-    "root": [
-        {
-            "root": [],
-            "gAtt": null
-        },
-        {
-            "root": [],
-            "gAtt": null
-        },
-        {
-            "root": [],
-            "gAtt": null
-        },
-        {
-            "root": [],
-            "gAtt": null
-        }
-    ],
-    "gAtt": "anything"
+  "root": [
+    {
+      "root": [],
+      "gAtt": null
+    },
+    {
+      "root": [],
+      "gAtt": null
+    },
+    {
+      "root": [],
+      "gAtt": null
+    },
+    {
+      "root": [],
+      "gAtt": null
+    }
+  ],
+  "gAtt": "anything"
 }

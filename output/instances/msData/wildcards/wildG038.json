@@ -1,9 +1,9 @@
 {
-    "target_namespace_w3_org_1999_xhtml_element": {
-        "qname": "{http://foobar}bar",
-        "text": "foo bar",
-        "tail": null,
-        "children": [],
-        "attributes": {}
-    }
+  "target_namespace_w3_org_1999_xhtml_element": {
+    "qname": "{http://foobar}bar",
+    "text": "foo bar",
+    "tail": null,
+    "children": [],
+    "attributes": {}
+  }
 }

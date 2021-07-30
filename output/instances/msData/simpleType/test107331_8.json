@@ -1,134 +1,134 @@
 {
-    "ra": [],
-    "lab": [],
-    "la": [],
-    "uab": [],
-    "ua": [],
-    "b": [],
-    "a": [],
-    "B": [],
-    "A": [],
-    "item": [
-        "abc",
-        {
-            "qname": "item",
-            "text": "5",
-            "tail": null,
-            "children": [],
-            "attributes": {
-                "{http://www.w3.org/2001/XMLSchema-instance}type": "base-A"
-            }
-        },
-        {
-            "qname": "item",
-            "text": "",
-            "tail": null,
-            "children": [],
-            "attributes": {
-                "{http://www.w3.org/2001/XMLSchema-instance}type": "base-B"
-            }
-        },
-        {
-            "qname": "item",
-            "text": "1234567890",
-            "tail": null,
-            "children": [],
-            "attributes": {
-                "{http://www.w3.org/2001/XMLSchema-instance}type": "base-B"
-            }
-        },
-        {
-            "value": 1
-        },
-        {
-            "value": 2
-        },
-        {
-            "value": 3
-        },
-        {
-            "value": 4
-        },
-        {
-            "value": "a"
-        },
-        {
-            "value": "c123456789"
-        },
-        {
-            "value": "b"
-        },
-        {
-            "qname": "item",
-            "text": "1",
-            "tail": null,
-            "children": [],
-            "attributes": {
-                "{http://www.w3.org/2001/XMLSchema-instance}type": "Union-A"
-            }
-        },
-        {
-            "qname": "item",
-            "text": "4",
-            "tail": null,
-            "children": [],
-            "attributes": {
-                "{http://www.w3.org/2001/XMLSchema-instance}type": "Union-A"
-            }
-        },
-        {
-            "qname": "item",
-            "text": "c123456789",
-            "tail": null,
-            "children": [],
-            "attributes": {
-                "{http://www.w3.org/2001/XMLSchema-instance}type": "Union-AB"
-            }
-        },
-        {
-            "qname": "item",
-            "text": "4",
-            "tail": null,
-            "children": [],
-            "attributes": {
-                "{http://www.w3.org/2001/XMLSchema-instance}type": "Union-AB"
-            }
-        },
-        {
-            "qname": "item",
-            "text": "1 2 3 4",
-            "tail": null,
-            "children": [],
-            "attributes": {
-                "{http://www.w3.org/2001/XMLSchema-instance}type": "List-AB"
-            }
-        },
-        {
-            "qname": "item",
-            "text": "1 c123456789 b 4",
-            "tail": null,
-            "children": [],
-            "attributes": {
-                "{http://www.w3.org/2001/XMLSchema-instance}type": "List-AB"
-            }
-        },
-        {
-            "qname": "item",
-            "text": "1",
-            "tail": null,
-            "children": [],
-            "attributes": {
-                "{http://www.w3.org/2001/XMLSchema-instance}type": "R-A"
-            }
-        },
-        {
-            "qname": "item",
-            "text": "2",
-            "tail": null,
-            "children": [],
-            "attributes": {
-                "{http://www.w3.org/2001/XMLSchema-instance}type": "R-A"
-            }
-        }
-    ]
+  "ra": [],
+  "lab": [],
+  "la": [],
+  "uab": [],
+  "ua": [],
+  "b": [],
+  "a": [],
+  "B": [],
+  "A": [],
+  "item": [
+    "abc",
+    {
+      "qname": "item",
+      "text": "5",
+      "tail": null,
+      "children": [],
+      "attributes": {
+        "{http://www.w3.org/2001/XMLSchema-instance}type": "base-A"
+      }
+    },
+    {
+      "qname": "item",
+      "text": "",
+      "tail": null,
+      "children": [],
+      "attributes": {
+        "{http://www.w3.org/2001/XMLSchema-instance}type": "base-B"
+      }
+    },
+    {
+      "qname": "item",
+      "text": "1234567890",
+      "tail": null,
+      "children": [],
+      "attributes": {
+        "{http://www.w3.org/2001/XMLSchema-instance}type": "base-B"
+      }
+    },
+    {
+      "value": 1
+    },
+    {
+      "value": 2
+    },
+    {
+      "value": 3
+    },
+    {
+      "value": 4
+    },
+    {
+      "value": "a"
+    },
+    {
+      "value": "c123456789"
+    },
+    {
+      "value": "b"
+    },
+    {
+      "qname": "item",
+      "text": "1",
+      "tail": null,
+      "children": [],
+      "attributes": {
+        "{http://www.w3.org/2001/XMLSchema-instance}type": "Union-A"
+      }
+    },
+    {
+      "qname": "item",
+      "text": "4",
+      "tail": null,
+      "children": [],
+      "attributes": {
+        "{http://www.w3.org/2001/XMLSchema-instance}type": "Union-A"
+      }
+    },
+    {
+      "qname": "item",
+      "text": "c123456789",
+      "tail": null,
+      "children": [],
+      "attributes": {
+        "{http://www.w3.org/2001/XMLSchema-instance}type": "Union-AB"
+      }
+    },
+    {
+      "qname": "item",
+      "text": "4",
+      "tail": null,
+      "children": [],
+      "attributes": {
+        "{http://www.w3.org/2001/XMLSchema-instance}type": "Union-AB"
+      }
+    },
+    {
+      "qname": "item",
+      "text": "1 2 3 4",
+      "tail": null,
+      "children": [],
+      "attributes": {
+        "{http://www.w3.org/2001/XMLSchema-instance}type": "List-AB"
+      }
+    },
+    {
+      "qname": "item",
+      "text": "1 c123456789 b 4",
+      "tail": null,
+      "children": [],
+      "attributes": {
+        "{http://www.w3.org/2001/XMLSchema-instance}type": "List-AB"
+      }
+    },
+    {
+      "qname": "item",
+      "text": "1",
+      "tail": null,
+      "children": [],
+      "attributes": {
+        "{http://www.w3.org/2001/XMLSchema-instance}type": "R-A"
+      }
+    },
+    {
+      "qname": "item",
+      "text": "2",
+      "tail": null,
+      "children": [],
+      "attributes": {
+        "{http://www.w3.org/2001/XMLSchema-instance}type": "R-A"
+      }
+    }
+  ]
 }

@@ -1,28 +1,28 @@
 {
-    "any_element": {
-        "qname": null,
-        "text": null,
+  "any_element": {
+    "qname": null,
+    "text": null,
+    "tail": null,
+    "children": [
+      {
+        "qname": "{AttrGroup/attrWCard}elementWithAttr",
+        "text": "",
         "tail": null,
-        "children": [
-            {
-                "qname": "{AttrGroup/attrWCard}elementWithAttr",
-                "text": "",
-                "tail": null,
-                "children": [],
-                "attributes": {
-                    "number": "157"
-                }
-            },
-            {
-                "qname": "{AttrGroup/attrWCard}elementWithAttr",
-                "text": "",
-                "tail": null,
-                "children": [],
-                "attributes": {
-                    "notDefined": "wood"
-                }
-            }
-        ],
-        "attributes": {}
-    }
+        "children": [],
+        "attributes": {
+          "number": "157"
+        }
+      },
+      {
+        "qname": "{AttrGroup/attrWCard}elementWithAttr",
+        "text": "",
+        "tail": null,
+        "children": [],
+        "attributes": {
+          "notDefined": "wood"
+        }
+      }
+    ],
+    "attributes": {}
+  }
 }

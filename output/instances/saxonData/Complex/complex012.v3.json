@@ -1,12 +1,12 @@
 {
-    "content": [
-        "***",
-        {
-            "qname": "e",
-            "text": "",
-            "tail": "***",
-            "children": [],
-            "attributes": {}
-        }
-    ]
+  "content": [
+    "***",
+    {
+      "qname": "e",
+      "text": "",
+      "tail": "***",
+      "children": [],
+      "attributes": {}
+    }
+  ]
 }

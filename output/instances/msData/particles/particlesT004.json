@@ -1,28 +1,28 @@
 {
-    "elem": {
-        "c1_or_c2_or_c3": [
-            {
-                "qname": "c2",
-                "text": "",
-                "tail": null,
-                "children": [],
-                "attributes": {}
-            },
-            {
-                "qname": "c2",
-                "text": "",
-                "tail": null,
-                "children": [],
-                "attributes": {}
-            },
-            {
-                "qname": "c2",
-                "text": "",
-                "tail": null,
-                "children": [],
-                "attributes": {}
-            }
-        ],
-        "foo": ""
-    }
+  "elem": {
+    "c1_or_c2_or_c3": [
+      {
+        "qname": "c2",
+        "text": "",
+        "tail": null,
+        "children": [],
+        "attributes": {}
+      },
+      {
+        "qname": "c2",
+        "text": "",
+        "tail": null,
+        "children": [],
+        "attributes": {}
+      },
+      {
+        "qname": "c2",
+        "text": "",
+        "tail": null,
+        "children": [],
+        "attributes": {}
+      }
+    ],
+    "foo": ""
+  }
 }

@@ -1,55 +1,55 @@
 {
-    "any_element": [
+  "any_element": [
+    {
+      "qname": "{ns-a}e1",
+      "text": "",
+      "tail": null,
+      "children": [
         {
-            "qname": "{ns-a}e1",
-            "text": "",
-            "tail": null,
-            "children": [
-                {
-                    "qname": "a1",
-                    "text": "123",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {}
-                },
-                {
-                    "qname": "a2",
-                    "text": "true",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {}
-                }
-            ],
-            "attributes": {}
+          "qname": "a1",
+          "text": "123",
+          "tail": null,
+          "children": [],
+          "attributes": {}
         },
         {
-            "qname": "{ns-b}e1",
-            "text": "",
-            "tail": null,
-            "children": [
-                {
-                    "qname": "a1",
-                    "text": "true",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {}
-                },
-                {
-                    "qname": "a2",
-                    "text": "123",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {}
-                }
-            ],
-            "attributes": {}
-        },
-        {
-            "qname": "{ns-a}foo",
-            "text": "",
-            "tail": null,
-            "children": [],
-            "attributes": {}
+          "qname": "a2",
+          "text": "true",
+          "tail": null,
+          "children": [],
+          "attributes": {}
         }
-    ]
+      ],
+      "attributes": {}
+    },
+    {
+      "qname": "{ns-b}e1",
+      "text": "",
+      "tail": null,
+      "children": [
+        {
+          "qname": "a1",
+          "text": "true",
+          "tail": null,
+          "children": [],
+          "attributes": {}
+        },
+        {
+          "qname": "a2",
+          "text": "123",
+          "tail": null,
+          "children": [],
+          "attributes": {}
+        }
+      ],
+      "attributes": {}
+    },
+    {
+      "qname": "{ns-a}foo",
+      "text": "",
+      "tail": null,
+      "children": [],
+      "attributes": {}
+    }
+  ]
 }

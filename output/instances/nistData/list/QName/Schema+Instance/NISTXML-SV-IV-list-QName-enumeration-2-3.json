@@ -1,14 +1,14 @@
 {
-    "value": [
-        "{NISTSchema-SV-IV-list-QName-enumeration-2-NS}_upon.of-called-enable-of",
-        "{NISTSchema-SV-IV-list-QName-enumeration-2-NS}ws_is_the-networks.computing.5.the_hete",
-        "{http://www.nist.gov/xsdNS}wto.interoperability_industry.crea",
-        "{NISTSchema-SV-IV-list-QName-enumeration-2-NS}kgeneration.retrieves.simulation.used.and.of.approach-of_made",
-        "{NISTSchema-SV-IV-list-QName-enumeration-2-NS}_with.fed_wi",
-        "{NISTSchema-SV-IV-list-QName-enumeration-2-NS}xdefine-tools_can-must-industries_create_b",
-        "{NISTSchema-SV-IV-list-QName-enumeration-2-NS}gparticipating_retrieves_to-computer",
-        "{NISTSchema-SV-IV-list-QName-enumeration-2-NS}cand-among.discover.l",
-        "{NISTSchema-SV-IV-list-QName-enumeration-2-NS}sprocess_obtained-a",
-        "{http://www.nist.gov/xsdNS}wto.systems.registry-to-that_indust"
-    ]
+  "value": [
+    "{NISTSchema-SV-IV-list-QName-enumeration-2-NS}_upon.of-called-enable-of",
+    "{NISTSchema-SV-IV-list-QName-enumeration-2-NS}ws_is_the-networks.computing.5.the_hete",
+    "{http://www.nist.gov/xsdNS}wto.interoperability_industry.crea",
+    "{NISTSchema-SV-IV-list-QName-enumeration-2-NS}kgeneration.retrieves.simulation.used.and.of.approach-of_made",
+    "{NISTSchema-SV-IV-list-QName-enumeration-2-NS}_with.fed_wi",
+    "{NISTSchema-SV-IV-list-QName-enumeration-2-NS}xdefine-tools_can-must-industries_create_b",
+    "{NISTSchema-SV-IV-list-QName-enumeration-2-NS}gparticipating_retrieves_to-computer",
+    "{NISTSchema-SV-IV-list-QName-enumeration-2-NS}cand-among.discover.l",
+    "{NISTSchema-SV-IV-list-QName-enumeration-2-NS}sprocess_obtained-a",
+    "{http://www.nist.gov/xsdNS}wto.systems.registry-to-that_indust"
+  ]
 }

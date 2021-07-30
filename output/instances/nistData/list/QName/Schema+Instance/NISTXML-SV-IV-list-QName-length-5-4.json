@@ -1,14 +1,14 @@
 {
-    "value": [
-        "{http://www.nist.gov/xsdDefaultNS}dgro",
-        "{http://www.nist.gov/xsdNS}_ref",
-        "{http://www.nist.gov/xsdDefaultNS}rhet",
-        "{http://www.nist.gov/xsdNS}qmus",
-        "{http://www.nist.gov/xsdNS}bpro",
-        "{http://www.nist.gov/xsdDefaultNS}adis",
-        "{http://www.nist.gov/xsdDefaultNS}tthr",
-        "{http://www.nist.gov/xsdNS}wima",
-        "{http://www.nist.gov/xsdDefaultNS}fres",
-        "{http://www.nist.gov/xsdNS}wpar"
-    ]
+  "value": [
+    "{http://www.nist.gov/xsdDefaultNS}dgro",
+    "{http://www.nist.gov/xsdNS}_ref",
+    "{http://www.nist.gov/xsdDefaultNS}rhet",
+    "{http://www.nist.gov/xsdNS}qmus",
+    "{http://www.nist.gov/xsdNS}bpro",
+    "{http://www.nist.gov/xsdDefaultNS}adis",
+    "{http://www.nist.gov/xsdDefaultNS}tthr",
+    "{http://www.nist.gov/xsdNS}wima",
+    "{http://www.nist.gov/xsdDefaultNS}fres",
+    "{http://www.nist.gov/xsdNS}wpar"
+  ]
 }

@@ -1,25 +1,25 @@
 {
-    "a": [],
-    "item": [
-        {
-            "any_element": {
-                "qname": null,
-                "text": "abc",
-                "tail": null,
-                "children": [],
-                "attributes": {}
-            }
-        },
-        {
-            "any_element": {
-                "qname": null,
-                "text": "abc",
-                "tail": null,
-                "children": [],
-                "attributes": {
-                    "{http://www.w3.org/2001/XMLSchema-instance}type": "{http://www.w3.org/2001/XMLSchema}anySimpleType"
-                }
-            }
+  "a": [],
+  "item": [
+    {
+      "any_element": {
+        "qname": null,
+        "text": "abc",
+        "tail": null,
+        "children": [],
+        "attributes": {}
+      }
+    },
+    {
+      "any_element": {
+        "qname": null,
+        "text": "abc",
+        "tail": null,
+        "children": [],
+        "attributes": {
+          "{http://www.w3.org/2001/XMLSchema-instance}type": "{http://www.w3.org/2001/XMLSchema}anySimpleType"
         }
-    ]
+      }
+    }
+  ]
 }

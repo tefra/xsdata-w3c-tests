@@ -1,13 +1,13 @@
 {
-    "foo_element": [
-        {
-            "qname": "{foo}test",
-            "text": "",
-            "tail": null,
-            "children": [],
-            "attributes": {}
-        }
-    ],
-    "c1": "",
-    "c2": null
+  "foo_element": [
+    {
+      "qname": "{foo}test",
+      "text": "",
+      "tail": null,
+      "children": [],
+      "attributes": {}
+    }
+  ],
+  "c1": "",
+  "c2": null
 }

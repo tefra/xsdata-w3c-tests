@@ -1,56 +1,56 @@
 {
-    "chap_or_appx": [
+  "chap_or_appx": [
+    {
+      "section": [
         {
-            "section": [
-                {
-                    "value": "",
-                    "nr": 1.0,
-                    "ref": "+INF"
-                },
-                {
-                    "value": "",
-                    "nr": 2.0,
-                    "ref": "+INF"
-                },
-                {
-                    "value": "",
-                    "nr": Infinity,
-                    "ref": "+INF"
-                },
-                {
-                    "value": "",
-                    "nr": Infinity,
-                    "ref": "+INF"
-                }
-            ]
+          "value": "",
+          "nr": 1.0,
+          "ref": "+INF"
         },
         {
-            "qname": "{http://simple001.ly/}appx",
-            "value": {
-                "section": [
-                    {
-                        "value": "",
-                        "nr": 1.0,
-                        "ref": "+INF"
-                    },
-                    {
-                        "value": "",
-                        "nr": 2.0,
-                        "ref": "+INF"
-                    },
-                    {
-                        "value": "",
-                        "nr": Infinity,
-                        "ref": "+INF"
-                    },
-                    {
-                        "value": "",
-                        "nr": Infinity,
-                        "ref": "+INF"
-                    }
-                ]
-            },
-            "type": null
+          "value": "",
+          "nr": 2.0,
+          "ref": "+INF"
+        },
+        {
+          "value": "",
+          "nr": Infinity,
+          "ref": "+INF"
+        },
+        {
+          "value": "",
+          "nr": Infinity,
+          "ref": "+INF"
         }
-    ]
+      ]
+    },
+    {
+      "qname": "{http://simple001.ly/}appx",
+      "value": {
+        "section": [
+          {
+            "value": "",
+            "nr": 1.0,
+            "ref": "+INF"
+          },
+          {
+            "value": "",
+            "nr": 2.0,
+            "ref": "+INF"
+          },
+          {
+            "value": "",
+            "nr": Infinity,
+            "ref": "+INF"
+          },
+          {
+            "value": "",
+            "nr": Infinity,
+            "ref": "+INF"
+          }
+        ]
+      },
+      "type": null
+    }
+  ]
 }

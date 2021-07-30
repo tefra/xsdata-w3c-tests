@@ -1,8 +1,8 @@
 {
-    "a": {
-        "id1": "qwe",
-        "any_attributes": {
-            "globalAttr": "asd"
-        }
+  "a": {
+    "id1": "qwe",
+    "any_attributes": {
+      "globalAttr": "asd"
     }
+  }
 }

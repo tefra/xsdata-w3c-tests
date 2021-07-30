@@ -1,11 +1,11 @@
 {
-    "value": [
-        "{http://www.nist.gov/xsdDefaultNS}tset-vocabularies_registry.donate-retrieve.disco",
-        "{http://www.nist.gov/xsdNS}_implementation_recognition-and-of.of-and.build.",
-        "{http://www.nist.gov/xsdNS}aand_for-environment-cost-and.accomplish.library",
-        "{http://www.nist.gov/xsdDefaultNS}pmatch_define_file_ambiguities_around_has_using_",
-        "{http://www.nist.gov/xsdNS}lsignatures.for_their.documents_as_as-and_metrol",
-        "{http://www.nist.gov/xsdDefaultNS}_specifications-the.the-pico-cellular_both.graph",
-        "{http://www.nist.gov/xsdDefaultNS}uprofiles_build.for.and_filter_cross-over_measur"
-    ]
+  "value": [
+    "{http://www.nist.gov/xsdDefaultNS}tset-vocabularies_registry.donate-retrieve.disco",
+    "{http://www.nist.gov/xsdNS}_implementation_recognition-and-of.of-and.build.",
+    "{http://www.nist.gov/xsdNS}aand_for-environment-cost-and.accomplish.library",
+    "{http://www.nist.gov/xsdDefaultNS}pmatch_define_file_ambiguities_around_has_using_",
+    "{http://www.nist.gov/xsdNS}lsignatures.for_their.documents_as_as-and_metrol",
+    "{http://www.nist.gov/xsdDefaultNS}_specifications-the.the-pico-cellular_both.graph",
+    "{http://www.nist.gov/xsdDefaultNS}uprofiles_build.for.and_filter_cross-over_measur"
+  ]
 }

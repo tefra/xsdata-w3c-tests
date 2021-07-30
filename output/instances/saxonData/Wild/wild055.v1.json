@@ -1,8 +1,8 @@
 {
-    "any_attributes": {
-        "ping": "pong",
-        "peng": "pyng",
-        "ok": "true"
-    },
-    "local_attributes": {}
+  "any_attributes": {
+    "ping": "pong",
+    "peng": "pyng",
+    "ok": "true"
+  },
+  "local_attributes": {}
 }

@@ -1,268 +1,268 @@
 {
-    "any_element": [
+  "any_element": [
+    {
+      "qname": "{ns-a}e1",
+      "text": "",
+      "tail": null,
+      "children": [
         {
-            "qname": "{ns-a}e1",
-            "text": "",
-            "tail": null,
-            "children": [
-                {
-                    "qname": "{ns-a}a1",
-                    "text": "123",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {}
-                },
-                {
-                    "qname": "{ns-a}a2",
-                    "text": "true",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {}
-                }
-            ],
-            "attributes": {}
+          "qname": "{ns-a}a1",
+          "text": "123",
+          "tail": null,
+          "children": [],
+          "attributes": {}
         },
         {
-            "qname": "{ns-a}e2",
-            "text": "",
-            "tail": null,
-            "children": [
-                {
-                    "qname": "{ns-a}b1",
-                    "text": "true",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {}
-                },
-                {
-                    "qname": "{ns-a}b2",
-                    "text": "123",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {}
-                }
-            ],
-            "attributes": {}
-        },
-        {
-            "qname": "{ns-a}e3",
-            "text": "",
-            "tail": null,
-            "children": [
-                {
-                    "qname": "c1",
-                    "text": "123",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {}
-                },
-                {
-                    "qname": "c2",
-                    "text": "123",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {}
-                }
-            ],
-            "attributes": {}
-        },
-        {
-            "qname": "{ns-a}e1",
-            "text": "",
-            "tail": null,
-            "children": [
-                {
-                    "qname": "{ns-a}a1",
-                    "text": "123",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {}
-                },
-                {
-                    "qname": "{ns-a}a2",
-                    "text": "true",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {}
-                }
-            ],
-            "attributes": {}
-        },
-        {
-            "qname": "{ns-a}a-e2",
-            "text": "",
-            "tail": null,
-            "children": [
-                {
-                    "qname": "{ns-a}b1",
-                    "text": "true",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {}
-                },
-                {
-                    "qname": "{ns-a}b2",
-                    "text": "123",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {}
-                }
-            ],
-            "attributes": {}
-        },
-        {
-            "qname": "{ns-a}a-e3",
-            "text": "",
-            "tail": null,
-            "children": [
-                {
-                    "qname": "c1",
-                    "text": "123",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {}
-                },
-                {
-                    "qname": "c2",
-                    "text": "123",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {}
-                }
-            ],
-            "attributes": {}
-        },
-        {
-            "qname": "{ns-a}b-e1",
-            "text": "",
-            "tail": null,
-            "children": [
-                {
-                    "qname": "{ns-a}a1",
-                    "text": "123",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {}
-                },
-                {
-                    "qname": "{ns-a}a2",
-                    "text": "true",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {}
-                }
-            ],
-            "attributes": {}
-        },
-        {
-            "qname": "{ns-a}a-e2",
-            "text": "",
-            "tail": null,
-            "children": [
-                {
-                    "qname": "{ns-a}b1",
-                    "text": "true",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {}
-                },
-                {
-                    "qname": "{ns-a}b2",
-                    "text": "123",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {}
-                }
-            ],
-            "attributes": {}
-        },
-        {
-            "qname": "{ns-a}b-e3",
-            "text": "",
-            "tail": null,
-            "children": [
-                {
-                    "qname": "c1",
-                    "text": "123",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {}
-                },
-                {
-                    "qname": "c2",
-                    "text": "123",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {}
-                }
-            ],
-            "attributes": {}
-        },
-        {
-            "qname": "{ns-a}c-e1",
-            "text": "",
-            "tail": null,
-            "children": [
-                {
-                    "qname": "{ns-a}a1",
-                    "text": "123",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {}
-                },
-                {
-                    "qname": "{ns-a}a2",
-                    "text": "true",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {}
-                }
-            ],
-            "attributes": {}
-        },
-        {
-            "qname": "{ns-a}c-e2",
-            "text": "",
-            "tail": null,
-            "children": [
-                {
-                    "qname": "{ns-a}b1",
-                    "text": "true",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {}
-                },
-                {
-                    "qname": "{ns-a}b2",
-                    "text": "123",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {}
-                }
-            ],
-            "attributes": {}
-        },
-        {
-            "qname": "{ns-a}e3",
-            "text": "",
-            "tail": null,
-            "children": [
-                {
-                    "qname": "c1",
-                    "text": "123",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {}
-                },
-                {
-                    "qname": "c2",
-                    "text": "123",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {}
-                }
-            ],
-            "attributes": {}
+          "qname": "{ns-a}a2",
+          "text": "true",
+          "tail": null,
+          "children": [],
+          "attributes": {}
         }
-    ]
+      ],
+      "attributes": {}
+    },
+    {
+      "qname": "{ns-a}e2",
+      "text": "",
+      "tail": null,
+      "children": [
+        {
+          "qname": "{ns-a}b1",
+          "text": "true",
+          "tail": null,
+          "children": [],
+          "attributes": {}
+        },
+        {
+          "qname": "{ns-a}b2",
+          "text": "123",
+          "tail": null,
+          "children": [],
+          "attributes": {}
+        }
+      ],
+      "attributes": {}
+    },
+    {
+      "qname": "{ns-a}e3",
+      "text": "",
+      "tail": null,
+      "children": [
+        {
+          "qname": "c1",
+          "text": "123",
+          "tail": null,
+          "children": [],
+          "attributes": {}
+        },
+        {
+          "qname": "c2",
+          "text": "123",
+          "tail": null,
+          "children": [],
+          "attributes": {}
+        }
+      ],
+      "attributes": {}
+    },
+    {
+      "qname": "{ns-a}e1",
+      "text": "",
+      "tail": null,
+      "children": [
+        {
+          "qname": "{ns-a}a1",
+          "text": "123",
+          "tail": null,
+          "children": [],
+          "attributes": {}
+        },
+        {
+          "qname": "{ns-a}a2",
+          "text": "true",
+          "tail": null,
+          "children": [],
+          "attributes": {}
+        }
+      ],
+      "attributes": {}
+    },
+    {
+      "qname": "{ns-a}a-e2",
+      "text": "",
+      "tail": null,
+      "children": [
+        {
+          "qname": "{ns-a}b1",
+          "text": "true",
+          "tail": null,
+          "children": [],
+          "attributes": {}
+        },
+        {
+          "qname": "{ns-a}b2",
+          "text": "123",
+          "tail": null,
+          "children": [],
+          "attributes": {}
+        }
+      ],
+      "attributes": {}
+    },
+    {
+      "qname": "{ns-a}a-e3",
+      "text": "",
+      "tail": null,
+      "children": [
+        {
+          "qname": "c1",
+          "text": "123",
+          "tail": null,
+          "children": [],
+          "attributes": {}
+        },
+        {
+          "qname": "c2",
+          "text": "123",
+          "tail": null,
+          "children": [],
+          "attributes": {}
+        }
+      ],
+      "attributes": {}
+    },
+    {
+      "qname": "{ns-a}b-e1",
+      "text": "",
+      "tail": null,
+      "children": [
+        {
+          "qname": "{ns-a}a1",
+          "text": "123",
+          "tail": null,
+          "children": [],
+          "attributes": {}
+        },
+        {
+          "qname": "{ns-a}a2",
+          "text": "true",
+          "tail": null,
+          "children": [],
+          "attributes": {}
+        }
+      ],
+      "attributes": {}
+    },
+    {
+      "qname": "{ns-a}a-e2",
+      "text": "",
+      "tail": null,
+      "children": [
+        {
+          "qname": "{ns-a}b1",
+          "text": "true",
+          "tail": null,
+          "children": [],
+          "attributes": {}
+        },
+        {
+          "qname": "{ns-a}b2",
+          "text": "123",
+          "tail": null,
+          "children": [],
+          "attributes": {}
+        }
+      ],
+      "attributes": {}
+    },
+    {
+      "qname": "{ns-a}b-e3",
+      "text": "",
+      "tail": null,
+      "children": [
+        {
+          "qname": "c1",
+          "text": "123",
+          "tail": null,
+          "children": [],
+          "attributes": {}
+        },
+        {
+          "qname": "c2",
+          "text": "123",
+          "tail": null,
+          "children": [],
+          "attributes": {}
+        }
+      ],
+      "attributes": {}
+    },
+    {
+      "qname": "{ns-a}c-e1",
+      "text": "",
+      "tail": null,
+      "children": [
+        {
+          "qname": "{ns-a}a1",
+          "text": "123",
+          "tail": null,
+          "children": [],
+          "attributes": {}
+        },
+        {
+          "qname": "{ns-a}a2",
+          "text": "true",
+          "tail": null,
+          "children": [],
+          "attributes": {}
+        }
+      ],
+      "attributes": {}
+    },
+    {
+      "qname": "{ns-a}c-e2",
+      "text": "",
+      "tail": null,
+      "children": [
+        {
+          "qname": "{ns-a}b1",
+          "text": "true",
+          "tail": null,
+          "children": [],
+          "attributes": {}
+        },
+        {
+          "qname": "{ns-a}b2",
+          "text": "123",
+          "tail": null,
+          "children": [],
+          "attributes": {}
+        }
+      ],
+      "attributes": {}
+    },
+    {
+      "qname": "{ns-a}e3",
+      "text": "",
+      "tail": null,
+      "children": [
+        {
+          "qname": "c1",
+          "text": "123",
+          "tail": null,
+          "children": [],
+          "attributes": {}
+        },
+        {
+          "qname": "c2",
+          "text": "123",
+          "tail": null,
+          "children": [],
+          "attributes": {}
+        }
+      ],
+      "attributes": {}
+    }
+  ]
 }

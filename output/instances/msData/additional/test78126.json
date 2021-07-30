@@ -1,255 +1,255 @@
 {
-    "any_or_a": [
+  "any_or_a": [
+    {
+      "value": "a1",
+      "att1": 123,
+      "att2": true
+    },
+    {
+      "any_element": [
         {
-            "value": "a1",
-            "att1": 123,
-            "att2": true
+          "qname": "foo",
+          "text": "",
+          "tail": null,
+          "children": [],
+          "attributes": {
+            "bar": "bla",
+            "a1": "b",
+            "a2": "b",
+            "a3": "b",
+            "a4": "b",
+            "a5": "b",
+            "a6": "b",
+            "a7": "b",
+            "a8": "b"
+          }
         },
         {
-            "any_element": [
+          "qname": "bar",
+          "text": "",
+          "tail": null,
+          "children": [
+            {
+              "qname": "foo",
+              "text": "",
+              "tail": null,
+              "children": [],
+              "attributes": {
+                "bar": "bla",
+                "a1": "b",
+                "a2": "b",
+                "a3": "b",
+                "a4": "b",
+                "a5": "b",
+                "a6": "b",
+                "a7": "b",
+                "a8": "b"
+              }
+            }
+          ],
+          "attributes": {}
+        },
+        {
+          "qname": "foo",
+          "text": "",
+          "tail": null,
+          "children": [
+            {
+              "qname": "bar",
+              "text": "",
+              "tail": null,
+              "children": [
                 {
-                    "qname": "foo",
-                    "text": "",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {
-                        "bar": "bla",
-                        "a1": "b",
-                        "a2": "b",
-                        "a3": "b",
-                        "a4": "b",
-                        "a5": "b",
-                        "a6": "b",
-                        "a7": "b",
-                        "a8": "b"
-                    }
-                },
-                {
-                    "qname": "bar",
-                    "text": "",
-                    "tail": null,
-                    "children": [
-                        {
-                            "qname": "foo",
-                            "text": "",
-                            "tail": null,
-                            "children": [],
-                            "attributes": {
-                                "bar": "bla",
-                                "a1": "b",
-                                "a2": "b",
-                                "a3": "b",
-                                "a4": "b",
-                                "a5": "b",
-                                "a6": "b",
-                                "a7": "b",
-                                "a8": "b"
-                            }
-                        }
-                    ],
-                    "attributes": {}
-                },
-                {
-                    "qname": "foo",
-                    "text": "",
-                    "tail": null,
-                    "children": [
-                        {
-                            "qname": "bar",
-                            "text": "",
-                            "tail": null,
-                            "children": [
-                                {
-                                    "qname": "foo",
-                                    "text": "",
-                                    "tail": null,
-                                    "children": [],
-                                    "attributes": {
-                                        "bar": "bla",
-                                        "a1": "b",
-                                        "a2": "b",
-                                        "a3": "b",
-                                        "a4": "b",
-                                        "a5": "b",
-                                        "a6": "b",
-                                        "a7": "b",
-                                        "a8": "b"
-                                    }
-                                }
-                            ],
-                            "attributes": {}
-                        }
-                    ],
-                    "attributes": {}
-                },
-                {
-                    "qname": "foo",
-                    "text": "",
-                    "tail": null,
-                    "children": [
-                        {
-                            "qname": "bar",
-                            "text": "",
-                            "tail": null,
-                            "children": [
-                                {
-                                    "qname": "foo",
-                                    "text": "",
-                                    "tail": null,
-                                    "children": [
-                                        {
-                                            "qname": "bar",
-                                            "text": "",
-                                            "tail": null,
-                                            "children": [
-                                                {
-                                                    "qname": "foo",
-                                                    "text": "",
-                                                    "tail": null,
-                                                    "children": [],
-                                                    "attributes": {
-                                                        "bar": "bla",
-                                                        "a1": "b",
-                                                        "a2": "b",
-                                                        "a3": "b",
-                                                        "a4": "b",
-                                                        "a5": "b",
-                                                        "a6": "b",
-                                                        "a7": "b",
-                                                        "a8": "b"
-                                                    }
-                                                }
-                                            ],
-                                            "attributes": {}
-                                        }
-                                    ],
-                                    "attributes": {}
-                                }
-                            ],
-                            "attributes": {}
-                        }
-                    ],
-                    "attributes": {}
-                },
-                {
-                    "qname": "foo",
-                    "text": "",
-                    "tail": null,
-                    "children": [
-                        {
-                            "qname": "bar",
-                            "text": "",
-                            "tail": null,
-                            "children": [
-                                {
-                                    "qname": "foo",
-                                    "text": "",
-                                    "tail": null,
-                                    "children": [
-                                        {
-                                            "qname": "bar",
-                                            "text": "",
-                                            "tail": null,
-                                            "children": [
-                                                {
-                                                    "qname": "foo",
-                                                    "text": "",
-                                                    "tail": null,
-                                                    "children": [
-                                                        {
-                                                            "qname": "bar",
-                                                            "text": "",
-                                                            "tail": null,
-                                                            "children": [
-                                                                {
-                                                                    "qname": "foo",
-                                                                    "text": "",
-                                                                    "tail": null,
-                                                                    "children": [
-                                                                        {
-                                                                            "qname": "bar",
-                                                                            "text": "",
-                                                                            "tail": null,
-                                                                            "children": [
-                                                                                {
-                                                                                    "qname": "foo",
-                                                                                    "text": "",
-                                                                                    "tail": null,
-                                                                                    "children": [],
-                                                                                    "attributes": {
-                                                                                        "bar": "bla",
-                                                                                        "a1": "b",
-                                                                                        "a2": "b",
-                                                                                        "a3": "b",
-                                                                                        "a4": "b",
-                                                                                        "a5": "b",
-                                                                                        "a6": "b",
-                                                                                        "a7": "b",
-                                                                                        "a8": "b"
-                                                                                    }
-                                                                                }
-                                                                            ],
-                                                                            "attributes": {}
-                                                                        }
-                                                                    ],
-                                                                    "attributes": {}
-                                                                }
-                                                            ],
-                                                            "attributes": {}
-                                                        }
-                                                    ],
-                                                    "attributes": {}
-                                                }
-                                            ],
-                                            "attributes": {}
-                                        }
-                                    ],
-                                    "attributes": {}
-                                }
-                            ],
-                            "attributes": {}
-                        }
-                    ],
-                    "attributes": {}
-                },
-                {
-                    "qname": "a",
-                    "text": "a1",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {
-                        "att1": "123",
-                        "att2": "true"
-                    }
-                },
-                {
-                    "qname": "a",
-                    "text": "1",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {}
-                },
-                {
-                    "qname": "a",
-                    "text": "blue",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {
-                        "att1": "123",
-                        "att2": "false"
-                    }
-                },
-                {
-                    "qname": "b",
-                    "text": "",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {
-                        "att1": "123",
-                        "att2": "false"
-                    }
+                  "qname": "foo",
+                  "text": "",
+                  "tail": null,
+                  "children": [],
+                  "attributes": {
+                    "bar": "bla",
+                    "a1": "b",
+                    "a2": "b",
+                    "a3": "b",
+                    "a4": "b",
+                    "a5": "b",
+                    "a6": "b",
+                    "a7": "b",
+                    "a8": "b"
+                  }
                 }
-            ]
+              ],
+              "attributes": {}
+            }
+          ],
+          "attributes": {}
+        },
+        {
+          "qname": "foo",
+          "text": "",
+          "tail": null,
+          "children": [
+            {
+              "qname": "bar",
+              "text": "",
+              "tail": null,
+              "children": [
+                {
+                  "qname": "foo",
+                  "text": "",
+                  "tail": null,
+                  "children": [
+                    {
+                      "qname": "bar",
+                      "text": "",
+                      "tail": null,
+                      "children": [
+                        {
+                          "qname": "foo",
+                          "text": "",
+                          "tail": null,
+                          "children": [],
+                          "attributes": {
+                            "bar": "bla",
+                            "a1": "b",
+                            "a2": "b",
+                            "a3": "b",
+                            "a4": "b",
+                            "a5": "b",
+                            "a6": "b",
+                            "a7": "b",
+                            "a8": "b"
+                          }
+                        }
+                      ],
+                      "attributes": {}
+                    }
+                  ],
+                  "attributes": {}
+                }
+              ],
+              "attributes": {}
+            }
+          ],
+          "attributes": {}
+        },
+        {
+          "qname": "foo",
+          "text": "",
+          "tail": null,
+          "children": [
+            {
+              "qname": "bar",
+              "text": "",
+              "tail": null,
+              "children": [
+                {
+                  "qname": "foo",
+                  "text": "",
+                  "tail": null,
+                  "children": [
+                    {
+                      "qname": "bar",
+                      "text": "",
+                      "tail": null,
+                      "children": [
+                        {
+                          "qname": "foo",
+                          "text": "",
+                          "tail": null,
+                          "children": [
+                            {
+                              "qname": "bar",
+                              "text": "",
+                              "tail": null,
+                              "children": [
+                                {
+                                  "qname": "foo",
+                                  "text": "",
+                                  "tail": null,
+                                  "children": [
+                                    {
+                                      "qname": "bar",
+                                      "text": "",
+                                      "tail": null,
+                                      "children": [
+                                        {
+                                          "qname": "foo",
+                                          "text": "",
+                                          "tail": null,
+                                          "children": [],
+                                          "attributes": {
+                                            "bar": "bla",
+                                            "a1": "b",
+                                            "a2": "b",
+                                            "a3": "b",
+                                            "a4": "b",
+                                            "a5": "b",
+                                            "a6": "b",
+                                            "a7": "b",
+                                            "a8": "b"
+                                          }
+                                        }
+                                      ],
+                                      "attributes": {}
+                                    }
+                                  ],
+                                  "attributes": {}
+                                }
+                              ],
+                              "attributes": {}
+                            }
+                          ],
+                          "attributes": {}
+                        }
+                      ],
+                      "attributes": {}
+                    }
+                  ],
+                  "attributes": {}
+                }
+              ],
+              "attributes": {}
+            }
+          ],
+          "attributes": {}
+        },
+        {
+          "qname": "a",
+          "text": "a1",
+          "tail": null,
+          "children": [],
+          "attributes": {
+            "att1": "123",
+            "att2": "true"
+          }
+        },
+        {
+          "qname": "a",
+          "text": "1",
+          "tail": null,
+          "children": [],
+          "attributes": {}
+        },
+        {
+          "qname": "a",
+          "text": "blue",
+          "tail": null,
+          "children": [],
+          "attributes": {
+            "att1": "123",
+            "att2": "false"
+          }
+        },
+        {
+          "qname": "b",
+          "text": "",
+          "tail": null,
+          "children": [],
+          "attributes": {
+            "att1": "123",
+            "att2": "false"
+          }
         }
-    ]
+      ]
+    }
+  ]
 }

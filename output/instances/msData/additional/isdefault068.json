@@ -1,7 +1,7 @@
 {
-    "elem": {
-        "attr1": 123,
-        "attr2": "abc",
-        "attr3": true
-    }
+  "elem": {
+    "attr1": 123,
+    "attr2": "abc",
+    "attr3": true
+  }
 }

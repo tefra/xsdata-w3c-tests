@@ -1,7 +1,7 @@
 {
-    "myElement": "all field",
-    "attrTest": "group1 attribute",
-    "attrTest2": "group1 second attribute",
-    "attrTest3": "group2 attribute",
-    "attrTest4": "group2 second attribute"
+  "myElement": "all field",
+  "attrTest": "group1 attribute",
+  "attrTest2": "group1 second attribute",
+  "attrTest3": "group2 attribute",
+  "attrTest4": "group2 second attribute"
 }

@@ -1,12 +1,12 @@
 {
-    "e1": {
-        "any_attributes": {
-            "{b}asd": "1"
-        }
-    },
-    "e2": {
-        "any_attributes": {
-            "asd": "1"
-        }
+  "e1": {
+    "any_attributes": {
+      "{b}asd": "1"
     }
+  },
+  "e2": {
+    "any_attributes": {
+      "asd": "1"
+    }
+  }
 }

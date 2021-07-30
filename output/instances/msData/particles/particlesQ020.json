@@ -1,14 +1,14 @@
 {
-    "elem": {
-        "foo": "",
-        "other_element": [],
-        "bar": [
-            {
-                "any_element": null
-            },
-            {
-                "any_element": null
-            }
-        ]
-    }
+  "elem": {
+    "foo": "",
+    "other_element": [],
+    "bar": [
+      {
+        "any_element": null
+      },
+      {
+        "any_element": null
+      }
+    ]
+  }
 }

@@ -1,9 +1,9 @@
 {
-    "any_element": {
-        "qname": "{http://xsdtesting}myelem",
-        "value": {
-            "a": "hello"
-        },
-        "type": "{http://xsdtesting}ctype_foo"
-    }
+  "any_element": {
+    "qname": "{http://xsdtesting}myelem",
+    "value": {
+      "a": "hello"
+    },
+    "type": "{http://xsdtesting}ctype_foo"
+  }
 }

@@ -1,16 +1,16 @@
 {
-    "child": [
-        {
-            "value": "   ",
-            "attr": null
-        },
-        {
-            "value": "atleast3",
-            "attr": null
-        },
-        {
-            "value": "10atmost  ",
-            "attr": null
-        }
-    ]
+  "child": [
+    {
+      "value": "   ",
+      "attr": null
+    },
+    {
+      "value": "atleast3",
+      "attr": null
+    },
+    {
+      "value": "10atmost  ",
+      "attr": null
+    }
+  ]
 }

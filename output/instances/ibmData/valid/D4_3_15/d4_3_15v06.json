@@ -1,7 +1,7 @@
 {
-    "baseEly": [
-        ""
-    ],
-    "baseAttr": "present",
-    "derivedAttr": "present"
+  "baseEly": [
+    ""
+  ],
+  "baseAttr": "present",
+  "derivedAttr": "present"
 }

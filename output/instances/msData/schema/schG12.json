@@ -1,25 +1,25 @@
 {
-    "any_element": [
-        {
-            "qname": "{ns-a}foo_a",
-            "text": "",
-            "tail": null,
-            "children": [],
-            "attributes": {}
-        },
-        {
-            "qname": "{ns-b}foo_b",
-            "text": "",
-            "tail": null,
-            "children": [],
-            "attributes": {}
-        },
-        {
-            "qname": "{ns-b}foo_c",
-            "text": "",
-            "tail": null,
-            "children": [],
-            "attributes": {}
-        }
-    ]
+  "any_element": [
+    {
+      "qname": "{ns-a}foo_a",
+      "text": "",
+      "tail": null,
+      "children": [],
+      "attributes": {}
+    },
+    {
+      "qname": "{ns-b}foo_b",
+      "text": "",
+      "tail": null,
+      "children": [],
+      "attributes": {}
+    },
+    {
+      "qname": "{ns-b}foo_c",
+      "text": "",
+      "tail": null,
+      "children": [],
+      "attributes": {}
+    }
+  ]
 }

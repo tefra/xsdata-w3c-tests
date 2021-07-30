@@ -1,11 +1,11 @@
 {
-    "myElement1": "test data",
-    "myElement2": "test data",
-    "myElement3": "test data",
-    "local_attributes": {
-        "myAttr": "test attribute"
-    },
-    "myElement": "test data",
-    "myAttr1": "another attribute",
-    "myAttr2": "last attribute"
+  "myElement1": "test data",
+  "myElement2": "test data",
+  "myElement3": "test data",
+  "local_attributes": {
+    "myAttr": "test attribute"
+  },
+  "myElement": "test data",
+  "myAttr1": "another attribute",
+  "myAttr2": "last attribute"
 }

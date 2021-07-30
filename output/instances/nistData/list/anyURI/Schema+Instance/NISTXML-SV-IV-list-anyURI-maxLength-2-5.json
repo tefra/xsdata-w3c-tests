@@ -1,9 +1,9 @@
 {
-    "value": [
-        "ftp://Langu.De.a.edu",
-        "http://tor.result.edu",
-        "telnet://T.gov",
-        "news://webd.degre.org",
-        "gopher://r.onth.org"
-    ]
+  "value": [
+    "ftp://Langu.De.a.edu",
+    "http://tor.result.edu",
+    "telnet://T.gov",
+    "news://webd.degre.org",
+    "gopher://r.onth.org"
+  ]
 }

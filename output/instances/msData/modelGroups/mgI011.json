@@ -1,20 +1,20 @@
 {
-    "choice": [
+  "choice": [
+    {
+      "qname": "{http://www.w3.org/1999/xhtml}html",
+      "text": "",
+      "tail": null,
+      "children": [
         {
-            "qname": "{http://www.w3.org/1999/xhtml}html",
-            "text": "",
-            "tail": null,
-            "children": [
-                {
-                    "qname": "{http://www.w3.org/1999/xhtml}body",
-                    "text": "\nHey this is html\n",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {}
-                }
-            ],
-            "attributes": {}
+          "qname": "{http://www.w3.org/1999/xhtml}body",
+          "text": "\nHey this is html\n",
+          "tail": null,
+          "children": [],
+          "attributes": {}
         }
-    ],
-    "c": null
+      ],
+      "attributes": {}
+    }
+  ],
+  "c": null
 }

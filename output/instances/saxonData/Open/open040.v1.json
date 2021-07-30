@@ -1,22 +1,22 @@
 {
-    "content": [
-        {
-            "qname": "a",
-            "value": {
-                "open_com_element": {
-                    "qname": "{http://open.com/}extra",
-                    "text": "",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {}
-                }
-            },
-            "type": "alpha"
-        },
-        {
-            "qname": "b",
-            "value": {},
-            "type": "beta"
+  "content": [
+    {
+      "qname": "a",
+      "value": {
+        "open_com_element": {
+          "qname": "{http://open.com/}extra",
+          "text": "",
+          "tail": null,
+          "children": [],
+          "attributes": {}
         }
-    ]
+      },
+      "type": "alpha"
+    },
+    {
+      "qname": "b",
+      "value": {},
+      "type": "beta"
+    }
+  ]
 }

@@ -1,15 +1,15 @@
 {
-    "elem": [
+  "elem": [
+    {
+      "target_namespace_element": [
         {
-            "target_namespace_element": [
-                {
-                    "qname": "{http://xsdtesting}foo",
-                    "text": "",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {}
-                }
-            ]
+          "qname": "{http://xsdtesting}foo",
+          "text": "",
+          "tail": null,
+          "children": [],
+          "attributes": {}
         }
-    ]
+      ]
+    }
+  ]
 }

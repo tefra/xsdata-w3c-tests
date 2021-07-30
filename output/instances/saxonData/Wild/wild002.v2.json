@@ -1,32 +1,32 @@
 {
-    "any_element": [
-        {
-            "qname": "adam",
-            "text": "m",
-            "tail": null,
-            "children": [],
-            "attributes": {}
-        },
-        {
-            "qname": "eve",
-            "text": "f",
-            "tail": null,
-            "children": [],
-            "attributes": {}
-        },
-        {
-            "qname": "{http://genesis.com/}cain",
-            "text": "m",
-            "tail": null,
-            "children": [],
-            "attributes": {}
-        },
-        {
-            "qname": "{http://genesis.com/}abel",
-            "text": "m",
-            "tail": null,
-            "children": [],
-            "attributes": {}
-        }
-    ]
+  "any_element": [
+    {
+      "qname": "adam",
+      "text": "m",
+      "tail": null,
+      "children": [],
+      "attributes": {}
+    },
+    {
+      "qname": "eve",
+      "text": "f",
+      "tail": null,
+      "children": [],
+      "attributes": {}
+    },
+    {
+      "qname": "{http://genesis.com/}cain",
+      "text": "m",
+      "tail": null,
+      "children": [],
+      "attributes": {}
+    },
+    {
+      "qname": "{http://genesis.com/}abel",
+      "text": "m",
+      "tail": null,
+      "children": [],
+      "attributes": {}
+    }
+  ]
 }

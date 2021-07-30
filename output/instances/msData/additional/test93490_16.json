@@ -1,88 +1,88 @@
 {
-    "Schema": [
+  "Schema": [
+    {
+      "any_element": [
         {
-            "any_element": [
+          "qname": "{http://www.w3.org/2001/XMLSchema}schema",
+          "text": "",
+          "tail": null,
+          "children": [
+            {
+              "qname": "{http://www.w3.org/2001/XMLSchema}import",
+              "text": "",
+              "tail": null,
+              "children": [],
+              "attributes": {
+                "namespace": "http://schemas.microsoft.com/office/excel/2003/xml",
+                "schemaLocation": "test93490_16.xsd"
+              }
+            },
+            {
+              "qname": "{http://www.w3.org/2001/XMLSchema}element",
+              "text": "",
+              "tail": null,
+              "children": [
                 {
-                    "qname": "{http://www.w3.org/2001/XMLSchema}schema",
-                    "text": "",
-                    "tail": null,
-                    "children": [
+                  "qname": "{http://www.w3.org/2001/XMLSchema}complexType",
+                  "text": "",
+                  "tail": null,
+                  "children": [
+                    {
+                      "qname": "{http://www.w3.org/2001/XMLSchema}all",
+                      "text": "",
+                      "tail": null,
+                      "children": [
                         {
-                            "qname": "{http://www.w3.org/2001/XMLSchema}import",
-                            "text": "",
-                            "tail": null,
-                            "children": [],
-                            "attributes": {
-                                "namespace": "http://schemas.microsoft.com/office/excel/2003/xml",
-                                "schemaLocation": "test93490_16.xsd"
-                            }
+                          "qname": "{http://www.w3.org/2001/XMLSchema}element",
+                          "text": "",
+                          "tail": null,
+                          "children": [],
+                          "attributes": {
+                            "name": "NS2item1",
+                            "type": "{http://www.w3.org/2001/XMLSchema}string"
+                          }
                         },
                         {
-                            "qname": "{http://www.w3.org/2001/XMLSchema}element",
-                            "text": "",
-                            "tail": null,
-                            "children": [
-                                {
-                                    "qname": "{http://www.w3.org/2001/XMLSchema}complexType",
-                                    "text": "",
-                                    "tail": null,
-                                    "children": [
-                                        {
-                                            "qname": "{http://www.w3.org/2001/XMLSchema}all",
-                                            "text": "",
-                                            "tail": null,
-                                            "children": [
-                                                {
-                                                    "qname": "{http://www.w3.org/2001/XMLSchema}element",
-                                                    "text": "",
-                                                    "tail": null,
-                                                    "children": [],
-                                                    "attributes": {
-                                                        "name": "NS2item1",
-                                                        "type": "{http://www.w3.org/2001/XMLSchema}string"
-                                                    }
-                                                },
-                                                {
-                                                    "qname": "{http://www.w3.org/2001/XMLSchema}element",
-                                                    "text": "",
-                                                    "tail": null,
-                                                    "children": [],
-                                                    "attributes": {
-                                                        "name": "NS2item2",
-                                                        "type": "{http://www.w3.org/2001/XMLSchema}string"
-                                                    }
-                                                }
-                                            ],
-                                            "attributes": {}
-                                        }
-                                    ],
-                                    "attributes": {}
-                                }
-                            ],
-                            "attributes": {
-                                "name": "SAPCodeType"
-                            }
+                          "qname": "{http://www.w3.org/2001/XMLSchema}element",
+                          "text": "",
+                          "tail": null,
+                          "children": [],
+                          "attributes": {
+                            "name": "NS2item2",
+                            "type": "{http://www.w3.org/2001/XMLSchema}string"
+                          }
                         }
-                    ],
-                    "attributes": {
-                        "targetNamespace": "http://www.mydefaultnamespace.com/SAP",
-                        "elementFormDefault": "qualified"
+                      ],
+                      "attributes": {}
                     }
-                },
-                {
-                    "qname": "a",
-                    "text": "",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {}
+                  ],
+                  "attributes": {}
                 }
-            ],
-            "ID": "Schema3",
-            "Namespace": "http://www.mydefaultnamespace.com/SAP",
-            "SchemaRef": null
+              ],
+              "attributes": {
+                "name": "SAPCodeType"
+              }
+            }
+          ],
+          "attributes": {
+            "targetNamespace": "http://www.mydefaultnamespace.com/SAP",
+            "elementFormDefault": "qualified"
+          }
+        },
+        {
+          "qname": "a",
+          "text": "",
+          "tail": null,
+          "children": [],
+          "attributes": {}
         }
-    ],
-    "HideInactiveListBorder": "false",
-    "SelectionNamespaces": "http://foo",
-    "HideSingleMappedCellBorder": "true"
+      ],
+      "ID": "Schema3",
+      "Namespace": "http://www.mydefaultnamespace.com/SAP",
+      "SchemaRef": null
+    }
+  ],
+  "HideInactiveListBorder": "false",
+  "SelectionNamespaces": "http://foo",
+  "HideSingleMappedCellBorder": "true"
 }

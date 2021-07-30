@@ -1,14 +1,14 @@
 {
-    "Account": [
-        "johnsm",
-        "annabr"
-    ],
-    "Name": [
-        "John Smith",
-        "Anna Brown"
-    ],
-    "Manager": [
-        "johnsm",
-        "johnsm"
-    ]
+  "Account": [
+    "johnsm",
+    "annabr"
+  ],
+  "Name": [
+    "John Smith",
+    "Anna Brown"
+  ],
+  "Manager": [
+    "johnsm",
+    "johnsm"
+  ]
 }

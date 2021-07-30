@@ -1,14 +1,14 @@
 {
-    "p": {
-        "any_element": {
-            "qname": "qwe",
-            "text": "asd",
-            "tail": null,
-            "children": [],
-            "attributes": {}
-        },
-        "x": 1,
-        "y": 2,
-        "z": 0
-    }
+  "p": {
+    "any_element": {
+      "qname": "qwe",
+      "text": "asd",
+      "tail": null,
+      "children": [],
+      "attributes": {}
+    },
+    "x": 1,
+    "y": 2,
+    "z": 0
+  }
 }

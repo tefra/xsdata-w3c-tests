@@ -1,17 +1,17 @@
 {
-    "Magazine": [
-        {
-            "Title": "Men's Health",
-            "Date": "2002"
-        }
-    ],
-    "Book": [
-        {
-            "Title": "The Old Man and the Sea",
-            "Author": [
-                "Ernest Hemingway"
-            ]
-        }
-    ],
-    "Publication": []
+  "Magazine": [
+    {
+      "Title": "Men's Health",
+      "Date": "2002"
+    }
+  ],
+  "Book": [
+    {
+      "Title": "The Old Man and the Sea",
+      "Author": [
+        "Ernest Hemingway"
+      ]
+    }
+  ],
+  "Publication": []
 }

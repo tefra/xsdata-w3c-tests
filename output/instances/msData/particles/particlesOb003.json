@@ -1,35 +1,35 @@
 {
-    "elem": {
-        "any_element": [
-            {
-                "qname": "{http://other}other",
-                "text": "",
-                "tail": null,
-                "children": [],
-                "attributes": {}
-            },
-            {
-                "qname": "{http://other}other",
-                "text": "",
-                "tail": null,
-                "children": [],
-                "attributes": {}
-            },
-            {
-                "qname": "{http://other}other",
-                "text": "",
-                "tail": null,
-                "children": [],
-                "attributes": {}
-            },
-            {
-                "qname": "{http://other}other",
-                "text": "",
-                "tail": null,
-                "children": [],
-                "attributes": {}
-            }
-        ],
-        "other_element": []
-    }
+  "elem": {
+    "any_element": [
+      {
+        "qname": "{http://other}other",
+        "text": "",
+        "tail": null,
+        "children": [],
+        "attributes": {}
+      },
+      {
+        "qname": "{http://other}other",
+        "text": "",
+        "tail": null,
+        "children": [],
+        "attributes": {}
+      },
+      {
+        "qname": "{http://other}other",
+        "text": "",
+        "tail": null,
+        "children": [],
+        "attributes": {}
+      },
+      {
+        "qname": "{http://other}other",
+        "text": "",
+        "tail": null,
+        "children": [],
+        "attributes": {}
+      }
+    ],
+    "other_element": []
+  }
 }

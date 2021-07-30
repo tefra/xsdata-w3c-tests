@@ -1,10 +1,10 @@
 {
-    "name": "",
-    "any_element": {
-        "qname": "name",
-        "text": "",
-        "tail": null,
-        "children": [],
-        "attributes": {}
-    }
+  "name": "",
+  "any_element": {
+    "qname": "name",
+    "text": "",
+    "tail": null,
+    "children": [],
+    "attributes": {}
+  }
 }

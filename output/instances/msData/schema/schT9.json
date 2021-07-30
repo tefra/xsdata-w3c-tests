@@ -1,20 +1,20 @@
 {
-    "any_element": [
-        {
-            "qname": "{ns-a}b-e1",
-            "text": "",
-            "tail": null,
-            "children": [],
-            "attributes": {
-                "att1": "123"
-            }
-        },
-        {
-            "qname": "{ns-a}e2",
-            "text": "12",
-            "tail": null,
-            "children": [],
-            "attributes": {}
-        }
-    ]
+  "any_element": [
+    {
+      "qname": "{ns-a}b-e1",
+      "text": "",
+      "tail": null,
+      "children": [],
+      "attributes": {
+        "att1": "123"
+      }
+    },
+    {
+      "qname": "{ns-a}e2",
+      "text": "12",
+      "tail": null,
+      "children": [],
+      "attributes": {}
+    }
+  ]
 }

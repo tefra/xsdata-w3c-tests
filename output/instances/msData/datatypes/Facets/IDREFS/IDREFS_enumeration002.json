@@ -1,6 +1,6 @@
 {
-    "foo": {
-        "idrefs_attr": "foo",
-        "id_attr": "foo"
-    }
+  "foo": {
+    "idrefs_attr": "foo",
+    "id_attr": "foo"
+  }
 }

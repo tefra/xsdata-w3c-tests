@@ -1,14 +1,14 @@
 {
-    "value": [
-        "of.filter:Description:that",
-        "Description-Information.of",
-        "known:has-conformance.Prov",
-        "areas_vendors.Developers_e",
-        "the-objective.specificatio",
-        "specifications.transact:sp",
-        "implementation:of-issues:a",
-        "performance-file-of:The_as",
-        "the.also:Working.devices_s",
-        "to-the_files:syntax.the:ut"
-    ]
+  "value": [
+    "of.filter:Description:that",
+    "Description-Information.of",
+    "known:has-conformance.Prov",
+    "areas_vendors.Developers_e",
+    "the-objective.specificatio",
+    "specifications.transact:sp",
+    "implementation:of-issues:a",
+    "performance-file-of:The_as",
+    "the.also:Working.devices_s",
+    "to-the_files:syntax.the:ut"
+  ]
 }

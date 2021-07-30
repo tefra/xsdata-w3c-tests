@@ -1,27 +1,27 @@
 {
-    "any_element": {
-        "qname": "{foo}bar",
+  "any_element": {
+    "qname": "{foo}bar",
+    "text": "",
+    "tail": null,
+    "children": [
+      {
+        "qname": "{foo1}foo1",
         "text": "",
         "tail": null,
         "children": [
-            {
-                "qname": "{foo1}foo1",
-                "text": "",
-                "tail": null,
-                "children": [
-                    {
-                        "qname": "{foo}bar",
-                        "text": "",
-                        "tail": null,
-                        "children": [],
-                        "attributes": {}
-                    }
-                ],
-                "attributes": {
-                    "x": "1"
-                }
-            }
+          {
+            "qname": "{foo}bar",
+            "text": "",
+            "tail": null,
+            "children": [],
+            "attributes": {}
+          }
         ],
-        "attributes": {}
-    }
+        "attributes": {
+          "x": "1"
+        }
+      }
+    ],
+    "attributes": {}
+  }
 }

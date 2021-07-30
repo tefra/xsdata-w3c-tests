@@ -1,12 +1,12 @@
 {
-    "para": [
-        {
-            "value": "",
-            "entity": "entity1 entity2"
-        },
-        {
-            "value": "",
-            "entity": "entity1 entity2 entity2"
-        }
-    ]
+  "para": [
+    {
+      "value": "",
+      "entity": "entity1 entity2"
+    },
+    {
+      "value": "",
+      "entity": "entity1 entity2 entity2"
+    }
+  ]
 }

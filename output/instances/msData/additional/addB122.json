@@ -1,32 +1,32 @@
 {
-    "e1": null,
-    "e2": null,
-    "e3": [],
-    "e4": [],
-    "e5": [],
-    "e6": [
+  "e1": null,
+  "e2": null,
+  "e3": [],
+  "e4": [],
+  "e5": [],
+  "e6": [
+    {
+      "any_element": [
         {
-            "any_element": [
-                {
-                    "qname": "e3",
-                    "text": "",
-                    "tail": null,
-                    "children": [
-                        {
-                            "qname": "e31",
-                            "text": "",
-                            "tail": null,
-                            "children": [],
-                            "attributes": {}
-                        }
-                    ],
-                    "attributes": {
-                        "att": "123"
-                    }
-                }
-            ]
+          "qname": "e3",
+          "text": "",
+          "tail": null,
+          "children": [
+            {
+              "qname": "e31",
+              "text": "",
+              "tail": null,
+              "children": [],
+              "attributes": {}
+            }
+          ],
+          "attributes": {
+            "att": "123"
+          }
         }
-    ],
-    "e7": [],
-    "e8": []
+      ]
+    }
+  ],
+  "e7": [],
+  "e8": []
 }

@@ -1,15 +1,15 @@
 {
-    "elt1": [
+  "elt1": [
+    {
+      "any_element": [
         {
-            "any_element": [
-                {
-                    "qname": "elt2",
-                    "text": "name",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {}
-                }
-            ]
+          "qname": "elt2",
+          "text": "name",
+          "tail": null,
+          "children": [],
+          "attributes": {}
         }
-    ]
+      ]
+    }
+  ]
 }

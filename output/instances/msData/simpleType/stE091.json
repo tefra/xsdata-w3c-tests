@@ -1,9 +1,9 @@
 {
-    "value": [
-        1,
-        true,
-        "abcdef",
-        false,
-        10000
-    ]
+  "value": [
+    1,
+    true,
+    "abcdef",
+    false,
+    10000
+  ]
 }

@@ -1,12 +1,12 @@
 {
-    "Meeting": [
-        {
-            "beverage": "abc",
-            "end-time": 1
-        },
-        {
-            "beverage": 123,
-            "end-time": 11
-        }
-    ]
+  "Meeting": [
+    {
+      "beverage": "abc",
+      "end-time": 1
+    },
+    {
+      "beverage": 123,
+      "end-time": 11
+    }
+  ]
 }

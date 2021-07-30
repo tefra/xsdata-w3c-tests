@@ -1,7 +1,7 @@
 {
-    "elem": [
-        {
-            "att": "http://www.foo.com"
-        }
-    ]
+  "elem": [
+    {
+      "att": "http://www.foo.com"
+    }
+  ]
 }

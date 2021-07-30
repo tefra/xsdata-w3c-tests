@@ -55,14 +55,6 @@ class Appinfo:
         name = "appinfo"
         namespace = "http://www.w3.org/XML/2004/xml-schema-test-suite/"
 
-    any_element: List[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Wildcard",
-            "namespace": "##any",
-            "mixed": True,
-        }
-    )
     source: Optional[str] = field(
         default=None,
         metadata={
@@ -74,6 +66,14 @@ class Appinfo:
         metadata={
             "type": "Attributes",
             "namespace": "##other",
+        }
+    )
+    content: List[object] = field(
+        default_factory=list,
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+            "mixed": True,
         }
     )
 
@@ -533,14 +533,6 @@ class Documentation:
         name = "documentation"
         namespace = "http://www.w3.org/XML/2004/xml-schema-test-suite/"
 
-    any_element: List[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Wildcard",
-            "namespace": "##any",
-            "mixed": True,
-        }
-    )
     source: Optional[str] = field(
         default=None,
         metadata={
@@ -559,6 +551,14 @@ class Documentation:
         metadata={
             "type": "Attributes",
             "namespace": "##other",
+        }
+    )
+    content: List[object] = field(
+        default_factory=list,
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+            "mixed": True,
         }
     )
 

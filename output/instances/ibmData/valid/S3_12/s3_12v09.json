@@ -1,120 +1,120 @@
 {
-    "item": [
+  "item": [
+    {
+      "address": [
         {
-            "address": [
-                {
-                    "type": "shipping",
-                    "country": "us",
-                    "content": [
-                        {
-                            "qname": "state",
-                            "text": "Texas",
-                            "tail": null,
-                            "children": [],
-                            "attributes": {}
-                        },
-                        {
-                            "qname": "currency",
-                            "text": "USD",
-                            "tail": null,
-                            "children": [],
-                            "attributes": {}
-                        },
-                        {
-                            "qname": "zip",
-                            "text": "75244",
-                            "tail": null,
-                            "children": [],
-                            "attributes": {}
-                        }
-                    ]
-                },
-                {
-                    "type": "billing",
-                    "country": "can",
-                    "content": [
-                        {
-                            "qname": "province",
-                            "text": "ON",
-                            "tail": null,
-                            "children": [],
-                            "attributes": {}
-                        },
-                        {
-                            "qname": "currency",
-                            "text": "CDN",
-                            "tail": null,
-                            "children": [],
-                            "attributes": {}
-                        },
-                        {
-                            "qname": "postal",
-                            "text": "M1V4K9",
-                            "tail": null,
-                            "children": [],
-                            "attributes": {}
-                        }
-                    ]
-                }
-            ]
+          "type": "shipping",
+          "country": "us",
+          "content": [
+            {
+              "qname": "state",
+              "text": "Texas",
+              "tail": null,
+              "children": [],
+              "attributes": {}
+            },
+            {
+              "qname": "currency",
+              "text": "USD",
+              "tail": null,
+              "children": [],
+              "attributes": {}
+            },
+            {
+              "qname": "zip",
+              "text": "75244",
+              "tail": null,
+              "children": [],
+              "attributes": {}
+            }
+          ]
         },
         {
-            "address": [
-                {
-                    "type": "shipping",
-                    "country": "can",
-                    "content": [
-                        {
-                            "qname": "province",
-                            "text": "ON",
-                            "tail": null,
-                            "children": [],
-                            "attributes": {}
-                        },
-                        {
-                            "qname": "currency",
-                            "text": "CDN",
-                            "tail": null,
-                            "children": [],
-                            "attributes": {}
-                        },
-                        {
-                            "qname": "postal",
-                            "text": "L3S3H6",
-                            "tail": null,
-                            "children": [],
-                            "attributes": {}
-                        }
-                    ]
-                },
-                {
-                    "type": "billing",
-                    "country": "can",
-                    "content": [
-                        {
-                            "qname": "province",
-                            "text": "ON",
-                            "tail": null,
-                            "children": [],
-                            "attributes": {}
-                        },
-                        {
-                            "qname": "currency",
-                            "text": "CDN",
-                            "tail": null,
-                            "children": [],
-                            "attributes": {}
-                        },
-                        {
-                            "qname": "postal",
-                            "text": "M3F2W5",
-                            "tail": null,
-                            "children": [],
-                            "attributes": {}
-                        }
-                    ]
-                }
-            ]
+          "type": "billing",
+          "country": "can",
+          "content": [
+            {
+              "qname": "province",
+              "text": "ON",
+              "tail": null,
+              "children": [],
+              "attributes": {}
+            },
+            {
+              "qname": "currency",
+              "text": "CDN",
+              "tail": null,
+              "children": [],
+              "attributes": {}
+            },
+            {
+              "qname": "postal",
+              "text": "M1V4K9",
+              "tail": null,
+              "children": [],
+              "attributes": {}
+            }
+          ]
         }
-    ]
+      ]
+    },
+    {
+      "address": [
+        {
+          "type": "shipping",
+          "country": "can",
+          "content": [
+            {
+              "qname": "province",
+              "text": "ON",
+              "tail": null,
+              "children": [],
+              "attributes": {}
+            },
+            {
+              "qname": "currency",
+              "text": "CDN",
+              "tail": null,
+              "children": [],
+              "attributes": {}
+            },
+            {
+              "qname": "postal",
+              "text": "L3S3H6",
+              "tail": null,
+              "children": [],
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "type": "billing",
+          "country": "can",
+          "content": [
+            {
+              "qname": "province",
+              "text": "ON",
+              "tail": null,
+              "children": [],
+              "attributes": {}
+            },
+            {
+              "qname": "currency",
+              "text": "CDN",
+              "tail": null,
+              "children": [],
+              "attributes": {}
+            },
+            {
+              "qname": "postal",
+              "text": "M3F2W5",
+              "tail": null,
+              "children": [],
+              "attributes": {}
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

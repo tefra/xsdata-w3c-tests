@@ -35,14 +35,6 @@ class ResourceType:
     class Meta:
         name = "resourceType"
 
-    any_element: List[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Wildcard",
-            "namespace": "##any",
-            "mixed": True,
-        }
-    )
     type: TypeType = field(
         init=False,
         default=TypeType.RESOURCE,
@@ -73,6 +65,14 @@ class ResourceType:
             "namespace": "http://www.w3.org/1999/xlink",
         }
     )
+    content: List[object] = field(
+        default_factory=list,
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+            "mixed": True,
+        }
+    )
 
 
 @dataclass
@@ -84,14 +84,6 @@ class Simple:
     class Meta:
         name = "simple"
 
-    any_element: List[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Wildcard",
-            "namespace": "##any",
-            "mixed": True,
-        }
-    )
     type: TypeType = field(
         init=False,
         default=TypeType.SIMPLE,
@@ -144,21 +136,7 @@ class Simple:
             "namespace": "http://www.w3.org/1999/xlink",
         }
     )
-
-
-@dataclass
-class TitleEltType:
-    """
-    :ivar any_element:
-    :ivar type:
-    :ivar lang: xml:lang is not required, but provides much of the
-        motivation for title elements in addition to attributes, and so
-        is provided here for convenience.
-    """
-    class Meta:
-        name = "titleEltType"
-
-    any_element: List[object] = field(
+    content: List[object] = field(
         default_factory=list,
         metadata={
             "type": "Wildcard",
@@ -166,6 +144,20 @@ class TitleEltType:
             "mixed": True,
         }
     )
+
+
+@dataclass
+class TitleEltType:
+    """
+    :ivar type:
+    :ivar lang: xml:lang is not required, but provides much of the
+        motivation for title elements in addition to attributes, and so
+        is provided here for convenience.
+    :ivar content:
+    """
+    class Meta:
+        name = "titleEltType"
+
     type: TypeType = field(
         init=False,
         default=TypeType.TITLE,
@@ -179,6 +171,14 @@ class TitleEltType:
         metadata={
             "type": "Attribute",
             "namespace": "http://www.w3.org/XML/1998/namespace",
+        }
+    )
+    content: List[object] = field(
+        default_factory=list,
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+            "mixed": True,
         }
     )
 

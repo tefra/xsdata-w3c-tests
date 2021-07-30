@@ -1,16 +1,16 @@
 {
-    "person": [
-        {
-            "value": "John Smith",
-            "birthday": "1999-05-31"
-        },
-        {
-            "value": "William Smith",
-            "birthday": "1999-05-31"
-        },
-        {
-            "value": "John Smith",
-            "birthday": "1969-10-12"
-        }
-    ]
+  "person": [
+    {
+      "value": "John Smith",
+      "birthday": "1999-05-31"
+    },
+    {
+      "value": "William Smith",
+      "birthday": "1999-05-31"
+    },
+    {
+      "value": "John Smith",
+      "birthday": "1969-10-12"
+    }
+  ]
 }

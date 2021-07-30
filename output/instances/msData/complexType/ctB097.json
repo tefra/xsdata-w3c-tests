@@ -1,7 +1,7 @@
 {
-    "attrTest": "nonGroup attribute",
-    "attrTest1": "test attribute",
-    "attrTest2": "second Attribute",
-    "attrTest3": "more attribute",
-    "attrTest4": "another Attribute"
+  "attrTest": "nonGroup attribute",
+  "attrTest1": "test attribute",
+  "attrTest2": "second Attribute",
+  "attrTest3": "more attribute",
+  "attrTest4": "another Attribute"
 }

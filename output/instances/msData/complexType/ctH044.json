@@ -1,11 +1,11 @@
 {
-    "myElement1": null,
-    "myElement2": "test data",
-    "myElement3": null,
-    "local_attributes": {
-        "local": "local attribute"
-    },
-    "myElement4": "test data",
-    "myAttr1": "extension attribute",
-    "myAttr2": "extension second attribute"
+  "myElement1": null,
+  "myElement2": "test data",
+  "myElement3": null,
+  "local_attributes": {
+    "local": "local attribute"
+  },
+  "myElement4": "test data",
+  "myAttr1": "extension attribute",
+  "myAttr2": "extension second attribute"
 }

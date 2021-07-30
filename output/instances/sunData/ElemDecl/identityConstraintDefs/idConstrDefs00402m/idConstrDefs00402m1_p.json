@@ -1,14 +1,14 @@
 {
-    "person": [
-        {
-            "value": "William Smith",
-            "ssn": "p008",
-            "parent": null
-        },
-        {
-            "value": "John Smith",
-            "ssn": "p007",
-            "parent": "p008"
-        }
-    ]
+  "person": [
+    {
+      "value": "William Smith",
+      "ssn": "p008",
+      "parent": null
+    },
+    {
+      "value": "John Smith",
+      "ssn": "p007",
+      "parent": "p008"
+    }
+  ]
 }

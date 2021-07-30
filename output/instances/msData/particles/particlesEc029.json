@@ -1,18 +1,18 @@
 {
-    "a_or_b": [
-        {
-            "qname": "{http://xsdtesting}a",
-            "text": "",
-            "tail": null,
-            "children": [],
-            "attributes": {}
-        },
-        {
-            "qname": "{http://xsdtesting}a",
-            "text": "",
-            "tail": null,
-            "children": [],
-            "attributes": {}
-        }
-    ]
+  "a_or_b": [
+    {
+      "qname": "{http://xsdtesting}a",
+      "text": "",
+      "tail": null,
+      "children": [],
+      "attributes": {}
+    },
+    {
+      "qname": "{http://xsdtesting}a",
+      "text": "",
+      "tail": null,
+      "children": [],
+      "attributes": {}
+    }
+  ]
 }

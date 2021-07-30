@@ -1,13 +1,13 @@
 {
-    "value": [
-        "{http://www.nist.gov/xsdNS}_tests.must.",
-        "{http://www.nist.gov/xsdDefaultNS}_information",
-        "{http://www.nist.gov/xsdDefaultNS}ltechnology-",
-        "{http://www.nist.gov/xsdNS}nto_of_and.s",
-        "{http://www.nist.gov/xsdDefaultNS}gthe-tools-p",
-        "{http://www.nist.gov/xsdDefaultNS}_four_the.th",
-        "{http://www.nist.gov/xsdDefaultNS}rresources_w",
-        "{http://www.nist.gov/xsdNS}kneutral_dom",
-        "{http://www.nist.gov/xsdNS}_a.open-to.a"
-    ]
+  "value": [
+    "{http://www.nist.gov/xsdNS}_tests.must.",
+    "{http://www.nist.gov/xsdDefaultNS}_information",
+    "{http://www.nist.gov/xsdDefaultNS}ltechnology-",
+    "{http://www.nist.gov/xsdNS}nto_of_and.s",
+    "{http://www.nist.gov/xsdDefaultNS}gthe-tools-p",
+    "{http://www.nist.gov/xsdDefaultNS}_four_the.th",
+    "{http://www.nist.gov/xsdDefaultNS}rresources_w",
+    "{http://www.nist.gov/xsdNS}kneutral_dom",
+    "{http://www.nist.gov/xsdNS}_a.open-to.a"
+  ]
 }

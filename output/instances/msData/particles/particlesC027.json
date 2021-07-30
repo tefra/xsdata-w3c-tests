@@ -1,22 +1,22 @@
 {
-    "elem": [
+  "elem": [
+    {
+      "local_element": [
         {
-            "local_element": [
-                {
-                    "qname": "a",
-                    "text": "",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {}
-                },
-                {
-                    "qname": "b",
-                    "text": "",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {}
-                }
-            ]
+          "qname": "a",
+          "text": "",
+          "tail": null,
+          "children": [],
+          "attributes": {}
+        },
+        {
+          "qname": "b",
+          "text": "",
+          "tail": null,
+          "children": [],
+          "attributes": {}
         }
-    ]
+      ]
+    }
+  ]
 }

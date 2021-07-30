@@ -1,138 +1,138 @@
 {
-    "a": [
+  "a": [
+    {
+      "any_element": [
         {
-            "any_element": [
-                {
-                    "qname": "a",
-                    "text": "",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {
-                        "att": "123",
-                        "att1": "123",
-                        "att2": "123"
-                    }
-                },
-                {
-                    "qname": "{foo}foo",
-                    "text": "",
-                    "tail": null,
-                    "children": [
-                        {
-                            "qname": "{bar}bar",
-                            "text": "",
-                            "tail": null,
-                            "children": [],
-                            "attributes": {}
-                        }
-                    ],
-                    "attributes": {
-                        "{foo}att": "123"
-                    }
-                }
-            ]
-        }
-    ],
-    "b": [
+          "qname": "a",
+          "text": "",
+          "tail": null,
+          "children": [],
+          "attributes": {
+            "att": "123",
+            "att1": "123",
+            "att2": "123"
+          }
+        },
         {
-            "target_namespace_element": [
-                {
-                    "qname": "{main}notDeclared",
-                    "text": "",
-                    "tail": null,
-                    "children": [
-                        {
-                            "qname": "{foo}foo",
-                            "text": "",
-                            "tail": null,
-                            "children": [],
-                            "attributes": {}
-                        }
-                    ],
-                    "attributes": {
-                        "notexist": "foo"
-                    }
-                }
-            ]
+          "qname": "{foo}foo",
+          "text": "",
+          "tail": null,
+          "children": [
+            {
+              "qname": "{bar}bar",
+              "text": "",
+              "tail": null,
+              "children": [],
+              "attributes": {}
+            }
+          ],
+          "attributes": {
+            "{foo}att": "123"
+          }
         }
-    ],
-    "c": [
+      ]
+    }
+  ],
+  "b": [
+    {
+      "target_namespace_element": [
         {
-            "foo_bar_element": [
-                {
-                    "qname": "{foo}x",
-                    "text": "",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {
-                        "{foo}foo": "asd"
-                    }
-                },
-                {
-                    "qname": "{bar}x",
-                    "text": "",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {}
-                },
-                {
-                    "qname": "{foo}x",
-                    "text": "",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {}
-                }
-            ]
+          "qname": "{main}notDeclared",
+          "text": "",
+          "tail": null,
+          "children": [
+            {
+              "qname": "{foo}foo",
+              "text": "",
+              "tail": null,
+              "children": [],
+              "attributes": {}
+            }
+          ],
+          "attributes": {
+            "notexist": "foo"
+          }
         }
-    ],
-    "d": [
+      ]
+    }
+  ],
+  "c": [
+    {
+      "foo_bar_element": [
         {
-            "target_namespace_foo_element": [
-                {
-                    "qname": "{foo}x",
-                    "text": "",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {}
-                },
-                {
-                    "qname": "{foo}x",
-                    "text": "",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {}
-                },
-                {
-                    "qname": "{main}a",
-                    "text": "",
-                    "tail": null,
-                    "children": [
-                        {
-                            "qname": "{main}b",
-                            "text": "",
-                            "tail": null,
-                            "children": [
-                                {
-                                    "qname": "{main}c",
-                                    "text": "",
-                                    "tail": null,
-                                    "children": [],
-                                    "attributes": {
-                                        "b": "b",
-                                        "c": "b"
-                                    }
-                                }
-                            ],
-                            "attributes": {
-                                "b": "b"
-                            }
-                        }
-                    ],
-                    "attributes": {
-                        "a": "a"
-                    }
-                }
-            ]
+          "qname": "{foo}x",
+          "text": "",
+          "tail": null,
+          "children": [],
+          "attributes": {
+            "{foo}foo": "asd"
+          }
+        },
+        {
+          "qname": "{bar}x",
+          "text": "",
+          "tail": null,
+          "children": [],
+          "attributes": {}
+        },
+        {
+          "qname": "{foo}x",
+          "text": "",
+          "tail": null,
+          "children": [],
+          "attributes": {}
         }
-    ]
+      ]
+    }
+  ],
+  "d": [
+    {
+      "target_namespace_foo_element": [
+        {
+          "qname": "{foo}x",
+          "text": "",
+          "tail": null,
+          "children": [],
+          "attributes": {}
+        },
+        {
+          "qname": "{foo}x",
+          "text": "",
+          "tail": null,
+          "children": [],
+          "attributes": {}
+        },
+        {
+          "qname": "{main}a",
+          "text": "",
+          "tail": null,
+          "children": [
+            {
+              "qname": "{main}b",
+              "text": "",
+              "tail": null,
+              "children": [
+                {
+                  "qname": "{main}c",
+                  "text": "",
+                  "tail": null,
+                  "children": [],
+                  "attributes": {
+                    "b": "b",
+                    "c": "b"
+                  }
+                }
+              ],
+              "attributes": {
+                "b": "b"
+              }
+            }
+          ],
+          "attributes": {
+            "a": "a"
+          }
+        }
+      ]
+    }
+  ]
 }

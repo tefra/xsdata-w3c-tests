@@ -1,15 +1,15 @@
 {
-    "uid": [
-        {
-            "val": "test"
-        },
-        {
-            "val": "test"
-        }
-    ],
-    "kid": [
-        {
-            "val": "test"
-        }
-    ]
+  "uid": [
+    {
+      "val": "test"
+    },
+    {
+      "val": "test"
+    }
+  ],
+  "kid": [
+    {
+      "val": "test"
+    }
+  ]
 }

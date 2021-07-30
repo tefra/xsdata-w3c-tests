@@ -1,5 +1,5 @@
 {
-    "value": "simpleContent",
-    "attrTest1": "group attribute",
-    "attrTest2": "group attribute2"
+  "value": "simpleContent",
+  "attrTest1": "group attribute",
+  "attrTest2": "group attribute2"
 }

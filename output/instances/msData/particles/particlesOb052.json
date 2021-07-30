@@ -1,12 +1,12 @@
 {
-    "elem": {
-        "local_foo_bar_target_namespace_element": {
-            "qname": "e1",
-            "text": "",
-            "tail": null,
-            "children": [],
-            "attributes": {}
-        },
-        "local_element": null
-    }
+  "elem": {
+    "local_foo_bar_target_namespace_element": {
+      "qname": "e1",
+      "text": "",
+      "tail": null,
+      "children": [],
+      "attributes": {}
+    },
+    "local_element": null
+  }
 }

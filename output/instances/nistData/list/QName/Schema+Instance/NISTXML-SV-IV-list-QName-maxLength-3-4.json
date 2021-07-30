@@ -1,9 +1,9 @@
 {
-    "value": [
-        "{http://www.nist.gov/xsdNS}aa_high.provided.will-semantics.software.and_includes-",
-        "{http://www.nist.gov/xsdNS}jretrieve.implementation-database_computing_test-displ",
-        "{http://www.nist.gov/xsdNS}rthe-needed-landscape_would-and_engineering-versions-t",
-        "{http://www.nist.gov/xsdNS}jparticipate-additionally.high_computer.context-rich-i",
-        "{http://www.nist.gov/xsdNS}hfor_allow-browsers-developed_exchange_file-systems-ad"
-    ]
+  "value": [
+    "{http://www.nist.gov/xsdNS}aa_high.provided.will-semantics.software.and_includes-",
+    "{http://www.nist.gov/xsdNS}jretrieve.implementation-database_computing_test-displ",
+    "{http://www.nist.gov/xsdNS}rthe-needed-landscape_would-and_engineering-versions-t",
+    "{http://www.nist.gov/xsdNS}jparticipate-additionally.high_computer.context-rich-i",
+    "{http://www.nist.gov/xsdNS}hfor_allow-browsers-developed_exchange_file-systems-ad"
+  ]
 }

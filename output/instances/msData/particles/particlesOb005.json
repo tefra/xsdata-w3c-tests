@@ -1,12 +1,12 @@
 {
-    "elem": {
-        "any_element": {
-            "qname": "{http://xsdtesting}foo",
-            "text": "",
-            "tail": null,
-            "children": [],
-            "attributes": {}
-        },
-        "target_namespace_element": null
-    }
+  "elem": {
+    "any_element": {
+      "qname": "{http://xsdtesting}foo",
+      "text": "",
+      "tail": null,
+      "children": [],
+      "attributes": {}
+    },
+    "target_namespace_element": null
+  }
 }

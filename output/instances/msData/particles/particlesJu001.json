@@ -1,9 +1,9 @@
 {
-    "elem": {
-        "local_target_namespace_foo_imported_xsd_bar_element": [],
-        "e1": [
-            "",
-            ""
-        ]
-    }
+  "elem": {
+    "local_target_namespace_foo_imported_xsd_bar_element": [],
+    "e1": [
+      "",
+      ""
+    ]
+  }
 }

@@ -1,9 +1,9 @@
 {
-    "elem": {
-        "foo": "",
-        "foo_bar_element": [],
-        "e2": {
-            "any_element": null
-        }
+  "elem": {
+    "foo": "",
+    "foo_bar_element": [],
+    "e2": {
+      "any_element": null
     }
+  }
 }

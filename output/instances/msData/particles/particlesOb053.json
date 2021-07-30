@@ -1,12 +1,12 @@
 {
-    "elem": {
-        "local_foo_bar_target_namespace_element": {
-            "qname": "{http://xsdtesting}foo",
-            "text": "",
-            "tail": null,
-            "children": [],
-            "attributes": {}
-        },
-        "target_namespace_element": null
-    }
+  "elem": {
+    "local_foo_bar_target_namespace_element": {
+      "qname": "{http://xsdtesting}foo",
+      "text": "",
+      "tail": null,
+      "children": [],
+      "attributes": {}
+    },
+    "target_namespace_element": null
+  }
 }

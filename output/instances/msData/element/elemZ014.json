@@ -1,9 +1,9 @@
 {
-    "any_element": {
-        "qname": "myelem",
-        "value": {
-            "a": "hello"
-        },
-        "type": "{urn-klondike-test}ctype_foo"
-    }
+  "any_element": {
+    "qname": "myelem",
+    "value": {
+      "a": "hello"
+    },
+    "type": "{urn-klondike-test}ctype_foo"
+  }
 }

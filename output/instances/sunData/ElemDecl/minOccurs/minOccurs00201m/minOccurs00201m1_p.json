@@ -1,11 +1,11 @@
 {
-    "Local": {
-        "any_element": {
-            "qname": null,
-            "text": "2",
-            "tail": null,
-            "children": [],
-            "attributes": {}
-        }
+  "Local": {
+    "any_element": {
+      "qname": null,
+      "text": "2",
+      "tail": null,
+      "children": [],
+      "attributes": {}
     }
+  }
 }

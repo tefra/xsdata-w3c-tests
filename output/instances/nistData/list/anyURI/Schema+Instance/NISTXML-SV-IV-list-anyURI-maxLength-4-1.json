@@ -1,11 +1,11 @@
 {
-    "value": [
-        "news://knownX.for.gov",
-        "ftp://A.net",
-        "ftp://document.spec.re.org",
-        "ftp://informa.anew.edu",
-        "gopher://Archite.canC.net",
-        "gopher://sui.com",
-        "ftp://p.edu"
-    ]
+  "value": [
+    "news://knownX.for.gov",
+    "ftp://A.net",
+    "ftp://document.spec.re.org",
+    "ftp://informa.anew.edu",
+    "gopher://Archite.canC.net",
+    "gopher://sui.com",
+    "ftp://p.edu"
+  ]
 }

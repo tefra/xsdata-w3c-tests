@@ -1,11 +1,11 @@
 {
-    "any_element": {
-        "qname": "item",
-        "text": "",
-        "tail": null,
-        "children": [],
-        "attributes": {
-            "SOMITEM_DATATYPE_ID": " id "
-        }
+  "any_element": {
+    "qname": "item",
+    "text": "",
+    "tail": null,
+    "children": [],
+    "attributes": {
+      "SOMITEM_DATATYPE_ID": " id "
     }
+  }
 }

@@ -1,32 +1,32 @@
 {
-    "other_element": {
-        "qname": null,
-        "text": null,
+  "other_element": {
+    "qname": null,
+    "text": null,
+    "tail": null,
+    "children": [
+      {
+        "qname": "{A}b",
+        "text": "test",
         "tail": null,
-        "children": [
-            {
-                "qname": "{A}b",
-                "text": "test",
-                "tail": null,
-                "children": [],
-                "attributes": {}
-            },
-            {
-                "qname": "{A}b",
-                "text": "test",
-                "tail": null,
-                "children": [],
-                "attributes": {}
-            },
-            {
-                "qname": "{A}b",
-                "text": "test",
-                "tail": null,
-                "children": [],
-                "attributes": {}
-            }
-        ],
+        "children": [],
         "attributes": {}
-    },
-    "a_element": []
+      },
+      {
+        "qname": "{A}b",
+        "text": "test",
+        "tail": null,
+        "children": [],
+        "attributes": {}
+      },
+      {
+        "qname": "{A}b",
+        "text": "test",
+        "tail": null,
+        "children": [],
+        "attributes": {}
+      }
+    ],
+    "attributes": {}
+  },
+  "a_element": []
 }

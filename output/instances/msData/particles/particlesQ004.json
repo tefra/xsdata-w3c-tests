@@ -1,9 +1,9 @@
 {
-    "elem": {
-        "foo": "",
-        "any_element": [],
-        "e1": [
-            ""
-        ]
-    }
+  "elem": {
+    "foo": "",
+    "any_element": [],
+    "e1": [
+      ""
+    ]
+  }
 }

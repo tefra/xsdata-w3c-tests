@@ -1,11 +1,11 @@
 {
-    "e": -12,
-    "f": 42,
-    "local_element": {
-        "qname": "g",
-        "text": "6",
-        "tail": null,
-        "children": [],
-        "attributes": {}
-    }
+  "e": -12,
+  "f": 42,
+  "local_element": {
+    "qname": "g",
+    "text": "6",
+    "tail": null,
+    "children": [],
+    "attributes": {}
+  }
 }

@@ -1,13 +1,13 @@
 {
-    "fooTest": {
-        "any_element": {
-            "qname": null,
-            "text": "1",
-            "tail": null,
-            "children": [],
-            "attributes": {
-                "{http://www.w3.org/2001/XMLSchema-instance}type": "myUnion"
-            }
-        }
+  "fooTest": {
+    "any_element": {
+      "qname": null,
+      "text": "1",
+      "tail": null,
+      "children": [],
+      "attributes": {
+        "{http://www.w3.org/2001/XMLSchema-instance}type": "myUnion"
+      }
     }
+  }
 }

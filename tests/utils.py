@@ -88,7 +88,7 @@ def assert_bindings(
 def assert_json_bindings(context: XmlContext, obj: Any, save_path: Optional[Path]):
     __tracebackhide__ = True
 
-    serializer = JsonSerializer(context=context, indent=4)
+    serializer = JsonSerializer(context=context, config=config)
     parser = JsonParser(context=context)
     obj_json = serializer.render(obj)
     obj_b = parser.from_string(obj_json, obj.__class__)
@@ -131,7 +131,7 @@ def assert_xml_bindings(
     try:
         xsdata_xml = XmlSerializer(context=context, config=config).render(obj, ns_map)
         if save_path:
-            json_document = JsonSerializer(context=context, indent=4).render(obj)
+            json_document = JsonSerializer(context=context, config=config).render(obj)
             save_path.write_text(xsdata_xml)
             save_path.with_suffix(".json").write_text(json_document)
         return assert_valid(schema_validator, xsdata_xml)

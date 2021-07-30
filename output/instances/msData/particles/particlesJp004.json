@@ -1,8 +1,8 @@
 {
-    "elem": {
-        "target_namespace_element": null,
-        "e1": {
-            "any_element": null
-        }
+  "elem": {
+    "target_namespace_element": null,
+    "e1": {
+      "any_element": null
     }
+  }
 }

@@ -1,11 +1,11 @@
 {
-    "value": [
-        "news://f.sc.org",
-        "telnet://p.gov",
-        "ftp://auto.en.hard.org",
-        "gopher://addr.com",
-        "telnet://t.that.org",
-        "http://tha.s.edu",
-        "gopher://of.proj.net"
-    ]
+  "value": [
+    "news://f.sc.org",
+    "telnet://p.gov",
+    "ftp://auto.en.hard.org",
+    "gopher://addr.com",
+    "telnet://t.that.org",
+    "http://tha.s.edu",
+    "gopher://of.proj.net"
+  ]
 }

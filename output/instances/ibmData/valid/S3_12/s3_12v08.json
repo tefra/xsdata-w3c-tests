@@ -1,32 +1,32 @@
 {
-    "child": [
-        {
-            "type1": true,
-            "type2": null,
-            "content": [
-                "true"
-            ]
-        },
-        {
-            "type1": null,
-            "type2": true,
-            "content": [
-                "1234"
-            ]
-        },
-        {
-            "type1": null,
-            "type2": null,
-            "content": [
-                "childType"
-            ]
-        },
-        {
-            "type1": true,
-            "type2": false,
-            "content": [
-                "childType"
-            ]
-        }
-    ]
+  "child": [
+    {
+      "type1": true,
+      "type2": null,
+      "content": [
+        "true"
+      ]
+    },
+    {
+      "type1": null,
+      "type2": true,
+      "content": [
+        "1234"
+      ]
+    },
+    {
+      "type1": null,
+      "type2": null,
+      "content": [
+        "childType"
+      ]
+    },
+    {
+      "type1": true,
+      "type2": false,
+      "content": [
+        "childType"
+      ]
+    }
+  ]
 }

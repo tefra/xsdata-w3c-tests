@@ -1,5 +1,5 @@
 {
-    "any_attributes": {
-        "{http://cain.com/}cain": "abel"
-    }
+  "any_attributes": {
+    "{http://cain.com/}cain": "abel"
+  }
 }

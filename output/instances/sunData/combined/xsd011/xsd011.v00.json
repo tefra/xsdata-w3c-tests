@@ -1,19 +1,19 @@
 {
-    "non_nillable_or_nillable1_or_nillable2": [
-        {
-            "x": ""
-        },
-        {
-            "x": ""
-        },
-        {
-            "x": null
-        },
-        [
-            51,
-            32,
-            59
-        ],
-        []
-    ]
+  "non_nillable_or_nillable1_or_nillable2": [
+    {
+      "x": ""
+    },
+    {
+      "x": ""
+    },
+    {
+      "x": null
+    },
+    [
+      51,
+      32,
+      59
+    ],
+    []
+  ]
 }

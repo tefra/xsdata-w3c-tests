@@ -1,17 +1,17 @@
   {
-      "elem": {
-          "foo": "",
-          "foo_bar_element": [],
--         "e2": [
-+         "e2": []
-?                +
+    "elem": {
+      "foo": "",
+      "foo_bar_element": [],
+-     "e2": [
++     "e2": []
+?            +
 
--             {
--                 "any_element": null
--             },
--             {
--                 "any_element": null
--             }
--         ]
-      }
+-       {
+-         "any_element": null
+-       },
+-       {
+-         "any_element": null
+-       }
+-     ]
+    }
   }

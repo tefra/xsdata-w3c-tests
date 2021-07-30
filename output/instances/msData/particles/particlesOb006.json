@@ -1,20 +1,20 @@
 {
-    "elem": {
-        "any_element": {
-            "qname": "{bar}bar",
-            "text": "",
-            "tail": null,
-            "children": [
-                {
-                    "qname": "{bar}e1",
-                    "text": "",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {}
-                }
-            ],
-            "attributes": {}
-        },
-        "foo_bar_element": null
-    }
+  "elem": {
+    "any_element": {
+      "qname": "{bar}bar",
+      "text": "",
+      "tail": null,
+      "children": [
+        {
+          "qname": "{bar}e1",
+          "text": "",
+          "tail": null,
+          "children": [],
+          "attributes": {}
+        }
+      ],
+      "attributes": {}
+    },
+    "foo_bar_element": null
+  }
 }

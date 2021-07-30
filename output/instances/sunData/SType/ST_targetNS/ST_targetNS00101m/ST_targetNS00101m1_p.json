@@ -1,7 +1,7 @@
 {
-    "qname": "{ST_targetNS}test",
-    "value": {
-        "value": "1"
-    },
-    "type": "{ST_targetNS}Test"
+  "qname": "{ST_targetNS}test",
+  "value": {
+    "value": "1"
+  },
+  "type": "{ST_targetNS}Test"
 }

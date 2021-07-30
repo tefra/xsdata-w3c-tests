@@ -1,58 +1,58 @@
 {
-    "entity": [],
-    "anyuri": [
-        "http://tempuri"
-    ],
-    "hexbinary": [
-        "ABCD"
-    ],
-    "month": [
-        "--12"
-    ],
-    "day": [
-        "---15"
-    ],
-    "monthday": [
-        "--02-13"
-    ],
-    "year": [
-        "2004"
-    ],
-    "date": [
-        "1999-05-31"
-    ],
-    "time": [
-        "13:20:00-05:00"
-    ],
-    "datetime": [
-        "1999-05-31T13:20:00-05:00"
-    ],
-    "duration": [
-        "P1347Y"
-    ],
-    "decimal": [
-        "56",
-        "-56",
-        "-562135"
-    ],
-    "double": [],
-    "float": [
-        1.2,
-        5.24276,
-        5.24276
-    ],
-    "bool": [
-        true,
-        false
-    ],
-    "int": [
-        123,
-        -123
-    ],
-    "string": [
-        "this is a string"
-    ],
-    "item": [
-        "abc"
-    ]
+  "entity": [],
+  "anyuri": [
+    "http://tempuri"
+  ],
+  "hexbinary": [
+    "ABCD"
+  ],
+  "month": [
+    "--12"
+  ],
+  "day": [
+    "---15"
+  ],
+  "monthday": [
+    "--02-13"
+  ],
+  "year": [
+    "2004"
+  ],
+  "date": [
+    "1999-05-31"
+  ],
+  "time": [
+    "13:20:00-05:00"
+  ],
+  "datetime": [
+    "1999-05-31T13:20:00-05:00"
+  ],
+  "duration": [
+    "P1347Y"
+  ],
+  "decimal": [
+    "56",
+    "-56",
+    "-562135"
+  ],
+  "double": [],
+  "float": [
+    1.2,
+    5.24276,
+    5.24276
+  ],
+  "bool": [
+    true,
+    false
+  ],
+  "int": [
+    123,
+    -123
+  ],
+  "string": [
+    "this is a string"
+  ],
+  "item": [
+    "abc"
+  ]
 }

@@ -1,6 +1,6 @@
 {
-    "a_attributes": {
-        "{urn:a}foo": "local"
-    },
-    "a_b_c_attributes": {}
+  "a_attributes": {
+    "{urn:a}foo": "local"
+  },
+  "a_b_c_attributes": {}
 }

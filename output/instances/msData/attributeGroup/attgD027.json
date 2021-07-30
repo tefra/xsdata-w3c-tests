@@ -1,8 +1,8 @@
 {
-    "elem": {
-        "foo": 123,
-        "foo_attributes": {
-            "{foo}a": "b"
-        }
+  "elem": {
+    "foo": 123,
+    "foo_attributes": {
+      "{foo}a": "b"
     }
+  }
 }

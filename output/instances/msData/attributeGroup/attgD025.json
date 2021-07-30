@@ -1,8 +1,8 @@
 {
-    "elem": {
-        "foo": null,
-        "local_attributes": {
-            "a": "b"
-        }
+  "elem": {
+    "foo": null,
+    "local_attributes": {
+      "a": "b"
     }
+  }
 }

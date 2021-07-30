@@ -1,19 +1,19 @@
 {
-    "any_element": [
+  "any_element": [
+    {
+      "qname": "{ns-a}e1",
+      "text": "",
+      "tail": null,
+      "children": [
         {
-            "qname": "{ns-a}e1",
-            "text": "",
-            "tail": null,
-            "children": [
-                {
-                    "qname": "c21",
-                    "text": "1",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {}
-                }
-            ],
-            "attributes": {}
+          "qname": "c21",
+          "text": "1",
+          "tail": null,
+          "children": [],
+          "attributes": {}
         }
-    ]
+      ],
+      "attributes": {}
+    }
+  ]
 }

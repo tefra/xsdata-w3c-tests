@@ -1,22 +1,22 @@
 {
-    "content": [
-        {
-            "qname": "a",
-            "value": {},
-            "type": "alpha"
-        },
-        {
-            "qname": "b",
-            "value": {
-                "other_element": {
-                    "qname": "{http://open.com/}extra",
-                    "text": "",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {}
-                }
-            },
-            "type": "beta"
+  "content": [
+    {
+      "qname": "a",
+      "value": {},
+      "type": "alpha"
+    },
+    {
+      "qname": "b",
+      "value": {
+        "other_element": {
+          "qname": "{http://open.com/}extra",
+          "text": "",
+          "tail": null,
+          "children": [],
+          "attributes": {}
         }
-    ]
+      },
+      "type": "beta"
+    }
+  ]
 }

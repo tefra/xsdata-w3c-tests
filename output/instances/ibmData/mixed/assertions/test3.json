@@ -1,13 +1,13 @@
 {
-    "timer": {
-        "time": 30,
-        "iterations": null
+  "timer": {
+    "time": 30,
+    "iterations": null
+  },
+  "parent": {
+    "child": {
+      "name": "abc",
+      "dob": "1997-01-01"
     },
-    "parent": {
-        "child": {
-            "name": "abc",
-            "dob": "1997-01-01"
-        },
-        "grandchild": null
-    }
+    "grandchild": null
+  }
 }

@@ -1,10 +1,10 @@
 {
-    "value": [
-        "telnet://dis.by.gov",
-        "news://ofa.ofs.edu",
-        "telnet://a.fi.w.org",
-        "news://cre.t.e.com",
-        "gopher://per.c.ol.net",
-        "ftp://in.p.gov"
-    ]
+  "value": [
+    "telnet://dis.by.gov",
+    "news://ofa.ofs.edu",
+    "telnet://a.fi.w.org",
+    "news://cre.t.e.com",
+    "gopher://per.c.ol.net",
+    "ftp://in.p.gov"
+  ]
 }

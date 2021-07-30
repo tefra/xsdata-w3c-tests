@@ -1,1446 +1,1446 @@
 {
-    "annotation": [],
-    "testGroup": [
+  "annotation": [],
+  "testGroup": [
+    {
+      "annotation": [
         {
-            "annotation": [
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
                 {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "Equality testing (enumeration) for dateTime values, use YEAR as ZERO",
-                                    "tail": null,
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "Use Year as Zero ",
-                                    "tail": null,
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
+                  "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                  "text": "Equality testing (enumeration) for dateTime values, use YEAR as ZERO",
+                  "tail": null,
+                  "children": [],
+                  "attributes": {}
+                },
+                {
+                  "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                  "text": "Use Year as Zero ",
+                  "tail": null,
+                  "children": [],
+                  "attributes": {}
                 }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone",
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../oracleData/Zone/zone401.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "valid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2011-02-24",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "zone401.xsd",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [
-                {
-                    "annotation": [
-                        {
-                            "appinfo_or_documentation": [
-                                {
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {},
-                                    "content": [
-                                        "\n\t\t                Valid date per enumeration\n\t\t            "
-                                    ]
-                                }
-                            ],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../oracleData/Zone/zone401.v1.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "valid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2011-02-24",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "zone401.v1.xml",
-                    "version": [],
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [
-                        {
-                            "appinfo_or_documentation": [
-                                {
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {},
-                                    "content": [
-                                        "\n\t\t                Valid date per enumeration\n\t\t            "
-                                    ]
-                                }
-                            ],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../oracleData/Zone/zone401.v2.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "valid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2011-02-24",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "zone401.v2.xml",
-                    "version": [],
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [
-                        {
-                            "appinfo_or_documentation": [
-                                {
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {},
-                                    "content": [
-                                        "\n\t\t                Valid date per enumeration\n\t\t            "
-                                    ]
-                                }
-                            ],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../oracleData/Zone/zone401.v3.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "valid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2011-02-24",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "zone401.v3.xml",
-                    "version": [],
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [
-                        {
-                            "appinfo_or_documentation": [
-                                {
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {},
-                                    "content": [
-                                        "\n\t\t                Invalid date per enumeration\n\t\t            "
-                                    ]
-                                }
-                            ],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../oracleData/Zone/zone401.n1.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "invalid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2011-02-24",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "zone401.n1.xml",
-                    "version": [],
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [
-                        {
-                            "appinfo_or_documentation": [
-                                {
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {},
-                                    "content": [
-                                        "\n\t\t                Invalid date per enumeration\n\t\t            "
-                                    ]
-                                }
-                            ],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../oracleData/Zone/zone401.n2.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "invalid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2011-02-24",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "zone401.n2.xml",
-                    "version": [],
-                    "other_attributes": {}
-                }
-            ],
-            "name": "zone401",
-            "version": [
-                "1.1"
-            ],
-            "other_attributes": {}
-        },
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": " Test year zero allowed for facet maxInclusive for datatype xs:dateTime ",
-                                    "tail": null,
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": " Test year zero allowed for facet maxInclusive for datatype xs:dateTime",
-                                    "tail": null,
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone",
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../oracleData/Zone/zone402.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "valid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2011-02-24",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "zone402.xsd",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [
-                {
-                    "annotation": [
-                        {
-                            "appinfo_or_documentation": [
-                                {
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {},
-                                    "content": [
-                                        "\n\t\t                Invalid date per maxInclusive facet\n\t\t            "
-                                    ]
-                                }
-                            ],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../oracleData/Zone/zone402.n1.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "invalid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2011-02-24",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "zone402.n1.xml",
-                    "version": [],
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [
-                        {
-                            "appinfo_or_documentation": [
-                                {
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {},
-                                    "content": [
-                                        "\n\t\t                Invalid date per maxInclusive facet\n\t\t            "
-                                    ]
-                                }
-                            ],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../oracleData/Zone/zone402.n2.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "invalid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2011-02-24",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "zone402.n2.xml",
-                    "version": [],
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [
-                        {
-                            "appinfo_or_documentation": [
-                                {
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {},
-                                    "content": [
-                                        "\n\t\t                Valid date per maxInclusive facet\n\t\t            "
-                                    ]
-                                }
-                            ],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../oracleData/Zone/zone402.v1.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "valid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2011-02-24",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "zone402.v1.xml",
-                    "version": [],
-                    "other_attributes": {}
-                }
-            ],
-            "name": "zone402",
-            "version": [
-                "1.1"
-            ],
-            "other_attributes": {}
-        },
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "Test new timezone facet explicitTimezone, value=\"required\" for datatype xs:dateTime",
-                                    "tail": null,
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "Test new timezone facet explicitTimezone, value=\"required\" for datatype xs:dateTime",
-                                    "tail": null,
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone",
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../oracleData/Zone/zone403.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "valid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2011-02-24",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "zone403.xsd",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [
-                {
-                    "annotation": [
-                        {
-                            "appinfo_or_documentation": [
-                                {
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {},
-                                    "content": [
-                                        "\n\t\t                valid, timezone present.\n\t\t            "
-                                    ]
-                                }
-                            ],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../oracleData/Zone/zone403.v1.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "valid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2011-02-24",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "zone403.v1.xml",
-                    "version": [],
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [
-                        {
-                            "appinfo_or_documentation": [
-                                {
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {},
-                                    "content": [
-                                        "\n\t\t                valid, timezone present.\n\t\t            "
-                                    ]
-                                }
-                            ],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../oracleData/Zone/zone403.v2.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "valid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2011-02-24",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "zone403.v2.xml",
-                    "version": [],
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [
-                        {
-                            "appinfo_or_documentation": [
-                                {
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {},
-                                    "content": [
-                                        "\n\t\t                Invalid, timezone not present.\n\t\t            "
-                                    ]
-                                }
-                            ],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../oracleData/Zone/zone403.n1.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "invalid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2011-02-24",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "zone403.n1.xml",
-                    "version": [],
-                    "other_attributes": {}
-                }
-            ],
-            "name": "zone403",
-            "version": [
-                "1.1"
-            ],
-            "other_attributes": {}
-        },
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "Test new timezone facet explicitTimezone, value=\"prohibited\" for datatype xs:dateTime",
-                                    "tail": null,
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "Test new timezone facet explicitTimezone, value=\"prohibited\" for datatype xs:dateTime",
-                                    "tail": null,
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone",
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../oracleData/Zone/zone404.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "valid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2011-02-24",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "zone404.xsd",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [
-                {
-                    "annotation": [
-                        {
-                            "appinfo_or_documentation": [
-                                {
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {},
-                                    "content": [
-                                        "\n\t\t                valid, timezone not present as expected\n\t\t            "
-                                    ]
-                                }
-                            ],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../oracleData/Zone/zone404.v1.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "valid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2011-02-24",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "zone404.v1.xml",
-                    "version": [],
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [
-                        {
-                            "appinfo_or_documentation": [
-                                {
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {},
-                                    "content": [
-                                        "\n\t\t                Invalid, timezone present.\n\t\t            "
-                                    ]
-                                }
-                            ],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../oracleData/Zone/zone404.n1.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "invalid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2011-02-24",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "zone404.n1.xml",
-                    "version": [],
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [
-                        {
-                            "appinfo_or_documentation": [
-                                {
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {},
-                                    "content": [
-                                        "\n\t\t                Invalid, timezone present.\n\t\t            "
-                                    ]
-                                }
-                            ],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../oracleData/Zone/zone404.n2.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "invalid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2011-02-24",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "zone404.n2.xml",
-                    "version": [],
-                    "other_attributes": {}
-                }
-            ],
-            "name": "zone404",
-            "version": [
-                "1.1"
-            ],
-            "other_attributes": {}
-        },
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "Test new timezone facet explicitTimezone, value=\"optional\" for datatype xs:dateTime",
-                                    "tail": null,
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "Test new timezone facet explicitTimezone, value=\"optional\" for datatype xs:dateTime",
-                                    "tail": null,
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone",
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../oracleData/Zone/zone405.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "valid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [
-                        {
-                            "appinfo_or_documentation": [
-                                {
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {},
-                                    "content": [
-                                        "\n\t\t                Typo corrected - see bug #12189\n\t\t            "
-                                    ]
-                                }
-                            ],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "status": "accepted",
-                    "date": "2011-07-29",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [
-                    {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2011-02-24",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    }
-                ],
-                "name": "zone405.xsd",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [
-                {
-                    "annotation": [
-                        {
-                            "appinfo_or_documentation": [
-                                {
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {},
-                                    "content": [
-                                        "\n\t\t                valid date\n\t\t            "
-                                    ]
-                                }
-                            ],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../oracleData/Zone/zone405.v1.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "valid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2011-02-24",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "zone405.v1.xml",
-                    "version": [],
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [
-                        {
-                            "appinfo_or_documentation": [
-                                {
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {},
-                                    "content": [
-                                        "\n\t\t                valid date\n\t\t            "
-                                    ]
-                                }
-                            ],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../oracleData/Zone/zone405.v2.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "valid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2011-02-24",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "zone405.v2.xml",
-                    "version": [],
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [
-                        {
-                            "appinfo_or_documentation": [
-                                {
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {},
-                                    "content": [
-                                        "\n\t\t                valid date\n\t\t            "
-                                    ]
-                                }
-                            ],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "instanceDocument": {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../oracleData/Zone/zone405.v3.xml",
-                        "other_attributes": {}
-                    },
-                    "expected": [
-                        {
-                            "validity": "valid",
-                            "version": [],
-                            "other_attributes": {}
-                        }
-                    ],
-                    "current": {
-                        "annotation": [],
-                        "status": "accepted",
-                        "date": "2011-02-24",
-                        "bugzilla": null,
-                        "other_attributes": {}
-                    },
-                    "prior": [],
-                    "name": "zone405.v3.xml",
-                    "version": [],
-                    "other_attributes": {}
-                }
-            ],
-            "name": "zone405",
-            "version": [
-                "1.1"
-            ],
-            "other_attributes": {}
-        },
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "Test day value must be no more than 30 if month is one of 4, 6, 9, or 11 for xs:dateTime",
-                                    "tail": null,
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "Test day value must be no more than 30 if month is one of 4, 6, 9, or 11 for xs:dateTime",
-                                    "tail": null,
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone",
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../oracleData/Zone/zone406.bad.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "invalid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2011-02-24",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "zone406.xsd",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [],
-            "name": "zone406",
-            "version": [
-                "1.1"
-            ],
-            "other_attributes": {}
-        },
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "Test day value must be no more than 28 if month is 2 and Year is not divisible 4 in xs:dateTime",
-                                    "tail": null,
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "Test day value must be no more than 28 if month is 2 and Year is not divisible 4 in xs:dateTime",
-                                    "tail": null,
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone",
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../oracleData/Zone/zone407.bad.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "invalid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2011-02-24",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "zone407.xsd",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [],
-            "name": "zone407",
-            "version": [
-                "1.1"
-            ],
-            "other_attributes": {}
-        },
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": " Test explicitTimezone facet: cannot derive \"required\" from \"prohibited\"",
-                                    "tail": null,
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": " Test explicitTimezone facet: cannot derive \"required\" from \"prohibited\"",
-                                    "tail": null,
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone",
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../oracleData/Zone/zone408.bad.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "invalid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2011-02-24",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "zone408.xsd",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [],
-            "name": "zone408",
-            "version": [
-                "1.1"
-            ],
-            "other_attributes": {}
-        },
-        {
-            "annotation": [
-                {
-                    "appinfo_or_documentation": [
-                        {
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {},
-                            "content": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": " Test explicitTimezone facet: cannot derive \"prohibited\" from \"required\"",
-                                    "tail": null,
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": " Test explicitTimezone facet: cannot derive \"prohibited\" from \"required\"",
-                                    "tail": null,
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ]
-                        }
-                    ],
-                    "other_attributes": {}
-                }
-            ],
-            "documentationReference": [
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone",
-                    "other_attributes": {}
-                },
-                {
-                    "annotation": [],
-                    "type": "locator",
-                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet",
-                    "other_attributes": {}
-                }
-            ],
-            "schemaTest": {
-                "annotation": [],
-                "schemaDocument": [
-                    {
-                        "annotation": [],
-                        "type": "locator",
-                        "href": "../oracleData/Zone/zone409.bad.xsd",
-                        "other_attributes": {}
-                    }
-                ],
-                "expected": [
-                    {
-                        "validity": "invalid",
-                        "version": [],
-                        "other_attributes": {}
-                    }
-                ],
-                "current": {
-                    "annotation": [],
-                    "status": "accepted",
-                    "date": "2011-02-24",
-                    "bugzilla": null,
-                    "other_attributes": {}
-                },
-                "prior": [],
-                "name": "zone409.xsd",
-                "version": [],
-                "other_attributes": {}
-            },
-            "instanceTest": [],
-            "name": "zone409",
-            "version": [
-                "1.1"
-            ],
-            "other_attributes": {}
+              ]
+            }
+          ],
+          "other_attributes": {}
         }
-    ],
-    "contributor": "Oracle Corporation",
-    "name": "Zone",
-    "version": [
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone",
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../oracleData/Zone/zone401.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "valid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2011-02-24",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "zone401.xsd",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [
+        {
+          "annotation": [
+            {
+              "appinfo_or_documentation": [
+                {
+                  "source": null,
+                  "lang": null,
+                  "other_attributes": {},
+                  "content": [
+                    "\n\t\t                Valid date per enumeration\n\t\t            "
+                  ]
+                }
+              ],
+              "other_attributes": {}
+            }
+          ],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../oracleData/Zone/zone401.v1.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "valid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2011-02-24",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "zone401.v1.xml",
+          "version": [],
+          "other_attributes": {}
+        },
+        {
+          "annotation": [
+            {
+              "appinfo_or_documentation": [
+                {
+                  "source": null,
+                  "lang": null,
+                  "other_attributes": {},
+                  "content": [
+                    "\n\t\t                Valid date per enumeration\n\t\t            "
+                  ]
+                }
+              ],
+              "other_attributes": {}
+            }
+          ],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../oracleData/Zone/zone401.v2.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "valid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2011-02-24",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "zone401.v2.xml",
+          "version": [],
+          "other_attributes": {}
+        },
+        {
+          "annotation": [
+            {
+              "appinfo_or_documentation": [
+                {
+                  "source": null,
+                  "lang": null,
+                  "other_attributes": {},
+                  "content": [
+                    "\n\t\t                Valid date per enumeration\n\t\t            "
+                  ]
+                }
+              ],
+              "other_attributes": {}
+            }
+          ],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../oracleData/Zone/zone401.v3.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "valid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2011-02-24",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "zone401.v3.xml",
+          "version": [],
+          "other_attributes": {}
+        },
+        {
+          "annotation": [
+            {
+              "appinfo_or_documentation": [
+                {
+                  "source": null,
+                  "lang": null,
+                  "other_attributes": {},
+                  "content": [
+                    "\n\t\t                Invalid date per enumeration\n\t\t            "
+                  ]
+                }
+              ],
+              "other_attributes": {}
+            }
+          ],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../oracleData/Zone/zone401.n1.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "invalid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2011-02-24",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "zone401.n1.xml",
+          "version": [],
+          "other_attributes": {}
+        },
+        {
+          "annotation": [
+            {
+              "appinfo_or_documentation": [
+                {
+                  "source": null,
+                  "lang": null,
+                  "other_attributes": {},
+                  "content": [
+                    "\n\t\t                Invalid date per enumeration\n\t\t            "
+                  ]
+                }
+              ],
+              "other_attributes": {}
+            }
+          ],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../oracleData/Zone/zone401.n2.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "invalid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2011-02-24",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "zone401.n2.xml",
+          "version": [],
+          "other_attributes": {}
+        }
+      ],
+      "name": "zone401",
+      "version": [
         "1.1"
-    ],
-    "other_attributes": {}
+      ],
+      "other_attributes": {}
+    },
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                {
+                  "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                  "text": " Test year zero allowed for facet maxInclusive for datatype xs:dateTime ",
+                  "tail": null,
+                  "children": [],
+                  "attributes": {}
+                },
+                {
+                  "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                  "text": " Test year zero allowed for facet maxInclusive for datatype xs:dateTime",
+                  "tail": null,
+                  "children": [],
+                  "attributes": {}
+                }
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone",
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../oracleData/Zone/zone402.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "valid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2011-02-24",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "zone402.xsd",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [
+        {
+          "annotation": [
+            {
+              "appinfo_or_documentation": [
+                {
+                  "source": null,
+                  "lang": null,
+                  "other_attributes": {},
+                  "content": [
+                    "\n\t\t                Invalid date per maxInclusive facet\n\t\t            "
+                  ]
+                }
+              ],
+              "other_attributes": {}
+            }
+          ],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../oracleData/Zone/zone402.n1.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "invalid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2011-02-24",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "zone402.n1.xml",
+          "version": [],
+          "other_attributes": {}
+        },
+        {
+          "annotation": [
+            {
+              "appinfo_or_documentation": [
+                {
+                  "source": null,
+                  "lang": null,
+                  "other_attributes": {},
+                  "content": [
+                    "\n\t\t                Invalid date per maxInclusive facet\n\t\t            "
+                  ]
+                }
+              ],
+              "other_attributes": {}
+            }
+          ],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../oracleData/Zone/zone402.n2.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "invalid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2011-02-24",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "zone402.n2.xml",
+          "version": [],
+          "other_attributes": {}
+        },
+        {
+          "annotation": [
+            {
+              "appinfo_or_documentation": [
+                {
+                  "source": null,
+                  "lang": null,
+                  "other_attributes": {},
+                  "content": [
+                    "\n\t\t                Valid date per maxInclusive facet\n\t\t            "
+                  ]
+                }
+              ],
+              "other_attributes": {}
+            }
+          ],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../oracleData/Zone/zone402.v1.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "valid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2011-02-24",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "zone402.v1.xml",
+          "version": [],
+          "other_attributes": {}
+        }
+      ],
+      "name": "zone402",
+      "version": [
+        "1.1"
+      ],
+      "other_attributes": {}
+    },
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                {
+                  "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                  "text": "Test new timezone facet explicitTimezone, value=\"required\" for datatype xs:dateTime",
+                  "tail": null,
+                  "children": [],
+                  "attributes": {}
+                },
+                {
+                  "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                  "text": "Test new timezone facet explicitTimezone, value=\"required\" for datatype xs:dateTime",
+                  "tail": null,
+                  "children": [],
+                  "attributes": {}
+                }
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone",
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../oracleData/Zone/zone403.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "valid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2011-02-24",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "zone403.xsd",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [
+        {
+          "annotation": [
+            {
+              "appinfo_or_documentation": [
+                {
+                  "source": null,
+                  "lang": null,
+                  "other_attributes": {},
+                  "content": [
+                    "\n\t\t                valid, timezone present.\n\t\t            "
+                  ]
+                }
+              ],
+              "other_attributes": {}
+            }
+          ],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../oracleData/Zone/zone403.v1.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "valid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2011-02-24",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "zone403.v1.xml",
+          "version": [],
+          "other_attributes": {}
+        },
+        {
+          "annotation": [
+            {
+              "appinfo_or_documentation": [
+                {
+                  "source": null,
+                  "lang": null,
+                  "other_attributes": {},
+                  "content": [
+                    "\n\t\t                valid, timezone present.\n\t\t            "
+                  ]
+                }
+              ],
+              "other_attributes": {}
+            }
+          ],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../oracleData/Zone/zone403.v2.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "valid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2011-02-24",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "zone403.v2.xml",
+          "version": [],
+          "other_attributes": {}
+        },
+        {
+          "annotation": [
+            {
+              "appinfo_or_documentation": [
+                {
+                  "source": null,
+                  "lang": null,
+                  "other_attributes": {},
+                  "content": [
+                    "\n\t\t                Invalid, timezone not present.\n\t\t            "
+                  ]
+                }
+              ],
+              "other_attributes": {}
+            }
+          ],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../oracleData/Zone/zone403.n1.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "invalid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2011-02-24",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "zone403.n1.xml",
+          "version": [],
+          "other_attributes": {}
+        }
+      ],
+      "name": "zone403",
+      "version": [
+        "1.1"
+      ],
+      "other_attributes": {}
+    },
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                {
+                  "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                  "text": "Test new timezone facet explicitTimezone, value=\"prohibited\" for datatype xs:dateTime",
+                  "tail": null,
+                  "children": [],
+                  "attributes": {}
+                },
+                {
+                  "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                  "text": "Test new timezone facet explicitTimezone, value=\"prohibited\" for datatype xs:dateTime",
+                  "tail": null,
+                  "children": [],
+                  "attributes": {}
+                }
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone",
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../oracleData/Zone/zone404.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "valid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2011-02-24",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "zone404.xsd",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [
+        {
+          "annotation": [
+            {
+              "appinfo_or_documentation": [
+                {
+                  "source": null,
+                  "lang": null,
+                  "other_attributes": {},
+                  "content": [
+                    "\n\t\t                valid, timezone not present as expected\n\t\t            "
+                  ]
+                }
+              ],
+              "other_attributes": {}
+            }
+          ],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../oracleData/Zone/zone404.v1.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "valid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2011-02-24",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "zone404.v1.xml",
+          "version": [],
+          "other_attributes": {}
+        },
+        {
+          "annotation": [
+            {
+              "appinfo_or_documentation": [
+                {
+                  "source": null,
+                  "lang": null,
+                  "other_attributes": {},
+                  "content": [
+                    "\n\t\t                Invalid, timezone present.\n\t\t            "
+                  ]
+                }
+              ],
+              "other_attributes": {}
+            }
+          ],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../oracleData/Zone/zone404.n1.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "invalid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2011-02-24",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "zone404.n1.xml",
+          "version": [],
+          "other_attributes": {}
+        },
+        {
+          "annotation": [
+            {
+              "appinfo_or_documentation": [
+                {
+                  "source": null,
+                  "lang": null,
+                  "other_attributes": {},
+                  "content": [
+                    "\n\t\t                Invalid, timezone present.\n\t\t            "
+                  ]
+                }
+              ],
+              "other_attributes": {}
+            }
+          ],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../oracleData/Zone/zone404.n2.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "invalid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2011-02-24",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "zone404.n2.xml",
+          "version": [],
+          "other_attributes": {}
+        }
+      ],
+      "name": "zone404",
+      "version": [
+        "1.1"
+      ],
+      "other_attributes": {}
+    },
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                {
+                  "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                  "text": "Test new timezone facet explicitTimezone, value=\"optional\" for datatype xs:dateTime",
+                  "tail": null,
+                  "children": [],
+                  "attributes": {}
+                },
+                {
+                  "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                  "text": "Test new timezone facet explicitTimezone, value=\"optional\" for datatype xs:dateTime",
+                  "tail": null,
+                  "children": [],
+                  "attributes": {}
+                }
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone",
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../oracleData/Zone/zone405.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "valid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [
+            {
+              "appinfo_or_documentation": [
+                {
+                  "source": null,
+                  "lang": null,
+                  "other_attributes": {},
+                  "content": [
+                    "\n\t\t                Typo corrected - see bug #12189\n\t\t            "
+                  ]
+                }
+              ],
+              "other_attributes": {}
+            }
+          ],
+          "status": "accepted",
+          "date": "2011-07-29",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [
+          {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2011-02-24",
+            "bugzilla": null,
+            "other_attributes": {}
+          }
+        ],
+        "name": "zone405.xsd",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [
+        {
+          "annotation": [
+            {
+              "appinfo_or_documentation": [
+                {
+                  "source": null,
+                  "lang": null,
+                  "other_attributes": {},
+                  "content": [
+                    "\n\t\t                valid date\n\t\t            "
+                  ]
+                }
+              ],
+              "other_attributes": {}
+            }
+          ],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../oracleData/Zone/zone405.v1.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "valid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2011-02-24",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "zone405.v1.xml",
+          "version": [],
+          "other_attributes": {}
+        },
+        {
+          "annotation": [
+            {
+              "appinfo_or_documentation": [
+                {
+                  "source": null,
+                  "lang": null,
+                  "other_attributes": {},
+                  "content": [
+                    "\n\t\t                valid date\n\t\t            "
+                  ]
+                }
+              ],
+              "other_attributes": {}
+            }
+          ],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../oracleData/Zone/zone405.v2.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "valid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2011-02-24",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "zone405.v2.xml",
+          "version": [],
+          "other_attributes": {}
+        },
+        {
+          "annotation": [
+            {
+              "appinfo_or_documentation": [
+                {
+                  "source": null,
+                  "lang": null,
+                  "other_attributes": {},
+                  "content": [
+                    "\n\t\t                valid date\n\t\t            "
+                  ]
+                }
+              ],
+              "other_attributes": {}
+            }
+          ],
+          "instanceDocument": {
+            "annotation": [],
+            "type": "locator",
+            "href": "../oracleData/Zone/zone405.v3.xml",
+            "other_attributes": {}
+          },
+          "expected": [
+            {
+              "validity": "valid",
+              "version": [],
+              "other_attributes": {}
+            }
+          ],
+          "current": {
+            "annotation": [],
+            "status": "accepted",
+            "date": "2011-02-24",
+            "bugzilla": null,
+            "other_attributes": {}
+          },
+          "prior": [],
+          "name": "zone405.v3.xml",
+          "version": [],
+          "other_attributes": {}
+        }
+      ],
+      "name": "zone405",
+      "version": [
+        "1.1"
+      ],
+      "other_attributes": {}
+    },
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                {
+                  "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                  "text": "Test day value must be no more than 30 if month is one of 4, 6, 9, or 11 for xs:dateTime",
+                  "tail": null,
+                  "children": [],
+                  "attributes": {}
+                },
+                {
+                  "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                  "text": "Test day value must be no more than 30 if month is one of 4, 6, 9, or 11 for xs:dateTime",
+                  "tail": null,
+                  "children": [],
+                  "attributes": {}
+                }
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone",
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../oracleData/Zone/zone406.bad.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "invalid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2011-02-24",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "zone406.xsd",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [],
+      "name": "zone406",
+      "version": [
+        "1.1"
+      ],
+      "other_attributes": {}
+    },
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                {
+                  "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                  "text": "Test day value must be no more than 28 if month is 2 and Year is not divisible 4 in xs:dateTime",
+                  "tail": null,
+                  "children": [],
+                  "attributes": {}
+                },
+                {
+                  "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                  "text": "Test day value must be no more than 28 if month is 2 and Year is not divisible 4 in xs:dateTime",
+                  "tail": null,
+                  "children": [],
+                  "attributes": {}
+                }
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone",
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../oracleData/Zone/zone407.bad.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "invalid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2011-02-24",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "zone407.xsd",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [],
+      "name": "zone407",
+      "version": [
+        "1.1"
+      ],
+      "other_attributes": {}
+    },
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                {
+                  "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                  "text": " Test explicitTimezone facet: cannot derive \"required\" from \"prohibited\"",
+                  "tail": null,
+                  "children": [],
+                  "attributes": {}
+                },
+                {
+                  "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                  "text": " Test explicitTimezone facet: cannot derive \"required\" from \"prohibited\"",
+                  "tail": null,
+                  "children": [],
+                  "attributes": {}
+                }
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone",
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../oracleData/Zone/zone408.bad.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "invalid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2011-02-24",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "zone408.xsd",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [],
+      "name": "zone408",
+      "version": [
+        "1.1"
+      ],
+      "other_attributes": {}
+    },
+    {
+      "annotation": [
+        {
+          "appinfo_or_documentation": [
+            {
+              "source": null,
+              "lang": null,
+              "other_attributes": {},
+              "content": [
+                {
+                  "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                  "text": " Test explicitTimezone facet: cannot derive \"prohibited\" from \"required\"",
+                  "tail": null,
+                  "children": [],
+                  "attributes": {}
+                },
+                {
+                  "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                  "text": " Test explicitTimezone facet: cannot derive \"prohibited\" from \"required\"",
+                  "tail": null,
+                  "children": [],
+                  "attributes": {}
+                }
+              ]
+            }
+          ],
+          "other_attributes": {}
+        }
+      ],
+      "documentationReference": [
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone",
+          "other_attributes": {}
+        },
+        {
+          "annotation": [],
+          "type": "locator",
+          "href": "../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet",
+          "other_attributes": {}
+        }
+      ],
+      "schemaTest": {
+        "annotation": [],
+        "schemaDocument": [
+          {
+            "annotation": [],
+            "type": "locator",
+            "href": "../oracleData/Zone/zone409.bad.xsd",
+            "other_attributes": {}
+          }
+        ],
+        "expected": [
+          {
+            "validity": "invalid",
+            "version": [],
+            "other_attributes": {}
+          }
+        ],
+        "current": {
+          "annotation": [],
+          "status": "accepted",
+          "date": "2011-02-24",
+          "bugzilla": null,
+          "other_attributes": {}
+        },
+        "prior": [],
+        "name": "zone409.xsd",
+        "version": [],
+        "other_attributes": {}
+      },
+      "instanceTest": [],
+      "name": "zone409",
+      "version": [
+        "1.1"
+      ],
+      "other_attributes": {}
+    }
+  ],
+  "contributor": "Oracle Corporation",
+  "name": "Zone",
+  "version": [
+    "1.1"
+  ],
+  "other_attributes": {}
 }

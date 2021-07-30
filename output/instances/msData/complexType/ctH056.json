@@ -1,9 +1,9 @@
 {
-    "myElement1": null,
-    "myElement2": "test data",
-    "myElement3": null,
-    "local_attributes": {},
-    "myAttr": "extension attribute",
-    "myAttr1": "extension group attribute",
-    "myAttr2": "extension group second attribute"
+  "myElement1": null,
+  "myElement2": "test data",
+  "myElement3": null,
+  "local_attributes": {},
+  "myAttr": "extension attribute",
+  "myAttr1": "extension group attribute",
+  "myAttr2": "extension group second attribute"
 }

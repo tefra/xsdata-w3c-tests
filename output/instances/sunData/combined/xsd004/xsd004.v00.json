@@ -1,212 +1,212 @@
 {
-    "choice": [
+  "choice": [
+    {
+      "any_element": [
         {
-            "any_element": [
+          "qname": "{foo}root",
+          "text": "",
+          "tail": null,
+          "children": [
+            {
+              "qname": "{foo}child",
+              "text": "",
+              "tail": null,
+              "children": [],
+              "attributes": {}
+            },
+            {
+              "qname": "{bar}nocheck",
+              "text": "",
+              "tail": "\n\t\t\tmixed is also allowed?\n\t\t",
+              "children": [
                 {
-                    "qname": "{foo}root",
-                    "text": "",
-                    "tail": null,
-                    "children": [
-                        {
-                            "qname": "{foo}child",
-                            "text": "",
-                            "tail": null,
-                            "children": [],
-                            "attributes": {}
-                        },
-                        {
-                            "qname": "{bar}nocheck",
-                            "text": "",
-                            "tail": "\n\t\t\tmixed is also allowed?\n\t\t",
-                            "children": [
-                                {
-                                    "qname": "{zot}nocheck",
-                                    "text": "",
-                                    "tail": null,
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "attributes": {}
-                        }
-                    ],
-                    "attributes": {}
+                  "qname": "{zot}nocheck",
+                  "text": "",
+                  "tail": null,
+                  "children": [],
+                  "attributes": {}
                 }
-            ]
-        },
-        {
-            "any_element": [
-                {
-                    "qname": "{foo}undeclared",
-                    "text": "",
-                    "tail": null,
-                    "children": [
-                        {
-                            "qname": "{bar}a",
-                            "text": "",
-                            "tail": null,
-                            "children": [],
-                            "attributes": {}
-                        },
-                        {
-                            "qname": "undefined",
-                            "text": "",
-                            "tail": null,
-                            "children": [],
-                            "attributes": {}
-                        }
-                    ],
-                    "attributes": {}
-                }
-            ]
-        },
-        {
-            "any_element": [
-                {
-                    "qname": "{bar}c",
-                    "text": "",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {}
-                },
-                {
-                    "qname": "{zot}b",
-                    "text": "",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {}
-                },
-                {
-                    "qname": "{zot}c",
-                    "text": "",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {}
-                }
-            ]
-        },
-        {
-            "other_element": [
-                {
-                    "qname": "{bob}undeclared",
-                    "text": "",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {}
-                },
-                {
-                    "qname": "{nowhere}anyThing",
-                    "text": "",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {}
-                },
-                {
-                    "qname": "{other1}asLongAsInOtherNS",
-                    "text": "",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {}
-                },
-                {
-                    "qname": "{zot}a",
-                    "text": "",
-                    "tail": null,
-                    "children": [
-                        {
-                            "qname": "{zot}a",
-                            "text": "",
-                            "tail": null,
-                            "children": [],
-                            "attributes": {}
-                        }
-                    ],
-                    "attributes": {}
-                }
-            ]
-        },
-        {
-            "local_element": [
-                {
-                    "qname": "undeclaredOnly",
-                    "text": "",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {}
-                },
-                {
-                    "qname": "butLaxlyValidated",
-                    "text": "",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {}
-                }
-            ]
-        },
-        {
-            "target_namespace_element": [
-                {
-                    "qname": "{foo}root",
-                    "text": "",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {}
-                },
-                {
-                    "qname": "{foo}root",
-                    "text": "",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {}
-                },
-                {
-                    "qname": "{foo}root",
-                    "text": "",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {}
-                }
-            ]
-        },
-        {
-            "bar_element": [
-                {
-                    "qname": "{bar}everything",
-                    "text": "",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {}
-                },
-                {
-                    "qname": "{bar}in",
-                    "text": "",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {}
-                },
-                {
-                    "qname": "{bar}bar",
-                    "text": "",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {}
-                },
-                {
-                    "qname": "{bar}a",
-                    "text": "",
-                    "tail": null,
-                    "children": [
-                        {
-                            "qname": "{bar}ignore",
-                            "text": "",
-                            "tail": null,
-                            "children": [],
-                            "attributes": {}
-                        }
-                    ],
-                    "attributes": {}
-                }
-            ]
+              ],
+              "attributes": {}
+            }
+          ],
+          "attributes": {}
         }
-    ]
+      ]
+    },
+    {
+      "any_element": [
+        {
+          "qname": "{foo}undeclared",
+          "text": "",
+          "tail": null,
+          "children": [
+            {
+              "qname": "{bar}a",
+              "text": "",
+              "tail": null,
+              "children": [],
+              "attributes": {}
+            },
+            {
+              "qname": "undefined",
+              "text": "",
+              "tail": null,
+              "children": [],
+              "attributes": {}
+            }
+          ],
+          "attributes": {}
+        }
+      ]
+    },
+    {
+      "any_element": [
+        {
+          "qname": "{bar}c",
+          "text": "",
+          "tail": null,
+          "children": [],
+          "attributes": {}
+        },
+        {
+          "qname": "{zot}b",
+          "text": "",
+          "tail": null,
+          "children": [],
+          "attributes": {}
+        },
+        {
+          "qname": "{zot}c",
+          "text": "",
+          "tail": null,
+          "children": [],
+          "attributes": {}
+        }
+      ]
+    },
+    {
+      "other_element": [
+        {
+          "qname": "{bob}undeclared",
+          "text": "",
+          "tail": null,
+          "children": [],
+          "attributes": {}
+        },
+        {
+          "qname": "{nowhere}anyThing",
+          "text": "",
+          "tail": null,
+          "children": [],
+          "attributes": {}
+        },
+        {
+          "qname": "{other1}asLongAsInOtherNS",
+          "text": "",
+          "tail": null,
+          "children": [],
+          "attributes": {}
+        },
+        {
+          "qname": "{zot}a",
+          "text": "",
+          "tail": null,
+          "children": [
+            {
+              "qname": "{zot}a",
+              "text": "",
+              "tail": null,
+              "children": [],
+              "attributes": {}
+            }
+          ],
+          "attributes": {}
+        }
+      ]
+    },
+    {
+      "local_element": [
+        {
+          "qname": "undeclaredOnly",
+          "text": "",
+          "tail": null,
+          "children": [],
+          "attributes": {}
+        },
+        {
+          "qname": "butLaxlyValidated",
+          "text": "",
+          "tail": null,
+          "children": [],
+          "attributes": {}
+        }
+      ]
+    },
+    {
+      "target_namespace_element": [
+        {
+          "qname": "{foo}root",
+          "text": "",
+          "tail": null,
+          "children": [],
+          "attributes": {}
+        },
+        {
+          "qname": "{foo}root",
+          "text": "",
+          "tail": null,
+          "children": [],
+          "attributes": {}
+        },
+        {
+          "qname": "{foo}root",
+          "text": "",
+          "tail": null,
+          "children": [],
+          "attributes": {}
+        }
+      ]
+    },
+    {
+      "bar_element": [
+        {
+          "qname": "{bar}everything",
+          "text": "",
+          "tail": null,
+          "children": [],
+          "attributes": {}
+        },
+        {
+          "qname": "{bar}in",
+          "text": "",
+          "tail": null,
+          "children": [],
+          "attributes": {}
+        },
+        {
+          "qname": "{bar}bar",
+          "text": "",
+          "tail": null,
+          "children": [],
+          "attributes": {}
+        },
+        {
+          "qname": "{bar}a",
+          "text": "",
+          "tail": null,
+          "children": [
+            {
+              "qname": "{bar}ignore",
+              "text": "",
+              "tail": null,
+              "children": [],
+              "attributes": {}
+            }
+          ],
+          "attributes": {}
+        }
+      ]
+    }
+  ]
 }

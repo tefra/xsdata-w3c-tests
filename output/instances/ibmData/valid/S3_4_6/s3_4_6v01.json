@@ -1,34 +1,34 @@
 {
-    "a": 1,
-    "any_element": [
+  "a": 1,
+  "any_element": [
+    {
+      "qname": "wildcard",
+      "text": "1",
+      "tail": null,
+      "children": [],
+      "attributes": {}
+    },
+    {
+      "qname": "wildcard2",
+      "text": "hi.123",
+      "tail": null,
+      "children": [],
+      "attributes": {}
+    },
+    {
+      "qname": "wildcard3",
+      "text": "",
+      "tail": null,
+      "children": [
         {
-            "qname": "wildcard",
-            "text": "1",
-            "tail": null,
-            "children": [],
-            "attributes": {}
-        },
-        {
-            "qname": "wildcard2",
-            "text": "hi.123",
-            "tail": null,
-            "children": [],
-            "attributes": {}
-        },
-        {
-            "qname": "wildcard3",
-            "text": "",
-            "tail": null,
-            "children": [
-                {
-                    "qname": "hello",
-                    "text": "\n   moo\n  ",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {}
-                }
-            ],
-            "attributes": {}
+          "qname": "hello",
+          "text": "\n   moo\n  ",
+          "tail": null,
+          "children": [],
+          "attributes": {}
         }
-    ]
+      ],
+      "attributes": {}
+    }
+  ]
 }

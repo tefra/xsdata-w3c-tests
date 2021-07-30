@@ -1,19 +1,19 @@
 {
-    "elem": {
-        "other_element": {
-            "qname": "{foo}foo",
-            "text": "",
-            "tail": null,
-            "children": [
-                {
-                    "qname": "{foo}e1",
-                    "text": "",
-                    "tail": null,
-                    "children": [],
-                    "attributes": {}
-                }
-            ],
-            "attributes": {}
+  "elem": {
+    "other_element": {
+      "qname": "{foo}foo",
+      "text": "",
+      "tail": null,
+      "children": [
+        {
+          "qname": "{foo}e1",
+          "text": "",
+          "tail": null,
+          "children": [],
+          "attributes": {}
         }
+      ],
+      "attributes": {}
     }
+  }
 }

@@ -1,12 +1,12 @@
 {
-    "value": [
-        "gopher://e.org",
-        "ftp://mo.repos.net",
-        "telnet://hete.org",
-        "telnet://oft.com",
-        "telnet://comp.Anla.themf.edu",
-        "telnet://ass.buil.gov",
-        "telnet://onsti.in.tun.gov",
-        "ftp://stan.edu"
-    ]
+  "value": [
+    "gopher://e.org",
+    "ftp://mo.repos.net",
+    "telnet://hete.org",
+    "telnet://oft.com",
+    "telnet://comp.Anla.themf.edu",
+    "telnet://ass.buil.gov",
+    "telnet://onsti.in.tun.gov",
+    "ftp://stan.edu"
+  ]
 }

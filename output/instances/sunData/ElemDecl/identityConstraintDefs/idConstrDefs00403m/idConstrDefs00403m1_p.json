@@ -1,22 +1,22 @@
 {
-    "person": [
-        {
-            "value": "William Smith",
-            "ssn": "p008",
-            "parents": []
-        },
-        {
-            "value": "Anna Brown",
-            "ssn": "p011",
-            "parents": []
-        },
-        {
-            "value": "John Smith",
-            "ssn": "p007",
-            "parents": [
-                "p008",
-                "p011"
-            ]
-        }
-    ]
+  "person": [
+    {
+      "value": "William Smith",
+      "ssn": "p008",
+      "parents": []
+    },
+    {
+      "value": "Anna Brown",
+      "ssn": "p011",
+      "parents": []
+    },
+    {
+      "value": "John Smith",
+      "ssn": "p007",
+      "parents": [
+        "p008",
+        "p011"
+      ]
+    }
+  ]
 }

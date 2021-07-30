@@ -1,14 +1,14 @@
 {
-    "value": [
-        "ftp://ofa.ben.e.com",
-        "news://l.com",
-        "gopher://ao.regi.doc.org",
-        "telnet://wi.ismet.gov",
-        "telnet://welleach.bodySO.Awo.org",
-        "gopher://thea.org",
-        "telnet://So.the.a.XM.com",
-        "ftp://fr.theN.com",
-        "telnet://backCo.sign.retrieves.org",
-        "ftp://chair.th.com"
-    ]
+  "value": [
+    "ftp://ofa.ben.e.com",
+    "news://l.com",
+    "gopher://ao.regi.doc.org",
+    "telnet://wi.ismet.gov",
+    "telnet://welleach.bodySO.Awo.org",
+    "gopher://thea.org",
+    "telnet://So.the.a.XM.com",
+    "ftp://fr.theN.com",
+    "telnet://backCo.sign.retrieves.org",
+    "ftp://chair.th.com"
+  ]
 }

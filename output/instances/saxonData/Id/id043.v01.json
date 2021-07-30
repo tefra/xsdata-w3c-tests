@@ -1,48 +1,48 @@
 {
-    "chap_or_appx": [
+  "chap_or_appx": [
+    {
+      "section": [
         {
-            "section": [
-                {
-                    "value": "",
-                    "nr": "1"
-                },
-                {
-                    "value": "",
-                    "nr": "2"
-                },
-                {
-                    "value": "",
-                    "nr": "3"
-                },
-                {
-                    "value": "",
-                    "nr": "4"
-                }
-            ]
+          "value": "",
+          "nr": "1"
         },
         {
-            "qname": "{http://id043.ly/}appx",
-            "value": {
-                "section": [
-                    {
-                        "value": "",
-                        "nr": "1"
-                    },
-                    {
-                        "value": "",
-                        "nr": "2"
-                    },
-                    {
-                        "value": "",
-                        "nr": "3"
-                    },
-                    {
-                        "value": "",
-                        "nr": "4"
-                    }
-                ]
-            },
-            "type": null
+          "value": "",
+          "nr": "2"
+        },
+        {
+          "value": "",
+          "nr": "3"
+        },
+        {
+          "value": "",
+          "nr": "4"
         }
-    ]
+      ]
+    },
+    {
+      "qname": "{http://id043.ly/}appx",
+      "value": {
+        "section": [
+          {
+            "value": "",
+            "nr": "1"
+          },
+          {
+            "value": "",
+            "nr": "2"
+          },
+          {
+            "value": "",
+            "nr": "3"
+          },
+          {
+            "value": "",
+            "nr": "4"
+          }
+        ]
+      },
+      "type": null
+    }
+  ]
 }

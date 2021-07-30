@@ -1,6 +1,6 @@
 {
-    "myElement": "all field",
-    "myEle2": null,
-    "attrTest": "attribute1",
-    "attrTest2": "attribute2"
+  "myElement": "all field",
+  "myEle2": null,
+  "attrTest": "attribute1",
+  "attrTest2": "attribute2"
 }

@@ -1,6 +1,6 @@
 {
-    "any_attributes": {
-        "{http://adam.com/}adam": "m",
-        "{http://eve.com/}eve": "f"
-    }
+  "any_attributes": {
+    "{http://adam.com/}adam": "m",
+    "{http://eve.com/}eve": "f"
+  }
 }

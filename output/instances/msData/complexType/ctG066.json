@@ -1,10 +1,10 @@
 {
-    "myElement1": null,
-    "myElement2": null,
-    "myElement3": null,
-    "any_attributes": {
-        "{http://www.w3.org/2001/XMLSchema-instance}noNamespaceSchemaLocation": "ctG066.xsd"
-    },
-    "myAttr1": "test attribute",
-    "myAttr": "second attribute"
+  "myElement1": null,
+  "myElement2": null,
+  "myElement3": null,
+  "any_attributes": {
+    "{http://www.w3.org/2001/XMLSchema-instance}noNamespaceSchemaLocation": "ctG066.xsd"
+  },
+  "myAttr1": "test attribute",
+  "myAttr": "second attribute"
 }

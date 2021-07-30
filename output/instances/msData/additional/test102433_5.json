@@ -1,9 +1,9 @@
 {
-    "any_element": {
-        "qname": "{ns}baz",
-        "text": "",
-        "tail": null,
-        "children": [],
-        "attributes": {}
-    }
+  "any_element": {
+    "qname": "{ns}baz",
+    "text": "",
+    "tail": null,
+    "children": [],
+    "attributes": {}
+  }
 }

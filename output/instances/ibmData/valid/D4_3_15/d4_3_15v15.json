@@ -1,29 +1,29 @@
 {
-    "ele1": [
+  "ele1": [
+    {
+      "subElement1": [
         {
-            "subElement1": [
+          "ele1": [],
+          "ele2": [
+            {
+              "subElement2": [
                 {
-                    "ele1": [],
-                    "ele2": [
-                        {
-                            "subElement2": [
-                                {
-                                    "ele1": [
-                                        {
-                                            "subElement1": [],
-                                            "attr1": "2"
-                                        }
-                                    ],
-                                    "ele2": []
-                                }
-                            ],
-                            "attr2": "3"
-                        }
-                    ]
+                  "ele1": [
+                    {
+                      "subElement1": [],
+                      "attr1": "2"
+                    }
+                  ],
+                  "ele2": []
                 }
-            ],
-            "attr1": "1"
+              ],
+              "attr2": "3"
+            }
+          ]
         }
-    ],
-    "ele2": []
+      ],
+      "attr1": "1"
+    }
+  ],
+  "ele2": []
 }

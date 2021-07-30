@@ -1,27 +1,27 @@
 {
-    "part": [
+  "part": [
+    {
+      "chap": [
         {
-            "chap": [
-                {
-                    "value": "",
-                    "de": "",
-                    "lang": null,
-                    "fr": null
-                }
-            ],
-            "lang": "fr"
-        },
-        {
-            "chap": [
-                {
-                    "value": "",
-                    "de": null,
-                    "lang": "fr",
-                    "fr": ""
-                }
-            ],
-            "lang": "en"
+          "value": "",
+          "de": "",
+          "lang": null,
+          "fr": null
         }
-    ],
-    "lang": "de"
+      ],
+      "lang": "fr"
+    },
+    {
+      "chap": [
+        {
+          "value": "",
+          "de": null,
+          "lang": "fr",
+          "fr": ""
+        }
+      ],
+      "lang": "en"
+    }
+  ],
+  "lang": "de"
 }

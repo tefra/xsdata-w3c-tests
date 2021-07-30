@@ -1,31 +1,31 @@
 {
-    "local_element": {
-        "qname": null,
-        "text": null,
+  "local_element": {
+    "qname": null,
+    "text": null,
+    "tail": null,
+    "children": [
+      {
+        "qname": "j",
+        "text": "banana",
         "tail": null,
-        "children": [
-            {
-                "qname": "j",
-                "text": "banana",
-                "tail": null,
-                "children": [],
-                "attributes": {}
-            },
-            {
-                "qname": "a",
-                "text": "17",
-                "tail": null,
-                "children": [],
-                "attributes": {}
-            }
-        ],
+        "children": [],
         "attributes": {}
-    },
-    "i": [
-        12,
-        42
+      },
+      {
+        "qname": "a",
+        "text": "17",
+        "tail": null,
+        "children": [],
+        "attributes": {}
+      }
     ],
-    "d": [
-        "2008-08-08"
-    ]
+    "attributes": {}
+  },
+  "i": [
+    12,
+    42
+  ],
+  "d": [
+    "2008-08-08"
+  ]
 }

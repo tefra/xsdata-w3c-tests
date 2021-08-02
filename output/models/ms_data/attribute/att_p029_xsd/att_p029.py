@@ -9,15 +9,6 @@ class AttRef:
     class Meta:
         name = "attRef"
 
-    att: str = field(
-        init=False,
-        default="37",
-        metadata={
-            "type": "Attribute",
-            "namespace": "http://xsdtesting",
-        }
-    )
-
 
 @dataclass
 class Doc:

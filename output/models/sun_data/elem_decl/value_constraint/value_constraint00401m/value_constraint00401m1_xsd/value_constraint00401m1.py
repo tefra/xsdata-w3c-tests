@@ -10,7 +10,10 @@ class E:
         namespace = "ElemDecl/valueConstraint"
 
     value: bool = field(
-        default=True
+        default=True,
+        metadata={
+            "required": True,
+        }
     )
 
 

@@ -11,5 +11,8 @@ class Root:
         namespace = "ElemDecl/valueConstraint"
 
     value: Decimal = field(
-        default=Decimal("12")
+        default=Decimal("12"),
+        metadata={
+            "required": True,
+        }
     )

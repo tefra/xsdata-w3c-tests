@@ -12,6 +12,7 @@ class ComplexfooType:
         metadata={
             "type": "Element",
             "namespace": "",
+            "required": True,
             "tokens": True,
         }
     )
@@ -54,6 +55,7 @@ class Root:
         metadata={
             "name": "simpleTest",
             "type": "Element",
+            "required": True,
             "tokens": True,
         }
     )

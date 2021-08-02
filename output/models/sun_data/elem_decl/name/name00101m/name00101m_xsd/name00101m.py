@@ -26,5 +26,8 @@ class Root2:
 
     value: str = field(
         init=False,
-        default="No"
+        default="No",
+        metadata={
+            "required": True,
+        }
     )

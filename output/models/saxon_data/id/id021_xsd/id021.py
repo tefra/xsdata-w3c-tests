@@ -11,6 +11,7 @@ class Para:
         default="entity1 entity2",
         metadata={
             "type": "Element",
+            "required": True,
         }
     )
 

@@ -11,6 +11,7 @@ class Element:
     value: str = field(
         default="1.0e-2",
         metadata={
+            "required": True,
             "pattern": r"...[Ee]..",
         }
     )
@@ -27,6 +28,7 @@ class Root:
         metadata={
             "name": "Element",
             "type": "Element",
+            "required": True,
             "pattern": r"...[Ee]..",
         }
     )

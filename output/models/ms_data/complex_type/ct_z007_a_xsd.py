@@ -35,7 +35,10 @@ class State:
 
     value: str = field(
         init=False,
-        default="WA"
+        default="WA",
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -162,6 +165,7 @@ class MyCustomerType(CustomerType):
             "name": "State",
             "type": "Element",
             "namespace": "urn:xmlns:25hoursaday-com:address",
+            "required": True,
         }
     )
     zip: Optional[str] = field(

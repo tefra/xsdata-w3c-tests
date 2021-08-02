@@ -9,7 +9,10 @@ class A:
 
     value: str = field(
         init=False,
-        default="e1"
+        default="e1",
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -20,7 +23,10 @@ class B:
 
     value: str = field(
         init=False,
-        default="e1"
+        default="e1",
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -64,5 +70,8 @@ class E:
 
     value: str = field(
         init=False,
-        default="e1"
+        default="e1",
+        metadata={
+            "required": True,
+        }
     )

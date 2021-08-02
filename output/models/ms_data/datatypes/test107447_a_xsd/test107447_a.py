@@ -12,6 +12,7 @@ class Root:
         default=" John    ",
         metadata={
             "type": "Element",
+            "required": True,
         }
     )
     language: str = field(
@@ -19,6 +20,7 @@ class Root:
         default=" John    ",
         metadata={
             "type": "Element",
+            "required": True,
         }
     )
     name: str = field(
@@ -26,6 +28,7 @@ class Root:
         default=" John    ",
         metadata={
             "type": "Element",
+            "required": True,
         }
     )
     ncname: str = field(
@@ -33,6 +36,7 @@ class Root:
         default=" John    ",
         metadata={
             "type": "Element",
+            "required": True,
         }
     )
     id: str = field(
@@ -40,6 +44,7 @@ class Root:
         default=" John    ",
         metadata={
             "type": "Element",
+            "required": True,
         }
     )
     idref: str = field(
@@ -47,6 +52,7 @@ class Root:
         default=" John    ",
         metadata={
             "type": "Element",
+            "required": True,
         }
     )
     idrefs: List[str] = field(
@@ -56,6 +62,7 @@ class Root:
         ],
         metadata={
             "type": "Element",
+            "required": True,
             "tokens": True,
         }
     )
@@ -64,6 +71,7 @@ class Root:
         default=" John    ",
         metadata={
             "type": "Element",
+            "required": True,
         }
     )
     nmtokens: List[str] = field(
@@ -73,6 +81,7 @@ class Root:
         ],
         metadata={
             "type": "Element",
+            "required": True,
             "tokens": True,
         }
     )

@@ -18,6 +18,7 @@ class Root:
         metadata={
             "type": "Element",
             "namespace": "",
+            "required": True,
         }
     )
     b: Optional[str] = field(

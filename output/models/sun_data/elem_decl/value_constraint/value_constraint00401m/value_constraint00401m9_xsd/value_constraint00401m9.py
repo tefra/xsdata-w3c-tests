@@ -10,7 +10,10 @@ class E:
         namespace = "ElemDecl/valueConstraint"
 
     value: object = field(
-        default="alpha"
+        default="alpha",
+        metadata={
+            "required": True,
+        }
     )
 
 

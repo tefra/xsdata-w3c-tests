@@ -12,7 +12,10 @@ class Id:
 
     value: str = field(
         init=False,
-        default="alpha"
+        default="alpha",
+        metadata={
+            "required": True,
+        }
     )
 
 

@@ -10,6 +10,7 @@ class Foo:
     value: List[str] = field(
         default_factory=list,
         metadata={
+            "required": True,
             "pattern": r"[A-C]{0,2}",
             "tokens": True,
         }

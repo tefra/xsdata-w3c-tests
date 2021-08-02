@@ -26,6 +26,7 @@ class Root:
         metadata={
             "name": "fooTest",
             "type": "Element",
+            "required": True,
             "length": 2,
             "tokens": True,
         }

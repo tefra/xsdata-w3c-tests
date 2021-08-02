@@ -9,6 +9,7 @@ class Employees:
             "name": "Employee",
             "type": "Element",
             "namespace": "",
+            "required": True,
         }
     )
     dept: int = field(

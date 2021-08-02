@@ -36,7 +36,10 @@ class RectType:
 
     value: str = field(
         init=False,
-        default="lrectangle"
+        default="lrectangle",
+        metadata={
+            "required": True,
+        }
     )
     length: Optional[object] = field(
         default=None,
@@ -59,7 +62,10 @@ class SquareType:
 
     value: str = field(
         init=False,
-        default="square"
+        default="square",
+        metadata={
+            "required": True,
+        }
     )
     length: Optional[object] = field(
         default=None,

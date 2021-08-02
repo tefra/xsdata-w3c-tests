@@ -13,6 +13,7 @@ class Doc:
         default="a",
         metadata={
             "type": "Element",
+            "required": True,
         }
     )
 

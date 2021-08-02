@@ -13,6 +13,7 @@ class NistschemaSvIvListNmtokensMinLength2:
     value: List[str] = field(
         default_factory=list,
         metadata={
+            "required": True,
             "min_length": 6,
             "tokens": True,
         }

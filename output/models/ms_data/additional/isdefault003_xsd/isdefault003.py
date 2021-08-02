@@ -7,5 +7,8 @@ class Root:
         name = "root"
 
     value: str = field(
-        default="abc"
+        default="abc",
+        metadata={
+            "required": True,
+        }
     )

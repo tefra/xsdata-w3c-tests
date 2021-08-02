@@ -11,5 +11,8 @@ class Root:
 
     value: object = field(
         init=False,
-        default="alpha beta"
+        default="alpha beta",
+        metadata={
+            "required": True,
+        }
     )

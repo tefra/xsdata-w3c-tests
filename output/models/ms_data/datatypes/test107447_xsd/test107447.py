@@ -53,6 +53,7 @@ class Root:
         default_factory=list,
         metadata={
             "type": "Element",
+            "required": True,
             "tokens": True,
         }
     )
@@ -67,6 +68,7 @@ class Root:
         default_factory=list,
         metadata={
             "type": "Element",
+            "required": True,
             "tokens": True,
         }
     )

@@ -11,7 +11,10 @@ class Id:
         namespace = "ElemDecl/valueConstraint"
 
     value: str = field(
-        default="alpha"
+        default="alpha",
+        metadata={
+            "required": True,
+        }
     )
 
 

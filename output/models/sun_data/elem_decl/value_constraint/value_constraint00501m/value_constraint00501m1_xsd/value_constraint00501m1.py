@@ -12,6 +12,7 @@ class Element:
         init=False,
         default="1.0E-2",
         metadata={
+            "required": True,
             "pattern": r"...[Ee]..",
         }
     )
@@ -29,6 +30,7 @@ class Root:
         metadata={
             "name": "Element",
             "type": "Element",
+            "required": True,
             "pattern": r"...[Ee]..",
         }
     )

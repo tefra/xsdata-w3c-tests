@@ -3,23 +3,17 @@
     {
       "value": "",
       "id-one": "aaa",
-      "any_attributes": {
-        "id-two": "bbb"
-      }
+      "id-two": "bbb"
     },
     {
       "value": "",
       "id-one": "ccc",
-      "any_attributes": {
-        "id-two": "ddd"
-      }
+      "id-two": "ddd"
     },
     {
       "value": "",
       "id-one": "eee",
-      "any_attributes": {
-        "id-two": "eee"
-      }
+      "id-two": "eee"
     }
   ]
 }

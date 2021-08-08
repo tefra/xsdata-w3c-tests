@@ -156,7 +156,17 @@ def generate_models(
 ):
     runner = CliRunner()
     result = runner.invoke(
-        cli, [xsd, "-ss", structure_style, "-p", package, "-o", output_format, "-cf"]
+        cli,
+        [
+            xsd,
+            "-ss",
+            structure_style,
+            "-p",
+            package,
+            "-o",
+            output_format,
+            "--compound-fields",
+        ],
     )
 
     if result.exception:

@@ -14,6 +14,7 @@ class Base:
         metadata={
             "type": "Element",
             "namespace": "http://xsdtesting",
+            "min_occurs": 1,
             "max_occurs": 2,
         }
     )

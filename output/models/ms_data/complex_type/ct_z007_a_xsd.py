@@ -205,10 +205,3 @@ class Customers:
             "namespace": "urn:xmlns:25hoursaday-com:address",
         }
     )
-    customer: List[Customer] = field(
-        default_factory=list,
-        metadata={
-            "name": "Customer",
-            "type": "Element",
-        }
-    )

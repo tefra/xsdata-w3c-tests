@@ -86,10 +86,3 @@ class BookStore:
             "type": "Element",
         }
     )
-    publication: List[Publication] = field(
-        default_factory=list,
-        metadata={
-            "name": "Publication",
-            "type": "Element",
-        }
-    )

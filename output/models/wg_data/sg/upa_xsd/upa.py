@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional, Union
+from typing import Optional
 
 __NAMESPACE__ = "http://www.w3.org/XML/2008/xsdl-exx/ns1"
 
@@ -35,23 +35,18 @@ class E1:
 
 @dataclass
 class T:
-    e_or_e1: List[object] = field(
-        default_factory=list,
+    e: Optional[str] = field(
+        default=None,
         metadata={
-            "type": "Elements",
-            "choices": (
-                {
-                    "name": "e",
-                    "type": str,
-                    "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
-                },
-                {
-                    "name": "e1",
-                    "type": Union[str, E1],
-                    "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
-                },
-            ),
-            "max_occurs": 2,
+            "type": "Element",
+            "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
+        }
+    )
+    e1: Optional[E1] = field(
+        default=None,
+        metadata={
+            "type": "Element",
+            "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
         }
     )
 

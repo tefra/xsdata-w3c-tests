@@ -49,10 +49,3 @@ class Root:
             "type": "Element",
         }
     )
-    head: List[Head] = field(
-        default_factory=list,
-        metadata={
-            "name": "Head",
-            "type": "Element",
-        }
-    )

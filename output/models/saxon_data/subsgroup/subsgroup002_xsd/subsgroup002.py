@@ -16,6 +16,60 @@ class AppendixContent:
 
 
 @dataclass
+class Back:
+    class Meta:
+        name = "back"
+
+    appendix_content: List[str] = field(
+        default_factory=list,
+        metadata={
+            "name": "appendixContent",
+            "type": "Element",
+        }
+    )
+    para: List[str] = field(
+        default_factory=list,
+        metadata={
+            "type": "Element",
+        }
+    )
+    chap_content: List[str] = field(
+        default_factory=list,
+        metadata={
+            "name": "chapContent",
+            "type": "Element",
+        }
+    )
+
+
+@dataclass
+class Body:
+    class Meta:
+        name = "body"
+
+    appendix_content: List[str] = field(
+        default_factory=list,
+        metadata={
+            "name": "appendixContent",
+            "type": "Element",
+        }
+    )
+    para: List[str] = field(
+        default_factory=list,
+        metadata={
+            "type": "Element",
+        }
+    )
+    chap_content: List[str] = field(
+        default_factory=list,
+        metadata={
+            "name": "chapContent",
+            "type": "Element",
+        }
+    )
+
+
+@dataclass
 class ChapContent:
     class Meta:
         name = "chapContent"
@@ -51,72 +105,6 @@ class Para:
         default="",
         metadata={
             "required": True,
-        }
-    )
-
-
-@dataclass
-class Back:
-    class Meta:
-        name = "back"
-
-    appendix_content: List[str] = field(
-        default_factory=list,
-        metadata={
-            "name": "appendixContent",
-            "type": "Element",
-        }
-    )
-    para: List[str] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-        }
-    )
-    chap_content: List[str] = field(
-        default_factory=list,
-        metadata={
-            "name": "chapContent",
-            "type": "Element",
-        }
-    )
-    content: List[Content] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-        }
-    )
-
-
-@dataclass
-class Body:
-    class Meta:
-        name = "body"
-
-    appendix_content: List[str] = field(
-        default_factory=list,
-        metadata={
-            "name": "appendixContent",
-            "type": "Element",
-        }
-    )
-    para: List[str] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-        }
-    )
-    chap_content: List[str] = field(
-        default_factory=list,
-        metadata={
-            "name": "chapContent",
-            "type": "Element",
-        }
-    )
-    content: List[Content] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
         }
     )
 

@@ -67,9 +67,3 @@ class Doc:
             "type": "Element",
         }
     )
-    elem1: Optional[Elem1] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-        }
-    )

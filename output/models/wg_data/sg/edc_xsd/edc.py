@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional, Union
+from typing import Optional
 
 __NAMESPACE__ = "http://www.w3.org/XML/2008/xsdl-exx/ns1"
 
@@ -42,12 +42,11 @@ class T:
             "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
         }
     )
-    e1: List[Union[int, E1]] = field(
-        default_factory=list,
+    e1: Optional[E1] = field(
+        default=None,
         metadata={
             "type": "Element",
             "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
-            "max_occurs": 2,
         }
     )
 

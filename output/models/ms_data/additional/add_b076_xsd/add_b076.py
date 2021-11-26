@@ -5,6 +5,20 @@ __NAMESPACE__ = "ns-a"
 
 
 @dataclass
+class Foo:
+    class Meta:
+        name = "foo"
+
+    a: Optional[str] = field(
+        default=None,
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
+    )
+
+
+@dataclass
 class NsAAft:
     class Meta:
         name = "ns-a-aft"
@@ -47,24 +61,3 @@ class Aft(NsAAft):
     class Meta:
         name = "aft"
         namespace = "ns-a"
-
-
-@dataclass
-class Foo:
-    class Meta:
-        name = "foo"
-
-    a: Optional[str] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-    aft: Optional[Aft] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "ns-a",
-        }
-    )

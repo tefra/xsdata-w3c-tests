@@ -66,13 +66,6 @@ class Foo:
             "namespace": "ns-a",
         }
     )
-    aft: Optional[Aft] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "ns-a",
-        }
-    )
 
 
 @dataclass

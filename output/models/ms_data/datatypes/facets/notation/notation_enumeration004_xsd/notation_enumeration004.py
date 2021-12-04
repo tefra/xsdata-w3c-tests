@@ -4,12 +4,6 @@ from typing import Optional
 from xml.etree.ElementTree import QName
 
 
-class BuildNotation(Enum):
-    JPEG = QName("jpeg")
-    MPEG = QName("mpeg")
-    G = QName("g")
-
-
 class FooAttrTest(Enum):
     MPEG = QName("mpeg")
     G = QName("g")

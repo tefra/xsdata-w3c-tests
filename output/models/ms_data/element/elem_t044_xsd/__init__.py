@@ -1,12 +1,8 @@
 from output.models.ms_data.element.elem_t044_xsd.elem_t044 import (
     A,
-    B,
     Ca,
     ECa,
-    RA,
     RCa,
-    UnionA,
-    UnionAb,
     Root,
     Sa,
     Test,
@@ -17,13 +13,9 @@ from output.models.ms_data.element.elem_t044_xsd.elem_t044 import (
 
 __all__ = [
     "A",
-    "B",
     "Ca",
     "ECa",
-    "RA",
     "RCa",
-    "UnionA",
-    "UnionAb",
     "Root",
     "Sa",
     "Test",

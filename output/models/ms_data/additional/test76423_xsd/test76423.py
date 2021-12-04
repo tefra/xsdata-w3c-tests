@@ -8,11 +8,6 @@ class ScopeType(Enum):
     INSTANCE = "instance"
 
 
-class YesNoType(Enum):
-    YES = "yes"
-    NO = "no"
-
-
 @dataclass
 class EventType:
     desc: Optional[str] = field(

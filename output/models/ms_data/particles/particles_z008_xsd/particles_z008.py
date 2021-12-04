@@ -46,19 +46,6 @@ class ContainMember2Type:
 
 
 @dataclass
-class Head2:
-    class Meta:
-        namespace = "urn:my-namespace"
-
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        }
-    )
-
-
-@dataclass
 class Member2:
     class Meta:
         namespace = "urn:my-namespace"

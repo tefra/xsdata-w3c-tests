@@ -3,20 +3,6 @@ from typing import List, Optional
 
 
 @dataclass
-class AppendixContent:
-    class Meta:
-        name = "appendixContent"
-
-    any_element: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Wildcard",
-            "namespace": "##any",
-        }
-    )
-
-
-@dataclass
 class Back:
     class Meta:
         name = "back"
@@ -38,20 +24,6 @@ class Body:
         default_factory=list,
         metadata={
             "type": "Element",
-        }
-    )
-
-
-@dataclass
-class ChapContent:
-    class Meta:
-        name = "chapContent"
-
-    any_element: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Wildcard",
-            "namespace": "##any",
         }
     )
 

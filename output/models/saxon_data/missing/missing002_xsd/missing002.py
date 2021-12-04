@@ -27,17 +27,3 @@ class Good:
             "required": True,
         }
     )
-
-
-@dataclass
-class Perfect:
-    class Meta:
-        name = "perfect"
-
-    any_element: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Wildcard",
-            "namespace": "##any",
-        }
-    )

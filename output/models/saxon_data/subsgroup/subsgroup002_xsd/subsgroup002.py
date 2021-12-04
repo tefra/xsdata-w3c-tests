@@ -3,19 +3,6 @@ from typing import List, Optional
 
 
 @dataclass
-class AppendixContent:
-    class Meta:
-        name = "appendixContent"
-
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        }
-    )
-
-
-@dataclass
 class Back:
     class Meta:
         name = "back"
@@ -65,33 +52,6 @@ class Body:
         metadata={
             "name": "chapContent",
             "type": "Element",
-        }
-    )
-
-
-@dataclass
-class ChapContent:
-    class Meta:
-        name = "chapContent"
-
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        }
-    )
-
-
-@dataclass
-class Content:
-    class Meta:
-        name = "content"
-
-    any_element: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Wildcard",
-            "namespace": "##any",
         }
     )
 

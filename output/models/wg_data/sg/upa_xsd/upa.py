@@ -5,6 +5,24 @@ __NAMESPACE__ = "http://www.w3.org/XML/2008/xsdl-exx/ns1"
 
 
 @dataclass
+class T:
+    e: Optional[str] = field(
+        default=None,
+        metadata={
+            "type": "Element",
+            "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
+        }
+    )
+    e1: Optional[str] = field(
+        default=None,
+        metadata={
+            "type": "Element",
+            "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
+        }
+    )
+
+
+@dataclass
 class E:
     class Meta:
         name = "e"
@@ -14,39 +32,6 @@ class E:
         default="",
         metadata={
             "required": True,
-        }
-    )
-
-
-@dataclass
-class E1:
-    class Meta:
-        name = "e1"
-        namespace = "http://www.w3.org/XML/2008/xsdl-exx/ns1"
-
-    any_element: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Wildcard",
-            "namespace": "##any",
-        }
-    )
-
-
-@dataclass
-class T:
-    e: Optional[str] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
-        }
-    )
-    e1: Optional[E1] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
         }
     )
 

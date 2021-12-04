@@ -1,7 +1,6 @@
 from output.models.ibm_data.valid.s2_2_2.s2_2_2v01_xsd.s2_2_2v01 import (
     Elem0,
     Elem1,
-    Elem2,
     Elem3,
     Root,
     RootType,
@@ -10,7 +9,6 @@ from output.models.ibm_data.valid.s2_2_2.s2_2_2v01_xsd.s2_2_2v01 import (
 __all__ = [
     "Elem0",
     "Elem1",
-    "Elem2",
     "Elem3",
     "Root",
     "RootType",

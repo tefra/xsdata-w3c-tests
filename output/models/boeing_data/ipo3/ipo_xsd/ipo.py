@@ -9,20 +9,6 @@ __NAMESPACE__ = "http://www.example.com/IPO"
 
 
 @dataclass
-class Comment:
-    class Meta:
-        name = "comment"
-        namespace = "http://www.example.com/IPO"
-
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        }
-    )
-
-
-@dataclass
 class CustomerComment:
     class Meta:
         name = "customerComment"

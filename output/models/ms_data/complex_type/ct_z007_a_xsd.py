@@ -181,12 +181,6 @@ class MyCustomerType(CustomerType):
 
 
 @dataclass
-class Customer(CustomerType):
-    class Meta:
-        namespace = "urn:xmlns:25hoursaday-com:customer"
-
-
-@dataclass
 class MyCustomer(MyCustomerType):
     class Meta:
         namespace = "urn:xmlns:25hoursaday-com:address"

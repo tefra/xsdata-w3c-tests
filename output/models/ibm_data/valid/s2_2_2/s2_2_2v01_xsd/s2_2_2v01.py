@@ -33,20 +33,6 @@ class Elem1:
 
 
 @dataclass
-class Elem2:
-    class Meta:
-        name = "elem2"
-        namespace = "http://xstest-tns/ibms3_3_6_v04"
-
-    value: str = field(
-        default="",
-        metadata={
-            "required": True,
-        }
-    )
-
-
-@dataclass
 class Elem3:
     class Meta:
         name = "elem3"

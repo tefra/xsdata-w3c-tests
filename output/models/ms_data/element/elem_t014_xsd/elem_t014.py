@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from enum import Enum
 from typing import Optional
 
 
@@ -15,18 +14,6 @@ class FooTest:
             "namespace": "##any",
         }
     )
-
-
-class MyListValue(Enum):
-    VALUE_1 = 1
-    VALUE_2 = 2
-
-
-class MyUnion(Enum):
-    VALUE_1 = "1"
-    VALUE_2 = "2"
-    VALUE_7 = "7"
-    VALUE_8 = "8"
 
 
 @dataclass

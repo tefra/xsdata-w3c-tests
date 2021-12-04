@@ -6,13 +6,6 @@ from xsdata.models.datatype import XmlDateTime
 __NAMESPACE__ = "http://xstest-tns/schema11_D3_4_28_v02"
 
 
-class BdTimeStampEnumeration(Enum):
-    VALUE_1998_01_01_T12_00_00_Z = XmlDateTime(1998, 1, 1, 12, 0, 0, 0, 0)
-    VALUE_2000_01_01_T12_00_00_123_Z = XmlDateTime(2000, 1, 1, 12, 0, 0, 123000, 0)
-    VALUE_2001_01_01_T12_00_00_08_00 = XmlDateTime(2001, 1, 1, 12, 0, 0, 0, 480)
-    VALUE_2002_01_01_T12_00_00_990_08_00 = XmlDateTime(2002, 1, 1, 12, 0, 0, 990000, -480)
-
-
 class DTimeStampEnumeration(Enum):
     VALUE_1998_01_01_T12_00_00_Z = XmlDateTime(1998, 1, 1, 12, 0, 0, 0, 0)
     VALUE_2002_01_01_T12_00_00_990_08_00 = XmlDateTime(2002, 1, 1, 12, 0, 0, 990000, -480)

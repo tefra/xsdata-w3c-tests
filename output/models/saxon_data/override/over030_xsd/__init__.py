@@ -13,7 +13,6 @@ from output.models.saxon_data.override.over030_xsd.over030a import (
     Title,
     Xsdextra,
 )
-from output.models.saxon_data.override.over030_xsd.over030b import SpaceValue
 
 __all__ = [
     "Abbrev",
@@ -29,5 +28,4 @@ __all__ = [
     "Superscript",
     "Title",
     "Xsdextra",
-    "SpaceValue",
 ]

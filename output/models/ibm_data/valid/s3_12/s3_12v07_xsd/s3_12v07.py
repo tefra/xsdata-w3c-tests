@@ -30,7 +30,7 @@ class DimType:
 
 
 @dataclass
-class RectType:
+class RectType(DimType):
     class Meta:
         name = "rectType"
 
@@ -41,22 +41,10 @@ class RectType:
             "required": True,
         }
     )
-    length: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Attribute",
-        }
-    )
-    width: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Attribute",
-        }
-    )
 
 
 @dataclass
-class SquareType:
+class SquareType(DimType):
     class Meta:
         name = "squareType"
 
@@ -65,18 +53,6 @@ class SquareType:
         default="square",
         metadata={
             "required": True,
-        }
-    )
-    length: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Attribute",
-        }
-    )
-    width: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Attribute",
         }
     )
 

@@ -14,33 +14,18 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - { name: Python 3.7 XSD, python: 3.7, os: ubuntu, env: "py37-xsd" }
-          - { name: Python 3.7 XML, python: 3.7, os: ubuntu, env: "py37-xml" }
-          - { name: Python 3.7 JSON, python: 3.7, os: ubuntu, env: "py37-json" }
-          - { name: Python 3.8 XSD, python: 3.8, os: ubuntu, env: "py38-xsd" }
-          - { name: Python 3.8 XML, python: 3.8, os: ubuntu, env: "py38-xml" }
-          - { name: Python 3.8 JSON, python: 3.8, os: ubuntu, env: "py38-json" }
-          - { name: Python 3.9 XSD, python: 3.9, os: ubuntu, env: "py39-xsd" }
-          - { name: Python 3.9 XML, python: 3.9, os: ubuntu, env: "py39-xml" }
-          - { name: Python 3.9 JSON, python: 3.9, os: ubuntu, env: "py39-json" }
-          - {
-              name: Python 3.10 XSD,
-              python: 3.10.0-beta - 3.10,
-              os: ubuntu,
-              env: "py310-xsd",
-            }
-          - {
-              name: Python 3.10 XML,
-              python: 3.10.0-beta - 3.10,
-              os: ubuntu,
-              env: "py310-xml",
-            }
-          - {
-              name: Python 3.10 JSON,
-              python: 3.10.0-beta - 3.10,
-              os: ubuntu,
-              env: "py310-json",
-            }
+          - { name: Python 3.7 XSD, python: "3.7", os: ubuntu, env: "py37-xsd" }
+          - { name: Python 3.7 XML, python: "3.7", os: ubuntu, env: "py37-xml" }
+          - { name: Python 3.7 JSON, python: "3.7", os: ubuntu, env: "py37-json" }
+          - { name: Python 3.8 XSD, python: "3.8", os: ubuntu, env: "py38-xsd" }
+          - { name: Python 3.8 XML, python: "3.8", os: ubuntu, env: "py38-xml" }
+          - { name: Python 3.8 JSON, python: "3.8", os: ubuntu, env: "py38-json" }
+          - { name: Python 3.9 XSD, python: "3.9", os: ubuntu, env: "py39-xsd" }
+          - { name: Python 3.9 XML, python: "3.9", os: ubuntu, env: "py39-xml" }
+          - { name: Python 3.9 JSON, python: "3.9", os: ubuntu, env: "py39-json" }
+          - { name: Python 3.10 XSD, python: "3.10", os: ubuntu, env: "py310-xsd" }
+          - { name: Python 3.10 XML, python: "3.10", os: ubuntu, env: "py310-xml" }
+          - { name: Python 3.10 JSON, python: "3.10", os: ubuntu, env: "py310-json" }
     steps:
       - uses: actions/checkout@v2
         with:
@@ -50,7 +35,7 @@ jobs:
         with:
           python-version: ${{ matrix.python }}
       - name: Install libxml2
-        if: startsWith(matrix.python, 'pypy') || startsWith(matrix.python, '3.10')
+        if: startsWith(matrix.python, 'pypy')
         run: |
           sudo apt-get install libxml2-dev libxslt-dev
       - name: Install dependencies

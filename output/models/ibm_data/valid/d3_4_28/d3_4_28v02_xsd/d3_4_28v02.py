@@ -8,7 +8,7 @@ __NAMESPACE__ = "http://xstest-tns/schema11_D3_4_28_v02"
 
 class DTimeStampEnumeration(Enum):
     VALUE_1998_01_01_T12_00_00_Z = XmlDateTime(1998, 1, 1, 12, 0, 0, 0, 0)
-    VALUE_2002_01_01_T12_00_00_990_08_00 = XmlDateTime(2002, 1, 1, 12, 0, 0, 990000, -480)
+    VALUE_2002_01_01_T12_00_00_990_08_00 = XmlDateTime(2002, 1, 1, 12, 0, 0, 990000000, -480)
 
 
 @dataclass
@@ -50,8 +50,8 @@ class Root:
         metadata={
             "name": "attrdTimeStampMinMaxInclusive",
             "type": "Attribute",
-            "min_inclusive": XmlDateTime(2003, 1, 1, 12, 0, 0, 990000, -480),
-            "max_inclusive": XmlDateTime(2004, 1, 1, 12, 0, 0, 990000, -480),
+            "min_inclusive": XmlDateTime(2003, 1, 1, 12, 0, 0, 990000000, -480),
+            "max_inclusive": XmlDateTime(2004, 1, 1, 12, 0, 0, 990000000, -480),
         }
     )
     attrd_time_stamp_min_max_exclusive: Optional[XmlDateTime] = field(

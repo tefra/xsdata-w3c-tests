@@ -37,7 +37,6 @@ class FooType:
             metadata={
                 "name": "attrTest",
                 "type": "Attribute",
-                "min_length": 5,
             }
         )
 

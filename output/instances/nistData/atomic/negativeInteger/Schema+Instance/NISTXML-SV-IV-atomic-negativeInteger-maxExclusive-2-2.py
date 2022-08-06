@@ -1,0 +1,6 @@
+from output.models.nist_data.atomic.negative_integer.schema_instance.nistschema_sv_iv_atomic_negative_integer_max_exclusive_2_xsd.nistschema_sv_iv_atomic_negative_integer_max_exclusive_2 import NistschemaSvIvAtomicNegativeIntegerMaxExclusive2
+
+
+obj = NistschemaSvIvAtomicNegativeIntegerMaxExclusive2(
+    value=-954880220749267418
+)

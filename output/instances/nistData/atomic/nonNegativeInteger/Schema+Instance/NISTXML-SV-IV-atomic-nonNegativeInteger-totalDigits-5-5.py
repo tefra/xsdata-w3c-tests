@@ -1,0 +1,6 @@
+from output.models.nist_data.atomic.non_negative_integer.schema_instance.nistschema_sv_iv_atomic_non_negative_integer_total_digits_5_xsd.nistschema_sv_iv_atomic_non_negative_integer_total_digits_5 import NistschemaSvIvAtomicNonNegativeIntegerTotalDigits5
+
+
+obj = NistschemaSvIvAtomicNonNegativeIntegerTotalDigits5(
+    value=573041487868816274
+)

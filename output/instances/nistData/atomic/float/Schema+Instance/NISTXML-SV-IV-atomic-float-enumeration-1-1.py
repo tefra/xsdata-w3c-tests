@@ -1,0 +1,7 @@
+from output.models.nist_data.atomic.float_pkg.schema_instance.nistschema_sv_iv_atomic_float_enumeration_1_xsd.nistschema_sv_iv_atomic_float_enumeration_1 import NistschemaSvIvAtomicFloatEnumeration1
+from output.models.nist_data.atomic.float_pkg.schema_instance.nistschema_sv_iv_atomic_float_enumeration_1_xsd.nistschema_sv_iv_atomic_float_enumeration_1 import NistschemaSvIvAtomicFloatEnumeration1Type
+
+
+obj = NistschemaSvIvAtomicFloatEnumeration1(
+    value=NistschemaSvIvAtomicFloatEnumeration1Type.VALUE_1_4_E_45
+)

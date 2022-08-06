@@ -1,0 +1,7 @@
+from output.models.nist_data.list_pkg.short.schema_instance.nistschema_sv_iv_list_short_enumeration_1_xsd.nistschema_sv_iv_list_short_enumeration_1 import NistschemaSvIvListShortEnumeration1
+from output.models.nist_data.list_pkg.short.schema_instance.nistschema_sv_iv_list_short_enumeration_1_xsd.nistschema_sv_iv_list_short_enumeration_1 import NistschemaSvIvListShortEnumeration1Type
+
+
+obj = NistschemaSvIvListShortEnumeration1(
+    value=NistschemaSvIvListShortEnumeration1Type.VALUE_71_33_8995_657_32767_58_720_68
+)

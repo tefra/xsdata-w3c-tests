@@ -1,0 +1,6 @@
+from output.models.nist_data.atomic.non_positive_integer.schema_instance.nistschema_sv_iv_atomic_non_positive_integer_min_inclusive_2_xsd.nistschema_sv_iv_atomic_non_positive_integer_min_inclusive_2 import NistschemaSvIvAtomicNonPositiveIntegerMinInclusive2
+
+
+obj = NistschemaSvIvAtomicNonPositiveIntegerMinInclusive2(
+    value=-156360166869488276
+)

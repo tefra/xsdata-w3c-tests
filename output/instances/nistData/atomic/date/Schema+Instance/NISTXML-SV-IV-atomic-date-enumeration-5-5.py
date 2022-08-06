@@ -1,0 +1,7 @@
+from output.models.nist_data.atomic.date.schema_instance.nistschema_sv_iv_atomic_date_enumeration_5_xsd.nistschema_sv_iv_atomic_date_enumeration_5 import NistschemaSvIvAtomicDateEnumeration5
+from output.models.nist_data.atomic.date.schema_instance.nistschema_sv_iv_atomic_date_enumeration_5_xsd.nistschema_sv_iv_atomic_date_enumeration_5 import NistschemaSvIvAtomicDateEnumeration5Type
+
+
+obj = NistschemaSvIvAtomicDateEnumeration5(
+    value=NistschemaSvIvAtomicDateEnumeration5Type.VALUE_2010_06_24
+)

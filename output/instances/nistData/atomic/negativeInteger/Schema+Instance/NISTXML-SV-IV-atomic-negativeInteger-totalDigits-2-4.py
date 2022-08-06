@@ -1,0 +1,6 @@
+from output.models.nist_data.atomic.negative_integer.schema_instance.nistschema_sv_iv_atomic_negative_integer_total_digits_2_xsd.nistschema_sv_iv_atomic_negative_integer_total_digits_2 import NistschemaSvIvAtomicNegativeIntegerTotalDigits2
+
+
+obj = NistschemaSvIvAtomicNegativeIntegerTotalDigits2(
+    value=-1193
+)

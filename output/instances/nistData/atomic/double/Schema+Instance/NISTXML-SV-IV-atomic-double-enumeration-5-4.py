@@ -1,0 +1,7 @@
+from output.models.nist_data.atomic.double.schema_instance.nistschema_sv_iv_atomic_double_enumeration_5_xsd.nistschema_sv_iv_atomic_double_enumeration_5 import NistschemaSvIvAtomicDoubleEnumeration5
+from output.models.nist_data.atomic.double.schema_instance.nistschema_sv_iv_atomic_double_enumeration_5_xsd.nistschema_sv_iv_atomic_double_enumeration_5 import NistschemaSvIvAtomicDoubleEnumeration5Type
+
+
+obj = NistschemaSvIvAtomicDoubleEnumeration5(
+    value=NistschemaSvIvAtomicDoubleEnumeration5Type.VALUE_2_0102746771275176_E_9
+)

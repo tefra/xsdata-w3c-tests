@@ -1,0 +1,6 @@
+from output.models.nist_data.atomic.string.schema_instance.nistschema_sv_iv_atomic_string_length_5_xsd.nistschema_sv_iv_atomic_string_length_5 import NistschemaSvIvAtomicStringLength5
+
+
+obj = NistschemaSvIvAtomicStringLength5(
+    value="ecifications and related  vocabularies  based upon the XML&#10;syntax &#10;&#10;In the simplest sense  the benefits of XML will only be achieved if&#10;organizations of a significant number are using the same XML documents &#10;Therefore  these XML documents must be available for partners to&#10;discover and retrieve  A registry/repository is a mechanism used to&#10;discover and retrieve documents  templates  software  i e   objects&#10;and resources  over the Internet  A registry is the mechanism used to&#10;discover the object  The registry provides information about the&#10;object  including the location of the object  A repository is where&#10;the object resides  A user retrieves an object from a repository &#10;&#10; Although XML is a recent newcomer in the&#10;electronic commerce landscape  supply chains in many industries  as well&#10;as industry consortiums and standards organizations  are using XML to&#10;define their own vocabularies for business relationships and&#10;transactions  The vocabularies  business templates  and business&#10;processes "
+)

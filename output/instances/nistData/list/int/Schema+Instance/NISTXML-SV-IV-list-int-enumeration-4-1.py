@@ -1,0 +1,7 @@
+from output.models.nist_data.list_pkg.int_pkg.schema_instance.nistschema_sv_iv_list_int_enumeration_4_xsd.nistschema_sv_iv_list_int_enumeration_4 import NistschemaSvIvListIntEnumeration4
+from output.models.nist_data.list_pkg.int_pkg.schema_instance.nistschema_sv_iv_list_int_enumeration_4_xsd.nistschema_sv_iv_list_int_enumeration_4 import NistschemaSvIvListIntEnumeration4Type
+
+
+obj = NistschemaSvIvListIntEnumeration4(
+    value=NistschemaSvIvListIntEnumeration4Type.VALUE_914500000_67859870_572451_4305728_8426_61838
+)

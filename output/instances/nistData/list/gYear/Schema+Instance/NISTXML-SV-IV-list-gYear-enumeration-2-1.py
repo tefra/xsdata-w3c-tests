@@ -1,0 +1,7 @@
+from output.models.nist_data.list_pkg.g_year.schema_instance.nistschema_sv_iv_list_g_year_enumeration_2_xsd.nistschema_sv_iv_list_g_year_enumeration_2 import NistschemaSvIvListGYearEnumeration2
+from output.models.nist_data.list_pkg.g_year.schema_instance.nistschema_sv_iv_list_g_year_enumeration_2_xsd.nistschema_sv_iv_list_g_year_enumeration_2 import NistschemaSvIvListGYearEnumeration2Type
+
+
+obj = NistschemaSvIvListGYearEnumeration2(
+    value=NistschemaSvIvListGYearEnumeration2Type.VALUE_1989_2009_1989_2014_1989_1991_1985_1984
+)

@@ -1,0 +1,6 @@
+from output.models.nist_data.atomic.integer.schema_instance.nistschema_sv_iv_atomic_integer_fraction_digits_1_xsd.nistschema_sv_iv_atomic_integer_fraction_digits_1 import NistschemaSvIvAtomicIntegerFractionDigits1
+
+
+obj = NistschemaSvIvAtomicIntegerFractionDigits1(
+    value=662351389368224684
+)

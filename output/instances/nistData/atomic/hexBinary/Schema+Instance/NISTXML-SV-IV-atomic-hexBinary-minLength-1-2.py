@@ -1,0 +1,6 @@
+from output.models.nist_data.atomic.hex_binary.schema_instance.nistschema_sv_iv_atomic_hex_binary_min_length_1_xsd.nistschema_sv_iv_atomic_hex_binary_min_length_1 import NistschemaSvIvAtomicHexBinaryMinLength1
+
+
+obj = NistschemaSvIvAtomicHexBinaryMinLength1(
+    value=b"qvaleynckihpmxrphho"
+)

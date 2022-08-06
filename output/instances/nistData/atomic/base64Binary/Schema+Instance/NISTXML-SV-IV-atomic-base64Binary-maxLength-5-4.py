@@ -1,0 +1,6 @@
+from output.models.nist_data.atomic.base64_binary.schema_instance.nistschema_sv_iv_atomic_base64_binary_max_length_5_xsd.nistschema_sv_iv_atomic_base64_binary_max_length_5 import NistschemaSvIvAtomicBase64BinaryMaxLength5
+
+
+obj = NistschemaSvIvAtomicBase64BinaryMaxLength5(
+    value=b"bcgsyjbfobplrhjjfkhvyvwqdotrpuurnejtnysjltehydldpmacnav"
+)

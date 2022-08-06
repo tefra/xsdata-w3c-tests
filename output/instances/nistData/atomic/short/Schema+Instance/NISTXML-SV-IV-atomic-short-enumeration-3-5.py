@@ -1,0 +1,7 @@
+from output.models.nist_data.atomic.short.schema_instance.nistschema_sv_iv_atomic_short_enumeration_3_xsd.nistschema_sv_iv_atomic_short_enumeration_3 import NistschemaSvIvAtomicShortEnumeration3
+from output.models.nist_data.atomic.short.schema_instance.nistschema_sv_iv_atomic_short_enumeration_3_xsd.nistschema_sv_iv_atomic_short_enumeration_3 import NistschemaSvIvAtomicShortEnumeration3Type
+
+
+obj = NistschemaSvIvAtomicShortEnumeration3(
+    value=NistschemaSvIvAtomicShortEnumeration3Type.VALUE_MINUS_9314
+)

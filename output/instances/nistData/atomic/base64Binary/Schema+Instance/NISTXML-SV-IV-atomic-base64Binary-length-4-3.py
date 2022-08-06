@@ -1,0 +1,6 @@
+from output.models.nist_data.atomic.base64_binary.schema_instance.nistschema_sv_iv_atomic_base64_binary_length_4_xsd.nistschema_sv_iv_atomic_base64_binary_length_4 import NistschemaSvIvAtomicBase64BinaryLength4
+
+
+obj = NistschemaSvIvAtomicBase64BinaryLength4(
+    value=b"defphbaavyfdppqkwgqhgdsjwsvjmgdhgasxwbpcmjshtsd"
+)

@@ -1,0 +1,7 @@
+from output.models.nist_data.list_pkg.byte.schema_instance.nistschema_sv_iv_list_byte_enumeration_1_xsd.nistschema_sv_iv_list_byte_enumeration_1 import NistschemaSvIvListByteEnumeration1
+from output.models.nist_data.list_pkg.byte.schema_instance.nistschema_sv_iv_list_byte_enumeration_1_xsd.nistschema_sv_iv_list_byte_enumeration_1 import NistschemaSvIvListByteEnumeration1Type
+
+
+obj = NistschemaSvIvListByteEnumeration1(
+    value=NistschemaSvIvListByteEnumeration1Type.VALUE_127_49_86_6_64_7_76_128_34
+)

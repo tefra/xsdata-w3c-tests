@@ -1,0 +1,6 @@
+from output.models.nist_data.atomic.string.schema_instance.nistschema_sv_iv_atomic_string_min_length_1_xsd.nistschema_sv_iv_atomic_string_min_length_1 import NistschemaSvIvAtomicStringMinLength1
+
+
+obj = NistschemaSvIvAtomicStringMinLength1(
+    value="rs and support for the related&#10;Schema  DOM and XSL technologies are available in beta versions of&#10;popular web browsers and application development software  The&#10;widespread availability of these technologies has made them obvious&#10;choices as building blocks for electronic commerce  As such  conformance&#10;of these products to the W3C Recommendations is necessary to build&#10;interoperable solutions  The Organization for the Advancement of&#10;Structured Information Standards  OASIS  consortium was formed to&#10;accelerate the adoption of these standards by addressing market needs&#10;and directions  and recommending guidelines for product interoperability&#10;and conformance &#10;&#10;NIST/ITL is collaborating with industry to solve&#10;these problems using the following related tasks:&#10;&#10;Provide technical leadership by chairing and/or participating in&#10;      appropriate OASIS and W3C efforts  including OASIS XML and&#10;      XSLT/Xpath Conformance Subcommittees  W3C XSL-FO  DOM  and XML&#10;      Schema Working Groups &#10;Provide tes"
+)

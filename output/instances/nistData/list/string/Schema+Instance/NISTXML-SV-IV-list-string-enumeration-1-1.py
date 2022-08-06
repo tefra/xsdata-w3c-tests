@@ -1,0 +1,7 @@
+from output.models.nist_data.list_pkg.string.schema_instance.nistschema_sv_iv_list_string_enumeration_1_xsd.nistschema_sv_iv_list_string_enumeration_1 import NistschemaSvIvListStringEnumeration1
+from output.models.nist_data.list_pkg.string.schema_instance.nistschema_sv_iv_list_string_enumeration_1_xsd.nistschema_sv_iv_list_string_enumeration_1 import NistschemaSvIvListStringEnumeration1Type
+
+
+obj = NistschemaSvIvListStringEnumeration1(
+    value=NistschemaSvIvListStringEnumeration1Type.BASIS_ANNUAL_FOR_CONDUCT_TO_FIRST_INCLUDING_THAT
+)

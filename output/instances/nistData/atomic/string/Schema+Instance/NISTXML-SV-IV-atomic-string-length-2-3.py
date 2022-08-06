@@ -1,0 +1,6 @@
+from output.models.nist_data.atomic.string.schema_instance.nistschema_sv_iv_atomic_string_length_2_xsd.nistschema_sv_iv_atomic_string_length_2 import NistschemaSvIvAtomicStringLength2
+
+
+obj = NistschemaSvIvAtomicStringLength2(
+    value="necessary to build&#10;interoperable solutions  The Organization for the Advancement of&#10;Structured Information Standards  OASIS  consortium was formed to&#10;accelerate the adoption of these standards by addressing market needs&#10;and directions  and recommending guidelines for product interoperability&#10;and conformance &#10;&#10;NIST/ITL is collaborating with industry to solve&#10;these problems using the following related tasks:&#10;&#10;Provide technical leadership by chairing and/or participating in&#10;      appropriate OASIS and W3C efforts  including OASIS XML and&#10;      XSLT/Xpath Conformance Subcommittees  W3C XSL-FO  DOM  and XML&#10;      Schema Working Groups &#10;Provide test frameworks for XML  DOM  XSL-FO  XSLT/Xpath  and XML&#10;      Schemas &#10;Partner with industry participants to build robust test suites for&#10;      XML  DOM  XSL-FO  XSLT/Xpath  and XML Schemas &#10;Develop in-house tools to aid in automating test generation for&#10;      XML-based langu"
+)

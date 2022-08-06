@@ -1,0 +1,7 @@
+from output.models.nist_data.atomic.name.schema_instance.nistschema_sv_iv_atomic_name_enumeration_4_xsd.nistschema_sv_iv_atomic_name_enumeration_4 import NistschemaSvIvAtomicNameEnumeration4
+from output.models.nist_data.atomic.name.schema_instance.nistschema_sv_iv_atomic_name_enumeration_4_xsd.nistschema_sv_iv_atomic_name_enumeration_4 import NistschemaSvIvAtomicNameEnumeration4Type
+
+
+obj = NistschemaSvIvAtomicNameEnumeration4(
+    value=NistschemaSvIvAtomicNameEnumeration4Type.OCAN_HAS_OF_TO_UNAMBI
+)

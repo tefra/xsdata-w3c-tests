@@ -1,0 +1,12 @@
+from output.models.nist_data.list_pkg.hex_binary.schema_instance.nistschema_sv_iv_list_hex_binary_pattern_3_xsd.nistschema_sv_iv_list_hex_binary_pattern_3 import NistschemaSvIvListHexBinaryPattern3
+
+
+obj = NistschemaSvIvListHexBinaryPattern3(
+    value=[
+        "756A6B65666B7165727567706D6D6F74686F716F6E",
+        "746269646C63696A7777747364796979",
+        "6C",
+        "766669746562737573667476626E716763",
+        "6468646C6C6475796879696A6D74786571636164766B7568706F6564796877616566",
+    ]
+)

@@ -1,0 +1,6 @@
+from output.models.nist_data.atomic.unsigned_short.schema_instance.nistschema_sv_iv_atomic_unsigned_short_max_inclusive_5_xsd.nistschema_sv_iv_atomic_unsigned_short_max_inclusive_5 import NistschemaSvIvAtomicUnsignedShortMaxInclusive5
+
+
+obj = NistschemaSvIvAtomicUnsignedShortMaxInclusive5(
+    value=65535
+)

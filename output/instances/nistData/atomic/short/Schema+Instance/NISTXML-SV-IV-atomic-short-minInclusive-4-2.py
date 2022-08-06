@@ -1,0 +1,6 @@
+from output.models.nist_data.atomic.short.schema_instance.nistschema_sv_iv_atomic_short_min_inclusive_4_xsd.nistschema_sv_iv_atomic_short_min_inclusive_4 import NistschemaSvIvAtomicShortMinInclusive4
+
+
+obj = NistschemaSvIvAtomicShortMinInclusive4(
+    value=26195
+)

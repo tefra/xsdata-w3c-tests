@@ -1,0 +1,6 @@
+from output.models.nist_data.atomic.string.schema_instance.nistschema_sv_iv_atomic_string_min_length_5_xsd.nistschema_sv_iv_atomic_string_min_length_5 import NistschemaSvIvAtomicStringMinLength5
+
+
+obj = NistschemaSvIvAtomicStringMinLength5(
+    value="ML Conformance Subcommittee  NIST/ITL&#10;led the development of the widely used XML test suite  NIST/ITL has&#10;further developed in cooperation with OASIS and W3C  robust testing&#10;resources for related XML technologies  including XML Schemas  DOM  and&#10;XSL  Developers and users utilize these tools to exercise both the&#10;appropriate W3C Recommendation and the associated implementations &#10;Errors and ambiguities raised as a result of these tools are fed back&#10;into the development process for correction in future revisions &#10;&#10; An industry s ability to use electronic commerce  EC &#10;effectively depends primarily on that industry s ability to create &#10;manipulate  and transmit intelligent information among partners and&#10;throughout the industry  The eXtensible Markup Language  XML   which is&#10;already targeted as the enabling technology for EC  is the primary&#10;standard by which industries are defining the structure and semantics of&#10;their information  XML is a base recommendation coupled with a set of&#10;emerging sp"
+)

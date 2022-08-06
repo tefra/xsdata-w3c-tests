@@ -1,0 +1,7 @@
+from output.models.nist_data.list_pkg.time.schema_instance.nistschema_sv_iv_list_time_enumeration_4_xsd.nistschema_sv_iv_list_time_enumeration_4 import NistschemaSvIvListTimeEnumeration4
+from output.models.nist_data.list_pkg.time.schema_instance.nistschema_sv_iv_list_time_enumeration_4_xsd.nistschema_sv_iv_list_time_enumeration_4 import NistschemaSvIvListTimeEnumeration4Type
+
+
+obj = NistschemaSvIvListTimeEnumeration4(
+    value=NistschemaSvIvListTimeEnumeration4Type.VALUE_20_55_32_13_12_24_05_09_54_15_26_04_21_18_52_07_04_22_13_43_48
+)

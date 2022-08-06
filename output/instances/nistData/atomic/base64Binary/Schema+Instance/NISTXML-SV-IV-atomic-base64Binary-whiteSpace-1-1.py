@@ -1,0 +1,6 @@
+from output.models.nist_data.atomic.base64_binary.schema_instance.nistschema_sv_iv_atomic_base64_binary_white_space_1_xsd.nistschema_sv_iv_atomic_base64_binary_white_space_1 import NistschemaSvIvAtomicBase64BinaryWhiteSpace1
+
+
+obj = NistschemaSvIvAtomicBase64BinaryWhiteSpace1(
+    value=b"pgcoempauwokjhewgvnnwntwwpyowdxjgsolcf"
+)

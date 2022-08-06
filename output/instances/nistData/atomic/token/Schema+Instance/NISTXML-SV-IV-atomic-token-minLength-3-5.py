@@ -1,0 +1,6 @@
+from output.models.nist_data.atomic.token.schema_instance.nistschema_sv_iv_atomic_token_min_length_3_xsd.nistschema_sv_iv_atomic_token_min_length_3 import NistschemaSvIvAtomicTokenMinLength3
+
+
+obj = NistschemaSvIvAtomicTokenMinLength3(
+    value="f popular web browsers and application development software The widespread availability of these technologies has made them obvious choices as building blocks for electronic commerce As such conformance of these products to the W3C Recommendations is necessary to build interoperable solutions The Organization for the Advancement of Structured Information Standards OASIS consortium was formed to accelerate the adoption of these standards by addressing market needs and directions and recommending guidelines for product interoperability and conformance NIST/ITL is collaborating with industry to solve these problems using the following related tasks: Provide technical leadership by chairing and/or participating in appropriate OASIS and W3C efforts including OASIS XML and XSLT/Xpath Conformance Subcommittees W3C XSL-FO DOM and XML Schema Working Groups Provide test frameworks for XML DOM XSL-FO XSLT/Xpath and XML Schemas Partner with industry partdjwwslylzqxffbmvlifrnieywcvwkiwwxiqupdlheruj"
+)

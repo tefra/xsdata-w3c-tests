@@ -1,0 +1,6 @@
+from output.models.nist_data.atomic.unsigned_long.schema_instance.nistschema_sv_iv_atomic_unsigned_long_min_exclusive_2_xsd.nistschema_sv_iv_atomic_unsigned_long_min_exclusive_2 import NistschemaSvIvAtomicUnsignedLongMinExclusive2
+
+
+obj = NistschemaSvIvAtomicUnsignedLongMinExclusive2(
+    value=937601013341671843
+)

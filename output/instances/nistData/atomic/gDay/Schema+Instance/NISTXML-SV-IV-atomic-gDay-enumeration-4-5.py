@@ -1,0 +1,7 @@
+from output.models.nist_data.atomic.g_day.schema_instance.nistschema_sv_iv_atomic_g_day_enumeration_4_xsd.nistschema_sv_iv_atomic_g_day_enumeration_4 import NistschemaSvIvAtomicGDayEnumeration4
+from output.models.nist_data.atomic.g_day.schema_instance.nistschema_sv_iv_atomic_g_day_enumeration_4_xsd.nistschema_sv_iv_atomic_g_day_enumeration_4 import NistschemaSvIvAtomicGDayEnumeration4Type
+
+
+obj = NistschemaSvIvAtomicGDayEnumeration4(
+    value=NistschemaSvIvAtomicGDayEnumeration4Type.VALUE_17
+)

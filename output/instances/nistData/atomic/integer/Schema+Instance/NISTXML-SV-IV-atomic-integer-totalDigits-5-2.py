@@ -1,0 +1,6 @@
+from output.models.nist_data.atomic.integer.schema_instance.nistschema_sv_iv_atomic_integer_total_digits_5_xsd.nistschema_sv_iv_atomic_integer_total_digits_5 import NistschemaSvIvAtomicIntegerTotalDigits5
+
+
+obj = NistschemaSvIvAtomicIntegerTotalDigits5(
+    value=14506
+)

@@ -1,0 +1,78 @@
+from output.models.saxon_data.all.all004_xsd.all004 import Doc
+from xsdata.formats.dataclass.models.generics import AnyElement
+
+
+obj = Doc(
+    content=[
+        AnyElement(
+            qname="a",
+            text="",
+            tail=None,
+            children=[],
+            attributes={}
+        ),
+        AnyElement(
+            qname="b",
+            text="",
+            tail=None,
+            children=[],
+            attributes={}
+        ),
+        AnyElement(
+            qname="d",
+            text="",
+            tail=None,
+            children=[],
+            attributes={}
+        ),
+        AnyElement(
+            qname="c",
+            text="",
+            tail=None,
+            children=[],
+            attributes={}
+        ),
+        AnyElement(
+            qname="a",
+            text="",
+            tail="strawberries&#10;  ",
+            children=[],
+            attributes={}
+        ),
+        AnyElement(
+            qname="c",
+            text="",
+            tail=None,
+            children=[],
+            attributes={}
+        ),
+        AnyElement(
+            qname="c",
+            text="",
+            tail=None,
+            children=[],
+            attributes={}
+        ),
+        AnyElement(
+            qname="a",
+            text="",
+            tail=None,
+            children=[],
+            attributes={}
+        ),
+        AnyElement(
+            qname="a",
+            text="",
+            tail=None,
+            children=[],
+            attributes={}
+        ),
+        AnyElement(
+            qname="b",
+            text="",
+            tail=None,
+            children=[],
+            attributes={}
+        ),
+    ]
+)

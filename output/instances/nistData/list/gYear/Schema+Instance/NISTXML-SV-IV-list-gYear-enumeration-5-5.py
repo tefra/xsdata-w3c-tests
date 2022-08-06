@@ -1,0 +1,7 @@
+from output.models.nist_data.list_pkg.g_year.schema_instance.nistschema_sv_iv_list_g_year_enumeration_5_xsd.nistschema_sv_iv_list_g_year_enumeration_5 import NistschemaSvIvListGYearEnumeration5
+from output.models.nist_data.list_pkg.g_year.schema_instance.nistschema_sv_iv_list_g_year_enumeration_5_xsd.nistschema_sv_iv_list_g_year_enumeration_5 import NistschemaSvIvListGYearEnumeration5Type
+
+
+obj = NistschemaSvIvListGYearEnumeration5(
+    value=NistschemaSvIvListGYearEnumeration5Type.VALUE_2006_1970_1996_1993_2021
+)

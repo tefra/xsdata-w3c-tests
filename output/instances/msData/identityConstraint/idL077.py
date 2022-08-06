@@ -1,0 +1,75 @@
+from output.models.ms_data.identity_constraint.id_l077_xsd.id_l077 import Root
+from output.models.ms_data.identity_constraint.id_l077_xsd.id_l077 import T
+from xsdata.formats.dataclass.models.generics import DerivedElement
+
+
+obj = Root(
+    t=[
+        T(
+            col="a",
+            content=[
+                "1&#10;",
+                DerivedElement(
+                    qname="{myNS.tempuri.org}row",
+                    value=Ttype.Row(
+                        value="a",
+                        x="1"
+                    ),
+                    type=None
+                ),
+                DerivedElement(
+                    qname="{myNS.tempuri.org}ref",
+                    value=Ttype.Ref(
+                        value="a",
+                        y="1"
+                    ),
+                    type=None
+                ),
+            ]
+        ),
+        T(
+            col="a",
+            content=[
+                "1&#10;",
+                DerivedElement(
+                    qname="{myNS.tempuri.org}row",
+                    value=Ttype.Row(
+                        value="c",
+                        x="1"
+                    ),
+                    type=None
+                ),
+                DerivedElement(
+                    qname="{myNS.tempuri.org}ref",
+                    value=Ttype.Ref(
+                        value="b",
+                        y="1"
+                    ),
+                    type=None
+                ),
+            ]
+        ),
+        T(
+            col="a",
+            content=[
+                "1&#10;",
+                DerivedElement(
+                    qname="{myNS.tempuri.org}row",
+                    value=Ttype.Row(
+                        value="b",
+                        x="1"
+                    ),
+                    type=None
+                ),
+                DerivedElement(
+                    qname="{myNS.tempuri.org}ref",
+                    value=Ttype.Ref(
+                        value="c",
+                        y="1"
+                    ),
+                    type=None
+                ),
+            ]
+        ),
+    ]
+)

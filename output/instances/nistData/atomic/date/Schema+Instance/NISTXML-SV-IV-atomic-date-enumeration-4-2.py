@@ -1,0 +1,7 @@
+from output.models.nist_data.atomic.date.schema_instance.nistschema_sv_iv_atomic_date_enumeration_4_xsd.nistschema_sv_iv_atomic_date_enumeration_4 import NistschemaSvIvAtomicDateEnumeration4
+from output.models.nist_data.atomic.date.schema_instance.nistschema_sv_iv_atomic_date_enumeration_4_xsd.nistschema_sv_iv_atomic_date_enumeration_4 import NistschemaSvIvAtomicDateEnumeration4Type
+
+
+obj = NistschemaSvIvAtomicDateEnumeration4(
+    value=NistschemaSvIvAtomicDateEnumeration4Type.VALUE_2021_10_20
+)

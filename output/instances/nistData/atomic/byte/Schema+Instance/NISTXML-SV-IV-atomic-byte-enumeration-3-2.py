@@ -1,0 +1,7 @@
+from output.models.nist_data.atomic.byte.schema_instance.nistschema_sv_iv_atomic_byte_enumeration_3_xsd.nistschema_sv_iv_atomic_byte_enumeration_3 import NistschemaSvIvAtomicByteEnumeration3
+from output.models.nist_data.atomic.byte.schema_instance.nistschema_sv_iv_atomic_byte_enumeration_3_xsd.nistschema_sv_iv_atomic_byte_enumeration_3 import NistschemaSvIvAtomicByteEnumeration3Type
+
+
+obj = NistschemaSvIvAtomicByteEnumeration3(
+    value=NistschemaSvIvAtomicByteEnumeration3Type.VALUE_127
+)

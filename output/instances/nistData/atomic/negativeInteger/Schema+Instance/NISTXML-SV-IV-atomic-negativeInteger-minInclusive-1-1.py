@@ -1,0 +1,6 @@
+from output.models.nist_data.atomic.negative_integer.schema_instance.nistschema_sv_iv_atomic_negative_integer_min_inclusive_1_xsd.nistschema_sv_iv_atomic_negative_integer_min_inclusive_1 import NistschemaSvIvAtomicNegativeIntegerMinInclusive1
+
+
+obj = NistschemaSvIvAtomicNegativeIntegerMinInclusive1(
+    value=-999999999999999999
+)

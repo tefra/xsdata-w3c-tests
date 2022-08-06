@@ -1,0 +1,7 @@
+from output.models.nist_data.atomic.long.schema_instance.nistschema_sv_iv_atomic_long_enumeration_3_xsd.nistschema_sv_iv_atomic_long_enumeration_3 import NistschemaSvIvAtomicLongEnumeration3
+from output.models.nist_data.atomic.long.schema_instance.nistschema_sv_iv_atomic_long_enumeration_3_xsd.nistschema_sv_iv_atomic_long_enumeration_3 import NistschemaSvIvAtomicLongEnumeration3Type
+
+
+obj = NistschemaSvIvAtomicLongEnumeration3(
+    value=NistschemaSvIvAtomicLongEnumeration3Type.VALUE_4812
+)

@@ -1,0 +1,15 @@
+from output.models.nist_data.list_pkg.nmtoken.schema_instance.nistschema_sv_iv_list_nmtoken_pattern_5_xsd.nistschema_sv_iv_list_nmtoken_pattern_5 import NistschemaSvIvListNmtokenPattern5
+
+
+obj = NistschemaSvIvListNmtokenPattern5(
+    value=[
+        "and_semantics-registry:be:provided:The:for.By",
+        "type-",
+        "and.It:Conformance_browsers.today.to.of.with-Standards-a",
+        "and_the:achieved_has-tools:and:rigorous:to:la",
+        "all-and:its_creation_the-Subcommi",
+        "models:and_signatures_with:accomplish",
+        "manufacturers:to:donate:and-and.to-the.and.Ad",
+        "known.allow:chosen-addressing.donate.and",
+    ]
+)

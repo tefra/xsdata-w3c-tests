@@ -1,0 +1,7 @@
+from output.models.nist_data.atomic.language.schema_instance.nistschema_sv_iv_atomic_language_enumeration_2_xsd.nistschema_sv_iv_atomic_language_enumeration_2 import NistschemaSvIvAtomicLanguageEnumeration2
+from output.models.nist_data.atomic.language.schema_instance.nistschema_sv_iv_atomic_language_enumeration_2_xsd.nistschema_sv_iv_atomic_language_enumeration_2 import NistschemaSvIvAtomicLanguageEnumeration2Type
+
+
+obj = NistschemaSvIvAtomicLanguageEnumeration2(
+    value=NistschemaSvIvAtomicLanguageEnumeration2Type.SS
+)

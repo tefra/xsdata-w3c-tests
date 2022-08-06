@@ -1,0 +1,6 @@
+from output.models.nist_data.atomic.positive_integer.schema_instance.nistschema_sv_iv_atomic_positive_integer_min_exclusive_2_xsd.nistschema_sv_iv_atomic_positive_integer_min_exclusive_2 import NistschemaSvIvAtomicPositiveIntegerMinExclusive2
+
+
+obj = NistschemaSvIvAtomicPositiveIntegerMinExclusive2(
+    value=999999999999999999
+)

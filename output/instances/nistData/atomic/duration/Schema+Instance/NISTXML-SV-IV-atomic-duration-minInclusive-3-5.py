@@ -1,0 +1,7 @@
+from output.models.nist_data.atomic.duration.schema_instance.nistschema_sv_iv_atomic_duration_min_inclusive_3_xsd.nistschema_sv_iv_atomic_duration_min_inclusive_3 import NistschemaSvIvAtomicDurationMinInclusive3
+from xsdata.models.datatype import XmlDuration
+
+
+obj = NistschemaSvIvAtomicDurationMinInclusive3(
+    value=XmlDuration("P2030Y12M31DT23H59M59S")
+)

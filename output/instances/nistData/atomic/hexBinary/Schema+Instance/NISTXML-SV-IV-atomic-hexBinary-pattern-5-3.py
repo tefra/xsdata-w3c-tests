@@ -1,0 +1,6 @@
+from output.models.nist_data.atomic.hex_binary.schema_instance.nistschema_sv_iv_atomic_hex_binary_pattern_5_xsd.nistschema_sv_iv_atomic_hex_binary_pattern_5 import NistschemaSvIvAtomicHexBinaryPattern5
+
+
+obj = NistschemaSvIvAtomicHexBinaryPattern5(
+    value="69706467776169706D7871727879636E6D69626271797962776B67686D61"
+)

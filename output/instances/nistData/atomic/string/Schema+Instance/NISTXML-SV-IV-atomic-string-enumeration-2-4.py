@@ -1,0 +1,7 @@
+from output.models.nist_data.atomic.string.schema_instance.nistschema_sv_iv_atomic_string_enumeration_2_xsd.nistschema_sv_iv_atomic_string_enumeration_2 import NistschemaSvIvAtomicStringEnumeration2
+from output.models.nist_data.atomic.string.schema_instance.nistschema_sv_iv_atomic_string_enumeration_2_xsd.nistschema_sv_iv_atomic_string_enumeration_2 import NistschemaSvIvAtomicStringEnumeration2Type
+
+
+obj = NistschemaSvIvAtomicStringEnumeration2(
+    value=NistschemaSvIvAtomicStringEnumeration2Type.IS
+)

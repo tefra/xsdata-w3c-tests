@@ -1,0 +1,7 @@
+from output.models.nist_data.atomic.ncname.schema_instance.nistschema_sv_iv_atomic_ncname_enumeration_1_xsd.nistschema_sv_iv_atomic_ncname_enumeration_1 import NistschemaSvIvAtomicNcnameEnumeration1
+from output.models.nist_data.atomic.ncname.schema_instance.nistschema_sv_iv_atomic_ncname_enumeration_1_xsd.nistschema_sv_iv_atomic_ncname_enumeration_1 import NistschemaSvIvAtomicNcnameEnumeration1Type
+
+
+obj = NistschemaSvIvAtomicNcnameEnumeration1(
+    value=NistschemaSvIvAtomicNcnameEnumeration1Type.GA_THE_THE
+)

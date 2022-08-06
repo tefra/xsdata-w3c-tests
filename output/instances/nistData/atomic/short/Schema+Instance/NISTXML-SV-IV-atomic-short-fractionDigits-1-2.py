@@ -1,0 +1,6 @@
+from output.models.nist_data.atomic.short.schema_instance.nistschema_sv_iv_atomic_short_fraction_digits_1_xsd.nistschema_sv_iv_atomic_short_fraction_digits_1 import NistschemaSvIvAtomicShortFractionDigits1
+
+
+obj = NistschemaSvIvAtomicShortFractionDigits1(
+    value=-15359
+)

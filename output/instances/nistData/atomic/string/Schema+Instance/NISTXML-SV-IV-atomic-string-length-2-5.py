@@ -1,0 +1,6 @@
+from output.models.nist_data.atomic.string.schema_instance.nistschema_sv_iv_atomic_string_length_2_xsd.nistschema_sv_iv_atomic_string_length_2 import NistschemaSvIvAtomicStringLength2
+
+
+obj = NistschemaSvIvAtomicStringLength2(
+    value="rs and&#10;throughout the industry  The eXtensible Markup Language  XML   which is&#10;already targeted as the enabling technology for EC  is the primary&#10;standard by which industries are defining the structure and semantics of&#10;their information  XML is a base recommendation coupled with a set of&#10;emerging specifications and related  vocabularies  based upon the XML&#10;syntax &#10;&#10;In the simplest sense  the benefits of XML will only be achieved if&#10;organizations of a significant number are using the same XML documents &#10;Therefore  these XML documents must be available for partners to&#10;discover and retrieve  A registry/repository is a mechanism used to&#10;discover and retrieve documents  templates  software  i e   objects&#10;and resources  over the Internet  A registry is the mechanism used to&#10;discover the object  The registry provides information about the&#10;object  including the location of the object  A repository is where&#10;the object re"
+)

@@ -1,0 +1,7 @@
+from output.models.nist_data.atomic.decimal.schema_instance.nistschema_sv_iv_atomic_decimal_enumeration_3_xsd.nistschema_sv_iv_atomic_decimal_enumeration_3 import NistschemaSvIvAtomicDecimalEnumeration3
+from output.models.nist_data.atomic.decimal.schema_instance.nistschema_sv_iv_atomic_decimal_enumeration_3_xsd.nistschema_sv_iv_atomic_decimal_enumeration_3 import NistschemaSvIvAtomicDecimalEnumeration3Type
+
+
+obj = NistschemaSvIvAtomicDecimalEnumeration3(
+    value=NistschemaSvIvAtomicDecimalEnumeration3Type.VALUE_0_672
+)

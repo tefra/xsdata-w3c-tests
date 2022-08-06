@@ -1,0 +1,7 @@
+from output.models.nist_data.atomic.qname.schema_instance.nistschema_sv_iv_atomic_qname_enumeration_1_xsd.nistschema_sv_iv_atomic_qname_enumeration_1 import NistschemaSvIvAtomicQnameEnumeration1
+from output.models.nist_data.atomic.qname.schema_instance.nistschema_sv_iv_atomic_qname_enumeration_1_xsd.nistschema_sv_iv_atomic_qname_enumeration_1 import NistschemaSvIvAtomicQnameEnumeration1Type
+
+
+obj = NistschemaSvIvAtomicQnameEnumeration1(
+    value=NistschemaSvIvAtomicQnameEnumeration1Type.THOSE_TO_BUSINESS_AND_ISSUES_DATA_FOR
+)

@@ -1,0 +1,6 @@
+from output.models.nist_data.atomic.unsigned_byte.schema_instance.nistschema_sv_iv_atomic_unsigned_byte_total_digits_3_xsd.nistschema_sv_iv_atomic_unsigned_byte_total_digits_3 import NistschemaSvIvAtomicUnsignedByteTotalDigits3
+
+
+obj = NistschemaSvIvAtomicUnsignedByteTotalDigits3(
+    value=62
+)

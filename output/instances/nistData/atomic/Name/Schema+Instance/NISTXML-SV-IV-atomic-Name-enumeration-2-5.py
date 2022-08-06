@@ -1,0 +1,7 @@
+from output.models.nist_data.atomic.name.schema_instance.nistschema_sv_iv_atomic_name_enumeration_2_xsd.nistschema_sv_iv_atomic_name_enumeration_2 import NistschemaSvIvAtomicNameEnumeration2
+from output.models.nist_data.atomic.name.schema_instance.nistschema_sv_iv_atomic_name_enumeration_2_xsd.nistschema_sv_iv_atomic_name_enumeration_2 import NistschemaSvIvAtomicNameEnumeration2Type
+
+
+obj = NistschemaSvIvAtomicNameEnumeration2(
+    value=NistschemaSvIvAtomicNameEnumeration2Type.UOF_RETRIEVE_THE_PROVIDED_SPECIFIC_IN_SYSTEMS_ON_A_CHI
+)

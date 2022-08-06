@@ -1,0 +1,7 @@
+from output.models.nist_data.atomic.byte.schema_instance.nistschema_sv_iv_atomic_byte_enumeration_1_xsd.nistschema_sv_iv_atomic_byte_enumeration_1 import NistschemaSvIvAtomicByteEnumeration1
+from output.models.nist_data.atomic.byte.schema_instance.nistschema_sv_iv_atomic_byte_enumeration_1_xsd.nistschema_sv_iv_atomic_byte_enumeration_1 import NistschemaSvIvAtomicByteEnumeration1Type
+
+
+obj = NistschemaSvIvAtomicByteEnumeration1(
+    value=NistschemaSvIvAtomicByteEnumeration1Type.VALUE_MINUS_128
+)

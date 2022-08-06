@@ -1,0 +1,7 @@
+from output.models.nist_data.list_pkg.g_month.schema_instance.nistschema_sv_iv_list_g_month_enumeration_2_xsd.nistschema_sv_iv_list_g_month_enumeration_2 import NistschemaSvIvListGMonthEnumeration2
+from output.models.nist_data.list_pkg.g_month.schema_instance.nistschema_sv_iv_list_g_month_enumeration_2_xsd.nistschema_sv_iv_list_g_month_enumeration_2 import NistschemaSvIvListGMonthEnumeration2Type
+
+
+obj = NistschemaSvIvListGMonthEnumeration2(
+    value=NistschemaSvIvListGMonthEnumeration2Type.VALUE_05_04_01_03_11_04_01_10_06
+)

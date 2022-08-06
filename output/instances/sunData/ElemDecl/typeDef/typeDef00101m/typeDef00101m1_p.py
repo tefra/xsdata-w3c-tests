@@ -1,0 +1,6 @@
+from output.models.sun_data.elem_decl.type_def.type_def00101m.type_def00101m_xsd.type_def00101m import Answer
+
+
+obj = Answer(
+    value=True
+)

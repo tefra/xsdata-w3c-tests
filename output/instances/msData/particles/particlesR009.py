@@ -1,0 +1,15 @@
+from output.models.ms_data.particles.particles_r009_xsd.particles_r009 import Doc
+from output.models.ms_data.particles.particles_r009_xsd.particles_r009 import R
+
+
+obj = Doc(
+    elem=R(
+        any_element=[],
+        e1=[
+            "",
+            "",
+            "",
+            "",
+        ]
+    )
+)

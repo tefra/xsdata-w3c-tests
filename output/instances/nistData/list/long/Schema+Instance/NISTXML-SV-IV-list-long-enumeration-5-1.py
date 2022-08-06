@@ -1,0 +1,7 @@
+from output.models.nist_data.list_pkg.long.schema_instance.nistschema_sv_iv_list_long_enumeration_5_xsd.nistschema_sv_iv_list_long_enumeration_5 import NistschemaSvIvListLongEnumeration5
+from output.models.nist_data.list_pkg.long.schema_instance.nistschema_sv_iv_list_long_enumeration_5_xsd.nistschema_sv_iv_list_long_enumeration_5 import NistschemaSvIvListLongEnumeration5Type
+
+
+obj = NistschemaSvIvListLongEnumeration5(
+    value=NistschemaSvIvListLongEnumeration5Type.VALUE_389526971820_150055111_619855331_285019_237301675
+)

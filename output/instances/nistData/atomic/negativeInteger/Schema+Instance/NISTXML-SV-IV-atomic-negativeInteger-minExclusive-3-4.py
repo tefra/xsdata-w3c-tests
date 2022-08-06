@@ -1,0 +1,6 @@
+from output.models.nist_data.atomic.negative_integer.schema_instance.nistschema_sv_iv_atomic_negative_integer_min_exclusive_3_xsd.nistschema_sv_iv_atomic_negative_integer_min_exclusive_3 import NistschemaSvIvAtomicNegativeIntegerMinExclusive3
+
+
+obj = NistschemaSvIvAtomicNegativeIntegerMinExclusive3(
+    value=-339377387206743076
+)

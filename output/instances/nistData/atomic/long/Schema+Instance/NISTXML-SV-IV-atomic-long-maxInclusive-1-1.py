@@ -1,0 +1,6 @@
+from output.models.nist_data.atomic.long.schema_instance.nistschema_sv_iv_atomic_long_max_inclusive_1_xsd.nistschema_sv_iv_atomic_long_max_inclusive_1 import NistschemaSvIvAtomicLongMaxInclusive1
+
+
+obj = NistschemaSvIvAtomicLongMaxInclusive1(
+    value=-999999999999999999
+)

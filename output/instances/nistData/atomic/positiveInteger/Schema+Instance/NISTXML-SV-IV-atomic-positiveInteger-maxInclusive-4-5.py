@@ -1,0 +1,6 @@
+from output.models.nist_data.atomic.positive_integer.schema_instance.nistschema_sv_iv_atomic_positive_integer_max_inclusive_4_xsd.nistschema_sv_iv_atomic_positive_integer_max_inclusive_4 import NistschemaSvIvAtomicPositiveIntegerMaxInclusive4
+
+
+obj = NistschemaSvIvAtomicPositiveIntegerMaxInclusive4(
+    value=619618676703699189
+)

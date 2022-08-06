@@ -1,0 +1,7 @@
+from output.models.nist_data.atomic.int_pkg.schema_instance.nistschema_sv_iv_atomic_int_enumeration_4_xsd.nistschema_sv_iv_atomic_int_enumeration_4 import NistschemaSvIvAtomicIntEnumeration4
+from output.models.nist_data.atomic.int_pkg.schema_instance.nistschema_sv_iv_atomic_int_enumeration_4_xsd.nistschema_sv_iv_atomic_int_enumeration_4 import NistschemaSvIvAtomicIntEnumeration4Type
+
+
+obj = NistschemaSvIvAtomicIntEnumeration4(
+    value=NistschemaSvIvAtomicIntEnumeration4Type.VALUE_MINUS_7786609
+)

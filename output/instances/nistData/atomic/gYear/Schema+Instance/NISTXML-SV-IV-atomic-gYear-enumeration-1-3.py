@@ -1,0 +1,7 @@
+from output.models.nist_data.atomic.g_year.schema_instance.nistschema_sv_iv_atomic_g_year_enumeration_1_xsd.nistschema_sv_iv_atomic_g_year_enumeration_1 import NistschemaSvIvAtomicGYearEnumeration1
+from output.models.nist_data.atomic.g_year.schema_instance.nistschema_sv_iv_atomic_g_year_enumeration_1_xsd.nistschema_sv_iv_atomic_g_year_enumeration_1 import NistschemaSvIvAtomicGYearEnumeration1Type
+
+
+obj = NistschemaSvIvAtomicGYearEnumeration1(
+    value=NistschemaSvIvAtomicGYearEnumeration1Type.VALUE_2028
+)

@@ -1,0 +1,7 @@
+from output.models.nist_data.atomic.long.schema_instance.nistschema_sv_iv_atomic_long_enumeration_4_xsd.nistschema_sv_iv_atomic_long_enumeration_4 import NistschemaSvIvAtomicLongEnumeration4
+from output.models.nist_data.atomic.long.schema_instance.nistschema_sv_iv_atomic_long_enumeration_4_xsd.nistschema_sv_iv_atomic_long_enumeration_4 import NistschemaSvIvAtomicLongEnumeration4Type
+
+
+obj = NistschemaSvIvAtomicLongEnumeration4(
+    value=NistschemaSvIvAtomicLongEnumeration4Type.VALUE_947653025590775
+)

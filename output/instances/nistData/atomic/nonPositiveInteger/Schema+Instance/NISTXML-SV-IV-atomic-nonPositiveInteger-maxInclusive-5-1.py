@@ -1,0 +1,6 @@
+from output.models.nist_data.atomic.non_positive_integer.schema_instance.nistschema_sv_iv_atomic_non_positive_integer_max_inclusive_5_xsd.nistschema_sv_iv_atomic_non_positive_integer_max_inclusive_5 import NistschemaSvIvAtomicNonPositiveIntegerMaxInclusive5
+
+
+obj = NistschemaSvIvAtomicNonPositiveIntegerMaxInclusive5(
+    value=-999999999999999999
+)

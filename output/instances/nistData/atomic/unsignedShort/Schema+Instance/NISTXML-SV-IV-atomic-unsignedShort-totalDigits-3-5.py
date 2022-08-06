@@ -1,0 +1,6 @@
+from output.models.nist_data.atomic.unsigned_short.schema_instance.nistschema_sv_iv_atomic_unsigned_short_total_digits_3_xsd.nistschema_sv_iv_atomic_unsigned_short_total_digits_3 import NistschemaSvIvAtomicUnsignedShortTotalDigits3
+
+
+obj = NistschemaSvIvAtomicUnsignedShortTotalDigits3(
+    value=93
+)

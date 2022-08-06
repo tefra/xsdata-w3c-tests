@@ -1,0 +1,7 @@
+from output.models.nist_data.list_pkg.language.schema_instance.nistschema_sv_iv_list_language_enumeration_2_xsd.nistschema_sv_iv_list_language_enumeration_2 import NistschemaSvIvListLanguageEnumeration2
+from output.models.nist_data.list_pkg.language.schema_instance.nistschema_sv_iv_list_language_enumeration_2_xsd.nistschema_sv_iv_list_language_enumeration_2 import NistschemaSvIvListLanguageEnumeration2Type
+
+
+obj = NistschemaSvIvListLanguageEnumeration2(
+    value=NistschemaSvIvListLanguageEnumeration2Type.SG_SH_SI_SK_SL_SM_SN
+)

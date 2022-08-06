@@ -1,0 +1,6 @@
+from output.models.nist_data.atomic.non_positive_integer.schema_instance.nistschema_sv_iv_atomic_non_positive_integer_pattern_3_xsd.nistschema_sv_iv_atomic_non_positive_integer_pattern_3 import NistschemaSvIvAtomicNonPositiveIntegerPattern3
+
+
+obj = NistschemaSvIvAtomicNonPositiveIntegerPattern3(
+    value="-437225795"
+)

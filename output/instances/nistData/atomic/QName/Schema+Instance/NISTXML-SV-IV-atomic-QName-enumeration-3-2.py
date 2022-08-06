@@ -1,0 +1,7 @@
+from output.models.nist_data.atomic.qname.schema_instance.nistschema_sv_iv_atomic_qname_enumeration_3_xsd.nistschema_sv_iv_atomic_qname_enumeration_3 import NistschemaSvIvAtomicQnameEnumeration3
+from output.models.nist_data.atomic.qname.schema_instance.nistschema_sv_iv_atomic_qname_enumeration_3_xsd.nistschema_sv_iv_atomic_qname_enumeration_3 import NistschemaSvIvAtomicQnameEnumeration3Type
+
+
+obj = NistschemaSvIvAtomicQnameEnumeration3(
+    value=NistschemaSvIvAtomicQnameEnumeration3Type.LAN_IAND_MUST_EFFECTI
+)

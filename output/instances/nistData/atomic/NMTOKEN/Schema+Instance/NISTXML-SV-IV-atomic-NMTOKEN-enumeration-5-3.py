@@ -1,0 +1,7 @@
+from output.models.nist_data.atomic.nmtoken.schema_instance.nistschema_sv_iv_atomic_nmtoken_enumeration_5_xsd.nistschema_sv_iv_atomic_nmtoken_enumeration_5 import NistschemaSvIvAtomicNmtokenEnumeration5
+from output.models.nist_data.atomic.nmtoken.schema_instance.nistschema_sv_iv_atomic_nmtoken_enumeration_5_xsd.nistschema_sv_iv_atomic_nmtoken_enumeration_5 import NistschemaSvIvAtomicNmtokenEnumeration5Type
+
+
+obj = NistschemaSvIvAtomicNmtokenEnumeration5(
+    value=NistschemaSvIvAtomicNmtokenEnumeration5Type.VIA_DISCUSSIONS
+)

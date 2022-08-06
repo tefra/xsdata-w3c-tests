@@ -1,0 +1,44 @@
+from decimal import Decimal
+from output.models.boeing_data.ipo2.ipo_xsd.address import Ukaddress
+from output.models.boeing_data.ipo2.ipo_xsd.ipo import ItemDeliveryShipBy
+from output.models.boeing_data.ipo2.ipo_xsd.ipo import ItemsType
+from output.models.boeing_data.ipo2.ipo_xsd.ipo import PurchaseOrder
+from xsdata.formats.dataclass.models.generics import DerivedElement
+from xsdata.models.datatype import XmlDate
+
+
+obj = PurchaseOrder(
+    ship_to=None,
+    bill_to=None,
+    single_address=Ukaddress(
+        name="Helen Zoe",
+        street="47 Eden Street",
+        city="Cambridge",
+        postcode="CB1 1JR",
+        export_code=1
+    ),
+    customer_comment=None,
+    ship_comment=None,
+    comment="I love Boeing too!",
+    items=ItemsType(
+        content=[
+            DerivedElement(
+                qname="item",
+                value=ItemsType.Item(
+                    product_name="777 Model",
+                    quantity=1,
+                    usprice=Decimal("99.95"),
+                    customer_comment=[],
+                    ship_comment=[],
+                    comment=[],
+                    ship_date=XmlDate(1999, 12, 5),
+                    part_num="777-AB",
+                    weight_kg=Decimal("4.5"),
+                    ship_by=ItemDeliveryShipBy.AIR
+                ),
+                type=None
+            ),
+        ]
+    ),
+    order_date=XmlDate(2002, 10, 20)
+)

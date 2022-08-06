@@ -1,0 +1,7 @@
+from output.models.nist_data.list_pkg.string.schema_instance.nistschema_sv_iv_list_string_enumeration_3_xsd.nistschema_sv_iv_list_string_enumeration_3 import NistschemaSvIvListStringEnumeration3
+from output.models.nist_data.list_pkg.string.schema_instance.nistschema_sv_iv_list_string_enumeration_3_xsd.nistschema_sv_iv_list_string_enumeration_3 import NistschemaSvIvListStringEnumeration3Type
+
+
+obj = NistschemaSvIvListStringEnumeration3(
+    value=NistschemaSvIvListStringEnumeration3Type.OF_MADE_DISCOVERY_OWN_APPROPRIATE
+)

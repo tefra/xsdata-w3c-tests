@@ -1,0 +1,7 @@
+from output.models.nist_data.atomic.name.schema_instance.nistschema_sv_iv_atomic_name_enumeration_5_xsd.nistschema_sv_iv_atomic_name_enumeration_5 import NistschemaSvIvAtomicNameEnumeration5
+from output.models.nist_data.atomic.name.schema_instance.nistschema_sv_iv_atomic_name_enumeration_5_xsd.nistschema_sv_iv_atomic_name_enumeration_5 import NistschemaSvIvAtomicNameEnumeration5Type
+
+
+obj = NistschemaSvIvAtomicNameEnumeration5(
+    value=NistschemaSvIvAtomicNameEnumeration5Type.PAPPLICATION_THE_OBJECT_OBJECT_COMPUTING_CAN
+)

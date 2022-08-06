@@ -1,0 +1,7 @@
+from output.models.nist_data.list_pkg.language.schema_instance.nistschema_sv_iv_list_language_enumeration_5_xsd.nistschema_sv_iv_list_language_enumeration_5 import NistschemaSvIvListLanguageEnumeration5
+from output.models.nist_data.list_pkg.language.schema_instance.nistschema_sv_iv_list_language_enumeration_5_xsd.nistschema_sv_iv_list_language_enumeration_5 import NistschemaSvIvListLanguageEnumeration5Type
+
+
+obj = NistschemaSvIvListLanguageEnumeration5(
+    value=NistschemaSvIvListLanguageEnumeration5Type.BA_BE_BG_BH_BI_BN_BO_BR_CA
+)

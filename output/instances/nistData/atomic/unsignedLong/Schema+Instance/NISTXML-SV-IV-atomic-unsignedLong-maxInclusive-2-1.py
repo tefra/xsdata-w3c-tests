@@ -1,0 +1,6 @@
+from output.models.nist_data.atomic.unsigned_long.schema_instance.nistschema_sv_iv_atomic_unsigned_long_max_inclusive_2_xsd.nistschema_sv_iv_atomic_unsigned_long_max_inclusive_2 import NistschemaSvIvAtomicUnsignedLongMaxInclusive2
+
+
+obj = NistschemaSvIvAtomicUnsignedLongMaxInclusive2(
+    value=0
+)

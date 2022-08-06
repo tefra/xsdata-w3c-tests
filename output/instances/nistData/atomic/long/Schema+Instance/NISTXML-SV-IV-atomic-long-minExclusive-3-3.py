@@ -1,0 +1,6 @@
+from output.models.nist_data.atomic.long.schema_instance.nistschema_sv_iv_atomic_long_min_exclusive_3_xsd.nistschema_sv_iv_atomic_long_min_exclusive_3 import NistschemaSvIvAtomicLongMinExclusive3
+
+
+obj = NistschemaSvIvAtomicLongMinExclusive3(
+    value=950507687486504889
+)

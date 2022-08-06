@@ -1,0 +1,6 @@
+from output.models.nist_data.atomic.unsigned_int.schema_instance.nistschema_sv_iv_atomic_unsigned_int_min_inclusive_5_xsd.nistschema_sv_iv_atomic_unsigned_int_min_inclusive_5 import NistschemaSvIvAtomicUnsignedIntMinInclusive5
+
+
+obj = NistschemaSvIvAtomicUnsignedIntMinInclusive5(
+    value=4294967295
+)

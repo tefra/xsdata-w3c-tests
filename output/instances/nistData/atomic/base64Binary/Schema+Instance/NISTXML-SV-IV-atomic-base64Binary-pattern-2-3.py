@@ -1,0 +1,6 @@
+from output.models.nist_data.atomic.base64_binary.schema_instance.nistschema_sv_iv_atomic_base64_binary_pattern_2_xsd.nistschema_sv_iv_atomic_base64_binary_pattern_2 import NistschemaSvIvAtomicBase64BinaryPattern2
+
+
+obj = NistschemaSvIvAtomicBase64BinaryPattern2(
+    value="Y2V5c2dic3R0Z3V0eHdwb3JlY2hmbGlkZW9yb25xZGl1aXZsaG9mcGVrdnd4bXlid3Fv"
+)

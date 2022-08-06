@@ -1,0 +1,7 @@
+from output.models.nist_data.atomic.date.schema_instance.nistschema_sv_iv_atomic_date_min_exclusive_5_xsd.nistschema_sv_iv_atomic_date_min_exclusive_5 import NistschemaSvIvAtomicDateMinExclusive5
+from xsdata.models.datatype import XmlDate
+
+
+obj = NistschemaSvIvAtomicDateMinExclusive5(
+    value=XmlDate(2030, 12, 31)
+)

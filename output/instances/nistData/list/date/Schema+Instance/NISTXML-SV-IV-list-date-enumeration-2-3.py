@@ -1,0 +1,7 @@
+from output.models.nist_data.list_pkg.date.schema_instance.nistschema_sv_iv_list_date_enumeration_2_xsd.nistschema_sv_iv_list_date_enumeration_2 import NistschemaSvIvListDateEnumeration2
+from output.models.nist_data.list_pkg.date.schema_instance.nistschema_sv_iv_list_date_enumeration_2_xsd.nistschema_sv_iv_list_date_enumeration_2 import NistschemaSvIvListDateEnumeration2Type
+
+
+obj = NistschemaSvIvListDateEnumeration2(
+    value=NistschemaSvIvListDateEnumeration2Type.VALUE_1975_06_30_2011_01_23_1971_02_24_2028_08_01_2017_11_02
+)

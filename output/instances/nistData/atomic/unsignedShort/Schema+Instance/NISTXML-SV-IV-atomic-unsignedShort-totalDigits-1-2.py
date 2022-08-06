@@ -1,0 +1,6 @@
+from output.models.nist_data.atomic.unsigned_short.schema_instance.nistschema_sv_iv_atomic_unsigned_short_total_digits_1_xsd.nistschema_sv_iv_atomic_unsigned_short_total_digits_1 import NistschemaSvIvAtomicUnsignedShortTotalDigits1
+
+
+obj = NistschemaSvIvAtomicUnsignedShortTotalDigits1(
+    value=2
+)

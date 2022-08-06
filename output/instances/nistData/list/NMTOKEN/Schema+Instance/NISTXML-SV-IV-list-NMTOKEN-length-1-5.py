@@ -1,0 +1,12 @@
+from output.models.nist_data.list_pkg.nmtoken.schema_instance.nistschema_sv_iv_list_nmtoken_length_1_xsd.nistschema_sv_iv_list_nmtoken_length_1 import NistschemaSvIvListNmtokenLength1
+
+
+obj = NistschemaSvIvListNmtokenLength1(
+    value=[
+        "Pervasive.and_Coordinate-unambiguous.of_A.devices-other:has.an",
+        "technical-XML:it:the_systems-also:for:templates-tasks:-NIST-an",
+        "One_Investigators_world_industry.discovery_resides.Stylesheet:",
+        "file-Consequently:recommendation-Internet:and.include_set.indu",
+        "of.the_is:having:and:international-industry:made.applications:",
+    ]
+)

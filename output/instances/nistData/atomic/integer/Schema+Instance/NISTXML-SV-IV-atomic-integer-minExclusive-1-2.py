@@ -1,0 +1,6 @@
+from output.models.nist_data.atomic.integer.schema_instance.nistschema_sv_iv_atomic_integer_min_exclusive_1_xsd.nistschema_sv_iv_atomic_integer_min_exclusive_1 import NistschemaSvIvAtomicIntegerMinExclusive1
+
+
+obj = NistschemaSvIvAtomicIntegerMinExclusive1(
+    value=443137129197984424
+)

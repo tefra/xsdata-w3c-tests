@@ -1,0 +1,7 @@
+from output.models.nist_data.list_pkg.date.schema_instance.nistschema_sv_iv_list_date_enumeration_5_xsd.nistschema_sv_iv_list_date_enumeration_5 import NistschemaSvIvListDateEnumeration5
+from output.models.nist_data.list_pkg.date.schema_instance.nistschema_sv_iv_list_date_enumeration_5_xsd.nistschema_sv_iv_list_date_enumeration_5 import NistschemaSvIvListDateEnumeration5Type
+
+
+obj = NistschemaSvIvListDateEnumeration5(
+    value=NistschemaSvIvListDateEnumeration5Type.VALUE_1987_11_18_1974_05_19_2008_11_11_1990_07_03_1994_03_11_1998_01_15
+)

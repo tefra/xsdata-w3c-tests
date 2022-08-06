@@ -1,0 +1,6 @@
+from output.models.nist_data.atomic.positive_integer.schema_instance.nistschema_sv_iv_atomic_positive_integer_total_digits_1_xsd.nistschema_sv_iv_atomic_positive_integer_total_digits_1 import NistschemaSvIvAtomicPositiveIntegerTotalDigits1
+
+
+obj = NistschemaSvIvAtomicPositiveIntegerTotalDigits1(
+    value=7
+)

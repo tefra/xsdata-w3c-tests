@@ -1,0 +1,6 @@
+from output.models.nist_data.atomic.unsigned_short.schema_instance.nistschema_sv_iv_atomic_unsigned_short_white_space_1_xsd.nistschema_sv_iv_atomic_unsigned_short_white_space_1 import NistschemaSvIvAtomicUnsignedShortWhiteSpace1
+
+
+obj = NistschemaSvIvAtomicUnsignedShortWhiteSpace1(
+    value=11321
+)

@@ -1,0 +1,7 @@
+from output.models.nist_data.atomic.nmtoken.schema_instance.nistschema_sv_iv_atomic_nmtoken_enumeration_2_xsd.nistschema_sv_iv_atomic_nmtoken_enumeration_2 import NistschemaSvIvAtomicNmtokenEnumeration2
+from output.models.nist_data.atomic.nmtoken.schema_instance.nistschema_sv_iv_atomic_nmtoken_enumeration_2_xsd.nistschema_sv_iv_atomic_nmtoken_enumeration_2 import NistschemaSvIvAtomicNmtokenEnumeration2Type
+
+
+obj = NistschemaSvIvAtomicNmtokenEnumeration2(
+    value=NistschemaSvIvAtomicNmtokenEnumeration2Type.WORKING_SOLVE
+)

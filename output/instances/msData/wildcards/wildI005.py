@@ -1,0 +1,85 @@
+from output.models.ms_data.wildcards.wild_i005_xsd.wild_i005 import Foo
+from xsdata.formats.dataclass.models.generics import AnyElement
+
+
+obj = Foo(
+    foo_element=[
+        AnyElement(
+            qname="{foo}b",
+            text="test",
+            tail=None,
+            children=[],
+            attributes={}
+        ),
+        AnyElement(
+            qname="{foo}b",
+            text="test",
+            tail=None,
+            children=[],
+            attributes={}
+        ),
+    ],
+    a_element=[
+        AnyElement(
+            qname="{a}b",
+            text="test",
+            tail=None,
+            children=[],
+            attributes={}
+        ),
+        AnyElement(
+            qname="{a}b",
+            text="test",
+            tail=None,
+            children=[],
+            attributes={}
+        ),
+    ],
+    b_element=[
+        AnyElement(
+            qname="{b}b",
+            text="test",
+            tail=None,
+            children=[],
+            attributes={}
+        ),
+        AnyElement(
+            qname="{b}b",
+            text="test",
+            tail=None,
+            children=[],
+            attributes={}
+        ),
+    ],
+    target_namespace_element=AnyElement(
+        qname=None,
+        text=None,
+        tail=None,
+        children=[
+            AnyElement(
+                qname="bar",
+                text="",
+                tail=None,
+                children=[],
+                attributes={}
+            ),
+            AnyElement(
+                qname="bar",
+                text="",
+                tail=None,
+                children=[],
+                attributes={}
+            ),
+            AnyElement(
+                qname="{http://foo}foo",
+                text=" test",
+                tail=None,
+                children=[],
+                attributes={}
+            ),
+        ],
+        attributes={}
+    ),
+    local_element=None,
+    other_element=None
+)

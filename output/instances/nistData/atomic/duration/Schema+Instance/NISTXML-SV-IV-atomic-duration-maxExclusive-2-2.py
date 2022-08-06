@@ -1,0 +1,7 @@
+from output.models.nist_data.atomic.duration.schema_instance.nistschema_sv_iv_atomic_duration_max_exclusive_2_xsd.nistschema_sv_iv_atomic_duration_max_exclusive_2 import NistschemaSvIvAtomicDurationMaxExclusive2
+from xsdata.models.datatype import XmlDuration
+
+
+obj = NistschemaSvIvAtomicDurationMaxExclusive2(
+    value=XmlDuration("P1986Y04M24DT00H21M12S")
+)

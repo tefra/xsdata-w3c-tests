@@ -1,0 +1,6 @@
+from output.models.nist_data.atomic.unsigned_short.schema_instance.nistschema_sv_iv_atomic_unsigned_short_pattern_3_xsd.nistschema_sv_iv_atomic_unsigned_short_pattern_3 import NistschemaSvIvAtomicUnsignedShortPattern3
+
+
+obj = NistschemaSvIvAtomicUnsignedShortPattern3(
+    value="397"
+)

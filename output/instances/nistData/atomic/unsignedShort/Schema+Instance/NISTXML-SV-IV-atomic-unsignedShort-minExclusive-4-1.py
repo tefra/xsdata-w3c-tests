@@ -1,0 +1,6 @@
+from output.models.nist_data.atomic.unsigned_short.schema_instance.nistschema_sv_iv_atomic_unsigned_short_min_exclusive_4_xsd.nistschema_sv_iv_atomic_unsigned_short_min_exclusive_4 import NistschemaSvIvAtomicUnsignedShortMinExclusive4
+
+
+obj = NistschemaSvIvAtomicUnsignedShortMinExclusive4(
+    value=910
+)

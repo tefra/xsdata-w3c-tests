@@ -1,0 +1,6 @@
+from output.models.nist_data.atomic.token.schema_instance.nistschema_sv_iv_atomic_token_length_4_xsd.nistschema_sv_iv_atomic_token_length_4 import NistschemaSvIvAtomicTokenLength4
+
+
+obj = NistschemaSvIvAtomicTokenLength4(
+    value="s process and the development process As chair of the OASIS XML Conformance Subcommittee NIST/ITL led the development of the widely used XML test suite NIST/ITL has further developed in cooperation with OASIS and W3C robust testing resources for related XML technologies including XML Schemas DOM and XSL Developers and users utilize these tools to exercise both the appropriate W3C Recommendation and the associated implementations Errors and ambiguities raised as a result of these tools are fed back into the development process for correction in future revisions An industry s ability to use electronic commerce EC effectively depends primarily on that industry s ability to create manipulate and transmit intelligent information among partners and throughout the industry The eXtensible Markup Language XML which is already targeted as the enabling technology for EC is the primary standard by which industries are defining the structure and semanticsgysgujpwlpynhfujnkkdvml"
+)

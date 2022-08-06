@@ -1,0 +1,64 @@
+from output.models.ms_data.model_groups.mg_f019_xsd.mg_f019 import Doc
+from xsdata.formats.dataclass.models.generics import AnyElement
+
+
+obj = Doc(
+    choice=[
+        AnyElement(
+            qname="{http://n1}foo",
+            text="",
+            tail=None,
+            children=[],
+            attributes={}
+        ),
+        AnyElement(
+            qname="{http://n2}foo",
+            text="",
+            tail=None,
+            children=[],
+            attributes={}
+        ),
+        AnyElement(
+            qname="{http://n3}foo",
+            text="",
+            tail=None,
+            children=[],
+            attributes={}
+        ),
+        AnyElement(
+            qname="{http://n4}foo",
+            text="",
+            tail=None,
+            children=[],
+            attributes={}
+        ),
+        AnyElement(
+            qname="e1",
+            text="",
+            tail=None,
+            children=[],
+            attributes={}
+        ),
+        AnyElement(
+            qname="e2",
+            text="",
+            tail=None,
+            children=[],
+            attributes={}
+        ),
+        AnyElement(
+            qname="e3",
+            text="",
+            tail=None,
+            children=[],
+            attributes={}
+        ),
+        AnyElement(
+            qname="e4",
+            text="",
+            tail=None,
+            children=[],
+            attributes={}
+        ),
+    ]
+)

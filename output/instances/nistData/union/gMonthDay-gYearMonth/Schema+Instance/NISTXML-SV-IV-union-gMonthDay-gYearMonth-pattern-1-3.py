@@ -1,0 +1,6 @@
+from output.models.nist_data.union.g_month_day_g_year_month.schema_instance.nistschema_sv_iv_union_g_month_day_g_year_month_pattern_1_xsd.nistschema_sv_iv_union_g_month_day_g_year_month_pattern_1 import NistschemaSvIvUnionGMonthDayGYearMonthPattern1
+
+
+obj = NistschemaSvIvUnionGMonthDayGYearMonthPattern1(
+    value="--07-23"
+)

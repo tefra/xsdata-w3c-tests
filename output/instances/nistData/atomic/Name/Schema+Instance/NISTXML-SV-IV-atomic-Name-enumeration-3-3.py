@@ -1,0 +1,7 @@
+from output.models.nist_data.atomic.name.schema_instance.nistschema_sv_iv_atomic_name_enumeration_3_xsd.nistschema_sv_iv_atomic_name_enumeration_3 import NistschemaSvIvAtomicNameEnumeration3
+from output.models.nist_data.atomic.name.schema_instance.nistschema_sv_iv_atomic_name_enumeration_3_xsd.nistschema_sv_iv_atomic_name_enumeration_3 import NistschemaSvIvAtomicNameEnumeration3Type
+
+
+obj = NistschemaSvIvAtomicNameEnumeration3(
+    value=NistschemaSvIvAtomicNameEnumeration3Type.IBUSINESS_PROCESSES_LANGUAGE_CHAIN
+)

@@ -1,0 +1,6 @@
+from output.models.nist_data.atomic.non_negative_integer.schema_instance.nistschema_sv_iv_atomic_non_negative_integer_pattern_1_xsd.nistschema_sv_iv_atomic_non_negative_integer_pattern_1 import NistschemaSvIvAtomicNonNegativeIntegerPattern1
+
+
+obj = NistschemaSvIvAtomicNonNegativeIntegerPattern1(
+    value="5"
+)

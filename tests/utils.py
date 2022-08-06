@@ -17,6 +17,7 @@ from xsdata.formats.dataclass.context import XmlContext
 from xsdata.formats.dataclass.parsers import JsonParser
 from xsdata.formats.dataclass.parsers import XmlParser
 from xsdata.formats.dataclass.serializers import JsonSerializer
+from xsdata.formats.dataclass.serializers import PycodeSerializer
 from xsdata.formats.dataclass.serializers import XmlSerializer
 from xsdata.formats.dataclass.serializers.config import SerializerConfig
 from xsdata.utils import text
@@ -81,7 +82,13 @@ def assert_bindings(
         assert_json_bindings(context, obj, save_path)
     else:
         assert_xml_bindings(
-            context, obj, parser.ns_map, schema_path, instance_path, save_path, version
+            context,
+            obj,
+            parser.ns_map,
+            schema_path,
+            instance_path,
+            save_path,
+            version,
         )
 
 
@@ -95,6 +102,9 @@ def assert_json_bindings(context: XmlContext, obj: Any, save_path: Optional[Path
 
     if save_path:
         save_path.with_suffix(".json").write_text(obj_json)
+
+        xsdata_code = PycodeSerializer(context=context, config=config).render(obj)
+        save_path.with_suffix(".py").write_text(xsdata_code)
 
         with contextlib.suppress(FileNotFoundError):
             save_path.with_suffix(".diff").unlink()
@@ -134,6 +144,10 @@ def assert_xml_bindings(
             json_document = JsonSerializer(context=context, config=config).render(obj)
             save_path.write_text(xsdata_xml)
             save_path.with_suffix(".json").write_text(json_document)
+
+            xsdata_code = PycodeSerializer(context=context, config=config).render(obj)
+            save_path.with_suffix(".py").write_text(xsdata_code)
+
         return assert_valid(schema_validator, xsdata_xml)
     except Exception as e:
         try:

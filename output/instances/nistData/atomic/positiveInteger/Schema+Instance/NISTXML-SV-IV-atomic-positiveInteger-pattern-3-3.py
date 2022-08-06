@@ -1,0 +1,6 @@
+from output.models.nist_data.atomic.positive_integer.schema_instance.nistschema_sv_iv_atomic_positive_integer_pattern_3_xsd.nistschema_sv_iv_atomic_positive_integer_pattern_3 import NistschemaSvIvAtomicPositiveIntegerPattern3
+
+
+obj = NistschemaSvIvAtomicPositiveIntegerPattern3(
+    value="788695745"
+)

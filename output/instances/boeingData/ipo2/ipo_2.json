@@ -14,20 +14,16 @@
   "items": {
     "content": [
       {
-        "qname": "item",
-        "value": {
-          "productName": "777 Model",
-          "quantity": 1,
-          "USPrice": "99.95",
-          "customerComment": [],
-          "shipComment": [],
-          "comment": [],
-          "shipDate": "1999-12-05",
-          "partNum": "777-AB",
-          "weightKg": "4.5",
-          "shipBy": "air"
-        },
-        "type": null
+        "productName": "777 Model",
+        "quantity": 1,
+        "USPrice": "99.95",
+        "customerComment": [],
+        "shipComment": [],
+        "comment": [],
+        "shipDate": "1999-12-05",
+        "partNum": "777-AB",
+        "weightKg": "4.5",
+        "shipBy": "air"
       }
     ]
   },

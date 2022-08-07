@@ -3,7 +3,6 @@ from output.models.boeing_data.ipo3.ipo_xsd.address import Ukaddress
 from output.models.boeing_data.ipo3.ipo_xsd.ipo import ItemsType
 from output.models.boeing_data.ipo3.ipo_xsd.ipo import PurchaseOrder
 from output.models.boeing_data.ipo3.ipo_xsd.itematt import ItemDeliveryShipBy
-from xsdata.formats.dataclass.models.generics import DerivedElement
 from xsdata.models.datatype import XmlDate
 
 
@@ -22,37 +21,29 @@ obj = PurchaseOrder(
     comment=None,
     items=ItemsType(
         content=[
-            DerivedElement(
-                qname="{http://www.example.com/IPO}item",
-                value=ItemsType.Item(
-                    product_name="777 Model",
-                    quantity=1,
-                    usprice=Decimal("99.95"),
-                    customer_comment=[],
-                    ship_comment=[],
-                    comment=[],
-                    ship_date=XmlDate(1999, 12, 5),
-                    part_num="777-BA",
-                    weight_kg=Decimal("4.5"),
-                    ship_by=ItemDeliveryShipBy.AIR
-                ),
-                type=None
+            ItemsType.Item(
+                product_name="777 Model",
+                quantity=1,
+                usprice=Decimal("99.95"),
+                customer_comment=[],
+                ship_comment=[],
+                comment=[],
+                ship_date=XmlDate(1999, 12, 5),
+                part_num="777-BA",
+                weight_kg=Decimal("4.5"),
+                ship_by=ItemDeliveryShipBy.AIR
             ),
-            DerivedElement(
-                qname="{http://www.example.com/IPO}item",
-                value=ItemsType.Item(
-                    product_name="833 Model",
-                    quantity=1,
-                    usprice=Decimal("199.95"),
-                    customer_comment=[],
-                    ship_comment=[],
-                    comment=[],
-                    ship_date=XmlDate(2000, 2, 28),
-                    part_num="833-AA",
-                    weight_kg=None,
-                    ship_by=None
-                ),
-                type=None
+            ItemsType.Item(
+                product_name="833 Model",
+                quantity=1,
+                usprice=Decimal("199.95"),
+                customer_comment=[],
+                ship_comment=[],
+                comment=[],
+                ship_date=XmlDate(2000, 2, 28),
+                part_num="833-AA",
+                weight_kg=None,
+                ship_by=None
             ),
         ]
     ),

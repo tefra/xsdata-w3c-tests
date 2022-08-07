@@ -8,43 +8,31 @@
     {
       "content": [
         {
-          "qname": "{foo}a",
-          "value": {
-            "any_element": {
-              "qname": null,
-              "text": null,
-              "tail": " mi ",
-              "children": [],
-              "attributes": {}
-            }
-          },
-          "type": null
+          "any_element": {
+            "qname": null,
+            "text": null,
+            "tail": " mi ",
+            "children": [],
+            "attributes": {}
+          }
         },
         {
-          "qname": "{foo}b",
-          "value": {
-            "any_element": {
-              "qname": null,
-              "text": null,
-              "tail": " xed ",
-              "children": [],
-              "attributes": {}
-            }
-          },
-          "type": null
+          "any_element": {
+            "qname": null,
+            "text": null,
+            "tail": " xed ",
+            "children": [],
+            "attributes": {}
+          }
         },
         {
-          "qname": "{foo}c",
-          "value": {
-            "any_element": {
-              "qname": null,
-              "text": null,
-              "tail": " content\n\t",
-              "children": [],
-              "attributes": {}
-            }
-          },
-          "type": null
+          "any_element": {
+            "qname": null,
+            "text": null,
+            "tail": " content\n\t",
+            "children": [],
+            "attributes": {}
+          }
         }
       ]
     },

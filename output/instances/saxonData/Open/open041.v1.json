@@ -1,22 +1,14 @@
 {
   "content": [
+    {},
     {
-      "qname": "a",
-      "value": {},
-      "type": "alpha"
-    },
-    {
-      "qname": "b",
-      "value": {
-        "open_com_element": {
-          "qname": "{http://open.com/}extra",
-          "text": "",
-          "tail": null,
-          "children": [],
-          "attributes": {}
-        }
-      },
-      "type": "beta"
+      "open_com_element": {
+        "qname": "{http://open.com/}extra",
+        "text": "",
+        "tail": null,
+        "children": [],
+        "attributes": {}
+      }
     }
   ]
 }

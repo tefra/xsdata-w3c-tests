@@ -20,40 +20,32 @@
   "items": {
     "content": [
       {
-        "qname": "{http://www.example.com/IPO}item",
-        "value": {
-          "productName": "777 Model",
-          "quantity": 1,
-          "USPrice": "99.95",
-          "customerComment": [
-            " Want this for the holidays! "
-          ],
-          "shipComment": [
-            " Use gold wrap if possible "
-          ],
-          "comment": [],
-          "shipDate": "1999-12-05",
-          "partNum": "777-BA",
-          "weightKg": "4.5",
-          "shipBy": "air"
-        },
-        "type": null
+        "productName": "777 Model",
+        "quantity": 1,
+        "USPrice": "99.95",
+        "customerComment": [
+          " Want this for the holidays! "
+        ],
+        "shipComment": [
+          " Use gold wrap if possible "
+        ],
+        "comment": [],
+        "shipDate": "1999-12-05",
+        "partNum": "777-BA",
+        "weightKg": "4.5",
+        "shipBy": "air"
       },
       {
-        "qname": "{http://www.example.com/IPO}item",
-        "value": {
-          "productName": "833 Model",
-          "quantity": 2,
-          "USPrice": "199.95",
-          "customerComment": [],
-          "shipComment": [],
-          "comment": [],
-          "shipDate": "2000-02-28",
-          "partNum": "833-AA",
-          "weightKg": null,
-          "shipBy": null
-        },
-        "type": null
+        "productName": "833 Model",
+        "quantity": 2,
+        "USPrice": "199.95",
+        "customerComment": [],
+        "shipComment": [],
+        "comment": [],
+        "shipDate": "2000-02-28",
+        "partNum": "833-AA",
+        "weightKg": null,
+        "shipBy": null
       }
     ]
   },

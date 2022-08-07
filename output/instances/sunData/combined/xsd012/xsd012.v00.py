@@ -3,7 +3,6 @@ from output.models.sun_data.combined.xsd012.xsd012_xsd.xsd012 import B
 from output.models.sun_data.combined.xsd012.xsd012_xsd.xsd012 import C
 from output.models.sun_data.combined.xsd012.xsd012_xsd.xsd012 import Root
 from xsdata.formats.dataclass.models.generics import AnyElement
-from xsdata.formats.dataclass.models.generics import DerivedElement
 
 
 obj = Root(
@@ -15,44 +14,32 @@ obj = Root(
         ),
         Root.Mixed(
             content=[
-                DerivedElement(
-                    qname="{foo}a",
-                    value=A(
-                        any_element=AnyElement(
-                            qname=None,
-                            text=None,
-                            tail=" mi ",
-                            children=[],
-                            attributes={}
-                        )
-                    ),
-                    type=None
+                A(
+                    any_element=AnyElement(
+                        qname=None,
+                        text=None,
+                        tail=" mi ",
+                        children=[],
+                        attributes={}
+                    )
                 ),
-                DerivedElement(
-                    qname="{foo}b",
-                    value=B(
-                        any_element=AnyElement(
-                            qname=None,
-                            text=None,
-                            tail=" xed ",
-                            children=[],
-                            attributes={}
-                        )
-                    ),
-                    type=None
+                B(
+                    any_element=AnyElement(
+                        qname=None,
+                        text=None,
+                        tail=" xed ",
+                        children=[],
+                        attributes={}
+                    )
                 ),
-                DerivedElement(
-                    qname="{foo}c",
-                    value=C(
-                        any_element=AnyElement(
-                            qname=None,
-                            text=None,
-                            tail=" content&#10;&#9;",
-                            children=[],
-                            attributes={}
-                        )
-                    ),
-                    type=None
+                C(
+                    any_element=AnyElement(
+                        qname=None,
+                        text=None,
+                        tail=" content&#10;&#9;",
+                        children=[],
+                        attributes={}
+                    )
                 ),
             ]
         ),

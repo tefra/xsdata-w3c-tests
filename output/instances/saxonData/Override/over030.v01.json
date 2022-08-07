@@ -16,17 +16,13 @@
       "content": [
         "This is some ",
         {
-          "qname": "{http://example.org/ns/document}emphasis",
-          "value": {
-            "role": null,
-            "id": null,
-            "base": null,
-            "content": [
-              "text",
-              "."
-            ]
-          },
-          "type": null
+          "role": null,
+          "id": null,
+          "base": null,
+          "content": [
+            "text",
+            "."
+          ]
         }
       ]
     }

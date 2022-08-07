@@ -3,7 +3,6 @@ from output.models.boeing_data.ipo2.ipo_xsd.address import Ukaddress
 from output.models.boeing_data.ipo2.ipo_xsd.ipo import ItemDeliveryShipBy
 from output.models.boeing_data.ipo2.ipo_xsd.ipo import ItemsType
 from output.models.boeing_data.ipo2.ipo_xsd.ipo import PurchaseOrder
-from xsdata.formats.dataclass.models.generics import DerivedElement
 from xsdata.models.datatype import XmlDate
 
 
@@ -22,21 +21,17 @@ obj = PurchaseOrder(
     comment="I love Boeing too!",
     items=ItemsType(
         content=[
-            DerivedElement(
-                qname="item",
-                value=ItemsType.Item(
-                    product_name="777 Model",
-                    quantity=1,
-                    usprice=Decimal("99.95"),
-                    customer_comment=[],
-                    ship_comment=[],
-                    comment=[],
-                    ship_date=XmlDate(1999, 12, 5),
-                    part_num="777-AB",
-                    weight_kg=Decimal("4.5"),
-                    ship_by=ItemDeliveryShipBy.AIR
-                ),
-                type=None
+            ItemsType.Item(
+                product_name="777 Model",
+                quantity=1,
+                usprice=Decimal("99.95"),
+                customer_comment=[],
+                ship_comment=[],
+                comment=[],
+                ship_date=XmlDate(1999, 12, 5),
+                part_num="777-AB",
+                weight_kg=Decimal("4.5"),
+                ship_by=ItemDeliveryShipBy.AIR
             ),
         ]
     ),

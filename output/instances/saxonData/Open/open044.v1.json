@@ -1,20 +1,12 @@
 {
   "w3_org_xml_1998_namespace_attributes": {},
   "content": [
+    {},
     {
-      "qname": "a",
-      "value": {},
-      "type": "alpha"
-    },
-    {
-      "qname": "b",
-      "value": {
-        "other_attributes": {
-          "{http://www.w3.org/XML/1998/namespace}lang": "jp"
-        },
-        "w3_org_xml_1998_namespace_attributes": {}
+      "other_attributes": {
+        "{http://www.w3.org/XML/1998/namespace}lang": "jp"
       },
-      "type": "beta"
+      "w3_org_xml_1998_namespace_attributes": {}
     }
   ]
 }

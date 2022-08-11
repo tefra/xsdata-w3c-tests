@@ -11,7 +11,6 @@ obj = Customers(
             phone_number="425-555-1234",
             address="2001",
             city="Redmond",
-            state="WA",
             zip="98052"
         ),
     ]

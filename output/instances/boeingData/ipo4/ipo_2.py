@@ -14,8 +14,7 @@ obj = PurchaseOrder(
         street="47 Eden Street",
         city="Cambridge",
         country="United Kingdom",
-        postcode="CB1 1JR",
-        export_code=1
+        postcode="CB1 1JR"
     ),
     customer_comment="I love Boeing too!",
     ship_comment=None,

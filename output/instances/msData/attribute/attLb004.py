@@ -6,7 +6,6 @@ obj = Doc(
     elem=AttRef(
         ca1="123",
         ca2=None,
-        aga1="abc",
         aga2=None,
         ga2=None
     ),

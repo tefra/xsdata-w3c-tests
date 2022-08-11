@@ -1,4 +1,4 @@
-from output.models.saxon_data.wild.wild058_xsd.wild058 import Zing
+from output.models.saxon_data.wild.wild060_xsd.wild060 import Zing
 
 
 obj = Zing(

@@ -9,23 +9,19 @@ obj = Doc(
             section=[
                 Chap.Section(
                     value="",
-                    nr=1.0,
-                    ref="+INF"
+                    nr=1.0
                 ),
                 Chap.Section(
                     value="",
-                    nr=2.0,
-                    ref="+INF"
+                    nr=2.0
                 ),
                 Chap.Section(
                     value="",
-                    nr=float("inf"),
-                    ref="+INF"
+                    nr=float("inf")
                 ),
                 Chap.Section(
                     value="",
-                    nr=float("inf"),
-                    ref="+INF"
+                    nr=float("inf")
                 ),
             ]
         ),
@@ -35,23 +31,19 @@ obj = Doc(
                 section=[
                     Chap.Section(
                         value="",
-                        nr=1.0,
-                        ref="+INF"
+                        nr=1.0
                     ),
                     Chap.Section(
                         value="",
-                        nr=2.0,
-                        ref="+INF"
+                        nr=2.0
                     ),
                     Chap.Section(
                         value="",
-                        nr=float("inf"),
-                        ref="+INF"
+                        nr=float("inf")
                     ),
                     Chap.Section(
                         value="",
-                        nr=float("inf"),
-                        ref="+INF"
+                        nr=float("inf")
                     ),
                 ]
             ),

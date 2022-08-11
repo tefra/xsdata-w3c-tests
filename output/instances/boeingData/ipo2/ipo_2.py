@@ -13,8 +13,7 @@ obj = PurchaseOrder(
         name="Helen Zoe",
         street="47 Eden Street",
         city="Cambridge",
-        postcode="CB1 1JR",
-        export_code=1
+        postcode="CB1 1JR"
     ),
     customer_comment=None,
     ship_comment=None,

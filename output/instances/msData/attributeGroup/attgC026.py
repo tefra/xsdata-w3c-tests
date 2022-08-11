@@ -6,7 +6,6 @@ obj = Doc(
     test=TestElem(
         currency=None,
         model=None,
-        age=None,
-        att_fix=37
+        age=None
     )
 )

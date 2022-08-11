@@ -1,3 +1,12 @@
 {
-  "e": "abc"
+  "e1": null,
+  "e": {
+    "any_element": {
+      "qname": null,
+      "text": "abc",
+      "tail": null,
+      "children": [],
+      "attributes": {}
+    }
+  }
 }

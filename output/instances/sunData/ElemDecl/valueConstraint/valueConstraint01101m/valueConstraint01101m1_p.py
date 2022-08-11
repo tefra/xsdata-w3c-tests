@@ -2,5 +2,5 @@ from output.models.sun_data.elem_decl.value_constraint.value_constraint01101m.va
 
 
 obj = Root(
-    element="0"
+
 )

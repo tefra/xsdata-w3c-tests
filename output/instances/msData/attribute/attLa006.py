@@ -9,6 +9,5 @@ obj = Doc(
         aga1=None,
         aga2=None,
         ga2=None
-    ),
-    ga1="abc"
+    )
 )

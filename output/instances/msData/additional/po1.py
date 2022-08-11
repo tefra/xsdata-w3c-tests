@@ -11,16 +11,14 @@ obj = PurchaseOrder(
         street="123 Maple Street",
         city="Mill Valley",
         state="CA",
-        zip=Decimal("90952"),
-        country="US"
+        zip=Decimal("90952")
     ),
     bill_to=Usaddress(
         name="Robert Smith",
         street="8 Oak Avenue",
         city="Old Town",
         state="PA",
-        zip=Decimal("95819"),
-        country="US"
+        zip=Decimal("95819")
     ),
     comment="Hurry, my lawn is going wild!",
     items=Items(

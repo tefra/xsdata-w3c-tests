@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import List, Optional
-from output.models.ms_data.particles.particles_q032_xsd.particles_q032_imp import E2 as ParticlesQ032ImpE2
-from output.models.ms_data.particles.particles_q032_xsd.particles_q032_imp2 import E2 as ParticlesQ032Imp2E2
+from output.models.ms_data.particles.particles_q032_xsd.particles_q032_imp import E2 as ImpE2
+from output.models.ms_data.particles.particles_q032_xsd.particles_q032_imp2 import E2 as Imp2E2
 
 __NAMESPACE__ = "http://xsdtesting"
 
@@ -64,7 +64,7 @@ class R:
             "choices": (
                 {
                     "name": "e2",
-                    "type": ParticlesQ032ImpE2,
+                    "type": ImpE2,
                     "namespace": "foo",
                 },
                 {
@@ -74,7 +74,7 @@ class R:
                 },
                 {
                     "name": "e2",
-                    "type": ParticlesQ032Imp2E2,
+                    "type": Imp2E2,
                     "namespace": "bar",
                 },
             ),

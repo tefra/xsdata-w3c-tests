@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import List, Optional
-from output.models.ms_data.particles.particles_q030_xsd.particles_q030_imp import E2 as ParticlesQ030ImpE2
-from output.models.ms_data.particles.particles_q030_xsd.particles_q030_imp2 import E2
+from output.models.ms_data.particles.particles_q030_xsd.particles_q030_imp import E2 as ImpE2
+from output.models.ms_data.particles.particles_q030_xsd.particles_q030_imp2 import E2 as Imp2E2
 
 __NAMESPACE__ = "http://xsdtesting"
 
@@ -42,7 +42,7 @@ class R:
             "max_occurs": 4,
         }
     )
-    e2: List[ParticlesQ030ImpE2] = field(
+    e2: List[ImpE2] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -51,7 +51,7 @@ class R:
             "sequential": True,
         }
     )
-    bar_e2: List[E2] = field(
+    bar_e2: List[Imp2E2] = field(
         default_factory=list,
         metadata={
             "name": "e2",

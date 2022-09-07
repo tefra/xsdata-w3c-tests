@@ -1,5 +1,5 @@
-from output.models.saxon_data.simple.simple001_xsd.simple001 import Chap
-from output.models.saxon_data.simple.simple001_xsd.simple001 import Doc
+from output.models.saxon_data.simple.simple002_xsd.simple002 import Chap
+from output.models.saxon_data.simple.simple002_xsd.simple002 import Doc
 from xsdata.formats.dataclass.models.generics import DerivedElement
 
 

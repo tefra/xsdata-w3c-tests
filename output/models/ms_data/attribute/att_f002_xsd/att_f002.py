@@ -7,13 +7,13 @@ class AttRef:
     class Meta:
         name = "attRef"
 
-    att1: Optional[str] = field(
+    att1: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",
         }
     )
-    att2: Optional[str] = field(
+    att2: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",

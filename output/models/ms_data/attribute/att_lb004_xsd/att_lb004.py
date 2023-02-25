@@ -9,13 +9,13 @@ class AttRef:
     class Meta:
         name = "attRef"
 
-    ca1: Optional[str] = field(
+    ca1: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",
         }
     )
-    ca2: Optional[str] = field(
+    ca2: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -29,7 +29,7 @@ class AttRef:
             "namespace": "http://xsdtesting",
         }
     )
-    aga2: Optional[str] = field(
+    aga2: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",

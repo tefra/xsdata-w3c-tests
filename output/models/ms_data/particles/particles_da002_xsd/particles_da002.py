@@ -6,18 +6,22 @@ __NAMESPACE__ = "http://xsdtesting"
 
 @dataclass
 class A:
-    a1: Optional[object] = field(
+    a1_or_a2: Optional[object] = field(
         default=None,
         metadata={
-            "type": "Element",
-            "namespace": "http://xsdtesting",
-        }
-    )
-    a2: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "http://xsdtesting",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "a1",
+                    "type": object,
+                    "namespace": "http://xsdtesting",
+                },
+                {
+                    "name": "a2",
+                    "type": object,
+                    "namespace": "http://xsdtesting",
+                },
+            ),
         }
     )
 

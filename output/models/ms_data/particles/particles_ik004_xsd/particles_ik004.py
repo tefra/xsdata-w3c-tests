@@ -6,39 +6,29 @@ __NAMESPACE__ = "http://xsdtesting"
 
 @dataclass
 class B:
-    c1: Optional[str] = field(
+    c1_or_c2: Optional[object] = field(
         default=None,
         metadata={
-            "type": "Element",
-            "namespace": "http://xsdtesting",
-        }
-    )
-    c2: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "http://xsdtesting",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "c1",
+                    "type": str,
+                    "namespace": "http://xsdtesting",
+                },
+                {
+                    "name": "c2",
+                    "type": object,
+                    "namespace": "http://xsdtesting",
+                },
+            ),
         }
     )
 
 
 @dataclass
-class R:
-    c1: Optional[str] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "http://xsdtesting",
-            "max_length": 4,
-        }
-    )
-    c2: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "http://xsdtesting",
-        }
-    )
+class R(B):
+    pass
 
 
 @dataclass

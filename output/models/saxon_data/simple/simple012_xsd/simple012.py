@@ -21,25 +21,16 @@ class DocType:
 
 
 @dataclass
-class SubDocType:
-    class Meta:
-        name = "sub-doc-type"
-
-    chap: List[Union[XmlDate, XmlDateTime]] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "namespace": "http://simple012.ly/",
-            "min_occurs": 1,
-        }
-    )
-
-
-@dataclass
 class Doc(DocType):
     class Meta:
         name = "doc"
         namespace = "http://simple012.ly/"
+
+
+@dataclass
+class SubDocType(DocType):
+    class Meta:
+        name = "sub-doc-type"
 
 
 @dataclass
@@ -59,13 +50,13 @@ class Book:
         default_factory=list,
         metadata={
             "type": "Element",
-            "sequential": True,
+            "sequence": 4,
         }
     )
     doc: List[Doc] = field(
         default_factory=list,
         metadata={
             "type": "Element",
-            "sequential": True,
+            "sequence": 4,
         }
     )

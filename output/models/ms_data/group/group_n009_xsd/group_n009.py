@@ -13,7 +13,7 @@ class Elem:
             "type": "Element",
             "namespace": "",
             "max_occurs": 99999999999999,
-            "sequential": True,
+            "sequence": 3,
         }
     )
     a2: List[object] = field(
@@ -22,7 +22,7 @@ class Elem:
             "type": "Element",
             "namespace": "",
             "max_occurs": 99999999999999,
-            "sequential": True,
+            "sequence": 3,
         }
     )
     a3: List[object] = field(
@@ -31,7 +31,7 @@ class Elem:
             "type": "Element",
             "namespace": "",
             "max_occurs": 99999999999999,
-            "sequential": True,
+            "sequence": 3,
         }
     )
     a4: List[object] = field(
@@ -40,7 +40,7 @@ class Elem:
             "type": "Element",
             "namespace": "",
             "max_occurs": 99999999999999,
-            "sequential": True,
+            "sequence": 3,
         }
     )
     a5: List[object] = field(
@@ -49,7 +49,7 @@ class Elem:
             "type": "Element",
             "namespace": "",
             "max_occurs": 99999999999999,
-            "sequential": True,
+            "sequence": 3,
         }
     )
 

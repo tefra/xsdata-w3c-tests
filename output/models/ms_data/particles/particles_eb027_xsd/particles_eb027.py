@@ -16,7 +16,7 @@ class Doc:
             "type": "Element",
             "min_occurs": 1,
             "max_occurs": 2,
-            "sequential": True,
+            "sequence": 3,
         }
     )
     a2: List[object] = field(
@@ -25,6 +25,6 @@ class Doc:
             "type": "Element",
             "min_occurs": 1,
             "max_occurs": 2,
-            "sequential": True,
+            "sequence": 3,
         }
     )

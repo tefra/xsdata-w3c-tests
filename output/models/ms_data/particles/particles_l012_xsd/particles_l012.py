@@ -28,32 +28,42 @@ class Mixed:
 
 @dataclass
 class B:
-    c1: Optional[Mixed] = field(
-        default=None,
+    c1_or_c2: List[object] = field(
+        default_factory=list,
         metadata={
-            "type": "Element",
-            "namespace": "",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "c1",
+                    "type": Mixed,
+                    "namespace": "",
+                },
+                {
+                    "name": "c2",
+                    "type": object,
+                    "namespace": "",
+                },
+            ),
+            "max_occurs": 2,
         }
     )
-    c2: Optional[object] = field(
-        default=None,
+    d1_or_d2: List[object] = field(
+        default_factory=list,
         metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-    d1: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-    d2: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "d1",
+                    "type": object,
+                    "namespace": "",
+                },
+                {
+                    "name": "d2",
+                    "type": object,
+                    "namespace": "",
+                },
+            ),
+            "max_occurs": 2,
         }
     )
 
@@ -73,36 +83,8 @@ class NotMixed(Mixed):
 
 
 @dataclass
-class R:
-    c1: Optional[NotMixed] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-            "required": True,
-        }
-    )
-    c2: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-    d1: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-    d2: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
+class R(B):
+    pass
 
 
 @dataclass

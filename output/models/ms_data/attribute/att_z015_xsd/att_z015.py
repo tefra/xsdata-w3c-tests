@@ -7,7 +7,7 @@ class Base:
     class Meta:
         name = "base"
 
-    a: Optional[str] = field(
+    a: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",

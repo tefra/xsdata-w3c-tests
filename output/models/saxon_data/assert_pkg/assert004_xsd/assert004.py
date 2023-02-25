@@ -14,14 +14,14 @@ class Inner:
             "max_occurs": 4,
         }
     )
-    x: Optional[str] = field(
+    x: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "required": True,
         }
     )
-    y: Optional[str] = field(
+    y: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",

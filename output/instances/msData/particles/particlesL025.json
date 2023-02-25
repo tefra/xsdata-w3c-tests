@@ -1,8 +1,22 @@
 {
   "elem": {
-    "c1": "1",
-    "c2": null,
-    "d1": "testing",
-    "d2": null
+    "c1_or_c2": [
+      {
+        "qname": "c1",
+        "text": "1",
+        "tail": null,
+        "children": [],
+        "attributes": {}
+      }
+    ],
+    "d1_or_d2": [
+      {
+        "qname": "d1",
+        "text": "testing",
+        "tail": null,
+        "children": [],
+        "attributes": {}
+      }
+    ]
   }
 }

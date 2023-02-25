@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Optional
+from typing import List, Optional
 
 
 @dataclass
@@ -35,60 +35,80 @@ class Foo:
             "namespace": "",
         }
     )
-    five: Optional[object] = field(
-        default=None,
+    five_or_five2: List[object] = field(
+        default_factory=list,
         metadata={
-            "type": "Element",
-            "namespace": "",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "five",
+                    "type": object,
+                    "namespace": "",
+                },
+                {
+                    "name": "five2",
+                    "type": object,
+                    "namespace": "",
+                },
+            ),
+            "max_occurs": 2,
         }
     )
-    five2: Optional[object] = field(
-        default=None,
+    six_or_six2: List[object] = field(
+        default_factory=list,
         metadata={
-            "type": "Element",
-            "namespace": "",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "six",
+                    "type": object,
+                    "namespace": "",
+                },
+                {
+                    "name": "six2",
+                    "type": object,
+                    "namespace": "",
+                },
+            ),
+            "max_occurs": 2,
         }
     )
-    six: Optional[object] = field(
-        default=None,
+    seven_or_seven2: List[object] = field(
+        default_factory=list,
         metadata={
-            "type": "Element",
-            "namespace": "",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "seven",
+                    "type": object,
+                    "namespace": "",
+                },
+                {
+                    "name": "seven2",
+                    "type": object,
+                    "namespace": "",
+                },
+            ),
+            "max_occurs": 2,
         }
     )
-    six2: Optional[object] = field(
-        default=None,
+    eight_or_eight2: List[object] = field(
+        default_factory=list,
         metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-    seven: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-    seven2: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-    eight: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-    eight2: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "eight",
+                    "type": object,
+                    "namespace": "",
+                },
+                {
+                    "name": "eight2",
+                    "type": object,
+                    "namespace": "",
+                },
+            ),
+            "max_occurs": 2,
         }
     )
 

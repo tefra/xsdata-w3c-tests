@@ -26,7 +26,7 @@ class Doc:
                 "type": "Attribute",
             }
         )
-        foo: Optional[str] = field(
+        foo: Optional[object] = field(
             default=None,
             metadata={
                 "type": "Attribute",

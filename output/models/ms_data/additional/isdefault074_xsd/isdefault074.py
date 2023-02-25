@@ -18,7 +18,7 @@ class Ct:
 
     @dataclass
     class A:
-        att1: str = field(
+        att1: object = field(
             default="default",
             metadata={
                 "type": "Attribute",

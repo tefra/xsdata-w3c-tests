@@ -14,14 +14,14 @@ class Temp:
             "required": True,
         }
     )
-    x: Optional[str] = field(
+    x: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "required": True,
         }
     )
-    y: Optional[str] = field(
+    y: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",

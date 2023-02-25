@@ -45,14 +45,14 @@ class FooType(MyType):
     class Meta:
         name = "fooType"
 
-    my_attr: Optional[str] = field(
+    my_attr: Optional[object] = field(
         default=None,
         metadata={
             "name": "myAttr",
             "type": "Attribute",
         }
     )
-    my_attr1: Optional[str] = field(
+    my_attr1: Optional[object] = field(
         default=None,
         metadata={
             "name": "myAttr1",

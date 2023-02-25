@@ -57,7 +57,7 @@ class B:
             "namespace": "",
             "min_occurs": 1,
             "max_occurs": 9,
-            "sequential": True,
+            "sequence": 3,
         }
     )
     e2: List[object] = field(
@@ -67,7 +67,7 @@ class B:
             "namespace": "",
             "min_occurs": 1,
             "max_occurs": 9,
-            "sequential": True,
+            "sequence": 3,
         }
     )
     e3: List[object] = field(
@@ -77,7 +77,7 @@ class B:
             "namespace": "",
             "min_occurs": 1,
             "max_occurs": 9,
-            "sequential": True,
+            "sequence": 3,
         }
     )
 
@@ -89,29 +89,8 @@ class Ct3(Ct1):
 
 
 @dataclass
-class R:
-    e1: Optional[Ct3] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-            "required": True,
-        }
-    )
-    e2: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-    e3: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
+class R(B):
+    pass
 
 
 @dataclass

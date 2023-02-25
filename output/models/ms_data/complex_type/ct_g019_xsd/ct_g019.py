@@ -45,7 +45,7 @@ class FooType(MyType):
     class Meta:
         name = "fooType"
 
-    local_attr: Optional[str] = field(
+    local_attr: Optional[object] = field(
         default=None,
         metadata={
             "name": "localAttr",

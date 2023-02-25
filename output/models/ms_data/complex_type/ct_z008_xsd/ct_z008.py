@@ -11,7 +11,7 @@ class Root:
             "namespace": "",
             "min_occurs": 2,
             "max_occurs": 2,
-            "sequential": True,
+            "sequence": 4,
         }
     )
     b: List[object] = field(
@@ -21,6 +21,6 @@ class Root:
             "namespace": "",
             "min_occurs": 2,
             "max_occurs": 2,
-            "sequential": True,
+            "sequence": 4,
         }
     )

@@ -13,7 +13,7 @@ class ComplexType:
             "type": "Element",
             "namespace": "",
             "max_occurs": 2,
-            "sequential": True,
+            "sequence": 3,
         }
     )
     r2: List[object] = field(
@@ -22,7 +22,7 @@ class ComplexType:
             "type": "Element",
             "namespace": "",
             "max_occurs": 4,
-            "sequential": True,
+            "sequence": 3,
         }
     )
     r3: List[object] = field(
@@ -31,7 +31,7 @@ class ComplexType:
             "type": "Element",
             "namespace": "",
             "max_occurs": 2,
-            "sequential": True,
+            "sequence": 3,
         }
     )
 

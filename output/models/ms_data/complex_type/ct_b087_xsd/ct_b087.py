@@ -7,7 +7,7 @@ class FooType:
     class Meta:
         name = "fooType"
 
-    attr_test: Optional[str] = field(
+    attr_test: Optional[object] = field(
         default=None,
         metadata={
             "name": "attrTest",

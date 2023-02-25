@@ -21,34 +21,22 @@ class AnySimpleType:
 
 
 @dataclass
-class DoubleType:
+class DoubleType(AnySimpleType):
     class Meta:
         name = "doubleType"
 
     value: Optional[float] = field(
         default=None
     )
-    type: Optional[str] = field(
-        default=None,
-        metadata={
-            "type": "Attribute",
-        }
-    )
 
 
 @dataclass
-class FloatType:
+class FloatType(AnySimpleType):
     class Meta:
         name = "floatType"
 
     value: Optional[float] = field(
         default=None
-    )
-    type: Optional[str] = field(
-        default=None,
-        metadata={
-            "type": "Attribute",
-        }
     )
 
 

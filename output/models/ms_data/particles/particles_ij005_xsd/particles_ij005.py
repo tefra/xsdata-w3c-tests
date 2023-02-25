@@ -32,18 +32,22 @@ class Foo:
 
 @dataclass
 class B:
-    c1: Optional[Foo] = field(
+    c1_or_c2: Optional[object] = field(
         default=None,
         metadata={
-            "type": "Element",
-            "namespace": "http://xsdtesting",
-        }
-    )
-    c2: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "http://xsdtesting",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "c1",
+                    "type": Foo,
+                    "namespace": "http://xsdtesting",
+                },
+                {
+                    "name": "c2",
+                    "type": object,
+                    "namespace": "http://xsdtesting",
+                },
+            ),
         }
     )
 
@@ -55,21 +59,8 @@ class Bar(Foo):
 
 
 @dataclass
-class R:
-    c1: Optional[Bar] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "http://xsdtesting",
-        }
-    )
-    c2: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "http://xsdtesting",
-        }
-    )
+class R(B):
+    pass
 
 
 @dataclass

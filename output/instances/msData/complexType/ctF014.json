@@ -1,6 +1,5 @@
 {
-  "myElement": "test data",
-  "myElement2": null,
+  "my_element_or_my_element2": "test data",
   "myAttr": "test attribute",
   "myElement3": "sequence test data"
 }

@@ -3,7 +3,8 @@ from xsdata.models.datatype import XmlDate
 
 
 obj = A(
-    date=XmlDate(2002, 4, 25),
-    marked=True,
-    num=None
+    date_or_marked_or_num=[
+        XmlDate(2002, 4, 25),
+        True,
+    ]
 )

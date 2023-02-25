@@ -1,8 +1,6 @@
 {
   "elem": {
-    "c1": null,
-    "c2": null,
-    "c3": null,
+    "c1_or_c2_or_c3": [],
     "foo": ""
   }
 }

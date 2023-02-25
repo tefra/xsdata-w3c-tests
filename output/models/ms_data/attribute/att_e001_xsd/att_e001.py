@@ -13,7 +13,7 @@ class AttRef:
             "type": "Attribute",
         }
     )
-    att2: Optional[str] = field(
+    att2: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",

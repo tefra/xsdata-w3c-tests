@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Optional
+from typing import List, Optional
 
 __NAMESPACE__ = "http://xsdtesting"
 
@@ -21,32 +21,42 @@ class Foo:
 
 @dataclass
 class B:
-    foo: Optional[Foo] = field(
-        default=None,
+    foo_or_c2: List[object] = field(
+        default_factory=list,
         metadata={
-            "type": "Element",
-            "namespace": "http://xsdtesting",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "foo",
+                    "type": Foo,
+                    "namespace": "http://xsdtesting",
+                },
+                {
+                    "name": "c2",
+                    "type": object,
+                    "namespace": "",
+                },
+            ),
+            "max_occurs": 2,
         }
     )
-    c2: Optional[object] = field(
-        default=None,
+    d1_or_d2: List[object] = field(
+        default_factory=list,
         metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-    d1: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-    d2: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "d1",
+                    "type": object,
+                    "namespace": "",
+                },
+                {
+                    "name": "d2",
+                    "type": object,
+                    "namespace": "",
+                },
+            ),
+            "max_occurs": 2,
         }
     )
 

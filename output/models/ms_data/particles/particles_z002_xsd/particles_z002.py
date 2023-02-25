@@ -4,7 +4,7 @@ from typing import Dict, Optional
 
 @dataclass
 class Base1:
-    foo: Optional[str] = field(
+    foo: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -14,7 +14,7 @@ class Base1:
 
 @dataclass
 class Base2:
-    foo: Optional[str] = field(
+    foo: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -31,7 +31,7 @@ class Base2:
 
 @dataclass
 class Base3:
-    foo: Optional[str] = field(
+    foo: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -53,7 +53,7 @@ class Derived1(Base1):
 
 @dataclass
 class Derived2(Base2):
-    bar: Optional[str] = field(
+    bar: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",

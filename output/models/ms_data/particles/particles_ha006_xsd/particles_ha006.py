@@ -9,18 +9,22 @@ class Base:
     class Meta:
         name = "base"
 
-    e2: Optional[object] = field(
+    e2_or_e3: Optional[object] = field(
         default=None,
         metadata={
-            "type": "Element",
-            "namespace": "http://xsdtesting",
-        }
-    )
-    e3: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "http://xsdtesting",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "e2",
+                    "type": object,
+                    "namespace": "http://xsdtesting",
+                },
+                {
+                    "name": "e3",
+                    "type": object,
+                    "namespace": "http://xsdtesting",
+                },
+            ),
         }
     )
 

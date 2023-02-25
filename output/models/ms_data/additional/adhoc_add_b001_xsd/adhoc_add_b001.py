@@ -45,18 +45,22 @@ class Foo:
     class Meta:
         name = "foo"
 
-    a: Optional[str] = field(
+    a_or_abc: Optional[object] = field(
         default=None,
         metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-    abc: Optional[Abc] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "ns-a",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "a",
+                    "type": str,
+                    "namespace": "",
+                },
+                {
+                    "name": "abc",
+                    "type": Abc,
+                    "namespace": "ns-a",
+                },
+            ),
         }
     )
 

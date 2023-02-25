@@ -7,18 +7,22 @@ class Test:
     class Meta:
         name = "test"
 
-    a: Optional[object] = field(
+    a_or_b: Optional[object] = field(
         default=None,
         metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-    b: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "a",
+                    "type": object,
+                    "namespace": "",
+                },
+                {
+                    "name": "b",
+                    "type": object,
+                    "namespace": "",
+                },
+            ),
         }
     )
 

@@ -16,7 +16,7 @@ class Facet:
             "type": "Element",
         }
     )
-    value: Optional[str] = field(
+    value: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -26,38 +26,10 @@ class Facet:
 
 
 @dataclass
-class Int:
-    class Meta:
-        name = "int"
-        namespace = "foo"
-
-    annotation: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-        }
-    )
-    value: Optional[int] = field(
-        default=None,
-        metadata={
-            "type": "Attribute",
-            "required": True,
-        }
-    )
-
-
-@dataclass
-class LongType:
+class LongType(Facet):
     class Meta:
         name = "longType"
 
-    annotation: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "foo",
-        }
-    )
     value: Optional[int] = field(
         default=None,
         metadata={
@@ -68,18 +40,27 @@ class LongType:
 
 
 @dataclass
-class YesNo:
+class YesNo(Facet):
     class Meta:
         name = "yesNo"
         namespace = "foo"
 
-    annotation: Optional[object] = field(
+    value: Optional[bool] = field(
         default=None,
         metadata={
-            "type": "Element",
+            "type": "Attribute",
+            "required": True,
         }
     )
-    value: Optional[bool] = field(
+
+
+@dataclass
+class Int(LongType):
+    class Meta:
+        name = "int"
+        namespace = "foo"
+
+    value: Optional[int] = field(
         default=None,
         metadata={
             "type": "Attribute",

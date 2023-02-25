@@ -44,20 +44,23 @@ class R:
             "max_occurs": 2,
         }
     )
-    imp_elem1: Optional[ImpElem1] = field(
-        default=None,
+    imp_elem1_or_imp_elem2: List[object] = field(
+        default_factory=list,
         metadata={
-            "name": "impElem1",
-            "type": "Element",
-            "namespace": "http://importedXSD",
-        }
-    )
-    imp_elem2: Optional[ImpElem2] = field(
-        default=None,
-        metadata={
-            "name": "impElem2",
-            "type": "Element",
-            "namespace": "http://importedXSD",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "impElem1",
+                    "type": ImpElem1,
+                    "namespace": "http://importedXSD",
+                },
+                {
+                    "name": "impElem2",
+                    "type": ImpElem2,
+                    "namespace": "http://importedXSD",
+                },
+            ),
+            "max_occurs": 2,
         }
     )
 

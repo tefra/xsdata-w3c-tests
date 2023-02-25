@@ -2,6 +2,7 @@ from output.models.sun_data.mgroup_def.model_group.model_group00101m.model_group
 
 
 obj = A(
-    c=16,
-    date=None
+    c_or_date=[
+        16,
+    ]
 )

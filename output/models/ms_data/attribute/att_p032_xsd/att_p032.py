@@ -9,7 +9,7 @@ class AttRef:
     class Meta:
         name = "attRef"
 
-    att: Optional[str] = field(
+    att: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -50,7 +50,7 @@ class Red:
     class Meta:
         name = "red"
 
-    red_ctatt: Optional[str] = field(
+    red_ctatt: Optional[object] = field(
         default=None,
         metadata={
             "name": "redCTAtt",
@@ -58,7 +58,7 @@ class Red:
             "namespace": "http://xsdtesting",
         }
     )
-    xx: Optional[str] = field(
+    xx: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",

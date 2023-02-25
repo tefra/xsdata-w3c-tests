@@ -1,4 +1,11 @@
 {
-  "x": null,
-  "y": ""
+  "x_or_y": [
+    {
+      "qname": "{http://xsdtesting}y",
+      "text": "",
+      "tail": null,
+      "children": [],
+      "attributes": {}
+    }
+  ]
 }

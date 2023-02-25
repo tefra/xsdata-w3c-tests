@@ -1,9 +1,13 @@
 {
   "buyer": {
-    "fName": "Jimmy",
-    "middlName": null,
-    "lName": "Nice",
-    "Establishment": null
+    "choice": [
+      "Jimmy",
+      {
+        "qname": "lName",
+        "value": "Nice",
+        "type": null
+      }
+    ]
   },
   "billing-address": {
     "street1": "XYZ Street1",

@@ -1,19 +1,24 @@
 {
-  "shipTo": {
-    "name": "Alice Smith",
-    "street": "123 Maple Street",
-    "city": "Mill Valley",
-    "state": "CA",
-    "zip": 90952
-  },
-  "billTo": {
-    "name": "Robert Smith",
-    "street": "8 Oak Avenue",
-    "city": "Old Town",
-    "state": "PA",
-    "zip": 95819
-  },
-  "singleAddress": null,
+  "ship_to_or_bill_to_or_single_address": [
+    {
+      "name": "Alice Smith",
+      "street": "123 Maple Street",
+      "city": "Mill Valley",
+      "state": "CA",
+      "zip": 90952
+    },
+    {
+      "qname": "billTo",
+      "value": {
+        "name": "Robert Smith",
+        "street": "8 Oak Avenue",
+        "city": "Old Town",
+        "state": "PA",
+        "zip": 95819
+      },
+      "type": "{http://www.example.com/add}USAddress"
+    }
+  ],
   "customerComment": null,
   "shipComment": null,
   "comment": "Hurry, my sister loves Boeing!",

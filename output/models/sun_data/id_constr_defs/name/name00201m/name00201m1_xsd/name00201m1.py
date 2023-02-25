@@ -27,7 +27,7 @@ class Name:
                 "required": True,
             }
         )
-        name: Optional[str] = field(
+        name: Optional[object] = field(
             default=None,
             metadata={
                 "type": "Attribute",

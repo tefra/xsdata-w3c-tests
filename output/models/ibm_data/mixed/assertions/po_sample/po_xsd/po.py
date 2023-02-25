@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
 from decimal import Decimal
-from typing import Optional
+from typing import List, Optional
 from output.models.ibm_data.mixed.assertions.po_sample.po_xsd.product import Poitems
 
 
@@ -66,36 +66,33 @@ class Buyer:
     class Meta:
         name = "BUYER"
 
-    f_name: Optional[str] = field(
-        default=None,
+    choice: List[object] = field(
+        default_factory=list,
         metadata={
-            "name": "fName",
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-    middl_name: Optional[str] = field(
-        default=None,
-        metadata={
-            "name": "middlName",
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-    l_name: Optional[str] = field(
-        default=None,
-        metadata={
-            "name": "lName",
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-    establishment: Optional[str] = field(
-        default=None,
-        metadata={
-            "name": "Establishment",
-            "type": "Element",
-            "namespace": "",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "fName",
+                    "type": str,
+                    "namespace": "",
+                },
+                {
+                    "name": "middlName",
+                    "type": str,
+                    "namespace": "",
+                },
+                {
+                    "name": "lName",
+                    "type": str,
+                    "namespace": "",
+                },
+                {
+                    "name": "Establishment",
+                    "type": str,
+                    "namespace": "",
+                },
+            ),
+            "max_occurs": 3,
         }
     )
 

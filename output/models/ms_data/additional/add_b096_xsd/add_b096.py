@@ -7,7 +7,7 @@ class ComplexType:
     class Meta:
         name = "complexType"
 
-    att1: Optional[str] = field(
+    att1: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -28,13 +28,13 @@ class Elem(ComplexType):
             "namespace": "",
         }
     )
-    att2: Optional[str] = field(
+    att2: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",
         }
     )
-    att3: Optional[str] = field(
+    att3: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",

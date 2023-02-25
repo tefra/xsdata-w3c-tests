@@ -11,7 +11,7 @@ class DataTypes:
             "type": "Element",
             "min_occurs": 1,
             "max_occurs": 2,
-            "sequential": True,
+            "sequence": 9,
         }
     )
     idref: List[str] = field(
@@ -21,7 +21,7 @@ class DataTypes:
             "type": "Element",
             "min_occurs": 1,
             "max_occurs": 2,
-            "sequential": True,
+            "sequence": 9,
         }
     )
     idrefs: List[List[str]] = field(
@@ -31,7 +31,7 @@ class DataTypes:
             "type": "Element",
             "min_occurs": 1,
             "max_occurs": 2,
-            "sequential": True,
+            "sequence": 9,
             "tokens": True,
         }
     )

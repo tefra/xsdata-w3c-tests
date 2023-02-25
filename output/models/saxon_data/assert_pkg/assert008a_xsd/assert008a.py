@@ -15,7 +15,7 @@ class T1:
             "type": "Element",
             "namespace": "http://chess/ns/",
             "min_occurs": 1,
-            "sequential": True,
+            "sequence": 3,
         }
     )
     black: List[str] = field(
@@ -23,7 +23,7 @@ class T1:
         metadata={
             "type": "Element",
             "namespace": "http://chess/ns/",
-            "sequential": True,
+            "sequence": 3,
         }
     )
 

@@ -9,25 +9,27 @@ class Any1:
     class Meta:
         name = "any1"
 
-    local_element: Optional[object] = field(
+    local_element_or_bbb_or_ccc: Optional[object] = field(
         default=None,
         metadata={
-            "type": "Wildcard",
-            "namespace": "##local",
-        }
-    )
-    bbb: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "http://importedXSD",
-        }
-    )
-    ccc: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "http://importedXSD",
+            "type": "Elements",
+            "choices": (
+                {
+                    "wildcard": True,
+                    "type": object,
+                    "namespace": "##local",
+                },
+                {
+                    "name": "bbb",
+                    "type": object,
+                    "namespace": "http://importedXSD",
+                },
+                {
+                    "name": "ccc",
+                    "type": object,
+                    "namespace": "http://importedXSD",
+                },
+            ),
         }
     )
 

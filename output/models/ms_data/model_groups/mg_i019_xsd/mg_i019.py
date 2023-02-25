@@ -7,60 +7,52 @@ class Foo:
     class Meta:
         name = "foo"
 
-    n1_element: Optional[object] = field(
+    choice: Optional[object] = field(
         default=None,
         metadata={
-            "type": "Wildcard",
-            "namespace": "http://n1",
-        }
-    )
-    n2_element: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Wildcard",
-            "namespace": "http://n2",
-        }
-    )
-    n3_element: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Wildcard",
-            "namespace": "http://n3",
-        }
-    )
-    n4_element: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Wildcard",
-            "namespace": "http://n4",
-        }
-    )
-    e1: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-    e2: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-    e3: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-    e4: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
+            "type": "Elements",
+            "choices": (
+                {
+                    "wildcard": True,
+                    "type": object,
+                    "namespace": "http://n1",
+                },
+                {
+                    "wildcard": True,
+                    "type": object,
+                    "namespace": "http://n2",
+                },
+                {
+                    "wildcard": True,
+                    "type": object,
+                    "namespace": "http://n3",
+                },
+                {
+                    "wildcard": True,
+                    "type": object,
+                    "namespace": "http://n4",
+                },
+                {
+                    "name": "e1",
+                    "type": object,
+                    "namespace": "",
+                },
+                {
+                    "name": "e2",
+                    "type": object,
+                    "namespace": "",
+                },
+                {
+                    "name": "e3",
+                    "type": object,
+                    "namespace": "",
+                },
+                {
+                    "name": "e4",
+                    "type": object,
+                    "namespace": "",
+                },
+            ),
         }
     )
 

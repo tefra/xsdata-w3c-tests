@@ -3,8 +3,9 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 
 
 obj = Doc(
-    b="I am a stringy string",
-    b2=None,
+    b_or_b2=[
+        "I am a stringy string",
+    ],
     w3_org_1999_xhtml_element=[
         AnyElement(
             qname="{http://www.w3.org/1999/xhtml}html",

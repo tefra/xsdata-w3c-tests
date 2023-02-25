@@ -1,6 +1,18 @@
 {
-  "c1": "",
-  "c2": null,
-  "g1": null,
-  "g2": ""
+  "c1_or_c2": {
+    "qname": "{http://xsdtesting}c1",
+    "text": "",
+    "tail": null,
+    "children": [],
+    "attributes": {}
+  },
+  "g1_or_g2": [
+    {
+      "qname": "{http://xsdtesting}g2",
+      "text": "",
+      "tail": null,
+      "children": [],
+      "attributes": {}
+    }
+  ]
 }

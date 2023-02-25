@@ -13,7 +13,7 @@ class Elem:
             "type": "Element",
             "namespace": "",
             "max_occurs": 99999999999,
-            "sequential": True,
+            "sequence": 6,
         }
     )
     b2: List[object] = field(
@@ -22,7 +22,7 @@ class Elem:
             "type": "Element",
             "namespace": "",
             "max_occurs": 99999999999,
-            "sequential": True,
+            "sequence": 6,
         }
     )
 

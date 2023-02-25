@@ -1,4 +1,9 @@
 {
-  "a": "test",
-  "b": null
+  "a_or_b": {
+    "qname": "a",
+    "text": "test",
+    "tail": null,
+    "children": [],
+    "attributes": {}
+  }
 }

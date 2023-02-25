@@ -4,7 +4,6 @@ from output.models.ms_data.particles.particles_ik012_xsd.particles_ik012 import 
 
 obj = Doc(
     elem=R(
-        c1=False,
-        c2=None
+        c1_or_c2=False
     )
 )

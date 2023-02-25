@@ -29,23 +29,27 @@ class B:
 @dataclass
 class Base:
     """
-    documentation documentation bar.
+    Documentation documentation bar.
     """
     class Meta:
         name = "base"
 
-    e1: Optional[A] = field(
+    e1_or_e2: Optional[object] = field(
         default=None,
         metadata={
-            "type": "Element",
-            "namespace": "http://xsdtesting",
-        }
-    )
-    e2: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "http://xsdtesting",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "e1",
+                    "type": A,
+                    "namespace": "http://xsdtesting",
+                },
+                {
+                    "name": "e2",
+                    "type": object,
+                    "namespace": "http://xsdtesting",
+                },
+            ),
         }
     )
 

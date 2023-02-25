@@ -13,7 +13,7 @@ class Test:
             "type": "Attribute",
         }
     )
-    bar: Optional[str] = field(
+    bar: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",

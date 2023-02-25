@@ -20,7 +20,7 @@ class TestElem(Foo):
     class Meta:
         name = "testElem"
 
-    model: Optional[str] = field(
+    model: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",

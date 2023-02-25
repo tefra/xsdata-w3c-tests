@@ -6,7 +6,7 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 
 obj = Doc(
     elem=Elem(
-        c1=Foo(
+        c1_or_c2=Foo(
             f1_or_f2=[
                 AnyElement(
                     qname="{http://xsdtesting}f1",
@@ -23,7 +23,6 @@ obj = Doc(
                     attributes={}
                 ),
             ]
-        ),
-        c2=None
+        )
     )
 )

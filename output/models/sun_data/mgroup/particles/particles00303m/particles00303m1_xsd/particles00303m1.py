@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Optional
+from typing import List
 
 __NAMESPACE__ = "particles"
 
@@ -10,31 +10,41 @@ class A:
         name = "a"
         namespace = "particles"
 
-    id: Optional[int] = field(
-        default=None,
+    id_or_id_str: List[object] = field(
+        default_factory=list,
         metadata={
-            "type": "Element",
-            "namespace": "",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "id",
+                    "type": int,
+                    "namespace": "",
+                },
+                {
+                    "name": "id_str",
+                    "type": str,
+                    "namespace": "",
+                },
+            ),
+            "max_occurs": 2,
         }
     )
-    id_str: Optional[str] = field(
-        default=None,
+    name_or_type: List[object] = field(
+        default_factory=list,
         metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-    name: Optional[str] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-    type: Optional[str] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "name",
+                    "type": str,
+                    "namespace": "",
+                },
+                {
+                    "name": "type",
+                    "type": str,
+                    "namespace": "",
+                },
+            ),
+            "max_occurs": 2,
         }
     )

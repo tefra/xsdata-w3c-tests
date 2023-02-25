@@ -47,7 +47,7 @@ class R:
             "namespace": "",
             "min_occurs": 2,
             "max_occurs": 2,
-            "sequential": True,
+            "sequence": 11,
         }
     )
     e2: List[object] = field(
@@ -57,7 +57,7 @@ class R:
             "namespace": "",
             "min_occurs": 2,
             "max_occurs": 2,
-            "sequential": True,
+            "sequence": 11,
         }
     )
 

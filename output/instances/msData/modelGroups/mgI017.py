@@ -6,8 +6,5 @@ obj = Doc(
     c2="",
     c3=None,
     c4=None,
-    s1=None,
-    s2=None,
-    s3=None,
-    s4=None
+    choice=None
 )

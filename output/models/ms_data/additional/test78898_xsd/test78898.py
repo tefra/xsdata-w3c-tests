@@ -131,7 +131,7 @@ class M4:
             "type": "Element",
             "namespace": "",
             "max_occurs": 3,
-            "sequential": True,
+            "sequence": 34,
         }
     )
     e3: List[E3] = field(
@@ -140,7 +140,7 @@ class M4:
             "type": "Element",
             "min_occurs": 1,
             "max_occurs": 3,
-            "sequential": True,
+            "sequence": 34,
         }
     )
     att: Optional[int] = field(

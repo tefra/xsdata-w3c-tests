@@ -101,8 +101,8 @@ class ArcType:
 
 @dataclass
 class Extended:
-    """Intended for use as the type of user-declared elements to make them
-    extended links.
+    """Intended for use as the type of user-declared elements to make them extended
+    links.
 
     Note that the elements referenced in the content model are all
     abstract. The intention is that by simply declaring elements with

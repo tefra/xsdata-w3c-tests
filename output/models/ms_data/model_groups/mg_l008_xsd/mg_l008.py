@@ -7,39 +7,37 @@ class Foo:
     class Meta:
         name = "foo"
 
-    e1: Optional[object] = field(
+    choice: Optional[object] = field(
         default=None,
         metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-    e2: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-    e3: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-    e4: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-    e5: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "e1",
+                    "type": object,
+                    "namespace": "",
+                },
+                {
+                    "name": "e2",
+                    "type": object,
+                    "namespace": "",
+                },
+                {
+                    "name": "e3",
+                    "type": object,
+                    "namespace": "",
+                },
+                {
+                    "name": "e4",
+                    "type": object,
+                    "namespace": "",
+                },
+                {
+                    "name": "e5",
+                    "type": object,
+                    "namespace": "",
+                },
+            ),
         }
     )
 

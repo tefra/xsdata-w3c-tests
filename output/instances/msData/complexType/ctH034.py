@@ -1,10 +1,13 @@
 from output.models.ms_data.complex_type.ct_h034_xsd.ct_h034 import Root
+from xsdata.formats.dataclass.models.generics import DerivedElement
 
 
 obj = Root(
-    my_element1=None,
-    my_element2="test data",
-    my_element3=None,
+    my_element1_or_my_element2_or_my_element3=DerivedElement(
+        qname="myElement2",
+        value="test data",
+        type=None
+    ),
     local_attributes={
         "local": "local attribute",
     },

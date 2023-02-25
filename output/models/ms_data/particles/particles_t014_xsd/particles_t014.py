@@ -16,7 +16,7 @@ class Foo:
             "namespace": "",
         }
     )
-    att: Optional[str] = field(
+    att: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -29,7 +29,7 @@ class Bar(Foo):
     class Meta:
         name = "bar"
 
-    att1: Optional[str] = field(
+    att1: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",

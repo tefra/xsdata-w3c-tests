@@ -16,7 +16,7 @@ class FooType:
             "required": True,
         }
     )
-    attr_test: Optional[str] = field(
+    attr_test: Optional[object] = field(
         default=None,
         metadata={
             "name": "attrTest",

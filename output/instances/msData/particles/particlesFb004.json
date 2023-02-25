@@ -1,6 +1,13 @@
 {
-  "g1": "",
-  "g2": null,
+  "g1_or_g2": [
+    {
+      "qname": "{http://xsdtesting}g1",
+      "text": "",
+      "tail": null,
+      "children": [],
+      "attributes": {}
+    }
+  ],
   "s1": "",
   "s2": ""
 }

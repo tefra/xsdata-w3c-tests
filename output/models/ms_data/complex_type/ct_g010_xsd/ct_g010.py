@@ -37,14 +37,14 @@ class FooType(MyType):
             "required": True,
         }
     )
-    my_attr: Optional[str] = field(
+    my_attr: Optional[object] = field(
         default=None,
         metadata={
             "name": "myAttr",
             "type": "Attribute",
         }
     )
-    my_attr2: Optional[str] = field(
+    my_attr2: Optional[object] = field(
         default=None,
         metadata={
             "name": "myAttr2",

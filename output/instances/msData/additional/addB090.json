@@ -8,6 +8,11 @@
       "attributes": {}
     }
   ],
-  "c1": "",
-  "c2": null
+  "c1_or_c2": {
+    "qname": "c1",
+    "text": "",
+    "tail": null,
+    "children": [],
+    "attributes": {}
+  }
 }

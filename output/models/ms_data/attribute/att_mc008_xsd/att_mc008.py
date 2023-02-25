@@ -9,13 +9,13 @@ class AttRef:
     class Meta:
         name = "attRef"
 
-    aga1: Optional[str] = field(
+    aga1: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",
         }
     )
-    aga2: Optional[str] = field(
+    aga2: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",

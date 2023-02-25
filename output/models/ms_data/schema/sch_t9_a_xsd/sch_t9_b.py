@@ -9,13 +9,13 @@ class BCt:
     class Meta:
         name = "b-ct"
 
-    att1: Optional[str] = field(
+    att1: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",
         }
     )
-    att2: str = field(
+    att2: object = field(
         default="bar",
         metadata={
             "type": "Attribute",

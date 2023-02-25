@@ -48,7 +48,7 @@ class R:
             "type": "Element",
             "namespace": "foo",
             "max_occurs": 2,
-            "sequential": True,
+            "sequence": 13,
         }
     )
     bar_e2: List[Imp2E2] = field(
@@ -58,7 +58,7 @@ class R:
             "type": "Element",
             "namespace": "bar",
             "max_occurs": 2,
-            "sequential": True,
+            "sequence": 13,
         }
     )
 

@@ -12,6 +12,11 @@ obj = Doc(
             attributes={}
         ),
     ],
-    c1="",
-    c2=None
+    c1_or_c2=AnyElement(
+        qname="c1",
+        text="",
+        tail=None,
+        children=[],
+        attributes={}
+    )
 )

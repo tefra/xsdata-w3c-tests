@@ -15,7 +15,7 @@ class Event:
             "required": True,
         }
     )
-    type: Optional[str] = field(
+    type: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -45,7 +45,7 @@ class Doc:
             "min_occurs": 1,
         }
     )
-    type: Optional[str] = field(
+    type: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",

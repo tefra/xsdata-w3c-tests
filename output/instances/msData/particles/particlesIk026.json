@@ -1,6 +1,5 @@
 {
   "elem": {
-    "c1": "test",
-    "c2": null
+    "c1_or_c2": "test"
   }
 }

@@ -9,45 +9,45 @@ class ACt:
     class Meta:
         name = "A-ct"
 
-    att1: Optional[str] = field(
+    att1: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",
         }
     )
-    att2: Optional[str] = field(
+    att2: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",
         }
     )
-    att3: Optional[str] = field(
-        default=None,
-        metadata={
-            "type": "Attribute",
-            "required": True,
-        }
-    )
-    att5: Optional[str] = field(
-        default=None,
-        metadata={
-            "type": "Attribute",
-        }
-    )
-    att6: Optional[str] = field(
-        default=None,
-        metadata={
-            "type": "Attribute",
-        }
-    )
-    att7: Optional[str] = field(
+    att3: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "required": True,
         }
     )
-    att9: Optional[str] = field(
+    att5: Optional[object] = field(
+        default=None,
+        metadata={
+            "type": "Attribute",
+        }
+    )
+    att6: Optional[object] = field(
+        default=None,
+        metadata={
+            "type": "Attribute",
+        }
+    )
+    att7: Optional[object] = field(
+        default=None,
+        metadata={
+            "type": "Attribute",
+            "required": True,
+        }
+    )
+    att9: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -61,7 +61,7 @@ class ACt:
             "total_digits": 1,
         }
     )
-    att12: str = field(
+    att12: object = field(
         default="abc",
         metadata={
             "type": "Attribute",
@@ -74,7 +74,7 @@ class ACt:
             "type": "Attribute",
         }
     )
-    att14: str = field(
+    att14: object = field(
         default="abc",
         metadata={
             "type": "Attribute",

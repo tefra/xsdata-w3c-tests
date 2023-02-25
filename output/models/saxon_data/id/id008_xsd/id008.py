@@ -13,7 +13,7 @@ class PseudoId:
             "required": True,
         }
     )
-    a: Optional[str] = field(
+    a: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -32,7 +32,7 @@ class PseudoIdref:
             "required": True,
         }
     )
-    a: Optional[str] = field(
+    a: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",

@@ -1,4 +1,5 @@
 from output.models.ms_data.model_groups.mg_n012_xsd.mg_n012 import Doc
+from xsdata.formats.dataclass.models.generics import AnyElement
 
 
 obj = Doc(
@@ -6,8 +7,22 @@ obj = Doc(
     e2="",
     f1="",
     f2="",
-    c1="",
-    c2=None,
-    d1="",
-    d2=None
+    c1_or_c2=[
+        AnyElement(
+            qname="c1",
+            text="",
+            tail=None,
+            children=[],
+            attributes={}
+        ),
+    ],
+    d1_or_d2=[
+        AnyElement(
+            qname="d1",
+            text="",
+            tail=None,
+            children=[],
+            attributes={}
+        ),
+    ]
 )

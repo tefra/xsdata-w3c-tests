@@ -45,7 +45,7 @@ class ExtRefType:
             "namespace": "",
         }
     )
-    imp_a1: Optional[str] = field(
+    imp_a1: Optional[object] = field(
         default=None,
         metadata={
             "name": "impA1",

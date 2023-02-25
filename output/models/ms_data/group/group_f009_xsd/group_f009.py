@@ -34,7 +34,7 @@ class Elem(B):
                     "namespace": "",
                 },
             ),
-            "max_occurs": 999999999999999,
+            "max_occurs": 1999999999999998,
         }
     )
 

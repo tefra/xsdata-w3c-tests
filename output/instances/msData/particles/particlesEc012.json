@@ -1,4 +1,11 @@
 {
-  "a1": "",
-  "a2": null
+  "a1_or_a2": [
+    {
+      "qname": "{http://xsdtesting}a1",
+      "text": "",
+      "tail": null,
+      "children": [],
+      "attributes": {}
+    }
+  ]
 }

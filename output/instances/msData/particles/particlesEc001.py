@@ -2,6 +2,5 @@ from output.models.ms_data.particles.particles_ec001_xsd.particles_ec001 import 
 
 
 obj = Doc(
-    a1=None,
-    a2=None
+    a1_or_a2=[]
 )

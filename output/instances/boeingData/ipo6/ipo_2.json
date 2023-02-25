@@ -1,15 +1,19 @@
 {
   "salutation": "Mrs.",
   "ExternFirstElement": null,
-  "shipTo": null,
-  "billTo": null,
-  "singleAddress": {
-    "name": "Helen Zoe",
-    "street": "47 Eden Street",
-    "city": "Cambridge",
-    "postcode": "CB1 1JR",
-    "exportCode": 1
-  },
+  "ship_to_or_bill_to_or_single_address": [
+    {
+      "qname": "{http://www.example.com/IPO}singleAddress",
+      "value": {
+        "name": "Helen Zoe",
+        "street": "47 Eden Street",
+        "city": "Cambridge",
+        "postcode": "CB1 1JR",
+        "exportCode": 1
+      },
+      "type": "{http://www.example.com/IPO}UKAddress"
+    }
+  ],
   "customerComment": "I love Boeing too!",
   "shipComment": null,
   "comment": null,

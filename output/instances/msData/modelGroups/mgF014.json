@@ -17,8 +17,9 @@
     }
   ],
   "d": "",
-  "b": "I am a stringy string",
-  "b2": null,
+  "b_or_b2": [
+    "I am a stringy string"
+  ],
   "a": 1,
   "c": true
 }

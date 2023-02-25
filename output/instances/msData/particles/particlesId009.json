@@ -1,4 +1,9 @@
 {
-  "e1": "",
-  "e2": null
+  "e1_or_e2": {
+    "qname": "{http://xsdtesting}e1",
+    "text": "",
+    "tail": null,
+    "children": [],
+    "attributes": {}
+  }
 }

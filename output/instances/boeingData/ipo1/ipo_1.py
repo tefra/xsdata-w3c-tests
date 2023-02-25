@@ -4,25 +4,31 @@ from output.models.boeing_data.ipo1.ipo_xsd.ipo import ItemsType
 from output.models.boeing_data.ipo1.ipo_xsd.ipo import PurchaseOrder
 from output.models.boeing_data.ipo1.ipo_xsd.ipo import Usaddress
 from output.models.boeing_data.ipo1.ipo_xsd.ipo import Usstate
+from xsdata.formats.dataclass.models.generics import DerivedElement
 from xsdata.models.datatype import XmlDate
 
 
 obj = PurchaseOrder(
-    ship_to=Usaddress(
-        name="Alice Smith",
-        street="123 Maple Street",
-        city="Mill Valley",
-        state=Usstate.AL,
-        zip=90952
-    ),
-    bill_to=Usaddress(
-        name="Robert Smith",
-        street="8 Oak Avenue",
-        city="Old Town",
-        state=Usstate.AK,
-        zip=95800
-    ),
-    single_address=None,
+    ship_to_or_bill_to_or_single_address=[
+        Usaddress(
+            name="Alice Smith",
+            street="123 Maple Street",
+            city="Mill Valley",
+            state=Usstate.AL,
+            zip=90952
+        ),
+        DerivedElement(
+            qname="billTo",
+            value=Usaddress(
+                name="Robert Smith",
+                street="8 Oak Avenue",
+                city="Old Town",
+                state=Usstate.AK,
+                zip=95800
+            ),
+            type="{http://www.example.com/IPO}USAddress"
+        ),
+    ],
     customer_comment=None,
     ship_comment=None,
     comment="Hurry, my sister loves Boeing!",

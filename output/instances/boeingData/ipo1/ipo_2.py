@@ -3,18 +3,23 @@ from output.models.boeing_data.ipo1.ipo_xsd.ipo import ItemDeliveryShipBy
 from output.models.boeing_data.ipo1.ipo_xsd.ipo import ItemsType
 from output.models.boeing_data.ipo1.ipo_xsd.ipo import PurchaseOrder
 from output.models.boeing_data.ipo1.ipo_xsd.ipo import Ukaddress
+from xsdata.formats.dataclass.models.generics import DerivedElement
 from xsdata.models.datatype import XmlDate
 
 
 obj = PurchaseOrder(
-    ship_to=None,
-    bill_to=None,
-    single_address=Ukaddress(
-        name="Helen Zoe",
-        street="47 Eden Street",
-        city="Cambridge",
-        postcode="CB1 1JR"
-    ),
+    ship_to_or_bill_to_or_single_address=[
+        DerivedElement(
+            qname="singleAddress",
+            value=Ukaddress(
+                name="Helen Zoe",
+                street="47 Eden Street",
+                city="Cambridge",
+                postcode="CB1 1JR"
+            ),
+            type="{http://www.example.com/IPO}UKAddress"
+        ),
+    ],
     customer_comment=None,
     ship_comment=None,
     comment="I love Boeing too!",

@@ -21,7 +21,7 @@ class DerivedFromType(TypeType):
     class Meta:
         name = "derivedFromType"
 
-    attr: Optional[str] = field(
+    attr: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",

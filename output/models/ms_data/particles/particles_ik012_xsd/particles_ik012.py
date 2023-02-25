@@ -6,38 +6,29 @@ __NAMESPACE__ = "http://xsdtesting"
 
 @dataclass
 class B:
-    c1: Optional[Union[int, bool]] = field(
+    c1_or_c2: Optional[object] = field(
         default=None,
         metadata={
-            "type": "Element",
-            "namespace": "http://xsdtesting",
-        }
-    )
-    c2: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "http://xsdtesting",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "c1",
+                    "type": Union[int, bool],
+                    "namespace": "http://xsdtesting",
+                },
+                {
+                    "name": "c2",
+                    "type": object,
+                    "namespace": "http://xsdtesting",
+                },
+            ),
         }
     )
 
 
 @dataclass
-class R:
-    c1: Optional[Union[int, bool]] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "http://xsdtesting",
-        }
-    )
-    c2: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "http://xsdtesting",
-        }
-    )
+class R(B):
+    pass
 
 
 @dataclass

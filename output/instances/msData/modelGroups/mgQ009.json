@@ -1,6 +1,5 @@
 {
-  "e1": null,
-  "e2": {
+  "e1_or_e2": {
     "e1": "This is different"
   }
 }

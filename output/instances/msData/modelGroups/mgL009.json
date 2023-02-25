@@ -1,7 +1,9 @@
 {
-  "e1": null,
-  "e2": "",
-  "e3": null,
-  "e4": null,
-  "e5": null
+  "choice": {
+    "qname": "e2",
+    "text": "",
+    "tail": null,
+    "children": [],
+    "attributes": {}
+  }
 }

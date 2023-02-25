@@ -14,18 +14,23 @@ class Foo:
             "namespace": "",
         }
     )
-    b: Optional[str] = field(
-        default=None,
+    b_or_b2: List[object] = field(
+        default_factory=list,
         metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-    b2: Optional[str] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "b",
+                    "type": str,
+                    "namespace": "",
+                },
+                {
+                    "name": "b2",
+                    "type": str,
+                    "namespace": "",
+                },
+            ),
+            "max_occurs": 2,
         }
     )
     c: Optional[bool] = field(

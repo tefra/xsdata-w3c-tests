@@ -9,13 +9,13 @@ class AttRef:
     class Meta:
         name = "attRef"
 
-    ca1: Optional[str] = field(
+    ca1: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",
         }
     )
-    ca2: Optional[str] = field(
+    ca2: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",

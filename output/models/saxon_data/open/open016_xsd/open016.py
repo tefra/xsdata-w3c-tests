@@ -14,7 +14,7 @@ class Doc:
             "required": True,
         }
     )
-    evidence: Optional[str] = field(
+    evidence: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",

@@ -34,7 +34,7 @@ class Root:
                     "required": True,
                 }
             )
-            attr: Optional[str] = field(
+            attr: Optional[object] = field(
                 default=None,
                 metadata={
                     "type": "Attribute",

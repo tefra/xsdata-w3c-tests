@@ -15,7 +15,7 @@ class Base:
             "type": "Element",
             "namespace": "http://xsdtesting",
             "max_occurs": 2,
-            "sequential": True,
+            "sequence": 3,
         }
     )
     e3: List[object] = field(
@@ -24,7 +24,7 @@ class Base:
             "type": "Element",
             "namespace": "http://xsdtesting",
             "max_occurs": 2,
-            "sequential": True,
+            "sequence": 3,
         }
     )
 

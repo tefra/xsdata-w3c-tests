@@ -7,23 +7,25 @@ class FooType:
     class Meta:
         name = "fooType"
 
-    my_element: Optional[str] = field(
+    my_element_or_my_ele2: Optional[object] = field(
         default=None,
         metadata={
-            "name": "myElement",
-            "type": "Element",
-            "namespace": "",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "myElement",
+                    "type": str,
+                    "namespace": "",
+                },
+                {
+                    "name": "myEle2",
+                    "type": str,
+                    "namespace": "",
+                },
+            ),
         }
     )
-    my_ele2: Optional[str] = field(
-        default=None,
-        metadata={
-            "name": "myEle2",
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-    attr_test: Optional[str] = field(
+    attr_test: Optional[object] = field(
         default=None,
         metadata={
             "name": "attrTest",

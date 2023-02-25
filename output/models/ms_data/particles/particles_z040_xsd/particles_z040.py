@@ -40,7 +40,7 @@ class Doc:
         metadata={
             "type": "Element",
             "max_occurs": 3,
-            "sequential": True,
+            "sequence": 6,
         }
     )
     other_element: List[object] = field(
@@ -49,7 +49,7 @@ class Doc:
             "type": "Wildcard",
             "namespace": "##other",
             "max_occurs": 3,
-            "sequential": True,
+            "sequence": 6,
         }
     )
     b: List[str] = field(
@@ -58,7 +58,7 @@ class Doc:
             "type": "Element",
             "namespace": "",
             "max_occurs": 3,
-            "sequential": True,
+            "sequence": 6,
         }
     )
 

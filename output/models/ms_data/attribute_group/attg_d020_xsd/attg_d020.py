@@ -17,7 +17,7 @@ class Doc:
             "namespace": "http://xsdtesting",
         }
     )
-    abc: Optional[str] = field(
+    abc: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",

@@ -9,32 +9,40 @@ class BCt:
     class Meta:
         name = "b-ct"
 
-    b1: Optional[object] = field(
+    b1_or_b2: Optional[object] = field(
         default=None,
         metadata={
-            "type": "Element",
-            "namespace": "ns-a",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "b1",
+                    "type": object,
+                    "namespace": "ns-a",
+                },
+                {
+                    "name": "b2",
+                    "type": object,
+                    "namespace": "ns-a",
+                },
+            ),
         }
     )
-    b2: Optional[object] = field(
+    b3_or_b4: Optional[object] = field(
         default=None,
         metadata={
-            "type": "Element",
-            "namespace": "ns-a",
-        }
-    )
-    b3: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "ns-a",
-        }
-    )
-    b4: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "ns-a",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "b3",
+                    "type": object,
+                    "namespace": "ns-a",
+                },
+                {
+                    "name": "b4",
+                    "type": object,
+                    "namespace": "ns-a",
+                },
+            ),
         }
     )
 

@@ -14,7 +14,7 @@ class Elem:
             "namespace": "",
             "min_occurs": 1,
             "max_occurs": 2,
-            "sequential": True,
+            "sequence": 7,
         }
     )
     e2: List[object] = field(
@@ -24,7 +24,7 @@ class Elem:
             "namespace": "",
             "min_occurs": 1,
             "max_occurs": 2,
-            "sequential": True,
+            "sequence": 7,
         }
     )
 

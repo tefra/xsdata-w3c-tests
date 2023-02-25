@@ -25,17 +25,21 @@ class TheType:
     class Meta:
         name = "theType"
 
-    c: Optional[int] = field(
+    c_or_date: Optional[object] = field(
         default=None,
         metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-    date: Optional[XmlDate] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "c",
+                    "type": int,
+                    "namespace": "",
+                },
+                {
+                    "name": "date",
+                    "type": XmlDate,
+                    "namespace": "",
+                },
+            ),
         }
     )

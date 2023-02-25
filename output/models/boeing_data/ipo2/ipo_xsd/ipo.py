@@ -164,28 +164,28 @@ class ItemsType:
 
 @dataclass
 class PurchaseOrderType:
-    ship_to: Optional[AddressType] = field(
-        default=None,
+    ship_to_or_bill_to_or_single_address: List[object] = field(
+        default_factory=list,
         metadata={
-            "name": "shipTo",
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-    bill_to: Optional[AddressType] = field(
-        default=None,
-        metadata={
-            "name": "billTo",
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-    single_address: Optional[AddressType] = field(
-        default=None,
-        metadata={
-            "name": "singleAddress",
-            "type": "Element",
-            "namespace": "",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "shipTo",
+                    "type": AddressType,
+                    "namespace": "",
+                },
+                {
+                    "name": "billTo",
+                    "type": AddressType,
+                    "namespace": "",
+                },
+                {
+                    "name": "singleAddress",
+                    "type": AddressType,
+                    "namespace": "",
+                },
+            ),
+            "max_occurs": 2,
         }
     )
     customer_comment: Optional[str] = field(

@@ -36,15 +36,19 @@ class Doc(Base):
     class Meta:
         name = "doc"
 
-    c1: Optional[object] = field(
+    c1_or_c2: Optional[object] = field(
         default=None,
         metadata={
-            "type": "Element",
-        }
-    )
-    c2: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "c1",
+                    "type": object,
+                },
+                {
+                    "name": "c2",
+                    "type": object,
+                },
+            ),
         }
     )

@@ -1,6 +1,6 @@
 {
   "elem": {
-    "c1": {
+    "c1_or_c2": {
       "f1_or_f2": [
         {
           "qname": "{http://xsdtesting}f1",
@@ -31,7 +31,6 @@
           "attributes": {}
         }
       ]
-    },
-    "c2": null
+    }
   }
 }

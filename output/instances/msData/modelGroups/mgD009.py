@@ -1,7 +1,13 @@
 from output.models.ms_data.model_groups.mg_d009_xsd.mg_d009 import Root
+from xsdata.formats.dataclass.models.generics import AnyElement
 
 
 obj = Root(
-    a="test",
-    b=None
+    a_or_b=AnyElement(
+        qname="a",
+        text="test",
+        tail=None,
+        children=[],
+        attributes={}
+    )
 )

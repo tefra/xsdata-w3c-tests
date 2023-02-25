@@ -15,7 +15,7 @@ class Answer:
             "required": True,
         }
     )
-    certainty: Optional[str] = field(
+    certainty: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",

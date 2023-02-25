@@ -29,13 +29,13 @@ class Elem(ComplexType):
             "namespace": "",
         }
     )
-    att2: Optional[str] = field(
+    att2: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",
         }
     )
-    att3: Optional[str] = field(
+    att3: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",

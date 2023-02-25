@@ -33,7 +33,7 @@ class Doc:
             "min_occurs": 1,
         }
     )
-    lang: Optional[str] = field(
+    lang: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",

@@ -5,14 +5,19 @@ from output.models.ibm_data.mixed.assertions.po_sample.po_xsd.po import Order
 from output.models.ibm_data.mixed.assertions.po_sample.po_xsd.product import LongItemDefn
 from output.models.ibm_data.mixed.assertions.po_sample.po_xsd.product import Poitems
 from output.models.ibm_data.mixed.assertions.po_sample.po_xsd.product import ShortItemDefn
+from xsdata.formats.dataclass.models.generics import DerivedElement
 
 
 obj = Order(
     buyer=Buyer(
-        f_name="Jimmy",
-        middl_name=None,
-        l_name="Nice",
-        establishment=None
+        choice=[
+            "Jimmy",
+            DerivedElement(
+                qname="lName",
+                value="Nice",
+                type=None
+            ),
+        ]
     ),
     billing_address=Address(
         street1="XYZ Street1",

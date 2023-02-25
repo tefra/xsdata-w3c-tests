@@ -7,14 +7,14 @@ class AttRef:
     class Meta:
         name = "attRef"
 
-    att1: Optional[str] = field(
+    att1: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "required": True,
         }
     )
-    att2: Optional[str] = field(
+    att2: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -41,14 +41,14 @@ class Doc:
             "namespace": "",
         }
     )
-    x1: Optional[str] = field(
+    x1: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "required": True,
         }
     )
-    x2: Optional[str] = field(
+    x2: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",

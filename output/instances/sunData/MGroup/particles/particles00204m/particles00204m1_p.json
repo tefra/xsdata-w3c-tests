@@ -1,5 +1,6 @@
 {
-  "date": "2002-04-25",
-  "marked": true,
-  "num": null
+  "date_or_marked_or_num": [
+    "2002-04-25",
+    true
+  ]
 }

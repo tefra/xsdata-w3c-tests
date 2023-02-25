@@ -74,27 +74,27 @@ class Root:
         default_factory=list,
         metadata={
             "type": "Element",
-            "sequential": True,
+            "sequence": 4,
         }
     )
     b: List[B] = field(
         default_factory=list,
         metadata={
             "type": "Element",
-            "sequential": True,
+            "sequence": 4,
         }
     )
     c: List[C] = field(
         default_factory=list,
         metadata={
             "type": "Element",
-            "sequential": True,
+            "sequence": 4,
         }
     )
     d: List[D] = field(
         default_factory=list,
         metadata={
             "type": "Element",
-            "sequential": True,
+            "sequence": 4,
         }
     )

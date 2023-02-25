@@ -1,4 +1,5 @@
 {
-  "c": 1,
-  "date": null
+  "c_or_date": [
+    1
+  ]
 }

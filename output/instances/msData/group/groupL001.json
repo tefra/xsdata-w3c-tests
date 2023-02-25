@@ -1,6 +1,5 @@
 {
   "elem": {
-    "b1": null,
-    "b2": null
+    "b1_or_b2": []
   }
 }

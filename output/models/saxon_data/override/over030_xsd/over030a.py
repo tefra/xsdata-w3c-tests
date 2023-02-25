@@ -9,7 +9,7 @@ class InlineType:
     class Meta:
         name = "inline.type"
 
-    role: Optional[str] = field(
+    role: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -154,7 +154,7 @@ class Blockquote:
             "required": True,
         }
     )
-    role: Optional[str] = field(
+    role: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -181,7 +181,7 @@ class ParaType:
     class Meta:
         name = "para.type"
 
-    role: Optional[str] = field(
+    role: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -290,7 +290,7 @@ class Doc:
             ),
         }
     )
-    role: Optional[str] = field(
+    role: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",

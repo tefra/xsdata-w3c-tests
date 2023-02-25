@@ -1,7 +1,13 @@
 from output.models.ms_data.particles.particles_id011_xsd.particles_id011 import Doc
+from xsdata.formats.dataclass.models.generics import AnyElement
 
 
 obj = Doc(
-    e1=None,
-    e2=""
+    e1_or_e2=AnyElement(
+        qname="{http://xsdtesting}e2",
+        text="",
+        tail=None,
+        children=[],
+        attributes={}
+    )
 )

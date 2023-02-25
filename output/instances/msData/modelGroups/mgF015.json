@@ -3,12 +3,40 @@
   "two": "",
   "three": "",
   "four": "",
-  "five": "",
-  "five2": null,
-  "six": "",
-  "six2": null,
-  "seven": "",
-  "seven2": null,
-  "eight": "",
-  "eight2": null
+  "five_or_five2": [
+    {
+      "qname": "five",
+      "text": "",
+      "tail": null,
+      "children": [],
+      "attributes": {}
+    }
+  ],
+  "six_or_six2": [
+    {
+      "qname": "six",
+      "text": "",
+      "tail": null,
+      "children": [],
+      "attributes": {}
+    }
+  ],
+  "seven_or_seven2": [
+    {
+      "qname": "seven",
+      "text": "",
+      "tail": null,
+      "children": [],
+      "attributes": {}
+    }
+  ],
+  "eight_or_eight2": [
+    {
+      "qname": "eight",
+      "text": "",
+      "tail": null,
+      "children": [],
+      "attributes": {}
+    }
+  ]
 }

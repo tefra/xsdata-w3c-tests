@@ -7,9 +7,10 @@ obj = Doc(
     elem=R(
         foo="",
         other_element=[],
-        imp_elem1=None,
-        imp_elem2=ImpElem2(
-            any_element=None
-        )
+        imp_elem1_or_imp_elem2=[
+            ImpElem2(
+                any_element=None
+            ),
+        ]
     )
 )

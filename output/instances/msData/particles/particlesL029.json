@@ -1,16 +1,24 @@
 {
   "elem": {
-    "foo": {
-      "any_element": {
-        "qname": null,
-        "text": "1",
+    "foo_or_c2": [
+      {
+        "any_element": {
+          "qname": null,
+          "text": "1",
+          "tail": null,
+          "children": [],
+          "attributes": {}
+        }
+      }
+    ],
+    "d1_or_d2": [
+      {
+        "qname": "d1",
+        "text": "testing",
         "tail": null,
         "children": [],
         "attributes": {}
       }
-    },
-    "c2": null,
-    "d1": "testing",
-    "d2": null
+    ]
   }
 }

@@ -68,22 +68,8 @@ class Address1(Address):
 
 
 @dataclass
-class R:
-    e1: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-    e2: Optional[Address1] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-            "required": True,
-        }
-    )
+class R(B):
+    pass
 
 
 @dataclass

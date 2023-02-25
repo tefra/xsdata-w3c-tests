@@ -10,21 +10,21 @@ class Elem:
         name = "elem"
         namespace = "http://xsdtesting"
 
-    att1: Optional[str] = field(
+    att1: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "namespace": "http://xsdtesting",
         }
     )
-    att2: Optional[str] = field(
+    att2: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "namespace": "http://xsdtesting",
         }
     )
-    att3: Optional[str] = field(
+    att3: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",

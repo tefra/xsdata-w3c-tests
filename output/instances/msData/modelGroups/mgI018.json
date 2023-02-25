@@ -1,12 +1,5 @@
 {
-  "s1": null,
-  "s2": null,
-  "s3": null,
-  "s4": null,
-  "n1_element": null,
-  "n2_element": null,
-  "n3_element": null,
-  "n4_element": {
+  "choice": {
     "qname": "{http://n4}foo",
     "text": "",
     "tail": null,

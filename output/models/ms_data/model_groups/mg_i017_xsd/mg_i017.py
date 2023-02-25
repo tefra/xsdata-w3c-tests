@@ -35,32 +35,32 @@ class Foo:
             "namespace": "",
         }
     )
-    s1: Optional[object] = field(
+    choice: Optional[object] = field(
         default=None,
         metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-    s2: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-    s3: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-    s4: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "s1",
+                    "type": object,
+                    "namespace": "",
+                },
+                {
+                    "name": "s2",
+                    "type": object,
+                    "namespace": "",
+                },
+                {
+                    "name": "s3",
+                    "type": object,
+                    "namespace": "",
+                },
+                {
+                    "name": "s4",
+                    "type": object,
+                    "namespace": "",
+                },
+            ),
         }
     )
 

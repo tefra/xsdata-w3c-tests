@@ -57,29 +57,10 @@ class Default(Base):
 
 
 @dataclass
-class Override:
+class Override(Base):
     class Meta:
         name = "override"
         namespace = "urn:foo"
-
-    a: Optional[OverrideA] = field(
-        default=None,
-        metadata={
-            "type": "Attribute",
-        }
-    )
-    b: Optional[str] = field(
-        default=None,
-        metadata={
-            "type": "Attribute",
-        }
-    )
-    c: Optional[str] = field(
-        default=None,
-        metadata={
-            "type": "Attribute",
-        }
-    )
 
 
 @dataclass

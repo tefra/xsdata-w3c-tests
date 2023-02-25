@@ -31,7 +31,7 @@ class Cs:
             "max_length": 4,
         }
     )
-    a: Optional[str] = field(
+    a: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -98,7 +98,7 @@ class Cc(Cs):
     class Meta:
         name = "cc"
 
-    b: Optional[str] = field(
+    b: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",

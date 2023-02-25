@@ -56,7 +56,7 @@ class R:
                     "namespace": "",
                 },
             ),
-            "max_occurs": 2,
+            "max_occurs": 4,
         }
     )
 

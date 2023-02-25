@@ -15,28 +15,28 @@ class FooType:
             "namespace": "",
         }
     )
-    attr_test: Optional[str] = field(
+    attr_test: Optional[object] = field(
         default=None,
         metadata={
             "name": "attrTest",
             "type": "Attribute",
         }
     )
-    attr_test2: Optional[str] = field(
+    attr_test2: Optional[object] = field(
         default=None,
         metadata={
             "name": "attrTest2",
             "type": "Attribute",
         }
     )
-    attr_test3: Optional[str] = field(
+    attr_test3: Optional[object] = field(
         default=None,
         metadata={
             "name": "attrTest3",
             "type": "Attribute",
         }
     )
-    attr_test4: Optional[str] = field(
+    attr_test4: Optional[object] = field(
         default=None,
         metadata={
             "name": "attrTest4",

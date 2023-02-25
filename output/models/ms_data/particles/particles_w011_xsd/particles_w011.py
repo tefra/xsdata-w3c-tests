@@ -13,7 +13,7 @@ class B:
             "namespace": "",
             "min_occurs": 1,
             "max_occurs": 9,
-            "sequential": True,
+            "sequence": 3,
         }
     )
     e2: List[object] = field(
@@ -23,7 +23,7 @@ class B:
             "namespace": "",
             "min_occurs": 1,
             "max_occurs": 9,
-            "sequential": True,
+            "sequence": 3,
         }
     )
     e3: List[object] = field(
@@ -33,7 +33,7 @@ class B:
             "namespace": "",
             "min_occurs": 1,
             "max_occurs": 9,
-            "sequential": True,
+            "sequence": 3,
         }
     )
 

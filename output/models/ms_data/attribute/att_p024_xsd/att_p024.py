@@ -9,7 +9,7 @@ class AttRef:
     class Meta:
         name = "attRef"
 
-    att: str = field(
+    att: object = field(
         default="37",
         metadata={
             "type": "Attribute",

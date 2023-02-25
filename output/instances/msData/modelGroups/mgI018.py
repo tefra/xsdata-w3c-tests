@@ -3,14 +3,7 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 
 
 obj = Doc(
-    s1=None,
-    s2=None,
-    s3=None,
-    s4=None,
-    n1_element=None,
-    n2_element=None,
-    n3_element=None,
-    n4_element=AnyElement(
+    choice=AnyElement(
         qname="{http://n4}foo",
         text="",
         tail=None,

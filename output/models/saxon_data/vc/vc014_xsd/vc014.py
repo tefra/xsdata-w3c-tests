@@ -7,7 +7,7 @@ class Temp:
     class Meta:
         name = "temp"
 
-    x: Optional[str] = field(
+    x: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",

@@ -21,18 +21,22 @@ class Foo:
     class Meta:
         name = "foo"
 
-    e1: Optional[str] = field(
+    e1_or_e2: Optional[object] = field(
         default=None,
         metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-    e2: Optional[Bar] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "e1",
+                    "type": str,
+                    "namespace": "",
+                },
+                {
+                    "name": "e2",
+                    "type": Bar,
+                    "namespace": "",
+                },
+            ),
         }
     )
 

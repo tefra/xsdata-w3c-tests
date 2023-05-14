@@ -52,24 +52,23 @@ class Root:
         name = "root"
         namespace = "ElemDecl/disallowedSubst"
 
-    member2: List[Member2] = field(
+    member2_or_member1_or_head: List[object] = field(
         default_factory=list,
         metadata={
-            "name": "Member2",
-            "type": "Element",
-        }
-    )
-    member1: List[Member1] = field(
-        default_factory=list,
-        metadata={
-            "name": "Member1",
-            "type": "Element",
-        }
-    )
-    head: List[Head] = field(
-        default_factory=list,
-        metadata={
-            "name": "Head",
-            "type": "Element",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "Member2",
+                    "type": Member2,
+                },
+                {
+                    "name": "Member1",
+                    "type": Member1,
+                },
+                {
+                    "name": "Head",
+                    "type": Head,
+                },
+            ),
         }
     )

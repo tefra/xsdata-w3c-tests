@@ -78,29 +78,35 @@ class Doc:
             "max_occurs": 5,
         }
     )
-    c_element: List[C1] = field(
+    c_or_c: List[object] = field(
         default_factory=list,
         metadata={
-            "name": "C",
-            "type": "Element",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "C",
+                    "type": C1,
+                },
+                {
+                    "name": "c",
+                    "type": C2,
+                },
+            ),
         }
     )
-    c: List[C2] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-        }
-    )
-    d_element: Optional[D1] = field(
+    d_or_d: Optional[object] = field(
         default=None,
         metadata={
-            "name": "D",
-            "type": "Element",
-        }
-    )
-    d: Optional[D2] = field(
-        default=None,
-        metadata={
-            "type": "Element",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "D",
+                    "type": D1,
+                },
+                {
+                    "name": "d",
+                    "type": D2,
+                },
+            ),
         }
     )

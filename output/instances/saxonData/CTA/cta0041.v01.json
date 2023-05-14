@@ -1,15 +1,5 @@
 {
-  "appendix": [
-    {
-      "value": "2010-12-12",
-      "type": "date"
-    },
-    {
-      "value": "12:30:15Z",
-      "type": "time"
-    }
-  ],
-  "chap": [
+  "appendix_or_chap": [
     {
       "value": "2010-12-12",
       "type": "date"
@@ -17,6 +7,14 @@
     {
       "value": "2010-10-10T12:30:00Z",
       "type": "dateTime"
+    },
+    {
+      "value": "12:30:15Z",
+      "type": "time"
+    },
+    {
+      "value": "2010-12-12",
+      "type": "date"
     },
     {
       "value": "12:30:15Z",

@@ -37,18 +37,22 @@ class RootType:
     class Meta:
         name = "rootType"
 
-    elem2: Optional[str] = field(
+    elem2_or_elem1: Optional[object] = field(
         default=None,
         metadata={
-            "type": "Element",
-            "namespace": "http://xstest-tns/ibms3_3_6_v01",
-        }
-    )
-    elem1: Optional[str] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "http://xstest-tns/ibms3_3_6_v01",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "elem2",
+                    "type": str,
+                    "namespace": "http://xstest-tns/ibms3_3_6_v01",
+                },
+                {
+                    "name": "elem1",
+                    "type": str,
+                    "namespace": "http://xstest-tns/ibms3_3_6_v01",
+                },
+            ),
         }
     )
 

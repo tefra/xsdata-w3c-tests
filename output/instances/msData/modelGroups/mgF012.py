@@ -21,9 +21,7 @@ obj = Doc(
             attributes={}
         ),
     ],
-    b_or_b2=[
-        "I am a stringy string",
-    ],
+    b_or_b2="I am a stringy string",
     d="",
     a=1
 )

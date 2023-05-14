@@ -1,15 +1,13 @@
 {
-  "Member3": [
+  "member3_or_head": [
+    {
+      "Ear": "",
+      "Eye": ""
+    },
     {
       "Ear": "",
       "Eye": "",
       "Nose": ""
-    }
-  ],
-  "Head": [
-    {
-      "Ear": "",
-      "Eye": ""
     }
   ]
 }

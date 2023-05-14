@@ -1,6 +1,7 @@
 {
-  "elem2_or_elem0_or_elem1": [
+  "elem2_or_elem0": [
     "Tests multiple substitution group heads",
     "hi"
-  ]
+  ],
+  "elem1": null
 }

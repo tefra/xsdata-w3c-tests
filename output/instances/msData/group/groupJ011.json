@@ -1,13 +1,11 @@
 {
   "elem": {
-    "choice": [
-      {
-        "qname": "b4",
-        "text": "",
-        "tail": null,
-        "children": [],
-        "attributes": {}
-      }
-    ]
+    "choice": {
+      "qname": "b4",
+      "text": "",
+      "tail": null,
+      "children": [],
+      "attributes": {}
+    }
   }
 }

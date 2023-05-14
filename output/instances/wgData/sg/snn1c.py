@@ -19,10 +19,6 @@ obj = Test(
             value="",
             type=None
         ),
-        DerivedElement(
-            qname="{http://www.w3.org/XML/2008/xsdl-exx/ns1}c",
-            value="",
-            type=None
-        ),
-    ]
+    ],
+    c=""
 )

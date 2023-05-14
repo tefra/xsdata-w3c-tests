@@ -6,7 +6,10 @@
     "children": [],
     "attributes": {}
   },
-  "s1": null,
-  "s": "",
+  "s1_or_s": {
+    "qname": "{http://www.w3.org/XML/2008/xsdl-exx/ns1}s",
+    "value": "",
+    "type": null
+  },
   "n": ""
 }

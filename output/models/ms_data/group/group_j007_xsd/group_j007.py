@@ -7,6 +7,14 @@ class Elem:
     class Meta:
         name = "elem"
 
+    b1: Optional[object] = field(
+        default=None,
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
+    )
+
 
 @dataclass
 class Doc:

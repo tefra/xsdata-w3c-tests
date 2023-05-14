@@ -1,11 +1,9 @@
 {
-  "Member1": [
+  "member1_or_head": [
     {
       "Ear": "",
       "Eye": ""
-    }
-  ],
-  "Head": [
+    },
     {
       "Ear": "",
       "Eye": ""

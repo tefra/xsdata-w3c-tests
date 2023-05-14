@@ -9,9 +9,9 @@ class DataTypes:
         metadata={
             "name": "ID",
             "type": "Element",
-            "min_occurs": 1,
+            "min_occurs": 2,
             "max_occurs": 2,
-            "sequence": 9,
+            "sequence": 1,
         }
     )
     idref: List[str] = field(
@@ -19,9 +19,9 @@ class DataTypes:
         metadata={
             "name": "IDREF",
             "type": "Element",
-            "min_occurs": 1,
+            "min_occurs": 2,
             "max_occurs": 2,
-            "sequence": 9,
+            "sequence": 1,
         }
     )
     idrefs: List[List[str]] = field(
@@ -29,9 +29,9 @@ class DataTypes:
         metadata={
             "name": "IDREFS",
             "type": "Element",
-            "min_occurs": 1,
+            "min_occurs": 2,
             "max_occurs": 2,
-            "sequence": 9,
+            "sequence": 1,
             "tokens": True,
         }
     )

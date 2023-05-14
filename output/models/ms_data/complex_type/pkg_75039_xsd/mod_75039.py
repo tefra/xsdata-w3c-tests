@@ -56,22 +56,23 @@ class BagOfHeads:
     class Meta:
         name = "bagOfHeads"
 
-    complex2: List[Complex2] = field(
+    complex2_or_complex1_or_subst_head: List[object] = field(
         default_factory=list,
         metadata={
-            "type": "Element",
-        }
-    )
-    complex1: List[Complex1] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-        }
-    )
-    subst_head: List[SubstHead] = field(
-        default_factory=list,
-        metadata={
-            "name": "substHead",
-            "type": "Element",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "complex2",
+                    "type": Complex2,
+                },
+                {
+                    "name": "complex1",
+                    "type": Complex1,
+                },
+                {
+                    "name": "substHead",
+                    "type": SubstHead,
+                },
+            ),
         }
     )

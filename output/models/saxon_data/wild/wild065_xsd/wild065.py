@@ -34,16 +34,20 @@ class Zing:
     class Meta:
         name = "zing"
 
-    g: Optional[int] = field(
+    g_or_e: Optional[object] = field(
         default=None,
         metadata={
-            "type": "Element",
-        }
-    )
-    e: Optional[Decimal] = field(
-        default=None,
-        metadata={
-            "type": "Element",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "g",
+                    "type": int,
+                },
+                {
+                    "name": "e",
+                    "type": Decimal,
+                },
+            ),
         }
     )
     f: Optional[int] = field(

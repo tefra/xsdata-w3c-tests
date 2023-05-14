@@ -20,5 +20,6 @@ obj = Test(
             value="",
             type=None
         ),
-    ]
+    ],
+    c=None
 )

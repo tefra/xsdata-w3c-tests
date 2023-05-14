@@ -1,9 +1,14 @@
 {
-  "A": {
-    "any_element": null
-  },
-  "a": "",
+  "a_or_a": "",
   "b": null,
   "c": null,
-  "any_element": []
+  "any_element": [
+    {
+      "qname": "A",
+      "value": {
+        "any_element": null
+      },
+      "type": null
+    }
+  ]
 }

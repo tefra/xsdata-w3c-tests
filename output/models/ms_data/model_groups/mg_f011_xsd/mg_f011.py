@@ -7,8 +7,8 @@ class Foo:
     class Meta:
         name = "foo"
 
-    b_or_b2: List[object] = field(
-        default_factory=list,
+    b_or_b2: Optional[object] = field(
+        default=None,
         metadata={
             "type": "Elements",
             "choices": (
@@ -23,7 +23,6 @@ class Foo:
                     "namespace": "",
                 },
             ),
-            "max_occurs": 2,
         }
     )
     w3_org_1999_xhtml_element: List[object] = field(

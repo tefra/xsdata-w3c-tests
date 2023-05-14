@@ -15,21 +15,18 @@ obj = Doc(
         "",
         "",
     ],
-    c_element=[
-        C1(
-            any_element=None
-        ),
-        C1(
-            any_element=None
-        ),
-    ],
-    c=[
+    c_or_c=[
         C2(
             any_element=None
         ),
+        C1(
+            any_element=None
+        ),
+        C1(
+            any_element=None
+        ),
     ],
-    d_element=D1(
+    d_or_d=D1(
         any_element=None
-    ),
-    d=None
+    )
 )

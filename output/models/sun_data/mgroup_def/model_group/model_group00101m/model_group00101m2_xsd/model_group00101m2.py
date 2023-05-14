@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List
+from typing import Optional
 from xsdata.models.datatype import XmlDate
 
 __NAMESPACE__ = "modelGroup"
@@ -10,8 +10,8 @@ class A1:
     class Meta:
         name = "A"
 
-    c_or_date: List[object] = field(
-        default_factory=list,
+    c_or_date: Optional[object] = field(
+        default=None,
         metadata={
             "type": "Elements",
             "choices": (
@@ -26,7 +26,6 @@ class A1:
                     "namespace": "",
                 },
             ),
-            "max_occurs": 2,
         }
     )
 

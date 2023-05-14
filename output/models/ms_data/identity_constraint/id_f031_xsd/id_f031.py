@@ -52,16 +52,20 @@ class T:
     class Meta:
         name = "t"
 
-    r2: Optional[str] = field(
+    r2_or_r: Optional[object] = field(
         default=None,
         metadata={
-            "type": "Element",
-        }
-    )
-    r: Optional[str] = field(
-        default=None,
-        metadata={
-            "type": "Element",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "r2",
+                    "type": str,
+                },
+                {
+                    "name": "r",
+                    "type": str,
+                },
+            ),
         }
     )
 

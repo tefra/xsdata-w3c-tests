@@ -1,4 +1,9 @@
 {
-  "foo": null,
-  "bar": ""
+  "foo_or_bar": {
+    "qname": "{http://xsdtesting}bar",
+    "text": "",
+    "tail": null,
+    "children": [],
+    "attributes": {}
+  }
 }

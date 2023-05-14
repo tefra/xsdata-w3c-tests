@@ -29,7 +29,7 @@ class B:
 @dataclass
 class Base:
     """
-    Documentation documentation.
+    documentation documentation.
     """
     class Meta:
         name = "base"

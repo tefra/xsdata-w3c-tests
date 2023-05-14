@@ -4,10 +4,9 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 
 
 obj = Root(
-    a_element=A1(
+    a_or_a=A1(
         any_element=None
     ),
-    a=None,
     b="",
     c="",
     any_element=[

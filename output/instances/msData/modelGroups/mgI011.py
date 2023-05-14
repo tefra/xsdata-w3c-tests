@@ -19,6 +19,5 @@ obj = Doc(
             ],
             attributes={}
         ),
-    ],
-    c=None
+    ]
 )

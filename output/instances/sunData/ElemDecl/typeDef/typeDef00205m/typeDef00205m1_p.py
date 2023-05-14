@@ -3,8 +3,7 @@ from output.models.sun_data.elem_decl.type_def.type_def00205m.type_def00205m_xsd
 
 
 obj = Root(
-    any_type_element=AnyTypeElement(
+    any_type_element_or_default_type_element=AnyTypeElement(
         any_element=None
-    ),
-    default_type_element=None
+    )
 )

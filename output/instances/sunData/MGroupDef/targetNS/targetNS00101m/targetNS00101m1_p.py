@@ -2,7 +2,5 @@ from output.models.sun_data.mgroup_def.target_ns.target_ns00101m.target_ns00101m
 
 
 obj = A(
-    c_or_date=[
-        1,
-    ]
+    c_or_date=1
 )

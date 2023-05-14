@@ -14,11 +14,7 @@
       "qname": "{http://www.w3.org/XML/2008/xsdl-exx/ns1}n1",
       "value": "",
       "type": null
-    },
-    {
-      "qname": "{http://www.w3.org/XML/2008/xsdl-exx/ns1}c",
-      "value": "",
-      "type": null
     }
-  ]
+  ],
+  "c": ""
 }

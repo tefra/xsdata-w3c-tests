@@ -9,38 +9,26 @@ from output.models.ms_data.element.elem_z003_xsd.elem_z003 import G
 
 
 obj = Container(
-    g=[
-        G(
+    choice=[
+        A(
 
         ),
-    ],
-    f=[
-        F(
-
-        ),
-    ],
-    e=[
-        E(
-
-        ),
-    ],
-    d=[
-        D(
-
-        ),
-    ],
-    c=[
-        C(
-
-        ),
-    ],
-    b=[
         B(
 
         ),
-    ],
-    a=[
-        A(
+        C(
+
+        ),
+        D(
+
+        ),
+        E(
+
+        ),
+        F(
+
+        ),
+        G(
 
         ),
     ]

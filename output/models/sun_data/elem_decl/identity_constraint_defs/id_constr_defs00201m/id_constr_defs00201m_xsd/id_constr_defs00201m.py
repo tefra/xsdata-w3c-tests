@@ -17,7 +17,7 @@ class Root:
             "type": "Element",
             "namespace": "",
             "min_occurs": 1,
-            "sequence": 4,
+            "sequence": 1,
         }
     )
     name: List[str] = field(
@@ -27,7 +27,7 @@ class Root:
             "type": "Element",
             "namespace": "",
             "min_occurs": 1,
-            "sequence": 4,
+            "sequence": 1,
         }
     )
     manager: List[str] = field(
@@ -37,6 +37,6 @@ class Root:
             "type": "Element",
             "namespace": "",
             "min_occurs": 1,
-            "sequence": 4,
+            "sequence": 1,
         }
     )

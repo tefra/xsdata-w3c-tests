@@ -1,53 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root xmlns="foo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <eDee>
-    <foo/>
-  </eDee>
-  <eDee>
-    <foo/>
-  </eDee>
-  <eDer>
-    <foo/>
-  </eDer>
-  <eDer>
-    <foo/>
-  </eDer>
-  <eDe>
-    <foo/>
-  </eDe>
-  <eDe>
-    <foo/>
-  </eDe>
-  <eDe xsi:type="Der">
-    <foo/>
-  </eDe>
-  <eDe xsi:type="Dee">
-    <foo/>
-  </eDe>
-  <eDre>
-    <foo/>
-  </eDre>
-  <eDre>
-    <foo/>
-  </eDre>
-  <eDrr>
-    <foo/>
-  </eDrr>
-  <eDrr>
-    <foo/>
-  </eDrr>
-  <eDr>
-    <foo/>
-  </eDr>
-  <eDr>
-    <foo/>
-  </eDr>
-  <eDr xsi:type="Drr">
-    <foo/>
-  </eDr>
-  <eDr xsi:type="Dre">
-    <foo/>
-  </eDr>
   <eB>
     <foo/>
   </eB>
@@ -72,4 +24,52 @@
   <eB xsi:type="Dee">
     <foo/>
   </eB>
+  <eDr>
+    <foo/>
+  </eDr>
+  <eDr>
+    <foo/>
+  </eDr>
+  <eDr xsi:type="Drr">
+    <foo/>
+  </eDr>
+  <eDr xsi:type="Dre">
+    <foo/>
+  </eDr>
+  <eDe>
+    <foo/>
+  </eDe>
+  <eDe>
+    <foo/>
+  </eDe>
+  <eDe xsi:type="Der">
+    <foo/>
+  </eDe>
+  <eDe xsi:type="Dee">
+    <foo/>
+  </eDe>
+  <eDrr>
+    <foo/>
+  </eDrr>
+  <eDrr>
+    <foo/>
+  </eDrr>
+  <eDre>
+    <foo/>
+  </eDre>
+  <eDre>
+    <foo/>
+  </eDre>
+  <eDer>
+    <foo/>
+  </eDer>
+  <eDer>
+    <foo/>
+  </eDer>
+  <eDee>
+    <foo/>
+  </eDee>
+  <eDee>
+    <foo/>
+  </eDee>
 </root>

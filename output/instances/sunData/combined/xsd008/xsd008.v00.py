@@ -7,27 +7,7 @@ from output.models.sun_data.combined.xsd008.xsd008_xsd.xsd008 import YesNo
 
 obj = Root(
     generic=Generic(
-        int_value=[
-            Int(
-                annotation=None,
-                value=52
-            ),
-            Int(
-                annotation=None,
-                value=-55555
-            ),
-        ],
-        long=[
-            Long(
-                annotation=None,
-                value=52
-            ),
-            Long(
-                annotation=None,
-                value=-55555
-            ),
-        ],
-        yes_no=[
+        choice=[
             YesNo(
                 annotation=None,
                 value=True
@@ -36,11 +16,14 @@ obj = Root(
                 annotation=None,
                 value=False
             ),
-        ],
-        facet=[]
-    ),
-    restricted=Root.Restricted(
-        int_value=[
+            Long(
+                annotation=None,
+                value=52
+            ),
+            Long(
+                annotation=None,
+                value=-55555
+            ),
             Int(
                 annotation=None,
                 value=52
@@ -49,13 +32,23 @@ obj = Root(
                 annotation=None,
                 value=-55555
             ),
-        ],
-        long=[
+        ]
+    ),
+    restricted=Root.Restricted(
+        int_or_long=[
             Long(
                 annotation=None,
                 value=52
             ),
             Long(
+                annotation=None,
+                value=-55555
+            ),
+            Int(
+                annotation=None,
+                value=52
+            ),
+            Int(
                 annotation=None,
                 value=-55555
             ),

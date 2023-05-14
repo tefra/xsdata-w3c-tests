@@ -4,7 +4,7 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 
 
 obj = Root(
-    sa3=[
+    choice=[
         Sa3(
             any_element=AnyElement(
                 qname=None,
@@ -15,9 +15,6 @@ obj = Root(
             )
         ),
     ],
-    sa2=[],
-    sa1=[],
-    test1=[],
     test2=None,
     test3=None,
     test4=None,

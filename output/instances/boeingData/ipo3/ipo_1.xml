@@ -20,8 +20,8 @@
       <ipo:productName>777 Model</ipo:productName>
       <ipo:quantity>1</ipo:quantity>
       <ipo:USPrice>99.95</ipo:USPrice>
-      <ipo:customerComment> Want this for the holidays! </ipo:customerComment>
       <ipo:shipComment> Use gold wrap if possible </ipo:shipComment>
+      <ipo:customerComment> Want this for the holidays! </ipo:customerComment>
       <ipo:shipDate>1999-12-05</ipo:shipDate>
     </ipo:item>
     <ipo:item partNum="833-AA">

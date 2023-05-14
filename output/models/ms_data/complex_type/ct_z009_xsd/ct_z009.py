@@ -13,6 +13,6 @@ class Root:
             "type": "Element",
             "namespace": "",
             "min_occurs": 2,
-            "max_occurs": 10,
+            "max_occurs": 20,
         }
     )

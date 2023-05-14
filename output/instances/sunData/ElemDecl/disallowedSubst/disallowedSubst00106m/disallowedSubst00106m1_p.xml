@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root xmlns="ElemDecl/disallowedSubst" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Head>
+    <Ear/>
+    <Eye/>
+  </Head>
   <Member3>
     <Ear/>
     <Eye/>
     <Nose/>
   </Member3>
-  <Head>
-    <Ear/>
-    <Eye/>
-  </Head>
 </root>

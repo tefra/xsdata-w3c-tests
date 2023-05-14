@@ -1,6 +1,5 @@
 from output.models.boeing_data.ipo1.ipo_xsd.ipo import (
     AddressType,
-    ItemDeliveryShipBy,
     ItemsType,
     PurchaseOrderType,
     Ukaddress,
@@ -8,13 +7,13 @@ from output.models.boeing_data.ipo1.ipo_xsd.ipo import (
     Usstate,
     Comment,
     CustomerComment,
+    ItemShipBy,
     PurchaseOrder,
     ShipComment,
 )
 
 __all__ = [
     "AddressType",
-    "ItemDeliveryShipBy",
     "ItemsType",
     "PurchaseOrderType",
     "Ukaddress",
@@ -22,6 +21,7 @@ __all__ = [
     "Usstate",
     "Comment",
     "CustomerComment",
+    "ItemShipBy",
     "PurchaseOrder",
     "ShipComment",
 ]

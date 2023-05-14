@@ -24,7 +24,6 @@ class Doc:
                     "pattern": r"\c[\c\d]*",
                 },
             ),
-            "max_occurs": 2,
         }
     )
 

@@ -41,6 +41,7 @@ class Foo:
             "type": "Wildcard",
             "namespace": "##any",
             "max_occurs": 4,
+            "sequence": 1,
         }
     )
 

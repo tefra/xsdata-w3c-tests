@@ -1,15 +1,12 @@
 {
-  "ra": [],
-  "lab": [],
-  "la": [],
-  "uab": [],
-  "ua": [],
-  "b": [],
-  "a": [],
-  "B": [],
-  "A": [],
-  "item": [
-    "abc",
+  "choice": [
+    {
+      "qname": "item",
+      "text": "abc",
+      "tail": null,
+      "children": [],
+      "attributes": {}
+    },
     {
       "qname": "item",
       "text": "5",
@@ -38,25 +35,53 @@
       }
     },
     {
-      "value": 1
+      "qname": "item",
+      "value": {
+        "value": 1
+      },
+      "type": "A"
     },
     {
-      "value": 2
+      "qname": "item",
+      "value": {
+        "value": 2
+      },
+      "type": "A"
     },
     {
-      "value": 3
+      "qname": "item",
+      "value": {
+        "value": 3
+      },
+      "type": "A"
     },
     {
-      "value": 4
+      "qname": "item",
+      "value": {
+        "value": 4
+      },
+      "type": "A"
     },
     {
-      "value": "a"
+      "qname": "item",
+      "value": {
+        "value": "a"
+      },
+      "type": "B"
     },
     {
-      "value": "c123456789"
+      "qname": "item",
+      "value": {
+        "value": "c123456789"
+      },
+      "type": "B"
     },
     {
-      "value": "b"
+      "qname": "item",
+      "value": {
+        "value": "b"
+      },
+      "type": "B"
     },
     {
       "qname": "item",

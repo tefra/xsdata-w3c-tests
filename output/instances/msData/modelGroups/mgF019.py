@@ -3,7 +3,7 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 
 
 obj = Doc(
-    choice=[
+    any_element=[
         AnyElement(
             qname="{http://n1}foo",
             text="",
@@ -32,33 +32,9 @@ obj = Doc(
             children=[],
             attributes={}
         ),
-        AnyElement(
-            qname="e1",
-            text="",
-            tail=None,
-            children=[],
-            attributes={}
-        ),
-        AnyElement(
-            qname="e2",
-            text="",
-            tail=None,
-            children=[],
-            attributes={}
-        ),
-        AnyElement(
-            qname="e3",
-            text="",
-            tail=None,
-            children=[],
-            attributes={}
-        ),
-        AnyElement(
-            qname="e4",
-            text="",
-            tail=None,
-            children=[],
-            attributes={}
-        ),
-    ]
+    ],
+    e1="",
+    e2="",
+    e3="",
+    e4=""
 )

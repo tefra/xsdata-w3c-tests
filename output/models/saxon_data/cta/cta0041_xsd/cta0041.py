@@ -46,15 +46,19 @@ class Doc:
     class Meta:
         name = "doc"
 
-    appendix: List[Appendix] = field(
+    appendix_or_chap: List[object] = field(
         default_factory=list,
         metadata={
-            "type": "Element",
-        }
-    )
-    chap: List[Chap] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "appendix",
+                    "type": Appendix,
+                },
+                {
+                    "name": "chap",
+                    "type": Chap,
+                },
+            ),
         }
     )

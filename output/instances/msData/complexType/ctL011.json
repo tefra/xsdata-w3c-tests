@@ -9,6 +9,7 @@
         "children": [],
         "attributes": {}
       },
+      "\n        for fooTest\n\t",
       {
         "qname": "child_2",
         "text": "3",

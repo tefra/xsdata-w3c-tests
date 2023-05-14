@@ -3,8 +3,7 @@ from output.models.sun_data.elem_decl.subst_group_exclusions.subst_grp_excl00303
 
 
 obj = Root(
-    member3=[],
-    head=[
+    member3_or_head=[
         Head(
             ear="",
             eye=""

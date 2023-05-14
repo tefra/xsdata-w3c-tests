@@ -46,17 +46,19 @@ class Book:
         name = "book"
         namespace = "http://simple013.ly/"
 
-    subdoc: List[Subdoc] = field(
+    subdoc_or_doc: List[object] = field(
         default_factory=list,
         metadata={
-            "type": "Element",
-            "sequence": 4,
-        }
-    )
-    doc: List[Doc] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "sequence": 4,
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "subdoc",
+                    "type": Subdoc,
+                },
+                {
+                    "name": "doc",
+                    "type": Doc,
+                },
+            ),
         }
     )

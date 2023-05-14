@@ -14,6 +14,7 @@ obj = Root(
                 children=[],
                 attributes={}
             ),
+            "&#10;        for fooTest&#10;&#9;",
             AnyElement(
                 qname="child_2",
                 text="3",

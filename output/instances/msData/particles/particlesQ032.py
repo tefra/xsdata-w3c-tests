@@ -19,9 +19,9 @@ obj = Doc(
             E2(
                 any_element=None
             ),
-            E2(
-                any_element=None
-            ),
-        ]
+        ],
+        e2_2=E2(
+            any_element=None
+        )
     )
 )

@@ -5,14 +5,12 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 
 obj = Doc(
     elem=Elem(
-        b1_or_b2=[
-            AnyElement(
-                qname="b1",
-                text="",
-                tail=None,
-                children=[],
-                attributes={}
-            ),
-        ]
+        b1_or_b2=AnyElement(
+            qname="b1",
+            text="",
+            tail=None,
+            children=[],
+            attributes={}
+        )
     )
 )

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root xmlns="foo">
   <generic>
-    <int value="52"/>
-    <int value="-55555"/>
-    <long value="52"/>
-    <long value="-55555"/>
     <yesNo value="true"/>
     <yesNo value="false"/>
-  </generic>
-  <restricted>
-    <int value="52"/>
-    <int value="-55555"/>
     <long value="52"/>
     <long value="-55555"/>
+    <int value="52"/>
+    <int value="-55555"/>
+  </generic>
+  <restricted>
+    <long value="52"/>
+    <long value="-55555"/>
+    <int value="52"/>
+    <int value="-55555"/>
   </restricted>
 </root>

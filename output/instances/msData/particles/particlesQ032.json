@@ -11,10 +11,10 @@
       },
       {
         "any_element": null
-      },
-      {
-        "any_element": null
       }
-    ]
+    ],
+    "e2": {
+      "any_element": null
+    }
   }
 }

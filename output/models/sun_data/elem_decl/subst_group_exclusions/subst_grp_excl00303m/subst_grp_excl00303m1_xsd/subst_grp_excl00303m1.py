@@ -50,17 +50,19 @@ class Root:
         name = "root"
         namespace = "ElemDecl/substGroupExclusions"
 
-    member3: List[Member3] = field(
+    member3_or_head: List[object] = field(
         default_factory=list,
         metadata={
-            "name": "Member3",
-            "type": "Element",
-        }
-    )
-    head: List[Head] = field(
-        default_factory=list,
-        metadata={
-            "name": "Head",
-            "type": "Element",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "Member3",
+                    "type": Member3,
+                },
+                {
+                    "name": "Head",
+                    "type": Head,
+                },
+            ),
         }
     )

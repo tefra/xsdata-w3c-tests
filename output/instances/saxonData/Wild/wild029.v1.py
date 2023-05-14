@@ -3,16 +3,16 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 
 
 obj = Eden(
-    a_or_any_element=[
+    a=[
         "",
         "",
         "",
-        AnyElement(
-            qname="b",
-            text="",
-            tail=None,
-            children=[],
-            attributes={}
-        ),
-    ]
+    ],
+    any_element=AnyElement(
+        qname="b",
+        text="",
+        tail=None,
+        children=[],
+        attributes={}
+    )
 )

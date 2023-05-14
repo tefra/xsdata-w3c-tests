@@ -13,6 +13,18 @@ class Elem:
             "type": "Wildcard",
             "namespace": "##any",
             "mixed": True,
+            "choices": (
+                {
+                    "name": "b1",
+                    "type": str,
+                    "namespace": "",
+                },
+                {
+                    "name": "b2",
+                    "type": str,
+                    "namespace": "",
+                },
+            ),
         }
     )
 

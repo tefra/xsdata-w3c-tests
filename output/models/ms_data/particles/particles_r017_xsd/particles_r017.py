@@ -44,8 +44,8 @@ class R:
             "max_occurs": 2,
         }
     )
-    imp_elem1_or_imp_elem2: List[object] = field(
-        default_factory=list,
+    imp_elem1_or_imp_elem2: Optional[object] = field(
+        default=None,
         metadata={
             "type": "Elements",
             "choices": (
@@ -60,7 +60,6 @@ class R:
                     "namespace": "http://importedXSD",
                 },
             ),
-            "max_occurs": 2,
         }
     )
 

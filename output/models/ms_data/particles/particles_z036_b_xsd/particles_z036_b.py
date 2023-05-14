@@ -23,7 +23,6 @@ class FooType:
                     "namespace": "",
                 },
             ),
-            "max_occurs": 100000000,
         }
     )
 

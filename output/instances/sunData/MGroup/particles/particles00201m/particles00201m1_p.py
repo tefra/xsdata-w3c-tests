@@ -3,7 +3,5 @@ from xsdata.models.datatype import XmlDate
 
 
 obj = A(
-    date_or_marked=[
-        XmlDate(2002, 4, 25),
-    ]
+    date_or_marked=XmlDate(2002, 4, 25)
 )

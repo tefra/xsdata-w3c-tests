@@ -14,8 +14,8 @@ class Foo:
             "namespace": "",
         }
     )
-    b_or_b2: List[object] = field(
-        default_factory=list,
+    b_or_b2: Optional[object] = field(
+        default=None,
         metadata={
             "type": "Elements",
             "choices": (
@@ -30,7 +30,6 @@ class Foo:
                     "namespace": "",
                 },
             ),
-            "max_occurs": 2,
         }
     )
     c: Optional[bool] = field(

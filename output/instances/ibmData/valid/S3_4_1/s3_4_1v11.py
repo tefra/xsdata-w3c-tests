@@ -14,5 +14,6 @@ obj = Root(
             children=[],
             attributes={}
         ),
+        "&#10;&#9;&#9;23123124noifew&#10;",
     ]
 )

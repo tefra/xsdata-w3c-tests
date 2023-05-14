@@ -1,6 +1,6 @@
 {
   "elem": {
-    "choice": [
+    "c1_or_c2_or_c3": [
       {
         "qname": "c3",
         "text": "t",
@@ -15397,17 +15397,11 @@
       {
         "qname": "c3",
         "text": "t",
-        "tail": null,
-        "children": [],
-        "attributes": {}
-      },
-      {
-        "qname": "foo",
-        "text": "",
         "tail": null,
         "children": [],
         "attributes": {}
       }
-    ]
+    ],
+    "foo": ""
   }
 }

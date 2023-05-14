@@ -65,18 +65,22 @@ class T:
     class Meta:
         name = "t"
 
-    d: Optional[int] = field(
+    d_or_b: Optional[object] = field(
         default=None,
         metadata={
-            "type": "Element",
-            "namespace": "a",
-        }
-    )
-    b: Optional[int] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "a",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "d",
+                    "type": int,
+                    "namespace": "a",
+                },
+                {
+                    "name": "b",
+                    "type": int,
+                    "namespace": "a",
+                },
+            ),
         }
     )
     any_element: List[object] = field(

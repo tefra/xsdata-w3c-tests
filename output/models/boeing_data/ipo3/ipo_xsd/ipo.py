@@ -3,7 +3,7 @@ from decimal import Decimal
 from typing import List, Optional, Type
 from xsdata.models.datatype import XmlDate
 from output.models.boeing_data.ipo3.ipo_xsd.address import AddressType
-from output.models.boeing_data.ipo3.ipo_xsd.itematt import ItemDeliveryShipBy
+from output.models.boeing_data.ipo3.ipo_xsd.itematt import ItemShipBy
 
 __NAMESPACE__ = "http://www.example.com/IPO"
 
@@ -83,29 +83,27 @@ class ItemsType:
                 "required": True,
             }
         )
-        customer_comment: List[str] = field(
+        customer_comment_or_ship_comment_or_comment: List[object] = field(
             default_factory=list,
             metadata={
-                "name": "customerComment",
-                "type": "Element",
-                "namespace": "http://www.example.com/IPO",
-                "max_occurs": 2,
-            }
-        )
-        ship_comment: List[str] = field(
-            default_factory=list,
-            metadata={
-                "name": "shipComment",
-                "type": "Element",
-                "namespace": "http://www.example.com/IPO",
-                "max_occurs": 2,
-            }
-        )
-        comment: List[str] = field(
-            default_factory=list,
-            metadata={
-                "type": "Element",
-                "namespace": "http://www.example.com/IPO",
+                "type": "Elements",
+                "choices": (
+                    {
+                        "name": "customerComment",
+                        "type": str,
+                        "namespace": "http://www.example.com/IPO",
+                    },
+                    {
+                        "name": "shipComment",
+                        "type": str,
+                        "namespace": "http://www.example.com/IPO",
+                    },
+                    {
+                        "name": "comment",
+                        "type": str,
+                        "namespace": "http://www.example.com/IPO",
+                    },
+                ),
                 "max_occurs": 2,
             }
         )
@@ -133,7 +131,7 @@ class ItemsType:
                 "type": "Attribute",
             }
         )
-        ship_by: Optional[ItemDeliveryShipBy] = field(
+        ship_by: Optional[ItemShipBy] = field(
             default=None,
             metadata={
                 "name": "shipBy",
@@ -168,27 +166,27 @@ class PurchaseOrderType:
             "max_occurs": 2,
         }
     )
-    customer_comment: Optional[str] = field(
+    customer_comment_or_ship_comment_or_comment: Optional[object] = field(
         default=None,
         metadata={
-            "name": "customerComment",
-            "type": "Element",
-            "namespace": "http://www.example.com/IPO",
-        }
-    )
-    ship_comment: Optional[str] = field(
-        default=None,
-        metadata={
-            "name": "shipComment",
-            "type": "Element",
-            "namespace": "http://www.example.com/IPO",
-        }
-    )
-    comment: Optional[str] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "http://www.example.com/IPO",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "customerComment",
+                    "type": str,
+                    "namespace": "http://www.example.com/IPO",
+                },
+                {
+                    "name": "shipComment",
+                    "type": str,
+                    "namespace": "http://www.example.com/IPO",
+                },
+                {
+                    "name": "comment",
+                    "type": str,
+                    "namespace": "http://www.example.com/IPO",
+                },
+            ),
         }
     )
     items: Optional[ItemsType] = field(

@@ -1,4 +1,5 @@
 {
-  "choice": [],
-  "c": true
+  "choice": [
+    true
+  ]
 }

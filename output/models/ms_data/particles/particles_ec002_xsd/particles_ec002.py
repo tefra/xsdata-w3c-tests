@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List
+from typing import Optional
 
 __NAMESPACE__ = "http://xsdtesting"
 
@@ -10,8 +10,8 @@ class Doc:
         name = "doc"
         namespace = "http://xsdtesting"
 
-    a_or_b: List[object] = field(
-        default_factory=list,
+    a_or_b: Optional[object] = field(
+        default=None,
         metadata={
             "type": "Elements",
             "choices": (
@@ -24,6 +24,5 @@ class Doc:
                     "type": object,
                 },
             ),
-            "max_occurs": 2,
         }
     )

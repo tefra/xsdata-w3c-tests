@@ -6,20 +6,22 @@ __NAMESPACE__ = "urn:my-namespace"
 
 @dataclass
 class ContainHead2Type:
-    member2: Optional[str] = field(
+    member2_or_head2: Optional[object] = field(
         default=None,
         metadata={
-            "name": "Member2",
-            "type": "Element",
-            "namespace": "urn:my-namespace",
-        }
-    )
-    head2: Optional[str] = field(
-        default=None,
-        metadata={
-            "name": "Head2",
-            "type": "Element",
-            "namespace": "urn:my-namespace",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "Member2",
+                    "type": str,
+                    "namespace": "urn:my-namespace",
+                },
+                {
+                    "name": "Head2",
+                    "type": str,
+                    "namespace": "urn:my-namespace",
+                },
+            ),
         }
     )
 

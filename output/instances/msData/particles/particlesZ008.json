@@ -1,4 +1,3 @@
 {
-  "Member2": "string",
-  "Head2": null
+  "member2_or_head2": "string"
 }

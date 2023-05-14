@@ -4,17 +4,15 @@ from output.models.sun_data.elem_decl.disallowed_subst.disallowed_subst00106m.di
 
 
 obj = Root(
-    member3=[
+    member3_or_head=[
+        Head(
+            ear="",
+            eye=""
+        ),
         Member3(
             ear="",
             eye="",
             nose=""
-        ),
-    ],
-    head=[
-        Head(
-            ear="",
-            eye=""
         ),
     ]
 )

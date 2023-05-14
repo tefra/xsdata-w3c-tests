@@ -1,6 +1,9 @@
 {
-  "d": null,
-  "b": 1,
+  "d_or_b": {
+    "qname": "{a}b",
+    "value": 1,
+    "type": null
+  },
   "any_element": [
     {
       "qname": "{a}x",

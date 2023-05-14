@@ -39,11 +39,10 @@ class Appinfo:
 
 
 class ExpectedOutcome(Enum):
-    """<div>
+    """<div> <p> Enumerates the possible values for the prescribed outcome of a
+    test.
 
-    <p>
-    Enumerates the possible values for the prescribed outcome
-    of a test.  Values include both (a) the possible values of
+    Values include both (a) the possible values of
     type <a href="#type_test-outcome">ts:test-outcome</a> and
     the following additional values:
     </p>
@@ -149,16 +148,15 @@ class ExpectedOutcome(Enum):
 
 
 class KnownToken(Enum):
-    """<div>
+    """<div> <p>Tokens to denote well-known (i.e. documented) versions, features,
+    or implementation-defined behaviors, of XSD.</p> <p>The <tt>known-token</tt>
+    type is a union of several other types, each with an enumeration of values.
 
-    <p>Tokens to denote well-known (i.e. documented) versions, features,
-    or implementation-defined behaviors, of XSD.</p> <p>The <tt>known-
-    token</tt> type is a union of several other types, each with an
-    enumeration of values.  Each sub-type defines keywords for a set of
-    mutually exclusive versions, features, or behaviors, such that in
-    any given schema validation episode, at most one keyword in any
-    subtype will apply.  For examples, see the various subtypes defined
-    immediately below. </p> </div>
+    Each sub-type defines keywords for a set of mutually exclusive
+    versions, features, or behaviors, such that in any given schema
+    validation episode, at most one keyword in any subtype will apply.
+    For examples, see the various subtypes defined immediately below.
+    </p> </div>
     """
     VALUE_1_0 = "1.0"
     VALUE_1_1 = "1.1"
@@ -188,10 +186,8 @@ class Status(Enum):
 
 
 class TestOutcome(Enum):
-    """<div>
+    """<div> <p> Enumerates the possible outcomes of running a test.
 
-    <p>
-    Enumerates the possible outcomes of running a test.
     Usually, these are values of the <tt>[validity]</tt>
     property on the validation root.
     </p>
@@ -306,12 +302,9 @@ class Documentation:
 
 @dataclass
 class Expected:
-    """<div>
+    """<div> <p>The validation outcome prescribed by the spec for a test in the
+    XSTS.</p> <p>This element has one optional attribute:</p> <ul>
 
-    <p>The validation outcome prescribed by the spec
-    for a test in the XSTS.</p>
-    <p>This element has one optional attribute:</p>
-    <ul>
     <li>
     <p><tt>version</tt> - a list of version tokens.
     The result specified is applicable to processor
@@ -411,12 +404,12 @@ class Expected:
 
 @dataclass
 class Annotation:
-    """<div>
+    """<div> <p> This is an exact copy of the <tt>annotation</tt> element defined
+    in the Schema Recommendation.
 
-    <p> This is an exact copy of the <tt>annotation</tt> element defined
-    in the Schema Recommendation. It is duplicated here in order to
-    replicate the functionality of the <tt>xsd:annotation</tt> element
-    and because the Schema for Schemas cannot be imported. </p> </div>
+    It is duplicated here in order to replicate the functionality of the
+    <tt>xsd:annotation</tt> element and because the Schema for Schemas
+    cannot be imported. </p> </div>
     """
     class Meta:
         name = "annotation"
@@ -526,14 +519,9 @@ class StatusEntry:
 
 @dataclass
 class TestResult:
-    """<div>
+    """<div> <p> The result of an individual instance test or a schema test. </p>
+    <p> This element has four required attributes: </p>
 
-    <p>
-    The result of an individual instance test or a schema test.
-    </p>
-    <p>
-    This element has four required attributes:
-    </p>
     <ul>
     <li><tt>validity</tt> - the validition outcome of the test.
     A value of type <a href="#type_expected-outcome">ts:expected-outcome</a>,
@@ -638,11 +626,9 @@ class TestResult:
 
 @dataclass
 class Current(StatusEntry):
-    """<div>
+    """<div> <p>The current status of a test in the XSTS.</p> <p>This element has
+    two attributes, both of which are required:</p>
 
-    <p>The current status of a test in the XSTS.</p>
-    <p>This element has two attributes, both of which are
-    required:</p>
     <ul>
     <li><tt>status</tt> - the status of the test. One of
     "<tt>accepted</tt>", "<tt>stable</tt>",
@@ -664,10 +650,9 @@ class Current(StatusEntry):
 
 @dataclass
 class DocumentationReference(Ref):
-    """<div>
+    """<div> <p> A link to documentation relevant to a test, such as a link to the
+    Recommendation, an erratum, an archived email discussion, etc.
 
-    <p> A link to documentation relevant to a test, such as a link to
-    the Recommendation, an erratum, an archived email discussion, etc.
     </p> </div>
     """
     class Meta:
@@ -684,11 +669,9 @@ class InstanceDocument(Ref):
 
 @dataclass
 class Prior(StatusEntry):
-    """<div>
+    """<div> <p>A former status of a test in the XSTS.</p> <p>This element has two
+    attributes, both of which are required:</p>
 
-    <p>A former status of a test in the XSTS.</p>
-    <p>This element has two attributes, both of which are
-    required:</p>
     <ul>
     <li><tt>status</tt> - the former status of the test. One of
     "<tt>accepted</tt>", "<tt>stable</tt>",
@@ -724,17 +707,11 @@ class TestSetRef(Ref):
 
 @dataclass
 class TestSuiteResults:
-    """<div>
+    """<div> <p> This is the root element of a document containing a test result
+    report. The report takes the form of a set of test results returned by a
+    processor/validator when run against the XSTS. </p> <p> It has three required
+    attributes: </p>
 
-    <p>
-    This is the root element of a document containing a test
-    result report. The report takes the form of a set of test
-    results returned by a processor/validator when run against
-    the XSTS.
-    </p>
-    <p>
-    It has three required attributes:
-    </p>
     <ul>
     <li><tt>suite</tt> - the name of the test suite to which
     these results correspond.  This should be the value of
@@ -834,7 +811,6 @@ class TestSuiteResults:
 @dataclass
 class InstanceTest:
     """<div>
-
     <p>
     This element groups together information about an instance
     document which should be validated against the schema
@@ -935,8 +911,7 @@ class InstanceTest:
     be used to keep a change history of the test; see
     discussion under the <a href="#elem_schemaTest"><tt>schemaTest</tt></a> element.
     </p>
-    </div>
-    """
+    </div>"""
     class Meta:
         name = "instanceTest"
         namespace = "http://www.w3.org/XML/2004/xml-schema-test-suite/"
@@ -998,15 +973,9 @@ class InstanceTest:
 
 @dataclass
 class SchemaTest:
-    """<div>
+    """<div> <p> This element groups together information about the schema for a
+    particular test group. </p> <p> It has one attribute which is required: </p>
 
-    <p>
-    This element groups together information about the schema
-    for a particular test group.
-    </p>
-    <p>
-    It has one attribute which is required:
-    </p>
     <ul>
     <li><tt>name</tt> - the name of the schema test, which must be
     unique within the enclosing <tt>testGroup</tt> (i.e. it must
@@ -1166,16 +1135,10 @@ class SchemaTest:
 
 @dataclass
 class TestSuite:
-    """<div>
+    """<div> <p> The root element of a document describing a set of tests for one
+    or more versions of W3C XML Schema. </p> <p> The element has three attributes,
+    each of which is required: </p> <ul>
 
-    <p>
-    The root element of a document describing a set of tests for one
-    or more versions of W3C XML Schema.
-    </p>
-    <p>
-    The element has three attributes, each of which is required:
-    </p>
-    <ul>
     <li>
     <p><tt>name</tt> - the name of this test suite.
     </p>
@@ -1294,7 +1257,6 @@ class TestSuite:
 @dataclass
 class TestGroup:
     """<div>
-
     <p>
     This element groups a collection of closely related
     tests. All instance tests in the group are to be
@@ -1408,8 +1370,7 @@ class TestGroup:
     schema.</p>
     </li>
     </ul>
-    </div>
-    """
+    </div>"""
     class Meta:
         name = "testGroup"
         namespace = "http://www.w3.org/XML/2004/xml-schema-test-suite/"
@@ -1467,7 +1428,6 @@ class TestGroup:
 @dataclass
 class TestSet:
     """<div>
-
     <p>
     The root element of a document describing a set of tests,
     normally from a single contributor.  A contributor may
@@ -1535,8 +1495,7 @@ class TestSet:
     <tt>testSet</tt> may have the same name.
     </li>
     </ul>
-    </div>
-    """
+    </div>"""
     class Meta:
         name = "testSet"
         namespace = "http://www.w3.org/XML/2004/xml-schema-test-suite/"

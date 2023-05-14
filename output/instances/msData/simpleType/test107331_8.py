@@ -2,20 +2,18 @@ from output.models.ms_data.simple_type.test107331_c_xsd.test107331_c import A2
 from output.models.ms_data.simple_type.test107331_c_xsd.test107331_c import B2
 from output.models.ms_data.simple_type.test107331_c_xsd.test107331_c import Root
 from xsdata.formats.dataclass.models.generics import AnyElement
+from xsdata.formats.dataclass.models.generics import DerivedElement
 
 
 obj = Root(
-    ra=[],
-    lab=[],
-    la=[],
-    uab=[],
-    ua=[],
-    b_element=[],
-    a_element=[],
-    b=[],
-    a=[],
-    item=[
-        "abc",
+    choice=[
+        AnyElement(
+            qname="item",
+            text="abc",
+            tail=None,
+            children=[],
+            attributes={}
+        ),
         AnyElement(
             qname="item",
             text="5",
@@ -43,26 +41,54 @@ obj = Root(
                 "{http://www.w3.org/2001/XMLSchema-instance}type": "base-B",
             }
         ),
-        A2(
-            value=1
+        DerivedElement(
+            qname="item",
+            value=A2(
+                value=1
+            ),
+            type="A"
         ),
-        A2(
-            value=2
+        DerivedElement(
+            qname="item",
+            value=A2(
+                value=2
+            ),
+            type="A"
         ),
-        A2(
-            value=3
+        DerivedElement(
+            qname="item",
+            value=A2(
+                value=3
+            ),
+            type="A"
         ),
-        A2(
-            value=4
+        DerivedElement(
+            qname="item",
+            value=A2(
+                value=4
+            ),
+            type="A"
         ),
-        B2(
-            value="a"
+        DerivedElement(
+            qname="item",
+            value=B2(
+                value="a"
+            ),
+            type="B"
         ),
-        B2(
-            value="c123456789"
+        DerivedElement(
+            qname="item",
+            value=B2(
+                value="c123456789"
+            ),
+            type="B"
         ),
-        B2(
-            value="b"
+        DerivedElement(
+            qname="item",
+            value=B2(
+                value="b"
+            ),
+            type="B"
         ),
         AnyElement(
             qname="item",

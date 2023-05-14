@@ -10,50 +10,38 @@ from output.models.sun_data.combined.pkg_006.test_xsd.test import Root
 
 
 obj = Root(
-    e_dee=[
-        EDee(
+    choice=[
+        EB(
             foo=Empty(
 
             )
         ),
-    ],
-    e_der=[
-        EDer(
-            foo=Empty(
-
-            )
-        ),
-    ],
-    e_de=[
-        EDe(
-            foo=Empty(
-
-            )
-        ),
-    ],
-    e_dre=[
-        EDre(
-            foo=Empty(
-
-            )
-        ),
-    ],
-    e_drr=[
-        EDrr(
-            foo=Empty(
-
-            )
-        ),
-    ],
-    e_dr=[
         EDr(
             foo=Empty(
 
             )
         ),
-    ],
-    e_b=[
-        EB(
+        EDe(
+            foo=Empty(
+
+            )
+        ),
+        EDrr(
+            foo=Empty(
+
+            )
+        ),
+        EDre(
+            foo=Empty(
+
+            )
+        ),
+        EDer(
+            foo=Empty(
+
+            )
+        ),
+        EDee(
             foo=Empty(
 
             )

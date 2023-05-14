@@ -71,17 +71,20 @@ class Root:
     class Meta:
         name = "root"
 
-    s_a: Optional[SA] = field(
+    s_a_or_test: Optional[object] = field(
         default=None,
         metadata={
-            "name": "s-a",
-            "type": "Element",
-        }
-    )
-    test: Optional[A] = field(
-        default=None,
-        metadata={
-            "type": "Element",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "s-a",
+                    "type": SA,
+                },
+                {
+                    "name": "test",
+                    "type": A,
+                },
+            ),
         }
     )
 

@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <book xmlns="http://simple013.ly/">
-  <subdoc>
-    <chap>2010-10-12</chap>
-  </subdoc>
   <doc>
     <chap>2010-10-12</chap>
   </doc>
@@ -12,4 +9,7 @@
   <doc>
     <chap>18:18:18</chap>
   </doc>
+  <subdoc>
+    <chap>2010-10-12</chap>
+  </subdoc>
 </book>

@@ -7,21 +7,7 @@ from xsdata.models.datatype import XmlTime
 
 
 obj = Doc(
-    appendix=[
-        Appendix(
-            value=XmlDate(2010, 12, 12),
-            type="date"
-        ),
-        Appendix(
-            value=XmlDateTime(2010, 10, 10, 12, 30, 0, 0, -300),
-            type="dateTime"
-        ),
-        Appendix(
-            value=XmlTime(12, 30, 15, 0, 0),
-            type="time"
-        ),
-    ],
-    chap=[
+    appendix_or_chap=[
         Chap(
             value=XmlDate(2010, 12, 12),
             type="date"
@@ -31,6 +17,18 @@ obj = Doc(
             type="dateTime"
         ),
         Chap(
+            value=XmlTime(12, 30, 15, 0, 0),
+            type="time"
+        ),
+        Appendix(
+            value=XmlDate(2010, 12, 12),
+            type="date"
+        ),
+        Appendix(
+            value=XmlDateTime(2010, 10, 10, 12, 30, 0, 0, -300),
+            type="dateTime"
+        ),
+        Appendix(
             value=XmlTime(12, 30, 15, 0, 0),
             type="time"
         ),

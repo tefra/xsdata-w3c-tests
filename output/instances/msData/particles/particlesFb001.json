@@ -6,13 +6,11 @@
     "children": [],
     "attributes": {}
   },
-  "g1_or_g2": [
-    {
-      "qname": "{http://xsdtesting}g2",
-      "text": "",
-      "tail": null,
-      "children": [],
-      "attributes": {}
-    }
-  ]
+  "g1_or_g2": {
+    "qname": "{http://xsdtesting}g2",
+    "text": "",
+    "tail": null,
+    "children": [],
+    "attributes": {}
+  }
 }

@@ -11,6 +11,5 @@ obj = Doc(
             children=[],
             attributes={}
         ),
-    ],
-    c=None
+    ]
 )

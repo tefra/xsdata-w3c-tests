@@ -3,8 +3,7 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 
 
 obj = Root(
-    a_element=None,
-    a="",
+    a_or_a="",
     b=None,
     c=None,
     any_element=[

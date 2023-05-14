@@ -5,11 +5,11 @@ from output.models.boeing_data.ipo2.ipo_xsd.address import (
     Usstate,
 )
 from output.models.boeing_data.ipo2.ipo_xsd.ipo import (
-    ItemDeliveryShipBy,
     ItemsType,
     PurchaseOrderType,
     Comment,
     CustomerComment,
+    ItemShipBy,
     PurchaseOrder,
     ShipComment,
 )
@@ -19,11 +19,11 @@ __all__ = [
     "Ukaddress",
     "Usaddress",
     "Usstate",
-    "ItemDeliveryShipBy",
     "ItemsType",
     "PurchaseOrderType",
     "Comment",
     "CustomerComment",
+    "ItemShipBy",
     "PurchaseOrder",
     "ShipComment",
 ]

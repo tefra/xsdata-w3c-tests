@@ -34,17 +34,20 @@ class Zing:
     class Meta:
         name = "zing"
 
-    a_element: Optional[A1] = field(
+    a_or_a: Optional[object] = field(
         default=None,
         metadata={
-            "name": "A",
-            "type": "Element",
-        }
-    )
-    a: Optional[str] = field(
-        default=None,
-        metadata={
-            "type": "Element",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "A",
+                    "type": A1,
+                },
+                {
+                    "name": "a",
+                    "type": str,
+                },
+            ),
         }
     )
     b: Optional[str] = field(

@@ -2,6 +2,5 @@ from output.models.ms_data.particles.particles_z008_xsd.particles_z008 import Ro
 
 
 obj = Root(
-    member2="string",
-    head2=None
+    member2_or_head2="string"
 )

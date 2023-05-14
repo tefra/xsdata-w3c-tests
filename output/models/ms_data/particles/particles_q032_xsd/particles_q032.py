@@ -72,13 +72,16 @@ class R:
                     "type": E2,
                     "namespace": "http://xsdtesting",
                 },
-                {
-                    "name": "e2",
-                    "type": Imp2E2,
-                    "namespace": "bar",
-                },
             ),
-            "max_occurs": 4,
+            "max_occurs": 3,
+        }
+    )
+    e2_2: Optional[Imp2E2] = field(
+        default=None,
+        metadata={
+            "name": "e2",
+            "type": "Element",
+            "namespace": "bar",
         }
     )
 

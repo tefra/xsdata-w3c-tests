@@ -40,15 +40,19 @@ class Doc:
         name = "doc"
         namespace = "http://xsdtesting"
 
-    elem3: Optional[Elem3] = field(
+    elem3_or_elem2: Optional[object] = field(
         default=None,
         metadata={
-            "type": "Element",
-        }
-    )
-    elem2: Optional[Elem2] = field(
-        default=None,
-        metadata={
-            "type": "Element",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "elem3",
+                    "type": Elem3,
+                },
+                {
+                    "name": "elem2",
+                    "type": Elem2,
+                },
+            ),
         }
     )

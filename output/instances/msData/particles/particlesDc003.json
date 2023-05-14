@@ -1,6 +1,5 @@
 {
-  "elem3": {
+  "elem3_or_elem2": {
     "any_element": null
-  },
-  "elem2": null
+  }
 }

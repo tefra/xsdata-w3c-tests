@@ -43,7 +43,7 @@ class Zing:
         metadata={
             "type": "Element",
             "namespace": "",
-            "min_occurs": 1,
+            "min_occurs": 2,
             "max_occurs": 2,
         }
     )

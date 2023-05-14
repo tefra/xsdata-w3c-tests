@@ -5,18 +5,16 @@ from xsdata.models.datatype import XmlPeriod
 
 
 obj = BookStore(
-    magazine=[
-        Magazine(
-            title="Men's Health",
-            date=XmlPeriod("2002")
-        ),
-    ],
-    book=[
+    magazine_or_book=[
         Book(
             title="The Old Man and the Sea",
             author=[
                 "Ernest Hemingway",
             ]
+        ),
+        Magazine(
+            title="Men's Health",
+            date=XmlPeriod("2002")
         ),
     ]
 )

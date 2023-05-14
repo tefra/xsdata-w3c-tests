@@ -165,31 +165,28 @@ class Root:
     class Meta:
         name = "root"
 
-    sa3: List[Sa3] = field(
+    choice: List[object] = field(
         default_factory=list,
         metadata={
-            "type": "Element",
-            "max_occurs": 5,
-        }
-    )
-    sa2: List[Sa2] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "max_occurs": 5,
-        }
-    )
-    sa1: List[RA] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "max_occurs": 5,
-        }
-    )
-    test1: List[A] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "sa3",
+                    "type": Sa3,
+                },
+                {
+                    "name": "sa2",
+                    "type": Sa2,
+                },
+                {
+                    "name": "sa1",
+                    "type": RA,
+                },
+                {
+                    "name": "test1",
+                    "type": A,
+                },
+            ),
             "max_occurs": 5,
         }
     )

@@ -76,19 +76,23 @@ class Root:
         name = "root"
         namespace = "http://xsdtesting"
 
-    fe1_valid: Optional[str] = field(
+    fe1_valid_or_fe_valid: Optional[object] = field(
         default=None,
         metadata={
-            "type": "Element",
-            "min_length": 1,
-            "max_length": 2,
-        }
-    )
-    fe_valid: Optional[str] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "max_length": 4,
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "fe1_valid",
+                    "type": str,
+                    "min_length": 1,
+                    "max_length": 2,
+                },
+                {
+                    "name": "fe_valid",
+                    "type": str,
+                    "max_length": 4,
+                },
+            ),
         }
     )
 

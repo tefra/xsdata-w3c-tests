@@ -5,9 +5,9 @@ from output.models.ms_data.particles.particles_q017_xsd.particles_q017_imp impor
 
 obj = Doc(
     elem=R(
-        xsdtesting_foo="",
+        foo="",
         any_element=[],
-        foo=[
+        foo_foo=[
             Foo(
                 any_element=None
             ),

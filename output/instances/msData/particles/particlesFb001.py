@@ -10,13 +10,11 @@ obj = Doc(
         children=[],
         attributes={}
     ),
-    g1_or_g2=[
-        AnyElement(
-            qname="{http://xsdtesting}g2",
-            text="",
-            tail=None,
-            children=[],
-            attributes={}
-        ),
-    ]
+    g1_or_g2=AnyElement(
+        qname="{http://xsdtesting}g2",
+        text="",
+        tail=None,
+        children=[],
+        attributes={}
+    )
 )

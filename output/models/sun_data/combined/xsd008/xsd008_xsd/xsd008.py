@@ -82,30 +82,28 @@ class Generic:
         name = "generic"
         namespace = "foo"
 
-    int_value: List[Int] = field(
+    choice: List[object] = field(
         default_factory=list,
         metadata={
-            "name": "int",
-            "type": "Element",
-        }
-    )
-    long: List[Long] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-        }
-    )
-    yes_no: List[YesNo] = field(
-        default_factory=list,
-        metadata={
-            "name": "yesNo",
-            "type": "Element",
-        }
-    )
-    facet: List[Facet] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "int",
+                    "type": Int,
+                },
+                {
+                    "name": "long",
+                    "type": Long,
+                },
+                {
+                    "name": "yesNo",
+                    "type": YesNo,
+                },
+                {
+                    "name": "facet",
+                    "type": Facet,
+                },
+            ),
         }
     )
 
@@ -131,16 +129,19 @@ class Root:
 
     @dataclass
     class Restricted:
-        int_value: List[Int] = field(
+        int_or_long: List[object] = field(
             default_factory=list,
             metadata={
-                "name": "int",
-                "type": "Element",
-            }
-        )
-        long: List[Long] = field(
-            default_factory=list,
-            metadata={
-                "type": "Element",
+                "type": "Elements",
+                "choices": (
+                    {
+                        "name": "int",
+                        "type": Int,
+                    },
+                    {
+                        "name": "long",
+                        "type": Long,
+                    },
+                ),
             }
         )

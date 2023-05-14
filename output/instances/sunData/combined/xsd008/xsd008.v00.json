@@ -1,26 +1,6 @@
 {
   "generic": {
-    "int": [
-      {
-        "annotation": null,
-        "value": 52
-      },
-      {
-        "annotation": null,
-        "value": -55555
-      }
-    ],
-    "long": [
-      {
-        "annotation": null,
-        "value": 52
-      },
-      {
-        "annotation": null,
-        "value": -55555
-      }
-    ],
-    "yesNo": [
+    "choice": [
       {
         "annotation": null,
         "value": true
@@ -28,12 +8,15 @@
       {
         "annotation": null,
         "value": false
-      }
-    ],
-    "facet": []
-  },
-  "restricted": {
-    "int": [
+      },
+      {
+        "annotation": null,
+        "value": 52
+      },
+      {
+        "annotation": null,
+        "value": -55555
+      },
       {
         "annotation": null,
         "value": 52
@@ -42,8 +25,18 @@
         "annotation": null,
         "value": -55555
       }
-    ],
-    "long": [
+    ]
+  },
+  "restricted": {
+    "int_or_long": [
+      {
+        "annotation": null,
+        "value": 52
+      },
+      {
+        "annotation": null,
+        "value": -55555
+      },
       {
         "annotation": null,
         "value": 52

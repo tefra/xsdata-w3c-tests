@@ -3,8 +3,7 @@ from output.models.sun_data.elem_decl.disallowed_subst.disallowed_subst00105m.di
 
 
 obj = Root(
-    member3=[],
-    head=[
+    member3_or_head=[
         Head(
             ear="",
             eye=""

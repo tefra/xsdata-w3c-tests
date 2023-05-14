@@ -202,116 +202,85 @@ class Root:
     class Meta:
         name = "root"
 
-    entity: List[str] = field(
+    choice: List[object] = field(
         default_factory=list,
         metadata={
-            "type": "Element",
-        }
-    )
-    anyuri: List[str] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-        }
-    )
-    hexbinary: List[bytes] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "format": "base16",
-        }
-    )
-    month: List[XmlPeriod] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-        }
-    )
-    day: List[XmlPeriod] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-        }
-    )
-    monthday: List[XmlPeriod] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-        }
-    )
-    year: List[XmlPeriod] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-        }
-    )
-    date: List[XmlDate] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-        }
-    )
-    time: List[XmlTime] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-        }
-    )
-    datetime: List[XmlDateTime] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-        }
-    )
-    duration: List[XmlDuration] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-        }
-    )
-    decimal: List[Decimal] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-        }
-    )
-    double: List[float] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-        }
-    )
-    float_value: List[float] = field(
-        default_factory=list,
-        metadata={
-            "name": "float",
-            "type": "Element",
-        }
-    )
-    bool_value: List[bool] = field(
-        default_factory=list,
-        metadata={
-            "name": "bool",
-            "type": "Element",
-        }
-    )
-    int_value: List[int] = field(
-        default_factory=list,
-        metadata={
-            "name": "int",
-            "type": "Element",
-        }
-    )
-    string: List[str] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-        }
-    )
-    item: List[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "entity",
+                    "type": str,
+                },
+                {
+                    "name": "anyuri",
+                    "type": str,
+                },
+                {
+                    "name": "hexbinary",
+                    "type": bytes,
+                    "format": "base16",
+                },
+                {
+                    "name": "month",
+                    "type": XmlPeriod,
+                },
+                {
+                    "name": "day",
+                    "type": XmlPeriod,
+                },
+                {
+                    "name": "monthday",
+                    "type": XmlPeriod,
+                },
+                {
+                    "name": "year",
+                    "type": XmlPeriod,
+                },
+                {
+                    "name": "date",
+                    "type": XmlDate,
+                },
+                {
+                    "name": "time",
+                    "type": XmlTime,
+                },
+                {
+                    "name": "datetime",
+                    "type": XmlDateTime,
+                },
+                {
+                    "name": "duration",
+                    "type": XmlDuration,
+                },
+                {
+                    "name": "decimal",
+                    "type": Decimal,
+                },
+                {
+                    "name": "double",
+                    "type": float,
+                },
+                {
+                    "name": "float",
+                    "type": float,
+                },
+                {
+                    "name": "bool",
+                    "type": bool,
+                },
+                {
+                    "name": "int",
+                    "type": int,
+                },
+                {
+                    "name": "string",
+                    "type": str,
+                },
+                {
+                    "name": "item",
+                    "type": object,
+                },
+            ),
         }
     )
 

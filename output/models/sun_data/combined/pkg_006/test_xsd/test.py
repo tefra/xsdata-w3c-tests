@@ -107,52 +107,39 @@ class Root:
         name = "root"
         namespace = "foo"
 
-    e_dee: List[EDee] = field(
+    choice: List[object] = field(
         default_factory=list,
         metadata={
-            "name": "eDee",
-            "type": "Element",
-        }
-    )
-    e_der: List[EDer] = field(
-        default_factory=list,
-        metadata={
-            "name": "eDer",
-            "type": "Element",
-        }
-    )
-    e_de: List[EDe] = field(
-        default_factory=list,
-        metadata={
-            "name": "eDe",
-            "type": "Element",
-        }
-    )
-    e_dre: List[EDre] = field(
-        default_factory=list,
-        metadata={
-            "name": "eDre",
-            "type": "Element",
-        }
-    )
-    e_drr: List[EDrr] = field(
-        default_factory=list,
-        metadata={
-            "name": "eDrr",
-            "type": "Element",
-        }
-    )
-    e_dr: List[EDr] = field(
-        default_factory=list,
-        metadata={
-            "name": "eDr",
-            "type": "Element",
-        }
-    )
-    e_b: List[EB] = field(
-        default_factory=list,
-        metadata={
-            "name": "eB",
-            "type": "Element",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "eDee",
+                    "type": EDee,
+                },
+                {
+                    "name": "eDer",
+                    "type": EDer,
+                },
+                {
+                    "name": "eDe",
+                    "type": EDe,
+                },
+                {
+                    "name": "eDre",
+                    "type": EDre,
+                },
+                {
+                    "name": "eDrr",
+                    "type": EDrr,
+                },
+                {
+                    "name": "eDr",
+                    "type": EDr,
+                },
+                {
+                    "name": "eB",
+                    "type": EB,
+                },
+            ),
         }
     )

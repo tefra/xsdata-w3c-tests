@@ -4,11 +4,7 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 
 
 obj = Root(
-    a=[
-        "123456",
-        "abcdefgh",
-    ],
-    item=[
+    a_or_item=[
         Item(
             any_element=AnyElement(
                 qname=None,
@@ -17,6 +13,20 @@ obj = Root(
                 children=[],
                 attributes={}
             )
+        ),
+        AnyElement(
+            qname="a",
+            text="123456",
+            tail=None,
+            children=[],
+            attributes={}
+        ),
+        AnyElement(
+            qname="a",
+            text="abcdefgh",
+            tail=None,
+            children=[],
+            attributes={}
         ),
     ]
 )

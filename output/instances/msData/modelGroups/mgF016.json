@@ -1,40 +1,32 @@
 {
-  "g1_or_g12": [
-    {
-      "qname": "g1",
-      "text": "",
-      "tail": null,
-      "children": [],
-      "attributes": {}
-    }
-  ],
-  "g2_or_g22": [
-    {
-      "qname": "g2",
-      "text": "",
-      "tail": null,
-      "children": [],
-      "attributes": {}
-    }
-  ],
-  "g3_or_g32": [
-    {
-      "qname": "g3",
-      "text": "",
-      "tail": null,
-      "children": [],
-      "attributes": {}
-    }
-  ],
-  "g4_or_g42": [
-    {
-      "qname": "g4",
-      "text": "",
-      "tail": null,
-      "children": [],
-      "attributes": {}
-    }
-  ],
+  "g1_or_g12": {
+    "qname": "g1",
+    "text": "",
+    "tail": null,
+    "children": [],
+    "attributes": {}
+  },
+  "g2_or_g22": {
+    "qname": "g2",
+    "text": "",
+    "tail": null,
+    "children": [],
+    "attributes": {}
+  },
+  "g3_or_g32": {
+    "qname": "g3",
+    "text": "",
+    "tail": null,
+    "children": [],
+    "attributes": {}
+  },
+  "g4_or_g42": {
+    "qname": "g4",
+    "text": "",
+    "tail": null,
+    "children": [],
+    "attributes": {}
+  },
   "c1": "",
   "c2": "",
   "c3": "",

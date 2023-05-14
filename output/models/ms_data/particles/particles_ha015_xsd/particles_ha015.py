@@ -10,15 +10,19 @@ class Doc:
         name = "doc"
         namespace = "http://xsdtesting"
 
-    foo: Optional[object] = field(
+    foo_or_bar: Optional[object] = field(
         default=None,
         metadata={
-            "type": "Element",
-        }
-    )
-    bar: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "foo",
+                    "type": object,
+                },
+                {
+                    "name": "bar",
+                    "type": object,
+                },
+            ),
         }
     )

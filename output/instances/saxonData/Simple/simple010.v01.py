@@ -7,19 +7,7 @@ from xsdata.models.datatype import XmlTime
 
 
 obj = Book(
-    subdoc=[
-        Subdoc(
-            chap=[
-                XmlDate(2010, 10, 12),
-            ]
-        ),
-        Subdoc(
-            chap=[
-                XmlDate(2010, 11, 5),
-            ]
-        ),
-    ],
-    doc=[
+    subdoc_or_doc=[
         Doc(
             chap=[
                 XmlDate(2010, 10, 12),
@@ -33,6 +21,16 @@ obj = Book(
         Doc(
             chap=[
                 XmlTime(18, 18, 18, 0),
+            ]
+        ),
+        Subdoc(
+            chap=[
+                XmlDate(2010, 10, 12),
+            ]
+        ),
+        Subdoc(
+            chap=[
+                XmlDate(2010, 11, 5),
             ]
         ),
     ]

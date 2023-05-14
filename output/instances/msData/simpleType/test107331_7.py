@@ -4,8 +4,7 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 
 
 obj = Root(
-    a=[],
-    item=[
+    a_or_item=[
         Item(
             any_element=AnyElement(
                 qname=None,

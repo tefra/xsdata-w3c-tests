@@ -1,7 +1,9 @@
 {
-  "choice": [],
-  "c1": null,
-  "c2": null,
-  "c3": "",
-  "c4": null
+  "choice": {
+    "qname": "c3",
+    "text": "",
+    "tail": null,
+    "children": [],
+    "attributes": {}
+  }
 }

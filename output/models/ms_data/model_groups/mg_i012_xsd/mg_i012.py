@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import List
 
 
 @dataclass
@@ -7,18 +7,16 @@ class Foo:
     class Meta:
         name = "foo"
 
-    c: Optional[bool] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
     choice: List[object] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
             "choices": (
+                {
+                    "name": "c",
+                    "type": bool,
+                    "namespace": "",
+                },
                 {
                     "wildcard": True,
                     "type": object,

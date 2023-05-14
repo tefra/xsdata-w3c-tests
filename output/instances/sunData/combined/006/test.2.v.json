@@ -1,21 +1,5 @@
 {
-  "eDee": [
-    {
-      "foo": {}
-    },
-    {
-      "foo": {}
-    }
-  ],
-  "eDer": [
-    {
-      "foo": {}
-    },
-    {
-      "foo": {}
-    }
-  ],
-  "eDe": [
+  "choice": [
     {
       "foo": {}
     },
@@ -23,31 +7,66 @@
       "foo": {}
     },
     {
+      "qname": "{foo}eB",
+      "value": {
+        "foo": {}
+      },
+      "type": "{foo}Dr"
+    },
+    {
+      "qname": "{foo}eB",
+      "value": {
+        "foo": {}
+      },
+      "type": "{foo}De"
+    },
+    {
+      "qname": "{foo}eB",
+      "value": {
+        "foo": {}
+      },
+      "type": "{foo}Drr"
+    },
+    {
+      "qname": "{foo}eB",
+      "value": {
+        "foo": {}
+      },
+      "type": "{foo}Dre"
+    },
+    {
+      "qname": "{foo}eB",
+      "value": {
+        "foo": {}
+      },
+      "type": "{foo}Der"
+    },
+    {
+      "qname": "{foo}eB",
+      "value": {
+        "foo": {}
+      },
+      "type": "{foo}Dee"
+    },
+    {
       "foo": {}
     },
     {
       "foo": {}
-    }
-  ],
-  "eDre": [
-    {
-      "foo": {}
     },
     {
-      "foo": {}
-    }
-  ],
-  "eDrr": [
-    {
-      "foo": {}
+      "qname": "{foo}eDr",
+      "value": {
+        "foo": {}
+      },
+      "type": "{foo}Drr"
     },
     {
-      "foo": {}
-    }
-  ],
-  "eDr": [
-    {
-      "foo": {}
+      "qname": "{foo}eDr",
+      "value": {
+        "foo": {}
+      },
+      "type": "{foo}Dre"
     },
     {
       "foo": {}
@@ -56,10 +75,19 @@
       "foo": {}
     },
     {
-      "foo": {}
-    }
-  ],
-  "eB": [
+      "qname": "{foo}eDe",
+      "value": {
+        "foo": {}
+      },
+      "type": "{foo}Der"
+    },
+    {
+      "qname": "{foo}eDe",
+      "value": {
+        "foo": {}
+      },
+      "type": "{foo}Dee"
+    },
     {
       "foo": {}
     },

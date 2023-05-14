@@ -4,9 +4,7 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 
 obj = Doc(
     a=1,
-    b_or_b2=[
-        "I am a stringy string",
-    ],
+    b_or_b2="I am a stringy string",
     c=True,
     d="",
     w3_org_1999_xhtml_element=[

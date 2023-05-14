@@ -4,24 +4,7 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 
 
 obj = Root(
-    entity=[],
-    anyuri=[],
-    hexbinary=[],
-    month=[],
-    day=[],
-    monthday=[],
-    year=[],
-    date=[],
-    time=[],
-    datetime=[],
-    duration=[],
-    decimal=[],
-    double=[],
-    float_value=[],
-    bool_value=[],
-    int_value=[],
-    string=[],
-    item=[
+    choice=[
         Item(
             any_element=AnyElement(
                 qname=None,

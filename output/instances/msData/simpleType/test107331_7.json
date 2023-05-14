@@ -1,6 +1,5 @@
 {
-  "a": [],
-  "item": [
+  "a_or_item": [
     {
       "any_element": {
         "qname": null,

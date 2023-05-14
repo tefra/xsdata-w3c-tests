@@ -6,7 +6,7 @@ __NAMESPACE__ = "http://xsdtesting"
 
 @dataclass
 class B:
-    choice: List[object] = field(
+    c1_or_c2_or_c3: List[object] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -26,12 +26,14 @@ class B:
                     "type": object,
                     "namespace": "",
                 },
-                {
-                    "name": "foo",
-                    "type": object,
-                    "namespace": "",
-                },
             ),
+        }
+    )
+    foo: Optional[object] = field(
+        default=None,
+        metadata={
+            "type": "Element",
+            "namespace": "",
         }
     )
 

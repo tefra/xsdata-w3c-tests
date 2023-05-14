@@ -66,35 +66,35 @@ class Root:
     class Meta:
         name = "root"
 
-    d: List[List[Union[float, int, bool]]] = field(
+    choice: List[object] = field(
         default_factory=list,
         metadata={
-            "type": "Element",
-            "tokens": True,
-        }
-    )
-    c: List[List[float]] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "tokens": True,
-        }
-    )
-    b: List[float] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-        }
-    )
-    a: List[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-        }
-    )
-    item: List[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "d",
+                    "type": List[Union[float, int, bool]],
+                    "default_factory": list,
+                    "tokens": True,
+                },
+                {
+                    "name": "c",
+                    "type": List[float],
+                    "default_factory": list,
+                    "tokens": True,
+                },
+                {
+                    "name": "b",
+                    "type": float,
+                },
+                {
+                    "name": "a",
+                    "type": object,
+                },
+                {
+                    "name": "item",
+                    "type": object,
+                },
+            ),
         }
     )

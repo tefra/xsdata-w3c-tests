@@ -52,18 +52,20 @@ class Root:
         name = "root"
         namespace = "ElemDecl/substGroupAffilation"
 
-    super_element: List[SuperElement] = field(
+    super_element_or_super_super_element: List[object] = field(
         default_factory=list,
         metadata={
-            "name": "SuperElement",
-            "type": "Element",
-        }
-    )
-    super_super_element: List[SuperSuperElement] = field(
-        default_factory=list,
-        metadata={
-            "name": "SuperSuperElement",
-            "type": "Element",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "SuperElement",
+                    "type": SuperElement,
+                },
+                {
+                    "name": "SuperSuperElement",
+                    "type": SuperSuperElement,
+                },
+            ),
         }
     )
     separator: Optional[object] = field(

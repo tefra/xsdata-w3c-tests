@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root xmlns="ElemDecl/substGroupExclusions" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Member1>
-    <Ear/>
-    <Eye/>
-  </Member1>
   <Head>
     <Ear/>
     <Eye/>
   </Head>
+  <Member1>
+    <Ear/>
+    <Eye/>
+  </Member1>
 </root>

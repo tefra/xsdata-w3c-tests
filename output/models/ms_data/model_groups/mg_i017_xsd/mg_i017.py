@@ -7,39 +7,31 @@ class Foo:
     class Meta:
         name = "foo"
 
-    c1: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-    c2: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-    c3: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-    c4: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
     choice: Optional[object] = field(
         default=None,
         metadata={
             "type": "Elements",
             "choices": (
+                {
+                    "name": "c1",
+                    "type": object,
+                    "namespace": "",
+                },
+                {
+                    "name": "c2",
+                    "type": object,
+                    "namespace": "",
+                },
+                {
+                    "name": "c3",
+                    "type": object,
+                    "namespace": "",
+                },
+                {
+                    "name": "c4",
+                    "type": object,
+                    "namespace": "",
+                },
                 {
                     "name": "s1",
                     "type": object,

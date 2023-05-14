@@ -9,7 +9,10 @@
     "",
     ""
   ],
-  "C": [
+  "c_or_c": [
+    {
+      "any_element": null
+    },
     {
       "any_element": null
     },
@@ -17,13 +20,7 @@
       "any_element": null
     }
   ],
-  "c": [
-    {
-      "any_element": null
-    }
-  ],
-  "D": {
+  "d_or_d": {
     "any_element": null
-  },
-  "d": null
+  }
 }

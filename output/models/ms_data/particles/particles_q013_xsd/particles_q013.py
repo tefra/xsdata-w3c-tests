@@ -46,8 +46,7 @@ class R:
             "type": "Element",
             "namespace": "",
             "min_occurs": 2,
-            "max_occurs": 2,
-            "sequence": 11,
+            "max_occurs": 4,
         }
     )
     e2: List[object] = field(
@@ -56,8 +55,7 @@ class R:
             "type": "Element",
             "namespace": "",
             "min_occurs": 2,
-            "max_occurs": 2,
-            "sequence": 11,
+            "max_occurs": 4,
         }
     )
 

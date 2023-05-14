@@ -10,8 +10,8 @@ class Root:
             "type": "Element",
             "namespace": "",
             "min_occurs": 2,
-            "max_occurs": 2,
-            "sequence": 4,
+            "max_occurs": 4,
+            "sequence": 1,
         }
     )
     b: List[object] = field(
@@ -19,8 +19,7 @@ class Root:
         metadata={
             "type": "Element",
             "namespace": "",
-            "min_occurs": 2,
             "max_occurs": 2,
-            "sequence": 4,
+            "sequence": 1,
         }
     )

@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List
+from typing import List, Optional
 
 __NAMESPACE__ = "http://xstest-tns/ibms3_3_6_v04"
 
@@ -51,7 +51,7 @@ class RootType:
     class Meta:
         name = "rootType"
 
-    choice: List[object] = field(
+    elem3_or_elem2_or_elem0: List[object] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -71,13 +71,15 @@ class RootType:
                     "type": str,
                     "namespace": "http://xstest-tns/ibms3_3_6_v04",
                 },
-                {
-                    "name": "elem1",
-                    "type": str,
-                    "namespace": "http://xstest-tns/ibms3_3_6_v04",
-                },
             ),
-            "max_occurs": 6,
+            "max_occurs": 2,
+        }
+    )
+    elem1: Optional[str] = field(
+        default=None,
+        metadata={
+            "type": "Element",
+            "namespace": "http://xstest-tns/ibms3_3_6_v04",
         }
     )
 

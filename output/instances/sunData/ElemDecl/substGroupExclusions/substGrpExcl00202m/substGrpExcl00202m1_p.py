@@ -4,15 +4,12 @@ from output.models.sun_data.elem_decl.subst_group_exclusions.subst_grp_excl00202
 
 
 obj = Root(
-    member3=[],
-    member1=[
-        Member1(
+    member3_or_member1_or_head=[
+        Head(
             ear="",
             eye=""
         ),
-    ],
-    head=[
-        Head(
+        Member1(
             ear="",
             eye=""
         ),

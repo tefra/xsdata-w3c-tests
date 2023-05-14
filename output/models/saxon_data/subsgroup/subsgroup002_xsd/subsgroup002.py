@@ -7,24 +7,24 @@ class Back:
     class Meta:
         name = "back"
 
-    appendix_content: List[str] = field(
+    appendix_content_or_para_or_chap_content: List[object] = field(
         default_factory=list,
         metadata={
-            "name": "appendixContent",
-            "type": "Element",
-        }
-    )
-    para: List[str] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-        }
-    )
-    chap_content: List[str] = field(
-        default_factory=list,
-        metadata={
-            "name": "chapContent",
-            "type": "Element",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "appendixContent",
+                    "type": str,
+                },
+                {
+                    "name": "para",
+                    "type": str,
+                },
+                {
+                    "name": "chapContent",
+                    "type": str,
+                },
+            ),
         }
     )
 
@@ -34,24 +34,24 @@ class Body:
     class Meta:
         name = "body"
 
-    appendix_content: List[str] = field(
+    appendix_content_or_para_or_chap_content: List[object] = field(
         default_factory=list,
         metadata={
-            "name": "appendixContent",
-            "type": "Element",
-        }
-    )
-    para: List[str] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-        }
-    )
-    chap_content: List[str] = field(
-        default_factory=list,
-        metadata={
-            "name": "chapContent",
-            "type": "Element",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "appendixContent",
+                    "type": str,
+                },
+                {
+                    "name": "para",
+                    "type": str,
+                },
+                {
+                    "name": "chapContent",
+                    "type": str,
+                },
+            ),
         }
     )
 

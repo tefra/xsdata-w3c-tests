@@ -1,18 +1,12 @@
 {
   "elem": {
-    "choice": [
+    "c1_or_c2_or_c3": [
       {
         "foo": "",
         "att": null,
         "att1": "testing"
-      },
-      {
-        "qname": "foo",
-        "text": "",
-        "tail": null,
-        "children": [],
-        "attributes": {}
       }
-    ]
+    ],
+    "foo": ""
   }
 }

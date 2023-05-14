@@ -39,15 +39,19 @@ class Root:
         name = "root"
         namespace = "foo"
 
-    e1: Optional[int] = field(
+    e1_or_e: Optional[object] = field(
         default=None,
         metadata={
-            "type": "Element",
-        }
-    )
-    e: Optional[E] = field(
-        default=None,
-        metadata={
-            "type": "Element",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "e1",
+                    "type": int,
+                },
+                {
+                    "name": "e",
+                    "type": E,
+                },
+            ),
         }
     )

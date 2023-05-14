@@ -1,8 +1,7 @@
 {
-  "Member1": [
+  "member1_or_head": [
     {
       "any_element": null
     }
-  ],
-  "Head": []
+  ]
 }

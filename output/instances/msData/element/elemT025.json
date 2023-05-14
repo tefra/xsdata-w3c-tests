@@ -1,11 +1,14 @@
 {
-  "s-a": null,
-  "test": null,
+  "s_a_or_test": null,
   "test2": {
-    "x": [
-      ""
-    ],
-    "y": "",
-    "z": ""
+    "qname": "test2",
+    "value": {
+      "x": [
+        ""
+      ],
+      "y": "",
+      "z": ""
+    },
+    "type": "E-CA"
   }
 }

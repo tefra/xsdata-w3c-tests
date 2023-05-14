@@ -1,13 +1,13 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import Optional
 
 __NAMESPACE__ = "http://xsdtesting"
 
 
 @dataclass
 class B:
-    c1_or_c2_or_c3: List[object] = field(
-        default_factory=list,
+    c1_or_c2_or_c3: Optional[object] = field(
+        default=None,
         metadata={
             "type": "Elements",
             "choices": (
@@ -27,7 +27,6 @@ class B:
                     "namespace": "",
                 },
             ),
-            "max_occurs": 3,
         }
     )
     foo: Optional[object] = field(

@@ -8,7 +8,10 @@ class Chap:
         name = "chap"
 
     value: str = field(
-        default=""
+        default="",
+        metadata={
+            "required": True,
+        }
     )
     de: Optional[object] = field(
         default=None,

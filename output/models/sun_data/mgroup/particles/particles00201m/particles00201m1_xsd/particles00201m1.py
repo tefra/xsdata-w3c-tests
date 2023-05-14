@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List
+from typing import Optional
 from xsdata.models.datatype import XmlDate
 
 __NAMESPACE__ = "particles"
@@ -11,8 +11,8 @@ class A:
         name = "a"
         namespace = "particles"
 
-    date_or_marked: List[object] = field(
-        default_factory=list,
+    date_or_marked: Optional[object] = field(
+        default=None,
         metadata={
             "type": "Elements",
             "choices": (
@@ -27,6 +27,5 @@ class A:
                     "namespace": "",
                 },
             ),
-            "max_occurs": 2,
         }
     )

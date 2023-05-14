@@ -100,53 +100,47 @@ class Container1:
     class Meta:
         name = "CONTAINER"
 
-    g: List[G] = field(
+    choice: List[object] = field(
         default_factory=list,
         metadata={
-            "type": "Element",
-            "namespace": "http://www.microsoft.com/schema/1",
-        }
-    )
-    f: List[F] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "namespace": "http://www.microsoft.com/schema/1",
-        }
-    )
-    e: List[E] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "namespace": "http://www.microsoft.com/schema/1",
-        }
-    )
-    d: List[D] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "namespace": "http://www.microsoft.com/schema/1",
-        }
-    )
-    c: List[C] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "namespace": "http://www.microsoft.com/schema/1",
-        }
-    )
-    b: List[B] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "namespace": "http://www.microsoft.com/schema/1",
-        }
-    )
-    a: List[A] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "namespace": "http://www.microsoft.com/schema/1",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "g",
+                    "type": G,
+                    "namespace": "http://www.microsoft.com/schema/1",
+                },
+                {
+                    "name": "f",
+                    "type": F,
+                    "namespace": "http://www.microsoft.com/schema/1",
+                },
+                {
+                    "name": "e",
+                    "type": E,
+                    "namespace": "http://www.microsoft.com/schema/1",
+                },
+                {
+                    "name": "d",
+                    "type": D,
+                    "namespace": "http://www.microsoft.com/schema/1",
+                },
+                {
+                    "name": "c",
+                    "type": C,
+                    "namespace": "http://www.microsoft.com/schema/1",
+                },
+                {
+                    "name": "b",
+                    "type": B,
+                    "namespace": "http://www.microsoft.com/schema/1",
+                },
+                {
+                    "name": "a",
+                    "type": A,
+                    "namespace": "http://www.microsoft.com/schema/1",
+                },
+            ),
         }
     )
 

@@ -38,17 +38,19 @@ class Root:
         name = "root"
         namespace = "ElemDecl/typeDef"
 
-    any_type_element: Optional[AnyTypeElement] = field(
+    any_type_element_or_default_type_element: Optional[object] = field(
         default=None,
         metadata={
-            "name": "AnyTypeElement",
-            "type": "Element",
-        }
-    )
-    default_type_element: Optional[DefaultTypeElement] = field(
-        default=None,
-        metadata={
-            "name": "DefaultTypeElement",
-            "type": "Element",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "AnyTypeElement",
+                    "type": AnyTypeElement,
+                },
+                {
+                    "name": "DefaultTypeElement",
+                    "type": DefaultTypeElement,
+                },
+            ),
         }
     )

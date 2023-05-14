@@ -3,10 +3,9 @@ from output.models.sun_data.elem_decl.disallowed_subst.disallowed_subst00301m.di
 
 
 obj = Root(
-    member1=[
+    member1_or_head=[
         Member1(
             any_element=None
         ),
-    ],
-    head=[]
+    ]
 )

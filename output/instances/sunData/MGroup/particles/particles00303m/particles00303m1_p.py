@@ -3,14 +3,10 @@ from xsdata.formats.dataclass.models.generics import DerivedElement
 
 
 obj = A(
-    id_or_id_str=[
-        "12345678900987654321J.ABC",
-    ],
-    name_or_type=[
-        DerivedElement(
-            qname="type",
-            value="#QQQQ",
-            type=None
-        ),
-    ]
+    id_or_id_str="12345678900987654321J.ABC",
+    name_or_type=DerivedElement(
+        qname="type",
+        value="#QQQQ",
+        type=None
+    )
 )

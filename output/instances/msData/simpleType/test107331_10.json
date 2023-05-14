@@ -1,22 +1,5 @@
 {
-  "entity": [],
-  "anyuri": [],
-  "hexbinary": [],
-  "month": [],
-  "day": [],
-  "monthday": [],
-  "year": [],
-  "date": [],
-  "time": [],
-  "datetime": [],
-  "duration": [],
-  "decimal": [],
-  "double": [],
-  "float": [],
-  "bool": [],
-  "int": [],
-  "string": [],
-  "item": [
+  "choice": [
     {
       "any_element": {
         "qname": null,

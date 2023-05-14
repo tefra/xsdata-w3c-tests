@@ -45,16 +45,20 @@ class Root:
     class Meta:
         name = "root"
 
-    uid2: List[Uid2] = field(
+    uid2_or_uid: List[object] = field(
         default_factory=list,
         metadata={
-            "type": "Element",
-        }
-    )
-    uid: List[Uid] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "uid2",
+                    "type": Uid2,
+                },
+                {
+                    "name": "uid",
+                    "type": Uid,
+                },
+            ),
         }
     )
     kid: List[Kid] = field(

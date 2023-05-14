@@ -3,15 +3,13 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 
 
 obj = Doc(
-    g1_or_g2=[
-        AnyElement(
-            qname="{http://xsdtesting}g1",
-            text="",
-            tail=None,
-            children=[],
-            attributes={}
-        ),
-    ],
+    g1_or_g2=AnyElement(
+        qname="{http://xsdtesting}g1",
+        text="",
+        tail=None,
+        children=[],
+        attributes={}
+    ),
     s1="",
     s2=""
 )

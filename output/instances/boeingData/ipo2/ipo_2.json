@@ -12,18 +12,18 @@
       "type": "{http://www.example.com/add}UKAddress"
     }
   ],
-  "customerComment": null,
-  "shipComment": null,
-  "comment": "I love Boeing too!",
+  "customer_comment_or_ship_comment_or_comment": {
+    "qname": "{http://www.example.com/IPO}comment",
+    "value": "I love Boeing too!",
+    "type": null
+  },
   "items": {
     "content": [
       {
         "productName": "777 Model",
         "quantity": 1,
         "USPrice": "99.95",
-        "customerComment": [],
-        "shipComment": [],
-        "comment": [],
+        "customer_comment_or_ship_comment_or_comment": [],
         "shipDate": "1999-12-05",
         "partNum": "777-AB",
         "weightKg": "4.5",

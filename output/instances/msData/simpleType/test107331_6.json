@@ -1,36 +1,81 @@
 {
-  "entity": [],
-  "anyuri": [],
-  "hexbinary": [],
-  "month": [],
-  "day": [],
-  "monthday": [],
-  "year": [],
-  "date": [],
-  "time": [],
-  "datetime": [],
-  "duration": [],
-  "decimal": [],
-  "double": [],
-  "float": [],
-  "bool": [],
-  "int": [],
-  "string": [],
-  "item": [
-    "abc",
-    123,
-    4.56,
-    "this is a string",
-    false,
-    "45",
-    "P1347Y",
-    "1999-05-31T13:20:00-05:00",
-    "13:20:00-05:00",
-    "1999-05-31",
-    "1999",
-    "--02-13",
-    "ABCD",
-    "http://tempuri",
-    "123"
+  "choice": [
+    {
+      "qname": "item",
+      "text": "abc",
+      "tail": null,
+      "children": [],
+      "attributes": {}
+    },
+    {
+      "qname": "item",
+      "value": 123,
+      "type": null
+    },
+    {
+      "qname": "item",
+      "value": 4.56,
+      "type": null
+    },
+    {
+      "qname": "item",
+      "value": "this is a string",
+      "type": null
+    },
+    {
+      "qname": "item",
+      "value": false,
+      "type": null
+    },
+    {
+      "qname": "item",
+      "value": "45",
+      "type": null
+    },
+    {
+      "qname": "item",
+      "value": "P1347Y",
+      "type": null
+    },
+    {
+      "qname": "item",
+      "value": "1999-05-31T13:20:00-05:00",
+      "type": null
+    },
+    {
+      "qname": "item",
+      "value": "13:20:00-05:00",
+      "type": null
+    },
+    {
+      "qname": "item",
+      "value": "1999-05-31",
+      "type": null
+    },
+    {
+      "qname": "item",
+      "value": "1999",
+      "type": null
+    },
+    {
+      "qname": "item",
+      "value": "--02-13",
+      "type": null
+    },
+    {
+      "qname": "item",
+      "value": "ABCD",
+      "type": null
+    },
+    {
+      "qname": "item",
+      "value": "http://tempuri",
+      "type": null
+    },
+    {
+      "qname": "item",
+      "value": "123",
+      "type": null
+    }
   ]
 }

@@ -31,15 +31,19 @@ class Root:
     class Meta:
         name = "root"
 
-    a: List[object] = field(
+    a_or_item: List[object] = field(
         default_factory=list,
         metadata={
-            "type": "Element",
-        }
-    )
-    item: List[Item] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "a",
+                    "type": object,
+                },
+                {
+                    "name": "item",
+                    "type": Item,
+                },
+            ),
         }
     )

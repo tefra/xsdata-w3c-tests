@@ -7,23 +7,22 @@ class Foo:
     class Meta:
         name = "foo"
 
-    e1_or_e2: List[object] = field(
+    e1: List[str] = field(
         default_factory=list,
         metadata={
-            "type": "Elements",
-            "choices": (
-                {
-                    "name": "e1",
-                    "type": str,
-                    "namespace": "",
-                },
-                {
-                    "name": "e2",
-                    "type": str,
-                    "namespace": "",
-                },
-            ),
-            "max_occurs": 4,
+            "type": "Element",
+            "namespace": "",
+            "max_occurs": 2,
+            "sequence": 1,
+        }
+    )
+    e2: List[str] = field(
+        default_factory=list,
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "max_occurs": 2,
+            "sequence": 1,
         }
     )
 

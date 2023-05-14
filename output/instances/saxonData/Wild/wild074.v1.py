@@ -33,10 +33,9 @@ obj = Root(
         ],
         attributes={}
     ),
-    a_element=A1(
+    a_or_a=A1(
         any_element=None
     ),
-    a=None,
     b="",
     c=""
 )

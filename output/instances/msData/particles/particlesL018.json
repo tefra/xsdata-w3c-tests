@@ -1,20 +1,16 @@
 {
   "elem": {
-    "c1_or_c2": [
-      {
-        "qname": "c1",
-        "value": 1,
-        "type": null
-      }
-    ],
-    "d1_or_d2": [
-      {
-        "qname": "d1",
-        "text": "testing",
-        "tail": null,
-        "children": [],
-        "attributes": {}
-      }
-    ]
+    "c1_or_c2": {
+      "qname": "c1",
+      "value": 1,
+      "type": null
+    },
+    "d1_or_d2": {
+      "qname": "d1",
+      "text": "testing",
+      "tail": null,
+      "children": [],
+      "attributes": {}
+    }
   }
 }

@@ -148,74 +148,60 @@ class Root:
     class Meta:
         name = "root"
 
-    ra: List[RA1] = field(
+    choice: List[object] = field(
         default_factory=list,
         metadata={
-            "type": "Element",
-        }
-    )
-    lab: List[List[UnionAb]] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "tokens": True,
-        }
-    )
-    la: List[List[A1]] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "tokens": True,
-        }
-    )
-    uab: List[UnionAb] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-        }
-    )
-    ua: List[UnionA] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-        }
-    )
-    b_element: List[B1] = field(
-        default_factory=list,
-        metadata={
-            "name": "b",
-            "type": "Element",
-        }
-    )
-    a_element: List[A1] = field(
-        default_factory=list,
-        metadata={
-            "name": "a",
-            "type": "Element",
-        }
-    )
-    b: List[str] = field(
-        default_factory=list,
-        metadata={
-            "name": "B",
-            "type": "Element",
-            "min_length": 0,
-            "max_length": 10,
-        }
-    )
-    a: List[int] = field(
-        default_factory=list,
-        metadata={
-            "name": "A",
-            "type": "Element",
-            "min_exclusive": 0,
-            "max_inclusive": 10,
-        }
-    )
-    item: List[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "ra",
+                    "type": RA1,
+                },
+                {
+                    "name": "lab",
+                    "type": List[UnionAb],
+                    "default_factory": list,
+                    "tokens": True,
+                },
+                {
+                    "name": "la",
+                    "type": List[A1],
+                    "default_factory": list,
+                    "tokens": True,
+                },
+                {
+                    "name": "uab",
+                    "type": UnionAb,
+                },
+                {
+                    "name": "ua",
+                    "type": UnionA,
+                },
+                {
+                    "name": "b",
+                    "type": B1,
+                },
+                {
+                    "name": "a",
+                    "type": A1,
+                },
+                {
+                    "name": "B",
+                    "type": str,
+                    "min_length": 0,
+                    "max_length": 10,
+                },
+                {
+                    "name": "A",
+                    "type": int,
+                    "min_exclusive": 0,
+                    "max_inclusive": 10,
+                },
+                {
+                    "name": "item",
+                    "type": object,
+                },
+            ),
         }
     )
 

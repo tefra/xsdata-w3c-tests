@@ -1,5 +1,6 @@
 from output.models.wg_data.sg.negsn_xsd.negsn import Test
 from xsdata.formats.dataclass.models.generics import AnyElement
+from xsdata.formats.dataclass.models.generics import DerivedElement
 
 
 obj = Test(
@@ -10,7 +11,10 @@ obj = Test(
         children=[],
         attributes={}
     ),
-    s1=None,
-    s="",
+    s1_or_s=DerivedElement(
+        qname="{http://www.w3.org/XML/2008/xsdl-exx/ns1}s",
+        value="",
+        type=None
+    ),
     n=""
 )

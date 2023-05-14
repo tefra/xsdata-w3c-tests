@@ -72,15 +72,19 @@ class Root:
         name = "root"
         namespace = "http://xsdtesting"
 
-    fr1_valid: Optional[Fr1Valid] = field(
+    fr1_valid_or_fr_valid: Optional[object] = field(
         default=None,
         metadata={
-            "type": "Element",
-        }
-    )
-    fr_valid: Optional[FrValid] = field(
-        default=None,
-        metadata={
-            "type": "Element",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "fr1_valid",
+                    "type": Fr1Valid,
+                },
+                {
+                    "name": "fr_valid",
+                    "type": FrValid,
+                },
+            ),
         }
     )

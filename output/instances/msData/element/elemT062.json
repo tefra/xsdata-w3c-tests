@@ -1,13 +1,10 @@
 {
-  "sa3": [],
-  "sa2": [
+  "choice": [
     {
       "value": 1,
       "att": 123
     }
   ],
-  "sa1": [],
-  "test1": [],
   "test2": null,
   "test3": null,
   "test4": null,

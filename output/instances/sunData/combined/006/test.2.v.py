@@ -13,102 +13,11 @@ from output.models.sun_data.combined.pkg_006.test_xsd.test import EDre
 from output.models.sun_data.combined.pkg_006.test_xsd.test import EDrr
 from output.models.sun_data.combined.pkg_006.test_xsd.test import Empty
 from output.models.sun_data.combined.pkg_006.test_xsd.test import Root
+from xsdata.formats.dataclass.models.generics import DerivedElement
 
 
 obj = Root(
-    e_dee=[
-        EDee(
-            foo=Empty(
-
-            )
-        ),
-        EDee(
-            foo=Empty(
-
-            )
-        ),
-    ],
-    e_der=[
-        EDer(
-            foo=Empty(
-
-            )
-        ),
-        EDer(
-            foo=Empty(
-
-            )
-        ),
-    ],
-    e_de=[
-        EDe(
-            foo=Empty(
-
-            )
-        ),
-        EDe(
-            foo=Empty(
-
-            )
-        ),
-        Der(
-            foo=Empty(
-
-            )
-        ),
-        Dee(
-            foo=Empty(
-
-            )
-        ),
-    ],
-    e_dre=[
-        EDre(
-            foo=Empty(
-
-            )
-        ),
-        EDre(
-            foo=Empty(
-
-            )
-        ),
-    ],
-    e_drr=[
-        EDrr(
-            foo=Empty(
-
-            )
-        ),
-        EDrr(
-            foo=Empty(
-
-            )
-        ),
-    ],
-    e_dr=[
-        EDr(
-            foo=Empty(
-
-            )
-        ),
-        EDr(
-            foo=Empty(
-
-            )
-        ),
-        Drr(
-            foo=Empty(
-
-            )
-        ),
-        Dre(
-            foo=Empty(
-
-            )
-        ),
-    ],
-    e_b=[
+    choice=[
         EB(
             foo=Empty(
 
@@ -119,32 +28,152 @@ obj = Root(
 
             )
         ),
-        Dr(
+        DerivedElement(
+            qname="{foo}eB",
+            value=Dr(
+                foo=Empty(
+
+                )
+            ),
+            type="{foo}Dr"
+        ),
+        DerivedElement(
+            qname="{foo}eB",
+            value=De(
+                foo=Empty(
+
+                )
+            ),
+            type="{foo}De"
+        ),
+        DerivedElement(
+            qname="{foo}eB",
+            value=Drr(
+                foo=Empty(
+
+                )
+            ),
+            type="{foo}Drr"
+        ),
+        DerivedElement(
+            qname="{foo}eB",
+            value=Dre(
+                foo=Empty(
+
+                )
+            ),
+            type="{foo}Dre"
+        ),
+        DerivedElement(
+            qname="{foo}eB",
+            value=Der(
+                foo=Empty(
+
+                )
+            ),
+            type="{foo}Der"
+        ),
+        DerivedElement(
+            qname="{foo}eB",
+            value=Dee(
+                foo=Empty(
+
+                )
+            ),
+            type="{foo}Dee"
+        ),
+        EDr(
             foo=Empty(
 
             )
         ),
-        De(
+        EDr(
             foo=Empty(
 
             )
         ),
-        Drr(
+        DerivedElement(
+            qname="{foo}eDr",
+            value=Drr(
+                foo=Empty(
+
+                )
+            ),
+            type="{foo}Drr"
+        ),
+        DerivedElement(
+            qname="{foo}eDr",
+            value=Dre(
+                foo=Empty(
+
+                )
+            ),
+            type="{foo}Dre"
+        ),
+        EDe(
             foo=Empty(
 
             )
         ),
-        Dre(
+        EDe(
             foo=Empty(
 
             )
         ),
-        Der(
+        DerivedElement(
+            qname="{foo}eDe",
+            value=Der(
+                foo=Empty(
+
+                )
+            ),
+            type="{foo}Der"
+        ),
+        DerivedElement(
+            qname="{foo}eDe",
+            value=Dee(
+                foo=Empty(
+
+                )
+            ),
+            type="{foo}Dee"
+        ),
+        EDrr(
             foo=Empty(
 
             )
         ),
-        Dee(
+        EDrr(
+            foo=Empty(
+
+            )
+        ),
+        EDre(
+            foo=Empty(
+
+            )
+        ),
+        EDre(
+            foo=Empty(
+
+            )
+        ),
+        EDer(
+            foo=Empty(
+
+            )
+        ),
+        EDer(
+            foo=Empty(
+
+            )
+        ),
+        EDee(
+            foo=Empty(
+
+            )
+        ),
+        EDee(
             foo=Empty(
 
             )

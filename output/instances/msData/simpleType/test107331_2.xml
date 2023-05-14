@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
-  <ra>2</ra>
-  <ra>1</ra>
-  <lab>1 c123456789 b 4</lab>
-  <la>1 2 3 4</la>
-  <uab>c123456789</uab>
-  <uab>4</uab>
-  <ua>1</ua>
-  <ua>4</ua>
-  <b>a</b>
-  <b>c123456789</b>
-  <b>b</b>
+  <item>abc</item>
+  <A>5</A>
+  <A>10</A>
+  <A>1</A>
+  <B/>
+  <B>1234567890</B>
   <a>1</a>
   <a>2</a>
   <a>3</a>
   <a>4</a>
-  <B/>
-  <B>1234567890</B>
-  <A>5</A>
-  <A>10</A>
-  <A>1</A>
-  <item>abc</item>
+  <b>a</b>
+  <b>c123456789</b>
+  <b>b</b>
+  <ua>1</ua>
+  <ua>4</ua>
+  <uab>c123456789</uab>
+  <uab>4</uab>
+  <la>1 2 3 4</la>
+  <lab>1 c123456789 b 4</lab>
+  <ra>2</ra>
+  <ra>1</ra>
 </root>

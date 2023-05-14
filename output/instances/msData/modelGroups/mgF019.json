@@ -1,5 +1,5 @@
 {
-  "choice": [
+  "any_element": [
     {
       "qname": "{http://n1}foo",
       "text": "",
@@ -27,34 +27,10 @@
       "tail": null,
       "children": [],
       "attributes": {}
-    },
-    {
-      "qname": "e1",
-      "text": "",
-      "tail": null,
-      "children": [],
-      "attributes": {}
-    },
-    {
-      "qname": "e2",
-      "text": "",
-      "tail": null,
-      "children": [],
-      "attributes": {}
-    },
-    {
-      "qname": "e3",
-      "text": "",
-      "tail": null,
-      "children": [],
-      "attributes": {}
-    },
-    {
-      "qname": "e4",
-      "text": "",
-      "tail": null,
-      "children": [],
-      "attributes": {}
     }
-  ]
+  ],
+  "e1": "",
+  "e2": "",
+  "e3": "",
+  "e4": ""
 }

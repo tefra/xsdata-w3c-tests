@@ -4,15 +4,12 @@ from output.models.ms_data.complex_type.pkg_75039_xsd.mod_75039 import Complex2
 
 
 obj = BagOfHeads(
-    complex2=[
-        Complex2(
-
-        ),
-    ],
-    complex1=[
+    complex2_or_complex1_or_subst_head=[
         Complex1(
             any_element=None
         ),
-    ],
-    subst_head=[]
+        Complex2(
+
+        ),
+    ]
 )

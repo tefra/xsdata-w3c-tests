@@ -1,14 +1,12 @@
 {
   "elem": {
     "x": "",
-    "a1_or_a2": [
-      {
-        "qname": "A2",
-        "text": "",
-        "tail": null,
-        "children": [],
-        "attributes": {}
-      }
-    ]
+    "a1_or_a2": {
+      "qname": "A2",
+      "text": "",
+      "tail": null,
+      "children": [],
+      "attributes": {}
+    }
   }
 }

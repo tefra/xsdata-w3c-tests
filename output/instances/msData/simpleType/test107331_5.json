@@ -1,9 +1,5 @@
 {
-  "a": [
-    "123456",
-    "abcdefgh"
-  ],
-  "item": [
+  "a_or_item": [
     {
       "any_element": {
         "qname": null,
@@ -12,6 +8,20 @@
         "children": [],
         "attributes": {}
       }
+    },
+    {
+      "qname": "a",
+      "text": "123456",
+      "tail": null,
+      "children": [],
+      "attributes": {}
+    },
+    {
+      "qname": "a",
+      "text": "abcdefgh",
+      "tail": null,
+      "children": [],
+      "attributes": {}
     }
   ]
 }

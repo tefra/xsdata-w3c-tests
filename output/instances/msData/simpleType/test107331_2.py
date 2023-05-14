@@ -4,58 +4,72 @@ from output.models.ms_data.simple_type.test107331_c_xsd.test107331_c import RA1
 from output.models.ms_data.simple_type.test107331_c_xsd.test107331_c import Root
 from output.models.ms_data.simple_type.test107331_c_xsd.test107331_c import UnionA
 from output.models.ms_data.simple_type.test107331_c_xsd.test107331_c import UnionAb
+from xsdata.formats.dataclass.models.generics import AnyElement
+from xsdata.formats.dataclass.models.generics import DerivedElement
 
 
 obj = Root(
-    ra=[
-        RA1.VALUE_2,
-        RA1.VALUE_1,
-    ],
-    lab=[
-        [
-            UnionAb.VALUE_1,
-            UnionAb.C123456789,
-            UnionAb.B,
-            UnionAb.VALUE_4,
-        ],
-    ],
-    la=[
+    choice=[
+        AnyElement(
+            qname="item",
+            text="abc",
+            tail=None,
+            children=[],
+            attributes={}
+        ),
+        5,
+        10,
+        1,
+        "",
+        "1234567890",
+        DerivedElement(
+            qname="a",
+            value=A1.VALUE_1,
+            type=None
+        ),
+        DerivedElement(
+            qname="a",
+            value=A1.VALUE_2,
+            type=None
+        ),
+        DerivedElement(
+            qname="a",
+            value=A1.VALUE_3,
+            type=None
+        ),
+        DerivedElement(
+            qname="a",
+            value=A1.VALUE_4,
+            type=None
+        ),
+        B1.A,
+        B1.C123456789,
+        B1.B,
+        UnionA.VALUE_1,
+        UnionA.VALUE_4,
+        DerivedElement(
+            qname="uab",
+            value=UnionAb.C123456789,
+            type=None
+        ),
+        DerivedElement(
+            qname="uab",
+            value=UnionAb.VALUE_4,
+            type=None
+        ),
         [
             A1.VALUE_1,
             A1.VALUE_2,
             A1.VALUE_3,
             A1.VALUE_4,
         ],
-    ],
-    uab=[
-        UnionAb.C123456789,
-        UnionAb.VALUE_4,
-    ],
-    ua=[
-        UnionA.VALUE_1,
-        UnionA.VALUE_4,
-    ],
-    b_element=[
-        B1.A,
-        B1.C123456789,
-        B1.B,
-    ],
-    a_element=[
-        A1.VALUE_1,
-        A1.VALUE_2,
-        A1.VALUE_3,
-        A1.VALUE_4,
-    ],
-    b=[
-        "",
-        "1234567890",
-    ],
-    a=[
-        5,
-        10,
-        1,
-    ],
-    item=[
-        "abc",
+        [
+            UnionAb.VALUE_1,
+            UnionAb.C123456789,
+            UnionAb.B,
+            UnionAb.VALUE_4,
+        ],
+        RA1.VALUE_2,
+        RA1.VALUE_1,
     ]
 )

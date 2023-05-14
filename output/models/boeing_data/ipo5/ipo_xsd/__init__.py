@@ -9,7 +9,7 @@ from output.models.boeing_data.ipo5.ipo_xsd.ipo import (
     PurchaseOrder,
     ShipComment,
 )
-from output.models.boeing_data.ipo5.ipo_xsd.itematt import ItemDeliveryShipBy
+from output.models.boeing_data.ipo5.ipo_xsd.itematt import ItemShipBy
 
 __all__ = [
     "AddressType",
@@ -21,5 +21,5 @@ __all__ = [
     "CustomerComment",
     "PurchaseOrder",
     "ShipComment",
-    "ItemDeliveryShipBy",
+    "ItemShipBy",
 ]

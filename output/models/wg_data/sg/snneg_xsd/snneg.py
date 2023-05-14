@@ -6,18 +6,22 @@ __NAMESPACE__ = "http://www.w3.org/XML/2008/xsdl-exx/ns1"
 
 @dataclass
 class T:
-    s1: Optional[str] = field(
+    s1_or_s: Optional[object] = field(
         default=None,
         metadata={
-            "type": "Element",
-            "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
-        }
-    )
-    s: Optional[str] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "s1",
+                    "type": str,
+                    "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
+                },
+                {
+                    "name": "s",
+                    "type": str,
+                    "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
+                },
+            ),
         }
     )
     n: Optional[str] = field(

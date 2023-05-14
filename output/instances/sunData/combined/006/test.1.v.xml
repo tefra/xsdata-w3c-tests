@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root xmlns="foo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <eDee>
-    <foo/>
-  </eDee>
-  <eDer>
-    <foo/>
-  </eDer>
-  <eDe>
-    <foo/>
-  </eDe>
-  <eDre>
-    <foo/>
-  </eDre>
-  <eDrr>
-    <foo/>
-  </eDrr>
-  <eDr>
-    <foo/>
-  </eDr>
   <eB>
     <foo/>
   </eB>
+  <eDr>
+    <foo/>
+  </eDr>
+  <eDe>
+    <foo/>
+  </eDe>
+  <eDrr>
+    <foo/>
+  </eDrr>
+  <eDre>
+    <foo/>
+  </eDre>
+  <eDer>
+    <foo/>
+  </eDer>
+  <eDee>
+    <foo/>
+  </eDee>
 </root>

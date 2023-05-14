@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List
+from typing import List, Optional
 
 __NAMESPACE__ = "http://www.w3.org/XML/2008/xsdl-exx/ns1"
 
@@ -46,13 +46,15 @@ class T:
                     "type": str,
                     "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
                 },
-                {
-                    "name": "c",
-                    "type": str,
-                    "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
-                },
             ),
-            "max_occurs": 12,
+            "max_occurs": 10,
+        }
+    )
+    c: Optional[str] = field(
+        default=None,
+        metadata={
+            "type": "Element",
+            "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
         }
     )
 

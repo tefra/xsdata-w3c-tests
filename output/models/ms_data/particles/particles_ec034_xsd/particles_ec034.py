@@ -24,7 +24,6 @@ class Doc:
                     "type": object,
                 },
             ),
-            "min_occurs": 4,
-            "max_occurs": 8,
+            "max_occurs": 4,
         }
     )

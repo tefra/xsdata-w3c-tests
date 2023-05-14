@@ -34,7 +34,6 @@ class Elem(B):
                     "namespace": "",
                 },
             ),
-            "min_occurs": 6,
         }
     )
 

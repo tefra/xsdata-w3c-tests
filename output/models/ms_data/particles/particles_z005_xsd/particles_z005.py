@@ -19,6 +19,6 @@ class Root:
         metadata={
             "type": "Element",
             "namespace": "",
-            "max_occurs": 40,
+            "max_occurs": 4000,
         }
     )

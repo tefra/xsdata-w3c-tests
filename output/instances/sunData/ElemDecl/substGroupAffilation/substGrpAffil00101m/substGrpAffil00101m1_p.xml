@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <BookStore xmlns="ElemDecl/substGroupAffilation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Magazine>
-    <Title>Men's Health</Title>
-    <Date>2002</Date>
-  </Magazine>
   <Book>
     <Title>The Old Man and the Sea</Title>
     <Author>Ernest Hemingway</Author>
   </Book>
+  <Magazine>
+    <Title>Men's Health</Title>
+    <Date>2002</Date>
+  </Magazine>
 </BookStore>

@@ -24,7 +24,22 @@ class B:
 
 
 @dataclass
-class R(B):
+class R:
+    foo: Optional[object] = field(
+        default=None,
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
+    )
+    any_element: List[object] = field(
+        default_factory=list,
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+            "max_occurs": 4,
+        }
+    )
     e1: List[object] = field(
         default_factory=list,
         metadata={

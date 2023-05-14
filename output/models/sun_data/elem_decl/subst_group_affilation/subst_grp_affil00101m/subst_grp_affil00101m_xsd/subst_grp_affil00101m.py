@@ -66,17 +66,19 @@ class BookStore:
     class Meta:
         namespace = "ElemDecl/substGroupAffilation"
 
-    magazine: List[Magazine] = field(
+    magazine_or_book: List[object] = field(
         default_factory=list,
         metadata={
-            "name": "Magazine",
-            "type": "Element",
-        }
-    )
-    book: List[Book] = field(
-        default_factory=list,
-        metadata={
-            "name": "Book",
-            "type": "Element",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "Magazine",
+                    "type": Magazine,
+                },
+                {
+                    "name": "Book",
+                    "type": Book,
+                },
+            ),
         }
     )

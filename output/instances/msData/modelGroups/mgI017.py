@@ -1,10 +1,13 @@
 from output.models.ms_data.model_groups.mg_i017_xsd.mg_i017 import Doc
+from xsdata.formats.dataclass.models.generics import AnyElement
 
 
 obj = Doc(
-    c1=None,
-    c2="",
-    c3=None,
-    c4=None,
-    choice=None
+    choice=AnyElement(
+        qname="c2",
+        text="",
+        tail=None,
+        children=[],
+        attributes={}
+    )
 )

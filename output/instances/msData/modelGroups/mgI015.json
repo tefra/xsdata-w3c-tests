@@ -1,11 +1,9 @@
 {
-  "choice": [
-    {
-      "qname": "four",
-      "text": "",
-      "tail": null,
-      "children": [],
-      "attributes": {}
-    }
-  ]
+  "choice": {
+    "qname": "four",
+    "text": "",
+    "tail": null,
+    "children": [],
+    "attributes": {}
+  }
 }

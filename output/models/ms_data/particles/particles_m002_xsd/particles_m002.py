@@ -32,7 +32,7 @@ class B:
                     "namespace": "",
                 },
             ),
-            "max_occurs": 8,
+            "max_occurs": 9,
         }
     )
 

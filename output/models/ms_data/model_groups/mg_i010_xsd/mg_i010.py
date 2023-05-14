@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import List
 
 
 @dataclass
@@ -28,6 +28,11 @@ class Foo:
                     "namespace": "",
                 },
                 {
+                    "name": "c",
+                    "type": bool,
+                    "namespace": "",
+                },
+                {
                     "name": "b",
                     "type": str,
                     "namespace": "",
@@ -38,13 +43,6 @@ class Foo:
                     "namespace": "",
                 },
             ),
-        }
-    )
-    c: Optional[bool] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
         }
     )
 

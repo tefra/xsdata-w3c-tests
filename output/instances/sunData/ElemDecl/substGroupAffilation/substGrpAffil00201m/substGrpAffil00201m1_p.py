@@ -5,12 +5,10 @@ from output.models.sun_data.elem_decl.subst_group_affilation.subst_grp_affil0020
 
 
 obj = Root(
-    super_element=[
+    super_element_or_super_super_element=[
         SuperElement(
             any_element=None
         ),
-    ],
-    super_super_element=[
         SuperSuperElement(
             any_element=None
         ),

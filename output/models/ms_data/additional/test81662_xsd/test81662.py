@@ -62,7 +62,7 @@ class Ct3:
                     "namespace": "##any",
                 },
             ),
-            "min_occurs": 1,
+            "min_occurs": 2,
             "max_occurs": 3,
         }
     )

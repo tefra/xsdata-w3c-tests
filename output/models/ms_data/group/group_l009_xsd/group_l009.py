@@ -23,7 +23,7 @@ class Elem:
                     "namespace": "",
                 },
             ),
-            "max_occurs": 199999999999998,
+            "max_occurs": 99999999999999,
         }
     )
 

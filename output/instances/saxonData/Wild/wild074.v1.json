@@ -28,10 +28,9 @@
     ],
     "attributes": {}
   },
-  "A": {
+  "a_or_a": {
     "any_element": null
   },
-  "a": null,
   "b": "",
   "c": ""
 }

@@ -5,7 +5,7 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 
 obj = Doc(
     elem=R(
-        choice=[
+        c1_or_c2_or_c3=[
             AnyElement(
                 qname="c3",
                 text="t",
@@ -15406,13 +15406,7 @@ obj = Doc(
                 children=[],
                 attributes={}
             ),
-            AnyElement(
-                qname="foo",
-                text="",
-                tail=None,
-                children=[],
-                attributes={}
-            ),
-        ]
+        ],
+        foo=""
     )
 )

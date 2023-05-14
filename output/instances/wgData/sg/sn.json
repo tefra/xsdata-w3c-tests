@@ -1,6 +1,9 @@
 {
-  "s1": null,
-  "s": "Test case for intreaction of substitution groups and \n   #definedSibling.",
+  "s1_or_s": {
+    "qname": "{http://www.w3.org/XML/2008/xsdl-exx/ns1}s",
+    "value": "Test case for intreaction of substitution groups and \n   #definedSibling.",
+    "type": null
+  },
   "n": "",
   "any_element": []
 }

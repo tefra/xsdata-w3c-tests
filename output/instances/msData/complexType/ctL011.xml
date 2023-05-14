@@ -2,5 +2,7 @@
 <root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <fooTest>
 	mixed content
-	<child_1>info</child_1><child_2>3</child_2></fooTest>
+	<child_1>info</child_1>
+        for fooTest
+	<child_2>3</child_2></fooTest>
 </root>
